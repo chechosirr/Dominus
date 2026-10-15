@@ -81,13 +81,6 @@ Promise.all([
     document.getElementById('wall').innerHTML = '<div class="empty">Este vendedor no existe.</div>';
     return;
   }
-  if(!s.subscription_active){
-    document.getElementById('title').textContent = s.nombre + ' — Dominus';
-    document.getElementById('wall').innerHTML = '<div class="wrap" style="padding:70px 18px;text-align:center">'
-      + '<h1 style="font-size:30px;margin-bottom:12px">' + esc(s.nombre) + '</h1>'
-      + '<p class="empty">Este muro no está disponible por el momento.</p></div>';
-    return;
-  }
   document.getElementById('title').textContent = s.nombre + ' — Dominus';
   var av = s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="' + esc(s.nombre) + '">' : esc(s.nombre.charAt(0));
   document.getElementById('wall').innerHTML =

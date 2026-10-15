@@ -94,14 +94,11 @@ function loadProducts(){
 function render(){
   var active = products.filter(function(p){ return p.activo; });
   document.getElementById('main').innerHTML =
-    (seller.subscription_active
-      ? '<div style="background:rgba(46,99,184,.12);border:1px solid var(--acc);border-radius:14px;padding:13px 18px;margin-bottom:18px;font-size:14px">✓ Suscripción activa' + (seller.subscription_until ? ' hasta ' + new Date(seller.subscription_until).toLocaleDateString('es') : '') + '</div>'
-      : '<div style="background:rgba(255,93,93,.1);border:1px solid var(--err);border-radius:14px;padding:16px 18px;margin-bottom:18px;font-size:14px;line-height:1.6"><b>Tu suscripción está inactiva.</b><br>Tus productos no se muestran hasta activarla.<br><br><a class="btn" style="margin:4px 0 0;display:inline-block;text-decoration:none" href="https://www.paypal.com/paypalme/tuusuario/10.99" target="_blank" rel="noopener">Pagar $10.99/mes con PayPal</a><br><small style="color:var(--mut)">Después de pagar, avísanos por WhatsApp para activar tu muro.</small></div>')
-    + '<div class="welcome"><h1>Hola, <span class="hl">' + esc(seller.nombre) + '</span></h1>'
+    '<div class="welcome"><h1>Hola, <span class="hl">' + esc(seller.nombre) + '</span></h1>'
     + '<a class="wall-link" href="index.html?s=' + esc(seller.slug) + '" target="_blank">Ver mi muro →</a></div>'
     + '<div class="cards"><div class="stat"><b>' + products.length + '</b><span>Productos</span></div>'
     + '<div class="stat"><b>' + active.length + '</b><span>Activos</span></div>'
-    + '<div class="stat"><b>2.5%</b><span>Comisión</span></div></div>'
+    + '<div class="stat"><b>5%</b><span>Comisión</span></div></div>'
     + '<div class="sec"><h2>Mi muro</h2>'
     + '<div class="row2"><div><label>Foto de perfil</label><input id="w-logo" type="file" accept="image/*">'
     + (seller.logo_url ? '<img src="' + esc(seller.logo_url) + '" style="width:72px;height:72px;border-radius:50%;object-fit:cover;margin-top:8px">' : '') + '</div>'
