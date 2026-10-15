@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mi perfil — Dominus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--err:#ff5d5d}
+body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(8,9,13,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
+.logo em{font-style:normal;color:var(--acc)}
+.top-actions{display:flex;gap:10px;align-items:center}
+.link{color:var(--mut);text-decoration:none;font-size:13px}
+.logout{background:none;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:8px 16px;font-family:inherit;font-size:13px;cursor:pointer}
+main{max-width:760px;margin:0 auto;padding:26px 18px 70px}
+.profile-card{display:flex;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;margin-bottom:22px}
+.avatar{flex:0 0 64px;width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--acc),#1e3a6e);display:grid;place-content:center;font-weight:900;font-size:26px;color:#fff}
+.profile-card h1{font-size:20px}
+.profile-card small{color:var(--mut);font-size:13px}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;margin-bottom:22px}
+.sec h2{font-size:19px;margin-bottom:14px}
+.sec h2 .hl{color:var(--acc)}
+.item{display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:12px;margin-bottom:10px}
+.item img{width:64px;height:64px;object-fit:cover;border-radius:12px;background:#161b24;flex:0 0 64px}
+.item .info{flex:1;min-width:0}
+.item .info b{font-size:14px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.item .info small{color:var(--mut);font-size:12px}
+.qty{display:flex;align-items:center;gap:10px}
+.qty button{width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--txt);font-size:16px;cursor:pointer;font-family:inherit}
+.qty b{min-width:20px;text-align:center}
+.item .pa{font-weight:900;color:var(--acc);min-width:70px;text-align:right}
+.rm{background:none;border:0;color:var(--mut);font-size:12px;cursor:pointer;font-family:inherit;text-decoration:underline}
+.total{display:flex;justify-content:space-between;align-items:center;margin:16px 0;font-size:18px;font-weight:900}
+.total span:last-child{color:var(--acc);font-size:24px}
+.btn{display:block;width:100%;background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer;text-align:center;text-decoration:none;margin-top:10px}
+.btn-wa{background:#22c55e}
+.empty{color:var(--mut);font-size:14px;text-align:center;padding:24px}
+.sell-box{text-align:center;font-size:14px;color:var(--mut)}
+.sell-box a{color:var(--acc);font-weight:700;text-decoration:none}
+.err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="../index.html">DOMIN<em>US</em></a>
+  <div class="top-actions">
+    <a class="link" href="../index.html">Seguir comprando</a>
+    <button class="logout" id="btn-out">Salir</button>
+  </div>
+</header>
+<main id="main"><p class="empty">Cargando…</p></main>
+<footer>© 2026 Dominus · Compra y vende seguro</footer>
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+var WA_NUMBER = "15704698339";
+var session = null, cart = [];
+function getSession(){ try { return JSON.parse(localStorage.getItem('dominus_session')); } catch(e){ return null; } }
+function h(token){
+  return { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' };
+}
+function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function money(n){ return '$' + Number(n).toFixed(2); }
+
+function boot(){
+  session = getSession();
+  if(!session || !session.access_token){ location.href = 'cuenta.html'; return; }
+  fetch(SUPABASE_URL + '/auth/v1/user', { headers: h(session.access_token) }).then(function(r){
+    if(!r.ok){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; return null; }
+    return r.json();
+  }).then(function(user){
+    if(!user) return;
+    session.user = user;
+    loadCart();
+  });
+}
+function loadCart(){
+  fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + session.user.id + '&select=*,products!inner(id,titulo,precio,imagen_url,sellers!inner(nombre))&order=created_at.desc',
+    { headers: h(session.access_token) })
+    .then(function(r){ return r.json(); })
+    .then(function(rows){ cart = rows || []; render(); })
+    .catch(function(){ document.getElementById('main').innerHTML = '<p class="empty">No se pudo cargar. Revisa tu conexión.</p>'; });
+}
+function render(){
+  var name = (session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
+  var total = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
+  var html = '<div class="profile-card"><span class="avatar">' + esc(name.charAt(0).toUpperCase()) + '</span>'
+    + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
+    + '<div class="sec"><h2>Mi <span class="hl">carrito</span> (' + cart.length + ')</h2><div id="cart-list">';
+  if(!cart.length){
+    html += '<p class="empty">Tu carrito está vacío.<br><a href="../index.html" style="color:var(--acc)">Explorar productos →</a></p>';
+  } else {
+    html += cart.map(function(it){
+      var p = it.products;
+      return '<div class="item">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="">' : '')
+        + '<div class="info"><b>' + esc(p.titulo) + '</b><small>' + esc(p.sellers.nombre) + ' · ' + money(p.precio) + ' c/u</small><br>'
+        + '<button class="rm" data-rm="' + it.id + '">quitar</button></div>'
+        + '<div class="qty"><button data-dec="' + it.id + '">−</button><b>' + it.qty + '</b><button data-inc="' + it.id + '">+</button></div>'
+        + '<span class="pa">' + money(Number(p.precio) * it.qty) + '</span></div>';
+    }).join('')
+    + '<div class="total"><span>Total</span><span>' + money(total) + '</span></div>'
+    + '<a class="btn" href="https://www.paypal.com/paypalme/tuusuario/' + total.toFixed(2) + '" target="_blank" rel="noopener">Pagar ' + money(total) + ' con PayPal</a>'
+    + '<a class="btn btn-wa" id="wa-order" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>'
+    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas a Dominus por PayPal y coordinamos el envío de cada vendedor con rastreo.</p>';
+  }
+  html += '</div></div>'
+    + '<div class="sec sell-box">¿Tienes un negocio? <a href="../vendedor/cuenta.html">Abre tu muro de vendedor →</a></div>';
+  document.getElementById('main').innerHTML = html;
+  document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; };
+  document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
+  document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
+  document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
+  var waBtn = document.getElementById('wa-order');
+  if(waBtn){
+    var lines = cart.map(function(it){ return '• ' + it.products.titulo + ' x' + it.qty + ' (' + money(Number(it.products.precio) * it.qty) + ') — ' + it.products.sellers.nombre; });
+    waBtn.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent('Hola Dominus, mi pedido:\n' + lines.join('\n') + '\nTotal: ' + money(total));
+  }
+}
+function chQty(id, d){
+  var it = cart.find(function(x){ return x.id === id; });
+  var q = it.qty + d;
+  if(q < 1) return rmItem(id);
+  fetch(SUPABASE_URL + '/rest/v1/cart_items?id=eq.' + id, {
+    method: 'PATCH', headers: h(session.access_token), body: JSON.stringify({ qty: q })
+  }).then(loadCart);
+}
+function rmItem(id){
+  fetch(SUPABASE_URL + '/rest/v1/cart_items?id=eq.' + id, { method: 'DELETE', headers: h(session.access_token) }).then(loadCart);
+}
+boot();
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mi cuenta — Dominus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--err:#ff5d5d}
+body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
+.logo em{font-style:normal;color:var(--acc)}
+.back{color:var(--mut);text-decoration:none;font-size:14px}
+main{flex:1;display:flex;align-items:flex-start;justify-content:center;padding:40px 18px}
+.box{width:100%;max-width:440px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px 26px}
+.box h1{font-size:26px;font-weight:900;margin-bottom:6px}
+.box h1 .hl{color:var(--acc)}
+.box>p{color:var(--mut);font-size:14px;margin-bottom:22px}
+.tabs{display:flex;background:var(--bg);border-radius:12px;padding:4px;margin-bottom:22px}
+.tabs button{flex:1;background:none;border:0;color:var(--mut);font-family:inherit;font-weight:800;font-size:14px;padding:11px;border-radius:9px;cursor:pointer}
+.tabs button.on{background:var(--acc);color:#fff}
+label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
+input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:15px;padding:13px 14px;outline:none}
+input:focus{border-color:var(--acc)}
+.btn{width:100%;margin-top:20px;background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer}
+.err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
+.okmsg{display:none;background:rgba(46,99,184,.12);border:1px solid var(--acc);color:#cfe0ff;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
+.hidden{display:none!important}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="../index.html">DOMIN<em>US</em></a>
+  <a class="back" href="../index.html">← Marketplace</a>
+</header>
+<main>
+  <div class="box">
+    <h1>Mi <span class="hl">cuenta</span></h1>
+    <p>Entra o crea tu cuenta para tener tu carrito y comprar más rápido.</p>
+    <div class="tabs">
+      <button id="tab-in" class="on">Entrar</button>
+      <button id="tab-up">Crear cuenta</button>
+    </div>
+    <div id="form-in">
+      <label>Correo electrónico</label>
+      <input id="in-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
+      <label>Contraseña</label>
+      <input id="in-pass" type="password" placeholder="••••••••" autocomplete="current-password">
+      <button class="btn" id="btn-in">Entrar</button>
+    </div>
+    <div id="form-up" class="hidden">
+      <label>Tu nombre</label>
+      <input id="up-name" type="text" placeholder="Ej: María Pérez" autocomplete="name">
+      <label>Correo electrónico</label>
+      <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
+      <label>Contraseña (mínimo 6 caracteres)</label>
+      <input id="up-pass" type="password" placeholder="••••••••" autocomplete="new-password">
+      <button class="btn" id="btn-up">Crear mi cuenta</button>
+    </div>
+    <div class="err" id="err"></div>
+    <div class="okmsg" id="okmsg"></div>
+  </div>
+</main>
+<footer>© 2026 Dominus · Compra y vende seguro</footer>
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+function headers(token){
+  var h = { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' };
+  if(token) h['Authorization'] = 'Bearer ' + token;
+  return h;
+}
+function showErr(m){ var e = document.getElementById('err'); e.textContent = m; e.style.display = 'block'; }
+function hideErr(){ document.getElementById('err').style.display = 'none'; }
+function saveSession(s){ localStorage.setItem('dominus_session', JSON.stringify(s)); }
+
+var tabIn = document.getElementById('tab-in'), tabUp = document.getElementById('tab-up');
+tabIn.onclick = function(){ tabIn.classList.add('on'); tabUp.classList.remove('on'); document.getElementById('form-in').classList.remove('hidden'); document.getElementById('form-up').classList.add('hidden'); hideErr(); };
+tabUp.onclick = function(){ tabUp.classList.add('on'); tabIn.classList.remove('on'); document.getElementById('form-up').classList.remove('hidden'); document.getElementById('form-in').classList.add('hidden'); hideErr(); };
+
+document.getElementById('btn-in').onclick = function(){
+  hideErr();
+  var email = document.getElementById('in-email').value.trim();
+  var pass = document.getElementById('in-pass').value;
+  if(!email || !pass){ showErr('Escribe tu correo y contraseña.'); return; }
+  fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+    method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok){ showErr(res.j.msg || 'No se pudo entrar. Revisa tus datos.'); return; }
+      saveSession(res.j); location.href = 'perfil.html';
+    }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
+};
+
+document.getElementById('btn-up').onclick = function(){
+  hideErr();
+  var name = document.getElementById('up-name').value.trim();
+  var email = document.getElementById('up-email').value.trim();
+  var pass = document.getElementById('up-pass').value;
+  if(!name){ showErr('Escribe tu nombre.'); return; }
+  if(!email || pass.length < 6){ showErr('Escribe un correo válido y una contraseña de mínimo 6 caracteres.'); return; }
+  fetch(SUPABASE_URL + '/auth/v1/signup', {
+    method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass, data: { nombre: name } })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok){ showErr(res.j.msg || 'No se pudo crear la cuenta.'); return; }
+      if(res.j.session){ saveSession(res.j.session); location.href = 'perfil.html'; }
+      else { var e = document.getElementById('okmsg'); e.textContent = 'Cuenta creada. Ahora entra con tu correo y contraseña.'; e.style.display = 'block'; tabIn.onclick(); }
+    }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
+};
+
+// Si ya hay sesión válida, ir al perfil
+(function(){
+  try {
+    var s = JSON.parse(localStorage.getItem('dominus_session'));
+    if(s && s.access_token){
+      fetch(SUPABASE_URL + '/auth/v1/user', { headers: headers(s.access_token) })
+        .then(function(r){ if(r.ok) location.href = 'perfil.html'; else localStorage.removeItem('dominus_session'); })
+        .catch(function(){});
+    }
+  } catch(e){}
+})();
+</script>
+</body>
+</html>

@@ -48,12 +48,20 @@ main{max-width:1000px;margin:0 auto;padding:26px 18px 70px}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px}
 @media(min-width:760px){.grid{grid-template-columns:repeat(auto-fill,minmax(215px,1fr))}.cover{height:340px}}
 @media(max-width:560px){.profile{margin-top:-52px}.avatar{flex-basis:104px;width:104px;height:104px;font-size:42px}.cover{height:220px}}
+@media(max-width:600px){
+.cover{height:150px}
+.avatar{width:88px;height:88px;margin:-44px 0 0 16px}
+.wall-head{padding:0 14px}
+.wall-head h1{font-size:22px}
+.card .buy{padding:12px;font-size:14px}
+}
 </style>
 </head>
 <body>
 <header class="top">
   <a class="logo" href="../index.html">DOMIN<em>US</em></a>
   <a class="back" href="../index.html">← Marketplace</a>
+  <a href="../comprador/perfil.html" style="text-decoration:none;font-size:18px" title="Mi carrito">🛒</a>
 </header>
 <div id="wall"><div class="empty">Cargando…</div></div>
 <main>
@@ -70,6 +78,32 @@ function api(path){
   }).then(function(r){ if(!r.ok) throw new Error('API ' + r.status); return r.json(); });
 }
 function money(n){ return '$' + Number(n).toFixed(2); }
+function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
+function addToCart(pid, btn){
+  var s = buyerSession();
+  if(!s){ location.href = '../comprador/cuenta.html'; return; }
+  btn.disabled = true; btn.textContent = 'Agregando…';
+  fetch(SUPABASE_URL + '/rest/v1/cart_items', {
+    method: 'POST',
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates,return=representation' },
+    body: JSON.stringify({ user_id: s.user.id, product_id: pid, qty: 1 })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(res.ok && res.j.length && res.j[0].qty > 1){
+        var row = res.j[0];
+        fetch(SUPABASE_URL + '/rest/v1/cart_items?id=eq.' + row.id, {
+          method: 'PATCH', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ qty: row.qty + 1 })
+        });
+      }
+      btn.textContent = '✓ En el carrito';
+      setTimeout(function(){ btn.disabled = false; btn.textContent = '+ Agregar al carrito'; }, 1500);
+    }).catch(function(){ btn.disabled = false; btn.textContent = '+ Agregar al carrito'; });
+}
+document.addEventListener('click', function(e){
+  var b = e.target.closest('.add-cart');
+  if(b) addToCart(b.dataset.pid, b);
+});
 function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 var slug = new URLSearchParams(location.search).get('s') || 'tech-zone';
 Promise.all([
@@ -98,7 +132,8 @@ Promise.all([
     return '<div class="card">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
       + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div>'
       + '<div class="card-price">' + money(p.precio) + '</div>'
-      + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a></div></div>';
+      + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
+      + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button></div></div>';
   }).join('') : '<div class="empty">Este vendedor aún no publica productos.</div>';
 }).catch(function(){
   document.getElementById('wall').innerHTML = '<div class="empty">No se pudo cargar. Revisa tu conexión.</div>';

@@ -30,7 +30,7 @@ header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:
 .btn:hover{transform:translateY(-2px)}
 .btn-acc{background:var(--acc);color:#fff}
 .btn-ghost{border:1px solid var(--line);color:var(--txt);background:var(--card)}
-.stats{position:relative;display:flex;gap:34px;justify-content:center;margin-top:38px;flex-wrap:wrap}
+.hero-search{position:relative;display:flex;max-width:580px;margin:28px auto 0;background:rgba(16,19,24,.9);border:2px solid #2a3a55;border-radius:18px;padding:6px;gap:6px;box-shadow:0 8px 30px rgba(46,99,184,.25)}.hero-search input{flex:1;min-width:0;background:none;border:0;outline:0;color:var(--txt);font-size:17px;padding:14px 18px;font-family:inherit}.hero-search input::placeholder{color:var(--mut)}.hero-search button{background:var(--acc);color:#fff;border:0;border-radius:13px;font-weight:800;font-size:16px;padding:0 32px;cursor:pointer;font-family:inherit}.trust{position:relative;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:18px;font-size:13px;color:var(--mut)}.sell-link{position:relative;margin-top:14px;font-size:13px;color:var(--mut)}.sell-link a{color:var(--acc);text-decoration:none;font-weight:700}.stats{position:relative;display:flex;gap:34px;justify-content:center;margin-top:38px;flex-wrap:wrap}
 .stat b{display:block;font-size:26px;font-weight:900;color:var(--acc)}
 .stat span{font-size:12px;color:var(--mut);letter-spacing:1px;text-transform:uppercase}
 main{max-width:1180px;margin:0 auto;padding:10px 18px 70px}
@@ -69,7 +69,7 @@ main{max-width:1180px;margin:0 auto;padding:10px 18px 70px}
 .n{flex:0 0 36px;height:36px;border-radius:12px;background:var(--acc);color:#fff;font-weight:900;display:grid;place-content:center}
 .step p{font-size:14px;color:var(--mut);line-height:1.6;margin:0}
 .step p b{color:var(--txt)}
-.sell{margin-top:26px;text-align:center;padding:44px 24px;border-radius:22px;background:radial-gradient(ellipse at 50% 0%,rgba(46,99,184,.25),transparent 60%),#0c0f15;border:1px solid var(--line)}
+.sell-strip{margin-top:26px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:22px 26px;border-radius:18px;background:#0c0f15;border:1px solid var(--line);font-size:15px;color:var(--mut)}.sell-strip b{color:var(--acc)}
 .sell h2{font-size:clamp(24px,5vw,36px);font-weight:900}
 .sell h2 .hl{color:var(--acc)}
 .sell p{color:var(--mut);font-size:15px;max-width:520px;margin:12px auto 22px}
@@ -77,27 +77,44 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .empty{grid-column:1/-1;text-align:center;color:var(--mut);padding:44px 10px;font-size:15px}.sr-label{font-size:13px;font-weight:800;color:var(--mut);text-transform:uppercase;letter-spacing:1px;margin:0 0 12px}#sr-sellers .sellers{margin-bottom:6px}
 .loading{grid-column:1/-1;text-align:center;color:var(--mut);padding:44px 10px}
 @media(min-width:760px){.grid{grid-template-columns:repeat(auto-fill,minmax(215px,1fr))}.steps{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:640px){.navlinks{display:none}}
+@media(max-width:640px){.navlinks{display:none}
+.hero{padding:56px 16px 40px}
+.hero h1{font-size:36px}
+.hero-search{margin:22px 2px 0}
+.hero-search input{font-size:16px;padding:12px 14px}
+.hero-search button{padding:0 20px;font-size:15px}
+.trust{gap:10px;font-size:12px}
+.card .buy{padding:12px;font-size:14px}
+.stat b{font-size:22px}
+.sell-strip{padding:18px}}
 </style>
 </head>
 <body>
 <header class="top">
   <a class="logo" href="index.html">DOMIN<em>US</em></a>
   <label class="search"><input id="q" type="search" placeholder="Buscar productos…"></label>
+  <a href="comprador/perfil.html" id="cart-link" style="text-decoration:none;font-size:18px;position:relative" title="Mi carrito">🛒<span id="cart-count" style="display:none;position:absolute;top:-8px;right:-10px;background:var(--acc);color:#fff;font-size:10px;font-weight:800;border-radius:999px;padding:1px 6px"></span></a>
   <nav class="navlinks">
     <a href="#vendedores">Vendedores</a>
     <a href="#como-funciona">Cómo funciona</a>
     <a href="#vender">Vender</a>
-    <a href="vendedor/cuenta.html">Mi cuenta</a>
+    <a href="comprador/cuenta.html">Mi cuenta</a>
   </nav>
 </header>
 <div class="hero">
-  <h1>Compra y vende<br><span class="hl">sin miedo.</span></h1>
-  <p>El marketplace de productos físicos con pago protegido por PayPal y envío con rastreo en cada compra.</p>
+  <h1>Encuentra de todo.<br><span class="hl">Compra protegido.</span></h1>
+  <p>Miles de productos físicos de vendedores verificados. Pagas por PayPal y lo recibes con número de rastreo.</p>
   <div class="cta-row">
-    <a class="btn btn-acc" href="#productos">Explorar productos</a>
-    <a class="btn btn-ghost" href="vendedor/cuenta.html">Quiero vender</a>
+    <a class="btn btn-acc" href="productos/">Explorar productos</a>
   </div>
+  <div class="hero-search">
+    <input id="q-hero" type="search" placeholder="¿Qué estás buscando hoy?">
+    <button id="q-btn">Buscar</button>
+  </div>
+  <div class="trust">
+    <span>✓ Pago protegido PayPal</span><span>✓ Envío con rastreo</span><span>✓ Vendedores verificados</span>
+  </div>
+  <p class="sell-link">¿Tienes un negocio? <a href="vendedor/cuenta.html">Vende en Dominus →</a></p>
   <div class="stats">
     <div class="stat"><b id="st-prod">–</b><span>Productos</span></div>
     <div class="stat"><b id="st-sell">–</b><span>Vendedores</span></div>
@@ -126,10 +143,9 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     </div>
   </div>
 
-  <div class="sell" id="vender">
-    <h2>¿Tienes algo que <span class="hl">vender?</span></h2>
-    <p>Te creamos tu muro personalizado con tu marca, tus productos y los datos de tu empresa. Comisión del <b>5%</b> solo cuando vendes.</p>
-    <a class="btn btn-acc" href="vendedor/cuenta.html">Crear mi cuenta de vendedor</a>
+  <div class="sell-strip" id="vender">
+    <span>¿Tienes un negocio? Abre tu muro y empieza a vender hoy. <b>5%</b> por venta, sin mensualidades.</span>
+    <a class="btn btn-acc" href="vendedor/cuenta.html" style="padding:12px 26px;font-size:14px">Quiero vender</a>
   </div>
 </main>
 <footer>© 2026 Dominus · Compra y vende seguro</footer>
@@ -157,7 +173,7 @@ function load(){
     PRODUCTS = res[1];
     document.getElementById('st-sell').textContent = res[0].length;
     document.getElementById('st-prod').textContent = PRODUCTS.length;
-    renderChips(); renderGrid(); renderSellers();
+    renderChips(); renderGrid(); renderSellers(); updateCartBadge();
   }).catch(function(){
     document.getElementById('grid').innerHTML = '<div class="empty">No se pudo cargar. Revisa tu conexión.</div>';
   });
@@ -197,10 +213,11 @@ function productCard(p){
     + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div>'
     + '<div class="card-seller">por <a href="vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a></div>'
     + '<div class="card-price">' + money(p.precio) + '</div>'
-    + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a></div></div>';
+    + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
+    + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button></div></div>';
 }
 function onSearch(){
-  var term = (document.getElementById('q').value || '').trim();
+  var term = ((document.getElementById('q-hero').value || document.getElementById('q').value) || '').trim();
   var sr = document.getElementById('search-results');
   var normal = [document.getElementById('productos'), document.getElementById('chips'), document.getElementById('grid'),
                 document.getElementById('vendedores'), document.getElementById('sellers')];
@@ -244,8 +261,48 @@ function renderSellers(){
   if(!keys.length){ el.innerHTML = '<div class="empty">Muy pronto.</div>'; return; }
   el.innerHTML = keys.map(function(k){ return sellerCard(SELLERS[k]); }).join('');
 }
-document.getElementById('q').addEventListener('input', onSearch);
-document.getElementById('sell-cta').href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent('Hola, quiero mi muro de vendedor en Dominus');
+var qTop = document.getElementById('q'), qHero = document.getElementById('q-hero');
+qTop.addEventListener('input', function(){ qHero.value = qTop.value; onSearch(); });
+qHero.addEventListener('input', function(){ qTop.value = qHero.value; onSearch(); });
+document.getElementById('q-btn').onclick = function(){ qTop.value = qHero.value; onSearch(); document.getElementById('search-results').scrollIntoView(); };
+function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
+function addToCart(pid, btn){
+  var s = buyerSession();
+  if(!s){ location.href = 'comprador/cuenta.html'; return; }
+  btn.disabled = true; btn.textContent = 'Agregando…';
+  fetch(SUPABASE_URL + '/rest/v1/cart_items', {
+    method: 'POST',
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates,return=representation' },
+    body: JSON.stringify({ user_id: s.user.id, product_id: pid, qty: 1 })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(res.ok && res.j.length && res.j[0].qty > 1){
+        var row = res.j[0];
+        fetch(SUPABASE_URL + '/rest/v1/cart_items?id=eq.' + row.id, {
+          method: 'PATCH', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ qty: row.qty + 1 })
+        }).then(function(){ btn.textContent = '✓ En el carrito'; updateCartBadge(); });
+      } else {
+        btn.textContent = '✓ En el carrito'; updateCartBadge();
+      }
+      setTimeout(function(){ btn.disabled = false; btn.textContent = '+ Agregar al carrito'; }, 1500);
+    }).catch(function(){ btn.disabled = false; btn.textContent = '+ Agregar al carrito'; });
+}
+function updateCartBadge(){
+  var s = buyerSession();
+  var badge = document.getElementById('cart-count');
+  if(!s){ badge.style.display = 'none'; return; }
+  fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + s.user.id + '&select=id', {
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token }
+  }).then(function(r){ return r.json(); }).then(function(rows){
+    if(rows && rows.length){ badge.textContent = rows.length; badge.style.display = 'inline'; }
+    else badge.style.display = 'none';
+  }).catch(function(){});
+}
+document.addEventListener('click', function(e){
+  var b = e.target.closest('.add-cart');
+  if(b) addToCart(b.dataset.pid, b);
+});
 load();
 </script>
 </body>
