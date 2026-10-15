@@ -72,7 +72,7 @@ main{max-width:1180px;margin:0 auto;padding:10px 18px 70px}
 .sell{margin-top:26px;text-align:center;padding:44px 24px;border-radius:22px;background:radial-gradient(ellipse at 50% 0%,rgba(46,99,184,.25),transparent 60%),#0c0f15;border:1px solid var(--line)}
 .sell h2{font-size:clamp(24px,5vw,36px);font-weight:900}
 .sell h2 .hl{color:var(--acc)}
-.sell p{color:var(--mut);font-size:15px;max-width:520px;margin:12px auto 22px}
+.sell p{color:var(--mut);font-size:15px;max-width:520px;margin:12px auto 8px}.plan{display:flex;align-items:center;justify-content:center;gap:14px;margin:6px 0 22px;flex-wrap:wrap}.plan-price{font-size:30px;font-weight:900;color:var(--acc)}.plan-price small{font-size:14px;color:var(--mut);font-weight:500}.plan-sep{color:var(--mut);font-size:20px}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px}
 .empty{grid-column:1/-1;text-align:center;color:var(--mut);padding:44px 10px;font-size:15px}.sr-label{font-size:13px;font-weight:800;color:var(--mut);text-transform:uppercase;letter-spacing:1px;margin:0 0 12px}#sr-sellers .sellers{margin-bottom:6px}
 .loading{grid-column:1/-1;text-align:center;color:var(--mut);padding:44px 10px}
@@ -101,7 +101,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   <div class="stats">
     <div class="stat"><b id="st-prod">–</b><span>Productos</span></div>
     <div class="stat"><b id="st-sell">–</b><span>Vendedores</span></div>
-    <div class="stat"><b>5%</b><span>Comisión</span></div>
+    <div class="stat"><b>2.5%</b><span>Comisión</span></div>
   </div>
 </div>
 <main>
@@ -128,7 +128,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 
   <div class="sell" id="vender">
     <h2>¿Tienes algo que <span class="hl">vender?</span></h2>
-    <p>Te creamos tu muro personalizado con tu marca, tus productos y los datos de tu empresa. Comisión del <b>5%</b> solo cuando vendes.</p>
+    <p>Tu muro personalizado con tu marca, tus productos y los datos de tu empresa.</p>
+    <div class="plan"><span class="plan-price">$10.99<small>/mes</small></span><span class="plan-sep">+</span><span class="plan-price">2.5%<small> por venta</small></span></div>
     <a class="btn btn-acc" href="vendedor/cuenta.html">Crear mi cuenta de vendedor</a><br><br><a class="btn btn-ghost" id="sell-cta" href="#" target="_blank" rel="noopener" style="font-size:13px;padding:11px 24px">o pedirlo por WhatsApp</a>
   </div>
 </main>
@@ -150,8 +151,8 @@ function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace
 
 function load(){
   return Promise.all([
-    api('sellers?select=*&order=nombre'),
-    api('products?select=*,sellers!inner(slug,nombre)&activo=eq.true&order=created_at.desc')
+    api('sellers?select=*&subscription_active=eq.true&order=nombre'),
+    api('products?select=*,sellers!inner(slug,nombre)&activo=eq.true&sellers.subscription_active=eq.true&order=created_at.desc')
   ]).then(function(res){
     res[0].forEach(function(s){ SELLERS[s.slug] = s; });
     PRODUCTS = res[1];
