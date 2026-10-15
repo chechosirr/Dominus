@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mi cuenta — Dominus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--acc2:#1e3a6e;--err:#ff5d5d}
+body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
+.logo em{font-style:normal;color:var(--acc)}
+.back{color:var(--mut);text-decoration:none;font-size:14px}
+main{flex:1;display:flex;align-items:flex-start;justify-content:center;padding:40px 18px}
+.box{width:100%;max-width:440px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px 26px}
+.box h1{font-size:26px;font-weight:900;margin-bottom:6px}
+.box h1 .hl{color:var(--acc)}
+.box>p{color:var(--mut);font-size:14px;margin-bottom:22px}
+.tabs{display:flex;background:var(--bg);border-radius:12px;padding:4px;margin-bottom:22px}
+.tabs button{flex:1;background:none;border:0;color:var(--mut);font-family:inherit;font-weight:800;font-size:14px;padding:11px;border-radius:9px;cursor:pointer}
+.tabs button.on{background:var(--acc);color:#fff}
+label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
+input,textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:15px;padding:13px 14px;outline:none}
+input:focus,textarea:focus{border-color:var(--acc)}
+textarea{resize:vertical;min-height:80px}
+.btn{width:100%;margin-top:20px;background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer}
+.btn:disabled{opacity:.5}
+.err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
+.okmsg{display:none;background:rgba(46,99,184,.1);border:1px solid var(--acc);color:var(--acc);font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
+.hidden{display:none!important}
+.hint{font-size:12px;color:var(--mut);margin-top:10px;line-height:1.5}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="../index.html">DOMIN<em>US</em></a>
+  <a class="back" href="../index.html">← Marketplace</a>
+</header>
+<main>
+  <div class="box" id="auth-box">
+    <h1>Vende en <span class="hl">Dominus</span></h1>
+    <p>Crea tu cuenta para tener tu muro y subir tus productos. Comisión del 5% solo cuando vendes.</p>
+    <div class="tabs">
+      <button id="tab-in" class="on">Entrar</button>
+      <button id="tab-up">Crear cuenta</button>
+    </div>
+    <div id="form-in">
+      <label>Correo electrónico</label>
+      <input id="in-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
+      <label>Contraseña</label>
+      <input id="in-pass" type="password" placeholder="••••••••" autocomplete="current-password">
+      <button class="btn" id="btn-in">Entrar a mi panel</button>
+    </div>
+    <div id="form-up" class="hidden">
+      <label>Correo electrónico</label>
+      <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
+      <label>Contraseña (mínimo 6 caracteres)</label>
+      <input id="up-pass" type="password" placeholder="••••••••" autocomplete="new-password">
+      <button class="btn" id="btn-up">Crear mi cuenta</button>
+      <p class="hint">Al crear tu cuenta aceptas las reglas de Dominus: productos físicos reales, envío con rastreo y atención honesta al comprador.</p>
+    </div>
+    <div class="err" id="err"></div>
+    <div class="okmsg" id="okmsg"></div>
+  </div>
+
+  <div class="box hidden" id="profile-box">
+    <h1>Tu <span class="hl">muro</span></h1>
+    <p>Completa los datos de tu negocio. Así te verán los compradores.</p>
+    <label>Nombre de tu negocio *</label>
+    <input id="p-nombre" placeholder="Ej: Tech Zone">
+    <label>Nombre corto para tu dirección (sin espacios) *</label>
+    <input id="p-slug" placeholder="Ej: tech-zone">
+    <label>Descripción de tu empresa</label>
+    <textarea id="p-desc" placeholder="Qué vendes, garantías, tiempos de envío…"></textarea>
+    <label>Ubicación</label>
+    <input id="p-ubica" placeholder="Ej: Los Ángeles, CA">
+    <label>WhatsApp (solo números, con código de país)</label>
+    <input id="p-wa" placeholder="Ej: 15704698339">
+    <label>Foto de perfil (opcional)</label>
+    <input id="p-logo" type="file" accept="image/*">
+    <label>Foto de portada (opcional)</label>
+    <input id="p-cover" type="file" accept="image/*">
+    <button class="btn" id="btn-profile">Crear mi muro</button>
+    <div class="err" id="err2"></div>
+  </div>
+</main>
+<footer>© 2026 Dominus · Compra y vende seguro</footer>
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+function headers(token, prefer){
+  var h = { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' };
+  if(token) h['Authorization'] = 'Bearer ' + token;
+  if(prefer) h['Prefer'] = 'return=representation';
+  return h;
+}
+function showErr(id, msg){ var e = document.getElementById(id); e.textContent = msg; e.style.display = 'block'; }
+function hideErr(id){ document.getElementById(id).style.display = 'none'; }
+function showOk(msg){ var e = document.getElementById('okmsg'); e.textContent = msg; e.style.display = 'block'; }
+function saveSession(s){ localStorage.setItem('dominus_session', JSON.stringify(s)); }
+function getSession(){ try { return JSON.parse(localStorage.getItem('dominus_session')); } catch(e){ return null; } }
+
+var tabIn = document.getElementById('tab-in'), tabUp = document.getElementById('tab-up');
+tabIn.onclick = function(){ tabIn.classList.add('on'); tabUp.classList.remove('on'); document.getElementById('form-in').classList.remove('hidden'); document.getElementById('form-up').classList.add('hidden'); hideErr('err'); };
+tabUp.onclick = function(){ tabUp.classList.add('on'); tabIn.classList.remove('on'); document.getElementById('form-up').classList.remove('hidden'); document.getElementById('form-in').classList.add('hidden'); hideErr('err'); };
+
+function afterAuth(session){
+  saveSession(session);
+  fetch(SUPABASE_URL + '/rest/v1/sellers?user_id=eq.' + session.user.id + '&select=id&limit=1', { headers: headers(session.access_token) })
+    .then(function(r){ return r.json(); })
+    .then(function(rows){
+      if(rows && rows.length){ location.href = 'panel.html'; }
+      else {
+        document.getElementById('auth-box').classList.add('hidden');
+        document.getElementById('profile-box').classList.remove('hidden');
+      }
+    });
+}
+
+document.getElementById('btn-in').onclick = function(){
+  hideErr('err');
+  var email = document.getElementById('in-email').value.trim();
+  var pass = document.getElementById('in-pass').value;
+  if(!email || !pass){ showErr('err', 'Escribe tu correo y contraseña.'); return; }
+  fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+    method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok){ showErr('err', res.j.msg || res.j.error_description || 'No se pudo entrar. Revisa tus datos.'); return; }
+      afterAuth(res.j);
+    }).catch(function(){ showErr('err', 'Error de conexión. Intenta de nuevo.'); });
+};
+
+document.getElementById('btn-up').onclick = function(){
+  hideErr('err');
+  var email = document.getElementById('up-email').value.trim();
+  var pass = document.getElementById('up-pass').value;
+  if(!email || pass.length < 6){ showErr('err', 'Escribe un correo válido y una contraseña de mínimo 6 caracteres.'); return; }
+  fetch(SUPABASE_URL + '/auth/v1/signup', {
+    method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok){ showErr('err', res.j.msg || 'No se pudo crear la cuenta.'); return; }
+      if(res.j.session){ afterAuth(res.j.session); }
+      else { showOk('Cuenta creada. Revisa tu correo para confirmarla y luego entra.'); }
+    }).catch(function(){ showErr('err', 'Error de conexión. Intenta de nuevo.'); });
+};
+
+document.getElementById('p-nombre').addEventListener('input', function(){
+  var slugEl = document.getElementById('p-slug');
+  if(!slugEl.dataset.touched){
+    slugEl.value = this.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+  }
+});
+document.getElementById('p-slug').addEventListener('input', function(){ this.dataset.touched = '1'; });
+
+function uploadSellerImage(token, slug, file, kind){
+  var ext = (file.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');
+  var path = slug + '/' + kind + '-' + Date.now() + '.' + ext;
+  return fetch(SUPABASE_URL + '/storage/v1/object/product-images/' + path, {
+    method: 'POST', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + token, 'Content-Type': file.type || 'image/jpeg' },
+    body: file
+  }).then(function(r){ if(!r.ok) throw new Error('img'); return SUPABASE_URL + '/storage/v1/object/public/product-images/' + path; });
+}
+
+document.getElementById('btn-profile').onclick = function(){
+  hideErr('err2');
+  var session = getSession();
+  var nombre = document.getElementById('p-nombre').value.trim();
+  var slug = document.getElementById('p-slug').value.trim().toLowerCase();
+  if(!nombre || !slug){ showErr('err2', 'El nombre y el nombre corto son obligatorios.'); return; }
+  if(!/^[a-z0-9-]+$/.test(slug)){ showErr('err2', 'El nombre corto solo puede tener letras minúsculas, números y guiones.'); return; }
+  var btn = this; btn.disabled = true; btn.textContent = 'Creando tu muro…';
+  var body = {
+    user_id: session.user.id, slug: slug, nombre: nombre,
+    descripcion: document.getElementById('p-desc').value.trim() || null,
+    ubicacion: document.getElementById('p-ubica').value.trim() || null,
+    whatsapp: document.getElementById('p-wa').value.trim() || null,
+    verificado: false
+  };
+  var sellerId = null;
+  fetch(SUPABASE_URL + '/rest/v1/sellers', { method: 'POST', headers: headers(session.access_token, true), body: JSON.stringify(body) })
+    .then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok){ showErr('err2', res.j.message && res.j.message.indexOf('duplicate') >= 0 ? 'Ese nombre corto ya está en uso. Elige otro.' : 'No se pudo crear tu muro. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Crear mi muro'; throw new Error('stop'); }
+      sellerId = res.j[0] ? res.j[0].id : null;
+      var jobs = [];
+      var logoFile = document.getElementById('p-logo').files[0];
+      var coverFile = document.getElementById('p-cover').files[0];
+      if(logoFile) jobs.push(uploadSellerImage(session.access_token, slug, logoFile, 'profile'));
+      if(coverFile) jobs.push(uploadSellerImage(session.access_token, slug, coverFile, 'cover'));
+      return Promise.all(jobs).then(function(urls){
+        var i = 0, patch = {};
+        if(logoFile) patch.logo_url = urls[i++];
+        if(coverFile) patch.cover_url = urls[i++];
+        if(!Object.keys(patch).length || !sellerId) return null;
+        return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + sellerId, { method: 'PATCH', headers: headers(session.access_token), body: JSON.stringify(patch) });
+      });
+    })
+    .then(function(){ location.href = 'panel.html'; })
+    .catch(function(e){ if(e.message !== 'stop'){ showErr('err2', 'Error de conexión. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Crear mi muro'; } });
+};
+
+// Si ya hay sesión, ir directo
+(function(){
+  var s = getSession();
+  if(s && s.access_token){
+    fetch(SUPABASE_URL + '/auth/v1/user', { headers: headers(s.access_token) })
+      .then(function(r){ if(r.ok) afterAuth(s); else localStorage.removeItem('dominus_session'); })
+      .catch(function(){});
+  }
+})();
+</script>
+</body>
+</html>

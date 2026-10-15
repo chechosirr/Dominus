@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dominus — Compra y vende seguro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--acc2:#1e3a6e}
+body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh}
+a{color:inherit}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:rgba(8,9,13,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none}
+.logo em{font-style:normal;color:var(--acc)}
+.search{flex:1;display:flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 16px;gap:8px;align-items:center}
+.search input{flex:1;background:none;border:0;outline:0;color:var(--txt);font-size:14px;font-family:inherit}
+.search input::placeholder{color:var(--mut)}
+.navlinks{display:flex;gap:18px;font-size:14px}
+.navlinks a{text-decoration:none;color:var(--mut)}
+.navlinks a:hover{color:var(--txt)}
+.hero{position:relative;overflow:hidden;padding:70px 22px 60px;text-align:center}
+.hero:before{content:"";position:absolute;inset:-40%;background:radial-gradient(ellipse at 30% 20%,rgba(46,99,184,.28),transparent 55%),radial-gradient(ellipse at 75% 80%,rgba(46,99,184,.14),transparent 55%);pointer-events:none}
+.hero h1{position:relative;font-size:clamp(38px,9vw,84px);font-weight:900;line-height:1.02;letter-spacing:-1px}
+.hero h1 .hl{color:var(--acc)}
+.hero p{position:relative;color:var(--mut);font-size:16px;max-width:560px;margin:16px auto 26px}
+.cta-row{position:relative;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 30px;border-radius:999px;font-weight:800;font-size:15px;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-acc{background:var(--acc);color:#fff}
+.btn-ghost{border:1px solid var(--line);color:var(--txt);background:var(--card)}
+.stats{position:relative;display:flex;gap:34px;justify-content:center;margin-top:38px;flex-wrap:wrap}
+.stat b{display:block;font-size:26px;font-weight:900;color:var(--acc)}
+.stat span{font-size:12px;color:var(--mut);letter-spacing:1px;text-transform:uppercase}
+main{max-width:1180px;margin:0 auto;padding:10px 18px 70px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin:34px 0 16px}
+.sec-head h2{font-size:22px;font-weight:800}
+.chips{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;margin-bottom:16px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;padding:10px 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:13px;font-weight:700;cursor:pointer;color:var(--mut)}
+.chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .18s,border-color .18s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);border-color:#2c3542}
+.card .ph{aspect-ratio:1;position:relative;overflow:hidden;background:#161b24}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.card .cat{position:absolute;top:10px;left:10px;background:rgba(8,9,13,.75);backdrop-filter:blur(6px);font-size:11px;font-weight:700;padding:5px 11px;border-radius:999px;color:var(--acc)}
+.card-body{padding:13px;display:flex;flex-direction:column;gap:5px;flex:1}
+.card-title{font-size:14px;font-weight:700;line-height:1.35}
+.card-seller{font-size:12px;color:var(--mut)}
+.card-seller a{color:var(--mut);text-decoration:none}
+.card-seller a:hover{color:var(--acc)}
+.card-price{font-size:19px;font-weight:900;margin-top:2px}
+.buy{margin-top:8px;display:block;text-align:center;background:var(--acc);color:#fff;font-weight:800;font-size:14px;padding:12px;border-radius:12px;text-decoration:none}
+.sellers{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.seller-card{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;text-decoration:none;transition:transform .18s,border-color .18s}
+.seller-card:hover{transform:translateY(-3px);border-color:#2c3542}
+.avatar{flex:0 0 56px;width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,var(--acc2),var(--acc));display:grid;place-content:center;font-weight:900;font-size:22px;color:#0a0c10;overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.seller-card b{font-size:15px;display:flex;align-items:center;gap:6px}
+.verif{color:var(--acc);font-size:14px}
+.seller-card small{color:var(--mut);font-size:12px}
+.how{margin-top:40px;background:linear-gradient(135deg,#12161d,#0c0f15);border:1px solid var(--line);border-radius:22px;padding:30px 26px}
+.how h2{font-size:22px;margin-bottom:18px}
+.how h2 .hl{color:var(--acc)}
+.steps{display:grid;gap:16px}
+.step{display:flex;gap:14px}
+.n{flex:0 0 36px;height:36px;border-radius:12px;background:var(--acc);color:#fff;font-weight:900;display:grid;place-content:center}
+.step p{font-size:14px;color:var(--mut);line-height:1.6;margin:0}
+.step p b{color:var(--txt)}
+.sell{margin-top:26px;text-align:center;padding:44px 24px;border-radius:22px;background:radial-gradient(ellipse at 50% 0%,rgba(46,99,184,.25),transparent 60%),#0c0f15;border:1px solid var(--line)}
+.sell h2{font-size:clamp(24px,5vw,36px);font-weight:900}
+.sell h2 .hl{color:var(--acc)}
+.sell p{color:var(--mut);font-size:15px;max-width:520px;margin:12px auto 22px}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px}
+.empty{grid-column:1/-1;text-align:center;color:var(--mut);padding:44px 10px;font-size:15px}.sr-label{font-size:13px;font-weight:800;color:var(--mut);text-transform:uppercase;letter-spacing:1px;margin:0 0 12px}#sr-sellers .sellers{margin-bottom:6px}
+.loading{grid-column:1/-1;text-align:center;color:var(--mut);padding:44px 10px}
+@media(min-width:760px){.grid{grid-template-columns:repeat(auto-fill,minmax(215px,1fr))}.steps{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.navlinks{display:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="index.html">DOMIN<em>US</em></a>
+  <label class="search"><input id="q" type="search" placeholder="Buscar productos…"></label>
+  <nav class="navlinks">
+    <a href="#vendedores">Vendedores</a>
+    <a href="#como-funciona">Cómo funciona</a>
+    <a href="#vender">Vender</a>
+    <a href="vendedor/cuenta.html">Mi cuenta</a>
+  </nav>
+</header>
+<div class="hero">
+  <h1>Compra y vende<br><span class="hl">sin miedo.</span></h1>
+  <p>El marketplace de productos físicos con pago protegido por PayPal y envío con rastreo en cada compra.</p>
+  <div class="cta-row">
+    <a class="btn btn-acc" href="#productos">Explorar productos</a>
+    <a class="btn btn-ghost" href="vendedor/cuenta.html">Quiero vender</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><b id="st-prod">–</b><span>Productos</span></div>
+    <div class="stat"><b id="st-sell">–</b><span>Vendedores</span></div>
+    <div class="stat"><b>5%</b><span>Comisión</span></div>
+  </div>
+</div>
+<main>
+  <div id="search-results" style="display:none">
+    <div class="sec-head"><h2 id="sr-title">Resultados</h2></div>
+    <div id="sr-sellers"></div>
+    <div id="sr-products" style="margin-top:18px"></div>
+  </div>
+  <div class="sec-head" id="productos"><h2>Productos</h2></div>
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="grid"><div class="loading">Cargando productos…</div></div>
+
+  <div class="sec-head" id="vendedores"><h2>Vendedores verificados</h2></div>
+  <div class="sellers" id="sellers"><div class="loading">Cargando vendedores…</div></div>
+
+  <div class="how" id="como-funciona">
+    <h2>Cómo funciona <span class="hl">Dominus</span></h2>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><p><b>Pagas por PayPal.</b> Tu dinero viaja protegido por la garantía de PayPal en cada compra.</p></div>
+      <div class="step"><span class="n">2</span><p><b>El vendedor envía</b> tu producto con número de rastreo para que lo sigas en camino.</p></div>
+      <div class="step"><span class="n">3</span><p><b>Lo recibes en tu puerta.</b> Simple, rápido y sin intermediarios raros.</p></div>
+    </div>
+  </div>
+
+  <div class="sell" id="vender">
+    <h2>¿Tienes algo que <span class="hl">vender?</span></h2>
+    <p>Te creamos tu muro personalizado con tu marca, tus productos y los datos de tu empresa. Comisión del <b>5%</b> solo cuando vendes.</p>
+    <a class="btn btn-acc" href="vendedor/cuenta.html">Crear mi cuenta de vendedor</a><br><br><a class="btn btn-ghost" id="sell-cta" href="#" target="_blank" rel="noopener" style="font-size:13px;padding:11px 24px">o pedirlo por WhatsApp</a>
+  </div>
+</main>
+<footer>© 2026 Dominus · Compra y vende seguro</footer>
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+var WA_NUMBER = "15704698339";
+var SELLERS = {}, PRODUCTS = [];
+var activeCat = 'Todo';
+
+function api(path){
+  return fetch(SUPABASE_URL + '/rest/v1/' + path, {
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + SUPABASE_ANON }
+  }).then(function(r){ if(!r.ok) throw new Error('API ' + r.status); return r.json(); });
+}
+function money(n){ return '$' + Number(n).toFixed(2); }
+function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function load(){
+  return Promise.all([
+    api('sellers?select=*&order=nombre'),
+    api('products?select=*,sellers!inner(slug,nombre)&activo=eq.true&order=created_at.desc')
+  ]).then(function(res){
+    res[0].forEach(function(s){ SELLERS[s.slug] = s; });
+    PRODUCTS = res[1];
+    document.getElementById('st-sell').textContent = res[0].length;
+    document.getElementById('st-prod').textContent = PRODUCTS.length;
+    renderChips(); renderGrid(); renderSellers();
+  }).catch(function(){
+    document.getElementById('grid').innerHTML = '<div class="empty">No se pudo cargar. Revisa tu conexión.</div>';
+  });
+}
+function cats(){
+  var s = {};
+  PRODUCTS.forEach(function(p){ s[p.categoria || 'General'] = 1; });
+  return ['Todo'].concat(Object.keys(s).sort());
+}
+function renderChips(){
+  var el = document.getElementById('chips');
+  el.innerHTML = cats().map(function(c){
+    return '<button class="chip' + (c === activeCat ? ' on' : '') + '" data-c="' + esc(c) + '">' + esc(c) + '</button>';
+  }).join('');
+  el.querySelectorAll('.chip').forEach(function(b){
+    b.onclick = function(){ activeCat = b.dataset.c; renderChips(); renderGrid(); };
+  });
+}
+function matchSellers(term){
+  term = term.toLowerCase();
+  return Object.keys(SELLERS).map(function(k){ return SELLERS[k]; }).filter(function(s){
+    return (s.nombre + ' ' + (s.descripcion || '') + ' ' + (s.ubicacion || '')).toLowerCase().indexOf(term) >= 0;
+  });
+}
+function sellerCard(s){
+  var n = PRODUCTS.filter(function(p){ return p.sellers && p.sellers.slug === s.slug; }).length;
+  var av = s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="">' : esc(s.nombre.charAt(0));
+  return '<a class="seller-card" href="vendedor/?s=' + esc(s.slug) + '"><span class="avatar">' + av + '</span>'
+    + '<span><b>' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + '</b><br>'
+    + '<small>' + n + ' productos' + (s.ubicacion ? ' · ' + esc(s.ubicacion) : '') + '</small></span></a>';
+}
+function productCard(p){
+  var s = p.sellers || {};
+  var img = p.imagen_url || '';
+  return '<div class="card"><div class="ph">' + (img ? '<img src="' + esc(img) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
+    + '<span class="cat">' + esc(p.categoria || 'General') + '</span></div>'
+    + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div>'
+    + '<div class="card-seller">por <a href="vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a></div>'
+    + '<div class="card-price">' + money(p.precio) + '</div>'
+    + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a></div></div>';
+}
+function onSearch(){
+  var term = (document.getElementById('q').value || '').trim();
+  var sr = document.getElementById('search-results');
+  var normal = [document.getElementById('productos'), document.getElementById('chips'), document.getElementById('grid'),
+                document.getElementById('vendedores'), document.getElementById('sellers')];
+  if(!term){
+    sr.style.display = 'none';
+    normal.forEach(function(el){ el.style.display = ''; });
+    renderGrid();
+    return;
+  }
+  normal.forEach(function(el){ el.style.display = 'none'; });
+  sr.style.display = 'block';
+  document.getElementById('sr-title').textContent = 'Resultados para "' + term + '"';
+  var sellers = matchSellers(term);
+  var tl = term.toLowerCase();
+  var prods = PRODUCTS.filter(function(p){
+    return (p.titulo + ' ' + (p.descripcion || '') + ' ' + (p.categoria || '') + ' ' + (p.sellers ? p.sellers.nombre : '')).toLowerCase().indexOf(tl) >= 0;
+  });
+  document.getElementById('sr-sellers').innerHTML =
+    '<p class="sr-label">Empresas (' + sellers.length + ')</p>' +
+    (sellers.length ? '<div class="sellers">' + sellers.map(sellerCard).join('') + '</div>'
+                    : '<p class="empty" style="padding:16px">Sin empresas coincidentes.</p>');
+  document.getElementById('sr-products').innerHTML =
+    '<p class="sr-label">Productos (' + prods.length + ')</p>' +
+    (prods.length ? '<div class="grid">' + prods.map(productCard).join('') + '</div>'
+                  : '<p class="empty" style="padding:16px">Sin productos coincidentes.</p>');
+}
+function renderGrid(){
+  var term = (document.getElementById('q').value || '').toLowerCase();
+  var g = document.getElementById('grid');
+  var list = PRODUCTS.filter(function(p){
+    var okC = activeCat === 'Todo' || (p.categoria || 'General') === activeCat;
+    var okQ = !term || (p.titulo + ' ' + (p.sellers ? p.sellers.nombre : '')).toLowerCase().indexOf(term) >= 0;
+    return okC && okQ;
+  });
+  if(!list.length){ g.innerHTML = '<div class="empty">No hay productos todavía. ¡Sé el primero en vender!</div>'; return; }
+  g.innerHTML = list.map(productCard).join('');
+}
+function renderSellers(){
+  var el = document.getElementById('sellers');
+  var keys = Object.keys(SELLERS);
+  if(!keys.length){ el.innerHTML = '<div class="empty">Muy pronto.</div>'; return; }
+  el.innerHTML = keys.map(function(k){ return sellerCard(SELLERS[k]); }).join('');
+}
+document.getElementById('q').addEventListener('input', onSearch);
+document.getElementById('sell-cta').href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent('Hola, quiero mi muro de vendedor en Dominus');
+load();
+</script>
+</body>
+</html>

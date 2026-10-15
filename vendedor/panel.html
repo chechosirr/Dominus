@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mi panel — Dominus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--acc2:#1e3a6e;--err:#ff5d5d}
+body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(8,9,13,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
+.logo em{font-style:normal;color:var(--acc)}
+.top-actions{display:flex;gap:10px;align-items:center}
+.link{color:var(--mut);text-decoration:none;font-size:13px}
+.link:hover{color:var(--acc)}
+.logout{background:none;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:8px 16px;font-family:inherit;font-size:13px;cursor:pointer}
+main{max-width:1000px;margin:0 auto;padding:26px 18px 70px}
+.welcome{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:8px}
+.welcome h1{font-size:26px;font-weight:900}
+.welcome h1 .hl{color:var(--acc)}
+.wall-link{display:inline-block;background:var(--card);border:1px solid var(--line);color:var(--txt);text-decoration:none;font-size:13px;font-weight:700;padding:10px 20px;border-radius:999px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0 30px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+.stat b{display:block;font-size:24px;font-weight:900;color:var(--acc)}
+.stat span{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1px}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;margin-bottom:22px}
+.sec h2{font-size:19px;margin-bottom:16px}
+label{display:block;font-size:13px;color:var(--mut);margin:12px 0 6px}
+input,textarea,select{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:15px;padding:12px 14px;outline:none}
+input:focus,textarea:focus{border-color:var(--acc)}
+textarea{resize:vertical;min-height:70px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px 22px;cursor:pointer;margin-top:18px}
+.btn:disabled{opacity:.5}
+.btn-ghost{background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;font-family:inherit;font-size:13px;padding:9px 16px;cursor:pointer}
+.preview-img{max-width:120px;border-radius:12px;margin-top:10px;display:none}
+.prod{display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:12px;margin-bottom:10px}
+.prod img{width:64px;height:64px;object-fit:cover;border-radius:12px;background:#161b24;flex:0 0 64px}
+.prod .info{flex:1;min-width:0}
+.prod .info b{font-size:14px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prod .info small{color:var(--mut);font-size:12px}
+.prod .pa{font-weight:900;color:var(--acc)}
+.badge{font-size:11px;padding:4px 10px;border-radius:999px;background:#1a2230;color:var(--mut)}
+.badge.off{background:rgba(255,93,93,.15);color:#ffb3b3}
+.prod .ops{display:flex;gap:8px}
+.err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
+.empty{color:var(--mut);font-size:14px;text-align:center;padding:20px}
+@media(max-width:640px){.cards{grid-template-columns:repeat(3,1fr)}.row2{grid-template-columns:1fr}.prod .ops{flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="../index.html">DOMIN<em>US</em></a>
+  <div class="top-actions">
+    <a class="link" href="../index.html">Ver marketplace</a>
+    <button class="logout" id="btn-out">Salir</button>
+  </div>
+</header>
+<main id="main"><p class="empty">Cargando tu panel…</p></main>
+<footer style="border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px">© 2026 Dominus · Compra y vende seguro</footer>
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+var session = null, seller = null, products = [];
+function getSession(){ try { return JSON.parse(localStorage.getItem('dominus_session')); } catch(e){ return null; } }
+function h(token, json){
+  var x = { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + token };
+  if(json) x['Content-Type'] = 'application/json';
+  return x;
+}
+function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function money(n){ return '$' + Number(n).toFixed(2); }
+
+function boot(){
+  session = getSession();
+  if(!session || !session.access_token){ location.href = 'cuenta.html'; return; }
+  fetch(SUPABASE_URL + '/auth/v1/user', { headers: h(session.access_token) }).then(function(r){
+    if(!r.ok){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; return null; }
+    return fetch(SUPABASE_URL + '/rest/v1/sellers?user_id=eq.' + session.user.id + '&select=*&limit=1', { headers: h(session.access_token) }).then(function(x){ return x.json(); });
+  }).then(function(rows){
+    if(!rows) return;
+    if(!rows.length){ location.href = 'cuenta.html'; return; }
+    seller = rows[0];
+    loadProducts();
+  });
+}
+function loadProducts(){
+  fetch(SUPABASE_URL + '/rest/v1/products?seller_id=eq.' + seller.id + '&select=*&order=created_at.desc', { headers: h(session.access_token) })
+    .then(function(r){ return r.json(); }).then(function(rows){ products = rows || []; render(); });
+}
+function render(){
+  var active = products.filter(function(p){ return p.activo; });
+  document.getElementById('main').innerHTML =
+    '<div class="welcome"><h1>Hola, <span class="hl">' + esc(seller.nombre) + '</span></h1>'
+    + '<a class="wall-link" href="index.html?s=' + esc(seller.slug) + '" target="_blank">Ver mi muro →</a></div>'
+    + '<div class="cards"><div class="stat"><b>' + products.length + '</b><span>Productos</span></div>'
+    + '<div class="stat"><b>' + active.length + '</b><span>Activos</span></div>'
+    + '<div class="stat"><b>5%</b><span>Comisión</span></div></div>'
+    + '<div class="sec"><h2>Mi muro</h2>'
+    + '<div class="row2"><div><label>Foto de perfil</label><input id="w-logo" type="file" accept="image/*">'
+    + (seller.logo_url ? '<img src="' + esc(seller.logo_url) + '" style="width:72px;height:72px;border-radius:50%;object-fit:cover;margin-top:8px">' : '') + '</div>'
+    + '<div><label>Foto de portada</label><input id="w-cover" type="file" accept="image/*">'
+    + (seller.cover_url ? '<img src="' + esc(seller.cover_url) + '" style="width:100%;max-width:220px;height:70px;object-fit:cover;border-radius:10px;margin-top:8px">' : '') + '</div></div>'
+    + '<label>Nombre del negocio</label><input id="w-nombre" value="' + esc(seller.nombre) + '">'
+    + '<label>Descripción</label><textarea id="w-desc">' + esc(seller.descripcion || '') + '</textarea>'
+    + '<div class="row2"><div><label>Ubicación</label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '"></div>'
+    + '<div><label>WhatsApp</label><input id="w-wa" value="' + esc(seller.whatsapp || '') + '"></div></div>'
+    + '<div class="err" id="w-err"></div>'
+    + '<button class="btn" id="w-btn">Guardar cambios</button></div>'
+    + '<div class="sec"><h2>Subir producto</h2>'
+    + '<label>Título *</label><input id="f-titulo" placeholder="Ej: Audífonos Bluetooth Pro">'
+    + '<div class="row2"><div><label>Precio (USD) *</label><input id="f-precio" type="number" min="0" step="0.01" placeholder="49.99"></div>'
+    + '<div><label>Categoría</label><input id="f-cat" placeholder="Ej: Electrónica"></div></div>'
+    + '<label>Descripción</label><textarea id="f-desc" placeholder="Detalles, estado, qué incluye…"></textarea>'
+    + '<label>Foto *</label><input id="f-img" type="file" accept="image/*">'
+    + '<img class="preview-img" id="f-prev">'
+    + '<div class="err" id="f-err"></div>'
+    + '<button class="btn" id="f-btn">Publicar producto</button></div>'
+    + '<div class="sec"><h2>Mis productos</h2><div id="plist"></div></div>';
+  renderList();
+  document.getElementById('f-img').addEventListener('change', function(){
+    var f = this.files[0];
+    if(f){ var r = new FileReader(); r.onload = function(e){ var im = document.getElementById('f-prev'); im.src = e.target.result; im.style.display = 'block'; }; r.readAsDataURL(f); }
+  });
+  document.getElementById('f-btn').onclick = publishProduct;
+  document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; };
+  document.getElementById('w-btn').onclick = saveWall;
+}
+function werr(m){ var e = document.getElementById('w-err'); e.textContent = m; e.style.display = 'block'; }
+function uploadImage(file, kind){
+  var ext = (file.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');
+  var path = seller.slug + '/' + kind + '-' + Date.now() + '.' + ext;
+  return fetch(SUPABASE_URL + '/storage/v1/object/product-images/' + path, {
+    method: 'POST', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + session.access_token, 'Content-Type': file.type || 'image/jpeg' },
+    body: file
+  }).then(function(r){ if(!r.ok) throw new Error('img'); return SUPABASE_URL + '/storage/v1/object/public/product-images/' + path; });
+}
+function saveWall(){
+  var e = document.getElementById('w-err'); e.style.display = 'none';
+  var btn = document.getElementById('w-btn'); btn.disabled = true; btn.textContent = 'Guardando…';
+  var jobs = [];
+  var logoFile = document.getElementById('w-logo').files[0];
+  var coverFile = document.getElementById('w-cover').files[0];
+  if(logoFile) jobs.push(uploadImage(logoFile, 'profile'));
+  if(coverFile) jobs.push(uploadImage(coverFile, 'cover'));
+  Promise.all(jobs).then(function(urls){
+    var i = 0, patch = {
+      nombre: document.getElementById('w-nombre').value.trim() || seller.nombre,
+      descripcion: document.getElementById('w-desc').value.trim() || null,
+      ubicacion: document.getElementById('w-ubica').value.trim() || null,
+      whatsapp: document.getElementById('w-wa').value.trim() || null
+    };
+    if(logoFile) patch.logo_url = urls[i++];
+    if(coverFile) patch.cover_url = urls[i++];
+    return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + seller.id, {
+      method: 'PATCH', headers: h(session.access_token, true), body: JSON.stringify(patch)
+    });
+  }).then(function(r){ if(!r.ok) throw new Error('db'); return loadProducts(); })
+    .then(function(){
+      return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + seller.id + '&select=*&limit=1', { headers: h(session.access_token) }).then(function(x){ return x.json(); });
+    }).then(function(rows){ seller = rows[0]; render(); })
+    .catch(function(){ werr('No se pudo guardar. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Guardar cambios'; });
+}
+function renderList(){
+  var el = document.getElementById('plist');
+  if(!products.length){ el.innerHTML = '<p class="empty">Aún no tienes productos. ¡Sube el primero!</p>'; return; }
+  el.innerHTML = products.map(function(p){
+    return '<div class="prod">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="">' : '')
+      + '<div class="info"><b>' + esc(p.titulo) + '</b><small>' + esc(p.categoria || 'General') + '</small> '
+      + '<span class="badge' + (p.activo ? '' : ' off') + '">' + (p.activo ? 'Activo' : 'Pausado') + '</span></div>'
+      + '<span class="pa">' + money(p.precio) + '</span>'
+      + '<div class="ops"><button class="btn-ghost" data-act="' + p.id + '">' + (p.activo ? 'Pausar' : 'Activar') + '</button>'
+      + '<button class="btn-ghost" data-del="' + p.id + '">Eliminar</button></div></div>';
+  }).join('');
+  el.querySelectorAll('[data-act]').forEach(function(b){ b.onclick = function(){ toggleProduct(b.dataset.act); }; });
+  el.querySelectorAll('[data-del]').forEach(function(b){ b.onclick = function(){ if(confirm('¿Eliminar este producto?')) delProduct(b.dataset.del); }; });
+}
+function ferr(m){ var e = document.getElementById('f-err'); e.textContent = m; e.style.display = 'block'; }
+function publishProduct(){
+  var e = document.getElementById('f-err'); e.style.display = 'none';
+  var titulo = document.getElementById('f-titulo').value.trim();
+  var precio = parseFloat(document.getElementById('f-precio').value);
+  var file = document.getElementById('f-img').files[0];
+  if(!titulo){ ferr('Ponle un título a tu producto.'); return; }
+  if(!(precio > 0)){ ferr('Pon un precio válido.'); return; }
+  if(!file){ ferr('Sube una foto de tu producto.'); return; }
+  var btn = document.getElementById('f-btn'); btn.disabled = true; btn.textContent = 'Subiendo…';
+  var ext = (file.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');
+  var path = seller.slug + '/' + Date.now() + '.' + ext;
+  fetch(SUPABASE_URL + '/storage/v1/object/product-images/' + path, {
+    method: 'POST', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + session.access_token, 'Content-Type': file.type || 'image/jpeg' },
+    body: file
+  }).then(function(r){
+    if(!r.ok) throw new Error('img');
+    var imgUrl = SUPABASE_URL + '/storage/v1/object/public/product-images/' + path;
+    return fetch(SUPABASE_URL + '/rest/v1/products', {
+      method: 'POST', headers: h(session.access_token, true),
+      body: JSON.stringify({ seller_id: seller.id, titulo: titulo, descripcion: document.getElementById('f-desc').value.trim() || null,
+        precio: precio, categoria: document.getElementById('f-cat').value.trim() || 'General', imagen_url: imgUrl,
+        paypal_link: 'https://www.paypal.com/paypalme/tuusuario/', activo: true })
+    });
+  }).then(function(r){ if(!r.ok) throw new Error('db'); loadProducts(); })
+    .catch(function(){ ferr('No se pudo publicar. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Publicar producto'; });
+}
+function toggleProduct(id){
+  var p = products.find(function(x){ return x.id === id; });
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, {
+    method: 'PATCH', headers: h(session.access_token, true), body: JSON.stringify({ activo: !p.activo })
+  }).then(loadProducts);
+}
+function delProduct(id){
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, { method: 'DELETE', headers: h(session.access_token) }).then(loadProducts);
+}
+boot();
+</script>
+</body>
+</html>
