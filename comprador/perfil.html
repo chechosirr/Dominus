@@ -66,7 +66,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     <button id="menu-btn" aria-label="Menú">☰</button>
     <nav class="menu" id="menu">
       <a href="../index.html">Inicio</a>
-      <a href="../cuenta.html">Mi cuenta</a>
+      <a href="../cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
       <a href="../comprador/perfil.html">Carrito</a>
     </nav>
   </div>
@@ -152,7 +152,7 @@ function render(){
     + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
-  document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; };
+  document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); location.href = 'cuenta.html'; };
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
   document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
@@ -195,6 +195,19 @@ boot();
 
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
+function goMiCuenta(){
+  try{
+    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+    var tipo = localStorage.getItem('dominus_tipo');
+    var slug = localStorage.getItem('dominus_slug');
+    if(s && s.access_token && tipo){
+      if(tipo === 'vendedor' && slug){ location.href = '/Dominus/vendedor/index.html?s=' + encodeURIComponent(slug) + '&edit=1'; return false; }
+      if(tipo === 'vendedor'){ location.href = '/Dominus/vendedor/cuenta.html'; return false; }
+      location.href = '/Dominus/comprador/perfil.html'; return false;
+    }
+  }catch(e){}
+  return true;
+}
 </script>
 </body>
 </html>
