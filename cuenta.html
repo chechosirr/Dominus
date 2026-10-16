@@ -11,9 +11,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#111111;--mut:#5a6270;--acc:#d7dce3;--err:#ff5d5d}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--err:#ff5d5d}
 body{background:#ffffff;background-attachment:fixed;color:#111111;font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
-header.top{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--line)}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:rgba(8,9,13,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
 .logo em{font-style:normal;color:var(--acc)}
 .back{color:var(--mut);text-decoration:none;font-size:14px}
@@ -23,16 +23,16 @@ main{flex:1;display:flex;align-items:flex-start;justify-content:center;padding:4
 .box h1 .hl{color:var(--acc)}
 .box>p{color:var(--mut);font-size:14px;margin-bottom:22px;text-align:center}
 .type-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px}
-.type-card{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:26px 16px;text-align:center;cursor:pointer;transition:border-color .15s}
+.type-card{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:26px 16px;text-align:center;cursor:pointer;transition:border-color .15s;color:#f2f4f8}
 .type-card:hover{border-color:#2c3542}
-.type-card.on{border-color:var(--acc);background:rgba(215,220,227,.08)}
+.type-card.on{border-color:var(--acc);background:#e8eaee;color:#111111}
 .type-card .ico{font-size:40px;display:block;margin-bottom:10px}
 .type-card b{font-size:16px;display:block;margin-bottom:6px}
 .type-card small{color:var(--mut);font-size:12px;line-height:1.5;display:block}
 .form-card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px 26px;margin-top:18px}
 .tabs{display:flex;background:var(--bg);border-radius:12px;padding:4px;margin-bottom:22px}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);font-family:inherit;font-weight:800;font-size:14px;padding:11px;border-radius:9px;cursor:pointer}
-.tabs button.on{background:var(--acc);color:#0a0c10}
+.tabs button.on{background:var(--acc);color:#f2f4f8}
 label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
 input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:15px;padding:13px 14px;outline:none}
 input:focus{border-color:var(--acc)}
