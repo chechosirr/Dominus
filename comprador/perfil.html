@@ -112,15 +112,39 @@ function money(n){ return '$' + Number(n).toFixed(2); }
 function renderPayPalButtons(total){
   var cont = document.getElementById('paypal-button-container');
   if(!cont || !cart.length) return;
+  var missing = cart.some(function(it){ return !(it.products.sellers && it.products.sellers.paypal_email); });
+  if(missing){
+    cont.innerHTML = '<p style="font-size:13px;color:#f0a35e;text-align:center">Un vendedor aún no configura su PayPal. Contáctanos por WhatsApp para completar tu compra.</p>';
+    return;
+  }
   function init(){
     if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
     cont.innerHTML = '';
     paypal.Buttons({
       style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'paypal' },
       createOrder: function(data, actions){
-        return actions.order.create({
-          purchase_units: [{ amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' }]
+        var units = [];
+        var bySeller = {};
+        cart.forEach(function(it){
+          var s = it.products.sellers || {};
+          var em = s.paypal_email;
+          if(!bySeller[em]) bySeller[em] = { email: em, name: s.nombre || 'Vendedor', amount: 0 };
+          bySeller[em].amount += Number(it.products.precio) * it.qty;
         });
+        Object.keys(bySeller).forEach(function(em){
+          var g = bySeller[em];
+          units.push({
+            amount: { value: g.amount.toFixed(2), currency_code: 'USD' },
+            payee: { email_address: g.email },
+            description: 'Compra en Dominus - ' + g.name
+          });
+        });
+        units.push({
+          amount: { value: SERVICE_FEE.toFixed(2), currency_code: 'USD' },
+          payee: { email_address: SERGIO_PAYPAL },
+          description: 'Tasa de servicio Dominus'
+        });
+        return actions.order.create({ purchase_units: units });
       },
       onApprove: function(data, actions){
         return actions.order.capture().then(function(details){
@@ -128,7 +152,7 @@ function renderPayPalButtons(total){
           document.getElementById('main').innerHTML = '<div class="sec" style="text-align:center;padding:40px 20px">'
             + '<div style="font-size:52px">\u2705</div>'
             + '<h2>\u00A1Pago completado!</h2>'
-            + '<p style="color:var(--mut)">Gracias ' + esc((details.payer.name || {}).given_name || '') + '. Recibimos tu pago de ' + money(total) + ' por PayPal.<br>Coordinamos el env\u00EDo con cada vendedor.</p>'
+            + '<p style="color:var(--mut)">Gracias ' + esc((details.payer.name || {}).given_name || '') + '. Tu pago de ' + money(total) + ' fue enviado a cada vendedor por PayPal.<br>Coordinamos el env\u00EDo con cada uno.</p>'
             + '<a class="btn" href="../index.html" style="margin-top:16px;display:inline-block">Seguir explorando</a></div>';
         });
       },
@@ -204,13 +228,14 @@ function boot(){
   });
 }
 function loadCart(){
-  fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + session.user.id + '&select=*,products!inner(id,titulo,precio,imagen_url,sellers!inner(nombre))&order=created_at.desc',
+  fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + session.user.id + '&select=*,products!inner(id,titulo,precio,imagen_url,sellers!inner(nombre,paypal_email))&order=created_at.desc',
     { headers: h(session.access_token) })
     .then(function(r){ return r.json(); })
     .then(function(rows){ cart = rows || []; render(); })
     .catch(function(){ document.getElementById('main').innerHTML = '<p class="empty">No se pudo cargar. Revisa tu conexión.</p>'; });
 }
-var SERVICE_FEE = 1.00;
+var SERGIO_PAYPAL = "Sergioromero97531@gmail.com";
+var SERVICE_FEE = 1.38; // el comprador paga esto; tras la comisión de PayPal quedan ~$1.00 netos
 function render(){
   var name = (session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
   var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
@@ -236,7 +261,7 @@ function render(){
     + '<div class="total"><span>Total</span><span>' + money(total) + '</span></div>'
     + '<div id="paypal-button-container" style="margin-top:6px"></div>'
     + '<a class="btn btn-wa" id="wa-order" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>'
-    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye $1.00 de tasa de servicio por transacción. Pagas a Dominus por PayPal y coordinamos el envío de cada vendedor con rastreo.</p>';
+    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye $1.38 de tasa de servicio. Pagas directo a cada vendedor por PayPal y coordinamos el envío con rastreo.</p>';
   }
   html += '</div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
