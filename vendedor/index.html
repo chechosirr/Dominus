@@ -276,7 +276,6 @@ Promise.all([
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
     + (own ? '<div class="ed-wa ed-only"><b class="' + 'editable' + '" data-field="whatsapp">' + esc(s.whatsapp || 'Agregar WhatsApp') + '</b> <small>(privado: solo tú lo ves)</small></div>' : '')
     + (own ? '<div class="ed-wa ed-only"><b class="' + 'editable' + '" data-field="paypal_email">' + esc(s.paypal_email || 'Agregar PayPal') + '</b> <small>(tu PayPal para recibir pagos)</small></div>' : '')
-    + (own ? '<div class="ed-only" style="margin-top:12px"><button class="inline-save" id="ship-toggle" style="padding:12px 20px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:14px">Mis datos de envío</button><div id="ship-form" style="display:none;margin-top:10px"></div></div>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
@@ -383,14 +382,7 @@ function wireEditControls(tok){
     };
   });
   // textos: tocar para editar
-  var shipT = document.getElementById('ship-toggle');
-  if(shipT){
-    shipT.onclick = function(){
-      var f = document.getElementById('ship-form');
-      if(f.style.display === 'none'){ f.style.display = 'block'; loadShipForm(); }
-      else f.style.display = 'none';
-    };
-  }
+  loadEditPanel(tok);
   document.querySelectorAll('[data-field]').forEach(function(el){
     el.addEventListener('click', function(e){
       if(!document.body.classList.contains('editing')) return;
@@ -569,42 +561,56 @@ function loadReviews(){
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 
-function loadShipForm(){
-  var box = document.getElementById('ship-form');
+function loadEditPanel(tok){
+  var box = document.getElementById('ep-fields');
+  if(!box) return;
   fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id + '&select=direccion,ciudad,departamento,pais,telefono',
-    { headers: edH(_etok) })
+    { headers: edH(tok) })
     .then(function(r){ return r.json(); })
     .then(function(rows){
       var p = (rows && rows[0]) || {};
-      function fld(id, label, val, ph, type){
-        return '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">' + label + '</label>'
-          + '<input id="' + id + '" type="' + (type || 'text') + '" value="' + esc(val || '') + '" placeholder="' + ph + '"'
-          + ' style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px">';
+      function row(id, name, val, ph, type){
+        var label = (val ? 'Modificar ' : 'Agregar ') + name;
+        return '<div class="edit-row"><label>' + label + '</label>'
+          + '<input id="' + id + '" type="' + (type || 'text') + '" value="' + esc(val || '') + '" placeholder="' + ph + '"></div>';
       }
       box.innerHTML =
-        fld('vs-dir', 'Dirección (con referencias)', p.direccion, 'Ej: Calle 5 #123, frente al parque')
-        + fld('vs-ciu', 'Ciudad', p.ciudad, 'Ej: Estelí')
-        + fld('vs-dep', 'Departamento', p.departamento, 'Ej: Estelí')
-        + fld('vs-pais', 'País', p.pais, 'Ej: Nicaragua')
-        + fld('vs-tel', 'Número de contacto (privado)', p.telefono, 'Ej: 88888888', 'tel')
-        + '<button class="inline-save" id="vs-save" style="margin-top:14px;padding:12px 22px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit">Guardar datos</button>';
-      document.getElementById('vs-save').onclick = function(){
-        var body = {
-          direccion: document.getElementById('vs-dir').value.trim() || null,
-          ciudad: document.getElementById('vs-ciu').value.trim() || null,
-          departamento: document.getElementById('vs-dep').value.trim() || null,
-          pais: document.getElementById('vs-pais').value.trim() || null,
-          telefono: document.getElementById('vs-tel').value.trim() || null
+        row('ep-wa', 'WhatsApp', SELLER.whatsapp, 'Ej: 50588888888', 'tel')
+        + row('ep-pp', 'PayPal', SELLER.paypal_email, 'Ej: tunegocio@correo.com', 'email')
+        + '<details><summary>Datos de env\u00EDo</summary>'
+        + row('ep-dir', 'Direcci\u00F3n', p.direccion, 'Calle, n\u00FAmero, referencias')
+        + row('ep-ciu', 'Ciudad', p.ciudad, 'Ej: Managua')
+        + row('ep-dep', 'Departamento', p.departamento, 'Ej: Managua')
+        + row('ep-pais', 'Pa\u00EDs', p.pais, 'Ej: Nicaragua')
+        + row('ep-tel', 'Tel\u00E9fono', p.telefono, 'Ej: 88888888', 'tel')
+        + '</details>'
+        + '<button class="inline-save" id="ep-save">Guardar cambios</button>';
+      document.getElementById('ep-save').onclick = function(){
+        var btn = this; btn.textContent = 'Guardando\u2026'; btn.disabled = true;
+        var sp = {
+          whatsapp: document.getElementById('ep-wa').value.trim() || null,
+          paypal_email: document.getElementById('ep-pp').value.trim() || null
         };
-        var btn = document.getElementById('vs-save');
-        btn.textContent = 'Guardando…'; btn.disabled = true;
-        fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id, {
-          method: 'PATCH', headers: edH(_etok), body: JSON.stringify(body)
-        }).then(function(r){
-          btn.textContent = r.ok ? '✓ Guardado' : 'Guardar datos';
-          btn.disabled = false;
-          if(!r.ok) alert('No se pudo guardar. Intenta de nuevo.');
-        }).catch(function(){ btn.textContent = 'Guardar datos'; btn.disabled = false; });
+        var pr = {
+          direccion: document.getElementById('ep-dir').value.trim() || null,
+          ciudad: document.getElementById('ep-ciu').value.trim() || null,
+          departamento: document.getElementById('ep-dep').value.trim() || null,
+          pais: document.getElementById('ep-pais').value.trim() || null,
+          telefono: document.getElementById('ep-tel').value.trim() || null
+        };
+        fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
+          method: 'PATCH', headers: edH(tok), body: JSON.stringify(sp)
+        }).then(function(){
+          return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id, {
+            method: 'PATCH', headers: edH(tok), body: JSON.stringify(pr)
+          });
+        }).then(function(){
+          btn.textContent = '\u2713 Guardado';
+          setTimeout(function(){ location.reload(); }, 800);
+        }).catch(function(){
+          btn.textContent = 'Guardar cambios'; btn.disabled = false;
+          alert('No se pudo guardar. Intenta de nuevo.');
+        });
       };
     })
     .catch(function(){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">No se pudo cargar.</p>'; });
