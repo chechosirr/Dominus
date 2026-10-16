@@ -67,7 +67,7 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 <main>
   <div class="box" id="auth-box">
     <h1>Vende en <span class="hl">Dominus</span></h1>
-    <p>Crea tu cuenta para tener tu muro y subir tus productos. <b>Sin comisiones para ti</b>: el comprador paga $1 de tasa de servicio por compra.</p>
+    <p>Crea tu cuenta para tener tu muro y subir tus productos. <b>Sin comisiones para ti</b>: el comprador paga una pequeña tasa de servicio por compra.</p>
     <div class="tabs">
       <button id="tab-in" class="on">Entrar</button>
       <button id="tab-up">Crear cuenta</button>
@@ -96,8 +96,6 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     <p>Completa los datos de tu negocio. Así te verán los compradores.</p>
     <label>Nombre de tu negocio *</label>
     <input id="p-nombre" placeholder="Ej: Tech Zone">
-    <label>Nombre corto para tu dirección (sin espacios) *</label>
-    <input id="p-slug" placeholder="Ej: tech-zone">
     <label>Descripción de tu empresa</label>
     <textarea id="p-desc" placeholder="Qué vendes, garantías, tiempos de envío…"></textarea>
     <label>Ubicación</label>
@@ -206,13 +204,7 @@ document.getElementById('btn-up').onclick = function(){
     }).catch(function(){ showErr('err', 'Error de conexión. Intenta de nuevo.'); });
 };
 
-document.getElementById('p-nombre').addEventListener('input', function(){
-  var slugEl = document.getElementById('p-slug');
-  if(!slugEl.dataset.touched){
-    slugEl.value = this.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
-  }
-});
-document.getElementById('p-slug').addEventListener('input', function(){ this.dataset.touched = '1'; });
+
 
 function uploadSellerImage(token, slug, file, kind){
   var ext = (file.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -227,11 +219,10 @@ document.getElementById('btn-profile').onclick = function(){
   hideErr('err2');
   var session = getSession();
   var nombre = document.getElementById('p-nombre').value.trim();
-  var slug = document.getElementById('p-slug').value.trim().toLowerCase();
+  var slug = nombre.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
   var ppEmail = document.getElementById('p-paypal').value.trim();
-  if(!nombre || !slug){ showErr('err2', 'El nombre y el nombre corto son obligatorios.'); return; }
+  if(!nombre || !slug){ showErr('err2', 'El nombre de tu negocio es obligatorio.'); return; }
   if(!ppEmail || ppEmail.indexOf('@') < 0){ showErr('err2', 'Tu PayPal para recibir pagos es obligatorio.'); return; }
-  if(!/^[a-z0-9-]+$/.test(slug)){ showErr('err2', 'El nombre corto solo puede tener letras minúsculas, números y guiones.'); return; }
   var btn = this; btn.disabled = true; btn.textContent = 'Creando tu muro…';
   var body = {
     user_id: session.user.id, slug: slug, nombre: nombre, paypal_email: ppEmail,

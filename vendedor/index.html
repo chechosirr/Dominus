@@ -663,7 +663,7 @@ function loadSales(tok){
 function loadEditPanel(tok){
   var box = document.getElementById('ep-fields');
   if(!box) return;
-  fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id + '&select=direccion,ciudad,departamento,pais,telefono',
+  fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id + '&select=direccion,ciudad,departamento,pais,telefono,referencia,foto_referencia',
     { headers: edH(tok) })
     .then(function(r){ return r.json(); })
     .then(function(rows){
@@ -677,11 +677,14 @@ function loadEditPanel(tok){
         row('ep-wa', 'WhatsApp', SELLER.whatsapp, 'Ej: 50588888888', 'tel')
         + row('ep-pp', 'PayPal', SELLER.paypal_email, 'Correo de PayPal', 'email')
         + '<details><summary>Datos de env\u00EDo</summary>'
-        + row('ep-dir', 'Direcci\u00F3n', p.direccion, 'Calle, n\u00FAmero, referencias')
-        + row('ep-ciu', 'Ciudad', p.ciudad, 'Ej: Managua')
-        + row('ep-dep', 'Departamento', p.departamento, 'Ej: Managua')
-        + row('ep-pais', 'Pa\u00EDs', p.pais, 'Ej: Nicaragua')
-        + row('ep-tel', 'Tel\u00E9fono', p.telefono, 'Ej: 88888888', 'tel')
+        + row('ep-dir', 'Direcci\u00F3n *', p.direccion, 'Calle, n\u00FAmero')
+        + '<div class="inline-form"><label>Referencia del local o casa</label><textarea id="ep-ref" rows="2" placeholder="Ej: Casa azul, frente al parque">' + esc(p.referencia || '') + '</textarea></div>'
+        + '<div class="inline-form"><label>Foto del local o casa</label><input id="ep-foto-ref" type="file" accept="image/*">'
+        + (p.foto_referencia ? '<br><img src="' + p.foto_referencia + '" style="max-width:200px;border-radius:8px;margin-top:8px">' : '') + '</div>'
+        + row('ep-ciu', 'Ciudad *', p.ciudad, 'Ej: Managua')
+        + row('ep-dep', 'Departamento *', p.departamento, 'Ej: Managua')
+        + row('ep-pais', 'Pa\u00EDs *', p.pais, 'Ej: Nicaragua')
+        + row('ep-tel', 'Tel\u00E9fono *', p.telefono, 'Ej: 88888888', 'tel')
         + '</details>'
         + '<button class="inline-save" id="ep-save">Guardar cambios</button>';
       document.getElementById('ep-save').onclick = function(){
@@ -690,26 +693,52 @@ function loadEditPanel(tok){
           whatsapp: document.getElementById('ep-wa').value.trim() || null,
           paypal_email: document.getElementById('ep-pp').value.trim() || null
         };
+        var dirV = document.getElementById('ep-dir').value.trim();
+        var ciuV = document.getElementById('ep-ciu').value.trim();
+        var depV = document.getElementById('ep-dep').value.trim();
+        var paiV = document.getElementById('ep-pais').value.trim();
+        var telV = document.getElementById('ep-tel').value.trim();
+        if(!dirV || !ciuV || !depV || !paiV || !telV){
+          alert('Completa tu dirección de envío y teléfono (son obligatorios).');
+          btn.textContent = 'Guardar cambios'; btn.disabled = false; return;
+        }
         var pr = {
-          direccion: document.getElementById('ep-dir').value.trim() || null,
-          ciudad: document.getElementById('ep-ciu').value.trim() || null,
-          departamento: document.getElementById('ep-dep').value.trim() || null,
-          pais: document.getElementById('ep-pais').value.trim() || null,
-          telefono: document.getElementById('ep-tel').value.trim() || null
+          direccion: dirV,
+          ciudad: ciuV,
+          departamento: depV,
+          pais: paiV,
+          telefono: telV,
+          referencia: document.getElementById('ep-ref').value.trim() || null
         };
-        fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
-          method: 'PATCH', headers: edH(tok), body: JSON.stringify(sp)
-        }).then(function(){
-          return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id, {
-            method: 'PATCH', headers: edH(tok), body: JSON.stringify(pr)
+        var fotoFile = document.getElementById('ep-foto-ref').files[0];
+        var doSave = function(){
+          fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
+            method: 'PATCH', headers: edH(tok), body: JSON.stringify(sp)
+          }).then(function(){
+            return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id, {
+              method: 'PATCH', headers: edH(tok), body: JSON.stringify(pr)
+            });
+          }).then(function(){
+            btn.textContent = '\u2713 Guardado';
+            setTimeout(function(){ location.reload(); }, 800);
+          }).catch(function(){
+            btn.textContent = 'Guardar cambios'; btn.disabled = false;
+            alert('No se pudo guardar. Intenta de nuevo.');
           });
-        }).then(function(){
-          btn.textContent = '\u2713 Guardado';
-          setTimeout(function(){ location.reload(); }, 800);
-        }).catch(function(){
-          btn.textContent = 'Guardar cambios'; btn.disabled = false;
-          alert('No se pudo guardar. Intenta de nuevo.');
-        });
+        };
+        if(fotoFile){
+          var ext = (fotoFile.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');
+          var path = 'referencias/' + SELLER.user_id + '-' + Date.now() + '.' + ext;
+          fetch(SUPABASE_URL + '/storage/v1/object/product-images/' + path, {
+            method: 'POST',
+            headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + tok, 'Content-Type': fotoFile.type || 'image/jpeg' },
+            body: fotoFile
+          }).then(function(r){ if(!r.ok) throw 0; return SUPABASE_URL + '/storage/v1/object/public/product-images/' + path; })
+          .then(function(url){ pr.foto_referencia = url; doSave(); })
+          .catch(function(){ doSave(); });
+          return;
+        }
+        doSave();
       };
     })
     .catch(function(){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">No se pudo cargar.</p>'; });
