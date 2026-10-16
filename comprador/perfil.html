@@ -124,7 +124,7 @@ function renderPayPalButtons(total){
     if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
     cont.innerHTML = '';
     paypal.Buttons({
-      style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'paypal' },
+      style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
       createOrder: function(data, actions){
         return actions.order.create({
           purchase_units: [{ amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' }]
