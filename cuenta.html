@@ -113,39 +113,53 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 <script>
 var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
 var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
-/* sesión persistente: renueva el token automáticamente */
-(function(){
-  try{
-    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
-    if(!s || !s.access_token || !s.refresh_token) return;
-    var exp = 0;
-    if(s.expires_at) exp = s.expires_at * 1000;
-    else { try{ exp = JSON.parse(atob(s.access_token.split('.')[1])).exp * 1000; }catch(e){} }
-    if(!exp || Date.now() < exp - 120000) return;
-    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
-      method: 'POST',
-      headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ refresh_token: s.refresh_token })
-    }).then(function(r){ return r.json(); }).then(function(ns){
-      if(ns && ns.access_token){ localStorage.setItem('dominus_session', JSON.stringify(ns)); location.reload(); }
-      else localStorage.removeItem('dominus_session');
-    }).catch(function(){});
-  }catch(e){}
-})();
+/* sesión persistente: renueva el token automáticamente (sin borrar ante fallos de red) */
+function getExp(s){
+  if(s.expires_at) return s.expires_at * 1000;
+  try{ return JSON.parse(atob(s.access_token.split('.')[1])).exp * 1000; }catch(e){ return 0; }
+}
+function doRefresh(s, cb){
+  fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
+    method: 'POST',
+    headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ refresh_token: s.refresh_token })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, st: r.status, j: j }; }); })
+  .then(function(res){
+    if(res.ok && res.j.access_token){
+      localStorage.setItem('dominus_session', JSON.stringify(res.j));
+      cb(res.j, true);
+    } else if(!res.ok && (res.st === 400 || res.st === 401)){
+      localStorage.removeItem('dominus_session');
+      cb(null, false);
+    } else {
+      cb(s, false);
+    }
+  }).catch(function(){ cb(s, false); });
+}
 
 /* si ya hay sesión activa, ir directo a su cuenta sin pedir login */
 (function(){
   try{
     var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
-    if(!s || !s.access_token) return;
-    fetch(SUPABASE_URL + '/auth/v1/user', {
-      headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token }
-    }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
-    .then(function(res){
-      if(!res.ok || !res.j.id){ localStorage.removeItem('dominus_session'); return; }
-      s.user = res.j;
-      ensureProfile(s).then(function(tp){ goTo(tp, s); });
-    }).catch(function(){});
+    if(!s || !s.access_token || !s.refresh_token) return;
+    function validar(sess){
+      fetch(SUPABASE_URL + '/auth/v1/user', {
+        headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token }
+      }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j, st: r.status }; }); })
+      .then(function(res){
+        if(res.st === 401 || res.st === 403){ localStorage.removeItem('dominus_session'); return; }
+        if(!res.ok || !res.j.id) return;
+        sess.user = res.j;
+        try{ localStorage.setItem('dominus_session', JSON.stringify(sess)); }catch(e){}
+        ensureProfile(sess).then(function(tp){ goTo(tp, sess); });
+      }).catch(function(){});
+    }
+    var exp = getExp(s);
+    if(exp && Date.now() >= exp - 120000){
+      doRefresh(s, function(ns){ if(ns) validar(ns); });
+    } else {
+      validar(s);
+    }
   }catch(e){}
 })();
 
