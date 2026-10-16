@@ -48,6 +48,30 @@ main{max-width:1000px;margin:0 auto;padding:26px 18px 70px}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px}
 @media(min-width:760px){.grid{grid-template-columns:repeat(auto-fill,minmax(215px,1fr))}.cover{height:340px}}
 @media(max-width:560px){.profile{margin-top:-52px}.avatar{flex-basis:104px;width:104px;height:104px;font-size:42px}.cover{height:220px}}
+.about{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin-top:18px}
+.about h2{font-size:18px;margin-bottom:10px}
+.about h2 .hl{color:var(--acc)}
+.about p{font-size:14px;line-height:1.7;color:#d4d9e2;white-space:pre-wrap}
+.reviews{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin-top:18px}
+.reviews h2{font-size:18px;margin-bottom:12px}
+.reviews h2 .hl{color:var(--acc)}
+.stars{color:#f5b301;font-size:16px;letter-spacing:2px}
+.wall-rating{margin-top:6px;font-size:13px;color:var(--mut)}
+.avg{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.avg b{font-size:30px}
+.rev{border-top:1px solid var(--line);padding:13px 0}
+.rev .rn{font-weight:700;font-size:14px}
+.rev .rt{color:var(--mut);font-size:12px;margin-left:8px}
+.rev p{font-size:14px;color:#d4d9e2;margin-top:6px;line-height:1.6}
+.rform label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
+.rform textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:14px;padding:12px;min-height:90px;resize:vertical;outline:none}
+.rform textarea:focus{border-color:var(--acc)}
+.starin{display:flex;gap:6px}
+.starin button{background:none;border:0;color:#3a4354;font-size:30px;cursor:pointer;font-family:inherit;padding:0}
+.starin button.on{color:#f5b301}
+.rerr{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
+.login-cta{text-align:center;font-size:14px;color:var(--mut);padding:14px}
+.login-cta a{color:var(--acc);font-weight:700;text-decoration:none}
 @media(max-width:600px){
 .cover{height:150px}
 .avatar{width:88px;height:88px;margin:-44px 0 0 16px}
@@ -81,7 +105,7 @@ function money(n){ return '$' + Number(n).toFixed(2); }
 function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
 function addToCart(pid, btn){
   var s = buyerSession();
-  if(!s){ location.href = '../comprador/cuenta.html'; return; }
+  if(!s){ location.href = '../cuenta.html?tipo=comprador'; return; }
   btn.disabled = true; btn.textContent = 'Agregando…';
   fetch(SUPABASE_URL + '/rest/v1/cart_items', {
     method: 'POST',
@@ -106,6 +130,9 @@ document.addEventListener('click', function(e){
 });
 function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 var slug = new URLSearchParams(location.search).get('s') || 'tech-zone';
+var SELLER = null, myRating = 5;
+function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
+function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
 Promise.all([
   api('sellers?slug=eq.' + encodeURIComponent(slug) + '&select=*&limit=1'),
   api('products?select=*,sellers!inner(slug)&activo=eq.true&sellers.slug=eq.' + encodeURIComponent(slug) + '&order=created_at.desc')
@@ -115,29 +142,74 @@ Promise.all([
     document.getElementById('wall').innerHTML = '<div class="empty">Este vendedor no existe.</div>';
     return;
   }
+  SELLER = s;
   document.getElementById('title').textContent = s.nombre + ' — Dominus';
   var av = s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="' + esc(s.nombre) + '">' : esc(s.nombre.charAt(0));
   document.getElementById('wall').innerHTML =
     '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div></div>'
     + '<div class="wrap"><div class="profile"><span class="avatar">' + av + '</span>'
     + '<div class="p-head"><h1>' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + '</h1>'
-    + '<div class="loc">' + esc(s.ubicacion || '') + '</div></div>'
-    + '<div class="p-actions"><a class="btn btn-wa" href="https://wa.me/' + esc(s.whatsapp || '15704698339') + '?text=' + encodeURIComponent('Hola ' + s.nombre + ', me interesa un producto de tu muro en Dominus') + '" target="_blank" rel="noopener">WhatsApp</a></div>'
+    + '<div class="loc">' + esc(s.ubicacion || '') + '</div>'
+    + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
     + (s.descripcion ? '<p class="desc">' + esc(s.descripcion) + '</p>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
-    + '<span class="pill">Pago protegido PayPal</span></div></div>';
+    + '<span class="pill">Pago protegido PayPal</span></div>'
+    + (s.descripcion_larga ? '<div class="about"><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p>' + esc(s.descripcion_larga) + '</p></div>' : '')
+    + '</div>';
   document.getElementById('grid').innerHTML = prods.length ? prods.map(function(p){
-    return '<div class="card">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
-      + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div>'
+    return '<div class="card"><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
+      + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
       + '<div class="card-price">' + money(p.precio) + '</div>'
       + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
       + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button></div></div>';
   }).join('') : '<div class="empty">Este vendedor aún no publica productos.</div>';
+  loadReviews();
 }).catch(function(){
   document.getElementById('wall').innerHTML = '<div class="empty">No se pudo cargar. Revisa tu conexión.</div>';
 });
+function loadReviews(){
+  api('seller_reviews?seller_id=eq.' + SELLER.id + '&select=*&order=created_at.desc').then(function(rows){
+    var avg = rows.length ? rows.reduce(function(a, r){ return a + r.rating; }, 0) / rows.length : 0;
+    var wr = document.getElementById('wall-rating');
+    if(wr && rows.length) wr.innerHTML = starsHTML(avg) + ' <small>' + avg.toFixed(1) + ' · ' + rows.length + ' reseña(s)</small>';
+    var sess = buyerSession();
+    var html = '<div class="wrap"><div class="reviews"><h2>Reseñas <span class="hl">(' + rows.length + ')</span></h2>';
+    if(rows.length){
+      html += '<div class="avg"><b>' + avg.toFixed(1) + '</b>' + starsHTML(avg) + '</div>';
+      html += rows.map(function(r){
+        return '<div class="rev"><span class="rn">' + esc(r.nombre || 'Comprador') + '</span><span class="rt">' + new Date(r.created_at).toLocaleDateString('es') + '</span><div>' + starsHTML(r.rating) + '</div><p>' + esc(r.comentario || '') + '</p></div>';
+      }).join('');
+    } else html += '<p class="empty">Sé el primero en dejar una reseña.</p>';
+    if(sess){
+      html += '<div class="rform"><h2>Deja tu <span class="hl">reseña</span></h2>'
+        + '<label>Calificación</label><div class="starin" id="starin">' + [1,2,3,4,5].map(function(i){ return '<button data-v="' + i + '" class="' + (i <= 5 ? 'on' : '') + '">★</button>'; }).join('') + '</div>'
+        + '<label>Comentario</label><textarea id="r-com" placeholder="¿Qué tal tu experiencia con esta empresa?"></textarea>'
+        + '<button class="btn" id="r-send" style="margin-top:12px">Publicar reseña</button><div class="rerr" id="rerr"></div></div>';
+    } else {
+      html += '<p class="login-cta"><a href="../cuenta.html?tipo=comprador">Entra a tu cuenta</a> para dejar una reseña.</p>';
+    }
+    html += '</div></div>';
+    document.getElementById('wall').insertAdjacentHTML('beforeend', html);
+    var si = document.getElementById('starin');
+    if(si){
+      si.querySelectorAll('button').forEach(function(b){
+        b.onclick = function(){ myRating = Number(b.dataset.v); si.querySelectorAll('button').forEach(function(x){ x.classList.toggle('on', Number(x.dataset.v) <= myRating); }); };
+      });
+      document.getElementById('r-send').onclick = function(){
+        var com = document.getElementById('r-com').value.trim();
+        var name = (sess.user.user_metadata && sess.user.user_metadata.nombre) || (sess.user.email || '').split('@')[0] || 'Comprador';
+        fetch(SUPABASE_URL + '/rest/v1/seller_reviews', {
+          method: 'POST',
+          headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ seller_id: SELLER.id, user_id: sess.user.id, nombre: name, rating: myRating, comentario: com || null })
+        }).then(function(r){ if(!r.ok) throw 0; loadReviews(); })
+          .catch(function(){ var e = document.getElementById('rerr'); e.textContent = 'No se pudo publicar. Intenta de nuevo.'; e.style.display = 'block'; });
+      };
+    }
+  }).catch(function(){});
+}
 </script>
 </body>
 </html>

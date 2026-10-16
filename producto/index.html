@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Producto — Dominus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--err:#ff5d5d;--star:#f5b301}
+body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(8,9,13,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
+.logo em{font-style:normal;color:var(--acc)}
+.back{color:var(--mut);text-decoration:none;font-size:14px}
+main{max-width:900px;margin:0 auto;padding:22px 18px 70px}
+.pd{display:grid;grid-template-columns:1fr;gap:20px}
+@media(min-width:720px){.pd{grid-template-columns:1fr 1fr}}
+.pd-img{border-radius:20px;overflow:hidden;background:#161b24;aspect-ratio:1}
+.pd-img img{width:100%;height:100%;object-fit:cover;display:block}
+.pd-info h1{font-size:26px;font-weight:900;margin-bottom:6px}
+.pd-seller{font-size:14px;color:var(--mut);margin-bottom:12px}
+.pd-seller a{color:var(--acc);text-decoration:none;font-weight:700}
+.pd-price{font-size:34px;font-weight:900;color:var(--acc);margin:10px 0 16px}
+.btn{display:block;width:100%;background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer;text-align:center;text-decoration:none;margin-top:10px}
+.btn-ghost{background:none;border:1px solid var(--line);color:var(--txt)}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;margin-top:20px}
+.sec h2{font-size:19px;margin-bottom:12px}
+.sec h2 .hl{color:var(--acc)}
+.sec p.desc{font-size:15px;line-height:1.7;color:#d4d9e2;white-space:pre-wrap}
+.specs{font-size:14px;line-height:1.8;color:#d4d9e2;white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:16px}
+.stars{color:var(--star);font-size:18px;letter-spacing:2px}
+.rev{border-top:1px solid var(--line);padding:14px 0}
+.rev:first-of-type{border-top:0}
+.rev .rn{font-weight:700;font-size:14px}
+.rev .rt{color:var(--mut);font-size:12px;margin-left:8px}
+.rev p{font-size:14px;color:#d4d9e2;margin-top:6px;line-height:1.6}
+.avg{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.avg b{font-size:32px}
+.rform label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
+.rform textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:14px;padding:12px;min-height:90px;resize:vertical;outline:none}
+.rform textarea:focus{border-color:var(--acc)}
+.starin{display:flex;gap:6px;font-size:30px}
+.starin button{background:none;border:0;color:#3a4354;font-size:30px;cursor:pointer;font-family:inherit;padding:0}
+.starin button.on{color:var(--star)}
+.rerr{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
+.empty{color:var(--mut);font-size:14px;text-align:center;padding:20px}
+.login-cta{text-align:center;font-size:14px;color:var(--mut);padding:16px}
+.login-cta a{color:var(--acc);font-weight:700;text-decoration:none}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="back" href="../productos/">← Productos</a>
+  <a class="logo" href="../index.html">DOMIN<em>US</em></a>
+  <a href="../comprador/perfil.html" style="text-decoration:none;font-size:18px" title="Mi carrito">🛒</a>
+</header>
+<main id="main"><p class="empty">Cargando…</p></main>
+<footer>© 2026 Dominus · Compra y vende seguro</footer>
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+function api(path, token){
+  var hh = { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' };
+  if(token) hh['Authorization'] = 'Bearer ' + token;
+  return fetch(SUPABASE_URL + '/rest/v1/' + path, { headers: hh }).then(function(r){
+    if(!r.ok) throw new Error('api ' + r.status); return r.json();
+  });
+}
+function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function money(n){ return '$' + Number(n).toFixed(2); }
+function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
+function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
+
+var PID = new URLSearchParams(location.search).get('id');
+var PRODUCT = null, REVIEWS = [], myRating = 5;
+
+function load(){
+  if(!PID){ document.getElementById('main').innerHTML = '<p class="empty">Producto no encontrado.</p>'; return; }
+  Promise.all([
+    api('products?id=eq.' + PID + '&select=*,sellers!inner(id,slug,nombre,verificado)'),
+    api('product_reviews?product_id=eq.' + PID + '&select=*&order=created_at.desc')
+  ]).then(function(res){
+    if(!res[0].length || !res[0][0].activo){ document.getElementById('main').innerHTML = '<p class="empty">Este producto ya no está disponible.</p>'; return; }
+    PRODUCT = res[0][0]; REVIEWS = res[1] || [];
+    document.title = PRODUCT.titulo + ' — Dominus';
+    render();
+  }).catch(function(){ document.getElementById('main').innerHTML = '<p class="empty">No se pudo cargar. Revisa tu conexión.</p>'; });
+}
+function render(){
+  var p = PRODUCT, s = p.sellers || {};
+  var avg = REVIEWS.length ? REVIEWS.reduce(function(a, r){ return a + r.rating; }, 0) / REVIEWS.length : 0;
+  var sess = buyerSession();
+  var html = '<div class="pd"><div class="pd-img">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '">' : '') + '</div>'
+    + '<div class="pd-info"><h1>' + esc(p.titulo) + '</h1>'
+    + '<div class="pd-seller">Vendido por <a href="../vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a>' + (s.verificado ? ' ✓' : '') + '</div>'
+    + (REVIEWS.length ? '<div>' + starsHTML(avg) + ' <small style="color:var(--mut)">' + avg.toFixed(1) + ' · ' + REVIEWS.length + ' reseña(s)</small></div>' : '<small style="color:var(--mut)">Sin reseñas aún</small>')
+    + '<div class="pd-price">' + money(p.precio) + '</div>'
+    + '<a class="btn" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
+    + '<button class="btn btn-ghost" id="btn-cart">+ Agregar al carrito</button></div></div>';
+  if(p.descripcion) html += '<div class="sec"><h2>Descripción</h2><p class="desc">' + esc(p.descripcion) + '</p></div>';
+  if(p.especificaciones) html += '<div class="sec"><h2>Especificaciones</h2><div class="specs">' + esc(p.especificaciones) + '</div></div>';
+  html += '<div class="sec"><h2>Reseñas <span class="hl">(' + REVIEWS.length + ')</span></h2>';
+  if(REVIEWS.length){
+    html += '<div class="avg"><b>' + avg.toFixed(1) + '</b>' + starsHTML(avg) + '</div>';
+    html += REVIEWS.map(function(r){
+      return '<div class="rev"><span class="rn">' + esc(r.nombre || 'Comprador') + '</span><span class="rt">' + new Date(r.created_at).toLocaleDateString('es') + '</span><div>' + starsHTML(r.rating) + '</div><p>' + esc(r.comentario || '') + '</p></div>';
+    }).join('');
+  } else html += '<p class="empty">Sé el primero en dejar una reseña.</p>';
+  if(sess){
+    html += '<div class="rform"><h2 style="margin-top:8px">Deja tu <span class="hl">reseña</span></h2>'
+      + '<label>Calificación</label><div class="starin" id="starin">' + [1,2,3,4,5].map(function(i){ return '<button data-v="' + i + '" class="' + (i <= 5 ? 'on' : '') + '">★</button>'; }).join('') + '</div>'
+      + '<label>Comentario</label><textarea id="r-com" placeholder="¿Qué te pareció este producto?"></textarea>'
+      + '<button class="btn" id="r-send">Publicar reseña</button><div class="rerr" id="rerr"></div></div>';
+  } else {
+    html += '<p class="login-cta"><a href="../cuenta.html?tipo=comprador">Entra a tu cuenta</a> para dejar una reseña.</p>';
+  }
+  html += '</div>';
+  document.getElementById('main').innerHTML = html;
+
+  document.getElementById('btn-cart').onclick = function(){
+    var b = this;
+    if(!sess){ location.href = '../cuenta.html?tipo=comprador'; return; }
+    b.disabled = true; b.textContent = 'Agregando…';
+    fetch(SUPABASE_URL + '/rest/v1/cart_items', {
+      method: 'POST',
+      headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates,return=representation' },
+      body: JSON.stringify({ user_id: sess.user.id, product_id: PRODUCT.id, qty: 1 })
+    }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+      .then(function(res){
+        if(res.ok && res.j.length && res.j[0].qty > 1){
+          fetch(SUPABASE_URL + '/rest/v1/cart_items?id=eq.' + res.j[0].id, {
+            method: 'PATCH', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ qty: res.j[0].qty + 1 })
+          });
+        }
+        b.textContent = '✓ En el carrito';
+      }).catch(function(){ b.disabled = false; b.textContent = '+ Agregar al carrito'; });
+  };
+  var si = document.getElementById('starin');
+  if(si){
+    si.querySelectorAll('button').forEach(function(b){
+      b.onclick = function(){ myRating = Number(b.dataset.v); si.querySelectorAll('button').forEach(function(x){ x.classList.toggle('on', Number(x.dataset.v) <= myRating); }); };
+    });
+    document.getElementById('r-send').onclick = sendReview;
+  }
+}
+function sendReview(){
+  var sess = buyerSession();
+  if(!sess) return;
+  var com = document.getElementById('r-com').value.trim();
+  var name = (sess.user.user_metadata && sess.user.user_metadata.nombre) || (sess.user.email || '').split('@')[0] || 'Comprador';
+  fetch(SUPABASE_URL + '/rest/v1/product_reviews', {
+    method: 'POST',
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ product_id: PRODUCT.id, user_id: sess.user.id, nombre: name, rating: myRating, comentario: com || null })
+  }).then(function(r){ if(!r.ok) throw 0; load(); })
+    .catch(function(){ var e = document.getElementById('rerr'); e.textContent = 'No se pudo publicar. Intenta de nuevo.'; e.style.display = 'block'; });
+}
+load();
+</script>
+</body>
+</html>

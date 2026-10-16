@@ -106,6 +106,7 @@ function render(){
     + (seller.cover_url ? '<img src="' + esc(seller.cover_url) + '" style="width:100%;max-width:220px;height:70px;object-fit:cover;border-radius:10px;margin-top:8px">' : '') + '</div></div>'
     + '<label>Nombre del negocio</label><input id="w-nombre" value="' + esc(seller.nombre) + '">'
     + '<label>Descripción</label><textarea id="w-desc">' + esc(seller.descripcion || '') + '</textarea>'
+    + '<label>Descripción larga (acerca de tu empresa, se muestra arriba en tu muro)</label><textarea id="w-about" style="min-height:110px" placeholder="Cuenta la historia de tu empresa, qué te hace diferente…">' + esc(seller.descripcion_larga || '') + '</textarea>'
     + '<div class="row2"><div><label>Ubicación</label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '"></div>'
     + '<div><label>WhatsApp</label><input id="w-wa" value="' + esc(seller.whatsapp || '') + '"></div></div>'
     + '<div class="err" id="w-err"></div>'
@@ -115,11 +116,13 @@ function render(){
     + '<div class="row2"><div><label>Precio (USD) *</label><input id="f-precio" type="number" min="0" step="0.01" placeholder="49.99"></div>'
     + '<div><label>Categoría</label><input id="f-cat" placeholder="Ej: Electrónica"></div></div>'
     + '<label>Descripción</label><textarea id="f-desc" placeholder="Detalles, estado, qué incluye…"></textarea>'
+    + '<label>Especificaciones</label><textarea id="f-specs" placeholder="Medidas, materiales, modelo, garantía…"></textarea>'
     + '<label>Foto *</label><input id="f-img" type="file" accept="image/*">'
     + '<img class="preview-img" id="f-prev">'
     + '<div class="err" id="f-err"></div>'
     + '<button class="btn" id="f-btn">Publicar producto</button></div>'
-    + '<div class="sec"><h2>Mis productos</h2><div id="plist"></div></div>';
+    + '<div class="sec"><h2>Mis productos</h2><div id="plist"></div></div>'
+    + '<div class="sec"><h2>Reseñas <span class="hl">recibidas</span></h2><div id="rl-list"><p class="empty">Cargando…</p></div></div>';
   renderList();
   document.getElementById('f-img').addEventListener('change', function(){
     var f = this.files[0];
@@ -150,6 +153,7 @@ function saveWall(){
     var i = 0, patch = {
       nombre: document.getElementById('w-nombre').value.trim() || seller.nombre,
       descripcion: document.getElementById('w-desc').value.trim() || null,
+      descripcion_larga: document.getElementById('w-about').value.trim() || null,
       ubicacion: document.getElementById('w-ubica').value.trim() || null,
       whatsapp: document.getElementById('w-wa').value.trim() || null
     };
@@ -164,6 +168,20 @@ function saveWall(){
     }).then(function(rows){ seller = rows[0]; render(); })
     .catch(function(){ werr('No se pudo guardar. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Guardar cambios'; });
 }
+function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span style="color:#f5b301;letter-spacing:2px">' + s + '</span>'; }
+function loadReviews(){
+  var el = document.getElementById('rl-list');
+  if(!el) return;
+  fetch(SUPABASE_URL + '/rest/v1/seller_reviews?seller_id=eq.' + seller.id + '&select=*&order=created_at.desc', { headers: h(session.access_token) })
+    .then(function(r){ return r.json(); }).then(function(rows){
+      if(!rows.length){ el.innerHTML = '<p class="empty">Aún no recibes reseñas.</p>'; return; }
+      var avg = rows.reduce(function(a, r){ return a + r.rating; }, 0) / rows.length;
+      el.innerHTML = '<p style="margin-bottom:14px"><b style="font-size:26px">' + avg.toFixed(1) + '</b> ' + starsHTML(avg) + ' <small style="color:var(--mut)">(' + rows.length + ')</small></p>'
+        + rows.slice(0, 10).map(function(r){
+            return '<div style="border-top:1px solid var(--line);padding:12px 0"><b style="font-size:14px">' + esc(r.nombre || 'Comprador') + '</b> <small style="color:var(--mut)">' + new Date(r.created_at).toLocaleDateString('es') + '</small><div>' + starsHTML(r.rating) + '</div><p style="font-size:14px;color:#d4d9e2;margin-top:6px">' + esc(r.comentario || '') + '</p></div>';
+          }).join('');
+    }).catch(function(){ el.innerHTML = '<p class="empty">No se pudieron cargar.</p>'; });
+}
 function renderList(){
   var el = document.getElementById('plist');
   if(!products.length){ el.innerHTML = '<p class="empty">Aún no tienes productos. ¡Sube el primero!</p>'; return; }
@@ -177,6 +195,7 @@ function renderList(){
   }).join('');
   el.querySelectorAll('[data-act]').forEach(function(b){ b.onclick = function(){ toggleProduct(b.dataset.act); }; });
   el.querySelectorAll('[data-del]').forEach(function(b){ b.onclick = function(){ if(confirm('¿Eliminar este producto?')) delProduct(b.dataset.del); }; });
+  loadReviews();
 }
 function ferr(m){ var e = document.getElementById('f-err'); e.textContent = m; e.style.display = 'block'; }
 function publishProduct(){
@@ -198,7 +217,7 @@ function publishProduct(){
     var imgUrl = SUPABASE_URL + '/storage/v1/object/public/product-images/' + path;
     return fetch(SUPABASE_URL + '/rest/v1/products', {
       method: 'POST', headers: h(session.access_token, true),
-      body: JSON.stringify({ seller_id: seller.id, titulo: titulo, descripcion: document.getElementById('f-desc').value.trim() || null,
+      body: JSON.stringify({ seller_id: seller.id, titulo: titulo, descripcion: document.getElementById('f-desc').value.trim() || null, especificaciones: document.getElementById('f-specs').value.trim() || null,
         precio: precio, categoria: document.getElementById('f-cat').value.trim() || 'General', imagen_url: imgUrl,
         paypal_link: 'https://www.paypal.com/paypalme/tuusuario/', activo: true })
     });

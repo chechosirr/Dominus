@@ -109,17 +109,36 @@ function render(){
     + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas a Dominus por PayPal y coordinamos el envío de cada vendedor con rastreo.</p>';
   }
   html += '</div></div>'
-    + '<div class="sec sell-box">¿Tienes un negocio? <a href="../vendedor/cuenta.html">Abre tu muro de vendedor →</a></div>';
+    + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
+    + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
   document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; };
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
   document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
   var waBtn = document.getElementById('wa-order');
+  loadMyReviews();
   if(waBtn){
     var lines = cart.map(function(it){ return '• ' + it.products.titulo + ' x' + it.qty + ' (' + money(Number(it.products.precio) * it.qty) + ') — ' + it.products.sellers.nombre; });
     waBtn.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent('Hola Dominus, mi pedido:\n' + lines.join('\n') + '\nTotal: ' + money(total));
   }
+}
+function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
+function loadMyReviews(){
+  var el = document.getElementById('my-revs');
+  if(!el) return;
+  Promise.all([
+    fetch(SUPABASE_URL + '/rest/v1/seller_reviews?user_id=eq.' + session.user.id + '&select=*,sellers!inner(nombre)&order=created_at.desc', { headers: h(session.access_token) }).then(function(r){ return r.ok ? r.json() : []; }),
+    fetch(SUPABASE_URL + '/rest/v1/product_reviews?user_id=eq.' + session.user.id + '&select=*,products!inner(titulo)&order=created_at.desc', { headers: h(session.access_token) }).then(function(r){ return r.ok ? r.json() : []; })
+  ]).then(function(res){
+    var items = res[0].map(function(r){ return { t: 'Empresa: ' + r.sellers.nombre, rating: r.rating, com: r.comentario, d: r.created_at }; })
+      .concat(res[1].map(function(r){ return { t: 'Producto: ' + r.products.titulo, rating: r.rating, com: r.comentario, d: r.created_at }; }));
+    items.sort(function(a, b){ return new Date(b.d) - new Date(a.d); });
+    if(!items.length){ el.innerHTML = '<p class="empty">Aún no dejas reseñas.</p>'; return; }
+    el.innerHTML = items.slice(0, 10).map(function(r){
+      return '<div class="item"><div class="info"><b>' + esc(r.t) + '</b><div>' + starsHTML(r.rating) + '</div><small>' + esc(r.com || '') + '</small></div></div>';
+    }).join('');
+  }).catch(function(){ el.innerHTML = '<p class="empty">No se pudieron cargar.</p>'; });
 }
 function chQty(id, d){
   var it = cart.find(function(x){ return x.id === id; });

@@ -205,14 +205,13 @@ document.getElementById('btn-profile').onclick = function(){
     .catch(function(e){ if(e.message !== 'stop'){ showErr('err2', 'Error de conexión. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Crear mi muro'; } });
 };
 
-// Si ya hay sesión, ir directo
+// Si no hay sesión, ir a la cuenta unificada; si hay, mostrar el formulario del muro
 (function(){
   var s = getSession();
-  if(s && s.access_token){
-    fetch(SUPABASE_URL + '/auth/v1/user', { headers: headers(s.access_token) })
-      .then(function(r){ if(r.ok) afterAuth(s); else localStorage.removeItem('dominus_session'); })
-      .catch(function(){});
-  }
+  if(!s || !s.access_token){ location.href = '../cuenta.html?tipo=vendedor'; return; }
+  fetch(SUPABASE_URL + '/auth/v1/user', { headers: headers(s.access_token) })
+    .then(function(r){ if(r.ok) afterAuth(s); else location.href = '../cuenta.html?tipo=vendedor'; })
+    .catch(function(){});
 })();
 </script>
 </body>

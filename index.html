@@ -98,7 +98,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     <a href="#vendedores">Vendedores</a>
     <a href="#como-funciona">Cómo funciona</a>
     <a href="#vender">Vender</a>
-    <a href="comprador/cuenta.html">Mi cuenta</a>
+    <a href="cuenta.html">Mi cuenta</a>
   </nav>
 </header>
 <div class="hero">
@@ -208,9 +208,9 @@ function sellerCard(s){
 function productCard(p){
   var s = p.sellers || {};
   var img = p.imagen_url || '';
-  return '<div class="card"><div class="ph">' + (img ? '<img src="' + esc(img) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
+  return '<div class="card"><a href="producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block"><div class="ph">' + (img ? '<img src="' + esc(img) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
     + '<span class="cat">' + esc(p.categoria || 'General') + '</span></div>'
-    + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div>'
+    + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
     + '<div class="card-seller">por <a href="vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a></div>'
     + '<div class="card-price">' + money(p.precio) + '</div>'
     + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
@@ -268,7 +268,7 @@ document.getElementById('q-btn').onclick = function(){ qTop.value = qHero.value;
 function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
 function addToCart(pid, btn){
   var s = buyerSession();
-  if(!s){ location.href = 'comprador/cuenta.html'; return; }
+  if(!s){ location.href = 'cuenta.html?tipo=comprador'; return; }
   btn.disabled = true; btn.textContent = 'Agregando…';
   fetch(SUPABASE_URL + '/rest/v1/cart_items', {
     method: 'POST',

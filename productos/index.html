@@ -86,9 +86,9 @@ function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_
 function cardHTML(p){
   var s = p.sellers || {};
   var img = p.imagen_url || '';
-  return '<div class="card"><div class="ph">' + (img ? '<img src="' + esc(img) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
+  return '<div class="card"><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block"><div class="ph">' + (img ? '<img src="' + esc(img) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
     + '<span class="cat">' + esc(p.categoria || 'General') + '</span></div>'
-    + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div>'
+    + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
     + '<div class="card-seller">por <a href="../vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a></div>'
     + '<div class="card-price">' + money(p.precio) + '</div>'
     + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar</a>'
@@ -139,7 +139,7 @@ function render(){
 }
 function addToCart(pid, btn){
   var s = buyerSession();
-  if(!s){ location.href = '../comprador/cuenta.html'; return; }
+  if(!s){ location.href = '../cuenta.html?tipo=comprador'; return; }
   btn.disabled = true; btn.textContent = 'Agregando…';
   fetch(SUPABASE_URL + '/rest/v1/cart_items', {
     method: 'POST',
