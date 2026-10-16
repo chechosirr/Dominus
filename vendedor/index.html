@@ -314,7 +314,7 @@ Promise.all([
     + '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
     + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">Cambiar portada</button>' : '') + '</div>'
     + '<div class="wrap"><div class="profile">'
-    + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">\u2713</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
+    + '<div class="p-head"><h1>' + esc(s.nombre) + (s.verificado ? ' <span class="verif">\u2713</span>' : '') + '</h1>'
     + '<div class="loc ' + (own ? 'editable' : '') + '" data-field="ubicacion">' + esc(s.ubicacion || (own ? 'Agregar ubicación' : '')) + '</div>'
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
@@ -674,7 +674,8 @@ function loadEditPanel(tok){
           + '<input id="' + id + '" type="' + (type || 'text') + '" value="' + esc(val || '') + '" placeholder="' + ph + '"></div>';
       }
       box.innerHTML =
-        row('ep-wa', 'WhatsApp', SELLER.whatsapp, 'Ej: 50588888888', 'tel')
+        row('ep-nombre', 'Nombre del negocio', SELLER.nombre, 'Ej: Mi Tienda')
+        + row('ep-wa', 'WhatsApp', SELLER.whatsapp, 'Ej: 50588888888', 'tel')
         + row('ep-pp', 'PayPal', SELLER.paypal_email, 'Correo de PayPal', 'email')
         + '<details><summary>Datos de env\u00EDo</summary>'
         + row('ep-dir', 'Direcci\u00F3n *', p.direccion, 'Calle, n\u00FAmero')
@@ -690,6 +691,7 @@ function loadEditPanel(tok){
       document.getElementById('ep-save').onclick = function(){
         var btn = this; btn.textContent = 'Guardando\u2026'; btn.disabled = true;
         var sp = {
+          nombre: document.getElementById('ep-nombre').value.trim() || SELLER.nombre,
           whatsapp: document.getElementById('ep-wa').value.trim() || null,
           paypal_email: document.getElementById('ep-pp').value.trim() || null
         };
