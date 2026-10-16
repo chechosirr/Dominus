@@ -14,7 +14,7 @@
 :root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--err:#ff5d5d}
 body{background:#ffffff;background-attachment:fixed;color:#111111;font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh}
 header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:#2a2a2e;border-bottom:1px solid var(--line)}
-.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;flex:0 0 auto}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;flex:0 0 auto;color:#111111!important}
 .logo em{font-style:normal;color:var(--acc)}
 .top-actions{display:flex;gap:10px;align-items:center}
 .link{color:var(--mut);text-decoration:none;font-size:13px}
@@ -137,7 +137,7 @@ function renderPayPalButtons(total){
           document.getElementById('main').innerHTML = '<div class="sec" style="text-align:center;padding:40px 20px">'
             + '<div style="font-size:52px">\u2705</div>'
             + '<h2>\u00A1Pago completado!</h2>'
-            + '<p style="color:var(--mut)">Gracias ' + esc((details.payer.name || {}).given_name || '') + '. Tu pago de ' + money(total) + ' fue enviado a cada vendedor por PayPal.<br>Coordinamos el env\u00EDo con cada uno.</p>'
+            + '<p style="color:var(--mut)">Gracias ' + esc((details.payer.name || {}).given_name || '') + '. Tu pago de ' + money(total) + ' fue recibido por PayPal.<br>Coordinamos el env\u00EDo con cada vendedor.</p>'
             + '<a class="btn" href="../index.html" style="margin-top:16px;display:inline-block">Seguir explorando</a></div>';
         });
       },
@@ -254,12 +254,9 @@ function loadCart(){
     .catch(function(){ document.getElementById('main').innerHTML = '<p class="empty">No se pudo cargar. Revisa tu conexión.</p>'; });
 }
 var SERGIO_PAYPAL = "Sergioromero97531@gmail.com";
-var FEE_RATE = 0.1174;   // 11.74% — cubre doble comisión PayPal (5.4%+$0.30 x2) y deja $1 neto
-var FEE_FIXED = 1.71;
-var SHIP_FEE = 2.00;
+var SERVICE_FEE = 1.00;   // $1 fijo por transacción (modelo aprobado por Sergio)
 function calcFees(subtotal){
-  var service = subtotal * FEE_RATE + FEE_FIXED;
-  return { service: service, shipping: SHIP_FEE, total: subtotal + service + SHIP_FEE };
+  return { service: SERVICE_FEE, shipping: 0, total: subtotal + SERVICE_FEE };
 }
 function render(){
   var name = (session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
@@ -285,11 +282,10 @@ function render(){
     }).join('')
     + '<div class="total"><span>Subtotal</span><span>' + money(subtotal) + '</span></div>'
     + '<div class="total" style="font-size:14px;color:var(--mut)"><span>Tasa de servicio</span><span>' + money(fees.service) + '</span></div>'
-    + '<div class="total" style="font-size:14px;color:var(--mut)"><span>Envío</span><span>' + money(fees.shipping) + '</span></div>'
     + '<div class="total"><span>Total</span><span>' + money(total) + '</span></div>'
     + '<div id="paypal-button-container" style="margin-top:6px"></div>'
     + '<a class="btn btn-wa" id="wa-order" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>'
-    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye tasa de servicio y $2.00 de envío. Pagas directo a cada vendedor por PayPal y coordinamos el envío con rastreo.</p>';
+    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye $1.00 de tasa de servicio. Pagas el total por PayPal en una sola transacción y coordinamos el envío con rastreo.</p>';
   }
   html += '</div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
