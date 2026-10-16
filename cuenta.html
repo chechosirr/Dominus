@@ -65,7 +65,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
       <a href="index.html">Inicio</a>
       <a href="cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
       <a href="comprador/perfil.html">Carrito</a>
-    </nav>
+          <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
+</nav>
   </div>
 </header>
 <main>
@@ -275,6 +276,24 @@ function goMiCuenta(){
     return false;
   }catch(e){ return true; }
 }
+function doLogout(){
+  try{
+    localStorage.removeItem('dominus_session');
+    localStorage.removeItem('dominus_tipo');
+    localStorage.removeItem('dominus_slug');
+  }catch(e){}
+  location.href = '/Dominus/index.html';
+  return false;
+}
+(function(){
+  try{
+    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+    if(s && s.access_token){
+      var b = document.getElementById('menu-logout');
+      if(b) b.style.display = 'block';
+    }
+  }catch(e){}
+})();
 </script>
 </body>
 </html>
