@@ -293,20 +293,20 @@ Promise.all([
   document.getElementById('title').textContent = s.nombre + ' — Dominus';
 
   var dashHTML = own ?
-    '<div class="wrap"><div class="dash ed-only"><h2>' + esc(s.nombre) + '</h2><p>Panel del vendedor</p>'
+    '<div class="wrap"><div class="dash"><h2>' + esc(s.nombre) + '</h2><p>Panel del vendedor</p>'
     + '<button class="dash-btn" data-goto="info"><span>Informaci\u00F3n del negocio</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="editar"><span>Editar muro</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="historial"><span>Historial de ventas</span><span>\u203A</span></button>'
     + '</div></div>' : '';
   var infoHTML = own ?
     '<div class="wrap"><div id="view-info" style="display:none">'
-    + '<div style="overflow:hidden"><button class="dash-back ed-only" data-goto="menu">\u2039 Volver al panel</button></div>'
-    + '<div class="ed-only edit-panel"><h3>Informaci\u00F3n del negocio</h3><p class="ep-sub">Solo t\u00FA puedes ver y editar estos datos</p><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
+    + '<div style="overflow:hidden"><button class="dash-back" data-goto="menu">\u2039 Volver al panel</button></div>'
+    + '<div class="edit-panel"><h3>Informaci\u00F3n del negocio</h3><p class="ep-sub">Solo t\u00FA puedes ver y editar estos datos</p><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
     + '</div></div>' : '';
   var histHTML = own ?
     '<div class="wrap"><div id="view-historial" style="display:none">'
-    + '<div style="overflow:hidden"><button class="dash-back ed-only" data-goto="menu">\u2039 Volver al panel</button></div>'
-    + '<div class="ed-only edit-panel"><h3>Historial de ventas</h3><div id="sales-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
+    + '<div style="overflow:hidden"><button class="dash-back" data-goto="menu">\u2039 Volver al panel</button></div>'
+    + '<div class="edit-panel"><h3>Historial de ventas</h3><div id="sales-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
     + '</div></div>' : '';
   var wallHTML =
     '<div id="view-editar"' + (own ? ' style="display:none"' : '') + '>'
@@ -318,7 +318,7 @@ Promise.all([
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
-    + (own ? '<button class="dash-back ed-only" data-goto="menu">\u2039 Volver al panel</button>' : '')
+    + (own ? '<button class="dash-back" data-goto="menu">\u2039 Volver al panel</button>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">\u2713 Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
