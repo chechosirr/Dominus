@@ -160,7 +160,7 @@ body.editing .card{cursor:grab}
     <button id="menu-btn" aria-label="Menú">☰</button>
     <nav class="menu" id="menu">
       <a href="../index.html">Inicio</a>
-      <a href="../cuenta.html">Mi cuenta</a>
+      <a href="../cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
       <a href="../comprador/perfil.html">Carrito</a>
     </nav>
   </div>
@@ -633,6 +633,19 @@ function buildCropEditor(img, objUrl, isCover, field, tok, revoke, origFile){
       }
     }, 'image/jpeg', 0.85);
   };
+}
+function goMiCuenta(){
+  try{
+    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+    var tipo = localStorage.getItem('dominus_tipo');
+    var slug = localStorage.getItem('dominus_slug');
+    if(s && s.access_token && tipo){
+      if(tipo === 'vendedor' && slug){ location.href = '/Dominus/vendedor/index.html?s=' + encodeURIComponent(slug) + '&edit=1'; return false; }
+      if(tipo === 'vendedor'){ location.href = '/Dominus/vendedor/cuenta.html'; return false; }
+      location.href = '/Dominus/comprador/perfil.html'; return false;
+    }
+  }catch(e){}
+  return true;
 }
 </script>
 </body>
