@@ -107,7 +107,7 @@ function boot(){
     if(!rows) return;
     if(!rows.length){ location.href = 'cuenta.html'; return; }
     seller = rows[0];
-    loadProducts();
+    location.href = 'index.html?s=' + seller.slug + '&edit=1';
   });
 }
 function loadProducts(){

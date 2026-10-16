@@ -102,6 +102,44 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:var(--txt)}
 .menu a:last-child{border-bottom:0}
 .menu a:hover{background:rgba(215,220,227,.08)}
+
+/* ===== modo edición tipo Facebook ===== */
+#edit-toggle{position:fixed;bottom:20px;right:20px;z-index:200;background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border:0;border-radius:999px;padding:14px 22px;font-weight:800;font-size:15px;cursor:pointer;box-shadow:0 8px 30px rgba(0,0,0,.5);font-family:inherit}
+.ed-only{display:none!important}
+body.editing .ed-only{display:block!important}
+body.editing .ed-only-inline{display:inline-block!important}
+.ed-cover{position:absolute;bottom:14px;right:14px;background:rgba(0,0,0,.72);color:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;z-index:3}
+.avatar{position:relative}
+.ed-avatar{position:absolute;bottom:2px;right:2px;background:var(--acc);color:#0a0c10;border:0;border-radius:50%;width:38px;height:38px;font-size:17px;cursor:pointer;display:grid;place-content:center;z-index:3}
+body.editing .editable{cursor:pointer;border-radius:6px}
+body.editing .editable:hover{outline:2px dashed var(--acc);outline-offset:4px}
+.ed-hint{display:inline-block;background:rgba(215,220,227,.14);color:var(--acc);font-size:11px;font-weight:700;border-radius:999px;padding:3px 10px;margin-left:8px;vertical-align:middle}
+.inline-form{display:flex;flex-direction:column;gap:8px;margin:10px 0;max-width:520px}
+.inline-form input,.inline-form textarea{background:var(--bg);border:1px solid var(--acc);border-radius:10px;color:var(--txt);padding:11px 14px;font-family:inherit;font-size:14px;width:100%}
+.inline-form .row{display:flex;gap:8px}
+.inline-form .row button{flex:1;padding:11px;border-radius:10px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:14px}
+.inline-save{background:var(--acc);color:#0a0c10}
+.inline-cancel{background:var(--card);color:var(--txt);border:1px solid var(--line)!important}
+body.editing .buy,body.editing .add-cart{display:none!important}
+.prod-controls{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.prod-controls button{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:7px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit}
+.prod-controls button.on{background:var(--acc);color:#0a0c10;border-color:var(--acc)}
+.prod-controls button.del{color:#ff8a8a}
+.card{position:relative}
+body.editing .card{cursor:grab}
+.card.dragging{opacity:.4}
+.add-prod-card{border:2px dashed var(--line);border-radius:18px;min-height:220px;display:grid;place-content:center;color:var(--mut);font-size:15px;font-weight:700;cursor:pointer;background:transparent;text-align:center;padding:20px}
+.add-prod-card:hover{border-color:var(--acc);color:var(--acc)}
+.add-prod-card .plus{font-size:40px;display:block;margin-bottom:8px}
+.modal-ov{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:300;display:grid;place-items:center;padding:16px}
+.modal{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;width:100%;max-width:480px;max-height:92vh;overflow-y:auto}
+.modal h3{margin-bottom:6px;font-size:18px}
+.modal label{font-size:13px;color:var(--mut);display:block;margin:12px 0 6px}
+.modal input,.modal textarea,.modal select{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;color:var(--txt);padding:12px;font-family:inherit;font-size:14px}
+.modal .row{display:flex;gap:10px;margin-top:18px}
+.modal .row button{flex:1;padding:13px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px}
+.ed-wa{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:12px 16px;margin-top:12px;font-size:13px}
+.ed-wa small{color:var(--mut)}
 </style>
 </head>
 <body>
@@ -171,34 +209,46 @@ Promise.all([
   fetchProds('fijado.desc,orden.asc,created_at.desc').catch(function(){ return fetchProds('created_at.desc'); })
 ]).then(function(res){
   var s = res[0][0], prods = res[1];
+  window._prods = prods;
   if(!s){
     document.getElementById('wall').innerHTML = '<div class="empty">Este vendedor no existe.</div>';
     return;
   }
   SELLER = s;
+  var own = (function(){ try{ var sx = JSON.parse(localStorage.getItem('dominus_session')); return !!(sx && sx.user && sx.user.id === s.user_id); }catch(e){ return false; } })();
   document.getElementById('title').textContent = s.nombre + ' — Dominus';
   var av = s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="' + esc(s.nombre) + '">' : esc(s.nombre.charAt(0));
   document.getElementById('wall').innerHTML =
-    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div></div>'
-    + '<div class="wrap"><div class="profile"><span class="avatar">' + av + '</span>'
-    + '<div class="p-head"><h1>' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + '</h1>'
-    + '<div class="loc">' + esc(s.ubicacion || '') + '</div>'
+    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
+    + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">📷 Cambiar portada</button>' : '') + '</div>'
+    + '<div class="wrap"><div class="profile"><span class="avatar">' + av
+    + (own ? '<button class="ed-avatar ed-only" data-photo="logo_url" title="Cambiar foto">📷</button>' : '') + '</span>'
+    + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
+    + '<div class="loc ' + (own ? 'editable' : '') + '" data-field="ubicacion">' + esc(s.ubicacion || (own ? 'Agregar ubicación' : '')) + '</div>'
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
-    + (s.descripcion ? '<p class="desc">' + esc(s.descripcion) + '</p>' : '')
+    + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
+    + (own ? '<div class="ed-wa ed-only">📱 <b class="' + 'editable' + '" data-field="whatsapp">' + esc(s.whatsapp || 'Agregar WhatsApp') + '</b> <small>(privado: solo tú lo ves)</small></div>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
-    + (s.descripcion_larga ? '<div class="about"><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p>' + esc(s.descripcion_larga) + '</p></div>' : '')
+    + '<div class="about"' + (s.descripcion_larga || own ? '' : ' style="display:none"') + '><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio…' : '')) + '</p></div>'
     + '</div>';
-  document.getElementById('grid').innerHTML = prods.length ? prods.map(function(p){
-    return '<div class="card"><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
+  document.getElementById('grid').innerHTML = (own ? '<div class="add-prod-card ed-only" id="add-prod"><span><span class="plus">＋</span>Agregar producto</span></div>' : '')
+  + (prods.length ? prods.map(function(p){
+    return '<div class="card" data-pid="' + p.id + '"' + (own ? ' draggable="true"' : '') + '><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
       + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
       + (p.fijado ? '<span class="pin-badge">📌 Fijado</span>' : '')
       + '<div class="card-price">' + money(p.precio) + '</div>'
       + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
-      + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button></div></div>';
-  }).join('') : '<div class="empty">Este vendedor aún no publica productos.</div>';
+      + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button>'
+      + (own ? '<div class="prod-controls ed-only"><button data-pedit="' + p.id + '">✏️ Editar</button>'
+        + '<button data-ppin="' + p.id + '" class="' + (p.fijado ? 'on' : '') + '">📌 ' + (p.fijado ? 'Fijado' : 'Fijar') + '</button>'
+        + '<button data-pfeat="' + p.id + '" class="' + (p.destacado ? 'on' : '') + '">⭐ ' + (p.destacado ? 'Destacado' : 'Destacar') + '</button>'
+        + '<button data-pact="' + p.id + '">' + (p.activo ? '⏸️ Pausar' : '▶️ Activar') + '</button>'
+        + '<button data-pdel="' + p.id + '" class="del">🗑️</button></div>' : '')
+      + '</div></div>';
+  }).join('') : (own ? '' : '<div class="empty">Este vendedor aún no publica productos.</div>'));
   var feat = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
   if(feat.length){
     document.getElementById('grid').insertAdjacentHTML('beforebegin',
@@ -213,9 +263,174 @@ Promise.all([
       '<div style="position:sticky;top:0;z-index:100;background:#c6f52e;color:#0a0c10;text-align:center;font-weight:800;font-size:14px;padding:10px">👁 Vista previa — así verán los clientes tu muro</div>');
   }
   loadReviews();
+  setupEditMode();
 }).catch(function(){
   document.getElementById('wall').innerHTML = '<div class="empty">No se pudo cargar. Revisa tu conexión.</div>';
 });
+/* ===== MODO EDICIÓN TIPO FACEBOOK (dueño del muro) ===== */
+function edH(tok){ return { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + tok, 'Content-Type': 'application/json' }; }
+function myTok(){ var s = buyerSession(); return s ? s.access_token : null; }
+function setupEditMode(){
+  if(!SELLER) return;
+  var sx = null; try{ sx = JSON.parse(localStorage.getItem('dominus_session')); }catch(e){}
+  if(!(sx && sx.user && sx.user.id === SELLER.user_id)) return;
+  var btn = document.createElement('button');
+  btn.id = 'edit-toggle'; btn.textContent = '✏️ Editar muro';
+  btn.onclick = function(){
+    var on = document.body.classList.toggle('editing');
+    btn.textContent = on ? '👁 Ver como cliente' : '✏️ Editar muro';
+  };
+  document.body.appendChild(btn);
+  wireEditControls(sx.access_token);
+  if(new URLSearchParams(location.search).get('edit') === '1') btn.click();
+}
+function uploadPhoto(file, path, tok){
+  return fetch(SUPABASE_URL + '/storage/v1/object/product-images/' + path, {
+    method: 'POST',
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + tok, 'Content-Type': file.type || 'image/jpeg' },
+    body: file
+  }).then(function(r){ if(!r.ok) throw new Error('up'); return r.json(); })
+  .then(function(){ return SUPABASE_URL + '/storage/v1/object/public/product-images/' + path; });
+}
+function patchSeller(patch, tok){
+  return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
+    method: 'PATCH', headers: edH(tok), body: JSON.stringify(patch)
+  }).then(function(){ location.reload(); });
+}
+function wireEditControls(tok){
+  // fotos: portada y avatar
+  document.querySelectorAll('[data-photo]').forEach(function(b){
+    b.onclick = function(e){
+      e.stopPropagation();
+      var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*';
+      inp.onchange = function(){
+        if(!inp.files[0]) return;
+        b.textContent = 'Subiendo…';
+        var field = b.dataset.photo;
+        var path = SELLER.slug + '/' + field + '-' + Date.now() + '.jpg';
+        uploadPhoto(inp.files[0], path, tok).then(function(url){
+          var p = {}; p[field] = url; return patchSeller(p, tok);
+        }).catch(function(){ alert('No se pudo subir la foto. Intenta de nuevo.'); b.textContent = '📷'; });
+      };
+      inp.click();
+    };
+  });
+  // textos: tocar para editar
+  document.querySelectorAll('[data-field]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      if(!document.body.classList.contains('editing')) return;
+      e.stopPropagation();
+      if(el.querySelector('input,textarea')) return;
+      startInlineEdit(el, tok);
+    });
+  });
+  // productos
+  var addBtn = document.getElementById('add-prod');
+  if(addBtn) addBtn.onclick = function(){ productModal(null, tok); };
+  document.querySelectorAll('[data-pedit]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); productModal(b.dataset.pedit, tok); }; });
+  document.querySelectorAll('[data-ppin]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); togglePin(b.dataset.ppin, tok); }; });
+  document.querySelectorAll('[data-pfeat]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleFeat(b.dataset.pfeat, tok); }; });
+  document.querySelectorAll('[data-pact]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleAct(b.dataset.pact, tok); }; });
+  document.querySelectorAll('[data-pdel]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); if(confirm('¿Eliminar este producto?')) delProd(b.dataset.pdel, tok); }; });
+  initCardDrag(tok);
+}
+function startInlineEdit(el, tok){
+  var field = el.dataset.field;
+  var isLong = (field === 'descripcion_larga');
+  var current = SELLER[field] || '';
+  var wrap = document.createElement('div');
+  wrap.className = 'inline-form';
+  wrap.innerHTML = (isLong ? '<textarea rows="4"></textarea>' : '<input type="text">')
+    + '<div class="row"><button class="inline-save">Guardar</button><button class="inline-cancel" type="button">Cancelar</button></div>';
+  var input = wrap.querySelector(isLong ? 'textarea' : 'input');
+  input.value = current;
+  el.style.display = 'none';
+  el.parentNode.insertBefore(wrap, el.nextSibling);
+  input.focus();
+  wrap.querySelector('.inline-cancel').onclick = function(){ wrap.remove(); el.style.display = ''; };
+  wrap.querySelector('.inline-save').onclick = function(){
+    var p = {}; p[field] = input.value.trim() || null;
+    patchSeller(p, tok);
+  };
+}
+function productModal(pid, tok){
+  var p = pid ? (window._prods || []).find(function(x){ return x.id === pid; }) : null;
+  var ov = document.createElement('div');
+  ov.className = 'modal-ov';
+  ov.innerHTML = '<div class="modal"><h3>' + (p ? 'Editar producto' : 'Nuevo producto') + '</h3>'
+    + '<label>Título</label><input id="m-titulo" value="' + esc(p ? p.titulo : '') + '">'
+    + '<label>Precio (USD)</label><input id="m-precio" type="number" min="0" step="0.01" value="' + (p ? p.precio : '') + '">'
+    + '<label>Categoría</label><input id="m-cat" value="' + esc(p ? (p.categoria || '') : '') + '" placeholder="General">'
+    + '<label>Foto</label><input id="m-foto" type="file" accept="image/*">'
+    + '<label>Descripción</label><textarea id="m-desc" rows="3">' + esc(p ? (p.descripcion || '') : '') + '</textarea>'
+    + '<div class="row"><button class="inline-save" id="m-save">Guardar</button><button class="inline-cancel" id="m-cancel" type="button">Cancelar</button></div></div>';
+  document.body.appendChild(ov);
+  ov.querySelector('#m-cancel').onclick = function(){ ov.remove(); };
+  ov.addEventListener('click', function(e){ if(e.target === ov) ov.remove(); });
+  ov.querySelector('#m-save').onclick = function(){
+    var titulo = ov.querySelector('#m-titulo').value.trim();
+    var precio = parseFloat(ov.querySelector('#m-precio').value);
+    if(!titulo || !(precio >= 0)){ alert('Pon título y precio.'); return; }
+    ov.querySelector('#m-save').textContent = 'Guardando…';
+    var file = ov.querySelector('#m-foto').files[0];
+    function done(imgUrl){
+      var body = { titulo: titulo, precio: precio, categoria: ov.querySelector('#m-cat').value.trim() || 'General',
+        descripcion: ov.querySelector('#m-desc').value.trim() || null };
+      if(imgUrl) body.imagen_url = imgUrl;
+      var url, method;
+      if(p){ url = SUPABASE_URL + '/rest/v1/products?id=eq.' + p.id; method = 'PATCH'; }
+      else { url = SUPABASE_URL + '/rest/v1/products'; method = 'POST'; body.seller_id = SELLER.id; body.activo = true; body.orden = (window._prods || []).length; }
+      fetch(url, { method: method, headers: edH(tok), body: JSON.stringify(body) })
+        .then(function(r){ if(!r.ok) throw 0; location.reload(); })
+        .catch(function(){ alert('No se pudo guardar.'); ov.querySelector('#m-save').textContent = 'Guardar'; });
+    }
+    if(file) uploadPhoto(file, SELLER.slug + '/prod-' + Date.now() + '.jpg', tok).then(done).catch(function(){ alert('No se pudo subir la foto.'); });
+    else done(p ? p.imagen_url : null);
+  };
+}
+function togglePin(pid, tok){
+  var p = (window._prods || []).find(function(x){ return x.id === pid; });
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ fijado: !p.fijado }) })
+    .then(function(){ location.reload(); });
+}
+function toggleFeat(pid, tok){
+  var p = (window._prods || []).find(function(x){ return x.id === pid; });
+  if(!p.destacado && (window._prods || []).filter(function(x){ return x.destacado; }).length >= 3){
+    alert('Solo puedes destacar 3 productos.'); return;
+  }
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ destacado: !p.destacado }) })
+    .then(function(){ location.reload(); });
+}
+function toggleAct(pid, tok){
+  var p = (window._prods || []).find(function(x){ return x.id === pid; });
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ activo: !p.activo }) })
+    .then(function(){ location.reload(); });
+}
+function delProd(pid, tok){
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'DELETE', headers: edH(tok) })
+    .then(function(){ location.reload(); });
+}
+function initCardDrag(tok){
+  var grid = document.getElementById('grid');
+  var dragPid = null;
+  grid.querySelectorAll('.card[data-pid]').forEach(function(card){
+    card.addEventListener('dragstart', function(){ dragPid = card.dataset.pid; card.classList.add('dragging'); });
+    card.addEventListener('dragend', function(){ card.classList.remove('dragging'); });
+    card.addEventListener('dragover', function(e){ if(document.body.classList.contains('editing')) e.preventDefault(); });
+    card.addEventListener('drop', function(e){
+      e.preventDefault();
+      if(!dragPid || dragPid === card.dataset.pid || !document.body.classList.contains('editing')) return;
+      var cards = Array.prototype.slice.call(grid.querySelectorAll('.card[data-pid]'));
+      var from = cards.find(function(c){ return c.dataset.pid === dragPid; });
+      grid.insertBefore(from, card);
+      var ids = Array.prototype.map.call(grid.querySelectorAll('.card[data-pid]'), function(c){ return c.dataset.pid; });
+      var jobs = ids.map(function(id, i){
+        return fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ orden: i }) });
+      });
+      Promise.all(jobs).then(function(){ location.reload(); });
+    });
+  });
+}
 function loadReviews(){
   api('seller_reviews?seller_id=eq.' + SELLER.id + '&select=*&order=created_at.desc').then(function(rows){
     var avg = rows.length ? rows.reduce(function(a, r){ return a + r.rating; }, 0) / rows.length : 0;
