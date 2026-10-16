@@ -319,6 +319,11 @@ Promise.all([
     + '<button class="inline-save" id="prod-add" style="width:100%;margin-bottom:16px;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0">+ Agregar producto</button>'
     + '<div id="prod-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div>'
     + '</div></div></div>' : '';
+  var catHTML = own ?
+    '<div class="wrap"><div id="view-catalogo" style="display:none">'
+    + '<div class="edit-panel"><h3>Catálogo</h3><p class="ep-sub">Todos los productos por categoría</p>'
+    + '<div id="cat-list"></div>'
+    + '</div></div></div>' : '';
   var wallHTML =
     '<div id="view-editar"' + (own ? ' style="display:none"' : '') + '>'
     + '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
@@ -335,12 +340,13 @@ Promise.all([
     + '<span class="pill">Pago protegido PayPal</span></div>'
     + '<div class="about"' + (s.descripcion_larga || own ? '' : ' style="display:none"') + '><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio\u2026' : '')) + '</p></div>'
     + '</div>';
-  document.getElementById('wall').innerHTML = dashHTML + infoHTML + prodHTML + histHTML + wallHTML;
+  document.getElementById('wall').innerHTML = dashHTML + infoHTML + prodHTML + catHTML + histHTML + wallHTML;
   if(own){
-    document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); if(b.dataset.goto === 'productos') loadProdList(); }; });
+    document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); if(b.dataset.goto === 'productos') loadProdList(); if(b.dataset.goto === 'catalogo') loadCatalog(); }; });
     var savedView = new URLSearchParams(location.search).get('view');
-    showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' || savedView === 'productos' ? savedView : 'menu');
+    showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' || savedView === 'productos' || savedView === 'catalogo' ? savedView : 'menu');
     if(savedView === 'productos') loadProdList();
+    if(savedView === 'catalogo') loadCatalog();
   }
   renderWallProducts(prods, own);
   if(isPreview){
@@ -369,53 +375,42 @@ function renderWallProducts(prods, own){
   if(!grid) return;
   var destacados = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
   var html = '';
-  // Sección de destacados
-  if(destacados.length || own){
-    html += '<h2 style="font-size:20px;margin:18px 0 12px;color:#111">Productos destacados</h2>';
-    html += '<div class="grid" id="feat-grid">';
-    html += destacados.map(function(p){ return prodCardHTML(p, own); }).join('');
-    html += '</div>';
-    if(own && !destacados.length){
-      html += '<p style="color:#9aa0a8;font-size:14px">Marca hasta 3 productos como destacados en la sección Productos.</p>';
+  // Título Productos destacados
+  html += '<h2 style="font-size:20px;margin:18px 0 12px;color:#111">Productos destacados</h2>';
+  // 3 slots de imágenes
+  html += '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px" id="feat-slots">';
+  for(var i = 0; i < 3; i++){
+    var p = destacados[i];
+    if(p){
+      html += '<a href="../producto/?id=' + p.id + '" style="display:block;aspect-ratio:1;border-radius:14px;overflow:hidden;background:#161b24">'
+        + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" style="width:100%;height:100%;object-fit:cover">' : '<div style="width:100%;height:100%;display:grid;place-content:center;color:#666;font-size:12px">Sin foto</div>')
+        + '</a>';
+    } else if(own){
+      html += '<button class="feat-empty" style="aspect-ratio:1;border-radius:14px;border:2px dashed #2b3049;background:transparent;color:#9aa0a8;font-size:28px;cursor:pointer;font-family:inherit">+</button>';
+    } else {
+      html += '<div style="aspect-ratio:1;border-radius:14px;background:#f0f1f3"></div>';
     }
   }
-  // Botón Ver más productos
+  html += '</div>';
+  if(own){
+    html += '<p style="color:#9aa0a8;font-size:13px;margin:0 0 12px">Toca + para elegir un destacado en la sección Productos.</p>';
+  }
+  // Botón Ver más productos -> va a la sección catálogo
   var cats = {};
   prods.forEach(function(p){ var c = p.categoria || 'General'; if(!cats[c]) cats[c] = []; cats[c].push(p); });
-  var catNames = Object.keys(cats).sort();
-  if(catNames.length){
-    html += '<button id="ver-mas-btn" class="inline-save" style="width:100%;margin:20px 0 0">Ver más productos</button>';
-    html += '<div id="cats-wrap" style="display:none;margin-top:12px">';
-    catNames.forEach(function(c, i){
-      html += '<div class="cat-block" style="margin-bottom:8px;border:1px solid var(--line);border-radius:14px;overflow:hidden">'
-        + '<button class="cat-head" data-cat="' + i + '" style="width:100%;background:var(--card);border:0;color:#fff;padding:14px 16px;font-size:15px;font-weight:700;text-align:left;cursor:pointer;font-family:inherit">' + esc(c) + ' (' + cats[c].length + ') ▾</button>'
-        + '<div class="cat-body" id="cat-body-' + i + '" style="display:none;padding:12px"><div class="grid">'
-        + cats[c].map(function(p){ return prodCardHTML(p, false); }).join('')
-        + '</div></div></div>';
-    });
-    html += '</div>';
-  } else if(!destacados.length && !own){
+  if(Object.keys(cats).length){
+    html += '<button id="ver-mas-btn" class="inline-save" style="width:100%;margin:8px 0 0">Ver más productos</button>';
+  } else if(!own){
     html += '<div class="empty">Este vendedor aún no publica productos.</div>';
   }
   grid.innerHTML = html;
-  // Wire Ver más productos
-  var vmb = document.getElementById('ver-mas-btn');
-  if(vmb) vmb.onclick = function(){
-    var w = document.getElementById('cats-wrap');
-    var open = w.style.display !== 'none';
-    w.style.display = open ? 'none' : '';
-    vmb.textContent = open ? 'Ver más productos' : 'Ver menos';
-  };
-  // Wire categorías desplegables
-  grid.querySelectorAll('.cat-head').forEach(function(h){
-    h.onclick = function(){
-      var b = document.getElementById('cat-body-' + h.dataset.cat);
-      var open = b.style.display !== 'none';
-      b.style.display = open ? 'none' : '';
-    };
+  // Slots vacíos -> ir a Productos
+  grid.querySelectorAll('.feat-empty').forEach(function(b){
+    b.onclick = function(){ showView('productos'); loadProdList(); };
   });
-  // Drag para reordenar destacados (solo en modo edición)
-  if(own) wireFeatDrag();
+  // Ver más -> ir a catálogo
+  var vmb = document.getElementById('ver-mas-btn');
+  if(vmb) vmb.onclick = function(){ showView('catalogo'); loadCatalog(); };
 }
 var TIPOS_EMPRESA = [
   'Tienda de ropa', 'Restaurante / Comida', 'Electrónica y tecnología',
@@ -448,6 +443,31 @@ function catsParaTipo(tipo){
   var cats = (CATS_POR_TIPO[tipo] || []).slice();
   cats.push('Otro');
   return cats;
+}
+function loadCatalog(){
+  var box = document.getElementById('cat-list');
+  if(!box) return;
+  var prods = window._prods || [];
+  var cats = {};
+  prods.forEach(function(p){ var c = p.categoria || 'General'; if(!cats[c]) cats[c] = []; cats[c].push(p); });
+  var names = Object.keys(cats).sort();
+  if(!names.length){
+    box.innerHTML = '<p style="color:#fff;text-align:center">No hay productos.</p>';
+    return;
+  }
+  box.innerHTML = names.map(function(c, i){
+    return '<div style="margin-bottom:8px;border:1px solid #2b3049;border-radius:14px;overflow:hidden">'
+      + '<button class="cat-h" data-i="' + i + '" style="width:100%;background:#0a0c13;border:0;color:#fff;padding:14px 16px;font-size:15px;font-weight:700;text-align:left;cursor:pointer;font-family:inherit">' + esc(c) + ' (' + cats[c].length + ') ▾</button>'
+      + '<div class="cat-b" id="cb-' + i + '" style="display:none;padding:12px"><div class="grid">'
+      + cats[c].map(function(p){ return prodCardHTML(p, false); }).join('')
+      + '</div></div></div>';
+  }).join('');
+  box.querySelectorAll('.cat-h').forEach(function(h){
+    h.onclick = function(){
+      var b = document.getElementById('cb-' + h.dataset.i);
+      b.style.display = b.style.display === 'none' ? '' : 'none';
+    };
+  });
 }
 function loadProdList(){
   var box = document.getElementById('prod-list');
@@ -757,15 +777,17 @@ function showView(v){
   var editar = document.getElementById('view-editar');
   var hist = document.getElementById('view-historial');
   var prods = document.getElementById('view-productos');
+  var catal = document.getElementById('view-catalogo');
   var main = document.querySelector('main');
   var revs = document.getElementById('reviews');
   var showWall = (v === 'editar');
-  var inSection = (v === 'info' || v === 'editar' || v === 'historial' || v === 'productos');
+  var inSection = (v === 'info' || v === 'editar' || v === 'historial' || v === 'productos' || v === 'catalogo');
   if(menu) menu.style.display = (v === 'menu') ? '' : 'none';
   if(info) info.style.display = (v === 'info') ? '' : 'none';
   if(editar) editar.style.display = showWall ? '' : 'none';
   if(hist) hist.style.display = (v === 'historial') ? '' : 'none';
   if(prods) prods.style.display = (v === 'productos') ? '' : 'none';
+  if(catal) catal.style.display = (v === 'catalogo') ? '' : 'none';
   if(main) main.style.display = showWall ? '' : 'none';
   if(revs) revs.style.display = showWall ? '' : 'none';
   var mb = document.getElementById('menu-btn');
