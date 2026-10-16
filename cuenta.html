@@ -133,6 +133,22 @@ var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
   }catch(e){}
 })();
 
+/* si ya hay sesión activa, ir directo a su cuenta sin pedir login */
+(function(){
+  try{
+    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+    if(!s || !s.access_token) return;
+    fetch(SUPABASE_URL + '/auth/v1/user', {
+      headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token }
+    }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok || !res.j.id){ localStorage.removeItem('dominus_session'); return; }
+      s.user = res.j;
+      ensureProfile(s).then(function(tp){ goTo(tp, s); });
+    }).catch(function(){});
+  }catch(e){}
+})();
+
 var tipo = 'comprador';
 function headers(token){
   var h = { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' };
