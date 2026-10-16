@@ -14,8 +14,9 @@ header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;just
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
 .logo em{font-style:normal;color:var(--acc)}
 .back{color:var(--mut);text-decoration:none;font-size:14px}
-.cover{position:relative;height:300px;overflow:hidden;background:linear-gradient(to bottom,transparent 25%,#2b1a4e 92%)}
-.cover img{width:100%;height:100%;object-fit:cover;display:block;-webkit-mask-image:linear-gradient(to bottom,#000 40%,transparent 96%);mask-image:linear-gradient(to bottom,#000 40%,transparent 96%)}
+.cover{position:relative;height:300px;overflow:hidden;background:linear-gradient(135deg,#1a1033,#0b2b33)}
+.cover .fade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,9,13,.85),transparent 55%)}
+.cover img{width:100%;height:100%;object-fit:cover;display:block}
 
 .wrap{max-width:1000px;margin:0 auto;padding:0 18px}
 .profile{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;margin-top:0;padding-top:22px;z-index:2}
@@ -250,7 +251,7 @@ Promise.all([
   document.getElementById('title').textContent = s.nombre + ' — Dominus';
 
   document.getElementById('wall').innerHTML =
-    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '')
+    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
     + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">📷 Cambiar portada</button>' : '') + '</div>'
     + '<div class="wrap"><div class="profile">'
     + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
