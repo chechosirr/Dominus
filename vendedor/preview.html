@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title id="title">Vendedor — Dominus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#5a6270;--acc:#d7dce3;--acc2:#7c5cff}
+body{background:#ffffff;background-attachment:fixed;color:#111111;font-family:Archivo,Arial,sans-serif;min-height:100vh}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(8,9,13,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
+.logo em{font-style:normal;color:var(--acc)}
+.back{color:var(--mut);text-decoration:none;font-size:14px}
+.cover{position:relative;height:300px;overflow:hidden;background:linear-gradient(135deg,#1a1033,#0b2b33)}
+.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.cover .fade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,9,13,.85),transparent 55%)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 18px}
+.profile{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;margin-top:-88px;z-index:2}
+.avatar{flex:0 0 176px;width:176px;height:176px;border-radius:50%;overflow:hidden;border:5px solid var(--bg);background:linear-gradient(135deg,var(--acc2),var(--acc));display:grid;place-content:center;font-weight:900;font-size:64px;color:#0a0c10;z-index:2}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.p-head{flex:1;min-width:220px;padding-bottom:6px}
+.p-head{padding-bottom:6px}.p-head h1{font-size:clamp(28px,6vw,40px);font-weight:900;display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px}
+.verif{color:var(--acc);font-size:22px}
+.p-head .loc{color:var(--mut);font-size:14px;margin-top:4px}
+.p-actions{display:flex;gap:10px;padding-bottom:10px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:800;font-size:14px;text-decoration:none}
+.btn-wa{background:#22c55e;color:#fff}
+.btn-ghost{border:1px solid var(--line);color:var(--txt);background:var(--card)}
+.desc{color:var(--mut);font-size:15px;line-height:1.65;max-width:680px;margin:18px 0}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.pill{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 18px;font-size:13px;font-weight:700}
+.pill b{color:var(--acc)}
+main{max-width:1000px;margin:0 auto;padding:26px 18px 70px}
+.sec-head{display:flex;align-items:center;justify-content:space-between;margin:6px 0 16px}
+.sec-head h2{font-size:22px;font-weight:800}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .18s}
+.card:hover{transform:translateY(-4px)}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;background:#161b24}
+.card-body{padding:13px;display:flex;flex-direction:column;gap:5px;flex:1}
+.card-title{font-size:14px;font-weight:700;line-height:1.35;min-height:2.7em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-price{font-size:19px;font-weight:900;margin-top:auto;padding-top:8px}
+.buy{margin-top:8px;display:block;text-align:center;background:var(--acc);color:#0a0c10;font-weight:800;font-size:14px;padding:12px;border-radius:12px;text-decoration:none}
+.empty{text-align:center;color:var(--mut);padding:44px 10px;font-size:15px;grid-column:1/-1}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px}
+@media(min-width:760px){.grid{grid-template-columns:repeat(auto-fill,minmax(215px,1fr))}.cover{height:340px}}
+@media(max-width:560px){.profile{margin-top:-80px}.avatar{flex-basis:160px;width:160px;height:160px;font-size:58px}.cover{height:230px}}
+.about{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin-top:18px}
+.about h2{font-size:18px;margin-bottom:10px}
+.about h2 .hl{color:var(--acc)}
+.about p{font-size:14px;line-height:1.7;color:#d4d9e2;white-space:pre-wrap}
+.reviews{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin-top:18px}
+.reviews h2{font-size:18px;margin-bottom:12px}
+.reviews h2 .hl{color:var(--acc)}
+.stars{color:#f5b301;font-size:16px;letter-spacing:2px}
+.wall-rating{margin-top:6px;font-size:13px;color:var(--mut)}
+.avg{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.avg b{font-size:30px}
+.rev{border-top:1px solid var(--line);padding:13px 0}
+.rev .rn{font-weight:700;font-size:14px}
+.rev .rt{color:var(--mut);font-size:12px;margin-left:8px}
+.rev p{font-size:14px;color:#d4d9e2;margin-top:6px;line-height:1.6}
+.rform label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
+.rform textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:14px;padding:12px;min-height:90px;resize:vertical;outline:none}
+.rform textarea:focus{border-color:var(--acc)}
+.starin{display:flex;gap:6px}
+.starin button{background:none;border:0;color:#3a4354;font-size:30px;cursor:pointer;font-family:inherit;padding:0}
+.starin button.on{color:#f5b301}
+.rerr{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
+.login-cta{text-align:center;font-size:14px;color:var(--mut);padding:14px}
+.login-cta a{color:var(--acc);font-weight:700;text-decoration:none}
+.pin-badge{display:inline-block;font-size:11px;font-weight:700;color:var(--acc);margin-bottom:2px}
+.feat-sec{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin:0 0 18px}
+.feat-sec h2{font-size:18px;margin-bottom:14px}
+.feat-sec h2 .hl{color:var(--acc)}
+.feat-row{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px}
+.feat-card{flex:0 0 200px;background:var(--bg);border:1px solid var(--acc);border-radius:14px;overflow:hidden;text-decoration:none;display:block}
+.feat-card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.feat-card div{padding:10px 12px}
+.feat-card b{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.feat-card span{font-size:15px;font-weight:900;color:var(--acc)}
+@media(max-width:600px){
+.cover{height:150px}
+.avatar{width:88px;height:88px;margin:-44px 0 0 16px}
+.wall-head{padding:0 14px}
+.wall-head h1{font-size:22px}
+.card .buy{padding:12px;font-size:14px}
+}
+
+/* ===== plateado metálico ===== */
+.hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.btn:not(.btn-ghost):not(.btn-wa),.buy,.hero-search button{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
+.card-price,.pd-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+
+.menu-wrap{position:relative;margin-left:auto}
+#menu-btn{background:none;border:1px solid var(--line);color:var(--txt);font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
+.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:50}
+.menu.open{display:block}
+.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:var(--txt)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:rgba(215,220,227,.08)}
+
+/* ===== modo edición tipo Facebook ===== */
+#edit-toggle{position:fixed;bottom:20px;right:20px;z-index:200;background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border:0;border-radius:999px;padding:14px 22px;font-weight:800;font-size:15px;cursor:pointer;box-shadow:0 8px 30px rgba(0,0,0,.5);font-family:inherit}
+.ed-only{display:none!important}
+body.editing .ed-only{display:block!important}
+body.editing .ed-only-inline{display:inline-block!important}
+.ed-cover{position:absolute;top:14px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.72);color:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;z-index:3;white-space:nowrap}
+.avatar{position:relative}
+.ed-avatar{position:absolute;bottom:2px;right:2px;background:var(--acc);color:#0a0c10;border:0;border-radius:50%;width:38px;height:38px;font-size:17px;cursor:pointer;display:grid;place-content:center;z-index:3}
+body.editing .editable{cursor:pointer;border-radius:6px}
+body.editing .editable:hover{outline:2px dashed var(--acc);outline-offset:4px}
+.ed-hint{display:inline-block;background:rgba(215,220,227,.14);color:var(--acc);font-size:11px;font-weight:700;border-radius:999px;padding:3px 10px;margin-left:8px;vertical-align:middle}
+.inline-form{display:flex;flex-direction:column;gap:8px;margin:10px 0;max-width:520px}
+.inline-form input,.inline-form textarea{background:var(--bg);border:1px solid var(--acc);border-radius:10px;color:var(--txt);padding:11px 14px;font-family:inherit;font-size:14px;width:100%}
+.inline-form .row{display:flex;gap:8px}
+.inline-form .row button{flex:1;padding:11px;border-radius:10px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:14px}
+.inline-save{background:var(--acc);color:#0a0c10}
+.inline-cancel{background:var(--card);color:var(--txt);border:1px solid var(--line)!important}
+body.editing .buy,body.editing .add-cart{display:none!important}
+.more-btn{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.62);color:#fff;border:0;border-radius:50%;width:38px;height:38px;font-size:20px;line-height:1;cursor:pointer;z-index:5;font-family:inherit}
+.more-menu{display:none;position:absolute;top:52px;right:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;min-width:190px;overflow:hidden;z-index:20;box-shadow:0 12px 40px rgba(0,0,0,.55)}
+.more-menu.open{display:block}
+.more-menu button{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);color:var(--txt);padding:13px 16px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
+.more-menu button:last-child{border-bottom:0}
+.more-menu button.del{color:#ff8a8a}
+.card{position:relative}
+body.editing .card{cursor:grab}
+.card.dragging{opacity:.4}
+.add-prod-card{border:2px dashed var(--line);border-radius:18px;min-height:220px;display:grid;place-content:center;color:var(--mut);font-size:15px;font-weight:700;cursor:pointer;background:transparent;text-align:center;padding:20px}
+.add-prod-card:hover{border-color:var(--acc);color:var(--acc)}
+.add-prod-card .plus{font-size:40px;display:block;margin-bottom:8px}
+.modal-ov{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:300;display:grid;place-items:center;padding:16px}
+.modal{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;width:100%;max-width:480px;max-height:92vh;overflow-y:auto}
+.modal h3{margin-bottom:6px;font-size:18px}
+.modal label{font-size:13px;color:var(--mut);display:block;margin:12px 0 6px}
+.modal input,.modal textarea,.modal select{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;color:var(--txt);padding:12px;font-family:inherit;font-size:14px}
+.modal .row{display:flex;gap:10px;margin-top:18px}
+.modal .row button{flex:1;padding:13px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px}
+.ed-wa{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:12px 16px;margin-top:12px;font-size:13px}
+.ed-wa small{color:var(--mut)}
+
+.crop-frame{position:relative;overflow:hidden;background:#0a0c10;display:grid;place-items:center;touch-action:none;user-select:none;-webkit-user-select:none}
+.crop-cover{aspect-ratio:3/1;border-radius:14px;width:100%}
+.crop-avatar{aspect-ratio:1/1;border-radius:50%;width:100%;max-width:320px;margin:0 auto}
+.crop-frame img{max-width:none!important;pointer-events:none}
+.crop-zoom{display:flex;align-items:center;gap:12px;margin:16px 0 4px}
+.crop-zoom button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--txt);font-size:22px;cursor:pointer;flex:0 0 auto;font-family:inherit}
+.crop-zoom input{flex:1;accent-color:var(--acc);height:44px}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="../index.html">DOMIN<em>US</em></a>
+  <div class="menu-wrap">
+    <button id="menu-btn" aria-label="Menú">☰</button>
+    <nav class="menu" id="menu">
+      <a href="../index.html">Inicio</a>
+      <a href="../cuenta.html">Mi cuenta</a>
+      <a href="../comprador/perfil.html">Carrito</a>
+    </nav>
+  </div>
+</header>
+<div id="wall"><div class="empty">Cargando…</div></div>
+<main>
+  <div class="sec-head"><h2>Productos</h2></div>
+  <div class="grid" id="grid"></div>
+</main>
+<div id="reviews"></div>
+<footer>© 2026 Dominus · Compra y vende seguro</footer>
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+/* sesión persistente: renueva el token automáticamente */
+(function(){
+  try{
+    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+    if(!s || !s.access_token || !s.refresh_token) return;
+    var exp = 0;
+    if(s.expires_at) exp = s.expires_at * 1000;
+    else { try{ exp = JSON.parse(atob(s.access_token.split('.')[1])).exp * 1000; }catch(e){} }
+    if(!exp || Date.now() < exp - 120000) return;
+    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
+      method: 'POST',
+      headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refresh_token: s.refresh_token })
+    }).then(function(r){ return r.json(); }).then(function(ns){
+      if(ns && ns.access_token){ localStorage.setItem('dominus_session', JSON.stringify(ns)); location.reload(); }
+      else localStorage.removeItem('dominus_session');
+    }).catch(function(){});
+  }catch(e){}
+})();
+
+function api(path){
+  return fetch(SUPABASE_URL + '/rest/v1/' + path, {
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + SUPABASE_ANON }
+  }).then(function(r){ if(!r.ok) throw new Error('API ' + r.status); return r.json(); });
+}
+function money(n){ return '$' + Number(n).toFixed(2); }
+function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
+function addToCart(pid, btn){
+  var s = buyerSession();
+  if(!s){ location.href = '../cuenta.html?tipo=comprador'; return; }
+  btn.disabled = true; btn.textContent = 'Agregando…';
+  fetch(SUPABASE_URL + '/rest/v1/cart_items', {
+    method: 'POST',
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates,return=representation' },
+    body: JSON.stringify({ user_id: s.user.id, product_id: pid, qty: 1 })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(res.ok && res.j.length && res.j[0].qty > 1){
+        var row = res.j[0];
+        fetch(SUPABASE_URL + '/rest/v1/cart_items?id=eq.' + row.id, {
+          method: 'PATCH', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ qty: row.qty + 1 })
+        });
+      }
+      btn.textContent = '✓ En el carrito';
+      setTimeout(function(){ btn.disabled = false; btn.textContent = '+ Agregar al carrito'; }, 1500);
+    }).catch(function(){ btn.disabled = false; btn.textContent = '+ Agregar al carrito'; });
+}
+document.addEventListener('click', function(e){
+  var b = e.target.closest('.add-cart');
+  if(b) addToCart(b.dataset.pid, b);
+});
+function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+var slug = new URLSearchParams(location.search).get('s') || 'tech-zone';
+var isPreview = new URLSearchParams(location.search).get('preview') === '1';
+var SELLER = null, myRating = 5;
+function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
+function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
+function fetchProds(orderQ){
+  return api('products?select=*,sellers!inner(slug)&activo=eq.true&sellers.slug=eq.' + encodeURIComponent(slug) + '&order=' + orderQ);
+}
+Promise.all([
+  api('sellers?slug=eq.' + encodeURIComponent(slug) + '&select=*&limit=1'),
+  fetchProds('fijado.desc,orden.asc,created_at.desc').catch(function(){ return fetchProds('created_at.desc'); })
+]).then(function(res){
+  var s = res[0][0], prods = res[1];
+  window._prods = prods;
+  if(!s){
+    document.getElementById('wall').innerHTML = '<div class="empty">Este vendedor no existe.</div>';
+    return;
+  }
+  SELLER = s;
+  var own = (function(){ try{ var sx = JSON.parse(localStorage.getItem('dominus_session')); return !!(sx && sx.user && sx.user.id === s.user_id); }catch(e){ return false; } })();
+  document.getElementById('title').textContent = s.nombre + ' — Dominus';
+  var av = s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="' + esc(s.nombre) + '">' : esc(s.nombre.charAt(0));
+  document.getElementById('wall').innerHTML =
+    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
+    + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">📷 Cambiar portada</button>' : '') + '</div>'
+    + '<div class="wrap"><div class="profile"><span class="avatar">' + av
+    + (own ? '<button class="ed-avatar ed-only" data-photo="logo_url" title="Cambiar foto">📷</button>' : '') + '</span>'
+    + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
+    + '<div class="loc ' + (own ? 'editable' : '') + '" data-field="ubicacion">' + esc(s.ubicacion || (own ? 'Agregar ubicación' : '')) + '</div>'
+    + '<div class="wall-rating" id="wall-rating"></div></div>'
+    + '</div>'
+    + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
+    + (own ? '<div class="ed-wa ed-only">📱 <b class="' + 'editable' + '" data-field="whatsapp">' + esc(s.whatsapp || 'Agregar WhatsApp') + '</b> <small>(privado: solo tú lo ves)</small></div>' : '')
+    + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
+    + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
+    + '<span class="pill">Pago protegido PayPal</span></div>'
+    + '<div class="about"' + (s.descripcion_larga || own ? '' : ' style="display:none"') + '><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio…' : '')) + '</p></div>'
+    + '</div>';
+  document.getElementById('grid').innerHTML = (own ? '<div class="add-prod-card ed-only" id="add-prod"><span><span class="plus">＋</span>Agregar producto</span></div>' : '')
+  + (prods.length ? prods.map(function(p){
+    return '<div class="card" data-pid="' + p.id + '"' + (own ? ' draggable="true"' : '') + '><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
+      + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
+      + (p.fijado ? '<span class="pin-badge">📌 Fijado</span>' : '')
+      + '<div class="card-price">' + money(p.precio) + '</div>'
+      + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
+      + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button>'
+      + (own ? '<div class="ed-only"><button class="more-btn" data-more="' + p.id + '">⋯</button>'
+        + '<div class="more-menu" id="mm-' + p.id + '">'
+        + '<button data-pedit="' + p.id + '">✏️ Editar</button>'
+        + '<button data-ppin="' + p.id + '">📌 ' + (p.fijado ? 'Quitar fijado' : 'Fijar arriba') + '</button>'
+        + '<button data-pfeat="' + p.id + '">⭐ ' + (p.destacado ? 'Quitar destacado' : 'Destacar') + '</button>'
+        + '<button data-pact="' + p.id + '">' + (p.activo ? '⏸️ Pausar' : '▶️ Activar') + '</button>'
+        + '<button data-pdel="' + p.id + '" class="del">🗑️ Eliminar</button>'
+        + '</div></div>' : '')
+      + '</div></div>';
+  }).join('') : (own ? '' : '<div class="empty">Este vendedor aún no publica productos.</div>'));
+  var feat = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
+  if(feat.length){
+    document.getElementById('grid').insertAdjacentHTML('beforebegin',
+      '<div class="wrap"><div class="feat-sec"><h2>⭐ <span class="hl">Destacados</span></h2><div class="feat-row">'
+      + feat.map(function(p){
+          return '<a class="feat-card" href="../producto/?id=' + p.id + '">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '">' : '')
+            + '<div><b>' + esc(p.titulo) + '</b><span>' + money(p.precio) + '</span></div></a>';
+        }).join('') + '</div></div></div>');
+  }
+  if(isPreview){
+    document.body.insertAdjacentHTML('afterbegin',
+      '<div style="position:sticky;top:0;z-index:100;background:#c6f52e;color:#0a0c10;text-align:center;font-weight:800;font-size:14px;padding:10px">👁 Vista previa — así verán los clientes tu muro</div>');
+  }
+  loadReviews();
+  setupEditMode();
+}).catch(function(){
+  document.getElementById('wall').innerHTML = '<div class="empty">No se pudo cargar. Revisa tu conexión.</div>';
+});
+/* ===== MODO EDICIÓN TIPO FACEBOOK (dueño del muro) ===== */
+function edH(tok){ return { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + tok, 'Content-Type': 'application/json' }; }
+function myTok(){ var s = buyerSession(); return s ? s.access_token : null; }
+function setupEditMode(){
+  if(!SELLER) return;
+  var sx = null; try{ sx = JSON.parse(localStorage.getItem('dominus_session')); }catch(e){}
+  if(!(sx && sx.user && sx.user.id === SELLER.user_id)) return;
+  var btn = document.createElement('button');
+  btn.id = 'edit-toggle'; btn.textContent = '✏️ Editar muro';
+  btn.onclick = function(){
+    var on = document.body.classList.toggle('editing');
+    btn.textContent = on ? '👁 Ver como cliente' : '✏️ Editar muro';
+  };
+  document.body.appendChild(btn);
+  wireEditControls(sx.access_token);
+  if(new URLSearchParams(location.search).get('edit') === '1') btn.click();
+}
+function pickNewPhoto(field, tok){
+  var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*';
+  inp.style.position = 'fixed'; inp.style.opacity = '0'; inp.style.pointerEvents = 'none';
+  document.body.appendChild(inp);
+  inp.onchange = function(){
+    var f = inp.files[0]; inp.remove();
+    if(!f) return;
+    openCropEditor(f, field, tok);
+  };
+  try{ inp.click(); }catch(err){ alert('No se pudo abrir la galería.'); inp.remove(); }
+}
+function uploadPhoto(file, path, tok){
+  return fetch(SUPABASE_URL + '/storage/v1/object/product-images/' + path, {
+    method: 'POST',
+    headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + tok, 'Content-Type': file.type || 'image/jpeg' },
+    body: file
+  }).then(function(r){ if(!r.ok) throw new Error('up'); return r.json(); })
+  .then(function(){ return SUPABASE_URL + '/storage/v1/object/public/product-images/' + path; });
+}
+function patchSeller(patch, tok){
+  return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
+    method: 'PATCH', headers: edH(tok), body: JSON.stringify(patch)
+  }).then(function(){ location.reload(); });
+}
+function wireEditControls(tok){
+  // fotos: portada y avatar
+  document.querySelectorAll('[data-photo]').forEach(function(b){
+    b.onclick = function(e){
+      e.stopPropagation();
+      var field = b.dataset.photo;
+      var current = SELLER[field];
+      if(!current){ pickNewPhoto(field, tok); return; }
+      var ov = document.createElement('div');
+      ov.className = 'modal-ov';
+      ov.innerHTML = '<div class="modal"><h3>' + (field === 'cover_url' ? 'Foto de portada' : 'Foto de perfil') + '</h3>'
+        + '<button class="inline-save" id="ph-new" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:8px">📷 Elegir nueva foto</button>'
+        + '<button class="inline-save" id="ph-edit" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:10px">✏️ Editar foto actual</button>'
+        + '<button class="inline-cancel" id="ph-cancel" type="button" style="width:100%;padding:14px;border-radius:12px;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:10px">Cancelar</button></div>';
+      document.body.appendChild(ov);
+      ov.querySelector('#ph-cancel').onclick = function(){ ov.remove(); };
+      ov.addEventListener('click', function(ev){ if(ev.target === ov) ov.remove(); });
+      ov.querySelector('#ph-new').onclick = function(){ ov.remove(); pickNewPhoto(field, tok); };
+      ov.querySelector('#ph-edit').onclick = function(){ ov.remove(); openCropEditor(SELLER[field + '_orig'] || current, field, tok); };
+    };
+  });
+  // textos: tocar para editar
+  document.querySelectorAll('[data-field]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      if(!document.body.classList.contains('editing')) return;
+      e.stopPropagation();
+      if(el.querySelector('input,textarea')) return;
+      startInlineEdit(el, tok);
+    });
+  });
+  // productos
+  var addBtn = document.getElementById('add-prod');
+  if(addBtn) addBtn.onclick = function(){ productModal(null, tok); };
+  document.querySelectorAll('[data-pedit]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); productModal(b.dataset.pedit, tok); }; });
+  document.querySelectorAll('[data-ppin]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); togglePin(b.dataset.ppin, tok); }; });
+  document.querySelectorAll('[data-pfeat]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleFeat(b.dataset.pfeat, tok); }; });
+  document.querySelectorAll('[data-pact]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleAct(b.dataset.pact, tok); }; });
+  document.querySelectorAll('[data-pdel]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); if(confirm('¿Eliminar este producto?')) delProd(b.dataset.pdel, tok); }; });
+  document.querySelectorAll('[data-more]').forEach(function(b){
+    b.onclick = function(e){
+      e.stopPropagation();
+      var m = document.getElementById('mm-' + b.dataset.more);
+      var was = m.classList.contains('open');
+      document.querySelectorAll('.more-menu.open').forEach(function(x){ x.classList.remove('open'); });
+      if(!was) m.classList.add('open');
+    };
+  });
+  document.addEventListener('click', function(){ document.querySelectorAll('.more-menu.open').forEach(function(x){ x.classList.remove('open'); }); });
+  initCardDrag(tok);
+}
+function startInlineEdit(el, tok){
+  var field = el.dataset.field;
+  var isLong = (field === 'descripcion_larga');
+  var current = SELLER[field] || '';
+  var wrap = document.createElement('div');
+  wrap.className = 'inline-form';
+  wrap.innerHTML = (isLong ? '<textarea rows="4"></textarea>' : '<input type="text">')
+    + '<div class="row"><button class="inline-save">Guardar</button><button class="inline-cancel" type="button">Cancelar</button></div>';
+  var input = wrap.querySelector(isLong ? 'textarea' : 'input');
+  input.value = current;
+  el.style.display = 'none';
+  el.parentNode.insertBefore(wrap, el.nextSibling);
+  input.focus();
+  wrap.querySelector('.inline-cancel').onclick = function(){ wrap.remove(); el.style.display = ''; };
+  wrap.querySelector('.inline-save').onclick = function(){
+    var p = {}; p[field] = input.value.trim() || null;
+    patchSeller(p, tok);
+  };
+}
+function productModal(pid, tok){
+  var p = pid ? (window._prods || []).find(function(x){ return x.id === pid; }) : null;
+  var ov = document.createElement('div');
+  ov.className = 'modal-ov';
+  ov.innerHTML = '<div class="modal"><h3>' + (p ? 'Editar producto' : 'Nuevo producto') + '</h3>'
+    + '<label>Título</label><input id="m-titulo" value="' + esc(p ? p.titulo : '') + '">'
+    + '<label>Precio (USD)</label><input id="m-precio" type="number" min="0" step="0.01" value="' + (p ? p.precio : '') + '">'
+    + '<label>Categoría</label><input id="m-cat" value="' + esc(p ? (p.categoria || '') : '') + '" placeholder="General">'
+    + '<label>Foto</label><input id="m-foto" type="file" accept="image/*">'
+    + '<label>Descripción</label><textarea id="m-desc" rows="3">' + esc(p ? (p.descripcion || '') : '') + '</textarea>'
+    + '<div class="row"><button class="inline-save" id="m-save">Guardar</button><button class="inline-cancel" id="m-cancel" type="button">Cancelar</button></div></div>';
+  document.body.appendChild(ov);
+  ov.querySelector('#m-cancel').onclick = function(){ ov.remove(); };
+  ov.addEventListener('click', function(e){ if(e.target === ov) ov.remove(); });
+  ov.querySelector('#m-save').onclick = function(){
+    var titulo = ov.querySelector('#m-titulo').value.trim();
+    var precio = parseFloat(ov.querySelector('#m-precio').value);
+    if(!titulo || !(precio >= 0)){ alert('Pon título y precio.'); return; }
+    ov.querySelector('#m-save').textContent = 'Guardando…';
+    var file = ov.querySelector('#m-foto').files[0];
+    function done(imgUrl){
+      var body = { titulo: titulo, precio: precio, categoria: ov.querySelector('#m-cat').value.trim() || 'General',
+        descripcion: ov.querySelector('#m-desc').value.trim() || null };
+      if(imgUrl) body.imagen_url = imgUrl;
+      var url, method;
+      if(p){ url = SUPABASE_URL + '/rest/v1/products?id=eq.' + p.id; method = 'PATCH'; }
+      else { url = SUPABASE_URL + '/rest/v1/products'; method = 'POST'; body.seller_id = SELLER.id; body.activo = true; body.orden = (window._prods || []).length; }
+      fetch(url, { method: method, headers: edH(tok), body: JSON.stringify(body) })
+        .then(function(r){ if(!r.ok) throw 0; location.reload(); })
+        .catch(function(){ alert('No se pudo guardar.'); ov.querySelector('#m-save').textContent = 'Guardar'; });
+    }
+    if(file) uploadPhoto(file, SELLER.slug + '/prod-' + Date.now() + '.jpg', tok).then(done).catch(function(){ alert('No se pudo subir la foto.'); });
+    else done(p ? p.imagen_url : null);
+  };
+}
+function togglePin(pid, tok){
+  var p = (window._prods || []).find(function(x){ return x.id === pid; });
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ fijado: !p.fijado }) })
+    .then(function(){ location.reload(); });
+}
+function toggleFeat(pid, tok){
+  var p = (window._prods || []).find(function(x){ return x.id === pid; });
+  if(!p.destacado && (window._prods || []).filter(function(x){ return x.destacado; }).length >= 3){
+    alert('Solo puedes destacar 3 productos.'); return;
+  }
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ destacado: !p.destacado }) })
+    .then(function(){ location.reload(); });
+}
+function toggleAct(pid, tok){
+  var p = (window._prods || []).find(function(x){ return x.id === pid; });
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ activo: !p.activo }) })
+    .then(function(){ location.reload(); });
+}
+function delProd(pid, tok){
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'DELETE', headers: edH(tok) })
+    .then(function(){ location.reload(); });
+}
+function initCardDrag(tok){
+  var grid = document.getElementById('grid');
+  var dragPid = null;
+  grid.querySelectorAll('.card[data-pid]').forEach(function(card){
+    card.addEventListener('dragstart', function(){ dragPid = card.dataset.pid; card.classList.add('dragging'); });
+    card.addEventListener('dragend', function(){ card.classList.remove('dragging'); });
+    card.addEventListener('dragover', function(e){ if(document.body.classList.contains('editing')) e.preventDefault(); });
+    card.addEventListener('drop', function(e){
+      e.preventDefault();
+      if(!dragPid || dragPid === card.dataset.pid || !document.body.classList.contains('editing')) return;
+      var cards = Array.prototype.slice.call(grid.querySelectorAll('.card[data-pid]'));
+      var from = cards.find(function(c){ return c.dataset.pid === dragPid; });
+      grid.insertBefore(from, card);
+      var ids = Array.prototype.map.call(grid.querySelectorAll('.card[data-pid]'), function(c){ return c.dataset.pid; });
+      var jobs = ids.map(function(id, i){
+        return fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ orden: i }) });
+      });
+      Promise.all(jobs).then(function(){ location.reload(); });
+    });
+  });
+}
+function loadReviews(){
+  api('seller_reviews?seller_id=eq.' + SELLER.id + '&select=*&order=created_at.desc').then(function(rows){
+    var avg = rows.length ? rows.reduce(function(a, r){ return a + r.rating; }, 0) / rows.length : 0;
+    var wr = document.getElementById('wall-rating');
+    if(wr && rows.length) wr.innerHTML = starsHTML(avg) + ' <small>' + avg.toFixed(1) + ' · ' + rows.length + ' reseña(s)</small>';
+    var sess = buyerSession();
+    var html = '<div class="wrap"><div class="reviews"><h2>Reseñas <span class="hl">(' + rows.length + ')</span></h2>';
+    if(rows.length){
+      html += '<div class="avg"><b>' + avg.toFixed(1) + '</b>' + starsHTML(avg) + '</div>';
+      html += rows.map(function(r){
+        return '<div class="rev"><span class="rn">' + esc(r.nombre || 'Comprador') + '</span><span class="rt">' + new Date(r.created_at).toLocaleDateString('es') + '</span><div>' + starsHTML(r.rating) + '</div><p>' + esc(r.comentario || '') + '</p></div>';
+      }).join('');
+    } else html += '<p class="empty">Sé el primero en dejar una reseña.</p>';
+    if(sess){
+      html += '<div class="rform"><h2>Deja tu <span class="hl">reseña</span></h2>'
+        + '<label>Calificación</label><div class="starin" id="starin">' + [1,2,3,4,5].map(function(i){ return '<button data-v="' + i + '" class="' + (i <= 5 ? 'on' : '') + '">★</button>'; }).join('') + '</div>'
+        + '<label>Comentario</label><textarea id="r-com" placeholder="¿Qué tal tu experiencia con esta empresa?"></textarea>'
+        + '<button class="btn" id="r-send" style="margin-top:12px">Publicar reseña</button><div class="rerr" id="rerr"></div></div>';
+    } else {
+      html += '<p class="login-cta"><a href="../cuenta.html?tipo=comprador">Entra a tu cuenta</a> para dejar una reseña.</p>';
+    }
+    html += '</div></div>';
+    document.getElementById('reviews').innerHTML = html;
+    var si = document.getElementById('starin');
+    if(si){
+      si.querySelectorAll('button').forEach(function(b){
+        b.onclick = function(){ myRating = Number(b.dataset.v); si.querySelectorAll('button').forEach(function(x){ x.classList.toggle('on', Number(x.dataset.v) <= myRating); }); };
+      });
+      document.getElementById('r-send').onclick = function(){
+        var com = document.getElementById('r-com').value.trim();
+        var name = (sess.user.user_metadata && sess.user.user_metadata.nombre) || (sess.user.email || '').split('@')[0] || 'Comprador';
+        fetch(SUPABASE_URL + '/rest/v1/seller_reviews', {
+          method: 'POST',
+          headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ seller_id: SELLER.id, user_id: sess.user.id, nombre: name, rating: myRating, comentario: com || null })
+        }).then(function(r){ if(!r.ok) throw 0; loadReviews(); })
+          .catch(function(){ var e = document.getElementById('rerr'); e.textContent = 'No se pudo publicar. Intenta de nuevo.'; e.style.display = 'block'; });
+      };
+    }
+  }).catch(function(){});
+}
+
+document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
+document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
+
+/* ===== editor de foto: mover + agrandar/achicar ===== */
+function openCropEditor(source, field, tok){
+  var img = new Image();
+  img.crossOrigin = 'anonymous';
+  var url, revoke, origFile = null;
+  if(typeof source === 'string'){ url = source; revoke = false; }
+  else { url = URL.createObjectURL(source); revoke = true; origFile = source; }
+  img.onload = function(){ buildCropEditor(img, url, field === 'cover_url', field, tok, revoke, origFile); };
+  img.onerror = function(){ if(revoke) URL.revokeObjectURL(url); alert('No se pudo leer la imagen.'); };
+  img.src = url;
+}
+function buildCropEditor(img, objUrl, isCover, field, tok, revoke, origFile){
+  var aspect = 1;
+  if(isCover){
+    var cov = document.querySelector('.cover');
+    if(cov && cov.clientHeight > 0) aspect = cov.clientWidth / cov.clientHeight;
+    else aspect = window.innerWidth / 220;
+    aspect = Math.max(1.2, Math.min(4, aspect));
+  }
+  var ov = document.createElement('div');
+  ov.className = 'modal-ov';
+  ov.innerHTML = '<div class="modal"><h3>' + (isCover ? 'Ajustar portada' : 'Ajustar foto de perfil') + '</h3>'
+    + '<p style="font-size:13px;color:var(--mut);margin:6px 0 12px"><b style="color:var(--txt)">1.</b> Agranda la foto con la barra <b style="color:var(--txt)">2.</b> Arrastrala para acomodarla</p>'
+    + '<div class="crop-frame" style="aspect-ratio:' + aspect + '/1' + (isCover ? '' : ';border-radius:50%;max-width:320px;margin:0 auto') + '"><img id="crop-img" src="' + objUrl + '"></div>'
+    + '<div class="crop-zoom"><button id="z-out" type="button">−</button><input type="range" id="z-range" min="1" max="3" step="0.01" value="1"><button id="z-in" type="button">＋</button></div>'
+    + '<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--mut);margin:-2px 54px 10px"><span>achicar</span><span>agrandar</span></div>'
+    + '<div class="row"><button class="inline-save" id="crop-save">Guardar</button><button class="inline-cancel" id="crop-cancel" type="button">Cancelar</button></div></div>';
+  document.body.appendChild(ov);
+  var frame = ov.querySelector('.crop-frame'), cimg = ov.querySelector('#crop-img');
+  var range = ov.querySelector('#z-range');
+  var z = 1, dx = 0, dy = 0;
+  function applyT(){
+    var fw = frame.clientWidth, fh = frame.clientHeight;
+    if(!fw || !fh) return;
+    var iw = img.naturalWidth, ih = img.naturalHeight;
+    var s0 = Math.max(fw / iw, fh / ih);
+    cimg.style.width = (iw * s0) + 'px';
+    cimg.style.height = (ih * s0) + 'px';
+    var mx = Math.max(0, (iw * s0 * z - fw) / 2), my = Math.max(0, (ih * s0 * z - fh) / 2);
+    dx = Math.min(mx, Math.max(-mx, dx));
+    dy = Math.min(my, Math.max(-my, dy));
+    cimg.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(' + z + ')';
+  }
+  function close(){ if(revoke) URL.revokeObjectURL(objUrl); ov.remove(); }
+  ov.querySelector('#crop-cancel').onclick = close;
+  var dragging = false, sx = 0, sy = 0, sdx = 0, sdy = 0;
+  function dStart(x, y){ dragging = true; sx = x; sy = y; sdx = dx; sdy = dy; }
+  function dMove(x, y){ if(!dragging) return; dx = sdx + (x - sx); dy = sdy + (y - sy); applyT(); }
+  function dEnd(){ dragging = false; }
+  frame.addEventListener('touchstart', function(e){ var t = e.touches[0]; dStart(t.clientX, t.clientY); e.preventDefault(); }, {passive:false});
+  frame.addEventListener('touchmove', function(e){ var t = e.touches[0]; dMove(t.clientX, t.clientY); e.preventDefault(); }, {passive:false});
+  frame.addEventListener('touchend', dEnd);
+  frame.addEventListener('touchcancel', dEnd);
+  frame.addEventListener('mousedown', function(e){ dStart(e.clientX, e.clientY); });
+  frame.addEventListener('mousemove', function(e){ dMove(e.clientX, e.clientY); });
+  frame.addEventListener('mouseup', dEnd);
+  frame.addEventListener('mouseleave', dEnd);
+  range.addEventListener('input', function(){ z = parseFloat(range.value); applyT(); });
+  ov.querySelector('#z-in').onclick = function(){ z = Math.min(3, z + 0.25); range.value = z; applyT(); };
+  ov.querySelector('#z-out').onclick = function(){ z = Math.max(1, z - 0.25); range.value = z; applyT(); };
+  window.addEventListener('resize', applyT);
+  // esperar layout
+  setTimeout(applyT, 50); setTimeout(applyT, 300);
+  ov.querySelector('#crop-save').onclick = function(){
+    var outW = isCover ? 1200 : 600, outH = isCover ? Math.round(1200 / aspect) : 600;
+    var imgRect = cimg.getBoundingClientRect();
+    var frameRect = frame.getBoundingClientRect();
+    var scale = imgRect.width / img.naturalWidth;
+    var sx = (frameRect.left - imgRect.left) / scale;
+    var sy = (frameRect.top - imgRect.top) / scale;
+    var sw = frameRect.width / scale, sh = frameRect.height / scale;
+    sx = Math.max(0, Math.min(img.naturalWidth - sw, sx));
+    sy = Math.max(0, Math.min(img.naturalHeight - sh, sy));
+    var canvas = document.createElement('canvas');
+    canvas.width = outW; canvas.height = outH;
+    canvas.getContext('2d').drawImage(img, sx, sy, sw, sh, 0, 0, outW, outH);
+    ov.querySelector('#crop-save').textContent = 'Guardando…';
+    canvas.toBlob(function(blob){
+      if(!blob){ alert('No se pudo procesar la imagen.'); return; }
+      var ts = Date.now();
+      var cropPath = SELLER.slug + '/' + field + '-' + ts + '.jpg';
+      function fail(){ alert('No se pudo subir la foto. Intenta de nuevo.'); ov.querySelector('#crop-save').textContent = 'Guardar'; }
+      if(origFile){
+        var ext = (origFile.name && origFile.name.split('.').pop()) || 'jpg';
+        var origPath = SELLER.slug + '/' + field + '-orig-' + ts + '.' + ext;
+        uploadPhoto(origFile, origPath, tok).then(function(origUrl){
+          return uploadPhoto(blob, cropPath, tok).then(function(cropUrl){
+            var p = {}; p[field] = cropUrl; p[field + '_orig'] = origUrl;
+            return patchSeller(p, tok);
+          });
+        }).catch(fail);
+      } else {
+        uploadPhoto(blob, cropPath, tok).then(function(cropUrl){
+          var p = {}; p[field] = cropUrl;
+          return patchSeller(p, tok);
+        }).catch(fail);
+      }
+    }, 'image/jpeg', 0.85);
+  };
+}
+</script>
+</body>
+</html>

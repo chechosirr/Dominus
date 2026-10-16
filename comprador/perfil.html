@@ -11,8 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#d7dce3;--err:#ff5d5d}
-body{background:linear-gradient(135deg,#100b22 0%,#2b1a4e 38%,#5a5468 68%,#939aab 100%);background-attachment:fixed;color:var(--txt);font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#5a6270;--acc:#d7dce3;--err:#ff5d5d}
+body{background:#ffffff;background-attachment:fixed;color:#111111;font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh}
 header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(8,9,13,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
 .logo em{font-style:normal;color:var(--acc)}
@@ -126,32 +126,8 @@ function renderPayPalButtons(total){
     paypal.Buttons({
       style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'paypal' },
       createOrder: function(data, actions){
-        var units = [];
-        var bySeller = {};
-        cart.forEach(function(it){
-          var s = it.products.sellers || {};
-          var em = s.paypal_email;
-          if(!bySeller[em]) bySeller[em] = { email: em, name: s.nombre || 'Vendedor', amount: 0 };
-          bySeller[em].amount += Number(it.products.precio) * it.qty;
-        });
-        Object.keys(bySeller).forEach(function(em){
-          var g = bySeller[em];
-          units.push({
-            amount: { value: g.amount.toFixed(2), currency_code: 'USD' },
-            payee: { email_address: g.email },
-            description: 'Compra en Dominus - ' + g.name
-          });
-        });
-        units.push({
-          amount: { value: SERVICE_FEE.toFixed(2), currency_code: 'USD' },
-          payee: { email_address: SERGIO_PAYPAL },
-          description: 'Tasa de servicio Dominus'
-        });
-        return actions.order.create({ purchase_units: units }).catch(function(err){
-          console.error('PayPal multi-payee falló, usando pago único:', err);
-          return actions.order.create({
-            purchase_units: [{ amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' }]
-          });
+        return actions.order.create({
+          purchase_units: [{ amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' }]
         });
       },
       onApprove: function(data, actions){
@@ -278,11 +254,18 @@ function loadCart(){
     .catch(function(){ document.getElementById('main').innerHTML = '<p class="empty">No se pudo cargar. Revisa tu conexión.</p>'; });
 }
 var SERGIO_PAYPAL = "Sergioromero97531@gmail.com";
-var SERVICE_FEE = 1.38; // el comprador paga esto; tras la comisión de PayPal quedan ~$1.00 netos
+var FEE_RATE = 0.1174;   // 11.74% — cubre doble comisión PayPal (5.4%+$0.30 x2) y deja $1 neto
+var FEE_FIXED = 1.71;
+var SHIP_FEE = 2.00;
+function calcFees(subtotal){
+  var service = subtotal * FEE_RATE + FEE_FIXED;
+  return { service: service, shipping: SHIP_FEE, total: subtotal + service + SHIP_FEE };
+}
 function render(){
   var name = (session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
   var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
-  var total = subtotal + (cart.length ? SERVICE_FEE : 0);
+  var fees = cart.length ? calcFees(subtotal) : { service: 0, shipping: 0, total: 0 };
+  var total = fees.total;
   var html = '<div class="profile-card"><span class="avatar">' + esc(name.charAt(0).toUpperCase()) + '</span>'
     + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">datos de envío</span></h2>'
@@ -301,11 +284,12 @@ function render(){
         + '<span class="pa">' + money(Number(p.precio) * it.qty) + '</span></div>';
     }).join('')
     + '<div class="total"><span>Subtotal</span><span>' + money(subtotal) + '</span></div>'
-    + '<div class="total" style="font-size:14px;color:var(--mut)"><span>Tasa de servicio</span><span>' + money(SERVICE_FEE) + '</span></div>'
+    + '<div class="total" style="font-size:14px;color:var(--mut)"><span>Tasa de servicio</span><span>' + money(fees.service) + '</span></div>'
+    + '<div class="total" style="font-size:14px;color:var(--mut)"><span>Envío</span><span>' + money(fees.shipping) + '</span></div>'
     + '<div class="total"><span>Total</span><span>' + money(total) + '</span></div>'
     + '<div id="paypal-button-container" style="margin-top:6px"></div>'
     + '<a class="btn btn-wa" id="wa-order" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>'
-    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye $1.38 de tasa de servicio. Pagas directo a cada vendedor por PayPal y coordinamos el envío con rastreo.</p>';
+    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye tasa de servicio y $2.00 de envío. Pagas directo a cada vendedor por PayPal y coordinamos el envío con rastreo.</p>';
   }
   html += '</div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
