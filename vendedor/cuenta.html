@@ -83,6 +83,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     <textarea id="p-desc" placeholder="Qué vendes, garantías, tiempos de envío…"></textarea>
     <label>Ubicación</label>
     <input id="p-ubica" placeholder="Ej: Los Ángeles, CA">
+    <label>WhatsApp / número de contacto <small style="color:var(--mut)">(privado: solo lo ve el equipo de Dominus)</small></label>
+    <input id="p-wa" placeholder="Ej: 15704698339">
     <label>Foto de perfil (opcional)</label>
     <input id="p-logo" type="file" accept="image/*">
     <label>Foto de portada (opcional)</label>
@@ -182,6 +184,7 @@ document.getElementById('btn-profile').onclick = function(){
     user_id: session.user.id, slug: slug, nombre: nombre,
     descripcion: document.getElementById('p-desc').value.trim() || null,
     ubicacion: document.getElementById('p-ubica').value.trim() || null,
+    whatsapp: document.getElementById('p-wa').value.trim() || null,
     verificado: false
   };
   var sellerId = null;

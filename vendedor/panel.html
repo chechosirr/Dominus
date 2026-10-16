@@ -112,7 +112,8 @@ function render(){
     + '<label>Nombre del negocio</label><input id="w-nombre" value="' + esc(seller.nombre) + '">'
     + '<label>Descripción</label><textarea id="w-desc">' + esc(seller.descripcion || '') + '</textarea>'
     + '<label>Descripción larga (acerca de tu empresa, se muestra arriba en tu muro)</label><textarea id="w-about" style="min-height:110px" placeholder="Cuenta la historia de tu empresa, qué te hace diferente…">' + esc(seller.descripcion_larga || '') + '</textarea>'
-    + '<div><label>Ubicación</label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '"></div>'
+    + '<div class="row2"><div><label>Ubicación</label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '"></div>'
+    + '<div><label>WhatsApp <small style="color:var(--mut)">(privado)</small></label><input id="w-wa" value="' + esc(seller.whatsapp || '') + '"></div></div>'
     + '<div class="err" id="w-err"></div>'
     + '<button class="btn" id="w-btn">Guardar cambios</button></div>'
     + '<div class="sec"><h2>Subir producto</h2>'
@@ -158,7 +159,8 @@ function saveWall(){
       nombre: document.getElementById('w-nombre').value.trim() || seller.nombre,
       descripcion: document.getElementById('w-desc').value.trim() || null,
       descripcion_larga: document.getElementById('w-about').value.trim() || null,
-      ubicacion: document.getElementById('w-ubica').value.trim() || null
+      ubicacion: document.getElementById('w-ubica').value.trim() || null,
+      whatsapp: document.getElementById('w-wa').value.trim() || null
     };
     if(logoFile) patch.logo_url = urls[i++];
     if(coverFile) patch.cover_url = urls[i++];
