@@ -38,6 +38,9 @@ textarea{resize:vertical;min-height:70px}
 .btn-ghost{background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;font-family:inherit;font-size:13px;padding:9px 16px;cursor:pointer}
 .preview-img{max-width:120px;border-radius:12px;margin-top:10px;display:none}
 .prod{display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:12px;margin-bottom:10px}
+.prod.dragging{opacity:.4;border-color:var(--acc)}
+.drag{cursor:grab;color:var(--mut);font-size:18px;flex:0 0 auto;touch-action:none}
+.drag:active{cursor:grabbing}
 .prod img{width:64px;height:64px;object-fit:cover;border-radius:12px;background:#161b24;flex:0 0 64px}
 .prod .info{flex:1;min-width:0}
 .prod .info b{font-size:14px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -54,13 +57,28 @@ textarea{resize:vertical;min-height:70px}
 .hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 .btn:not(.btn-ghost):not(.btn-wa),.buy,.hero-search button{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
 .card-price,.pd-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+
+.menu-wrap{position:relative;margin-left:auto}
+#menu-btn{background:none;border:1px solid var(--line);color:var(--txt);font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
+.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:50}
+.menu.open{display:block}
+.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:var(--txt)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:rgba(215,220,227,.08)}
 </style>
 </head>
 <body>
 <header class="top">
   <a class="logo" href="../index.html">DOMIN<em>US</em></a>
   <div class="top-actions">
-    <a class="link" href="../index.html">Ver marketplace</a>
+    <div class="menu-wrap">
+    <button id="menu-btn" aria-label="Menú">☰</button>
+    <nav class="menu" id="menu">
+      <a href="../index.html">Inicio</a>
+      <a href="../cuenta.html">Mi cuenta</a>
+      <a href="../comprador/perfil.html">Carrito</a>
+    </nav>
+  </div>
     <button class="logout" id="btn-out">Salir</button>
   </div>
 </header>
@@ -93,14 +111,15 @@ function boot(){
   });
 }
 function loadProducts(){
-  fetch(SUPABASE_URL + '/rest/v1/products?seller_id=eq.' + seller.id + '&select=*&order=created_at.desc', { headers: h(session.access_token) })
-    .then(function(r){ return r.json(); }).then(function(rows){ products = rows || []; render(); });
+  function q(o){ return fetch(SUPABASE_URL + '/rest/v1/products?seller_id=eq.' + seller.id + '&select=*&order=' + o, { headers: h(session.access_token) }).then(function(r){ if(!r.ok) throw 0; return r.json(); }); }
+  q('orden.asc,created_at.desc').catch(function(){ return q('created_at.desc'); })
+    .then(function(rows){ products = rows || []; render(); });
 }
 function render(){
   var active = products.filter(function(p){ return p.activo; });
   document.getElementById('main').innerHTML =
     '<div class="welcome"><h1>Hola, <span class="hl">' + esc(seller.nombre) + '</span></h1>'
-    + '<a class="wall-link" href="index.html?s=' + esc(seller.slug) + '" target="_blank">Ver mi muro →</a></div>'
+    + '<a class="wall-link" href="index.html?s=' + esc(seller.slug) + '&preview=1" target="_blank">👁 Vista previa</a></div>'
     + '<div class="cards"><div class="stat"><b>' + products.length + '</b><span>Productos</span></div>'
     + '<div class="stat"><b>' + active.length + '</b><span>Activos</span></div>'
     + '<div class="stat"><b>5%</b><span>Comisión</span></div></div>'
@@ -190,17 +209,70 @@ function loadReviews(){
 function renderList(){
   var el = document.getElementById('plist');
   if(!products.length){ el.innerHTML = '<p class="empty">Aún no tienes productos. ¡Sube el primero!</p>'; return; }
-  el.innerHTML = products.map(function(p){
-    return '<div class="prod">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="">' : '')
+  el.innerHTML = '<p style="font-size:12px;color:var(--mut);margin-bottom:10px">Arrastra <b>⠿</b> para reordenar cómo se ven en tu muro.</p>' + products.map(function(p){
+    return '<div class="prod" draggable="true" data-pid="' + p.id + '">'
+      + '<span class="drag" title="Arrastrar para reordenar">⠿</span>'
+      + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="">' : '')
       + '<div class="info"><b>' + esc(p.titulo) + '</b><small>' + esc(p.categoria || 'General') + '</small> '
-      + '<span class="badge' + (p.activo ? '' : ' off') + '">' + (p.activo ? 'Activo' : 'Pausado') + '</span></div>'
+      + '<span class="badge' + (p.activo ? '' : ' off') + '">' + (p.activo ? 'Activo' : 'Pausado') + '</span>'
+      + (p.fijado ? ' <span class="badge">📌 Fijado</span>' : '')
+      + (p.destacado ? ' <span class="badge">⭐ Destacado</span>' : '') + '</div>'
       + '<span class="pa">' + money(p.precio) + '</span>'
-      + '<div class="ops"><button class="btn-ghost" data-act="' + p.id + '">' + (p.activo ? 'Pausar' : 'Activar') + '</button>'
+      + '<div class="ops"><button class="btn-ghost" data-pin="' + p.id + '">' + (p.fijado ? 'Quitar 📌' : '📌 Fijar') + '</button>'
+      + '<button class="btn-ghost" data-feat="' + p.id + '">' + (p.destacado ? 'Quitar ⭐' : '⭐ Destacar') + '</button>'
+      + '<button class="btn-ghost" data-act="' + p.id + '">' + (p.activo ? 'Pausar' : 'Activar') + '</button>'
       + '<button class="btn-ghost" data-del="' + p.id + '">Eliminar</button></div></div>';
   }).join('');
   el.querySelectorAll('[data-act]').forEach(function(b){ b.onclick = function(){ toggleProduct(b.dataset.act); }; });
   el.querySelectorAll('[data-del]').forEach(function(b){ b.onclick = function(){ if(confirm('¿Eliminar este producto?')) delProduct(b.dataset.del); }; });
+  el.querySelectorAll('[data-pin]').forEach(function(b){ b.onclick = function(){ togglePin(b.dataset.pin); }; });
+  el.querySelectorAll('[data-feat]').forEach(function(b){ b.onclick = function(){ toggleFeat(b.dataset.feat); }; });
+  initDrag(el);
   loadReviews();
+}
+var dragPid = null;
+function initDrag(el){
+  el.querySelectorAll('.prod').forEach(function(row){
+    row.addEventListener('dragstart', function(){ dragPid = row.dataset.pid; row.classList.add('dragging'); });
+    row.addEventListener('dragend', function(){ row.classList.remove('dragging'); });
+    row.addEventListener('dragover', function(e){ e.preventDefault(); });
+    row.addEventListener('drop', function(e){
+      e.preventDefault();
+      if(!dragPid || dragPid === row.dataset.pid) return;
+      var rows = Array.prototype.slice.call(el.querySelectorAll('.prod'));
+      var from = rows.find(function(r){ return r.dataset.pid === dragPid; });
+      var to = row;
+      el.insertBefore(from, to);
+      saveOrder();
+    });
+  });
+}
+function saveOrder(){
+  var ids = Array.prototype.map.call(document.querySelectorAll('#plist .prod'), function(r){ return r.dataset.pid; });
+  var jobs = ids.map(function(id, i){
+    var p = products.find(function(x){ return x.id === id; });
+    if(p && p.orden !== i) return fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, {
+      method: 'PATCH', headers: h(session.access_token, true), body: JSON.stringify({ orden: i })
+    });
+    return null;
+  }).filter(Boolean);
+  Promise.all(jobs).then(loadProducts);
+}
+function togglePin(id){
+  var p = products.find(function(x){ return x.id === id; });
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, {
+    method: 'PATCH', headers: h(session.access_token, true), body: JSON.stringify({ fijado: !p.fijado })
+  }).then(loadProducts);
+}
+function toggleFeat(id){
+  var p = products.find(function(x){ return x.id === id; });
+  if(!p.destacado && products.filter(function(x){ return x.destacado; }).length >= 3){
+    alert('Solo puedes destacar 3 productos. Quita uno para destacar otro.');
+    return;
+  }
+  fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, {
+    method: 'PATCH', headers: h(session.access_token, true), body: JSON.stringify({ destacado: !p.destacado })
+  }).then(loadProducts);
 }
 function ferr(m){ var e = document.getElementById('f-err'); e.textContent = m; e.style.display = 'block'; }
 function publishProduct(){
@@ -223,7 +295,7 @@ function publishProduct(){
     return fetch(SUPABASE_URL + '/rest/v1/products', {
       method: 'POST', headers: h(session.access_token, true),
       body: JSON.stringify({ seller_id: seller.id, titulo: titulo, descripcion: document.getElementById('f-desc').value.trim() || null, especificaciones: document.getElementById('f-specs').value.trim() || null,
-        precio: precio, categoria: document.getElementById('f-cat').value.trim() || 'General', imagen_url: imgUrl,
+        precio: precio, categoria: document.getElementById('f-cat').value.trim() || 'General', imagen_url: imgUrl, orden: products.length,
         paypal_link: 'https://www.paypal.com/paypalme/tuusuario/', activo: true })
     });
   }).then(function(r){ if(!r.ok) throw new Error('db'); loadProducts(); })
@@ -239,6 +311,9 @@ function delProduct(id){
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, { method: 'DELETE', headers: h(session.access_token) }).then(loadProducts);
 }
 boot();
+
+document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
+document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 </script>
 </body>
 </html>

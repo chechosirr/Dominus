@@ -72,6 +72,16 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .rerr{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
 .login-cta{text-align:center;font-size:14px;color:var(--mut);padding:14px}
 .login-cta a{color:var(--acc);font-weight:700;text-decoration:none}
+.pin-badge{display:inline-block;font-size:11px;font-weight:700;color:var(--acc);margin-bottom:2px}
+.feat-sec{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin:0 0 18px}
+.feat-sec h2{font-size:18px;margin-bottom:14px}
+.feat-sec h2 .hl{color:var(--acc)}
+.feat-row{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px}
+.feat-card{flex:0 0 200px;background:var(--bg);border:1px solid var(--acc);border-radius:14px;overflow:hidden;text-decoration:none;display:block}
+.feat-card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.feat-card div{padding:10px 12px}
+.feat-card b{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.feat-card span{font-size:15px;font-weight:900;color:var(--acc)}
 @media(max-width:600px){
 .cover{height:150px}
 .avatar{width:88px;height:88px;margin:-44px 0 0 16px}
@@ -84,13 +94,27 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 .btn:not(.btn-ghost):not(.btn-wa),.buy,.hero-search button{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
 .card-price,.pd-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+
+.menu-wrap{position:relative;margin-left:auto}
+#menu-btn{background:none;border:1px solid var(--line);color:var(--txt);font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
+.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:50}
+.menu.open{display:block}
+.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:var(--txt)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:rgba(215,220,227,.08)}
 </style>
 </head>
 <body>
 <header class="top">
   <a class="logo" href="../index.html">DOMIN<em>US</em></a>
-  <a class="back" href="../index.html">← Marketplace</a>
-  <a href="../comprador/perfil.html" style="text-decoration:none;font-size:18px" title="Mi carrito">🛒</a>
+  <div class="menu-wrap">
+    <button id="menu-btn" aria-label="Menú">☰</button>
+    <nav class="menu" id="menu">
+      <a href="../index.html">Inicio</a>
+      <a href="../cuenta.html">Mi cuenta</a>
+      <a href="../comprador/perfil.html">Carrito</a>
+    </nav>
+  </div>
 </header>
 <div id="wall"><div class="empty">Cargando…</div></div>
 <main>
@@ -135,12 +159,16 @@ document.addEventListener('click', function(e){
 });
 function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 var slug = new URLSearchParams(location.search).get('s') || 'tech-zone';
+var isPreview = new URLSearchParams(location.search).get('preview') === '1';
 var SELLER = null, myRating = 5;
 function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
 function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
+function fetchProds(orderQ){
+  return api('products?select=*,sellers!inner(slug)&activo=eq.true&sellers.slug=eq.' + encodeURIComponent(slug) + '&order=' + orderQ);
+}
 Promise.all([
   api('sellers?slug=eq.' + encodeURIComponent(slug) + '&select=*&limit=1'),
-  api('products?select=*,sellers!inner(slug)&activo=eq.true&sellers.slug=eq.' + encodeURIComponent(slug) + '&order=created_at.desc')
+  fetchProds('fijado.desc,orden.asc,created_at.desc').catch(function(){ return fetchProds('created_at.desc'); })
 ]).then(function(res){
   var s = res[0][0], prods = res[1];
   if(!s){
@@ -166,10 +194,24 @@ Promise.all([
   document.getElementById('grid').innerHTML = prods.length ? prods.map(function(p){
     return '<div class="card"><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
       + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
+      + (p.fijado ? '<span class="pin-badge">📌 Fijado</span>' : '')
       + '<div class="card-price">' + money(p.precio) + '</div>'
       + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
       + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button></div></div>';
   }).join('') : '<div class="empty">Este vendedor aún no publica productos.</div>';
+  var feat = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
+  if(feat.length){
+    document.getElementById('grid').insertAdjacentHTML('beforebegin',
+      '<div class="wrap"><div class="feat-sec"><h2>⭐ <span class="hl">Destacados</span></h2><div class="feat-row">'
+      + feat.map(function(p){
+          return '<a class="feat-card" href="../producto/?id=' + p.id + '">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '">' : '')
+            + '<div><b>' + esc(p.titulo) + '</b><span>' + money(p.precio) + '</span></div></a>';
+        }).join('') + '</div></div></div>');
+  }
+  if(isPreview){
+    document.body.insertAdjacentHTML('afterbegin',
+      '<div style="position:sticky;top:0;z-index:100;background:#c6f52e;color:#0a0c10;text-align:center;font-weight:800;font-size:14px;padding:10px">👁 Vista previa — así verán los clientes tu muro</div>');
+  }
   loadReviews();
 }).catch(function(){
   document.getElementById('wall').innerHTML = '<div class="empty">No se pudo cargar. Revisa tu conexión.</div>';
@@ -215,6 +257,9 @@ function loadReviews(){
     }
   }).catch(function(){});
 }
+
+document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
+document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 </script>
 </body>
 </html>
