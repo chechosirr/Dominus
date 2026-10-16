@@ -199,6 +199,7 @@ body.editing .card{cursor:grab}
   <a class="logo" href="../index.html">DOMIN<em>US</em></a>
   <div class="menu-wrap">
     <button id="menu-btn" aria-label="Menú">☰</button>
+    <button id="hdr-back" aria-label="Volver" style="display:none;background:none;border:1px solid var(--line);color:var(--txt);font-size:16px;border-radius:12px;padding:8px 16px;cursor:pointer;font-family:inherit">‹ Volver</button>
     <nav class="menu" id="menu">
       <a href="../index.html">Inicio</a>
       <a href="../cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
@@ -300,12 +301,12 @@ Promise.all([
     + '</div></div>' : '';
   var infoHTML = own ?
     '<div class="wrap"><div id="view-info" style="display:none">'
-    + '<div style="overflow:hidden"><button class="dash-back" data-goto="menu">\u2039 Volver al panel</button></div>'
+    + ''
     + '<div class="edit-panel"><h3>Informaci\u00F3n del negocio</h3><p class="ep-sub">Solo t\u00FA puedes ver y editar estos datos</p><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
     + '</div></div>' : '';
   var histHTML = own ?
     '<div class="wrap"><div id="view-historial" style="display:none">'
-    + '<div style="overflow:hidden"><button class="dash-back" data-goto="menu">\u2039 Volver al panel</button></div>'
+    + ''
     + '<div class="edit-panel"><h3>Historial de ventas</h3><div id="sales-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
     + '</div></div>' : '';
   var wallHTML =
@@ -318,7 +319,7 @@ Promise.all([
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
-    + (own ? '<button class="dash-back" data-goto="menu">\u2039 Volver al panel</button>' : '')
+    + (own ? '' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">\u2713 Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
@@ -618,14 +619,20 @@ function showView(v){
   var main = document.querySelector('main');
   var revs = document.getElementById('reviews');
   var showWall = (v === 'editar');
+  var inSection = (v === 'info' || v === 'editar' || v === 'historial');
   if(menu) menu.style.display = (v === 'menu') ? '' : 'none';
   if(info) info.style.display = (v === 'info') ? '' : 'none';
   if(editar) editar.style.display = showWall ? '' : 'none';
   if(hist) hist.style.display = (v === 'historial') ? '' : 'none';
   if(main) main.style.display = showWall ? '' : 'none';
   if(revs) revs.style.display = showWall ? '' : 'none';
+  var mb = document.getElementById('menu-btn');
+  var hb = document.getElementById('hdr-back');
+  if(mb) mb.style.display = inSection ? 'none' : '';
+  if(hb) hb.style.display = inSection ? '' : 'none';
   window.scrollTo(0, 0);
 }
+document.getElementById('hdr-back').onclick = function(){ showView('menu'); };
 function loadSales(tok){
   var box = document.getElementById('sales-list');
   if(!box) return;
