@@ -554,10 +554,17 @@ function buildCropEditor(img, objUrl, isCover, field, tok){
   function close(){ URL.revokeObjectURL(objUrl); ov.remove(); }
   ov.querySelector('#crop-cancel').onclick = close;
   var dragging = false, sx = 0, sy = 0, sdx = 0, sdy = 0;
-  frame.addEventListener('pointerdown', function(e){ dragging = true; sx = e.clientX; sy = e.clientY; sdx = dx; sdy = dy; try{ frame.setPointerCapture(e.pointerId); }catch(err){} });
-  frame.addEventListener('pointermove', function(e){ if(!dragging) return; dx = sdx + (e.clientX - sx); dy = sdy + (e.clientY - sy); applyT(); });
-  frame.addEventListener('pointerup', function(){ dragging = false; });
-  frame.addEventListener('pointercancel', function(){ dragging = false; });
+  function dStart(x, y){ dragging = true; sx = x; sy = y; sdx = dx; sdy = dy; }
+  function dMove(x, y){ if(!dragging) return; dx = sdx + (x - sx); dy = sdy + (y - sy); applyT(); }
+  function dEnd(){ dragging = false; }
+  frame.addEventListener('touchstart', function(e){ var t = e.touches[0]; dStart(t.clientX, t.clientY); e.preventDefault(); }, {passive:false});
+  frame.addEventListener('touchmove', function(e){ var t = e.touches[0]; dMove(t.clientX, t.clientY); e.preventDefault(); }, {passive:false});
+  frame.addEventListener('touchend', dEnd);
+  frame.addEventListener('touchcancel', dEnd);
+  frame.addEventListener('mousedown', function(e){ dStart(e.clientX, e.clientY); });
+  frame.addEventListener('mousemove', function(e){ dMove(e.clientX, e.clientY); });
+  frame.addEventListener('mouseup', dEnd);
+  frame.addEventListener('mouseleave', dEnd);
   range.addEventListener('input', function(){ z = parseFloat(range.value); applyT(); });
   ov.querySelector('#z-in').onclick = function(){ z = Math.min(3, z + 0.25); range.value = z; applyT(); };
   ov.querySelector('#z-out').onclick = function(){ z = Math.max(1, z - 0.25); range.value = z; applyT(); };
