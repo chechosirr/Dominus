@@ -274,8 +274,7 @@ Promise.all([
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
-    + (own ? '<div class="ed-wa ed-only"><b class="' + 'editable' + '" data-field="whatsapp">' + esc(s.whatsapp || 'Agregar WhatsApp') + '</b> <small>(privado: solo tú lo ves)</small></div>' : '')
-    + (own ? '<div class="ed-wa ed-only"><b class="' + 'editable' + '" data-field="paypal_email">' + esc(s.paypal_email || 'Agregar PayPal') + '</b> <small>(tu PayPal para recibir pagos)</small></div>' : '')
+    + (own ? '<div class="ed-only edit-panel"><h3>Informaci\u00F3n del negocio</h3><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
