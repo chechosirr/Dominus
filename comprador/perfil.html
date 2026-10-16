@@ -79,6 +79,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 <script>
 var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
 var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+var PAYPAL_CLIENT_ID = "TU_CLIENT_ID_DE_PAYPAL"; // <-- pega aquí tu Client ID de developer.paypal.com
 /* sesión persistente: renueva el token automáticamente */
 (function(){
   try{
@@ -108,6 +109,50 @@ function h(token){
 function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function money(n){ return '$' + Number(n).toFixed(2); }
 
+function renderPayPalButtons(total){
+  var cont = document.getElementById('paypal-button-container');
+  if(!cont || !cart.length) return;
+  if(PAYPAL_CLIENT_ID === 'TU_CLIENT_ID_DE_PAYPAL'){
+    cont.innerHTML = '<p style="font-size:13px;color:var(--mut);text-align:center">Configura tu PayPal para activar el pago.</p>';
+    return;
+  }
+  function init(){
+    if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
+    cont.innerHTML = '';
+    paypal.Buttons({
+      style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'paypal' },
+      createOrder: function(data, actions){
+        return actions.order.create({
+          purchase_units: [{ amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' }]
+        });
+      },
+      onApprove: function(data, actions){
+        return actions.order.capture().then(function(details){
+          clearCart();
+          document.getElementById('main').innerHTML = '<div class="sec" style="text-align:center;padding:40px 20px">'
+            + '<div style="font-size:52px">\u2705</div>'
+            + '<h2>\u00A1Pago completado!</h2>'
+            + '<p style="color:var(--mut)">Gracias ' + esc((details.payer.name || {}).given_name || '') + '. Recibimos tu pago de ' + money(total) + ' por PayPal.<br>Coordinamos el env\u00EDo con cada vendedor.</p>'
+            + '<a class="btn" href="../index.html" style="margin-top:16px;display:inline-block">Seguir explorando</a></div>';
+        });
+      },
+      onError: function(){ alert('Hubo un problema con PayPal. Intenta de nuevo.'); }
+    }).render('#paypal-button-container');
+  }
+  if(typeof paypal === 'undefined'){
+    var s = document.createElement('script');
+    s.src = 'https://www.paypal.com/sdk/js?client-id=' + PAYPAL_CLIENT_ID + '&currency=USD&intent=capture';
+    s.onload = init;
+    document.head.appendChild(s);
+  } else { init(); }
+}
+function clearCart(){
+  if(!session) return;
+  fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + session.user.id, {
+    method: 'DELETE', headers: h(session.access_token)
+  }).catch(function(){});
+  cart = [];
+}
 function boot(){
   session = getSession();
   if(!session || !session.access_token){ location.href = 'cuenta.html'; return; }
@@ -145,7 +190,7 @@ function render(){
         + '<span class="pa">' + money(Number(p.precio) * it.qty) + '</span></div>';
     }).join('')
     + '<div class="total"><span>Total</span><span>' + money(total) + '</span></div>'
-    + '<a class="btn" href="https://www.paypal.com/paypalme/tuusuario/' + total.toFixed(2) + '" target="_blank" rel="noopener">Pagar ' + money(total) + ' con PayPal</a>'
+    + '<div id="paypal-button-container" style="margin-top:6px"></div>'
     + '<a class="btn btn-wa" id="wa-order" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>'
     + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas a Dominus por PayPal y coordinamos el envío de cada vendedor con rastreo.</p>';
   }
@@ -157,6 +202,7 @@ function render(){
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
   document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
+  renderPayPalButtons(total);
   var waBtn = document.getElementById('wa-order');
   loadMyReviews();
   if(waBtn){
