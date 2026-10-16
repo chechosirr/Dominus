@@ -134,11 +134,6 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   </div>
 </div>
 <main>
-  <div id="search-results" style="display:none">
-    <div class="sec-head"><h2 id="sr-title">Resultados</h2></div>
-    <div id="sr-sellers"></div>
-    <div id="sr-products" style="margin-top:18px"></div>
-  </div>
   <div class="sec-head" id="productos"><h2>Productos</h2></div>
   <div class="chips" id="chips"></div>
   <div class="grid" id="grid"><div class="loading">Cargando productos…</div></div>
@@ -248,34 +243,6 @@ function productCard(p){
     + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
     + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button></div></div>';
 }
-function onSearch(){
-  var term = (document.getElementById('q-hero').value || '').trim();
-  var sr = document.getElementById('search-results');
-  var normal = [document.getElementById('productos'), document.getElementById('chips'), document.getElementById('grid'),
-                document.getElementById('vendedores'), document.getElementById('sellers')];
-  if(!term){
-    sr.style.display = 'none';
-    normal.forEach(function(el){ el.style.display = ''; });
-    renderGrid();
-    return;
-  }
-  normal.forEach(function(el){ el.style.display = 'none'; });
-  sr.style.display = 'block';
-  document.getElementById('sr-title').textContent = 'Resultados para "' + term + '"';
-  var sellers = matchSellers(term);
-  var tl = term.toLowerCase();
-  var prods = PRODUCTS.filter(function(p){
-    return (p.titulo + ' ' + (p.descripcion || '') + ' ' + (p.categoria || '') + ' ' + (p.sellers ? p.sellers.nombre : '')).toLowerCase().indexOf(tl) >= 0;
-  });
-  document.getElementById('sr-sellers').innerHTML =
-    '<p class="sr-label">Empresas (' + sellers.length + ')</p>' +
-    (sellers.length ? '<div class="sellers">' + sellers.map(sellerCard).join('') + '</div>'
-                    : '<p class="empty" style="padding:16px">Sin empresas coincidentes.</p>');
-  document.getElementById('sr-products').innerHTML =
-    '<p class="sr-label">Productos (' + prods.length + ')</p>' +
-    (prods.length ? '<div class="grid">' + prods.map(productCard).join('') + '</div>'
-                  : '<p class="empty" style="padding:16px">Sin productos coincidentes.</p>');
-}
 function renderGrid(){
   var term = (document.getElementById('q-hero').value || '').toLowerCase();
   var g = document.getElementById('grid');
@@ -294,8 +261,13 @@ function renderSellers(){
   el.innerHTML = keys.map(function(k){ return sellerCard(SELLERS[k]); }).join('');
 }
 var qHero = document.getElementById('q-hero');
-qHero.addEventListener('input', onSearch);
-document.getElementById('q-btn').onclick = function(){ onSearch(); document.getElementById('search-results').scrollIntoView(); };
+function goProductSearch(){
+  var term = (qHero.value || '').trim();
+  location.href = 'productos/index.html' + (term ? '?q=' + encodeURIComponent(term) : '');
+}
+document.getElementById('q-btn').onclick = goProductSearch;
+qHero.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); goProductSearch(); } });
+qHero.addEventListener('input', renderGrid);
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ document.getElementById('menu').classList.remove('open'); });
 function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }

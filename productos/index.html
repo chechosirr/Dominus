@@ -199,6 +199,12 @@ function addToCart(pid, btn){
     }).catch(function(){ btn.disabled = false; btn.textContent = '+ Carrito'; });
 }
 document.getElementById('q').addEventListener('input', render);
+(function(){
+  try{
+    var q = new URLSearchParams(location.search).get('q');
+    if(q){ document.getElementById('q').value = q; render(); }
+  }catch(e){}
+})();
 document.addEventListener('click', function(e){
   var b = e.target.closest('.add-cart');
   if(b) addToCart(b.dataset.pid, b);
