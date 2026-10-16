@@ -142,6 +142,14 @@ body.editing .card{cursor:grab}
 .modal .row button{flex:1;padding:13px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px}
 .ed-wa{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:12px 16px;margin-top:12px;font-size:13px}
 .ed-wa small{color:var(--mut)}
+
+.crop-frame{position:relative;overflow:hidden;background:#0a0c10;display:grid;place-items:center;touch-action:none;user-select:none;-webkit-user-select:none}
+.crop-cover{aspect-ratio:3/1;border-radius:14px;width:100%}
+.crop-avatar{aspect-ratio:1/1;border-radius:50%;width:100%;max-width:320px;margin:0 auto}
+.crop-frame img{max-width:none!important;pointer-events:none}
+.crop-zoom{display:flex;align-items:center;gap:12px;margin:16px 0 4px}
+.crop-zoom button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--txt);font-size:22px;cursor:pointer;flex:0 0 auto;font-family:inherit}
+.crop-zoom input{flex:1;accent-color:var(--acc);height:44px}
 </style>
 </head>
 <body>
@@ -331,12 +339,7 @@ function wireEditControls(tok){
       var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*';
       inp.onchange = function(){
         if(!inp.files[0]) return;
-        b.textContent = 'Subiendo…';
-        var field = b.dataset.photo;
-        var path = SELLER.slug + '/' + field + '-' + Date.now() + '.jpg';
-        uploadPhoto(inp.files[0], path, tok).then(function(url){
-          var p = {}; p[field] = url; return patchSeller(p, tok);
-        }).catch(function(){ alert('No se pudo subir la foto. Intenta de nuevo.'); b.textContent = '📷'; });
+        openCropEditor(inp.files[0], b.dataset.photo, tok);
       };
       inp.click();
     };
@@ -511,6 +514,72 @@ function loadReviews(){
 
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
+
+/* ===== editor de foto: mover + agrandar/achicar ===== */
+function openCropEditor(file, field, tok){
+  var img = new Image();
+  var url = URL.createObjectURL(file);
+  img.onload = function(){ buildCropEditor(img, url, field === 'cover_url', field, tok); };
+  img.onerror = function(){ URL.revokeObjectURL(url); alert('No se pudo leer la imagen.'); };
+  img.src = url;
+}
+function buildCropEditor(img, objUrl, isCover, field, tok){
+  var ov = document.createElement('div');
+  ov.className = 'modal-ov';
+  ov.innerHTML = '<div class="modal"><h3>' + (isCover ? 'Ajustar portada' : 'Ajustar foto de perfil') + '</h3>'
+    + '<p style="font-size:13px;color:var(--mut);margin:6px 0 12px">Arrastra para mover · usa el control para agrandar o achicar</p>'
+    + '<div class="crop-frame ' + (isCover ? 'crop-cover' : 'crop-avatar') + '"><img id="crop-img" src="' + objUrl + '"></div>'
+    + '<div class="crop-zoom"><button id="z-out" type="button">−</button><input type="range" id="z-range" min="1" max="3" step="0.01" value="1"><button id="z-in" type="button">＋</button></div>'
+    + '<div class="row"><button class="inline-save" id="crop-save">Guardar</button><button class="inline-cancel" id="crop-cancel" type="button">Cancelar</button></div></div>';
+  document.body.appendChild(ov);
+  var frame = ov.querySelector('.crop-frame'), cimg = ov.querySelector('#crop-img');
+  var range = ov.querySelector('#z-range');
+  var z = 1, dx = 0, dy = 0;
+  function applyT(){
+    var fw = frame.clientWidth, fh = frame.clientHeight;
+    if(!fw || !fh) return;
+    var iw = img.naturalWidth, ih = img.naturalHeight;
+    var s0 = Math.max(fw / iw, fh / ih);
+    cimg.style.width = (iw * s0) + 'px';
+    cimg.style.height = (ih * s0) + 'px';
+    var mx = Math.max(0, (iw * s0 * z - fw) / 2), my = Math.max(0, (ih * s0 * z - fh) / 2);
+    dx = Math.min(mx, Math.max(-mx, dx));
+    dy = Math.min(my, Math.max(-my, dy));
+    cimg.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(' + z + ')';
+  }
+  function close(){ URL.revokeObjectURL(objUrl); ov.remove(); }
+  ov.querySelector('#crop-cancel').onclick = close;
+  var dragging = false, sx = 0, sy = 0, sdx = 0, sdy = 0;
+  frame.addEventListener('pointerdown', function(e){ dragging = true; sx = e.clientX; sy = e.clientY; sdx = dx; sdy = dy; try{ frame.setPointerCapture(e.pointerId); }catch(err){} });
+  frame.addEventListener('pointermove', function(e){ if(!dragging) return; dx = sdx + (e.clientX - sx); dy = sdy + (e.clientY - sy); applyT(); });
+  frame.addEventListener('pointerup', function(){ dragging = false; });
+  frame.addEventListener('pointercancel', function(){ dragging = false; });
+  range.addEventListener('input', function(){ z = parseFloat(range.value); applyT(); });
+  ov.querySelector('#z-in').onclick = function(){ z = Math.min(3, z + 0.25); range.value = z; applyT(); };
+  ov.querySelector('#z-out').onclick = function(){ z = Math.max(1, z - 0.25); range.value = z; applyT(); };
+  window.addEventListener('resize', applyT);
+  // esperar layout
+  setTimeout(applyT, 50); setTimeout(applyT, 300);
+  ov.querySelector('#crop-save').onclick = function(){
+    var fw = frame.clientWidth, fh = frame.clientHeight;
+    var outW = isCover ? 1200 : 600, outH = isCover ? 400 : 600;
+    var iw = img.naturalWidth, ih = img.naturalHeight;
+    var s = Math.max(fw / iw, fh / ih) * z;
+    var visW = fw / s, visH = fh / s;
+    var cx = iw / 2 - dx / s, cy = ih / 2 - dy / s;
+    var canvas = document.createElement('canvas');
+    canvas.width = outW; canvas.height = outH;
+    canvas.getContext('2d').drawImage(img, cx - visW / 2, cy - visH / 2, visW, visH, 0, 0, outW, outH);
+    ov.querySelector('#crop-save').textContent = 'Guardando…';
+    canvas.toBlob(function(blob){
+      if(!blob){ alert('No se pudo procesar la imagen.'); return; }
+      var path = SELLER.slug + '/' + field + '-' + Date.now() + '.jpg';
+      uploadPhoto(blob, path, tok).then(function(url){
+        var p = {}; p[field] = url; return patchSeller(p, tok);
+      }).catch(function(){ alert('No se pudo subir la foto. Intenta de nuevo.'); });
+    }, 'image/jpeg', 0.85);
+  };
+}
 </script>
 </body>
 </html>
