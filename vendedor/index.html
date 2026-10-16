@@ -598,15 +598,18 @@ function buildCropEditor(img, objUrl, isCover, field, tok, revoke){
   // esperar layout
   setTimeout(applyT, 50); setTimeout(applyT, 300);
   ov.querySelector('#crop-save').onclick = function(){
-    var fw = frame.clientWidth, fh = frame.clientHeight;
     var outW = isCover ? 1200 : 600, outH = isCover ? Math.round(1200 / aspect) : 600;
-    var iw = img.naturalWidth, ih = img.naturalHeight;
-    var s = Math.max(fw / iw, fh / ih) * z;
-    var visW = fw / s, visH = fh / s;
-    var cx = iw / 2 - dx / s, cy = ih / 2 - dy / s;
+    var imgRect = cimg.getBoundingClientRect();
+    var frameRect = frame.getBoundingClientRect();
+    var scale = imgRect.width / img.naturalWidth;
+    var sx = (frameRect.left - imgRect.left) / scale;
+    var sy = (frameRect.top - imgRect.top) / scale;
+    var sw = frameRect.width / scale, sh = frameRect.height / scale;
+    sx = Math.max(0, Math.min(img.naturalWidth - sw, sx));
+    sy = Math.max(0, Math.min(img.naturalHeight - sh, sy));
     var canvas = document.createElement('canvas');
     canvas.width = outW; canvas.height = outH;
-    canvas.getContext('2d').drawImage(img, cx - visW / 2, cy - visH / 2, visW, visH, 0, 0, outW, outH);
+    canvas.getContext('2d').drawImage(img, sx, sy, sw, sh, 0, 0, outW, outH);
     ov.querySelector('#crop-save').textContent = 'Guardando…';
     canvas.toBlob(function(blob){
       if(!blob){ alert('No se pudo procesar la imagen.'); return; }
