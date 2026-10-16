@@ -379,6 +379,14 @@ function setupEditMode(){
   if(!(sx && sx.user && sx.user.id === SELLER.user_id)) return;
   var btn = document.createElement('button');
   btn.id = 'edit-toggle'; btn.textContent = 'Editar muro'; btn.style.display = 'none';
+  document.body.appendChild(btn);
+  // Si la vista actual es editar, mostrar el botón como "Ver como cliente"
+  try{
+    if(new URLSearchParams(location.search).get('view') === 'editar'){
+      btn.style.display = '';
+      btn.textContent = 'Ver como cliente';
+    }
+  }catch(e){}
   btn.onclick = function(){
     var on = document.body.classList.toggle('editing');
     btn.textContent = on ? 'Ver como cliente' : 'Editar muro';
@@ -391,7 +399,6 @@ function setupEditMode(){
       });
     }
   };
-  document.body.appendChild(btn);
   wireEditControls(sx.access_token);
   if(new URLSearchParams(location.search).get('edit') === '1') btn.click();
 }
