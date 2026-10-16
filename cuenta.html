@@ -33,9 +33,13 @@ main{flex:1;display:flex;align-items:flex-start;justify-content:center;padding:4
 .tabs{display:flex;background:var(--bg);border-radius:12px;padding:4px;margin-bottom:22px}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);font-family:inherit;font-weight:800;font-size:14px;padding:11px;border-radius:9px;cursor:pointer}
 .tabs button.on{background:var(--acc);color:#f2f4f8}
-label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
-input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:15px;padding:13px 14px;outline:none}
-input:focus{border-color:var(--acc)}
+label{display:block;font-size:13px;font-weight:700;color:#4a4a52;margin:16px 0 7px;letter-spacing:.3px}
+input,textarea{width:100%;background:#ffffff;border:1.5px solid #d0d4da;border-radius:14px;color:#111111;font-family:inherit;font-size:15px;padding:14px 16px;outline:none;box-sizing:border-box;transition:border-color .15s,box-shadow .15s}
+input:focus,textarea:focus{border-color:#4a4a52;box-shadow:0 0 0 3px rgba(74,74,82,.12)}
+input::placeholder,textarea::placeholder{color:#9aa0a8}
+textarea{resize:vertical;min-height:70px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:480px){.form-row{grid-template-columns:1fr}}
 .btn{width:100%;margin-top:20px;background:var(--acc);color:#0a0c10;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer}
 .err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
 .okmsg{display:none;background:rgba(215,220,227,.12);border:1px solid var(--acc);color:#e8ecf1;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
@@ -105,14 +109,19 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
         <textarea id="up-ref" rows="2" placeholder="Ej: Casa azul de dos pisos, frente al parque central"></textarea>
         <label>Foto del local o casa <small style="color:var(--mut)">(opcional)</small></label>
         <input id="up-foto-ref" type="file" accept="image/*">
-        <label>Ciudad *</label>
-        <input id="up-ciudad" type="text" placeholder="Ej: Estelí" autocomplete="address-level2" required>
-        <label>Departamento *</label>
-        <input id="up-depto" type="text" placeholder="Ej: Estelí" autocomplete="address-level1" required>
-        <label>País *</label>
-        <input id="up-pais" type="text" placeholder="Ej: Nicaragua" autocomplete="country-name" required>
-        <label>Número de contacto * <small style="color:var(--mut)">(privado: solo tú y Dominus lo ven)</small></label>
-        <input id="up-tel" type="tel" placeholder="Ej: 88888888" autocomplete="tel" required>
+        <div class="form-row">
+          <div><label>Ciudad *</label>
+          <input id="up-ciudad" type="text" placeholder="Ej: Estelí" autocomplete="address-level2" required></div>
+          <div><label>Departamento *</label>
+          <input id="up-depto" type="text" placeholder="Ej: Estelí" autocomplete="address-level1" required></div>
+        </div>
+        <div class="form-row">
+          <div><label>País *</label>
+          <input id="up-pais" type="text" placeholder="Ej: Nicaragua" autocomplete="country-name" required></div>
+          <div><label>Número de contacto *</label>
+          <input id="up-tel" type="tel" placeholder="Ej: 88888888" autocomplete="tel" required></div>
+        </div>
+        <p style="font-size:12px;color:#9aa0a8;margin:6px 0 0">(privado: solo tú y Dominus lo ven)</p>
         <button class="btn" id="btn-up">Crear mi cuenta</button>
       </div>
       <div class="feat" id="feat"></div>
