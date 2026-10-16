@@ -261,6 +261,7 @@ Promise.all([
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
     + (own ? '<div class="ed-wa ed-only">📱 <b class="' + 'editable' + '" data-field="whatsapp">' + esc(s.whatsapp || 'Agregar WhatsApp') + '</b> <small>(privado: solo tú lo ves)</small></div>' : '')
+    + (own ? '<div class="ed-wa ed-only">💰 <b class="' + 'editable' + '" data-field="paypal_email">' + esc(s.paypal_email || 'Agregar PayPal') + '</b> <small>(tu PayPal para recibir pagos)</small></div>' : '')
     + (own ? '<div class="ed-only" style="margin-top:12px"><button class="inline-save" id="ship-toggle" style="padding:12px 20px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:14px">📦 Mis datos de envío</button><div id="ship-form" style="display:none;margin-top:10px"></div></div>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
