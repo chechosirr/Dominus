@@ -300,6 +300,7 @@ Promise.all([
     '<div class="wrap"><div class="dash"><h2>' + esc(s.nombre) + '</h2><p>Panel del vendedor</p>'
     + '<button class="dash-btn" data-goto="info"><span>Informaci\u00F3n del negocio</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="editar"><span>Editar muro</span><span>\u203A</span></button>'
+    + '<button class="dash-btn" data-goto="productos"><span>Productos</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="historial"><span>Historial de ventas</span><span>\u203A</span></button>'
     + '</div></div>' : '';
   var infoHTML = own ?
@@ -312,6 +313,12 @@ Promise.all([
     + ''
     + '<div class="edit-panel"><h3>Historial de ventas</h3><div id="sales-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
     + '</div></div>' : '';
+  var prodHTML = own ?
+    '<div class="wrap"><div id="view-productos" style="display:none">'
+    + '<div class="edit-panel"><h3>Productos</h3><p class="ep-sub">Agrega y gestiona tus productos</p>'
+    + '<button class="inline-save" id="prod-add" style="width:100%;margin-bottom:16px">+ Agregar producto</button>'
+    + '<div id="prod-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div>'
+    + '</div></div></div>' : '';
   var wallHTML =
     '<div id="view-editar"' + (own ? ' style="display:none"' : '') + '>'
     + '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
@@ -328,38 +335,14 @@ Promise.all([
     + '<span class="pill">Pago protegido PayPal</span></div>'
     + '<div class="about"' + (s.descripcion_larga || own ? '' : ' style="display:none"') + '><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio\u2026' : '')) + '</p></div>'
     + '</div>';
-  document.getElementById('wall').innerHTML = dashHTML + infoHTML + histHTML + wallHTML;
+  document.getElementById('wall').innerHTML = dashHTML + infoHTML + prodHTML + histHTML + wallHTML;
   if(own){
-    document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); }; });
+    document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); if(b.dataset.goto === 'productos') loadProdList(); }; });
     var savedView = new URLSearchParams(location.search).get('view');
-    showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' ? savedView : 'menu');
+    showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' || savedView === 'productos' ? savedView : 'menu');
+    if(savedView === 'productos') loadProdList();
   }
-  document.getElementById('grid').innerHTML = (own ? '<div class="add-prod-card ed-only" id="add-prod"><span><span class="plus">＋</span>Agregar producto</span></div>' : '')
-  + (prods.length ? prods.map(function(p){
-    return '<div class="card" data-pid="' + p.id + '"' + (own ? ' draggable="true"' : '') + '><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
-      + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
-      + (p.fijado ? '<span class="pin-badge">Fijado</span>' : '')
-      + '<div class="card-price">' + money(p.precio) + '</div>'
-      + '<a class="buy" href="../producto/?id=' + p.id + '">Ver</a>'
-      + (own ? '<div class="ed-only"><button class="more-btn" data-more="' + p.id + '">⋯</button>'
-        + '<div class="more-menu" id="mm-' + p.id + '">'
-        + '<button data-pedit="' + p.id + '"> Editar</button>'
-        + '<button data-ppin="' + p.id + '">' + (p.fijado ? 'Quitar fijado' : 'Fijar arriba') + '</button>'
-        + '<button data-pfeat="' + p.id + '">' + (p.destacado ? 'Quitar destacado' : 'Destacar') + '</button>'
-        + '<button data-pact="' + p.id + '">' + (p.activo ? 'Pausar' : 'Activar') + '</button>'
-        + '<button data-pdel="' + p.id + '" class="del">Eliminar</button>'
-        + '</div></div>' : '')
-      + '</div></div>';
-  }).join('') : (own ? '' : '<div class="empty">Este vendedor aún no publica productos.</div>'));
-  var feat = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
-  if(feat.length){
-    document.getElementById('grid').insertAdjacentHTML('beforebegin',
-      '<div class="wrap"><div class="feat-sec"><h2><span class="hl">Destacados</span></h2><div class="feat-row">'
-      + feat.map(function(p){
-          return '<a class="feat-card" href="../producto/?id=' + p.id + '">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '">' : '')
-            + '<div><b>' + esc(p.titulo) + '</b><span>' + money(p.precio) + '</span></div></a>';
-        }).join('') + '</div></div></div>');
-  }
+  renderWallProducts(prods, own);
   if(isPreview){
     document.body.insertAdjacentHTML('afterbegin',
       '<div style="position:sticky;top:0;z-index:100;background:#c6f52e;color:#0a0c10;text-align:center;font-weight:800;font-size:14px;padding:10px">Vista previa — así verán los clientes tu muro</div>');
@@ -372,6 +355,100 @@ Promise.all([
 /* ===== MODO EDICIÓN TIPO FACEBOOK (dueño del muro) ===== */
 function edH(tok){ return { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + tok, 'Content-Type': 'application/json' }; }
 function myTok(){ var s = buyerSession(); return s ? s.access_token : null; }
+function prodCardHTML(p, own){
+  return '<div class="card" data-pid="' + p.id + '"' + (own ? ' draggable="true"' : '') + '>'
+    + '<a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">'
+    + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
+    + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
+    + '<div class="card-price">' + money(p.precio) + '</div>'
+    + '<a class="buy" href="../producto/?id=' + p.id + '">Ver</a>'
+    + '</div></div>';
+}
+function renderWallProducts(prods, own){
+  var grid = document.getElementById('grid');
+  if(!grid) return;
+  var destacados = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
+  var html = '';
+  // Sección de destacados
+  if(destacados.length || own){
+    html += '<h2 style="font-size:20px;margin:18px 0 12px;color:#111">Productos destacados</h2>';
+    html += '<div class="grid" id="feat-grid">';
+    html += destacados.map(function(p){ return prodCardHTML(p, own); }).join('');
+    html += '</div>';
+    if(own && !destacados.length){
+      html += '<p style="color:#9aa0a8;font-size:14px">Marca hasta 3 productos como destacados en la sección Productos.</p>';
+    }
+  }
+  // Botón Ver más productos
+  var cats = {};
+  prods.forEach(function(p){ var c = p.categoria || 'General'; if(!cats[c]) cats[c] = []; cats[c].push(p); });
+  var catNames = Object.keys(cats).sort();
+  if(catNames.length){
+    html += '<button id="ver-mas-btn" class="inline-save" style="width:100%;margin:20px 0 0">Ver más productos</button>';
+    html += '<div id="cats-wrap" style="display:none;margin-top:12px">';
+    catNames.forEach(function(c, i){
+      html += '<div class="cat-block" style="margin-bottom:8px;border:1px solid var(--line);border-radius:14px;overflow:hidden">'
+        + '<button class="cat-head" data-cat="' + i + '" style="width:100%;background:var(--card);border:0;color:#fff;padding:14px 16px;font-size:15px;font-weight:700;text-align:left;cursor:pointer;font-family:inherit">' + esc(c) + ' (' + cats[c].length + ') ▾</button>'
+        + '<div class="cat-body" id="cat-body-' + i + '" style="display:none;padding:12px"><div class="grid">'
+        + cats[c].map(function(p){ return prodCardHTML(p, false); }).join('')
+        + '</div></div></div>';
+    });
+    html += '</div>';
+  } else if(!destacados.length && !own){
+    html += '<div class="empty">Este vendedor aún no publica productos.</div>';
+  }
+  grid.innerHTML = html;
+  // Wire Ver más productos
+  var vmb = document.getElementById('ver-mas-btn');
+  if(vmb) vmb.onclick = function(){
+    var w = document.getElementById('cats-wrap');
+    var open = w.style.display !== 'none';
+    w.style.display = open ? 'none' : '';
+    vmb.textContent = open ? 'Ver más productos' : 'Ver menos';
+  };
+  // Wire categorías desplegables
+  grid.querySelectorAll('.cat-head').forEach(function(h){
+    h.onclick = function(){
+      var b = document.getElementById('cat-body-' + h.dataset.cat);
+      var open = b.style.display !== 'none';
+      b.style.display = open ? 'none' : '';
+    };
+  });
+  // Drag para reordenar destacados (solo en modo edición)
+  if(own) wireFeatDrag();
+}
+function loadProdList(){
+  var box = document.getElementById('prod-list');
+  if(!box) return;
+  var prods = window._prods || [];
+  if(!prods.length){
+    box.innerHTML = '<p style="color:#ffffff;text-align:center;padding:20px">No tienes productos aún.</p>';
+  } else {
+    box.innerHTML = prods.map(function(p){
+      return '<div class="prod-row" style="display:flex;align-items:center;gap:12px;background:#0a0c13;border:1px solid #2b3049;border-radius:14px;padding:12px;margin-bottom:10px">'
+        + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" style="width:56px;height:56px;object-fit:cover;border-radius:10px">' : '<div style="width:56px;height:56px;background:#1a1e28;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#666">?</div>')
+        + '<div style="flex:1;min-width:0"><div style="color:#fff;font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + esc(p.titulo) + '</div>'
+        + '<div style="color:#9aa0a8;font-size:12px">' + esc(p.categoria || 'General') + ' · $' + Number(p.precio).toFixed(2) + (p.destacado ? ' · ⭐' : '') + '</div></div>'
+        + '<div style="display:flex;flex-direction:column;gap:6px">'
+        + '<button class="inline-save" data-pedit="' + p.id + '" style="padding:8px 14px;font-size:13px">Editar</button>'
+        + '<button class="inline-cancel" data-pfeat="' + p.id + '" style="padding:8px 14px;font-size:13px">' + (p.destacado ? '★ Quitar' : '☆ Destacar') + '</button>'
+        + '<button class="inline-cancel" data-pdel="' + p.id + '" style="padding:8px 14px;font-size:13px;color:#ff8a8a">Eliminar</button>'
+        + '</div></div>';
+    }).join('');
+    var tok = myTok();
+    box.querySelectorAll('[data-pedit]').forEach(function(b){
+      b.onclick = function(){ productModal(b.dataset.pedit, tok); };
+    });
+    box.querySelectorAll('[data-pfeat]').forEach(function(b){
+      b.onclick = function(){ toggleFeat(b.dataset.pfeat, tok); };
+    });
+    box.querySelectorAll('[data-pdel]').forEach(function(b){
+      b.onclick = function(){ if(confirm('¿Eliminar este producto?')) delProd(b.dataset.pdel, tok); };
+    });
+  }
+  var addBtn = document.getElementById('prod-add');
+  if(addBtn) addBtn.onclick = function(){ productModal(null, myTok()); };
+}
 function setupEditMode(){
   if(!SELLER) return;
   var sx = null; try{ sx = JSON.parse(localStorage.getItem('dominus_session')); }catch(e){}
@@ -459,25 +536,6 @@ function wireEditControls(tok){
       startInlineEdit(el, tok);
     });
   });
-  // productos
-  var addBtn = document.getElementById('add-prod');
-  if(addBtn) addBtn.onclick = function(){ productModal(null, tok); };
-  document.querySelectorAll('[data-pedit]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); productModal(b.dataset.pedit, tok); }; });
-  document.querySelectorAll('[data-ppin]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); togglePin(b.dataset.ppin, tok); }; });
-  document.querySelectorAll('[data-pfeat]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleFeat(b.dataset.pfeat, tok); }; });
-  document.querySelectorAll('[data-pact]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleAct(b.dataset.pact, tok); }; });
-  document.querySelectorAll('[data-pdel]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); if(confirm('¿Eliminar este producto?')) delProd(b.dataset.pdel, tok); }; });
-  document.querySelectorAll('[data-more]').forEach(function(b){
-    b.onclick = function(e){
-      e.stopPropagation();
-      var m = document.getElementById('mm-' + b.dataset.more);
-      var was = m.classList.contains('open');
-      document.querySelectorAll('.more-menu.open').forEach(function(x){ x.classList.remove('open'); });
-      if(!was) m.classList.add('open');
-    };
-  });
-  document.addEventListener('click', function(){ document.querySelectorAll('.more-menu.open').forEach(function(x){ x.classList.remove('open'); }); });
-  initCardDrag(tok);
 }
 function startInlineEdit(el, tok){
   var field = el.dataset.field;
@@ -505,7 +563,7 @@ function productModal(pid, tok){
   ov.innerHTML = '<div class="modal"><h3>' + (p ? 'Editar producto' : 'Nuevo producto') + '</h3>'
     + '<label>Título</label><input id="m-titulo" value="' + esc(p ? p.titulo : '') + '">'
     + '<label>Precio (USD)</label><input id="m-precio" type="number" min="0" step="0.01" value="' + (p ? p.precio : '') + '">'
-    + '<label>Categoría</label><input id="m-cat" value="' + esc(p ? (p.categoria || '') : '') + '" placeholder="General">'
+    + '<label>Categoría *</label><input id="m-cat" value="' + esc(p ? (p.categoria || '') : '') + '" placeholder="Ej: Electrónica">
     + '<label>Foto principal ★</label>' + (p && p.imagen_url ? '<div><img src="' + esc(p.imagen_url) + '" style="width:64px;height:64px;object-fit:cover;border-radius:12px;margin-bottom:6px"></div>' : '') + '<input id="m-foto1" type="file" accept="image/*">'
     + '<label>Foto 2 (opcional)</label>' + (p && p.imagen2_url ? '<div><img src="' + esc(p.imagen2_url) + '" style="width:64px;height:64px;object-fit:cover;border-radius:12px;margin-bottom:6px"></div>' : '') + '<input id="m-foto2" type="file" accept="image/*">'
     + '<label>Foto 3 (opcional)</label>' + (p && p.imagen3_url ? '<div><img src="' + esc(p.imagen3_url) + '" style="width:64px;height:64px;object-fit:cover;border-radius:12px;margin-bottom:6px"></div>' : '') + '<input id="m-foto3" type="file" accept="image/*">'
@@ -517,12 +575,14 @@ function productModal(pid, tok){
   ov.querySelector('#m-save').onclick = function(){
     var titulo = ov.querySelector('#m-titulo').value.trim();
     var precio = parseFloat(ov.querySelector('#m-precio').value);
+    var cat = ov.querySelector('#m-cat').value.trim();
     if(!titulo || !(precio >= 0)){ alert('Pon título y precio.'); return; }
+    if(!cat){ alert('La categoría es obligatoria.'); return; }
     ov.querySelector('#m-save').textContent = 'Guardando…';
     var files = [1, 2, 3].map(function(i){ return ov.querySelector('#m-foto' + i).files[0] || null; });
     if(!p && !files[0]){ alert('Pon la foto principal del producto.'); return; }
     function done(urls){
-      var body = { titulo: titulo, precio: precio, categoria: ov.querySelector('#m-cat').value.trim() || 'General',
+      var body = { titulo: titulo, precio: precio, categoria: cat,
         descripcion: ov.querySelector('#m-desc').value.trim() || null };
       if(urls[0]) body.imagen_url = urls[0];
       body.imagen2_url = urls[1];
@@ -563,8 +623,10 @@ function delProd(pid, tok){
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'DELETE', headers: edH(tok) })
     .then(function(){ reloadKeepEdit(); });
 }
-function initCardDrag(tok){
-  var grid = document.getElementById('grid');
+function wireFeatDrag(){
+  var tok = myTok();
+  var grid = document.getElementById('feat-grid');
+  if(!grid || !tok) return;
   var dragPid = null;
   grid.querySelectorAll('.card[data-pid]').forEach(function(card){
     card.addEventListener('dragstart', function(){ dragPid = card.dataset.pid; card.classList.add('dragging'); });
@@ -640,14 +702,16 @@ function showView(v){
   var info = document.getElementById('view-info');
   var editar = document.getElementById('view-editar');
   var hist = document.getElementById('view-historial');
+  var prods = document.getElementById('view-productos');
   var main = document.querySelector('main');
   var revs = document.getElementById('reviews');
   var showWall = (v === 'editar');
-  var inSection = (v === 'info' || v === 'editar' || v === 'historial');
+  var inSection = (v === 'info' || v === 'editar' || v === 'historial' || v === 'productos');
   if(menu) menu.style.display = (v === 'menu') ? '' : 'none';
   if(info) info.style.display = (v === 'info') ? '' : 'none';
   if(editar) editar.style.display = showWall ? '' : 'none';
   if(hist) hist.style.display = (v === 'historial') ? '' : 'none';
+  if(prods) prods.style.display = (v === 'productos') ? '' : 'none';
   if(main) main.style.display = showWall ? '' : 'none';
   if(revs) revs.style.display = showWall ? '' : 'none';
   var mb = document.getElementById('menu-btn');
