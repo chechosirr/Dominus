@@ -121,10 +121,12 @@ body.editing .editable:hover{outline:2px dashed var(--acc);outline-offset:4px}
 .inline-save{background:var(--acc);color:#0a0c10}
 .inline-cancel{background:var(--card);color:var(--txt);border:1px solid var(--line)!important}
 body.editing .buy,body.editing .add-cart{display:none!important}
-.prod-controls{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.prod-controls button{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:7px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit}
-.prod-controls button.on{background:var(--acc);color:#0a0c10;border-color:var(--acc)}
-.prod-controls button.del{color:#ff8a8a}
+.more-btn{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.62);color:#fff;border:0;border-radius:50%;width:38px;height:38px;font-size:20px;line-height:1;cursor:pointer;z-index:5;font-family:inherit}
+.more-menu{display:none;position:absolute;top:52px;right:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;min-width:190px;overflow:hidden;z-index:20;box-shadow:0 12px 40px rgba(0,0,0,.55)}
+.more-menu.open{display:block}
+.more-menu button{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);color:var(--txt);padding:13px 16px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
+.more-menu button:last-child{border-bottom:0}
+.more-menu button.del{color:#ff8a8a}
 .card{position:relative}
 body.editing .card{cursor:grab}
 .card.dragging{opacity:.4}
@@ -159,6 +161,7 @@ body.editing .card{cursor:grab}
   <div class="sec-head"><h2>Productos</h2></div>
   <div class="grid" id="grid"></div>
 </main>
+<div id="reviews"></div>
 <footer>© 2026 Dominus · Compra y vende seguro</footer>
 <script>
 var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
@@ -242,11 +245,14 @@ Promise.all([
       + '<div class="card-price">' + money(p.precio) + '</div>'
       + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
       + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button>'
-      + (own ? '<div class="prod-controls ed-only"><button data-pedit="' + p.id + '">✏️ Editar</button>'
-        + '<button data-ppin="' + p.id + '" class="' + (p.fijado ? 'on' : '') + '">📌 ' + (p.fijado ? 'Fijado' : 'Fijar') + '</button>'
-        + '<button data-pfeat="' + p.id + '" class="' + (p.destacado ? 'on' : '') + '">⭐ ' + (p.destacado ? 'Destacado' : 'Destacar') + '</button>'
+      + (own ? '<div class="ed-only"><button class="more-btn" data-more="' + p.id + '">⋯</button>'
+        + '<div class="more-menu" id="mm-' + p.id + '">'
+        + '<button data-pedit="' + p.id + '">✏️ Editar</button>'
+        + '<button data-ppin="' + p.id + '">📌 ' + (p.fijado ? 'Quitar fijado' : 'Fijar arriba') + '</button>'
+        + '<button data-pfeat="' + p.id + '">⭐ ' + (p.destacado ? 'Quitar destacado' : 'Destacar') + '</button>'
         + '<button data-pact="' + p.id + '">' + (p.activo ? '⏸️ Pausar' : '▶️ Activar') + '</button>'
-        + '<button data-pdel="' + p.id + '" class="del">🗑️</button></div>' : '')
+        + '<button data-pdel="' + p.id + '" class="del">🗑️ Eliminar</button>'
+        + '</div></div>' : '')
       + '</div></div>';
   }).join('') : (own ? '' : '<div class="empty">Este vendedor aún no publica productos.</div>'));
   var feat = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
@@ -332,6 +338,16 @@ function wireEditControls(tok){
   document.querySelectorAll('[data-pfeat]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleFeat(b.dataset.pfeat, tok); }; });
   document.querySelectorAll('[data-pact]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); toggleAct(b.dataset.pact, tok); }; });
   document.querySelectorAll('[data-pdel]').forEach(function(b){ b.onclick = function(e){ e.stopPropagation(); if(confirm('¿Eliminar este producto?')) delProd(b.dataset.pdel, tok); }; });
+  document.querySelectorAll('[data-more]').forEach(function(b){
+    b.onclick = function(e){
+      e.stopPropagation();
+      var m = document.getElementById('mm-' + b.dataset.more);
+      var was = m.classList.contains('open');
+      document.querySelectorAll('.more-menu.open').forEach(function(x){ x.classList.remove('open'); });
+      if(!was) m.classList.add('open');
+    };
+  });
+  document.addEventListener('click', function(){ document.querySelectorAll('.more-menu.open').forEach(function(x){ x.classList.remove('open'); }); });
   initCardDrag(tok);
 }
 function startInlineEdit(el, tok){
@@ -453,7 +469,7 @@ function loadReviews(){
       html += '<p class="login-cta"><a href="../cuenta.html?tipo=comprador">Entra a tu cuenta</a> para dejar una reseña.</p>';
     }
     html += '</div></div>';
-    document.getElementById('wall').insertAdjacentHTML('beforeend', html);
+    document.getElementById('reviews').innerHTML = html;
     var si = document.getElementById('starin');
     if(si){
       si.querySelectorAll('button').forEach(function(b){
