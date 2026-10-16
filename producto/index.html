@@ -19,6 +19,13 @@ main{max-width:900px;margin:0 auto;padding:22px 18px 70px}
 @media(min-width:720px){.pd{grid-template-columns:1fr 1fr}}
 .pd-img{border-radius:20px;overflow:hidden;background:#161b24;aspect-ratio:1}
 .pd-img img{width:100%;height:100%;object-fit:cover;display:block}
+.gal{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:20px;background:#161b24;aspect-ratio:1}
+.gal::-webkit-scrollbar{display:none}
+.gal-slide{flex:0 0 100%;scroll-snap-align:center;scroll-snap-stop:always}
+.gal-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.gal-dots{display:flex;gap:8px;justify-content:center;margin-top:10px}
+.gdot{width:8px;height:8px;border-radius:50%;background:#3a4350;transition:background .2s}
+.gdot.on{background:var(--acc)}
 .pd-info h1{font-size:26px;font-weight:900;margin-bottom:6px}
 .pd-seller{font-size:14px;color:var(--mut);margin-bottom:12px}
 .pd-seller a{color:var(--acc);text-decoration:none;font-weight:700}
@@ -133,7 +140,14 @@ function render(){
   var p = PRODUCT, s = p.sellers || {};
   var avg = REVIEWS.length ? REVIEWS.reduce(function(a, r){ return a + r.rating; }, 0) / REVIEWS.length : 0;
   var sess = buyerSession();
-  var html = '<div class="pd"><div class="pd-img">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '">' : '') + '</div>'
+  var imgs = [p.imagen_url, p.imagen2_url, p.imagen3_url].filter(Boolean);
+  var galHtml = '<div class="gal" id="pgal">' + imgs.map(function(u){
+    return '<div class="gal-slide"><img src="' + esc(u) + '" alt="' + esc(p.titulo) + '"></div>';
+  }).join('') + '</div>';
+  if(imgs.length > 1) galHtml += '<div class="gal-dots" id="pdots">' + imgs.map(function(_, i){
+    return '<span class="gdot' + (i === 0 ? ' on' : '') + '"></span>';
+  }).join('') + '</div>';
+  var html = '<div class="pd">' + (imgs.length ? galHtml : '<div class="pd-img"></div>')
     + '<div class="pd-info"><h1>' + esc(p.titulo) + '</h1>'
     + '<div class="pd-seller">Vendido por <a href="../vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a>' + (s.verificado ? ' ✓' : '') + '</div>'
     + (REVIEWS.length ? '<div>' + starsHTML(avg) + ' <small style="color:var(--mut)">' + avg.toFixed(1) + ' · ' + REVIEWS.length + ' reseña(s)</small></div>' : '<small style="color:var(--mut)">Sin reseñas aún</small>')
@@ -187,6 +201,12 @@ function render(){
     document.getElementById('r-send').onclick = sendReview;
   }
 }
+document.addEventListener('scroll', function(ev){
+  var g = document.getElementById('pgal');
+  if(!g || ev.target !== g) return;
+  var i = Math.round(g.scrollLeft / g.clientWidth);
+  document.querySelectorAll('#pdots .gdot').forEach(function(d, j){ d.classList.toggle('on', j === i); });
+}, true);
 function sendReview(){
   var sess = buyerSession();
   if(!sess) return;
