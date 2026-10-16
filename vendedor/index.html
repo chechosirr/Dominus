@@ -628,8 +628,16 @@ function showView(v){
   if(revs) revs.style.display = showWall ? '' : 'none';
   var mb = document.getElementById('menu-btn');
   var hb = document.getElementById('hdr-back');
+  var et = document.getElementById('edit-toggle');
   if(mb) mb.style.display = inSection ? 'none' : '';
   if(hb) hb.style.display = inSection ? '' : 'none';
+  if(et) et.style.display = showWall ? '' : 'none';
+  if(showWall){
+    document.body.classList.add('editing');
+    if(et) et.textContent = 'Ver como cliente';
+  } else {
+    document.body.classList.remove('editing');
+  }
   window.scrollTo(0, 0);
 }
 document.getElementById('hdr-back').onclick = function(){ showView('menu'); };
