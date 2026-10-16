@@ -274,11 +274,7 @@ function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace
 var slug = new URLSearchParams(location.search).get('s') || 'tech-zone';
 var isPreview = new URLSearchParams(location.search).get('preview') === '1';
 function reloadKeepEdit(){
-  var url = new URL(location.href);
-  if(document.body.classList.contains('editing') && !url.searchParams.get('edit')){
-    url.searchParams.set('edit', '1');
-  }
-  location.href = url.toString();
+  location.reload();
 }
 var SELLER = null, myRating = 5;
 function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
@@ -335,7 +331,8 @@ Promise.all([
   document.getElementById('wall').innerHTML = dashHTML + infoHTML + histHTML + wallHTML;
   if(own){
     document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); }; });
-    showView('menu');
+    var savedView = new URLSearchParams(location.search).get('view');
+    showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' ? savedView : 'menu');
   }
   document.getElementById('grid').innerHTML = (own ? '<div class="add-prod-card ed-only" id="add-prod"><span><span class="plus">＋</span>Agregar producto</span></div>' : '')
   + (prods.length ? prods.map(function(p){
@@ -627,6 +624,12 @@ document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); 
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 
 function showView(v){
+  try{
+    var url = new URL(location.href);
+    if(v === 'menu'){ url.searchParams.delete('view'); }
+    else { url.searchParams.set('view', v); }
+    history.replaceState(null, '', url.toString());
+  }catch(e){}
   var menu = document.querySelector('.dash');
   var info = document.getElementById('view-info');
   var editar = document.getElementById('view-editar');
