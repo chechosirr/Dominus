@@ -337,11 +337,14 @@ function wireEditControls(tok){
     b.onclick = function(e){
       e.stopPropagation();
       var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*';
+      inp.style.position = 'fixed'; inp.style.opacity = '0'; inp.style.pointerEvents = 'none';
+      document.body.appendChild(inp);
       inp.onchange = function(){
-        if(!inp.files[0]) return;
-        openCropEditor(inp.files[0], b.dataset.photo, tok);
+        var f = inp.files[0]; inp.remove();
+        if(!f) return;
+        openCropEditor(f, b.dataset.photo, tok);
       };
-      inp.click();
+      try{ inp.click(); }catch(err){ alert('No se pudo abrir la galería.'); inp.remove(); }
     };
   });
   // textos: tocar para editar
