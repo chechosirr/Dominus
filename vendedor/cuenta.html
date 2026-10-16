@@ -101,6 +101,16 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     <input id="p-ubica" placeholder="Ej: Los Ángeles, CA">
     <label>WhatsApp / número de contacto <small style="color:var(--mut)">(privado: solo lo ve el equipo de Dominus)</small></label>
     <input id="p-wa" placeholder="Ej: 15704698339">
+    <label>Dirección de envío (con referencias)</label>
+    <input id="p-dir" placeholder="Ej: Calle 5 #123, frente al parque">
+    <label>Ciudad</label>
+    <input id="p-ciu" placeholder="Ej: Estelí">
+    <label>Departamento</label>
+    <input id="p-dep" placeholder="Ej: Estelí">
+    <label>País</label>
+    <input id="p-pais" placeholder="Ej: Nicaragua">
+    <label>Número de contacto <small style="color:var(--mut)">(privado: solo tú y Dominus lo ven)</small></label>
+    <input id="p-tel" type="tel" placeholder="Ej: 88888888">
     <label>Foto de perfil (opcional)</label>
     <input id="p-logo" type="file" accept="image/*">
     <label>Foto de portada (opcional)</label>
@@ -244,7 +254,16 @@ document.getElementById('btn-profile').onclick = function(){
     })
     .then(function(){
       try{ localStorage.setItem('dominus_tipo', 'vendedor'); localStorage.setItem('dominus_slug', slug); }catch(e){}
-      location.href = 'panel.html';
+      var prof = {
+        direccion: document.getElementById('p-dir').value.trim() || null,
+        ciudad: document.getElementById('p-ciu').value.trim() || null,
+        departamento: document.getElementById('p-dep').value.trim() || null,
+        pais: document.getElementById('p-pais').value.trim() || null,
+        telefono: document.getElementById('p-tel').value.trim() || null
+      };
+      return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + session.user.id, {
+        method: 'PATCH', headers: headers(session.access_token), body: JSON.stringify(prof)
+      }).catch(function(){}).then(function(){ location.href = 'panel.html'; });
     })
     .catch(function(e){ if(e.message !== 'stop'){ showErr('err2', 'Error de conexión. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Crear mi muro'; } });
 };
