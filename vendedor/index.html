@@ -15,8 +15,8 @@ header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;just
 .logo em{font-style:normal;color:var(--acc)}
 .back{color:var(--mut);text-decoration:none;font-size:14px}
 .cover{position:relative;height:300px;overflow:hidden;background:linear-gradient(135deg,#1a1033,#0b2b33)}
-.cover img{width:100%;height:100%;object-fit:cover;display:block}
-.cover .fade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,9,13,.85),transparent 55%)}
+.cover img{width:100%;height:100%;object-fit:cover;display:block;-webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 100%);mask-image:linear-gradient(to bottom,#000 55%,transparent 100%)}
+
 .wrap{max-width:1000px;margin:0 auto;padding:0 18px}
 .profile{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;margin-top:0;padding-top:22px;z-index:2}
 .avatar{flex:0 0 176px;width:176px;height:176px;border-radius:50%;overflow:hidden;border:5px solid var(--bg);background:linear-gradient(135deg,var(--acc2),var(--acc));display:grid;place-content:center;font-weight:900;font-size:64px;color:#0a0c10;z-index:2;box-shadow:0 10px 34px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.08)}
@@ -250,7 +250,7 @@ Promise.all([
   document.getElementById('title').textContent = s.nombre + ' — Dominus';
 
   document.getElementById('wall').innerHTML =
-    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
+    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '')
     + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">📷 Cambiar portada</button>' : '') + '</div>'
     + '<div class="wrap"><div class="profile">'
     + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
