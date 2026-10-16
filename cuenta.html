@@ -23,9 +23,9 @@ main{flex:1;display:flex;align-items:flex-start;justify-content:center;padding:4
 .box h1 .hl{color:var(--acc)}
 .box>p{color:var(--mut);font-size:14px;margin-bottom:22px;text-align:center}
 .type-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px}
-.type-card{background:#4a4a52;border:2px solid #4a4a52;border-radius:14px;padding:14px 8px;text-align:center;cursor:pointer;transition:all .15s;color:#ffffff;font-size:15px}
+.type-card{background:#e8eaee;border:2px solid #e8eaee;border-radius:14px;padding:14px 8px;text-align:center;cursor:pointer;transition:all .15s;color:#4a4a52;font-size:15px;font-weight:700}
 .type-card:hover{border-color:#2c3542}
-.type-card.on{border-color:#ffffff;background:#ffffff;color:#111111;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+.type-card.on{border-color:#4a4a52;background:#4a4a52;color:#ffffff;box-shadow:0 2px 12px rgba(0,0,0,.2)}
 .type-card .ico{font-size:40px;display:block;margin-bottom:10px}
 .type-card b{font-size:16px;display:block;margin-bottom:6px}
 {color:var(--mut);font-size:12px;line-height:1.5;display:block}
@@ -74,8 +74,8 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 </header>
 <main>
   <div class="box">
-    <h1 style="color:#4a4a52">Crea tu cuenta</h1>
-    <p>Elige qué tipo de cuenta quieres:</p>
+    <h1 style="color:#4a4a52">Elige tu tipo de cuenta</h1>
+    
     <div class="type-grid">
       <div class="type-card on" id="t-comprador"><b>Comprador</b></div>
       <div class="type-card" id="t-vendedor"><b>Vendedor</b></div>
