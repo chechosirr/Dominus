@@ -273,6 +273,13 @@ document.addEventListener('click', function(e){
 function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 var slug = new URLSearchParams(location.search).get('s') || 'tech-zone';
 var isPreview = new URLSearchParams(location.search).get('preview') === '1';
+function reloadKeepEdit(){
+  var url = new URL(location.href);
+  if(document.body.classList.contains('editing') && !url.searchParams.get('edit')){
+    url.searchParams.set('edit', '1');
+  }
+  location.href = url.toString();
+}
 var SELLER = null, myRating = 5;
 function buyerSession(){ try { var s = JSON.parse(localStorage.getItem('dominus_session')); return (s && s.access_token) ? s : null; } catch(e){ return null; } }
 function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
@@ -378,6 +385,14 @@ function setupEditMode(){
   btn.onclick = function(){
     var on = document.body.classList.toggle('editing');
     btn.textContent = on ? 'Ver como cliente' : 'Editar muro';
+    if(!on){
+      // Descartar formularios de edición sin guardar para mostrar la versión guardada
+      document.querySelectorAll('.inline-form').forEach(function(w){
+        var prev = w.previousElementSibling;
+        w.remove();
+        if(prev) prev.style.display = '';
+      });
+    }
   };
   document.body.appendChild(btn);
   wireEditControls(sx.access_token);
@@ -405,7 +420,7 @@ function uploadPhoto(file, path, tok){
 function patchSeller(patch, tok){
   return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
     method: 'PATCH', headers: edH(tok), body: JSON.stringify(patch)
-  }).then(function(){ location.reload(); });
+  }).then(function(){ reloadKeepEdit(); });
 }
 var _etok = null;
 function wireEditControls(tok){
@@ -513,7 +528,7 @@ function productModal(pid, tok){
       if(p){ url = SUPABASE_URL + '/rest/v1/products?id=eq.' + p.id; method = 'PATCH'; }
       else { url = SUPABASE_URL + '/rest/v1/products'; method = 'POST'; body.seller_id = SELLER.id; body.activo = true; body.orden = (window._prods || []).length; }
       fetch(url, { method: method, headers: edH(tok), body: JSON.stringify(body) })
-        .then(function(r){ if(!r.ok) throw 0; location.reload(); })
+        .then(function(r){ if(!r.ok) throw 0; reloadKeepEdit(); })
         .catch(function(){ alert('No se pudo guardar.'); ov.querySelector('#m-save').textContent = 'Guardar'; });
     }
     var existing = p ? [p.imagen_url, p.imagen2_url || null, p.imagen3_url || null] : [null, null, null];
@@ -526,7 +541,7 @@ function productModal(pid, tok){
 function togglePin(pid, tok){
   var p = (window._prods || []).find(function(x){ return x.id === pid; });
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ fijado: !p.fijado }) })
-    .then(function(){ location.reload(); });
+    .then(function(){ reloadKeepEdit(); });
 }
 function toggleFeat(pid, tok){
   var p = (window._prods || []).find(function(x){ return x.id === pid; });
@@ -534,16 +549,16 @@ function toggleFeat(pid, tok){
     alert('Solo puedes destacar 3 productos.'); return;
   }
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ destacado: !p.destacado }) })
-    .then(function(){ location.reload(); });
+    .then(function(){ reloadKeepEdit(); });
 }
 function toggleAct(pid, tok){
   var p = (window._prods || []).find(function(x){ return x.id === pid; });
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ activo: !p.activo }) })
-    .then(function(){ location.reload(); });
+    .then(function(){ reloadKeepEdit(); });
 }
 function delProd(pid, tok){
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'DELETE', headers: edH(tok) })
-    .then(function(){ location.reload(); });
+    .then(function(){ reloadKeepEdit(); });
 }
 function initCardDrag(tok){
   var grid = document.getElementById('grid');
@@ -562,7 +577,7 @@ function initCardDrag(tok){
       var jobs = ids.map(function(id, i){
         return fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, { method: 'PATCH', headers: edH(tok), body: JSON.stringify({ orden: i }) });
       });
-      Promise.all(jobs).then(function(){ location.reload(); });
+      Promise.all(jobs).then(function(){ reloadKeepEdit(); });
     });
   });
 }
@@ -720,7 +735,7 @@ function loadEditPanel(tok){
             });
           }).then(function(){
             btn.textContent = '\u2713 Guardado';
-            setTimeout(function(){ location.reload(); }, 800);
+            setTimeout(function(){ reloadKeepEdit(); }, 800);
           }).catch(function(){
             btn.textContent = 'Guardar cambios'; btn.disabled = false;
             alert('No se pudo guardar. Intenta de nuevo.');
