@@ -8,8 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--err:#ff5d5d}
-body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#d7dce3;--err:#ff5d5d}
+body{background:linear-gradient(135deg,#100b22 0%,#2b1a4e 38%,#5a5468 68%,#939aab 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
 header.top{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
 .logo em{font-style:normal;color:var(--acc)}
@@ -21,26 +21,31 @@ main{flex:1;display:flex;align-items:flex-start;justify-content:center;padding:4
 .box>p{color:var(--mut);font-size:14px;margin-bottom:22px;text-align:center}
 .type-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px}
 .type-card{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:26px 16px;text-align:center;cursor:pointer;transition:border-color .15s}
-.type-card:hover{border-color:#3a4a66}
-.type-card.on{border-color:var(--acc);background:rgba(46,99,184,.08)}
+.type-card:hover{border-color:#2c3542}
+.type-card.on{border-color:var(--acc);background:rgba(215,220,227,.08)}
 .type-card .ico{font-size:40px;display:block;margin-bottom:10px}
 .type-card b{font-size:16px;display:block;margin-bottom:6px}
 .type-card small{color:var(--mut);font-size:12px;line-height:1.5;display:block}
 .form-card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px 26px;margin-top:18px}
 .tabs{display:flex;background:var(--bg);border-radius:12px;padding:4px;margin-bottom:22px}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);font-family:inherit;font-weight:800;font-size:14px;padding:11px;border-radius:9px;cursor:pointer}
-.tabs button.on{background:var(--acc);color:#fff}
+.tabs button.on{background:var(--acc);color:#0a0c10}
 label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
 input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:15px;padding:13px 14px;outline:none}
 input:focus{border-color:var(--acc)}
-.btn{width:100%;margin-top:20px;background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer}
+.btn{width:100%;margin-top:20px;background:var(--acc);color:#0a0c10;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer}
 .err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
-.okmsg{display:none;background:rgba(46,99,184,.12);border:1px solid var(--acc);color:#cfe0ff;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
+.okmsg{display:none;background:rgba(215,220,227,.12);border:1px solid var(--acc);color:#e8ecf1;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
 .hidden{display:none!important}
 .feat{margin-top:16px;font-size:13px;color:var(--mut);line-height:1.8}
 .feat b{color:var(--txt)}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px}
 @media(max-width:480px){.type-grid{grid-template-columns:1fr}}
+
+/* ===== plateado metálico ===== */
+.hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.btn:not(.btn-ghost):not(.btn-wa),.buy,.hero-search button{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
+.card-price,.pd-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 </style>
 </head>
 <body>

@@ -8,8 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--acc2:#1e3a6e;--err:#ff5d5d}
-body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#d7dce3;--acc2:#7c5cff;--err:#ff5d5d}
+body{background:linear-gradient(135deg,#100b22 0%,#2b1a4e 38%,#5a5468 68%,#939aab 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh}
 header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(8,9,13,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
 .logo em{font-style:normal;color:var(--acc)}
@@ -33,7 +33,7 @@ input,textarea,select{width:100%;background:var(--bg);border:1px solid var(--lin
 input:focus,textarea:focus{border-color:var(--acc)}
 textarea{resize:vertical;min-height:70px}
 .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.btn{background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px 22px;cursor:pointer;margin-top:18px}
+.btn{background:var(--acc);color:#0a0c10;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px 22px;cursor:pointer;margin-top:18px}
 .btn:disabled{opacity:.5}
 .btn-ghost{background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;font-family:inherit;font-size:13px;padding:9px 16px;cursor:pointer}
 .preview-img{max-width:120px;border-radius:12px;margin-top:10px;display:none}
@@ -49,6 +49,11 @@ textarea{resize:vertical;min-height:70px}
 .err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
 .empty{color:var(--mut);font-size:14px;text-align:center;padding:20px}
 @media(max-width:640px){.cards{grid-template-columns:repeat(3,1fr)}.row2{grid-template-columns:1fr}.prod .ops{flex-direction:column}}
+
+/* ===== plateado metálico ===== */
+.hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.btn:not(.btn-ghost):not(.btn-wa),.buy,.hero-search button{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
+.card-price,.pd-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 </style>
 </head>
 <body>
@@ -107,8 +112,7 @@ function render(){
     + '<label>Nombre del negocio</label><input id="w-nombre" value="' + esc(seller.nombre) + '">'
     + '<label>Descripción</label><textarea id="w-desc">' + esc(seller.descripcion || '') + '</textarea>'
     + '<label>Descripción larga (acerca de tu empresa, se muestra arriba en tu muro)</label><textarea id="w-about" style="min-height:110px" placeholder="Cuenta la historia de tu empresa, qué te hace diferente…">' + esc(seller.descripcion_larga || '') + '</textarea>'
-    + '<div class="row2"><div><label>Ubicación</label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '"></div>'
-    + '<div><label>WhatsApp</label><input id="w-wa" value="' + esc(seller.whatsapp || '') + '"></div></div>'
+    + '<div><label>Ubicación</label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '"></div>'
     + '<div class="err" id="w-err"></div>'
     + '<button class="btn" id="w-btn">Guardar cambios</button></div>'
     + '<div class="sec"><h2>Subir producto</h2>'
@@ -154,8 +158,7 @@ function saveWall(){
       nombre: document.getElementById('w-nombre').value.trim() || seller.nombre,
       descripcion: document.getElementById('w-desc').value.trim() || null,
       descripcion_larga: document.getElementById('w-about').value.trim() || null,
-      ubicacion: document.getElementById('w-ubica').value.trim() || null,
-      whatsapp: document.getElementById('w-wa').value.trim() || null
+      ubicacion: document.getElementById('w-ubica').value.trim() || null
     };
     if(logoFile) patch.logo_url = urls[i++];
     if(coverFile) patch.cover_url = urls[i++];

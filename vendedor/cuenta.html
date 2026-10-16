@@ -8,8 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#2e63b8;--acc2:#1e3a6e;--err:#ff5d5d}
-body{background:linear-gradient(180deg,#08090d 0%,#0a1526 55%,#0d1c36 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#f2f4f8;--mut:#9aa3b2;--acc:#d7dce3;--acc2:#7c5cff;--err:#ff5d5d}
+body{background:linear-gradient(135deg,#100b22 0%,#2b1a4e 38%,#5a5468 68%,#939aab 100%);background-attachment:fixed;color:var(--txt);font-family:Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
 header.top{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:var(--txt)}
 .logo em{font-style:normal;color:var(--acc)}
@@ -21,18 +21,23 @@ main{flex:1;display:flex;align-items:flex-start;justify-content:center;padding:4
 .box>p{color:var(--mut);font-size:14px;margin-bottom:22px}
 .tabs{display:flex;background:var(--bg);border-radius:12px;padding:4px;margin-bottom:22px}
 .tabs button{flex:1;background:none;border:0;color:var(--mut);font-family:inherit;font-weight:800;font-size:14px;padding:11px;border-radius:9px;cursor:pointer}
-.tabs button.on{background:var(--acc);color:#fff}
+.tabs button.on{background:var(--acc);color:#0a0c10}
 label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
 input,textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--txt);font-family:inherit;font-size:15px;padding:13px 14px;outline:none}
 input:focus,textarea:focus{border-color:var(--acc)}
 textarea{resize:vertical;min-height:80px}
-.btn{width:100%;margin-top:20px;background:var(--acc);color:#fff;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer}
+.btn{width:100%;margin-top:20px;background:var(--acc);color:#0a0c10;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer}
 .btn:disabled{opacity:.5}
 .err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
-.okmsg{display:none;background:rgba(46,99,184,.1);border:1px solid var(--acc);color:var(--acc);font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
+.okmsg{display:none;background:rgba(215,220,227,.1);border:1px solid var(--acc);color:var(--acc);font-size:13px;border-radius:12px;padding:11px 14px;margin-top:16px}
 .hidden{display:none!important}
 .hint{font-size:12px;color:var(--mut);margin-top:10px;line-height:1.5}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px}
+
+/* ===== plateado metálico ===== */
+.hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.btn:not(.btn-ghost):not(.btn-wa),.buy,.hero-search button{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
+.card-price,.pd-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 </style>
 </head>
 <body>
@@ -78,8 +83,6 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     <textarea id="p-desc" placeholder="Qué vendes, garantías, tiempos de envío…"></textarea>
     <label>Ubicación</label>
     <input id="p-ubica" placeholder="Ej: Los Ángeles, CA">
-    <label>WhatsApp (solo números, con código de país)</label>
-    <input id="p-wa" placeholder="Ej: 15704698339">
     <label>Foto de perfil (opcional)</label>
     <input id="p-logo" type="file" accept="image/*">
     <label>Foto de portada (opcional)</label>
@@ -179,7 +182,6 @@ document.getElementById('btn-profile').onclick = function(){
     user_id: session.user.id, slug: slug, nombre: nombre,
     descripcion: document.getElementById('p-desc').value.trim() || null,
     ubicacion: document.getElementById('p-ubica').value.trim() || null,
-    whatsapp: document.getElementById('p-wa').value.trim() || null,
     verificado: false
   };
   var sellerId = null;
