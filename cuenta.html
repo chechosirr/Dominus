@@ -103,8 +103,7 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
         <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
         <label>Contraseña (mínimo 6 caracteres)</label>
         <input id="up-pass" type="password" placeholder="••••••••" autocomplete="new-password">
-        <label>Dirección de envío *</label>
-        <input id="up-dir" type="text" placeholder="Ej: Calle 5 #123" autocomplete="street-address" required>
+
         <label>Referencia del local o casa</label>
         <textarea id="up-ref" rows="2" placeholder="Ej: Casa azul de dos pisos, frente al parque central"></textarea>
         <label>Foto del local o casa <small style="color:var(--mut)">(opcional)</small></label>
@@ -247,19 +246,17 @@ document.getElementById('btn-up').onclick = function(){
   var pass = document.getElementById('up-pass').value;
   if(!name){ showErr('Escribe tu nombre.'); return; }
   if(!email || pass.length < 6){ showErr('Escribe un correo válido y una contraseña de mínimo 6 caracteres.'); return; }
-  var dir = document.getElementById('up-dir').value.trim();
   var ciu = document.getElementById('up-ciudad').value.trim();
   var dep = document.getElementById('up-depto').value.trim();
   var pai = document.getElementById('up-pais').value.trim();
   var tel = document.getElementById('up-tel').value.trim();
-  if(!dir || !ciu || !dep || !pai || !tel){ showErr('Completa tu dirección de envío y número de contacto (son obligatorios).'); return; }
+  if(!ciu || !dep || !pai || !tel){ showErr('Completa ciudad, departamento, país y número de contacto (son obligatorios).'); return; }
   fetch(SUPABASE_URL + '/auth/v1/signup', {
     method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass, data: { nombre: name } })
   }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
     .then(function(res){
       if(!res.ok){ showErr(res.j.msg || 'No se pudo crear la cuenta.'); return; }
       var extra = {
-        direccion: dir,
         ciudad: ciu,
         departamento: dep,
         pais: pai,
