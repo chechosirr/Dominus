@@ -108,7 +108,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .ed-only{display:none!important}
 body.editing .ed-only{display:block!important}
 body.editing .ed-only-inline{display:inline-block!important}
-.ed-cover{position:absolute;bottom:14px;right:14px;background:rgba(0,0,0,.72);color:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;z-index:3}
+.ed-cover{position:absolute;top:14px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.72);color:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;z-index:3;white-space:nowrap}
 .avatar{position:relative}
 .ed-avatar{position:absolute;bottom:2px;right:2px;background:var(--acc);color:#0a0c10;border:0;border-radius:50%;width:38px;height:38px;font-size:17px;cursor:pointer;display:grid;place-content:center;z-index:3}
 body.editing .editable{cursor:pointer;border-radius:6px}
@@ -166,6 +166,26 @@ body.editing .card{cursor:grab}
 <script>
 var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
 var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+/* sesión persistente: renueva el token automáticamente */
+(function(){
+  try{
+    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+    if(!s || !s.access_token || !s.refresh_token) return;
+    var exp = 0;
+    if(s.expires_at) exp = s.expires_at * 1000;
+    else { try{ exp = JSON.parse(atob(s.access_token.split('.')[1])).exp * 1000; }catch(e){} }
+    if(!exp || Date.now() < exp - 120000) return;
+    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
+      method: 'POST',
+      headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refresh_token: s.refresh_token })
+    }).then(function(r){ return r.json(); }).then(function(ns){
+      if(ns && ns.access_token){ localStorage.setItem('dominus_session', JSON.stringify(ns)); location.reload(); }
+      else localStorage.removeItem('dominus_session');
+    }).catch(function(){});
+  }catch(e){}
+})();
+
 function api(path){
   return fetch(SUPABASE_URL + '/rest/v1/' + path, {
     headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + SUPABASE_ANON }
