@@ -360,7 +360,7 @@ function wireEditControls(tok){
       ov.querySelector('#ph-cancel').onclick = function(){ ov.remove(); };
       ov.addEventListener('click', function(ev){ if(ev.target === ov) ov.remove(); });
       ov.querySelector('#ph-new').onclick = function(){ ov.remove(); pickNewPhoto(field, tok); };
-      ov.querySelector('#ph-edit').onclick = function(){ ov.remove(); openCropEditor(current, field, tok); };
+      ov.querySelector('#ph-edit').onclick = function(){ ov.remove(); openCropEditor(SELLER[field + '_orig'] || current, field, tok); };
     };
   });
   // textos: tocar para editar
@@ -538,14 +538,14 @@ document.addEventListener('click', function(){ var m = document.getElementById('
 function openCropEditor(source, field, tok){
   var img = new Image();
   img.crossOrigin = 'anonymous';
-  var url, revoke;
+  var url, revoke, origFile = null;
   if(typeof source === 'string'){ url = source; revoke = false; }
-  else { url = URL.createObjectURL(source); revoke = true; }
-  img.onload = function(){ buildCropEditor(img, url, field === 'cover_url', field, tok, revoke); };
+  else { url = URL.createObjectURL(source); revoke = true; origFile = source; }
+  img.onload = function(){ buildCropEditor(img, url, field === 'cover_url', field, tok, revoke, origFile); };
   img.onerror = function(){ if(revoke) URL.revokeObjectURL(url); alert('No se pudo leer la imagen.'); };
   img.src = url;
 }
-function buildCropEditor(img, objUrl, isCover, field, tok, revoke){
+function buildCropEditor(img, objUrl, isCover, field, tok, revoke, origFile){
   var aspect = 1;
   if(isCover){
     var cov = document.querySelector('.cover');
@@ -613,10 +613,24 @@ function buildCropEditor(img, objUrl, isCover, field, tok, revoke){
     ov.querySelector('#crop-save').textContent = 'Guardando…';
     canvas.toBlob(function(blob){
       if(!blob){ alert('No se pudo procesar la imagen.'); return; }
-      var path = SELLER.slug + '/' + field + '-' + Date.now() + '.jpg';
-      uploadPhoto(blob, path, tok).then(function(url){
-        var p = {}; p[field] = url; return patchSeller(p, tok);
-      }).catch(function(){ alert('No se pudo subir la foto. Intenta de nuevo.'); });
+      var ts = Date.now();
+      var cropPath = SELLER.slug + '/' + field + '-' + ts + '.jpg';
+      function fail(){ alert('No se pudo subir la foto. Intenta de nuevo.'); ov.querySelector('#crop-save').textContent = 'Guardar'; }
+      if(origFile){
+        var ext = (origFile.name && origFile.name.split('.').pop()) || 'jpg';
+        var origPath = SELLER.slug + '/' + field + '-orig-' + ts + '.' + ext;
+        uploadPhoto(origFile, origPath, tok).then(function(origUrl){
+          return uploadPhoto(blob, cropPath, tok).then(function(cropUrl){
+            var p = {}; p[field] = cropUrl; p[field + '_orig'] = origUrl;
+            return patchSeller(p, tok);
+          });
+        }).catch(fail);
+      } else {
+        uploadPhoto(blob, cropPath, tok).then(function(cropUrl){
+          var p = {}; p[field] = cropUrl;
+          return patchSeller(p, tok);
+        }).catch(fail);
+      }
     }, 'image/jpeg', 0.85);
   };
 }
