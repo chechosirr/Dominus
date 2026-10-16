@@ -147,7 +147,12 @@ function renderPayPalButtons(total){
           payee: { email_address: SERGIO_PAYPAL },
           description: 'Tasa de servicio Dominus'
         });
-        return actions.order.create({ purchase_units: units });
+        return actions.order.create({ purchase_units: units }).catch(function(err){
+          console.error('PayPal multi-payee falló, usando pago único:', err);
+          return actions.order.create({
+            purchase_units: [{ amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' }]
+          });
+        });
       },
       onApprove: function(data, actions){
         return actions.order.capture().then(function(details){
@@ -160,7 +165,7 @@ function renderPayPalButtons(total){
             + '<a class="btn" href="../index.html" style="margin-top:16px;display:inline-block">Seguir explorando</a></div>';
         });
       },
-      onError: function(){ alert('Hubo un problema con PayPal. Intenta de nuevo.'); }
+      onError: function(err){ console.error('PayPal error:', err); alert('Hubo un problema con PayPal. Intenta de nuevo.'); }
     }).render('#paypal-button-container');
   }
   if(typeof paypal === 'undefined'){
