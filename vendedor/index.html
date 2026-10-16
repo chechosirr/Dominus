@@ -156,6 +156,23 @@ body.editing .card{cursor:grab}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
+/* Panel de edicion formal */
+.edit-panel{background:linear-gradient(180deg,#171b29,#11141f);border:1px solid #2b3049;border-radius:22px;padding:30px 28px;margin:22px auto 0;max-width:620px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.edit-panel h3{font-family:'Cormorant Garamond',Georgia,serif;font-size:25px;text-align:center;margin:0 0 8px;letter-spacing:1.5px;color:#f0f2f7}
+.edit-panel .ep-sub{text-align:center;color:var(--mut);font-size:13px;margin-bottom:20px}
+.edit-row{display:flex;align-items:center;gap:18px;padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.07)}
+.edit-row label{flex:0 0 38%;font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;color:#cfd5e1;text-align:right;letter-spacing:.3px}
+.edit-row input{flex:1;background:#0a0c13;border:1px solid #2b3049;border-radius:12px;padding:13px 15px;color:#fff;font-family:inherit;font-size:15px;min-width:0;transition:border-color .2s,box-shadow .2s}
+.edit-row input:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 3px rgba(46,99,184,.18)}
+.edit-row input::placeholder{color:#5a6178}
+.edit-panel details{margin-top:14px;border:1px solid #2b3049;border-radius:14px;padding:6px 18px 14px;background:rgba(0,0,0,.18)}
+.edit-panel summary{font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;cursor:pointer;padding:12px 0;list-style:none;text-align:center;letter-spacing:.8px;color:#e8ecf4}
+.edit-panel summary::-webkit-details-marker{display:none}
+.edit-panel summary:before{content:'+  ';color:var(--acc);font-weight:700}
+.edit-panel details[open] summary:before{content:'\2212  ';color:var(--acc);font-weight:700}
+.edit-panel details .edit-row{border-bottom:1px solid rgba(255,255,255,.05)}
+.edit-panel details .edit-row:last-child{border-bottom:0}
+#ep-save{margin-top:22px;width:100%;padding:15px;border-radius:14px;font-size:19px;letter-spacing:1px}
 #edit-toggle, .ed-cover, .inline-save, .inline-cancel, .more-menu button, #ship-toggle, #vs-save{
   font-family:'Cormorant Garamond', Georgia, serif !important;
   font-size:17px !important;
@@ -274,7 +291,7 @@ Promise.all([
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
-    + (own ? '<div class="ed-only edit-panel"><h3>Informaci\u00F3n del negocio</h3><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>' : '')
+    + (own ? '<div class="ed-only edit-panel"><h3>Informaci\u00F3n del negocio</h3><p class="ep-sub">Solo t\u00FA puedes ver y editar estos datos</p><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
