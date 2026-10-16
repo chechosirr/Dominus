@@ -148,6 +148,7 @@ function renderPayPalButtons(total){
       },
       onApprove: function(data, actions){
         return actions.order.capture().then(function(details){
+          saveOrders(data.orderID);
           clearCart();
           document.getElementById('main').innerHTML = '<div class="sec" style="text-align:center;padding:40px 20px">'
             + '<div style="font-size:52px">\u2705</div>'
@@ -215,6 +216,40 @@ function saveShipForm(){
     if(!r.ok) alert('No se pudo guardar. Intenta de nuevo.');
   }).catch(function(){ btn.textContent = 'Guardar datos'; btn.disabled = false; });
 }
+function saveOrders(ppId){
+  var rows = cart.map(function(it){
+    return {
+      buyer_id: session.user.id,
+      seller_id: it.products.seller_id,
+      product_id: it.products.id,
+      titulo: it.products.titulo,
+      precio: it.products.precio,
+      qty: it.qty,
+      paypal_order_id: ppId
+    };
+  }).filter(function(r){ return r.seller_id; });
+  if(!rows.length) return;
+  fetch(SUPABASE_URL + '/rest/v1/orders', {
+    method: 'POST', headers: h(session.access_token), body: JSON.stringify(rows)
+  }).catch(function(){});
+}
+function loadHistory(){
+  var box = document.getElementById('hist-list');
+  if(!box) return;
+  fetch(SUPABASE_URL + '/rest/v1/orders?buyer_id=eq.' + session.user.id + '&select=titulo,precio,qty,created_at&order=created_at.desc&limit=50',
+    { headers: h(session.access_token) })
+    .then(function(r){ return r.json(); })
+    .then(function(rows){
+      if(!rows || !rows.length){ box.innerHTML = '<p class="empty">Aún no tienes compras.</p>'; return; }
+      box.innerHTML = rows.map(function(o){
+        var d = new Date(o.created_at);
+        var f = d.toLocaleDateString('es-NI', { day:'numeric', month:'short', year:'numeric' });
+        return '<div class="item"><div class="info"><b>' + esc(o.titulo) + '</b><small>' + o.qty + ' × ' + money(o.precio) + ' · ' + f + '</small></div>'
+          + '<span class="pa">' + money(Number(o.precio) * o.qty) + '</span></div>';
+      }).join('');
+    })
+    .catch(function(){ box.innerHTML = '<p class="empty">No se pudo cargar.</p>'; });
+}
 function boot(){
   session = getSession();
   if(!session || !session.access_token){ location.href = 'cuenta.html'; return; }
@@ -228,7 +263,7 @@ function boot(){
   });
 }
 function loadCart(){
-  fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + session.user.id + '&select=*,products!inner(id,titulo,precio,imagen_url,sellers!inner(nombre,paypal_email))&order=created_at.desc',
+  fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + session.user.id + '&select=*,products!inner(id,titulo,precio,imagen_url,seller_id,sellers!inner(nombre,paypal_email))&order=created_at.desc',
     { headers: h(session.access_token) })
     .then(function(r){ return r.json(); })
     .then(function(rows){ cart = rows || []; render(); })
@@ -244,6 +279,7 @@ function render(){
     + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">datos de envío</span></h2>'
     + '<div id="ship-form"><p class="empty">Cargando…</p></div></div>'
+    + '<div class="sec"><h2>Mi <span class="hl">historial</span></h2><div id="hist-list"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec"><h2>Mi <span class="hl">carrito</span> (' + cart.length + ')</h2><div id="cart-list">';
   if(!cart.length){
     html += '<p class="empty">Tu carrito está vacío.<br><a href="../index.html" style="color:var(--acc)">Explorar productos →</a></p>';
@@ -273,6 +309,7 @@ function render(){
   document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
   renderPayPalButtons(total);
   loadShipForm();
+  loadHistory();
   var waBtn = document.getElementById('wa-order');
   loadMyReviews();
   if(waBtn){

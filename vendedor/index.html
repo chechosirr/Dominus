@@ -292,6 +292,7 @@ Promise.all([
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
     + (own ? '<div class="ed-only edit-panel"><h3>Informaci\u00F3n del negocio</h3><p class="ep-sub">Solo t\u00FA puedes ver y editar estos datos</p><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>' : '')
+    + (own ? '<div class="ed-only edit-panel"><h3>Historial de ventas</h3><div id="sales-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
@@ -399,6 +400,7 @@ function wireEditControls(tok){
   });
   // textos: tocar para editar
   loadEditPanel(tok);
+  loadSales(tok);
   document.querySelectorAll('[data-field]').forEach(function(el){
     el.addEventListener('click', function(e){
       if(!document.body.classList.contains('editing')) return;
@@ -577,6 +579,25 @@ function loadReviews(){
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 
+function loadSales(tok){
+  var box = document.getElementById('sales-list');
+  if(!box) return;
+  fetch(SUPABASE_URL + '/rest/v1/orders?seller_id=eq.' + SELLER.id + '&select=titulo,precio,qty,created_at&order=created_at.desc&limit=50',
+    { headers: edH(tok) })
+    .then(function(r){ return r.json(); })
+    .then(function(rows){
+      if(!rows || !rows.length){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">A\u00FAn no tienes ventas.</p>'; return; }
+      var total = rows.reduce(function(s, o){ return s + Number(o.precio) * o.qty; }, 0);
+      box.innerHTML = '<p style="font-size:14px;color:var(--mut);margin-bottom:12px">Total vendido: <b style="color:var(--txt)">' + money(total) + '</b></p>'
+        + rows.map(function(o){
+          var d = new Date(o.created_at);
+          var f = d.toLocaleDateString('es-NI', { day:'numeric', month:'short', year:'numeric' });
+          return '<div class="edit-row"><label>' + esc(o.titulo) + ' <small style="color:var(--mut)">(' + f + ')</small></label>'
+            + '<span style="flex:1;text-align:right;font-size:15px">' + o.qty + ' \u00D7 ' + money(o.precio) + ' = <b>' + money(Number(o.precio) * o.qty) + '</b></span></div>';
+        }).join('');
+    })
+    .catch(function(){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">No se pudo cargar.</p>'; });
+}
 function loadEditPanel(tok){
   var box = document.getElementById('ep-fields');
   if(!box) return;
