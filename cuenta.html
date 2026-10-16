@@ -102,6 +102,16 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
         <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
         <label>Contraseña (mínimo 6 caracteres)</label>
         <input id="up-pass" type="password" placeholder="••••••••" autocomplete="new-password">
+        <label>Dirección de envío (con referencias)</label>
+        <input id="up-dir" type="text" placeholder="Ej: Calle 5 #123, frente al parque" autocomplete="street-address">
+        <label>Ciudad</label>
+        <input id="up-ciudad" type="text" placeholder="Ej: Estelí" autocomplete="address-level2">
+        <label>Departamento</label>
+        <input id="up-depto" type="text" placeholder="Ej: Estelí" autocomplete="address-level1">
+        <label>País</label>
+        <input id="up-pais" type="text" placeholder="Ej: Nicaragua" autocomplete="country-name">
+        <label>Número de contacto <small style="color:var(--mut)">(privado: solo tú y Dominus lo ven)</small></label>
+        <input id="up-tel" type="tel" placeholder="Ej: 88888888" autocomplete="tel">
         <button class="btn" id="btn-up">Crear mi cuenta</button>
       </div>
       <div class="feat" id="feat"></div>
@@ -171,13 +181,15 @@ function api(path, token){
     if(!r.ok) throw new Error('api'); return r.json();
   });
 }
-function ensureProfile(s, name){
+function ensureProfile(s, name, extra){
   // busca perfil; si no existe lo crea con el tipo elegido
   return api('profiles?user_id=eq.' + s.user.id + '&select=tipo', s.access_token).then(function(rows){
     if(rows && rows.length) return rows[0].tipo;
+    var body = { user_id: s.user.id, tipo: tipo, nombre: name || null };
+    if(extra){ ['direccion','ciudad','departamento','pais','telefono'].forEach(function(k){ if(extra[k]) body[k] = extra[k]; }); }
     return fetch(SUPABASE_URL + '/rest/v1/profiles', {
       method: 'POST', headers: headers(s.access_token),
-      body: JSON.stringify({ user_id: s.user.id, tipo: tipo, nombre: name || null })
+      body: JSON.stringify(body)
     }).then(function(){ return tipo; }).catch(function(){ return tipo; });
   }).catch(function(){ return tipo; });
 }
@@ -230,7 +242,14 @@ document.getElementById('btn-up').onclick = function(){
   }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
     .then(function(res){
       if(!res.ok){ showErr(res.j.msg || 'No se pudo crear la cuenta.'); return; }
-      var done = function(s){ saveSession(s); ensureProfile(s, name).then(function(){ goTo(tipo, s); }); };
+      var extra = {
+        direccion: document.getElementById('up-dir').value.trim() || null,
+        ciudad: document.getElementById('up-ciudad').value.trim() || null,
+        departamento: document.getElementById('up-depto').value.trim() || null,
+        pais: document.getElementById('up-pais').value.trim() || null,
+        telefono: document.getElementById('up-tel').value.trim() || null
+      };
+      var done = function(s){ saveSession(s); ensureProfile(s, name, extra).then(function(){ goTo(tipo, s); }); };
       if(res.j.session) done(res.j.session);
       else {
         var e = document.getElementById('okmsg'); e.textContent = 'Cuenta creada. Ahora entra con tu correo y contraseña.'; e.style.display = 'block';

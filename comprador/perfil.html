@@ -149,6 +149,48 @@ function clearCart(){
   }).catch(function(){});
   cart = [];
 }
+var _prof = null;
+function loadShipForm(){
+  fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + session.user.id + '&select=direccion,ciudad,departamento,pais,telefono',
+    { headers: h(session.access_token) })
+    .then(function(r){ return r.json(); })
+    .then(function(rows){
+      _prof = (rows && rows[0]) || {};
+      var p = _prof;
+      function fld(id, label, val, ph, type){
+        return '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">' + label + '</label>'
+          + '<input id="' + id + '" type="' + (type || 'text') + '" value="' + esc(val || '') + '" placeholder="' + ph + '"'
+          + ' style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px">';
+      }
+      document.getElementById('ship-form').innerHTML =
+        fld('sf-dir', 'Dirección (con referencias)', p.direccion, 'Ej: Calle 5 #123, frente al parque')
+        + fld('sf-ciu', 'Ciudad', p.ciudad, 'Ej: Estelí')
+        + fld('sf-dep', 'Departamento', p.departamento, 'Ej: Estelí')
+        + fld('sf-pais', 'País', p.pais, 'Ej: Nicaragua')
+        + fld('sf-tel', 'Número de contacto (privado)', p.telefono, 'Ej: 88888888', 'tel')
+        + '<button class="btn" id="sf-save" style="margin-top:14px">Guardar datos</button>';
+      document.getElementById('sf-save').onclick = saveShipForm;
+    })
+    .catch(function(){ document.getElementById('ship-form').innerHTML = '<p class="empty">No se pudo cargar.</p>'; });
+}
+function saveShipForm(){
+  var body = {
+    direccion: document.getElementById('sf-dir').value.trim() || null,
+    ciudad: document.getElementById('sf-ciu').value.trim() || null,
+    departamento: document.getElementById('sf-dep').value.trim() || null,
+    pais: document.getElementById('sf-pais').value.trim() || null,
+    telefono: document.getElementById('sf-tel').value.trim() || null
+  };
+  var btn = document.getElementById('sf-save');
+  btn.textContent = 'Guardando…'; btn.disabled = true;
+  fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + session.user.id, {
+    method: 'PATCH', headers: h(session.access_token), body: JSON.stringify(body)
+  }).then(function(r){
+    btn.textContent = r.ok ? '✓ Guardado' : 'Guardar datos';
+    btn.disabled = false;
+    if(!r.ok) alert('No se pudo guardar. Intenta de nuevo.');
+  }).catch(function(){ btn.textContent = 'Guardar datos'; btn.disabled = false; });
+}
 function boot(){
   session = getSession();
   if(!session || !session.access_token){ location.href = 'cuenta.html'; return; }
@@ -173,6 +215,8 @@ function render(){
   var total = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
   var html = '<div class="profile-card"><span class="avatar">' + esc(name.charAt(0).toUpperCase()) + '</span>'
     + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
+    + '<div class="sec"><h2>Mis <span class="hl">datos de envío</span></h2>'
+    + '<div id="ship-form"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec"><h2>Mi <span class="hl">carrito</span> (' + cart.length + ')</h2><div id="cart-list">';
   if(!cart.length){
     html += '<p class="empty">Tu carrito está vacío.<br><a href="../index.html" style="color:var(--acc)">Explorar productos →</a></p>';
@@ -199,6 +243,7 @@ function render(){
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
   document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
   renderPayPalButtons(total);
+  loadShipForm();
   var waBtn = document.getElementById('wa-order');
   loadMyReviews();
   if(waBtn){
