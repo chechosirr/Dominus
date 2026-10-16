@@ -210,9 +210,11 @@ function loadCart(){
     .then(function(rows){ cart = rows || []; render(); })
     .catch(function(){ document.getElementById('main').innerHTML = '<p class="empty">No se pudo cargar. Revisa tu conexión.</p>'; });
 }
+var SERVICE_FEE = 1.00;
 function render(){
   var name = (session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
-  var total = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
+  var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
+  var total = subtotal + (cart.length ? SERVICE_FEE : 0);
   var html = '<div class="profile-card"><span class="avatar">' + esc(name.charAt(0).toUpperCase()) + '</span>'
     + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">datos de envío</span></h2>'
@@ -229,10 +231,12 @@ function render(){
         + '<div class="qty"><button data-dec="' + it.id + '">−</button><b>' + it.qty + '</b><button data-inc="' + it.id + '">+</button></div>'
         + '<span class="pa">' + money(Number(p.precio) * it.qty) + '</span></div>';
     }).join('')
+    + '<div class="total"><span>Subtotal</span><span>' + money(subtotal) + '</span></div>'
+    + '<div class="total" style="font-size:14px;color:var(--mut)"><span>Tasa de servicio</span><span>' + money(SERVICE_FEE) + '</span></div>'
     + '<div class="total"><span>Total</span><span>' + money(total) + '</span></div>'
     + '<div id="paypal-button-container" style="margin-top:6px"></div>'
     + '<a class="btn btn-wa" id="wa-order" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>'
-    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas a Dominus por PayPal y coordinamos el envío de cada vendedor con rastreo.</p>';
+    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye $1.00 de tasa de servicio por transacción. Pagas a Dominus por PayPal y coordinamos el envío de cada vendedor con rastreo.</p>';
   }
   html += '</div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
