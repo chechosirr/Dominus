@@ -156,6 +156,14 @@ body.editing .card{cursor:grab}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
+/* Dashboard del vendedor */
+.dash{background:linear-gradient(180deg,#171b29,#11141f);border:1px solid #2b3049;border-radius:22px;padding:36px 28px;margin:26px auto;max-width:620px;box-shadow:0 12px 40px rgba(0,0,0,.35);text-align:center}
+.dash h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;letter-spacing:1.5px;margin-bottom:8px;color:#f0f2f7}
+.dash p{color:var(--mut);font-size:14px;margin-bottom:26px}
+.dash-btn{display:flex;align-items:center;justify-content:space-between;width:100%;background:#0a0c13;border:1px solid #2b3049;border-radius:16px;padding:20px 22px;margin-bottom:14px;cursor:pointer;color:#fff;font-family:'Cormorant Garamond',Georgia,serif;font-size:20px;letter-spacing:.5px;transition:border-color .2s,transform .15s}
+.dash-btn:hover{border-color:var(--acc);transform:translateY(-1px)}
+.dash-btn span:last-child{color:var(--acc);font-size:22px}
+.dash-back{background:none;border:0;color:var(--acc);font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;cursor:pointer;margin-bottom:16px;padding:8px 0}
 /* Panel de edicion formal */
 .edit-panel{background:linear-gradient(180deg,#171b29,#11141f);border:1px solid #2b3049;border-radius:22px;padding:30px 28px;margin:22px auto 0;max-width:620px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
 .edit-panel h3{font-family:'Cormorant Garamond',Georgia,serif;font-size:25px;text-align:center;margin:0 0 8px;letter-spacing:1.5px;color:#f0f2f7}
@@ -282,22 +290,43 @@ Promise.all([
   var own = (function(){ try{ var sx = JSON.parse(localStorage.getItem('dominus_session')); return !!(sx && sx.user && sx.user.id === s.user_id); }catch(e){ return false; } })();
   document.getElementById('title').textContent = s.nombre + ' — Dominus';
 
-  document.getElementById('wall').innerHTML =
-    '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
+  var dashHTML = own ?
+    '<div class="wrap"><div class="dash ed-only"><h2>' + esc(s.nombre) + '</h2><p>Panel del vendedor</p>'
+    + '<button class="dash-btn" data-goto="info"><span>Informaci\u00F3n del negocio</span><span>\u203A</span></button>'
+    + '<button class="dash-btn" data-goto="editar"><span>Editar muro</span><span>\u203A</span></button>'
+    + '<button class="dash-btn" data-goto="historial"><span>Historial de ventas</span><span>\u203A</span></button>'
+    + '</div></div>' : '';
+  var infoHTML = own ?
+    '<div class="wrap"><div id="view-info" style="display:none">'
+    + '<button class="dash-back ed-only" data-goto="menu">\u2039 Volver</button>'
+    + '<div class="ed-only edit-panel"><h3>Informaci\u00F3n del negocio</h3><p class="ep-sub">Solo t\u00FA puedes ver y editar estos datos</p><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
+    + '</div></div>' : '';
+  var histHTML = own ?
+    '<div class="wrap"><div id="view-historial" style="display:none">'
+    + '<button class="dash-back ed-only" data-goto="menu">\u2039 Volver</button>'
+    + '<div class="ed-only edit-panel"><h3>Historial de ventas</h3><div id="sales-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>'
+    + '</div></div>' : '';
+  var wallHTML =
+    '<div id="view-editar"' + (own ? ' style="display:none"' : '') + '>'
+    + '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
     + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">Cambiar portada</button>' : '') + '</div>'
     + '<div class="wrap"><div class="profile">'
-    + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
+    + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">\u2713</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
     + '<div class="loc ' + (own ? 'editable' : '') + '" data-field="ubicacion">' + esc(s.ubicacion || (own ? 'Agregar ubicación' : '')) + '</div>'
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
-    + (own ? '<div class="ed-only edit-panel"><h3>Informaci\u00F3n del negocio</h3><p class="ep-sub">Solo t\u00FA puedes ver y editar estos datos</p><div id="ep-fields"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>' : '')
-    + (own ? '<div class="ed-only edit-panel"><h3>Historial de ventas</h3><div id="sales-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div></div>' : '')
+    + (own ? '<button class="dash-back ed-only" data-goto="menu">\u2039 Volver al panel</button>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
-    + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
+    + (s.verificado ? '<span class="pill">\u2713 Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
-    + '<div class="about"' + (s.descripcion_larga || own ? '' : ' style="display:none"') + '><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio…' : '')) + '</p></div>'
+    + '<div class="about"' + (s.descripcion_larga || own ? '' : ' style="display:none"') + '><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio\u2026' : '')) + '</p></div>'
     + '</div>';
+  document.getElementById('wall').innerHTML = dashHTML + infoHTML + histHTML + wallHTML;
+  if(own){
+    document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); }; });
+    showView('menu');
+  }
   document.getElementById('grid').innerHTML = (own ? '<div class="add-prod-card ed-only" id="add-prod"><span><span class="plus">＋</span>Agregar producto</span></div>' : '')
   + (prods.length ? prods.map(function(p){
     return '<div class="card" data-pid="' + p.id + '"' + (own ? ' draggable="true"' : '') + '><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
@@ -579,6 +608,22 @@ function loadReviews(){
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 
+function showView(v){
+  var menu = document.querySelector('.dash');
+  var info = document.getElementById('view-info');
+  var editar = document.getElementById('view-editar');
+  var hist = document.getElementById('view-historial');
+  var main = document.querySelector('main');
+  var revs = document.getElementById('reviews');
+  var showWall = (v === 'editar');
+  if(menu) menu.style.display = (v === 'menu') ? '' : 'none';
+  if(info) info.style.display = (v === 'info') ? '' : 'none';
+  if(editar) editar.style.display = showWall ? '' : 'none';
+  if(hist) hist.style.display = (v === 'historial') ? '' : 'none';
+  if(main) main.style.display = showWall ? '' : 'none';
+  if(revs) revs.style.display = showWall ? '' : 'none';
+  window.scrollTo(0, 0);
+}
 function loadSales(tok){
   var box = document.getElementById('sales-list');
   if(!box) return;
