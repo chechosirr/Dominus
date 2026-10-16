@@ -205,8 +205,16 @@ document.getElementById('btn-in').onclick = function(){
   }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
     .then(function(res){
       if(!res.ok){ showErr(res.j.msg || 'No se pudo entrar. Revisa tus datos.'); return; }
-      saveSession(res.j);
-      ensureProfile(res.j).then(function(t){ goTo(t, res.j); });
+      api('profiles?user_id=eq.' + res.j.user.id + '&select=tipo', res.j.access_token).then(function(rows){
+        var real = (rows && rows[0] && rows[0].tipo) || null;
+        if(real && real !== tipo){
+          var otro = real === 'vendedor' ? 'Vendedor' : 'Comprador';
+          showErr('Esta cuenta es de ' + otro.toLowerCase() + '. Selecciona "' + otro + '" arriba para entrar.');
+          return;
+        }
+        saveSession(res.j);
+        ensureProfile(res.j).then(function(tp){ goTo(tp, res.j); });
+      }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
     }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
 };
 document.getElementById('btn-up').onclick = function(){
