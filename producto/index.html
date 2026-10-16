@@ -155,7 +155,7 @@ function render(){
     + '<div class="pd-seller">Vendido por <a href="../vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a>' + (s.verificado ? ' ✓' : '') + '</div>'
     + (REVIEWS.length ? '<div>' + starsHTML(avg) + ' <small style="color:var(--mut)">' + avg.toFixed(1) + ' · ' + REVIEWS.length + ' reseña(s)</small></div>' : '<small style="color:var(--mut)">Sin reseñas aún</small>')
     + '<div class="pd-price">' + money(p.precio) + '</div>'
-    + '<a class="btn" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
+    + '<a class="btn" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar</a>'
     + '<button class="btn btn-ghost" id="btn-cart">+ Agregar al carrito</button></div></div>';
   if(p.descripcion) html += '<div class="sec"><h2>Descripción</h2><p class="desc">' + esc(p.descripcion) + '</p></div>';
   if(p.especificaciones) html += '<div class="sec"><h2>Especificaciones</h2><div class="specs">' + esc(p.especificaciones) + '</div></div>';

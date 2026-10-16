@@ -336,7 +336,7 @@ Promise.all([
       + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
       + (p.fijado ? '<span class="pin-badge">Fijado</span>' : '')
       + '<div class="card-price">' + money(p.precio) + '</div>'
-      + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
+      + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar</a>'
       + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button>'
       + (own ? '<div class="ed-only"><button class="more-btn" data-more="' + p.id + '">⋯</button>'
         + '<div class="more-menu" id="mm-' + p.id + '">'
