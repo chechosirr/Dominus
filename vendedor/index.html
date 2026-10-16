@@ -43,8 +43,8 @@ main{max-width:1000px;margin:0 auto;padding:26px 18px 70px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:14px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .18s}
 .card:hover{transform:translateY(-4px)}
-.card img{width:100%;aspect-ratio:1;object-fit:cover;background:#161b24}
-.card-body{padding:13px;display:flex;flex-direction:column;gap:5px;flex:1}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#161b24}
+.card-body{padding:10px;display:flex;flex-direction:column;gap:5px;flex:1}
 .card-title{font-size:14px;font-weight:700;line-height:1.35;min-height:2.7em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card-price{font-size:19px;font-weight:900;margin-top:auto;padding-top:8px}
 .buy{margin-top:8px;display:block;text-align:center;background:var(--acc);color:#0a0c10;font-weight:800;font-size:14px;padding:12px;border-radius:12px;text-decoration:none}
@@ -340,8 +340,7 @@ Promise.all([
       + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
       + (p.fijado ? '<span class="pin-badge">Fijado</span>' : '')
       + '<div class="card-price">' + money(p.precio) + '</div>'
-      + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar</a>'
-      + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button>'
+      + '<a class="buy" href="../producto/?id=' + p.id + '">Ver</a>'
       + (own ? '<div class="ed-only"><button class="more-btn" data-more="' + p.id + '">⋯</button>'
         + '<div class="more-menu" id="mm-' + p.id + '">'
         + '<button data-pedit="' + p.id + '"> Editar</button>'
