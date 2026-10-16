@@ -318,6 +318,17 @@ function setupEditMode(){
   wireEditControls(sx.access_token);
   if(new URLSearchParams(location.search).get('edit') === '1') btn.click();
 }
+function pickNewPhoto(field, tok){
+  var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*';
+  inp.style.position = 'fixed'; inp.style.opacity = '0'; inp.style.pointerEvents = 'none';
+  document.body.appendChild(inp);
+  inp.onchange = function(){
+    var f = inp.files[0]; inp.remove();
+    if(!f) return;
+    openCropEditor(f, field, tok);
+  };
+  try{ inp.click(); }catch(err){ alert('No se pudo abrir la galería.'); inp.remove(); }
+}
 function uploadPhoto(file, path, tok){
   return fetch(SUPABASE_URL + '/storage/v1/object/product-images/' + path, {
     method: 'POST',
@@ -336,15 +347,20 @@ function wireEditControls(tok){
   document.querySelectorAll('[data-photo]').forEach(function(b){
     b.onclick = function(e){
       e.stopPropagation();
-      var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*';
-      inp.style.position = 'fixed'; inp.style.opacity = '0'; inp.style.pointerEvents = 'none';
-      document.body.appendChild(inp);
-      inp.onchange = function(){
-        var f = inp.files[0]; inp.remove();
-        if(!f) return;
-        openCropEditor(f, b.dataset.photo, tok);
-      };
-      try{ inp.click(); }catch(err){ alert('No se pudo abrir la galería.'); inp.remove(); }
+      var field = b.dataset.photo;
+      var current = SELLER[field];
+      if(!current){ pickNewPhoto(field, tok); return; }
+      var ov = document.createElement('div');
+      ov.className = 'modal-ov';
+      ov.innerHTML = '<div class="modal"><h3>' + (field === 'cover_url' ? 'Foto de portada' : 'Foto de perfil') + '</h3>'
+        + '<button class="inline-save" id="ph-new" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:8px">📷 Elegir nueva foto</button>'
+        + '<button class="inline-save" id="ph-edit" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:10px">✏️ Editar foto actual</button>'
+        + '<button class="inline-cancel" id="ph-cancel" type="button" style="width:100%;padding:14px;border-radius:12px;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:10px">Cancelar</button></div>';
+      document.body.appendChild(ov);
+      ov.querySelector('#ph-cancel').onclick = function(){ ov.remove(); };
+      ov.addEventListener('click', function(ev){ if(ev.target === ov) ov.remove(); });
+      ov.querySelector('#ph-new').onclick = function(){ ov.remove(); pickNewPhoto(field, tok); };
+      ov.querySelector('#ph-edit').onclick = function(){ ov.remove(); openCropEditor(current, field, tok); };
     };
   });
   // textos: tocar para editar
@@ -519,14 +535,17 @@ document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); 
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 
 /* ===== editor de foto: mover + agrandar/achicar ===== */
-function openCropEditor(file, field, tok){
+function openCropEditor(source, field, tok){
   var img = new Image();
-  var url = URL.createObjectURL(file);
-  img.onload = function(){ buildCropEditor(img, url, field === 'cover_url', field, tok); };
-  img.onerror = function(){ URL.revokeObjectURL(url); alert('No se pudo leer la imagen.'); };
+  img.crossOrigin = 'anonymous';
+  var url, revoke;
+  if(typeof source === 'string'){ url = source; revoke = false; }
+  else { url = URL.createObjectURL(source); revoke = true; }
+  img.onload = function(){ buildCropEditor(img, url, field === 'cover_url', field, tok, revoke); };
+  img.onerror = function(){ if(revoke) URL.revokeObjectURL(url); alert('No se pudo leer la imagen.'); };
   img.src = url;
 }
-function buildCropEditor(img, objUrl, isCover, field, tok){
+function buildCropEditor(img, objUrl, isCover, field, tok, revoke){
   var ov = document.createElement('div');
   ov.className = 'modal-ov';
   ov.innerHTML = '<div class="modal"><h3>' + (isCover ? 'Ajustar portada' : 'Ajustar foto de perfil') + '</h3>'
@@ -551,7 +570,7 @@ function buildCropEditor(img, objUrl, isCover, field, tok){
     dy = Math.min(my, Math.max(-my, dy));
     cimg.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(' + z + ')';
   }
-  function close(){ URL.revokeObjectURL(objUrl); ov.remove(); }
+  function close(){ if(revoke) URL.revokeObjectURL(objUrl); ov.remove(); }
   ov.querySelector('#crop-cancel').onclick = close;
   var dragging = false, sx = 0, sy = 0, sdx = 0, sdy = 0;
   function dStart(x, y){ dragging = true; sx = x; sy = y; sdx = dx; sdy = dy; }
