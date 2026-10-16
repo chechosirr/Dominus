@@ -152,6 +152,20 @@ body.editing .card{cursor:grab}
 .crop-zoom button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--txt);font-size:22px;cursor:pointer;flex:0 0 auto;font-family:inherit}
 .crop-zoom input{flex:1;accent-color:var(--acc);height:44px}
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+#edit-toggle, .ed-cover, .inline-save, .inline-cancel, .more-menu button, #ship-toggle, #vs-save{
+  font-family:'Cormorant Garamond', Georgia, serif !important;
+  font-size:17px !important;
+  letter-spacing:.3px;
+}
+.ed-only .ed-wa, .inline-form label{
+  font-family:'Cormorant Garamond', Georgia, serif;
+  font-size:17px;
+}
+</style>
 </head>
 <body>
 <header class="top">
@@ -253,16 +267,16 @@ Promise.all([
 
   document.getElementById('wall').innerHTML =
     '<div class="cover">' + (s.cover_url ? '<img src="' + esc(s.cover_url) + '" alt="Portada">' : '') + '<div class="fade"></div>'
-    + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">📷 Cambiar portada</button>' : '') + '</div>'
+    + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">Cambiar portada</button>' : '') + '</div>'
     + '<div class="wrap"><div class="profile">'
     + '<div class="p-head"><h1 class="' + (own ? 'editable' : '') + '" data-field="nombre">' + esc(s.nombre) + (s.verificado ? ' <span class="verif">✓</span>' : '') + (own ? '<span class="ed-hint ed-only-inline ed-only">toca para editar</span>' : '') + '</h1>'
     + '<div class="loc ' + (own ? 'editable' : '') + '" data-field="ubicacion">' + esc(s.ubicacion || (own ? 'Agregar ubicación' : '')) + '</div>'
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
     + '<p class="desc ' + (own ? 'editable' : '') + '" data-field="descripcion">' + esc(s.descripcion || (own ? 'Toca para agregar una descripción corta' : '')) + '</p>'
-    + (own ? '<div class="ed-wa ed-only">📱 <b class="' + 'editable' + '" data-field="whatsapp">' + esc(s.whatsapp || 'Agregar WhatsApp') + '</b> <small>(privado: solo tú lo ves)</small></div>' : '')
-    + (own ? '<div class="ed-wa ed-only">💰 <b class="' + 'editable' + '" data-field="paypal_email">' + esc(s.paypal_email || 'Agregar PayPal') + '</b> <small>(tu PayPal para recibir pagos)</small></div>' : '')
-    + (own ? '<div class="ed-only" style="margin-top:12px"><button class="inline-save" id="ship-toggle" style="padding:12px 20px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:14px">📦 Mis datos de envío</button><div id="ship-form" style="display:none;margin-top:10px"></div></div>' : '')
+    + (own ? '<div class="ed-wa ed-only"><b class="' + 'editable' + '" data-field="whatsapp">' + esc(s.whatsapp || 'Agregar WhatsApp') + '</b> <small>(privado: solo tú lo ves)</small></div>' : '')
+    + (own ? '<div class="ed-wa ed-only"><b class="' + 'editable' + '" data-field="paypal_email">' + esc(s.paypal_email || 'Agregar PayPal') + '</b> <small>(tu PayPal para recibir pagos)</small></div>' : '')
+    + (own ? '<div class="ed-only" style="margin-top:12px"><button class="inline-save" id="ship-toggle" style="padding:12px 20px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:14px">Mis datos de envío</button><div id="ship-form" style="display:none;margin-top:10px"></div></div>' : '')
     + '<div class="meta"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">✓ Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
@@ -272,24 +286,24 @@ Promise.all([
   + (prods.length ? prods.map(function(p){
     return '<div class="card" data-pid="' + p.id + '"' + (own ? ' draggable="true"' : '') + '><a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '" loading="lazy">' : '')
       + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
-      + (p.fijado ? '<span class="pin-badge">📌 Fijado</span>' : '')
+      + (p.fijado ? '<span class="pin-badge">Fijado</span>' : '')
       + '<div class="card-price">' + money(p.precio) + '</div>'
       + '<a class="buy" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar con PayPal</a>'
       + '<button class="add-cart" data-pid="' + p.id + '" style="margin-top:8px;width:100%;background:none;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:10px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">+ Agregar al carrito</button>'
       + (own ? '<div class="ed-only"><button class="more-btn" data-more="' + p.id + '">⋯</button>'
         + '<div class="more-menu" id="mm-' + p.id + '">'
-        + '<button data-pedit="' + p.id + '">✏️ Editar</button>'
-        + '<button data-ppin="' + p.id + '">📌 ' + (p.fijado ? 'Quitar fijado' : 'Fijar arriba') + '</button>'
-        + '<button data-pfeat="' + p.id + '">⭐ ' + (p.destacado ? 'Quitar destacado' : 'Destacar') + '</button>'
-        + '<button data-pact="' + p.id + '">' + (p.activo ? '⏸️ Pausar' : '▶️ Activar') + '</button>'
-        + '<button data-pdel="' + p.id + '" class="del">🗑️ Eliminar</button>'
+        + '<button data-pedit="' + p.id + '"> Editar</button>'
+        + '<button data-ppin="' + p.id + '">' + (p.fijado ? 'Quitar fijado' : 'Fijar arriba') + '</button>'
+        + '<button data-pfeat="' + p.id + '">' + (p.destacado ? 'Quitar destacado' : 'Destacar') + '</button>'
+        + '<button data-pact="' + p.id + '">' + (p.activo ? 'Pausar' : 'Activar') + '</button>'
+        + '<button data-pdel="' + p.id + '" class="del">Eliminar</button>'
         + '</div></div>' : '')
       + '</div></div>';
   }).join('') : (own ? '' : '<div class="empty">Este vendedor aún no publica productos.</div>'));
   var feat = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
   if(feat.length){
     document.getElementById('grid').insertAdjacentHTML('beforebegin',
-      '<div class="wrap"><div class="feat-sec"><h2>⭐ <span class="hl">Destacados</span></h2><div class="feat-row">'
+      '<div class="wrap"><div class="feat-sec"><h2><span class="hl">Destacados</span></h2><div class="feat-row">'
       + feat.map(function(p){
           return '<a class="feat-card" href="../producto/?id=' + p.id + '">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '">' : '')
             + '<div><b>' + esc(p.titulo) + '</b><span>' + money(p.precio) + '</span></div></a>';
@@ -297,7 +311,7 @@ Promise.all([
   }
   if(isPreview){
     document.body.insertAdjacentHTML('afterbegin',
-      '<div style="position:sticky;top:0;z-index:100;background:#c6f52e;color:#0a0c10;text-align:center;font-weight:800;font-size:14px;padding:10px">👁 Vista previa — así verán los clientes tu muro</div>');
+      '<div style="position:sticky;top:0;z-index:100;background:#c6f52e;color:#0a0c10;text-align:center;font-weight:800;font-size:14px;padding:10px">Vista previa — así verán los clientes tu muro</div>');
   }
   loadReviews();
   setupEditMode();
@@ -312,10 +326,10 @@ function setupEditMode(){
   var sx = null; try{ sx = JSON.parse(localStorage.getItem('dominus_session')); }catch(e){}
   if(!(sx && sx.user && sx.user.id === SELLER.user_id)) return;
   var btn = document.createElement('button');
-  btn.id = 'edit-toggle'; btn.textContent = '✏️ Editar muro';
+  btn.id = 'edit-toggle'; btn.textContent = 'Editar muro';
   btn.onclick = function(){
     var on = document.body.classList.toggle('editing');
-    btn.textContent = on ? '👁 Ver como cliente' : '✏️ Editar muro';
+    btn.textContent = on ? 'Ver como cliente' : 'Editar muro';
   };
   document.body.appendChild(btn);
   wireEditControls(sx.access_token);
@@ -358,8 +372,8 @@ function wireEditControls(tok){
       var ov = document.createElement('div');
       ov.className = 'modal-ov';
       ov.innerHTML = '<div class="modal"><h3>' + (field === 'cover_url' ? 'Foto de portada' : 'Foto de perfil') + '</h3>'
-        + '<button class="inline-save" id="ph-new" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:8px">📷 Elegir nueva foto</button>'
-        + '<button class="inline-save" id="ph-edit" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:10px">✏️ Editar foto actual</button>'
+        + '<button class="inline-save" id="ph-new" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:8px">Elegir nueva foto</button>'
+        + '<button class="inline-save" id="ph-edit" style="width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:10px">Editar foto actual</button>'
         + '<button class="inline-cancel" id="ph-cancel" type="button" style="width:100%;padding:14px;border-radius:12px;font-weight:800;cursor:pointer;font-family:inherit;font-size:15px;margin-top:10px">Cancelar</button></div>';
       document.body.appendChild(ov);
       ov.querySelector('#ph-cancel').onclick = function(){ ov.remove(); };
