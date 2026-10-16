@@ -137,32 +137,6 @@ function doRefresh(s, cb){
   }).catch(function(){ cb(s, false); });
 }
 
-/* si ya hay sesión activa, ir directo a su cuenta sin pedir login */
-(function(){
-  try{
-    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
-    if(!s || !s.access_token || !s.refresh_token) return;
-    function validar(sess){
-      fetch(SUPABASE_URL + '/auth/v1/user', {
-        headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token }
-      }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j, st: r.status }; }); })
-      .then(function(res){
-        if(res.st === 401 || res.st === 403){ localStorage.removeItem('dominus_session'); return; }
-        if(!res.ok || !res.j.id) return;
-        sess.user = res.j;
-        try{ localStorage.setItem('dominus_session', JSON.stringify(sess)); }catch(e){}
-        ensureProfile(sess).then(function(tp){ goTo(tp, sess); });
-      }).catch(function(){});
-    }
-    var exp = getExp(s);
-    if(exp && Date.now() >= exp - 120000){
-      doRefresh(s, function(ns){ if(ns) validar(ns); });
-    } else {
-      validar(s);
-    }
-  }catch(e){}
-})();
-
 var tipo = 'comprador';
 function headers(token){
   var h = { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' };
