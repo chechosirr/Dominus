@@ -376,9 +376,7 @@ function renderWallProducts(prods, own){
   if(!grid) return;
   var destacados = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
   var html = '';
-  // Título Productos destacados
-  html += '<div style="margin:18px 0 12px"><h2 style="font-size:20px;color:#111;margin:0">Productos destacados</h2></div>';
-  // 3 tarjetas de productos destacados
+  // 3 productos elegidos por el vendedor
   html += '<div id="feat-slots" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px">';
   for(var i = 0; i < 3; i++){
     var p = destacados[i];
@@ -396,8 +394,8 @@ function renderWallProducts(prods, own){
     }
   }
   html += '</div>';
-  if(own){
-    html += '<p style="color:#9aa0a8;font-size:13px;margin:0 0 12px">Toca + para elegir un destacado en la sección Productos.</p>';
+  if(own && destacados.length < 3){
+    html += '<p style="color:#9aa0a8;font-size:13px;margin:0 0 12px">Toca + para elegir tus productos en la sección Productos.</p>';
   }
   // Botón Ver más productos -> va a la sección catálogo
   var cats = {};
