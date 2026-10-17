@@ -374,47 +374,19 @@ function prodCardHTML(p, own){
 function renderWallProducts(prods, own){
   var grid = document.getElementById('grid');
   if(!grid) return;
-  var destacados = prods.filter(function(p){ return p.destacado; }).slice(0, 3);
   var html = '';
-  // 3 productos en fila, mismo tamaño que explorar
-  html += '<div style="display:flex;gap:10px;margin:16px 0">';
-  for(var i = 0; i < 3; i++){
-    var p = destacados[i];
-    if(p){
-      html += '<div style="flex:1;min-width:0;background:#0a0c10;border:1px solid #1e242e;border-radius:18px;overflow:hidden;display:flex;flex-direction:column">'
-        + '<a href="../producto/?id=' + p.id + '" style="text-decoration:none;color:inherit;display:block;position:relative">'
-        + (p.categoria ? '<span style="position:absolute;top:8px;left:8px;background:rgba(8,9,13,.75);font-size:10px;font-weight:700;padding:4px 10px;border-radius:999px;color:#fff;z-index:2">' + esc(p.categoria) + '</span>' : '')
-        + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">' : '<div style="width:100%;aspect-ratio:4/3;background:#161b24"></div>')
-        + '</a>'
-        + '<div style="padding:10px;display:flex;flex-direction:column;gap:4px;flex:1">'
-        + '<div style="color:#fff;font-size:13px;font-weight:700;line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;min-height:2.6em">' + esc(p.titulo) + '</div>'
-        + '<div style="color:#fff;font-size:15px;font-weight:800">$' + Number(p.precio).toFixed(2) + '</div>'
-        + '<a href="../producto/?id=' + p.id + '" style="margin-top:auto;background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;text-align:center;border-radius:12px;padding:10px;font-size:13px;font-weight:800;text-decoration:none">Ver</a>'
-        + '</div></div>';
-    } else if(own){
-      html += '<button class="feat-empty" style="flex:1;min-width:0;aspect-ratio:3/4;border-radius:18px;border:2px dashed #8a8f98;background:#fff;color:#111;font-size:28px;cursor:pointer;font-family:inherit">+</button>';
-    }
-  }
-  html += '</div>';
-  if(own && destacados.length < 3){
-    html += '<p style="color:#9aa0a8;font-size:13px;margin:0 0 12px">Toca + para elegir tus productos en la sección Productos.</p>';
-  }
-  // Botón Ver más productos en plateado, debajo
   var cats = {};
   prods.forEach(function(p){ var c = p.categoria || 'General'; if(!cats[c]) cats[c] = []; cats[c].push(p); });
   if(Object.keys(cats).length){
-    html += '<button id="ver-mas-btn" style="width:100%;background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border:0;border-radius:14px;padding:14px;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;margin-bottom:16px">Ver más productos</button>';
-  } else if(!own && !destacados.length){
+    html += '<button id="ver-mas-btn" style="width:100%;background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border:0;border-radius:14px;padding:14px;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;margin:16px 0">Ver más productos</button>';
+  } else if(!own){
     html += '<div class="empty">Este vendedor aún no publica productos.</div>';
   }
   grid.innerHTML = html;
-  grid.querySelectorAll('.feat-empty').forEach(function(b){
-    b.onclick = function(){ showView('productos'); loadProdList(); };
-  });
   var vmb = document.getElementById('ver-mas-btn');
   if(vmb) vmb.onclick = function(){ showView('catalogo'); loadCatalog(); };
-  if(own) wireFeatDrag();
 }
+
 
 var TIPOS_EMPRESA = [
   'Pulpería / Abarrotes',
