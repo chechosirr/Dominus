@@ -386,7 +386,7 @@ function renderWallProducts(prods, own){
         + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" style="width:100%;height:100%;object-fit:cover">' : '<div style="width:100%;height:100%;display:grid;place-content:center;color:#666;font-size:12px">Sin foto</div>')
         + '</a>';
     } else if(own){
-      html += '<button class="feat-empty" style="aspect-ratio:3/4;border-radius:14px;border:2px dashed #8a8f98;background:#ffffff;color:#111;font-size:32px;font-weight:300;cursor:pointer;font-family:inherit;display:grid;place-content:center">+</button>';
+      html += '<button class="feat-empty" style="width:100%;aspect-ratio:3/4;border-radius:14px;border:2px dashed #8a8f98;background:#ffffff;color:#111;font-size:32px;font-weight:300;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center">+</button>';
     } else {
       html += '<div style="aspect-ratio:3/4;border-radius:14px;background:#f0f1f3"></div>';
     }
