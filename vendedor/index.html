@@ -337,7 +337,7 @@ Promise.all([
     + '<div class="meta" style="justify-content:center;text-align:center"><span class="pill"><b>' + prods.length + '</b> productos</span>'
     + (s.verificado ? '<span class="pill">\u2713 Vendedor verificado</span>' : '')
     + '<span class="pill">Pago protegido PayPal</span></div>'
-    + '<div class="about" style="text-align:center;max-width:600px;margin-left:auto;margin-right:auto"' + (s.descripcion_larga || own ? '' : 'display:none;') + '><h2>Acerca de <span class="hl">' + esc(s.nombre) + '</span></h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio\u2026' : '')) + '</p></div>'
+    + '<div class="about" style="text-align:center;max-width:600px;margin-left:auto;margin-right:auto"' + (s.descripcion_larga || own ? '' : 'display:none;') + '><h2>Acerca de</h2><p class="' + (own ? 'editable' : '') + '" data-field="descripcion_larga">' + esc(s.descripcion_larga || (own ? 'Toca para contar sobre tu negocio\u2026' : '')) + '</p></div>'
     + '</div>';
   document.getElementById('wall').innerHTML = dashHTML + infoHTML + prodHTML + catHTML + histHTML + wallHTML;
   if(own){
