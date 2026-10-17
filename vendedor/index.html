@@ -379,7 +379,7 @@ function renderWallProducts(prods, own){
   // Título Productos destacados
   html += '<h2 style="font-size:20px;margin:18px 0 12px;color:#111">Productos destacados</h2>';
   // 3 tarjetas de productos destacados (formato como el inicio)
-  html += '<div class="grid" id="feat-slots" style="margin-bottom:16px">';
+  html += '<div id="feat-slots" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px">';
   for(var i = 0; i < 3; i++){
     var p = destacados[i];
     if(p){
