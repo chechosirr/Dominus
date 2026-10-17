@@ -919,7 +919,7 @@ function loadEditPanel(tok){
         + row('ep-ciu', 'Ciudad *', p.ciudad, 'Ej: Managua')
         + row('ep-dep', 'Departamento *', p.departamento, 'Ej: Managua')
         + row('ep-pais', 'Pa\u00EDs *', p.pais, 'Ej: Nicaragua')
-        + row('ep-tel', 'Tel\u00E9fono', p.telefono, 'Ej: 88888888', 'tel')
+
         + '</details>'
         + '<button class="inline-save" id="ep-save">Guardar cambios</button>';
       document.getElementById('ep-save').onclick = function(){
@@ -933,7 +933,6 @@ function loadEditPanel(tok){
         var ciuV = document.getElementById('ep-ciu').value.trim();
         var depV = document.getElementById('ep-dep').value.trim();
         var paiV = document.getElementById('ep-pais').value.trim();
-        var telV = document.getElementById('ep-tel').value.trim();
         if(!ciuV || !depV || !paiV){
           alert('Completa ciudad, departamento y país (son obligatorios).');
           btn.textContent = 'Guardar cambios'; btn.disabled = false; return;
@@ -942,7 +941,7 @@ function loadEditPanel(tok){
           ciudad: ciuV,
           departamento: depV,
           pais: paiV,
-          telefono: telV,
+
           referencia: document.getElementById('ep-ref').value.trim() || null
         };
         var fotoFile = document.getElementById('ep-foto-ref').files[0];
