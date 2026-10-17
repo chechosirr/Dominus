@@ -913,12 +913,13 @@ function loadEditPanel(tok){
         + row('ep-pp', 'PayPal', SELLER.paypal_email, 'Correo de PayPal', 'email')
         + '<details><summary>Datos de env\u00EDo</summary>'
 
-        + '<div class="inline-form"><label>Referencia del local o casa</label><textarea id="ep-ref" rows="2" placeholder="Ej: Casa azul, frente al parque">' + esc(p.referencia || '') + '</textarea></div>'
-        + '<div class="inline-form"><label>Foto del local o casa</label><input id="ep-foto-ref" type="file" accept="image/*">'
+        + '<div class="inline-form"><label>Dirección *</label><textarea id="ep-ref" rows="2" placeholder="Ej: Costado norte del estadio, casa azul">' + esc(p.referencia || '') + '</textarea></div>'
         + (p.foto_referencia ? '<br><img src="' + p.foto_referencia + '" style="max-width:200px;border-radius:8px;margin-top:8px">' : '') + '</div>'
         + row('ep-ciu', 'Ciudad *', p.ciudad, 'Ej: Managua')
         + row('ep-dep', 'Departamento *', p.departamento, 'Ej: Managua')
         + row('ep-pais', 'Pa\u00EDs *', p.pais, 'Ej: Nicaragua')
+        + '<div class="inline-form"><label>Foto de referencia</label><input id="ep-foto-ref" type="file" accept="image/*">'
+        + (p.foto_referencia ? '<br><img src="' + p.foto_referencia + '" style="max-width:200px;border-radius:8px;margin-top:8px">' : '') + '</div>'
 
         + '</details>'
         + '<button class="inline-save" id="ep-save">Guardar cambios</button>';
@@ -930,11 +931,12 @@ function loadEditPanel(tok){
           whatsapp: document.getElementById('ep-wa').value.trim() || null,
           paypal_email: document.getElementById('ep-pp').value.trim() || null
         };
+        var dirV = document.getElementById('ep-ref').value.trim();
         var ciuV = document.getElementById('ep-ciu').value.trim();
         var depV = document.getElementById('ep-dep').value.trim();
         var paiV = document.getElementById('ep-pais').value.trim();
-        if(!ciuV || !depV || !paiV){
-          alert('Completa ciudad, departamento y país (son obligatorios).');
+        if(!dirV || !ciuV || !depV || !paiV){
+          alert('Completa dirección, ciudad, departamento y país (son obligatorios).');
           btn.textContent = 'Guardar cambios'; btn.disabled = false; return;
         }
         var pr = {
