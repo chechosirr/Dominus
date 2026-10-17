@@ -923,24 +923,19 @@ function loadEditPanel(tok){
         var fotoFile = document.getElementById('ep-foto-ref').files[0];
         var doSave = function(){
           var spTry = Object.assign({}, sp);
-          var saveSellers = function(){
+          var saveSellers = function(retried){
             return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
               method: 'PATCH', headers: edH(tok), body: JSON.stringify(spTry)
             }).then(function(r){
-              // Si falla por la columna tipo_empresa, reintentar sin ella
-              if(!r.ok && spTry.tipo_empresa !== undefined){
-                return r.json().then(function(j){
-                  if(JSON.stringify(j).indexOf('tipo_empresa') >= 0){
-                    delete spTry.tipo_empresa;
-                    return saveSellers();
-                  }
-                  throw new Error('save fail');
-                });
+              if(!r.ok && !retried && spTry.tipo_empresa !== undefined){
+                // Reintentar sin tipo_empresa (la columna puede no existir aún)
+                delete spTry.tipo_empresa;
+                return saveSellers(true);
               }
               if(!r.ok) throw new Error('save fail');
             });
           };
-          saveSellers().then(function(){
+          saveSellers(false).then(function(){
             // UPSERT: crea el perfil si no existe, actualiza si existe
             var prUp = Object.assign({ user_id: SELLER.user_id }, pr);
             return fetch(SUPABASE_URL + '/rest/v1/profiles', {
