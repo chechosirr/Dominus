@@ -211,7 +211,6 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 </header>
 <div id="wall"><div class="empty">Cargando…</div></div>
 <main>
-  <div class="sec-head"><h2>Productos</h2></div>
   <div class="grid" id="grid"></div>
 </main>
 <div id="reviews"></div>
@@ -378,7 +377,7 @@ function renderWallProducts(prods, own){
   var cats = {};
   prods.forEach(function(p){ var c = p.categoria || 'General'; if(!cats[c]) cats[c] = []; cats[c].push(p); });
   if(Object.keys(cats).length){
-    html += '<button id="ver-mas-btn" style="width:100%;background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border:0;border-radius:14px;padding:14px;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;margin:16px 0">Ver más productos</button>';
+    html += '<button id="ver-mas-btn" style="width:100vw;margin-left:calc(-50vw + 50%);background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border:0;border-radius:0;padding:16px;font-size:16px;font-weight:800;cursor:pointer;font-family:inherit;margin-top:16px;margin-bottom:16px">Ver Productos</button>';
   } else if(!own){
     html += '<div class="empty">Este vendedor aún no publica productos.</div>';
   }
