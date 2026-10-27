@@ -217,12 +217,9 @@ function afterAuthSeller(session){
         var s = rows[0];
         window._seller = s;
         try{ localStorage.setItem('dominus_slug', s.slug); }catch(e){}
-        if(!s.paypal_email){
-          document.getElementById('auth-box').classList.add('hidden');
-          document.getElementById('profile-box').classList.remove('hidden');
-          var pn = document.getElementById('p-nombre'); if(pn && !pn.value) pn.value = s.nombre || '';
-          var bp = document.getElementById('btn-profile'); if(bp) bp.textContent = 'Guardar mi muro';
-        } else { location.href = 'panel.html'; }
+        // Cuenta ya creada: directo al panel, sin volver a pedir los datos del muro.
+        // Lo que falte (PayPal, descripción, logo) lo completa cuando quiera desde su muro/panel.
+        location.href = 'panel.html';
       }
       else {
         window._seller = null;
