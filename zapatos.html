@@ -403,7 +403,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  }
  function render(){
  var list = filtered();
- count.textContent = list.length + ' productos · Precios verificados el ' + ZAP_VERIFICADO + ' · El envío a Nicaragua se suma en el carrito';
+ count.textContent = 'Precios verificados el ' + ZAP_VERIFICADO + ' · El envío a Nicaragua se suma en el carrito';
  if(!list.length){ grid.innerHTML = (curCat === 'ninos' && !state.q && !state.marca && !state.precio) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
  grid.innerHTML = list.map(function(p){
  return '<article class="card" data-code="'+p.codigo+'">' +
