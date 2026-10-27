@@ -704,9 +704,7 @@ function goMiCuenta(){
  try{
  var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
  if(!(s && s.access_token)) return true;
- var tipo = localStorage.getItem('dominus_tipo');
- var slug = localStorage.getItem('dominus_slug');
- if(tipo){ routeMiCuenta(tipo, slug); return false; }
+
  var uid = (s.user && s.user.id) || null;
  if(!uid) return true;
  var H = { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token };

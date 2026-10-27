@@ -252,15 +252,14 @@ function goMiCuenta(){
   try{
     var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
     if(!(s && s.access_token)) return true;
-    var tipo = localStorage.getItem('dominus_tipo');
-    var slug = localStorage.getItem('dominus_slug');
-    if(tipo){ routeMiCuenta(tipo, slug); return false; }
+
     var uid = (s.user && s.user.id) || null;
     if(!uid) return true;
     var H = { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token };
-    fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid + '&select=tipo', { headers: H })
+    fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid + '&select=tipo,es_admin', { headers: H })
     .then(function(r){ return r.json(); })
     .then(function(rows){
+      if(rows && rows[0] && rows[0].es_admin){ try{ localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(e){} location.href = '/Dominus/admin.html'; return; }
       var t = (rows && rows[0] && rows[0].tipo) || 'comprador';
       try{ localStorage.setItem('dominus_tipo', t); }catch(e){}
       if(t === 'vendedor'){

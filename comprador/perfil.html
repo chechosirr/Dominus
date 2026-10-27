@@ -159,12 +159,34 @@ function clearCart(){
   cart = [];
 }
 var _prof = null;
+// Construye el enlace de WhatsApp del pedido incluyendo los datos de entrega
+// del comprador (Mis datos de envío). Se llama en render() y se refresca
+// cuando loadShipForm() termina de cargar _prof (carga asíncrona).
+function waOrderURL(){
+  var nm = (session && session.user && session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
+  var lines = cart.map(function(it){ return '• ' + it.products.titulo + ' x' + it.qty + ' (' + money(Number(it.products.precio) * it.qty) + ') — ' + it.products.sellers.nombre; });
+  var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
+  var total = calcFees(subtotal).total;
+  var msg = 'Hola Dominus, mi pedido:\n' + lines.join('\n') + '\nTotal: ' + money(total);
+  var p = _prof || {};
+  var dir = [p.direccion, [p.ciudad, p.departamento].filter(Boolean).join(', '), p.pais].filter(Boolean);
+  if(dir.length || p.telefono){
+    msg += '\n\nEntrega: ' + nm;
+    if(dir.length) msg += '\n' + dir.join('\n');
+    if(p.telefono) msg += '\nContacto: ' + p.telefono;
+  } else {
+    msg += '\n\n(⚠️ Aún no tengo datos de entrega registrados en Dominus — los completo en "Mis datos de envío")';
+  }
+  return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
+}
 function loadShipForm(){
   fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + session.user.id + '&select=direccion,ciudad,departamento,pais,telefono',
     { headers: h(session.access_token) })
     .then(function(r){ return r.json(); })
     .then(function(rows){
       _prof = (rows && rows[0]) || {};
+      var wb = document.getElementById('wa-order');
+      if(wb) wb.href = waOrderURL(); // refresca el aviso con la dirección ya cargada
       var p = _prof;
       function fld(id, label, val, ph, type){
         return '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">' + label + '</label>'
@@ -301,8 +323,7 @@ function render(){
   var waBtn = document.getElementById('wa-order');
   loadMyReviews();
   if(waBtn){
-    var lines = cart.map(function(it){ return '• ' + it.products.titulo + ' x' + it.qty + ' (' + money(Number(it.products.precio) * it.qty) + ') — ' + it.products.sellers.nombre; });
-    waBtn.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent('Hola Dominus, mi pedido:\n' + lines.join('\n') + '\nTotal: ' + money(total));
+    waBtn.href = waOrderURL();
   }
 }
 function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
@@ -346,15 +367,14 @@ function goMiCuenta(){
   try{
     var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
     if(!(s && s.access_token)) return true;
-    var tipo = localStorage.getItem('dominus_tipo');
-    var slug = localStorage.getItem('dominus_slug');
-    if(tipo){ routeMiCuenta(tipo, slug); return false; }
+
     var uid = (s.user && s.user.id) || null;
     if(!uid) return true;
     var H = { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token };
-    fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid + '&select=tipo', { headers: H })
+    fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid + '&select=tipo,es_admin', { headers: H })
     .then(function(r){ return r.json(); })
     .then(function(rows){
+      if(rows && rows[0] && rows[0].es_admin){ try{ localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(e){} location.href = '/Dominus/admin.html'; return; }
       var t = (rows && rows[0] && rows[0].tipo) || 'comprador';
       try{ localStorage.setItem('dominus_tipo', t); }catch(e){}
       if(t === 'vendedor'){
