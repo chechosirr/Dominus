@@ -126,6 +126,21 @@ function h(token, json){
 function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function money(n){ return '$' + Number(n).toFixed(2); }
 
+function renderAjustes(){
+  document.getElementById('main').innerHTML =
+    '<div class="sec"><h2>Ajustes de cuenta</h2>'
+    + '<label>Correo electrónico</label><input id="ce-mail" type="email" autocomplete="email">'
+    + '<p id="ce-msg" style="font-size:13px;margin-top:10px"></p>'
+    + '<button class="btn" id="ce-btn">Guardar correo</button>'
+    + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
+    + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
+    + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
+    + '<p id="cp-msg" style="font-size:13px;margin-top:10px"></p>'
+    + '<button class="btn" id="cp-btn">Cambiar contraseña</button>'
+    + '<p style="margin-top:20px"><a href="index.html?s=' + encodeURIComponent(seller.slug) + '" style="color:var(--mut);font-size:14px">← Volver a mi muro</a></p></div>';
+  wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
+  wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
+}
 function boot(){
   session = getSession();
   if(!session || !session.access_token){ location.href = 'cuenta.html'; return; }
@@ -136,7 +151,7 @@ function boot(){
     if(!rows) return;
     if(!rows.length){ location.href = 'cuenta.html'; return; }
     seller = rows[0];
-    if(new URLSearchParams(location.search).get('ajustes') === '1'){ loadProducts(); return; }
+    if(new URLSearchParams(location.search).get('ajustes') === '1'){ renderAjustes(); return; }
     location.href = 'index.html?s=' + seller.slug + '&edit=1';
   });
 }
