@@ -79,6 +79,18 @@ section.block h2{font-size:1.25rem;margin-bottom:12px}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px;margin-top:auto}
 /* ===== Botones de volver (mejorados) ===== */
 .backbar{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--bord);padding:10px 0;display:flex;align-items:center;gap:10px}
+#catview{max-width:940px;margin:0 auto;padding:26px 16px 6px}
+.cat-title{text-align:center;font-size:1.6rem;margin:0 0 4px}
+.cat-sub{text-align:center;color:#6a6a72;margin:0 0 20px}
+.cat-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+@media(max-width:640px){.cat-grid{grid-template-columns:1fr}}
+.cat-card{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fff;border:1px solid #e7e7ea;border-radius:18px;padding:22px 20px;cursor:pointer;font-family:inherit;text-align:left;box-shadow:0 6px 24px rgba(20,20,25,.06);transition:transform .25s ease,box-shadow .25s ease}
+.cat-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(20,20,25,.12)}
+.cat-name{font-family:Archivo,Arial,sans-serif;font-weight:800;font-size:1.3rem;color:#17171a;display:block}
+.cat-count{color:#6a6a72;font-size:.9rem;display:block;margin-top:3px}
+.cat-arrow{font-size:1.3rem;color:#9a9aa2}
+.shopbar{display:flex;align-items:center;gap:12px;padding:10px 16px 0}
+#shop-cat-label{font-weight:700;color:#55555c}
 .backbtn{display:inline-flex;align-items:center;gap:8px;background:var(--dark);color:#fff;border:0;border-radius:999px;padding:11px 20px;font-family:inherit;font-size:.98rem;font-weight:800;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 .backbtn:active{transform:scale(.97)}
 .backbtn.light{background:#fff;color:var(--dark);border:1.5px solid var(--dark);box-shadow:none;width:100%;justify-content:center;padding:14px}
@@ -167,6 +179,18 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 
 <div class="promo">Nuestra tienda · Envío a toda Nicaragua · Entrega en la puerta de tu casa</div>
 
+<div id="catview">
+  <h1 class="cat-title">Zapatos</h1>
+  <p class="cat-sub">¿Para quién buscas?</p>
+  <div class="cat-grid">
+    <button class="cat-card" data-cat="hombre"><span><span class="cat-name">Hombre</span><span class="cat-count" id="cc-hombre"></span></span><span class="cat-arrow">→</span></button>
+    <button class="cat-card" data-cat="mujer"><span><span class="cat-name">Mujer</span><span class="cat-count" id="cc-mujer"></span></span><span class="cat-arrow">→</span></button>
+    <button class="cat-card" data-cat="ninos"><span><span class="cat-name">Niños</span><span class="cat-count" id="cc-ninos"></span></span><span class="cat-arrow">→</span></button>
+  </div>
+</div>
+
+<div id="shopview" style="display:none">
+ <div class="shopbar"><button class="backbtn" id="shop-back">← Volver</button><span id="shop-cat-label"></span></div>
 <div class="toolbar">
  <div class="toolbar-in">
  <label class="search"> <input id="q" type="search" placeholder="Buscar zapatos: marca, modelo, color…"></label>
@@ -176,18 +200,11 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 
 <div class="wrap">
  <div class="crumbs">Inicio › <b>Zapatos</b></div>
- <h1>Zapatos</h1>
+ <h1 id="shop-h1">Zapatos</h1>
  <div class="count" id="count"></div>
 
  <div class="layout">
  <aside class="filters" id="filters">
- <h3>Género</h3>
- <div class="chips" id="f-genero">
- <button class="chip on" data-g="">Todos</button>
- <button class="chip" data-g="hombre">Hombre</button>
- <button class="chip" data-g="mujer">Mujer</button>
- <button class="chip" data-g="unisex">Unisex</button>
- </div>
  <h3>Marca</h3>
  <div class="chips" id="f-marca"></div>
  <h3>Precio</h3>
@@ -210,6 +227,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <main>
  <div class="grid" id="grid"></div>
  </main>
+ </div>
+
  </div>
 
  <section class="block">
@@ -337,15 +356,22 @@ var WA_NUMBER = "15704698339";
  }
 
  /* ---------- Catálogo ---------- */
- var marcas = [];
- ZAPATOS.forEach(function(p){ if(marcas.indexOf(p.marca) < 0) marcas.push(p.marca); });
- marcas.sort();
+ /* ---------- Clases: Hombre / Mujer / Niños (los unisex van en Hombre y Mujer) ---------- */
+ var curCat = null, view = 'panel';
+ function catOf(p){ var g = (p.genero || '').toLowerCase(); if(g.indexOf('hombre') === 0) return 'hombre'; if(g.indexOf('mujer') === 0) return 'mujer'; if(g.indexOf('ni') === 0 || g.indexOf('kids') === 0) return 'ninos'; return 'unisex'; }
+ function inCat(p){ if(!curCat) return true; var c = catOf(p); if(curCat === 'ninos') return c === 'ninos'; return c === curCat || c === 'unisex'; }
  var fm = document.getElementById('f-marca');
+ function buildMarcas(){
+ var marcas = [];
+ ZAPATOS.forEach(function(p){ if(inCat(p) && marcas.indexOf(p.marca) < 0) marcas.push(p.marca); });
+ marcas.sort();
  fm.innerHTML = '<button class="chip on" data-m="">Todas</button>' + marcas.map(function(m){ return '<button class="chip" data-m="'+esc(m)+'">'+esc(m)+'</button>'; }).join('');
+ }
+ buildMarcas();
 
  function filtered(){
  var list = ZAPATOS.filter(function(p){
- if(state.genero && (p.genero||'').toLowerCase().indexOf(state.genero) < 0) return false;
+ if(!inCat(p)) return false;
  if(state.marca && p.marca !== state.marca) return false;
  if(state.precio){ var r = state.precio.split('-'); if(p.precio < +r[0] || p.precio > +r[1]) return false; }
  if(state.q){ var q = state.q.toLowerCase(); if((p.marca+' '+p.nombre).toLowerCase().indexOf(q) < 0) return false; }
@@ -360,7 +386,7 @@ var WA_NUMBER = "15704698339";
  function render(){
  var list = filtered();
  count.textContent = list.length + ' productos · Precios verificados el ' + ZAP_VERIFICADO + ' · El envío a Nicaragua se suma en el carrito';
- if(!list.length){ grid.innerHTML = '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
+ if(!list.length){ grid.innerHTML = (curCat === 'ninos' && !state.q && !state.marca && !state.precio) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
  grid.innerHTML = list.map(function(p){
  return '<article class="card" data-code="'+p.codigo+'">' +
  '<div class="ph"><img loading="lazy" src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>' +
@@ -379,9 +405,12 @@ var WA_NUMBER = "15704698339";
  function ovPush(name){ ovState = name; try{ history.pushState({ov:name}, ''); }catch(e){} }
  function ovReplace(name){ ovState = name; try{ history.replaceState({ov:name}, ''); }catch(e){} }
  window.addEventListener('popstate', function(){
- if(detail.classList.contains('open')){ detail.classList.remove('open'); document.body.style.overflow = ''; }
- if(cartwrap.classList.contains('open')){ cartwrap.classList.remove('open'); document.body.style.overflow = ''; }
- ovState = null;
+ var closedOv = false;
+ if(detail.classList.contains('open')){ detail.classList.remove('open'); document.body.style.overflow = ''; closedOv = true; }
+ if(cartwrap.classList.contains('open')){ cartwrap.classList.remove('open'); document.body.style.overflow = ''; closedOv = true; }
+ if(closedOv){ ovState = (typeof view !== 'undefined' && view === 'catalog') ? 'cat' : null; }
+ else if(typeof view !== 'undefined' && view === 'catalog'){ backToPanel(); ovState = null; }
+ else { ovState = null; }
  });
  /* ---------- Detalle ---------- */
  function openDetail(code){
@@ -579,11 +608,6 @@ var WA_NUMBER = "15704698339";
 
  /* ---------- Filtros / búsqueda ---------- */
  document.getElementById('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
- document.getElementById('f-genero').addEventListener('click', function(e){
- var b = e.target.closest('.chip'); if(!b) return;
- Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.classList.remove('on'); });
- b.classList.add('on'); state.genero = b.getAttribute('data-g'); render();
- });
  fm.addEventListener('click', function(e){
  var b = e.target.closest('.chip'); if(!b) return;
  Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.classList.remove('on'); });
@@ -596,11 +620,44 @@ var WA_NUMBER = "15704698339";
  document.getElementById('q').value = '';
  document.querySelector('#f-precio input').checked = true;
  document.getElementById('sort').value = '';
- Array.prototype.forEach.call(document.querySelectorAll('#f-genero .chip, #f-marca .chip'), function(x,ix){ x.classList.toggle('on', ix===0 || x.getAttribute('data-m')===''); });
+ Array.prototype.forEach.call(document.querySelectorAll('#f-marca .chip'), function(x,ix){ x.classList.toggle('on', ix===0 || x.getAttribute('data-m')===''); });
  render();
  });
  document.getElementById('fbtn').addEventListener('click', function(){ document.getElementById('filters').classList.toggle('open'); });
  document.getElementById('verif').textContent = 'Precios verificados el ' + ZAP_VERIFICADO + '. El catálogo se actualiza a diario; si un modelo se agotó, te devolvemos el 100%.';
+
+ /* ---------- Panel de clases ---------- */
+ var CAT_LABEL = { hombre: 'Hombre', mujer: 'Mujer', ninos: 'Niños' };
+ function catCount(cat){ var n = 0; ZAPATOS.forEach(function(p){ var c = catOf(p); if(cat === 'ninos' ? c === 'ninos' : (c === cat || c === 'unisex')) n++; }); return n; }
+ document.getElementById('cc-hombre').textContent = catCount('hombre') + ' modelos';
+ document.getElementById('cc-mujer').textContent = catCount('mujer') + ' modelos';
+ var nNin = catCount('ninos');
+ document.getElementById('cc-ninos').textContent = nNin ? nNin + ' modelos' : 'Muy pronto';
+ function enterCat(cat){
+ curCat = cat; view = 'catalog';
+ state = { q:'', genero:'', marca:'', precio:'', sort:'' };
+ document.getElementById('q').value = '';
+ document.querySelector('#f-precio input').checked = true;
+ document.getElementById('sort').value = '';
+ buildMarcas();
+ document.getElementById('shop-h1').textContent = 'Zapatos · ' + CAT_LABEL[cat];
+ document.getElementById('shop-cat-label').textContent = 'Zapatos para ' + (cat === 'ninos' ? 'niños' : cat);
+ document.getElementById('catview').style.display = 'none';
+ document.getElementById('shopview').style.display = '';
+ window.scrollTo(0, 0);
+ render();
+ if(ovState !== 'cat') ovPush('cat');
+ }
+ function backToPanel(){
+ curCat = null; view = 'panel';
+ document.getElementById('shopview').style.display = 'none';
+ document.getElementById('catview').style.display = '';
+ window.scrollTo(0, 0);
+ }
+ Array.prototype.forEach.call(document.querySelectorAll('.cat-card'), function(b){
+ b.addEventListener('click', function(){ enterCat(b.getAttribute('data-cat')); });
+ });
+ document.getElementById('shop-back').addEventListener('click', function(){ if(ovState === 'cat'){ history.back(); } else { backToPanel(); } });
  updateBadges();
  render();
 })();
