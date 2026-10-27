@@ -86,13 +86,18 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
       <a href="index.html">Inicio</a>
       <a href="zapatos.html">Zapatos</a>
       <a href="revendedores.html">Comercios</a>
-      <a href="#" id="menu-pass">Cambiar mi contraseña</a>
+      <a href="#" id="menu-pass">Ajustes de cuenta</a>
       <a href="#" id="logout" style="color:#ff7b7b">Cerrar sesión</a>
     </nav>
   </div>
 </header>
 <div id="pass-box" class="hidden">
   <div class="card">
+    <h2 style="margin:14px 0 4px;font-size:20px">Ajustes de cuenta</h2>
+    <label>Correo electrónico</label>
+    <input id="ce-mail" type="email" autocomplete="email">
+    <p id="ce-msg" style="font-size:13px;margin-top:10px"></p>
+    <button id="ce-btn">Guardar correo</button>
     <label>Contraseña actual</label>
     <div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>
     <label>Contraseña nueva (mínimo 6 caracteres)</label>
@@ -693,6 +698,25 @@ function renderVentasZap(){
 }
 
 
+function wireEmail(getTok, getEmail){
+  var btn = document.getElementById('ce-btn'); if(!btn) return;
+  var inp = document.getElementById('ce-mail');
+  var msg = document.getElementById('ce-msg');
+  if(inp && getEmail()) inp.value = getEmail();
+  btn.onclick = function(){
+    var em = inp.value.trim();
+    if(!em || em.indexOf('@') < 0){ msg.style.color = '#ff8a8a'; msg.textContent = 'Escribe un correo válido.'; return; }
+    btn.disabled = true; btn.textContent = 'Guardando…';
+    fetch(SUPABASE_URL + '/auth/v1/user', { method: 'PUT', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + getTok(), 'Content-Type': 'application/json' }, body: JSON.stringify({ email: em }) })
+      .then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+      .then(function(res){
+        btn.disabled = false; btn.textContent = 'Guardar correo';
+        if(res.ok){ msg.style.color = '#7bc47f'; msg.textContent = 'Te envié un correo de confirmación a ' + em + '. Ábrelo y toca el enlace para que el cambio se aplique.'; }
+        else { msg.style.color = '#ff8a8a'; msg.textContent = 'No se pudo cambiar el correo. Intenta de nuevo.'; }
+      })
+      .catch(function(){ btn.disabled = false; btn.textContent = 'Guardar correo'; msg.style.color = '#ff8a8a'; msg.textContent = 'Error de conexión. Intenta de nuevo.'; });
+  };
+}
 function wireChangePass(getEmail, setSession){
   Array.prototype.forEach.call(document.querySelectorAll('.eye'), function(b){
     if(b._w) return; b._w = 1;
@@ -752,6 +776,7 @@ document.getElementById('menu-pass').onclick = function(e){
   return false;
 };
 wireChangePass(function(){ return (S && S.user && S.user.email) || ''; }, function(j){ S = j; TOK = j.access_token; UID = j.user.id; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
+wireEmail(function(){ return TOK; }, function(){ return (S && S.user && S.user.email) || ''; });
 
 /* Puerta de acceso: solo cuentas con es_admin */
 (function(){

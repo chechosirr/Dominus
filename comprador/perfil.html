@@ -298,7 +298,10 @@ function render(){
     + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">datos de envío</span></h2>'
     + '<div id="ship-form"><p class="empty">Cargando…</p></div></div>'
-    + '<div class="sec"><h2>Seguridad</h2>'
+    + '<div class="sec"><h2>Ajustes de cuenta</h2>'
+    + '<label>Correo electrónico</label><input id="ce-mail" type="email" autocomplete="email">'
+    + '<p id="ce-msg" style="font-size:13px;margin-top:10px"></p>'
+    + '<button class="btn" id="ce-btn">Guardar correo</button>'
     + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
     + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
     + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
@@ -330,6 +333,7 @@ function render(){
     + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
+  wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
   document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); location.href = 'cuenta.html'; };
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
@@ -344,6 +348,25 @@ function render(){
   }
 }
 
+function wireEmail(getTok, getEmail){
+  var btn = document.getElementById('ce-btn'); if(!btn) return;
+  var inp = document.getElementById('ce-mail');
+  var msg = document.getElementById('ce-msg');
+  if(inp && getEmail()) inp.value = getEmail();
+  btn.onclick = function(){
+    var em = inp.value.trim();
+    if(!em || em.indexOf('@') < 0){ msg.style.color = '#ff8a8a'; msg.textContent = 'Escribe un correo válido.'; return; }
+    btn.disabled = true; btn.textContent = 'Guardando…';
+    fetch(SUPABASE_URL + '/auth/v1/user', { method: 'PUT', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + getTok(), 'Content-Type': 'application/json' }, body: JSON.stringify({ email: em }) })
+      .then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+      .then(function(res){
+        btn.disabled = false; btn.textContent = 'Guardar correo';
+        if(res.ok){ msg.style.color = '#7bc47f'; msg.textContent = 'Te envié un correo de confirmación a ' + em + '. Ábrelo y toca el enlace para que el cambio se aplique.'; }
+        else { msg.style.color = '#ff8a8a'; msg.textContent = 'No se pudo cambiar el correo. Intenta de nuevo.'; }
+      })
+      .catch(function(){ btn.disabled = false; btn.textContent = 'Guardar correo'; msg.style.color = '#ff8a8a'; msg.textContent = 'Error de conexión. Intenta de nuevo.'; });
+  };
+}
 function wireChangePass(getEmail, setSession){
   Array.prototype.forEach.call(document.querySelectorAll('.eye'), function(b){
     if(b._w) return; b._w = 1;

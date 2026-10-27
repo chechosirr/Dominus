@@ -136,6 +136,7 @@ function boot(){
     if(!rows) return;
     if(!rows.length){ location.href = 'cuenta.html'; return; }
     seller = rows[0];
+    if(new URLSearchParams(location.search).get('ajustes') === '1'){ loadProducts(); return; }
     location.href = 'index.html?s=' + seller.slug + '&edit=1';
   });
 }
@@ -176,7 +177,10 @@ function render(){
     + '<button class="btn" id="f-btn">Publicar producto</button></div>'
     + '<div class="sec"><h2>Mis productos</h2><div id="plist"></div></div>'
     + '<div class="sec"><h2>Reseñas <span class="hl">recibidas</span></h2><div id="rl-list"><p class="empty">Cargando…</p></div></div>'
-    + '<div class="sec"><h2>Mi cuenta</h2>'
+    + '<div class="sec"><h2>Ajustes de cuenta</h2>'
+    + '<label>Correo electrónico</label><input id="ce-mail" type="email" autocomplete="email">'
+    + '<p id="ce-msg" style="font-size:13px;margin-top:10px"></p>'
+    + '<button class="btn" id="ce-btn">Guardar correo</button>'
     + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
     + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
     + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
@@ -193,6 +197,7 @@ function render(){
   document.getElementById('w-btn').onclick = saveWall;
   document.getElementById('btn-delacc').onclick = deleteMyAccountPanel;
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
+  wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
 }
 function werr(m){ var e = document.getElementById('w-err'); e.textContent = m; e.style.display = 'block'; }
 function uploadImage(file, kind){
@@ -245,6 +250,25 @@ function loadReviews(){
     }).catch(function(){ el.innerHTML = '<p class="empty">No se pudieron cargar.</p>'; });
 }
 
+function wireEmail(getTok, getEmail){
+  var btn = document.getElementById('ce-btn'); if(!btn) return;
+  var inp = document.getElementById('ce-mail');
+  var msg = document.getElementById('ce-msg');
+  if(inp && getEmail()) inp.value = getEmail();
+  btn.onclick = function(){
+    var em = inp.value.trim();
+    if(!em || em.indexOf('@') < 0){ msg.style.color = '#ff8a8a'; msg.textContent = 'Escribe un correo válido.'; return; }
+    btn.disabled = true; btn.textContent = 'Guardando…';
+    fetch(SUPABASE_URL + '/auth/v1/user', { method: 'PUT', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + getTok(), 'Content-Type': 'application/json' }, body: JSON.stringify({ email: em }) })
+      .then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+      .then(function(res){
+        btn.disabled = false; btn.textContent = 'Guardar correo';
+        if(res.ok){ msg.style.color = '#7bc47f'; msg.textContent = 'Te envié un correo de confirmación a ' + em + '. Ábrelo y toca el enlace para que el cambio se aplique.'; }
+        else { msg.style.color = '#ff8a8a'; msg.textContent = 'No se pudo cambiar el correo. Intenta de nuevo.'; }
+      })
+      .catch(function(){ btn.disabled = false; btn.textContent = 'Guardar correo'; msg.style.color = '#ff8a8a'; msg.textContent = 'Error de conexión. Intenta de nuevo.'; });
+  };
+}
 function wireChangePass(getEmail, setSession){
   Array.prototype.forEach.call(document.querySelectorAll('.eye'), function(b){
     if(b._w) return; b._w = 1;
