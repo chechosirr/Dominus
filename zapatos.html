@@ -573,7 +573,7 @@ var WA_NUMBER = "15704698339";
  var sp = shipParts();
  var items = cart.map(function(it){
  var p = byCode(it.codigo);
- return { name: (p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
+ return { name: (it.codigo + ' · ' + p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
  unit_amount: { currency_code: 'USD', value: p.precio.toFixed(2) } };
  });
  var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
@@ -609,7 +609,7 @@ var WA_NUMBER = "15704698339";
  return actions.order.capture().then(function(details){
  var sd = shipData();
  var nombre = ((details.payer && details.payer.name && details.payer.name.given_name) || sd.nombre || '');
- var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
+ var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + it.codigo + ' · ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
  var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\n' + lines.join('\n')
  + '\nTotal pagado: ' + money(t.total)
  + '\n\nEntrega: ' + (sd.nombre || nombre)
