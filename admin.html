@@ -87,6 +87,8 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
     <button data-tab="resumen" class="on">Resumen</button>
     <button data-tab="ventas">Ventas</button>
     <button data-tab="revendedores">Revendedores</button>
+    <button data-tab="zapatos">Zapatos</button>
+    <button data-tab="historial">Historial</button>
     <button data-tab="inventario">Inventario</button>
   </div>
 
@@ -107,7 +109,20 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
   </section>
 
   <section id="tab-revendedores" class="hidden">
+    <input class="search" id="sel-q" type="search" placeholder="Buscar revendedor por nombre, ciudad, tipo, WhatsApp o PayPal…">
     <div id="sellers-list"><p class="mut">Cargando revendedores…</p></div>
+  </section>
+
+  <section id="tab-zapatos" class="hidden">
+    <input class="search" id="zap-q" type="search" placeholder="Buscar zapato por código (DOM-…), marca o nombre…">
+    <p class="mut" style="margin:0 0 12px">El catálogo de tu tienda de zapatos. <b>Modificar</b> y <b>Eliminar</b> se aplican de inmediato en la tienda: el zapato eliminado desaparece y el precio/nombre editado reemplaza al del catálogo.</p>
+    <div id="zap-list"><p class="mut">Cargando zapatos…</p></div>
+  </section>
+
+  <section id="tab-historial" class="hidden">
+    <input class="search" id="hist-q" type="search" placeholder="Buscar en el historial por producto, categoría o revendedor…">
+    <p class="mut" style="margin:0 0 12px">Todos los productos que han subido los revendedores, del más reciente al más antiguo.</p>
+    <div id="hist-list"><p class="mut">Cargando historial…</p></div>
   </section>
 
   <section id="tab-inventario" class="hidden">
@@ -155,7 +170,7 @@ function patch(tabla, id, body, tok){
 }
 
 var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
-var DATA = { orders: [], sellers: [], products: [], profiles: {} };
+var DATA = { orders: [], sellers: [], products: [], profiles: {}, zapatos: [], ajustes: {} };
 
 document.getElementById('logout').onclick = function(e){
  e.preventDefault();
@@ -186,7 +201,8 @@ function cargar(){
  ]).then(function(res){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
  (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
- renderResumen(); renderVentas(); renderSellers(); renderInv(document.getElementById('inv-q').value || '');
+ renderResumen(); renderVentas(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
+ cargarZapatos();
  });
 }
 
@@ -224,7 +240,13 @@ function sellerProds(sid){ return DATA.products.filter(function(p){ return p.sel
 function renderSellers(){
  var box = document.getElementById('sellers-list');
  if(!DATA.sellers.length){ box.innerHTML = '<p class="mut">No hay revendedores registrados.</p>'; return; }
- box.innerHTML = DATA.sellers.map(function(s){
+ var q = ((document.getElementById('sel-q') || {}).value || '').toLowerCase();
+ var lista = DATA.sellers.filter(function(s){
+ if(!q) return true;
+ return ((s.nombre || '') + ' ' + (s.ubicacion || '') + ' ' + (s.tipo_empresa || '') + ' ' + (s.whatsapp || '') + ' ' + (s.paypal_email || '') + ' ' + (s.slug || '')).toLowerCase().indexOf(q) >= 0;
+ });
+ if(!lista.length){ box.innerHTML = '<p class="mut">Ningún revendedor coincide con esa búsqueda.</p>'; return; }
+ box.innerHTML = lista.map(function(s){
  var prods = sellerProds(s.id);
  var est = s.estado || 'activo';
  var p = DATA.profiles[s.user_id] || {};
@@ -338,15 +360,198 @@ function renderInv(q){
 }
 
 document.getElementById('inv-q').addEventListener('input', function(e){ renderInv(e.target.value); });
+document.getElementById('sel-q').addEventListener('input', function(){ renderSellers(); });
+document.getElementById('zap-q').addEventListener('input', function(){ renderZapatos(); });
+document.getElementById('hist-q').addEventListener('input', function(){ renderHistorial(); });
 Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
  b.onclick = function(){
  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.classList.remove('on'); });
  b.classList.add('on');
- ['resumen','ventas','revendedores','inventario'].forEach(function(t){
+ ['resumen','ventas','revendedores','zapatos','historial','inventario'].forEach(function(t){
  document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
  });
  };
 });
+
+/* ===== Zapatos: catálogo de la tienda con ajustes del administrador ===== */
+function zapEfectivo(z){
+ var a = DATA.ajustes[z.codigo] || {};
+ return {
+ codigo: z.codigo,
+ nombre: a.nombre || z.nombre,
+ marca: a.marca || z.marca,
+ genero: z.genero,
+ precio: a.precio != null ? Number(a.precio) : Number(z.precio),
+ foto: (z.fotos && z.fotos[0]) || '',
+ eliminado: !!a.eliminado,
+ modificado: !!(!a.eliminado && (a.nombre || a.marca || a.precio != null))
+ };
+}
+function cargarZapatos(){
+ Promise.all([
+ fetch('outlet-products.js?cb=' + Date.now()).then(function(r){ return r.text(); }),
+ api('zapatos_ajustes?select=*', TOK).catch(function(){ return null; })
+ ]).then(function(res){
+ var m = res[0].match(/var ZAPATOS = (\[[\s\S]*?\]);/);
+ DATA.zapatos = m ? JSON.parse(m[1]) : [];
+ DATA.ajustes = {};
+ if(res[1]) res[1].forEach(function(a){ DATA.ajustes[a.codigo] = a; });
+ renderZapatos();
+ }).catch(function(){ var b = document.getElementById('zap-list'); if(b) b.innerHTML = '<p class="mut">No se pudo cargar el catálogo de zapatos.</p>'; });
+}
+function guardarAjuste(body){
+ return fetch(SUPABASE_URL + '/rest/v1/zapatos_ajustes', {
+ method: 'POST',
+ headers: Object.assign(H(TOK), { 'Prefer': 'resolution=merge-duplicates,return=representation' }),
+ body: JSON.stringify(body)
+ }).then(function(r){ if(!r.ok) throw new Error('ajuste ' + r.status); return r.json(); });
+}
+function renderZapatos(){
+ var box = document.getElementById('zap-list');
+ if(!box) return;
+ var q = ((document.getElementById('zap-q') || {}).value || '').toLowerCase();
+ var list = DATA.zapatos.map(zapEfectivo).filter(function(z){
+ if(!q) return true;
+ return (z.codigo + ' ' + z.marca + ' ' + z.nombre + ' ' + (z.genero || '')).toLowerCase().indexOf(q) >= 0;
+ });
+ if(!DATA.zapatos.length){ box.innerHTML = '<p class="mut">Cargando zapatos…</p>'; return; }
+ if(!list.length){ box.innerHTML = '<p class="mut">Ningún zapato coincide con esa búsqueda.</p>'; return; }
+ box.innerHTML = list.map(function(z){
+ var badges = (z.eliminado ? '<span class="badge b-bloqueado">eliminado</span> ' : '') + (z.modificado ? '<span class="badge b-pausado">modificado</span>' : '');
+ var menu = '<span class="ddwrap"><button class="btn btn-dark" data-zmenu="' + z.codigo + '">Acciones ▾</button>'
+ + '<span class="ddmenu hidden" id="zmenu-' + z.codigo + '">'
+ + '<button data-zact="modificar" data-cod="' + z.codigo + '">Modificar</button>'
+ + (z.eliminado ? '' : '<button data-zact="eliminar" data-cod="' + z.codigo + '" class="danger">Eliminar</button>')
+ + ((z.eliminado || z.modificado) ? '<button data-zact="restablecer" data-cod="' + z.codigo + '">Restablecer original</button>' : '')
+ + '</span></span>';
+ var editor = '<div class="datos" id="zapedit-' + z.codigo + '">'
+ + '<div style="margin:4px 0"><b>Nombre</b><br><input id="ze-nombre-' + z.codigo + '" type="text" value="' + esc(z.nombre) + '" style="width:100%;padding:9px 12px;border:1.5px solid var(--line);border-radius:10px;font-family:inherit;font-size:.95rem"></div>'
+ + '<div style="margin:4px 0"><b>Marca</b><br><input id="ze-marca-' + z.codigo + '" type="text" value="' + esc(z.marca) + '" style="width:100%;padding:9px 12px;border:1.5px solid var(--line);border-radius:10px;font-family:inherit;font-size:.95rem"></div>'
+ + '<div style="margin:4px 0"><b>Precio del producto (USD)</b><br><input id="ze-precio-' + z.codigo + '" type="number" min="0" step="0.01" value="' + z.precio + '" style="width:100%;padding:9px 12px;border:1.5px solid var(--line);border-radius:10px;font-family:inherit;font-size:.95rem"></div>'
+ + '<button class="btn btn-dark" data-zsave="' + z.codigo + '">Guardar cambios</button> <button class="btn btn-light" data-zcancel="' + z.codigo + '">Cancelar</button>'
+ + '</div>';
+ return '<div><div class="rowitem">' + (z.foto ? '<img src="' + esc(z.foto) + '" alt="">' : '<img alt="">')
+ + '<div class="grow"><b>' + esc(z.nombre) + '</b><span class="mut">' + esc(z.codigo) + ' · ' + esc(z.marca) + (z.genero ? ' · ' + esc(z.genero) : '') + ' · ' + money(z.precio) + '</span></div>'
+ + '<span>' + badges + '</span>' + menu + '</div>' + editor + '</div>';
+ }).join('');
+ box.querySelectorAll('[data-zmenu]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var m = document.getElementById('zmenu-' + b.getAttribute('data-zmenu'));
+ var was = m.classList.contains('hidden');
+ document.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ if(was) m.classList.remove('hidden');
+ };
+ });
+ box.querySelectorAll('[data-zact]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var cod = b.getAttribute('data-cod'), act = b.getAttribute('data-zact');
+ document.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ var z = zapEfectivo(DATA.zapatos.filter(function(x){ return x.codigo === cod; })[0] || {});
+ if(act === 'modificar'){
+ var ed = document.getElementById('zapedit-' + cod);
+ if(ed) ed.classList.toggle('open');
+ return;
+ }
+ if(act === 'eliminar'){
+ if(!confirm('¿Eliminar ' + cod + ' (' + z.nombre + ') de la tienda?\n\nDesaparece del catálogo para los clientes. Puedes restablecerlo cuando quieras desde este mismo menú.')) return;
+ guardarAjuste({ codigo: cod, eliminado: true }).then(function(){
+ if(!DATA.ajustes[cod]) DATA.ajustes[cod] = { codigo: cod };
+ DATA.ajustes[cod].eliminado = true;
+ renderZapatos();
+ }).catch(function(){ alert('No se pudo eliminar. Si es la primera vez, corre en Supabase el SQL supabase-zapatos-ajustes.sql y vuelve a intentarlo.'); });
+ return;
+ }
+ if(act === 'restablecer'){
+ if(!confirm('¿Restablecer ' + cod + ' a su nombre, marca y precio originales del catálogo?')) return;
+ fetch(SUPABASE_URL + '/rest/v1/zapatos_ajustes?codigo=eq.' + encodeURIComponent(cod), { method: 'DELETE', headers: H(TOK) })
+ .then(function(r){ if(!r.ok) throw 0; delete DATA.ajustes[cod]; renderZapatos(); })
+ .catch(function(){ alert('No se pudo restablecer. Intenta de nuevo.'); });
+ }
+ };
+ });
+ box.querySelectorAll('[data-zsave]').forEach(function(b){
+ b.onclick = function(){
+ var cod = b.getAttribute('data-zsave');
+ var nombre = document.getElementById('ze-nombre-' + cod).value.trim();
+ var marca = document.getElementById('ze-marca-' + cod).value.trim();
+ var precio = parseFloat(document.getElementById('ze-precio-' + cod).value);
+ if(!nombre || !marca || !(precio >= 0)){ alert('Completa nombre, marca y un precio válido.'); return; }
+ guardarAjuste({ codigo: cod, nombre: nombre, marca: marca, precio: precio }).then(function(){
+ if(!DATA.ajustes[cod]) DATA.ajustes[cod] = { codigo: cod };
+ DATA.ajustes[cod].nombre = nombre; DATA.ajustes[cod].marca = marca; DATA.ajustes[cod].precio = precio;
+ renderZapatos();
+ alert('Guardado: ' + cod + ' ya se ve en la tienda con los datos nuevos.');
+ }).catch(function(){ alert('No se pudo guardar. Si es la primera vez, corre en Supabase el SQL supabase-zapatos-ajustes.sql y vuelve a intentarlo.'); });
+ };
+ });
+ box.querySelectorAll('[data-zcancel]').forEach(function(b){
+ b.onclick = function(){ var ed = document.getElementById('zapedit-' + b.getAttribute('data-zcancel')); if(ed) ed.classList.remove('open'); };
+ });
+}
+
+/* ===== Historial: productos que suben los revendedores ===== */
+function renderHistorial(){
+ var box = document.getElementById('hist-list');
+ if(!box) return;
+ var q = ((document.getElementById('hist-q') || {}).value || '').toLowerCase();
+ var list = DATA.products.filter(function(pr){
+ if(!q) return true;
+ var vend = (pr.sellers && pr.sellers.nombre) || '';
+ return ((pr.titulo || '') + ' ' + (pr.categoria || '') + ' ' + vend).toLowerCase().indexOf(q) >= 0;
+ });
+ if(!list.length){ box.innerHTML = '<p class="mut">' + (DATA.products.length ? 'Ningún producto coincide con esa búsqueda.' : 'Todavía no hay productos de revendedores.') + '</p>'; return; }
+ box.innerHTML = list.map(function(pr){
+ var vend = (pr.sellers && pr.sellers.nombre) || '—';
+ var badges = (pr.activo ? '' : '<span class="badge b-pausado">pausado</span> ') + (pr.bloqueado ? '<span class="badge b-bloqueado">bloqueado</span>' : '');
+ var menu = '<span class="ddwrap"><button class="btn btn-dark" data-hmenu="' + pr.id + '">Acciones ▾</button>'
+ + '<span class="ddmenu hidden" id="hmenu-' + pr.id + '">'
+ + (pr.activo
+ ? '<button data-hact="pausar" data-prod="' + pr.id + '">Pausar</button>'
+ : '<button data-hact="reactivar" data-prod="' + pr.id + '">Reactivar</button>')
+ + '<button data-hact="eliminar" data-prod="' + pr.id + '" class="danger">Eliminar</button>'
+ + '</span></span>';
+ return '<div class="rowitem">' + (pr.imagen_url ? '<img src="' + esc(pr.imagen_url) + '" alt="">' : '<img alt="">')
+ + '<div class="grow"><b>' + esc(pr.titulo) + '</b><span class="mut">' + money(pr.precio) + ' · ' + esc(pr.categoria || 'General') + ' · ' + esc(vend) + ' · subido el ' + fecha(pr.created_at) + '</span></div>'
+ + '<span>' + badges + '</span>' + menu + '</div>';
+ }).join('');
+ box.querySelectorAll('[data-hmenu]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var m = document.getElementById('hmenu-' + b.getAttribute('data-hmenu'));
+ var was = m.classList.contains('hidden');
+ document.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ if(was) m.classList.remove('hidden');
+ };
+ });
+ box.querySelectorAll('[data-hact]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var id = b.getAttribute('data-prod'), act = b.getAttribute('data-hact');
+ var pr = DATA.products.filter(function(x){ return x.id === id; })[0];
+ document.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ if(act === 'pausar' || act === 'reactivar'){
+ var body = { activo: act === 'reactivar' };
+ patch('products', id, body, TOK).then(function(){
+ if(pr) pr.activo = body.activo;
+ renderHistorial(); renderInv(document.getElementById('inv-q').value || ''); renderResumen();
+ }).catch(function(){ alert('No se pudo aplicar el cambio. Intenta de nuevo.'); });
+ return;
+ }
+ if(act === 'eliminar'){
+ if(!confirm('¿Eliminar "' + (pr ? pr.titulo : 'este producto') + '"?\n\nSe borra del marketplace para siempre. Esto NO se puede deshacer.')) return;
+ fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, { method: 'DELETE', headers: H(TOK) })
+ .then(function(r){
+ if(!r.ok) throw 0;
+ DATA.products = DATA.products.filter(function(x){ return x.id !== id; });
+ renderHistorial(); renderInv(document.getElementById('inv-q').value || ''); renderResumen();
+ })
+ .catch(function(){ alert('No se pudo eliminar. Intenta de nuevo.'); });
+ }
+ };
+ });
+}
 
 /* Puerta de acceso: solo cuentas con es_admin */
 (function(){

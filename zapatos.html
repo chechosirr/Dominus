@@ -366,6 +366,23 @@ var WA_NUMBER = "15704698339";
  }
  buildMarcas();
 
+ /* Ajustes del panel de administrador (Supabase): zapatos eliminados y datos editados */
+ fetch(SUPABASE_URL + '/rest/v1/zapatos_ajustes?select=*', { headers: { 'apikey': SUPABASE_ANON } })
+ .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+ .then(function(rows){
+ if(!rows || !rows.length) return;
+ var map = {}; rows.forEach(function(a){ map[a.codigo] = a; });
+ for(var i = ZAPATOS.length - 1; i >= 0; i--){
+ var a = map[ZAPATOS[i].codigo]; if(!a) continue;
+ if(a.eliminado){ ZAPATOS.splice(i, 1); continue; }
+ if(a.nombre) ZAPATOS[i].nombre = a.nombre;
+ if(a.marca) ZAPATOS[i].marca = a.marca;
+ if(a.precio != null){ ZAPATOS[i].precio = Number(a.precio); ZAPATOS[i].precio_c = Math.round(Number(a.precio) * ZAP_TC); }
+ }
+ buildMarcas(); render();
+ })
+ .catch(function(){});
+
  function filtered(){
  var list = ZAPATOS.filter(function(p){
  if(!inCat(p)) return false;
