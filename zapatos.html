@@ -178,6 +178,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 
 <div id="catview">
   <h1 class="cat-title">Zapatos</h1>
+  <p style="text-align:center;font-size:1.05rem;color:#17171a;margin:0 0 6px">Zapatos <b>nuevos</b> provenientes de <b>Estados Unidos</b></p>
   <p class="cat-sub">¿Para quién buscas?</p>
   <div class="cat-grid">
     <button class="cat-card" data-cat="hombre"><span class="cat-name">Hombre</span></button>
@@ -199,6 +200,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="crumbs">Inicio › <b>Zapatos</b></div>
  <h1 id="shop-h1">Zapatos</h1>
  <div class="count" id="count"></div>
+ <p style="font-size:.9rem;color:#55555c;margin:0 0 10px">Zapatos nuevos provenientes de Estados Unidos</p>
 
  <div class="layout">
  <aside class="filters" id="filters">
@@ -347,6 +349,8 @@ var WA_NUMBER = "15704698339";
  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
  function money(n){ return '$' + Number(n).toFixed(2); }
  function byCode(code){ for(var i=0;i<ZAPATOS.length;i++) if(ZAPATOS[i].codigo===code) return ZAPATOS[i]; return null; }
+function priceFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Number(p.pt[t]) : p.precio; }
+function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.round(Number(p.pt[t]) * ZAP_TC) : p.precio_c; }
  function toast(msg){
  var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
  setTimeout(function(){ t.classList.remove('show'); }, 2600);
@@ -455,7 +459,7 @@ var WA_NUMBER = "15704698339";
  var tz = document.getElementById('d-tallas');
  tz.innerHTML = current.tallas.map(function(t){ return '<button class="tsz'+(t===curSize?' on':'')+'" data-t="'+esc(t)+'">'+esc(t)+'</button>'; }).join('');
  Array.prototype.forEach.call(tz.querySelectorAll('.tsz'), function(b){
- b.addEventListener('click', function(){ curSize = b.getAttribute('data-t'); renderSizes(); });
+ b.addEventListener('click', function(){ curSize = b.getAttribute('data-t'); renderSizes(); document.getElementById('d-price').textContent = money(priceFor(current, curSize)); document.getElementById('d-price-c').textContent = 'C$' + priceCFor(current, curSize).toLocaleString('es-NI') + ' · precio del producto'; });
  });
  }
  function needSize(){
@@ -501,7 +505,7 @@ var WA_NUMBER = "15704698339";
  }
  function cartTotals(){
  var subtotal = 0, pares = 0;
- cart.forEach(function(it){ var p = byCode(it.codigo); if(p){ subtotal += p.precio * it.qty; pares += it.qty; } });
+ cart.forEach(function(it){ var p = byCode(it.codigo); if(p){ subtotal += priceFor(p, it.talla) * it.qty; pares += it.qty; } });
  var envio = pares * ZAP_ENVIO_NI;
  var base = subtotal + envio;
  var total = pares ? Math.round(((base + 0.30) / (1 - 0.054)) * 100) / 100 : 0;
@@ -529,10 +533,10 @@ var WA_NUMBER = "15704698339";
  var html = cart.map(function(it, ix){
  var p = byCode(it.codigo); if(!p) return '';
  return '<div class="citem"><img src="'+esc(p.fotos[0])+'" alt="">'
- + '<div class="info"><b>'+esc(p.nombre)+'</b><small>Talla US '+esc(it.talla)+' · '+money(p.precio)+' c/u</small><br>'
+ + '<div class="info"><b>'+esc(p.nombre)+'</b><small>Talla US '+esc(it.talla)+' · '+money(priceFor(p, it.talla))+' c/u</small><br>'
  + '<button class="rm" data-rm="'+ix+'">quitar</button></div>'
  + '<div class="cqty"><button data-dec="'+ix+'">−</button><b>'+it.qty+'</b><button data-inc="'+ix+'">+</button></div>'
- + '<span class="pa">'+money(p.precio * it.qty)+'</span></div>';
+ + '<span class="pa">'+money(priceFor(p, it.talla) * it.qty)+'</span></div>';
  }).join('')
  + '<div class="shipform"><h3 style="margin-top:18px;font-size:1.05rem">Datos de entrega</h3>'
  + '<label>Nombre de quien recibe</label><input id="sf-nom" value="'+esc(sd.nombre||'')+'" placeholder="Ej: María López">'
@@ -591,7 +595,7 @@ var WA_NUMBER = "15704698339";
  var items = cart.map(function(it){
  var p = byCode(it.codigo);
  return { name: (it.codigo + ' · ' + p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
- unit_amount: { currency_code: 'USD', value: p.precio.toFixed(2) } };
+ unit_amount: { currency_code: 'USD', value: priceFor(p, it.talla).toFixed(2) } };
  });
  var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
  var pu = {
