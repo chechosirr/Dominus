@@ -41,6 +41,10 @@ main{max-width:1000px;margin:0 auto;padding:26px 18px 70px}
 .sec-head{display:flex;align-items:center;justify-content:space-between;margin:6px 0 16px}
 .sec-head h2{font-size:22px;font-weight:800}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:14px}
+.catbar{display:flex;gap:8px;overflow-x:auto;padding:6px 2px 14px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.catbar::-webkit-scrollbar{display:none}
+.catchip{flex:0 0 auto;background:var(--card);border:1px solid var(--line);color:#ffffff;border-radius:999px;padding:9px 18px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap}
+.catchip.on{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%);color:#0a0c10;border-color:transparent}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .18s}
 .card:hover{transform:translateY(-4px)}
 .card img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#161b24}
@@ -380,17 +384,30 @@ function prodCardHTML(p, own){
 function renderWallProducts(prods, own){
   var grid = document.getElementById('grid');
   if(!grid) return;
-  var html = '';
-  var cats = {};
-  prods.forEach(function(p){ var c = p.categoria || 'General'; if(!cats[c]) cats[c] = []; cats[c].push(p); });
-  if(Object.keys(cats).length){
-    html += '<button id="ver-mas-btn" style="width:100vw;margin-left:calc(-50vw + 50%);background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border:0;border-radius:0;padding:16px;font-size:16px;font-weight:800;cursor:pointer;font-family:inherit;margin-top:16px;margin-bottom:16px">Ver catálogo de productos</button>';
-  } else if(!own){
-    html += '<div class="empty">Este vendedor aún no publica productos.</div>';
+  if(!prods.length){
+    if(!own) grid.innerHTML = '<div class="empty">Este vendedor aún no publica productos.</div>';
+    return;
   }
-  grid.innerHTML = html;
-  var vmb = document.getElementById('ver-mas-btn');
-  if(vmb) vmb.onclick = function(){ showView('catalogo'); loadCatalog(); };
+  var cats = [];
+  prods.forEach(function(p){ var c = p.categoria || 'General'; if(cats.indexOf(c) < 0) cats.push(c); });
+  grid.className = '';
+  grid.innerHTML = '<div class="catbar" id="catbar">'
+    + '<button class="catchip on" data-cat="">Todos</button>'
+    + cats.map(function(c){ return '<button class="catchip" data-cat="' + esc(c) + '">' + esc(c) + '</button>'; }).join('')
+    + '</div><div class="grid" id="wall-grid"></div>';
+  var wg = document.getElementById('wall-grid');
+  var draw = function(cat){
+    var list = cat ? prods.filter(function(p){ return (p.categoria || 'General') === cat; }) : prods;
+    wg.innerHTML = list.map(function(p){ return prodCardHTML(p, own); }).join('');
+  };
+  draw('');
+  grid.querySelectorAll('.catchip').forEach(function(ch){
+    ch.onclick = function(){
+      grid.querySelectorAll('.catchip').forEach(function(x){ x.classList.remove('on'); });
+      ch.classList.add('on');
+      draw(ch.dataset.cat || '');
+    };
+  });
 }
 
 
