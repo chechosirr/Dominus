@@ -416,8 +416,13 @@ function renderWallProducts(prods, own){
     var open = sRow.style.display !== 'none';
     sRow.style.display = open ? 'none' : '';
     sBtn.classList.toggle('on', !open);
-    if(open){ query = ''; sInp.value = ''; draw(); }
-    else { sInp.focus(); }
+    if(open){
+      query = ''; sInp.value = ''; draw();
+      grid.querySelectorAll('.catchip[data-cat]').forEach(function(x){ x.classList.toggle('on', (x.dataset.cat || '') === curCat); });
+    } else {
+      grid.querySelectorAll('.catchip[data-cat]').forEach(function(x){ x.classList.remove('on'); });
+      sInp.focus();
+    }
   };
   sInp.oninput = function(){ query = sInp.value.trim(); draw(); };
   grid.querySelectorAll('.catchip[data-cat]').forEach(function(ch){
@@ -426,6 +431,7 @@ function renderWallProducts(prods, own){
       ch.classList.add('on');
       curCat = ch.dataset.cat || '';
       query = ''; sInp.value = '';
+      sBtn.classList.remove('on'); sRow.style.display = 'none';
       draw();
     };
   });
