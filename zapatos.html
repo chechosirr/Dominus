@@ -35,7 +35,7 @@ header.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:
 .promo{background:#17171a;color:#f2f2f3;text-align:center;font-size:.85rem;padding:8px 12px;margin-top:12px}
 /* ===== Barra de búsqueda / filtros (tipo Kohl's) ===== */
 .toolbar{border-bottom:1px solid var(--bord);background:#fff;position:sticky;top:57px;z-index:30}
-.toolbar-in{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;gap:10px;align-items:center}
+.toolbar-in{max-width:none;margin:0;padding:10px;display:flex;gap:10px;align-items:center}
 .search{flex:1;display:flex;align-items:center;gap:8px;border:1.5px solid var(--dark);border-radius:999px;padding:9px 16px}
 .search input{border:0;outline:0;font-size:1rem;width:100%;font-family:inherit}
 .tbtn{border:1.5px solid var(--dark);background:#fff;border-radius:999px;padding:9px 16px;font-weight:700;cursor:pointer;font-family:inherit;font-size:.95rem;white-space:nowrap}
@@ -171,7 +171,6 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="toolbar-in">
  <label class="search"> <input id="q" type="search" placeholder="Buscar zapatos: marca, modelo, color…"></label>
  <button class="tbtn filter-btn" id="fbtn">Filtros</button>
- <button class="tbtn dark" id="cartbtn"> Carrito <span id="cart-count2"></span></button>
  </div>
 </div>
 
@@ -564,7 +563,6 @@ var WA_NUMBER = "15704698339";
  }
  function openCart(){ renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; }
  function closeCart(){ cartwrap.classList.remove('open'); document.body.style.overflow = ''; }
- document.getElementById('cartbtn').addEventListener('click', openCart);
  document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
  document.getElementById('cartscrim').addEventListener('click', closeCart);
  document.getElementById('c-back').addEventListener('click', closeCart);
