@@ -227,7 +227,8 @@ document.getElementById('btn-in').onclick = function(){
   }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
     .then(function(res){
       if(!res.ok){ showErr(res.j.msg || 'No se pudo entrar. Revisa tus datos.'); return; }
-      api('profiles?user_id=eq.' + res.j.user.id + '&select=tipo', res.j.access_token).then(function(rows){
+      api('profiles?user_id=eq.' + res.j.user.id + '&select=tipo,es_admin', res.j.access_token).then(function(rows){
+        if(rows && rows[0] && rows[0].es_admin){ saveSession(res.j); location.href = 'admin.html'; return; }
         var real = (rows && rows[0] && rows[0].tipo) || null;
         if(real && real !== tipo){
           var otro = real === 'vendedor' ? 'Vendedor' : 'Comprador';

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Administración — Dominus</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--dark:#2a2a2e;--line:#e3e6ea;--txt:#101216;--mut:#6a6a72;--soft:#f4f4f6;--ok:#1c7c43;--warn:#9a6a00;--bad:#b3261e}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--txt);background:#fff}
+h1,h2,h3,.logo{font-family:Archivo,Arial,sans-serif}
+header.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:14px;padding:12px 18px;background:var(--dark);border-bottom:1px solid #000}
+.logo{color:#fff;font-weight:800;font-size:1.3rem;letter-spacing:.06em;text-decoration:none}
+.logo span{color:#c7ccd4}
+header.top nav{margin-left:auto;display:flex;gap:14px;align-items:center}
+header.top nav a{color:#e8eaee;text-decoration:none;font-size:.92rem;font-weight:600}
+header.top nav a:hover{color:#fff}
+main{max-width:1060px;margin:0 auto;padding:22px 16px 60px}
+.sub{color:var(--mut);margin:4px 0 18px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
+.tabs button{border:1.5px solid var(--dark);background:#fff;color:var(--dark);border-radius:999px;padding:9px 18px;font-family:inherit;font-weight:700;cursor:pointer}
+.tabs button.on{background:var(--dark);color:#fff}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:8px}
+.card{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:16px}
+.card b{display:block;font-size:1.5rem;font-family:Archivo,Arial,sans-serif}
+.card small{color:var(--mut);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)}
+.badge{display:inline-block;border-radius:999px;padding:2px 10px;font-size:.75rem;font-weight:700}
+.b-activo{background:#e2f3e8;color:var(--ok)}
+.b-pausado{background:#fdf0d3;color:var(--warn)}
+.b-bloqueado{background:#fbe3e1;color:var(--bad)}
+.b-off{background:#ececf0;color:#55555c}
+.btn{border:0;border-radius:999px;padding:6px 13px;font-family:inherit;font-size:.82rem;font-weight:700;cursor:pointer;margin:2px 2px 2px 0}
+.btn-dark{background:var(--dark);color:#fff}
+.btn-warn{background:#f2c94c;color:#231d00}
+.btn-bad{background:var(--bad);color:#fff}
+.btn-ok{background:var(--ok);color:#fff}
+.btn-light{background:#ececf0;color:var(--txt)}
+.rowitem{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:9px}
+.rowitem img{width:52px;height:52px;object-fit:cover;border-radius:10px;background:var(--soft)}
+.rowitem .grow{flex:1;min-width:0}
+.rowitem .grow b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mut{color:var(--mut);font-size:.85rem}
+.search{width:100%;padding:11px 16px;border:1.5px solid var(--dark);border-radius:999px;font-family:inherit;font-size:1rem;margin:0 0 14px}
+.gate{max-width:440px;margin:70px auto;text-align:center;padding:0 16px}
+.gate a{color:var(--dark);font-weight:700}
+.hidden{display:none}
+@media(max-width:640px){ table,thead,tbody,tr,th,td{display:block} thead{display:none} td{border:0;padding:3px 8px} tr{border-bottom:1px solid var(--line);padding:8px 0} }
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="index.html">DOMIN<span>US</span></a>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="zapatos.html">Zapatos</a>
+    <a href="revendedores.html">Comercios</a>
+    <a href="#" id="logout">Cerrar sesión</a>
+  </nav>
+</header>
+
+<div class="gate" id="gate">
+  <h1>Administración</h1>
+  <p class="sub" id="gate-msg">Comprobando tu acceso…</p>
+  <p><a href="cuenta.html">Ir a Mi cuenta</a></p>
+</div>
+
+<main class="hidden" id="panel">
+  <h1 style="margin:0">Panel de administrador</h1>
+  <p class="sub" id="who">—</p>
+  <div class="tabs">
+    <button data-tab="resumen" class="on">Resumen</button>
+    <button data-tab="ventas">Ventas</button>
+    <button data-tab="revendedores">Revendedores</button>
+    <button data-tab="inventario">Inventario</button>
+  </div>
+
+  <section id="tab-resumen">
+    <div class="cards">
+      <div class="card"><b id="r-total">$0.00</b><small>Total vendido (marketplace)</small></div>
+      <div class="card"><b id="r-ventas">0</b><small>Transacciones</small></div>
+      <div class="card"><b id="r-sellers">0</b><small>Revendedores asociados</small></div>
+      <div class="card"><b id="r-prods">0</b><small>Artículos en inventario</small></div>
+      <div class="card"><b id="r-zap">—</b><small>Zapatos en la tienda</small></div>
+    </div>
+    <p class="mut">Los vendedores pausados o bloqueados desaparecen del sitio público junto con sus artículos. Los artículos bloqueados no puede desbloquearlos ni el propio vendedor.</p>
+    <p id="mi-muro"></p>
+  </section>
+
+  <section id="tab-ventas" class="hidden">
+    <div id="ventas-list"><p class="mut">Cargando ventas…</p></div>
+  </section>
+
+  <section id="tab-revendedores" class="hidden">
+    <div id="sellers-list"><p class="mut">Cargando revendedores…</p></div>
+  </section>
+
+  <section id="tab-inventario" class="hidden">
+    <input class="search" id="inv-q" type="search" placeholder="Buscar artículo o comercio…">
+    <div id="inv-list"><p class="mut">Cargando inventario…</p></div>
+  </section>
+</main>
+
+<script>
+var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
+var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
+/* sesión persistente: renueva el token automáticamente (igual que el resto del sitio) */
+(function(){
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(!s || !s.access_token || !s.refresh_token) return;
+ var exp = 0;
+ if(s.expires_at) exp = s.expires_at * 1000;
+ else { try{ exp = JSON.parse(atob(s.access_token.split('.')[1])).exp * 1000; }catch(e){} }
+ if(!exp || Date.now() < exp - 120000) return;
+ fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
+ method: 'POST', headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
+ body: JSON.stringify({ refresh_token: s.refresh_token })
+ }).then(function(r){ return r.json(); }).then(function(ns){
+ if(ns && ns.access_token){ localStorage.setItem('dominus_session', JSON.stringify(ns)); location.reload(); }
+ else { localStorage.removeItem('dominus_session'); }
+ }).catch(function(){});
+ }catch(e){}
+})();
+
+function esc(t){ return String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function money(n){ return '$' + Number(n || 0).toFixed(2); }
+function fecha(iso){ try{ return new Date(iso).toLocaleString('es-NI', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' }); }catch(e){ return iso || ''; } }
+function session(){ try{ return JSON.parse(localStorage.getItem('dominus_session') || 'null'); }catch(e){ return null; } }
+function H(tok){ return { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + tok, 'Content-Type': 'application/json' }; }
+function api(path, tok){
+ return fetch(SUPABASE_URL + '/rest/v1/' + path, { headers: H(tok) }).then(function(r){
+ if(!r.ok) throw new Error('api ' + r.status); return r.json();
+ });
+}
+function patch(tabla, id, body, tok){
+ return fetch(SUPABASE_URL + '/rest/v1/' + tabla + '?id=eq.' + id, {
+ method: 'PATCH', headers: Object.assign(H(tok), { 'Prefer': 'return=representation' }), body: JSON.stringify(body)
+ }).then(function(r){ if(!r.ok) throw new Error('patch ' + r.status); return r.json(); });
+}
+
+var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
+var DATA = { orders: [], sellers: [], products: [], profiles: {} };
+
+document.getElementById('logout').onclick = function(e){
+ e.preventDefault();
+ try{ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(err){}
+ location.href = 'index.html';
+};
+
+function gateFail(msg){
+ document.getElementById('gate-msg').textContent = msg;
+}
+
+function estadoBadge(e){ return '<span class="badge b-' + esc(e || 'activo') + '">' + esc(e || 'activo') + '</span>'; }
+
+function cargar(){
+ return Promise.all([
+ api('orders?select=id,titulo,precio,qty,paypal_order_id,created_at,buyer_id,seller_id,sellers(nombre,slug)&order=created_at.desc&limit=500', TOK).catch(function(){ return []; }),
+ api('sellers?select=*&order=created_at.desc', TOK),
+ api('products?select=id,titulo,precio,categoria,imagen_url,activo,bloqueado,seller_id,created_at,sellers(nombre,slug)&order=created_at.desc&limit=1000', TOK),
+ api('profiles?select=user_id,nombre', TOK).catch(function(){ return []; })
+ ]).then(function(res){
+ DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
+ (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p.nombre; });
+ renderResumen(); renderVentas(); renderSellers(); renderInv(document.getElementById('inv-q').value || '');
+ });
+}
+
+function renderResumen(){
+ var total = DATA.orders.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
+ document.getElementById('r-total').textContent = money(total);
+ document.getElementById('r-ventas').textContent = DATA.orders.length;
+ document.getElementById('r-sellers').textContent = DATA.sellers.length;
+ document.getElementById('r-prods').textContent = DATA.products.length;
+ fetch('outlet-products.js?cb=' + Date.now()).then(function(r){ return r.text(); }).then(function(t){
+ var m = t.match(/var ZAPATOS = (\[[\s\S]*?\]);/);
+ if(m){ try{ document.getElementById('r-zap').textContent = JSON.parse(m[1]).length; }catch(e){} }
+ }).catch(function(){});
+ var mio = DATA.sellers.filter(function(s){ return s.user_id === UID; })[0];
+ if(mio){
+ document.getElementById('mi-muro').innerHTML = '<a href="vendedor/index.html?s=' + encodeURIComponent(mio.slug) + '&edit=1" style="color:var(--dark);font-weight:700">Ver mi muro de vendedor →</a>';
+ }
+}
+
+function renderVentas(){
+ var box = document.getElementById('ventas-list');
+ if(!DATA.orders.length){ box.innerHTML = '<p class="mut">Todavía no hay ventas registradas en el marketplace.</p>'; return; }
+ var rows = DATA.orders.map(function(o){
+ var vend = (o.sellers && o.sellers.nombre) || '—';
+ var comp = DATA.profiles[o.buyer_id] || ('Cliente ' + String(o.buyer_id || '').slice(0, 8));
+ return '<tr><td>' + fecha(o.created_at) + '</td><td><b>' + esc(o.titulo) + '</b><br><span class="mut">×' + (o.qty || 1) + '</span></td>'
+ + '<td>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</td><td>' + esc(vend) + '</td><td>' + esc(comp) + '</td>'
+ + '<td class="mut">' + esc(o.paypal_order_id || '—') + '</td></tr>';
+ }).join('');
+ box.innerHTML = '<table><thead><tr><th>Fecha</th><th>Artículo</th><th>Monto</th><th>Vendedor</th><th>Comprador</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
+}
+
+function sellerProds(sid){ return DATA.products.filter(function(p){ return p.seller_id === sid; }); }
+
+function renderSellers(){
+ var box = document.getElementById('sellers-list');
+ if(!DATA.sellers.length){ box.innerHTML = '<p class="mut">No hay revendedores registrados.</p>'; return; }
+ box.innerHTML = DATA.sellers.map(function(s){
+ var prods = sellerProds(s.id);
+ var est = s.estado || 'activo';
+ var botones = '';
+ if(est === 'activo') botones = '<button class="btn btn-warn" data-seller="' + s.id + '" data-estado="pausado">Pausar</button><button class="btn btn-bad" data-seller="' + s.id + '" data-estado="bloqueado">Bloquear</button>';
+ else if(est === 'pausado') botones = '<button class="btn btn-ok" data-seller="' + s.id + '" data-estado="activo">Reactivar</button><button class="btn btn-bad" data-seller="' + s.id + '" data-estado="bloqueado">Bloquear</button>';
+ else botones = '<button class="btn btn-ok" data-seller="' + s.id + '" data-estado="activo">Desbloquear</button>';
+ return '<div class="rowitem">' + (s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="">' : '<img alt="">')
+ + '<div class="grow"><b>' + esc(s.nombre) + '</b><span class="mut">' + esc(s.ubicacion || '') + (s.tipo_empresa ? ' · ' + esc(s.tipo_empresa) : '') + ' · ' + prods.length + ' artículos · WhatsApp ' + esc(s.whatsapp || '—') + '</span></div>'
+ + estadoBadge(est) + '<span>' + botones + '</span></div>';
+ }).join('');
+ Array.prototype.forEach.call(box.querySelectorAll('[data-seller]'), function(b){
+ b.onclick = function(){
+ var id = b.getAttribute('data-seller'), est = b.getAttribute('data-estado');
+ var s = DATA.sellers.filter(function(x){ return x.id === id; })[0];
+ if(est === 'bloqueado' && !confirm('¿Bloquear a ' + (s ? s.nombre : 'este vendedor') + '? Desaparece del sitio con todos sus artículos.')) return;
+ patch('sellers', id, { estado: est }, TOK).then(function(){ if(s) s.estado = est; renderSellers(); renderInv(document.getElementById('inv-q').value || ''); })
+ .catch(function(){ alert('No se pudo aplicar el cambio. Intenta de nuevo.'); });
+ };
+ });
+}
+
+function renderInv(q){
+ var box = document.getElementById('inv-list');
+ q = (q || '').toLowerCase();
+ var list = DATA.products.filter(function(p){
+ if(!q) return true;
+ var vend = (p.sellers && p.sellers.nombre) || '';
+ return (p.titulo + ' ' + vend + ' ' + (p.categoria || '')).toLowerCase().indexOf(q) >= 0;
+ });
+ if(!list.length){ box.innerHTML = '<p class="mut">Sin artículos para mostrar.</p>'; return; }
+ box.innerHTML = list.map(function(p){
+ var vend = (p.sellers && p.sellers.nombre) || '—';
+ var badges = (p.activo ? '' : '<span class="badge b-pausado">pausado</span> ') + (p.bloqueado ? '<span class="badge b-bloqueado">bloqueado</span>' : '');
+ var botones = '';
+ if(p.bloqueado) botones = '<button class="btn btn-ok" data-prod="' + p.id + '" data-acc="desbloquear">Desbloquear</button>';
+ else {
+ botones = (p.activo ? '<button class="btn btn-warn" data-prod="' + p.id + '" data-acc="pausar">Pausar</button>' : '<button class="btn btn-ok" data-prod="' + p.id + '" data-acc="reactivar">Reactivar</button>')
+ + '<button class="btn btn-bad" data-prod="' + p.id + '" data-acc="bloquear">Bloquear</button>';
+ }
+ return '<div class="rowitem">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="">' : '<img alt="">')
+ + '<div class="grow"><b>' + esc(p.titulo) + '</b><span class="mut">' + money(p.precio) + ' · ' + esc(p.categoria || 'General') + ' · ' + esc(vend) + '</span></div>'
+ + '<span>' + badges + '</span><span>' + botones + '</span></div>';
+ }).join('');
+ Array.prototype.forEach.call(box.querySelectorAll('[data-prod]'), function(b){
+ b.onclick = function(){
+ var id = b.getAttribute('data-prod'), acc = b.getAttribute('data-acc');
+ var p = DATA.products.filter(function(x){ return x.id === id; })[0];
+ var body = null;
+ if(acc === 'pausar') body = { activo: false };
+ if(acc === 'reactivar') body = { activo: true };
+ if(acc === 'bloquear'){ if(!confirm('¿Bloquear "' + (p ? p.titulo : 'este artículo') + '"? Solo tú podrás desbloquearlo.')) return; body = { bloqueado: true }; }
+ if(acc === 'desbloquear') body = { bloqueado: false };
+ if(!body) return;
+ patch('products', id, body, TOK).then(function(){
+ if(p){ if(body.activo !== undefined) p.activo = body.activo; if(body.bloqueado !== undefined) p.bloqueado = body.bloqueado; }
+ renderInv(document.getElementById('inv-q').value || ''); renderResumen();
+ }).catch(function(){ alert('No se pudo aplicar el cambio. Intenta de nuevo.'); });
+ };
+ });
+}
+
+document.getElementById('inv-q').addEventListener('input', function(e){ renderInv(e.target.value); });
+Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
+ b.onclick = function(){
+ Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.classList.remove('on'); });
+ b.classList.add('on');
+ ['resumen','ventas','revendedores','inventario'].forEach(function(t){
+ document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
+ });
+ };
+});
+
+/* Puerta de acceso: solo cuentas con es_admin */
+(function(){
+ if(!TOK || !UID){ gateFail('No hay una sesión activa. Entra primero a tu cuenta.'); return; }
+ api('profiles?user_id=eq.' + UID + '&select=tipo,es_admin,nombre', TOK).then(function(rows){
+ var p = rows && rows[0];
+ if(!p || !p.es_admin){ gateFail('Esta cuenta no es de administrador.'); return; }
+ document.getElementById('who').textContent = 'Sesión de ' + (p.nombre || (S.user && S.user.email) || 'administrador');
+ document.getElementById('gate').classList.add('hidden');
+ document.getElementById('panel').classList.remove('hidden');
+ cargar().catch(function(){ gateFail('No se pudieron cargar los datos. Revisa tu conexión.'); document.getElementById('gate').classList.remove('hidden'); document.getElementById('panel').classList.add('hidden'); });
+ }).catch(function(){ gateFail('No se pudo comprobar el acceso (¿ya corriste el SQL de administrador en Supabase?).'); });
+})();
+</script>
+</body>
+</html>
