@@ -13,7 +13,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--acc2:#7c5cff;--err:#ff5d5d}
 body{background:#ffffff;background-attachment:fixed;color:#111111;font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh}
-header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:#2a2a2e;border-bottom:1px solid var(--line)}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 18px;background:#2a2a2e;border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;flex:0 0 auto;color:#111111!important}
 .logo em{font-style:normal;color:var(--acc)}
 .top-actions{display:flex;gap:10px;align-items:center}
@@ -88,7 +88,7 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
           <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
 </nav>
   </div>
-    <button class="logout" id="btn-out">Salir</button>
+    <a id="btn-volver" href="../cuenta.html" style="background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%);color:#0a0c10;font-weight:800;font-size:14px;text-decoration:none;border-radius:999px;padding:9px 18px;font-family:inherit">← Volver</a>
   </div>
 </header>
 <main id="main"><p class="empty">Cargando tu panel…</p></main>
@@ -127,17 +127,19 @@ function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace
 function money(n){ return '$' + Number(n).toFixed(2); }
 
 function renderAjustes(){
+  var volver = document.getElementById('btn-volver');
+  if(volver) volver.href = 'index.html?s=' + encodeURIComponent(seller.slug);
   document.getElementById('main').innerHTML =
-    '<div class="sec"><h2>Ajustes de cuenta</h2>'
+    '<div class="sec"><h2 style="color:#ffffff;font-size:24px;margin:0 0 4px">Ajustes de cuenta</h2>'
+    + '<p style="font-size:13px;color:#9aa4b5;margin:0 0 8px">Actualiza tu correo electrónico y tu contraseña.</p>'
     + '<label>Correo electrónico</label><input id="ce-mail" type="email" autocomplete="email">'
     + '<p id="ce-msg" style="font-size:13px;margin-top:10px"></p>'
-    + '<button class="btn" id="ce-btn">Guardar correo</button>'
+    + '<button class="btn" id="ce-btn" style="width:100%">Guardar correo</button>'
     + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
     + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
     + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
     + '<p id="cp-msg" style="font-size:13px;margin-top:10px"></p>'
-    + '<button class="btn" id="cp-btn">Cambiar contraseña</button>'
-    + '<p style="margin-top:20px"><a href="index.html?s=' + encodeURIComponent(seller.slug) + '" style="color:var(--mut);font-size:14px">← Volver a mi muro</a></p></div>';
+    + '<button class="btn" id="cp-btn" style="width:100%">Cambiar contraseña</button></div>';
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
   wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
 }
@@ -208,7 +210,7 @@ function render(){
     if(f){ var r = new FileReader(); r.onload = function(e){ var im = document.getElementById('f-prev'); im.src = e.target.result; im.style.display = 'block'; }; r.readAsDataURL(f); }
   });
   document.getElementById('f-btn').onclick = publishProduct;
-  document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; };
+  var _bo = document.getElementById('btn-out'); if(_bo) _bo.onclick = function(){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; };
   document.getElementById('w-btn').onclick = saveWall;
   document.getElementById('btn-delacc').onclick = deleteMyAccountPanel;
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
