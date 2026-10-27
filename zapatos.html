@@ -79,16 +79,13 @@ section.block h2{font-size:1.25rem;margin-bottom:12px}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px;margin-top:auto}
 /* ===== Botones de volver (mejorados) ===== */
 .backbar{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--bord);padding:10px 0;display:flex;align-items:center;gap:10px}
-#catview{max-width:940px;margin:0 auto;padding:26px 16px 6px}
+#catview{max-width:560px;margin:0 auto;padding:30px 16px 6px}
 .cat-title{text-align:center;font-size:1.6rem;margin:0 0 4px}
-.cat-sub{text-align:center;color:#6a6a72;margin:0 0 20px}
-.cat-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
-@media(max-width:640px){.cat-grid{grid-template-columns:1fr}}
-.cat-card{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fff;border:1px solid #e7e7ea;border-radius:18px;padding:22px 20px;cursor:pointer;font-family:inherit;text-align:left;box-shadow:0 6px 24px rgba(20,20,25,.06);transition:transform .25s ease,box-shadow .25s ease}
-.cat-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(20,20,25,.12)}
-.cat-name{font-family:Archivo,Arial,sans-serif;font-weight:800;font-size:1.3rem;color:#17171a;display:block}
-.cat-count{color:#6a6a72;font-size:.9rem;display:block;margin-top:3px}
-.cat-arrow{font-size:1.3rem;color:#9a9aa2}
+.cat-sub{text-align:center;color:#6a6a72;margin:0 0 22px}
+.cat-grid{display:grid;grid-template-columns:1fr;gap:12px;max-width:420px;margin:0 auto}
+.cat-card{display:block;width:100%;text-align:center;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%);border:0;border-radius:999px;padding:16px 20px;cursor:pointer;font-family:inherit;box-shadow:0 4px 14px rgba(20,20,25,.12);transition:transform .2s ease,box-shadow .2s ease}
+.cat-card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(20,20,25,.16)}
+.cat-name{font-family:Archivo,Arial,sans-serif;font-weight:800;font-size:1.15rem;color:#0a0c10;letter-spacing:.02em}
 .shopbar{display:flex;align-items:center;gap:12px;padding:10px 16px 0}
 #shop-cat-label{font-weight:700;color:#55555c}
 .backbtn{display:inline-flex;align-items:center;gap:8px;background:var(--dark);color:#fff;border:0;border-radius:999px;padding:11px 20px;font-family:inherit;font-size:.98rem;font-weight:800;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
@@ -183,9 +180,9 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   <h1 class="cat-title">Zapatos</h1>
   <p class="cat-sub">¿Para quién buscas?</p>
   <div class="cat-grid">
-    <button class="cat-card" data-cat="hombre"><span><span class="cat-name">Hombre</span><span class="cat-count" id="cc-hombre"></span></span><span class="cat-arrow">→</span></button>
-    <button class="cat-card" data-cat="mujer"><span><span class="cat-name">Mujer</span><span class="cat-count" id="cc-mujer"></span></span><span class="cat-arrow">→</span></button>
-    <button class="cat-card" data-cat="ninos"><span><span class="cat-name">Niños</span><span class="cat-count" id="cc-ninos"></span></span><span class="cat-arrow">→</span></button>
+    <button class="cat-card" data-cat="hombre"><span class="cat-name">Hombre</span></button>
+    <button class="cat-card" data-cat="mujer"><span class="cat-name">Mujer</span></button>
+    <button class="cat-card" data-cat="ninos"><span class="cat-name">Niños</span></button>
   </div>
 </div>
 
@@ -628,11 +625,6 @@ var WA_NUMBER = "15704698339";
 
  /* ---------- Panel de clases ---------- */
  var CAT_LABEL = { hombre: 'Hombre', mujer: 'Mujer', ninos: 'Niños' };
- function catCount(cat){ var n = 0; ZAPATOS.forEach(function(p){ var c = catOf(p); if(cat === 'ninos' ? c === 'ninos' : (c === cat || c === 'unisex')) n++; }); return n; }
- document.getElementById('cc-hombre').textContent = catCount('hombre') + ' modelos';
- document.getElementById('cc-mujer').textContent = catCount('mujer') + ' modelos';
- var nNin = catCount('ninos');
- document.getElementById('cc-ninos').textContent = nNin ? nNin + ' modelos' : 'Muy pronto';
  function enterCat(cat){
  curCat = cat; view = 'catalog';
  state = { q:'', genero:'', marca:'', precio:'', sort:'' };
