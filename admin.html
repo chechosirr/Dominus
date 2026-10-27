@@ -92,7 +92,8 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
   <p class="sub" id="who">—</p>
   <div class="tabs">
     <button data-tab="resumen" class="on">Resumen</button>
-    <button data-tab="ventas">Ventas</button>
+    <button data-tab="vzap">Ventas zapatos</button>
+    <button data-tab="ventas">Ventas revendedores</button>
     <button data-tab="revendedores">Revendedores</button>
     <button data-tab="zapatos">Inventario zapatos</button>
     <button data-tab="hzapatos">Historial de zapatos</button>
@@ -110,6 +111,12 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
     </div>
     <p class="mut">Los vendedores pausados o bloqueados desaparecen del sitio público junto con sus artículos. Los artículos bloqueados no puede desbloquearlos ni el propio vendedor.</p>
     <p id="mi-muro"></p>
+  </section>
+
+  <section id="tab-vzap" class="hidden">
+    <input class="search" id="vzap-q" type="search" placeholder="Buscar venta de zapatos por cliente, artículo o transacción…">
+    <p class="mut" style="margin:0 0 12px">Ventas de tu tienda de zapatos cobradas por PayPal. Se registran solas cuando entra un pago con códigos DOM-###.</p>
+    <div id="vzap-list"><p class="mut">Cargando ventas…</p></div>
   </section>
 
   <section id="tab-ventas" class="hidden">
@@ -184,7 +191,7 @@ function patch(tabla, id, body, tok){
 }
 
 var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
-var DATA = { orders: [], sellers: [], products: [], profiles: {}, zapatos: [], ajustes: {}, histzap: [] };
+var DATA = { orders: [], sellers: [], products: [], profiles: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
 
 document.getElementById('menubtn').onclick = function(e){ e.stopPropagation(); document.getElementById('ddnav').classList.toggle('open'); };
 document.addEventListener('click', function(){ var n = document.getElementById('ddnav'); if(n) n.classList.remove('open'); });
@@ -218,7 +225,7 @@ function cargar(){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
  (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
  renderResumen(); renderVentas(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
- cargarZapatos(); cargarHistZapatos();
+ cargarZapatos(); cargarHistZapatos(); cargarVentasZap();
  });
 }
 
@@ -380,11 +387,12 @@ document.getElementById('sel-q').addEventListener('input', function(){ renderSel
 document.getElementById('zap-q').addEventListener('input', function(){ renderZapatos(); });
 document.getElementById('hist-q').addEventListener('input', function(){ renderHistorial(); });
 document.getElementById('hzap-q').addEventListener('input', function(){ renderHistZapatos(); });
+document.getElementById('vzap-q').addEventListener('input', function(){ renderVentasZap(); });
 Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
  b.onclick = function(){
  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.classList.remove('on'); });
  b.classList.add('on');
- ['resumen','ventas','revendedores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
+ ['resumen','vzap','ventas','revendedores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
  document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
  });
  };
@@ -599,6 +607,32 @@ function renderHistorial(){
  }
  };
  });
+}
+
+/* ===== Ventas de zapatos (PayPal, registradas por el vigilante de pagos) ===== */
+function cargarVentasZap(){
+ api('ventas_zapatos?select=*&order=fecha_pago.desc&limit=500', TOK).then(function(rows){
+ DATA.ventasZap = rows || [];
+ renderVentasZap();
+ }).catch(function(){ DATA.ventasZap = []; renderVentasZap(); });
+}
+function renderVentasZap(){
+ var box = document.getElementById('vzap-list');
+ if(!box) return;
+ var q = ((document.getElementById('vzap-q') || {}).value || '').toLowerCase();
+ var list = (DATA.ventasZap || []).filter(function(v){
+ if(!q) return true;
+ return ((v.cliente || '') + ' ' + (v.detalle || '') + ' ' + (v.paypal_id || '')).toLowerCase().indexOf(q) >= 0;
+ });
+ if(!DATA.ventasZap.length){ box.innerHTML = '<p class="mut">Todavía no hay ventas de zapatos registradas. Cuando entre un pago de PayPal de la tienda, aparece aquí solo.</p>'; return; }
+ if(!list.length){ box.innerHTML = '<p class="mut">Ninguna venta coincide con esa búsqueda.</p>'; return; }
+ var total = list.reduce(function(a, v){ return a + Number(v.monto || 0); }, 0);
+ var rows = list.map(function(v){
+ return '<tr><td>' + fecha(v.fecha_pago) + '</td><td><b>' + esc(v.cliente || '—') + '</b><br><span class="mut">' + esc(v.detalle || '') + '</span></td>'
+ + '<td>' + money(v.monto) + '</td><td class="mut">' + esc(v.paypal_id || '—') + '</td></tr>';
+ }).join('');
+ box.innerHTML = '<p style="margin:0 0 10px"><b>Total: ' + money(total) + '</b> <span class="mut">(' + list.length + ' ventas)</span></p>'
+ + '<table><thead><tr><th>Fecha</th><th>Cliente / artículos</th><th>Monto</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
 }
 
 /* Puerta de acceso: solo cuentas con es_admin */
