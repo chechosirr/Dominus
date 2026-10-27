@@ -106,6 +106,10 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
       <div id="form-up" class="hidden">
         <label>Tu nombre</label>
         <input id="up-name" type="text" placeholder="Ej: María Pérez" autocomplete="name">
+        <div id="up-empresa-wrap" class="hidden">
+          <label>Nombre de la empresa *</label>
+          <input id="up-empresa" type="text" placeholder="Ej: Tech Zone">
+        </div>
         <label>Correo electrónico</label>
         <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
         <label>Contraseña (mínimo 6 caracteres)</label>
@@ -184,6 +188,7 @@ function setTipo(t){
   document.getElementById('t-comprador').classList.toggle('on', t === 'comprador');
   document.getElementById('t-vendedor').classList.toggle('on', t === 'vendedor');
   document.getElementById('feat').innerHTML = FEATS[t];
+  document.getElementById('up-empresa-wrap').classList.toggle('hidden', t !== 'vendedor');
 }
 document.getElementById('t-comprador').onclick = function(){ setTipo('comprador'); };
 document.getElementById('t-vendedor').onclick = function(){ setTipo('vendedor'); };
@@ -198,6 +203,28 @@ function api(path, token){
   return fetch(SUPABASE_URL + '/rest/v1/' + path, { headers: headers(token) }).then(function(r){
     if(!r.ok) throw new Error('api'); return r.json();
   });
+}
+
+function slugifyNom(t){
+  return (t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'empresa';
+}
+function ensureSeller(s, empresa){
+  if(!empresa) return Promise.resolve();
+  return api('sellers?user_id=eq.' + s.user.id + '&select=id', s.access_token).then(function(rows){
+    if(rows && rows.length) return;
+    var base = slugifyNom(empresa);
+    var intento = function(slug){
+      return fetch(SUPABASE_URL + '/rest/v1/sellers', {
+        method: 'POST', headers: headers(s.access_token),
+        body: JSON.stringify({ user_id: s.user.id, slug: slug, nombre: empresa, verificado: false })
+      }).then(function(r){
+        if(r.ok) return;
+        if(r.status === 409) return intento(base + '-' + Math.floor(100 + Math.random() * 900));
+        return;
+      }).catch(function(){});
+    };
+    return intento(base);
+  }).catch(function(){});
 }
 function ensureProfile(s, name, extra){
   // busca perfil; si no existe lo crea con el tipo elegido
@@ -258,6 +285,8 @@ document.getElementById('btn-up').onclick = function(){
   if(!email || pass.length < 6){ showErr('Escribe un correo válido y una contraseña de mínimo 6 caracteres.'); return; }
   var pass2 = document.getElementById('up-pass2').value;
   if(pass !== pass2){ showErr('Las contraseñas no coinciden. Escríbela dos veces igual.'); return; }
+  var empresa = document.getElementById('up-empresa').value.trim();
+  if(tipo === 'vendedor' && !empresa){ showErr('Escribe el nombre de tu empresa (es obligatorio para vendedores).'); return; }
   var ciu = document.getElementById('up-ciudad').value.trim();
   var dep = document.getElementById('up-depto').value.trim();
   var pai = document.getElementById('up-pais').value.trim();
@@ -278,7 +307,14 @@ document.getElementById('btn-up').onclick = function(){
       var done = function(s){
         saveSession(s);
         var fotoFile = document.getElementById('up-foto-ref').files[0];
-        var proceed = function(){ ensureProfile(s, name, extra).then(function(){ goTo(tipo, s); }); };
+        var proceed = function(){
+          ensureProfile(s, name, extra).then(function(){
+            return ensureSeller(s, tipo === 'vendedor' ? empresa : null);
+          }).then(function(){
+            if(tipo === 'vendedor'){ location.href = 'vendedor/cuenta.html'; }
+            else { goTo(tipo, s); }
+          });
+        };
         if(fotoFile){
           var ext = (fotoFile.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');
           var path = 'referencias/' + s.user.id + '-' + Date.now() + '.' + ext;
