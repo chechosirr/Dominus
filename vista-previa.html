@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dominus — Inicio</title>
+<meta name="description" content="Dominus: Zapatos con entrega en Nicaragua y Comercios Nacionales. Elige tu sección.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dominus — Zapatos</title>
-<meta name="description" content="Zapatos con entrega en Nicaragua. Elige modelo y talla, paga con PayPal y te lo entregamos en la puerta de tu casa.">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#08090d;--card:#101318;--line:#1e242e;--mut:#5a6270;--acc:#4a4a52;--ink:#17171a;--dark:#2a2a2e;--soft:#f6f6f7;--bord:#e6e6e9;--err:#ff5d5d}
@@ -149,6 +147,18 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 /* ===== plateado metálico (igual que el sitio) ===== */
 .hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 .btn-silver,.addbtn{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
+
+.choice-wrap{max-width:900px;margin:0 auto;padding:26px 16px 10px;width:100%}
+.choice-wrap h1{text-align:center;font-size:1.7rem;margin:6px 0 4px}
+.choice-wrap .sub{text-align:center;color:#55555c;margin:0 0 22px}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:640px){.choices{grid-template-columns:1fr}}
+.choice{display:block;text-decoration:none;color:#17171a;background:#fff;border:1.5px solid #e3e3e6;border-radius:18px;overflow:hidden;box-shadow:0 4px 18px rgba(20,20,25,.07)}
+.choice .ph{height:190px;background:#ececef center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-size:4.2rem}
+.choice .tx{padding:16px 18px 18px}
+.choice h2{margin:0 0 4px;font-size:1.35rem}
+.choice p{margin:0 0 12px;color:#55555c;font-size:.95rem}
+.choice .go{display:inline-block;background:#2a2a2e;color:#fff;font-weight:800;padding:11px 20px;border-radius:999px;font-size:.95rem}
 </style>
 </head>
 <body>
@@ -158,6 +168,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     <button id="menu-btn" aria-label="Menú">☰</button>
     <nav class="menu" id="menu">
       <a href="index.html">Inicio</a>
+      <a href="zapatos.html">Zapatos</a>
       <a href="revendedores.html">Comercios Nacionales</a>
       <a href="cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
       <a href="#" id="menu-cart">Carrito <span id="cart-count" class="cbadge"></span></a>
@@ -165,145 +176,29 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     </nav>
   </div>
 </header>
-
-<div class="sections">
-  <a class="on" href="index.html">👟 Zapatos</a>
-  <a class="off" href="revendedores.html">🏪 Comercios Nacionales</a>
-</div>
-<div class="promo">Nuestra tienda · Envío marítimo a todo Nicaragua · Entrega en la puerta de tu casa</div>
-
-<div class="toolbar">
-  <div class="toolbar-in">
-    <label class="search">🔎 <input id="q" type="search" placeholder="Buscar zapatos: marca, modelo, color…"></label>
-    <button class="tbtn filter-btn" id="fbtn">Filtros</button>
-    <button class="tbtn dark" id="cartbtn">🛒 Carrito <span id="cart-count2"></span></button>
-  </div>
-</div>
-
-<div class="wrap">
-  <div class="crumbs">Inicio › <b>Zapatos</b></div>
-  <h1>Zapatos</h1>
-  <div class="count" id="count"></div>
-
-  <div class="layout">
-    <aside class="filters" id="filters">
-      <h3>Género</h3>
-      <div class="chips" id="f-genero">
-        <button class="chip on" data-g="">Todos</button>
-        <button class="chip" data-g="hombre">Hombre</button>
-        <button class="chip" data-g="mujer">Mujer</button>
-        <button class="chip" data-g="unisex">Unisex</button>
+<main class="choice-wrap">
+  <h1>Bienvenido a Dominus</h1>
+  <p class="sub">Elige una sección para empezar</p>
+  <div class="choices">
+    <a class="choice" href="zapatos.html">
+      <div class="ph" style="background-image:url('https://assets.adidas.com/images/w_800,h_800,f_auto,q_auto,fl_lossy/f81a93942800473fa6cbaf7b00b2d48b_9366/Campus_00s_Shoes_Blue_H03471_01_standard.jpg')"></div>
+      <div class="tx">
+        <h2>👟 Zapatos</h2>
+        <p>Nuestra tienda: modelos originales por encargo, paga con PayPal y te los entregamos en tu casa en Nicaragua.</p>
+        <span class="go">Ver zapatos →</span>
       </div>
-      <h3>Marca</h3>
-      <div class="chips" id="f-marca"></div>
-      <h3>Precio</h3>
-      <div class="radios" id="f-precio">
-        <label><input type="radio" name="pr" value="" checked> Todos los precios</label>
-        <label><input type="radio" name="pr" value="0-70"> Hasta $70</label>
-        <label><input type="radio" name="pr" value="70-100"> $70 a $100</label>
-        <label><input type="radio" name="pr" value="100-9999"> Más de $100</label>
+    </a>
+    <a class="choice" href="revendedores.html">
+      <div class="ph">🏪</div>
+      <div class="tx">
+        <h2>🏪 Comercios Nacionales</h2>
+        <p>Negocios de Nicaragua que venden en Dominus: explora sus productos y compra con pago protegido PayPal.</p>
+        <span class="go">Ver comercios →</span>
       </div>
-      <h3>Ordenar por</h3>
-      <select class="sort" id="sort">
-        <option value="">Destacados</option>
-        <option value="asc">Precio: de menor a mayor</option>
-        <option value="desc">Precio: de mayor a menor</option>
-        <option value="az">Nombre: A – Z</option>
-      </select>
-      <button class="clearf" id="clearf">Limpiar filtros</button>
-    </aside>
-
-    <main>
-      <div class="grid" id="grid"></div>
-    </main>
+    </a>
   </div>
-
-  <section class="block">
-    <h2>¿Cómo funciona?</h2>
-    <div class="steps">
-      <div class="step"><span class="n">1</span><p><b>Elige tu par y tu talla.</b> Toca un producto para ver su descripción y todas sus fotos, y agrégalo al carrito.</p></div>
-      <div class="step"><span class="n">2</span><p><b>Confirma tu talla.</b> Al agregarlo eliges la talla; revisa bien la guía porque es compra por encargo.</p></div>
-      <div class="step"><span class="n">3</span><p><b>Pagas con PayPal.</b> En el carrito ves el total completo: productos + envío a Nicaragua ($5 por libra) + comisión de PayPal. Sin sorpresas.</p></div>
-      <div class="step"><span class="n">4</span><p><b>Compramos tu par y te lo entregamos.</b> Lo adquirimos el mismo día y viaja por vía marítima a la puerta de tu casa. Tiempo estimado total: 20 a 30 días.</p></div>
-    </div>
-  </section>
-
-  <section class="block">
-    <h2>Políticas claras</h2>
-    <div class="pols">
-      <ul>
-        <li><b>Precio:</b> el precio de cada producto es el que ves en su tarjeta. El envío a Nicaragua se calcula en el carrito: $5 por libra (un par estándar pesa unas 3 libras = $15), vía marítima, con entrega a tu casa incluida.</li>
-        <li><b>Pago:</b> pagas aquí mismo con PayPal (saldo, tarjeta o cuenta bancaria). La comisión de PayPal ya va incluida en el total del carrito.</li>
-        <li><b>Tallas:</b> confirma bien tu talla antes de pagar; como es una compra por encargo, no hay cambios por talla.</li>
-        <li><b>Disponibilidad:</b> el stock cambia a diario. Si tu modelo o tu talla se agotó antes de comprarlo, te devolvemos el 100% o lo cambias por otro modelo.</li>
-        <li><b>Tiempos:</b> 20 a 30 días estimados en total (compra + envío marítimo + entrega local). Puede variar por disponibilidad y aduana.</li>
-        <li><b>¿Estás fuera de Nicaragua?</b> También puedes comprar para tu familia: pagas tú y entregamos a su puerta en Nicaragua.</li>
-      </ul>
-      <p class="note" id="verif"></p>
-    </div>
-  </section>
-</div>
-
-<footer>© 2026 Dominus · Zapatos con entrega en Nicaragua</footer>
-
-<!-- ===== Detalle del producto ===== -->
-<div class="detail" id="detail" role="dialog" aria-modal="true">
-  <div class="detail-in">
-    <div class="backbar">
-      <button class="backbtn" id="d-back">← Volver al catálogo</button>
-    </div>
-    <div class="d-grid">
-      <div>
-        <img class="d-main" id="d-main" alt="">
-        <div class="d-thumbs" id="d-thumbs"></div>
-      </div>
-      <div>
-        <div class="d-brand" id="d-brand"></div>
-        <h2 class="d-name" id="d-name"></h2>
-        <div class="d-price"><span id="d-price"></span><small id="d-price-c"></small></div>
-        <div class="shipbox">🚚 <b>Envío a Nicaragua: se suma en el carrito.</b><br>$5 por libra · vía marítima · incluye la entrega en la puerta de tu casa. Un par estándar pesa unas 3 libras (≈ $15).</div>
-        <div class="d-tallas-l">Talla US <span style="color:var(--mut);font-weight:600">(toca para elegir)</span></div>
-        <div class="d-tallas" id="d-tallas"></div>
-        <div class="qtyrow"><span style="font-weight:700">Cantidad</span>
-          <span class="qty"><button id="d-dec">−</button><b id="d-qty">1</b><button id="d-inc">+</button></span>
-        </div>
-        <button class="addbtn btn-silver" id="d-add">🛒 Agregar al carrito</button>
-        <button class="buynow" id="d-buy">Comprar ahora con PayPal</button>
-        <ul class="trust">
-          <li>Pago seguro con PayPal, aquí en la página</li>
-          <li>Reembolso del 100% si se agotó tu modelo o tu talla</li>
-          <li>Entrega estimada: 20 a 30 días</li>
-        </ul>
-      </div>
-    </div>
-    <div class="d-desc">
-      <h3>Detalles del producto</h3>
-      <p id="d-desc"></p>
-      <ul id="d-feats"></ul>
-    </div>
-    <div style="margin-top:26px">
-      <button class="backbtn light" id="d-back2">← Volver al catálogo</button>
-    </div>
-  </div>
-</div>
-
-<!-- ===== Carrito ===== -->
-<div class="cartwrap" id="cartwrap">
-  <div class="cartscrim" id="cartscrim"></div>
-  <div class="cartpanel">
-    <div class="backbar" style="margin:0 -18px;padding:10px 18px">
-      <button class="backbtn" id="c-back">← Seguir viendo</button>
-      <h2 style="margin-left:4px">Mi carrito</h2>
-    </div>
-    <div id="cart-body" style="margin-top:16px"></div>
-  </div>
-</div>
-
-<div class="toast" id="toast"></div>
-
-<script>
-document.write('<script src="outlet-products.js?v=' + new Date().toISOString().slice(0,10) + '"><\/script>');
-</script>
+</main>
+<footer>© 2026 Dominus · Nicaragua</footer>
 <script>
 var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
 var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbWt3a2p6Znlpam5mZm5peWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTIzNDUsImV4cCI6MjEwNzY2ODM0NX0.xa-0G0E1vbGZGUvfvWsAMS9vNdg17pR68ee-kU8aur4";
