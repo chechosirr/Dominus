@@ -159,7 +159,7 @@ function render(){
     + '<label>Nombre del negocio</label><input id="w-nombre" value="' + esc(seller.nombre) + '">'
     + '<label>Descripción</label><textarea id="w-desc">' + esc(seller.descripcion || '') + '</textarea>'
     + '<label>Descripción larga (acerca de tu empresa, se muestra arriba en tu muro)</label><textarea id="w-about" style="min-height:110px" placeholder="Cuenta la historia de tu empresa, qué te hace diferente…">' + esc(seller.descripcion_larga || '') + '</textarea>'
-    + '<div class="row2"><div><label>Ubicación</label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '"></div>'
+    + '<div class="row2"><div><label>Ubicación <small style="color:var(--mut)">(sale de tus datos de envío: ciudad y país; no se edita aquí)</small></label><input id="w-ubica" value="' + esc(seller.ubicacion || '') + '" readonly style="opacity:.65"></div>'
     + '<div><label>WhatsApp <small style="color:var(--mut)">(privado)</small></label><input id="w-wa" value="' + esc(seller.whatsapp || '') + '"></div></div>'
     + '<div class="err" id="w-err"></div>'
     + '<button class="btn" id="w-btn">Guardar cambios</button></div>'

@@ -224,6 +224,13 @@ function saveShipForm(){
     btn.textContent = r.ok ? '✓ Guardado' : 'Guardar datos';
     btn.disabled = false;
     if(!r.ok) alert('No se pudo guardar. Intenta de nuevo.');
+    if(r.ok){
+      // Si esta cuenta tiene comercio, la ubicación de su muro sigue a los datos de envío (ciudad, país)
+      fetch(SUPABASE_URL + '/rest/v1/sellers?user_id=eq.' + session.user.id, {
+        method: 'PATCH', headers: h(session.access_token),
+        body: JSON.stringify({ ubicacion: (body.ciudad && body.pais) ? (body.ciudad + ', ' + body.pais) : null })
+      }).catch(function(){});
+    }
   }).catch(function(){ btn.textContent = 'Guardar datos'; btn.disabled = false; });
 }
 function saveOrders(ppId){

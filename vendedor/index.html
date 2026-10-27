@@ -332,7 +332,7 @@ Promise.all([
     + (own ? '<button class="ed-cover ed-only" data-photo="cover_url">Cambiar portada</button>' : '') + '</div>'
     + '<div class="wrap"><div class="profile">'
     + '<div class="p-head"><h1>' + esc(s.nombre) + (s.verificado ? ' <span class="verif">\u2713</span>' : '') + '</h1>'
-    + '<div class="loc ' + (own ? 'editable' : '') + '" data-field="ubicacion">' + esc(s.ubicacion || (own ? 'Agregar ubicación' : '')) + '</div>'
+    + '<div class="loc" id="wall-loc">' + esc(s.ubicacion || '') + '</div>'
     + '<div class="wall-rating" id="wall-rating"></div></div>'
     + '</div>'
 
@@ -995,6 +995,12 @@ function loadEditPanel(tok){
                 if(!r2.ok) throw new Error('Error en datos de envío (' + r2.status + ')');
               });
             });
+          }).then(function(){
+            // La ubicación del muro sale de los datos de envío: solo ciudad y país
+            return fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, {
+              method: 'PATCH', headers: edH(tok),
+              body: JSON.stringify({ ubicacion: (ciuV && paiV) ? (ciuV + ', ' + paiV) : null })
+            }).catch(function(){});
           }).then(function(){
             btn.textContent = '\u2713 Guardado';
             setTimeout(function(){ reloadKeepEdit(); }, 800);

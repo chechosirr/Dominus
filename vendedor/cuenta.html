@@ -110,8 +110,6 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     <input id="p-nombre" placeholder="Ej: Tech Zone">
     <label>Descripción de tu empresa</label>
     <textarea id="p-desc" placeholder="Qué vendes, garantías, tiempos de envío…"></textarea>
-    <label>Ubicación</label>
-    <input id="p-ubica" placeholder="Ej: Los Ángeles, CA">
     <label>WhatsApp / número de contacto <small style="color:var(--mut)">(privado: solo lo ve el equipo de Dominus)</small></label>
     <input id="p-wa" placeholder="Ej: 15704698339">
     <label>Tu PayPal para recibir pagos * <small style="color:var(--mut)">(correo de tu cuenta PayPal)</small></label>
@@ -314,7 +312,6 @@ document.getElementById('btn-profile').onclick = function(){
   var body = {
     user_id: session.user.id, slug: slug, nombre: nombre, paypal_email: ppEmail,
     descripcion: document.getElementById('p-desc').value.trim() || null,
-    ubicacion: document.getElementById('p-ubica').value.trim() || null,
     whatsapp: document.getElementById('p-wa').value.trim() || null,
     verificado: false
   };

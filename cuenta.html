@@ -208,7 +208,7 @@ function api(path, token){
 function slugifyNom(t){
   return (t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'empresa';
 }
-function ensureSeller(s, empresa){
+function ensureSeller(s, empresa, ubic){
   if(!empresa) return Promise.resolve();
   return api('sellers?user_id=eq.' + s.user.id + '&select=id', s.access_token).then(function(rows){
     if(rows && rows.length) return;
@@ -216,7 +216,7 @@ function ensureSeller(s, empresa){
     var intento = function(slug){
       return fetch(SUPABASE_URL + '/rest/v1/sellers', {
         method: 'POST', headers: headers(s.access_token),
-        body: JSON.stringify({ user_id: s.user.id, slug: slug, nombre: empresa, verificado: false })
+        body: JSON.stringify({ user_id: s.user.id, slug: slug, nombre: empresa, verificado: false, ubicacion: ubic || null })
       }).then(function(r){
         if(r.ok) return;
         if(r.status === 409) return intento(base + '-' + Math.floor(100 + Math.random() * 900));
@@ -309,7 +309,7 @@ document.getElementById('btn-up').onclick = function(){
         var fotoFile = document.getElementById('up-foto-ref').files[0];
         var proceed = function(){
           ensureProfile(s, name, extra).then(function(){
-            return ensureSeller(s, tipo === 'vendedor' ? empresa : null);
+            return ensureSeller(s, tipo === 'vendedor' ? empresa : null, (extra.ciudad && extra.pais) ? (extra.ciudad + ', ' + extra.pais) : null);
           }).then(function(){
             if(tipo === 'vendedor'){ location.href = 'vendedor/cuenta.html'; }
             else { goTo(tipo, s); }
