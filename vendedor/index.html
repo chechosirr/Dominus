@@ -328,7 +328,7 @@ Promise.all([
     + '</div></div>' : '';
   var prodHTML = own ?
     '<div class="wrap"><div id="view-productos" style="display:none">'
-    + '<div class="edit-panel"><h3>Inventario</h3><p class="ep-sub">Tus productos, como se ven en tu muro</p>'
+    + '<div class="edit-panel"><h3>Inventario</h3><p class="ep-sub">Tus productos, como se ven en tu muro</p><p id="inv-counts" style="text-align:center;font-size:14px;color:#c9d1de;margin:0 0 14px"></p>'
     + '<button class="inline-save" id="prod-add" style="width:100%;margin-bottom:16px;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0">+ Agregar producto</button>'
     + '<div id="prod-list"><p style="color:var(--mut);font-size:14px">Cargando\u2026</p></div>'
     + '</div></div></div>' : '';
@@ -607,6 +607,17 @@ function loadCatalog(){
 function loadProdList(){
   var box = document.getElementById('prod-list');
   if(!box) return;
+  var cnt = document.getElementById('inv-counts');
+  if(cnt && SELLER){
+    fetch(SUPABASE_URL + '/rest/v1/products?seller_id=eq.' + SELLER.id + '&select=id,activo', { headers: edH(myTok()) })
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(rows){
+        if(!rows) return;
+        var act = rows.filter(function(x){ return x.activo; }).length;
+        cnt.textContent = 'Esta tienda tiene ' + rows.length + (rows.length === 1 ? ' producto' : ' productos') + ' · ' + act + (act === 1 ? ' activo' : ' activos');
+      })
+      .catch(function(){});
+  }
   var prods = window._prods || [];
   var addBtn = document.getElementById('prod-add');
   if(addBtn) addBtn.onclick = function(){ productModal(null, myTok()); };
