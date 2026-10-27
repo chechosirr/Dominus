@@ -59,7 +59,11 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#f2f4f8}
 .menu a:last-child{border-bottom:0}
 .menu a:hover{background:rgba(215,220,227,.08)}
-body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}</style>
+body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
+.passwrap{position:relative}
+.passwrap input{padding-right:74px}
+.eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#4a4a52;font-weight:700;cursor:pointer;font-family:inherit;font-size:13px;padding:6px 8px}
+</style>
 </head>
 <body>
 <header class="top">
@@ -289,6 +293,13 @@ function render(){
     + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
     + '<div class="sec"><h2>Mis <span class="hl">datos de envío</span></h2>'
     + '<div id="ship-form"><p class="empty">Cargando…</p></div></div>'
+    + '<div class="sec"><h2>Seguridad</h2>'
+    + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
+    + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
+    + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
+    + '<p id="cp-msg" style="font-size:13px;margin-top:10px"></p>'
+    + '<button class="btn" id="cp-btn">Cambiar contraseña</button>'
+    + '</div>'
     + '<div class="sec"><h2>Mi <span class="hl">historial</span></h2><div id="hist-list"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec"><h2>Mi <span class="hl">carrito</span> (' + cart.length + ')</h2><div id="cart-list">';
   if(!cart.length){
@@ -313,6 +324,7 @@ function render(){
     + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
+  wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
   document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); location.href = 'cuenta.html'; };
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
@@ -326,6 +338,58 @@ function render(){
     waBtn.href = waOrderURL();
   }
 }
+
+function wireChangePass(getEmail, setSession){
+  Array.prototype.forEach.call(document.querySelectorAll('.eye'), function(b){
+    if(b._w) return; b._w = 1;
+    b.onclick = function(){
+      var i = document.getElementById(b.getAttribute('data-for'));
+      if(!i) return;
+      var s = i.type === 'password';
+      i.type = s ? 'text' : 'password';
+      b.textContent = s ? 'Ocultar' : 'Ver';
+    };
+  });
+  var btn = document.getElementById('cp-btn');
+  if(!btn) return;
+  btn.onclick = function(){
+    var msg = document.getElementById('cp-msg');
+    function err(m){ msg.style.color = '#ff8a8a'; msg.textContent = m; }
+    var cur = document.getElementById('cp-cur').value;
+    var nw = document.getElementById('cp-new').value;
+    var nw2 = document.getElementById('cp-new2').value;
+    if(!cur){ err('Escribe tu contraseña actual.'); return; }
+    if(nw.length < 6){ err('La contraseña nueva debe tener mínimo 6 caracteres.'); return; }
+    if(nw !== nw2){ err('Las contraseñas nuevas no coinciden.'); return; }
+    btn.disabled = true; btn.textContent = 'Guardando…';
+    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: getEmail(), password: cur })
+    }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+      .then(function(res){
+        if(!res.ok){ btn.disabled = false; btn.textContent = 'Cambiar contraseña'; err('La contraseña actual no es correcta.'); return null; }
+        setSession(res.j);
+        return fetch(SUPABASE_URL + '/auth/v1/user', {
+          method: 'PUT',
+          headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + res.j.access_token, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password: nw })
+        }).then(function(r){ return { ok: r.ok }; });
+      })
+      .then(function(r2){
+        if(!r2) return;
+        btn.disabled = false; btn.textContent = 'Cambiar contraseña';
+        if(r2.ok){
+          msg.style.color = '#7bc47f'; msg.textContent = 'Contraseña actualizada.';
+          document.getElementById('cp-cur').value = '';
+          document.getElementById('cp-new').value = '';
+          document.getElementById('cp-new2').value = '';
+        } else { err('No se pudo actualizar. Intenta de nuevo.'); }
+      })
+      .catch(function(){ btn.disabled = false; btn.textContent = 'Cambiar contraseña'; err('Error de conexión. Intenta de nuevo.'); });
+  };
+}
+
 function starsHTML(r){ var s = ''; for(var i = 1; i <= 5; i++) s += i <= Math.round(r) ? '★' : '☆'; return '<span class="stars">' + s + '</span>'; }
 function loadMyReviews(){
   var el = document.getElementById('my-revs');

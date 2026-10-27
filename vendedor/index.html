@@ -302,6 +302,7 @@ Promise.all([
     + '<button class="dash-btn" data-goto="editar"><span>Editar muro</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="productos"><span>Productos</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="historial"><span>Historial de ventas</span><span>\u203A</span></button>'
+    + '<button class="dash-btn" id="dash-pass"><span>Cambiar contraseña</span><span>\u203A</span></button>'
     + '<button class="dash-btn" id="dash-delacc" style="color:#ff8a8a"><span>Eliminar mi cuenta</span><span>\u203A</span></button>'
     + '</div></div>' : '';
   var infoHTML = own ?
@@ -344,6 +345,7 @@ Promise.all([
   if(own){
     document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); if(b.dataset.goto === 'productos') loadProdList(); if(b.dataset.goto === 'catalogo') loadCatalog(); }; });
     var delAcc = document.getElementById('dash-delacc'); if(delAcc) delAcc.onclick = function(){ deleteMyAccount(); };
+    var passBtn = document.getElementById('dash-pass'); if(passBtn) passBtn.onclick = function(){ location.href = 'panel.html'; };
     var savedView = new URLSearchParams(location.search).get('view');
     showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' || savedView === 'productos' || savedView === 'catalogo' ? savedView : 'menu');
     if(savedView === 'productos') loadProdList();

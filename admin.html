@@ -67,6 +67,14 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
 .gate a{color:var(--dark);font-weight:700}
 .hidden{display:none}
 @media(max-width:640px){ table,thead,tbody,tr,th,td{display:block} thead{display:none} td{border:0;padding:3px 8px} tr{border-bottom:1px solid var(--line);padding:8px 0} }
+#pass-box{max-width:560px;margin:16px auto 0;padding:0 16px}
+#pass-box .card{border:1.5px solid var(--line,#d8dce3);border-radius:16px;padding:6px 18px 18px}
+#pass-box label{display:block;font-weight:700;margin:14px 0 6px;font-size:14px}
+#pass-box input{width:100%;padding:12px 14px;border:1.5px solid #c9ced6;border-radius:12px;font-size:15px;font-family:inherit}
+.passwrap{position:relative}
+.passwrap input{padding-right:74px}
+.eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#4a4a52;font-weight:700;cursor:pointer;font-family:inherit;font-size:13px;padding:6px 8px}
+#cp-btn{margin-top:16px;background:var(--dark);color:#fff;border:0;border-radius:12px;padding:12px 22px;font-weight:800;font-family:inherit;cursor:pointer}
 </style>
 </head>
 <body>
@@ -78,10 +86,23 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
       <a href="index.html">Inicio</a>
       <a href="zapatos.html">Zapatos</a>
       <a href="revendedores.html">Comercios</a>
+      <a href="#" id="menu-pass">Cambiar mi contraseña</a>
       <a href="#" id="logout" style="color:#ff7b7b">Cerrar sesión</a>
     </nav>
   </div>
 </header>
+<div id="pass-box" class="hidden">
+  <div class="card">
+    <label>Contraseña actual</label>
+    <div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>
+    <label>Contraseña nueva (mínimo 6 caracteres)</label>
+    <div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>
+    <label>Confirma la contraseña nueva</label>
+    <div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>
+    <p id="cp-msg" style="font-size:13px;margin-top:10px"></p>
+    <button id="cp-btn">Cambiar contraseña</button>
+  </div>
+</div>
 
 <div class="gate" id="gate">
   <h1>Administración</h1>
@@ -314,6 +335,7 @@ function renderSellers(){
  + (est === 'activo'
  ? '<button data-act="pausar" data-seller="' + s.id + '">Pausar cuenta</button>'
  : '<button data-act="reactivar" data-seller="' + s.id + '">Reactivar cuenta</button>')
+ + '<button data-act="clave" data-seller="' + s.id + '">Restablecer contraseña</button>'
  + '<button data-act="eliminar" data-seller="' + s.id + '" class="danger">Eliminar cuenta</button>'
  + '</span></span>';
  return '<div><div class="rowitem">' + (s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="">' : '<img alt="">')
@@ -344,6 +366,18 @@ function renderSellers(){
  var est = act === 'pausar' ? 'pausado' : 'activo';
  patch('sellers', id, { estado: est }, TOK).then(function(){ if(s) s.estado = est; renderSellers(); })
  .catch(function(){ alert('No se pudo aplicar el cambio. Intenta de nuevo.'); });
+ return;
+ }
+ if(act === 'clave'){
+ if(!s || !s.user_id){ alert('Este comercio no tiene cuenta de acceso vinculada.'); return; }
+ var n1 = prompt('Contraseña NUEVA para ' + s.nombre + ' (mínimo 6 caracteres):');
+ if(!n1) return;
+ if(n1.length < 6){ alert('Debe tener mínimo 6 caracteres. No se cambió nada.'); return; }
+ var n2 = prompt('Repite la contraseña nueva:');
+ if(n2 !== n1){ alert('No coinciden. No se cambió nada.'); return; }
+ rpc('admin_restablecer_clave', { p_user_id: s.user_id, p_nueva: n1 }).then(function(){
+ alert('Contraseña actualizada para ' + s.nombre + '. Entrégasela por un canal seguro (por ejemplo, su WhatsApp).');
+ }).catch(function(){ alert('No se pudo cambiar. ¿Ya corriste el SQL supabase-cambiar-clave.sql en Supabase? Sin ese SQL esta opción no funciona.'); });
  return;
  }
  if(act === 'eliminar'){
@@ -657,6 +691,67 @@ function renderVentasZap(){
  + '<table><thead><tr><th>Fecha</th><th>Cliente / artículos</th><th>Monto</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
  }).join('');
 }
+
+
+function wireChangePass(getEmail, setSession){
+  Array.prototype.forEach.call(document.querySelectorAll('.eye'), function(b){
+    if(b._w) return; b._w = 1;
+    b.onclick = function(){
+      var i = document.getElementById(b.getAttribute('data-for'));
+      if(!i) return;
+      var s = i.type === 'password';
+      i.type = s ? 'text' : 'password';
+      b.textContent = s ? 'Ocultar' : 'Ver';
+    };
+  });
+  var btn = document.getElementById('cp-btn');
+  if(!btn) return;
+  btn.onclick = function(){
+    var msg = document.getElementById('cp-msg');
+    function err(m){ msg.style.color = '#d33'; msg.textContent = m; }
+    var cur = document.getElementById('cp-cur').value;
+    var nw = document.getElementById('cp-new').value;
+    var nw2 = document.getElementById('cp-new2').value;
+    if(!cur){ err('Escribe tu contraseña actual.'); return; }
+    if(nw.length < 6){ err('La contraseña nueva debe tener mínimo 6 caracteres.'); return; }
+    if(nw !== nw2){ err('Las contraseñas nuevas no coinciden.'); return; }
+    btn.disabled = true; btn.textContent = 'Guardando…';
+    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: getEmail(), password: cur })
+    }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+      .then(function(res){
+        if(!res.ok){ btn.disabled = false; btn.textContent = 'Cambiar contraseña'; err('La contraseña actual no es correcta.'); return null; }
+        setSession(res.j);
+        return fetch(SUPABASE_URL + '/auth/v1/user', {
+          method: 'PUT',
+          headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + res.j.access_token, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password: nw })
+        }).then(function(r){ return { ok: r.ok }; });
+      })
+      .then(function(r2){
+        if(!r2) return;
+        btn.disabled = false; btn.textContent = 'Cambiar contraseña';
+        if(r2.ok){
+          msg.style.color = '#2e7d32'; msg.textContent = 'Contraseña actualizada.';
+          document.getElementById('cp-cur').value = '';
+          document.getElementById('cp-new').value = '';
+          document.getElementById('cp-new2').value = '';
+        } else { err('No se pudo actualizar. Intenta de nuevo.'); }
+      })
+      .catch(function(){ btn.disabled = false; btn.textContent = 'Cambiar contraseña'; err('Error de conexión. Intenta de nuevo.'); });
+  };
+}
+document.getElementById('menu-pass').onclick = function(e){
+  e.preventDefault(); e.stopPropagation();
+  document.getElementById('ddnav').classList.remove('open');
+  var box = document.getElementById('pass-box');
+  box.classList.toggle('hidden');
+  if(!box.classList.contains('hidden')) window.scrollTo({ top: 0, behavior: 'smooth' });
+  return false;
+};
+wireChangePass(function(){ return (S && S.user && S.user.email) || ''; }, function(j){ S = j; TOK = j.access_token; UID = j.user.id; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
 
 /* Puerta de acceso: solo cuentas con es_admin */
 (function(){
