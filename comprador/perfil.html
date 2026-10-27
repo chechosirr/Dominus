@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--err:#ff5d5d}
+:root{--bg:#eef0f3;--card:#ffffff;--line:#e2e5ea;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--err:#ff5d5d}
 body{background:#ffffff;background-attachment:fixed;color:#111111;font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh}
 header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:#2a2a2e;border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;flex:0 0 auto;color:#111111!important}
@@ -44,7 +44,7 @@ main{max-width:760px;margin:0 auto;padding:26px 18px 70px}
 .empty{color:var(--mut);font-size:14px;text-align:center;padding:24px}
 .sell-box{text-align:center;font-size:14px;color:var(--mut)}
 .sell-box a{color:var(--acc);font-weight:700;text-decoration:none}
-.err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
+.err{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#b3261e;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
 footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:22px}
 
 /* ===== plateado metálico ===== */
@@ -54,11 +54,11 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 
 .menu-wrap{position:relative;margin-left:auto}
 #menu-btn{background:none;border:1px solid var(--line);color:#f2f4f8;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
-.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:50}
+.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.16);z-index:50}
 .menu.open{display:block}
-.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#f2f4f8}
+.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#111111}
 .menu a:last-child{border-bottom:0}
-.menu a:hover{background:rgba(215,220,227,.08)}
+.menu a:hover{background:rgba(0,0,0,.05)}
 body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 .passwrap{position:relative}
 .passwrap input{padding-right:74px}
@@ -355,16 +355,16 @@ function wireEmail(getTok, getEmail){
   if(inp && getEmail()) inp.value = getEmail();
   btn.onclick = function(){
     var em = inp.value.trim();
-    if(!em || em.indexOf('@') < 0){ msg.style.color = '#ff8a8a'; msg.textContent = 'Escribe un correo válido.'; return; }
+    if(!em || em.indexOf('@') < 0){ msg.style.color = '#b3261e'; msg.textContent = 'Escribe un correo válido.'; return; }
     btn.disabled = true; btn.textContent = 'Guardando…';
     fetch(SUPABASE_URL + '/auth/v1/user', { method: 'PUT', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + getTok(), 'Content-Type': 'application/json' }, body: JSON.stringify({ email: em }) })
       .then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
       .then(function(res){
         btn.disabled = false; btn.textContent = 'Guardar correo';
-        if(res.ok){ msg.style.color = '#7bc47f'; msg.textContent = 'Te envié un correo de confirmación a ' + em + '. Ábrelo y toca el enlace para que el cambio se aplique.'; }
-        else { msg.style.color = '#ff8a8a'; msg.textContent = 'No se pudo cambiar el correo. Intenta de nuevo.'; }
+        if(res.ok){ msg.style.color = '#1c7c43'; msg.textContent = 'Te envié un correo de confirmación a ' + em + '. Ábrelo y toca el enlace para que el cambio se aplique.'; }
+        else { msg.style.color = '#b3261e'; msg.textContent = 'No se pudo cambiar el correo. Intenta de nuevo.'; }
       })
-      .catch(function(){ btn.disabled = false; btn.textContent = 'Guardar correo'; msg.style.color = '#ff8a8a'; msg.textContent = 'Error de conexión. Intenta de nuevo.'; });
+      .catch(function(){ btn.disabled = false; btn.textContent = 'Guardar correo'; msg.style.color = '#b3261e'; msg.textContent = 'Error de conexión. Intenta de nuevo.'; });
   };
 }
 function wireChangePass(getEmail, setSession){
@@ -382,7 +382,7 @@ function wireChangePass(getEmail, setSession){
   if(!btn) return;
   btn.onclick = function(){
     var msg = document.getElementById('cp-msg');
-    function err(m){ msg.style.color = '#ff8a8a'; msg.textContent = m; }
+    function err(m){ msg.style.color = '#b3261e'; msg.textContent = m; }
     var cur = document.getElementById('cp-cur').value;
     var nw = document.getElementById('cp-new').value;
     var nw2 = document.getElementById('cp-new2').value;
@@ -408,7 +408,7 @@ function wireChangePass(getEmail, setSession){
         if(!r2) return;
         btn.disabled = false; btn.textContent = 'Cambiar contraseña';
         if(r2.ok){
-          msg.style.color = '#7bc47f'; msg.textContent = 'Contraseña actualizada.';
+          msg.style.color = '#1c7c43'; msg.textContent = 'Contraseña actualizada.';
           document.getElementById('cp-cur').value = '';
           document.getElementById('cp-new').value = '';
           document.getElementById('cp-new2').value = '';
