@@ -494,6 +494,12 @@ var WA_NUMBER = "15704698339";
  function shipData(){
  try{ return JSON.parse(localStorage.getItem('dominus_zap_envio') || '{}'); }catch(e){ return {}; }
  }
+ function shipParts(){
+ var sd = shipData();
+ var ciu = (sd.ciudad || '').split(',');
+ return { nombre: (sd.nombre || '').trim(), telefono: (sd.telefono || '').trim(),
+ direccion: (sd.direccion || '').trim(), ciudad: (ciu[0] || '').trim(), depto: (ciu[1] || '').trim() };
+ }
  function renderCart(){
  var body = document.getElementById('cart-body');
  var t = cartTotals();
@@ -537,6 +543,22 @@ var WA_NUMBER = "15704698339";
  Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-rm]'), function(b){ b.onclick = function(){ cart.splice(+b.dataset.rm, 1); saveCart(); renderCart(); }; });
  renderPayPal(t);
+ /* Si el cliente tiene cuenta Dominus con dirección guardada, se prellena el formulario de entrega */
+ try{
+ var sess2 = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(sess2 && sess2.access_token && sess2.user && sess2.user.id && !(sd.nombre && sd.direccion && sd.ciudad)){
+ fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + sess2.user.id + '&select=direccion,ciudad,departamento,telefono', { headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess2.access_token } })
+ .then(function(r){ return r.json(); })
+ .then(function(rows){
+ var pr = rows && rows[0]; if(!pr) return;
+ var pon = function(id, v){ var el = document.getElementById(id); if(el && !el.value && v) el.value = v; };
+ pon('sf-dir', pr.direccion || '');
+ pon('sf-ciu', pr.ciudad ? (pr.departamento ? pr.ciudad + ', ' + pr.departamento : pr.ciudad) : '');
+ pon('sf-tel', pr.telefono || '');
+ ['sf-nom','sf-tel','sf-dir','sf-ciu'].forEach(function(id){ var el = document.getElementById(id); if(el) el.dispatchEvent(new Event('input')); });
+ }).catch(function(){});
+ }
+ }catch(e){}
  }
  function renderPayPal(t){
  var cont = document.getElementById('paypal-button-container');
@@ -548,24 +570,40 @@ var WA_NUMBER = "15704698339";
  style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
  createOrder: function(data, actions){
  var sd = shipData();
+ var sp = shipParts();
  var items = cart.map(function(it){
  var p = byCode(it.codigo);
  return { name: (p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
  unit_amount: { currency_code: 'USD', value: p.precio.toFixed(2) } };
  });
- var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sd.telefono ? ' · Tel ' + sd.telefono : '') + (sd.ciudad ? ' · ' + sd.ciudad : '')).slice(0,127);
- return actions.order.create({
- intent: 'CAPTURE',
- application_context: { brand_name: 'Dominus', shipping_preference: 'GET_FROM_FILE' },
- purchase_units: [{
+ var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
+ var pu = {
  description: desc,
  amount: { currency_code: 'USD', value: t.total.toFixed(2),
  breakdown: { item_total: { currency_code: 'USD', value: t.subtotal.toFixed(2) },
  shipping: { currency_code: 'USD', value: t.envio.toFixed(2) },
  handling: { currency_code: 'USD', value: t.comision.toFixed(2) } } },
  items: items
- }]
+ };
+ var conEnvio = !!(sp.nombre && sp.direccion && sp.ciudad);
+ if(conEnvio){
+ pu.shipping = { name: { full_name: sp.nombre.slice(0, 127) },
+ address: { address_line_1: sp.direccion.slice(0, 100), admin_area_2: sp.ciudad.slice(0, 64),
+ admin_area_1: (sp.depto || sp.ciudad).slice(0, 64), country_code: 'NI' } };
+ }
+ return actions.order.create({
+ intent: 'CAPTURE',
+ application_context: { brand_name: 'Dominus', shipping_preference: conEnvio ? 'SET_PROVIDED_ADDRESS' : 'GET_FROM_FILE' },
+ purchase_units: [pu]
  });
+ },
+ onClick: function(data, actions){
+ var sp = shipParts();
+ if(!sp.nombre || !sp.telefono || !sp.direccion || !sp.ciudad){
+ alert('Completa tus datos de entrega (nombre, teléfono, dirección y ciudad) para poder enviarte el pedido.');
+ return actions.reject();
+ }
+ return actions.resolve();
  },
  onApprove: function(data, actions){
  return actions.order.capture().then(function(details){
