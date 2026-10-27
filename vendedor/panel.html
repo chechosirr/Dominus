@@ -170,7 +170,8 @@ function render(){
     + '<div class="err" id="f-err"></div>'
     + '<button class="btn" id="f-btn">Publicar producto</button></div>'
     + '<div class="sec"><h2>Mis productos</h2><div id="plist"></div></div>'
-    + '<div class="sec"><h2>Reseñas <span class="hl">recibidas</span></h2><div id="rl-list"><p class="empty">Cargando…</p></div></div>';
+    + '<div class="sec"><h2>Reseñas <span class="hl">recibidas</span></h2><div id="rl-list"><p class="empty">Cargando…</p></div></div>'
+    + '<div class="sec"><h2>Mi cuenta</h2><p style="font-size:14px;color:var(--mut);margin-bottom:12px">Si eliminas tu cuenta se borra tu comercio con todos tus productos y tu cuenta de acceso. No se puede deshacer.</p><button class="btn" id="btn-delacc" style="background:#b3261e!important;color:#fff!important">Eliminar mi cuenta</button></div>';
   renderList();
   document.getElementById('f-img').addEventListener('change', function(){
     var f = this.files[0];
@@ -179,6 +180,7 @@ function render(){
   document.getElementById('f-btn').onclick = publishProduct;
   document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); location.href = 'cuenta.html'; };
   document.getElementById('w-btn').onclick = saveWall;
+  document.getElementById('btn-delacc').onclick = deleteMyAccountPanel;
 }
 function werr(m){ var e = document.getElementById('w-err'); e.textContent = m; e.style.display = 'block'; }
 function uploadImage(file, kind){
@@ -333,6 +335,27 @@ function toggleProduct(id){
 }
 function delProduct(id){
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + id, { method: 'DELETE', headers: h(session.access_token) }).then(loadProducts);
+}
+function deleteMyAccountPanel(){
+  if(!session || !session.access_token || !seller){ alert('Entra a tu cuenta primero.'); return; }
+  if(!confirm('¿Eliminar tu cuenta de Dominus?\n\nSe borrará tu comercio "' + seller.nombre + '" con todos tus productos y tu cuenta de acceso. Esto NO se puede deshacer.')) return;
+  var frase = prompt('Para confirmar, escribe ELIMINAR:');
+  if(!frase || frase.trim().toUpperCase() !== 'ELIMINAR'){ alert('Cancelado. Tu cuenta sigue activa.'); return; }
+  var tok = session.access_token;
+  var finish = function(completa){
+    try{ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(e){}
+    alert(completa ? 'Tu cuenta fue eliminada.' : 'Tu comercio y tu perfil fueron eliminados.');
+    location.href = '../index.html';
+  };
+  fetch(SUPABASE_URL + '/rest/v1/rpc/eliminar_mi_cuenta', { method: 'POST', headers: h(tok, true), body: JSON.stringify({}) })
+    .then(function(r){
+      if(r.ok){ finish(true); return; }
+      fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + seller.id, { method: 'DELETE', headers: h(tok) })
+        .then(function(){ return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + seller.user_id, { method: 'DELETE', headers: h(tok) }); })
+        .then(function(){ finish(false); })
+        .catch(function(){ alert('No se pudo eliminar. Intenta de nuevo.'); });
+    })
+    .catch(function(){ alert('No se pudo eliminar. Revisa tu conexión.'); });
 }
 boot();
 

@@ -302,6 +302,7 @@ Promise.all([
     + '<button class="dash-btn" data-goto="editar"><span>Editar muro</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="productos"><span>Productos</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="historial"><span>Historial de ventas</span><span>\u203A</span></button>'
+    + '<button class="dash-btn" id="dash-delacc" style="color:#ff8a8a"><span>Eliminar mi cuenta</span><span>\u203A</span></button>'
     + '</div></div>' : '';
   var infoHTML = own ?
     '<div class="wrap"><div id="view-info" style="display:none">'
@@ -342,6 +343,7 @@ Promise.all([
   document.getElementById('wall').innerHTML = dashHTML + infoHTML + prodHTML + catHTML + histHTML + wallHTML;
   if(own){
     document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); if(b.dataset.goto === 'productos') loadProdList(); if(b.dataset.goto === 'catalogo') loadCatalog(); }; });
+    var delAcc = document.getElementById('dash-delacc'); if(delAcc) delAcc.onclick = function(){ deleteMyAccount(); };
     var savedView = new URLSearchParams(location.search).get('view');
     showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' || savedView === 'productos' || savedView === 'catalogo' ? savedView : 'menu');
     if(savedView === 'productos') loadProdList();
@@ -755,6 +757,27 @@ function toggleAct(pid, tok){
 function delProd(pid, tok){
   fetch(SUPABASE_URL + '/rest/v1/products?id=eq.' + pid, { method: 'DELETE', headers: edH(tok) })
     .then(function(){ reloadKeepEdit(); });
+}
+function deleteMyAccount(){
+  var tok = myTok();
+  if(!tok || !SELLER){ alert('Entra a tu cuenta primero.'); return; }
+  if(!confirm('¿Eliminar tu cuenta de Dominus?\n\nSe borrará tu comercio "' + SELLER.nombre + '" con todos tus productos y tu cuenta de acceso. Esto NO se puede deshacer.')) return;
+  var frase = prompt('Para confirmar, escribe ELIMINAR:');
+  if(!frase || frase.trim().toUpperCase() !== 'ELIMINAR'){ alert('Cancelado. Tu cuenta sigue activa.'); return; }
+  var finish = function(completa){
+    try{ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(e){}
+    alert(completa ? 'Tu cuenta fue eliminada.' : 'Tu comercio y tu perfil fueron eliminados.');
+    location.href = '../index.html';
+  };
+  fetch(SUPABASE_URL + '/rest/v1/rpc/eliminar_mi_cuenta', { method: 'POST', headers: edH(tok), body: JSON.stringify({}) })
+    .then(function(r){
+      if(r.ok){ finish(true); return; }
+      fetch(SUPABASE_URL + '/rest/v1/sellers?id=eq.' + SELLER.id, { method: 'DELETE', headers: edH(tok) })
+        .then(function(){ return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + SELLER.user_id, { method: 'DELETE', headers: edH(tok) }); })
+        .then(function(){ finish(false); })
+        .catch(function(){ alert('No se pudo eliminar. Intenta de nuevo.'); });
+    })
+    .catch(function(){ alert('No se pudo eliminar. Revisa tu conexión.'); });
 }
 function wireFeatDrag(){
   var tok = myTok();

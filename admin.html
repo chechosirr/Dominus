@@ -48,6 +48,15 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
 .rowitem .grow b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mut{color:var(--mut);font-size:.85rem}
 .search{width:100%;padding:11px 16px;border:1.5px solid var(--dark);border-radius:999px;font-family:inherit;font-size:1rem;margin:0 0 14px}
+.ddwrap{position:relative;display:inline-block}
+.ddmenu{position:absolute;right:0;top:calc(100% + 6px);background:#fff;border:1px solid var(--line);border-radius:14px;min-width:230px;box-shadow:0 14px 40px rgba(0,0,0,.18);z-index:60;overflow:hidden;text-align:left}
+.ddmenu button{display:block;width:100%;background:none;border:0;border-bottom:1px solid var(--line);padding:12px 16px;font-family:inherit;font-size:.92rem;font-weight:600;color:var(--txt);cursor:pointer;text-align:left}
+.ddmenu button:last-child{border-bottom:0}
+.ddmenu button:hover{background:var(--soft)}
+.ddmenu button.danger{color:var(--bad)}
+.datos{display:none;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:-3px 0 9px;font-size:.9rem;line-height:1.55}
+.datos.open{display:block}
+.datos a{color:var(--dark);font-weight:700}
 .gate{max-width:440px;margin:70px auto;text-align:center;padding:0 16px}
 .gate a{color:var(--dark);font-weight:700}
 .hidden{display:none}
@@ -158,6 +167,14 @@ function gateFail(msg){
  document.getElementById('gate-msg').textContent = msg;
 }
 
+function rpc(nombre, body){
+ return fetch(SUPABASE_URL + '/rest/v1/rpc/' + nombre, {
+ method: 'POST', headers: H(TOK), body: JSON.stringify(body)
+ }).then(function(r){ if(!r.ok) throw new Error('rpc ' + r.status); return r; });
+}
+function datoLine(k, v){ return '<div style="margin:2px 0"><b>' + esc(k) + ':</b> ' + esc(v) + '</div>'; }
+document.addEventListener('click', function(){ document.querySelectorAll('.ddmenu').forEach(function(m){ m.classList.add('hidden'); }); });
+
 function estadoBadge(e){ return '<span class="badge b-' + esc(e || 'activo') + '">' + esc(e || 'activo') + '</span>'; }
 
 function cargar(){
@@ -165,10 +182,10 @@ function cargar(){
  api('orders?select=id,titulo,precio,qty,paypal_order_id,created_at,buyer_id,seller_id,sellers(nombre,slug)&order=created_at.desc&limit=500', TOK).catch(function(){ return []; }),
  api('sellers?select=*&order=created_at.desc', TOK),
  api('products?select=id,titulo,precio,categoria,imagen_url,activo,bloqueado,seller_id,created_at,sellers(nombre,slug)&order=created_at.desc&limit=1000', TOK),
- api('profiles?select=user_id,nombre', TOK).catch(function(){ return []; })
+ api('profiles?select=*', TOK).catch(function(){ return []; })
  ]).then(function(res){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
- (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p.nombre; });
+ (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
  renderResumen(); renderVentas(); renderSellers(); renderInv(document.getElementById('inv-q').value || '');
  });
 }
@@ -194,7 +211,7 @@ function renderVentas(){
  if(!DATA.orders.length){ box.innerHTML = '<p class="mut">Todavía no hay ventas registradas en el marketplace.</p>'; return; }
  var rows = DATA.orders.map(function(o){
  var vend = (o.sellers && o.sellers.nombre) || '—';
- var comp = DATA.profiles[o.buyer_id] || ('Cliente ' + String(o.buyer_id || '').slice(0, 8));
+ var comp = (DATA.profiles[o.buyer_id] && DATA.profiles[o.buyer_id].nombre) || ('Cliente ' + String(o.buyer_id || '').slice(0, 8));
  return '<tr><td>' + fecha(o.created_at) + '</td><td><b>' + esc(o.titulo) + '</b><br><span class="mut">×' + (o.qty || 1) + '</span></td>'
  + '<td>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</td><td>' + esc(vend) + '</td><td>' + esc(comp) + '</td>'
  + '<td class="mut">' + esc(o.paypal_order_id || '—') + '</td></tr>';
@@ -210,21 +227,72 @@ function renderSellers(){
  box.innerHTML = DATA.sellers.map(function(s){
  var prods = sellerProds(s.id);
  var est = s.estado || 'activo';
- var botones = '';
- if(est === 'activo') botones = '<button class="btn btn-warn" data-seller="' + s.id + '" data-estado="pausado">Pausar</button><button class="btn btn-bad" data-seller="' + s.id + '" data-estado="bloqueado">Bloquear</button>';
- else if(est === 'pausado') botones = '<button class="btn btn-ok" data-seller="' + s.id + '" data-estado="activo">Reactivar</button><button class="btn btn-bad" data-seller="' + s.id + '" data-estado="bloqueado">Bloquear</button>';
- else botones = '<button class="btn btn-ok" data-seller="' + s.id + '" data-estado="activo">Desbloquear</button>';
- return '<div class="rowitem">' + (s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="">' : '<img alt="">')
- + '<div class="grow"><b>' + esc(s.nombre) + '</b><span class="mut">' + esc(s.ubicacion || '') + (s.tipo_empresa ? ' · ' + esc(s.tipo_empresa) : '') + ' · ' + prods.length + ' artículos · WhatsApp ' + esc(s.whatsapp || '—') + '</span></div>'
- + estadoBadge(est) + '<span>' + botones + '</span></div>';
+ var p = DATA.profiles[s.user_id] || {};
+ var wa = String(s.whatsapp || '').replace(/[^0-9]/g, '');
+ var datos = '<div class="datos" id="datos-' + s.id + '">'
+ + datoLine('Negocio', s.nombre)
+ + datoLine('Estado', est)
+ + (s.ubicacion ? datoLine('Ubicación', s.ubicacion) : '')
+ + (s.tipo_empresa ? datoLine('Tipo de empresa', s.tipo_empresa) : '')
+ + (s.whatsapp ? '<div style="margin:2px 0"><b>WhatsApp:</b> <a href="https://wa.me/' + wa + '" target="_blank" rel="noopener">' + esc(s.whatsapp) + '</a></div>' : '')
+ + (s.paypal_email ? datoLine('PayPal', s.paypal_email) : '')
+ + (p.nombre ? datoLine('Nombre de la cuenta', p.nombre) : '')
+ + (p.telefono ? '<div style="margin:2px 0"><b>Teléfono:</b> <a href="tel:' + esc(p.telefono) + '">' + esc(p.telefono) + '</a></div>' : '')
+ + ((p.ciudad || p.departamento || p.pais) ? datoLine('Ciudad', [p.ciudad, p.departamento, p.pais].filter(Boolean).join(', ')) : '')
+ + (p.direccion ? datoLine('Dirección', p.direccion) : '')
+ + (p.referencia ? datoLine('Referencia', p.referencia) : '')
+ + datoLine('Productos', prods.length)
+ + datoLine('Registrado', fecha(s.created_at))
+ + (s.descripcion ? datoLine('Descripción', s.descripcion) : '')
+ + '</div>';
+ var menu = '<span class="ddwrap"><button class="btn btn-dark" data-menu="' + s.id + '">Acciones ▾</button>'
+ + '<span class="ddmenu hidden" id="menu-' + s.id + '">'
+ + '<button data-act="datos" data-seller="' + s.id + '">Ver datos de contacto</button>'
+ + (est === 'activo'
+ ? '<button data-act="pausar" data-seller="' + s.id + '">Pausar cuenta</button>'
+ : '<button data-act="reactivar" data-seller="' + s.id + '">Reactivar cuenta</button>')
+ + '<button data-act="eliminar" data-seller="' + s.id + '" class="danger">Eliminar cuenta</button>'
+ + '</span></span>';
+ return '<div><div class="rowitem">' + (s.logo_url ? '<img src="' + esc(s.logo_url) + '" alt="">' : '<img alt="">')
+ + '<div class="grow"><b>' + esc(s.nombre) + '</b><span class="mut">' + esc(s.ubicacion || '') + (s.tipo_empresa ? ' · ' + esc(s.tipo_empresa) : '') + ' · ' + prods.length + ' artículos</span></div>'
+ + estadoBadge(est) + menu + '</div>' + datos + '</div>';
  }).join('');
- Array.prototype.forEach.call(box.querySelectorAll('[data-seller]'), function(b){
- b.onclick = function(){
- var id = b.getAttribute('data-seller'), est = b.getAttribute('data-estado');
+ box.querySelectorAll('[data-menu]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var m = document.getElementById('menu-' + b.getAttribute('data-menu'));
+ var was = m.classList.contains('hidden');
+ box.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ if(was) m.classList.remove('hidden');
+ };
+ });
+ box.querySelectorAll('[data-act]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var id = b.getAttribute('data-seller'), act = b.getAttribute('data-act');
  var s = DATA.sellers.filter(function(x){ return x.id === id; })[0];
- if(est === 'bloqueado' && !confirm('¿Bloquear a ' + (s ? s.nombre : 'este vendedor') + '? Desaparece del sitio con todos sus artículos.')) return;
- patch('sellers', id, { estado: est }, TOK).then(function(){ if(s) s.estado = est; renderSellers(); renderInv(document.getElementById('inv-q').value || ''); })
+ box.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ if(act === 'datos'){
+ var d = document.getElementById('datos-' + id);
+ if(d) d.classList.toggle('open');
+ return;
+ }
+ if(act === 'pausar' || act === 'reactivar'){
+ var est = act === 'pausar' ? 'pausado' : 'activo';
+ patch('sellers', id, { estado: est }, TOK).then(function(){ if(s) s.estado = est; renderSellers(); })
  .catch(function(){ alert('No se pudo aplicar el cambio. Intenta de nuevo.'); });
+ return;
+ }
+ if(act === 'eliminar'){
+ if(!confirm('¿Eliminar la cuenta de ' + (s ? s.nombre : 'este vendedor') + '?\n\nSe borra su comercio, todos sus productos y su cuenta de acceso. Esto NO se puede deshacer.')) return;
+ if(!confirm('Confirma una vez más: eliminar definitivamente a ' + (s ? s.nombre : 'este vendedor') + '.')) return;
+ rpc('eliminar_cuenta_vendedor', { p_seller_id: id }).then(function(){
+ DATA.sellers = DATA.sellers.filter(function(x){ return x.id !== id; });
+ DATA.products = DATA.products.filter(function(x){ return x.seller_id !== id; });
+ renderSellers(); renderResumen(); renderInv(document.getElementById('inv-q').value || '');
+ alert('Cuenta eliminada: ' + (s ? s.nombre : ''));
+ }).catch(function(){ alert('No se pudo eliminar la cuenta. Si es la primera vez, corre en Supabase el SQL supabase-eliminar-cuentas.sql y vuelve a intentarlo.'); });
+ }
  };
  });
 }
