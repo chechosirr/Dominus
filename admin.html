@@ -16,9 +16,13 @@ h1,h2,h3,.logo{font-family:Archivo,Arial,sans-serif}
 header.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:14px;padding:12px 18px;background:var(--dark);border-bottom:1px solid #000}
 .logo{color:#fff;font-weight:800;font-size:1.3rem;letter-spacing:.06em;text-decoration:none}
 .logo span{color:#c7ccd4}
-header.top nav{margin-left:auto;display:flex;gap:14px;align-items:center}
-header.top nav a{color:#e8eaee;text-decoration:none;font-size:.92rem;font-weight:600}
-header.top nav a:hover{color:#fff}
+.menuwrap{position:relative;margin-left:auto}
+#menubtn{background:none;border:1px solid #44464c;color:#fff;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit;line-height:1}
+.ddnav{display:none;position:absolute;right:0;top:calc(100% + 8px);background:#101318;border:1px solid #2b3049;border-radius:16px;min-width:210px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.45);z-index:80}
+.ddnav.open{display:block}
+.ddnav a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;color:#f2f4f8;border-bottom:1px solid #1e242e}
+.ddnav a:last-child{border-bottom:0}
+.ddnav a:hover{background:rgba(215,220,227,.08)}
 main{max-width:1060px;margin:0 auto;padding:22px 16px 60px}
 .sub{color:var(--mut);margin:4px 0 18px}
 .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
@@ -66,12 +70,15 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
 <body>
 <header class="top">
   <a class="logo" href="index.html">DOMIN<span>US</span></a>
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="zapatos.html">Zapatos</a>
-    <a href="revendedores.html">Comercios</a>
-    <a href="#" id="logout">Cerrar sesión</a>
-  </nav>
+  <div class="menuwrap">
+    <button id="menubtn" aria-label="Menú">☰</button>
+    <nav class="ddnav" id="ddnav">
+      <a href="index.html">Inicio</a>
+      <a href="zapatos.html">Zapatos</a>
+      <a href="revendedores.html">Comercios</a>
+      <a href="#" id="logout" style="color:#ff7b7b">Cerrar sesión</a>
+    </nav>
+  </div>
 </header>
 
 <div class="gate" id="gate">
@@ -87,9 +94,10 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
     <button data-tab="resumen" class="on">Resumen</button>
     <button data-tab="ventas">Ventas</button>
     <button data-tab="revendedores">Revendedores</button>
-    <button data-tab="zapatos">Zapatos</button>
-    <button data-tab="historial">Historial</button>
-    <button data-tab="inventario">Inventario</button>
+    <button data-tab="zapatos">Inventario zapatos</button>
+    <button data-tab="hzapatos">Historial de zapatos</button>
+    <button data-tab="historial">Historial de productos</button>
+    <button data-tab="inventario">Inventario revendedores</button>
   </div>
 
   <section id="tab-resumen">
@@ -117,6 +125,12 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
     <input class="search" id="zap-q" type="search" placeholder="Buscar zapato por código (DOM-…), marca o nombre…">
     <p class="mut" style="margin:0 0 12px">El catálogo de tu tienda de zapatos. <b>Modificar</b> y <b>Eliminar</b> se aplican de inmediato en la tienda: el zapato eliminado desaparece y el precio/nombre editado reemplaza al del catálogo.</p>
     <div id="zap-list"><p class="mut">Cargando zapatos…</p></div>
+  </section>
+
+  <section id="tab-hzapatos" class="hidden">
+    <input class="search" id="hzap-q" type="search" placeholder="Buscar en el historial de zapatos por código (DOM-…) o nombre…">
+    <p class="mut" style="margin:0 0 12px">Todos los zapatos que han pasado por la tienda: los que siguen en venta, los modificados o eliminados desde este panel y los que salieron en las rotaciones del catálogo.</p>
+    <div id="hzap-list"><p class="mut">Cargando historial…</p></div>
   </section>
 
   <section id="tab-historial" class="hidden">
@@ -170,8 +184,10 @@ function patch(tabla, id, body, tok){
 }
 
 var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
-var DATA = { orders: [], sellers: [], products: [], profiles: {}, zapatos: [], ajustes: {} };
+var DATA = { orders: [], sellers: [], products: [], profiles: {}, zapatos: [], ajustes: {}, histzap: [] };
 
+document.getElementById('menubtn').onclick = function(e){ e.stopPropagation(); document.getElementById('ddnav').classList.toggle('open'); };
+document.addEventListener('click', function(){ var n = document.getElementById('ddnav'); if(n) n.classList.remove('open'); });
 document.getElementById('logout').onclick = function(e){
  e.preventDefault();
  try{ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(err){}
@@ -202,7 +218,7 @@ function cargar(){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
  (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
  renderResumen(); renderVentas(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
- cargarZapatos();
+ cargarZapatos(); cargarHistZapatos();
  });
 }
 
@@ -363,11 +379,12 @@ document.getElementById('inv-q').addEventListener('input', function(e){ renderIn
 document.getElementById('sel-q').addEventListener('input', function(){ renderSellers(); });
 document.getElementById('zap-q').addEventListener('input', function(){ renderZapatos(); });
 document.getElementById('hist-q').addEventListener('input', function(){ renderHistorial(); });
+document.getElementById('hzap-q').addEventListener('input', function(){ renderHistZapatos(); });
 Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
  b.onclick = function(){
  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.classList.remove('on'); });
  b.classList.add('on');
- ['resumen','ventas','revendedores','zapatos','historial','inventario'].forEach(function(t){
+ ['resumen','ventas','revendedores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
  document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
  });
  };
@@ -396,7 +413,7 @@ function cargarZapatos(){
  DATA.zapatos = m ? JSON.parse(m[1]) : [];
  DATA.ajustes = {};
  if(res[1]) res[1].forEach(function(a){ DATA.ajustes[a.codigo] = a; });
- renderZapatos();
+ renderZapatos(); renderHistZapatos();
  }).catch(function(){ var b = document.getElementById('zap-list'); if(b) b.innerHTML = '<p class="mut">No se pudo cargar el catálogo de zapatos.</p>'; });
 }
 function guardarAjuste(body){
@@ -489,6 +506,37 @@ function renderZapatos(){
  box.querySelectorAll('[data-zcancel]').forEach(function(b){
  b.onclick = function(){ var ed = document.getElementById('zapedit-' + b.getAttribute('data-zcancel')); if(ed) ed.classList.remove('open'); };
  });
+}
+
+/* ===== Historial de zapatos ===== */
+function cargarHistZapatos(){
+ fetch('zapatos-historial.js?cb=' + Date.now()).then(function(r){ return r.text(); }).then(function(t){
+ var m = t.match(/var ZAP_HISTORIAL = (\[[\s\S]*?\]);/);
+ DATA.histzap = m ? JSON.parse(m[1]) : [];
+ renderHistZapatos();
+ }).catch(function(){});
+}
+function renderHistZapatos(){
+ var box = document.getElementById('hzap-list');
+ if(!box) return;
+ var q = ((document.getElementById('hzap-q') || {}).value || '').toLowerCase();
+ var enTienda = {};
+ DATA.zapatos.forEach(function(z){ enTienda[z.codigo] = true; });
+ var list = (DATA.histzap || []).filter(function(h){
+ if(!q) return true;
+ return (h.codigo + ' ' + h.nombre).toLowerCase().indexOf(q) >= 0;
+ });
+ if(!DATA.histzap.length){ box.innerHTML = '<p class="mut">Cargando historial…</p>'; return; }
+ if(!list.length){ box.innerHTML = '<p class="mut">Ningún zapato coincide con esa búsqueda.</p>'; return; }
+ box.innerHTML = list.map(function(h){
+ var a = DATA.ajustes[h.codigo] || {};
+ var badge;
+ if(!enTienda[h.codigo]) badge = '<span class="badge b-off">retirado</span>';
+ else if(a.eliminado) badge = '<span class="badge b-bloqueado">eliminado</span>';
+ else if(a.nombre || a.marca || a.precio != null) badge = '<span class="badge b-pausado">modificado</span>';
+ else badge = '<span class="badge b-activo">en tienda</span>';
+ return '<div class="rowitem"><div class="grow"><b>' + esc(h.nombre) + '</b><span class="mut">' + esc(h.codigo) + '</span></div>' + badge + '</div>';
+ }).join('');
 }
 
 /* ===== Historial: productos que suben los revendedores ===== */
