@@ -137,66 +137,72 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(80px);background:var(--dark);color:#fff;padding:13px 22px;border-radius:999px;font-weight:700;font-size:.95rem;z-index:90;transition:transform .3s;box-shadow:0 10px 30px rgba(0,0,0,.35);max-width:92vw;text-align:center}
 .toast.show{transform:translateX(-50%) translateY(0)}
 @media (max-width:900px){
-  .layout{grid-template-columns:1fr}
-  aside.filters{display:none}
-  aside.filters.open{display:block}
-  .d-grid{grid-template-columns:1fr}
-  .toolbar{top:53px}
+ .layout{grid-template-columns:1fr}
+ aside.filters{display:none}
+ aside.filters.open{display:block}
+ .d-grid{grid-template-columns:1fr}
+ .toolbar{top:53px}
 }
 @media (min-width:901px){ .filter-btn{display:none} }
 /* ===== plateado metálico (igual que el sitio) ===== */
 .hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 .btn-silver,.addbtn{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
 
-.choice-wrap{max-width:900px;margin:0 auto;padding:26px 16px 10px;width:100%}
-.choice-wrap h1{text-align:center;font-size:1.7rem;margin:6px 0 4px}
-.choice-wrap .sub{text-align:center;color:#55555c;margin:0 0 22px}
-.choices{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.choice-wrap{max-width:940px;margin:0 auto;padding:40px 18px 16px;width:100%}
+.choice-wrap h1{text-align:center;font-size:2rem;letter-spacing:.01em;margin:4px 0 6px}
+.choice-wrap .sub{text-align:center;color:#6a6a72;margin:0 0 30px;font-size:1.02rem}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 @media(max-width:640px){.choices{grid-template-columns:1fr}}
-.choice{display:block;text-decoration:none;color:#17171a;background:#fff;border:1.5px solid #e3e3e6;border-radius:18px;overflow:hidden;box-shadow:0 4px 18px rgba(20,20,25,.07)}
-.choice .ph{height:190px;background:#ececef center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-size:4.2rem}
-.choice .tx{padding:16px 18px 18px}
-.choice h2{margin:0 0 4px;font-size:1.35rem}
-.choice p{margin:0 0 12px;color:#55555c;font-size:.95rem}
-.choice .go{display:inline-block;background:#2a2a2e;color:#fff;font-weight:800;padding:11px 20px;border-radius:999px;font-size:.95rem}
+.choice{display:block;text-decoration:none;color:#17171a;background:#fff;border:1px solid #e7e7ea;border-radius:20px;overflow:hidden;box-shadow:0 6px 24px rgba(20,20,25,.06);transition:transform .25s ease,box-shadow .25s ease}
+.choice:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(20,20,25,.12)}
+.choice .ph{height:210px;background:#ececef center/cover no-repeat;display:flex;align-items:center;justify-content:center}
+.choice .ph.dark{background:linear-gradient(155deg,#333338,#17171a)}
+.choice .tx{padding:22px 24px 24px;text-align:center}
+.choice .over{font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#9a9aa2;margin:0 0 8px}
+.choice h2{margin:0 0 8px;font-size:1.55rem;font-weight:800}
+.choice p.desc{margin:0 0 18px;color:#5c5c64;font-size:.97rem;line-height:1.5}
+.choice .go{display:inline-block;background:transparent;color:#2a2a2e;border:1.5px solid #2a2a2e;font-weight:700;letter-spacing:.05em;padding:12px 30px;border-radius:999px;font-size:.95rem;transition:background .2s ease,color .2s ease}
+.choice:hover .go{background:#2a2a2e;color:#fff}
 </style>
 </head>
 <body>
 <header class="top">
-  <a class="logo" href="index.html">DOMIN<em>US</em></a>
-  <div class="menu-wrap">
-    <button id="menu-btn" aria-label="Menú">☰</button>
-    <nav class="menu" id="menu">
-      <a href="index.html">Inicio</a>
-      <a href="zapatos.html">Zapatos</a>
-      <a href="revendedores.html">Comercios Nacionales</a>
-      <a href="cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
-      <a href="zapatos.html">Carrito</a>
-      <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
-    </nav>
-  </div>
+ <a class="logo" href="index.html">DOMIN<em>US</em></a>
+ <div class="menu-wrap">
+ <button id="menu-btn" aria-label="Menú">☰</button>
+ <nav class="menu" id="menu">
+ <a href="index.html">Inicio</a>
+ <a href="zapatos.html">Zapatos</a>
+ <a href="revendedores.html">Comercios Nacionales</a>
+ <a href="cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
+ <a href="zapatos.html">Carrito</a>
+ <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
+ </nav>
+ </div>
 </header>
 <main class="choice-wrap">
-  <h1>Bienvenido a Dominus</h1>
-  <p class="sub">Elige una sección para empezar</p>
-  <div class="choices">
-    <a class="choice" href="zapatos.html">
+ <h1>Bienvenido a Dominus</h1>
+ <p class="sub">Elige una sección para empezar</p>
+ <div class="choices">
+ <a class="choice" href="zapatos.html">
       <div class="ph" style="background-image:url('https://assets.adidas.com/images/w_800,h_800,f_auto,q_auto,fl_lossy/f81a93942800473fa6cbaf7b00b2d48b_9366/Campus_00s_Shoes_Blue_H03471_01_standard.jpg')"></div>
       <div class="tx">
-        <h2>👟 Zapatos</h2>
-        <p>Nuestra tienda: modelos originales por encargo, paga con PayPal y te los entregamos en tu casa en Nicaragua.</p>
-        <span class="go">Ver zapatos →</span>
+        <p class="over">Tienda propia</p>
+        <h2>Zapatos</h2>
+        <p class="desc">Modelos originales por encargo. Paga con PayPal y te los entregamos en tu casa en Nicaragua.</p>
+        <span class="go">Entrar</span>
       </div>
     </a>
-    <a class="choice" href="revendedores.html">
-      <div class="ph">🏪</div>
+ <a class="choice" href="revendedores.html">
+      <div class="ph dark"><svg width="86" height="86" viewBox="0 0 24 24" fill="none" stroke="#f2f2f3" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7.5 5.6 3h12.8L20 7.5"/><path d="M4 7.5h16V10a2.6 2.6 0 0 1-5.2 0 2.6 2.6 0 0 1-5.6 0A2.6 2.6 0 0 1 4 10V7.5Z"/><path d="M5.5 13.5V21h13v-7.5"/><path d="M9.5 21v-5h5v5"/></svg></div>
       <div class="tx">
-        <h2>🏪 Comercios Nacionales</h2>
-        <p>Negocios de Nicaragua que venden en Dominus: explora sus productos y compra con pago protegido PayPal.</p>
-        <span class="go">Ver comercios →</span>
+        <p class="over">Marketplace local</p>
+        <h2>Comercios Nacionales</h2>
+        <p class="desc">Negocios de Nicaragua que venden en Dominus. Compra con pago protegido PayPal.</p>
+        <span class="go">Entrar</span>
       </div>
     </a>
-  </div>
+ </div>
 </main>
 <footer>© 2026 Dominus · Nicaragua</footer>
 <script>
@@ -206,350 +212,350 @@ var PAYPAL_CLIENT_ID = "BAAxRwrBgVX0LQCQlIC6qPmtzh-87LsKLBvcSlTcXQRqOEJNUhpzNhCd
 var WA_NUMBER = "15704698339";
 /* sesión persistente: renueva el token automáticamente (igual que el resto del sitio) */
 (function(){
-  try{
-    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
-    if(!s || !s.access_token || !s.refresh_token) return;
-    var exp = 0;
-    if(s.expires_at) exp = s.expires_at * 1000;
-    else { try{ exp = JSON.parse(atob(s.access_token.split('.')[1])).exp * 1000; }catch(e){} }
-    if(!exp || Date.now() < exp - 120000) return;
-    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
-      method: 'POST', headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ refresh_token: s.refresh_token })
-    }).then(function(r){ return r.json(); }).then(function(ns){
-      if(ns && ns.access_token){ localStorage.setItem('dominus_session', JSON.stringify(ns)); location.reload(); }
-      else { localStorage.removeItem('dominus_session'); }
-    }).catch(function(){});
-  }catch(e){}
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(!s || !s.access_token || !s.refresh_token) return;
+ var exp = 0;
+ if(s.expires_at) exp = s.expires_at * 1000;
+ else { try{ exp = JSON.parse(atob(s.access_token.split('.')[1])).exp * 1000; }catch(e){} }
+ if(!exp || Date.now() < exp - 120000) return;
+ fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
+ method: 'POST', headers: { 'apikey': SUPABASE_ANON, 'Content-Type': 'application/json' },
+ body: JSON.stringify({ refresh_token: s.refresh_token })
+ }).then(function(r){ return r.json(); }).then(function(ns){
+ if(ns && ns.access_token){ localStorage.setItem('dominus_session', JSON.stringify(ns)); location.reload(); }
+ else { localStorage.removeItem('dominus_session'); }
+ }).catch(function(){});
+ }catch(e){}
 })();
 
 (function(){
-  var grid = document.getElementById('grid'), count = document.getElementById('count');
-  var state = { q:'', genero:'', marca:'', precio:'', sort:'' };
-  var detail = document.getElementById('detail'), current = null, curSize = '', curQty = 1;
-  var cartwrap = document.getElementById('cartwrap');
+ var grid = document.getElementById('grid'), count = document.getElementById('count');
+ var state = { q:'', genero:'', marca:'', precio:'', sort:'' };
+ var detail = document.getElementById('detail'), current = null, curSize = '', curQty = 1;
+ var cartwrap = document.getElementById('cartwrap');
 
-  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-  function money(n){ return '$' + Number(n).toFixed(2); }
-  function byCode(code){ for(var i=0;i<ZAPATOS.length;i++) if(ZAPATOS[i].codigo===code) return ZAPATOS[i]; return null; }
-  function toast(msg){
-    var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
-    setTimeout(function(){ t.classList.remove('show'); }, 2600);
-  }
+ function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+ function money(n){ return '$' + Number(n).toFixed(2); }
+ function byCode(code){ for(var i=0;i<ZAPATOS.length;i++) if(ZAPATOS[i].codigo===code) return ZAPATOS[i]; return null; }
+ function toast(msg){
+ var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
+ setTimeout(function(){ t.classList.remove('show'); }, 2600);
+ }
 
-  /* ---------- Catálogo ---------- */
-  var marcas = [];
-  ZAPATOS.forEach(function(p){ if(marcas.indexOf(p.marca) < 0) marcas.push(p.marca); });
-  marcas.sort();
-  var fm = document.getElementById('f-marca');
-  fm.innerHTML = '<button class="chip on" data-m="">Todas</button>' + marcas.map(function(m){ return '<button class="chip" data-m="'+esc(m)+'">'+esc(m)+'</button>'; }).join('');
+ /* ---------- Catálogo ---------- */
+ var marcas = [];
+ ZAPATOS.forEach(function(p){ if(marcas.indexOf(p.marca) < 0) marcas.push(p.marca); });
+ marcas.sort();
+ var fm = document.getElementById('f-marca');
+ fm.innerHTML = '<button class="chip on" data-m="">Todas</button>' + marcas.map(function(m){ return '<button class="chip" data-m="'+esc(m)+'">'+esc(m)+'</button>'; }).join('');
 
-  function filtered(){
-    var list = ZAPATOS.filter(function(p){
-      if(state.genero && (p.genero||'').toLowerCase().indexOf(state.genero) < 0) return false;
-      if(state.marca && p.marca !== state.marca) return false;
-      if(state.precio){ var r = state.precio.split('-'); if(p.precio < +r[0] || p.precio > +r[1]) return false; }
-      if(state.q){ var q = state.q.toLowerCase(); if((p.marca+' '+p.nombre).toLowerCase().indexOf(q) < 0) return false; }
-      return true;
-    });
-    if(state.sort === 'asc') list.sort(function(a,b){ return a.precio-b.precio; });
-    if(state.sort === 'desc') list.sort(function(a,b){ return b.precio-a.precio; });
-    if(state.sort === 'az') list.sort(function(a,b){ return a.nombre.localeCompare(b.nombre); });
-    return list;
-  }
-  function render(){
-    var list = filtered();
-    count.textContent = list.length + ' productos · Precios verificados el ' + ZAP_VERIFICADO + ' · El envío a Nicaragua se suma en el carrito';
-    if(!list.length){ grid.innerHTML = '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
-    grid.innerHTML = list.map(function(p){
-      return '<article class="card" data-code="'+p.codigo+'">' +
-        '<div class="ph"><img loading="lazy" src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>' +
-        '<div class="bd"><div class="brand">'+esc(p.marca)+'</div>' +
-        '<div class="name">'+esc(p.nombre)+'</div>' +
-        '<div class="price">'+money(p.precio)+'<small>C$'+p.precio_c.toLocaleString('es-NI')+' · + envío en el carrito</small></div>' +
-        '<div class="ver">Ver descripción y fotos ›</div></div></article>';
-    }).join('');
-    Array.prototype.forEach.call(grid.querySelectorAll('.card'), function(c){
-      c.addEventListener('click', function(){ openDetail(c.getAttribute('data-code')); });
-    });
-  }
+ function filtered(){
+ var list = ZAPATOS.filter(function(p){
+ if(state.genero && (p.genero||'').toLowerCase().indexOf(state.genero) < 0) return false;
+ if(state.marca && p.marca !== state.marca) return false;
+ if(state.precio){ var r = state.precio.split('-'); if(p.precio < +r[0] || p.precio > +r[1]) return false; }
+ if(state.q){ var q = state.q.toLowerCase(); if((p.marca+' '+p.nombre).toLowerCase().indexOf(q) < 0) return false; }
+ return true;
+ });
+ if(state.sort === 'asc') list.sort(function(a,b){ return a.precio-b.precio; });
+ if(state.sort === 'desc') list.sort(function(a,b){ return b.precio-a.precio; });
+ if(state.sort === 'az') list.sort(function(a,b){ return a.nombre.localeCompare(b.nombre); });
+ return list;
+ }
+ function render(){
+ var list = filtered();
+ count.textContent = list.length + ' productos · Precios verificados el ' + ZAP_VERIFICADO + ' · El envío a Nicaragua se suma en el carrito';
+ if(!list.length){ grid.innerHTML = '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
+ grid.innerHTML = list.map(function(p){
+ return '<article class="card" data-code="'+p.codigo+'">' +
+ '<div class="ph"><img loading="lazy" src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>' +
+ '<div class="bd"><div class="brand">'+esc(p.marca)+'</div>' +
+ '<div class="name">'+esc(p.nombre)+'</div>' +
+ '<div class="price">'+money(p.precio)+'<small>C$'+p.precio_c.toLocaleString('es-NI')+' · + envío en el carrito</small></div>' +
+ '<div class="ver">Ver descripción y fotos ›</div></div></article>';
+ }).join('');
+ Array.prototype.forEach.call(grid.querySelectorAll('.card'), function(c){
+ c.addEventListener('click', function(){ openDetail(c.getAttribute('data-code')); });
+ });
+ }
 
-  /* ---------- Detalle ---------- */
-  function openDetail(code){
-    current = byCode(code); if(!current) return;
-    curSize = ''; curQty = 1;
-    document.getElementById('d-qty').textContent = '1';
-    document.getElementById('d-brand').textContent = current.marca + (current.genero ? ' · ' + current.genero : '');
-    document.getElementById('d-name').textContent = current.nombre;
-    document.getElementById('d-price').textContent = money(current.precio);
-    document.getElementById('d-price-c').textContent = 'C$' + current.precio_c.toLocaleString('es-NI') + ' · precio del producto';
-    var main = document.getElementById('d-main');
-    main.src = current.fotos[0]; main.alt = current.nombre;
-    var th = document.getElementById('d-thumbs');
-    th.innerHTML = current.fotos.map(function(f,ix){ return '<img src="'+esc(f)+'" data-ix="'+ix+'" class="'+(ix===0?'on':'')+'" alt="">'; }).join('');
-    Array.prototype.forEach.call(th.querySelectorAll('img'), function(im){
-      im.addEventListener('click', function(){
-        main.src = im.src;
-        Array.prototype.forEach.call(th.querySelectorAll('img'), function(x){ x.classList.remove('on'); });
-        im.classList.add('on');
-      });
-    });
-    renderSizes();
-    document.getElementById('d-desc').textContent = current.descripcion;
-    document.getElementById('d-feats').innerHTML = current.detalles.map(function(d){ return '<li>'+esc(d)+'</li>'; }).join('');
-    detail.classList.add('open'); detail.scrollTop = 0; document.body.style.overflow = 'hidden';
-  }
-  function renderSizes(){
-    var tz = document.getElementById('d-tallas');
-    tz.innerHTML = current.tallas.map(function(t){ return '<button class="tsz'+(t===curSize?' on':'')+'" data-t="'+esc(t)+'">'+esc(t)+'</button>'; }).join('');
-    Array.prototype.forEach.call(tz.querySelectorAll('.tsz'), function(b){
-      b.addEventListener('click', function(){ curSize = b.getAttribute('data-t'); renderSizes(); });
-    });
-  }
-  function needSize(){
-    if(curSize) return true;
-    var tz = document.getElementById('d-tallas');
-    tz.scrollIntoView({ behavior:'smooth', block:'center' });
-    Array.prototype.forEach.call(tz.querySelectorAll('.tsz'), function(b){ b.classList.add('miss'); setTimeout(function(){ b.classList.remove('miss'); }, 700); });
-    toast('Elige tu talla US primero 👟');
-    return false;
-  }
-  function closeDetail(){ detail.classList.remove('open'); document.body.style.overflow = ''; }
-  document.getElementById('d-back').addEventListener('click', closeDetail);
-  document.getElementById('d-back2').addEventListener('click', closeDetail);
-  document.getElementById('d-inc').addEventListener('click', function(){ curQty = Math.min(9, curQty+1); document.getElementById('d-qty').textContent = curQty; });
-  document.getElementById('d-dec').addEventListener('click', function(){ curQty = Math.max(1, curQty-1); document.getElementById('d-qty').textContent = curQty; });
-  document.getElementById('d-add').addEventListener('click', function(){
-    if(!needSize()) return;
-    addToCart(current.codigo, curSize, curQty);
-    toast('✓ Agregado al carrito');
-  });
-  document.getElementById('d-buy').addEventListener('click', function(){
-    if(!needSize()) return;
-    addToCart(current.codigo, curSize, curQty);
-    closeDetail(); openCart();
-  });
+ /* ---------- Detalle ---------- */
+ function openDetail(code){
+ current = byCode(code); if(!current) return;
+ curSize = ''; curQty = 1;
+ document.getElementById('d-qty').textContent = '1';
+ document.getElementById('d-brand').textContent = current.marca + (current.genero ? ' · ' + current.genero : '');
+ document.getElementById('d-name').textContent = current.nombre;
+ document.getElementById('d-price').textContent = money(current.precio);
+ document.getElementById('d-price-c').textContent = 'C$' + current.precio_c.toLocaleString('es-NI') + ' · precio del producto';
+ var main = document.getElementById('d-main');
+ main.src = current.fotos[0]; main.alt = current.nombre;
+ var th = document.getElementById('d-thumbs');
+ th.innerHTML = current.fotos.map(function(f,ix){ return '<img src="'+esc(f)+'" data-ix="'+ix+'" class="'+(ix===0?'on':'')+'" alt="">'; }).join('');
+ Array.prototype.forEach.call(th.querySelectorAll('img'), function(im){
+ im.addEventListener('click', function(){
+ main.src = im.src;
+ Array.prototype.forEach.call(th.querySelectorAll('img'), function(x){ x.classList.remove('on'); });
+ im.classList.add('on');
+ });
+ });
+ renderSizes();
+ document.getElementById('d-desc').textContent = current.descripcion;
+ document.getElementById('d-feats').innerHTML = current.detalles.map(function(d){ return '<li>'+esc(d)+'</li>'; }).join('');
+ detail.classList.add('open'); detail.scrollTop = 0; document.body.style.overflow = 'hidden';
+ }
+ function renderSizes(){
+ var tz = document.getElementById('d-tallas');
+ tz.innerHTML = current.tallas.map(function(t){ return '<button class="tsz'+(t===curSize?' on':'')+'" data-t="'+esc(t)+'">'+esc(t)+'</button>'; }).join('');
+ Array.prototype.forEach.call(tz.querySelectorAll('.tsz'), function(b){
+ b.addEventListener('click', function(){ curSize = b.getAttribute('data-t'); renderSizes(); });
+ });
+ }
+ function needSize(){
+ if(curSize) return true;
+ var tz = document.getElementById('d-tallas');
+ tz.scrollIntoView({ behavior:'smooth', block:'center' });
+ Array.prototype.forEach.call(tz.querySelectorAll('.tsz'), function(b){ b.classList.add('miss'); setTimeout(function(){ b.classList.remove('miss'); }, 700); });
+ toast('Elige tu talla US primero ');
+ return false;
+ }
+ function closeDetail(){ detail.classList.remove('open'); document.body.style.overflow = ''; }
+ document.getElementById('d-back').addEventListener('click', closeDetail);
+ document.getElementById('d-back2').addEventListener('click', closeDetail);
+ document.getElementById('d-inc').addEventListener('click', function(){ curQty = Math.min(9, curQty+1); document.getElementById('d-qty').textContent = curQty; });
+ document.getElementById('d-dec').addEventListener('click', function(){ curQty = Math.max(1, curQty-1); document.getElementById('d-qty').textContent = curQty; });
+ document.getElementById('d-add').addEventListener('click', function(){
+ if(!needSize()) return;
+ addToCart(current.codigo, curSize, curQty);
+ toast('✓ Agregado al carrito');
+ });
+ document.getElementById('d-buy').addEventListener('click', function(){
+ if(!needSize()) return;
+ addToCart(current.codigo, curSize, curQty);
+ closeDetail(); openCart();
+ });
 
-  /* ---------- Carrito (local, como el del marketplace) ---------- */
-  var cart = [];
-  try{ cart = JSON.parse(localStorage.getItem('dominus_zap_cart') || '[]'); }catch(e){ cart = []; }
-  function saveCart(){ try{ localStorage.setItem('dominus_zap_cart', JSON.stringify(cart)); }catch(e){} updateBadges(); }
-  function cartCount(){ return cart.reduce(function(s,it){ return s + it.qty; }, 0); }
-  function updateBadges(){
-    var n = cartCount();
-    var b1 = document.getElementById('cart-count'), b2 = document.getElementById('cart-count2');
-    if(b1){ b1.textContent = n; b1.classList.toggle('show', n > 0); }
-    if(b2){ b2.textContent = n ? '(' + n + ')' : ''; }
-  }
-  function addToCart(codigo, talla, qty){
-    for(var i=0;i<cart.length;i++){
-      if(cart[i].codigo === codigo && cart[i].talla === talla){ cart[i].qty = Math.min(9, cart[i].qty + qty); saveCart(); return; }
-    }
-    cart.push({ codigo: codigo, talla: talla, qty: qty }); saveCart();
-  }
-  function cartTotals(){
-    var subtotal = 0, pares = 0;
-    cart.forEach(function(it){ var p = byCode(it.codigo); if(p){ subtotal += p.precio * it.qty; pares += it.qty; } });
-    var envio = pares * ZAP_ENVIO_NI;
-    var base = subtotal + envio;
-    var total = pares ? Math.round(((base + 0.30) / (1 - 0.054)) * 100) / 100 : 0;
-    var comision = Math.round((total - base) * 100) / 100;
-    return { subtotal: subtotal, envio: envio, pares: pares, comision: comision, total: total };
-  }
-  function shipData(){
-    try{ return JSON.parse(localStorage.getItem('dominus_zap_envio') || '{}'); }catch(e){ return {}; }
-  }
-  function renderCart(){
-    var body = document.getElementById('cart-body');
-    var t = cartTotals();
-    if(!cart.length){
-      body.innerHTML = '<p class="cempty">Tu carrito está vacío.<br><br><button class="backbtn" id="c-empty-back">← Ver zapatos</button></p>';
-      var eb = document.getElementById('c-empty-back'); if(eb) eb.onclick = closeCart;
-      return;
-    }
-    var sd = shipData();
-    var html = cart.map(function(it, ix){
-      var p = byCode(it.codigo); if(!p) return '';
-      return '<div class="citem"><img src="'+esc(p.fotos[0])+'" alt="">'
-        + '<div class="info"><b>'+esc(p.nombre)+'</b><small>Talla US '+esc(it.talla)+' · '+money(p.precio)+' c/u</small><br>'
-        + '<button class="rm" data-rm="'+ix+'">quitar</button></div>'
-        + '<div class="cqty"><button data-dec="'+ix+'">−</button><b>'+it.qty+'</b><button data-inc="'+ix+'">+</button></div>'
-        + '<span class="pa">'+money(p.precio * it.qty)+'</span></div>';
-    }).join('')
-    + '<div class="shipform"><h3 style="margin-top:18px;font-size:1.05rem">Datos de entrega</h3>'
-    + '<label>Nombre de quien recibe</label><input id="sf-nom" value="'+esc(sd.nombre||'')+'" placeholder="Ej: María López">'
-    + '<label>Teléfono / WhatsApp</label><input id="sf-tel" type="tel" value="'+esc(sd.telefono||'')+'" placeholder="Ej: 8888 8888">'
-    + '<label>Dirección (con referencias)</label><input id="sf-dir" value="'+esc(sd.direccion||'')+'" placeholder="Ej: Calle 5 #123, frente al parque">'
-    + '<label>Ciudad y departamento</label><input id="sf-ciu" value="'+esc(sd.ciudad||'')+'" placeholder="Ej: Estelí, Estelí">'
-    + '</div>'
-    + '<div style="margin-top:18px">'
-    + '<div class="ctotal"><span class="mut">Subtotal</span><span>'+money(t.subtotal)+'</span></div>'
-    + '<div class="ctotal"><span class="mut">Envío a Nicaragua (marítimo · '+t.pares+' par'+(t.pares>1?'es':'')+')</span><span>'+money(t.envio)+'</span></div>'
-    + '<div class="ctotal"><span class="mut">Comisión de PayPal</span><span>'+money(t.comision)+'</span></div>'
-    + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
-    + '<div id="paypal-button-container" style="margin-top:8px"></div>'
-    + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. Compramos tu par el mismo día y viaja por vía marítima (20 a 30 días) hasta la puerta de tu casa.</p>'
-    + '</div>';
-    body.innerHTML = html;
-    ['sf-nom','sf-tel','sf-dir','sf-ciu'].forEach(function(id){
-      document.getElementById(id).addEventListener('input', function(){
-        var d = { nombre: document.getElementById('sf-nom').value, telefono: document.getElementById('sf-tel').value,
-                  direccion: document.getElementById('sf-dir').value, ciudad: document.getElementById('sf-ciu').value };
-        try{ localStorage.setItem('dominus_zap_envio', JSON.stringify(d)); }catch(e){}
-      });
-    });
-    Array.prototype.forEach.call(body.querySelectorAll('[data-inc]'), function(b){ b.onclick = function(){ cart[+b.dataset.inc].qty = Math.min(9, cart[+b.dataset.inc].qty + 1); saveCart(); renderCart(); }; });
-    Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });
-    Array.prototype.forEach.call(body.querySelectorAll('[data-rm]'), function(b){ b.onclick = function(){ cart.splice(+b.dataset.rm, 1); saveCart(); renderCart(); }; });
-    renderPayPal(t);
-  }
-  function renderPayPal(t){
-    var cont = document.getElementById('paypal-button-container');
-    if(!cont) return;
-    function init(){
-      if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
-      cont.innerHTML = '';
-      paypal.Buttons({
-        style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
-        createOrder: function(data, actions){
-          var sd = shipData();
-          var items = cart.map(function(it){
-            var p = byCode(it.codigo);
-            return { name: (p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
-                     unit_amount: { currency_code: 'USD', value: p.precio.toFixed(2) } };
-          });
-          var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sd.telefono ? ' · Tel ' + sd.telefono : '') + (sd.ciudad ? ' · ' + sd.ciudad : '')).slice(0,127);
-          return actions.order.create({
-            intent: 'CAPTURE',
-            application_context: { brand_name: 'Dominus', shipping_preference: 'GET_FROM_FILE' },
-            purchase_units: [{
-              description: desc,
-              amount: { currency_code: 'USD', value: t.total.toFixed(2),
-                breakdown: { item_total: { currency_code: 'USD', value: t.subtotal.toFixed(2) },
-                             shipping: { currency_code: 'USD', value: t.envio.toFixed(2) },
-                             handling: { currency_code: 'USD', value: t.comision.toFixed(2) } } },
-              items: items
-            }]
-          });
-        },
-        onApprove: function(data, actions){
-          return actions.order.capture().then(function(details){
-            var sd = shipData();
-            var nombre = ((details.payer && details.payer.name && details.payer.name.given_name) || sd.nombre || '');
-            var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
-            var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\n' + lines.join('\n')
-              + '\nTotal pagado: ' + money(t.total)
-              + '\n\nEntrega: ' + (sd.nombre || nombre)
-              + (sd.direccion ? '\n' + sd.direccion : '') + (sd.ciudad ? '\n' + sd.ciudad : '') + (sd.telefono ? '\nContacto: ' + sd.telefono : '');
-            try{ localStorage.setItem('dominus_zap_ultimo_pedido', JSON.stringify({ id: data.orderID, total: t.total, fecha: new Date().toISOString() })); }catch(e){}
-            cart = []; saveCart();
-            document.getElementById('cart-body').innerHTML =
-              '<div style="text-align:center;padding:30px 6px">'
-              + '<div style="font-size:52px">✅</div>'
-              + '<h2 style="margin:10px 0">¡Pago completado!</h2>'
-              + '<p style="color:var(--mut);line-height:1.55">Gracias ' + esc(nombre) + '. Tu pago de <b>' + money(t.total) + '</b> fue recibido por PayPal.<br>Pedido: <b>' + esc(data.orderID) + '</b><br>Compramos tu par el mismo día y viaja por vía marítima: entrega estimada en 20 a 30 días.</p>'
-              + '<a class="buynow" style="display:block;text-decoration:none;text-align:center" href="https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Confirmar datos de entrega por WhatsApp</a>'
-              + '<button class="backbtn light" id="c-done" style="margin-top:12px">← Seguir explorando</button></div>';
-            var dn = document.getElementById('c-done'); if(dn) dn.onclick = function(){ closeCart(); };
-          });
-        },
-        onError: function(err){ console.error('PayPal error:', err); alert('Hubo un problema con PayPal. Intenta de nuevo.'); }
-      }).render('#paypal-button-container');
-    }
-    if(typeof paypal === 'undefined'){
-      var s = document.createElement('script');
-      s.src = 'https://www.paypal.com/sdk/js?client-id=' + PAYPAL_CLIENT_ID + '&currency=USD&intent=capture';
-      s.onload = init; document.head.appendChild(s);
-    } else { init(); }
-  }
-  function openCart(){ renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; }
-  function closeCart(){ cartwrap.classList.remove('open'); document.body.style.overflow = ''; }
-  document.getElementById('cartbtn').addEventListener('click', openCart);
-  document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
-  document.getElementById('cartscrim').addEventListener('click', closeCart);
-  document.getElementById('c-back').addEventListener('click', closeCart);
+ /* ---------- Carrito (local, como el del marketplace) ---------- */
+ var cart = [];
+ try{ cart = JSON.parse(localStorage.getItem('dominus_zap_cart') || '[]'); }catch(e){ cart = []; }
+ function saveCart(){ try{ localStorage.setItem('dominus_zap_cart', JSON.stringify(cart)); }catch(e){} updateBadges(); }
+ function cartCount(){ return cart.reduce(function(s,it){ return s + it.qty; }, 0); }
+ function updateBadges(){
+ var n = cartCount();
+ var b1 = document.getElementById('cart-count'), b2 = document.getElementById('cart-count2');
+ if(b1){ b1.textContent = n; b1.classList.toggle('show', n > 0); }
+ if(b2){ b2.textContent = n ? '(' + n + ')' : ''; }
+ }
+ function addToCart(codigo, talla, qty){
+ for(var i=0;i<cart.length;i++){
+ if(cart[i].codigo === codigo && cart[i].talla === talla){ cart[i].qty = Math.min(9, cart[i].qty + qty); saveCart(); return; }
+ }
+ cart.push({ codigo: codigo, talla: talla, qty: qty }); saveCart();
+ }
+ function cartTotals(){
+ var subtotal = 0, pares = 0;
+ cart.forEach(function(it){ var p = byCode(it.codigo); if(p){ subtotal += p.precio * it.qty; pares += it.qty; } });
+ var envio = pares * ZAP_ENVIO_NI;
+ var base = subtotal + envio;
+ var total = pares ? Math.round(((base + 0.30) / (1 - 0.054)) * 100) / 100 : 0;
+ var comision = Math.round((total - base) * 100) / 100;
+ return { subtotal: subtotal, envio: envio, pares: pares, comision: comision, total: total };
+ }
+ function shipData(){
+ try{ return JSON.parse(localStorage.getItem('dominus_zap_envio') || '{}'); }catch(e){ return {}; }
+ }
+ function renderCart(){
+ var body = document.getElementById('cart-body');
+ var t = cartTotals();
+ if(!cart.length){
+ body.innerHTML = '<p class="cempty">Tu carrito está vacío.<br><br><button class="backbtn" id="c-empty-back">← Ver zapatos</button></p>';
+ var eb = document.getElementById('c-empty-back'); if(eb) eb.onclick = closeCart;
+ return;
+ }
+ var sd = shipData();
+ var html = cart.map(function(it, ix){
+ var p = byCode(it.codigo); if(!p) return '';
+ return '<div class="citem"><img src="'+esc(p.fotos[0])+'" alt="">'
+ + '<div class="info"><b>'+esc(p.nombre)+'</b><small>Talla US '+esc(it.talla)+' · '+money(p.precio)+' c/u</small><br>'
+ + '<button class="rm" data-rm="'+ix+'">quitar</button></div>'
+ + '<div class="cqty"><button data-dec="'+ix+'">−</button><b>'+it.qty+'</b><button data-inc="'+ix+'">+</button></div>'
+ + '<span class="pa">'+money(p.precio * it.qty)+'</span></div>';
+ }).join('')
+ + '<div class="shipform"><h3 style="margin-top:18px;font-size:1.05rem">Datos de entrega</h3>'
+ + '<label>Nombre de quien recibe</label><input id="sf-nom" value="'+esc(sd.nombre||'')+'" placeholder="Ej: María López">'
+ + '<label>Teléfono / WhatsApp</label><input id="sf-tel" type="tel" value="'+esc(sd.telefono||'')+'" placeholder="Ej: 8888 8888">'
+ + '<label>Dirección (con referencias)</label><input id="sf-dir" value="'+esc(sd.direccion||'')+'" placeholder="Ej: Calle 5 #123, frente al parque">'
+ + '<label>Ciudad y departamento</label><input id="sf-ciu" value="'+esc(sd.ciudad||'')+'" placeholder="Ej: Estelí, Estelí">'
+ + '</div>'
+ + '<div style="margin-top:18px">'
+ + '<div class="ctotal"><span class="mut">Subtotal</span><span>'+money(t.subtotal)+'</span></div>'
+ + '<div class="ctotal"><span class="mut">Envío a Nicaragua (marítimo · '+t.pares+' par'+(t.pares>1?'es':'')+')</span><span>'+money(t.envio)+'</span></div>'
+ + '<div class="ctotal"><span class="mut">Comisión de PayPal</span><span>'+money(t.comision)+'</span></div>'
+ + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
+ + '<div id="paypal-button-container" style="margin-top:8px"></div>'
+ + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. Compramos tu par el mismo día y viaja por vía marítima (20 a 30 días) hasta la puerta de tu casa.</p>'
+ + '</div>';
+ body.innerHTML = html;
+ ['sf-nom','sf-tel','sf-dir','sf-ciu'].forEach(function(id){
+ document.getElementById(id).addEventListener('input', function(){
+ var d = { nombre: document.getElementById('sf-nom').value, telefono: document.getElementById('sf-tel').value,
+ direccion: document.getElementById('sf-dir').value, ciudad: document.getElementById('sf-ciu').value };
+ try{ localStorage.setItem('dominus_zap_envio', JSON.stringify(d)); }catch(e){}
+ });
+ });
+ Array.prototype.forEach.call(body.querySelectorAll('[data-inc]'), function(b){ b.onclick = function(){ cart[+b.dataset.inc].qty = Math.min(9, cart[+b.dataset.inc].qty + 1); saveCart(); renderCart(); }; });
+ Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });
+ Array.prototype.forEach.call(body.querySelectorAll('[data-rm]'), function(b){ b.onclick = function(){ cart.splice(+b.dataset.rm, 1); saveCart(); renderCart(); }; });
+ renderPayPal(t);
+ }
+ function renderPayPal(t){
+ var cont = document.getElementById('paypal-button-container');
+ if(!cont) return;
+ function init(){
+ if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
+ cont.innerHTML = '';
+ paypal.Buttons({
+ style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
+ createOrder: function(data, actions){
+ var sd = shipData();
+ var items = cart.map(function(it){
+ var p = byCode(it.codigo);
+ return { name: (p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
+ unit_amount: { currency_code: 'USD', value: p.precio.toFixed(2) } };
+ });
+ var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sd.telefono ? ' · Tel ' + sd.telefono : '') + (sd.ciudad ? ' · ' + sd.ciudad : '')).slice(0,127);
+ return actions.order.create({
+ intent: 'CAPTURE',
+ application_context: { brand_name: 'Dominus', shipping_preference: 'GET_FROM_FILE' },
+ purchase_units: [{
+ description: desc,
+ amount: { currency_code: 'USD', value: t.total.toFixed(2),
+ breakdown: { item_total: { currency_code: 'USD', value: t.subtotal.toFixed(2) },
+ shipping: { currency_code: 'USD', value: t.envio.toFixed(2) },
+ handling: { currency_code: 'USD', value: t.comision.toFixed(2) } } },
+ items: items
+ }]
+ });
+ },
+ onApprove: function(data, actions){
+ return actions.order.capture().then(function(details){
+ var sd = shipData();
+ var nombre = ((details.payer && details.payer.name && details.payer.name.given_name) || sd.nombre || '');
+ var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
+ var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\n' + lines.join('\n')
+ + '\nTotal pagado: ' + money(t.total)
+ + '\n\nEntrega: ' + (sd.nombre || nombre)
+ + (sd.direccion ? '\n' + sd.direccion : '') + (sd.ciudad ? '\n' + sd.ciudad : '') + (sd.telefono ? '\nContacto: ' + sd.telefono : '');
+ try{ localStorage.setItem('dominus_zap_ultimo_pedido', JSON.stringify({ id: data.orderID, total: t.total, fecha: new Date().toISOString() })); }catch(e){}
+ cart = []; saveCart();
+ document.getElementById('cart-body').innerHTML =
+ '<div style="text-align:center;padding:30px 6px">'
+ + '<div style="font-size:52px"></div>'
+ + '<h2 style="margin:10px 0">¡Pago completado!</h2>'
+ + '<p style="color:var(--mut);line-height:1.55">Gracias ' + esc(nombre) + '. Tu pago de <b>' + money(t.total) + '</b> fue recibido por PayPal.<br>Pedido: <b>' + esc(data.orderID) + '</b><br>Compramos tu par el mismo día y viaja por vía marítima: entrega estimada en 20 a 30 días.</p>'
+ + '<a class="buynow" style="display:block;text-decoration:none;text-align:center" href="https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Confirmar datos de entrega por WhatsApp</a>'
+ + '<button class="backbtn light" id="c-done" style="margin-top:12px">← Seguir explorando</button></div>';
+ var dn = document.getElementById('c-done'); if(dn) dn.onclick = function(){ closeCart(); };
+ });
+ },
+ onError: function(err){ console.error('PayPal error:', err); alert('Hubo un problema con PayPal. Intenta de nuevo.'); }
+ }).render('#paypal-button-container');
+ }
+ if(typeof paypal === 'undefined'){
+ var s = document.createElement('script');
+ s.src = 'https://www.paypal.com/sdk/js?client-id=' + PAYPAL_CLIENT_ID + '&currency=USD&intent=capture';
+ s.onload = init; document.head.appendChild(s);
+ } else { init(); }
+ }
+ function openCart(){ renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; }
+ function closeCart(){ cartwrap.classList.remove('open'); document.body.style.overflow = ''; }
+ document.getElementById('cartbtn').addEventListener('click', openCart);
+ document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
+ document.getElementById('cartscrim').addEventListener('click', closeCart);
+ document.getElementById('c-back').addEventListener('click', closeCart);
 
-  /* ---------- Filtros / búsqueda ---------- */
-  document.getElementById('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
-  document.getElementById('f-genero').addEventListener('click', function(e){
-    var b = e.target.closest('.chip'); if(!b) return;
-    Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.classList.remove('on'); });
-    b.classList.add('on'); state.genero = b.getAttribute('data-g'); render();
-  });
-  fm.addEventListener('click', function(e){
-    var b = e.target.closest('.chip'); if(!b) return;
-    Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.classList.remove('on'); });
-    b.classList.add('on'); state.marca = b.getAttribute('data-m'); render();
-  });
-  document.getElementById('f-precio').addEventListener('change', function(e){ state.precio = e.target.value; render(); });
-  document.getElementById('sort').addEventListener('change', function(e){ state.sort = e.target.value; render(); });
-  document.getElementById('clearf').addEventListener('click', function(){
-    state = { q:'', genero:'', marca:'', precio:'', sort:'' };
-    document.getElementById('q').value = '';
-    document.querySelector('#f-precio input').checked = true;
-    document.getElementById('sort').value = '';
-    Array.prototype.forEach.call(document.querySelectorAll('#f-genero .chip, #f-marca .chip'), function(x,ix){ x.classList.toggle('on', ix===0 || x.getAttribute('data-m')===''); });
-    render();
-  });
-  document.getElementById('fbtn').addEventListener('click', function(){ document.getElementById('filters').classList.toggle('open'); });
-  document.getElementById('verif').textContent = 'Precios verificados el ' + ZAP_VERIFICADO + '. El catálogo se actualiza a diario; si un modelo se agotó, te devolvemos el 100%.';
-  updateBadges();
-  render();
+ /* ---------- Filtros / búsqueda ---------- */
+ document.getElementById('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
+ document.getElementById('f-genero').addEventListener('click', function(e){
+ var b = e.target.closest('.chip'); if(!b) return;
+ Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.classList.remove('on'); });
+ b.classList.add('on'); state.genero = b.getAttribute('data-g'); render();
+ });
+ fm.addEventListener('click', function(e){
+ var b = e.target.closest('.chip'); if(!b) return;
+ Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.classList.remove('on'); });
+ b.classList.add('on'); state.marca = b.getAttribute('data-m'); render();
+ });
+ document.getElementById('f-precio').addEventListener('change', function(e){ state.precio = e.target.value; render(); });
+ document.getElementById('sort').addEventListener('change', function(e){ state.sort = e.target.value; render(); });
+ document.getElementById('clearf').addEventListener('click', function(){
+ state = { q:'', genero:'', marca:'', precio:'', sort:'' };
+ document.getElementById('q').value = '';
+ document.querySelector('#f-precio input').checked = true;
+ document.getElementById('sort').value = '';
+ Array.prototype.forEach.call(document.querySelectorAll('#f-genero .chip, #f-marca .chip'), function(x,ix){ x.classList.toggle('on', ix===0 || x.getAttribute('data-m')===''); });
+ render();
+ });
+ document.getElementById('fbtn').addEventListener('click', function(){ document.getElementById('filters').classList.toggle('open'); });
+ document.getElementById('verif').textContent = 'Precios verificados el ' + ZAP_VERIFICADO + '. El catálogo se actualiza a diario; si un modelo se agotó, te devolvemos el 100%.';
+ updateBadges();
+ render();
 })();
 
 /* ===== Menú y cuenta (igual que el resto del sitio) ===== */
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ document.getElementById('menu').classList.remove('open'); });
 function routeMiCuenta(tipo, slug){
-  if(tipo === 'vendedor' && slug){ location.href = '/Dominus/vendedor/index.html?s=' + encodeURIComponent(slug) + '&edit=1'; }
-  else if(tipo === 'vendedor'){ location.href = '/Dominus/vendedor/cuenta.html'; }
-  else { location.href = '/Dominus/comprador/perfil.html'; }
+ if(tipo === 'vendedor' && slug){ location.href = '/Dominus/vendedor/index.html?s=' + encodeURIComponent(slug) + '&edit=1'; }
+ else if(tipo === 'vendedor'){ location.href = '/Dominus/vendedor/cuenta.html'; }
+ else { location.href = '/Dominus/comprador/perfil.html'; }
 }
 function goMiCuenta(){
-  try{
-    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
-    if(!(s && s.access_token)) return true;
-    var tipo = localStorage.getItem('dominus_tipo');
-    var slug = localStorage.getItem('dominus_slug');
-    if(tipo){ routeMiCuenta(tipo, slug); return false; }
-    var uid = (s.user && s.user.id) || null;
-    if(!uid) return true;
-    var H = { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token };
-    fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid + '&select=tipo', { headers: H })
-    .then(function(r){ return r.json(); })
-    .then(function(rows){
-      var t = (rows && rows[0] && rows[0].tipo) || 'comprador';
-      try{ localStorage.setItem('dominus_tipo', t); }catch(e){}
-      if(t === 'vendedor'){
-        fetch(SUPABASE_URL + '/rest/v1/sellers?user_id=eq.' + uid + '&select=slug', { headers: H })
-        .then(function(r){ return r.json(); })
-        .then(function(r2){
-          var sl = (r2 && r2[0] && r2[0].slug) || null;
-          if(sl){ try{ localStorage.setItem('dominus_slug', sl); }catch(e){} }
-          routeMiCuenta(t, sl);
-        }).catch(function(){ routeMiCuenta(t, null); });
-      } else { routeMiCuenta(t, null); }
-    }).catch(function(){ location.href = '/Dominus/cuenta.html'; });
-    return false;
-  }catch(e){ return true; }
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(!(s && s.access_token)) return true;
+ var tipo = localStorage.getItem('dominus_tipo');
+ var slug = localStorage.getItem('dominus_slug');
+ if(tipo){ routeMiCuenta(tipo, slug); return false; }
+ var uid = (s.user && s.user.id) || null;
+ if(!uid) return true;
+ var H = { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token };
+ fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid + '&select=tipo', { headers: H })
+ .then(function(r){ return r.json(); })
+ .then(function(rows){
+ var t = (rows && rows[0] && rows[0].tipo) || 'comprador';
+ try{ localStorage.setItem('dominus_tipo', t); }catch(e){}
+ if(t === 'vendedor'){
+ fetch(SUPABASE_URL + '/rest/v1/sellers?user_id=eq.' + uid + '&select=slug', { headers: H })
+ .then(function(r){ return r.json(); })
+ .then(function(r2){
+ var sl = (r2 && r2[0] && r2[0].slug) || null;
+ if(sl){ try{ localStorage.setItem('dominus_slug', sl); }catch(e){} }
+ routeMiCuenta(t, sl);
+ }).catch(function(){ routeMiCuenta(t, null); });
+ } else { routeMiCuenta(t, null); }
+ }).catch(function(){ location.href = '/Dominus/cuenta.html'; });
+ return false;
+ }catch(e){ return true; }
 }
 function doLogout(){
-  try{
-    localStorage.removeItem('dominus_session');
-    localStorage.removeItem('dominus_tipo');
-    localStorage.removeItem('dominus_slug');
-  }catch(e){}
-  location.href = '/Dominus/index.html';
-  return false;
+ try{
+ localStorage.removeItem('dominus_session');
+ localStorage.removeItem('dominus_tipo');
+ localStorage.removeItem('dominus_slug');
+ }catch(e){}
+ location.href = '/Dominus/index.html';
+ return false;
 }
 (function(){
-  try{
-    var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
-    if(s && s.access_token){
-      var b = document.getElementById('menu-logout');
-      if(b) b.style.display = 'block';
-    }
-  }catch(e){}
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(s && s.access_token){
+ var b = document.getElementById('menu-logout');
+ if(b) b.style.display = 'block';
+ }
+ }catch(e){}
 })();
 </script>
 </body>
