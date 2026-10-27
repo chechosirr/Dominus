@@ -127,6 +127,8 @@ function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace
 function money(n){ return '$' + Number(n).toFixed(2); }
 
 function renderAjustes(){
+  var mw = document.querySelector('.menu-wrap');
+  if(mw) mw.style.display = 'none';
   var volver = document.getElementById('btn-volver');
   if(volver) volver.href = 'index.html?s=' + encodeURIComponent(seller.slug);
   document.getElementById('main').innerHTML =
