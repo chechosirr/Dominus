@@ -1078,18 +1078,34 @@ document.getElementById('hdr-back').onclick = function(){ showView('menu'); };
 function loadSales(tok){
   var box = document.getElementById('sales-list');
   if(!box) return;
-  fetch(SUPABASE_URL + '/rest/v1/orders?seller_id=eq.' + SELLER.id + '&select=titulo,precio,qty,created_at&order=created_at.desc&limit=50',
+  fetch(SUPABASE_URL + '/rest/v1/orders?seller_id=eq.' + SELLER.id + '&select=titulo,precio,qty,created_at&order=created_at.desc&limit=200',
     { headers: edH(tok) })
     .then(function(r){ return r.json(); })
     .then(function(rows){
       if(!rows || !rows.length){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">A\u00FAn no tienes ventas.</p>'; return; }
       var total = rows.reduce(function(s, o){ return s + Number(o.precio) * o.qty; }, 0);
+      var groups = [], byKey = {};
+      rows.forEach(function(o){
+        var d = new Date(o.created_at);
+        var k = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2);
+        if(!byKey[k]){
+          var lbl = d.toLocaleDateString('es', { month: 'long', year: 'numeric' });
+          byKey[k] = { label: lbl.charAt(0).toUpperCase() + lbl.slice(1), items: [], total: 0 };
+          groups.push(byKey[k]);
+        }
+        byKey[k].items.push(o);
+        byKey[k].total += Number(o.precio) * o.qty;
+      });
+      var rowHTML = function(o){
+        var d = new Date(o.created_at);
+        var f = d.toLocaleDateString('es-NI', { day:'numeric', month:'short' });
+        return '<div class="edit-row"><label>' + esc(o.titulo) + ' <small style="color:var(--mut)">(' + f + ')</small></label>'
+          + '<span style="flex:1;text-align:right;font-size:15px">' + o.qty + ' \u00D7 ' + money(o.precio) + ' = <b>' + money(Number(o.precio) * o.qty) + '</b></span></div>';
+      };
       box.innerHTML = '<p style="font-size:14px;color:var(--mut);margin-bottom:12px">Total vendido: <b style="color:var(--txt)">' + money(total) + '</b></p>'
-        + rows.map(function(o){
-          var d = new Date(o.created_at);
-          var f = d.toLocaleDateString('es-NI', { day:'numeric', month:'short', year:'numeric' });
-          return '<div class="edit-row"><label>' + esc(o.titulo) + ' <small style="color:var(--mut)">(' + f + ')</small></label>'
-            + '<span style="flex:1;text-align:right;font-size:15px">' + o.qty + ' \u00D7 ' + money(o.precio) + ' = <b>' + money(Number(o.precio) * o.qty) + '</b></span></div>';
+        + groups.map(function(g){
+          return '<div style="background:#171b29;border:1px solid #2b3049;border-radius:10px;padding:9px 13px;margin:16px 0 8px;font-size:14px;color:#fff"><b>' + esc(g.label) + '</b> · ' + money(g.total) + ' del mes · ' + g.items.length + (g.items.length === 1 ? ' venta' : ' ventas') + '</div>'
+            + g.items.map(rowHTML).join('');
         }).join('');
     })
     .catch(function(){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">No se pudo cargar.</p>'; });
