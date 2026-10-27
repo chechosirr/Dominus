@@ -168,7 +168,7 @@ var _prof = null;
 // cuando loadShipForm() termina de cargar _prof (carga asíncrona).
 function waOrderURL(){
   var nm = (session && session.user && session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
-  var lines = cart.map(function(it){ return '• ' + it.products.titulo + ' x' + it.qty + ' (' + money(Number(it.products.precio) * it.qty) + ') — ' + it.products.sellers.nombre; });
+  var lines = cart.map(function(it){ return '• ' + it.products.titulo + (it.talla ? ' · Talla ' + it.talla : '') + ' x' + it.qty + ' (' + money(Number(it.products.precio) * it.qty) + ') — ' + it.products.sellers.nombre; });
   var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
   var total = calcFees(subtotal).total;
   var msg = 'Hola Dominus, mi pedido:\n' + lines.join('\n') + '\nTotal: ' + money(total);
@@ -237,7 +237,7 @@ function saveOrders(ppId){
       buyer_id: session.user.id,
       seller_id: it.products.seller_id,
       product_id: it.products.id,
-      titulo: it.products.titulo,
+      titulo: it.products.titulo + (it.talla ? ' · Talla ' + it.talla : ''),
       precio: it.products.precio,
       qty: it.qty,
       paypal_order_id: ppId
@@ -313,7 +313,7 @@ function render(){
     html += cart.map(function(it){
       var p = it.products;
       return '<div class="item">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="">' : '')
-        + '<div class="info"><b>' + esc(p.titulo) + '</b><small>' + esc(p.sellers.nombre) + ' · ' + money(p.precio) + ' c/u</small><br>'
+        + '<div class="info"><b>' + esc(p.titulo) + '</b><small>' + esc(p.sellers.nombre) + (it.talla ? ' · Talla ' + esc(it.talla) : '') + ' · ' + money(p.precio) + ' c/u</small><br>'
         + '<button class="rm" data-rm="' + it.id + '">quitar</button></div>'
         + '<div class="qty"><button data-dec="' + it.id + '">−</button><b>' + it.qty + '</b><button data-inc="' + it.id + '">+</button></div>'
         + '<span class="pa">' + money(Number(p.precio) * it.qty) + '</span></div>';

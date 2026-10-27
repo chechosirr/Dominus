@@ -33,6 +33,9 @@ main{max-width:900px;margin:0 auto;padding:22px 18px 70px}
 .pd-seller{font-size:14px;color:var(--mut);margin-bottom:12px}
 .pd-seller a{color:var(--acc);text-decoration:none;font-weight:700}
 .pd-price{font-size:34px;font-weight:900;color:#4a4a52!important;background:none!important;-webkit-background-clip:unset!important;background-clip:unset!important;margin:10px 0 16px}
+.tsz-row{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 14px}
+.tsz{background:var(--card);border:1px solid var(--line);color:#fff;border-radius:999px;padding:9px 16px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer}
+.tsz.on{background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border-color:transparent}
 .btn{display:block;width:100%;background:var(--acc);color:#0a0c10;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer;text-align:center;text-decoration:none;margin-top:10px}
 .btn-ghost{background:none;border:1px solid var(--line);color:var(--txt)}
 .sec{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;margin-top:20px}
@@ -156,6 +159,13 @@ function render(){
     + '<div class="pd-seller">Vendido por <a href="../vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a>' + (s.verificado ? ' ✓' : '') + '</div>'
     + (REVIEWS.length ? '<div>' + starsHTML(avg) + ' <small style="color:var(--mut)">' + avg.toFixed(1) + ' · ' + REVIEWS.length + ' reseña(s)</small></div>' : '<small style="color:var(--mut)">Sin reseñas aún</small>')
     + '<div class="pd-price">' + money(p.precio) + '</div>'
+    + (function(){
+        var ts = p.tallas ? String(p.tallas).split(',').map(function(s){ return s.trim(); }).filter(Boolean) : [];
+        if(!ts.length) return '';
+        return '<div><label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 2px">Talla</label><div class="tsz-row" id="tsz-row">'
+          + ts.map(function(t){ return '<button type="button" class="tsz" data-t="' + esc(t) + '">' + esc(t) + '</button>'; }).join('')
+          + '</div></div>';
+      })()
     + '<a class="btn" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar</a>'
     + '<button class="btn btn-ghost" id="btn-cart">+ Agregar al carrito</button></div></div>';
   if(p.descripcion) html += '<div class="sec"><h2>Descripción</h2><p class="desc">' + esc(p.descripcion) + '</p></div>';
@@ -178,14 +188,26 @@ function render(){
   html += '</div>';
   document.getElementById('main').innerHTML = html;
 
+  var selTalla = '';
+  var trow = document.getElementById('tsz-row');
+  if(trow){
+    trow.querySelectorAll('.tsz').forEach(function(b){
+      b.onclick = function(){
+        trow.querySelectorAll('.tsz').forEach(function(x){ x.classList.remove('on'); });
+        b.classList.add('on');
+        selTalla = b.dataset.t;
+      };
+    });
+  }
   document.getElementById('btn-cart').onclick = function(){
     var b = this;
     if(!sess){ location.href = '../cuenta.html?tipo=comprador'; return; }
+    if(trow && !selTalla){ alert('Elige una talla primero.'); return; }
     b.disabled = true; b.textContent = 'Agregando…';
     fetch(SUPABASE_URL + '/rest/v1/cart_items', {
       method: 'POST',
       headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates,return=representation' },
-      body: JSON.stringify({ user_id: sess.user.id, product_id: PRODUCT.id, qty: 1 })
+      body: JSON.stringify({ user_id: sess.user.id, product_id: PRODUCT.id, qty: 1, talla: selTalla || '' })
     }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
       .then(function(res){
         if(res.ok && res.j.length && res.j[0].qty > 1){
