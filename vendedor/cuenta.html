@@ -75,15 +75,22 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     <div id="form-in">
       <label>Correo electrónico</label>
       <input id="in-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
-      <label>Contraseña</label>
-      <input id="in-pass" type="password" placeholder="••••••••" autocomplete="current-password">
-      <button class="btn" id="btn-in">Entrar a mi panel</button>
+      <p class="hint">Sin contraseña: te enviamos un código de 6 dígitos a tu correo para entrar.</p>
+      <button class="btn" id="btn-in">Enviar código</button>
     </div>
+      <div id="form-code" class="hidden">
+        <p id="code-msg" style="font-size:14px;color:#e8ecf1"></p>
+        <label>Código de 6 dígitos</label>
+        <input id="code-input" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="123456" style="letter-spacing:6px;font-size:20px;text-align:center">
+        <button class="btn" id="btn-code">Verificar y entrar</button>
+        <button class="btn btn-ghost" id="btn-resend" style="background:none;border:1px solid #2c3542;color:#9aa0a8;margin-top:10px">Pedir otro código</button>
+        <p id="code-tries" style="font-size:12px;color:#ff9c9c;margin-top:10px"></p>
+      </div>
+
     <div id="form-up" class="hidden">
       <label>Correo electrónico</label>
       <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
-      <label>Contraseña (mínimo 6 caracteres)</label>
-      <input id="up-pass" type="password" placeholder="••••••••" autocomplete="new-password">
+      <p class="hint">Sin contraseña: te enviaremos un código de 6 dígitos a tu correo para confirmar tu cuenta.</p>
       <button class="btn" id="btn-up">Crear mi cuenta</button>
       <p class="hint">Al crear tu cuenta aceptas las reglas de Dominus: productos físicos reales, envío con rastreo y atención honesta al comprador.</p>
     </div>
@@ -159,8 +166,8 @@ function saveSession(s){ localStorage.setItem('dominus_session', JSON.stringify(
 function getSession(){ try { return JSON.parse(localStorage.getItem('dominus_session')); } catch(e){ return null; } }
 
 var tabIn = document.getElementById('tab-in'), tabUp = document.getElementById('tab-up');
-tabIn.onclick = function(){ tabIn.classList.add('on'); tabUp.classList.remove('on'); document.getElementById('form-in').classList.remove('hidden'); document.getElementById('form-up').classList.add('hidden'); hideErr('err'); };
-tabUp.onclick = function(){ tabUp.classList.add('on'); tabIn.classList.remove('on'); document.getElementById('form-up').classList.remove('hidden'); document.getElementById('form-in').classList.add('hidden'); hideErr('err'); };
+tabIn.onclick = function(){ tabIn.classList.add('on'); tabUp.classList.remove('on'); document.getElementById('form-in').classList.remove('hidden'); document.getElementById('form-up').classList.add('hidden'); document.getElementById('form-code').classList.add('hidden'); hideErr('err'); };
+tabUp.onclick = function(){ tabUp.classList.add('on'); tabIn.classList.remove('on'); document.getElementById('form-up').classList.remove('hidden'); document.getElementById('form-in').classList.add('hidden'); document.getElementById('form-code').classList.add('hidden'); hideErr('err'); };
 
 function afterAuth(session){
   saveSession(session);
@@ -183,33 +190,77 @@ function afterAuthSeller(session){
     });
 }
 
+/* ===== Entrada con código de 6 dígitos por correo (sin contraseña) =====
+   Seguridad: solo vale UN código a la vez (pedir otro anula el anterior),
+   cada código sirve una sola vez y tras 5 intentos fallidos queda anulado. */
+var OTP = { email: null, mode: null, tries: 0, max: 5 };
+function otpUI(){
+  document.getElementById('form-in').classList.add('hidden');
+  document.getElementById('form-up').classList.add('hidden');
+  document.getElementById('form-code').classList.remove('hidden');
+  document.getElementById('code-msg').textContent = 'Te enviamos un código de 6 dígitos a ' + OTP.email + '. Revisa tu correo (y la carpeta de spam).';
+  document.getElementById('code-tries').textContent = '';
+  var ci = document.getElementById('code-input'); ci.value = ''; ci.disabled = false;
+  document.getElementById('btn-code').disabled = false;
+  setTimeout(function(){ ci.focus(); }, 60);
+}
+function otpSend(email, mode){
+  hideErr('err');
+  OTP.email = email; OTP.mode = mode; OTP.tries = 0;
+  fetch(SUPABASE_URL + '/auth/v1/otp', {
+    method: 'POST', headers: headers(),
+    body: JSON.stringify({ email: email, create_user: mode === 'up' })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok){
+        var m = (res.j && (res.j.msg || res.j.error_description)) || '';
+        if(mode === 'in' && /signup|not allowed/i.test(m)) showErr('err', 'Ese correo no tiene cuenta. Ve a "Crear cuenta" para registrarte.');
+        else if(/rate|too many|seconds/i.test(m)) showErr('err', 'Espera un momento antes de pedir otro código.');
+        else showErr('err', m || 'No se pudo enviar el código. Intenta de nuevo en un momento.');
+        return;
+      }
+      otpUI();
+    }).catch(function(){ showErr('err', 'Error de conexión. Intenta de nuevo.'); });
+}
+document.getElementById('btn-resend').onclick = function(){ if(OTP.email) otpSend(OTP.email, OTP.mode); };
+document.getElementById('btn-code').onclick = function(){
+  hideErr('err');
+  var code = document.getElementById('code-input').value.replace(/\D/g, '');
+  if(code.length !== 6){ showErr('err', 'Escribe el código de 6 dígitos que te llegó al correo.'); return; }
+  if(OTP.tries >= OTP.max){ showErr('err', 'Este código ya quedó anulado por demasiados intentos. Pide otro código.'); return; }
+  fetch(SUPABASE_URL + '/auth/v1/verify', {
+    method: 'POST', headers: headers(),
+    body: JSON.stringify({ email: OTP.email, token: code, type: 'email' })
+  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+    .then(function(res){
+      if(!res.ok){
+        OTP.tries++;
+        if(OTP.tries >= OTP.max){
+          document.getElementById('code-input').disabled = true;
+          document.getElementById('btn-code').disabled = true;
+          document.getElementById('code-tries').textContent = 'Código anulado por demasiados intentos. Pide otro código para seguir.';
+          showErr('err', 'Demasiados intentos: el código quedó anulado por seguridad.');
+        } else {
+          document.getElementById('code-tries').textContent = 'Código incorrecto. Te quedan ' + (OTP.max - OTP.tries) + ' intentos.';
+          showErr('err', 'Ese código no es válido. Revisa el correo más reciente.');
+        }
+        return;
+      }
+      afterAuth(res.j);
+    }).catch(function(){ showErr('err', 'Error de conexión. Intenta de nuevo.'); });
+};
 document.getElementById('btn-in').onclick = function(){
   hideErr('err');
   var email = document.getElementById('in-email').value.trim();
-  var pass = document.getElementById('in-pass').value;
-  if(!email || !pass){ showErr('err', 'Escribe tu correo y contraseña.'); return; }
-  fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
-    method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass })
-  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
-    .then(function(res){
-      if(!res.ok){ showErr('err', res.j.msg || res.j.error_description || 'No se pudo entrar. Revisa tus datos.'); return; }
-      afterAuth(res.j);
-    }).catch(function(){ showErr('err', 'Error de conexión. Intenta de nuevo.'); });
+  if(!email || email.indexOf('@') < 0){ showErr('err', 'Escribe tu correo electrónico.'); return; }
+  otpSend(email, 'in');
 };
 
 document.getElementById('btn-up').onclick = function(){
   hideErr('err');
   var email = document.getElementById('up-email').value.trim();
-  var pass = document.getElementById('up-pass').value;
-  if(!email || pass.length < 6){ showErr('err', 'Escribe un correo válido y una contraseña de mínimo 6 caracteres.'); return; }
-  fetch(SUPABASE_URL + '/auth/v1/signup', {
-    method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass })
-  }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
-    .then(function(res){
-      if(!res.ok){ showErr('err', res.j.msg || 'No se pudo crear la cuenta.'); return; }
-      if(res.j.session){ afterAuth(res.j.session); }
-      else { showOk('Cuenta creada. Revisa tu correo para confirmarla y luego entra.'); }
-    }).catch(function(){ showErr('err', 'Error de conexión. Intenta de nuevo.'); });
+  if(!email || email.indexOf('@') < 0){ showErr('err', 'Escribe un correo válido.'); return; }
+  otpSend(email, 'up');
 };
 
 
