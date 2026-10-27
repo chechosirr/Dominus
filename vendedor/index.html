@@ -391,21 +391,42 @@ function renderWallProducts(prods, own){
   var cats = [];
   prods.forEach(function(p){ var c = p.categoria || 'General'; if(cats.indexOf(c) < 0) cats.push(c); });
   grid.className = '';
+  var lupa = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-2px;margin-right:6px"><circle cx="10.5" cy="10.5" r="7"></circle><line x1="16" y1="16" x2="22" y2="22"></line></svg>';
   grid.innerHTML = '<div class="catbar" id="catbar">'
+    + '<button class="catchip" id="wall-search-btn">' + lupa + 'Buscar</button>'
     + '<button class="catchip on" data-cat="">Todos</button>'
     + cats.map(function(c){ return '<button class="catchip" data-cat="' + esc(c) + '">' + esc(c) + '</button>'; }).join('')
-    + '</div><div class="grid" id="wall-grid"></div>';
+    + '</div>'
+    + '<div id="wall-search-row" style="display:none;margin-bottom:14px"><input id="wall-search" type="search" placeholder="Buscar en esta tienda..." style="width:100%;background:#0a0c13;border:1px solid #2b3049;border-radius:12px;padding:13px 15px;color:#fff;font-family:inherit;font-size:15px"></div>'
+    + '<div class="grid" id="wall-grid"></div>';
   var wg = document.getElementById('wall-grid');
-  var draw = function(cat){
-    var list = cat ? prods.filter(function(p){ return (p.categoria || 'General') === cat; }) : prods;
-    wg.innerHTML = list.map(function(p){ return prodCardHTML(p, own); }).join('');
+  var curCat = '', query = '';
+  var draw = function(){
+    var list = prods.filter(function(p){
+      if(query) return p.titulo.toLowerCase().indexOf(query.toLowerCase()) >= 0;
+      return !curCat || (p.categoria || 'General') === curCat;
+    });
+    wg.innerHTML = list.length ? list.map(function(p){ return prodCardHTML(p, own); }).join('') : '<p style="color:#fff;grid-column:1/-1;text-align:center;padding:16px">No se encontraron productos.</p>';
   };
-  draw('');
-  grid.querySelectorAll('.catchip').forEach(function(ch){
+  draw();
+  var sBtn = document.getElementById('wall-search-btn');
+  var sRow = document.getElementById('wall-search-row');
+  var sInp = document.getElementById('wall-search');
+  sBtn.onclick = function(){
+    var open = sRow.style.display !== 'none';
+    sRow.style.display = open ? 'none' : '';
+    sBtn.classList.toggle('on', !open);
+    if(open){ query = ''; sInp.value = ''; draw(); }
+    else { sInp.focus(); }
+  };
+  sInp.oninput = function(){ query = sInp.value.trim(); draw(); };
+  grid.querySelectorAll('.catchip[data-cat]').forEach(function(ch){
     ch.onclick = function(){
-      grid.querySelectorAll('.catchip').forEach(function(x){ x.classList.remove('on'); });
+      grid.querySelectorAll('.catchip[data-cat]').forEach(function(x){ x.classList.remove('on'); });
       ch.classList.add('on');
-      draw(ch.dataset.cat || '');
+      curCat = ch.dataset.cat || '';
+      query = ''; sInp.value = '';
+      draw();
     };
   });
 }
