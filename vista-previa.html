@@ -6,8 +6,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dominus — Zapatos por encargo</title>
-<meta name="description" content="Zapatos por encargo con entrega en Nicaragua. Elige modelo y talla, paga con PayPal y te lo entregamos en la puerta de tu casa.">
+<title>Dominus — Zapatos</title>
+<meta name="description" content="Zapatos con entrega en Nicaragua. Elige modelo y talla, paga con PayPal y te lo entregamos en la puerta de tu casa.">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -158,7 +158,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
     <button id="menu-btn" aria-label="Menú">☰</button>
     <nav class="menu" id="menu">
       <a href="index.html">Inicio</a>
-      <a href="revendedores.html">Revendedores</a>
+      <a href="revendedores.html">Comercios Nacional</a>
       <a href="cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
       <a href="#" id="menu-cart">Carrito <span id="cart-count" class="cbadge"></span></a>
       <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
@@ -167,8 +167,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 </header>
 
 <div class="sections">
-  <a class="on" href="index.html">👟 Zapatos por encargo</a>
-  <a class="off" href="revendedores.html">🏪 Revendedores</a>
+  <a class="on" href="index.html">👟 Zapatos</a>
+  <a class="off" href="revendedores.html">🏪 Comercios Nacional</a>
 </div>
 <div class="promo">Nuestra tienda · Envío marítimo a todo Nicaragua · Entrega en la puerta de tu casa</div>
 
@@ -181,8 +181,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 </div>
 
 <div class="wrap">
-  <div class="crumbs">Inicio › <b>Zapatos por encargo</b></div>
-  <h1>Zapatos por encargo</h1>
+  <div class="crumbs">Inicio › <b>Zapatos</b></div>
+  <h1>Zapatos</h1>
   <div class="count" id="count"></div>
 
   <div class="layout">
@@ -244,7 +244,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   </section>
 </div>
 
-<footer>© 2026 Dominus · Zapatos por encargo con entrega en Nicaragua</footer>
+<footer>© 2026 Dominus · Zapatos con entrega en Nicaragua</footer>
 
 <!-- ===== Detalle del producto ===== -->
 <div class="detail" id="detail" role="dialog" aria-modal="true">
@@ -523,7 +523,7 @@ var WA_NUMBER = "15704698339";
             return { name: (p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
                      unit_amount: { currency_code: 'USD', value: p.precio.toFixed(2) } };
           });
-          var desc = ('Zapatos por encargo Dominus · ' + t.pares + ' par(es)' + (sd.telefono ? ' · Tel ' + sd.telefono : '') + (sd.ciudad ? ' · ' + sd.ciudad : '')).slice(0,127);
+          var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sd.telefono ? ' · Tel ' + sd.telefono : '') + (sd.ciudad ? ' · ' + sd.ciudad : '')).slice(0,127);
           return actions.order.create({
             intent: 'CAPTURE',
             application_context: { brand_name: 'Dominus', shipping_preference: 'GET_FROM_FILE' },
@@ -542,7 +542,7 @@ var WA_NUMBER = "15704698339";
             var sd = shipData();
             var nombre = ((details.payer && details.payer.name && details.payer.name.given_name) || sd.nombre || '');
             var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
-            var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos por encargo.\nPedido PayPal: ' + data.orderID + '\n' + lines.join('\n')
+            var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\n' + lines.join('\n')
               + '\nTotal pagado: ' + money(t.total)
               + '\n\nEntrega: ' + (sd.nombre || nombre)
               + (sd.direccion ? '\n' + sd.direccion : '') + (sd.ciudad ? '\n' + sd.ciudad : '') + (sd.telefono ? '\nContacto: ' + sd.telefono : '');

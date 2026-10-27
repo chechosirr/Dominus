@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dominus — Revendedores · Compra y vende seguro</title>
+<title>Dominus — Comercios Nacional · Compra y vende seguro</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -110,14 +110,23 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     <button id="menu-btn" aria-label="Menú">☰</button>
     <nav class="menu" id="menu">
       <a href="index.html">Inicio</a>
-      <a href="revendedores.html">Revendedores</a>
+      <a href="revendedores.html">Comercios Nacional</a>
       <a href="cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
       <a href="comprador/perfil.html">Carrito <span id="cart-count" class="cbadge"></span></a>
           <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
 </nav>
   </div>
 </header>
-<div style="background:#17171a;color:#f2f2f3;text-align:center;font-size:.88rem;padding:9px 12px">Estás en la sección <b>Revendedores</b> · Nuestra tienda de zapatos está en la <a href="index.html" style="color:#fff;font-weight:800">página principal →</a></div>
+<style>
+.sections{display:flex;gap:8px;max-width:1180px;margin:0 auto;width:100%;padding:12px 18px 0}
+.sections a{flex:1;text-align:center;padding:12px 8px;border-radius:12px;font-weight:800;font-size:.98rem;text-decoration:none;border:1.5px solid #2a2a2e;font-family:'Source Sans 3',Archivo,Arial,sans-serif}
+.sections a.on{background:#2a2a2e;color:#fff}
+.sections a.off{background:#fff;color:#2a2a2e}
+</style>
+<div class="sections">
+  <a class="off" href="index.html">👟 Zapatos</a>
+  <a class="on" href="revendedores.html">🏪 Comercios Nacional</a>
+</div>
 <div class="hero">
   <h1>Encuentra de todo.<br><span class="hl">Compra protegido.</span></h1>
   <p>Miles de productos físicos de vendedores verificados. Pagas por PayPal y lo recibes con número de rastreo.</p>
@@ -152,7 +161,7 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
   </div>
 
   <div class="sell-strip" id="outlet-usa">
-    <span><b>Nuevo · Zapatos por encargo:</b> elige modelo y talla, nosotros lo compramos por vos y te lo entregamos en la puerta de tu casa en Nicaragua.</span>
+    <span><b>Nuevo · Zapatos:</b> elige modelo y talla, nosotros lo compramos por vos y te lo entregamos en la puerta de tu casa en Nicaragua.</span>
     <a class="btn btn-acc" href="index.html" style="padding:12px 26px;font-size:14px">Ver modelos</a>
   </div>
 
