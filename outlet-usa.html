@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dominus — Outlet USA: zapatos de EE. UU. puestos en Nicaragua</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--line:#1e242e;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--card:#101318}
+body{background:#ffffff;color:#111111;font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+a{color:inherit}
+header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:#2a2a2e;border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;color:#111111!important}
+.logo em{font-style:normal}
+.menu-wrap{position:relative;margin-left:auto}
+#menu-btn{background:none;border:1px solid var(--line);color:#f2f4f8;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
+.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:50}
+.menu.open{display:block}
+.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#f2f4f8}
+.menu a:last-child{border-bottom:0}
+.hero{position:relative;overflow:hidden;padding:56px 22px 44px;text-align:center}
+.hero:before{content:"";position:absolute;inset:-40%;background:radial-gradient(ellipse at 30% 20%,rgba(215,220,227,.28),transparent 55%),radial-gradient(ellipse at 75% 80%,rgba(215,220,227,.14),transparent 55%);pointer-events:none}
+.hero h1{position:relative;font-size:clamp(32px,8vw,64px);font-weight:900;line-height:1.03;letter-spacing:-1px}
+.hero p{position:relative;color:var(--mut);font-size:16px;max-width:600px;margin:16px auto 8px}
+.hero .verif{position:relative;font-size:13px;color:var(--mut)}
+.trust{position:relative;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:18px;font-size:13px;color:var(--mut)}
+main{max-width:1180px;width:100%;margin:0 auto;padding:6px 18px 60px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin:30px 0 14px;gap:10px;flex-wrap:wrap}
+.sec-head h2{font-size:22px;font-weight:800}
+.sec-head small{color:var(--mut);font-size:13px}
+.chips{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;margin-bottom:16px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;padding:10px 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:13px;font-weight:700;cursor:pointer;color:#ffffff}
+.chip.on{background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border-color:#a9b2c0}
+.search{width:100%;padding:13px 16px;border:2px solid #2c3542;border-radius:14px;font-size:16px;font-family:inherit;margin-bottom:14px;background:#fff;color:#111}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.card .ph{aspect-ratio:1;position:relative;overflow:hidden;background:#161b24}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.card .store{position:absolute;top:10px;left:10px;background:rgba(8,9,13,.78);font-size:11px;font-weight:700;padding:5px 11px;border-radius:999px;color:#fff}
+.card .save{position:absolute;top:10px;right:10px;background:#1d7a3a;color:#fff;font-size:11px;font-weight:800;padding:5px 10px;border-radius:999px}
+.card-body{padding:12px;display:flex;flex-direction:column;gap:5px;flex:1}
+.card-title{font-size:15px;font-weight:700;line-height:1.3;color:#fff}
+.card-det{font-size:12px;color:#9aa3af}
+.card-outlet{font-size:12px;color:#9aa3af}
+.card-outlet s{color:#6b7280}
+.card-outlet b{color:#d7dce3}
+.final-lab{font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:#9aa3af;margin-top:6px}
+.card-price{font-size:24px;font-weight:900;line-height:1}
+.card-cord{font-size:13px;color:#9aa3af}
+.card-ref{font-size:12px;color:#c8cfd9;background:rgba(215,220,227,.07);border-radius:10px;padding:7px 9px;line-height:1.4}
+.card-nota{font-size:12px;color:#e8c96a;line-height:1.4}
+.card select{margin-top:8px;width:100%;padding:11px;border-radius:11px;border:1px solid #2c3542;background:#161b24;color:#f2f4f8;font-family:inherit;font-size:14px}
+.buy{margin-top:9px;display:block;text-align:center;background:#25d366;color:#06281a;font-weight:800;font-size:14px;padding:12px;border-radius:12px;text-decoration:none}
+.pay-note{font-size:11px;color:#9aa3af;text-align:center}
+.how{margin-top:38px;background:linear-gradient(135deg,#12161d,#0c0f15);border:1px solid var(--line);border-radius:22px;padding:28px 24px}
+.how h2{font-size:22px;margin-bottom:18px;color:#fff}
+.steps{display:grid;gap:16px}
+.step{display:flex;gap:14px}
+.n{flex:0 0 36px;height:36px;border-radius:12px;background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;font-weight:900;display:grid;place-content:center}
+.step p{font-size:14px;color:#fff;line-height:1.6}
+.pol{margin-top:26px;border:1px solid var(--line);border-radius:22px;padding:26px 24px;background:#fff}
+.pol h2{font-size:20px;margin-bottom:12px}
+.pol ul{margin-left:18px;display:grid;gap:9px;font-size:14px;color:#333;line-height:1.55}
+.empty{grid-column:1/-1;text-align:center;color:var(--mut);padding:40px 10px;font-size:15px}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:12px;padding:26px;margin-top:auto}
+.hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.card-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media(min-width:760px){.grid{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.hero{padding:44px 16px 34px}.grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="index.html">DOMIN<em>US</em></a>
+  <div class="menu-wrap">
+    <button id="menu-btn" aria-label="Menú">☰</button>
+    <nav class="menu" id="menu">
+      <a href="index.html">Inicio</a>
+      <a href="outlet-usa.html">Outlet USA</a>
+      <a href="cuenta.html">Mi cuenta</a>
+      <a href="comprador/perfil.html">Carrito</a>
+    </nav>
+  </div>
+</header>
+<div class="hero">
+  <h1>Zapatos de outlet USA,<br><span class="hl">puestos en Nicaragua.</span></h1>
+  <p>Nosotros cazamos las ofertas en los outlets de Estados Unidos, compramos tu par y lo entregamos en Nicaragua. Tú solo eliges el modelo y tu talla: el precio que ves es el precio final, con flete incluido. También puedes pedirlos desde EE. UU. como regalo para tu familia.</p>
+  <p class="verif">Precios de outlet verificados el <b id="verif-fecha">—</b>. El stock de outlet cambia a diario.</p>
+  <div class="trust">
+    <span>✓ Precio final, sin sorpresas</span><span>✓ 100% originales de tienda outlet</span><span>✓ Pago PayPal, Zelle o transferencia</span>
+  </div>
+</div>
+<main>
+  <div class="how" id="como-funciona">
+    <h2>¿Cómo funciona?</h2>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><p><b>Eliges y pides.</b> Escoge el modelo y tu talla US, y pide por WhatsApp. Confirmamos disponibilidad en la tienda antes de cobrarte.</p></div>
+      <div class="step"><span class="n">2</span><p><b>Pagas el precio final.</b> PayPal, Zelle o transferencia. Es el total puesto en Nicaragua: ya incluye la compra y el flete internacional.</p></div>
+      <div class="step"><span class="n">3</span><p><b>Compramos tu par en EE. UU.</b> Lo adquirimos en el outlet el mismo día y lo enviamos a Nicaragua. Tiempo estimado total: 10 a 18 días.</p></div>
+      <div class="step"><span class="n">4</span><p><b>Lo recibes.</b> Entrega en Managua o envío a tu departamento (el envío local dentro de Nicaragua se cotiza aparte).</p></div>
+    </div>
+  </div>
+
+  <div class="sec-head" id="modelos"><h2>Modelos disponibles</h2><small>Precio final puesto en Nicaragua · Talla se confirma al pedir</small></div>
+  <input class="search" id="q" type="search" placeholder="Buscar modelo o marca…">
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="grid"><div class="empty">Cargando modelos…</div></div>
+
+  <div class="pol" id="politicas">
+    <h2>Antes de pedir, lo claro</h2>
+    <ul>
+      <li><b>Confirmamos antes de cobrar:</b> si tu talla se agotó en el outlet, no pagas nada; si ya pagaste, te devolvemos el 100% o eliges otro modelo.</li>
+      <li><b>Pago anticipado:</b> los pares se compran por encargo con tu pago (PayPal, Zelle o transferencia), porque en outlet las tallas buenas se agotan en horas.</li>
+      <li><b>Sin cambios por talla:</b> gran parte del calzado outlet es venta final y no acepta devoluciones. Revisa bien tu talla US antes de pedir; si dudas entre dos, pregúntanos por WhatsApp.</li>
+      <li><b>Originales:</b> todo se compra en tiendas outlet oficiales de EE. UU. (Nordstrom Rack, Joe's New Balance Outlet, Shop Simon y similares). Nada de réplicas.</li>
+      <li><b>Tiempos:</b> el plazo de 10 a 18 días es estimado (compra + vuelo + entrega local) y puede variar por disponibilidad y aduana.</li>
+      <li><b>Precios:</b> el precio final en dólares es fijo al confirmar tu pedido. El monto en córdobas se calcula al tipo de cambio del día.</li>
+    </ul>
+  </div>
+</main>
+<footer>© 2026 Dominus · Outlet USA — compra en EE. UU., recibe en Nicaragua</footer>
+<script src="outlet-products.js"></script>
+<script>
+function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function money(n){ return '$' + Number(n).toFixed(2); }
+function cordobas(usd){ return 'C$' + Math.round(usd * OUTLET_TC).toLocaleString('es-NI'); }
+document.getElementById('verif-fecha').textContent = OUTLET_VERIFICADO;
+var activeBrand = 'Todo';
+var TALLAS = ['5','5.5','6','6.5','7','7.5','8','8.5','9','9.5','10','10.5','11','12','13'];
+function brands(){
+  var s = {};
+  OUTLET_PRODUCTS.forEach(function(p){ s[p.marca] = 1; });
+  return ['Todo'].concat(Object.keys(s).sort());
+}
+function renderChips(){
+  var el = document.getElementById('chips');
+  el.innerHTML = brands().map(function(b){
+    return '<button class="chip' + (b === activeBrand ? ' on' : '') + '" data-b="' + esc(b) + '">' + esc(b) + '</button>';
+  }).join('');
+  el.querySelectorAll('.chip').forEach(function(btn){
+    btn.onclick = function(){ activeBrand = btn.dataset.b; renderChips(); renderGrid(); };
+  });
+}
+function waLink(p, talla){
+  var msg = 'Hola Dominus, quiero pedir este par de Outlet USA:\n'
+    + '• Modelo: ' + p.nombre + '\n'
+    + '• Talla US: ' + talla + '\n'
+    + '• Precio final puesto en Nicaragua: ' + money(p.precio_final) + ' (' + cordobas(p.precio_final) + ')\n'
+    + '¿Sigue disponible en mi talla?';
+  return 'https://wa.me/' + OUTLET_WA + '?text=' + encodeURIComponent(msg);
+}
+function card(p){
+  var save = p.precio_lista ? Math.round((1 - p.precio_outlet / p.precio_lista) * 100) : 0;
+  var opts = TALLAS.map(function(t){ return '<option value="' + t + '"' + (t === '9' ? ' selected' : '') + '>US ' + t + '</option>'; }).join('');
+  var h = '<div class="card"><div class="ph">' + (p.img ? '<img src="' + esc(p.img) + '" alt="' + esc(p.nombre) + '" loading="lazy">' : '')
+    + '<span class="store">' + esc(p.tienda) + '</span>' + (save > 0 ? '<span class="save">−' + save + '% outlet</span>' : '') + '</div>'
+    + '<div class="card-body"><div class="card-title">' + esc(p.nombre) + '</div>'
+    + '<div class="card-det">' + esc(p.detalle) + '</div>'
+    + '<div class="card-outlet">Outlet EE. UU.: ' + (p.precio_lista ? '<s>' + money(p.precio_lista) + '</s> ' : '') + '<b>' + money(p.precio_outlet) + '</b></div>'
+    + '<div class="final-lab">Precio final en Nicaragua</div>'
+    + '<div class="card-price">' + money(p.precio_final) + '</div>'
+    + '<div class="card-cord">' + cordobas(p.precio_final) + ' · flete incluido</div>'
+    + (p.ref_ni ? '<div class="card-ref">' + esc(p.ref_ni) + '</div>' : '')
+    + (p.nota ? '<div class="card-nota">' + esc(p.nota) + '</div>' : '')
+    + '<label style="font-size:12px;color:#9aa3af;font-weight:700">Tu talla (US)</label>'
+    + '<select id="sz-' + esc(p.id) + '">' + opts + '</select>'
+    + '<a class="buy" href="#" onclick="return pedir(\'' + esc(p.id) + '\')">Pedir por WhatsApp</a>'
+    + '<div class="pay-note">Confirmamos tu talla antes de cobrarte</div>'
+    + '</div></div>';
+  return h;
+}
+function pedir(id){
+  var p = null;
+  OUTLET_PRODUCTS.forEach(function(x){ if(x.id === id) p = x; });
+  if(!p) return false;
+  var sel = document.getElementById('sz-' + id);
+  var talla = sel ? sel.value : '9';
+  window.open(waLink(p, talla), '_blank');
+  return false;
+}
+function renderGrid(){
+  var term = (document.getElementById('q').value || '').toLowerCase();
+  var g = document.getElementById('grid');
+  var list = OUTLET_PRODUCTS.filter(function(p){
+    var okB = activeBrand === 'Todo' || p.marca === activeBrand;
+    var okQ = !term || (p.nombre + ' ' + p.marca + ' ' + p.detalle).toLowerCase().indexOf(term) >= 0;
+    return okB && okQ;
+  });
+  if(!list.length){ g.innerHTML = '<div class="empty">No hay modelos con ese criterio. Escríbenos por WhatsApp: buscamos el modelo que quieras en los outlets.</div>'; return; }
+  g.innerHTML = list.map(card).join('');
+}
+document.getElementById('q').addEventListener('input', renderGrid);
+document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
+document.addEventListener('click', function(){ document.getElementById('menu').classList.remove('open'); });
+renderChips(); renderGrid();
+</script>
+</body>
+</html>
