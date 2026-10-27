@@ -202,7 +202,6 @@ function loadShipForm(){
         + fld('sf-ciu', 'Ciudad', p.ciudad, 'Ej: Estelí')
         + fld('sf-dep', 'Departamento', p.departamento, 'Ej: Estelí')
         + fld('sf-pais', 'País', p.pais, 'Ej: Nicaragua')
-        + fld('sf-tel', 'Número de contacto (privado)', p.telefono, 'Ej: 88888888', 'tel')
         + '<button class="btn" id="sf-save" style="margin-top:14px">Guardar datos</button>';
       document.getElementById('sf-save').onclick = saveShipForm;
     })
@@ -214,7 +213,6 @@ function saveShipForm(){
     ciudad: document.getElementById('sf-ciu').value.trim() || null,
     departamento: document.getElementById('sf-dep').value.trim() || null,
     pais: document.getElementById('sf-pais').value.trim() || null,
-    telefono: document.getElementById('sf-tel').value.trim() || null
   };
   var btn = document.getElementById('sf-save');
   btn.textContent = 'Guardando…'; btn.disabled = true;

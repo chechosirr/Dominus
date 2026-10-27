@@ -130,7 +130,7 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
         <div class="form-row">
           <div><label>País *</label>
           <input id="up-pais" type="text" placeholder="Ej: Nicaragua" autocomplete="country-name" required></div>
-          <div><label>Número de contacto *</label>
+          <div><label>Número de WhatsApp *</label>
           <input id="up-tel" type="tel" placeholder="Ej: 88888888" autocomplete="tel" required></div>
         </div>
         <p style="font-size:12px;color:#9aa0a8;margin:6px 0 0">(privado: solo tú y Dominus lo ven)</p>
@@ -208,7 +208,7 @@ function api(path, token){
 function slugifyNom(t){
   return (t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'empresa';
 }
-function ensureSeller(s, empresa, ubic){
+function ensureSeller(s, empresa, ubic, wa){
   if(!empresa) return Promise.resolve();
   return api('sellers?user_id=eq.' + s.user.id + '&select=id', s.access_token).then(function(rows){
     if(rows && rows.length) return;
@@ -216,7 +216,7 @@ function ensureSeller(s, empresa, ubic){
     var intento = function(slug){
       return fetch(SUPABASE_URL + '/rest/v1/sellers', {
         method: 'POST', headers: headers(s.access_token),
-        body: JSON.stringify({ user_id: s.user.id, slug: slug, nombre: empresa, verificado: false, ubicacion: ubic || null })
+        body: JSON.stringify({ user_id: s.user.id, slug: slug, nombre: empresa, verificado: false, ubicacion: ubic || null, whatsapp: wa || null })
       }).then(function(r){
         if(r.ok) return;
         if(r.status === 409) return intento(base + '-' + Math.floor(100 + Math.random() * 900));
@@ -291,7 +291,7 @@ document.getElementById('btn-up').onclick = function(){
   var dep = document.getElementById('up-depto').value.trim();
   var pai = document.getElementById('up-pais').value.trim();
   var tel = document.getElementById('up-tel').value.trim();
-  if(!ciu || !dep || !pai || !tel){ showErr('Completa ciudad, departamento, país y número de contacto (son obligatorios).'); return; }
+  if(!ciu || !dep || !pai || !tel){ showErr('Completa ciudad, departamento, país y número de WhatsApp (son obligatorios).'); return; }
   fetch(SUPABASE_URL + '/auth/v1/signup', {
     method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass, data: { nombre: name } })
   }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
@@ -309,7 +309,7 @@ document.getElementById('btn-up').onclick = function(){
         var fotoFile = document.getElementById('up-foto-ref').files[0];
         var proceed = function(){
           ensureProfile(s, name, extra).then(function(){
-            return ensureSeller(s, tipo === 'vendedor' ? empresa : null, (extra.ciudad && extra.pais) ? (extra.ciudad + ', ' + extra.pais) : null);
+            return ensureSeller(s, tipo === 'vendedor' ? empresa : null, (extra.ciudad && extra.pais) ? (extra.ciudad + ', ' + extra.pais) : null, extra.telefono || null);
           }).then(function(){
             if(tipo === 'vendedor'){ location.href = 'vendedor/cuenta.html'; }
             else { goTo(tipo, s); }

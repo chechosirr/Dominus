@@ -90,6 +90,8 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     <div id="form-up" class="hidden">
       <label>Nombre de la empresa *</label>
       <input id="up-empresa" type="text" placeholder="Ej: Tech Zone">
+      <label>Número de WhatsApp *</label>
+      <input id="up-wa" type="tel" placeholder="Ej: 88888888" autocomplete="tel">
       <label>Correo electrónico</label>
       <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
       <label>Contraseña (mínimo 6 caracteres)</label>
@@ -166,7 +168,7 @@ tabUp.onclick = function(){ tabUp.classList.add('on'); tabIn.classList.remove('o
 function slugifyNom(t){
   return (t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'empresa';
 }
-function ensureSellerVend(session, empresa){
+function ensureSellerVend(session, empresa, wa){
   if(!empresa) return Promise.resolve();
   return fetch(SUPABASE_URL + '/rest/v1/sellers?user_id=eq.' + session.user.id + '&select=id', { headers: headers(session.access_token) })
     .then(function(r){ return r.json(); })
@@ -176,7 +178,7 @@ function ensureSellerVend(session, empresa){
       var intento = function(slug){
         return fetch(SUPABASE_URL + '/rest/v1/sellers', {
           method: 'POST', headers: headers(session.access_token),
-          body: JSON.stringify({ user_id: session.user.id, slug: slug, nombre: empresa, verificado: false })
+          body: JSON.stringify({ user_id: session.user.id, slug: slug, nombre: empresa, verificado: false, whatsapp: wa || null })
         }).then(function(r){
           if(r.ok) return;
           if(r.status === 409) return intento(base + '-' + Math.floor(100 + Math.random() * 900));
@@ -186,8 +188,8 @@ function ensureSellerVend(session, empresa){
       return intento(base);
     }).catch(function(){});
 }
-function entrarVendedor(session, empresa){
-  ensureSellerVend(session, empresa).then(function(){ afterAuth(session); });
+function entrarVendedor(session, empresa, wa){
+  ensureSellerVend(session, empresa, wa).then(function(){ afterAuth(session); });
 }
 function afterAuth(session){
   saveSession(session);
@@ -211,6 +213,7 @@ function afterAuthSeller(session){
           document.getElementById('auth-box').classList.add('hidden');
           document.getElementById('profile-box').classList.remove('hidden');
           var pn = document.getElementById('p-nombre'); if(pn && !pn.value) pn.value = s.nombre || '';
+          var pw = document.getElementById('p-wa'); if(pw && !pw.value) pw.value = s.whatsapp || '';
           var bp = document.getElementById('btn-profile'); if(bp) bp.textContent = 'Guardar mi muro';
         } else { location.href = 'panel.html'; }
       }
@@ -242,6 +245,8 @@ document.getElementById('btn-up').onclick = function(){
   var pass = document.getElementById('up-pass').value;
   var empresa = document.getElementById('up-empresa').value.trim();
   if(!empresa){ showErr('err', 'Escribe el nombre de tu empresa (es obligatorio).'); return; }
+  var wa = document.getElementById('up-wa').value.trim();
+  if(!wa){ showErr('err', 'Escribe tu número de WhatsApp (es obligatorio).'); return; }
   if(!email || pass.length < 6){ showErr('err', 'Escribe un correo válido y una contraseña de mínimo 6 caracteres.'); return; }
   var pass2 = document.getElementById('up-pass2').value;
   if(pass !== pass2){ showErr('err', 'Las contraseñas no coinciden. Escríbela dos veces igual.'); return; }
@@ -250,14 +255,14 @@ document.getElementById('btn-up').onclick = function(){
   }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
     .then(function(res){
       if(!res.ok){ showErr('err', res.j.msg || 'No se pudo crear la cuenta.'); return; }
-      if(res.j.session){ entrarVendedor(res.j.session, empresa); }
+      if(res.j.session){ entrarVendedor(res.j.session, empresa, wa); }
       else {
         // Sin sesión inmediata: entrar de una vez con la contraseña recién creada
         fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
           method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass })
         }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
           .then(function(r2){
-            if(r2.ok && r2.j.access_token) entrarVendedor(r2.j, empresa);
+            if(r2.ok && r2.j.access_token) entrarVendedor(r2.j, empresa, wa);
             else showOk('Cuenta creada. Entra con tu correo y contraseña.');
           }).catch(function(){ showOk('Cuenta creada. Entra con tu correo y contraseña.'); });
       }
