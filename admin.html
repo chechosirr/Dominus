@@ -28,6 +28,8 @@ main{max-width:1060px;margin:0 auto;padding:22px 16px 60px}
 .tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 18px}
 .tabs button{border:1.5px solid var(--dark);background:#fff;color:var(--dark);border-radius:999px;padding:9px 10px;font-family:inherit;font-weight:700;cursor:pointer;width:100%}
 .tabs button.on{background:var(--dark);color:#fff}
+.mes{font-size:17px;font-weight:800;margin:24px 0 8px;text-transform:capitalize}
+.mes .mut{text-transform:none;font-weight:600}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:8px}
 .card{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:16px}
 .card b{display:block;font-size:1.5rem;font-family:Archivo,Arial,sans-serif}
@@ -245,19 +247,35 @@ function renderResumen(){
  }
 }
 
+var MESES_ES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+function gruposPorMes(rows, getF){
+ var orden = [], mapa = {};
+ rows.forEach(function(r){
+ var d = new Date(getF(r));
+ if(isNaN(d)) return;
+ var k = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2);
+ if(!mapa[k]){ mapa[k] = { nombre: MESES_ES[d.getMonth()] + ' de ' + d.getFullYear(), rows: [] }; orden.push(mapa[k]); }
+ mapa[k].rows.push(r);
+ });
+ return orden;
+}
 function renderVentas(){
  var box = document.getElementById('ventas-list');
  if(!DATA.orders.length){ box.innerHTML = '<p class="mut">Todavía no hay ventas registradas en el marketplace.</p>'; return; }
- var rows = DATA.orders.map(function(o){
+ var grupos = gruposPorMes(DATA.orders, function(o){ return o.created_at; });
+ box.innerHTML = grupos.map(function(g){
+ var total = g.rows.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
+ var rows = g.rows.map(function(o){
  var vend = (o.sellers && o.sellers.nombre) || '—';
  var comp = (DATA.profiles[o.buyer_id] && DATA.profiles[o.buyer_id].nombre) || ('Cliente ' + String(o.buyer_id || '').slice(0, 8));
  return '<tr><td>' + fecha(o.created_at) + '</td><td><b>' + esc(o.titulo) + '</b><br><span class="mut">×' + (o.qty || 1) + '</span></td>'
  + '<td>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</td><td>' + esc(vend) + '</td><td>' + esc(comp) + '</td>'
  + '<td class="mut">' + esc(o.paypal_order_id || '—') + '</td></tr>';
  }).join('');
- box.innerHTML = '<table><thead><tr><th>Fecha</th><th>Artículo</th><th>Monto</th><th>Vendedor</th><th>Comprador</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
+ return '<h3 class="mes">' + g.nombre + ' <span class="mut">· ' + money(total) + ' · ' + g.rows.length + (g.rows.length === 1 ? ' venta' : ' ventas') + '</span></h3>'
+ + '<table><thead><tr><th>Fecha</th><th>Artículo</th><th>Monto</th><th>Vendedor</th><th>Comprador</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
+ }).join('');
 }
-
 function sellerProds(sid){ return DATA.products.filter(function(p){ return p.seller_id === sid; }); }
 
 function renderSellers(){
@@ -627,12 +645,17 @@ function renderVentasZap(){
  if(!DATA.ventasZap.length){ box.innerHTML = '<p class="mut">Todavía no hay ventas de zapatos registradas. Cuando entre un pago de PayPal de la tienda, aparece aquí solo.</p>'; return; }
  if(!list.length){ box.innerHTML = '<p class="mut">Ninguna venta coincide con esa búsqueda.</p>'; return; }
  var total = list.reduce(function(a, v){ return a + Number(v.monto || 0); }, 0);
- var rows = list.map(function(v){
+ var grupos = gruposPorMes(list, function(v){ return v.fecha_pago; });
+ var html = '<p style="margin:0 0 4px"><b>Total: ' + money(total) + '</b> <span class="mut">(' + list.length + ' ventas)</span></p>';
+ box.innerHTML = html + grupos.map(function(g){
+ var gt = g.rows.reduce(function(a, v){ return a + Number(v.monto || 0); }, 0);
+ var rows = g.rows.map(function(v){
  return '<tr><td>' + fecha(v.fecha_pago) + '</td><td><b>' + esc(v.cliente || '—') + '</b><br><span class="mut">' + esc(v.detalle || '') + '</span></td>'
  + '<td>' + money(v.monto) + '</td><td class="mut">' + esc(v.paypal_id || '—') + '</td></tr>';
  }).join('');
- box.innerHTML = '<p style="margin:0 0 10px"><b>Total: ' + money(total) + '</b> <span class="mut">(' + list.length + ' ventas)</span></p>'
+ return '<h3 class="mes">' + g.nombre + ' <span class="mut">· ' + money(gt) + ' · ' + g.rows.length + (g.rows.length === 1 ? ' venta' : ' ventas') + '</span></h3>'
  + '<table><thead><tr><th>Fecha</th><th>Cliente / artículos</th><th>Monto</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
+ }).join('');
 }
 
 /* Puerta de acceso: solo cuentas con es_admin */
