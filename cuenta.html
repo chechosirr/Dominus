@@ -61,7 +61,13 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#f2f4f8}
 .menu a:last-child{border-bottom:0}
 .menu a:hover{background:rgba(215,220,227,.08)}
-body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}</style>
+body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
+.passwrap{position:relative}
+.passwrap input{padding-right:74px}
+.eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#4a4a52;font-weight:700;cursor:pointer;font-family:inherit;font-size:13px;padding:6px 8px}
+.forgot{display:block;text-align:center;margin-top:14px;color:#aeb6c2;font-size:14px;font-weight:700;text-decoration:none}
+.forgot:hover{text-decoration:underline}
+</style>
 </head>
 <body>
 <header class="top">
@@ -93,8 +99,9 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
         <label>Correo electrónico</label>
         <input id="in-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
         <label>Contraseña</label>
-        <input id="in-pass" type="password" placeholder="••••••••" autocomplete="current-password">
+        <div class="passwrap"><input id="in-pass" type="password" placeholder="••••••••" autocomplete="current-password"><button type="button" class="eye" data-for="in-pass">Ver</button></div>
         <button class="btn" id="btn-in">Entrar</button>
+        <a href="#" class="forgot" id="link-forgot">¿Olvidaste tu contraseña?</a>
       </div>
       <div id="form-up" class="hidden">
         <label>Tu nombre</label>
@@ -102,7 +109,9 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
         <label>Correo electrónico</label>
         <input id="up-email" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
         <label>Contraseña (mínimo 6 caracteres)</label>
-        <input id="up-pass" type="password" placeholder="••••••••" autocomplete="new-password">
+        <div class="passwrap"><input id="up-pass" type="password" placeholder="••••••••" autocomplete="new-password"><button type="button" class="eye" data-for="up-pass">Ver</button></div>
+        <label>Confirma tu contraseña</label>
+        <div class="passwrap"><input id="up-pass2" type="password" placeholder="••••••••" autocomplete="new-password"><button type="button" class="eye" data-for="up-pass2">Ver</button></div>
 
         <label>Referencia del local o casa</label>
         <textarea id="up-ref" rows="2" placeholder="Ej: Casa azul de dos pisos, frente al parque central"></textarea>
@@ -247,6 +256,8 @@ document.getElementById('btn-up').onclick = function(){
   var pass = document.getElementById('up-pass').value;
   if(!name){ showErr('Escribe tu nombre.'); return; }
   if(!email || pass.length < 6){ showErr('Escribe un correo válido y una contraseña de mínimo 6 caracteres.'); return; }
+  var pass2 = document.getElementById('up-pass2').value;
+  if(pass !== pass2){ showErr('Las contraseñas no coinciden. Escríbela dos veces igual.'); return; }
   var ciu = document.getElementById('up-ciudad').value.trim();
   var dep = document.getElementById('up-depto').value.trim();
   var pai = document.getElementById('up-pais').value.trim();
@@ -282,12 +293,42 @@ document.getElementById('btn-up').onclick = function(){
       };
       if(res.j.session) done(res.j.session);
       else {
-        var e = document.getElementById('okmsg'); e.textContent = 'Cuenta creada. Ahora entra con tu correo y contraseña.'; e.style.display = 'block';
-        tabIn.onclick();
+        // Sin sesión inmediata: entrar de una vez con la contraseña recién creada
+        fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+          method: 'POST', headers: headers(), body: JSON.stringify({ email: email, password: pass })
+        }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+          .then(function(r2){
+            if(r2.ok && r2.j.access_token) done(r2.j);
+            else { var e = document.getElementById('okmsg'); e.textContent = 'Cuenta creada. Ahora entra con tu correo y contraseña.'; e.style.display = 'block'; tabIn.onclick(); }
+          }).catch(function(){ var e = document.getElementById('okmsg'); e.textContent = 'Cuenta creada. Ahora entra con tu correo y contraseña.'; e.style.display = 'block'; tabIn.onclick(); });
       }
     }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
 };
 
+
+Array.prototype.forEach.call(document.querySelectorAll('.eye'), function(b){
+  b.onclick = function(){
+    var i = document.getElementById(b.getAttribute('data-for'));
+    if(!i) return;
+    var show = i.type === 'password';
+    i.type = show ? 'text' : 'password';
+    b.textContent = show ? 'Ocultar' : 'Ver';
+  };
+});
+document.getElementById('link-forgot').onclick = function(){
+  hideErr();
+  var email = document.getElementById('in-email').value.trim();
+  if(!email || email.indexOf('@') < 0){ showErr('Escribe tu correo arriba y vuelve a tocar "¿Olvidaste tu contraseña?".'); return false; }
+  fetch(SUPABASE_URL + '/auth/v1/recover', {
+    method: 'POST', headers: headers(),
+    body: JSON.stringify({ email: email, redirect_to: 'https://chechosirr.github.io/Dominus/restablecer.html' })
+  }).then(function(){
+    var m = document.getElementById('okmsg');
+    m.textContent = 'Si ese correo tiene cuenta, te enviamos un enlace para crear una contraseña nueva. Revisa tu correo (y el spam).';
+    m.style.display = 'block';
+  }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
+  return false;
+};
 document.getElementById('menu-btn').onclick = function(e){ e.stopPropagation(); document.getElementById('menu').classList.toggle('open'); };
 document.addEventListener('click', function(){ var m = document.getElementById('menu'); if(m) m.classList.remove('open'); });
 function routeMiCuenta(tipo, slug){
