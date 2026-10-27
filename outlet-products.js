@@ -1,9 +1,9 @@
 // Zapatos por encargo · Dominus — datos del catalogo.
 // Generado por build_zapatos.py desde zapatos-catalogo.json. No editar a mano.
 // Precio mostrado = precio del producto (tienda + $10 + envio de la tienda).
-// El envio a Nicaragua se suma al pagar: $5/libra, maritimo, incluye entrega a domicilio.
+// El envio a Nicaragua se suma al pagar: $20 por par (aereo + entrega nacional incluida).
 var ZAP_TC = 36.774;
-var ZAP_ENVIO_NI = 15.0;
+var ZAP_ENVIO_NI = 20.0;
 var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
