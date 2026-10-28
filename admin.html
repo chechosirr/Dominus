@@ -28,6 +28,17 @@ main{max-width:1060px;margin:0 auto;padding:22px 16px 60px}
 .tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 18px}
 .tabs button{border:1.5px solid var(--dark);background:#fff;color:var(--dark);border-radius:999px;padding:9px 10px;font-family:inherit;font-weight:700;cursor:pointer;width:100%}
 .tabs button.on{background:var(--dark);color:#fff}
+.ped-filtros{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.ped-f{border:1.5px solid var(--dark);background:#fff;color:var(--dark);border-radius:999px;padding:9px 18px;font-family:inherit;font-weight:700;cursor:pointer}
+.ped-f.on{background:var(--dark);color:#fff}
+.ped-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px;background:#fff}
+.ped-card.bad{background:#fdf0ef;border-color:#e5484d}
+.ped-head{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:14px;color:var(--txt);margin-bottom:8px}
+.ped-chip{font-size:11px;font-weight:800;border-radius:999px;padding:2px 9px;background:#eceff3;color:#44484f;white-space:nowrap}
+.ped-card.bad .ped-chip{background:#d92d20;color:#fff}
+.ped-item{display:flex;justify-content:space-between;gap:10px;font-size:15px;color:var(--txt);padding:4px 0}
+.ped-total{display:flex;justify-content:space-between;font-size:17px;color:var(--txt);border-top:1px solid var(--line);margin-top:8px;padding-top:10px}
+.ped-contact{display:block;margin-top:12px;text-align:center;background:var(--ok);color:#fff;font-weight:800;border-radius:12px;padding:13px;text-decoration:none}
 .mes{font-size:17px;font-weight:800;margin:24px 0 8px;text-transform:capitalize}
 .mes .mut{text-transform:none;font-weight:600}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:8px}
@@ -120,6 +131,7 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
   <p class="sub" id="who">—</p>
   <div class="tabs">
     <button data-tab="resumen" class="on">Resumen</button>
+    <button data-tab="pedidos">Pedidos de hoy</button>
     <button data-tab="revendedores">Revendedores</button>
     <button data-tab="zapatos">Inventario zapatos</button>
     <button data-tab="inventario">Inventario revendedores</button>
@@ -139,6 +151,14 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
     </div>
     <p class="mut">Los vendedores pausados o bloqueados desaparecen del sitio público junto con sus artículos. Los artículos bloqueados no puede desbloquearlos ni el propio vendedor.</p>
     <p id="mi-muro"></p>
+  </section>
+
+  <section id="tab-pedidos" class="hidden">
+    <div class="ped-filtros">
+      <button id="ped-f-todos" class="ped-f on">Todos los pedidos</button>
+      <button id="ped-f-sin" class="ped-f">Sin aceptar</button>
+    </div>
+    <div id="ped-list"><p class="mut">Cargando pedidos…</p></div>
   </section>
 
   <section id="tab-vzap" class="hidden">
@@ -219,7 +239,7 @@ function patch(tabla, id, body, tok){
 }
 
 var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
-var DATA = { orders: [], sellers: [], products: [], profiles: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
+var DATA = { orders: [], sellers: [], products: [], profiles: {}, estados: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
 
 document.getElementById('menubtn').onclick = function(e){ e.stopPropagation(); document.getElementById('ddnav').classList.toggle('open'); };
 document.addEventListener('click', function(){ var n = document.getElementById('ddnav'); if(n) n.classList.remove('open'); });
@@ -248,11 +268,13 @@ function cargar(){
  api('orders?select=id,titulo,precio,qty,paypal_order_id,created_at,buyer_id,seller_id,sellers(nombre,slug)&order=created_at.desc&limit=500', TOK).catch(function(){ return []; }),
  api('sellers?select=*&order=created_at.desc', TOK),
  api('products?select=id,titulo,precio,categoria,imagen_url,activo,bloqueado,seller_id,created_at,sellers(nombre,slug)&order=created_at.desc&limit=1000', TOK),
- api('profiles?select=*', TOK).catch(function(){ return []; })
+ api('profiles?select=*', TOK).catch(function(){ return []; }),
+ api('orders?select=id,estado', TOK).catch(function(){ return []; })
  ]).then(function(res){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
  (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
- renderResumen(); renderVentas(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
+ (res[4] || []).forEach(function(o){ DATA.estados[o.id] = o.estado; });
+ renderResumen(); renderVentas(); renderPedidos(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
  cargarZapatos(); cargarHistZapatos(); cargarVentasZap();
  });
 }
@@ -284,6 +306,50 @@ function gruposPorMes(rows, getF){
  mapa[k].rows.push(r);
  });
  return orden;
+}
+var PED_FILTRO = 'todos';
+function renderPedidos(){
+ var box = document.getElementById('ped-list');
+ if(!box) return;
+ var now = new Date();
+ var isToday = function(iso){ var d = new Date(iso); return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate(); };
+ var rows = (DATA.orders || []).filter(function(o){ return isToday(o.created_at); });
+ if(!rows.length){ box.innerHTML = '<p class="mut">Hoy no hay pedidos todavía.</p>'; return; }
+ var groups = [], byK = {};
+ rows.forEach(function(o){
+ var gk = (o.paypal_order_id || ('row-' + o.id)) + '|' + o.seller_id;
+ if(!byK[gk]){ byK[gk] = { items: [], seller_id: o.seller_id, buyer_id: o.buyer_id, created_at: o.created_at, paypal: o.paypal_order_id }; groups.push(byK[gk]); }
+ byK[gk].items.push(o);
+ });
+ var aceptado = function(g){ return g.items.every(function(o){ return (DATA.estados[o.id] || o.estado) === 'aceptado'; }); };
+ if(PED_FILTRO === 'sin') groups = groups.filter(function(g){ return !aceptado(g); });
+ if(!groups.length){ box.innerHTML = '<p class="mut">Todos los pedidos de hoy ya fueron aceptados.</p>'; return; }
+ box.innerHTML = groups.map(function(g){
+ var ac = aceptado(g);
+ var seller = DATA.sellers.filter(function(s){ return s.id === g.seller_id; })[0] || {};
+ var vend = (g.items[0].sellers && g.items[0].sellers.nombre) || seller.nombre || '—';
+ var prof = DATA.profiles[g.buyer_id] || {};
+ var comp = prof.nombre || ('Cliente ' + String(g.buyer_id || '').slice(0, 8));
+ var dir = [prof.direccion, prof.ciudad, prof.departamento].filter(Boolean).join(', ');
+ var total = g.items.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
+ var hora = new Date(g.created_at).toLocaleTimeString('es-NI', { hour: 'numeric', minute: '2-digit' });
+ var wa = String(seller.whatsapp || '').replace(/[^0-9]/g, '');
+ if(wa.length === 8) wa = '505' + wa;
+ var msg = 'Hola ' + (seller.nombre || '') + ', tienes un pedido sin aceptar en Dominus: ' + g.items.map(function(o){ return o.titulo + ' ×' + (o.qty || 1); }).join(', ') + ' (total ' + money(total) + '). Entra a tu panel y acéptalo para preparar el producto, por favor.';
+ var contact = '';
+ if(!ac){
+ contact = wa
+ ? '<a class="ped-contact" href="https://wa.me/' + wa + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Contactar al vendedor por WhatsApp</a>'
+ : '<p class="mut" style="margin-top:10px">Este vendedor no tiene WhatsApp registrado.</p>';
+ }
+ return '<div class="ped-card' + (ac ? '' : ' bad') + '">'
+ + '<div class="ped-head"><span><b>' + esc(vend) + '</b> · ' + esc(hora) + '</span><span class="ped-chip">' + (ac ? 'Aceptado' : 'Sin aceptar') + '</span></div>'
+ + g.items.map(function(o){ return '<div class="ped-item"><span><b>' + esc(o.titulo) + '</b> <span class="mut">×' + (o.qty || 1) + '</span></span><b>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</b></div>'; }).join('')
+ + '<div class="ped-total"><span>Total</span><b>' + money(total) + '</b></div>'
+ + '<p class="mut" style="margin-top:8px">Comprador: ' + esc(comp) + (prof.telefono ? ' · Tel: ' + esc(prof.telefono) : '') + (dir ? '<br>' + esc(dir) : '') + '</p>'
+ + contact
+ + '</div>';
+ }).join('');
 }
 function renderVentas(){
  var box = document.getElementById('ventas-list');
@@ -445,13 +511,16 @@ document.getElementById('zap-q').addEventListener('input', function(){ renderZap
 document.getElementById('hist-q').addEventListener('input', function(){ renderHistorial(); });
 document.getElementById('hzap-q').addEventListener('input', function(){ renderHistZapatos(); });
 document.getElementById('vzap-q').addEventListener('input', function(){ renderVentasZap(); });
+document.getElementById('ped-f-todos').addEventListener('click', function(){ PED_FILTRO = 'todos'; document.getElementById('ped-f-todos').classList.add('on'); document.getElementById('ped-f-sin').classList.remove('on'); renderPedidos(); });
+document.getElementById('ped-f-sin').addEventListener('click', function(){ PED_FILTRO = 'sin'; document.getElementById('ped-f-sin').classList.add('on'); document.getElementById('ped-f-todos').classList.remove('on'); renderPedidos(); });
 Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
  b.onclick = function(){
  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.classList.remove('on'); });
  b.classList.add('on');
- ['resumen','vzap','ventas','revendedores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
+ ['resumen','pedidos','vzap','ventas','revendedores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
  document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
  });
+ if(b.getAttribute('data-tab') === 'pedidos') renderPedidos();
  };
 });
 

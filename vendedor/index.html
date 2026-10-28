@@ -1170,6 +1170,7 @@ function loadTodayOrders(){
         }).join('');
         box.querySelectorAll('[data-accept]').forEach(function(b){
           b.onclick = function(){
+            markAcceptedDB(b.dataset.accept, tok);
             store.dec[b.dataset.accept] = 'aceptado';
             try{ localStorage.setItem(storeKey, JSON.stringify(store)); }catch(e){}
             loadTodayOrders();
@@ -1177,6 +1178,15 @@ function loadTodayOrders(){
         });
       });
     }).catch(function(){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">No se pudo cargar.</p>'; });
+}
+function markAcceptedDB(gk, tok){
+  var q;
+  if(gk.indexOf('row-') === 0){ q = 'id=eq.' + encodeURIComponent(gk.slice(4)); }
+  else { q = 'seller_id=eq.' + SELLER.id + '&paypal_order_id=eq.' + encodeURIComponent(gk); }
+  fetch(SUPABASE_URL + '/rest/v1/orders?' + q, {
+    method: 'PATCH', headers: edH(tok),
+    body: JSON.stringify({ estado: 'aceptado', estado_at: new Date().toISOString() })
+  }).catch(function(){});
 }
 function checkNewOrders(tok){
   fetch(SUPABASE_URL + '/rest/v1/orders?seller_id=eq.' + SELLER.id + '&select=*&order=created_at.desc&limit=50', { headers: edH(tok) })
@@ -1236,6 +1246,7 @@ function showOrderNotice(groups, store, storeKey, tok){
     document.body.appendChild(ov);
     document.body.style.overflow = 'hidden';
     function decide(val){
+      if(val === 'aceptado') markAcceptedDB(g.key, tok);
       store.dec[g.key] = val;
       try{ localStorage.setItem(storeKey, JSON.stringify(store)); }catch(e){}
       ov.remove();
