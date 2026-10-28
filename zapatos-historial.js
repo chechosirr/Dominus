@@ -401,6 +401,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Madden Girl Giia Dark Brown/Light Sand Nylon"
  },
  {
+  "codigo": "DOM-1000",
+  "nombre": "Converse Chuck Taylor All Star High Top Sneaker — White (Little Kid)"
+ },
+ {
   "codigo": "DOM-101",
   "nombre": "Skechers Strand Star Radiant Rebel Mid-Top Negro/Gris"
  },
@@ -1497,6 +1501,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Madden Girl Bodie Footbed Sandals (Women) — Negro charol"
  },
  {
+  "codigo": "DOM-477",
+  "nombre": "Flat Mary Jane de charol con multitiras - Rosa empolvado"
+ },
+ {
   "codigo": "DOM-479",
   "nombre": "TOMS Constance Botín (Women) — Tan Suede"
  },
@@ -1557,6 +1565,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Crocs Classic Peppa Pig Clogs (Toddler) - Multi"
  },
  {
+  "codigo": "DOM-531",
+  "nombre": "Converse Chuck Taylor All Star Low (Toddler) - White Monochrome"
+ },
+ {
   "codigo": "DOM-534",
   "nombre": "Air Jordan Retro 1 High OG (Grade School) — Cool Grey/Negro/Game Royal"
  },
@@ -1567,6 +1579,14 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-547",
   "nombre": "Air Jordan Retro 4 (Grade School) — Morado/Negro"
+ },
+ {
+  "codigo": "DOM-554",
+  "nombre": "adidas Turnaround Basketball (Big Kid) — Azul Marino Colegiado/Cielo Claro/Blanco"
+ },
+ {
+  "codigo": "DOM-563",
+  "nombre": "Skechers Glide-Step Flow (Little Kid/Big Kid) — Rosa Claro"
  },
  {
   "codigo": "DOM-565",
@@ -1613,6 +1633,46 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Air Max Bia (Infant/Toddler) - Ghost/Peony/White"
  },
  {
+  "codigo": "DOM-581",
+  "nombre": "adidas Duramo — Navy/Silver Met/Lucid Pink (Niños · Niños pequeños)"
+ },
+ {
+  "codigo": "DOM-592",
+  "nombre": "Skechers Jumpsters Cutie Critters — Pink/White (Niños · Niños pequeños)"
+ },
+ {
+  "codigo": "DOM-593",
+  "nombre": "Skechers Jumpsters Cutie Critters — Purple/White (Niños · Niños pequeños)"
+ },
+ {
+  "codigo": "DOM-594",
+  "nombre": "Vans Old Skool V — (Red Hot Valentines)/Red/White (Niños · Niños pequeños)"
+ },
+ {
+  "codigo": "DOM-596",
+  "nombre": "Skechers Skech Steamline — Black/Pink (Niños)"
+ },
+ {
+  "codigo": "DOM-597",
+  "nombre": "Skechers Skech Steamline — Pink/White (Niños)"
+ },
+ {
+  "codigo": "DOM-598",
+  "nombre": "APRES Carson — Chestnut (Niños)"
+ },
+ {
+  "codigo": "DOM-599",
+  "nombre": "APRES Drizzle Low Boot — Black (Niños)"
+ },
+ {
+  "codigo": "DOM-600",
+  "nombre": "APRES Wrap Boot — Black (Niños)"
+ },
+ {
+  "codigo": "DOM-601",
+  "nombre": "APRES Wrap Boot — Chestnut (Niños)"
+ },
+ {
   "codigo": "DOM-619",
   "nombre": "Nike Offcourt Slides — Ashen Slate/Midnight Navy"
  },
@@ -1633,7 +1693,207 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Purechill Slides — White/Team Royal Blue/Better Scarlet"
  },
  {
+  "codigo": "DOM-664",
+  "nombre": "Skechers Martha Stewart Ultra Flex 3.0 Slip-In Shine On Us Sneakers — Natural Knit/Natural"
+ },
+ {
+  "codigo": "DOM-665",
+  "nombre": "Skechers Martha Stewart Ultra Flex 3.0 Slip-In Shine On Us Sneakers — Navy Knit/White"
+ },
+ {
+  "codigo": "DOM-674",
+  "nombre": "Skechers Bobs Beso Hidden Wedge Sneaker — Black"
+ },
+ {
+  "codigo": "DOM-675",
+  "nombre": "Skechers Bobs Beso Hidden Wedge Sneaker — Light Pink"
+ },
+ {
+  "codigo": "DOM-678",
+  "nombre": "Journee Collection Meeya Casual Lace Up Sneakers — Brown"
+ },
+ {
+  "codigo": "DOM-679",
+  "nombre": "Journee Collection Meeya Casual Lace Up Sneakers — Black"
+ },
+ {
+  "codigo": "DOM-683",
+  "nombre": "LifeStride Golden Knit Slip On Sneaker — Metallic Black"
+ },
+ {
+  "codigo": "DOM-684",
+  "nombre": "LifeStride Golden Knit Slip On Sneaker — Brilliant White"
+ },
+ {
+  "codigo": "DOM-687",
+  "nombre": "Skechers BOBS B Cute 2.0 Slip On Canvas Sneaker — Blush Pink"
+ },
+ {
+  "codigo": "DOM-690",
+  "nombre": "Blowfish Malibu Very Sadie Lace Up Sneaker — Yellow"
+ },
+ {
+  "codigo": "DOM-691",
+  "nombre": "Blowfish Malibu Very Sadie Lace Up Sneaker — White/Cream/Beige"
+ },
+ {
+  "codigo": "DOM-722",
+  "nombre": "Kayleen Corona Ballet Flats — Black"
+ },
+ {
+  "codigo": "DOM-727",
+  "nombre": "Kayleen Lander Western Boots — Black"
+ },
+ {
+  "codigo": "DOM-728",
+  "nombre": "Kayleen Lander Western Boots — Brown"
+ },
+ {
+  "codigo": "DOM-729",
+  "nombre": "Kayleen Kande Woven Ballet Flats — Brown"
+ },
+ {
+  "codigo": "DOM-730",
+  "nombre": "Kayleen Kande Woven Ballet Flats — Gold"
+ },
+ {
+  "codigo": "DOM-750",
+  "nombre": "David Tate La Vida Sandals — Beige Garden"
+ },
+ {
+  "codigo": "DOM-751",
+  "nombre": "David Tate La Vida Sandals — Blue Garden"
+ },
+ {
+  "codigo": "DOM-757",
+  "nombre": "Blowfish Malibu Benita Ballerina Flats — Bright Multi"
+ },
+ {
+  "codigo": "DOM-764",
+  "nombre": "Blowfish Malibu Benita Ballerina Flats — White Multi"
+ },
+ {
+  "codigo": "DOM-768",
+  "nombre": "Carter's Every Step First Walker Monster Sneakers (Toddler) — Green"
+ },
+ {
+  "codigo": "DOM-769",
+  "nombre": "Carter's Every Step First Walker Shimmer Sneakers (Toddler) — Pink"
+ },
+ {
+  "codigo": "DOM-770",
+  "nombre": "Carter's Every Step First Walker High-Top Sneakers (Toddler) — White"
+ },
+ {
+  "codigo": "DOM-778",
+  "nombre": "adidas Lightorama Runner (Toddler) — Lucid Blue/White/Solar Slime"
+ },
+ {
+  "codigo": "DOM-781",
+  "nombre": "Skechers Twinkle Toes Twinkle Sparks Precious Jane (Toddler) — Light Pink"
+ },
+ {
+  "codigo": "DOM-787",
+  "nombre": "Converse Chuck Taylor All Star 1 Strap Low Top (Toddler) — White/Hello Kitty"
+ },
+ {
+  "codigo": "DOM-788",
+  "nombre": "Converse Chuck Taylor All Star Low-Top (Toddler) — Purple"
+ },
+ {
+  "codigo": "DOM-794",
+  "nombre": "adidas Duramo SL (Little Kid) — Better Scarlet/Silver Metallic/Lucid Red"
+ },
+ {
+  "codigo": "DOM-798",
+  "nombre": "Skechers Twinkle Toes Twinkle Star (Little Kid) — Black/Rose Gold"
+ },
+ {
+  "codigo": "DOM-799",
+  "nombre": "Skechers Microspec Max Velocity (Little Kid) — Navy/Lime"
+ },
+ {
+  "codigo": "DOM-804",
+  "nombre": "Hello Kitty Sneaker (Little Kid) — White Multi"
+ },
+ {
+  "codigo": "DOM-815",
+  "nombre": "Converse Chuck Taylor All Star Lift (Big Kid) — Papyrus Monochrome"
+ },
+ {
+  "codigo": "DOM-816",
+  "nombre": "Converse Chuck Taylor All Star High-Top (Big Kid) — Shy Flamingo Monochrome"
+ },
+ {
+  "codigo": "DOM-818",
+  "nombre": "Converse Chuck Taylor All Star Lift Flower (Big Kid) — Orchid"
+ },
+ {
+  "codigo": "DOM-837",
+  "nombre": "adidas Grand Court Low (Big Kid) — Black/White/Yellow"
+ },
+ {
+  "codigo": "DOM-848",
+  "nombre": "Puma Rebound Layup (Big Kid) — Haute Tropic/Vivid Violet/Blue Skies"
+ },
+ {
+  "codigo": "DOM-849",
+  "nombre": "Puma Caven III (Big Kid) — Black/White"
+ },
+ {
+  "codigo": "DOM-850",
+  "nombre": "Puma Rebound Layup (Big Kid) — Black/Red/White"
+ },
+ {
+  "codigo": "DOM-903",
+  "nombre": "Nike ReactX Rejuven8 Slides — Pink"
+ },
+ {
+  "codigo": "DOM-908",
+  "nombre": "Steve Madden Pryce — White (Little Kid)"
+ },
+ {
+  "codigo": "DOM-921",
+  "nombre": "Puma Carina Mia Sneakers — Puma White / Puma Black / Desert Dust"
+ },
+ {
+  "codigo": "DOM-928",
+  "nombre": "Puma Carina Mia Sneakers — Puma White / Puma Gold (Big Kid)"
+ },
+ {
+  "codigo": "DOM-940",
+  "nombre": "Reebok NFX Trainer 2 Training Shoes — Black / White"
+ },
+ {
+  "codigo": "DOM-941",
+  "nombre": "Reebok NFX Trainer 2 Training Shoes — Chalk / Hazy Teal / Midnight Tide"
+ },
+ {
+  "codigo": "DOM-946",
+  "nombre": "Reebok Zig Dynamica 6 Running Shoes — Dark Indigo / Midnight Tide / New Grey 1 (Little Kid)"
+ },
+ {
+  "codigo": "DOM-947",
+  "nombre": "Reebok Rush Runner 6.0 Running Shoes — Black / Black / Black (Big Kid)"
+ },
+ {
+  "codigo": "DOM-963",
+  "nombre": "Saucony Ride Millennium Running Shoes — Black/Metallic (Big Kid)"
+ },
+ {
+  "codigo": "DOM-964",
+  "nombre": "Jordan Spizike Low Basketball Shoes — White/Neutral Grey/Metallic Silver (Toddler)"
+ },
+ {
+  "codigo": "DOM-965",
+  "nombre": "Nike Dunk Low Lifestyle Shoes — Pink Foam/Summit White/Light Crimson (Toddler)"
+ },
+ {
   "codigo": "DOM-972",
   "nombre": "Jordan Hydro XI Slide — White/Legend Blue/Black"
+ },
+ {
+  "codigo": "DOM-980",
+  "nombre": "Converse Chuck Taylor All Star Sneaker — Pink Glitter (Toddler)"
  }
 ];
