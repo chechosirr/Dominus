@@ -526,6 +526,21 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  function shipData(){
  try{ return JSON.parse(localStorage.getItem('dominus_zap_envio') || '{}'); }catch(e){ return {}; }
  }
+ function genTrack(){
+ var chars = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789', s = '';
+ for(var i = 0; i < 6; i++) s += chars.charAt(Math.floor(Math.random() * chars.length));
+ return 'DM-' + s;
+ }
+ var zapTrack = '';
+ function registrarVentaZap(row){
+ var H = { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + SUPABASE_ANON, 'Content-Type': 'application/json', 'Prefer': 'resolution=ignore-duplicates' };
+ fetch(SUPABASE_URL + '/rest/v1/ventas_zapatos', { method: 'POST', headers: H, body: JSON.stringify(row) })
+ .then(function(r){
+ if(r.ok) return;
+ var row2 = {}; for(var k in row){ if(k !== 'codigo_rastreo') row2[k] = row[k]; }
+ fetch(SUPABASE_URL + '/rest/v1/ventas_zapatos', { method: 'POST', headers: H, body: JSON.stringify(row2) }).catch(function(){});
+ }).catch(function(){});
+ }
  function shipParts(){
  var sd = shipData();
  var ciu = (sd.ciudad || '').split(',');
@@ -616,6 +631,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  paypal.Buttons({
  style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
  createOrder: function(data, actions){
+ zapTrack = genTrack();
  var sd = shipData();
  var sp = shipParts();
  var items = cart.map(function(it){
@@ -625,6 +641,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  });
  var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + ' · Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' (' + t.plazo + ' días hábiles)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
  var pu = {
+ custom_id: zapTrack,
  description: desc,
  amount: { currency_code: 'USD', value: t.total.toFixed(2),
  breakdown: { item_total: { currency_code: 'USD', value: t.subtotal.toFixed(2) },
@@ -658,20 +675,19 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  var spq = shipParts();
  var nombre = ((details.payer && details.payer.name && details.payer.name.given_name) || sd.nombre || '');
  var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + it.codigo + ' · ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
- var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\n' + lines.join('\n')
+ var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\nCódigo de rastreo: ' + zapTrack + '\n' + lines.join('\n')
  + '\nTotal pagado: ' + money(t.total)
  + '\n\nEntrega: ' + (sd.nombre || nombre)
  + (sd.direccion ? '\n' + sd.direccion : '') + (spq.ciudad ? '\n' + spq.ciudad + (spq.depto ? ', ' + spq.depto : '') : '') + (sd.telefono ? '\nContacto: ' + sd.telefono : '');
  try{ localStorage.setItem('dominus_zap_ultimo_pedido', JSON.stringify({ id: data.orderID, total: t.total, fecha: new Date().toISOString() })); }catch(e){}
+ var capId = data.orderID;
+ try{ var caps = details.purchase_units && details.purchase_units[0] && details.purchase_units[0].payments && details.purchase_units[0].payments.captures; if(caps && caps[0] && caps[0].id) capId = caps[0].id; }catch(e){}
+ var detItems = cart.map(function(it){ var pp = byCode(it.codigo); return it.codigo + ' ' + pp.nombre + ' · Talla US ' + it.talla + ' ×' + it.qty; }).join('; ');
+ var detEntrega = 'Entrega: ' + (sd.nombre || nombre) + (sd.direccion ? ', ' + sd.direccion : '') + (spq.ciudad ? ', ' + spq.ciudad + (spq.depto ? ', ' + spq.depto : '') : '') + (sd.telefono ? ' · Tel: ' + sd.telefono : '');
+ registrarVentaZap({ fecha_pago: new Date().toISOString(), cliente: (sd.nombre || nombre || ''), detalle: detItems + ' · Rastreo: ' + zapTrack + ' || ' + detEntrega, monto: Number(t.total), paypal_id: capId, codigo_rastreo: zapTrack });
+ try{ localStorage.setItem('dominus_gracias', JSON.stringify({ tipo: 'zapatos', codigo: zapTrack, nombre: nombre, total: money(t.total), items: lines.map(function(x){ return x.replace(/^• /, ''); }), paypal: data.orderID, wa: 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg), extra: 'Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' · entrega estimada en ' + t.plazo + ' días hábiles. Compramos tu par el mismo día y viaja por vía aérea.' })); }catch(e){}
  cart = []; saveCart();
- document.getElementById('cart-body').innerHTML =
- '<div style="text-align:center;padding:30px 6px">'
- + '<div style="font-size:52px"></div>'
- + '<h2 style="margin:10px 0">¡Pago completado!</h2>'
- + '<p style="color:var(--mut);line-height:1.55">Gracias ' + esc(nombre) + '. Tu pago de <b>' + money(t.total) + '</b> fue recibido por PayPal.<br>Pedido: <b>' + esc(data.orderID) + '</b><br>Compramos tu par el mismo día y viaja por vía aérea: entrega estimada en ' + t.plazo + ' días hábiles.</p>'
- + '<a class="buynow" style="display:block;text-decoration:none;text-align:center" href="https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Confirmar datos de entrega por WhatsApp</a>'
- + '<button class="backbtn light" id="c-done" style="margin-top:12px">← Seguir explorando</button></div>';
- var dn = document.getElementById('c-done'); if(dn) dn.onclick = function(){ closeCart(); };
+ location.href = 'gracias.html';
  });
  },
  onError: function(err){ console.error('PayPal error:', err); alert('Hubo un problema con PayPal. Intenta de nuevo.'); }

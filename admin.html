@@ -239,7 +239,7 @@ function patch(tabla, id, body, tok){
 }
 
 var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
-var DATA = { orders: [], sellers: [], products: [], profiles: {}, estados: {}, correos: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
+var DATA = { orders: [], sellers: [], products: [], profiles: {}, estados: {}, correos: {}, rastreo: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
 
 document.getElementById('menubtn').onclick = function(e){ e.stopPropagation(); document.getElementById('ddnav').classList.toggle('open'); };
 document.addEventListener('click', function(){ var n = document.getElementById('ddnav'); if(n) n.classList.remove('open'); });
@@ -259,6 +259,13 @@ function rpc(nombre, body){
  }).then(function(r){ if(!r.ok) throw new Error('rpc ' + r.status); return r; });
 }
 function datoLine(k, v){ return '<div style="margin:2px 0"><b>' + esc(k) + ':</b> ' + esc(v) + '</div>'; }
+function toggleDatosEl(id){ var d = document.getElementById(id); if(d) d.classList.toggle('open'); }
+function rastreoDe(detalle, codigo){
+ if(codigo) return codigo;
+ var mm = /Rastreo: (DM-[A-Z0-9]+)/.exec(detalle || '');
+ return mm ? mm[1] : '';
+}
+var BTNMINI = 'margin-top:5px;padding:3px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:.8rem;font-weight:600';
 document.addEventListener('click', function(){ document.querySelectorAll('.ddmenu').forEach(function(m){ m.classList.add('hidden'); }); });
 
 function estadoBadge(e){ return '<span class="badge b-' + esc(e || 'activo') + '">' + esc(e || 'activo') + '</span>'; }
@@ -270,12 +277,14 @@ function cargar(){
  api('products?select=id,titulo,precio,categoria,imagen_url,activo,bloqueado,seller_id,created_at,sellers(nombre,slug)&order=created_at.desc&limit=1000', TOK),
  api('profiles?select=*', TOK).catch(function(){ return []; }),
  api('orders?select=id,estado', TOK).catch(function(){ return []; }),
- fetch(SUPABASE_URL + '/rest/v1/rpc/correos_usuarios', { method: 'POST', headers: H(TOK), body: '{}' }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; })
+ fetch(SUPABASE_URL + '/rest/v1/rpc/correos_usuarios', { method: 'POST', headers: H(TOK), body: '{}' }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }),
+ api('orders?select=paypal_order_id,codigo_rastreo&codigo_rastreo=not.is.null&limit=1000', TOK).catch(function(){ return []; })
  ]).then(function(res){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
  (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
  (res[4] || []).forEach(function(o){ DATA.estados[o.id] = o.estado; });
  (res[5] || []).forEach(function(u){ DATA.correos[u.user_id] = u.email; });
+ (Array.isArray(res[6]) ? res[6] : []).forEach(function(o){ if(o.paypal_order_id && o.codigo_rastreo) DATA.rastreo[o.paypal_order_id] = o.codigo_rastreo; });
  renderResumen(); renderVentas(); renderPedidos(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
  cargarZapatos(); cargarHistZapatos(); cargarVentasZap();
  });
@@ -348,7 +357,7 @@ function renderPedidos(){
  + '<div class="ped-head"><span><b>' + esc(vend) + '</b> · ' + esc(hora) + '</span><span class="ped-chip">' + (ac ? 'Aceptado' : 'Sin aceptar') + '</span></div>'
  + g.items.map(function(o){ return '<div class="ped-item"><span><b>' + esc(o.titulo) + '</b> <span class="mut">×' + (o.qty || 1) + '</span></span><b>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</b></div>'; }).join('')
  + '<div class="ped-total"><span>Total</span><b>' + money(total) + '</b></div>'
- + '<p class="mut" style="margin-top:8px">Comprador: ' + esc(comp) + (prof.telefono ? ' · Tel: ' + esc(prof.telefono) : '') + (dir ? '<br>' + esc(dir) : '') + '</p>'
+ + '<p class="mut" style="margin-top:8px">Comprador: ' + esc(comp) + (prof.telefono ? ' · Tel: ' + esc(prof.telefono) : '') + (dir ? '<br>' + esc(dir) : '') + (DATA.rastreo[g.paypal] ? '<br>Rastreo: <b>' + esc(DATA.rastreo[g.paypal]) + '</b>' : '') + '</p>'
  + contact
  + '</div>';
  }).join('');
@@ -361,13 +370,27 @@ function renderVentas(){
  var total = g.rows.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
  var rows = g.rows.map(function(o){
  var vend = (o.sellers && o.sellers.nombre) || '—';
- var comp = (DATA.profiles[o.buyer_id] && DATA.profiles[o.buyer_id].nombre) || ('Cliente ' + String(o.buyer_id || '').slice(0, 8));
+ var prof = DATA.profiles[o.buyer_id] || {};
+ var comp = prof.nombre || ('Cliente ' + String(o.buyer_id || '').slice(0, 8));
+ var mail = DATA.correos[o.buyer_id] || '';
+ var dirC = [prof.direccion, [prof.ciudad, prof.departamento].filter(Boolean).join(', '), prof.pais].filter(Boolean).join(' · ');
+ var datosC = '<div class="datos" id="compra-' + o.id + '">'
+ + (prof.nombre ? datoLine('Nombre', prof.nombre) : '')
+ + (mail ? '<div style="margin:2px 0"><b>Correo:</b> <a href="mailto:' + esc(mail) + '">' + esc(mail) + '</a></div>' : '')
+ + (prof.telefono ? '<div style="margin:2px 0"><b>Teléfono:</b> <a href="https://wa.me/' + esc(String(prof.telefono).replace(/[^0-9]/g, '')) + '" target="_blank" rel="noopener">' + esc(prof.telefono) + '</a></div>' : '')
+ + (dirC ? datoLine('Dirección de entrega', dirC) : '')
+ + (prof.referencia ? datoLine('Referencia', prof.referencia) : '')
+ + (!prof.nombre && !mail && !prof.telefono && !dirC ? '<span class="mut">Este comprador no tiene datos de perfil guardados.</span>' : '')
+ + '</div>';
+ var rast = DATA.rastreo[o.paypal_order_id] || '—';
  return '<tr><td>' + fecha(o.created_at) + '</td><td><b>' + esc(o.titulo) + '</b><br><span class="mut">×' + (o.qty || 1) + '</span></td>'
- + '<td>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</td><td>' + esc(vend) + '</td><td>' + esc(comp) + '</td>'
+ + '<td>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</td><td>' + esc(vend) + '</td>'
+ + '<td>' + esc(comp) + '<br><button style="' + BTNMINI + '" onclick="toggleDatosEl(\'compra-' + o.id + '\')">Ver datos</button>' + datosC + '</td>'
+ + '<td><b>' + esc(rast) + '</b></td>'
  + '<td class="mut">' + esc(o.paypal_order_id || '—') + '</td></tr>';
  }).join('');
  return '<h3 class="mes">' + g.nombre + ' <span class="mut">· ' + money(total) + ' · ' + g.rows.length + (g.rows.length === 1 ? ' venta' : ' ventas') + '</span></h3>'
- + '<table><thead><tr><th>Fecha</th><th>Artículo</th><th>Monto</th><th>Vendedor</th><th>Comprador</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
+ + '<table><thead><tr><th>Fecha</th><th>Artículo</th><th>Monto</th><th>Vendedor</th><th>Comprador</th><th>Rastreo</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
  }).join('');
 }
 function sellerProds(sid){ return DATA.products.filter(function(p){ return p.seller_id === sid; }); }
@@ -750,7 +773,7 @@ function renderVentasZap(){
  var q = ((document.getElementById('vzap-q') || {}).value || '').toLowerCase();
  var list = (DATA.ventasZap || []).filter(function(v){
  if(!q) return true;
- return ((v.cliente || '') + ' ' + (v.detalle || '') + ' ' + (v.paypal_id || '')).toLowerCase().indexOf(q) >= 0;
+ return ((v.cliente || '') + ' ' + (v.detalle || '') + ' ' + (v.paypal_id || '') + ' ' + (v.codigo_rastreo || '')).toLowerCase().indexOf(q) >= 0;
  });
  if(!DATA.ventasZap.length){ box.innerHTML = '<p class="mut">Todavía no hay ventas de zapatos registradas. Cuando entre un pago de PayPal de la tienda, aparece aquí solo.</p>'; return; }
  if(!list.length){ box.innerHTML = '<p class="mut">Ninguna venta coincide con esa búsqueda.</p>'; return; }
@@ -760,11 +783,22 @@ function renderVentasZap(){
  box.innerHTML = html + grupos.map(function(g){
  var gt = g.rows.reduce(function(a, v){ return a + Number(v.monto || 0); }, 0);
  var rows = g.rows.map(function(v){
- return '<tr><td>' + fecha(v.fecha_pago) + '</td><td><b>' + esc(v.cliente || '—') + '</b><br><span class="mut">' + esc(v.detalle || '') + '</span></td>'
- + '<td>' + money(v.monto) + '</td><td class="mut">' + esc(v.paypal_id || '—') + '</td></tr>';
+ var partes = (v.detalle || '').split(' || ');
+ var detMain = partes[0] || '';
+ var detExtra = partes.slice(1).join(' || ');
+ var rast = rastreoDe(v.detalle, v.codigo_rastreo);
+ var datosV = '<div class="datos" id="vzap-' + v.id + '">'
+ + datoLine('Cliente', v.cliente || '—')
+ + (rast ? datoLine('Código de rastreo', rast) : '')
+ + datoLine('Pedido PayPal', v.paypal_id || '—')
+ + (detExtra ? datoLine('Entrega', detExtra.replace(/^Entrega: /, '')) : '')
+ + '</div>';
+ return '<tr><td>' + fecha(v.fecha_pago) + '</td><td><b>' + esc(v.cliente || '—') + '</b><br><span class="mut">' + esc(detMain) + '</span>'
+ + '<br><button style="' + BTNMINI + '" onclick="toggleDatosEl(\'vzap-' + v.id + '\')">Ver datos</button>' + datosV + '</td>'
+ + '<td>' + money(v.monto) + '</td><td><b>' + esc(rast || '—') + '</b></td><td class="mut">' + esc(v.paypal_id || '—') + '</td></tr>';
  }).join('');
  return '<h3 class="mes">' + g.nombre + ' <span class="mut">· ' + money(gt) + ' · ' + g.rows.length + (g.rows.length === 1 ? ' venta' : ' ventas') + '</span></h3>'
- + '<table><thead><tr><th>Fecha</th><th>Cliente / artículos</th><th>Monto</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
+ + '<table><thead><tr><th>Fecha</th><th>Cliente / artículos</th><th>Monto</th><th>Rastreo</th><th>Pedido PayPal</th></tr></thead><tbody>' + rows + '</tbody></table>';
  }).join('');
 }
 

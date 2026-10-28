@@ -171,19 +171,20 @@ function renderPayPalButtons(total){
     paypal.Buttons({
       style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
       createOrder: function(data, actions){
+        trackCodeCompra = genTrack();
         return actions.order.create({
-          purchase_units: [{ amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' + (_prof && _prof.direccion ? ' · Entrega: ' + _prof.direccion + (_prof.ciudad ? ', ' + _prof.ciudad : '') : '') }]
+          purchase_units: [{ custom_id: trackCodeCompra, amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' + (_prof && _prof.direccion ? ' · Entrega: ' + _prof.direccion + (_prof.ciudad ? ', ' + _prof.ciudad : '') : '') }]
         });
       },
       onApprove: function(data, actions){
         return actions.order.capture().then(function(details){
-          saveOrders(data.orderID);
+          var gLines = cart.map(function(it){ return it.products.titulo + (it.talla ? ' · Talla ' + it.talla : '') + ' ×' + it.qty; });
+          var gWa = waOrderURL();
+          var gNom = (details.payer.name || {}).given_name || '';
+          saveOrders(data.orderID, trackCodeCompra);
+          try{ localStorage.setItem('dominus_gracias', JSON.stringify({ tipo: 'carrito', codigo: trackCodeCompra, nombre: gNom, total: money(total), items: gLines, paypal: data.orderID, wa: gWa, extra: 'Coordinamos el envío con cada vendedor.' })); }catch(e){}
           clearCart();
-          document.getElementById('main').innerHTML = '<div class="sec" style="text-align:center;padding:40px 20px">'
-            + '<div style="font-size:52px">\u2705</div>'
-            + '<h2>\u00A1Pago completado!</h2>'
-            + '<p style="color:var(--mut)">Gracias ' + esc((details.payer.name || {}).given_name || '') + '. Tu pago de ' + money(total) + ' fue recibido por PayPal.<br>Coordinamos el env\u00EDo con cada vendedor.</p>'
-            + '<a class="btn" href="../index.html" style="margin-top:16px;display:inline-block">Seguir explorando</a></div>';
+          location.href = '../gracias.html';
         });
       },
       onError: function(err){ console.error('PayPal error:', err); alert('Hubo un problema con PayPal. Intenta de nuevo.'); }
@@ -212,7 +213,7 @@ function waOrderURL(){
   var lines = cart.map(function(it){ return '• ' + it.products.titulo + (it.talla ? ' · Talla ' + it.talla : '') + ' x' + it.qty + ' (' + money(Number(it.products.precio) * it.qty) + ') — ' + it.products.sellers.nombre; });
   var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
   var total = calcFees(subtotal).total;
-  var msg = 'Hola Dominus, mi pedido:\n' + lines.join('\n') + '\nTotal: ' + money(total);
+  var msg = 'Hola Dominus, mi pedido:\n' + lines.join('\n') + '\nTotal: ' + money(total) + (trackCodeCompra ? '\nCódigo de rastreo: ' + trackCodeCompra : '');
   var p = _prof || {};
   var dir = [p.direccion, [p.ciudad, p.departamento].filter(Boolean).join(', '), p.pais].filter(Boolean);
   if(dir.length || p.telefono){
@@ -453,7 +454,13 @@ function saveShipForm(){
     }
   }).catch(function(){ btn.textContent = 'Guardar datos'; btn.disabled = false; });
 }
-function saveOrders(ppId){
+function genTrack(){
+  var chars = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789', s = '';
+  for(var i = 0; i < 6; i++) s += chars.charAt(Math.floor(Math.random() * chars.length));
+  return 'DM-' + s;
+}
+var trackCodeCompra = '';
+function saveOrders(ppId, code){
   var rows = cart.map(function(it){
     return {
       buyer_id: session.user.id,
@@ -462,12 +469,16 @@ function saveOrders(ppId){
       titulo: it.products.titulo + (it.talla ? ' · Talla ' + it.talla : ''),
       precio: it.products.precio,
       qty: it.qty,
-      paypal_order_id: ppId
+      paypal_order_id: ppId,
+      codigo_rastreo: code || null
     };
   }).filter(function(r){ return r.seller_id; });
   if(!rows.length) return;
-  fetch(SUPABASE_URL + '/rest/v1/orders', {
-    method: 'POST', headers: h(session.access_token), body: JSON.stringify(rows)
+  var post = function(rs){ return fetch(SUPABASE_URL + '/rest/v1/orders', { method: 'POST', headers: h(session.access_token), body: JSON.stringify(rs) }); };
+  post(rows).then(function(r){
+    if(r.ok) return;
+    var rows2 = rows.map(function(rw){ var c = {}; for(var k in rw){ if(k !== 'codigo_rastreo') c[k] = rw[k]; } return c; });
+    post(rows2).catch(function(){});
   }).catch(function(){});
 }
 function loadHistory(){
