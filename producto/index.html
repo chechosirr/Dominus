@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#08090d;--card:#101318;--line:#1e242e;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--err:#ff5d5d;--star:#f5b301}
+:root{--bg:#eef0f3;--card:#ffffff;--line:#e2e5ea;--txt:#111111;--mut:#5a6270;--acc:#4a4a52;--err:#ff5d5d;--star:#f5b301}
 body{background:#ffffff;background-attachment:fixed;color:#111111;font-family:'Source Sans 3',Archivo,Arial,sans-serif;min-height:100vh}
 header.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:#2a2a2e;border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;flex:0 0 auto;color:#111111!important}
@@ -34,7 +34,7 @@ main{max-width:900px;margin:0 auto;padding:22px 18px 70px}
 .pd-seller a{color:var(--acc);text-decoration:none;font-weight:700}
 .pd-price{font-size:34px;font-weight:900;color:#4a4a52!important;background:none!important;-webkit-background-clip:unset!important;background-clip:unset!important;margin:10px 0 16px}
 .tsz-row{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 14px}
-.tsz{background:var(--card);border:1px solid var(--line);color:#fff;border-radius:999px;padding:9px 16px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer}
+.tsz{background:#ffffff;border:1px solid #d0d4da;color:#111111;border-radius:999px;padding:9px 16px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer}
 .tsz.on{background:linear-gradient(135deg,#ffffff,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4);color:#0a0c10;border-color:transparent}
 .btn{display:block;width:100%;background:var(--acc);color:#0a0c10;border:0;border-radius:12px;font-family:inherit;font-weight:800;font-size:15px;padding:14px;cursor:pointer;text-align:center;text-decoration:none;margin-top:10px}
 .btn-ghost{background:none;border:1px solid var(--line);color:var(--txt)}
@@ -42,7 +42,7 @@ main{max-width:900px;margin:0 auto;padding:22px 18px 70px}
 .sec h2{font-size:19px;margin-bottom:12px}
 .sec h2 .hl{color:var(--acc)}
 .sec p.desc{font-size:15px;line-height:1.7;color:#d4d9e2;white-space:pre-wrap}
-.specs{font-size:14px;line-height:1.8;color:#d4d9e2;white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:16px}
+.specs{font-size:14px;line-height:1.8;color:#33383f;white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:16px}
 .stars{color:var(--star);font-size:18px;letter-spacing:2px}
 .rev{border-top:1px solid var(--line);padding:14px 0}
 .rev:first-of-type{border-top:0}
@@ -52,13 +52,13 @@ main{max-width:900px;margin:0 auto;padding:22px 18px 70px}
 .avg{display:flex;align-items:center;gap:12px;margin-bottom:16px}
 .avg b{font-size:32px}
 .rform label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
-.rform textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:#ffffff;font-family:inherit;font-size:14px;padding:12px;min-height:90px;resize:vertical;outline:none}
-.rform textarea::placeholder{color:#9aa4b5}
+.rform textarea{width:100%;background:#ffffff;border:1px solid #d0d4da;border-radius:12px;color:#111111;font-family:inherit;font-size:14px;padding:12px;min-height:90px;resize:vertical;outline:none}
+.rform textarea::placeholder{color:#7d8590}
 .rform textarea:focus{border-color:var(--acc)}
 .starin{display:flex;gap:6px;font-size:30px}
 .starin button{background:none;border:0;color:#3a4354;font-size:30px;cursor:pointer;font-family:inherit;padding:0}
 .starin button.on{color:var(--star)}
-.rerr{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#ffb3b3;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
+.rerr{display:none;background:rgba(255,93,93,.12);border:1px solid var(--err);color:#b3261e;font-size:13px;border-radius:12px;padding:11px 14px;margin-top:14px}
 .empty{color:var(--mut);font-size:14px;text-align:center;padding:20px}
 .login-cta{text-align:center;font-size:14px;color:var(--mut);padding:16px}
 .login-cta a{color:var(--acc);font-weight:700;text-decoration:none}
@@ -71,11 +71,11 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 
 .menu-wrap{position:relative;margin-left:auto}
 #menu-btn{background:none;border:1px solid var(--line);color:#f2f4f8;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
-.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:50}
+.menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:200px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.16);z-index:50}
 .menu.open{display:block}
-.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#f2f4f8}
+.menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#111111}
 .menu a:last-child{border-bottom:0}
-.menu a:hover{background:rgba(215,220,227,.08)}
+.menu a:hover{background:rgba(0,0,0,.05)}
 body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}</style>
 </head>
 <body>
@@ -86,7 +86,7 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     <nav class="menu" id="menu">
       <a href="../index.html">Inicio</a>
       <a href="../cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
-      <a href="../comprador/perfil.html">Carrito</a>
+      <a href="../comprador/perfil.html?ver=carrito">Carrito</a>
           <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
 </nav>
   </div>

@@ -74,11 +74,10 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     <nav class="menu" id="menu">
       <a href="../index.html">Inicio</a>
       <a href="../cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
-      <a href="../comprador/perfil.html">Carrito</a>
+      <a href="../comprador/perfil.html?ver=carrito">Carrito</a>
           <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
 </nav>
   </div>
-    <button class="logout" id="btn-out">Salir</button>
   </div>
 </header>
 <main id="main"><p class="empty">Cargando…</p></main>
@@ -290,6 +289,7 @@ function calcFees(subtotal){
   return { service: SERVICE_FEE, shipping: 0, total: subtotal + SERVICE_FEE };
 }
 function render(){
+  var soloCart = false; try{ soloCart = new URLSearchParams(location.search).get('ver') === 'carrito'; }catch(e){}
   var name = (session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
   var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
   var fees = cart.length ? calcFees(subtotal) : { service: 0, shipping: 0, total: 0 };
@@ -332,17 +332,22 @@ function render(){
     + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
+  if(soloCart){
+    var mainEl = document.getElementById('main');
+    Array.prototype.slice.call(mainEl.children).forEach(function(ch){
+      if(!ch.querySelector || !ch.querySelector('#cart-list')) mainEl.removeChild(ch);
+    });
+  }
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
   wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
-  document.getElementById('btn-out').onclick = function(){ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); location.href = 'cuenta.html'; };
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
   document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
   renderPayPalButtons(total);
-  loadShipForm();
-  loadHistory();
+  if(!soloCart) loadShipForm();
+  if(!soloCart) loadHistory();
   var waBtn = document.getElementById('wa-order');
-  loadMyReviews();
+  if(!soloCart) loadMyReviews();
   if(waBtn){
     waBtn.href = waOrderURL();
   }
