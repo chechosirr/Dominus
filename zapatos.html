@@ -238,13 +238,13 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   aside.filters.open{display:block}
   .layout{grid-template-columns:44% 1fr;gap:26px}
   .showcase{display:block;position:sticky;top:84px;border:1px solid var(--bord);border-radius:18px;overflow:hidden;background:#fff;cursor:pointer;align-self:start}
-  .showcase .sc-ph{aspect-ratio:1/1;background:#fff}
-  .showcase .sc-ph img{width:100%;height:100%;object-fit:contain;padding:24px;box-sizing:border-box;display:block;transition:opacity .45s ease}
+  .showcase .sc-ph{background:#fff}
+  .showcase .sc-ph img{width:100%;height:min(46vh,540px);object-fit:contain;padding:clamp(12px,2.5vh,24px);box-sizing:border-box;display:block;transition:opacity .45s ease}
   .showcase.fading .sc-ph img{opacity:0}
   .sc-cap{padding:16px 20px 6px;border-top:1px solid var(--bord)}
   .sc-brand{font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;color:var(--mut);font-weight:700}
-  .sc-name{font-size:1.28rem;font-weight:700;line-height:1.3;margin:3px 0 6px}
-  .sc-price{font-size:1.55rem;font-weight:800}
+  .sc-name{font-size:clamp(1.05rem,2.3vh,1.28rem);font-weight:700;line-height:1.3;margin:3px 0 6px}
+  .sc-price{font-size:clamp(1.25rem,2.7vh,1.55rem);font-weight:800}
   .sc-price small{font-size:.85rem;color:var(--mut);font-weight:600;margin-left:8px}
   .sc-dots{display:flex;gap:6px;padding:12px 20px 18px;flex-wrap:wrap}
   .sc-dots i{width:8px;height:8px;border-radius:50%;background:#d8d8dd;display:block}
@@ -260,16 +260,16 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 <style>
 /* ===== Clases en escritorio: tarjetas MUY grandes, blancas, con logo minimalista ===== */
 @media (min-width:900px){
-  #catview{max-width:1300px}
-  .cat-title{font-size:3.3rem}
-  .cat-grid{max-width:1300px;gap:30px}
-  .cat-card{background:#ffffff;border:1.5px solid #e4e4e9;border-radius:28px;padding:70px 30px 62px;box-shadow:0 12px 34px rgba(17,17,20,.08)}
+  #catview{max-width:1300px;padding-top:clamp(14px,4vh,52px)}
+  .cat-title{font-size:clamp(2rem,4.6vh,3.3rem)}
+  .cat-grid{max-width:1300px;gap:clamp(16px,2.5vw,30px)}
+  .cat-card{background:#ffffff;border:1.5px solid #e4e4e9;border-radius:28px;padding:clamp(26px,6.5vh,70px) 30px clamp(22px,5.5vh,62px);box-shadow:0 12px 34px rgba(17,17,20,.08)}
   .cat-card:hover{transform:translateY(-5px);box-shadow:0 22px 46px rgba(17,17,20,.14)}
-  .cat-card::before{content:"";display:block;width:128px;height:128px;margin:0 auto 26px;background-repeat:no-repeat;background-position:center;background-size:contain}
+  .cat-card::before{content:"";display:block;width:clamp(72px,15vh,128px);height:clamp(72px,15vh,128px);margin:0 auto clamp(10px,2.4vh,26px);background-repeat:no-repeat;background-position:center;background-size:contain}
   .cat-card[data-cat="hombre"]::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232a2a2e' stroke-width='1.1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 16.9v-2.7c3-.2 5.9-1.1 8.3-2.9l2.3-1.8c.4-.3 1-.3 1.4.1l1.5 1.8c1.6.5 3.1 1.1 4.5 1.8v3.7'/%3E%3Cpath d='M13.8 9.7l1.5 1.8'/%3E%3Cpath d='M11.9 11.2l1.5 1.7'/%3E%3Cpath d='M3 16.9h18v1.6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.6Z'/%3E%3C/svg%3E")}
   .cat-card[data-cat="mujer"]::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232a2a2e' stroke-width='1.1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20.8 3.4c-.5 3.8-2.4 7.1-5.6 9.6l-2.1 1.6.9 5.9h-2.9l-1.2-6.7c-.2-1-.9-1.9-1.9-2.3L4 9.2V3.4h2.9v4.3c2.8.9 5.8.4 8.3-1.3 1.9-1.3 3.4-2.9 4.4-5z'/%3E%3C/svg%3E")}
   .cat-card[data-cat="ninos"]::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232a2a2e' stroke-width='1.1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 16.9v-2.7c3-.2 5.9-1.1 8.3-2.9l2.3-1.8c.4-.3 1-.3 1.4.1l1.5 1.8c1.6.5 3.1 1.1 4.5 1.8v3.7'/%3E%3Cpath d='M11.6 10.9l3.4 1.5'/%3E%3Cpath d='M3 16.9h18v1.6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.6Z'/%3E%3C/svg%3E")}
-  .cat-name{color:#17171a;font-size:2.15rem;letter-spacing:.01em}
+  .cat-name{color:#17171a;font-size:clamp(1.45rem,3.4vh,2.15rem);letter-spacing:.01em}
 }
 </style>
 </head>
