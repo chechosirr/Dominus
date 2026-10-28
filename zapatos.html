@@ -165,6 +165,53 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .hl,.logo em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 .btn-silver,.addbtn{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
 </style>
+
+<style>
+/* ===== Escritorio (tipo tienda departamental): la vista de teléfono NO cambia ===== */
+@media (min-width:1024px){
+  header.top{padding-left:max(18px,calc((100vw - 1280px)/2 + 16px));padding-right:max(18px,calc((100vw - 1280px)/2 + 16px));padding-top:16px;padding-bottom:16px}
+  header.top .logo{color:#f5f5f7!important;font-size:27px}
+  #menu-btn{font-size:21px;padding:9px 15px}
+  .promo{font-size:.95rem;padding:11px 12px;letter-spacing:.02em;margin-top:0}
+  .sections{max-width:1280px;padding:18px 16px 0;gap:12px}
+  .sections a{padding:15px 8px;font-size:1.05rem;border-radius:14px}
+  .toolbar-in{max-width:1280px;margin:0 auto;padding:16px}
+  .search{flex:0 1 640px;padding:12px 20px}
+  .search input{font-size:1.05rem}
+  .tbtn{padding:11px 22px;font-size:1rem}
+  .backbar{padding-left:max(16px,calc((100vw - 1280px)/2 + 16px));padding-right:max(16px,calc((100vw - 1280px)/2 + 16px))}
+  .shopbar{padding-left:max(16px,calc((100vw - 1280px)/2 + 16px));padding-right:max(16px,calc((100vw - 1280px)/2 + 16px))}
+  #catview{max-width:1080px;padding-top:40px}
+  .cat-title{font-size:2.7rem}
+  .cat-sub{font-size:1.3rem;margin-bottom:30px}
+  .cat-grid{grid-template-columns:repeat(3,1fr);max-width:1080px;gap:20px}
+  .cat-card{border-radius:20px;padding:32px 20px}
+  .cat-name{font-size:1.25rem}
+  .wrap{max-width:1280px;padding:22px 16px 60px}
+  .crumbs{font-size:.92rem}
+  h1{font-size:2rem}
+  .count{font-size:1rem;margin-bottom:18px}
+  .layout{grid-template-columns:252px 1fr;gap:30px}
+  aside.filters{position:sticky;top:84px;padding:20px;border-radius:16px}
+  aside.filters h3{font-size:.85rem}
+  select.fsel,select.sort{padding:11px;font-size:1rem}
+  .grid{grid-template-columns:repeat(4,1fr);gap:22px}
+  .card{border-radius:16px;transition:box-shadow .18s ease,transform .18s ease}
+  .card:hover{box-shadow:0 12px 30px rgba(17,17,20,.13);transform:translateY(-3px)}
+  .card .ph img{padding:16px}
+  .card .bd{padding:14px 16px 16px;gap:3px}
+  .card .brand{font-size:.76rem}
+  .card .name{font-size:1.02rem;line-height:1.3;min-height:2.6em}
+  .card .price{font-size:1.4rem;padding-top:8px}
+  .card .price small{font-size:.82rem}
+  .card .ver{font-size:.9rem}
+  .steps{grid-template-columns:repeat(4,1fr);gap:16px}
+  .step{padding:18px}
+  section.block{margin-top:48px}
+  section.block h2{font-size:1.45rem}
+  footer{font-size:13px;padding:34px}
+}
+</style>
 </head>
 <body>
 <header class="top">
