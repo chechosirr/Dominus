@@ -292,6 +292,22 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   .cat-grid{max-width:1440px}
 }
 </style>
+
+<style>
+/* ===== Encuadre de escritorio: escaparate fijo + 3x2 al lado + resto a todo el ancho ===== */
+#grid2{display:none}
+@media (min-width:1024px){
+  .layout{grid-template-columns:44% 1fr;align-items:start}
+  .showcase{grid-column:1;grid-row:1/-1;z-index:5}
+  main{grid-column:2;grid-row:1;min-width:0}
+  #grid{grid-template-columns:repeat(3,1fr);gap:16px}
+  #grid2{display:grid;grid-column:1/-1;grid-row:2;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:16px;margin-top:26px}
+}
+@media (min-width:1024px) and (max-width:1279px){
+  .layout{grid-template-columns:minmax(310px,40%) 1fr}
+  #grid{gap:12px}
+}
+</style>
 </head>
 <body>
 <header class="top">
@@ -363,6 +379,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <main>
  <div class="grid" id="grid"></div>
  </main>
+ <div class="grid grid-full" id="grid2"></div>
  </div>
 
  </div>
@@ -1000,6 +1017,7 @@ function doLogout(){
   function build(){
     if(!mq()){ slides = []; box.style.display = 'none'; return; }
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+    if(grid2) cards = cards.concat(Array.prototype.slice.call(grid2.querySelectorAll('.card')));
     if(!cards.length){ slides = []; paint(); return; }
     var step = Math.max(1, Math.floor(cards.length / 12));
     slides = cards.filter(function(_, i){ return i % step === 0; }).slice(0, 12).map(function(c){
@@ -1016,13 +1034,29 @@ function doLogout(){
     paint();
     slides.forEach(function(p){ var im = new Image(); im.src = p.img; });
   }
+  var grid2 = document.getElementById('grid2');
+  var splitMark = null;
+  function split(){
+    if(!grid2) return;
+    if(!mq()){
+      while(grid2.firstChild) grid.appendChild(grid2.firstChild);
+      splitMark = null;
+      return;
+    }
+    var first = grid.querySelector('.card');
+    if(grid2.children.length && first && first !== splitMark) grid2.innerHTML = '';
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+    for(var i = 6; i < cards.length; i++) grid2.appendChild(cards[i]);
+    splitMark = grid.querySelector('.card');
+  }
   var deb = null;
-  var obs = new MutationObserver(function(){ clearTimeout(deb); deb = setTimeout(build, 350); });
+  function sync(){ clearTimeout(deb); deb = setTimeout(function(){ split(); build(); }, 350); }
+  var obs = new MutationObserver(sync);
   obs.observe(grid, { childList: true });
   box.addEventListener('mouseenter', function(){ if(timer){ clearInterval(timer); timer = null; } });
-  box.addEventListener('mouseleave', function(){ if(!timer) timer = setInterval(tick, 4200); });
-  timer = setInterval(tick, 4200);
-  window.addEventListener('resize', function(){ clearTimeout(deb); deb = setTimeout(build, 350); });
+  box.addEventListener('mouseleave', function(){ if(!timer) timer = setInterval(tick, 8000); });
+  timer = setInterval(tick, 8000);
+  window.addEventListener('resize', sync);
   setTimeout(build, 300);
 })();
 </script>
