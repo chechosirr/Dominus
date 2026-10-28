@@ -304,7 +304,6 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="cartscrim" id="cartscrim"></div>
  <div class="cartpanel">
  <div class="backbar" style="margin:0 -18px;padding:10px 18px">
- <button class="backbtn" id="c-back">← Seguir viendo</button>
  <h2 style="margin-left:4px">Mi carrito</h2>
  </div>
  <div id="cart-body" style="margin-top:16px"></div>
@@ -660,8 +659,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  function closeCart(){ if(ovState === 'cart'){ history.back(); } else { cartwrap.classList.remove('open'); document.body.style.overflow = ''; } }
  document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
  document.getElementById('cartscrim').addEventListener('click', closeCart);
- document.getElementById('c-back').addEventListener('click', closeCart);
-
+ 
  /* ---------- Filtros / búsqueda ---------- */
  document.getElementById('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
  fm.addEventListener('click', function(e){
