@@ -395,7 +395,6 @@ function renderSellers(){
  + (s.paypal_email ? datoLine('PayPal', s.paypal_email) : '')
  + (DATA.correos[s.user_id] ? '<div style="margin:2px 0"><b>Correo:</b> <a href="mailto:' + esc(DATA.correos[s.user_id]) + '">' + esc(DATA.correos[s.user_id]) + '</a></div>' : '')
  + (p.nombre ? datoLine('Nombre de la cuenta', p.nombre) : '')
- + (p.telefono ? '<div style="margin:2px 0"><b>Teléfono:</b> <a href="tel:' + esc(p.telefono) + '">' + esc(p.telefono) + '</a></div>' : '')
  + ((p.ciudad || p.departamento || p.pais) ? datoLine('Ciudad', [p.ciudad, p.departamento, p.pais].filter(Boolean).join(', ')) : '')
  + (p.direccion ? datoLine('Dirección', p.direccion) : '')
  + (p.referencia ? datoLine('Referencia', p.referencia) : '')
