@@ -173,7 +173,7 @@ function renderPayPalButtons(total){
       createOrder: function(data, actions){
         trackCodeCompra = genTrack();
         return actions.order.create({
-          purchase_units: [{ custom_id: trackCodeCompra, amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Compra en Dominus' + (_prof && _prof.direccion ? ' · Entrega: ' + _prof.direccion + (_prof.ciudad ? ', ' + _prof.ciudad : '') : '') }]
+          purchase_units: [{ custom_id: trackCodeCompra, amount: { value: total.toFixed(2), currency_code: 'USD' }, description: 'Rastreo: ' + trackCodeCompra + ' · Compra en Dominus' + (_prof && _prof.direccion ? ' · Entrega: ' + _prof.direccion + (_prof.ciudad ? ', ' + _prof.ciudad : '') : '') }]
         });
       },
       onApprove: function(data, actions){

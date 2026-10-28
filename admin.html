@@ -260,6 +260,17 @@ function rpc(nombre, body){
 }
 function datoLine(k, v){ return '<div style="margin:2px 0"><b>' + esc(k) + ':</b> ' + esc(v) + '</div>'; }
 function toggleDatosEl(id){ var d = document.getElementById(id); if(d) d.classList.toggle('open'); }
+function guardarExt(id){
+ var ext = (document.getElementById('ext-' + id) || {}).value || '';
+ var ord = (document.getElementById('ord-' + id) || {}).value || '';
+ patch('ventas_zapatos', id, { rastreo_externo: ext.trim(), orden_externa: ord.trim() }, TOK)
+ .then(function(){
+  (DATA.ventasZap || []).forEach(function(v){ if(v.id === id){ v.rastreo_externo = ext.trim(); v.orden_externa = ord.trim(); } });
+  renderVentasZap();
+  alert('Rastreo externo guardado.');
+ })
+ .catch(function(){ alert('No se pudo guardar. Si aún no corres el SQL de rastreo en Supabase, hazlo primero.'); });
+}
 function rastreoDe(detalle, codigo){
  if(codigo) return codigo;
  var mm = /Rastreo: (DM-[A-Z0-9]+)/.exec(detalle || '');
@@ -792,8 +803,15 @@ function renderVentasZap(){
  + (rast ? datoLine('Código de rastreo', rast) : '')
  + datoLine('Pedido PayPal', v.paypal_id || '—')
  + (detExtra ? datoLine('Entrega', detExtra.replace(/^Entrega: /, '')) : '')
+ + (v.rastreo_externo ? datoLine('Rastreo externo', v.rastreo_externo) : '')
+ + (v.orden_externa ? datoLine('Orden en la tienda', v.orden_externa) : '')
+ + '<div style="margin-top:9px"><div style="font-size:.82rem;color:var(--mut);margin-bottom:2px">Asociar el rastreo que da la tienda externa al comprar el producto:</div>'
+ + '<input id="ext-' + v.id + '" value="' + esc(v.rastreo_externo || '') + '" placeholder="Código de rastreo externo (carrier/tienda)" style="width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;margin:3px 0">'
+ + '<input id="ord-' + v.id + '" value="' + esc(v.orden_externa || '') + '" placeholder="Nº de orden en la tienda (opcional)" style="width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;margin:3px 0">'
+ + '<button style="' + BTNMINI + '" onclick="guardarExt(\'' + v.id + '\')">Guardar rastreo externo</button></div>'
  + '</div>';
  return '<tr><td>' + fecha(v.fecha_pago) + '</td><td><b>' + esc(v.cliente || '—') + '</b><br><span class="mut">' + esc(detMain) + '</span>'
+ + (v.rastreo_externo ? '<br><span class="mut">Rastreo externo: <b>' + esc(v.rastreo_externo) + '</b></span>' : '')
  + '<br><button style="' + BTNMINI + '" onclick="toggleDatosEl(\'vzap-' + v.id + '\')">Ver datos</button>' + datosV + '</td>'
  + '<td>' + money(v.monto) + '</td><td><b>' + esc(rast || '—') + '</b></td><td class="mut">' + esc(v.paypal_id || '—') + '</td></tr>';
  }).join('');

@@ -639,7 +639,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  return { name: (it.codigo + ' · ' + p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
  unit_amount: { currency_code: 'USD', value: priceFor(p, it.talla).toFixed(2) } };
  });
- var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + ' · Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' (' + t.plazo + ' días hábiles)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
+ var desc = ('Zapatos Dominus · Rastreo ' + zapTrack + ' · ' + t.pares + ' par(es)' + ' · Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' (' + t.plazo + ' días hábiles)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
  var pu = {
  custom_id: zapTrack,
  description: desc,
