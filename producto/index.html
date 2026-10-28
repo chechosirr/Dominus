@@ -166,7 +166,7 @@ function render(){
           + ts.map(function(t){ return '<button type="button" class="tsz" data-t="' + esc(t) + '">' + esc(t) + '</button>'; }).join('')
           + '</div></div>';
       })()
-    + '<a class="btn" href="' + esc(p.paypal_link || '#') + '" target="_blank" rel="noopener">Comprar</a>'
+    + '<button class="btn" id="btn-buy">Comprar</button>'
     + '<button class="btn btn-ghost" id="btn-cart">+ Agregar al carrito</button></div></div>';
   if(p.descripcion) html += '<div class="sec"><h2>Descripción</h2><p class="desc">' + esc(p.descripcion) + '</p></div>';
   if(p.especificaciones) html += '<div class="sec"><h2>Especificaciones</h2><div class="specs">' + esc(p.especificaciones) + '</div></div>';
@@ -218,6 +218,27 @@ function render(){
         }
         b.textContent = '✓ En el carrito';
       }).catch(function(){ b.disabled = false; b.textContent = '+ Agregar al carrito'; });
+  };
+  document.getElementById('btn-buy').onclick = function(){
+    var b = this;
+    if(!sess){ location.href = '../cuenta.html?tipo=comprador'; return; }
+    if(trow && !selTalla){ alert('Elige una talla primero.'); return; }
+    b.disabled = true; b.textContent = 'Procesando…';
+    fetch(SUPABASE_URL + '/rest/v1/cart_items', {
+      method: 'POST',
+      headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates,return=representation' },
+      body: JSON.stringify({ user_id: sess.user.id, product_id: PRODUCT.id, qty: 1, talla: selTalla || '' })
+    }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, j: j }; }); })
+      .then(function(res){
+        if(!res.ok) throw 0;
+        var go = function(){ location.href = '../comprador/perfil.html?ver=carrito'; };
+        if(res.j.length && res.j[0].qty > 1){
+          fetch(SUPABASE_URL + '/rest/v1/cart_items?id=eq.' + res.j[0].id, {
+            method: 'PATCH', headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ qty: res.j[0].qty + 1 })
+          }).then(go).catch(go);
+        } else go();
+      }).catch(function(){ b.disabled = false; b.textContent = 'Comprar'; });
   };
   var si = document.getElementById('starin');
   if(si){

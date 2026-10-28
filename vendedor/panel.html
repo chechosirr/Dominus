@@ -429,7 +429,7 @@ function publishProduct(){
       method: 'POST', headers: h(session.access_token, true),
       body: JSON.stringify({ seller_id: seller.id, titulo: titulo, descripcion: document.getElementById('f-desc').value.trim() || null, especificaciones: document.getElementById('f-specs').value.trim() || null,
         precio: precio, categoria: document.getElementById('f-cat').value.trim() || 'General', imagen_url: imgUrl, orden: products.length,
-        paypal_link: 'https://www.paypal.com/paypalme/tuusuario/', activo: true })
+        activo: true })
     });
   }).then(function(r){ if(!r.ok) throw new Error('db'); loadProducts(); })
     .catch(function(){ ferr('No se pudo publicar. Intenta de nuevo.'); btn.disabled = false; btn.textContent = 'Publicar producto'; });
