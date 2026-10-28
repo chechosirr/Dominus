@@ -132,6 +132,27 @@ function h(token){
 function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function money(n){ return '$' + Number(n).toFixed(2); }
 
+function deleteMyAccountBuyer(){
+  if(!session || !session.access_token){ alert('Entra a tu cuenta primero.'); return; }
+  if(!confirm('¿Eliminar tu cuenta de Dominus?\n\nSe borrará tu perfil, tu carrito y tu cuenta de acceso. Esto NO se puede deshacer.')) return;
+  var frase = prompt('Para confirmar, escribe ELIMINAR:');
+  if(!frase || frase.trim().toUpperCase() !== 'ELIMINAR'){ alert('Cancelado. Tu cuenta sigue activa.'); return; }
+  var tok = session.access_token, uid = session.user.id;
+  var finish = function(completa){
+    try{ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(e){}
+    alert(completa ? 'Tu cuenta fue eliminada.' : 'Tu perfil y tu carrito fueron eliminados.');
+    location.href = '../index.html';
+  };
+  fetch(SUPABASE_URL + '/rest/v1/rpc/eliminar_mi_cuenta', { method: 'POST', headers: h(tok), body: JSON.stringify({}) })
+    .then(function(r){
+      if(r.ok){ finish(true); return; }
+      fetch(SUPABASE_URL + '/rest/v1/cart_items?user_id=eq.' + uid, { method: 'DELETE', headers: h(tok) })
+        .then(function(){ return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid, { method: 'DELETE', headers: h(tok) }); })
+        .then(function(){ finish(false); })
+        .catch(function(){ alert('No se pudo eliminar. Intenta de nuevo.'); });
+    })
+    .catch(function(){ alert('No se pudo eliminar. Revisa tu conexión.'); });
+}
 function renderPayPalButtons(total){
   var cont = document.getElementById('paypal-button-container');
   if(!cont || !cart.length) return;
@@ -363,6 +384,9 @@ function render(){
     + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
     + '<p id="cp-msg" style="font-size:13px;margin-top:10px"></p>'
     + '<button class="btn" id="cp-btn">Cambiar contraseña</button></div>'
+    + '<div class="aj-group"><h3 class="aj-h" style="color:#b3261e">Eliminar mi cuenta</h3>'
+    + '<p style="font-size:14px;color:var(--mut);margin-bottom:12px">Si eliminas tu cuenta se borra tu perfil, tu carrito y tu cuenta de acceso. No se puede deshacer.</p>'
+    + '<button class="btn" id="btn-delacc" style="background:#b3261e!important;color:#fff!important">Eliminar mi cuenta</button></div>'
     + '</div>'
     + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
@@ -376,6 +400,7 @@ function render(){
   Array.prototype.forEach.call(document.querySelectorAll('#main .sec'), function(s){ if(s.querySelector('#cart-list')) s.classList.add('open'); });
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
   wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
+  var delBtn = document.getElementById('btn-delacc'); if(delBtn) delBtn.onclick = deleteMyAccountBuyer;
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
   document.querySelectorAll('[data-dec]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.dec, -1); }; });
   document.querySelectorAll('[data-rm]').forEach(function(b){ b.onclick = function(){ rmItem(b.dataset.rm); }; });
