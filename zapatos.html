@@ -940,24 +940,30 @@ function doLogout(){
 </script>
 
 <script>
-/* Escaparate de escritorio: fotos grandes que rotan solas (solo >=1024px) */
+/* Escaparate de escritorio: fotos grandes que rotan solas (solo >=1024px).
+   Se alimenta de las tarjetas visibles de la parrilla; no depende del script principal. */
 (function(){
   var box = document.getElementById('showcase');
-  if(!box) return;
+  var grid = document.getElementById('grid');
+  if(!box || !grid) return;
   var slides = [], idx = 0, timer = null;
   function mq(){ return window.matchMedia('(min-width:1024px)').matches; }
   function paint(){
-    if(!slides.length) return;
+    if(!slides.length){ box.style.display = 'none'; return; }
+    box.style.display = '';
     var p = slides[idx];
-    box.innerHTML = '<div class="sc-ph"><img src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>'
-      + '<div class="sc-cap"><div class="sc-brand">'+esc(p.marca)+'</div>'
-      + '<div class="sc-name">'+esc(p.nombre)+'</div>'
-      + '<div class="sc-price">'+money(p.precio)+'<small>C$'+p.precio_c.toLocaleString('es-NI')+'</small></div></div>'
-      + '<div class="sc-dots">'+slides.map(function(_,i){ return '<i class="'+(i===idx?'on':'')+'"></i>'; }).join('')+'</div>';
-    box.onclick = function(){ openDetail(p.codigo); };
+    box.innerHTML = '<div class="sc-ph"><img src="'+p.img+'" alt=""></div>'
+      + '<div class="sc-cap"><div class="sc-brand">'+p.brand+'</div>'
+      + '<div class="sc-name">'+p.name+'</div>'
+      + '<div class="sc-price">'+p.price+'<small>'+p.pricec+'</small></div></div>'
+      + '<div class="sc-dots">'+slides.map(function(_, i){ return '<i class="'+(i===idx?'on':'')+'"></i>'; }).join('')+'</div>';
+    box.onclick = function(){
+      var card = grid.querySelector('.card[data-code="'+p.code+'"]');
+      if(card) card.click();
+    };
   }
   function tick(){
-    if(!slides.length || !mq()) return;
+    if(!slides.length || !mq() || document.hidden) return;
     box.classList.add('fading');
     setTimeout(function(){
       idx = (idx + 1) % slides.length;
@@ -965,24 +971,33 @@ function doLogout(){
       box.classList.remove('fading');
     }, 460);
   }
-  window.buildShowcase = function(){
-    if(!mq()){ slides = []; return; }
-    var list = [];
-    try{ list = filtered(); }catch(e){}
-    if(!list.length){ slides = []; box.innerHTML=''; return; }
-    var step = Math.max(1, Math.floor(list.length / 12));
-    slides = list.filter(function(_, i){ return i % step === 0; }).slice(0, 12);
+  function build(){
+    if(!mq()){ slides = []; box.style.display = 'none'; return; }
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+    if(!cards.length){ slides = []; paint(); return; }
+    var step = Math.max(1, Math.floor(cards.length / 12));
+    slides = cards.filter(function(_, i){ return i % step === 0; }).slice(0, 12).map(function(c){
+      var pr = c.querySelector('.price');
+      var first = pr && pr.childNodes[0] ? pr.childNodes[0].textContent.trim() : '';
+      var small = pr && pr.querySelector('small') ? pr.querySelector('small').textContent.split('·')[0].trim() : '';
+      var im = c.querySelector('img');
+      return { code: c.getAttribute('data-code'), img: im ? im.src : '',
+        brand: c.querySelector('.brand') ? c.querySelector('.brand').innerHTML : '',
+        name: c.querySelector('.name') ? c.querySelector('.name').innerHTML : '',
+        price: first, pricec: small };
+    });
     idx = 0;
     paint();
-    slides.forEach(function(p){ var im = new Image(); im.src = p.fotos[0]; });
-  };
-  var _render = render;
-  render = function(){ _render(); if(window.buildShowcase) window.buildShowcase(); };
+    slides.forEach(function(p){ var im = new Image(); im.src = p.img; });
+  }
+  var deb = null;
+  var obs = new MutationObserver(function(){ clearTimeout(deb); deb = setTimeout(build, 350); });
+  obs.observe(grid, { childList: true });
   box.addEventListener('mouseenter', function(){ if(timer){ clearInterval(timer); timer = null; } });
   box.addEventListener('mouseleave', function(){ if(!timer) timer = setInterval(tick, 4200); });
   timer = setInterval(tick, 4200);
-  if(document.readyState === 'complete' || document.readyState === 'interactive'){ setTimeout(window.buildShowcase, 60); }
-  else document.addEventListener('DOMContentLoaded', function(){ setTimeout(window.buildShowcase, 60); });
+  window.addEventListener('resize', function(){ clearTimeout(deb); deb = setTimeout(build, 350); });
+  setTimeout(build, 300);
 })();
 </script>
 </body>
