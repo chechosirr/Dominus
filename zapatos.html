@@ -575,8 +575,8 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  })
  .then(function(rows){
  var pr = rows && rows[0]; if(!pr) return;
- if(pr.nombre) pon('sf-nom', pr.nombre);
  var pon = function(id, v){ var el = document.getElementById(id); if(el && !el.value && v) el.value = v; };
+ if(pr.nombre) pon('sf-nom', pr.nombre);
  pon('sf-dir', pr.direccion || '');
  pon('sf-ciu', pr.ciudad ? (pr.departamento ? pr.ciudad + ', ' + pr.departamento : pr.ciudad) : '');
  pon('sf-tel', pr.telefono || '');
