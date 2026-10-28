@@ -5,7 +5,7 @@
 var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
-var ZAP_VERIFICADO = "28 de octubre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -54,10 +54,7 @@ var ZAPATOS = [
   "precio_c": 2867,
   "fotos": [
    "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e07b59c8-044c-4858-a708-a418cb649ed5/W+NIKE+AIR+MAX+PORTAL.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/80536fe3-e640-4091-912b-422dca24f00f/W+NIKE+AIR+MAX+PORTAL.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d064214-312e-46a9-a839-bbb4914f5f96/W+NIKE+AIR+MAX+PORTAL.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/632ab77c-283c-4bb4-a86d-68ea26084303/W+NIKE+AIR+MAX+PORTAL.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/85a8eb23-069c-419e-9a3a-2ddb8749e8f3/W+NIKE+AIR+MAX+PORTAL.png"
+   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/632ab77c-283c-4bb4-a86d-68ea26084303/W+NIKE+AIR+MAX+PORTAL.png"
   ],
   "descripcion": "El Air Max Portal mezcla el ADN Air Max con un diseño moderno y chunky: capas de tejido y sintético, unidad Air en el talón y mucha amortiguación para la calle.",
   "detalles": [
@@ -91,10 +88,7 @@ var ZAPATOS = [
   "precio_c": 2573,
   "fotos": [
    "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e4f0a76e-eb7b-4b17-8393-c500924ea8b2/AIR+MAX+TORCH+4.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/25883a80-e2fa-4e29-af82-f3f381093596/AIR+MAX+TORCH+4.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/608801ef-9a62-4806-822e-e098e2770306/AIR+MAX+TORCH+4.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3a50d26b-68a8-436b-963f-621c9b692946/AIR+MAX+TORCH+4.png",
-   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0bf451a7-1982-49c8-81ff-79dfdfc7312c/AIR+MAX+TORCH+4.png"
+   "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3a50d26b-68a8-436b-963f-621c9b692946/AIR+MAX+TORCH+4.png"
   ],
   "descripcion": "El Air Max Torch 4 es un clásico de running de Nike: malla transpirable con capas, unidad Max Air en el talón para absorber impactos y suela de goma durable.",
   "detalles": [
@@ -116,39 +110,6 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
- },
- {
-  "codigo": "DOM-008",
-  "marca": "adidas",
-  "nombre": "adidas Grand Court 2.0 Shoes (Women) — Cloud White / Pink Strata / Cloud White",
-  "genero": "Mujer",
-  "precio": 32.0,
-  "precio_c": 1177,
-  "fotos": [
-   "https://www.bargainfeeder.com/_next/image?url=https%3A%2F%2Feqkqn5waetuoyw5a.public.blob.vercel-storage.com%2Fbargains%2Fimages%2Fa889411dd7a66d98cfc22c1cf849ae2b32d8f44ae029dce4a66872f977d6d4c2.jpg&w=640&q=75"
-  ],
-  "descripcion": "Línea de cancha de perfil bajo y acabado limpio: parte superior suave con las 3 franjas, suela cupsole y plantilla acolchada. El básico elegante de adidas que resuelve cualquier outfit, del jean al pantalón de vestir.",
-  "detalles": [
-   "Perfil bajo estilo tenis clásico",
-   "Las 3 franjas laterales",
-   "Plantilla acolchada",
-   "Suela cupsole de goma"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -336,8 +297,7 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/bf05cce5d3884aeda50e5025bc81a6d4.jpg?v=1778926391",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/588309ededd349e2a02fb9d48ef098db.jpg?v=1778926391",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/862befbe98034b948170475f8461760a.jpg?v=1778926391",
-   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3aa069d0c0824e8eb51422109e8ca3cb.jpg?v=1778926391",
-   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/71d52c85535c4f0b911ed3b833be20eb.jpg?v=1778926392"
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3aa069d0c0824e8eb51422109e8ca3cb.jpg?v=1778926391"
   ],
   "descripcion": "El Ultraboost 5X es el tope de comodidad de adidas para correr y caminar todo el día: mediasuela Boost que devuelve energía en cada paso y parte superior de tejido elástico que se ajusta como un calcetín.",
   "detalles": [
@@ -624,28 +584,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-056",
-  "marca": "adidas",
-  "nombre": "adidas Duramo SL Core Black / Solar Red / Grey Six",
-  "genero": "Hombre",
-  "precio": 32.0,
-  "precio_c": 1177,
-  "fotos": [
-   "https://i.ebayimg.com/images/g/j5cAAeSwhMVpih0d/s-l1600.jpg"
-  ],
-  "descripcion": "Tenis de running ligeros en negro con detalles rojos, con malla transpirable para entrenar cómodo. Amortiguación suave para tus rutas y para caminar a diario.",
-  "detalles": [
-   "Malla transpirable que deja respirar el pie",
-   "Amortiguación ligera y suave",
-   "Suela Adiwear duradera",
-   "Parte superior con materiales reciclados"
-  ],
-  "tallas": [
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-057",
   "marca": "adidas",
   "nombre": "adidas Runfalcon 5 Cloud White / Cloud White / Cloud White",
@@ -664,72 +602,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11.5"
-  ]
- },
- {
-  "codigo": "DOM-058",
-  "marca": "adidas",
-  "nombre": "adidas Run 60s 2.0 Victory Crimson / Cloud White / Core Black",
-  "genero": "Hombre",
-  "precio": 34.0,
-  "precio_c": 1250,
-  "fotos": [
-   "https://i.ebayimg.com/images/g/b-YAAeSwO7xpMLKK/s-l1600.jpg"
-  ],
-  "descripcion": "Tenis de perfil bajo con aire retro de los años setenta, en un rojo intenso que se lleva bien con jeans o shorts. Pensados para el uso diario: ligeros, cómodos y fáciles de combinar.",
-  "detalles": [
-   "Silueta baja de inspiración setentera",
-   "Cierre de cordones para ajuste seguro",
-   "Suela de goma para el uso diario",
-   "Combinación rojo, blanco y negro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-059",
-  "marca": "adidas",
-  "nombre": "adidas Barreda Collegiate Green / Core White",
-  "genero": "Hombre",
-  "precio": 34.0,
-  "precio_c": 1250,
-  "fotos": [
-   "https://i.ebayimg.com/images/g/u74AAeSwV~lpMLGf/s-l1600.jpg"
-  ],
-  "descripcion": "Tenis casual de líneas limpias en verde universitario con blanco, un básico con carácter para todos los días. Su perfil bajo combina con casi cualquier outfit.",
-  "detalles": [
-   "Estilo court de perfil bajo",
-   "Parte superior sintética fácil de limpiar",
-   "Cierre de cordones",
-   "Suela de goma resistente"
-  ],
-  "tallas": [
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "12.5",
-   "13",
-   "14"
   ]
  },
  {
@@ -753,29 +625,6 @@ var ZAPATOS = [
    "7.5",
    "11",
    "11.5"
-  ]
- },
- {
-  "codigo": "DOM-061",
-  "marca": "Sperry",
-  "nombre": "Sperry Striper II CVO Sneaker White",
-  "genero": "Hombre",
-  "precio": 37.43,
-  "precio_c": 1376,
-  "fotos": [
-   "https://n.nordstrommedia.com/it/d6428964-1e21-4aaf-bff2-86283555325c.jpeg?crop=pad&trim=color&w=780&h=1196",
-   "https://n.nordstrommedia.com/it/82495a99-b23c-4fd4-9c5f-5da15082a3cf.jpeg?crop=pad&trim=color&w=780&h=1196",
-   "https://n.nordstrommedia.com/it/fa54e6c3-a2b4-4518-8187-5c449b101551.jpeg?crop=pad&trim=color&w=780&h=1196"
-  ],
-  "descripcion": "El clásico sneaker de lona de la marca en blanco, con silueta baja y cordones para un look limpio de verano. Su plantilla contorneada se puede retirar y la suela con corte ondulado mantiene el agarre en superficies lisas.",
-  "detalles": [
-   "Upper de lona tejida",
-   "Cierre con cordones",
-   "Plantilla contorneada removible de largo completo",
-   "Suela de goma con wave-siping que no marca"
-  ],
-  "tallas": [
-   "5.5"
   ]
  },
  {
@@ -994,8 +843,7 @@ var ZAPATOS = [
   "precio": 43.93,
   "precio_c": 1615,
   "fotos": [
-   "https://n.nordstrommedia.com/it/7bff0a3f-7326-4759-b02f-648d2121c570.jpeg?crop=pad&trim=color&w=780&h=1196",
-   "https://n.nordstrommedia.com/it/cb521799-07a4-49f0-8d9d-f84f4b430810.jpeg"
+   "https://n.nordstrommedia.com/it/7bff0a3f-7326-4759-b02f-648d2121c570.jpeg?crop=pad&trim=color&w=780&h=1196"
   ],
   "descripcion": "Sneaker de inspiración tenística retro en verde, construido en cuero y gamuza con un acabado heredado muy versátil. La plantilla acolchada y la suela con tecnología de ranuras lo hacen cómodo para caminar todo el día.",
   "detalles": [
@@ -6122,9 +5970,7 @@ var ZAPATOS = [
   "precio": 184.95,
   "precio_c": 6801,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61cvxHQ3KbL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61EPkwOasxL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61Hqf96RLPL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61cvxHQ3KbL._AC_SR920,736_.jpg"
   ],
   "descripcion": "El Bondi 9 es el modelo de máxima amortiguación de HOKA, aquí en negro total con malla de punto jacquard. Su espuma prémium y su suela ancha lo hacen el favorito para jornadas largas de pie o caminatas diarias.",
   "detalles": [
@@ -11556,7 +11402,6 @@ var ZAPATOS = [
   "precio": 45.95,
   "precio_c": 1690,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71OTovhhy7L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71GijduoBbL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71GijduoBbL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71xjqVc1a0L._SX700_.jpg"
@@ -11590,7 +11435,6 @@ var ZAPATOS = [
   "precio": 46.0,
   "precio_c": 1692,
   "fotos": [
-   "https://m.media-amazon.com/images/I/719bI9CYrKL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71JRQTPwD+L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71JRQTPwD+L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61nrd8tQXRL._SX700_.jpg"
@@ -13717,7 +13561,6 @@ var ZAPATOS = [
   "precio_c": 1727,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-SNK_1_d0d649d5-8320-4e75-8252-32cd124ebc4a.jpg?v=1763057387",
-   "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-seamless-lifestyle-blue_c3fd2cfc-3164-4495-9291-83cd3922699c.png?v=1763057390",
    "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-SNK_2_59608630-8af8-4e82-81ae-450c6df0cf39.jpg?v=1763057392",
    "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-SNK_3_ec2208ef-15fd-4cda-84a0-b8af069d68ce.jpg?v=1763057394"
   ],
@@ -15198,10 +15041,8 @@ var ZAPATOS = [
   "precio": 39.95,
   "precio_c": 1469,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71BO52aIsnL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71HhEaFELXL._AC_SLundefined__FMwebp_.jpg",
-   "https://m.media-amazon.com/images/I/81PjIuYU7XL._AC_SLundefined__FMwebp_.jpg",
-   "https://m.media-amazon.com/images/I/81MH9PEWkiL.AC_SS144.jpg"
+   "https://m.media-amazon.com/images/I/81PjIuYU7XL._AC_SLundefined__FMwebp_.jpg"
   ],
   "descripcion": "Tenis Stride Rite para toddler en rosa, de una marca especializada en calzado infantil.",
   "detalles": [
@@ -15520,7 +15361,6 @@ var ZAPATOS = [
   "precio": 42.97,
   "precio_c": 1580,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71-2XRJ8PUL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61pfHI43zFL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/61DoswtC-ML._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/61SmdKIUwFL.AC_SS144.jpg"
@@ -15550,7 +15390,6 @@ var ZAPATOS = [
   "precio": 45.95,
   "precio_c": 1690,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71iVI7uQFoL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71iEgmrGtLL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81YW+boGJpL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81UdYwbxKwL.AC_SS144.jpg"
@@ -15582,8 +15421,7 @@ var ZAPATOS = [
   "fotos": [
    "https://m.media-amazon.com/images/I/81XRfY8toMS._SX700_.jpg",
    "https://m.media-amazon.com/images/I/81d6x5ssjyS._AC_SLundefined__FMwebp_.jpg",
-   "https://m.media-amazon.com/images/I/81VBhKH2srS.AC_SS144.jpg",
-   "https://m.media-amazon.com/images/I/81oMujfLNEL.AC_SS144.jpg"
+   "https://m.media-amazon.com/images/I/81VBhKH2srS.AC_SS144.jpg"
   ],
   "descripcion": "Tenis Stride Rite Artin 2.0 en azul con rosa para little kid, de la marca especialista en niños.",
   "detalles": [
@@ -15612,7 +15450,6 @@ var ZAPATOS = [
   "fotos": [
    "https://m.media-amazon.com/images/I/711HHk4hL8L._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81cUM23JcUL._AC_SLundefined__FMwebp_.jpg",
-   "https://m.media-amazon.com/images/I/71110qEGlrL.AC_SS144.jpg",
    "https://m.media-amazon.com/images/I/71OBU1fObtL.AC_SS144.jpg"
   ],
   "descripcion": "Tenis deportivos Skechers Microspec Max Advance para little kid en azul marino con carbón.",
@@ -15640,7 +15477,6 @@ var ZAPATOS = [
   "precio": 50.3,
   "precio_c": 1850,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81M309V+fEL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/81Gm0vvAUdL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81fQj+E8zoL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81z8rbrbpNL.AC_SS144.jpg"
@@ -15672,8 +15508,7 @@ var ZAPATOS = [
   "fotos": [
    "https://m.media-amazon.com/images/I/71iNeiAFNmL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81KES1G4sZL._AC_SLundefined__FMwebp_.jpg",
-   "https://m.media-amazon.com/images/I/71GU1RmmVUL.AC_SS144.jpg",
-   "https://m.media-amazon.com/images/I/710-KW8AYwL.AC_SS144.jpg"
+   "https://m.media-amazon.com/images/I/71GU1RmmVUL.AC_SS144.jpg"
   ],
   "descripcion": "Tenis Skechers Sola Glow 2.0 con luces para niña little kid, en rosa con lavanda.",
   "detalles": [
@@ -24997,7 +24832,6 @@ var ZAPATOS = [
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/W08704M_1.jpg?v=1715300415",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/W08704M_2.jpg?v=1715300415",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/W08704M_3.jpg?v=1715300415",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/W08704M_4.jpg?v=1715300415"
   ],
   "descripcion": "Bota de trabajo impermeable en cuero café otoñal con construcción Direct Attached: la suela va unida directamente al cuero para mayor flexibilidad y duración.",
@@ -30691,36 +30525,6 @@ var ZAPATOS = [
    "4",
    "5",
    "6"
-  ]
- },
- {
-  "codigo": "DOM-1294",
-  "marca": "Nike",
-  "nombre": "Nike Air Max Metro (Big Kid) — White/Black/Smoke Grey/Energy",
-  "genero": "Niños",
-  "precio": 129.95,
-  "precio_c": 4779,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0801d7b423a491c7a5133045d102d331.jpg?v=1791833301",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/cc0cf9ddb09f7e5e97df801cc6a728c2.jpg?v=1791833301",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/b1b3e8817ac3d3e3df66f1663570513e.jpg?v=1791833301",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/f6c9ea92902b97a4d153f4564fa65604.jpg?v=1791833301"
-  ],
-  "descripcion": "El Air Max Metro juvenil propone una silueta urbana y chunky en blanco con negro y gris humo: capas modernas, amortiguación Air y un perfil llamativo para el día a día. Cómodo para la escuela y para salir.",
-  "detalles": [
-   "Silueta urbana de perfil chunky",
-   "Amortiguación Air en la mediasuela",
-   "Capas de tejido y sintético",
-   "Suela de goma resistente"
-  ],
-  "tallas": [
-   "4Y",
-   "4.5Y",
-   "5Y",
-   "5.5Y",
-   "6Y",
-   "6.5Y",
-   "7Y"
   ]
  },
  {
