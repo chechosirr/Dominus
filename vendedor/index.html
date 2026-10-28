@@ -337,13 +337,12 @@ Promise.all([
 
   var dashHTML = own ?
     '<div class="wrap"><div class="dash"><h2>' + esc(s.nombre) + '</h2><p>Panel del vendedor</p>'
+    + '<button class="dash-btn" data-goto="pedidos"><span>Pedidos de hoy</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="info"><span>Informaci\u00F3n del negocio</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="editar"><span>Editar muro</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="productos"><span>Inventario</span><span>\u203A</span></button>'
     + '<button class="dash-btn" data-goto="historial"><span>Historial de ventas</span><span>\u203A</span></button>'
-    + '<button class="dash-btn" data-goto="pedidos"><span>Pedidos de hoy</span><span>\u203A</span></button>'
     + '<button class="dash-btn" id="dash-pass"><span>Ajustes de cuenta</span><span>\u203A</span></button>'
-    + '<button class="dash-btn" id="dash-delacc" style="color:#ff8a8a"><span>Eliminar mi cuenta</span><span>\u203A</span></button>'
     + '</div></div>' : '';
   var infoHTML = own ?
     '<div class="wrap"><div id="view-info" style="display:none">'
@@ -388,7 +387,6 @@ Promise.all([
   document.getElementById('wall').innerHTML = dashHTML + infoHTML + prodHTML + catHTML + histHTML + pedidosHTML + wallHTML;
   if(own){
     document.querySelectorAll('[data-goto]').forEach(function(b){ b.onclick = function(){ showView(b.dataset.goto); if(b.dataset.goto === 'productos') loadProdList(); if(b.dataset.goto === 'catalogo') loadCatalog(); if(b.dataset.goto === 'pedidos') loadTodayOrders(); }; });
-    var delAcc = document.getElementById('dash-delacc'); if(delAcc) delAcc.onclick = function(){ deleteMyAccount(); };
     var passBtn = document.getElementById('dash-pass'); if(passBtn) passBtn.onclick = function(){ location.href = 'panel.html?ajustes=1'; };
     var savedView = new URLSearchParams(location.search).get('view');
     showView(savedView === 'info' || savedView === 'editar' || savedView === 'historial' || savedView === 'productos' || savedView === 'catalogo' || savedView === 'pedidos' ? savedView : 'menu');
