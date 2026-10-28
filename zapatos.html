@@ -140,6 +140,10 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .citem .pa{font-weight:900;min-width:70px;text-align:right}
 .rm{background:none;border:0;color:var(--mut);font-size:12px;cursor:pointer;font-family:inherit;text-decoration:underline;padding:0}
 .ctotal{display:flex;justify-content:space-between;align-items:center;margin:12px 0;font-size:16px;font-weight:700}
+.shipopts{margin-top:18px}
+.shipopt{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;background:#fff;border:1.5px solid var(--bord);border-radius:14px;padding:12px 14px;margin-bottom:10px;font-family:inherit;font-size:15px;color:#111;cursor:pointer}
+.shipopt small{color:var(--mut);font-size:13px}
+.shipopt.sel{border-color:#2a2a2e;background:#eceff3}
 .ctotal.grand{font-size:19px;font-weight:900;border-top:1px solid var(--bord);padding-top:12px}
 .ctotal .mut{color:var(--mut);font-size:14px;font-weight:600}
 .shipform label{display:block;font-size:13px;color:var(--mut);margin:10px 0 4px}
@@ -235,8 +239,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="steps">
  <div class="step"><span class="n">1</span><p><b>Elige tu par y tu talla.</b> Toca un producto para ver su descripción y todas sus fotos, y agrégalo al carrito.</p></div>
  <div class="step"><span class="n">2</span><p><b>Confirma tu talla.</b> Al agregarlo eliges la talla; revisa bien la guía porque es compra por encargo.</p></div>
- <div class="step"><span class="n">3</span><p><b>Pagas con PayPal.</b> En el carrito ves el total completo: productos + envío a Nicaragua ($20 por par) + cargo por procesamiento. Sin sorpresas.</p></div>
- <div class="step"><span class="n">4</span><p><b>Compramos tu par y te lo entregamos.</b> Lo adquirimos el mismo día y viaja por vía aérea a la puerta de tu casa. Tiempo estimado total: 15 días hábiles.</p></div>
+ <div class="step"><span class="n">3</span><p><b>Pagas con PayPal.</b> En el carrito ves el total completo: productos + envío a Nicaragua (Standard $15 o Prioritario $25 por par, tú eliges) + cargo por procesamiento. Sin sorpresas.</p></div>
+ <div class="step"><span class="n">4</span><p><b>Compramos tu par y te lo entregamos.</b> Lo adquirimos el mismo día y viaja por vía aérea a la puerta de tu casa. Tiempo estimado total: 25 días hábiles con Standard o 10 días hábiles con Prioritario.</p></div>
  </div>
  </section>
 
@@ -244,11 +248,11 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <h2>Políticas claras</h2>
  <div class="pols">
  <ul>
- <li><b>Precio:</b> el precio de cada producto es el que ves en su tarjeta. El envío a Nicaragua se calcula en el carrito: $20 por par, vía aérea, con la entrega a tu casa incluida.</li>
+ <li><b>Precio:</b> el precio de cada producto es el que ves en su tarjeta. El envío a Nicaragua se calcula en el carrito y tú eliges el tipo: Standard $15 por par (25 días hábiles) o Prioritario $25 por par (10 días hábiles), vía aérea, con la entrega a tu casa incluida.</li>
  <li><b>Pago:</b> pagas aquí mismo con PayPal (saldo, tarjeta o cuenta bancaria). El cargo por procesamiento ya va incluido en el total del carrito.</li>
  <li><b>Tallas:</b> confirma bien tu talla antes de pagar; como es una compra por encargo, no hay cambios por talla.</li>
  <li><b>Disponibilidad:</b> el stock cambia a diario. Si tu modelo o tu talla se agotó antes de comprarlo, te devolvemos el 100% o lo cambias por otro modelo.</li>
- <li><b>Tiempos:</b> 15 días hábiles estimados en total (compra + envío aéreo + entrega local). Puede variar por disponibilidad y aduana.</li>
+ <li><b>Tiempos:</b> 25 días hábiles con envío Standard o 10 días hábiles con envío Prioritario (compra + envío aéreo + entrega local). Puede variar por disponibilidad y aduana.</li>
  <li><b>¿Estás fuera de Nicaragua?</b> También puedes comprar para tu familia: pagas tú y entregamos a su puerta en Nicaragua.</li>
  </ul>
  <p class="note" id="verif"></p>
@@ -273,7 +277,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="d-brand" id="d-brand"></div>
  <h2 class="d-name" id="d-name"></h2>
  <div class="d-price"><span id="d-price"></span><small id="d-price-c"></small></div>
- <div class="shipbox"> <b>Envío a Nicaragua: se suma en el carrito.</b><br>$20 por par · vía aérea · incluye la entrega en la puerta de tu casa.</div>
+ <div class="shipbox"> <b>Envío a Nicaragua: se suma en el carrito.</b><br>Standard $15 por par · 25 días hábiles — Prioritario $25 por par · 10 días hábiles · vía aérea · incluye la entrega en la puerta de tu casa.</div>
  <div class="d-tallas-l">Talla US <span style="color:var(--mut);font-weight:600">(toca para elegir)</span></div>
  <div class="d-tallas" id="d-tallas"></div>
  <div class="qtyrow"><span style="font-weight:700">Cantidad</span>
@@ -284,7 +288,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <ul class="trust">
  <li>Pago seguro con PayPal, aquí en la página</li>
  <li>Reembolso del 100% si se agotó tu modelo o tu talla</li>
- <li>Entrega estimada: 15 días hábiles</li>
+ <li>Entrega estimada: 25 días hábiles (Standard) o 10 días hábiles (Prioritario)</li>
  </ul>
  </div>
  </div>
@@ -502,14 +506,22 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  }
  cart.push({ codigo: codigo, talla: talla, qty: qty }); saveCart();
  }
+ function envioTipo(){
+ try{ return localStorage.getItem('dominus_zap_tipo') === 'prio' ? 'prio' : 'std'; }catch(e){ return 'std'; }
+ }
+ function setEnvioTipo(v){
+ try{ localStorage.setItem('dominus_zap_tipo', v); }catch(e){}
+ renderCart();
+ }
  function cartTotals(){
  var subtotal = 0, pares = 0;
  cart.forEach(function(it){ var p = byCode(it.codigo); if(p){ subtotal += priceFor(p, it.talla) * it.qty; pares += it.qty; } });
- var envio = pares * ZAP_ENVIO_NI;
+ var tipo = envioTipo();
+ var envio = pares * (tipo === 'prio' ? ZAP_ENVIO_PRIO : ZAP_ENVIO_STD);
  var base = subtotal + envio;
  var total = pares ? Math.round(((base + 0.30) / (1 - 0.054)) * 100) / 100 : 0;
  var comision = Math.round((total - base) * 100) / 100;
- return { subtotal: subtotal, envio: envio, pares: pares, comision: comision, total: total };
+ return { subtotal: subtotal, envio: envio, pares: pares, comision: comision, total: total, tipo: tipo, plazo: tipo === 'prio' ? 10 : 25 };
  }
  function shipData(){
  try{ return JSON.parse(localStorage.getItem('dominus_zap_envio') || '{}'); }catch(e){ return {}; }
@@ -543,13 +555,17 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  + '<label>Dirección (con referencias)</label><input id="sf-dir" value="'+esc(sd.direccion||'')+'" placeholder="Ej: Calle 5 #123, frente al parque">'
  + '<label>Ciudad y departamento</label><input id="sf-ciu" value="'+esc(sd.ciudad||'')+'" placeholder="Ej: Estelí, Estelí">'
  + '</div>'
+ + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
+ + '<button class="shipopt'+(t.tipo==='std'?' sel':'')+'" data-tipo="std"><span><b>Envío Standard</b><br><small>25 días hábiles</small></span><b>'+money(ZAP_ENVIO_STD)+' / par</b></button>'
+ + '<button class="shipopt'+(t.tipo==='prio'?' sel':'')+'" data-tipo="prio"><span><b>Envío Prioritario</b><br><small>10 días hábiles</small></span><b>'+money(ZAP_ENVIO_PRIO)+' / par</b></button>'
+ + '</div>'
  + '<div style="margin-top:18px">'
  + '<div class="ctotal"><span class="mut">Subtotal</span><span>'+money(t.subtotal)+'</span></div>'
- + '<div class="ctotal"><span class="mut">Envío a Nicaragua ('+t.pares+' par'+(t.pares>1?'es':'')+')</span><span>'+money(t.envio)+'</span></div>'
+ + '<div class="ctotal"><span class="mut">Envío '+(t.tipo==='prio'?'Prioritario':'Standard')+' ('+t.pares+' par'+(t.pares>1?'es':'')+')</span><span>'+money(t.envio)+'</span></div>'
  + '<div class="ctotal"><span class="mut">Cargo por procesamiento</span><span>'+money(t.comision)+'</span></div>'
  + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
  + '<div id="paypal-button-container" style="margin-top:8px"></div>'
- + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. Compramos tu par el mismo día y viaja por vía aérea (15 días hábiles) hasta la puerta de tu casa.</p>'
+ + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. Compramos tu par el mismo día y viaja por vía aérea ('+t.plazo+' días hábiles) hasta la puerta de tu casa.</p>'
  + '</div>';
  body.innerHTML = html;
  ['sf-nom','sf-tel','sf-dir','sf-ciu'].forEach(function(id){
@@ -562,6 +578,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  Array.prototype.forEach.call(body.querySelectorAll('[data-inc]'), function(b){ b.onclick = function(){ cart[+b.dataset.inc].qty = Math.min(9, cart[+b.dataset.inc].qty + 1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-rm]'), function(b){ b.onclick = function(){ cart.splice(+b.dataset.rm, 1); saveCart(); renderCart(); }; });
+ Array.prototype.forEach.call(body.querySelectorAll('[data-tipo]'), function(b){ b.onclick = function(){ setEnvioTipo(b.dataset.tipo); }; });
  renderPayPal(t);
  /* Si el cliente tiene cuenta Dominus con dirección guardada, se prellena el formulario de entrega */
  try{
@@ -601,7 +618,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  return { name: (it.codigo + ' · ' + p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
  unit_amount: { currency_code: 'USD', value: priceFor(p, it.talla).toFixed(2) } };
  });
- var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
+ var desc = ('Zapatos Dominus · ' + t.pares + ' par(es)' + ' · Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' (' + t.plazo + ' días hábiles)' + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '')).slice(0,127);
  var pu = {
  description: desc,
  amount: { currency_code: 'USD', value: t.total.toFixed(2),
@@ -645,7 +662,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  '<div style="text-align:center;padding:30px 6px">'
  + '<div style="font-size:52px"></div>'
  + '<h2 style="margin:10px 0">¡Pago completado!</h2>'
- + '<p style="color:var(--mut);line-height:1.55">Gracias ' + esc(nombre) + '. Tu pago de <b>' + money(t.total) + '</b> fue recibido por PayPal.<br>Pedido: <b>' + esc(data.orderID) + '</b><br>Compramos tu par el mismo día y viaja por vía aérea: entrega estimada en 15 días hábiles.</p>'
+ + '<p style="color:var(--mut);line-height:1.55">Gracias ' + esc(nombre) + '. Tu pago de <b>' + money(t.total) + '</b> fue recibido por PayPal.<br>Pedido: <b>' + esc(data.orderID) + '</b><br>Compramos tu par el mismo día y viaja por vía aérea: entrega estimada en ' + t.plazo + ' días hábiles.</p>'
  + '<a class="buynow" style="display:block;text-decoration:none;text-align:center" href="https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Confirmar datos de entrega por WhatsApp</a>'
  + '<button class="backbtn light" id="c-done" style="margin-top:12px">← Seguir explorando</button></div>';
  var dn = document.getElementById('c-done'); if(dn) dn.onclick = function(){ closeCart(); };
