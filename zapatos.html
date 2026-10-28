@@ -565,6 +565,14 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(state.sort === 'asc') list.sort(function(a,b){ return a.precio-b.precio; });
  if(state.sort === 'desc') list.sort(function(a,b){ return b.precio-a.precio; });
  if(state.sort === 'az') list.sort(function(a,b){ return a.nombre.localeCompare(b.nombre); });
+ if(!state.sort){
+  /* Regla de Sergio: ningún slide/chancla entre los primeros 20 puestos de las miniaturas (todos los dispositivos) */
+  var esSlide = function(p){ return /\b(slide|slides|chancla|chanclas|flip[\s-]?flops?)\b/i.test(p.nombre || ''); };
+  var sinS = list.filter(function(p){ return !esSlide(p); });
+  var conS = list.filter(esSlide);
+  if(sinS.length >= 20){ var cab20 = sinS.slice(0, 20); list = cab20.concat(list.filter(function(p){ return cab20.indexOf(p) < 0; })); }
+  else { list = sinS.concat(conS); }
+ }
  return list;
  }
  function render(){
