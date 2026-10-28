@@ -176,6 +176,9 @@ body.editing .card{cursor:grab}
 .dash h2{font-family:'Source Sans 3',sans-serif;font-size:28px;letter-spacing:1.5px;margin-bottom:8px;color:#111111}
 .dash p{color:var(--mut);font-size:14px;margin-bottom:26px}
 .dash-btn{display:flex;align-items:center;justify-content:space-between;width:100%;background:#f7f7f9;border:1px solid #e2e5ea;border-radius:16px;padding:20px 22px;margin-bottom:14px;cursor:pointer;color:#111111;font-family:'Source Sans 3',sans-serif;font-size:20px;letter-spacing:.5px;transition:border-color .2s,transform .15s}
+.vv-pill{display:inline-block;background:#1c7c43;color:#fff;font-size:11px;font-weight:800;border-radius:999px;padding:2px 9px;margin-left:8px;vertical-align:middle;letter-spacing:.3px}
+.vv-new{background:#eefaf1;border-radius:10px;padding-left:10px;padding-right:10px}
+.vv-dot{display:inline-block;background:#d92d20;color:#fff;font-size:13px;font-weight:800;border-radius:999px;padding:1px 9px;margin-left:10px;vertical-align:middle}
 .dash-btn:hover{border-color:var(--acc);transform:translateY(-1px)}
 .dash-btn span:last-child{color:var(--acc);font-size:22px}
 .dash-back{background:#ffffff;border:1px solid #d0d4da;color:var(--acc);font-family:'Source Sans 3',sans-serif;font-size:16px;font-weight:600;cursor:pointer;margin-bottom:16px;padding:10px 20px;border-radius:12px;float:right}
@@ -1091,11 +1094,24 @@ document.getElementById('hdr-back').onclick = function(){ showView('menu'); };
 function loadSales(tok){
   var box = document.getElementById('sales-list');
   if(!box) return;
+  var vvKey = 'dominus_vv_' + SELLER.id;
+  var seenAt = null;
+  try{ seenAt = localStorage.getItem(vvKey); }catch(e){}
   fetch(SUPABASE_URL + '/rest/v1/orders?seller_id=eq.' + SELLER.id + '&select=titulo,precio,qty,created_at&order=created_at.desc&limit=200',
     { headers: edH(tok) })
     .then(function(r){ return r.json(); })
     .then(function(rows){
       if(!rows || !rows.length){ box.innerHTML = '<p style="color:var(--mut);font-size:14px">A\u00FAn no tienes ventas.</p>'; return; }
+      var isNew = function(o){ return !!(seenAt && new Date(o.created_at) > new Date(seenAt)); };
+      var unseen = rows.filter(isNew).length;
+      if(!seenAt){ try{ localStorage.setItem(vvKey, new Date().toISOString()); }catch(e){} }
+      else if(unseen){ try{ localStorage.setItem(vvKey, rows[0].created_at); }catch(e){} }
+      if(unseen){
+        var dbtn = document.querySelector('[data-goto="historial"]');
+        if(dbtn){ var lbl = dbtn.querySelector('span'); if(lbl){ var bd = document.createElement('span'); bd.className = 'vv-dot'; bd.textContent = unseen; lbl.appendChild(bd); } }
+        var hd = document.querySelector('#view-historial .edit-panel h3');
+        if(hd) hd.innerHTML = 'Historial de ventas <span class="vv-pill" style="font-size:12px">' + unseen + (unseen === 1 ? ' nueva' : ' nuevas') + '</span>';
+      }
       var total = rows.reduce(function(s, o){ return s + Number(o.precio) * o.qty; }, 0);
       var groups = [], byKey = {};
       rows.forEach(function(o){
@@ -1112,7 +1128,7 @@ function loadSales(tok){
       var rowHTML = function(o){
         var d = new Date(o.created_at);
         var f = d.toLocaleDateString('es-NI', { day:'numeric', month:'short' });
-        return '<div class="edit-row"><label>' + esc(o.titulo) + ' <small style="color:var(--mut)">(' + f + ')</small></label>'
+        return '<div class="edit-row' + (isNew(o) ? ' vv-new' : '') + '"><label>' + esc(o.titulo) + (isNew(o) ? '<span class="vv-pill">Nueva venta</span>' : '') + ' <small style="color:var(--mut)">(' + f + ')</small></label>'
           + '<span style="flex:1;text-align:right;font-size:15px">' + o.qty + ' \u00D7 ' + money(o.precio) + ' = <b>' + money(Number(o.precio) * o.qty) + '</b></span></div>';
       };
       box.innerHTML = '<p style="font-size:14px;color:var(--mut);margin-bottom:12px">Total vendido: <b style="color:var(--txt)">' + money(total) + '</b></p>'
