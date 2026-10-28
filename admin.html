@@ -239,7 +239,7 @@ function patch(tabla, id, body, tok){
 }
 
 var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
-var DATA = { orders: [], sellers: [], products: [], profiles: {}, estados: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
+var DATA = { orders: [], sellers: [], products: [], profiles: {}, estados: {}, correos: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
 
 document.getElementById('menubtn').onclick = function(e){ e.stopPropagation(); document.getElementById('ddnav').classList.toggle('open'); };
 document.addEventListener('click', function(){ var n = document.getElementById('ddnav'); if(n) n.classList.remove('open'); });
@@ -269,11 +269,13 @@ function cargar(){
  api('sellers?select=*&order=created_at.desc', TOK),
  api('products?select=id,titulo,precio,categoria,imagen_url,activo,bloqueado,seller_id,created_at,sellers(nombre,slug)&order=created_at.desc&limit=1000', TOK),
  api('profiles?select=*', TOK).catch(function(){ return []; }),
- api('orders?select=id,estado', TOK).catch(function(){ return []; })
+ api('orders?select=id,estado', TOK).catch(function(){ return []; }),
+ fetch(SUPABASE_URL + '/rest/v1/rpc/correos_usuarios', { method: 'POST', headers: H(TOK), body: '{}' }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; })
  ]).then(function(res){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
  (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
  (res[4] || []).forEach(function(o){ DATA.estados[o.id] = o.estado; });
+ (res[5] || []).forEach(function(u){ DATA.correos[u.user_id] = u.email; });
  renderResumen(); renderVentas(); renderPedidos(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
  cargarZapatos(); cargarHistZapatos(); cargarVentasZap();
  });
@@ -376,7 +378,7 @@ function renderSellers(){
  var q = ((document.getElementById('sel-q') || {}).value || '').toLowerCase();
  var lista = DATA.sellers.filter(function(s){
  if(!q) return true;
- return ((s.nombre || '') + ' ' + (s.ubicacion || '') + ' ' + (s.tipo_empresa || '') + ' ' + (s.whatsapp || '') + ' ' + (s.paypal_email || '') + ' ' + (s.slug || '')).toLowerCase().indexOf(q) >= 0;
+ return ((s.nombre || '') + ' ' + (s.ubicacion || '') + ' ' + (s.tipo_empresa || '') + ' ' + (s.whatsapp || '') + ' ' + (s.paypal_email || '') + ' ' + (DATA.correos[s.user_id] || '') + ' ' + (s.slug || '')).toLowerCase().indexOf(q) >= 0;
  });
  if(!lista.length){ box.innerHTML = '<p class="mut">Ningún revendedor coincide con esa búsqueda.</p>'; return; }
  box.innerHTML = lista.map(function(s){
@@ -391,6 +393,7 @@ function renderSellers(){
  + (s.tipo_empresa ? datoLine('Tipo de empresa', s.tipo_empresa) : '')
  + (s.whatsapp ? '<div style="margin:2px 0"><b>WhatsApp:</b> <a href="https://wa.me/' + wa + '" target="_blank" rel="noopener">' + esc(s.whatsapp) + '</a></div>' : '')
  + (s.paypal_email ? datoLine('PayPal', s.paypal_email) : '')
+ + (DATA.correos[s.user_id] ? '<div style="margin:2px 0"><b>Correo:</b> <a href="mailto:' + esc(DATA.correos[s.user_id]) + '">' + esc(DATA.correos[s.user_id]) + '</a></div>' : '')
  + (p.nombre ? datoLine('Nombre de la cuenta', p.nombre) : '')
  + (p.telefono ? '<div style="margin:2px 0"><b>Teléfono:</b> <a href="tel:' + esc(p.telefono) + '">' + esc(p.telefono) + '</a></div>' : '')
  + ((p.ciudad || p.departamento || p.pais) ? datoLine('Ciudad', [p.ciudad, p.departamento, p.pais].filter(Boolean).join(', ')) : '')
