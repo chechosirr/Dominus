@@ -212,6 +212,18 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   footer{font-size:13px;padding:34px}
 }
 </style>
+
+<style>
+/* ===== Clases en escritorio: tres tarjetas grandes (el teléfono no cambia) ===== */
+@media (min-width:900px){
+  #catview{max-width:1200px;padding-top:52px}
+  .cat-title{font-size:3rem}
+  .cat-sub{font-size:1.35rem;margin-bottom:36px}
+  .cat-grid{grid-template-columns:repeat(3,1fr);max-width:1200px;gap:24px}
+  .cat-card{border-radius:24px;padding:56px 24px}
+  .cat-name{font-size:1.55rem}
+}
+</style>
 </head>
 <body>
 <header class="top">
