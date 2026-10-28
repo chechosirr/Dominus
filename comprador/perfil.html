@@ -34,6 +34,15 @@ main{max-width:760px;margin:0 auto;padding:26px 18px 70px}
 .stat span{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1px}
 .sec{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;margin-bottom:22px}
 .sec h2{font-size:19px;margin-bottom:14px}
+.acc-head{width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px;background:none;border:0;font-family:inherit;font-size:19px;font-weight:800;color:var(--txt);cursor:pointer;padding:0;text-align:left}
+.acc-body{display:none;margin-top:16px}
+.sec.open .acc-body{display:block}
+.acc-chev{color:var(--mut);font-size:15px;transition:transform .2s ease;flex:0 0 auto}
+.sec.open .acc-chev{transform:rotate(180deg)}
+.acc-note{font-size:13px;color:var(--mut);margin-bottom:14px}
+.aj-group{background:#f7f8fa;border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+.aj-group:last-child{margin-bottom:0}
+.aj-h{font-size:15px;font-weight:800;margin-bottom:10px}
 .sec h2 .hl{color:var(--acc)}
 .item{display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:12px;margin-bottom:10px}
 .item img{width:64px;height:64px;object-fit:cover;border-radius:12px;background:#161b24;flex:0 0 64px}
@@ -296,6 +305,21 @@ var SERVICE_FEE = 1.00;   // $1 fijo por transacción (modelo aprobado por Sergi
 function calcFees(subtotal){
   return { service: SERVICE_FEE, shipping: 0, total: subtotal + SERVICE_FEE };
 }
+function initAccordions(){
+  Array.prototype.forEach.call(document.querySelectorAll('#main .sec'), function(sec){
+    if(sec.dataset.acc) return;
+    var h2 = sec.querySelector('h2'); if(!h2) return;
+    sec.dataset.acc = '1';
+    var head = document.createElement('button');
+    head.type = 'button'; head.className = 'acc-head';
+    head.innerHTML = '<span>' + h2.innerHTML + '</span><span class="acc-chev">▾</span>';
+    var body = document.createElement('div'); body.className = 'acc-body';
+    while(sec.firstChild) body.appendChild(sec.firstChild);
+    var old = body.querySelector('h2'); if(old) old.parentNode.removeChild(old);
+    sec.appendChild(head); sec.appendChild(body);
+    head.onclick = function(){ sec.classList.toggle('open'); };
+  });
+}
 function render(){
   var soloCart = false; try{ soloCart = new URLSearchParams(location.search).get('ver') === 'carrito'; }catch(e){}
   var name = (session.user.user_metadata && session.user.user_metadata.nombre) || 'Comprador';
@@ -305,9 +329,6 @@ function render(){
   var html = '<div class="welcome"><div><h1>Hola, <span class="hl">' + esc(name) + '</span></h1>'
     + '<small style="color:var(--mut);font-size:13px">' + esc(session.user.email) + '</small></div>'
     + '<a class="wall-link" href="../index.html">Explorar productos</a></div>'
-    + '<div class="cards"><div class="stat"><b>' + cart.length + '</b><span>En el carrito</span></div>'
-    + '<div class="stat"><b>' + money(total) + '</b><span>Total del carrito</span></div>'
-    + '<div class="stat"><b>$1.00</b><span>Tasa de servicio</span></div></div>'
     + '<div class="sec"><h2>Mis datos de envío</h2>'
     + '<div id="ship-form"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec"><h2>Mi carrito (' + cart.length + ')</h2><div id="cart-list">';
@@ -332,14 +353,16 @@ function render(){
   html += '</div></div>' + '<div class="sec"><h2>Mi historial</h2><div id="hist-list"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec"><h2>Mis reseñas</h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
     + '<div class="sec"><h2>Ajustes de cuenta</h2>'
-    + '<label>Correo electrónico</label><input id="ce-mail" type="email" autocomplete="email">'
+    + '<p class="acc-note">Actualiza el correo electrónico y la contraseña con los que entras a tu cuenta.</p>'
+    + '<div class="aj-group"><h3 class="aj-h">Correo electrónico</h3><input id="ce-mail" type="email" autocomplete="email">'
     + '<p id="ce-msg" style="font-size:13px;margin-top:10px"></p>'
-    + '<button class="btn" id="ce-btn">Guardar correo</button>'
+    + '<button class="btn" id="ce-btn">Guardar correo</button></div>'
+    + '<div class="aj-group"><h3 class="aj-h">Contraseña</h3>'
     + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
     + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
     + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
     + '<p id="cp-msg" style="font-size:13px;margin-top:10px"></p>'
-    + '<button class="btn" id="cp-btn">Cambiar contraseña</button>'
+    + '<button class="btn" id="cp-btn">Cambiar contraseña</button></div>'
     + '</div>'
     + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
@@ -349,6 +372,8 @@ function render(){
       if(!ch.querySelector || !ch.querySelector('#cart-list')) mainEl.removeChild(ch);
     });
   }
+  initAccordions();
+  Array.prototype.forEach.call(document.querySelectorAll('#main .sec'), function(s){ if(s.querySelector('#cart-list')) s.classList.add('open'); });
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
   wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
   document.querySelectorAll('[data-inc]').forEach(function(b){ b.onclick = function(){ chQty(b.dataset.inc, 1); }; });
