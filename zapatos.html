@@ -962,15 +962,21 @@ function doLogout(){
       if(card) card.click();
     };
   }
+  var fadeTO = null;
   function tick(){
     if(!slides.length || !mq() || document.hidden) return;
     box.classList.add('fading');
-    setTimeout(function(){
+    fadeTO = setTimeout(function(){
       idx = (idx + 1) % slides.length;
       paint();
       box.classList.remove('fading');
     }, 460);
   }
+  box.addEventListener('mousedown', function(){
+    if(timer){ clearInterval(timer); timer = null; }
+    if(fadeTO){ clearTimeout(fadeTO); fadeTO = null; }
+    box.classList.remove('fading');
+  });
   function build(){
     if(!mq()){ slides = []; box.style.display = 'none'; return; }
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
