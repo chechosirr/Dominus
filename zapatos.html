@@ -308,6 +308,20 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   #grid{gap:12px}
 }
 </style>
+
+<style>
+/* ===== Corriente junto al escaparate: los zapatos suben a su lado, nunca detrás (solo escritorio) ===== */
+@media (min-width:1024px){
+  .layout{grid-template-columns:44% 1fr;align-items:start}
+  .showcase{grid-column:1;grid-row:auto;z-index:5}
+  main{grid-column:2;grid-row:auto;min-width:0}
+  #grid{grid-template-columns:repeat(3,1fr);gap:16px}
+  #grid2{display:none!important}
+}
+@media (min-width:1024px) and (max-width:1279px){
+  .layout{grid-template-columns:minmax(310px,40%) 1fr}
+}
+</style>
 </head>
 <body>
 <header class="top">
@@ -1045,17 +1059,8 @@ function doLogout(){
   var grid2 = document.getElementById('grid2');
   var splitMark = null;
   function split(){
-    if(!grid2) return;
-    if(!mq()){
-      while(grid2.firstChild) grid.appendChild(grid2.firstChild);
-      splitMark = null;
-      return;
-    }
-    var first = grid.querySelector('.card');
-    if(grid2.children.length && first && first !== splitMark) grid2.innerHTML = '';
-    var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
-    for(var i = 6; i < cards.length; i++) grid2.appendChild(cards[i]);
-    splitMark = grid.querySelector('.card');
+    if(grid2 && grid2.children.length){ while(grid2.firstChild) grid.appendChild(grid2.firstChild); }
+    splitMark = null;
   }
   var deb = null;
   function sync(){ clearTimeout(deb); deb = setTimeout(function(){ split(); build(); }, 350); }
