@@ -165,11 +165,6 @@ function deleteMyAccountBuyer(){
 function renderPayPalButtons(total){
   var cont = document.getElementById('paypal-button-container');
   if(!cont || !cart.length) return;
-  var missing = cart.some(function(it){ return !(it.products.sellers && it.products.sellers.paypal_email); });
-  if(missing){
-    cont.innerHTML = '<p style="font-size:13px;color:#f0a35e;text-align:center">Un vendedor aún no configura su PayPal. Contáctanos por WhatsApp para completar tu compra.</p>';
-    return;
-  }
   function init(){
     if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
     cont.innerHTML = '';
