@@ -5,7 +5,7 @@
 var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
-var ZAP_VERIFICADO = "28 de octubre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -11597,6 +11597,12728 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
+  ]
+ },
+ {
+  "codigo": "DOM-605",
+  "marca": "Maui and Son",
+  "nombre": "Maui and Son Tide Water Shoes — Black/Multi",
+  "genero": "Hombre",
+  "precio": 32.94,
+  "precio_c": 1211,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSF21MIJ025D_1.jpg?v=1737506504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSF21MIJ025D_2.jpg?v=1737506504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSF21MIJ025D_3.jpg?v=1737506504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSF21MIJ025D_4.jpg?v=1737506504"
+  ],
+  "descripcion": "Calzado acuático ligero para hombre, pensado para playa, piscina y actividades en el agua con secado rápido.",
+  "detalles": [
+   "Parte superior de malla de secado rápido",
+   "Suela con buen agarre en superficies mojadas",
+   "Diseño ligero tipo calcetín acuático",
+   "Colorway Black/Multi"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-606",
+  "marca": "Reebok",
+  "nombre": "Reebok Fulgere Slide Sandals — Black",
+  "genero": "Hombre",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_1.jpg?v=1779839534",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_2.jpg?v=1779839534",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_3.jpg?v=1779839534",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_4.jpg?v=1779839534"
+  ],
+  "descripcion": "Sandalias slide de Reebok para hombre en negro total, fáciles de poner para el uso diario y post-deporte.",
+  "detalles": [
+   "Tira ancha de una sola banda",
+   "Plantilla contorneada y cómoda",
+   "Suela de goma con tracción",
+   "Colorway Black"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-607",
+  "marca": "Eurostar",
+  "nombre": "Eurostar Dashing Sneakers — Dark Grey",
+  "genero": "Hombre",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_1.jpg?v=1731540667",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_2.jpg?v=1731540667",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_3.jpg?v=1731540667",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_4.jpg?v=1731540667"
+  ],
+  "descripcion": "Tenis casuales Eurostar en gris oscuro, un básico versátil para el día a día con suela cómoda de uso prolongado.",
+  "detalles": [
+   "Parte superior sintética en gris oscuro",
+   "Cierre de cordones clásico",
+   "Suela ligera de goma",
+   "Estilo casual para diario"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0"
+  ]
+ },
+ {
+  "codigo": "DOM-608",
+  "marca": "Reebok",
+  "nombre": "Reebok Energen Lux Running Shoes — Army Green/Black/White",
+  "genero": "Hombre",
+  "precio": 43.96,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_1.jpg?v=1775173427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_2.jpg?v=1775173427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_3.jpg?v=1775173427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_4.jpg?v=1775173427"
+  ],
+  "descripcion": "Tenis de running Reebok Energen Lux en verde militar, ligeros y amortiguados para caminar o correr suave a diario.",
+  "detalles": [
+   "Parte superior de malla transpirable",
+   "Amortiguación suave para uso diario",
+   "Suela de goma con tracción",
+   "Colorway Army Green/Black/White"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-609",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Comfort Slides — Black/Gold Metallic/Black",
+  "genero": "Hombre",
+  "precio": 43.96,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_1.jpg?v=1749488366",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_2.jpg?v=1749488366",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_3.jpg?v=1749488366",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_4.jpg?v=1749488366"
+  ],
+  "descripcion": "Slides Adilette Comfort de adidas con plantilla contorneada que se amolda al pie, en negro con detalle dorado.",
+  "detalles": [
+   "Plantilla Comfort que se amolda al pie",
+   "Tira sintética de secado rápido",
+   "Suela moldeada con agarre",
+   "Colorway Black/Gold Metallic/Black"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-610",
+  "marca": "Lugz",
+  "nombre": "Lugz Sizzle SR Work Sneakers — Black",
+  "genero": "Hombre",
+  "precio": 43.96,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSIZLSRV001_1.jpg?v=1756485941",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSIZLSRV001_2.jpg?v=1756485941",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSIZLSRV001_3.jpg?v=1756485940",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MSIZLSRV001_4.jpg?v=1756485940"
+  ],
+  "descripcion": "Tenis de trabajo Lugz Sizzle SR en negro, con suela antideslizante pensados para jornadas largas de pie.",
+  "detalles": [
+   "Suela antideslizante (slip resistant)",
+   "Parte superior sintética resistente",
+   "Plantilla acolchada",
+   "Colorway Black"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "8.0"
+  ]
+ },
+ {
+  "codigo": "DOM-611",
+  "marca": "Reebok",
+  "nombre": "Reebok Dash Pro Running Shoes — Black/White/Black",
+  "genero": "Hombre",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262193_1.jpg?v=1787183868",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262193_2.jpg?v=1787183868",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262193_3.jpg?v=1787183868",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262193_4.jpg?v=1787183868"
+  ],
+  "descripcion": "Tenis de running Reebok Dash Pro en negro y blanco, ligeros para entrenamiento diario y caminatas.",
+  "detalles": [
+   "Malla transpirable con refuerzos sintéticos",
+   "Mediasuela amortiguada ligera",
+   "Suela de goma durable",
+   "Colorway Black/White/Black"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-612",
+  "marca": "Starter",
+  "nombre": "Starter RT-X Sneakers — Tan/Black/White",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011357_1.jpg?v=1780609769",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011357_2.jpg?v=1780609769",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011357_3.jpg?v=1780609769",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011357_4.jpg?v=1780609772"
+  ],
+  "descripcion": "Tenis casuales Starter RT-X en tonos tierra con negro y blanco, de silueta retro para uso diario.",
+  "detalles": [
+   "Silueta retro de perfil bajo",
+   "Parte superior sintética",
+   "Suela cupsole de goma",
+   "Colorway Tan/Black/White"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-613",
+  "marca": "Lee",
+  "nombre": "Lee Noah Hi High-Top Sneakers — White Mono/Gum",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_1.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_2.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_3.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_4.jpg?v=1784319707"
+  ],
+  "descripcion": "Tenis altos Lee Noah Hi en blanco con suela gum, estilo clean que combina con todo el clóset casual.",
+  "detalles": [
+   "Corte alto tipo high-top",
+   "Parte superior sintética blanca",
+   "Suela gum clásica",
+   "Colorway White Mono/Gum"
+  ],
+  "tallas": [
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-614",
+  "marca": "Lee",
+  "nombre": "Lee Noah Hi High-Top Sneakers — Driftwood",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000372943_1.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000372943_2.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000372943_3.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000372943_4.jpg?v=1784319707"
+  ],
+  "descripcion": "Versión Driftwood de los Noah Hi de Lee: tenis altos en tono madera claros para un look casual relajado.",
+  "detalles": [
+   "Corte alto tipo high-top",
+   "Tono neutro fácil de combinar",
+   "Suela de goma durable",
+   "Colorway Driftwood"
+  ],
+  "tallas": [
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-615",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Slides — Monogram Black/Black",
+  "genero": "Hombre",
+  "precio": 45.96,
+  "precio_c": 1690,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_1.jpg?v=1775168952",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_2.jpg?v=1775168952",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_3.jpg?v=1775168952",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_4.jpg?v=1775168952"
+  ],
+  "descripcion": "Slides Adilette de adidas con monograma en la tira y plantilla contorneada, en negro sobre negro.",
+  "detalles": [
+   "Tira con monograma adidas",
+   "Plantilla contorneada cómoda",
+   "Suela moldeada de una pieza",
+   "Colorway Monogram Black/Black"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0"
+  ]
+ },
+ {
+  "codigo": "DOM-616",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Comfort 2.0 Slides — Collegiate Navy/Icey Blue (AFA)",
+  "genero": "Hombre",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_1.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_2.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_3.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_4.jpg?v=1780616066"
+  ],
+  "descripcion": "Slides Adilette Comfort 2.0 edición AFA en azul marino y celeste, con plantilla suave para descansar los pies.",
+  "detalles": [
+   "Edición selección Argentina (AFA)",
+   "Plantilla Comfort acolchada",
+   "Tira sintética de secado rápido",
+   "Colorway Collegiate Navy/Icey Blue"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-617",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Comfort 2.0 Slides — Glory Blue/Semi Lucid Red/Impact Yellow (Colombia)",
+  "genero": "Hombre",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ7421_1.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ7421_2.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ7421_3.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ7421_4.jpg?v=1780616066"
+  ],
+  "descripcion": "Slides Adilette Comfort 2.0 edición Colombia en azul, rojo y amarillo, con la plantilla contorneada clásica de la línea.",
+  "detalles": [
+   "Edición selección Colombia",
+   "Plantilla Comfort acolchada",
+   "Suela moldeada con tracción",
+   "Colorway Glory Blue/Semi Lucid Red/Impact Yellow"
+  ],
+  "tallas": [
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-618",
+  "marca": "Skechers",
+  "nombre": "Skechers Stryde Cup Roades Slip Ins Sneakers — Natural/Green",
+  "genero": "Hombre",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/254185NTGR_1.jpg?v=1776895948",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/254185NTGR_2.jpg?v=1776895948",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/254185NTGR_3.jpg?v=1776895948",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/254185NTGR_4.jpg?v=1776895948"
+  ],
+  "descripcion": "Tenis Skechers Slip Ins que se ponen sin agacharse, en tonos natural y verde, con plantilla cómoda para todo el día.",
+  "detalles": [
+   "Tecnología Slip Ins: manos libres",
+   "Talón acolchado que sujeta el pie",
+   "Parte superior de malla y sintético",
+   "Colorway Natural/Green"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0",
+   "14.0"
+  ]
+ },
+ {
+  "codigo": "DOM-619",
+  "marca": "Nike",
+  "nombre": "Nike Offcourt Slides — Ashen Slate/Midnight Navy",
+  "genero": "Hombre",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_1.jpg?v=1778024867",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_2.jpg?v=1778024867",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_3.jpg?v=1778024867",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_4.jpg?v=1778024867"
+  ],
+  "descripcion": "Slides Nike Offcourt en gris pizarra y azul marino, con doble espuma pensada para la recuperación post-deporte.",
+  "detalles": [
+   "Doble espuma: comodidad y soporte",
+   "Tira sintética con forro suave",
+   "Suela de goma con tracción",
+   "Colorway Ashen Slate/Midnight Navy"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-620",
+  "marca": "Lee",
+  "nombre": "Lee Daybreaker Hi High-Top Sneakers — Black Mono/Gum",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_1.jpg?v=1784319710",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_2.jpg?v=1784319710",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_3.jpg?v=1784319710",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_4.jpg?v=1784319710"
+  ],
+  "descripcion": "Tenis altos Lee Daybreaker Hi en negro monocromo con suela gum, un clásico urbano fácil de combinar.",
+  "detalles": [
+   "Corte alto tipo high-top",
+   "Negro total con suela gum",
+   "Parte superior sintética",
+   "Colorway Black Mono/Gum"
+  ],
+  "tallas": [
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-621",
+  "marca": "Dockers",
+  "nombre": "Dockers Energy Lo Casual Sneakers — Black/Gum (Nubuck)",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013491_1.jpg?v=1775154777",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013491_2.jpg?v=1775154777",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013491_3.jpg?v=1775154777",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013491_4.jpg?v=1775154777"
+  ],
+  "descripcion": "Tenis casuales Dockers Energy Lo en nubuck negro con suela gum, comodidad de todo el día con look pulido.",
+  "detalles": [
+   "Parte superior de nubuck",
+   "Suela gum de estilo clásico",
+   "Plantilla acolchada",
+   "Colorway Black/Gum"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-622",
+  "marca": "Dockers",
+  "nombre": "Dockers Energy Lo Casual Sneakers — White/Natural/Vintage Indigo",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9014226_1.jpg?v=1779227507",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9014226_2.jpg?v=1779227507",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9014226_3.jpg?v=1779227507",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9014226_4.jpg?v=1779227507"
+  ],
+  "descripcion": "Dockers Energy Lo en blanco con detalles natural e índigo vintage, un casual fresco para diario.",
+  "detalles": [
+   "Combinación blanco e índigo vintage",
+   "Plantilla acolchada de confort",
+   "Suela de goma durable",
+   "Colorway White/Natural/Vintage Indigo"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-623",
+  "marca": "Dockers",
+  "nombre": "Dockers Searose Boat Shoes — Briar",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021379_1.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021379_2.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021379_3.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021379_4.jpg?v=1776188610"
+  ],
+  "descripcion": "Mocasín náutico Dockers Searose en tono briar, el clásico boat shoe para looks casuales de fin de semana.",
+  "detalles": [
+   "Estilo náutico clásico",
+   "Cordones decorativos de 360°",
+   "Suela antideslizante de goma",
+   "Colorway Briar"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-624",
+  "marca": "Dockers",
+  "nombre": "Dockers Searose Boat Shoes — Black",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_1.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_2.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_3.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_4.jpg?v=1776188609"
+  ],
+  "descripcion": "Mocasín náutico Dockers Searose en negro, versátil para outfits casuales y semi-formales.",
+  "detalles": [
+   "Estilo náutico clásico",
+   "Parte superior sintética negra",
+   "Suela de goma con agarre",
+   "Colorway Black"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-625",
+  "marca": "Dockers",
+  "nombre": "Dockers Benham Casual Shoes — Dark Brown",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_1.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_2.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_3.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_4.jpg?v=1776188610"
+  ],
+  "descripcion": "Zapato casual Dockers Benham en café oscuro, con suela flexible para caminar cómodo todo el día.",
+  "detalles": [
+   "Tono café oscuro versátil",
+   "Plantilla acolchada",
+   "Suela flexible de goma",
+   "Colorway Dark Brown"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-626",
+  "marca": "Dockers",
+  "nombre": "Dockers Bradburn Casual Shoes — Dark Tan",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_1.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_2.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_3.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_4.jpg?v=1777393851"
+  ],
+  "descripcion": "Zapato casual Dockers Bradburn en tan oscuro, estilo limpio que pasa del trabajo al fin de semana.",
+  "detalles": [
+   "Acabado tan oscuro clásico",
+   "Interior acolchado",
+   "Suela de goma durable",
+   "Colorway Dark Tan"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ]
+ },
+ {
+  "codigo": "DOM-627",
+  "marca": "Dockers",
+  "nombre": "Dockers Seville Casual Shoes — Dark Brown",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034651_1.jpg?v=1781648708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034651_2.jpg?v=1781648708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034651_3.jpg?v=1781648708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034651_4.jpg?v=1781648708"
+  ],
+  "descripcion": "Zapato casual Dockers Seville en café oscuro, de perfil sobrio para uso diario y oficina casual.",
+  "detalles": [
+   "Perfil sobrio tipo derby casual",
+   "Plantilla de confort",
+   "Suela de goma flexible",
+   "Colorway Dark Brown"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-628",
+  "marca": "Dockers",
+  "nombre": "Dockers Overtime Casual Shoes — Brown/Tan",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9098751_1.jpg?v=1785794265",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9098751_2.jpg?v=1785794265",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9098751_3.jpg?v=1785794265",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9098751_4.jpg?v=1785794265"
+  ],
+  "descripcion": "Zapato casual Dockers Overtime en café y tan, pensado para jornadas largas con plantilla cómoda.",
+  "detalles": [
+   "Combinación Brown/Tan",
+   "Amortiguación para todo el día",
+   "Suela resistente de goma",
+   "Colorway Brown/Tan"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-629",
+  "marca": "Nike",
+  "nombre": "Nike Benassi JDI Slides — Black/White",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_1.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_2.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_3.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_4.jpg?v=1775518943"
+  ],
+  "descripcion": "Las clásicas slides Nike Benassi JDI en negro con el logo en blanco: ligeras, de secado rápido y para todo uso.",
+  "detalles": [
+   "Tira sintética con logo JDI",
+   "Plantilla texturizada masajeadora",
+   "Suela de goma flexible",
+   "Colorway Black/White"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ]
+ },
+ {
+  "codigo": "DOM-630",
+  "marca": "Crocs",
+  "nombre": "Crocs Saturday Slide Sandals — Black",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_1.jpg?v=1776809516",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_2.jpg?v=1776809516",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_3.jpg?v=1776809516",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_4.jpg?v=1776809516"
+  ],
+  "descripcion": "Slides Crocs Saturday en negro, ultraligeras y fáciles de limpiar para la casa, la playa o el diario.",
+  "detalles": [
+   "Material Croslite ligero",
+   "Se limpian solo con agua",
+   "Tira ancha de sujeción cómoda",
+   "Colorway Black"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-631",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Shower Slides — Black/Black/Black",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_1.jpg?v=1781031118",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_2.jpg?v=1781031118",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_3.jpg?v=1781031118",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_4.jpg?v=1781031118"
+  ],
+  "descripcion": "Slides Adilette Shower de adidas en negro total, hechas para la ducha, la piscina y el gimnasio.",
+  "detalles": [
+   "Material de secado rápido",
+   "Plantilla contorneada",
+   "Suela con tracción para pisos mojados",
+   "Colorway Black/Black/Black"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0"
+  ]
+ },
+ {
+  "codigo": "DOM-632",
+  "marca": "Hey Dude",
+  "nombre": "Hey Dude Wally Sox Micro Slip-On Casual Shoes — Total Black",
+  "genero": "Hombre",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_739342_FS.JPG",
+   "https://images.journeys.com/images/products/1_739342_FS.JPG",
+   "https://images.journeys.com/images/products/1_739342_FS.JPG"
+  ],
+  "descripcion": "Los relajados Wally de Hey Dude en negro total: ultraligeros, sin cordones y con plantilla de espuma removible.",
+  "detalles": [
+   "Diseño slip-on sin cordones",
+   "Plantilla de espuma removible",
+   "Parte superior de tejido Sox",
+   "Colorway Total Black"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ]
+ },
+ {
+  "codigo": "DOM-633",
+  "marca": "Hey Dude",
+  "nombre": "Hey Dude Wally Hemp Slip-On Casual Shoes — Army Green",
+  "genero": "Hombre",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_861516_FS.JPG",
+   "https://images.journeys.com/images/products/1_861516_FS.JPG",
+   "https://images.journeys.com/images/products/1_861516_FS.JPG"
+  ],
+  "descripcion": "Hey Dude Wally en tejido de cáñamo verde militar: frescos, ligeros y perfectos para el fin de semana.",
+  "detalles": [
+   "Parte superior de cáñamo (hemp)",
+   "Suela ultraligera flexible",
+   "Plantilla acolchada removible",
+   "Colorway Army Green"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ]
+ },
+ {
+  "codigo": "DOM-634",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool Pig Suede Skate Shoes — After Dark",
+  "genero": "Hombre",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_889262_FS.JPG",
+   "https://images.journeys.com/images/products/1_889262_FS.JPG",
+   "https://images.journeys.com/images/products/1_889262_FS.JPG"
+  ],
+  "descripcion": "Old Skool de Vans en gamuza tono After Dark con la franja lateral clásica y la suela waffle de siempre.",
+  "detalles": [
+   "Parte superior de gamuza (pig suede)",
+   "Franja Sidestripe clásica",
+   "Suela waffle de goma",
+   "Colorway After Dark"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-635",
+  "marca": "Vans",
+  "nombre": "Vans Slip-On Checkerboard Skate Shoes — Black/Red",
+  "genero": "Hombre",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_847079_FS.JPG",
+   "https://images.journeys.com/images/products/1_847079_FS.JPG",
+   "https://images.journeys.com/images/products/1_847079_FS.JPG"
+  ],
+  "descripcion": "Slip-On de Vans con el icónico tablero de ajedrez en negro y rojo: sin cordones y con estilo skate inmediato.",
+  "detalles": [
+   "Estampado checkerboard icónico",
+   "Diseño slip-on con elásticos laterales",
+   "Suela waffle vulcanizada",
+   "Colorway Black/Red"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-636",
+  "marca": "Crocs",
+  "nombre": "Crocs Cozzzy Slippers — Mushroom",
+  "genero": "Hombre",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_894071_FS.JPG",
+   "https://images.journeys.com/images/products/1_894071_FS.JPG",
+   "https://images.journeys.com/images/products/1_894071_FS.JPG"
+  ],
+  "descripcion": "Pantuflas Crocs Cozzzy en tono mushroom con forro afelpado, para máxima comodidad dentro de casa.",
+  "detalles": [
+   "Forro afelpado cálido",
+   "Plantilla Croslite acolchada",
+   "Suela apta para interior y exterior",
+   "Colorway Mushroom"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-637",
+  "marca": "adidas",
+  "nombre": "adidas Grand Court Sneakers — Cloud White/Collegiate Green",
+  "genero": "Hombre",
+  "precio": 47.95,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/75639fab1ded42e3b476a6f4d29f32af.jpg?v=1749903406",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/96f1ccea52a0408f8a5c7e434db70334.jpg?v=1749903406",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/2f50641de61148df86ec1c2cb085ee89.jpg?v=1749903406",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/e8bb271537ce4c7b90ee040518e8f97e.jpg?v=1749903406"
+  ],
+  "descripcion": "Tenis adidas Grand Court blancos con las 3 franjas en verde colegial y mediasuela Cloudfoam: el básico elegante de todos los días.",
+  "detalles": [
+   "Parte superior de cuero sintético blanco",
+   "Mediasuela Cloudfoam Comfort",
+   "Suela cupsole de goma",
+   "Colorway Cloud White/Collegiate Green (identificado en las fotos oficiales de la ficha)"
+  ],
+  "tallas": [
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-638",
+  "marca": "Salt Life",
+  "nombre": "Salt Life The Dune Sandals — Tranquil Blue",
+  "genero": "Hombre",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71OTovhhy7L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71GijduoBbL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71GijduoBbL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71xjqVc1a0L._SX700_.jpg"
+  ],
+  "descripcion": "Sandalias Salt Life The Dune en azul tranquilo, con plantilla acolchada para días de playa y calor.",
+  "detalles": [
+   "Plantilla acolchada de confort",
+   "Tira superior suave",
+   "Suela con tracción para superficies mojadas",
+   "Colorway Tranquil Blue"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-639",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool Charms Sneakers — Marshmallow/Blue",
+  "genero": "Hombre",
+  "precio": 46.0,
+  "precio_c": 1692,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/719bI9CYrKL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71JRQTPwD+L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71JRQTPwD+L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61nrd8tQXRL._SX700_.jpg"
+  ],
+  "descripcion": "Old Skool de Vans en marshmallow y azul con detalles de charms, la silueta skate clásica con un toque distinto.",
+  "detalles": [
+   "Silueta Old Skool clásica",
+   "Detalles decorativos tipo charm",
+   "Suela waffle de goma",
+   "Colorway Marshmallow/Blue"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-640",
+  "marca": "adidas",
+  "nombre": "adidas Purechill Slides — White/Team Royal Blue/Better Scarlet",
+  "genero": "Hombre",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/711RPNN6MNL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/617nt--6IcL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/617nt--6IcL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61rgCzyhEjL._SX700_.jpg"
+  ],
+  "descripcion": "Slides adidas Purechill en blanco con franjas azul royal y rojo, con plantilla suave tipo Cloudfoam.",
+  "detalles": [
+   "Plantilla suave de secado rápido",
+   "Tira con las 3 franjas",
+   "Suela moldeada ligera",
+   "Colorway White/Team Royal Blue/Better Scarlet"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-641",
+  "marca": "Nike",
+  "nombre": "Nike Precision 7 Basketball Shoes — Black/Anthracite",
+  "genero": "Hombre",
+  "precio": 46.97,
+  "precio_c": 1727,
+  "fotos": [
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8c2e57b1-aa47-434a-a3f1-f2bf4a8090de/NIKE+PRECISION+VII.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aab82bf4-cf60-41d9-bfc1-25da13e919a7/NIKE+PRECISION+VII.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e970a938-708b-4b04-ba2d-21fa2c6c32a0/NIKE+PRECISION+VII.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6d8620ca-e193-4948-99fb-403a7b7ec1ab/NIKE+PRECISION+VII.png"
+  ],
+  "descripcion": "Tenis de básquetbol Nike Precision 7 en negro y antracita: ligeros, con buena tracción para cambios de dirección en la cancha.",
+  "detalles": [
+   "Diseño de básquetbol de perfil bajo",
+   "Suela con patrón de tracción para la cancha",
+   "Parte superior de malla con refuerzos",
+   "Colorway Black/Anthracite"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-642",
+  "marca": "Nike",
+  "nombre": "Nike Calm 2.0 Slides — Light Current Blue/Light Current Blue",
+  "genero": "Hombre",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/230dd046-ae0d-4a29-91f0-1e932820a060/NIKE+CALM+SLIDE+2.0.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2f99a404-b86e-4486-834f-2b54ad836023/NIKE+CALM+SLIDE+2.0.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9f9dadbe-5387-4397-8385-239b87c95cd2/NIKE+CALM+SLIDE+2.0.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/35d77c49-20a2-4f81-b5e4-644f713f0fbe/NIKE+CALM+SLIDE+2.0.png"
+  ],
+  "descripcion": "Slides Nike Calm 2.0 en azul corriente claro, con espuma suave de doble densidad para descansar después de entrenar.",
+  "detalles": [
+   "Espuma suave de doble densidad",
+   "Tira ancha de una pieza",
+   "Suela exterior con tracción",
+   "Colorway Light Current Blue"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-643",
+  "marca": "adidas",
+  "nombre": "adidas X_PLR Path Running Shoes — Chalk White/Team Royal Blue/Gum",
+  "genero": "Hombre",
+  "precio": 51.95,
+  "precio_c": 1910,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/262357e8cfd548b9b0373b9984e00e62.jpg?v=1777111933",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/33366526f73d4cfd8f114c7b3e8d0762.jpg?v=1777111932",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/41860791d3ed49c78e6417a05a1d0bb0.jpg?v=1777111933",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/df3ce0df2d78421b90ddaa7a5ded0d16.jpg?v=1777111933"
+  ],
+  "descripcion": "Tenis adidas X_PLR Path en tono chalk con franjas azul royal y suela gum, con mediasuela Cloudfoam para caminar todo el día.",
+  "detalles": [
+   "Parte superior textil ligera",
+   "Mediasuela Cloudfoam acolchada",
+   "Suela de goma con acabado gum",
+   "Colorway Chalk White/Team Royal Blue/Gum (identificado en las fotos oficiales de la ficha)"
+  ],
+  "tallas": [
+   "8.0",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-644",
+  "marca": "Puma",
+  "nombre": "Puma Caven III Sneakers — Vapor Gray/Silver/White",
+  "genero": "Hombre",
+  "precio": 52.96,
+  "precio_c": 1948,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40449104_1_1.jpg?v=1786037614",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40449104_2.jpg?v=1786037614",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40449104_3.jpg?v=1786037614",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40449104_4.jpg?v=1786037614"
+  ],
+  "descripcion": "Tenis Puma Caven III en gris vapor con plata y blanco: silueta court retro con plantilla SoftFoam+ de gran comodidad.",
+  "detalles": [
+   "Silueta court de inspiración retro",
+   "Plantilla SoftFoam+ acolchada",
+   "Parte superior sintética",
+   "Colorway Vapor Gray/Silver/White"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-645",
+  "marca": "Lugz",
+  "nombre": "Lugz Forager Boots — Chestnut/Doe/White",
+  "genero": "Hombre",
+  "precio": 52.96,
+  "precio_c": 1948,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MFORAGEV7620_1.jpg?v=1777050337",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MFORAGEV7620_2.jpg?v=1777050337",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MFORAGEV7620_3.jpg?v=1777050336",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MFORAGEV7620_4.jpg?v=1777050336"
+  ],
+  "descripcion": "Botas casuales Lugz Forager en chestnut, de caña baja tipo chukka con suela gruesa para el uso diario con más carácter.",
+  "detalles": [
+   "Estilo bota casual tipo chukka",
+   "Parte superior sintética resistente",
+   "Suela gruesa con tracción",
+   "Colorway Chestnut/Doe/White"
+  ],
+  "tallas": [
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-646",
+  "marca": "Puma",
+  "nombre": "Puma FlexFocus Lite Running Shoes — Royal Sapphire/Black/Lucite",
+  "genero": "Hombre",
+  "precio": 54.97,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/31009338_1.jpg?v=1778288296",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/31009338_2.jpg?v=1778288296",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/31009338_3.jpg?v=1778288296",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/31009338_4.jpg?v=1778288296"
+  ],
+  "descripcion": "Tenis de running Puma FlexFocus Lite en azul royal: malla ligera y suela flexible para entrenar o caminar a diario.",
+  "detalles": [
+   "Malla ligera transpirable",
+   "Suela flexible de goma",
+   "Diseño de running para diario",
+   "Colorway Royal Sapphire/Black/Lucite"
+  ],
+  "tallas": [
+   "8.0",
+   "9.0",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-647",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 Shoes — Khaki/Khaki/Khaki",
+  "genero": "Hombre",
+  "precio": 54.97,
+  "precio_c": 2021,
+  "fotos": [
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b4d18450-5099-49c1-a179-0e36b644b642/NIKE+REACTX+REJUVEN8.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/526bcbfb-621a-4696-95c1-3b1c54d8dce3/NIKE+REACTX+REJUVEN8.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8f923fdd-df8d-41d0-9d82-31b377fbe9ba/NIKE+REACTX+REJUVEN8.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cf9100ec-2ce6-46c6-8881-e04e403f7afa/NIKE+REACTX+REJUVEN8.png"
+  ],
+  "descripcion": "Nike ReactX Rejuven8 en khaki total: calzado de recuperación con espuma ReactX extra suave para después del entrenamiento.",
+  "detalles": [
+   "Espuma ReactX de alta amortiguación",
+   "Diseño slip-on de recuperación",
+   "Parte superior de tejido elástico",
+   "Colorway Khaki/Khaki/Khaki"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-648",
+  "marca": "Jordan",
+  "nombre": "Jordan Franchise Sneakers — Black/White",
+  "genero": "Hombre",
+  "precio": 54.98,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_1.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_2.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_3.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_4.jpg?v=1775518943"
+  ],
+  "descripcion": "Tenis Jordan Franchise en negro y blanco, con aire de básquetbol retro y suela de goma para el uso urbano diario.",
+  "detalles": [
+   "Silueta inspirada en el básquetbol",
+   "Parte superior sintética con capas",
+   "Suela de goma con tracción",
+   "Colorway Black/White"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ]
+ },
+ {
+  "codigo": "DOM-649",
+  "marca": "Puma",
+  "nombre": "Puma Attacanto II Indoor Trainer Soccer Shoes — Black/White",
+  "genero": "Hombre",
+  "precio": 50.5,
+  "precio_c": 1857,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/715VP0RFIFL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/715VP0RFIFL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71TXBThK4TL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71oQUIMGDCL._SX700_.jpg"
+  ],
+  "descripcion": "Tenis de fútbol sala Puma Attacanto II en negro y blanco, con suela de goma para canchas indoor y futsal.",
+  "detalles": [
+   "Suela de goma para cancha indoor",
+   "Parte superior sintética ligera",
+   "Ajuste ceñido de fútbol",
+   "Colorway Black/White"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-650",
+  "marca": "adidas",
+  "nombre": "adidas Samoa Sneakers — Core Black/Core Black",
+  "genero": "Hombre",
+  "precio": 57.95,
+  "precio_c": 2131,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/1d1dda64537c477cb771a97087812bf5_d751d00a-d3e5-4d85-ad20-764d37e7f264.jpg?v=1779458989",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/830ca3b066a647d1ba0b1a6e73850d1a_ca9d7091-1672-4b66-9039-9738ead2d1f8.jpg?v=1779458988",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/f0499b86696942a5856730a33563d290_08c7eb11-98f7-4e27-8dc6-0f826419a68a.jpg?v=1779458988",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/695aadedb0ee4f87ab99841264296706_b31f05b2-e446-41e1-925b-ad9060177414.jpg?v=1779458990"
+  ],
+  "descripcion": "El icónico adidas Samoa en negro total de cuero texturizado: un clásico de archivo con suela baja y puntera reforzada.",
+  "detalles": [
+   "Parte superior de cuero texturizado",
+   "Puntera reforzada clásica del Samoa",
+   "Suela baja de goma",
+   "Colorway Core Black/Core Black (identificado en las fotos oficiales de la ficha)"
+  ],
+  "tallas": [
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-651",
+  "marca": "New Balance",
+  "nombre": "New Balance T500 Athletic Shoes — NB 103 White/Black",
+  "genero": "Hombre",
+  "precio": 57.97,
+  "precio_c": 2132,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_910403_FS.JPG",
+   "https://images.journeys.com/images/products/1_910403_FS.JPG",
+   "https://images.journeys.com/images/products/1_910403_FS.JPG"
+  ],
+  "descripcion": "Tenis New Balance T500 en blanco y negro: silueta retro de cuero y gamuza con mediasuela de espuma cómoda.",
+  "detalles": [
+   "Capas de cuero y gamuza",
+   "Silueta retro de perfil bajo",
+   "Mediasuela de espuma acolchada",
+   "Colorway NB 103 White/Black"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-652",
+  "marca": "Reebok",
+  "nombre": "Reebok Club C 85 Athletic Shoes — Grey 2/Chalk",
+  "genero": "Hombre",
+  "precio": 57.97,
+  "precio_c": 2132,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_894010_FS.JPG",
+   "https://images.journeys.com/images/products/1_894010_FS.JPG",
+   "https://images.journeys.com/images/products/1_894010_FS.JPG"
+  ],
+  "descripcion": "Reebok Club C 85 en gris y chalk: el clásico de tenis de cuero suave con suela cupsole, limpio y atemporal.",
+  "detalles": [
+   "Parte superior de cuero suave",
+   "Silueta clásica de los 85",
+   "Suela cupsole de goma",
+   "Colorway Grey 2/Chalk"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0",
+   "14.0"
+  ]
+ },
+ {
+  "codigo": "DOM-653",
+  "marca": "Vans",
+  "nombre": "Vans Authentic Skate Shoes — Grey/Mint Green",
+  "genero": "Hombre",
+  "precio": 57.97,
+  "precio_c": 2132,
+  "fotos": [
+   "https://images.journeys.com/images/site/1_JourneysUS.png",
+   "https://images.journeys.com/images/products/1_893805_FS.JPG",
+   "https://images.journeys.com/images/products/1_893805_FS.JPG",
+   "https://images.journeys.com/images/products/1_893805_FS.JPG"
+  ],
+  "descripcion": "Vans Authentic en gris con verde menta: la lona original de 1966 con suela waffle vulcanizada.",
+  "detalles": [
+   "Parte superior de lona",
+   "Suela waffle original",
+   "Cierre de cordones clásico",
+   "Colorway Grey/Mint Green"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-654",
+  "marca": "Reebok",
+  "nombre": "Reebok Court Advance Sneakers — Black/White/Gum",
+  "genero": "Hombre",
+  "precio": 59.96,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074282_1.jpg?v=1779925310",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074282_2.jpg?v=1779925309",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074282_3.jpg?v=1779925310",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074282_4.jpg?v=1779925309"
+  ],
+  "descripcion": "Tenis Reebok Court Advance en negro con blanco y suela gum: estilo court limpio para todos los días.",
+  "detalles": [
+   "Silueta court de perfil bajo",
+   "Suela gum clásica",
+   "Parte superior sintética",
+   "Colorway Black/White/Gum"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-655",
+  "marca": "Skechers",
+  "nombre": "Skechers Go Run Consistent 2.0 Running Shoes — Black",
+  "genero": "Hombre",
+  "precio": 59.96,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/220866BBK_1.jpg?v=1780528265",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/220866BBK_2.jpg?v=1780528265",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/220866BBK_3.jpg?v=1780528265",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/220866BBK_4.jpg?v=1780528265"
+  ],
+  "descripcion": "Tenis de running Skechers Go Run Consistent 2.0 en negro, con mediasuela ligera y plantilla fresca para correr o caminar.",
+  "detalles": [
+   "Mediasuela ligera ULTRA LIGHT",
+   "Plantilla Air-Cooled Goga Mat",
+   "Malla transpirable",
+   "Colorway Black"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-656",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool Sneakers — Soft Slate Blue (Canvas)",
+  "genero": "Hombre",
+  "precio": 59.98,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7ZGRI_1.jpg?v=1784583830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7ZGRI_2.jpg?v=1784583830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7ZGRI_3.jpg?v=1784583830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7ZGRI_4.jpg?v=1784583831"
+  ],
+  "descripcion": "Old Skool de Vans en lona azul pizarra suave, con la Sidestripe y la suela waffle que nunca pasan de moda.",
+  "detalles": [
+   "Parte superior de lona",
+   "Franja Sidestripe clásica",
+   "Suela waffle vulcanizada",
+   "Colorway Soft Slate Blue"
+  ],
+  "tallas": [
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-657",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Ignite Pro 8 Flip Flops — Black/White/White",
+  "genero": "Hombre",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/617h7KegfnL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61UN2+nKeQL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61EjN1nEz7L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61cwVWbYH1L._SX700_.jpg"
+  ],
+  "descripcion": "Chanclas Under Armour Ignite Pro 8 en negro y blanco, con plantilla acolchada de espuma para la playa y el descanso.",
+  "detalles": [
+   "Plantilla de espuma acolchada Ignite",
+   "Tira sintética resistente al agua",
+   "Suela con tracción",
+   "Colorway Black/White/White"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-658",
+  "marca": "Tommy Hilfiger",
+  "nombre": "Tommy Hilfiger Tanet Sneakers — Cognac Multi",
+  "genero": "Hombre",
+  "precio": 48.0,
+  "precio_c": 1765,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71KjtjB+p7L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71BeskAHugL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71NwL4khhhL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/713VqxNTqEL._SX700_.jpg"
+  ],
+  "descripcion": "Tenis casuales Tommy Hilfiger Tanet en cognac multi, un tono café versátil con el estilo limpio de la marca para el uso diario.",
+  "detalles": [
+   "Silueta casual baja de Tommy Hilfiger",
+   "Parte superior sintética en tono cognac",
+   "Suela de goma con tracción",
+   "Colorway Cognac Multi"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-659",
+  "marca": "Nike",
+  "nombre": "Nike Precision 7 Basketball Shoes — Black/Iron Grey/Smoke Grey/White",
+  "genero": "Hombre",
+  "precio": 58.97,
+  "precio_c": 2169,
+  "fotos": [
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/738aa0dc-403b-45fa-bbca-874a3b3e411d/NIKE+PRECISION+VII.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8c1eaa18-177f-4a33-91fd-54101ab6af08/NIKE+PRECISION+VII.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/859aa5f6-2777-401c-98dd-7a4e9673ea4f/NIKE+PRECISION+VII.png",
+   "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ecb1382a-2895-4a43-9da2-ac8806421985/NIKE+PRECISION+VII.png"
+  ],
+  "descripcion": "Segundo colorway de los Nike Precision 7 de básquetbol: negro con gris hierro y blanco, ligeros y con tracción para la cancha.",
+  "detalles": [
+   "Diseño de básquetbol de perfil bajo",
+   "Suela con patrón de tracción para la cancha",
+   "Parte superior de malla con refuerzos",
+   "Colorway Black/Iron Grey/Smoke Grey/White"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-660",
+  "marca": "Starter",
+  "nombre": "Starter Fastbreak Low X Sneakers — Black/Fuchsia",
+  "genero": "Mujer",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010914_1.jpg?v=1775168953",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010914_2.jpg?v=1775168953",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010914_3.jpg?v=1775168953",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010914_4.jpg?v=1775168953"
+  ],
+  "descripcion": "Sneaker bajo de perfil deportivo y limpio, pensado para el uso diario con jeans, joggers o ropa activa. Su frente perforado y la plantilla acolchada lo hacen cómodo para jornadas largas.",
+  "detalles": [
+   "Perfil bajo de estilo deportivo",
+   "Frente perforado que ayuda a la ventilación",
+   "Plantilla acolchada para mayor comodidad",
+   "Ideal para diario, mandados y gimnasio"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-661",
+  "marca": "Starter",
+  "nombre": "Starter Fastbreak Low X Sneakers — (Lace) White/Grey/Lavendar",
+  "genero": "Mujer",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011014_1.jpg?v=1780609768",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011014_2.jpg?v=1780609767",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011014_3.jpg?v=1780609767",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011014_4.jpg?v=1780609767"
+  ],
+  "descripcion": "Sneaker bajo blanco con detalles gris y lavanda, fácil de combinar con looks casuales o deportivos. El frente perforado y la plantilla acolchada aportan comodidad durante todo el día.",
+  "detalles": [
+   "Perfil bajo de estilo deportivo",
+   "Frente perforado que ayuda a la ventilación",
+   "Plantilla acolchada",
+   "Combina con jeans, joggers y activewear"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-662",
+  "marca": "Starter",
+  "nombre": "Starter Star Light X Sneakers — White/Pink/Silver",
+  "genero": "Mujer",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010966_1.jpg?v=1775691351",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010966_2.jpg?v=1775691351",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010966_3.jpg?v=1775691352",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44010966_4.jpg?v=1775691352"
+  ],
+  "descripcion": "Sneaker blanco con acentos metálicos y rosas que le dan un toque fresco al look diario. La plantilla Star-Foam acolchada y el cuello acolchado cuidan la comodidad al caminar o entrenar.",
+  "detalles": [
+   "Plantilla Star-Foam acolchada",
+   "Cuello acolchado para mejor ajuste",
+   "Base blanca con acentos rosa y plateados",
+   "Para entrenar, mandados y uso diario"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-663",
+  "marca": "Starter",
+  "nombre": "Starter Star Light X Sneakers — (Floral) Pale Lilac",
+  "genero": "Mujer",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011000_1.jpg?v=1775691351",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011000_2.jpg?v=1775691352",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011000_3.jpg?v=1775691351",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/44011000_4.jpg?v=1775691351"
+  ],
+  "descripcion": "Sneaker ligero con diseño floral en tono lila pálido y parte superior de malla transpirable. La plantilla Star-Foam y la suela de goma con tracción lo hacen práctico para días activos.",
+  "detalles": [
+   "Parte superior de malla ligera y transpirable",
+   "Plantilla Star-Foam acolchada",
+   "Suela de goma con tracción",
+   "Diseño floral en lila pálido"
+  ],
+  "tallas": [
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-664",
+  "marca": "Skechers",
+  "nombre": "Skechers Martha Stewart Ultra Flex 3.0 Slip-In Shine On Us Sneakers — Natural Knit/Natural",
+  "genero": "Mujer",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NAT_1.jpg?v=1781733885",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NAT_2.jpg?v=1781733885",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NAT_3.jpg?v=1781733885",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NAT_4.jpg?v=1781733885"
+  ],
+  "descripcion": "Sneaker sin cordones de la línea Martha Stewart, con tejido neutro con brillo sutil y formato slip-in para calzarlo al instante. Aporta una ligera cuña y una pisada suave para el día a día.",
+  "detalles": [
+   "Diseño slip-in: se calza sin manos ni cordones",
+   "Tejido con brillo sutil en tono natural",
+   "Silueta con ligera cuña",
+   "Pensado para mandados y planes casuales"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-665",
+  "marca": "Skechers",
+  "nombre": "Skechers Martha Stewart Ultra Flex 3.0 Slip-In Shine On Us Sneakers — Navy Knit/White",
+  "genero": "Mujer",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NVY_1.jpg?v=1781733881",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NVY_2.jpg?v=1781733881",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NVY_3.jpg?v=1781733882",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/164021NVY_4.jpg?v=1781733881"
+  ],
+  "descripcion": "Versión azul marino del sneaker slip-in de Martha Stewart para Skechers, con tejido brillante y detalle tipo cuero. Suave amortiguación y sensación flexible para usarlo todo el día.",
+  "detalles": [
+   "Diseño slip-in fácil de calzar",
+   "Tejido brillante con detalle tipo cuero",
+   "Amortiguación suave y pisada flexible",
+   "Tono azul marino combinable"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-666",
+  "marca": "Reebok",
+  "nombre": "Reebok Glide Low Sneakers — Moonstone/Luxe Grey/Chalk",
+  "genero": "Mujer",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100230903_1.jpg?v=1752189087",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100230903_2.jpg?v=1752189087",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100230903_3.jpg?v=1752189087",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100230903_4.jpg?v=1752189087"
+  ],
+  "descripcion": "Sneaker de inspiración running retro en tonos neutros piedra, gris y tiza, muy fácil de combinar. Su amortiguación suave lo hace cómodo para usar todo el día; stock limitado a la talla indicada.",
+  "detalles": [
+   "Estilo running retro de perfil bajo",
+   "Amortiguación suave tipo nube",
+   "Paleta neutra fácil de combinar",
+   "Stock limitado: solo talla 5.5 disponible al verificar"
+  ],
+  "tallas": [
+   "5.5"
+  ]
+ },
+ {
+  "codigo": "DOM-667",
+  "marca": "Reebok",
+  "nombre": "Reebok Court Advance Sneakers — Chalk/Break Away Green/Earth",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100208923_1.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100208923_2.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100208923_3.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100208923_4.jpg?v=1788538830"
+  ],
+  "descripcion": "Sneaker de inspiración tenística con acabado en capas en tonos tiza, verde y tierra. Un clásico de cancha adaptado al uso diario con jeans o joggers.",
+  "detalles": [
+   "Silueta inspirada en el tenis clásico",
+   "Acabado en capas con tonos de temporada",
+   "Perfil bajo y combinable",
+   "Para uso diario y looks casuales"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-668",
+  "marca": "Reebok",
+  "nombre": "Reebok Court Advance Sneakers — White/Elemental Pink/Gum",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100275927_1.jpg?v=1784151689",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100275927_2.jpg?v=1784151689",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100275927_3.jpg?v=1784151689",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100275927_4.jpg?v=1784151689"
+  ],
+  "descripcion": "Sneaker de cancha con parte superior blanca, acentos rosa suave y suela gum de aire vintage. La entresuela acolchada suma comodidad para el uso diario.",
+  "detalles": [
+   "Herencia de dos estilos clásicos de cancha",
+   "Entresuela acolchada",
+   "Suela gum de estilo vintage",
+   "Blanco con acentos rosa"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-669",
+  "marca": "Reebok",
+  "nombre": "Reebok Energen Lux Sneakers — Muted Mauve/White/Berry Chill",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100244579_1.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100244579_2.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100244579_3.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100244579_4.jpg?v=1788538830"
+  ],
+  "descripcion": "Sneaker ligero para correr y caminar, en tono malva suave con blanco. Su entresuela ligera sirve igual para una corrida corta, el trayecto al trabajo o una caminata larga.",
+  "detalles": [
+   "Entresuela ligera y cómoda",
+   "Sirve para correr ligero y caminar",
+   "Parte superior de líneas limpias y modernas",
+   "Tono malva suave combinable"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-670",
+  "marca": "Reebok",
+  "nombre": "Reebok Energen Lux Sneakers — Black/Black/Black",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100273330_1.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100273330_2.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100273330_3.jpg?v=1788538830",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100273330_4.jpg?v=1788538830"
+  ],
+  "descripcion": "Versión totalmente negra del Energen Lux: un sneaker ligero y discreto que combina con todo. Pensado para correr ligero, días ocupados fuera de casa y uso diario.",
+  "detalles": [
+   "Look completamente negro",
+   "Parte superior ligera de una pieza",
+   "Cómodo para correr ligero y caminar",
+   "Estilo simple y versátil"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-671",
+  "marca": "Skechers",
+  "nombre": "Skechers Martha Stewart Summits Slip-In Floral Dreams Sneakers — Muave Knit/White",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/150285DKMV_1.jpg?v=1784319713",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/150285DKMV_2.jpg?v=1784319713",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/150285DKMV_3.jpg?v=1784319713",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/150285DKMV_4.jpg?v=1784319713"
+  ],
+  "descripcion": "Sneaker slip-in de tejido tipo calcetín con motivo floral tonal, diseñado para caminar todo el día. Los cordones fijos y el Heel Pillow mantienen el pie seguro sin ajustes.",
+  "detalles": [
+   "Tejido de punto tipo calcetín",
+   "Cordones fijos que no se desajustan",
+   "Heel Pillow que sujeta el talón",
+   "Motivo floral tonal en tono malva"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-672",
+  "marca": "Avia",
+  "nombre": "Avia Avi-Move Wide Sneakers — Jet Black/White/Pale Gold",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WBY_1_7423b254-80a5-419f-ada3-4766601a9473.jpg?v=1792792264",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WBY_2_cf066410-c274-4a70-b6ec-fd547f7adb60.jpg?v=1792792263",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WBY_3_6643eb33-63c6-4d8e-9ed2-6291de7406d6.jpg?v=1792792264",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WBY_4_6d10a048-5546-405f-8d1c-0b49400ce220.jpg?v=1792792264"
+  ],
+  "descripcion": "Sneaker de horma ancha con parte superior de malla ligera y amortiguación de espuma con memoria. Da espacio y soporte para caminar, correr o entrenar durante todo el día.",
+  "detalles": [
+   "Horma ancha (Wide) con más espacio",
+   "Amortiguación Memory Foam",
+   "Malla ligera y transpirable",
+   "Suela de goma para uso diario y gimnasio"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-673",
+  "marca": "Avia",
+  "nombre": "Avia Avi-Move Wide Sneakers — Blush/Pink/Black/White",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WQPB_1.jpg?v=1792792263",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WQPB_2.jpg?v=1792792264",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WQPB_3.jpg?v=1792792264",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247WQPB_4.jpg?v=1792792263"
+  ],
+  "descripcion": "Versión rosa empolvado del Avi-Move Wide, con malla transpirable y espuma con memoria para moverse cómoda del gimnasio a la calle. La horma ancha da espacio extra al pie.",
+  "detalles": [
+   "Horma ancha (Wide)",
+   "Amortiguación Memory Foam todo el día",
+   "Malla ligera que respira",
+   "Tono rosa empolvado con blanco y negro"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-674",
+  "marca": "Skechers",
+  "nombre": "Skechers Bobs Beso Hidden Wedge Sneaker — Black",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634BBK_1.jpg?v=1787607918",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634BBK_2.jpg?v=1787607919",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634BBK_3.jpg?v=1787607919",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634BBK_4.jpg?v=1787607919"
+  ],
+  "descripcion": "Sneaker casual negro con cuña oculta que aporta un poco de altura sin perder el look relajado. El detalle festoneado en la zona de los ojales y la plantilla Memory Foam suman estilo y comodidad.",
+  "detalles": [
+   "Cuña oculta de perfil bajo",
+   "Plantilla Skechers Memory Foam",
+   "Detalle festoneado en los ojales",
+   "Para mandados, viajes y uso diario"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-675",
+  "marca": "Skechers",
+  "nombre": "Skechers Bobs Beso Hidden Wedge Sneaker — Light Pink",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634LTPK_1.jpg?v=1787607675",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634LTPK_2.jpg?v=1787607675",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634LTPK_3.jpg?v=1787607675",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114634LTPK_4.jpg?v=1787607675"
+  ],
+  "descripcion": "Versión rosa claro del Bobs Beso, con cuña oculta y parte superior suave tipo Duraleather. Los cordones No Tie Fit se quedan fijos y se calza sin esfuerzo.",
+  "detalles": [
+   "Cuña oculta que estiliza sin esfuerzo",
+   "Cordones No Tie Fit que permanecen atados",
+   "Parte superior suave con borde festoneado",
+   "Tono rosa claro femenino"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "7.5",
+   "8.0",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-676",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Flow Casual Lace Up Sneakers — Navy Nubuck",
+  "genero": "Mujer",
+  "precio": 34.45,
+  "precio_c": 1267,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-NVY_WEB1_f2acfc11-9262-434c-965f-5be5219d3d01.jpg?v=1762464189",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-NVY_WEB3_6faecfdc-f770-4b12-9ea6-1d69ba151a36.jpg?v=1762464193",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-NVY_WEB4_9447e611-6283-4e27-ba74-e249ada250c5.jpg?v=1762464195",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-NVY_WEB5_9d66c193-84d8-4c48-bccd-882de6561e81.jpg?v=1762464197"
+  ],
+  "descripcion": "Sneaker casual con cordones y parte superior de malla transpirable en azul marino tipo nobuk. La plantilla acolchada lo hace ideal para caminatas largas y salidas casuales.",
+  "detalles": [
+   "Cierre con cordones",
+   "Punta redonda",
+   "Plantilla acolchada",
+   "Malla transpirable"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-677",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Flow Casual Lace Up Sneakers — White",
+  "genero": "Mujer",
+  "precio": 34.45,
+  "precio_c": 1267,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-WHT_WEB1_23951682-9c99-4802-b283-17565d755662.jpg?v=1765941895",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-WHT_WEB2_37a63160-e9b3-4558-847b-9280d52d69d9.jpg?v=1765941894",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-WHT_WEB3_832241eb-a630-4288-819f-e03acecbed14.jpg?v=1765941895",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FLOW-WHT_WEB4_4181fab5-c1e5-486d-bd69-25b0edb18a8d.jpg?v=1765941894"
+  ],
+  "descripcion": "Sneaker casual blanco con cordones y malla transpirable que mantiene el pie fresco. Plantilla acolchada y soporte pensado para actividades de todo el día.",
+  "detalles": [
+   "Cierre con cordones",
+   "Punta redonda",
+   "Plantilla acolchada",
+   "Blanco fácil de combinar"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-678",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Meeya Casual Lace Up Sneakers — Brown",
+  "genero": "Mujer",
+  "precio": 41.95,
+  "precio_c": 1543,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BRN_WEB1_e9adfbc1-87e6-4fd8-bc32-de87475d6941.jpg?v=1762464169",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BRN_WEB2_e3d6f6d8-0d3f-4ad2-89bd-c0cae558f210.jpg?v=1762464171",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BRN_WEB3_1a797d68-825b-4e55-8197-625bcd0fe350.jpg?v=1762464173",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BRN_WEB4_06ba1909-d93c-4a60-97ef-03a2cf8197e5.jpg?v=1762464175"
+  ],
+  "descripcion": "Sneaker casual café para caminar, con punta redonda y plantilla acolchada para soporte durante todo el día. Su parte superior de tela lo hace ligero y versátil.",
+  "detalles": [
+   "Cierre con cordones",
+   "Punta redonda",
+   "Plantilla acolchada",
+   "Parte superior de tela"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-679",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Meeya Casual Lace Up Sneakers — Black",
+  "genero": "Mujer",
+  "precio": 41.95,
+  "precio_c": 1543,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BLK_WEB1_4f4a5750-013e-4beb-b27b-602c7cc1ed7c.jpg?v=1765941889",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BLK_WEB2_258ce966-22c1-4e10-ad7c-c9ce202ffb8a.jpg?v=1765941889",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BLK_WEB3_b1063827-6bba-469b-83f6-2a293c01125f.jpg?v=1765941889",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MEEYA-BLK_WEB4_e39aeb24-e1fc-47af-871c-b8ecf07c199b.jpg?v=1765941889"
+  ],
+  "descripcion": "Versión negra del Meeya: sneaker ligero para caminar a diario, con plantilla acolchada y punta redonda. Combina con todo y se siente cómodo todo el día.",
+  "detalles": [
+   "Cierre con cordones",
+   "Punta redonda",
+   "Plantilla acolchada",
+   "Negro versátil"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-680",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Pennelope Wedge Sneakers — Tan",
+  "genero": "Mujer",
+  "precio": 39.7,
+  "precio_c": 1460,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-TAN_1_87e3531a-928f-4be9-9533-e2b7cda39663.jpg?v=1762459443",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-TAN_2_353dc7ad-de3a-4322-8a52-3d0824902542.jpg?v=1762459444",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-TAN_3_28d3594a-fb37-468e-8878-120231c66f6a.jpg?v=1762459446",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-TAN_4_3726bf22-81ae-433e-8e4f-d8bdf4bc1c99.jpg?v=1762459448"
+  ],
+  "descripcion": "Sneaker alto en tono canela con cuña oculta de 1¼ pulgada y plantilla acolchada. Los detalles perforados y los zippers laterales expuestos le dan un toque distinto.",
+  "detalles": [
+   "Cuña oculta de 1¼ pulgada",
+   "Corte alto (high-top) con zippers laterales",
+   "Detalles perforados en cuero vegano",
+   "Plantilla acolchada y horma amplia"
+  ],
+  "tallas": [
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-681",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Pennelope Wedge Sneakers — Ivory",
+  "genero": "Mujer",
+  "precio": 39.7,
+  "precio_c": 1460,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-IVY_1_b24ab910-5587-4572-b8b7-05ec01f1d5b9.jpg?v=1762459439",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-IVY_2_b3361ede-5a1a-4436-86bd-90371c7fc9a6.jpg?v=1762459441",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-IVY_3_7be88ed2-7906-408d-9379-db43e9ce673e.jpg?v=1762459442",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PENNELOPE-IVY_4_0491e20f-0ce4-410a-ad7e-860609ddd0d7.jpg?v=1762459444"
+  ],
+  "descripcion": "Versión marfil del Pennelope: sneaker alto de cuero vegano con cuña oculta y zippers laterales. Stock limitado a tallas grandes al momento de verificar.",
+  "detalles": [
+   "Cuña oculta de 1¼ pulgada",
+   "Corte alto con zippers laterales",
+   "Detalles perforados en cuero vegano",
+   "Stock limitado: tallas 11 y 12 al verificar"
+  ],
+  "tallas": [
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-682",
+  "marca": "Tommy Hilfiger",
+  "nombre": "Tommy Hilfiger Kerline Sneaker — Ice Taupe/Cream",
+  "genero": "Mujer",
+  "precio": 45.93,
+  "precio_c": 1689,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/76/01/4/76014_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/76/01/4/76014_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/76/01/4/76014_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/76/01/4/76014_back_feed351.jpg"
+  ],
+  "descripcion": "Sneaker casual en tonos taupe hielo y crema, de líneas limpias para el uso diario. Una opción ligera y combinable de Tommy Hilfiger a precio de liquidación en esta variante.",
+  "detalles": [
+   "Estilo casual de perfil bajo",
+   "Tonos neutros fáciles de combinar",
+   "Variante en precio especial verificado en la ficha",
+   "Para uso diario"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-683",
+  "marca": "LifeStride",
+  "nombre": "LifeStride Golden Knit Slip On Sneaker — Metallic Black",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/17/76/0/17760_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/17/76/0/17760_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/17/76/0/17760_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/17/76/0/17760_front_feed351.jpg"
+  ],
+  "descripcion": "Sneaker sin cordones de tejido de punto negro metálico, flexible y fácil de calzar. Pensado para caminar cómoda durante todo el día.",
+  "detalles": [
+   "Sin cordones: calzado rápido",
+   "Tejido de punto flexible",
+   "Tono negro metálico",
+   "Comodidad para todo el día"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-684",
+  "marca": "LifeStride",
+  "nombre": "LifeStride Golden Knit Slip On Sneaker — Brilliant White",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/17/77/1/17771_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/17/77/1/17771_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/17/77/1/17771_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/17/77/1/17771_front_feed351.jpg"
+  ],
+  "descripcion": "Versión blanco brillante del Golden Knit sin cordones, con tejido de punto flexible que se adapta al pie. Ligero y cómodo para la rutina diaria.",
+  "detalles": [
+   "Sin cordones: calzado rápido",
+   "Tejido de punto flexible",
+   "Blanco brillante combinable",
+   "Comodidad para todo el día"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-685",
+  "marca": "Madden Girl",
+  "nombre": "Madden Girl Jumper Sneaker — Blue/White",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/40/58/9/40589_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/40/58/9/40589_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/40/58/9/40589_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/40/58/9/40589_back_feed351.jpg"
+  ],
+  "descripcion": "Sneaker casual azul con blanco de Madden Girl, con un aire deportivo y juvenil para el día a día. Variante con precio especial verificado en Famous Footwear.",
+  "detalles": [
+   "Estilo deportivo casual",
+   "Combinación azul y blanco",
+   "Precio especial en esta variante",
+   "Para looks diarios relajados"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-686",
+  "marca": "Madden Girl",
+  "nombre": "Madden Girl Nollie Sneaker — Taupe Multi",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/38/62/1/38621_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/38/62/1/38621_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/38/62/1/38621_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/38/62/1/38621_back_feed351.jpg"
+  ],
+  "descripcion": "Sneaker casual en tonos taupe de Madden Girl, fácil de llevar con outfits neutros. Variante con precio especial verificado en la ficha.",
+  "detalles": [
+   "Tonos taupe combinables",
+   "Estilo casual de diario",
+   "Precio especial en esta variante",
+   "Perfil bajo y ligero"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-687",
+  "marca": "Skechers",
+  "nombre": "Skechers BOBS B Cute 2.0 Slip On Canvas Sneaker — Blush Pink",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/75/15/2/75152_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/15/2/75152_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/15/2/75152_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/15/2/75152_back_feed351.jpg"
+  ],
+  "descripcion": "Sneaker de lona sin cordones en rosa empolvado, de la línea BOBS de Skechers. Horma media y un estilo dulce y relajado para todos los días.",
+  "detalles": [
+   "Lona suave sin cordones",
+   "Tono rosa empolvado",
+   "Horma media (Medium)",
+   "Estilo casual de diario"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-688",
+  "marca": "Jellypop",
+  "nombre": "Jellypop Energy Sneaker — Black",
+  "genero": "Mujer",
+  "precio": 41.94,
+  "precio_c": 1542,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/77/23/1/77231_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/77/23/1/77231_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/77/23/1/77231_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/77/23/1/77231_back_feed351.jpg"
+  ],
+  "descripcion": "Sneaker negro ligero de Jellypop, con un diseño sencillo que va con todo. Una opción económica y cómoda para la rutina diaria.",
+  "detalles": [
+   "Negro básico combinable",
+   "Diseño ligero de diario",
+   "Precio especial verificado en la ficha",
+   "Estilo casual sencillo"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-689",
+  "marca": "Jellypop",
+  "nombre": "Jellypop Energy Sneaker — White Multi Floral",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/39/34/4/39344_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/39/34/4/39344_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/39/34/4/39344_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/39/34/4/39344_back_feed351.jpg"
+  ],
+  "descripcion": "Versión blanca con estampado floral multicolor del Energy de Jellypop. Un sneaker alegre y ligero para darle color a los looks casuales.",
+  "detalles": [
+   "Estampado floral multicolor",
+   "Base blanca fresca",
+   "Diseño ligero de diario",
+   "Precio especial en esta variante"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-690",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Very Sadie Lace Up Sneaker — Yellow",
+  "genero": "Mujer",
+  "precio": 45.93,
+  "precio_c": 1689,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/5/75295_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/5/75295_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/5/75295_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/5/75295_front_feed351.jpg"
+  ],
+  "descripcion": "Sneaker con cordones en amarillo vibrante de Blowfish Malibu, con el estilo relajado de inspiración californiana de la marca. Variante en precio especial.",
+  "detalles": [
+   "Color amarillo llamativo",
+   "Cierre con cordones",
+   "Estilo relajado tipo skate-casual",
+   "Precio especial en esta variante"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-691",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Very Sadie Lace Up Sneaker — White/Cream/Beige",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/6/75296_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/6/75296_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/6/75296_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/29/6/75296_front_feed351.jpg"
+  ],
+  "descripcion": "Versión en blanco, crema y beige del Very Sadie con cordones: neutra, relajada y fácil de combinar. De la línea casual de Blowfish Malibu.",
+  "detalles": [
+   "Tonos neutros combinables",
+   "Cierre con cordones",
+   "Estilo relajado de diario",
+   "Suela plana tipo skate"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-692",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Hangout Slip On Sneaker — White",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/76/93/6/76936_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/76/93/6/76936_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/76/93/6/76936_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/76/93/6/76936_front_feed351.jpg"
+  ],
+  "descripcion": "Sneaker blanco sin cordones de Blowfish Malibu, para calzar y salir sin complicaciones. Estilo playero y relajado para todos los días.",
+  "detalles": [
+   "Sin cordones: calzado rápido",
+   "Blanco fresco y combinable",
+   "Estilo relajado tipo slip-on",
+   "Para uso diario"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-693",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Sadie Sun Lace Up Sneaker — Pink/Daisy/Floral",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/75/30/1/75301_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/30/1/75301_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/30/1/75301_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/30/1/75301_front_feed351.jpg"
+  ],
+  "descripcion": "Sneaker con cordones en rosa con margaritas y flores, dulce y veraniego. El toque floral de Blowfish Malibu para looks casuales con color.",
+  "detalles": [
+   "Estampado de margaritas y flores",
+   "Cierre con cordones",
+   "Tono rosa veraniego",
+   "Precio especial en esta variante"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-694",
+  "marca": "Dr. Scholl's",
+  "nombre": "Dr. Scholl's Hunter Sneaker — Sage Green Knit",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/21/35/2/21352_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/21/35/2/21352_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/21/35/2/21352_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/21/35/2/21352_front_feed351.jpg"
+  ],
+  "descripcion": "Sneaker de tejido verde salvia de la colección original de Dr. Scholl's, con la comodidad característica de la marca. Variante en precio especial verificado.",
+  "detalles": [
+   "Tejido en verde salvia",
+   "Comodidad Dr. Scholl's para todo el día",
+   "Estilo casual con cordones",
+   "Precio especial en esta variante"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-695",
+  "marca": "DV Dolce Vita",
+  "nombre": "DV Dolce Vita Goalie Sneaker — Ivory Woven",
+  "genero": "Mujer",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/77/05/6/77056_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/77/05/6/77056_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/77/05/6/77056_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/77/05/6/77056_back_feed351.jpg"
+  ],
+  "descripcion": "Sneaker marfil tejido de DV Dolce Vita, con un acabado artesanal que eleva los looks casuales. Variante en precio especial verificado en la ficha.",
+  "detalles": [
+   "Tejido en tono marfil",
+   "Estilo fashion de perfil bajo",
+   "Acabado con textura artesanal",
+   "Precio especial en esta variante"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-696",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Lummie Casual Lace Up Sneakers — Black PU",
+  "genero": "Mujer",
+  "precio": 51.94,
+  "precio_c": 1910,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-BLK_WEB1_129bbffa-8b5e-402a-8a03-b41980bdf225.jpg?v=1762463972",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-BLK_WEB2_dbd9a654-5b10-4340-a972-62c6a37be53a.jpg?v=1762463974",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-BLK_WEB3_5e3a4e62-b955-4f95-af22-d8a1af17dd6d.jpg?v=1762463976",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-BLK_WEB4_983c4809-dd95-49bf-bbb6-5d5e42c0131a.jpg?v=1762463978"
+  ],
+  "descripcion": "Sneaker negro para caminar con punta redonda y plantilla acolchada que da soporte y comodidad. Su estilo casual en cuero vegano combina con todo.",
+  "detalles": [
+   "Cierre con cordones",
+   "Punta redonda",
+   "Plantilla acolchada",
+   "Cuero vegano fácil de limpiar"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-697",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Lummie Casual Lace Up Sneakers — White PU",
+  "genero": "Mujer",
+  "precio": 51.94,
+  "precio_c": 1910,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-WHT_WEB1_0bf127d1-ceec-41bb-ab22-c0784d07d00c.jpg?v=1765941799",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-WHT_WEB2_49d5134a-7690-4d44-8682-b95b962f92ce.jpg?v=1765941799",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-WHT_WEB3_561286ec-2df7-4e05-bbf4-0931953436cd.jpg?v=1765941799",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LUMMIE-WHT_WEB4_1dd2e3d8-c2fe-4c98-91cc-82a055245217.jpg?v=1765941799"
+  ],
+  "descripcion": "Versión blanca del Lummie: sneaker para caminar a diario con plantilla acolchada y punta redonda. Un básico de cuero vegano que va con cualquier outfit.",
+  "detalles": [
+   "Cierre con cordones",
+   "Punta redonda",
+   "Plantilla acolchada",
+   "Blanco básico en cuero vegano"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-698",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Chasse Mesh Sneakers — Yellow",
+  "genero": "Mujer",
+  "precio": 66.94,
+  "precio_c": 2462,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-YLW_WEB1.jpg?v=1767934330",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-YLW_WEB2.jpg?v=1767934330",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-YLW_WEB3.jpg?v=1767934330",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-YLW_WEB4.jpg?v=1767934330"
+  ],
+  "descripcion": "Sneaker de malla amarillo con sistema de confort Journee, tan cómodo que se siente como andar en pantuflas. Punta redonda, cordones y suela plana para todo el día.",
+  "detalles": [
+   "Parte superior de malla ligera",
+   "Journee Comfort System para soporte diario",
+   "Punta redonda con cordones",
+   "Suela plana y horma media"
+  ],
+  "tallas": [
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-699",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Chasse Mesh Sneakers — Grey",
+  "genero": "Mujer",
+  "precio": 66.94,
+  "precio_c": 2462,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-GRY_WEB1.jpg?v=1767934221",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-GRY_WEB2.jpg?v=1767934221",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-GRY_WEB3.jpg?v=1767934221",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHASSE-GRY_WEB4.jpg?v=1767934221"
+  ],
+  "descripcion": "Versión gris del Chasse de malla: ligero, con cordones y el sistema de confort de Journee para aguantar el día completo. Un básico neutro para diario.",
+  "detalles": [
+   "Parte superior de malla ligera",
+   "Journee Comfort System",
+   "Punta redonda con cordones",
+   "Gris neutro combinable"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-700",
+  "marca": "LifeStride",
+  "nombre": "LifeStride Recover Sneaker — Eggnog Stretch Fabric",
+  "genero": "Mujer",
+  "precio": 52.94,
+  "precio_c": 1947,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/19/63/8/19638_lifestyle_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/19/63/8/19638_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/19/63/8/19638_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/19/63/8/19638_right_feed351.jpg"
+  ],
+  "descripcion": "Sneaker de tela elástica en tono eggnog (crema) de LifeStride, suave y adaptable al pie. Comodidad ligera para caminar a diario.",
+  "detalles": [
+   "Tela elástica que se adapta al pie",
+   "Tono crema neutro combinable",
+   "Estilo casual ligero",
+   "Comodidad para todo el día"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-701",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Marley Slip On Sneaker — White Canvas",
+  "genero": "Mujer",
+  "precio": 53.94,
+  "precio_c": 1984,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/80/48/9/80489_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/80/48/9/80489_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/80/48/9/80489_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/80/48/9/80489_front_feed351.jpg"
+  ],
+  "descripcion": "Sneaker de lona blanca sin cordones de Blowfish Malibu, fresco y relajado. Se calza al instante y combina con todo el guardarropa casual.",
+  "detalles": [
+   "Lona blanca sin cordones",
+   "Calzado rápido tipo slip-on",
+   "Estilo relajado de diario",
+   "Combina con todo"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-702",
+  "marca": "LifeStride",
+  "nombre": "LifeStride Team Player Slip On Sneaker — Beige Multi Faux Leather",
+  "genero": "Mujer",
+  "precio": 56.94,
+  "precio_c": 2094,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/86/49/8/86498_single_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/86/49/8/86498_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/86/49/8/86498_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/86/49/8/86498_front_feed351.jpg"
+  ],
+  "descripcion": "Sneaker sin cordones en beige con acabado tipo cuero de LifeStride. Un básico pulido y cómodo para la oficina casual o el diario.",
+  "detalles": [
+   "Sin cordones: calzado rápido",
+   "Acabado tipo cuero en beige",
+   "Estilo pulido y casual",
+   "Comodidad para todo el día"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-703",
+  "marca": "Skechers",
+  "nombre": "Skechers BOBS B Cute 2.0 Slip On Canvas Sneaker — Lavender",
+  "genero": "Mujer",
+  "precio": 59.93,
+  "precio_c": 2204,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/94/34/7/94347_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/94/34/7/94347_right_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/94/34/7/94347_left_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/94/34/7/94347_back_feed351.jpg"
+  ],
+  "descripcion": "Versión lavanda del BOBS B Cute 2.0 de lona sin cordones, de la línea BOBS de Skechers. Horma media y un tono suave para looks relajados.",
+  "detalles": [
+   "Lona suave sin cordones",
+   "Tono lavanda",
+   "Horma media (Medium)",
+   "Estilo casual de diario"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-704",
+  "marca": "Skechers",
+  "nombre": "Skechers GO RUN Consistent 2.0 - Fast Pace Sneakers — Black / Mauve",
+  "genero": "Mujer",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/128621_BKMV_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/128621_BKMV_INSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/128621_BKMV_OUTSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/128621_BKMV_PROFILE_01"
+  ],
+  "descripcion": "Sneaker de running con parte superior de malla atlética, amortiguación ULTRA LIGHT sensible y tecnología M-Strike que favorece la zancada. La plantilla Air-Cooled Goga Mat suma frescura al entrenar.",
+  "detalles": [
+   "Malla atlética transpirable",
+   "Amortiguación ULTRA LIGHT",
+   "Plantilla Air-Cooled Goga Mat",
+   "Tecnología M-Strike para la zancada"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-705",
+  "marca": "Skechers",
+  "nombre": "Skechers Glide-Step Vortex - Avalin Sneakers — Navy",
+  "genero": "Mujer",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/129826_NVY_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/129826_NVY_INSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/129826_NVY_OUTSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/129826_NVY_PROFILE_01"
+  ],
+  "descripcion": "Sneaker de running vegano con malla y refuerzos termosellados, cordones elásticos fijos y entresuela Glide-Step ligera. La amortiguación ULTRA LIGHT y el M-Strike ayudan a mantener el ritmo.",
+  "detalles": [
+   "Diseño de running vegano",
+   "Cordones elásticos fijos",
+   "Entresuela Glide-Step ligera",
+   "Amortiguación ULTRA LIGHT con M-Strike"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-706",
+  "marca": "Skechers",
+  "nombre": "Skechers BOBS Sport B Flex HI - Flying HI Sneakers — Taupe / Gold",
+  "genero": "Mujer",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/117385_TPGD_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/117385_TPGD_INSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/117385_TPGD_OUTSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/117385_TPGD_PROFILE_01"
+  ],
+  "descripcion": "Sneaker fashion de corte alto con parte superior de tejido de punto y plantilla Memory Foam acolchada. En tono taupe con dorado, eleva cualquier look casual con comodidad.",
+  "detalles": [
+   "Tejido de punto (engineered knit)",
+   "Plantilla Skechers Memory Foam",
+   "Corte alto de estilo fashion",
+   "Tono taupe con detalles dorados"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-707",
+  "marca": "Skechers",
+  "nombre": "Skechers D'Lites - New Legacy Sneakers — Navy",
+  "genero": "Mujer",
+  "precio": 64.94,
+  "precio_c": 2388,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/150860_NVY_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/150860_NVY_FIG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/150860_NVY_INSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/150860_NVY_OUTSOLE"
+  ],
+  "descripcion": "El clásico D'Lites renovado: capas de malla, duraleather y gamuza genuina con cordones y la plantilla Air-Cooled Memory Foam de la casa. Estilo icónico con comodidad moderna.",
+  "detalles": [
+   "Capas de malla, duraleather y gamuza",
+   "Plantilla Air-Cooled Memory Foam",
+   "Silueta chunky icónica de D'Lites",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-708",
+  "marca": "Skechers",
+  "nombre": "Skechers GO WALK Now - Trisha Sneakers — Mauve",
+  "genero": "Mujer",
+  "precio": 64.94,
+  "precio_c": 2388,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/125651_MVE_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/125651_MVE_INSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/125651_MVE_OUTSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/125651_MVE_PROFILE_01"
+  ],
+  "descripcion": "Sneaker vegano para caminar con parte superior de punto elástico en degradado (ombré) y calce sin cordones. Plantilla Air-Cooled Goga Mat y amortiguación ULTRA LIGHT para caminar todo el día.",
+  "detalles": [
+   "Calce sin cordones (laceless fit)",
+   "Punto elástico en degradado malva",
+   "Plantilla Air-Cooled Goga Mat",
+   "Amortiguación ULTRA LIGHT"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-709",
+  "marca": "Skechers",
+  "nombre": "Skechers BOBS Cozy Chill - Sleepy Spirits Sneakers — Black",
+  "genero": "Mujer",
+  "precio": 64.94,
+  "precio_c": 2388,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114541_BBK_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114541_BBK_INSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114541_BBK_OUTSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114541_BBK_PROFILE_01"
+  ],
+  "descripcion": "Sneaker negro de la línea BOBS con un aire acogedor para el diario, en precio de liquidación en la tienda oficial. Se calza fácil y combina con todo.",
+  "detalles": [
+   "Línea BOBS de Skechers",
+   "Tono negro combinable",
+   "Estilo casual y acogedor",
+   "Precio de sale verificado en la ficha"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-710",
+  "marca": "Skechers",
+  "nombre": "Skechers BOBS Beso - City Glide Sneakers — Tan",
+  "genero": "Mujer",
+  "precio": 64.94,
+  "precio_c": 2388,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114636_TAN_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114636_TAN_INSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114636_TAN_OUTSOLE",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/114636_TAN_PROFILE_01"
+  ],
+  "descripcion": "Sneaker casual en tono canela de la línea BOBS Beso, con silueta limpia para la ciudad. Cómodo y fácil de combinar para el uso diario.",
+  "detalles": [
+   "Línea BOBS de Skechers",
+   "Tono canela neutro",
+   "Silueta casual urbana",
+   "Para uso diario"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "10.5",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-711",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Ekko Woven Wide Flats — Black",
+  "genero": "Mujer",
+  "precio": 34.45,
+  "precio_c": 1267,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-BLK_1_d1b5fb48-a15b-4753-86bb-e2fadcac71d4.jpg?v=1762463851",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-BLK_2_ba15f134-5c3e-43d3-8e4c-8d7fa7111430.jpg?v=1762463853",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-BLK_3_7f15c997-d6a4-4856-bc31-95538ce39ae3.jpg?v=1762463855",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-BLK_4_8a5ec198-62af-4efc-be08-e8a06018b1f8.jpg?v=1762463856"
+  ],
+  "descripcion": "Flat tejido de horma ancha en negro, sin cierre y con plantilla acolchada para usar todo el día.",
+  "detalles": [
+   "Diseño tejido en cuero vegano",
+   "Punta redonda, sin cierre",
+   "Plantilla acolchada",
+   "Horma ancha (wide)"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-712",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Ekko Woven Flats — Sand Nubuck",
+  "genero": "Mujer",
+  "precio": 34.45,
+  "precio_c": 1267,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-SNU_WEB1.jpg?v=1768926559",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-SNU_WEB2.jpg?v=1768926559",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-SNU_WEB3.jpg?v=1768926559",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/EKKO-SNU_WEB4.jpg?v=1768926559"
+  ],
+  "descripcion": "Flat tejido en tono arena con plantilla acolchada: el básico cómodo que combina con todo.",
+  "detalles": [
+   "Diseño tejido en cuero vegano",
+   "Punta redonda, sin cierre",
+   "Plantilla acolchada",
+   "Suela plana ligera"
+  ],
+  "tallas": [
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-713",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Nairri Strappy Platform Heels — Black",
+  "genero": "Mujer",
+  "precio": 37.95,
+  "precio_c": 1396,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-BLK_1_7d3b1733-ca6d-41fa-a987-e9f0876dd77f.jpg?v=1766074448",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-BLK_2_0723a854-01df-439f-aada-82ea3278cf18.jpg?v=1766074448",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-BLK_3_ca0cf1ee-93ca-4e04-9137-89ed29651c70.jpg?v=1766074449",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-BLK_4_c7f22823-05c0-4994-bfe7-5cda0207fe68.jpg?v=1766074449"
+  ],
+  "descripcion": "Tacón de tiras negro con plataforma y tira al tobillo con hebilla, alto pero estable gracias a su tacón bloque.",
+  "detalles": [
+   "Tacón bloque de 4 pulgadas con plataforma de 1 pulgada",
+   "Tira al tobillo con hebilla",
+   "Punta abierta",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "8.0",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-714",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Nairri Strappy Platform Heels — Nude",
+  "genero": "Mujer",
+  "precio": 37.95,
+  "precio_c": 1396,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-NUD_1_e00d10ed-baf1-4d8a-be94-981c6b1080f1.jpg?v=1762459502",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-NUD_2_40cbc4c3-c0d7-4b26-a4e6-1a8651ba3d8d.jpg?v=1762459504",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-NUD_3_c1451eee-522a-47bc-9229-dd6e9659a268.jpg?v=1762459506",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-NUD_4_ac173e5c-ebbf-40ae-beeb-7823b650ee32.jpg?v=1762459508"
+  ],
+  "descripcion": "Tacón de tiras en nude con plataforma: el tono que alarga la pierna y va con vestidos de cualquier color.",
+  "detalles": [
+   "Tacón bloque de 4 pulgadas con plataforma de 1 pulgada",
+   "Tira al tobillo con hebilla",
+   "Punta abierta",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "7.5",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-715",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Primah H-Strap Flat Sandals — Mango Raffia",
+  "genero": "Mujer",
+  "precio": 41.95,
+  "precio_c": 1543,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMAH-MGR_WEB1_1f0a6a7f-5376-46fe-bc10-20571bd96f6b.jpg?v=1773788553",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMAH-MGR_WEB2_9e5e124c-4a56-4f06-b0d2-1e3cb3686d5c.jpg?v=1773788555",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMAH-MGR_WEB3_e32830ab-bbb2-44cf-a4ee-9df43cf35754.jpg?v=1773788557",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMAH-MGR_WEB4_df501578-f85d-4350-8c99-ad9cad7666f8.jpg?v=1773788559"
+  ],
+  "descripcion": "Sandalia plana de rafia en tono mango con tira en H, fresca y ligera para días de calor.",
+  "detalles": [
+   "Tira en H de rafia",
+   "Punta abierta, sin cierre",
+   "Plantilla acolchada",
+   "Suela plana"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-716",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Kenly Loafer Flats — Tan Snake",
+  "genero": "Mujer",
+  "precio": 46.95,
+  "precio_c": 1727,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-SNK_1_d0d649d5-8320-4e75-8252-32cd124ebc4a.jpg?v=1763057387",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-seamless-lifestyle-blue_c3fd2cfc-3164-4495-9291-83cd3922699c.png?v=1763057390",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-SNK_2_59608630-8af8-4e82-81ae-450c6df0cf39.jpg?v=1763057392",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/KENLY-SNK_3_ec2208ef-15fd-4cda-84a0-b8af069d68ce.jpg?v=1763057394"
+  ],
+  "descripcion": "Mocasín plano con estampado de serpiente en tonos tan y suela retro gruesa, pulido de día y de noche.",
+  "detalles": [
+   "Estampado snake en cuero vegano",
+   "Punta redonda, sin cierre",
+   "Suela bloque retro de 1.5 pulgadas",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-717",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Windy Mary Jane Pumps — Nude (Narrow)",
+  "genero": "Mujer",
+  "precio": 41.95,
+  "precio_c": 1543,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-NUD_1_0aeff3c4-7232-42de-a8e9-3c35aa8a0c76.jpg?v=1762461667",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-NUD_2_924a32d2-c48f-40ef-af9c-e5803a9b9e25.jpg?v=1762461668",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-NUD_3_cb496e66-0100-4da9-951a-53938460c23a.jpg?v=1762461670",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-NUD_4_9fd227c3-c448-414e-9e8e-00229c8d31eb.jpg?v=1762461671"
+  ],
+  "descripcion": "Pump Mary Jane nude de horma angosta con doble tira y tacón bloque, de aire vintage.",
+  "detalles": [
+   "Doble tira con hebilla",
+   "Tacón bloque de 3.25 pulgadas",
+   "Punta redonda",
+   "Horma angosta con plantilla acolchada"
+  ],
+  "tallas": [
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-718",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Windy Croco Mary Jane Pumps — Grey (Wide)",
+  "genero": "Mujer",
+  "precio": 49.45,
+  "precio_c": 1818,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-GRY_1_10db2858-cadb-40d8-8fad-3057d780cafe.jpg?v=1762462827",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-GRY_2_5e1e4929-e809-4bc1-b8a5-0f62226535a8.jpg?v=1762462829",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-GRY_3_5701d92c-07ad-482c-9cb1-92e5c68ef7e2.jpg?v=1762462831",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/WINDY-GRY_4_827a92ac-89f5-4664-839f-7ac062eda180.jpg?v=1762462833"
+  ],
+  "descripcion": "Mary Jane gris con relieve cocodrilo, doble tira y horma ancha para un ajuste más cómodo.",
+  "detalles": [
+   "Relieve cocodrilo en cuero vegano",
+   "Doble tira con hebilla",
+   "Tacón bloque de 3.25 pulgadas",
+   "Horma ancha con plantilla acolchada"
+  ],
+  "tallas": [
+   "6.0",
+   "8.5",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-719",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Olina T-Strap Pumps — Nude (Narrow)",
+  "genero": "Mujer",
+  "precio": 46.95,
+  "precio_c": 1727,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/OLINA-NUD_1_24daa1ce-53d5-4a84-a730-eadb6ec2c04d.jpg?v=1762461944",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/OLINA-NW-NUD_3_0371bdf1-8d56-4b68-ba84-a854e4500e65.jpg?v=1762461946",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/OLINA-NW-NUD_4_cba7993b-07c7-4453-b8ab-4c27090642ae.jpg?v=1762461948",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/OLINA-NW-NUD_5_8c5c6060-4859-4720-b313-84709fe598b8.jpg?v=1762461949"
+  ],
+  "descripcion": "Pump de tira en T en nude bitono, de inspiración vintage y horma angosta.",
+  "detalles": [
+   "Tira en T con hebilla",
+   "Punta redonda bitono",
+   "Tacón pump de 3.25 pulgadas",
+   "Horma angosta con plantilla acolchada"
+  ],
+  "tallas": [
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-720",
+  "marca": "Celia",
+  "nombre": "Celia Atlas 2 Band Sandals — White Pat PU",
+  "genero": "Mujer",
+  "precio": 31.94,
+  "precio_c": 1175,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ATLASWHITEPEARLS_1.jpg?v=1756486180",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ATLASWHITEPEARLS_2.jpg?v=1756486180",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ATLASWHITEPEARLS_3.jpg?v=1756486180",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ATLASWHITEPEARLS_4.jpg?v=1756486180"
+  ],
+  "descripcion": "Sandalia slide de dos bandas en blanco con acabado tipo charol texturizado, limpia y versátil para el verano.",
+  "detalles": [
+   "Dos bandas, diseño slide sin cierre",
+   "Acabado White Pat PU con textura",
+   "Punta abierta",
+   "Estilo casual de uso diario"
+  ],
+  "tallas": [
+   "5.0",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-721",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Corona Ballet Flats — Camel",
+  "genero": "Mujer",
+  "precio": 34.96,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305CAMEL_1.jpg?v=1778278009",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305CAMEL_2.jpg?v=1778278008",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305CAMEL_3.jpg?v=1778278009",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305CAMEL_4.jpg?v=1778278008"
+  ],
+  "descripcion": "Bailarina clásica en camel, ligera y pulida para la oficina, salidas y el día a día.",
+  "detalles": [
+   "Estilo ballet flat clásico",
+   "Punta redonda, sin cierre",
+   "Tono camel fácil de combinar",
+   "Suela plana ligera"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-722",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Corona Ballet Flats — Black",
+  "genero": "Mujer",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305BLACK_1.jpg?v=1790286874",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305BLACK_2.jpg?v=1790286874",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305BLACK_3.jpg?v=1790286874",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CORONA305BLACK_4.jpg?v=1790286873"
+  ],
+  "descripcion": "Bailarina clásica en negro, el flat que combina con todo el clóset y se usa todo el día.",
+  "detalles": [
+   "Estilo ballet flat clásico",
+   "Punta redonda, sin cierre",
+   "Color negro versátil",
+   "Suela plana ligera"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-723",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Sandie Slingback Pumps — Black Patent",
+  "genero": "Mujer",
+  "precio": 39.96,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2BLACK_1.jpg?v=1778278009",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2BLACK_2.jpg?v=1778278009",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2BLACK_3.jpg?v=1778278008",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2BLACK_4.jpg?v=1778278009"
+  ],
+  "descripcion": "Pump destalonado de charol negro con punta fina, elegante para cenas y eventos.",
+  "detalles": [
+   "Charol con brillo de vestir",
+   "Punta fina",
+   "Tira destalonada (slingback)",
+   "Silueta clásica de pump"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-724",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Sandie Slingback Pumps — Nude Patent",
+  "genero": "Mujer",
+  "precio": 39.96,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2NUDE_1.jpg?v=1778278009",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2NUDE_2.jpg?v=1778278009",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2NUDE_3.jpg?v=1778278009",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SANDIE2NUDE_4.jpg?v=1778278009"
+  ],
+  "descripcion": "Pump destalonado de charol nude con punta fina: discreto, pulido y muy combinable.",
+  "detalles": [
+   "Charol sintético en tono nude",
+   "Punta fina",
+   "Tira destalonada (slingback)",
+   "Silueta clásica de pump"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-725",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Finayi Block Heel Sandals — Nude",
+  "genero": "Mujer",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2NUDE_1_5e50d7a6-79a5-421e-a240-35a6224999ef.jpg?v=1790791541",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2NUDE_2.jpg?v=1790372899",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2NUDE_3.jpg?v=1790372899",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2NUDE_4.jpg?v=1790372899"
+  ],
+  "descripcion": "Sandalia de tacón bloque en nude, estable y cómoda para llevar horas en trabajo o salidas.",
+  "detalles": [
+   "Tacón bloque estable",
+   "Tono nude versátil",
+   "Punta abierta",
+   "Diseño de vestir casual"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-726",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Finayi Block Heeled Sandals — Black",
+  "genero": "Mujer",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2BLACK_1.jpg?v=1790372899",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2BLACK_2.jpg?v=1790372899",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2BLACK_3.jpg?v=1790372899",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FINAYI2BLACK_4.jpg?v=1790372899"
+  ],
+  "descripcion": "Sandalia negra de tacón bloque: altura con estabilidad para el día y la noche.",
+  "detalles": [
+   "Tacón bloque estable",
+   "Color negro que va con todo",
+   "Punta abierta",
+   "Diseño de vestir casual"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-727",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Lander Western Boots — Black",
+  "genero": "Mujer",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BLACK_1.jpg?v=1790372900",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BLACK_2.jpg?v=1790372900",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BLACK_3.jpg?v=1790372900",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BLACK_4.jpg?v=1790372900"
+  ],
+  "descripcion": "Bota western negra de silueta clásica tipo cowboy, con carácter para jeans y vestidos.",
+  "detalles": [
+   "Estilo western clásico",
+   "Silueta de caña de bota vaquera",
+   "Color negro versátil",
+   "Para uso diario y salidas"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-728",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Lander Western Boots — Brown",
+  "genero": "Mujer",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BROWN_1.jpg?v=1790372900",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BROWN_2.jpg?v=1790372901",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BROWN_3.jpg?v=1790372900",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LANDER102BROWN_4.jpg?v=1790372900"
+  ],
+  "descripcion": "Bota western marrón de aire cowboy clásico, perfecta para un look casual con actitud.",
+  "detalles": [
+   "Estilo western clásico",
+   "Silueta de caña de bota vaquera",
+   "Tono marrón cálido",
+   "Para uso diario y salidas"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-729",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Kande Woven Ballet Flats — Brown",
+  "genero": "Mujer",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101BROWN_1.jpg?v=1791411060",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101BROWN_2.jpg?v=1791411060",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101BROWN_3.jpg?v=1791411059",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101BROWN_4.jpg?v=1791411060"
+  ],
+  "descripcion": "Bailarina tejida en marrón con textura artesanal, cómoda de la oficina al fin de semana.",
+  "detalles": [
+   "Parte superior tejida con textura",
+   "Punta redonda, sin cierre",
+   "Suela plana",
+   "Estilo ballet flat clásico"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-730",
+  "marca": "Kayleen",
+  "nombre": "Kayleen Kande Woven Ballet Flats — Gold",
+  "genero": "Mujer",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101GOLD_1.jpg?v=1791411060",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101GOLD_2.jpg?v=1791411060",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101GOLD_3.jpg?v=1791411060",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KANDE101GOLD_4.jpg?v=1791411060"
+  ],
+  "descripcion": "Bailarina tejida en dorado que levanta looks sencillos sin perder comodidad.",
+  "detalles": [
+   "Parte superior tejida en dorado",
+   "Punta redonda, sin cierre",
+   "Suela plana",
+   "Estilo ballet flat clásico"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-731",
+  "marca": "Skechers",
+  "nombre": "Skechers Bobs Desert Kiss Low Multi-Strap Slide Sandals — Chestnut",
+  "genero": "Mujer",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114712CSNT_1.jpg?v=1778881965",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114712CSNT_2.jpg?v=1778881965",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114712CSNT_3.jpg?v=1778881964",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114712CSNT_4.jpg?v=1778881964"
+  ],
+  "descripcion": "Slide de tiras múltiples en chestnut con plantilla acolchada y detalle tipo corcho, relajada para el verano.",
+  "detalles": [
+   "Tiras múltiples, sin cierre",
+   "Plantilla acolchada",
+   "Detalle tipo corcho",
+   "De la línea Bobs de Skechers"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-732",
+  "marca": "APRES",
+  "nombre": "APRES Melody Low Boots — Black",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348BLACK_1_01ec8643-6d1e-49ea-9b75-b8a25b4d5d6f.jpg?v=1789079197",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348BLACK_2_b3645565-b98f-426a-86b7-6feeb6e46f74.jpg?v=1789079197",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348BLACK_3_c03a6bd9-a500-4195-b6fe-b18c976327e8.jpg?v=1789079197",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348BLACK_4_4de371e2-0ecd-4821-9c86-9662cc88ca0c.jpg?v=1789079197"
+  ],
+  "descripcion": "Botita baja negra tipo après-ski con forro de pelo sintético y plantilla acolchada, abrigada para el frío.",
+  "detalles": [
+   "Gamuza sintética con forro de pelo sintético",
+   "Plantilla acolchada",
+   "Diseño sin cierre, perfil bajo",
+   "Estilo invernal acogedor"
+  ],
+  "tallas": [
+   "5.0",
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-733",
+  "marca": "APRES",
+  "nombre": "APRES Melody Low Boots — Chestnut",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348CHESTNUT_1_57d29868-5c5a-4b51-91e0-ab8cea045ee6.jpg?v=1789167004",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348CHESTNUT_2_014a44ca-1be6-47e1-8a53-d6840fe39a6e.jpg?v=1789167004",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348CHESTNUT_3_4438546f-452f-49ac-9a17-e9fc62b4fd2e.jpg?v=1789167004",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW2348CHESTNUT_4_2a435b79-40c8-45a2-8340-1fe36b3710d6.jpg?v=1789167005"
+  ],
+  "descripcion": "Botita baja chestnut con forro cálido de pelo sintético, el toque cozy del invierno.",
+  "detalles": [
+   "Gamuza sintética con forro de pelo sintético",
+   "Plantilla acolchada",
+   "Diseño sin cierre, perfil bajo",
+   "Estilo invernal acogedor"
+  ],
+  "tallas": [
+   "5.0",
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-734",
+  "marca": "Skechers",
+  "nombre": "Skechers Bobs Arch Comfort Slip-Ins Mary Jane — Navy Linen/White",
+  "genero": "Mujer",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114248NVY_1.jpg?v=1787607916",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114248NVY_2.jpg?v=1787607916",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114248NVY_3.jpg?v=1787607916",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114248NVY_4.jpg?v=1787607916"
+  ],
+  "descripcion": "Mary Jane de lino azul marino con blanco, sin manos al ponerla y con soporte de arco certificado.",
+  "detalles": [
+   "Lino en navy y blanco",
+   "Slip-Ins: se pone sin manos",
+   "Amortiguación Arch Comfort con soporte de arco",
+   "Estilo Mary Jane casual"
+  ],
+  "tallas": [
+   "5.0",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-735",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Danika Dress Wedges — Black",
+  "genero": "Mujer",
+  "precio": 51.95,
+  "precio_c": 1910,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DANIKA-BLK_WEB1_c820ebbb-6c66-4fdd-b899-442636415899.jpg?v=1765931299",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DANIKA-BLK_WEB2_1ee16b3e-9e4b-4cf6-8e39-f1134ea6d2d1.jpg?v=1765931299",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DANIKA-BLK_WEB3_38ea1bfe-086d-45ef-a471-d051a28ef7f5.jpg?v=1765931299",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DANIKA-BLK_WEB4_e9e789bb-30e8-4cef-8207-b28cf0da31f7.jpg?v=1765931299"
+  ],
+  "descripcion": "Cuña de vestir negra de punta almendra en cuero vegano, elegante y fácil de poner.",
+  "detalles": [
+   "Cuña de 3 pulgadas",
+   "Punta almendra, sin cierre",
+   "Plantilla Journee Comfort System de 4 mm",
+   "Cuero vegano"
+  ],
+  "tallas": [
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-736",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Lavine Multi-Strap Sandals — Black Patent",
+  "genero": "Mujer",
+  "precio": 56.94,
+  "precio_c": 2094,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LAVINE-PBL_1_75f4d4ea-e3da-4a3c-a1a9-db28f6518148.jpg?v=1762464084",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LAVINE-PBL_2_13b57f0e-5aa7-452a-bbed-c752fba34931.jpg?v=1762464086",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LAVINE-PBL_3_a9aa9d9d-728d-48ac-a2c9-2f2e363fb54f.jpg?v=1762464087",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/LAVINE-PBL_4_eb3df254-083c-4b4f-8c00-e120f9d625cd.jpg?v=1762464089"
+  ],
+  "descripcion": "Sandalia de charol negro con dos tiras gruesas, hebilla dorada al tobillo y plantilla muy acolchada.",
+  "detalles": [
+   "Dos tiras con hebilla cuadrada dorada",
+   "Tira slingback con hebilla",
+   "Plantilla acolchada",
+   "Tacón bajo de 0.5 pulgadas"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-737",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Shilin Dress Sandals — Beige",
+  "genero": "Mujer",
+  "precio": 56.94,
+  "precio_c": 2094,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SHILIN-BEI_WEB1_a4d86ea0-d88c-48f5-b86f-a40591239146.jpg?v=1762463805",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SHILIN-BEI_WEB2_e2e0f92a-937f-42c1-a1af-6168078be69d.jpg?v=1762463807",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SHILIN-BEI_WEB3_6c9564b8-3279-4b2d-8e0b-4c63cf3627fd.jpg?v=1762463809",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SHILIN-BEI_WEB4_0881ff64-86a5-4ec2-9858-444c834ca75a.jpg?v=1762463811"
+  ],
+  "descripcion": "Sandalia de vestir beige que mezcla cuero vegano y punto elástico, con tacón bajo cómodo.",
+  "detalles": [
+   "Tacón de 2 pulgadas",
+   "Punta abierta, sin cierre",
+   "Punto elástico y cuero vegano",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-738",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Francis Multi-Strap Flat Sandals — Gold",
+  "genero": "Mujer",
+  "precio": 56.94,
+  "precio_c": 2094,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FRANCIS-GLD_WEB1.jpg?v=1772052317",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FRANCIS-GLD_WEB2.jpg?v=1772052317",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FRANCIS-GLD_WEB3.jpg?v=1772052317",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FRANCIS-GLD_WEB4.jpg?v=1772052317"
+  ],
+  "descripcion": "Sandalia plana dorada de tiras múltiples y punta cuadrada, con entrada elegante sin esfuerzo.",
+  "detalles": [
+   "Tiras múltiples en dorado",
+   "Punta cuadrada",
+   "Diseño sin cierre (pull-on)",
+   "Plantilla con acolchado de 4 mm según la ficha"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-739",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Vanessa Platform Clog Sandals — Bone Woven",
+  "genero": "Mujer",
+  "precio": 66.94,
+  "precio_c": 2462,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/VANESSA-BNW_WEB1_f1bdd687-073c-4f75-8066-35fc97f41afa.jpg?v=1765314940",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/VANESSA-BNW_WEB2_64af2746-19c7-46cd-ae57-dfdee8b2ecc7.jpg?v=1765314944",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/VANESSA-BNW_WEB3_763a77f0-c61d-402a-83d7-c5bee3bde60e.jpg?v=1765314946",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/VANESSA-BNW_WEB4_0e215b95-1afe-4abd-b6b6-ad8d1e8a3abb.jpg?v=1765314947"
+  ],
+  "descripcion": "Sandalia zueco con plataforma en tono hueso tejido y hebilla al tobillo, con mucha presencia.",
+  "detalles": [
+   "Plataforma y tacón de 3 pulgadas",
+   "Hebilla al tobillo",
+   "Acabado tejido en tono hueso",
+   "Plantilla Journee Comfort System según la ficha"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-740",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Drizzle Ankle Rain Boots — Black",
+  "genero": "Mujer",
+  "precio": 66.94,
+  "precio_c": 2462,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DRIZZLE-BLK_WEB1_1858cfc0-6a48-4a21-8b70-a1c8a142b553.jpg?v=1765931278",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DRIZZLE-BLK_WEB2_dc7a8c97-d56e-46c3-ab4d-a703301bfe3d.jpg?v=1765931278",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DRIZZLE-BLK_WEB3_2587e83d-e86e-4c94-a1d8-7ae6f260f33a.jpg?v=1765931278",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/DRIZZLE-BLK_WEB4_b8ae48a5-88c6-4d8d-8120-6e114b73b16b.jpg?v=1765931278"
+  ],
+  "descripcion": "Bota de lluvia tipo Chelsea al tobillo en negro brillante, que se limpia en segundos y se pone fácil.",
+  "detalles": [
+   "Estilo Chelsea con paneles elásticos laterales",
+   "Material vegano brillante fácil de limpiar",
+   "Tacón bloque de 1 pulgada",
+   "Plantilla acolchada según la ficha"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-741",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Sanzi Zip-Up Booties — Black",
+  "genero": "Mujer",
+  "precio": 66.94,
+  "precio_c": 2462,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SANZI-BLK_1_22cf3e0b-42b9-4fec-98ce-c4b19fccd80a.jpg?v=1762458030",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SANZI-BLK_2_b6d0ad73-30c1-4bc9-b13d-08743950edce.jpg?v=1762458032",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SANZI-BLK_3_fe696e83-b760-445d-a172-2cf298909d51.jpg?v=1762458033",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SANZI-BLK_4_591bf4b2-1119-453d-8448-293b32d05742.jpg?v=1762458035"
+  ],
+  "descripcion": "Botín negro de gamuza sintética con doble zipper y tacón bloque, de punta almendra.",
+  "detalles": [
+   "Doble zipper",
+   "Tacón bloque de 3 pulgadas",
+   "Punta almendra",
+   "Gamuza sintética suave"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-742",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Freyja Ankle Booties — Cognac Smooth",
+  "genero": "Mujer",
+  "precio": 76.94,
+  "precio_c": 2829,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FREYJA-CNS_WEB1.jpg?v=1784925507",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FREYJA-CNS_WEB2.jpg?v=1784925507",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FREYJA-CNS_WEB3.jpg?v=1784925507",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/FREYJA-CNS_WEB4.jpg?v=1784925507"
+  ],
+  "descripcion": "Botín coñac de tacón apilado alto, el favorito de otoño para pasar de la oficina a la cena.",
+  "detalles": [
+   "Tacón apilado de 3.5 pulgadas",
+   "Plantilla Journee Comfort System de 4 mm",
+   "Tono cognac liso",
+   "Silueta de botín al tobillo"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-743",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Cheyenne Western Booties — Taupe",
+  "genero": "Mujer",
+  "precio": 76.94,
+  "precio_c": 2829,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHEYENNE-TAU_WEB1.jpg?v=1772050496",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHEYENNE-TAU_WEB2.jpg?v=1772050496",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHEYENNE-TAU_WEB3.jpg?v=1772050496",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/CHEYENNE-TAU_WEB4.jpg?v=1772050496"
+  ],
+  "descripcion": "Botín western taupe de punta almendra con tacón apilado y plantilla acolchada de 5 mm.",
+  "detalles": [
+   "Estilo western de punta almendra",
+   "Tacón apilado de 2 pulgadas",
+   "Plantilla acolchada de 5 mm",
+   "Acabado tipo nubuck sintético"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-744",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Junnah Chelsea Boots — Vintage Chocolate",
+  "genero": "Mujer",
+  "precio": 76.94,
+  "precio_c": 2829,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JUNNAH-VNC_WEB1_68a32341-c441-4686-86a8-4e0ade1bade2.jpg?v=1762464323",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JUNNAH-VNC_WEB2_e3c09134-d28d-437c-af24-d3c236511d38.jpg?v=1762464325",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JUNNAH-VNC_WEB3_ce249062-6799-480a-adbb-c5af8cba24f1.jpg?v=1762464327",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JUNNAH-VNC_WEB4_6c0183d9-cd95-49a4-98cd-9a6e626c2ee0.jpg?v=1762464330"
+  ],
+  "descripcion": "Bota Chelsea chocolate vintage sin cierre, con paneles elásticos y caña de 5 pulgadas.",
+  "detalles": [
+   "Paneles elásticos laterales (gore)",
+   "Punta redonda, sin cierre",
+   "Tacón bloque de 1.25 pulgadas",
+   "Caña de 5 pulgadas"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-745",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Bria Oxford Shoes — Cream Chocolate Plaid",
+  "genero": "Mujer",
+  "precio": 76.94,
+  "precio_c": 2829,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/BRIA-CCP_WEB1.jpg?v=1777657926",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/a4bffb16-61c5-4359-90ce-b1cc180bb408_1_da3758a1-c20c-44c9-b83b-8bbf1835a26a.jpg?v=1792474739",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/BRIA-CCP_WEB2.jpg?v=1777657926",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/BRIA-CCP_WEB3.jpg?v=1777657926"
+  ],
+  "descripcion": "Oxford con cordones en cuadros crema y chocolate, de punta almendra y tacón apilado bajo.",
+  "detalles": [
+   "Cierre con cordones",
+   "Punta almendra",
+   "Plantilla Journee Comfort System de 4 mm",
+   "Estampado a cuadros crema y chocolate"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-746",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Azura Mule Loafers — Tan",
+  "genero": "Mujer",
+  "precio": 76.94,
+  "precio_c": 2829,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AZURA-TAN_WEB1_5e246868-ae5f-4c1b-a619-3ddd77a4d083.jpg?v=1762464537",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AZURA-TAN_WEB2_acdcad32-a3c2-456f-9df4-0c0f1cf10374.jpg?v=1762464539",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AZURA-TAN_WEB3_9008244e-db95-44db-bb92-32574faeddc5.jpg?v=1762464541",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AZURA-TAN_WEB4_980e76eb-9bec-4f4f-801d-c0f0d2cbd0f0.jpg?v=1762464542"
+  ],
+  "descripcion": "Mule tipo mocasín en tan con borla decorativa y tacón bloque bajo, pulido para trabajo y diario.",
+  "detalles": [
+   "Detalle de borla (tassel)",
+   "Tacón bloque de 1 pulgada",
+   "Punta redonda, sin cierre ni talón",
+   "Plantilla Journee Comfort System de 4 mm"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-747",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Metallic Buckle Clogs — Blush",
+  "genero": "Mujer",
+  "precio": 51.96,
+  "precio_c": 1911,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213543684_1.jpg?v=1782506696",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213543684_2.jpg?v=1782506697",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213543684_3.jpg?v=1782506697",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213543684_4.jpg?v=1782506697"
+  ],
+  "descripcion": "Zueco clásico Crocs en blush con tira trasera ajustable y hebilla metálica en U, más pulido que el clásico.",
+  "detalles": [
+   "Construcción moldeada en Croslite",
+   "Tira trasera ajustable con hebilla metálica",
+   "Tono blush suave",
+   "Diseño sin cierre"
+  ],
+  "tallas": [
+   "5.0",
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-748",
+  "marca": "APRES",
+  "nombre": "APRES Park City Boots — Black",
+  "genero": "Mujer",
+  "precio": 54.98,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW1765BLACK_1.jpg?v=1789758918",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW1765BLACK_2.jpg?v=1789758918",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW1765BLACK_3.jpg?v=1789758919",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AW1765BLACK_4.jpg?v=1789758918"
+  ],
+  "descripcion": "Bota de invierno negra de caña baja, sobria y abrigada para días fríos y diligencias en la nieve.",
+  "detalles": [
+   "Estilo de bota de invierno",
+   "Color negro que combina con todo",
+   "Diseño sin cierre según la ficha",
+   "Para clima frío"
+  ],
+  "tallas": [
+   "5.0",
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-749",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Arcadia Wedge Sandals — Scotch",
+  "genero": "Mujer",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7127oga7ByL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71CCSWw4QQL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71wbXDRkgdL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61TmgmEbK2L._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia sin cierre con cuña baja y tira al talón con hebilla ajustable, en un tono Scotch fácil de combinar.",
+  "detalles": [
+   "Cuero sintético con tira al talón ajustable",
+   "Cuña baja que da un poco de altura",
+   "Diseño slip-on de punta abierta",
+   "Categoría Heels en la ficha de Zappos"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "7.5",
+   "8.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-750",
+  "marca": "David Tate",
+  "nombre": "David Tate La Vida Sandals — Beige Garden",
+  "genero": "Mujer",
+  "precio": 45.98,
+  "precio_c": 1691,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71pG48yj11L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71irSaNLPFL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81G8lFg-IIL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71hi-x9c7eL._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia con parte superior de cuero con estampado garden en beige y plantilla de cuero con espuma extra, cómoda para todo el día.",
+  "detalles": [
+   "Cuero con estampado floral garden",
+   "Dos cierres adherentes ajustables",
+   "Plantilla de cuero con espuma acolchada",
+   "Punta abierta, estilo veraniego"
+  ],
+  "tallas": [
+   "6.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-751",
+  "marca": "David Tate",
+  "nombre": "David Tate La Vida Sandals — Blue Garden",
+  "genero": "Mujer",
+  "precio": 45.98,
+  "precio_c": 1691,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/8157VH+g60L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71Cahr9dJtL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81vLa4OtNjL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71ET0X8+7gL._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia con parte superior de cuero con estampado garden en azul y plantilla de cuero con espuma extra, cómoda para todo el día.",
+  "detalles": [
+   "Cuero con estampado floral garden",
+   "Dos cierres adherentes ajustables",
+   "Plantilla de cuero con espuma acolchada",
+   "Punta abierta, estilo veraniego"
+  ],
+  "tallas": [
+   "6.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-752",
+  "marca": "Clarks",
+  "nombre": "Clarks Merliah Karli Sandals — Metallic Leather",
+  "genero": "Mujer",
+  "precio": 45.0,
+  "precio_c": 1655,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71C73o5H+OL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71yy3iq3EGL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61b-PiyLHaL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/719YqzzvqwL._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia de cuero metálico con tres tiras y cierres adherentes, pensada para caminar cómoda todo el día.",
+  "detalles": [
+   "Cuero con acabado metálico",
+   "Dos cierres adherentes ajustables",
+   "Plantilla OrthoLite con tecnología Cushion Soft",
+   "Suela ligera y flexible"
+  ],
+  "tallas": [
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-753",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clogs — Powder Pink",
+  "genero": "Mujer",
+  "precio": 34.99,
+  "precio_c": 1287,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61Bjh7-Hz4L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61OJ6hi0M3L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61F2t0uJ5UL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/613Gk-2+8EL._SX700_.jpg"
+  ],
+  "descripcion": "El zueco clásico de Crocs en rosa empolvado: ligero, con ventilación y tira al talón para usarlo como quieras.",
+  "detalles": [
+   "Material Croslite ligero y fácil de limpiar",
+   "Puertos de ventilación en la punta",
+   "Tira al talón pivotante",
+   "Diseño sin cierre, de uso diario"
+  ],
+  "tallas": [
+   "4.0",
+   "5.0",
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-754",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Mary Jane Clogs — Black",
+  "genero": "Mujer",
+  "precio": 37.49,
+  "precio_c": 1379,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61i5JIzZSzL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71ttFVfIdML._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61Mr4S-MdrL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71s+WvoMb+L._SX700_.jpg"
+  ],
+  "descripcion": "Zueco estilo Mary Jane en negro para mujer, con la comodidad ligera de Crocs y un aire más vestidor.",
+  "detalles": [
+   "Silueta Mary Jane para mujer",
+   "Material Croslite ligero",
+   "Diseño sin cierre de punta cerrada",
+   "Suela cómoda para uso diario"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-755",
+  "marca": "Madden Girl",
+  "nombre": "Madden Girl Brynn Heels — Nude Patent",
+  "genero": "Mujer",
+  "precio": 42.73,
+  "precio_c": 1571,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61S-M8T+w4L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/618yYymJ0sL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/610S1+Jh0OL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/613CpRkTWYL._SX700_.jpg"
+  ],
+  "descripcion": "Tacón destalonado de charol nude con punta fina, un básico de vestir que alarga visualmente la pierna.",
+  "detalles": [
+   "Parte superior pulida en tono nude",
+   "Punta fina y tacón aguja de altura media",
+   "Silueta elegante de vestir",
+   "Estilo pump clásico"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-756",
+  "marca": "LifeStride",
+  "nombre": "LifeStride Balanceknit Mule Clog Shoes — Grey Heather",
+  "genero": "Mujer",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71IOwSCePNL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81jcM8wWQpL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71hYonc+wYL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71gAPsS8GcL._SX700_.jpg"
+  ],
+  "descripcion": "Mule tipo zueco de punto gris jaspeado, sin talón y muy fácil de poner para el día a día.",
+  "detalles": [
+   "Tejido de punto elástico gris jaspeado",
+   "Diseño mule sin talón, sin cierre",
+   "Punta redonda con hebilla decorativa",
+   "Marca LifeStride, línea de confort"
+  ],
+  "tallas": [
+   "6.0",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-757",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Benita Ballerina Flats — Bright Multi",
+  "genero": "Mujer",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ojHF7L1hL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81m9UEcMHnL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61tmLwSM3BL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71+EkhQKcDL._SX700_.jpg"
+  ],
+  "descripcion": "Flat tipo bailarina con estampado multicolor brillante, ligero y alegre para uso diario.",
+  "detalles": [
+   "Estilo bailarina de punta redonda",
+   "Diseño sin cierre (skimmer)",
+   "Parte superior con estampado multi",
+   "Suela plana y flexible"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-758",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Parisian Ballerina Flats — Charcoal",
+  "genero": "Mujer",
+  "precio": 45.99,
+  "precio_c": 1691,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71UyqXbZgML._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/712swuE4ZQL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71ku51sYd0L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71rDUFkTh+L._SX700_.jpg"
+  ],
+  "descripcion": "Bailarina en tono charcoal, sencilla y combinable, para llevar todo el día sin complicaciones.",
+  "detalles": [
+   "Estilo bailarina de punta redonda",
+   "Diseño sin cierre (skimmer)",
+   "Tono charcoal versátil",
+   "Suela plana y flexible"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.5",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0"
+  ]
+ },
+ {
+  "codigo": "DOM-759",
+  "marca": "LifeStride",
+  "nombre": "LifeStride Vibe-Cozy Mule Clog Shoes — Honey Brown",
+  "genero": "Mujer",
+  "precio": 49.89,
+  "precio_c": 1835,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71-nv4aKmtL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71c9FWgJwdL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71bL7mrKFyL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71RC4sc7-dL._SX700_.jpg"
+  ],
+  "descripcion": "Mule acogedor en marrón miel, sin talón y de perfil bajo, ideal para estar cómoda en casa y fuera.",
+  "detalles": [
+   "Tejido elástico con pelo sintético acogedor",
+   "Diseño mule sin talón, sin cierre",
+   "Punta redonda con tira y hebilla decorativa",
+   "Línea de confort LifeStride"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-760",
+  "marca": "LifeStride",
+  "nombre": "LifeStride Suki Pumps — Fire Red Patent",
+  "genero": "Mujer",
+  "precio": 49.99,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61mMnObifsL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/51mxizfkpiL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/619eiDr1IKL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61PwNAE6-PL._SX700_.jpg"
+  ],
+  "descripcion": "Pump de charol rojo fuego con punta fina, un tacón clásico que levanta cualquier outfit.",
+  "detalles": [
+   "Charol en tono Fire Red",
+   "Punta fina de vestir",
+   "Tacón tipo pump clásico",
+   "Diseño sin cierre"
+  ],
+  "tallas": [
+   "5.0",
+   "5.5",
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-761",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Annika Strappy Sandals — Natural Sand",
+  "genero": "Mujer",
+  "precio": 49.99,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/8154dOFQjQL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71dNyovTvpL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71hh-w7SLUL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81p4MiaSu8L._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia de tiras con cuña ligera en tono arena natural, alegre y cómoda para looks casuales de verano.",
+  "detalles": [
+   "Tiras múltiples en tono natural",
+   "Cuña ligera según la ficha",
+   "Punta abierta",
+   "Estilo playero y casual"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.5",
+   "8.5",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-762",
+  "marca": "Sam &amp; Libby",
+  "nombre": "Sam & Libby Chelsea Espadrille Wedge Sandals — Tuscan Orange/Cream",
+  "genero": "Mujer",
+  "precio": 42.0,
+  "precio_c": 1545,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81NVFbrwwxL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/712AxsDyZbL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81mkgZ2bteL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81klU5BVW-L._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia slide tipo alpargata con plataforma y cuña en naranja toscano con crema, alegre y con mucha presencia.",
+  "detalles": [
+   "Diseño slide de punta abierta",
+   "Plataforma tipo alpargata con cuña",
+   "Bicolor naranja toscano y crema",
+   "Estilo veraniego de vestir casual"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-763",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clogs — Starfish",
+  "genero": "Mujer",
+  "precio": 42.49,
+  "precio_c": 1563,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61gvHHJEazL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61RFVYg+sIL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/611j9Dwh+RL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61vrVL43gQL._SX700_.jpg"
+  ],
+  "descripcion": "El zueco clásico de Crocs en tono Starfish: ligero, ventilado y con tira al talón pivotante.",
+  "detalles": [
+   "Material Croslite ligero y fácil de limpiar",
+   "Puertos de ventilación en la punta",
+   "Tira al talón pivotante",
+   "Diseño sin cierre, de uso diario"
+  ],
+  "tallas": [
+   "4.0",
+   "5.0",
+   "6.0",
+   "7.0",
+   "8.0",
+   "9.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-764",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Benita Ballerina Flats — White Multi",
+  "genero": "Mujer",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71rS-HJd2NL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71Pw3Uji+BL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61Eoz2h9FLL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71NsPUwT39L._SX700_.jpg"
+  ],
+  "descripcion": "Flat tipo bailarina en blanco multicolor, ligera y cómoda con plantilla de tacto acolchado.",
+  "detalles": [
+   "Estilo bailarina de punta redonda",
+   "Diseño sin cierre (skimmer)",
+   "Parte superior sintética con forro suave",
+   "Suela plana y flexible"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "8.0",
+   "8.5",
+   "9.0",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-765",
+  "marca": "EuroSoft",
+  "nombre": "EuroSoft Tamika Ballet Flats — White/Bone",
+  "genero": "Mujer",
+  "precio": 49.99,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61pX2DFBVcL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61kzCeWL5LL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61vxNkbO7ML._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61UDN3BYO5L._SX700_.jpg"
+  ],
+  "descripcion": "Bailarina blanca hueso con relieve tejido en cuero sintético y plantilla acolchada, pulida para todos los días.",
+  "detalles": [
+   "Cuero sintético con relieve tejido",
+   "Punta redonda",
+   "Plantilla acolchada de EVA",
+   "Suela de goma flexible"
+  ],
+  "tallas": [
+   "6.0",
+   "6.5",
+   "7.0",
+   "7.5",
+   "8.0",
+   "8.5",
+   "9.0",
+   "9.5",
+   "10.0",
+   "11.0"
+  ]
+ },
+ {
+  "codigo": "DOM-766",
+  "marca": "Carter's",
+  "nombre": "Carter's Athletic Shoes (Toddler) — Multi",
+  "genero": "Niños",
+  "precio": 34.94,
+  "precio_c": 1285,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwd7c661e6/productimages/CS26E01H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw68b90ded/productimages/CS26E01H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw27280425/productimages/CS26E01H_2.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwfd9abbcf/productimages/CS26E01H_3.jpg"
+  ],
+  "descripcion": "Tenis deportivos ligeros para niños pequeños, con diseño multicolor fácil de combinar para el uso diario.",
+  "detalles": [
+   "Parte superior ligera y flexible",
+   "Cierre pensado para pies pequeños en movimiento",
+   "Suela con tracción para jugar y caminar",
+   "Estilo deportivo multicolor"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-767",
+  "marca": "Carter's",
+  "nombre": "Carter's Athletic Sneakers (Toddler) — Black",
+  "genero": "Niños",
+  "precio": 35.95,
+  "precio_c": 1322,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw73e3b9c0/productimages/CF26R01H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw781dd5e8/productimages/CF26R01H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw240e366d/productimages/CF26R01H_2.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw975706a1/productimages/CF26R01H_3.jpg"
+  ],
+  "descripcion": "Tenis deportivos negros para toddler, prácticos para la escuela y el juego diario.",
+  "detalles": [
+   "Color negro fácil de combinar",
+   "Diseño deportivo bajo (low-top)",
+   "Suela resistente para uso diario",
+   "Pensados para niños activos"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-768",
+  "marca": "Carter's",
+  "nombre": "Carter's Every Step First Walker Monster Sneakers (Toddler) — Green",
+  "genero": "Niños",
+  "precio": 35.95,
+  "precio_c": 1322,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwc86fdfe3/productimages/EF26B01H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw3d68e80d/productimages/EF26B01H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw9b6df3e3/productimages/EF26B01H_2.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw88612f82/productimages/EF26B01H_3.jpg"
+  ],
+  "descripcion": "Tenis de primeros pasos de la línea Every Step con divertido motivo de monstruo en verde.",
+  "detalles": [
+   "Línea Every Step para primeros pasos",
+   "Motivo de monstruo que encanta a los peques",
+   "Suela flexible para aprender a caminar",
+   "Ajuste seguro para pies que empiezan a andar"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-769",
+  "marca": "Carter's",
+  "nombre": "Carter's Every Step First Walker Shimmer Sneakers (Toddler) — Pink",
+  "genero": "Niños",
+  "precio": 35.95,
+  "precio_c": 1322,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwfab64fe3/productimages/EF26A11H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw15855091/productimages/EF26A11H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw3fa2f0dc/productimages/EF26A11H_2.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwa39fe45a/productimages/EF26A11H_3.jpg"
+  ],
+  "descripcion": "Tenis de primeros pasos Every Step en rosa con acabado brillante, suaves para pies que empiezan a caminar.",
+  "detalles": [
+   "Línea Every Step para primeros pasos",
+   "Acabado shimmer en rosa",
+   "Suela flexible que acompaña el paso",
+   "Ligeros y cómodos para todo el día"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-770",
+  "marca": "Carter's",
+  "nombre": "Carter's Every Step First Walker High-Top Sneakers (Toddler) — White",
+  "genero": "Niños",
+  "precio": 37.95,
+  "precio_c": 1396,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw48d0221e/productimages/EF24C05H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw6487aa7a/productimages/EF24C05H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw6ab5994c/productimages/EF24C05H_2.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw1b2323cf/productimages/EF24C05H_3.jpg"
+  ],
+  "descripcion": "Botín tenis de primeros pasos en blanco, con caña alta que da más soporte al tobillo.",
+  "detalles": [
+   "Línea Every Step para primeros pasos",
+   "Caña alta con soporte al tobillo",
+   "Color blanco clásico",
+   "Suela flexible para primeros pasos"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-771",
+  "marca": "Carter's",
+  "nombre": "Carter's Leopard Charm Sneakers (Toddler) — White",
+  "genero": "Niños",
+  "precio": 37.95,
+  "precio_c": 1396,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw8c17d1d2/productimages/CF26G02H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwdbc85ffd/productimages/CF26G02H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw29b4600b/productimages/CF26G02H_2.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw14694542/productimages/CF26G02H_3.jpg"
+  ],
+  "descripcion": "Tenis blancos para niña toddler con detalle de dije y toque de leopardo, coquetos y cómodos.",
+  "detalles": [
+   "Base blanca con detalle de leopardo",
+   "Dije decorativo (charm)",
+   "Tenis bajos para uso diario",
+   "Suela cómoda para jugar"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-772",
+  "marca": "OshKosh B'gosh",
+  "nombre": "OshKosh B'gosh Varsity Sneakers (Toddler) — Brown/Green",
+  "genero": "Niños",
+  "precio": 37.95,
+  "precio_c": 1396,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw7dd3a647/productimages/OF26D06H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwa6958ab7/productimages/OF26D06H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw182af1c6/productimages/OF26D06H_2.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw8a26db5d/productimages/OF26D06H_3.jpg"
+  ],
+  "descripcion": "Tenis estilo varsity en café y verde para niños toddler, con look deportivo clásico.",
+  "detalles": [
+   "Estilo varsity café/verde",
+   "Marca OshKosh B'gosh (tienda Carter's)",
+   "Tenis bajos para diario",
+   "Suela con tracción para el patio"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-773",
+  "marca": "Carter's",
+  "nombre": "Carter's Ballet Flats (Toddler) — Gold",
+  "genero": "Niños",
+  "precio": 37.95,
+  "precio_c": 1396,
+  "fotos": [
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw22c4411f/productimages/CF24J06H.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwdd3b759c/productimages/6V907710_FIG1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw468dd96b/productimages/CF24J06H_1.jpg",
+   "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw6b477827/productimages/CF24J06H_2.jpg"
+  ],
+  "descripcion": "Baletas planas para niña toddler, un básico de vestir cómodo para ocasiones especiales y el diario.",
+  "detalles": [
+   "Estilo baleta clásico",
+   "Planos y ligeros",
+   "Fáciles de poner y quitar",
+   "Toque de vestir para niñas"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-774",
+  "marca": "Josmo",
+  "nombre": "Josmo Disney Princess Lighted Sneaker (Toddler) — Pink",
+  "genero": "Niños",
+  "precio": 32.97,
+  "precio_c": 1212,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71enSTkyX1L._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81IDNaDY+2L._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81DNy8uGI6L.AC_SS144.jpg",
+   "https://m.media-amazon.com/images/I/7175uDVp0pL._SX700_.jpg"
+  ],
+  "descripcion": "Tenis rosas de las Princesas Disney con luces, para niñas que quieren brillar en cada paso.",
+  "detalles": [
+   "Licencia oficial Disney Princess",
+   "Con luces al caminar",
+   "Color rosa",
+   "Cierre práctico para peques"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-775",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Can You Say (Toddler) — Pink",
+  "genero": "Niños",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71BO52aIsnL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71HhEaFELXL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81PjIuYU7XL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81MH9PEWkiL.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis Stride Rite para toddler en rosa, de una marca especializada en calzado infantil.",
+  "detalles": [
+   "Marca especializada en pies infantiles",
+   "Color rosa",
+   "Diseño para primeros caminantes activos",
+   "Suela flexible con buena tracción"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-776",
+  "marca": "Vans",
+  "nombre": "Vans Slip-On V (Toddler) — Color Theory Prism Purple",
+  "genero": "Niños",
+  "precio": 44.2,
+  "precio_c": 1625,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71CGLH-748L._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81al4a1KVBL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/71FVj9VMINL.AC_SS144.jpg",
+   "https://m.media-amazon.com/images/I/71cG6KA1v8L._SX700_.jpg"
+  ],
+  "descripcion": "Slip-on de Vans para toddler en morado Prism de la línea Color Theory, sin agujetas y con tira de ajuste.",
+  "detalles": [
+   "Sin agujetas: se ponen en segundos",
+   "Tira de velcro (versión V)",
+   "Color morado Prism",
+   "Suela waffle clásica de Vans"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-777",
+  "marca": "Crocs",
+  "nombre": "Crocs Swiftwater Splash (Toddler) — Dragon Fruit",
+  "genero": "Niños",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/715Rhth59lL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71MVqWtYT-L._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/7152-l1BFDL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/71IPVymF+2L.AC_SS144.jpg"
+  ],
+  "descripcion": "Sandalia acuática Crocs para toddler en color Dragon Fruit, ideal para agua y verano.",
+  "detalles": [
+   "Pensada para agua y playa",
+   "Material ligero tipo Crocs",
+   "Color Dragon Fruit (rosa)",
+   "Fácil de lavar y secar"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-778",
+  "marca": "adidas",
+  "nombre": "adidas Lightorama Runner (Toddler) — Lucid Blue/White/Solar Slime",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71u9IRwGHiL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81eYdJ0SCcL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/613gsDM1l7L.AC_SS144.jpg",
+   "https://m.media-amazon.com/images/I/61r1oaSBB2L.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis de correr adidas para toddler con agujetas elásticas, en azul lúcido con blanco y verde lima.",
+  "detalles": [
+   "Agujetas elásticas: sin nudos",
+   "Estilo runner ligero",
+   "Colores azul/blanco/lima",
+   "Suela cómoda para correr y jugar"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-779",
+  "marca": "Skechers",
+  "nombre": "Skechers Microspec Splash (Toddler) — Black/Silver",
+  "genero": "Niños",
+  "precio": 40.94,
+  "precio_c": 1506,
+  "fotos": [
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/407034N_BKSL_HERO_LG",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/407034N_BKSL_PROFILE_01",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/407034N_BKSL_PROFILE_05",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/407034N_BKSL_INSOLE"
+  ],
+  "descripcion": "Tenis Skechers Microspec Splash para toddler en negro con plata, deportivos y ligeros.",
+  "detalles": [
+   "Estilo deportivo Microspec",
+   "Negro con detalles plata",
+   "Ligeros para uso diario",
+   "Cierre práctico para peques"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-780",
+  "marca": "Skechers",
+  "nombre": "Skechers My Dreamers Lil Mermaid (Toddler) — Blue/Multi",
+  "genero": "Niños",
+  "precio": 45.94,
+  "precio_c": 1689,
+  "fotos": [
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/303061N_BLMT_PROFILE_01",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/303061N_BLMT_PROFILE_05",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/303061N_BLMT_INSOLE",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/303061N_BLMT_OUTSOLE"
+  ],
+  "descripcion": "Tenis Skechers de sirenita para niña toddler, en azul multicolor con detalles de fantasía marina.",
+  "detalles": [
+   "Tema de sirena (Lil Mermaid)",
+   "Azul multicolor",
+   "Diseño para niñas pequeñas",
+   "Cómodos para todo el día"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-781",
+  "marca": "Skechers",
+  "nombre": "Skechers Twinkle Toes Twinkle Sparks Precious Jane (Toddler) — Light Pink",
+  "genero": "Niños",
+  "precio": 46.94,
+  "precio_c": 1726,
+  "fotos": [
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314467N_LTPK_PROFILE_01",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314467N_LTPK_PROFILE_05",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314467N_LTPK_INSOLE",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314467N_LTPK_OUTSOLE"
+  ],
+  "descripcion": "Mary Jane con brillos de la línea Twinkle Toes de Skechers, en rosa claro para niñas toddler.",
+  "detalles": [
+   "Línea Twinkle Toes con brillos",
+   "Estilo Mary Jane con tira",
+   "Rosa claro",
+   "Plantilla cómoda Skechers"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-782",
+  "marca": "Character",
+  "nombre": "Character Sonic High Top (Toddler) — Blue/White",
+  "genero": "Niños",
+  "precio": 31.96,
+  "precio_c": 1175,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SNCA23F0615J2_1.jpg?v=1738883095",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SNCA23F0615J2_2.jpg?v=1738883095",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SNCA23F0615J2_3.jpg?v=1738883095",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SNCA23F0615J2_4.jpg?v=1738883095"
+  ],
+  "descripcion": "Botín tenis de Sonic para toddler en azul con blanco, con el erizo favorito de los niños.",
+  "detalles": [
+   "Licencia Sonic the Hedgehog",
+   "Caña alta (high top)",
+   "Azul con blanco",
+   "Tallas reales de la ficha: 6–10 toddler"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-783",
+  "marca": "Character",
+  "nombre": "Character TMNT Lighted (Toddler) — Black/Green",
+  "genero": "Niños",
+  "precio": 33.96,
+  "precio_c": 1249,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/TMNTA22R0638F1_1.jpg?v=1784843503",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/TMNTA22R0638F1_2.jpg?v=1784843504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/TMNTA22R0638F1_3.jpg?v=1784843504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/TMNTA22R0638F1_4.jpg?v=1784843503"
+  ],
+  "descripcion": "Tenis con luces de las Tortugas Ninja para toddler, en negro con verde.",
+  "detalles": [
+   "Licencia Teenage Mutant Ninja Turtles",
+   "Con luces",
+   "Negro con verde",
+   "Tallas reales de la ficha: 6–10 toddler"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-784",
+  "marca": "Character",
+  "nombre": "Character Spiderman High Top (Toddler) — Black/Red/Silver",
+  "genero": "Niños",
+  "precio": 34.97,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25F0560C1_1.jpg?v=1773439043",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25F0560C1_2.jpg?v=1773439043",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25F0560C1_3.jpg?v=1773439043",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25F0560C1_4.jpg?v=1773439043"
+  ],
+  "descripcion": "Botín tenis de Spider-Man para toddler en negro, rojo y plata, para pequeños fans de Marvel.",
+  "detalles": [
+   "Licencia Spider-Man (Marvel)",
+   "Caña alta (high top)",
+   "Negro/rojo/plata",
+   "Tallas reales de la ficha: 6–10 toddler"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-785",
+  "marca": "Reebok",
+  "nombre": "Reebok Royal Prime 2.0 (Toddler) — Pink/White",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268765_1_1.jpg?v=1787070679",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268765_2_1.jpg?v=1787070679",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268765_3_1.jpg?v=1787070679",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268765_4_1.jpg?v=1787070679"
+  ],
+  "descripcion": "Tenis Reebok Royal Prime 2.0 para toddler en rosa con blanco, estilo court clásico en miniatura.",
+  "detalles": [
+   "Estilo court clásico Reebok",
+   "Rosa con blanco",
+   "Cierre práctico para peques",
+   "Tallas reales de la ficha: 4–10 toddler"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-786",
+  "marca": "Vans",
+  "nombre": "Vans Asher Slip-On (Toddler) — Black/Shimmer",
+  "genero": "Niños",
+  "precio": 45.93,
+  "precio_c": 1689,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/42/66/4/42664_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/42/66/4/42664_right_feed351.jpg"
+  ],
+  "descripcion": "Slip-on Vans Asher para toddler en negro con brillo, sin agujetas y fáciles de poner.",
+  "detalles": [
+   "Sin agujetas (slip-on)",
+   "Negro con acabado shimmer",
+   "Suela waffle de Vans",
+   "Color confirmado en la ficha: Black/Shimmer"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-787",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star 1 Strap Low Top (Toddler) — White/Hello Kitty",
+  "genero": "Niños",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/74/25/2/74252_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/74/25/2/74252_right_feed351.jpg"
+  ],
+  "descripcion": "Chuck Taylor bajos con una tira de velcro, edición Hello Kitty en blanco, para toddler.",
+  "detalles": [
+   "Edición Hello Kitty",
+   "Una tira de velcro: fáciles de ajustar",
+   "Lona clásica de Converse",
+   "Puntera de goma característica"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-788",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star Low-Top (Toddler) — Purple",
+  "genero": "Niños",
+  "precio": 47.98,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_241679_FS.JPG",
+   "https://images.journeys.com/images/products/1_241679_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_241679_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_241679_FS_ALT3.JPG"
+  ],
+  "descripcion": "Los clásicos Chuck Taylor bajos en morado para toddler, exclusivos de Journeys Kidz.",
+  "detalles": [
+   "Lona morada de caña baja",
+   "Puntera de goma clásica",
+   "Suela con tracción de diamante",
+   "Exclusivo de Journeys Kidz según la ficha"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-789",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star High-Top (Toddler) — Snorkel Blue",
+  "genero": "Niños",
+  "precio": 52.98,
+  "precio_c": 1948,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_603503_FS.JPG",
+   "https://images.journeys.com/images/products/1_603503_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_603503_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_603503_FS_ALT3.JPG"
+  ],
+  "descripcion": "Chuck Taylor de caña alta en azul Snorkel para toddler, el ícono de Converse en talla mini.",
+  "detalles": [
+   "Caña alta clásica",
+   "Azul Snorkel",
+   "Puntera de goma y parche All Star",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-790",
+  "marca": "adidas",
+  "nombre": "adidas Disney Run 70s 2.0 (Little Kid) — White/Black/Grey",
+  "genero": "Niños",
+  "precio": 42.97,
+  "precio_c": 1580,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71-2XRJ8PUL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61pfHI43zFL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/61DoswtC-ML._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/61SmdKIUwFL.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis adidas Run 70s 2.0 edición Disney para little kid, con agujetas elásticas y tira, en blanco/negro/gris.",
+  "detalles": [
+   "Edición Disney",
+   "Agujetas elásticas con tira de ajuste",
+   "Estilo retro 70s",
+   "Blanco con negro y gris"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-791",
+  "marca": "Skechers",
+  "nombre": "Skechers Glide-Step Flow (Little Kid) — Black/Black",
+  "genero": "Niños",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71iVI7uQFoL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71iEgmrGtLL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81YW+boGJpL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81UdYwbxKwL.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis Skechers Glide-Step Flow negros para little kid, con suela Glide-Step que impulsa cada paso.",
+  "detalles": [
+   "Suela Glide-Step",
+   "Totalmente negros (uniforme escolar)",
+   "Ligeros y flexibles",
+   "Marca Skechers, vendidos por Zappos"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-792",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Artin 2.0 (Little Kid) — Blue/Pink",
+  "genero": "Niños",
+  "precio": 47.95,
+  "precio_c": 1763,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81XRfY8toMS._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81d6x5ssjyS._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81VBhKH2srS.AC_SS144.jpg",
+   "https://m.media-amazon.com/images/I/81oMujfLNEL.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis Stride Rite Artin 2.0 en azul con rosa para little kid, de la marca especialista en niños.",
+  "detalles": [
+   "Marca especializada en calzado infantil",
+   "Azul con detalles rosa",
+   "Hechos para juego diario",
+   "Suela con buena tracción"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-793",
+  "marca": "Skechers",
+  "nombre": "Skechers Microspec Max Advance Squad P (Little Kid) — Navy/Charcoal",
+  "genero": "Niños",
+  "precio": 48.42,
+  "precio_c": 1781,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/711HHk4hL8L._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81cUM23JcUL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/71110qEGlrL.AC_SS144.jpg",
+   "https://m.media-amazon.com/images/I/71OBU1fObtL.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis deportivos Skechers Microspec Max Advance para little kid en azul marino con carbón.",
+  "detalles": [
+   "Línea Microspec Max",
+   "Azul marino/carbón",
+   "Amortiguación cómoda para correr",
+   "Marca Skechers, vendidos por Zappos"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-794",
+  "marca": "adidas",
+  "nombre": "adidas Duramo SL (Little Kid) — Better Scarlet/Silver Metallic/Lucid Red",
+  "genero": "Niños",
+  "precio": 49.22,
+  "precio_c": 1810,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71mxMX+JskL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/71t47hd7wjL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/71Li1yrPsqL.AC_SS144.jpg",
+   "https://m.media-amazon.com/images/I/71aeF6yDJ5L._SX700_.jpg"
+  ],
+  "descripcion": "Tenis de correr adidas Duramo SL para little kid en rojo escarlata, con agujetas elásticas.",
+  "detalles": [
+   "Agujetas elásticas",
+   "Rojo con plata metálica",
+   "Ligeros estilo runner",
+   "Suela para uso deportivo diario"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-795",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Surge 5 Alternate Closure (Little Kid) — Grey/Pink Frenzy",
+  "genero": "Niños",
+  "precio": 50.3,
+  "precio_c": 1850,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81M309V+fEL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81Gm0vvAUdL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81fQj+E8zoL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81z8rbrbpNL.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis de correr Under Armour Surge 5 para little kid (preescolar) en gris con rosa, con cierre alternativo fácil.",
+  "detalles": [
+   "Cierre alternativo (sin agujetas tradicionales)",
+   "Gris con rosa Frenzy",
+   "Estilo runner ligero",
+   "Para niños en edad preescolar"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-796",
+  "marca": "Skechers",
+  "nombre": "Skechers Sola Glow 2.0 Dazzle Steps (Little Kid) — Pink/Lavender",
+  "genero": "Niños",
+  "precio": 50.39,
+  "precio_c": 1853,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71iNeiAFNmL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/81KES1G4sZL._AC_SLundefined__FMwebp_.jpg",
+   "https://m.media-amazon.com/images/I/71GU1RmmVUL.AC_SS144.jpg",
+   "https://m.media-amazon.com/images/I/710-KW8AYwL.AC_SS144.jpg"
+  ],
+  "descripcion": "Tenis Skechers Sola Glow 2.0 con luces para niña little kid, en rosa con lavanda.",
+  "detalles": [
+   "Con luces (Sola Glow)",
+   "Rosa con lavanda",
+   "Brillos para niñas",
+   "Marca Skechers, vendidos por Zappos"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-797",
+  "marca": "Skechers",
+  "nombre": "Skechers S-Lights Tri-Namics (Little Kid) — Black/Yellow/Blue",
+  "genero": "Niños",
+  "precio": 44.94,
+  "precio_c": 1653,
+  "fotos": [
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/401660_BKYB_PROFILE_01",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/401660_BKYB_PROFILE_05",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/401660_BKYB_INSOLE",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/401660_BKYB_OUTSOLE"
+  ],
+  "descripcion": "Tenis con luces S-Lights Tri-Namics de Skechers para little kid, en negro con amarillo y azul.",
+  "detalles": [
+   "Luces S-Lights al caminar",
+   "Negro/amarillo/azul",
+   "Estilo deportivo",
+   "Cierre con tira para ajuste rápido"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-798",
+  "marca": "Skechers",
+  "nombre": "Skechers Twinkle Toes Twinkle Star (Little Kid) — Black/Rose Gold",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314599_BKRG_PROFILE_01",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314599_BKRG_PROFILE_05",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314599_BKRG_INSOLE",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/314599_BKRG_OUTSOLE"
+  ],
+  "descripcion": "Tenis Twinkle Toes Twinkle Star de Skechers para niña little kid, negros con detalles oro rosa y brillos.",
+  "detalles": [
+   "Línea Twinkle Toes con brillos",
+   "Negro con oro rosa",
+   "Detalles de estrella",
+   "Cómodos para todo el día"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-799",
+  "marca": "Skechers",
+  "nombre": "Skechers Microspec Max Velocity (Little Kid) — Navy/Lime",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/404110_NVLM_HERO_LG",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/404110_NVLM_PROFILE_01",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/404110_NVLM_PROFILE_05",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/404110_NVLM_INSOLE"
+  ],
+  "descripcion": "Tenis deportivos Skechers Microspec Max Velocity para little kid en azul marino con lima.",
+  "detalles": [
+   "Línea Microspec Max",
+   "Azul marino con lima",
+   "Ligeros para correr",
+   "Suela con tracción"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-800",
+  "marca": "Skechers",
+  "nombre": "Skechers S-Lights Eternal Heart Lights (Little Kid) — Light Pink",
+  "genero": "Niños",
+  "precio": 52.94,
+  "precio_c": 1947,
+  "fotos": [
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/302696_LPMT_PROFILE_01",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/302696_LPMT_PROFILE_05",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/302696_LPMT_INSOLE",
+   "https://images.skechers.com/image;width=1200%2Cformat=auto/302696_LPMT_OUTSOLE"
+  ],
+  "descripcion": "Tenis con luces de corazones S-Lights Eternal Heart Lights de Skechers, en rosa claro para niñas.",
+  "detalles": [
+   "Luces con corazones",
+   "Rosa claro (confirmado en la ficha)",
+   "Diseño para niñas",
+   "Cierre práctico con tira"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-801",
+  "marca": "Character",
+  "nombre": "Character Spiderman Sneaker (Little Kid) — Black/Red",
+  "genero": "Niños",
+  "precio": 43.94,
+  "precio_c": 1616,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/75/44/2/75442_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/44/2/75442_right_feed351.jpg"
+  ],
+  "descripcion": "Tenis de Spider-Man para little kid en negro con rojo, para fans de Marvel.",
+  "detalles": [
+   "Licencia Spider-Man (Marvel)",
+   "Negro con rojo",
+   "Tenis bajos para diario",
+   "Color confirmado en la ficha: Black/Red"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-802",
+  "marca": "Character",
+  "nombre": "Character Sonic Sneaker (Little Kid) — White/Blue",
+  "genero": "Niños",
+  "precio": 46.94,
+  "precio_c": 1726,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/75/44/1/75441_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/75/44/1/75441_right_feed351.jpg"
+  ],
+  "descripcion": "Tenis de Sonic the Hedgehog para little kid en blanco con azul, veloces como el erizo.",
+  "detalles": [
+   "Licencia Sonic the Hedgehog",
+   "Blanco con azul",
+   "Tenis bajos deportivos",
+   "Color confirmado en la ficha: Sonic White Blue"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-803",
+  "marca": "Character",
+  "nombre": "Character Paw Patrol Light Up Sneaker (Little Kid) — Blue/Yellow",
+  "genero": "Niños",
+  "precio": 55.93,
+  "precio_c": 2057,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/70/53/4/70534_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/70/53/4/70534_left_feed351.jpg"
+  ],
+  "descripcion": "Tenis con luces de Paw Patrol para niños, en azul con amarillo, con los cachorros favoritos.",
+  "detalles": [
+   "Licencia Paw Patrol",
+   "Con luces",
+   "Azul con amarillo",
+   "Color confirmado en la ficha: Blue/Yellow"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-804",
+  "marca": "Hello Kitty",
+  "nombre": "Hello Kitty Sneaker (Little Kid) — White Multi",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/73/06/4/73064_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/73/06/4/73064_right_feed351.jpg"
+  ],
+  "descripcion": "Tenis Hello Kitty blancos con detalles multicolor para niña little kid.",
+  "detalles": [
+   "Licencia Hello Kitty",
+   "Blanco con multicolor",
+   "Tenis bajos para diario",
+   "Color confirmado en la ficha: White Multi"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-805",
+  "marca": "Skechers",
+  "nombre": "Skechers Care Bear Twinkle Sparks Light Up (Little Kid) — Blue Multi Care Bear",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/78/45/4/78454_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/78/45/4/78454_left_feed351.jpg"
+  ],
+  "descripcion": "Tenis con luces Skechers edición Ositos Cariñositos (Care Bears) en azul multicolor, para niñas.",
+  "detalles": [
+   "Edición Care Bears con luces",
+   "Azul multicolor (confirmado en la ficha)",
+   "Línea Twinkle Sparks con brillos",
+   "Doble tira de velcro"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-806",
+  "marca": "Skechers",
+  "nombre": "Skechers Light Surge Light Up (Little Kid) — Charcoal/Lime",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://www.famousfootwear.com/blob/product-images/20000/74/21/4/74214_pair_feed351.jpg",
+   "https://www.famousfootwear.com/blob/product-images/20000/74/21/4/74214_left_feed351.jpg"
+  ],
+  "descripcion": "Tenis con luces Skechers Light Surge para little kid en carbón con lima, deportivos y llamativos.",
+  "detalles": [
+   "Con luces Light Surge",
+   "Carbón con lima (color por defecto de la ficha)",
+   "Estilo deportivo",
+   "Vendidos por Famous Footwear"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-807",
+  "marca": "Nike",
+  "nombre": "Nike Kawa Slide (Little Kid) — Laser Fuchsia/Black/White",
+  "genero": "Niños",
+  "precio": 40.96,
+  "precio_c": 1506,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_1.jpg?v=1780011636",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_2.jpg?v=1780011636",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_3.jpg?v=1780011636",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_4.jpg?v=1780011636"
+  ],
+  "descripcion": "Sandalias slide Nike Kawa para little kid en fucsia láser con negro y blanco, para piscina y verano.",
+  "detalles": [
+   "Tipo slide: se ponen en segundos",
+   "Fucsia láser/negro/blanco",
+   "Ideales para agua y verano",
+   "Tallas reales de la ficha: 11–3 little kid"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-808",
+  "marca": "APRES",
+  "nombre": "APRES Bowyn Boot (Little Kid) — Black",
+  "genero": "Niños",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BOWYNBLACK_1.jpg?v=1728326195",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BOWYNBLACK_2.jpg?v=1728326195",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BOWYNBLACK_3.jpg?v=1728326195",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BOWYNBLACK_4.jpg?v=1728326195"
+  ],
+  "descripcion": "Botas APRES Bowyn negras para little kid, cálidas y fáciles de combinar para la temporada fría.",
+  "detalles": [
+   "Botas negras clásicas",
+   "Para clima frío",
+   "Fáciles de combinar",
+   "Tallas reales de la ficha: 11–4"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "codigo": "DOM-809",
+  "marca": "Reebok",
+  "nombre": "Reebok Rush Runner 6.0 (Little Kid) — Black/Black",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_1.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_2.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_3.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_4.jpg?v=1789422065"
+  ],
+  "descripcion": "Tenis de correr Reebok Rush Runner 6.0 totalmente negros para little kid, ideales también para uniforme.",
+  "detalles": [
+   "Totalmente negros",
+   "Estilo runner ligero",
+   "Buenos para uniforme escolar",
+   "Tallas reales de la ficha: 11–3 little kid"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-810",
+  "marca": "Vans",
+  "nombre": "Vans Classic Slip-On (Little Kid) — Black Monochrome",
+  "genero": "Niños",
+  "precio": 57.98,
+  "precio_c": 2132,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_522143_FS.JPG",
+   "https://images.journeys.com/images/products/1_522143_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_522143_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_522143_FS_ALT3.JPG"
+  ],
+  "descripcion": "Los icónicos slip-on de Vans en negro monocromo para little kid, sin agujetas y con suela waffle.",
+  "detalles": [
+   "Sin agujetas (slip-on)",
+   "Negro monocromo",
+   "Suela waffle clásica",
+   "Tallas little kid según la ficha: 11–3"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-811",
+  "marca": "DC Shoes",
+  "nombre": "DC Shoes Court Graffik (Big Kid) — Black/Pink",
+  "genero": "Niños",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_667774_FS.JPG",
+   "https://images.journeys.com/images/products/1_667774_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_667774_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_667774_FS_ALT3.JPG"
+  ],
+  "descripcion": "El clásico tenis de skate de DC en negro con detalles rosas, con la silueta ancha y acolchada de siempre para el uso diario.",
+  "detalles": [
+   "Silueta baja de skate, acolchada",
+   "Cierre con agujetas",
+   "Suela de goma con buena tracción",
+   "Tallas Big Kid reales de la ficha"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-812",
+  "marca": "Skechers",
+  "nombre": "Skechers Street Uno Gen1: Disco Rave (Big Kid) — White",
+  "genero": "Niños",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_840154_FS.JPG",
+   "https://images.journeys.com/images/products/1_840154_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_840154_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_840154_FS_ALT3.JPG"
+  ],
+  "descripcion": "Tenis urbano blanco de Skechers con la suela gruesa tipo plataforma de la línea Uno, fácil de combinar con todo.",
+  "detalles": [
+   "Color blanco monocromático",
+   "Suela gruesa estilo Uno",
+   "Cierre con agujetas",
+   "Tallas Big Kid enteras de la ficha"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-813",
+  "marca": "Skechers",
+  "nombre": "Skechers Street Uno Gen1: Trendy Jewels (Big Kid) — Black/Rose Gold",
+  "genero": "Niños",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_840165_FS.JPG",
+   "https://images.journeys.com/images/products/1_840165_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_840165_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_840165_FS_ALT3.JPG"
+  ],
+  "descripcion": "Versión negra con detalles en oro rosa de la línea Uno de Skechers, con suela gruesa y un toque brillante juvenil.",
+  "detalles": [
+   "Color negro con detalles oro rosa",
+   "Suela gruesa estilo Uno",
+   "Cierre con agujetas",
+   "Tallas Big Kid enteras de la ficha"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-814",
+  "marca": "Skechers",
+  "nombre": "Skechers Twinkle Toes Twi-Lites 2.0 Bit Of Happiness (Big Kid) — Multicolor",
+  "genero": "Niños",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_849958_FS.JPG",
+   "https://images.journeys.com/images/products/1_849958_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_849958_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_849958_FS_ALT3.JPG"
+  ],
+  "descripcion": "Tenis multicolor de la línea Twinkle Toes de Skechers, alegre y llamativo, pensado para las más pequeñas del segmento Big Kid.",
+  "detalles": [
+   "Diseño multicolor llamativo",
+   "Línea Twinkle Toes de Skechers",
+   "Cierre con agujetas",
+   "Tallas Big Kid enteras de la ficha"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-815",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star Lift (Big Kid) — Papyrus Monochrome",
+  "genero": "Niños",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_890949_FS.JPG",
+   "https://images.journeys.com/images/products/1_890949_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_890949_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_890949_FS_ALT3.JPG"
+  ],
+  "descripcion": "Chuck Taylor altos con plataforma Lift en tono papyrus monocromático, el clásico de lona con un poco más de altura.",
+  "detalles": [
+   "Silueta alta con plataforma Lift",
+   "Parte superior de lona",
+   "Suela de goma vulcanizada",
+   "Color monocromático fácil de combinar"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-816",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star High-Top (Big Kid) — Shy Flamingo Monochrome",
+  "genero": "Niños",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_890958_FS.JPG",
+   "https://images.journeys.com/images/products/1_890958_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_890958_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_890958_FS_ALT3.JPG"
+  ],
+  "descripcion": "Los Chuck Taylor altos de siempre en rosa flamenco monocromático, un color suave que destaca sin esfuerzo.",
+  "detalles": [
+   "Silueta alta clásica de lona",
+   "Cierre con agujetas y ojales metálicos",
+   "Suela de goma vulcanizada",
+   "Puntera de goma característica"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-817",
+  "marca": "DC Shoes",
+  "nombre": "DC Shoes Manteca 4 Hi (Big Kid) — White/Rainbow",
+  "genero": "Niños",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_801664_FS.JPG",
+   "https://images.journeys.com/images/products/1_801664_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_801664_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_801664_FS_ALT3.JPG"
+  ],
+  "descripcion": "Tenis altos de skate de DC en blanco con detalles arcoíris, resistentes para patinar y para el diario.",
+  "detalles": [
+   "Silueta alta de skate",
+   "Cierre con agujetas",
+   "Suela de goma resistente",
+   "Detalles arcoíris sobre blanco"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-818",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star Lift Flower (Big Kid) — Orchid",
+  "genero": "Niños",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_856558_FS.JPG",
+   "https://images.journeys.com/images/products/1_856558_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_856558_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_856558_FS_ALT3.JPG"
+  ],
+  "descripcion": "Chuck Taylor con plataforma Lift y flores bordadas en tono orquídea, femeninos y con el ADN clásico de Converse.",
+  "detalles": [
+   "Plataforma Lift",
+   "Flores bordadas en la lona",
+   "Silueta alta",
+   "Suela de goma vulcanizada"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-819",
+  "marca": "New Balance",
+  "nombre": "New Balance 480 (Big Kid) — Dark Alpine Green",
+  "genero": "Niños",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_877048_FS.JPG",
+   "https://images.journeys.com/images/products/1_877048_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_877048_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_877048_FS_ALT3.JPG"
+  ],
+  "descripcion": "El 480 de New Balance en verde alpino oscuro, un tenis de inspiración court con look retro para todos los días.",
+  "detalles": [
+   "Estilo court retro",
+   "Cierre con agujetas",
+   "Suela de goma",
+   "Color verde alpino oscuro"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-820",
+  "marca": "Reebok",
+  "nombre": "Reebok Club C Vintage 85 (Big Kid) — Chalk/Alabaster/Glen Green",
+  "genero": "Niños",
+  "precio": 57.97,
+  "precio_c": 2132,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_735744_FS.jpg",
+   "https://images.journeys.com/images/products/1_735744_FS_ALT1.jpg",
+   "https://images.journeys.com/images/products/1_735744_FS_ALT2.jpg",
+   "https://images.journeys.com/images/products/1_735744_FS_ALT3.jpg"
+  ],
+  "descripcion": "El icónico Club C 85 de Reebok en tonos tiza y verde, un clásico de cancha con acabado vintage.",
+  "detalles": [
+   "Silueta baja clásica de tenis",
+   "Tonos tiza, alabastro y verde",
+   "Cierre con agujetas",
+   "Suela de goma tipo cupsole"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-821",
+  "marca": "adidas",
+  "nombre": "adidas Gazelle Bold (Big Kid) — Rose Tone/Better Scarlet/Cream White",
+  "genero": "Niños",
+  "precio": 57.97,
+  "precio_c": 2132,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_848121_FS.JPG",
+   "https://images.journeys.com/images/products/1_848121_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_848121_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_848121_FS_ALT3.JPG"
+  ],
+  "descripcion": "Gazelle Bold de adidas con plataforma y tonos rosas, la silueta retro en su versión más alta.",
+  "detalles": [
+   "Plataforma Bold más alta",
+   "Estilo retro de los 70",
+   "Cierre con agujetas",
+   "Combinación rosa y crema"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-822",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool (Big Kid) — Leopard/Black",
+  "genero": "Niños",
+  "precio": 57.97,
+  "precio_c": 2132,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_894575_FS.JPG",
+   "https://images.journeys.com/images/products/1_894575_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_894575_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_894575_FS_ALT3.JPG"
+  ],
+  "descripcion": "Knu Skool de Vans con estampado de leopardo sobre negro, la silueta ancha noventera con la franja lateral acolchada.",
+  "detalles": [
+   "Silueta ancha estilo años 90",
+   "Estampado de leopardo",
+   "Lengüeta y cuello acolchados",
+   "Suela vulcanizada de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-823",
+  "marca": "Vans",
+  "nombre": "Vans Authentic (Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 62.98,
+  "precio_c": 2316,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_909495_FS.JPG",
+   "https://images.journeys.com/images/products/1_909495_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_909495_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_909495_FS_ALT3.JPG"
+  ],
+  "descripcion": "El Authentic de Vans en rosa, el tenis de lona bajo original de la marca, simple y combinable.",
+  "detalles": [
+   "Parte superior de lona",
+   "Silueta baja clásica",
+   "Suela waffle de goma",
+   "Cierre con agujetas"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-824",
+  "marca": "New Balance",
+  "nombre": "New Balance 740 (Big Kid) — Silver Metallic/Cinnamon",
+  "genero": "Niños",
+  "precio": 67.97,
+  "precio_c": 2500,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_902282_FS.jpg",
+   "https://images.journeys.com/images/products/1_902282_FS_ALT1.jpg",
+   "https://images.journeys.com/images/products/1_902282_FS_ALT2.jpg",
+   "https://images.journeys.com/images/products/1_902282_FS_ALT3.jpg"
+  ],
+  "descripcion": "El 740 de New Balance en plateado metálico con canela, un runner retro con mucha presencia.",
+  "detalles": [
+   "Estilo runner retro",
+   "Detalles metálicos plateados",
+   "Cierre con agujetas",
+   "Suela de goma con amortiguación"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-825",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool (Big Kid) — Black/White",
+  "genero": "Niños",
+  "precio": 72.98,
+  "precio_c": 2684,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_857567_FS.jpg",
+   "https://images.journeys.com/images/products/1_857567_FS_ALT1.jpg",
+   "https://images.journeys.com/images/products/1_857567_FS_ALT2.jpg",
+   "https://images.journeys.com/images/products/1_857567_FS_ALT3.jpg"
+  ],
+  "descripcion": "El Old Skool de Vans en negro con la franja lateral blanca, el tenis de skate más emblemático de la marca.",
+  "detalles": [
+   "Franja lateral Sidestripe blanca",
+   "Parte superior resistente para skate",
+   "Suela waffle de goma",
+   "Cierre con agujetas"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-826",
+  "marca": "Nike",
+  "nombre": "Nike Dunk Low (Big Kid) — White/Pink/Laser Fuchsia",
+  "genero": "Niños",
+  "precio": 92.97,
+  "precio_c": 3419,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_929224_FS.JPG",
+   "https://images.journeys.com/images/products/1_929224_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_929224_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_929224_FS_ALT3.JPG"
+  ],
+  "descripcion": "Nike Dunk Low en blanco con rosa y fucsia láser, el modelo retro de básquet más buscado en talla juvenil.",
+  "detalles": [
+   "Silueta baja retro de básquet",
+   "Combinación blanco, rosa y fucsia",
+   "Cierre con agujetas",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-827",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool (Big Kid) — Plaid Black/Multi",
+  "genero": "Niños",
+  "precio": 65.0,
+  "precio_c": 2390,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Udi7EvkyL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71h5tsoh5OL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71rzV8zTfmL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71sybwLBnWL._SX700_.jpg"
+  ],
+  "descripcion": "El Old Skool de Vans en tartán negro multicolor, el clásico de skate con la franja lateral en un estampado diferente.",
+  "detalles": [
+   "Estampado tartán negro/multicolor",
+   "Franja lateral Sidestripe",
+   "Suela waffle de goma",
+   "Cierre con agujetas"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-828",
+  "marca": "adidas",
+  "nombre": "adidas Breaknet Sleek (Big Kid) — White/Black/Orange Tint",
+  "genero": "Niños",
+  "precio": 43.31,
+  "precio_c": 1593,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/5102reem7IL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61mMbtlPo1L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61rvIyrCtrL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61vSvV0f8UL._SX700_.jpg"
+  ],
+  "descripcion": "Tenis de inspiración tenis de adidas en blanco con negro y naranja, limpios y versátiles para la escuela.",
+  "detalles": [
+   "Estilo court blanco",
+   "Detalles negros y naranja",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-829",
+  "marca": "Puma",
+  "nombre": "Puma Palermo (Big Kid) — Puma Black/Feather Gray/Gum",
+  "genero": "Niños",
+  "precio": 66.75,
+  "precio_c": 2455,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61N-gvHE0FL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61O0R2Z7FoL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71+rL3Xf3uL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71XjytPpzcL._SX700_.jpg"
+  ],
+  "descripcion": "El Palermo de Puma en negro con gris y suela de goma natural, el retro de terraza que volvió con fuerza.",
+  "detalles": [
+   "Silueta baja retro",
+   "Suela color goma natural",
+   "Cierre con agujetas",
+   "Combinación negro y gris"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-830",
+  "marca": "Nike",
+  "nombre": "Nike Star Runner 5 (Big Kid) — Midnight Navy/Racer Blue/Dark Slate",
+  "genero": "Niños",
+  "precio": 75.0,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Cwh0xAZrL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71cWOjcHV4L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71extw9fg0L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71hGbDLyAfL._SX700_.jpg"
+  ],
+  "descripcion": "Tenis de correr juveniles de Nike en azul marino, ligeros y con amortiguación suave para niños que no paran.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave para correr",
+   "Cierre con agujetas",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-831",
+  "marca": "Nike",
+  "nombre": "Nike Stellar Ride (Big Kid) — Summit White/Football Blue/Glacier Blue",
+  "genero": "Niños",
+  "precio": 77.0,
+  "precio_c": 2832,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/719KK1rNBcL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71O6HR3zMuL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71qhCwDsn1L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71re8B7kK2L._SX700_.jpg"
+  ],
+  "descripcion": "Tenis de running de Nike en blanco con azules, con malla transpirable pensada para corredores jóvenes.",
+  "detalles": [
+   "Malla transpirable",
+   "Diseñado para correr",
+   "Cierre con agujetas",
+   "Suela de goma flexible"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-832",
+  "marca": "Nike",
+  "nombre": "Nike Court Legacy (Big Kid) — White/Black/Desert Ochre/Gum Light Brown",
+  "genero": "Niños",
+  "precio": 68.99,
+  "precio_c": 2537,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/617BxesyqyL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61I-fZLyl6L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61Z36rmne1L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61yX74phqdL._SX700_.jpg"
+  ],
+  "descripcion": "Court Legacy de Nike en blanco con negro y suela goma, raíz clásica del tenis con materiales duraderos.",
+  "detalles": [
+   "Estilo tenis clásico",
+   "Materiales duraderos según la ficha",
+   "Suela color goma",
+   "Cierre con agujetas"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-833",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star Hi (Big Kid) — Black/Darker Grey/White",
+  "genero": "Niños",
+  "precio": 60.0,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61J72J961xL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61xQDqVsSOL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/712Im1vJFmL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/718TNdZZ+yL._SX700_.jpg"
+  ],
+  "descripcion": "Chuck Taylor altos en negro con gris oscuro y blanco, el clásico de lona para expresar su estilo.",
+  "detalles": [
+   "Silueta alta de lona",
+   "Puntera de goma",
+   "Cierre con agujetas",
+   "Combinación negro, gris y blanco"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-834",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Charged Assert 11 (Big Kid) — Black/Black/Anthracite",
+  "genero": "Niños",
+  "precio": 75.0,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71QjvHo4nRL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71ZczeayRYL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71l9vS6h9NL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71wCP0S3FrL._SX700_.jpg"
+  ],
+  "descripcion": "Tenis de running de Under Armour en negro total, deportivos y sobrios para entrenar y para el diario.",
+  "detalles": [
+   "Color negro monocromático",
+   "Estilo running ligero",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-835",
+  "marca": "Nike",
+  "nombre": "Nike Flex Runner 4 (Big Kid) — Black/Black/White",
+  "genero": "Niños",
+  "precio": 62.0,
+  "precio_c": 2280,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/51IvUOVSG+L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71GfWTg1afL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71e8NFXy+pL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71tUsY4ttqL._SX700_.jpg"
+  ],
+  "descripcion": "Flex Runner 4 de Nike en negro con blanco, de diseño tipo media que se pone fácil y queda listo para correr.",
+  "detalles": [
+   "Diseño tipo media fácil de poner",
+   "Malla transpirable según la ficha",
+   "Suela flexible con ranuras",
+   "Combinación negro y blanco"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-836",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Lockdown 7 (Big Kid) — Black/Black/Metallic Gold",
+  "genero": "Niños",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71LvnF1R32L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71MfThK9SlL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71aww5hqpyL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71bLGkNo5PL._SX700_.jpg"
+  ],
+  "descripcion": "Tenis de básquetbol Lockdown 7 de Under Armour en negro con dorado metálico, ligeros y duraderos para la cancha.",
+  "detalles": [
+   "Pensados para básquetbol",
+   "Detalles dorados metálicos",
+   "Cierre con agujetas",
+   "Construcción ligera y duradera según la ficha"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-837",
+  "marca": "adidas",
+  "nombre": "adidas Grand Court Low (Big Kid) — Black/White/Yellow",
+  "genero": "Niños",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61VfzsTtJlL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/713Vb7Y3EdL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71OmwVa2PPL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71oHPDrV-bL._SX700_.jpg"
+  ],
+  "descripcion": "Grand Court bajos de adidas en negro con blanco y amarillo, un court clásico que combina con todo.",
+  "detalles": [
+   "Silueta baja estilo court",
+   "Combinación negro, blanco y amarillo",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-838",
+  "marca": "New Balance",
+  "nombre": "New Balance Fresh Foam Arishi v4 (Big Kid) — Galaxy Blue/Lime Leaf/Nb Navy",
+  "genero": "Niños",
+  "precio": 57.87,
+  "precio_c": 2128,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/711kyidUcLL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71bTOExaaXL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71iXz0FbprL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81gVM127NLL._SX700_.jpg"
+  ],
+  "descripcion": "Runner de New Balance con entresuela Fresh Foam en azul galaxia, suave y ligero para el día a día.",
+  "detalles": [
+   "Entresuela Fresh Foam",
+   "Parte superior ligera",
+   "Cierre con agujetas",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-839",
+  "marca": "New Balance",
+  "nombre": "New Balance 480 (Big Kid) — Timber Wolf/White",
+  "genero": "Niños",
+  "precio": 89.99,
+  "precio_c": 3309,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/617GbZ6viUL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61SbcmqW-4L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61Ycp6RSKoL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61cgFvkMmbL._SX700_.jpg"
+  ],
+  "descripcion": "El 480 de New Balance en gris lobo con blanco, court retro con look limpio y atemporal.",
+  "detalles": [
+   "Estilo court retro",
+   "Combinación gris y blanco",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-840",
+  "marca": "Reebok",
+  "nombre": "Reebok Club C Revenge (Big Kid) — Digital Blue/Solar Acid Yellow/Gum",
+  "genero": "Niños",
+  "precio": 51.29,
+  "precio_c": 1886,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71JQS8T5FYL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71RDxjUeQtL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71bO-kUer0L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71u613J-vTL._SX700_.jpg"
+  ],
+  "descripcion": "Club C Revenge de Reebok en gamuza azul digital con amarillo ácido y suela goma, un clásico con colores vivos.",
+  "detalles": [
+   "Parte superior de gamuza según la ficha",
+   "Suela color goma",
+   "Cierre con agujetas",
+   "Colores azul y amarillo ácido"
+  ],
+  "tallas": [
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-841",
+  "marca": "Reebok",
+  "nombre": "Reebok Classic AZ (Big Kid) — Chalk/Pink",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_1.jpg?v=1788904340",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_2.jpg?v=1788904339",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_3.jpg?v=1788904340",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_4.jpg?v=1788904340"
+  ],
+  "descripcion": "Classic AZ de Reebok en tiza con rosa, un retro ligero de running con colores suaves.",
+  "detalles": [
+   "Estilo retro de running",
+   "Combinación tiza y rosa",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-842",
+  "marca": "Reebok",
+  "nombre": "Reebok Rush Runner 6.0 (Big Kid) — Black/Grey",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_1.jpg?v=1789163610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_2.jpg?v=1789163610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_3.jpg?v=1789163610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_4.jpg?v=1789163610"
+  ],
+  "descripcion": "Rush Runner 6.0 de Reebok en negro con gris, tenis de correr juvenil ligero para todos los días.",
+  "detalles": [
+   "Diseño de running ligero",
+   "Combinación negro y gris",
+   "Cierre con agujetas",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-843",
+  "marca": "Reebok",
+  "nombre": "Reebok Court Advance (Big Kid) — White/Pink",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_1.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_2.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_3.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_4.jpg?v=1789422061"
+  ],
+  "descripcion": "Court Advance de Reebok en blanco con rosa, de inspiración tenis y ajuste práctico para niños.",
+  "detalles": [
+   "Estilo court clásico",
+   "Combinación blanco y rosa",
+   "Ajuste práctico para niños",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-844",
+  "marca": "Reebok",
+  "nombre": "Reebok Classic Nylon (Big Kid) — Dark Indigo/White",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269450_1.jpg?v=1789422064",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269450_2.jpg?v=1789422064",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269450_3.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269450_4.jpg?v=1789422064"
+  ],
+  "descripcion": "Classic Nylon de Reebok en índigo oscuro con blanco, el retro de nylon de toda la vida.",
+  "detalles": [
+   "Clásico de nylon",
+   "Combinación índigo y blanco",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-845",
+  "marca": "Reebok",
+  "nombre": "Reebok Energen Lux (Big Kid) — Black/White",
+  "genero": "Niños",
+  "precio": 40.96,
+  "precio_c": 1506,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100246746_1.jpg?v=1765325325",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100246746_2.jpg?v=1765325325",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100246746_3.jpg?v=1765325325",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100246746_4.jpg?v=1765325325"
+  ],
+  "descripcion": "Energen Lux de Reebok en negro con blanco, runner juvenil cómodo para la escuela y el deporte.",
+  "detalles": [
+   "Estilo running",
+   "Combinación negro y blanco",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-846",
+  "marca": "Reebok",
+  "nombre": "Reebok Workout Plus (Big Kid) — White/Gum",
+  "genero": "Niños",
+  "precio": 44.96,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100248886_1.jpg?v=1770849854",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100248886_2.jpg?v=1770849853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100248886_3.jpg?v=1770849853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100248886_4.jpg?v=1770849853"
+  ],
+  "descripcion": "Workout Plus de Reebok en blanco con suela goma, el clásico de entrenamiento de los 80 en versión juvenil.",
+  "detalles": [
+   "Silueta retro de entrenamiento",
+   "Suela color goma",
+   "Cierre con agujetas",
+   "Color blanco limpio"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-847",
+  "marca": "Reebok",
+  "nombre": "Reebok Zig Dynamica (Big Kid) — Vector Navy/Vector Blue/Vector Red",
+  "genero": "Niños",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_1.jpg?v=1789507951",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_2.jpg?v=1789507951",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_3.jpg?v=1789507951",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_4.jpg?v=1789507951"
+  ],
+  "descripcion": "Zig Dynamica de Reebok en azul marino con azul y rojo, con la suela Zig de formas onduladas.",
+  "detalles": [
+   "Suela Zig con diseño ondulado",
+   "Colores azul marino, azul y rojo",
+   "Cierre con agujetas",
+   "Estilo running moderno"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-848",
+  "marca": "Puma",
+  "nombre": "Puma Rebound Layup (Big Kid) — Haute Tropic/Vivid Violet/Blue Skies",
+  "genero": "Niños",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40393201_1.jpg?v=1779832585",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40393201_2.jpg?v=1779832585",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40393201_3.jpg?v=1779832585",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40393201_4.jpg?v=1779832585"
+  ],
+  "descripcion": "Rebound Layup de Puma en colores tropicales con violeta y azul cielo, estilo básquet retro que se nota.",
+  "detalles": [
+   "Estilo básquet retro",
+   "Colorway tropical multicolor",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-849",
+  "marca": "Puma",
+  "nombre": "Puma Caven III (Big Kid) — Black/White",
+  "genero": "Niños",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40623503_1.jpg?v=1781818834",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40623503_2.jpg?v=1781818834",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40623503_3.jpg?v=1781818834",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40623503_4.jpg?v=1781818834"
+  ],
+  "descripcion": "Caven III de Puma en negro con blanco, un court bajo y limpio que combina con cualquier outfit.",
+  "detalles": [
+   "Silueta court baja",
+   "Combinación negro y blanco",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-850",
+  "marca": "Puma",
+  "nombre": "Puma Rebound Layup (Big Kid) — Black/Red/White",
+  "genero": "Niños",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40520702_1.jpg?v=1780437203",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40520702_2.jpg?v=1780437203",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40520702_3.jpg?v=1780437203",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40520702_4.jpg?v=1780437203"
+  ],
+  "descripcion": "Rebound Layup de Puma en negro con rojo y blanco, el clásico colorway de cancha en versión juvenil.",
+  "detalles": [
+   "Estilo básquet retro",
+   "Combinación negro, rojo y blanco",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-851",
+  "marca": "Skechers",
+  "nombre": "Skechers Skech Air Flight (Big Kid) — Black/Red",
+  "genero": "Niños",
+  "precio": 50.97,
+  "precio_c": 1874,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404096LBKRD_1.jpg?v=1771367761",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404096LBKRD_2.jpg?v=1771367762",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404096LBKRD_3.jpg?v=1771367761",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404096LBKRD_4.jpg?v=1771367761"
+  ],
+  "descripcion": "Skech Air Flight de Skechers en negro con rojo, runner juvenil con cámara de aire visible en la suela.",
+  "detalles": [
+   "Cámara de aire visible Skech Air",
+   "Combinación negro y rojo",
+   "Cierre con agujetas",
+   "Estilo running ligero"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-852",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool (Big Kid) — Black/Red/White",
+  "genero": "Niños",
+  "precio": 54.96,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D2TBRR1_1.jpg?v=1761346473",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D2TBRR1_2.jpg?v=1761346473",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D2TBRR1_3.jpg?v=1761346473",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D2TBRR1_4.jpg?v=1761346473"
+  ],
+  "descripcion": "Knu Skool de Vans en negro con rojo y blanco, la silueta ancha de los 90 con lengüeta acolchada grande.",
+  "detalles": [
+   "Silueta ancha estilo años 90",
+   "Lengüeta y cuello acolchados",
+   "Suela vulcanizada de goma",
+   "Combinación negro, rojo y blanco"
+  ],
+  "tallas": [
+   "4.5",
+   "5",
+   "5.5",
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-853",
+  "marca": "Nike",
+  "nombre": "Nike Flex Runner 4 (Big Kid) — Laser Fuchsia/Black/White",
+  "genero": "Niños",
+  "precio": 54.96,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2893604_1.jpg?v=1787095724",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2893604_2.jpg?v=1787095724",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2893604_3.jpg?v=1787095724",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2893604_4.jpg?v=1787095724"
+  ],
+  "descripcion": "Flex Runner 4 de Nike en fucsia láser con negro y blanco: se ponen sin pelear con agujetas y a correr.",
+  "detalles": [
+   "Diseño tipo media fácil de poner",
+   "Espuma suave que amortigua cada paso según la ficha",
+   "Ranuras flexibles en la suela",
+   "Color fucsia llamativo"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-854",
+  "marca": "adidas",
+  "nombre": "adidas Tensaur Run (Big Kid) — Black/Black",
+  "genero": "Niños",
+  "precio": 54.98,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6630_1.jpg?v=1780687661",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6630_2.jpg?v=1780687661",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6630_3.jpg?v=1780687661",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6630_4.jpg?v=1780687661"
+  ],
+  "descripcion": "Tensaur Run de adidas en negro total, runner juvenil sencillo y resistente para el diario.",
+  "detalles": [
+   "Color negro monocromático",
+   "Estilo running ligero",
+   "Cierre con agujetas",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-855",
+  "marca": "Nike",
+  "nombre": "Nike Cosmic Runner (Big Kid) — Black/White/Anthracite",
+  "genero": "Niños",
+  "precio": 59.96,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HM4402003_1.jpg?v=1786662464",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HM4402003_2.jpg?v=1786662464",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HM4402003_3.jpg?v=1786662464",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HM4402003_4.jpg?v=1786662464"
+  ],
+  "descripcion": "Cosmic Runner de Nike en negro con blanco y antracita, de look futurista y malla ligera para niños activos.",
+  "detalles": [
+   "Malla ligera que mantiene el pie fresco según la ficha",
+   "Look futurista juvenil",
+   "Cierre con agujetas",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-856",
+  "marca": "Avia",
+  "nombre": "Avia Avi-Forte 2.0 Running Shoes — Green",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50059M-GBO_1l.jpg?v=1789263480",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50059M-GBO_2l.jpg?v=1789263480",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50059M-GBO_3l.jpg?v=1789263480",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50059M-GBO_4l.jpg?v=1789263480"
+  ],
+  "descripcion": "Zapatillas ligeras para correr o entrenar, con parte superior de malla transpirable que mantiene el pie fresco. Pensadas para el uso diario activo con una pisada flexible.",
+  "detalles": [
+   "Parte superior de malla ligera y transpirable",
+   "Ranuras flexibles que favorecen el movimiento natural",
+   "Silueta deportiva de perfil bajo",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10.5",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-857",
+  "marca": "PUMA",
+  "nombre": "PUMA Transport Running Shoes — Grey",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37702841_1l.jpg?v=1788502450",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37702841_2l.jpg?v=1788502450",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37702841_3l.jpg?v=1788502450",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37702841_4l.jpg?v=1788502450"
+  ],
+  "descripcion": "Zapatillas para correr de diseño simple y depurado, fáciles de combinar para el día a día. Ofrecen tracción de goma y detalles de soporte en la parte superior.",
+  "detalles": [
+   "Suela de goma con buena tracción",
+   "Parte superior con detalles de soporte",
+   "Diseño aerodinámico y versátil",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-858",
+  "marca": "Fila",
+  "nombre": "Fila Volley Zone Pickleball Shoes — Red",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM00598-606_1l.jpg?v=1793109224",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM00598-606_2l.jpg?v=1793109224",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM00598-606_3l.jpg?v=1793109225",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM00598-606_4l.jpg?v=1793109224"
+  ],
+  "descripcion": "Zapatillas de rendimiento diseñadas para pickleball, con suela de goma en espiga para agarrarse a la cancha. La mediasuela energizada aporta amortiguación en cada desplazamiento lateral.",
+  "detalles": [
+   "Suela de goma con patrón en espiga",
+   "Zonas de pivote en la parte delantera",
+   "Mediasuela con amortiguación energizada",
+   "Pensadas para deportes de cancha"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-859",
+  "marca": "Diadora",
+  "nombre": "Diadora Serifos Plus Slide Sandals — Blue",
+  "genero": "Hombre",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/174663-C7816_1l.jpg?v=1789442830",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/174663-C7816_2l.jpg?v=1789442830",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/174663-C7816_3l.jpg?v=1789442830",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/174663-C7816_4l.jpg?v=1789442830"
+  ],
+  "descripcion": "Sandalias tipo slide esenciales para la playa o la piscina, que combinan comodidad y practicidad. Se ponen y quitan en segundos.",
+  "detalles": [
+   "Formato slide fácil de calzar",
+   "Ideales para piscina, playa y descanso",
+   "Construcción ligera",
+   "Estilo deportivo italiano"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-860",
+  "marca": "AND1",
+  "nombre": "AND1 Nothing But Net Slide Sandals — Red",
+  "genero": "Hombre",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90123M-R_1l.jpg?v=1792992239",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90123M-R_2l.jpg?v=1792992239",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90123M-R_3l.jpg?v=1792992239",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90123M-R_4l.jpg?v=1792992240"
+  ],
+  "descripcion": "Slides ligeras y duraderas pensadas para descansar después del partido o para un día relajado. Su diseño sin cordones las hace muy prácticas.",
+  "detalles": [
+   "Diseño slide sin cordones",
+   "Ligeras y duraderas",
+   "Pensadas para el post-partido y el descanso",
+   "Estilo basketball AND1"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-861",
+  "marca": "adidas",
+  "nombre": "adidas Adifom IIInfinity Slides — Red",
+  "genero": "Hombre",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI0399_1l.jpg?v=1765016246",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI0399_2l.jpg?v=1765016246",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI0399_3l.jpg?v=1765016246",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI0399_4l.jpg?v=1765016246"
+  ],
+  "descripcion": "Slides moldeadas en espuma ligera y acolchada para entrar en modo relax en casa, la piscina o después de entrenar. Un básico cómodo de las tres franjas.",
+  "detalles": [
+   "Moldeadas en espuma ligera acolchada",
+   "Calce rápido sin cordones",
+   "Ideales para recuperación y descanso",
+   "Logo y estilo adidas"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-862",
+  "marca": "PUMA",
+  "nombre": "PUMA Softride Exo Sneakers — Off White",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31172207_1l.jpg?v=1784201595",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31172207_2l.jpg?v=1784201595",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31172207_3l.jpg?v=1784201595",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31172207_4l.jpg?v=1784201595"
+  ],
+  "descripcion": "Sneakers que combinan rendimiento y estética, con amortiguación SOFTRIDE para aterrizajes suaves. La plantilla SOFTFOAM+ suma comodidad durante todo el día.",
+  "detalles": [
+   "Amortiguación SOFTRIDE",
+   "Plantilla SOFTFOAM+ de gran comodidad",
+   "Parte superior transpirable",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-863",
+  "marca": "PUMA",
+  "nombre": "PUMA C-Skate Fresh Leather Sneakers — Black/White",
+  "genero": "Hombre",
+  "precio": 47.95,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40323801_1l.jpg?v=1792919405",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40323801_2l.jpg?v=1792919405",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40323801_3l.jpg?v=1792919405",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40323801_4l.jpg?v=1792919405"
+  ],
+  "descripcion": "Sneakers de inspiración skate con mezcla de lona, cuero sintético y gamuza, y lengüeta acolchada. Listas para trucos o para paseos relajados.",
+  "detalles": [
+   "Mezcla de lona, cuero sintético y gamuza",
+   "Lengüeta acolchada",
+   "Estilo skate clásico",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-864",
+  "marca": "PUMA",
+  "nombre": "PUMA Astro Play Sneakers — Green",
+  "genero": "Hombre",
+  "precio": 47.95,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40143903_1l.jpg?v=1792618406",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40143903_2l.jpg?v=1792618406",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40143903_3l.jpg?v=1792618406",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40143903_4l.jpg?v=1792618406"
+  ],
+  "descripcion": "Sneakers de silueta pulida con detalles de marca PUMA para un look ganador y fácil de combinar. Un modelo casual para todos los días.",
+  "detalles": [
+   "Silueta limpia y versátil",
+   "Detalles de marca PUMA",
+   "Estilo casual urbano",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-865",
+  "marca": "PUMA",
+  "nombre": "PUMA Club II Indoor Sneakers — Black",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_1l.jpg?v=1791370274",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_2l.jpg?v=1791370274",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_3l.jpg?v=1791370274",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_4l.jpg?v=1791370274"
+  ],
+  "descripcion": "Modelo de archivo de mediados de los 80, pensado originalmente para entrenamiento indoor. Parte superior resistente con refuerzos en puntera y talón y una mediasuela sólida y curva.",
+  "detalles": [
+   "Diseño de archivo de los años 80",
+   "Parte superior resistente",
+   "Refuerzos en puntera y talón",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-866",
+  "marca": "PUMA",
+  "nombre": "PUMA Rebound Retro Sneakers — Blue",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40021404_1l.jpg?v=1788533067",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40021404_2l.jpg?v=1788533068",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40021404_3l.jpg?v=1788533068",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40021404_4l.jpg?v=1788533068"
+  ],
+  "descripcion": "Sneakers que mezclan la herencia del basketball con el estilo urbano, con parte superior sintética perforada. Plantilla SOFTFOAM+ y suela SOFTRIDE para comodidad todo el día.",
+  "detalles": [
+   "Herencia basketball retro",
+   "Parte superior sintética perforada",
+   "Plantilla SOFTFOAM+",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-867",
+  "marca": "PUMA",
+  "nombre": "PUMA Caven 2.0 Sneakers — White",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39229067_1l.jpg?v=1784201785",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39229067_2l.jpg?v=1784201785",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39229067_3l.jpg?v=1784201785",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39229067_4l.jpg?v=1784201785"
+  ],
+  "descripcion": "Versión sutil de la clásica silueta de basketball de los 80, válida dentro y fuera de la cancha. Comodidad SOFTFOAM con una estética retro muy combinable.",
+  "detalles": [
+   "Silueta clásica de los años 80",
+   "Comodidad SOFTFOAM",
+   "Estilo retro versátil",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9.5",
+   "10.5",
+   "11",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-868",
+  "marca": "PUMA",
+  "nombre": "PUMA Softride St Miller Sneakers — Green",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40263508_1l.jpg?v=1786320098",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40263508_2l.jpg?v=1786320098",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40263508_3l.jpg?v=1786320098",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40263508_4l.jpg?v=1786320098"
+  ],
+  "descripcion": "Sneakers para caminar con propósito y estilo, de diseño refinado entre lo clásico y lo actual. Cómodas para recorrer la ciudad o planes relajados de fin de semana.",
+  "detalles": [
+   "Diseño refinado y contemporáneo",
+   "Pensadas para caminar la ciudad",
+   "Estilo casual elegante",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ]
+ },
+ {
+  "codigo": "DOM-869",
+  "marca": "adidas",
+  "nombre": "adidas Lightshift Shoes — White",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JS4279_1l.jpg?v=1792766936",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JS4279_2l.jpg?v=1792766937",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JS4279_3l.jpg?v=1792766936",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JS4279_4l.jpg?v=1792766936"
+  ],
+  "descripcion": "Zapatillas ligeras con parte superior de malla técnica y refuerzos de gamuza. La mediasuela Lightmotion aporta una pisada súper ligera del trabajo al fin de semana.",
+  "detalles": [
+   "Malla técnica con refuerzos de gamuza",
+   "Mediasuela Lightmotion ultraligera",
+   "Estilo deportivo moderno",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-870",
+  "marca": "Avia",
+  "nombre": "Avia Avi Coast 2.0 Walking Shoes — Off White",
+  "genero": "Mujer",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50057W-WSK_1l.jpg?v=1788467336",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50057W-WSK_2l.jpg?v=1788467336",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50057W-WSK_3l.jpg?v=1788467336",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50057W-WSK_4l.jpg?v=1788467338"
+  ],
+  "descripcion": "Zapatillas con cordones flexibles y confiables para el día a día de mujeres activas. Sirven para caminar, trotar suave, viajar o ir al gimnasio.",
+  "detalles": [
+   "Diseño casual y flexible",
+   "Para caminar, viajar y gimnasio",
+   "Construcción duradera",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-871",
+  "marca": "Propet",
+  "nombre": "Propet TravelActiv Woven Walking Shoes — Purple",
+  "genero": "Mujer",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WAT022MPUR_1l.jpg?v=1789496346",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WAT022MPUR_2l.jpg?v=1789496346",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WAT022MPUR_3l.jpg?v=1789496346",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WAT022MPUR_4l.jpg?v=1789496346"
+  ],
+  "descripcion": "Zapatillas activas de tejido con tratamiento Scotchgard y suela EVA ligera Traveltek. Pensadas para mantenerse en movimiento con comodidad.",
+  "detalles": [
+   "Malla tejida con tratamiento Scotchgard",
+   "Suela EVA ligera Traveltek",
+   "Especialistas en comodidad al caminar",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-872",
+  "marca": "PUMA",
+  "nombre": "PUMA x First Mile Electrify NITRO Running Shoes — Purple",
+  "genero": "Mujer",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19517411_1l.jpg?v=1792627472",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19517411_2l.jpg?v=1792627472",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19517411_3l.jpg?v=1792627472",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19517411_4l.jpg?v=1792627473"
+  ],
+  "descripcion": "Zapatillas para correr con espuma NITRO en la mediasuela, que aporta respuesta y amortiguación. Válidas tanto para corredoras que empiezan como para veteranas.",
+  "detalles": [
+   "Espuma NITRO reactiva en la mediasuela",
+   "Amortiguación versátil para correr",
+   "Colaboración PUMA x First Mile",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-873",
+  "marca": "Lugz",
+  "nombre": "Lugz Clipper Slip On Sneakers — Black",
+  "genero": "Mujer",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WCLPRC-008_1l.jpg?v=1762886739",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WCLPRC-008_2l.jpg?v=1762886739",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WCLPRC-008_3l.jpg?v=1762886739",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WCLPRC-008_4l.jpg?v=1762886739"
+  ],
+  "descripcion": "Las Clipper sin cordones son las sneakers de moda más vendidas de Lugz: estilosas y muy versátiles. Se calzan en segundos y combinan con todo.",
+  "detalles": [
+   "Formato slip-on sin cordones",
+   "Estilo casual muy versátil",
+   "Calce rápido y cómodo",
+   "Un básico de guardarropa"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-874",
+  "marca": "Corkys",
+  "nombre": "Corkys Waiting List Floral Sneakers — Grey/White",
+  "genero": "Mujer",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-0159-WBFL_1l.jpg?v=1792829212",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-0159-WBFL_2l.jpg?v=1792829212",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-0159-WBFL_3l.jpg?v=1792829212",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-0159-WBFL_4l.jpg?v=1792829212"
+  ],
+  "descripcion": "Sneakers con cordones que mezclan diseño de tendencia y comodidad diaria, con un toque floral juguetón y chic. Ideales para darle vida a cualquier outfit.",
+  "detalles": [
+   "Detalle floral decorativo",
+   "Comodidad para todo el día",
+   "Estilo femenino y actual",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-875",
+  "marca": "PUMA",
+  "nombre": "PUMA Adelina 2 Slip On Sneakers — Pink",
+  "genero": "Mujer",
+  "precio": 42.95,
+  "precio_c": 1579,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40023608_1l.jpg?v=1792719740",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40023608_2l.jpg?v=1792719740",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40023608_3l.jpg?v=1792719740",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40023608_4l.jpg?v=1792719740"
+  ],
+  "descripcion": "Sneakers sin cordones de silueta minimalista, con parte superior textil flexible y suela EVA. La plantilla SOFTFOAM+ aporta una amortiguación superior en cada paso.",
+  "detalles": [
+   "Formato slip-on minimalista",
+   "Parte superior textil flexible",
+   "Plantilla SOFTFOAM+",
+   "Suela EVA ligera"
+  ],
+  "tallas": [
+   "5.5",
+   "7",
+   "7.5",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-876",
+  "marca": "PUMA",
+  "nombre": "PUMA Carina CV Espadrille Platform Sneakers — Off White",
+  "genero": "Mujer",
+  "precio": 42.95,
+  "precio_c": 1579,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38132701_1l.jpg?v=1771996534",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38132701_2l.jpg?v=1771996534",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38132701_3l.jpg?v=1771996534",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38132701_4l.jpg?v=1771996534"
+  ],
+  "descripcion": "Sneakers bajas de plataforma con aire de alpargata, que mezclan comodidad deportiva y estilo relajado. Perfectas para el uso diario con un toque diferente.",
+  "detalles": [
+   "Plataforma con inspiración alpargata",
+   "Silueta baja y casual",
+   "Comodidad deportiva PUMA",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "8.5",
+   "9",
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-877",
+  "marca": "Fila",
+  "nombre": "Fila Tennis 88 VTG Low Tennis Shoes — White",
+  "genero": "Mujer",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5TM02041-146_1l.jpg?v=1787779251",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5TM02041-146_2l.jpg?v=1787779251",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5TM02041-146_3l.jpg?v=1787779251",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5TM02041-146_4l.jpg?v=1787779251"
+  ],
+  "descripcion": "Zapatillas de tenis de estilo vintage pensadas para la cancha, que combinan comodidad y estilo clásico. Un blanco atemporal de Fila.",
+  "detalles": [
+   "Estilo tenis vintage de 1988",
+   "Pensadas para la cancha",
+   "Color blanco muy combinable",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-878",
+  "marca": "PUMA",
+  "nombre": "PUMA Club II Indoor Sneakers — Pink",
+  "genero": "Mujer",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40783506_1l.jpg?v=1788472215",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40783506_2l.jpg?v=1788472215",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40783506_3l.jpg?v=1788472215",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40783506_4l.jpg?v=1788472215"
+  ],
+  "descripcion": "Modelo de archivo de mediados de los 80 para entrenamiento indoor, en un tono rosa fresco. Parte superior resistente con refuerzos en puntera y talón.",
+  "detalles": [
+   "Diseño de archivo de los años 80",
+   "Parte superior resistente",
+   "Refuerzos en puntera y talón",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-879",
+  "marca": "adidas",
+  "nombre": "adidas Runvista Shoes — Pink",
+  "genero": "Mujer",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/HQ2335_1l.jpg?v=1792792712",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/HQ2335_2l.jpg?v=1792792712",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/HQ2335_3l.jpg?v=1792792712",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/HQ2335_4l.jpg?v=1792792712"
+  ],
+  "descripcion": "Sneakers de estilo de vida inspiradas en el running clásico, en rosa suave con las 3 franjas en naranja vibrante. Ligeras y con un aire retro deportivo.",
+  "detalles": [
+   "Inspiración running retro",
+   "Parte superior rosa con 3 franjas naranjas",
+   "Construcción ligera",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "5.5",
+   "6.5",
+   "7",
+   "8",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-880",
+  "marca": "PUMA",
+  "nombre": "PUMA Vikky Star Suede Sneakers — Purple",
+  "genero": "Mujer",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40350710_1l.jpg?v=1792785035",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40350710_2l.jpg?v=1792785035",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40350710_3l.jpg?v=1792785035",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40350710_4l.jpg?v=1792785035"
+  ],
+  "descripcion": "Sneakers donde la simplicidad se encuentra con el estilo, con un diseño refinado y atemporal en gamuza. Cómodas para pasear por la ciudad o un look casual.",
+  "detalles": [
+   "Parte superior de gamuza",
+   "Diseño refinado y atemporal",
+   "Comodidad para todo el día",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-881",
+  "marca": "PUMA",
+  "nombre": "PUMA Bella Donna SD Sneakers — Pink",
+  "genero": "Mujer",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40267307_1l.jpg?v=1792842037",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40267307_2l.jpg?v=1792842037",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40267307_3l.jpg?v=1792842037",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40267307_4l.jpg?v=1792842037"
+  ],
+  "descripcion": "Un clásico del archivo PUMA que vuelve: Bella es simple, elegante y siempre actual. Versatilidad atemporal para cualquier guardarropa.",
+  "detalles": [
+   "Clásico del archivo PUMA",
+   "Diseño simple y elegante",
+   "Muy versátiles de combinar",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-882",
+  "marca": "Fila",
+  "nombre": "Fila Vulc 13 High Top Sneakers — Grey",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5CM00329-067_1l.jpg?v=1780743468",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5CM00329-067_2l.jpg?v=1780743469",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5CM00329-067_3l.jpg?v=1780743469",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5CM00329-067_4l.jpg?v=1780743468"
+  ],
+  "descripcion": "Sneakers de caña alta con exterior elegante y duradero, tira moldeada F-Box en el tobillo y cuello acolchado. Sirven para la cancha o para marcar estilo.",
+  "detalles": [
+   "Silueta high-top llamativa",
+   "Cuello acolchado y tira en el tobillo",
+   "Exterior duradero",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-883",
+  "marca": "Keds",
+  "nombre": "Keds Double Decker Canvas Slip On Sneakers — Black",
+  "genero": "Mujer",
+  "precio": 49.0,
+  "precio_c": 1802,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WF63480_1l.jpg?v=1792750936",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WF63480_2l.jpg?v=1792750935",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WF63480_3l.jpg?v=1792750935",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WF63480_4l.jpg?v=1792750935"
+  ],
+  "descripcion": "Las slip-on de lona favoritas de Keds: favorecen el pie y llevan plantillas acolchadas para todo el día. Un comodín que arma cualquier outfit sin esfuerzo.",
+  "detalles": [
+   "Formato slip-on de lona",
+   "Plantillas acolchadas",
+   "Silueta que estiliza el pie",
+   "Combinan con casi todo"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-884",
+  "marca": "Avia",
+  "nombre": "Avia Avi-Upstate Lw Hiking Shoes — Black (Big Kid)",
+  "genero": "Niños",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50140S-BP_1l.jpg?v=1792992310",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50140S-BP_2l.jpg?v=1792992310",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50140S-BP_3l.jpg?v=1792992310",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50140S-BP_4l.jpg?v=1792992310"
+  ],
+  "descripcion": "Zapatos de senderismo ligeros para niños, válidos también para correr, con estilo outdoor. Malla transpirable y absorción de impactos para jugar y explorar.",
+  "detalles": [
+   "Malla ligera y transpirable",
+   "Absorción de impactos",
+   "Estilo outdoor para niños",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-885",
+  "marca": "Fila",
+  "nombre": "Fila Axilus Tennis Shoes — White (Little Kid)",
+  "genero": "Niños",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3TM00597-100_1l.jpg?v=1789228323",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3TM00597-100_2l.jpg?v=1789228323",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3TM00597-100_3l.jpg?v=1789228323",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3TM00597-100_4l.jpg?v=1789228323"
+  ],
+  "descripcion": "Zapatillas de tenis juveniles de alto rendimiento para moverse con agilidad en la cancha. Construcción ligera y duradera pensada para niños.",
+  "detalles": [
+   "Pensadas para tenis juvenil",
+   "Construcción ligera y duradera",
+   "Agilidad en la cancha",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5"
+  ]
+ },
+ {
+  "codigo": "DOM-886",
+  "marca": "PUMA",
+  "nombre": "PUMA Cell Vive Training Shoes — Pink (Big Kid)",
+  "genero": "Niños",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19478528_1l.jpg?v=1792745213",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19478528_2l.jpg?v=1792745213",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19478528_3l.jpg?v=1792745213",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19478528_4l.jpg?v=1792745213"
+  ],
+  "descripcion": "Zapatillas de entrenamiento juveniles con la energía del felino de PUMA de talón a punta. La pieza trasera 10CELL aporta estabilidad para jugar y entrenar.",
+  "detalles": [
+   "Tecnología 10CELL de estabilidad",
+   "Detalles PUMA de talón a punta",
+   "Para entrenar y jugar",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-887",
+  "marca": "PUMA",
+  "nombre": "PUMA MB.03 Iridescent Basketball Shoes — White (Toddler)",
+  "genero": "Niños",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39708001_1l.jpg?v=1792726749",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39708001_2l.jpg?v=1792726749",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39708001_3l.jpg?v=1792726749",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39708001_4l.jpg?v=1792726749"
+  ],
+  "descripcion": "La tercera zapatilla insignia de LaMelo Ball en versión toddler, con detalles inspirados en slime y tejido técnico con cortes tipo arañazo. Un diseño fuera de este mundo para los más pequeños.",
+  "detalles": [
+   "Modelo insignia MB.03 de LaMelo Ball",
+   "Tejido técnico con cortes decorativos",
+   "Detalles inspirados en slime",
+   "Versión Toddler"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-888",
+  "marca": "Diadora",
+  "nombre": "Diadora B.Icon 2 Tennis Shoes — Red (Big Kid)",
+  "genero": "Niños",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179097-D0272_1l.jpg?v=1792866428",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179097-D0272_2l.jpg?v=1792866428",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179097-D0272_3l.jpg?v=1792866428",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179097-D0272_4l.jpg?v=1792866428"
+  ],
+  "descripcion": "Zapatillas de tenis junior con parte superior SuprellTech y malla de aire para gran estabilidad. Plantilla extraíble de EVA amortiguante y suela Duratech 5000 resistente al desgaste.",
+  "detalles": [
+   "Parte superior SuprellTech y malla",
+   "Plantilla EVA extraíble amortiguante",
+   "Suela Duratech 5000 duradera",
+   "Para cancha dura y arcilla"
+  ],
+  "tallas": [
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-889",
+  "marca": "adidas",
+  "nombre": "adidas Stabil Indoor Shoes — Orange (Big Kid)",
+  "genero": "Niños",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP7276_1l.jpg?v=1786579003",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP7276_2l.jpg?v=1786579003",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP7276_3l.jpg?v=1786579003",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP7276_4l.jpg?v=1786579003"
+  ],
+  "descripcion": "Zapatos junior para deportes indoor que dan estabilidad y potencia en cada movimiento. Malla transpirable, sistema Torsion de soporte y amortiguación Adiprene Plus en la parte delantera.",
+  "detalles": [
+   "Malla transpirable",
+   "Sistema Torsion de soporte",
+   "Amortiguación Adiprene Plus",
+   "Para deportes de interior"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "3",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-890",
+  "marca": "PUMA",
+  "nombre": "PUMA Playmaker Pro Basketball Shoes — Red (Big Kid)",
+  "genero": "Niños",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37757301_1l.jpg?v=1789289637",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37757301_2l.jpg?v=1789289637",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37757301_3l.jpg?v=1789289637",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37757301_4l.jpg?v=1789289637"
+  ],
+  "descripcion": "Zapatillas de basketball juveniles con mediasuela ligera PROFOAM y suela de goma de alta tracción. Mejoran la agilidad y el retorno de energía para jugar todo el día.",
+  "detalles": [
+   "Mediasuela ligera PROFOAM",
+   "Suela de goma de alta tracción",
+   "Retorno de energía al jugar",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-891",
+  "marca": "Creative Recreation",
+  "nombre": "Creative Recreation Cesario Hi — Green",
+  "genero": "Hombre",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/creative_20recreation_CRF02313_M088.jpg?v=1764955129",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/creative_20recreation_CRF02313_M090.jpg?v=1764955130",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/creative_20recreation_CRF02313_M091.jpg?v=1764955128",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/creative_20recreation_CRF02313_M089.jpg?v=1764955131"
+  ],
+  "descripcion": "Las Cesario Hi reviven el icónico look de principios de los 2000 de la marca, con materiales premium y su característica correa en el antepié. Una caña alta que eleva jeans o un outfit de noche.",
+  "detalles": [
+   "Silueta high-top icónica",
+   "Correa característica en el antepié",
+   "Materiales premium",
+   "Estilo urbano atemporal"
+  ],
+  "tallas": [
+   "9.5",
+   "10",
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-892",
+  "marca": "Creative Recreation",
+  "nombre": "Creative Recreation Felisio Slides — Black",
+  "genero": "Hombre",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/CR34S004.jpg?v=1765473529"
+  ],
+  "descripcion": "Slides de comodidad diaria con diseño slip-on elegante y plantilla acolchada. La correa lleva el logo en grande, para un estilo relajado en casa o en movimiento.",
+  "detalles": [
+   "Formato slide fácil de calzar",
+   "Plantilla acolchada",
+   "Correa con logo en grande",
+   "Estilo relajado urbano"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-893",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 Slides — White",
+  "genero": "Hombre",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4479_20100_M080.jpg?v=1758229228",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4479_20100_M082.jpg?v=1758229228",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4479_20100_M083.jpg?v=1758229228",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4479_20100_M081.jpg?v=1758230354"
+  ],
+  "descripcion": "Slides de recuperación con espuma ReactX suave y reactiva para una amortiguación de otro nivel. Soporte para todo el día con un look limpio.",
+  "detalles": [
+   "Espuma ReactX suave y reactiva",
+   "Pensadas para recuperación",
+   "Soporte durante todo el día",
+   "Formato slide sin cordones"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-894",
+  "marca": "Javi",
+  "nombre": "Javi Evoke — Grey",
+  "genero": "Hombre",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20grey_M029.jpg?v=1784899186",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20grey_M031.jpg?v=1784899186",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20grey_M033.jpg?v=1784899186",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20grey_M030.jpg?v=1784899186"
+  ],
+  "descripcion": "Sneakers urbanas llamativas con detalles de pedrería de talón a punta sobre una silueta baja monocromática. Plataforma chunky para un look con brillo propio.",
+  "detalles": [
+   "Pedrería de talón a punta",
+   "Silueta baja monocromática",
+   "Suela tipo plataforma chunky",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-895",
+  "marca": "Von Dutch",
+  "nombre": "Von Dutch Ryder Low — White",
+  "genero": "Hombre",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdm_20white_M014.jpg?v=1772742375",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdm_20white_M016.jpg?v=1772742375",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdm_20white_M017.jpg?v=1772742375",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdm_20white_M015.jpg?v=1772742375"
+  ],
+  "descripcion": "Sneakers bajas de inspiración Y2K sobre una silueta skate clásica, en lona duradera. El gráfico del ojo alado insignia les da actitud con comodidad diaria.",
+  "detalles": [
+   "Parte superior de lona duradera",
+   "Gráfico insignia del ojo alado",
+   "Inspiración Y2K y skate",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-896",
+  "marca": "Vans",
+  "nombre": "Vans Authentic — Red",
+  "genero": "Hombre",
+  "precio": 62.93,
+  "precio_c": 2314,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGAR30_M026.jpg?v=1771366084",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGAR30_M028.jpg?v=1771366084",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGAR30_M029.jpg?v=1771366084",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGAR30_M027.jpg?v=1771366084"
+  ],
+  "descripcion": "Las Authentic de siempre: silueta baja y atemporal de skate que combina con todo, de los jeans a la ropa deportiva. Lona duradera y la suela waffle insignia de Vans.",
+  "detalles": [
+   "Parte superior de lona duradera",
+   "Suela waffle insignia de Vans",
+   "Silueta baja clásica",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-897",
+  "marca": "adidas",
+  "nombre": "adidas Superstar II — Black",
+  "genero": "Hombre",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI0079_M039.jpg?v=1738161335",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI0079_M041.jpg?v=1738161335",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI0079_M042.jpg?v=1738161335",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI0079_M040.jpg?v=1738161335"
+  ],
+  "descripcion": "La Superstar II reinterpreta la icónica zapatilla de puntera de concha con diseño atemporal y materiales premium. Herencia basketball y calle con comodidad para todo el día.",
+  "detalles": [
+   "Puntera de concha icónica",
+   "Materiales premium",
+   "Herencia de los años 70",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "9",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-898",
+  "marca": "Asics",
+  "nombre": "Asics GEL-DS Trainer 14 — White",
+  "genero": "Hombre",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A607_20105_M008.jpg?v=1770996286",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A607_20105_M010.jpg?v=1770995103",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A607_20105_M011.jpg?v=1770995103",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A607_20105_M009.jpg?v=1770995103"
+  ],
+  "descripcion": "Un regreso al look runner rápido de principios de los 2000, con paneles de malla abierta transpirable y franjas laterales llamativas. Amortiguación ligera y soporte GEL para el día a día.",
+  "detalles": [
+   "Malla abierta transpirable",
+   "Soporte GEL",
+   "Amortiguación ligera",
+   "Estilo runner retro"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-899",
+  "marca": "Azalea Wang",
+  "nombre": "Azalea Wang Brittany — Silver",
+  "genero": "Mujer",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/azalea_20wang_style_20brittany_20silver_W009.jpg?v=1776278535",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/azalea_20wang_style_20brittany_20silver_W011.jpg?v=1776280667",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/azalea_20wang_style_20brittany_20silver_W012.jpg?v=1776278535",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/azalea_20wang_style_20brittany_20silver_W010.jpg?v=1776278535"
+  ],
+  "descripcion": "Slip-on llamativas cubiertas de pedrería brillante sobre una suela gruesa tipo plataforma. Glam con actitud y comodidad para todo el día.",
+  "detalles": [
+   "Cubiertas de pedrería brillante",
+   "Suela plataforma chunky",
+   "Formato slip-on",
+   "Estilo glam llamativo"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-900",
+  "marca": "Very G",
+  "nombre": "Very G Aman Glitter 2 — Gold",
+  "genero": "Mujer",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0256_20710_W032.jpg?v=1759869961",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0256_20710_W034.jpg?v=1759869961",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0256_20710_W035.jpg?v=1759871948",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0256_20710_W033.jpg?v=1759869961"
+  ],
+  "descripcion": "Sneakers casuales con detalles de brillo y amortiguación suave, la mezcla perfecta entre comodidad y tendencia. Del brunch a los mandados, siempre frescas.",
+  "detalles": [
+   "Detalles con brillo dorado",
+   "Amortiguación suave",
+   "Estilo casual de tendencia",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "7.5",
+   "8",
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-901",
+  "marca": "Very G",
+  "nombre": "Very G Cora — White",
+  "genero": "Mujer",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0247_20100_W039.jpg?v=1759869445",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0247_20100_W041.jpg?v=1759869445",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0247_20100_W042.jpg?v=1759869445",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vesy_20g_VGSP0247_20100_W040.jpg?v=1759869445"
+  ],
+  "descripcion": "Sneakers de caña alta con un toque fresco y relajado, y comodidad acolchada para todo el día. Detalle de zipper decorativo como acento de moda.",
+  "detalles": [
+   "Silueta high-top de moda",
+   "Detalle de zipper decorativo",
+   "Comodidad acolchada",
+   "Parte superior de lona"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-902",
+  "marca": "Blowfish Malibu",
+  "nombre": "Blowfish Malibu Leotina — Blue",
+  "genero": "Mujer",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/blowfish_J8971F2400_M016.jpg?v=1777555064",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/blowfish_J8971F2400_M018.jpg?v=1777555071",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/blowfish_J8971F2400_M019.jpg?v=1777555077",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/blowfish_J8971F2400_M017.jpg?v=1777554560"
+  ],
+  "descripcion": "Sneakers relajadas con un giro deportivo: paneles de malla transpirable con lona suave para comodidad diaria. Suela acolchada y tacto ligero para estar en movimiento.",
+  "detalles": [
+   "Mezcla de lona y malla transpirable",
+   "Suela acolchada y ligera",
+   "Estilo relajado californiano",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-903",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 Slides — Pink",
+  "genero": "Mujer",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4484_20801_W183.jpg?v=1765471893",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4484_20801_W185.jpg?v=1765471893",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4484_20801_W186.jpg?v=1765471893",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV4484_20801_W184.jpg?v=1765473531"
+  ],
+  "descripcion": "Slides de recuperación con espuma ReactX suave y reactiva para una amortiguación de otro nivel. Soporte para todo el día en un rosa muy combinable.",
+  "detalles": [
+   "Espuma ReactX suave y reactiva",
+   "Pensadas para recuperación",
+   "Soporte durante todo el día",
+   "Formato slide sin cordones"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-904",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 — Orange",
+  "genero": "Mujer",
+  "precio": 52.93,
+  "precio_c": 1946,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20803_W027.jpg?v=1769113476",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20803_W029.jpg?v=1769113476",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20803_W030.jpg?v=1769113476",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20803_W028.jpg?v=1769116695"
+  ],
+  "descripcion": "Zapatos de recuperación con espuma ReactX ultra suave y reactiva, para un confort que no vas a querer quitarte. Parte superior y mediasuela ReactX con suela de goma.",
+  "detalles": [
+   "Espuma ReactX ultra suave",
+   "Parte superior y mediasuela ReactX",
+   "Suela de goma",
+   "Orificios de ventilación"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-905",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Pryce — White",
+  "genero": "Mujer",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_pryce_20white_W009.jpg?v=1762812723",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_pryce_20white_W011.jpg?v=1762812723",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_pryce_20white_W012.jpg?v=1762812723",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_pryce_20white_W010.jpg?v=1762812723"
+  ],
+  "descripcion": "Las Pryce llevan sofisticación moderna al uso diario con un diseño pulido y versátil. Suela acolchada y materiales premium para comodidad todo el día.",
+  "detalles": [
+   "Parte superior de malla con refuerzos de lona",
+   "Suela acolchada",
+   "Diseño pulido y versátil",
+   "Cierre con cordones tradicional"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-906",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 — Grey",
+  "genero": "Mujer",
+  "precio": 62.93,
+  "precio_c": 2314,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20002_W047.jpg?v=1788463160",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20002_W049.jpg?v=1788463160",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20002_W051.jpg?v=1788463160",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HV5062_20002_W048.jpg?v=1788463160"
+  ],
+  "descripcion": "Zapatos de recuperación con espuma ReactX ultra suave y reactiva, para un confort que no vas a querer quitarte. En gris versátil, con parte superior y mediasuela ReactX y suela de goma.",
+  "detalles": [
+   "Espuma ReactX ultra suave",
+   "Parte superior y mediasuela ReactX",
+   "Suela de goma",
+   "Orificios de ventilación"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-907",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Geisha Low — Black (Toddler)",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF083.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF085.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF086.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF084.jpg?v=1776690782"
+  ],
+  "descripcion": "Sneakers toddler con el arte de tatuaje insignia de Ed Hardy en toda la lona. Silueta baja con mucha actitud para los más pequeños.",
+  "detalles": [
+   "Arte inspirado en tatuaje en toda la parte superior",
+   "Parte superior de lona con gráficos",
+   "Silueta baja Toddler",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-908",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Pryce — White (Little Kid)",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_jpryce_20white_PS130.jpg?v=1775158898",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_jpryce_20white_PS111.jpg?v=1775644619",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_jpryce_20white_PS131.jpg?v=1775644619",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_jpryce_20white_PS112.jpg?v=1775644619"
+  ],
+  "descripcion": "La versión infantil de las Pryce: diseño pulido y versátil con suela acolchada para comodidad todo el día. Malla con refuerzos de lona en blanco fácil de combinar.",
+  "detalles": [
+   "Parte superior de malla con refuerzos de lona",
+   "Suela acolchada",
+   "Diseño pulido y versátil",
+   "Segmento Little Kid (Pre-School)"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-909",
+  "marca": "Saucony",
+  "nombre": "Saucony Ride Millennium — Pink (Toddler)",
+  "genero": "Niños",
+  "precio": 42.93,
+  "precio_c": 1579,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25B02_IF010.jpg?v=1751030866",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25B02_IF012.jpg?v=1751037527",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25B02_IF013.jpg?v=1751037527",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25B02_IF011.jpg?v=1751030866"
+  ],
+  "descripcion": "Las Ride Millennium toddler capturan el espíritu de los clásicos del running de Saucony con un guiño Y2K. Amortiguación Grid, malla y acentos metálicos.",
+  "detalles": [
+   "Amortiguación Grid",
+   "Parte superior de malla con refuerzos",
+   "Acentos metálicos estilo Y2K",
+   "Versión Toddler"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-910",
+  "marca": "New Balance",
+  "nombre": "New Balance 480 — Black/White (Big Kid)",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS068.jpg?v=1766150333",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS070.jpg?v=1766150340",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS071.jpg?v=1766150340",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS069.jpg?v=1766150344"
+  ],
+  "descripcion": "Zapatos de basketball para niños inspirados en los estilos usados en la cancha, con un look auténtico que les encanta. Suela cupsole y suela exterior de goma para tracción y durabilidad.",
+  "detalles": [
+   "Inspiración basketball clásica",
+   "Suela exterior de goma con tracción",
+   "Construcción cupsole duradera",
+   "Segmento Big Kid (Grade School)"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-911",
+  "marca": "Puma",
+  "nombre": "Puma Cool Cat 2.0 Slides — Team Regal Red / Puma Black",
+  "genero": "Hombre",
+  "precio": 30.99,
+  "precio_c": 1140,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/389110/40/sv01/fnd/PNA/fmt/png/Cool-Cat-2.0-Men's-Slides",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/389110/40/fnd/PNA/fmt/png/Cool-Cat-2.0-Men's-Slides",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/389110/40/bv/fnd/PNA/fmt/png/Cool-Cat-2.0-Men's-Slides",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/389110/40/sv02/fnd/PNA/fmt/png/Cool-Cat-2.0-Men's-Slides"
+  ],
+  "descripcion": "Sandalias slide ligeras de Puma con banda ancha y el logo de la marca, pensadas para descanso y uso diario.",
+  "detalles": [
+   "Banda superior ancha con logo Puma",
+   "Suela ligera de EVA",
+   "Diseño slide fácil de poner y quitar",
+   "Para hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-912",
+  "marca": "Puma",
+  "nombre": "Puma ATTACANTO II Soccer Cleats — Puma Black / Puma White",
+  "genero": "Hombre",
+  "precio": 42.99,
+  "precio_c": 1581,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108495/01/sv01/fnd/PNA/fmt/png/ATTACANTO-II-Men's-Soccer-Cleats",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108495/01/fnd/PNA/fmt/png/ATTACANTO-II-Men's-Soccer-Cleats",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108495/01/bv/fnd/PNA/fmt/png/ATTACANTO-II-Men's-Soccer-Cleats",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108495/01/sv02/fnd/PNA/fmt/png/ATTACANTO-II-Men's-Soccer-Cleats"
+  ],
+  "descripcion": "Botines de fútbol para canchas firmes y artificiales, con ajuste firme y tracción pensada para cambios de ritmo.",
+  "detalles": [
+   "Parte superior sintética resistente",
+   "Suela con tacos para pasto firme/artificial",
+   "Ajuste con cordones",
+   "Para hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-913",
+  "marca": "Puma",
+  "nombre": "Puma Catch Sneakers — Puma White / Feather Gray",
+  "genero": "Hombre",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402679/02/sv01/fnd/PNA/fmt/png/Catch-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402679/02/fnd/PNA/fmt/png/Catch-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402679/02/bv/fnd/PNA/fmt/png/Catch-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402679/02/sv02/fnd/PNA/fmt/png/Catch-Men's-Sneakers"
+  ],
+  "descripcion": "Sneakers de inspiración retro con parte superior combinada y suela cómoda para el día a día.",
+  "detalles": [
+   "Silueta baja estilo retro",
+   "Parte superior de materiales combinados",
+   "Suela de goma con buen agarre",
+   "Para hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-914",
+  "marca": "Puma",
+  "nombre": "Puma Caven 2.0 Lux Sneakers — Puma White / Cool Light Gray",
+  "genero": "Hombre",
+  "precio": 52.99,
+  "precio_c": 1949,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/02/sv01/fnd/PNA/fmt/png/Caven-2.0-Lux-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/02/mod01/fnd/PNA/fmt/png/Caven-2.0-Lux-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/02/mod02/fnd/PNA/fmt/png/Caven-2.0-Lux-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/02/fnd/PNA/fmt/png/Caven-2.0-Lux-Men's-Sneakers"
+  ],
+  "descripcion": "Sneakers estilo básquetbol retro con cuero premium y mediasuela apilada que aporta comodidad todo el día.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Mediasuela apilada estilo retro",
+   "Silueta de cancha clásica",
+   "Para hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-915",
+  "marca": "Puma",
+  "nombre": "Puma ST Runner v4 Leather Sneakers — Puma White / Glacial Gray / Gum",
+  "genero": "Hombre",
+  "precio": 52.99,
+  "precio_c": 1949,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/399068/13/sv01/fnd/PNA/fmt/png/ST-Runner-v4-Leather-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/399068/13/fnd/PNA/fmt/png/ST-Runner-v4-Leather-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/399068/13/bv/fnd/PNA/fmt/png/ST-Runner-v4-Leather-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/399068/13/sv02/fnd/PNA/fmt/png/ST-Runner-v4-Leather-Men's-Sneakers"
+  ],
+  "descripcion": "Sneakers de running retro en cuero, con amortiguación suave para caminatas y uso urbano.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Amortiguación SoftFoam+",
+   "Estilo runner retro",
+   "Para hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-916",
+  "marca": "Puma",
+  "nombre": "Puma Rebound V6 Mid Top Sneakers — Puma White / Flat Bronze",
+  "genero": "Hombre",
+  "precio": 52.99,
+  "precio_c": 1949,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/392326/49/sv01/fnd/PNA/fmt/png/Rebound-V6-Men's-Mid-Top-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/392326/49/fnd/PNA/fmt/png/Rebound-V6-Men's-Mid-Top-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/392326/49/bv/fnd/PNA/fmt/png/Rebound-V6-Men's-Mid-Top-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/392326/49/sv02/fnd/PNA/fmt/png/Rebound-V6-Men's-Mid-Top-Sneakers"
+  ],
+  "descripcion": "Sneakers de caña media estilo básquetbol, con cuello acolchado y suela resistente para uso diario.",
+  "detalles": [
+   "Caña media con cuello acolchado",
+   "Parte superior sintética y de cuero",
+   "Suela de goma duradera",
+   "Para hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-917",
+  "marca": "Puma",
+  "nombre": "Puma Club 5v5 Lux Sneakers — Alpine Snow / Puma White / Puma Gold",
+  "genero": "Hombre",
+  "precio": 52.99,
+  "precio_c": 1949,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397449/01/sv01/fnd/PNA/fmt/png/Club-5v5-Lux-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397449/01/mod01/fnd/PNA/fmt/png/Club-5v5-Lux-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397449/01/mod02/fnd/PNA/fmt/png/Club-5v5-Lux-Men's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397449/01/fnd/PNA/fmt/png/Club-5v5-Lux-Men's-Sneakers"
+  ],
+  "descripcion": "Sneakers de perfil bajo inspirados en el fútbol sala, con acabados premium y suela de goma clásica.",
+  "detalles": [
+   "Inspiración fútbol indoor",
+   "Parte superior de cuero",
+   "Suela de goma estilo cupsole",
+   "Para hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-918",
+  "marca": "Puma",
+  "nombre": "Puma Cool Cat 2.0 Sport Slides — Cloud Pink / Rose Gold",
+  "genero": "Mujer",
+  "precio": 27.99,
+  "precio_c": 1029,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/390963/02/sv01/fnd/PNA/fmt/png/Cool-Cat-2.0-Sport-Women's-Slides",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/390963/02/mod01/fnd/PNA/fmt/png/Cool-Cat-2.0-Sport-Women's-Slides",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/390963/02/mod02/fnd/PNA/fmt/png/Cool-Cat-2.0-Sport-Women's-Slides",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/390963/02/fnd/PNA/fmt/png/Cool-Cat-2.0-Sport-Women's-Slides"
+  ],
+  "descripcion": "Sandalias slide deportivas y ligeras, ideales para después del entrenamiento o para el descanso diario.",
+  "detalles": [
+   "Banda ancha con logo Puma",
+   "Suela ligera y flexible",
+   "Diseño slide sin cordones",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-919",
+  "marca": "Puma",
+  "nombre": "Puma Weave Zip Training Shoes — Puma Black / Puma Black",
+  "genero": "Mujer",
+  "precio": 42.99,
+  "precio_c": 1581,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/193923/02/sv01/fnd/PNA/fmt/png/Weave-Zip-Women's-Training-Shoes",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/193923/02/fnd/PNA/fmt/png/Weave-Zip-Women's-Training-Shoes",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/193923/02/bv/fnd/PNA/fmt/png/Weave-Zip-Women's-Training-Shoes",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/193923/02/sv02/fnd/PNA/fmt/png/Weave-Zip-Women's-Training-Shoes"
+  ],
+  "descripcion": "Zapatillas de entrenamiento con cierre de zipper y tejido elástico que se ajusta al pie sin cordones.",
+  "detalles": [
+   "Cierre con zipper, sin cordones",
+   "Tejido elástico tipo calcetín",
+   "Suela ligera de entrenamiento",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-920",
+  "marca": "Puma",
+  "nombre": "Puma Court Lally Skye Sneakers — Puma White / Puma Black",
+  "genero": "Mujer",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/400368/03/sv01/fnd/PNA/fmt/png/Court-Lally-Skye-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/400368/03/mod01/fnd/PNA/fmt/png/Court-Lally-Skye-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/400368/03/mod02/fnd/PNA/fmt/png/Court-Lally-Skye-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/400368/03/fnd/PNA/fmt/png/Court-Lally-Skye-Women's-Sneakers"
+  ],
+  "descripcion": "Sneakers de cancha de perfil bajo con parte superior de cuero suave y un look limpio para todos los días.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Silueta baja estilo tenis",
+   "Suela de goma con tracción",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-921",
+  "marca": "Puma",
+  "nombre": "Puma Carina Mia Sneakers — Puma White / Puma Black / Desert Dust",
+  "genero": "Mujer",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402637/09/sv01/fnd/PNA/fmt/png/Carina-Mia-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402637/09/fnd/PNA/fmt/png/Carina-Mia-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402637/09/bv/fnd/PNA/fmt/png/Carina-Mia-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/402637/09/sv02/fnd/PNA/fmt/png/Carina-Mia-Women's-Sneakers"
+  ],
+  "descripcion": "Sneakers de plataforma ligera inspirados en el estilo playero californiano, cómodos para uso diario.",
+  "detalles": [
+   "Plataforma ligera elevada",
+   "Parte superior de cuero suave",
+   "Plantilla SoftFoam+",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-922",
+  "marca": "Puma",
+  "nombre": "Puma Carina 2.0 Winter Mid Top Sneakers — Desert Dust / Puma Gold",
+  "genero": "Mujer",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/385852/07/sv01/fnd/PNA/fmt/png/Carina-2.0-Winter-Women's-Mid-Top-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/385852/07/mod01/fnd/PNA/fmt/png/Carina-2.0-Winter-Women's-Mid-Top-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/385852/07/mod02/fnd/PNA/fmt/png/Carina-2.0-Winter-Women's-Mid-Top-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/385852/07/fnd/PNA/fmt/png/Carina-2.0-Winter-Women's-Mid-Top-Sneakers"
+  ],
+  "descripcion": "Sneakers de caña media con look invernal, plataforma cómoda y parte superior abrigadora.",
+  "detalles": [
+   "Caña media estilo invernal",
+   "Plataforma con plantilla SoftFoam+",
+   "Parte superior de materiales combinados",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-923",
+  "marca": "Puma",
+  "nombre": "Puma Serve Pro Lite Sneakers — Puma White / Puma White / Puma Silver / Gray Violet",
+  "genero": "Mujer",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397411/01/sv01/fnd/PNA/fmt/png/Serve-Pro-Lite-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397411/01/mod03/fnd/PNA/fmt/png/Serve-Pro-Lite-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397411/01/mod01/fnd/PNA/fmt/png/Serve-Pro-Lite-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397411/01/mod02/fnd/PNA/fmt/png/Serve-Pro-Lite-Women's-Sneakers"
+  ],
+  "descripcion": "Sneakers estilo tenis de perfil bajo, ligeros y fáciles de combinar para el uso diario.",
+  "detalles": [
+   "Silueta baja tipo tenis",
+   "Parte superior ligera",
+   "Suela de goma clásica",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-924",
+  "marca": "Puma",
+  "nombre": "Puma K-Moda Mesh Sneakers — Sandstone / Puma White",
+  "genero": "Mujer",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/405756/04/sv01/fnd/PNA/fmt/png/K-Moda-Mesh-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/405756/04/fnd/PNA/fmt/png/K-Moda-Mesh-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/405756/04/bv/fnd/PNA/fmt/png/K-Moda-Mesh-Women's-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/405756/04/sv02/fnd/PNA/fmt/png/K-Moda-Mesh-Women's-Sneakers"
+  ],
+  "descripcion": "Sneakers de malla ligera con silueta moderna y suela cómoda para caminar todo el día.",
+  "detalles": [
+   "Parte superior de malla transpirable",
+   "Suela ligera y flexible",
+   "Estilo urbano moderno",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-925",
+  "marca": "Puma",
+  "nombre": "Puma Bella Donna Easy On Sneakers — Jasmine Flower / Puma White (Little Kid)",
+  "genero": "Niños",
+  "precio": 41.99,
+  "precio_c": 1544,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403908/04/sv01/fnd/PNA/fmt/png/Bella-Donna-Little-Kids'-Easy-On-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403908/04/fnd/PNA/fmt/png/Bella-Donna-Little-Kids'-Easy-On-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403908/04/bv/fnd/PNA/fmt/png/Bella-Donna-Little-Kids'-Easy-On-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403908/04/sv02/fnd/PNA/fmt/png/Bella-Donna-Little-Kids'-Easy-On-Sneakers"
+  ],
+  "descripcion": "Sneakers infantiles de cierre fácil, con diseño suave y suela flexible para los primeros pasos activos.",
+  "detalles": [
+   "Cierre fácil sin cordones complicados",
+   "Suela flexible para niños pequeños",
+   "Diseño ligero y cómodo",
+   "Segmento Little Kid"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-926",
+  "marca": "Puma",
+  "nombre": "Puma Carina 3.0 Easy On Sneakers — Puma White / Puma Gold (Toddler)",
+  "genero": "Niños",
+  "precio": 42.99,
+  "precio_c": 1581,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401480/01/sv01/fnd/PNA/fmt/png/Carina-3.0-Toddlers'-Easy-On-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401480/01/fnd/PNA/fmt/png/Carina-3.0-Toddlers'-Easy-On-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401480/01/bv/fnd/PNA/fmt/png/Carina-3.0-Toddlers'-Easy-On-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401480/01/sv02/fnd/PNA/fmt/png/Carina-3.0-Toddlers'-Easy-On-Sneakers"
+  ],
+  "descripcion": "Sneakers para toddlers con cierre fácil y plataforma mini estilo Carina, suaves y seguros para jugar.",
+  "detalles": [
+   "Cierre fácil para toddlers",
+   "Suela flexible y ligera",
+   "Estilo Carina en miniatura",
+   "Segmento Toddler"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-927",
+  "marca": "Puma",
+  "nombre": "Puma Jada Classic Sneakers — Puma White / Puma White (Big Kid)",
+  "genero": "Niños",
+  "precio": 45.99,
+  "precio_c": 1691,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401481/01/sv01/fnd/PNA/fmt/png/Jada-Classic-Big-Kids'-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401481/01/mod01/fnd/PNA/fmt/png/Jada-Classic-Big-Kids'-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401481/01/mod02/fnd/PNA/fmt/png/Jada-Classic-Big-Kids'-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/401481/01/fnd/PNA/fmt/png/Jada-Classic-Big-Kids'-Sneakers"
+  ],
+  "descripcion": "Sneakers para niños grandes con silueta clásica de plataforma y parte superior resistente para la escuela.",
+  "detalles": [
+   "Plataforma clásica estilo Jada",
+   "Parte superior duradera",
+   "Suela de goma con agarre",
+   "Segmento Big Kid"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-928",
+  "marca": "Puma",
+  "nombre": "Puma Carina Mia Sneakers — Puma White / Puma Gold (Big Kid)",
+  "genero": "Niños",
+  "precio": 46.99,
+  "precio_c": 1728,
+  "fotos": [
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403746/02/sv01/fnd/PNA/fmt/png/Carina-Mia-Big-Kids'-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403746/02/fnd/PNA/fmt/png/Carina-Mia-Big-Kids'-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403746/02/bv/fnd/PNA/fmt/png/Carina-Mia-Big-Kids'-Sneakers",
+   "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/403746/02/sv02/fnd/PNA/fmt/png/Carina-Mia-Big-Kids'-Sneakers"
+  ],
+  "descripcion": "Versión para niños grandes del Carina Mia, con plataforma ligera y plantilla acolchada para todo el día.",
+  "detalles": [
+   "Plataforma ligera",
+   "Plantilla acolchada",
+   "Parte superior suave y resistente",
+   "Segmento Big Kid"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-929",
+  "marca": "Reebok",
+  "nombre": "Reebok Zig Futaura 1.0 Shoes — Army Green / Chalk",
+  "genero": "Hombre",
+  "precio": 69.94,
+  "precio_c": 2572,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100288551_SLC_eCom.jpg?v=1791376558",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100288551_TPP_eCom.jpg?v=1791376558",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100288551_BLT_eCom.jpg?v=1791376558",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100288551_FLT_eCom.jpg?v=1791376558"
+  ],
+  "descripcion": "Zapatillas con la distintiva mediasuela Zig en forma de zigzag, que devuelve energía en cada paso.",
+  "detalles": [
+   "Mediasuela Zig con retorno de energía",
+   "Parte superior de malla y sintético",
+   "Suela de goma con tracción",
+   "Para hombre"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-930",
+  "marca": "Reebok",
+  "nombre": "Reebok Cityride 2 Running Shoes — Green / Black / Grey",
+  "genero": "Hombre",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263376_SLC_eCom.jpg?v=1783079277",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263376_TPP_eCom.jpg?v=1783079278",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263376_BLT_eCom.jpg?v=1783079278",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263376_FLT_eCom.jpg?v=1783079277"
+  ],
+  "descripcion": "Zapatillas de running ligeras con malla transpirable y amortiguación cómoda para salidas diarias.",
+  "detalles": [
+   "Parte superior de malla transpirable",
+   "Mediasuela acolchada",
+   "Suela de goma con tracción",
+   "Modelo de running diario"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ]
+ },
+ {
+  "codigo": "DOM-931",
+  "marca": "Reebok",
+  "nombre": "Reebok NFX Trainer 2 Training Shoes — Hazy Green / Black / White",
+  "genero": "Hombre",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_SLC_eCom.jpg?v=1784116428",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_TPP_eCom.jpg?v=1784116428",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_BLT_eCom.jpg?v=1784116428",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_FLT_eCom.jpg?v=1784116428"
+  ],
+  "descripcion": "Zapatillas de entrenamiento versátiles, estables para el gimnasio y cómodas para rutinas variadas.",
+  "detalles": [
+   "Suela plana y estable para entrenar",
+   "Parte superior ligera con soporte",
+   "Amortiguación para uso diario",
+   "Modelo de training"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-932",
+  "marca": "Reebok",
+  "nombre": "Reebok DMX Recovery Walking Slides — Washed Black",
+  "genero": "Hombre",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209351_SLC_eCom.jpg?v=1769865134",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209351_BLT_eCom.jpg?v=1769865134",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209351_FLT_eCom.jpg?v=1769865134",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209351_D2_eCom.jpg?v=1769865134"
+  ],
+  "descripcion": "Slides de recuperación con amortiguación DMX pensadas para descansar los pies después de entrenar.",
+  "detalles": [
+   "Tecnología de amortiguación DMX",
+   "Diseño slide sin cordones",
+   "Suela cómoda y ligera",
+   "Para recuperación y descanso"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-933",
+  "marca": "Reebok",
+  "nombre": "Reebok Viva Speed Shoes — White / Black / Flash Orange",
+  "genero": "Hombre",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262379_SLC_eCom.jpg?v=1764596747",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262379_FLT_eCom.jpg?v=1764596747",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262379_BT_eCom.jpg?v=1764596747",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262379_TPP_eCom.jpg?v=1764596747"
+  ],
+  "descripcion": "Zapatillas de running de perfil ligero con malla ventilada y una pisada ágil para el día a día.",
+  "detalles": [
+   "Malla ligera y ventilada",
+   "Mediasuela acolchada",
+   "Suela flexible",
+   "Modelo de running"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-934",
+  "marca": "Reebok",
+  "nombre": "Reebok Run LXS Shoes — New Grey 2 / Grey 4 / Black",
+  "genero": "Hombre",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279310_SLC_eCom.jpg?v=1788353081",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279310_TPP_eCom.jpg?v=1788353081",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279310_BLT_eCom.jpg?v=1788353081",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279310_FLT_eCom.jpg?v=1788353081"
+  ],
+  "descripcion": "Zapatillas de running sencillas y ligeras, con parte superior de malla y amortiguación para uso diario.",
+  "detalles": [
+   "Parte superior de malla",
+   "Amortiguación cómoda",
+   "Suela de goma duradera",
+   "Modelo de running diario"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-935",
+  "marca": "Reebok",
+  "nombre": "Reebok Court LXS Shoes — White / Legacy Blue / Grey 1",
+  "genero": "Hombre",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100271467_SLC_eCom.jpg?v=1779191490",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/1x1_court3.jpg?v=1787240317",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100271467_TPP_eCom.jpg?v=1779191489",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100271467_BLT_eCom.jpg?v=1779191490"
+  ],
+  "descripcion": "Sneakers estilo tenis de perfil bajo con un look limpio, pensados para combinar con todo.",
+  "detalles": [
+   "Silueta baja estilo tenis",
+   "Parte superior suave",
+   "Suela tipo cupsole",
+   "Uso urbano diario"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-936",
+  "marca": "Reebok",
+  "nombre": "Reebok Cityride 2 Running Shoes — Grey / Orange",
+  "genero": "Hombre",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263377_SLC_eCom.jpg?v=1783079304",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263377_TPP_eCom.jpg?v=1783079305",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263377_BLT_eCom.jpg?v=1783079304",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263377_FLT_eCom.jpg?v=1783079304"
+  ],
+  "descripcion": "Zapatillas de running ligeras con malla transpirable y amortiguación cómoda para salidas diarias.",
+  "detalles": [
+   "Parte superior de malla transpirable",
+   "Mediasuela acolchada",
+   "Suela de goma con tracción",
+   "Modelo de running diario"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ]
+ },
+ {
+  "codigo": "DOM-937",
+  "marca": "Reebok",
+  "nombre": "Reebok Princess Shoes — White",
+  "genero": "Mujer",
+  "precio": 69.94,
+  "precio_c": 2572,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000101_SLC_eCom.jpg?v=1764595528",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000101_MP_eCom.jpg?v=1764595528",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000101_SMC_eCom.jpg?v=1764595528",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000101_D3_eCom.jpg?v=1764595528"
+  ],
+  "descripcion": "El clásico Reebok Princess en blanco, un sneaker de cuero suave y perfil bajo que combina con todo.",
+  "detalles": [
+   "Clásico de cuero suave",
+   "Perfil bajo atemporal",
+   "Suela acolchada cómoda",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-938",
+  "marca": "Reebok",
+  "nombre": "Reebok Cityride 2 Running Shoes — Light Cocoa / Dark Cocoa / Copper",
+  "genero": "Mujer",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263380_SLC_eCom.jpg?v=1783079454",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263380_TPP_eCom.jpg?v=1783079454",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263380_BLT_eCom.jpg?v=1783079454",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263380_FLT_eCom.jpg?v=1783079454"
+  ],
+  "descripcion": "Zapatillas de running ligeras con malla transpirable y amortiguación cómoda para salidas diarias.",
+  "detalles": [
+   "Parte superior de malla transpirable",
+   "Mediasuela acolchada",
+   "Suela de goma con tracción",
+   "Modelo de running diario"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-939",
+  "marca": "Reebok",
+  "nombre": "Reebok Energen Lux Running Shoes — Core Black / Pure Grey / Ftwr White",
+  "genero": "Mujer",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033916_SLC_eCom.jpg?v=1764595275",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033916_TPP_eCom.jpg?v=1764595275",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033916_BLT_eCom.jpg?v=1764595275",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033916_FLT_eCom.jpg?v=1764595275"
+  ],
+  "descripcion": "Zapatillas de running con malla transpirable y mediasuela acolchada para entrenamientos diarios.",
+  "detalles": [
+   "Malla transpirable",
+   "Amortiguación para running diario",
+   "Suela de goma con tracción",
+   "Para mujer"
+  ],
+  "tallas": [
+   "6",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-940",
+  "marca": "Reebok",
+  "nombre": "Reebok NFX Trainer 2 Training Shoes — Black / White",
+  "genero": "Mujer",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272105_SLC_eCom_ysdtvy.jpg?v=1792844579",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272105_TPP_eCom_qujmb0.jpg?v=1792844579",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272105_BLT_eCom_7qrv9h.jpg?v=1792844579",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272105_FLT_eCom_i9cqm0.jpg?v=1792844579"
+  ],
+  "descripcion": "Zapatillas de entrenamiento versátiles, estables para el gimnasio y cómodas para rutinas variadas.",
+  "detalles": [
+   "Suela plana y estable para entrenar",
+   "Parte superior ligera con soporte",
+   "Amortiguación para uso diario",
+   "Modelo de training"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-941",
+  "marca": "Reebok",
+  "nombre": "Reebok NFX Trainer 2 Training Shoes — Chalk / Hazy Teal / Midnight Tide",
+  "genero": "Mujer",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272101_SLC_eCom.jpg?v=1777035084",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272101_TPP_eCom.jpg?v=1777035084",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272101_BLT_eCom.jpg?v=1777035084",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272101_FLT_eCom.jpg?v=1777035083"
+  ],
+  "descripcion": "Zapatillas de entrenamiento versátiles, estables para el gimnasio y cómodas para rutinas variadas.",
+  "detalles": [
+   "Suela plana y estable para entrenar",
+   "Parte superior ligera con soporte",
+   "Amortiguación para uso diario",
+   "Modelo de training"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-942",
+  "marca": "Reebok",
+  "nombre": "Reebok Viva Speed Shoes — Black / Pink Blast / Bold Purple",
+  "genero": "Mujer",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262381_SLC_eCom.jpg?v=1764596179",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262381_BLT_eCom.jpg?v=1764596179",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262381_FLT_eCom.jpg?v=1764596179",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262381_D2_eCom.jpg?v=1764596179"
+  ],
+  "descripcion": "Zapatillas de running de perfil ligero con malla ventilada y una pisada ágil para el día a día.",
+  "detalles": [
+   "Malla ligera y ventilada",
+   "Mediasuela acolchada",
+   "Suela flexible",
+   "Modelo de running"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-943",
+  "marca": "Reebok",
+  "nombre": "Reebok Club C Grounds 70 Shoes — Chalk / Linen / Gum",
+  "genero": "Mujer",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272995_SLC_eCom.jpg?v=1787053753",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272995_TPP_eCom.jpg?v=1787053753",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272995_BLT_eCom.jpg?v=1787053753",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272995_FLT_eCom.jpg?v=1787053753"
+  ],
+  "descripcion": "Sneakers retro estilo tenis de los 70, con parte superior de cuero suave y suela de goma clásica.",
+  "detalles": [
+   "Inspiración tenis vintage",
+   "Parte superior de cuero",
+   "Suela de goma estilo gum",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-944",
+  "marca": "Reebok",
+  "nombre": "Reebok OnLux Court Lite Walking Shoes — Aha Black / White",
+  "genero": "Mujer",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100250344_SLC_eCom.jpg?v=1764596851",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/1x1_rbk_aha_1_ef515eca-16db-4b71-9a5f-50fad9b38481.jpg?v=1786024968",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100250344_TPP_eCom.jpg?v=1764596851",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100250344_BLT_eCom.jpg?v=1764596851"
+  ],
+  "descripcion": "Zapatillas para caminar con parte superior ligera y amortiguación pensada para trayectos largos.",
+  "detalles": [
+   "Diseño para caminar",
+   "Parte superior ligera y transpirable",
+   "Suela acolchada",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-945",
+  "marca": "Reebok",
+  "nombre": "Reebok Club C Crib Shoes — White / White / White (Toddler)",
+  "genero": "Niños",
+  "precio": 44.94,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_SLC_eCom.jpg?v=1764595210",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_TPP_eCom.jpg?v=1764595210",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_FLT_eCom.jpg?v=1764595210",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_BLT_eCom.jpg?v=1764595210"
+  ],
+  "descripcion": "Zapatitos de cuna estilo Club C para bebés, suaves y ligeros, con el look clásico de Reebok en miniatura.",
+  "detalles": [
+   "Estilo Club C para bebé",
+   "Suela suave de cuna",
+   "Parte superior blanda",
+   "Segmento Toddler (cuna)"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-946",
+  "marca": "Reebok",
+  "nombre": "Reebok Zig Dynamica 6 Running Shoes — Dark Indigo / Midnight Tide / New Grey 1 (Little Kid)",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100268897_SLC_eCom.jpg?v=1784982854",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100268897_TPP_eCom.jpg?v=1784982854",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100268897_BLT_eCom.jpg?v=1784982854",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100268897_FLT_eCom.jpg?v=1784982854"
+  ],
+  "descripcion": "Zapatillas de running para niños con mediasuela Zig, ligeras y con cierre seguro para jugar y correr.",
+  "detalles": [
+   "Mediasuela Zig visible",
+   "Parte superior ligera de malla",
+   "Suela con tracción para niños",
+   "Segmento Little Kid"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5"
+  ]
+ },
+ {
+  "codigo": "DOM-947",
+  "marca": "Reebok",
+  "nombre": "Reebok Rush Runner 6.0 Running Shoes — Black / Black / Black (Big Kid)",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269630_SLC_eCom.jpg?v=1777637066",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269630_TPP_eCom.jpg?v=1777637066",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269630_BLT_eCom.jpg?v=1777637066",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269630_FLT_eCom.jpg?v=1777637066"
+  ],
+  "descripcion": "Zapatillas de running para niños grandes, ligeras y resistentes para la escuela y el deporte.",
+  "detalles": [
+   "Parte superior de malla transpirable",
+   "Suela ligera y flexible",
+   "Diseño resistente para uso diario",
+   "Segmento Big Kid"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-948",
+  "marca": "Crocs",
+  "nombre": "Crocs Pennywise Classic Clog Sandals — White/Red",
+  "genero": "Hombre",
+  "precio": 39.92,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b388f67ef917ac9384da8a5910a67603.jpg?v=1759428268",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8538090c01a2c606088f8043778609b8.jpg?v=1759428268",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cf0dc1361b401a91c42a720809ea3972.jpg?v=1759428268"
+  ],
+  "descripcion": "Clogs Crocs Classic edición Pennywise, con gráficos del personaje y la comodidad ligera de siempre.",
+  "detalles": [
+   "Edición especial Pennywise (It)",
+   "Material Croslite ligero",
+   "Perforaciones de ventilación",
+   "Para hombre"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "7",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-949",
+  "marca": "Asics",
+  "nombre": "Asics Skyhand OG Lifestyle Shoes — Coneflower/Terracotta",
+  "genero": "Hombre",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9b5e3dc903dc65cb2d3ffa90f49ad338.jpg?v=1757023257",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b42885faefb872c21b88f5392600d48a.jpg?v=1757023257",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/495212833811b6279f37522af28f6939.jpg?v=1757023257",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d4d877d569cd269a4b4536d8fb4d4bdf.jpg?v=1757023257"
+  ],
+  "descripcion": "Sneakers Asics Skyhand OG de inspiración retro indoor, con parte superior combinada y suela de goma.",
+  "detalles": [
+   "Estilo retro de cancha indoor",
+   "Parte superior de materiales combinados",
+   "Suela de goma con agarre",
+   "Para hombre"
+  ],
+  "tallas": [
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-950",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star High Black Suede Lifestyle Shoes — Charm Black",
+  "genero": "Hombre",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_01.jpg?v=1759248123",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_02.jpg?v=1759248132",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_03.jpg?v=1759248141",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_04.jpg?v=1759248149"
+  ],
+  "descripcion": "Los clásicos Chuck Taylor altos en gamuza negra, con la silueta de siempre y un acabado más premium.",
+  "detalles": [
+   "Caña alta clásica Chuck Taylor",
+   "Parte superior de gamuza",
+   "Suela vulcanizada de goma",
+   "Para hombre"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "10",
+   "10.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-951",
+  "marca": "Puma",
+  "nombre": "Puma Suede Lifestyle Shoes — Teal/Purple",
+  "genero": "Hombre",
+  "precio": 59.93,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/products/192d0ee8e7192ef276e97567e9c0c879.jpg?v=1691529802"
+  ],
+  "descripcion": "Puma Suede en una combinación teal y morada poco común, el ícono de gamuza con suela de goma clásica.",
+  "detalles": [
+   "Parte superior de gamuza Suede",
+   "Colorway Teal/Purple",
+   "Suela de goma clásica",
+   "Para hombre"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-952",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool Skate Shoes — White/Black",
+  "genero": "Hombre",
+  "precio": 59.93,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d0dfd8ff49129a640d044b83c6e2ee70.jpg?v=1727216584",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/872920c38b399c1a6d813c50451a00a6.jpg?v=1727216584",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9adeb7e7e8f22e5e7811ee3bfcf69418.jpg?v=1727216584"
+  ],
+  "descripcion": "Vans Knu Skool de silueta chunky noventera, con lengüeta acolchada y parte superior de cuero y gamuza.",
+  "detalles": [
+   "Silueta chunky estilo años 90",
+   "Lengüeta y cuello acolchados",
+   "Suela waffle de goma",
+   "Para hombre"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-953",
+  "marca": "New Balance",
+  "nombre": "New Balance 740 Lifestyle Shoes — Black/White/Gold",
+  "genero": "Hombre",
+  "precio": 69.91,
+  "precio_c": 2571,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c682f280294c5058db34449eab748e71.jpg?v=1764956625",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/24e22b098937bb42b85777eab3ec4888.jpg?v=1764956625",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b705578690ed0bdb47081c069c227649.jpg?v=1764956625",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/765bbb9598f040e35430ca44b6a77656.jpg?v=1764956625"
+  ],
+  "descripcion": "New Balance 740 de inspiración runner retro, con malla y capas sintéticas en negro, blanco y dorado.",
+  "detalles": [
+   "Estilo runner retro 740",
+   "Parte superior de malla y sintético",
+   "Mediasuela acolchada",
+   "Para hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-954",
+  "marca": "Nike",
+  "nombre": "Nike Field General Lifestyle Shoes — University Blue/Gum Medium Brown/White",
+  "genero": "Hombre",
+  "precio": 69.92,
+  "precio_c": 2571,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d6c7650697bc30ce09e5ed4cb2c7f029.jpg?v=1745439279",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/906c68391d488daf744a58cb642f916a.jpg?v=1745439279",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0b2e6c2fd65beb46b452b0ec22bdb1bf.jpg?v=1745439279",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/779f0432f178f33e96f7374f94f5dcd7.jpg?v=1745439279"
+  ],
+  "descripcion": "Nike Field General de perfil bajo inspirado en el fútbol americano vintage, en azul universitario con suela gum.",
+  "detalles": [
+   "Inspiración retro de fútbol americano",
+   "Parte superior combinada",
+   "Suela gum de goma",
+   "Para hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-955",
+  "marca": "Nike",
+  "nombre": "Nike Reactx Rejuven8 Sandals — Light Orewood Brown",
+  "genero": "Mujer",
+  "precio": 39.92,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/671c84f1e87937e4f7f204879e0a9143.jpg?v=1739320128",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/30be705d7aa8268cde8f347fd245435d.jpg?v=1739320128",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a1506aadc97de42a36fa355c9d1218ac.jpg?v=1739320128"
+  ],
+  "descripcion": "Sandalias Nike ReactX Rejuven8 con espuma suave y un diseño envolvente para descanso total.",
+  "detalles": [
+   "Espuma ReactX suave",
+   "Diseño slide envolvente",
+   "Suela ligera con tracción",
+   "Para mujer"
+  ],
+  "tallas": [
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-956",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool Pop Lace Lifestyle Shoes — Red/White",
+  "genero": "Mujer",
+  "precio": 54.92,
+  "precio_c": 2020,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/ed509e78e35af8f14e4bb6f477042bec.jpg?v=1768244589",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/073f926a11a739ef0563d567dc4c7569.jpg?v=1768244589",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7abf0b8955c941fc89215a01ae819f1e.jpg?v=1768244589",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b33c086005da26f9715403c951520a56.jpg?v=1768244589"
+  ],
+  "descripcion": "Vans Old Skool con cordones decorativos destacados, sobre la silueta clásica de skate en cuero y lona.",
+  "detalles": [
+   "Silueta clásica Old Skool",
+   "Cordones con detalle pop",
+   "Suela waffle de goma",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-957",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool Pop Lace Lifestyle Shoes — Black/White",
+  "genero": "Mujer",
+  "precio": 54.92,
+  "precio_c": 2020,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c1f6d3a83a82c59d915a4d339965d3ed.jpg?v=1768327498",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5f55a84c1319be90e59061c4cc6fbbb1.jpg?v=1768327498",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0034480f3bf7b736241e6b69e689ecf9.jpg?v=1768327498",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/aa15182d4ccc154c07c9f72c317a6c60.jpg?v=1768327498"
+  ],
+  "descripcion": "Vans Old Skool con cordones decorativos destacados, sobre la silueta clásica de skate en cuero y lona.",
+  "detalles": [
+   "Silueta clásica Old Skool",
+   "Cordones con detalle pop",
+   "Suela waffle de goma",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-958",
+  "marca": "Converse",
+  "nombre": "Converse Chuck 70 HI Lifestyle Shoes — Black/Beige",
+  "genero": "Mujer",
+  "precio": 59.92,
+  "precio_c": 2203,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d9d0235d231631ac731a2edb168d8177.jpg?v=1729206582",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/eb28d697e5354662dd20884cedc93e3b.jpg?v=1729206582",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d40966f126e06917cc189779f363f366.jpg?v=1729206582"
+  ],
+  "descripcion": "Converse Chuck 70 altos con materiales premium y mediasuela acolchada, en negro con detalles beige.",
+  "detalles": [
+   "Versión premium Chuck 70",
+   "Caña alta de lona reforzada",
+   "Plantilla acolchada",
+   "Para mujer"
+  ],
+  "tallas": [
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5"
+  ]
+ },
+ {
+  "codigo": "DOM-959",
+  "marca": "Converse",
+  "nombre": "Converse Run Star Trainer CX Lifestyle Shoes — Blue/White",
+  "genero": "Mujer",
+  "precio": 59.92,
+  "precio_c": 2203,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/ca3636dffbe8d1e91d337076ff8c0732.jpg?v=1722464705"
+  ],
+  "descripcion": "Converse Run Star Trainer CX con suela chunky y parte superior ligera, en azul con blanco.",
+  "detalles": [
+   "Suela chunky estilo Run Star",
+   "Parte superior ligera",
+   "Inspiración retro de running",
+   "Para mujer"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-960",
+  "marca": "Saucony",
+  "nombre": "Saucony Ride Millennium Running Shoes — Pink/White",
+  "genero": "Mujer",
+  "precio": 69.92,
+  "precio_c": 2571,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8b626b5a361a185e5027f7635b2d4e42.jpg?v=1756155597",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/54441b9ac37c14624e8a2331b1956b68.jpg?v=1756155597",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c9ad9615ee9e6328f798c097fba650af.jpg?v=1756155597",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/aef94d231a8fa8197f726dbf2c138a13.jpg?v=1756155597"
+  ],
+  "descripcion": "Saucony Ride Millennium de estilo runner retro con capas de malla y sintético en rosa y blanco.",
+  "detalles": [
+   "Estilo runner retro Millennium",
+   "Parte superior de malla y sintético",
+   "Mediasuela acolchada",
+   "Para mujer"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-961",
+  "marca": "Nike",
+  "nombre": "Nike Cortez Vintage Suede Running Shoes — Sanddrift / Game Royal",
+  "genero": "Mujer",
+  "precio": 69.92,
+  "precio_c": 2571,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b3d4c2264376c1b5b5c2d29476d8c8f0.jpg?v=1730223900",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4b71ab6db66047ce51ca8f56072a4df0.jpg?v=1730223900",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4c74933a26250371cf4e0609ab427b29.jpg?v=1730223900"
+  ],
+  "descripcion": "Nike Cortez Vintage en gamuza color arena con swoosh azul royal, un clásico runner de los 70.",
+  "detalles": [
+   "Parte superior de gamuza vintage",
+   "Silueta clásica Cortez",
+   "Suela de espuma con tracción",
+   "Para mujer"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-962",
+  "marca": "Crocs",
+  "nombre": "Crocs Star Wars R2-D2 Classic Clog Sandals — White/Blue/Light Grey (Little Kid)",
+  "genero": "Niños",
+  "precio": 39.92,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7e6e22daa36610d42c5f38ea953c932b.jpg?v=1761340192",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d9fee3c59065f10d49397d3a90913999.jpg?v=1761340192",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cd3b07b435ba9f7e1ecc836f6212be9a.jpg?v=1761340192",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/eb2affdb107fa536c279bd03f336402e.jpg?v=1761340192"
+  ],
+  "descripcion": "Clogs Crocs para preschool con gráficos de R2-D2 de Star Wars, ligeros y fáciles de limpiar.",
+  "detalles": [
+   "Edición Star Wars R2-D2",
+   "Material Croslite ligero",
+   "Fáciles de poner y limpiar",
+   "Segmento Little Kid (Preschool)"
+  ],
+  "tallas": [
+   "12C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ]
+ },
+ {
+  "codigo": "DOM-963",
+  "marca": "Saucony",
+  "nombre": "Saucony Ride Millennium Running Shoes — Black/Metallic (Big Kid)",
+  "genero": "Niños",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/SYF25BB2_01.jpg?v=1753393525"
+  ],
+  "descripcion": "Saucony Ride Millennium para niños grandes, estilo runner retro en negro con detalles metálicos.",
+  "detalles": [
+   "Estilo runner retro Millennium",
+   "Parte superior de malla y sintético",
+   "Suela resistente para niños",
+   "Segmento Big Kid (Grade School)"
+  ],
+  "tallas": [
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ]
+ },
+ {
+  "codigo": "DOM-964",
+  "marca": "Jordan",
+  "nombre": "Jordan Spizike Low Basketball Shoes — White/Neutral Grey/Metallic Silver (Toddler)",
+  "genero": "Niños",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3fb35228efd573340670407619ee08ad.jpg?v=1747178202",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/acf84a4f214d5ef7076f934be36117bf.jpg?v=1747178202",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/222ad4561badd937374b257edd2d076f.jpg?v=1747178202",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d02d5016cb4fd6db4d481de268dc09d7.jpg?v=1747178202"
+  ],
+  "descripcion": "Jordan Spizike Low para toddlers, con elementos de varios Air Jordan clásicos en blanco y gris.",
+  "detalles": [
+   "Diseño híbrido Spizike para bebé",
+   "Parte superior suave para toddlers",
+   "Suela flexible",
+   "Segmento Toddler"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "9C",
+   "10C"
+  ]
+ },
+ {
+  "codigo": "DOM-965",
+  "marca": "Nike",
+  "nombre": "Nike Dunk Low Lifestyle Shoes — Pink Foam/Summit White/Light Crimson (Toddler)",
+  "genero": "Niños",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c9580977bcf1e0cf94c3dcf28ca9998b.jpg?v=1771278248",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d7a5b7c84b9d8e7089d7dd35ef8906c9.jpg?v=1771278248",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/96a32ca5a2bd4f9bccdb72fe24cf8f1f.jpg?v=1771278248",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b4a61f111aed1b92911d113001e4c07a.jpg?v=1771278248"
+  ],
+  "descripcion": "Nike Dunk Low para toddlers en rosa espuma, la silueta ícono adaptada a pies pequeños.",
+  "detalles": [
+   "Silueta Dunk Low para bebé",
+   "Parte superior de cuero suave",
+   "Suela flexible para toddlers",
+   "Segmento Toddler"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ]
+ },
+ {
+  "codigo": "DOM-966",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool Sneaker — Black/Camo",
+  "genero": "Hombre",
+  "precio": 67.97,
+  "precio_c": 2500,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/005O4_3016_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/005O4_3016_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/005O4_3016_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/005O4_3016_main2"
+  ],
+  "descripcion": "El clásico Old Skool de Vans en negro con camuflaje, con la franja lateral Sidestripe y silueta baja de skate que combina con todo.",
+  "detalles": [
+   "Parte superior de lona y gamuza resistente",
+   "Franja lateral Sidestripe característica",
+   "Suela waffle de goma con tracción",
+   "Cuello acolchado para mayor comodidad"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-967",
+  "marca": "adidas",
+  "nombre": "adidas Dame X Basketball Shoe — Blacktop",
+  "genero": "Hombre",
+  "precio": 72.97,
+  "precio_c": 2683,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/003EY_0001_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/003EY_0001_right2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/003EY_0001_right3",
+   "https://classic.cdn.media.amplience.net/i/hibbett/003EY_0001_right4"
+  ],
+  "descripcion": "El Dame X de adidas, modelo de básquetbol de Damian Lillard en color Blacktop, pensado para cambios de dirección rápidos y juego intenso en la cancha.",
+  "detalles": [
+   "Diseño de básquetbol de perfil bajo",
+   "Parte superior ligera y con soporte",
+   "Suela de goma con tracción para la cancha",
+   "Amortiguación pensada para impactos"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-968",
+  "marca": "adidas",
+  "nombre": "adidas Superstar II Sneaker — Core Black/White",
+  "genero": "Hombre",
+  "precio": 77.97,
+  "precio_c": 2867,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/006ET_0201_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/006ET_0201_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/006ET_0201_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/006ET_0201_main3"
+  ],
+  "descripcion": "El Superstar II de adidas Originals en negro con las 3 franjas blancas: la puntera de concha más icónica del streetwear, lista para uso diario.",
+  "detalles": [
+   "Puntera de concha de goma característica",
+   "Parte superior de piel suave",
+   "Las 3 franjas dentadas en contraste",
+   "Suela cupsole de goma duradera"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-969",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool Sneaker — Grey",
+  "genero": "Hombre",
+  "precio": 67.97,
+  "precio_c": 2500,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/002HY_0256_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/002HY_0256_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/002HY_0256_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/002HY_0256_main3"
+  ],
+  "descripcion": "El Knu Skool de Vans en gris, la reinterpretación ancha y acolchada del Old Skool con espíritu de skate de los años 90.",
+  "detalles": [
+   "Silueta ancha estilo años 90",
+   "Lengüeta y cuello extra acolchados",
+   "Parte superior de gamuza y lona",
+   "Suela waffle de goma"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-970",
+  "marca": "Nike",
+  "nombre": "Nike Air Force 1 '07 LV8 Sneaker — Summit White/Black/Metallic Silver",
+  "genero": "Hombre",
+  "precio": 87.97,
+  "precio_c": 3235,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/008V2_9170_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/008V2_9170_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/008V2_9170_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/008V2_9170_main2"
+  ],
+  "descripcion": "El Air Force 1 '07 LV8 de Nike en blanco Summit con detalles negros y plateados metálicos: el clásico de 1982 con amortiguación Air.",
+  "detalles": [
+   "Parte superior de piel con perforaciones",
+   "Unidad Nike Air en la mediasuela",
+   "Suela de goma con puntos de pivote",
+   "Detalles metálicos plateados"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-971",
+  "marca": "Nike",
+  "nombre": "Nike Dunk Low Retro Sneaker — White/Black",
+  "genero": "Hombre",
+  "precio": 88.98,
+  "precio_c": 3272,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P115_1005_right2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P115_1005_right3",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P115_1005_right4",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P115_1005_right5"
+  ],
+  "descripcion": "El Dunk Low Retro de Nike en blanco y negro, la combinación más buscada del modelo nacido en las canchas de básquetbol de 1985.",
+  "detalles": [
+   "Parte superior de piel blanco y negro",
+   "Silueta baja acolchada",
+   "Suela de goma estilo cupsole",
+   "Estética retro de básquetbol"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-972",
+  "marca": "Jordan",
+  "nombre": "Jordan Hydro XI Slide — White/Legend Blue/Black",
+  "genero": "Hombre",
+  "precio": 78.97,
+  "precio_c": 2904,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_main2"
+  ],
+  "descripcion": "La sandalia Hydro XI de Jordan en blanco, azul Legend y negro, con el ADN del Air Jordan 11 para descansar con estilo después del juego.",
+  "detalles": [
+   "Tira ancha con detalles del AJ11",
+   "Plantilla contorneada y acolchada",
+   "Suela de goma con tracción",
+   "Diseño slip-on fácil de poner y quitar"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-973",
+  "marca": "Converse",
+  "nombre": "Converse Star Player 76 Sneaker — Blueberry Ice/Sugar Berry",
+  "genero": "Mujer",
+  "precio": 69.97,
+  "precio_c": 2573,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/001UQ_4075_right"
+  ],
+  "descripcion": "El Star Player 76 de Converse en tonos Blueberry Ice y Sugar Berry, un retro de cancha en colores pastel con la estrella y el chevrones clásicos de la marca.",
+  "detalles": [
+   "Parte superior en tonos pastel",
+   "Estrella y chevrones laterales clásicos",
+   "Plantilla acolchada",
+   "Suela de goma vulcanizada"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-974",
+  "marca": "adidas",
+  "nombre": "adidas Samba OG Sneaker — Sand Strata/Sky Tint",
+  "genero": "Mujer",
+  "precio": 74.97,
+  "precio_c": 2757,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/A3414_9104_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/A3414_9104_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/A3414_9104_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/A3414_9104_main3"
+  ],
+  "descripcion": "El Samba OG de adidas Originals en Sand Strata con toque Sky Tint: el clásico de fútbol sala convertido en favorito del streetwear.",
+  "detalles": [
+   "Parte superior de piel suave con refuerzo de gamuza en T",
+   "Suela de goma natural de perfil bajo",
+   "Las 3 franjas en contraste",
+   "Silueta retro de los años 50"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-975",
+  "marca": "adidas",
+  "nombre": "adidas Handball Spezial Sneaker — Semi Lucid Fuchsia/Lucid Pink",
+  "genero": "Mujer",
+  "precio": 79.97,
+  "precio_c": 2941,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/003KG_9189_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/003KG_9189_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/003KG_9189_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/003KG_9189_main3"
+  ],
+  "descripcion": "El Handball Spezial de adidas Originals en fucsia y rosa lúcido, un retro de 1979 en gamuza suave con suela de goma traslúcida.",
+  "detalles": [
+   "Parte superior de gamuza suave",
+   "Suela de goma de perfil bajo",
+   "Detalle Spezial dorado lateral",
+   "Silueta retro de balonmano"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-976",
+  "marca": "adidas",
+  "nombre": "adidas Handball Spezial Sneaker — Alumina/Core Black/Ftwr White",
+  "genero": "Mujer",
+  "precio": 82.97,
+  "precio_c": 3051,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/8702H_1019_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/8702H_1019_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/8702H_1019_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/8702H_1019_main3"
+  ],
+  "descripcion": "El Handball Spezial de adidas Originals en Alumina con franjas negras, la versión neutra del retro de gamuza que combina con cualquier outfit.",
+  "detalles": [
+   "Parte superior de gamuza suave",
+   "Las 3 franjas en negro en contraste",
+   "Suela de goma de perfil bajo",
+   "Silueta retro de 1979"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-977",
+  "marca": "Nike",
+  "nombre": "Nike Dunk Low Sneaker — White/Black",
+  "genero": "Mujer",
+  "precio": 85.98,
+  "precio_c": 3162,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P498_0201_right2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P498_0201_right3",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P498_0201_right4",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1P498_0201_right5"
+  ],
+  "descripcion": "El Dunk Low de Nike para mujer en blanco y negro, la silueta retro de básquetbol que se volvió básica del guardarropa urbano.",
+  "detalles": [
+   "Parte superior de piel blanco y negro",
+   "Cuello bajo acolchado",
+   "Suela de goma estilo cupsole",
+   "Estética retro de 1985"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-978",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clog — Hydrangea (Big Kid)",
+  "genero": "Niños",
+  "precio": 43.97,
+  "precio_c": 1617,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/001OJ_9103_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/001OJ_9103_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/001OJ_9103_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/001OJ_9103_main3"
+  ],
+  "descripcion": "El zueco Classic de Crocs en color Hydrangea para niñas grandes: ligero, con orificios para charms y correa trasera para jugar sin parar.",
+  "detalles": [
+   "Material Croslite ligero y fácil de lavar",
+   "Orificios de ventilación para charms",
+   "Correa trasera pivotante",
+   "Suela antideslizante"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-979",
+  "marca": "Crocs",
+  "nombre": "Crocs x Bluey Classic Clog — Bluey (Toddler)",
+  "genero": "Niños",
+  "precio": 48.97,
+  "precio_c": 1801,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/G6486_9100_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G6486_9100_right2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G6486_9100_right3",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G6486_9100_left"
+  ],
+  "descripcion": "El zueco Classic de Crocs edición Bluey para los más pequeños, con el personaje favorito de la tele en un diseño ligero y fácil de poner.",
+  "detalles": [
+   "Edición especial de Bluey",
+   "Material Croslite ligero y lavable",
+   "Correa trasera para mejor ajuste",
+   "Suela con tracción para primeros pasos"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-980",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star Sneaker — Pink Glitter (Toddler)",
+  "genero": "Niños",
+  "precio": 46.97,
+  "precio_c": 1727,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/005JU_9103_right"
+  ],
+  "descripcion": "El Chuck Taylor All Star de Converse en rosa con glitter para niñas pequeñas: el clásico de lona en su versión más brillante y divertida.",
+  "detalles": [
+   "Parte superior rosa con glitter",
+   "Puntera de goma característica",
+   "Suela vulcanizada flexible",
+   "Cierre de agujetas clásico"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-981",
+  "marca": "Vans",
+  "nombre": "Vans Sk8-Hi Zip Sneaker — Tie-Dye (Toddler)",
+  "genero": "Niños",
+  "precio": 51.97,
+  "precio_c": 1911,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/F9411_9998_right"
+  ],
+  "descripcion": "El Sk8-Hi Zip de Vans en tie-dye para niñas pequeñas, con zipper trasero para ponerlo y quitarlo fácil sin desamarrar agujetas.",
+  "detalles": [
+   "Zipper trasero para calce fácil",
+   "Estampado tie-dye multicolor",
+   "Silueta alta con cuello acolchado",
+   "Suela waffle de goma"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-982",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool Leopard Sneaker — Misty Mauve (Big Kid)",
+  "genero": "Niños",
+  "precio": 61.97,
+  "precio_c": 2279,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/00AT3_9103_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/00AT3_9103_right"
+  ],
+  "descripcion": "El Knu Skool de Vans con estampado de leopardo en Misty Mauve para niñas grandes: silueta ancha noventera con mucha actitud.",
+  "detalles": [
+   "Estampado de leopardo",
+   "Silueta ancha y acolchada estilo 90s",
+   "Parte superior de gamuza y textil",
+   "Suela waffle de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-983",
+  "marca": "New Balance",
+  "nombre": "New Balance 740 Sneaker — White/Black/Gold (Little Kid)",
+  "genero": "Niños",
+  "precio": 66.97,
+  "precio_c": 2463,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/005VQ_9171_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/005VQ_9171_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/005VQ_9171_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/005VQ_9171_main2"
+  ],
+  "descripcion": "El 740 de New Balance en blanco, negro y dorado para niños pequeños: un retro runner cómodo para la escuela y el juego diario.",
+  "detalles": [
+   "Parte superior de malla y sintético",
+   "Mediasuela acolchada y ligera",
+   "Suela de goma con tracción",
+   "Colores fáciles de combinar"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-984",
+  "marca": "Jordan",
+  "nombre": "Jordan 6 Rings Sneaker — White/Cool Grey (Toddler)",
+  "genero": "Niños",
+  "precio": 56.97,
+  "precio_c": 2095,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_main2"
+  ],
+  "descripcion": "El 6 Rings de Jordan en blanco y Cool Grey para niños pequeños, el homenaje a los seis campeonatos de MJ en versión mini.",
+  "detalles": [
+   "Diseño inspirado en los Air Jordan clásicos",
+   "Parte superior duradera para niños",
+   "Suela de goma con tracción",
+   "Silueta alta con soporte"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-985",
+  "marca": "PUMA",
+  "nombre": "PUMA CA Pro Mid Sneaker — Flooded Red (Big Kid)",
+  "genero": "Niños",
+  "precio": 56.97,
+  "precio_c": 2095,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/F7592_6000_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/F7592_6000_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/F7592_6000_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/F7592_6000_main3"
+  ],
+  "descripcion": "El CA Pro Mid de PUMA en rojo Flooded para niños grandes: estilo de cancha de los 80 con caña media y suela cupsole.",
+  "detalles": [
+   "Silueta media de inspiración retro",
+   "Parte superior sintética duradera",
+   "Suela cupsole de goma",
+   "Color rojo llamativo"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-986",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Jet '23 Basketball Shoe — Vivid Magenta/Metallic Gold/White (Little Kid)",
+  "genero": "Niños",
+  "precio": 56.97,
+  "precio_c": 2095,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/G3903_9105_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G3903_9105_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G3903_9105_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/G3903_9105_main3"
+  ],
+  "descripcion": "El Jet '23 de Under Armour en magenta vivo con dorado metálico para niñas pequeñas que empiezan en el básquetbol: ligero y con buen agarre.",
+  "detalles": [
+   "Diseño de básquetbol ligero",
+   "Parte superior transpirable con soporte",
+   "Suela de goma con tracción para cancha",
+   "Colores brillantes con detalle dorado"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-987",
+  "marca": "Nike",
+  "nombre": "Nike SB Zoom Janoski OG+ Skate Shoe — Black/White",
+  "genero": "Hombre",
+  "precio": 74.94,
+  "precio_c": 2756,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw08f73ac8/1000x1000/484/444/125/484444125.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw0411e954/1000x1000/484/444/125/484444125a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw466994b1/1000x1000/484/444/125/484444125b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw61faafb3/1000x1000/484/444/125/484444125c.jpg"
+  ],
+  "descripcion": "El Zoom Janoski OG+ de Nike SB en negro y blanco, el skate shoe de Stefan Janoski con amortiguación Zoom Air y suela de gran agarre.",
+  "detalles": [
+   "Parte superior de gamuza y lona resistente",
+   "Unidad Zoom Air en la plantilla",
+   "Suela con patrón de tracción para la tabla",
+   "Silueta baja clásica de skate"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-988",
+  "marca": "adidas",
+  "nombre": "adidas Gazelle ADV Skate Shoe — Better Scarlet/Chalk White/Gold Metallic",
+  "genero": "Hombre",
+  "precio": 77.94,
+  "precio_c": 2866,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw34f9c5bc/1000x1000/503/021/927/503021927.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwda05219f/1000x1000/503/021/927/503021927a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw48c31401/1000x1000/503/021/927/503021927b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw85d2c629/1000x1000/503/021/927/503021927c.jpg"
+  ],
+  "descripcion": "El Gazelle ADV de adidas en rojo Better Scarlet, la versión reforzada para skate del clásico Gazelle, con detalle dorado metálico.",
+  "detalles": [
+   "Parte superior de gamuza reforzada para skate",
+   "Puntera Adituff resistente a la abrasión",
+   "Suela cupsole de goma",
+   "Detalle dorado metálico lateral"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-989",
+  "marca": "adidas",
+  "nombre": "adidas Campus 90s ADV Skate Shoe — Green/White",
+  "genero": "Hombre",
+  "precio": 77.94,
+  "precio_c": 2866,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw469d37c7/1000x1000/516/059/529/516059529.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw7091feb0/1000x1000/516/059/529/516059529a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw20b202f6/1000x1000/516/059/529/516059529b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw7a268321/1000x1000/516/059/529/516059529c.jpg"
+  ],
+  "descripcion": "El Campus 90s ADV de adidas en verde y blanco, silueta noventera de skate con lengüeta acolchada y plantilla que absorbe impactos.",
+  "detalles": [
+   "Parte superior de gamuza verde",
+   "Plantilla con absorción de impacto",
+   "Suela cupsole de goma con tracción",
+   "Silueta ancha estilo años 90"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-990",
+  "marca": "Saucony",
+  "nombre": "Saucony Ride Millennium Sneaker — White/Gold",
+  "genero": "Hombre",
+  "precio": 77.94,
+  "precio_c": 2866,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwf65b9dc7/1000x1000/492/158/983/492158983.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw2385bffe/1000x1000/492/158/983/492158983a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw46e9b3f1/1000x1000/492/158/983/492158983b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwd1f07337/1000x1000/492/158/983/492158983c.jpg"
+  ],
+  "descripcion": "El Ride Millennium de Saucony en blanco y dorado, un retro runner de los 2000 con malla técnica y amortiguación cómoda para todo el día.",
+  "detalles": [
+   "Parte superior de malla y sintético estilo 2000",
+   "Mediasuela acolchada",
+   "Suela de goma duradera",
+   "Estética retro runner"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-991",
+  "marca": "Saucony",
+  "nombre": "Saucony Grid Jazz 9 Sneaker — Light Gray",
+  "genero": "Hombre",
+  "precio": 81.99,
+  "precio_c": 3015,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw5dda977f/1000x1000/505/107/131/505107131.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwa86e532c/1000x1000/505/107/131/505107131a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw80516129/1000x1000/505/107/131/505107131c.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw7acd3471/1000x1000/505/107/131/505107131d.jpg"
+  ],
+  "descripcion": "El Grid Jazz 9 de Saucony en gris claro, el clásico de running de los 90 con sistema GRID de amortiguación en el talón.",
+  "detalles": [
+   "Sistema de amortiguación GRID en el talón",
+   "Parte superior de malla y gamuza",
+   "Suela con tracción XT-600",
+   "Silueta retro de running"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-992",
+  "marca": "ASICS",
+  "nombre": "ASICS Gel-1130 Sneaker — White/Gold",
+  "genero": "Hombre",
+  "precio": 87.94,
+  "precio_c": 3234,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw18211fcb/1000x1000/516/115/983/516115983.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw840f3f2f/1000x1000/516/115/983/516115983a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwb82f42d4/1000x1000/516/115/983/516115983b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwc2ffefbd/1000x1000/516/115/983/516115983c.jpg"
+  ],
+  "descripcion": "El Gel-1130 de ASICS en blanco y dorado, retro runner de malla con tecnología GEL en el talón y soporte TRUSSTIC heredado de la serie GT-1000.",
+  "detalles": [
+   "Amortiguación GEL en el talón",
+   "Parte superior de malla con refuerzos sintéticos",
+   "Sistema de soporte TRUSSTIC",
+   "Estética técnica de los años 2000"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-993",
+  "marca": "Vans",
+  "nombre": "Vans Authentic Sneaker — Floral Embroidered Cream",
+  "genero": "Mujer",
+  "precio": 37.43,
+  "precio_c": 1376,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw625392eb/1000x1000/528/276/151/528276151.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw2a75548f/1000x1000/528/276/151/528276151a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwb4fe8935/1000x1000/528/276/151/528276151b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw08c8d2b3/1000x1000/528/276/151/528276151c.jpg"
+  ],
+  "descripcion": "El Authentic de Vans en crema con flores bordadas: el clásico de lona de 1966 con un toque femenino y artesanal.",
+  "detalles": [
+   "Lona crema con bordado floral",
+   "Suela waffle de goma original",
+   "Silueta baja con agujetas",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-994",
+  "marca": "Full Tilt",
+  "nombre": "Full Tilt Ashley Jelly Ballet Flats — Brown",
+  "genero": "Mujer",
+  "precio": 37.94,
+  "precio_c": 1395,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw6436b559/1000x1000/533/538/400/533538400.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwc63b9087/1000x1000/533/538/400/533538400a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw97d6257d/1000x1000/533/538/400/533538400b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw667ed325/1000x1000/533/538/400/533538400c.jpg"
+  ],
+  "descripcion": "Las ballet flats Ashley de Full Tilt en material jelly café: el flat de moda estilo bailarina, ligero y fácil de combinar.",
+  "detalles": [
+   "Material jelly flexible",
+   "Diseño tipo bailarina sin cierre",
+   "Suela ligera",
+   "Estilo de moda para uso diario"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-995",
+  "marca": "Nike",
+  "nombre": "Nike Pacific Sneaker — Dark Green",
+  "genero": "Mujer",
+  "precio": 45.93,
+  "precio_c": 1689,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw3d01424d/1000x1000/512/571/530/512571530.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw0b10eaa9/1000x1000/512/571/530/512571530a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwffd6a3ad/1000x1000/512/571/530/512571530b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwbfd07140/1000x1000/512/571/530/512571530c.jpg"
+  ],
+  "descripcion": "El Pacific de Nike en verde oscuro, un lifestyle de perfil bajo inspirado en el fútbol con suela de goma y acabado limpio.",
+  "detalles": [
+   "Parte superior de piel y textil",
+   "Suela de goma estilo fútbol",
+   "Silueta baja y ligera",
+   "Color verde oscuro combinable"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-996",
+  "marca": "adidas",
+  "nombre": "adidas VL Court Bold Platform Sneaker — Red/White",
+  "genero": "Mujer",
+  "precio": 45.93,
+  "precio_c": 1689,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw0205f767/1000x1000/516/056/927/516056927.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw6c9f67b6/1000x1000/516/056/927/516056927a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwc5e4d30f/1000x1000/516/056/927/516056927b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw15cdd93a/1000x1000/516/056/927/516056927c.jpg"
+  ],
+  "descripcion": "El VL Court Bold de adidas en rojo y blanco con plataforma: el court clásico elevado con las 3 franjas y suela gruesa de moda.",
+  "detalles": [
+   "Plataforma elevada de moda",
+   "Parte superior de piel suave",
+   "Las 3 franjas en contraste",
+   "Suela de goma duradera"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-997",
+  "marca": "ASICS",
+  "nombre": "ASICS Gel-1130 Sneaker — White",
+  "genero": "Mujer",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw7bd7fb1b/1000x1000/474/358/150/474358150.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw172e2c0d/1000x1000/474/358/150/474358150a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwfad94ee1/1000x1000/474/358/150/474358150b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwe40b88a5/1000x1000/474/358/150/474358150c.jpg"
+  ],
+  "descripcion": "El Gel-1130 de ASICS en blanco para mujer: malla transpirable, amortiguación GEL y el look técnico retro que domina el streetwear.",
+  "detalles": [
+   "Amortiguación GEL en el talón",
+   "Malla transpirable con refuerzos",
+   "Sistema de soporte TRUSSTIC",
+   "Estética retro de running"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-998",
+  "marca": "adidas",
+  "nombre": "adidas Campus 00s Sneaker — White/Black",
+  "genero": "Mujer",
+  "precio": 56.43,
+  "precio_c": 2075,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw535dead1/1000x1000/525/055/168/525055168.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw27b12cdc/1000x1000/525/055/168/525055168a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwe7ce9340/1000x1000/525/055/168/525055168b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw78fc4ec5/1000x1000/525/055/168/525055168c.jpg"
+  ],
+  "descripcion": "El Campus 00s de adidas en blanco y negro para mujer: gamuza suave, silueta ancha de los 2000 y las 3 franjas en contraste.",
+  "detalles": [
+   "Parte superior de gamuza suave",
+   "Lengüeta y cuello acolchados",
+   "Suela cupsole de goma",
+   "Silueta ancha estilo 2000"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-999",
+  "marca": "Saucony",
+  "nombre": "Saucony Ride Millennium Sneaker — White/Green",
+  "genero": "Mujer",
+  "precio": 56.43,
+  "precio_c": 2075,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwc2da21b4/1000x1000/492/082/916/492082916.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw060a66e1/1000x1000/492/082/916/492082916a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw6d180d48/1000x1000/492/082/916/492082916b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw47f60ebf/1000x1000/492/082/916/492082916c.jpg"
+  ],
+  "descripcion": "El Ride Millennium de Saucony en blanco y verde para mujer, retro runner de malla con capas sintéticas y amortiguación para todo el día.",
+  "detalles": [
+   "Parte superior de malla y sintético",
+   "Mediasuela acolchada",
+   "Suela de goma duradera",
+   "Estética runner de los 2000"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-1000",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star High Top Sneaker — White (Little Kid)",
+  "genero": "Niños",
+  "precio": 45.94,
+  "precio_c": 1689,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwc8052846/1000x1000/407/411/150/407411150.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwc0d780cc/1000x1000/407/411/150/407411150a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw3b7ca8ad/1000x1000/407/411/150/407411150b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw0836ba19/1000x1000/407/411/150/407411150c.jpg"
+  ],
+  "descripcion": "El Chuck Taylor All Star de caña alta en blanco para niños: el clásico de lona de Converse en su color más combinable.",
+  "detalles": [
+   "Lona blanca de caña alta",
+   "Puntera de goma característica",
+   "Suela vulcanizada flexible",
+   "Parche All Star en el tobillo"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "13.5",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-1001",
+  "marca": "Vans",
+  "nombre": "Vans Authentic Sneaker — Black/Red (Little Kid)",
+  "genero": "Niños",
+  "precio": 60.94,
+  "precio_c": 2241,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw14dff52c/1000x1000/540/922/126/540922126.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw20dfa9aa/1000x1000/540/922/126/540922126a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwc1f61956/1000x1000/540/922/126/540922126b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw2b9a6756/1000x1000/540/922/126/540922126c.jpg"
+  ],
+  "descripcion": "El Authentic de Vans en negro y rojo para niños: lona resistente y suela waffle para la escuela y el juego diario.",
+  "detalles": [
+   "Parte superior de lona resistente",
+   "Suela waffle de goma",
+   "Silueta baja con agujetas",
+   "Colores fáciles de combinar"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-1002",
+  "marca": "Vans",
+  "nombre": "Vans Classic Slip-On Sneaker — Checkerboard Hazelnut (Little Kid)",
+  "genero": "Niños",
+  "precio": 60.94,
+  "precio_c": 2241,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwcc682954/1000x1000/540/760/434/540760434.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwea6c046c/1000x1000/540/760/434/540760434a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw93ade34a/1000x1000/540/760/434/540760434b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw642aca29/1000x1000/540/760/434/540760434c.jpg"
+  ],
+  "descripcion": "El Classic Slip-On de Vans con checkerboard en tono Hazelnut para niñas: sin agujetas, con elásticos laterales para calce rápido.",
+  "detalles": [
+   "Diseño slip-on sin agujetas",
+   "Estampado checkerboard clásico",
+   "Elásticos laterales para ajuste seguro",
+   "Suela waffle de goma"
+  ],
+  "tallas": [
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-1003",
+  "marca": "Vans",
+  "nombre": "Vans Checkerboard Classic Slip-On Sneaker — Tan (Big Kid)",
+  "genero": "Niños",
+  "precio": 67.94,
+  "precio_c": 2498,
+  "fotos": [
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dwbf6333b2/1000x1000/544/429/412/544429412.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw859669e2/1000x1000/544/429/412/544429412a.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw08ec7e37/1000x1000/544/429/412/544429412b.jpg",
+   "https://www.tillys.com/on/demandware.static/-/Sites-master-catalog/default/dw65fc59d2/1000x1000/544/429/412/544429412c.jpg"
+  ],
+  "descripcion": "El Classic Slip-On checkerboard de Vans en tono Tan para niños grandes: el estampado a cuadros de siempre en un color neutro y moderno.",
+  "detalles": [
+   "Diseño slip-on sin agujetas",
+   "Checkerboard en tono Tan",
+   "Parte superior de lona",
+   "Suela waffle de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-1004",
+  "marca": "On",
+  "nombre": "On Cloudrunner 3 Running Shoe — Linen/Ivory",
+  "genero": "Hombre",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/files/044402_3_2048x.jpg?v=1769807698",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/044402_3.jpg?v=1769807698",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/044402_1.jpg?v=1769807698",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/044402_2.jpg?v=1769807698"
+  ],
+  "descripcion": "El Cloudrunner 3 de On en Linen/Ivory: running de soporte con espuma Helion y elementos Cloud para entrenamientos diarios estables y cómodos.",
+  "detalles": [
+   "Tecnología CloudTec con espuma Helion",
+   "Soporte y estabilidad para pisada neutra a pronadora",
+   "Parte superior de malla técnica",
+   "Suela de goma con tracción en mojado"
+  ],
+  "tallas": [
+   "10",
+   "11",
+   "11.5",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-1005",
+  "marca": "On",
+  "nombre": "On Cloudpulse Next Training Shoe — Chalk/Linen",
+  "genero": "Hombre",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/files/562020_3_2048x.jpg?v=1772129624",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/562020_3.jpg?v=1772129624",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/562020_1.jpg?v=1772129624",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/562020_2.jpg?v=1772129624"
+  ],
+  "descripcion": "El Cloudpulse Next de On en Chalk/Linen, pensado para entrenar en el gimnasio: base estable, retorno de energía y ajuste tipo calcetín.",
+  "detalles": [
+   "Base ancha y estable para pesas y HIIT",
+   "Espuma con retorno de energía",
+   "Parte superior tipo calcetín de una pieza",
+   "Suela de goma adherente"
+  ],
+  "tallas": [
+   "8.5",
+   "9.5",
+   "10",
+   "10.5",
+   "11.5",
+   "12.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1006",
+  "marca": "New Balance",
+  "nombre": "New Balance Fresh Foam X 880v15 Running Shoe — Sea Stone/NB Navy/Marmalade",
+  "genero": "Hombre",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/files/043499_3_31baf0b1-a85d-4888-a240-035c645bb829_2048x.jpg?v=1737678004",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/043499_3_31baf0b1-a85d-4888-a240-035c645bb829.jpg?v=1737678004",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/043499_1_244cac36-ff82-4314-8f6e-a9fa9cde4565.jpg?v=1737678004",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/043499_2_cbb2e989-76ac-4c31-be22-c42a5b3effb3.jpg?v=1737678004"
+  ],
+  "descripcion": "El Fresh Foam X 880v15 de New Balance en Sea Stone con navy: el caballo de batalla del running diario, con la mediasuela Fresh Foam X más amortiguada de la serie 880.",
+  "detalles": [
+   "Mediasuela Fresh Foam X de máxima amortiguación",
+   "Parte superior de malla engineered",
+   "Suela Ndurance de alta duración",
+   "Ideal para kilómetros diarios"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-1007",
+  "marca": "On",
+  "nombre": "On Cloudrunner 3 Running Shoe — Seedling/Ivory",
+  "genero": "Mujer",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/files/044392_3_2048x.jpg?v=1769807697",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/044392_3.jpg?v=1769807697",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/044392_1.jpg?v=1769807697",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/044392_2.jpg?v=1769807697"
+  ],
+  "descripcion": "El Cloudrunner 3 de On en Seedling/Ivory para mujer: soporte suave con CloudTec para correr a diario con estabilidad y comodidad.",
+  "detalles": [
+   "Tecnología CloudTec con espuma Helion",
+   "Soporte estable para el día a día",
+   "Malla técnica transpirable",
+   "Suela con tracción en superficies mojadas"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1008",
+  "marca": "On",
+  "nombre": "On Cloudpulse Next Training Shoe — Black/Stone",
+  "genero": "Mujer",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/files/561989_3_2048x.jpg?v=1757437629",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/561989_3.jpg?v=1757437629",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/561989_1.jpg?v=1757437629",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/561989_2.jpg?v=1757437629"
+  ],
+  "descripcion": "El Cloudpulse Next de On en Black/Stone para mujer: entrenamiento funcional con base estable y parte superior tipo calcetín que sujeta el pie.",
+  "detalles": [
+   "Base estable para entrenamiento con pesas",
+   "Retorno de energía en cada movimiento",
+   "Ajuste tipo calcetín sin lengüeta",
+   "Suela de goma adherente"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-1009",
+  "marca": "New Balance",
+  "nombre": "New Balance Fresh Foam X 880v15 Running Shoe — Black Cement/Sea Salt/Silver",
+  "genero": "Mujer",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/files/043489_3_2048x.jpg?v=1737652566",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/043489_3.jpg?v=1737652566",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/043489_1.jpg?v=1737652566",
+   "https://cdn.shopify.com/s/files/1/2006/8755/files/043489_2.jpg?v=1737652567"
+  ],
+  "descripcion": "El Fresh Foam X 880v15 de New Balance en Black Cement para mujer: amortiguación premium para fondos y entrenamientos diarios largos.",
+  "detalles": [
+   "Mediasuela Fresh Foam X muy acolchada",
+   "Malla engineered cómoda y duradera",
+   "Suela Ndurance de larga vida",
+   "Running neutro de alta gama"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-1010",
+  "marca": "New Balance",
+  "nombre": "New Balance 574 Core Sneaker — Nimbus Cloud/White",
+  "genero": "Mujer",
+  "precio": 89.95,
+  "precio_c": 3308,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/products/049545_3_1000x.jpg?v=1762447523",
+   "https://cdn.shopify.com/s/files/1/2006/8755/products/049545_3.jpg?v=1762447523",
+   "https://cdn.shopify.com/s/files/1/2006/8755/products/049545_1.jpg?v=1671653682",
+   "https://cdn.shopify.com/s/files/1/2006/8755/products/049545_2.jpg?v=1671653683"
+  ],
+  "descripcion": "El 574 Core de New Balance en Nimbus Cloud y blanco: el clásico lifestyle de gamuza y malla con mediasuela ENCAP para todos los días.",
+  "detalles": [
+   "Parte superior de gamuza y malla",
+   "Mediasuela ENCAP con soporte",
+   "Suela de goma duradera",
+   "El clásico más versátil de la marca"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
   ]
  }
 ];
