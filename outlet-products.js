@@ -5,7 +5,7 @@
 var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "28 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -16000,8 +16000,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Run Falcon 6 (Little Kid/Big Kid) — St Tropic Bloom/Plateado Metálico/Lucid Pink",
   "genero": "Niños",
-  "precio": 59.14,
-  "precio_c": 2175,
+  "precio": 59.08,
+  "precio_c": 2173,
   "fotos": [
    "https://m.media-amazon.com/images/I/71FX79owe+L.jpg",
    "https://m.media-amazon.com/images/I/71OhCp04fTL.jpg",
@@ -16198,8 +16198,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Grand Court 3.0 Junior (Big Kid) — Blanco/Rosa Rubor/Goma",
   "genero": "Niños",
-  "precio": 47.5,
-  "precio_c": 1747,
+  "precio": 50.06,
+  "precio_c": 1841,
   "fotos": [
    "https://m.media-amazon.com/images/I/61iMFbzMzvL.jpg",
    "https://m.media-amazon.com/images/I/61OqSPRsE+L.jpg",
@@ -16226,8 +16226,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Turnaround Basketball (Big Kid) — Azul Marino Colegiado/Cielo Claro/Blanco",
   "genero": "Niños",
-  "precio": 49.39,
-  "precio_c": 1816,
+  "precio": 49.32,
+  "precio_c": 1814,
   "fotos": [
    "https://m.media-amazon.com/images/I/61umQi67sIL.jpg",
    "https://m.media-amazon.com/images/I/61QfHUzLlfL.jpg",
