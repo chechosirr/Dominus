@@ -4,7 +4,7 @@
 // El envio a Nicaragua se suma al pagar: $20 por par (aereo + entrega nacional incluida).
 var ZAP_TC = 36.774;
 var ZAP_ENVIO_NI = 20.0;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "28 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -1143,45 +1143,6 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
- },
- {
-  "codigo": "DOM-033",
-  "marca": "Nike",
-  "nombre": "Nike Court Vision Low Next Nature Sneakers - Women's",
-  "genero": "Mujeres",
-  "precio": 79.97,
-  "precio_c": 2941,
-  "fotos": [
-   "https://cdn.media.amplience.net/s/scvl/126997_356718_SET/1?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/126997_356718_SET/2?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/126997_356718_SET/3?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/126997_356718_SET/4?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/126997_356718_SET/5?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/126997_356718_SET/6?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/126997_356718_SET/7?fmt=auto&$webPdpProduct$"
-  ],
-  "descripcion": "El Court Vision Low está inspirado en el básquetbol de los 80: parte superior de cuero sintético con acabado limpio, cuello acolchado y suela cupsole de goma para usar todo el día.",
-  "detalles": [
-   "Estilo básquetbol de los 80",
-   "Cuero sintético durable",
-   "Cuello acolchado",
-   "Suela cupsole de goma"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -2384,36 +2345,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-071",
-  "marca": "adidas",
-  "nombre": "adidas Adicane Core Black",
-  "genero": "Hombre",
-  "precio": 44.97,
-  "precio_c": 1654,
-  "fotos": [
-   "https://cdn.media.amplience.net/s/scvl/143480_305959_SET/1?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/143480_305959_SET/2?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/143480_305959_SET/3?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/143480_305959_SET/4?fmt=auto&$webPdpProduct$"
-  ],
-  "descripcion": "Slide deportivo totalmente negro, ligero y fácil de poner, pensado para descansar el pie después de entrenar o para salidas relajadas. Su plantilla acolchada hace que cada paso se sienta suave.",
-  "detalles": [
-   "Entrada deslizable sin cordones, punta abierta",
-   "Plantilla de espuma acolchada con diseño de tracción",
-   "Suela duradera con ranuras de agarre",
-   "Parte superior con el logo de adidas en relieve"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-072",
   "marca": "Body Glove",
   "nombre": "Body Glove Riverbreaker II Black/Yellow",
@@ -2640,38 +2571,6 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
- },
- {
-  "codigo": "DOM-079",
-  "marca": "Fila",
-  "nombre": "Fila A-Low Black/White",
-  "genero": "Hombre",
-  "precio": 49.97,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.media.amplience.net/s/scvl/104663_208164_SET/1?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/104663_208164_SET/2?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/104663_208164_SET/3?fmt=auto&$webPdpProduct$",
-   "https://cdn.media.amplience.net/s/scvl/104663_208164_SET/4?fmt=auto&$webPdpProduct$"
-  ],
-  "descripcion": "Sneaker bajo de inspiración retro en negro con blanco, de silueta limpia que combina con casi todo. Pensado para el uso diario, con cuello y lengüeta acolchados para mayor comodidad.",
-  "detalles": [
-   "Parte superior de cuero sintético con puntera perforada",
-   "Cierre de cordones para un ajuste seguro",
-   "Plantilla con forro de tela que ayuda con la humedad",
-   "Suela de goma duradera con buena tracción"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
   ]
  },
  {
@@ -4407,54 +4306,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-137",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Disney Princess Clog Rosa (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_863043_ZM_ALT1D.JPG"
-  ],
-  "descripcion": "Zuecos rosas de Crocs con motivos de las Princesas Disney: ligeros, suaves y listos para jugar todo el día.",
-  "detalles": [
-   "Espuma Croslite moldeada, muy fácil de limpiar",
-   "Correa trasera que sujeta bien el talón",
-   "Diseño apto para el agua y de secado rápido",
-   "Suela ligera que no deja marcas"
-  ],
-  "tallas": [
-   "4",
-   "5",
-   "6"
-  ]
- },
- {
-  "codigo": "DOM-138",
-  "marca": "Vans",
-  "nombre": "Vans Knu Skool Blanco (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_909549_ZM.JPG"
-  ],
-  "descripcion": "El Knu Skool de Vans en blanco total para peques: silueta skate acolchada estilo años 90 en talla toddler.",
-  "detalles": [
-   "Parte superior de gamuza y lona",
-   "Lengüeta y cuello acolchados",
-   "Cierre de cordones",
-   "Suela waffle de goma con la tracción clásica de Vans"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9"
-  ]
- },
- {
   "codigo": "DOM-139",
   "marca": "Crocs",
   "nombre": "Crocs Classic I AM Train Clog Azul (Niños)",
@@ -4479,82 +4330,6 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
- },
- {
-  "codigo": "DOM-140",
-  "marca": "Crocs",
-  "nombre": "Hello Kitty x Crocs Classic Clog Rojo (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_826038_ZM_HERO.JPG"
-  ],
-  "descripcion": "Zueco rojo de la colaboración Hello Kitty x Crocs, con los charms de la gatita ya integrados en el diseño.",
-  "detalles": [
-   "Espuma Croslite moldeada",
-   "Charms Jibbitz de Hello Kitty fijos",
-   "Correa trasera con buen ajuste",
-   "Se limpia con agua en segundos"
-  ],
-  "tallas": [
-   "4",
-   "5",
-   "7"
-  ]
- },
- {
-  "codigo": "DOM-141",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Friendship Bracelet Clog Lavanda (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_857905_ZM_THERO.JPG"
-  ],
-  "descripcion": "Zueco lavanda inspirado en las pulseras de la amistad: suave, ligero y facilísimo de poner y quitar.",
-  "detalles": [
-   "Espuma Croslite con material biocircular",
-   "Perforaciones que ventilan y drenan el agua",
-   "Correa trasera segura",
-   "Suela ligera que no marca el piso"
-  ],
-  "tallas": [
-   "4",
-   "5",
-   "6",
-   "7"
-  ]
- },
- {
-  "codigo": "DOM-142",
-  "marca": "Mini Melissa",
-  "nombre": "Mini Melissa Hip Ballerina Negro (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_903499_FS.JPG",
-   "https://images.journeys.com/images/products/1_903499_FS_ALT1.JPG",
-   "https://images.journeys.com/images/products/1_903499_FS_ALT2.JPG",
-   "https://images.journeys.com/images/products/1_903499_ZM.JPG"
-  ],
-  "descripcion": "Bailarinas tipo Mary Jane negras de Mini Melissa, con flor en 3D y el aroma dulce característico de la marca.",
-  "detalles": [
-   "Material flexible tipo Melflex, vegano",
-   "Flor decorativa en 3D al frente",
-   "Cierre de velcro fácil para peques",
-   "Aroma a chicle clásico de Melissa"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "12"
   ]
  },
  {
@@ -4589,29 +4364,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-144",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Ice Cream Party Clog Blanco (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_863051_ZM_HERO.JPG"
-  ],
-  "descripcion": "Zuecos blancos con gráficos de helado y un cono en relieve: el par más dulce para los días de juego.",
-  "detalles": [
-   "Espuma Croslite fácil de limpiar",
-   "Gráficos de conos y chispas de colores",
-   "Charm de helado fijo en el frente",
-   "Correa trasera y suela antideslizante"
-  ],
-  "tallas": [
-   "4",
-   "5",
-   "6"
-  ]
- },
- {
   "codigo": "DOM-145",
   "marca": "Nike",
   "nombre": "Nike Flex Runner 4 Rojo/Negro/Blanco (Niños)",
@@ -4642,30 +4394,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-146",
-  "marca": "Reebok",
-  "nombre": "Reebok Club C Crema/Verde (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_753299_ZM.JPG"
-  ],
-  "descripcion": "Club C de Reebok en tonos crema con verde: un clásico de cancha de cuero suave que combina con todo.",
-  "detalles": [
-   "Parte superior de cuero suave con perforaciones",
-   "Entresuela de EVA acolchada",
-   "Cierre de cordones",
-   "Suela de goma estilo cupsole"
-  ],
-  "tallas": [
-   "13",
-   "1",
-   "2",
-   "3"
-  ]
- },
- {
   "codigo": "DOM-147",
   "marca": "Converse",
   "nombre": "Converse Chuck Taylor All Star Hi Negro (Niños)",
@@ -4691,30 +4419,6 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
- },
- {
-  "codigo": "DOM-148",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Clog Lino (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_860886_ZM.JPG"
-  ],
-  "descripcion": "El zueco clásico de Crocs en color lino, neutro y combinable con todo, en tallas de niño pequeño.",
-  "detalles": [
-   "Espuma Croslite fácil de limpiar y de secado rápido",
-   "Parte delantera ventilada que drena el agua",
-   "Correa trasera para un ajuste seguro",
-   "Suela ligera que no deja marcas"
-  ],
-  "tallas": [
-   "11",
-   "12",
-   "13",
-   "1"
   ]
  },
  {
@@ -5038,156 +4742,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-160",
-  "marca": "Converse",
-  "nombre": "Converse Chuck Taylor All Star Lift Flower Orquídea (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_856558_ZM.JPG"
-  ],
-  "descripcion": "Chuck Taylor con plataforma y flores en tono orquídea: altura extra y mucha personalidad para las más fashion.",
-  "detalles": [
-   "Plataforma de EVA de aprox. 1.25 pulgadas",
-   "Lona con detalles de flores",
-   "Cierre de cordones",
-   "Suela de goma con la tracción clásica de Chucks"
-  ],
-  "tallas": [
-   "4.5",
-   "5",
-   "5.5",
-   "6"
-  ]
- },
- {
-  "codigo": "DOM-161",
-  "marca": "Converse",
-  "nombre": "Converse Chuck Taylor All Star Ladybugs Natural (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_883939_ZM.JPG"
-  ],
-  "descripcion": "Chucks altos en tono natural con mariquitas bordadas: un detalle tierno en un ícono de siempre.",
-  "detalles": [
-   "Lona de caña alta en tono natural",
-   "Mariquitas bordadas decorativas",
-   "Puntera de goma clásica",
-   "Suela de goma duradera"
-  ],
-  "tallas": [
-   "3.5",
-   "4"
-  ]
- },
- {
-  "codigo": "DOM-162",
-  "marca": "adidas",
-  "nombre": "adidas Gazelle Bold Alúmina/Rosa (Niños)",
-  "genero": "Niños",
-  "precio": 57.97,
-  "precio_c": 2132,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_848139_ZM.JPG"
-  ],
-  "descripcion": "Gazelle Bold de adidas con plataforma y gamuza suave en tonos alúmina y rosa: el retro más buscado en talla juvenil.",
-  "detalles": [
-   "Parte superior de gamuza",
-   "Plataforma de aprox. 1.5 pulgadas",
-   "Tres franjas clásicas de adidas",
-   "Suela de goma"
-  ],
-  "tallas": [
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7"
-  ]
- },
- {
-  "codigo": "DOM-163",
-  "marca": "adidas",
-  "nombre": "adidas Gazelle Bold Rosa/Escarlata (Niños)",
-  "genero": "Niños",
-  "precio": 57.97,
-  "precio_c": 2132,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_848121_ZM.JPG"
-  ],
-  "descripcion": "Gazelle Bold en rosa con detalles escarlata y crema: gamuza, plataforma y todo el estilo retro de adidas.",
-  "detalles": [
-   "Parte superior de gamuza",
-   "Plataforma de aprox. 1.5 pulgadas",
-   "Tres franjas clásicas de adidas",
-   "Suela de goma"
-  ],
-  "tallas": [
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6"
-  ]
- },
- {
-  "codigo": "DOM-164",
-  "marca": "adidas",
-  "nombre": "adidas Gazelle Bold Violeta/Rosa (Niños)",
-  "genero": "Niños",
-  "precio": 57.97,
-  "precio_c": 2132,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_875644_ZM.JPG"
-  ],
-  "descripcion": "Gazelle Bold en violeta plateado con rosa: la plataforma de moda con la gamuza clásica de adidas.",
-  "detalles": [
-   "Parte superior de gamuza",
-   "Plataforma de aprox. 1.5 pulgadas",
-   "Tres franjas clásicas de adidas",
-   "Suela de goma"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5"
-  ]
- },
- {
-  "codigo": "DOM-165",
-  "marca": "Vans",
-  "nombre": "Vans Knu Skool Leopardo/Negro (Niños)",
-  "genero": "Niños",
-  "precio": 57.97,
-  "precio_c": 2132,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_894575_ZM.JPG"
-  ],
-  "descripcion": "Knu Skool juvenil con paneles de leopardo y negro: skate noventero con la lengua extra acolchada de la casa.",
-  "detalles": [
-   "Parte superior de gamuza y lona",
-   "Lengüeta gruesa acolchada estilo 90s",
-   "Franja lateral Sidestripe acolchada",
-   "Suela waffle de goma"
-  ],
-  "tallas": [
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5"
-  ]
- },
- {
   "codigo": "DOM-166",
   "marca": "Reebok",
   "nombre": "Reebok Rush Runner 6.0 Rojo/Blanco (Niños)",
@@ -5402,55 +4956,6 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
- },
- {
-  "codigo": "DOM-175",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Friendship Bracelet Clog Lavanda (Niños · Juvenil)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_857694_ZM.JPG"
-  ],
-  "descripcion": "Zueco lavanda inspirado en las pulseras de la amistad, en talla de niño pequeño: cómodo, ligero y listo para el agua.",
-  "detalles": [
-   "Espuma Croslite con material biocircular",
-   "Perforaciones que ventilan y drenan el agua",
-   "Correa trasera segura",
-   "Suela ligera que no marca el piso"
-  ],
-  "tallas": [
-   "11",
-   "12",
-   "2",
-   "3"
-  ]
- },
- {
-  "codigo": "DOM-176",
-  "marca": "Vans",
-  "nombre": "Vans Knu Skool Blanco (Niños · Niños pequeños)",
-  "genero": "Niños",
-  "precio": 57.97,
-  "precio_c": 2132,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_909504_ZM.JPG"
-  ],
-  "descripcion": "Knu Skool blanco de Vans para niños pequeños: acolchado, ancho y con toda la vibra skate de los 90.",
-  "detalles": [
-   "Parte superior de gamuza y lona",
-   "Lengüeta gruesa acolchada estilo 90s",
-   "Franja lateral Sidestripe acolchada",
-   "Suela waffle de goma"
-  ],
-  "tallas": [
-   "12",
-   "13",
-   "1",
-   "2",
-   "3"
   ]
  },
  {
@@ -7497,150 +7002,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-247",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Beach Clog Nácar (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_860996_ZM_HERO.JPG",
-   "https://images.journeys.com/images/products/1_860996_ZM.JPG",
-   "https://images.journeys.com/images/products/1_860996_ZM_ALT1.JPG",
-   "https://images.journeys.com/images/products/1_860996_ZM_ALT2.JPG"
-  ],
-  "descripcion": "Zuecos Crocs con efecto nacarado y charms fijos de temática marina, como conchas, estrellas de mar y delfines. Ligeros y fáciles de limpiar, pensados para jugar dentro y fuera de casa.",
-  "detalles": [
-   "Espuma Croslite moldeada, fácil de limpiar y de secado rápido",
-   "Charms fijos de playa y acabado perlado en todo el diseño",
-   "Parte delantera ventilada que ayuda a drenar agua y residuos",
-   "Correa trasera para un ajuste seguro y suela ligera que no deja marcas"
-  ],
-  "tallas": [
-   "4K",
-   "5K",
-   "6K",
-   "7K",
-   "8K"
-  ]
- },
- {
-  "codigo": "DOM-248",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Justice League Clog Multicolor (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_886297_ZM_HERO.JPG",
-   "https://images.journeys.com/images/products/1_886297_ZM.JPG",
-   "https://images.journeys.com/images/products/1_886297_ZM_ALT1.JPG",
-   "https://images.journeys.com/images/products/1_886297_ZM_ALT2.JPG"
-  ],
-  "descripcion": "Zuecos Crocs con gráficos de la Liga de la Justicia y charms fijos de Batman, Superman, Flash y Linterna Verde. Un diseño de superhéroes en la silueta clásica y cómoda de Crocs.",
-  "detalles": [
-   "Espuma Croslite moldeada, fácil de limpiar y de secado rápido",
-   "Gráficos de la Liga de la Justicia en todo el zapato",
-   "Charms fijos de Batman, Superman, Flash y Linterna Verde",
-   "Correa trasera segura y suela ligera que no deja marcas"
-  ],
-  "tallas": [
-   "4K",
-   "5K",
-   "6K",
-   "7K",
-   "8K"
-  ]
- },
- {
-  "codigo": "DOM-249",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Clog Lavanda (Niños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_649380_ZM.jpg",
-   "https://images.journeys.com/images/products/1_649380_ZM_ALT1.jpg",
-   "https://images.journeys.com/images/products/1_649380_ZM_ALT2.jpg",
-   "https://images.journeys.com/images/products/1_649380_ZM_ALT3.jpg"
-  ],
-  "descripcion": "El zueco clásico de Crocs en tono lavanda suave para los más pequeños. Muy ligero, apto para el agua y listo para ponerse y quitarse en segundos.",
-  "detalles": [
-   "Espuma Croslite moldeada, fácil de limpiar",
-   "Parte delantera ventilada para mayor frescura y drenaje",
-   "Correa trasera que sujeta bien el talón",
-   "Material apto para el agua y suela ligera que no deja marcas"
-  ],
-  "tallas": [
-   "4K",
-   "5K",
-   "6K",
-   "7K",
-   "8K",
-   "9K",
-   "10K"
-  ]
- },
- {
-  "codigo": "DOM-250",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Beach Clog Nácar (Niños · Niños pequeños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_860876_ZM_HERO.JPG",
-   "https://images.journeys.com/images/products/1_860876_ZM.JPG",
-   "https://images.journeys.com/images/products/1_860876_ZM_ALT1.JPG",
-   "https://images.journeys.com/images/products/1_860876_ZM_ALT2.JPG"
-  ],
-  "descripcion": "La versión para niños más grandes del zueco de playa de Crocs, con efecto nacarado y charms marinos fijos. Cómodos, frescos y muy fáciles de lavar tras cada aventura.",
-  "detalles": [
-   "Espuma Croslite moldeada, fácil de limpiar y de secado rápido",
-   "Charms fijos de conchas, estrellas de mar y delfines",
-   "Parte delantera ventilada que ayuda a drenar agua y residuos",
-   "Correa trasera segura y suela ligera que no deja marcas"
-  ],
-  "tallas": [
-   "11K",
-   "12K",
-   "13K",
-   "1Y",
-   "2Y",
-   "3Y"
-  ]
- },
- {
-  "codigo": "DOM-251",
-  "marca": "Crocs",
-  "nombre": "Crocs Classic Slumber Party Clog Rosa Multicolor (Niños · Niños pequeños)",
-  "genero": "Niños",
-  "precio": 47.97,
-  "precio_c": 1764,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_860866_ZM_HERO.JPG",
-   "https://images.journeys.com/images/products/1_860866_ZM.JPG",
-   "https://images.journeys.com/images/products/1_860866_ZM_ALT1.JPG",
-   "https://images.journeys.com/images/products/1_860866_ZM_ALT2.JPG"
-  ],
-  "descripcion": "Zuecos Crocs en rosa con efecto degradado de colores y charms fijos inspirados en una fiesta de pijamas. Alegres, ligeros y perfectos para jugar todo el día.",
-  "detalles": [
-   "Espuma Croslite moldeada, fácil de limpiar y de secado rápido",
-   "Efecto degradado de colores en todo el diseño",
-   "Charms fijos de temática de pijamada",
-   "Correa trasera segura y suela ligera que no deja marcas"
-  ],
-  "tallas": [
-   "11K",
-   "12K",
-   "13K",
-   "1Y",
-   "2Y",
-   "3Y"
-  ]
- },
- {
   "codigo": "DOM-252",
   "marca": "Converse",
   "nombre": "Converse Chuck Taylor All Star Low Negro (Niños)",
@@ -7846,35 +7207,6 @@ var ZAPATOS = [
    "1Y",
    "2Y",
    "3Y"
-  ]
- },
- {
-  "codigo": "DOM-259",
-  "marca": "adidas",
-  "nombre": "adidas Campus 00s Comfort Closure Rosa Claro Blanco Goma (Niños)",
-  "genero": "Niños",
-  "precio": 72.98,
-  "precio_c": 2684,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_848473_ZM.JPG",
-   "https://images.journeys.com/images/products/1_848473_ZM_ALT1.JPG",
-   "https://images.journeys.com/images/products/1_848473_ZM_ALT2.JPG",
-   "https://images.journeys.com/images/products/1_848473_ZM_ALT3.JPG"
-  ],
-  "descripcion": "El Campus 00s de adidas en rosa claro con las tres franjas blancas y suela de goma, en versión toddler de gamuza suave. Estilo retro con cierre pensado para pies pequeños.",
-  "detalles": [
-   "Parte superior de gamuza resistente",
-   "Cordones elásticos para poner y quitar con facilidad",
-   "Lengüeta y cuello acolchados, con forro suave",
-   "Suela de goma con dibujo en espiga para buen agarre"
-  ],
-  "tallas": [
-   "5K",
-   "6K",
-   "7K",
-   "8K",
-   "9K",
-   "10K"
   ]
  },
  {
@@ -17588,6 +16920,709 @@ var ZAPATOS = [
    "2",
    "3",
    "4"
+  ]
+ },
+ {
+  "codigo": "DOM-580",
+  "marca": "Nike",
+  "nombre": "Nike Kawa Slide — Digital Pink/Black/White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094610_1.jpg?v=1787851258",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094610_2.jpg?v=1787851259",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094610_3.jpg?v=1787851258",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094610_4.jpg?v=1787851258"
+  ],
+  "descripcion": "Sandalia slip-on cómoda para todo el día.",
+  "detalles": [
+   "Tira sintética suave",
+   "Plantilla de espuma afelpada",
+   "Suela con ranuras flexibles"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-581",
+  "marca": "adidas",
+  "nombre": "adidas Duramo — Navy/Silver Met/Lucid Pink (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1729_1.jpg?v=1770849855",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1729_2.jpg?v=1770849855",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1729_3.jpg?v=1770849855",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1729_4.jpg?v=1770849855"
+  ],
+  "descripcion": "Tenis liviano de running para niños pequeños, slip-on con tira de velcro.",
+  "detalles": [
+   "Mediasuela LIGHTMOTION superligera",
+   "Empeine textil multicapa",
+   "Ajuste con tira de velcro"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-582",
+  "marca": "Vans",
+  "nombre": "Vans Classic Slip-On — (Checkerboard) Black/White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 54.98,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EX8BWW_1.jpg?v=1748616124",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EX8BWW_2.jpg?v=1748616124",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EX8BWW_3.jpg?v=1748616124",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EX8BWW_4.jpg?v=1748616125"
+  ],
+  "descripcion": "Clásico slip-on checkerboard para niños pequeños, sin agujetas.",
+  "detalles": [
+   "Cierre lateral de velcro con elásticos",
+   "Lona resistente",
+   "Suela waffle"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-583",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool V — (Camo)/Black/Light Grey (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 54.97,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYAIAQ_1.jpg?v=1780687928",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYAIAQ_2.jpg?v=1780687927",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYAIAQ_3.jpg?v=1780687927",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYAIAQ_4.jpg?v=1780687927"
+  ],
+  "descripcion": "Old Skool bajo con doble velcro, camo gris y negro.",
+  "detalles": [
+   "Gamuza con lona",
+   "Cuello acolchado",
+   "Suela waffle vulcanizada"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-584",
+  "marca": "Converse",
+  "nombre": "Converse Chuck Taylor All Star Ox Core — Black/White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 54.98,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/3J235_1_01600efe-0f4f-4e15-8f06-47dac7bb08e5.jpg?v=1755552591",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/3J235_2_dc56de5e-5e1b-472a-8d92-0ed2b76ef931.jpg?v=1755552591",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/3J235_3_65535380-01ef-4ed0-8be7-957f41b4780f.jpg?v=1755552591",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/3J235_4_7df2a4f6-6e49-4345-b902-a64ce0c19ee5.jpg?v=1755552591"
+  ],
+  "descripcion": "Chuck bajo clásico en negro y blanco, ligero para todos los días.",
+  "detalles": [
+   "Lona flexible",
+   "Amortiguación de espuma",
+   "Suela vulcanizada"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-585",
+  "marca": "adidas",
+  "nombre": "adidas VL Court 3.0 — Black/White/Gum (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 59.98,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9154_1_2c174356-d66b-4c77-8a4f-400b6a5e16ec.jpg?v=1790894945",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9154_2_be0345d1-6a03-4167-ae82-6343ef8b212b.jpg?v=1790894945",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9154_3_c9003ee8-d512-46b4-b973-baba60bb1ec9.jpg?v=1790894945",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9154_4_3ac5e54b-cfff-4f96-8fcd-af4434f2cb50.jpg?v=1790894945"
+  ],
+  "descripcion": "Tenis de cancha con 3 rayas blancas y suela gum.",
+  "detalles": [
+   "Agujetas elásticas con velcro",
+   "Puntera de gamuza",
+   "Suela cupsole de goma"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-586",
+  "marca": "adidas",
+  "nombre": "adidas X_PLR PATH — Team Royal Blue/White/Semi Lucid Red (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 59.97,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ1941_1.jpg?v=1775168953",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ1941_2.jpg?v=1775168953",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ1941_3.jpg?v=1775168953",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ1941_4.jpg?v=1775168953"
+  ],
+  "descripcion": "Deportivo azul royal con acentos blancos y rojos.",
+  "detalles": [
+   "Mediasuela Cloudfoam con rebote",
+   "3 rayas blancas",
+   "Suela blanca moteada"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-587",
+  "marca": "Vans",
+  "nombre": "Vans Classic Slip-On — Black/Black (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 59.98,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000ZBUENR_1.jpg?v=1715300185",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000ZBUENR_2.jpg?v=1715300185",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000ZBUENR_3.jpg?v=1715300186",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000ZBUENR_4.jpg?v=1715300185"
+  ],
+  "descripcion": "Slip-on totalmente negro, sin agujetas.",
+  "detalles": [
+   "Paneles elásticos laterales",
+   "Lona ligera y durable",
+   "Suela waffle"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-588",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool V — Black/White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 64.98,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000VHE6BT_1_9c0806d7-dddb-41fb-9187-f538aa041392.jpg?v=1755552591",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000VHE6BT_2_45ad223e-1116-4f7a-9b19-237762d706fc.jpg?v=1755552591",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000VHE6BT_3_2d6a80e1-f174-4905-a796-af87d2e8d870.jpg?v=1755552591",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000VHE6BT_4_bdaed770-4ccd-4aa2-b36d-5dd85c2f1c6c.jpg?v=1755552590"
+  ],
+  "descripcion": "Old Skool clásico negro y blanco con doble velcro.",
+  "detalles": [
+   "Gamuza con lona y raya lateral blanca",
+   "Cuello acolchado",
+   "Suela vulcanizada waffle"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-589",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool — (Checkerboard)/Black/True White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 64.98,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0KBPB_1.jpg?v=1741991278",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0KBPB_2.jpg?v=1741991278",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0KBPB_3.jpg?v=1741991278",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0KBPB_4.jpg?v=1741991278"
+  ],
+  "descripcion": "Knu Skool toddler con checkerboard blanco y negro de alto contraste.",
+  "detalles": [
+   "Sidestripe 3D acolchado",
+   "Agujeta elástica tipo slip-on",
+   "Suela waffle"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-590",
+  "marca": "Character",
+  "nombre": "Character Hello Kitty Skate — Blanco/Rosa (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CHB103258_1.jpg?v=1784151684",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CHB103258_2.jpg?v=1784151684",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CHB103258_3.jpg?v=1784151683",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CHB103258_4.jpg?v=1784151684"
+  ],
+  "descripcion": "Zapatilla tipo skate blanca con estampado Hello Kitty y detalles rosas.",
+  "detalles": [
+   "Rueda removible en el talón",
+   "Cuello y lengüeta acolchados",
+   "Cierre con tira"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-591",
+  "marca": "Nike",
+  "nombre": "Nike Mercurial Vapor 16 Club MG — Racer Blue/White (Niños)",
+  "genero": "Niños",
+  "precio": 48.96,
+  "precio_c": 1800,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8290446_1.jpg?v=1787095723",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8290446_2.jpg?v=1787095723",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8290446_3.jpg?v=1787095723",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8290446_4.jpg?v=1787095723"
+  ],
+  "descripcion": "Taquete de fútbol para niños, para césped natural y artificial.",
+  "detalles": [
+   "Parte superior sintética texturizada",
+   "Tira de gancho y bucle sin agujetas",
+   "Tacos moldeados multiterreno"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-592",
+  "marca": "Skechers",
+  "nombre": "Skechers Jumpsters Cutie Critters — Pink/White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NPKMT_1.jpg?v=1790199612",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NPKMT_2.jpg?v=1790199611",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NPKMT_3.jpg?v=1790199612",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NPKMT_4.jpg?v=1790199612"
+  ],
+  "descripcion": "Tenis slip-on rosa y blanco con detalles de criaturas.",
+  "detalles": [
+   "Agujetas elásticas sin amarrar",
+   "Tira ajustable en el empeine",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-593",
+  "marca": "Skechers",
+  "nombre": "Skechers Jumpsters Cutie Critters — Purple/White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NLVMT_1.jpg?v=1790199609",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NLVMT_2.jpg?v=1790199609",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NLVMT_3.jpg?v=1790199609",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/302386NLVMT_4.jpg?v=1790199609"
+  ],
+  "descripcion": "Tenis slip-on lavanda con gráficos de arcoíris y personajes.",
+  "detalles": [
+   "Agujetas elásticas sin amarrar",
+   "Tira ajustable en el empeine",
+   "Lavable a máquina"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-594",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool V — (Red Hot Valentines)/Red/White (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTGJV6_1.jpg?v=1768945470",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTGJV6_2.jpg?v=1768945470",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTGJV6_3.jpg?v=1768945470",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTGJV6_4.jpg?v=1768945470"
+  ],
+  "descripcion": "Edición Red Hot Valentines con estampado de corazones.",
+  "detalles": [
+   "Doble cierre de gancho y bucle",
+   "Gamuza con lona",
+   "Suela waffle"
+  ],
+  "tallas": [
+   "7",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-595",
+  "marca": "Character",
+  "nombre": "Character Mary Jane — Black Patent (Niños · Niños pequeños)",
+  "genero": "Niños",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KG98233NBLK_1.jpg?v=1792446811",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KG98233NBLK_2.jpg?v=1792446811",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KG98233NBLK_3.jpg?v=1792446811",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KG98233NBLK_4.jpg?v=1792446811"
+  ],
+  "descripcion": "Merceditas clásicas de charol negro para niñas pequeñas, para ocasiones especiales.",
+  "detalles": [
+   "Tira Mary Jane sobre el empeine",
+   "Cierre con hebilla fácil de ajustar",
+   "Acabado brillante de charol"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-596",
+  "marca": "Skechers",
+  "nombre": "Skechers Skech Steamline — Black/Pink (Niños)",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LBKPK_1.jpg?v=1793137853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LBKPK_2.jpg?v=1793137853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LBKPK_3.jpg?v=1793137853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LBKPK_4.jpg?v=1793137853"
+  ],
+  "descripcion": "Tenis Skechers para niños en negro con detalles rosas, cómodo para el día a día.",
+  "detalles": [
+   "Diseño fácil de calzar",
+   "Suela flexible",
+   "Estilo deportivo juvenil"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-597",
+  "marca": "Skechers",
+  "nombre": "Skechers Skech Steamline — Pink/White (Niños)",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LLPK_1.jpg?v=1793137853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LLPK_2.jpg?v=1793137853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LLPK_3.jpg?v=1793137853",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304208LLPK_4.jpg?v=1793137853"
+  ],
+  "descripcion": "Tenis Skechers para niños en rosa con blanco, cómodo para el día a día.",
+  "detalles": [
+   "Diseño fácil de calzar",
+   "Suela flexible",
+   "Estilo deportivo juvenil"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-598",
+  "marca": "APRES",
+  "nombre": "APRES Carson — Chestnut (Niños)",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CARSONCHESTNUTG_1.jpg?v=1792101207",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CARSONCHESTNUTG_2.jpg?v=1792101208",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CARSONCHESTNUTG_3.jpg?v=1792101207",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CARSONCHESTNUTG_4.jpg?v=1792101207"
+  ],
+  "descripcion": "Tenis casual juvenil en color castaño cálido, para uso diario.",
+  "detalles": [
+   "Diseño limpio y combinable",
+   "Cómodo para todo el día",
+   "Estilo casual juvenil"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-599",
+  "marca": "APRES",
+  "nombre": "APRES Drizzle Low Boot — Black (Niños)",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DRIZZLEKIDBLACKG_1.jpg?v=1792532901",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DRIZZLEKIDBLACKG_2.jpg?v=1792532901",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DRIZZLEKIDBLACKG_3.jpg?v=1792532900",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DRIZZLEKIDBLACKG_4.jpg?v=1792532900"
+  ],
+  "descripcion": "Bota baja impermeable juvenil en negro, para días de lluvia.",
+  "detalles": [
+   "Impermeable, para charcos y lluvia",
+   "Diseño bajo de fácil calce",
+   "Color negro combinable"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-600",
+  "marca": "APRES",
+  "nombre": "APRES Wrap Boot — Black (Niños)",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_1.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_2.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_3.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_4.jpg?v=1792533027"
+  ],
+  "descripcion": "Bota juvenil negra con forro afelpado, para la temporada de frío.",
+  "detalles": [
+   "Forro interior afelpado",
+   "Plantilla acolchada",
+   "Diseño slip-on con puño envolvente"
+  ],
+  "tallas": [
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-601",
+  "marca": "APRES",
+  "nombre": "APRES Wrap Boot — Chestnut (Niños)",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_1.jpg?v=1792533026",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_2.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_3.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_4.jpg?v=1792533027"
+  ],
+  "descripcion": "Bota juvenil castaña con forro afelpado, para la temporada de frío.",
+  "detalles": [
+   "Forro interior afelpado",
+   "Plantilla acolchada",
+   "Diseño slip-on con puño envolvente"
+  ],
+  "tallas": [
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-602",
+  "marca": "Skechers",
+  "nombre": "Skechers Bobs Squad Waves — Rose (Mujer)",
+  "genero": "Mujer",
+  "precio": 52.96,
+  "precio_c": 1948,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/117483ROS_1.jpg?v=1718230912",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/117483ROS_2.jpg?v=1718230912",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/117483ROS_3.jpg?v=1718230912",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/117483ROS_4.jpg?v=1718230912"
+  ],
+  "descripcion": "Sneaker cotidiano de punto rosa empolvado, cómodo para el día a día.",
+  "detalles": [
+   "Cierre de agujetas",
+   "Parte superior de punto engineered con sintético",
+   "Plantilla Skechers Memory Foam acolchada"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8.5",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-603",
+  "marca": "LEE",
+  "nombre": "LEE Specter Lux — Black/Mono/Gum (Hombre)",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_1.jpg?v=1792014914",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_2.jpg?v=1792014915",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_3.jpg?v=1792014915",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_4.jpg?v=1792014915"
+  ],
+  "descripcion": "Tenis LEE de caña alta con estilo court retro, que mezcla herencia denim con una silueta limpia y versátil.",
+  "detalles": [
+   "Parte superior de nubuck sintético con acentos de mezclilla",
+   "Silueta de caña alta estilo court",
+   "Suela gum"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-604",
+  "marca": "LEE",
+  "nombre": "LEE Specter Too — Driftwood/Black (Hombre)",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000052955_1.jpg?v=1792014915",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000052955_2.jpg?v=1792014915",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000052955_3.jpg?v=1792014915",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0000052955_4.jpg?v=1792014916"
+  ],
+  "descripcion": "Tenis casual bajo que mezcla cuero sintético y mezclilla, con un look relajado y carácter.",
+  "detalles": [
+   "Cuero sintético con acentos de mezclilla",
+   "Silueta baja casual",
+   "Colorway Driftwood con negro"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
   ]
  }
 ];
