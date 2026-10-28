@@ -50,7 +50,7 @@ main{max-width:1000px;margin:0 auto;padding:26px 18px 70px}
 .catchip.on{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%);color:#0a0c10;border-color:transparent}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .18s}
 .card:hover{transform:translateY(-4px)}
-.card img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#ececf0}
+.card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff;padding:8px;box-sizing:border-box}
 .card-body{padding:10px;display:flex;flex-direction:column;gap:5px;flex:1}
 .card-title{font-size:14px;font-weight:700;line-height:1.35;color:#111111;min-height:2.7em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card-price{font-size:19px;font-weight:900;margin-top:auto;padding-top:8px}
@@ -90,7 +90,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .feat-sec h2 .hl{color:var(--acc)}
 .feat-row{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px}
 .feat-card{flex:0 0 200px;background:var(--bg);border:1px solid var(--acc);border-radius:14px;overflow:hidden;text-decoration:none;display:block}
-.feat-card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.feat-card img{width:100%;aspect-ratio:1;object-fit:contain;display:block;background:#fff;padding:8px;box-sizing:border-box}
 .feat-card div{padding:10px 12px}
 .feat-card b{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .feat-card span{font-size:15px;font-weight:900;color:var(--acc)}
@@ -674,7 +674,7 @@ function loadProdList(){
     var btn = 'background:#eef0f3;border:1px solid #d0d4da;color:#111;border-radius:9px;padding:9px 10px;font-family:inherit;font-size:12px;font-weight:700;cursor:pointer;flex:0 0 auto';
     var menBtn = 'display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid #1e242e;color:#111111;padding:12px 14px;font-size:14px;cursor:pointer;font-family:inherit';
     return '<div style="display:flex;align-items:center;gap:10px;background:#ffffff;border:1px solid #d0d4da;border-radius:12px;padding:10px 12px;margin-bottom:8px;position:relative">'
-      + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" style="width:52px;height:52px;object-fit:cover;border-radius:9px;flex:0 0 auto">' : '<div style="width:52px;height:52px;background:#1a1e28;border-radius:9px;flex:0 0 auto"></div>')
+      + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" style="width:52px;height:52px;object-fit:contain;border-radius:9px;flex:0 0 auto;background:#fff;padding:2px;box-sizing:border-box">' : '<div style="width:52px;height:52px;background:#1a1e28;border-radius:9px;flex:0 0 auto"></div>')
       + '<div style="flex:1;min-width:0"><div style="color:#111;font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + esc(p.titulo) + '</div>'
       + '<div style="color:#6a6a72;font-size:12px">' + esc(p.categoria || 'General') + ' · $' + Number(p.precio).toFixed(2) + '</div>'
       + '<div style="font-size:12px;color:#44484f">Disponibles: <b style="color:#111">' + (n === null ? '—' : n) + '</b>' + (n === 0 ? ' <b style="color:#ff8a8a">(Agotado)</b>' : '') + '</div></div>'
@@ -885,9 +885,9 @@ function productModal(pid, tok){
           + '<input id="m-catcustom" placeholder="Nombre de tu categoría" style="display:none;margin-top:8px">'
           + hint;
       })()
-    + '<label>Foto principal ★</label>' + (p && p.imagen_url ? '<div><img src="' + esc(p.imagen_url) + '" style="width:64px;height:64px;object-fit:cover;border-radius:12px;margin-bottom:6px"></div>' : '') + '<input id="m-foto1" type="file" accept="image/*">'
-    + '<label>Foto 2 (opcional)</label>' + (p && p.imagen2_url ? '<div><img src="' + esc(p.imagen2_url) + '" style="width:64px;height:64px;object-fit:cover;border-radius:12px;margin-bottom:6px"></div>' : '') + '<input id="m-foto2" type="file" accept="image/*">'
-    + '<label>Foto 3 (opcional)</label>' + (p && p.imagen3_url ? '<div><img src="' + esc(p.imagen3_url) + '" style="width:64px;height:64px;object-fit:cover;border-radius:12px;margin-bottom:6px"></div>' : '') + '<input id="m-foto3" type="file" accept="image/*">'
+    + '<label>Foto principal ★</label>' + (p && p.imagen_url ? '<div><img src="' + esc(p.imagen_url) + '" style="width:64px;height:64px;object-fit:contain;border-radius:12px;margin-bottom:6px;background:#fff;padding:3px;box-sizing:border-box"></div>' : '') + '<input id="m-foto1" type="file" accept="image/*">'
+    + '<label>Foto 2 (opcional)</label>' + (p && p.imagen2_url ? '<div><img src="' + esc(p.imagen2_url) + '" style="width:64px;height:64px;object-fit:contain;border-radius:12px;margin-bottom:6px;background:#fff;padding:3px;box-sizing:border-box"></div>' : '') + '<input id="m-foto2" type="file" accept="image/*">'
+    + '<label>Foto 3 (opcional)</label>' + (p && p.imagen3_url ? '<div><img src="' + esc(p.imagen3_url) + '" style="width:64px;height:64px;object-fit:contain;border-radius:12px;margin-bottom:6px;background:#fff;padding:3px;box-sizing:border-box"></div>' : '') + '<input id="m-foto3" type="file" accept="image/*">'
     + '<label>Descripción</label><textarea id="m-desc" rows="3">' + esc(p ? (p.descripcion || '') : '') + '</textarea>'
     + '<div id="m-tallas"></div>'
     + '<div class="row"><button class="inline-save" id="m-save">Guardar</button><button class="inline-cancel" id="m-cancel" type="button">Cancelar</button></div></div>';
