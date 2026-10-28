@@ -5,7 +5,7 @@
 var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "28 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -1165,36 +1165,6 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-081",
-  "marca": "Nike",
-  "nombre": "Nike Offcourt Adjust Slide Sandal Black/White",
-  "genero": "Hombre",
-  "precio": 61.94,
-  "precio_c": 2278,
-  "fotos": [
-   "https://www.famousfootwear.com/blob/product-images/20000/38/33/7/38337_pair_xlarge.jpg",
-   "https://www.famousfootwear.com/blob/product-images/20000/38/33/7/38337_right_xlarge.jpg",
-   "https://www.famousfootwear.com/blob/product-images/20000/38/33/7/38337_left_xlarge.jpg",
-   "https://www.famousfootwear.com/blob/product-images/20000/38/33/7/38337_lifestyle_xlarge.jpg"
-  ],
-  "descripcion": "Sandalias tipo slide negras con correa acolchada ajustable de velcro para graduar el calce a tu gusto. Plantilla contorneada de espuma de doble densidad, ideal para descansar los pies después del deporte o para salidas casuales.",
-  "detalles": [
-   "Correa ajustable con cierre de velcro",
-   "Parte superior de piel sintética",
-   "Plantilla contorneada de espuma de doble densidad",
-   "Suela de goma duradera"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
    "11",
    "12",
    "13"
@@ -12034,36 +12004,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-619",
-  "marca": "Nike",
-  "nombre": "Nike Offcourt Slides — Ashen Slate/Midnight Navy",
-  "genero": "Hombre",
-  "precio": 49.97,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_1.jpg?v=1778024867",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_2.jpg?v=1778024867",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_3.jpg?v=1778024867",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ4639410_4.jpg?v=1778024867"
-  ],
-  "descripcion": "Slides Nike Offcourt en gris pizarra y azul marino, con doble espuma pensada para la recuperación post-deporte.",
-  "detalles": [
-   "Doble espuma: comodidad y soporte",
-   "Tira sintética con forro suave",
-   "Suela de goma con tracción",
-   "Colorway Ashen Slate/Midnight Navy"
-  ],
-  "tallas": [
-   "7.0",
-   "8.0",
-   "9.0",
-   "10.0",
-   "11.0",
-   "12.0",
-   "13.0"
-  ]
- },
- {
   "codigo": "DOM-620",
   "marca": "Lee",
   "nombre": "Lee Daybreaker Hi High-Top Sneakers — Black Mono/Gum",
@@ -12355,99 +12295,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-629",
-  "marca": "Nike",
-  "nombre": "Nike Benassi JDI Slides — Black/White",
-  "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_1.jpg?v=1775518943",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_2.jpg?v=1775518943",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_3.jpg?v=1775518943",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_4.jpg?v=1775518943"
-  ],
-  "descripcion": "Las clásicas slides Nike Benassi JDI en negro con el logo en blanco: ligeras, de secado rápido y para todo uso.",
-  "detalles": [
-   "Tira sintética con logo JDI",
-   "Plantilla texturizada masajeadora",
-   "Suela de goma flexible",
-   "Colorway Black/White"
-  ],
-  "tallas": [
-   "7.0",
-   "8.0",
-   "9.0",
-   "10.0",
-   "11.0",
-   "12.0",
-   "13.0",
-   "14.0",
-   "15.0"
-  ]
- },
- {
-  "codigo": "DOM-630",
-  "marca": "Crocs",
-  "nombre": "Crocs Saturday Slide Sandals — Black",
-  "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_1.jpg?v=1776809516",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_2.jpg?v=1776809516",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_3.jpg?v=1776809516",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/213298001_4.jpg?v=1776809516"
-  ],
-  "descripcion": "Slides Crocs Saturday en negro, ultraligeras y fáciles de limpiar para la casa, la playa o el diario.",
-  "detalles": [
-   "Material Croslite ligero",
-   "Se limpian solo con agua",
-   "Tira ancha de sujeción cómoda",
-   "Colorway Black"
-  ],
-  "tallas": [
-   "7.0",
-   "8.0",
-   "9.0",
-   "10.0",
-   "11.0",
-   "12.0",
-   "13.0"
-  ]
- },
- {
-  "codigo": "DOM-631",
-  "marca": "adidas",
-  "nombre": "adidas Adilette Shower Slides — Black/Black/Black",
-  "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_1.jpg?v=1781031118",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_2.jpg?v=1781031118",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_3.jpg?v=1781031118",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_4.jpg?v=1781031118"
-  ],
-  "descripcion": "Slides Adilette Shower de adidas en negro total, hechas para la ducha, la piscina y el gimnasio.",
-  "detalles": [
-   "Material de secado rápido",
-   "Plantilla contorneada",
-   "Suela con tracción para pisos mojados",
-   "Colorway Black/Black/Black"
-  ],
-  "tallas": [
-   "7.0",
-   "8.0",
-   "9.0",
-   "10.0",
-   "11.0",
-   "12.0",
-   "13.0",
-   "14.0"
-  ]
- },
- {
   "codigo": "DOM-632",
   "marca": "Hey Dude",
   "nombre": "Hey Dude Wally Sox Micro Slip-On Casual Shoes — Total Black",
@@ -12699,40 +12546,6 @@ var ZAPATOS = [
    "Detalles decorativos tipo charm",
    "Suela waffle de goma",
    "Colorway Marshmallow/Blue"
-  ],
-  "tallas": [
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0",
-   "12.0",
-   "13.0"
-  ]
- },
- {
-  "codigo": "DOM-640",
-  "marca": "adidas",
-  "nombre": "adidas Purechill Slides — White/Team Royal Blue/Better Scarlet",
-  "genero": "Hombre",
-  "precio": 49.97,
-  "precio_c": 1838,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/711RPNN6MNL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/617nt--6IcL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/617nt--6IcL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61rgCzyhEjL._SX700_.jpg"
-  ],
-  "descripcion": "Slides adidas Purechill en blanco con franjas azul royal y rojo, con plantilla suave tipo Cloudfoam.",
-  "detalles": [
-   "Plantilla suave de secado rápido",
-   "Tira con las 3 franjas",
-   "Suela moldeada ligera",
-   "Colorway White/Team Royal Blue/Better Scarlet"
   ],
   "tallas": [
    "7.0",
@@ -23082,36 +22895,6 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-972",
-  "marca": "Jordan",
-  "nombre": "Jordan Hydro XI Slide — White/Legend Blue/Black",
-  "genero": "Hombre",
-  "precio": 78.97,
-  "precio_c": 2904,
-  "fotos": [
-   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_right",
-   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_right1",
-   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_main1",
-   "https://classic.cdn.media.amplience.net/i/hibbett/G7011_1115_main2"
-  ],
-  "descripcion": "La sandalia Hydro XI de Jordan en blanco, azul Legend y negro, con el ADN del Air Jordan 11 para descansar con estilo después del juego.",
-  "detalles": [
-   "Tira ancha con detalles del AJ11",
-   "Plantilla contorneada y acolchada",
-   "Suela de goma con tracción",
-   "Diseño slip-on fácil de poner y quitar"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
    "11",
    "12",
    "13"

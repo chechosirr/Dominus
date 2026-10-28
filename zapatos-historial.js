@@ -1611,5 +1611,29 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-578",
   "nombre": "Nike Air Max Bia (Infant/Toddler) - Ghost/Peony/White"
+ },
+ {
+  "codigo": "DOM-619",
+  "nombre": "Nike Offcourt Slides — Ashen Slate/Midnight Navy"
+ },
+ {
+  "codigo": "DOM-629",
+  "nombre": "Nike Benassi JDI Slides — Black/White"
+ },
+ {
+  "codigo": "DOM-630",
+  "nombre": "Crocs Saturday Slide Sandals — Black"
+ },
+ {
+  "codigo": "DOM-631",
+  "nombre": "adidas Adilette Shower Slides — Black/Black/Black"
+ },
+ {
+  "codigo": "DOM-640",
+  "nombre": "adidas Purechill Slides — White/Team Royal Blue/Better Scarlet"
+ },
+ {
+  "codigo": "DOM-972",
+  "nombre": "Jordan Hydro XI Slide — White/Legend Blue/Black"
  }
 ];
