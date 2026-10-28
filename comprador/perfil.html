@@ -24,6 +24,14 @@ main{max-width:760px;margin:0 auto;padding:26px 18px 70px}
 .avatar{flex:0 0 64px;width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--acc),#7c5cff);display:grid;place-content:center;font-weight:900;font-size:26px;color:#fff}
 .profile-card h1{font-size:20px}
 .profile-card small{color:var(--mut);font-size:13px}
+.welcome{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:8px}
+.welcome h1{font-size:26px;font-weight:900}
+.welcome h1 .hl{color:var(--acc)}
+.wall-link{display:inline-block;background:var(--card);border:1px solid var(--line);color:var(--txt);text-decoration:none;font-size:13px;font-weight:700;padding:10px 20px;border-radius:999px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0 30px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+.stat b{display:block;font-size:24px;font-weight:900;color:var(--acc)}
+.stat span{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1px}
 .sec{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;margin-bottom:22px}
 .sec h2{font-size:19px;margin-bottom:14px}
 .sec h2 .hl{color:var(--acc)}
@@ -294,22 +302,15 @@ function render(){
   var subtotal = cart.reduce(function(s, it){ return s + Number(it.products.precio) * it.qty; }, 0);
   var fees = cart.length ? calcFees(subtotal) : { service: 0, shipping: 0, total: 0 };
   var total = fees.total;
-  var html = '<div class="profile-card"><span class="avatar">' + esc(name.charAt(0).toUpperCase()) + '</span>'
-    + '<div><h1>' + esc(name) + '</h1><small>' + esc(session.user.email) + '</small></div></div>'
-    + '<div class="sec"><h2>Mis <span class="hl">datos de envío</span></h2>'
+  var html = '<div class="welcome"><div><h1>Hola, <span class="hl">' + esc(name) + '</span></h1>'
+    + '<small style="color:var(--mut);font-size:13px">' + esc(session.user.email) + '</small></div>'
+    + '<a class="wall-link" href="../index.html">Explorar productos</a></div>'
+    + '<div class="cards"><div class="stat"><b>' + cart.length + '</b><span>En el carrito</span></div>'
+    + '<div class="stat"><b>' + money(total) + '</b><span>Total del carrito</span></div>'
+    + '<div class="stat"><b>$1.00</b><span>Tasa de servicio</span></div></div>'
+    + '<div class="sec"><h2>Mis datos de envío</h2>'
     + '<div id="ship-form"><p class="empty">Cargando…</p></div></div>'
-    + '<div class="sec"><h2>Ajustes de cuenta</h2>'
-    + '<label>Correo electrónico</label><input id="ce-mail" type="email" autocomplete="email">'
-    + '<p id="ce-msg" style="font-size:13px;margin-top:10px"></p>'
-    + '<button class="btn" id="ce-btn">Guardar correo</button>'
-    + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
-    + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
-    + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
-    + '<p id="cp-msg" style="font-size:13px;margin-top:10px"></p>'
-    + '<button class="btn" id="cp-btn">Cambiar contraseña</button>'
-    + '</div>'
-    + '<div class="sec"><h2>Mi <span class="hl">historial</span></h2><div id="hist-list"><p class="empty">Cargando…</p></div></div>'
-    + '<div class="sec"><h2>Mi <span class="hl">carrito</span> (' + cart.length + ')</h2><div id="cart-list">';
+    + '<div class="sec"><h2>Mi carrito (' + cart.length + ')</h2><div id="cart-list">';
   if(!cart.length){
     html += '<p class="empty">Tu carrito está vacío.<br><a href="../index.html" style="color:var(--acc)">Explorar productos →</a></p>';
   } else {
@@ -328,8 +329,18 @@ function render(){
     + '<a class="btn btn-wa" id="wa-order" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>'
     + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Incluye $1.00 de tasa de servicio. Pagas el total por PayPal en una sola transacción y coordinamos el envío con rastreo.</p>';
   }
-  html += '</div></div>'
-    + '<div class="sec"><h2>Mis <span class="hl">reseñas</span></h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
+  html += '</div></div>' + '<div class="sec"><h2>Mi historial</h2><div id="hist-list"><p class="empty">Cargando…</p></div></div>'
+    + '<div class="sec"><h2>Mis reseñas</h2><div id="my-revs"><p class="empty">Cargando…</p></div></div>'
+    + '<div class="sec"><h2>Ajustes de cuenta</h2>'
+    + '<label>Correo electrónico</label><input id="ce-mail" type="email" autocomplete="email">'
+    + '<p id="ce-msg" style="font-size:13px;margin-top:10px"></p>'
+    + '<button class="btn" id="ce-btn">Guardar correo</button>'
+    + '<label>Contraseña actual</label><div class="passwrap"><input id="cp-cur" type="password" autocomplete="current-password"><button type="button" class="eye" data-for="cp-cur">Ver</button></div>'
+    + '<label>Contraseña nueva (mínimo 6 caracteres)</label><div class="passwrap"><input id="cp-new" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new">Ver</button></div>'
+    + '<label>Confirma la contraseña nueva</label><div class="passwrap"><input id="cp-new2" type="password" autocomplete="new-password"><button type="button" class="eye" data-for="cp-new2">Ver</button></div>'
+    + '<p id="cp-msg" style="font-size:13px;margin-top:10px"></p>'
+    + '<button class="btn" id="cp-btn">Cambiar contraseña</button>'
+    + '</div>'
     + '<div class="sec sell-box">¿Tienes un negocio? <a href="../cuenta.html?tipo=vendedor">Abre tu muro de vendedor →</a></div>';
   document.getElementById('main').innerHTML = html;
   if(soloCart){
