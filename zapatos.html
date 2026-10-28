@@ -54,6 +54,8 @@ aside.filters h3:first-child{margin-top:0}
 .chip.on{background:var(--dark);color:#fff;border-color:var(--dark)}
 .radios label{display:flex;gap:8px;align-items:center;padding:4px 0;font-size:.95rem;cursor:pointer}
 select.sort{width:100%;padding:9px;border:1px solid var(--bord);border-radius:10px;font-family:inherit;font-size:.95rem;background:#fff}
+select.fsel{width:100%;padding:9px;border:1px solid var(--bord);border-radius:10px;font-family:inherit;font-size:.95rem;background:#fff}
+.applyf{margin-top:16px;width:100%;padding:11px;border:0;border-radius:10px;cursor:pointer;font-family:inherit;font-weight:800;font-size:.98rem;color:#141416;background:linear-gradient(180deg,#f4f4f6,#c9c9cf);box-shadow:inset 0 1px 0 #fff}
 .clearf{margin-top:16px;width:100%;padding:9px;border:1px dashed var(--mut);background:#fff;border-radius:10px;cursor:pointer;font-family:inherit}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
 .card{border:1px solid var(--bord);border-radius:14px;overflow:hidden;background:#fff;cursor:pointer;display:flex;flex-direction:column}
@@ -209,14 +211,16 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="layout">
  <aside class="filters" id="filters">
  <h3>Marca</h3>
- <div class="chips" id="f-marca"></div>
+ <select class="fsel" id="f-marca"></select>
  <h3>Precio</h3>
- <div class="radios" id="f-precio">
- <label><input type="radio" name="pr" value="" checked> Todos los precios</label>
- <label><input type="radio" name="pr" value="0-70"> Hasta $70</label>
- <label><input type="radio" name="pr" value="70-100"> $70 a $100</label>
- <label><input type="radio" name="pr" value="100-9999"> Más de $100</label>
- </div>
+ <select class="fsel" id="f-precio">
+ <option value="">Todos los precios</option>
+ <option value="0-70">Hasta $70</option>
+ <option value="70-100">$70 a $100</option>
+ <option value="100-9999">Más de $100</option>
+ </select>
+ <h3>Talla (US)</h3>
+ <select class="fsel" id="f-talla"></select>
  <h3>Ordenar por</h3>
  <select class="sort" id="sort">
  <option value="">Destacados</option>
@@ -224,6 +228,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <option value="desc">Precio: de mayor a menor</option>
  <option value="az">Nombre: A – Z</option>
  </select>
+ <button class="applyf" id="applyf">Aplicar filtros</button>
  <button class="clearf" id="clearf">Limpiar filtros</button>
  </aside>
 
@@ -345,7 +350,7 @@ var WA_NUMBER = "15704698339";
 
 (function(){
  var grid = document.getElementById('grid'), count = document.getElementById('count');
- var state = { q:'', genero:'', marca:'', precio:'', sort:'' };
+ var state = { q:'', genero:'', marca:'', precio:'', talla:'', sort:'' };
  var detail = document.getElementById('detail'), current = null, curSize = '', curQty = 1;
  var cartwrap = document.getElementById('cartwrap');
 
@@ -369,9 +374,21 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  var marcas = [];
  ZAPATOS.forEach(function(p){ if(inCat(p) && marcas.indexOf(p.marca) < 0) marcas.push(p.marca); });
  marcas.sort();
- fm.innerHTML = '<button class="chip on" data-m="">Todas</button>' + marcas.map(function(m){ return '<button class="chip" data-m="'+esc(m)+'">'+esc(m)+'</button>'; }).join('');
+ var prev = fm.value;
+ fm.innerHTML = '<option value="">Todas las marcas</option>' + marcas.map(function(m){ return '<option value="'+esc(m)+'">'+esc(m)+'</option>'; }).join('');
+ if(prev && marcas.indexOf(prev) >= 0) fm.value = prev;
  }
  buildMarcas();
+ var ft = document.getElementById('f-talla');
+ function buildTallas(){
+ var tallas = [];
+ ZAPATOS.forEach(function(p){ if(!inCat(p)) return; (p.tallas || []).forEach(function(x){ if(tallas.indexOf(x) < 0) tallas.push(x); }); });
+ tallas.sort(function(a, b){ return (parseFloat(a) || 0) - (parseFloat(b) || 0); });
+ var prev = ft.value;
+ ft.innerHTML = '<option value="">Todas las tallas</option>' + tallas.map(function(x){ return '<option value="'+esc(x)+'">US '+esc(x)+'</option>'; }).join('');
+ if(prev && tallas.indexOf(prev) >= 0) ft.value = prev;
+ }
+ buildTallas();
 
  /* Ajustes del panel de administrador (Supabase): zapatos eliminados y datos editados */
  fetch(SUPABASE_URL + '/rest/v1/zapatos_ajustes?select=*', { headers: { 'apikey': SUPABASE_ANON } })
@@ -386,7 +403,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(a.marca) ZAPATOS[i].marca = a.marca;
  if(a.precio != null){ ZAPATOS[i].precio = Number(a.precio); ZAPATOS[i].precio_c = Math.round(Number(a.precio) * ZAP_TC); }
  }
- buildMarcas(); render();
+ buildMarcas(); buildTallas(); render();
  })
  .catch(function(){});
 
@@ -395,6 +412,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(!inCat(p)) return false;
  if(state.marca && p.marca !== state.marca) return false;
  if(state.precio){ var r = state.precio.split('-'); if(p.precio < +r[0] || p.precio > +r[1]) return false; }
+ if(state.talla && (p.tallas || []).indexOf(state.talla) < 0) return false;
  if(state.q){ var q = state.q.toLowerCase(); if((p.marca+' '+p.nombre).toLowerCase().indexOf(q) < 0) return false; }
  return true;
  });
@@ -407,7 +425,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  function render(){
  var list = filtered();
  count.textContent = 'Precios verificados el ' + ZAP_VERIFICADO + ' · El envío a Nicaragua se suma en el carrito';
- if(!list.length){ grid.innerHTML = (curCat === 'ninos' && !state.q && !state.marca && !state.precio) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
+ if(!list.length){ grid.innerHTML = (curCat === 'ninos' && !state.q && !state.marca && !state.precio && !state.talla) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
  grid.innerHTML = list.map(function(p){
  return '<article class="card" data-code="'+p.codigo+'">' +
  '<div class="ph"><img loading="lazy" src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>' +
@@ -706,19 +724,21 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  
  /* ---------- Filtros / búsqueda ---------- */
  document.getElementById('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
- fm.addEventListener('click', function(e){
- var b = e.target.closest('.chip'); if(!b) return;
- Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.classList.remove('on'); });
- b.classList.add('on'); state.marca = b.getAttribute('data-m'); render();
+ document.getElementById('applyf').addEventListener('click', function(){
+ state.marca = fm.value;
+ state.precio = document.getElementById('f-precio').value;
+ state.talla = ft.value;
+ state.sort = document.getElementById('sort').value;
+ render();
+ document.getElementById('filters').classList.remove('open');
  });
- document.getElementById('f-precio').addEventListener('change', function(e){ state.precio = e.target.value; render(); });
- document.getElementById('sort').addEventListener('change', function(e){ state.sort = e.target.value; render(); });
  document.getElementById('clearf').addEventListener('click', function(){
- state = { q:'', genero:'', marca:'', precio:'', sort:'' };
+ state = { q:'', genero:'', marca:'', precio:'', talla:'', sort:'' };
  document.getElementById('q').value = '';
- document.querySelector('#f-precio input').checked = true;
+ fm.value = '';
+ document.getElementById('f-precio').value = '';
+ ft.value = '';
  document.getElementById('sort').value = '';
- Array.prototype.forEach.call(document.querySelectorAll('#f-marca .chip'), function(x,ix){ x.classList.toggle('on', ix===0 || x.getAttribute('data-m')===''); });
  render();
  });
  document.getElementById('fbtn').addEventListener('click', function(){ document.getElementById('filters').classList.toggle('open'); });
@@ -728,11 +748,12 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  var CAT_LABEL = { hombre: 'Hombre', mujer: 'Mujer', ninos: 'Niños' };
  function enterCat(cat){
  curCat = cat; view = 'catalog';
- state = { q:'', genero:'', marca:'', precio:'', sort:'' };
+ state = { q:'', genero:'', marca:'', precio:'', talla:'', sort:'' };
  document.getElementById('q').value = '';
- document.querySelector('#f-precio input').checked = true;
+ document.getElementById('f-precio').value = '';
  document.getElementById('sort').value = '';
- buildMarcas();
+ buildMarcas(); buildTallas();
+ fm.value = ''; ft.value = '';
  document.getElementById('shop-h1').textContent = 'Zapatos · ' + CAT_LABEL[cat];
  document.getElementById('shop-cat-label').textContent = 'Zapatos para ' + (cat === 'ninos' ? 'niños' : cat);
  document.getElementById('catview').style.display = 'none';
