@@ -529,8 +529,9 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  function shipParts(){
  var sd = shipData();
  var ciu = (sd.ciudad || '').split(',');
+ var dep = (sd.departamento || '').trim() || (ciu[1] || '').trim();
  return { nombre: (sd.nombre || '').trim(), telefono: (sd.telefono || '').trim(),
- direccion: (sd.direccion || '').trim(), ciudad: (ciu[0] || '').trim(), depto: (ciu[1] || '').trim() };
+ direccion: (sd.direccion || '').trim(), ciudad: (ciu[0] || '').trim(), depto: dep.replace(/\.$/, '') };
  }
  function renderCart(){
  var body = document.getElementById('cart-body');
@@ -541,6 +542,8 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  return;
  }
  var sd = shipData();
+ var sdCiu = sd.ciudad || '', sdDep = sd.departamento || '';
+ if(!sdDep && sdCiu.indexOf(',') >= 0){ var _sp = sdCiu.split(','); sdCiu = (_sp[0] || '').trim(); sdDep = (_sp[1] || '').trim().replace(/\.$/, ''); }
  var html = cart.map(function(it, ix){
  var p = byCode(it.codigo); if(!p) return '';
  return '<div class="citem"><img src="'+esc(p.fotos[0])+'" alt="">'
@@ -553,7 +556,8 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  + '<label>Nombre de quien recibe</label><input id="sf-nom" value="'+esc(sd.nombre||'')+'" placeholder="Ej: María López">'
  + '<label>Teléfono / WhatsApp</label><input id="sf-tel" type="tel" value="'+esc(sd.telefono||'')+'" placeholder="Ej: 8888 8888">'
  + '<label>Dirección (con referencias)</label><input id="sf-dir" value="'+esc(sd.direccion||'')+'" placeholder="Ej: Calle 5 #123, frente al parque">'
- + '<label>Ciudad y departamento</label><input id="sf-ciu" value="'+esc(sd.ciudad||'')+'" placeholder="Ej: Estelí, Estelí">'
+ + '<label>Ciudad</label><input id="sf-ciu" value="'+esc(sdCiu)+'" placeholder="Ej: Estelí">'
+ + '<label>Departamento</label><input id="sf-dep" value="'+esc(sdDep)+'" placeholder="Ej: Estelí">'
  + '</div>'
  + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
  + '<button class="shipopt'+(t.tipo==='std'?' sel':'')+'" data-tipo="std"><span><b>Envío Standard</b><br><small>25 días hábiles</small></span><b>'+money(ZAP_ENVIO_STD)+' / par</b></button>'
@@ -568,10 +572,10 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. Compramos tu par el mismo día y viaja por vía aérea ('+t.plazo+' días hábiles) hasta la puerta de tu casa.</p>'
  + '</div>';
  body.innerHTML = html;
- ['sf-nom','sf-tel','sf-dir','sf-ciu'].forEach(function(id){
+ ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-dep'].forEach(function(id){
  document.getElementById(id).addEventListener('input', function(){
  var d = { nombre: document.getElementById('sf-nom').value, telefono: document.getElementById('sf-tel').value,
- direccion: document.getElementById('sf-dir').value, ciudad: document.getElementById('sf-ciu').value };
+ direccion: document.getElementById('sf-dir').value, ciudad: document.getElementById('sf-ciu').value, departamento: document.getElementById('sf-dep').value };
  try{ localStorage.setItem('dominus_zap_envio', JSON.stringify(d)); }catch(e){}
  });
  });
@@ -595,9 +599,10 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  var pon = function(id, v){ var el = document.getElementById(id); if(el && !el.value && v) el.value = v; };
  if(pr.nombre) pon('sf-nom', pr.nombre);
  pon('sf-dir', pr.direccion || '');
- pon('sf-ciu', pr.ciudad ? (pr.departamento ? pr.ciudad + ', ' + pr.departamento : pr.ciudad) : '');
+ pon('sf-ciu', pr.ciudad || '');
+ pon('sf-dep', pr.departamento || '');
  pon('sf-tel', pr.telefono || '');
- ['sf-nom','sf-tel','sf-dir','sf-ciu'].forEach(function(id){ var el = document.getElementById(id); if(el) el.dispatchEvent(new Event('input')); });
+ ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-dep'].forEach(function(id){ var el = document.getElementById(id); if(el) el.dispatchEvent(new Event('input')); });
  }).catch(function(){});
  }
  }catch(e){}
@@ -650,12 +655,13 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  onApprove: function(data, actions){
  return actions.order.capture().then(function(details){
  var sd = shipData();
+ var spq = shipParts();
  var nombre = ((details.payer && details.payer.name && details.payer.name.given_name) || sd.nombre || '');
  var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + it.codigo + ' · ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
  var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\n' + lines.join('\n')
  + '\nTotal pagado: ' + money(t.total)
  + '\n\nEntrega: ' + (sd.nombre || nombre)
- + (sd.direccion ? '\n' + sd.direccion : '') + (sd.ciudad ? '\n' + sd.ciudad : '') + (sd.telefono ? '\nContacto: ' + sd.telefono : '');
+ + (sd.direccion ? '\n' + sd.direccion : '') + (spq.ciudad ? '\n' + spq.ciudad + (spq.depto ? ', ' + spq.depto : '') : '') + (sd.telefono ? '\nContacto: ' + sd.telefono : '');
  try{ localStorage.setItem('dominus_zap_ultimo_pedido', JSON.stringify({ id: data.orderID, total: t.total, fecha: new Date().toISOString() })); }catch(e){}
  cart = []; saveCart();
  document.getElementById('cart-body').innerHTML =
