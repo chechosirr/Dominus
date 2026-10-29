@@ -496,9 +496,6 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <p id="d-desc"></p>
  <ul id="d-feats"></ul>
  </div>
- <div style="margin-top:26px">
- <button class="backbtn light" id="d-back2">← Volver al catálogo</button>
- </div>
  </div>
 </div>
 
@@ -697,7 +694,6 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  }
  function closeDetail(){ if(ovState === 'detail'){ history.back(); } else { detail.classList.remove('open'); document.body.style.overflow = ''; } }
  document.getElementById('d-back').addEventListener('click', closeDetail);
- document.getElementById('d-back2').addEventListener('click', closeDetail);
  document.getElementById('d-inc').addEventListener('click', function(){ curQty = Math.min(9, curQty+1); document.getElementById('d-qty').textContent = curQty; });
  document.getElementById('d-dec').addEventListener('click', function(){ curQty = Math.max(1, curQty-1); document.getElementById('d-qty').textContent = curQty; });
  document.getElementById('d-add').addEventListener('click', function(){
