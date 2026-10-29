@@ -373,7 +373,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .card{position:relative}
 .shareb{position:absolute;top:10px;right:10px;z-index:3;width:36px;height:36px;border-radius:50%;border:1px solid #e2e2e8;background:rgba(255,255,255,.94);color:#2a2a2e;display:grid;place-items:center;cursor:pointer;box-shadow:0 6px 16px rgba(17,17,20,.13);font-family:inherit}
 .shareb:active{transform:scale(.93)}
-#d-share{margin-left:auto;display:inline-flex;align-items:center;gap:7px}
+.share-corner{position:fixed;top:14px;right:14px;z-index:80;width:40px;height:40px;border-radius:50%;border:1px solid #e2e2e8;background:rgba(255,255,255,.96);color:#2a2a2e;display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 20px rgba(17,17,20,.16);font-family:inherit}
+.share-corner:active{transform:scale(.93)}
 </style>
 </head>
 <body>
@@ -482,10 +483,10 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 
 <!-- ===== Detalle del producto ===== -->
 <div class="detail" id="detail" role="dialog" aria-modal="true">
+ <button id="d-share" class="share-corner" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>
  <div class="detail-in">
  <div class="backbar">
  <button class="backbtn" id="d-back">← Volver al catálogo</button>
- <button class="backbtn light" id="d-share"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg> Compartir</button>
  </div>
  <div class="d-grid">
  <div>

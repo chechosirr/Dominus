@@ -86,6 +86,12 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 .shareb{position:absolute;top:10px;right:10px;z-index:3;width:36px;height:36px;border-radius:50%;border:1px solid #e2e2e8;background:rgba(255,255,255,.94);color:#2a2a2e;display:grid;place-items:center;cursor:pointer;box-shadow:0 6px 16px rgba(17,17,20,.13);font-family:inherit}
 .shareb:active{transform:scale(.93)}
 </style>
+
+<style>
+.pd{position:relative}
+.share-corner{position:absolute;top:4px;right:4px;z-index:6;width:40px;height:40px;border-radius:50%;border:1px solid #e2e2e8;background:rgba(255,255,255,.96);color:#2a2a2e;display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 20px rgba(17,17,20,.16);font-family:inherit}
+.share-corner:active{transform:scale(.93)}
+</style>
 </head>
 <body>
 <header class="top">
@@ -163,7 +169,7 @@ function render(){
   if(imgs.length > 1) galHtml += '<div class="gal-dots" id="pdots">' + imgs.map(function(_, i){
     return '<span class="gdot' + (i === 0 ? ' on' : '') + '"></span>';
   }).join('') + '</div>';
-  var html = '<div class="pd">' + (imgs.length ? galHtml : '<div class="pd-img"></div>')
+  var html = '<div class="pd"><button id="btn-share" class="share-corner" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>' + (imgs.length ? galHtml : '<div class="pd-img"></div>')
     + '<div class="pd-info"><h1>' + esc(p.titulo) + '</h1>'
     + '<div class="pd-seller">Vendido por <a href="../vendedor/?s=' + esc(s.slug || '') + '">' + esc(s.nombre || '') + '</a>' + (s.verificado ? ' ✓' : '') + '</div>'
     + (REVIEWS.length ? '<div>' + starsHTML(avg) + ' <small style="color:var(--mut)">' + avg.toFixed(1) + ' · ' + REVIEWS.length + ' reseña(s)</small></div>' : '<small style="color:var(--mut)">Sin reseñas aún</small>')
@@ -177,19 +183,7 @@ function render(){
       })()
     + '<button class="btn" id="btn-buy">Comprar</button>'
     + '<button class="btn btn-ghost" id="btn-cart">+ Agregar al carrito</button>'
-    + '<button class="btn btn-ghost" id="btn-share"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg> Compartir</button></div></div>';
-  if(p.descripcion) html += '<div class="sec"><h2>Descripción</h2><p class="desc">' + esc(p.descripcion) + '</p></div>';
-  if(p.especificaciones) html += '<div class="sec"><h2>Especificaciones</h2><div class="specs">' + esc(p.especificaciones) + '</div></div>';
-  html += '<div class="sec"><h2>Reseñas <span class="hl">(' + REVIEWS.length + ')</span></h2>';
-  if(REVIEWS.length){
-    html += '<div class="avg"><b>' + avg.toFixed(1) + '</b>' + starsHTML(avg) + '</div>';
-    html += REVIEWS.map(function(r){
-      return '<div class="rev"><span class="rn">' + esc(r.nombre || 'Comprador') + '</span><span class="rt">' + new Date(r.created_at).toLocaleDateString('es') + '</span><div>' + starsHTML(r.rating) + '</div><p>' + esc(r.comentario || '') + '</p></div>';
-    }).join('');
-  } else html += '<p class="empty">Sé el primero en dejar una reseña.</p>';
-  if(sess){
-    html += '<div class="rform"><h2 style="margin-top:8px">Deja tu <span class="hl">reseña</span></h2>'
-      + '<label>Calificación</label><div class="starin" id="starin">' + [1,2,3,4,5].map(function(i){ return '<button data-v="' + i + '" class="' + (i <= 5 ? 'on' : '') + '">★</button>'; }).join('') + '</div>'
+; }).join('') + '</div>'
       + '<label>Comentario</label><textarea id="r-com" placeholder="¿Qué te pareció este producto?"></textarea>'
       + '<button class="btn" id="r-send">Publicar reseña</button><div class="rerr" id="rerr"></div></div>';
   } else {
