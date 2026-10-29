@@ -776,7 +776,10 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  var comC = totalC - subC - envioC;
  return { subtotal: subC / 100, envio: envioC / 100, pares: pares, comision: comC / 100, total: totalC / 100, tipo: tipo, esUS: esUS, plazo: esUS ? 0 : (tipo === 'prio' ? 10 : 25) };
  }
- function shipData(){
+ function tieneCuenta(){
+ try{ var sx = JSON.parse(localStorage.getItem('dominus_session') || 'null'); return !!(sx && sx.access_token && sx.user && sx.user.id); }catch(e){ return false; }
+ }
+function shipData(){
  try{ return JSON.parse(localStorage.getItem('dominus_zap_envio') || '{}'); }catch(e){ return {}; }
  }
 function ENVIO_USA_VAL(){ return (typeof ZAP_ENVIO_USA !== 'undefined' ? ZAP_ENVIO_USA : 4.99); }
@@ -938,7 +941,11 @@ function shipParts(){
  Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-rm]'), function(b){ b.onclick = function(){ cart.splice(+b.dataset.rm, 1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-tipo]'), function(b){ b.onclick = function(){ setEnvioTipo(b.dataset.tipo); }; });
- renderPayPal();
+ if(tieneCuenta()){ renderPayPal(); }
+ else {
+ var pc = document.getElementById('paypal-button-container');
+ if(pc) pc.innerHTML = '<div style="border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;background:var(--soft)"><b>Para comprar necesitas una cuenta de comprador.</b><br><span style="font-size:13px;color:var(--mut)">Con tu cuenta guardas tus direcciones y sigues tus pedidos.</span><br><a href="cuenta.html" style="display:inline-block;margin-top:12px;background:#2a2a2e;color:#fff;text-decoration:none;font-weight:800;padding:12px 22px;border-radius:999px">Entrar o crear mi cuenta</a></div>';
+ }
  /* Si el cliente tiene cuenta Dominus con dirección guardada, se prellena el formulario de entrega */
  try{
  var sess2 = JSON.parse(localStorage.getItem('dominus_session') || 'null');
