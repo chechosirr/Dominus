@@ -244,6 +244,25 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
   .dash-btn:hover{transform:translateY(-3px);box-shadow:0 18px 36px rgba(17,17,20,.11)}
 }
 </style>
+
+<style>
+/* ===== Muro en escritorio: 3 escaparates cambiantes + artículos en 5 columnas ===== */
+.showrow{display:none}
+@media (min-width:1024px){
+  .showrow{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin:4px 0 30px;will-change:opacity,transform}
+  .scbox{position:relative;background:#ffffff;border:1px solid #e6e6ea;border-radius:26px;padding:30px 26px 24px;text-align:center;box-shadow:0 18px 44px rgba(20,20,30,.07)}
+  .scard2{display:block;text-decoration:none;color:inherit}
+  .simg2{display:grid;place-items:center;height:min(30vh,360px);margin-bottom:16px}
+  .simg2 img{max-width:100%;max-height:100%;object-fit:contain}
+  .scat2{display:block;font-size:.8rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#8a8a92}
+  .sname2{display:block;font-size:1.12rem;font-weight:700;line-height:1.3;margin:5px 0 7px;color:#111111}
+  .sprice2{display:block;font-size:1.3rem;font-weight:900;color:#111111}
+  .sdots2{display:flex;gap:6px;justify-content:center;margin-top:16px}
+  .sdot2{width:7px;height:7px;border-radius:50%;background:#d7d7dd}
+  .sdot2.on{background:#2a2a2e}
+  .hgrid{grid-template-columns:repeat(5,1fr);grid-template-rows:none;grid-auto-flow:row;grid-auto-columns:auto;overflow:visible;padding-bottom:0}
+}
+</style>
 </head>
 <body>
 <header class="top">
@@ -443,8 +462,68 @@ function renderWallProducts(prods, own){
     + cats.map(function(c){ return '<button class="catchip" data-cat="' + esc(c) + '">' + esc(c) + '</button>'; }).join('')
     + '</div>'
     + '<div id="wall-search-row" style="display:none;margin-bottom:14px"><input id="wall-search" type="search" placeholder="Buscar en esta tienda..." style="width:100%;background:#ffffff;border:1px solid #d0d4da;border-radius:12px;padding:13px 15px;color:#111;font-family:inherit;font-size:15px"></div>'
+    + '<div class="showrow" id="showrow"></div>'
     + '<div class="grid hgrid" id="wall-grid"></div>';
   var wg = document.getElementById('wall-grid');
+  var scTimer = null, scFadeBound = false;
+  function buildShowcases(list){
+    var row = document.getElementById('showrow');
+    if(!row) return;
+    if(scTimer){ clearInterval(scTimer); scTimer = null; }
+    var desktop = window.matchMedia('(min-width:1024px)').matches;
+    if(!desktop || !list.length){ row.style.display = 'none'; return; }
+    row.style.display = '';
+    var picks = list.slice(0, 24);
+    var pools = [[], [], []];
+    picks.forEach(function(p, i){ pools[i % 3].push(p); });
+    var boxes = pools.filter(function(pl){ return pl.length; });
+    row.innerHTML = boxes.map(function(){ return '<div class="scbox"></div>'; }).join('');
+    var state = boxes.map(function(){ return 0; });
+    function slideHTML(p){
+      return '<a class="scard2" href="../producto/?id=' + p.id + '">'
+        + '<span class="simg2">' + (p.imagen_url ? '<img src="' + esc(p.imagen_url) + '" alt="' + esc(p.titulo) + '">' : '') + '</span>'
+        + '<span class="scat2">' + esc(p.categoria || 'General') + '</span>'
+        + '<span class="sname2">' + esc(p.titulo) + '</span>'
+        + '<span class="sprice2">' + money(p.precio) + '</span></a>';
+    }
+    function paint(bi){
+      var el = row.children[bi]; if(!el) return;
+      var pl = boxes[bi]; var idx = state[bi] % pl.length; var p = pl[idx];
+      el.innerHTML = slideHTML(p) + '<div class="sdots2">' + pl.map(function(_, di){ return '<span class="sdot2' + (di === idx ? ' on' : '') + '"></span>'; }).join('') + '</div>';
+      el.querySelector('.scard2').addEventListener('mousedown', function(){ el.dataset.hold = '1'; });
+    }
+    boxes.forEach(function(_, bi){ paint(bi); });
+    row.querySelectorAll('.scbox').forEach(function(el){
+      el.addEventListener('mouseenter', function(){ el.dataset.hold = '1'; });
+      el.addEventListener('mouseleave', function(){ delete el.dataset.hold; });
+    });
+    scTimer = setInterval(function(){
+      if(document.hidden) return;
+      boxes.forEach(function(pl, bi){
+        var el = row.children[bi];
+        if(!el || el.dataset.hold || pl.length < 2) return;
+        state[bi]++; paint(bi);
+      });
+    }, 8000);
+    if(!scFadeBound){
+      scFadeBound = true;
+      var tick = false;
+      window.addEventListener('scroll', function(){
+        if(tick) return; tick = true;
+        requestAnimationFrame(function(){
+          tick = false;
+          var r = document.getElementById('showrow');
+          if(!r || r.style.display === 'none') return;
+          var rect = r.getBoundingClientRect();
+          var t = Math.min(Math.max(-rect.top / 280, 0), 1);
+          r.style.opacity = (1 - t).toFixed(3);
+          r.style.transform = 'translateY(' + (-26 * t).toFixed(1) + 'px) scale(' + (1 - 0.02 * t).toFixed(3) + ')';
+          r.style.pointerEvents = t > 0.6 ? 'none' : '';
+          r.style.visibility = t >= 1 ? 'hidden' : '';
+        });
+      }, { passive: true });
+    }
+  }
   var curCat = '', query = '';
   var draw = function(){
     var list = prods.filter(function(p){
@@ -452,6 +531,7 @@ function renderWallProducts(prods, own){
       return !curCat || (p.categoria || 'General') === curCat;
     });
     wg.innerHTML = list.length ? list.map(function(p){ return prodCardHTML(p, own); }).join('') : '<p style="color:#111;grid-column:1/-1;text-align:center;padding:16px">No se encontraron productos.</p>';
+    buildShowcases(list);
   };
   draw();
   var sBtn = document.getElementById('wall-search-btn');
