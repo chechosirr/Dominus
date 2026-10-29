@@ -935,9 +935,12 @@ function shipParts(){
  alert('PayPal devolvió este error:\n\n' + msg + '\n\nMándame una captura de este mensaje.');
  }
  var ppLast = null;
+ var ppRendered = false;
  function renderPayPal(){
  var cont = document.getElementById('paypal-button-container');
  if(!cont) return;
+ if(ppRendered) return;
+ ppRendered = true;
  function init(){
  if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
  cont.innerHTML = '';
@@ -1032,7 +1035,7 @@ function shipParts(){
  s2.onload = init; document.head.appendChild(s2);
  } else { init(); }
  }
- function openCart(){ renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } }
+ function openCart(){ ppRendered = false; renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } }
  function closeCart(){ if(ovState === 'cart'){ history.back(); } else { cartwrap.classList.remove('open'); document.body.style.overflow = ''; } }
  document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
  document.getElementById('cartscrim').addEventListener('click', closeCart);
