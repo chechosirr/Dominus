@@ -293,6 +293,12 @@ function loadShipForm(){
       });
     });
 }
+function telConCodigo(v){
+  var d = (v || '').replace(/[^\d+]/g, '');
+  var n = d.replace(/\D/g, '').length;
+  return d.charAt(0) === '+' && n >= 10 && n <= 15;
+}
+var TEL_MSG = 'El teléfono debe llevar el código de país: +505 (Nicaragua) o +1 (Estados Unidos). Ej: +505 8888 8888.';
 function dirFld(id, label, val, ph){
   return '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">' + label + '</label>'
     + '<input id="' + id + '" type="text" value="' + esc(val || '') + '" placeholder="' + ph + '" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px">';
@@ -339,7 +345,7 @@ function openDirForm(id){
     + dirFld('df-dep', 'Departamento', a.departamento, 'Ej: Estelí')
     + '<div id="df-zip-wrap" style="display:none">' + dirFld('df-zip', 'Código postal (ZIP)', a.codigo_postal, 'Ej: 90210') + '</div>'
     + dirFld('df-ref', 'Referencia (cómo llegar)', a.referencia, 'Ej: Casa verde, portón negro')
-    + dirFld('df-tel', 'Teléfono de contacto', a.telefono, 'Ej: 8888 8888')
+    + dirFld('df-tel', 'Teléfono de contacto', a.telefono, 'Ej: +505 8888 8888')
     + '<label style="display:flex;gap:8px;align-items:center;font-size:14px;margin-top:12px"><input type="checkbox" id="df-prin" style="width:auto"' + (a.principal || !_dirs.length ? ' checked' : '') + '> Usar como dirección principal</label>'
     + '<div style="display:flex;gap:10px;margin-top:12px;flex-wrap:wrap"><button class="btn" id="df-save">Guardar dirección</button>'
     + '<button class="btn" id="df-cancel" style="background:none;border:1px solid var(--line)">Cancelar</button></div></div>';
@@ -368,6 +374,7 @@ function saveDir(id){
     telefono: document.getElementById('df-tel').value.trim() || null
   };
   if(body.pais === 'Estados Unidos' && zipVal) body.codigo_postal = zipVal;
+  if(body.telefono && !telConCodigo(body.telefono)){ alert(TEL_MSG); return; }
   if(!body.direccion){ alert('Escribe la dirección.'); return; }
   var quierePrin = document.getElementById('df-prin').checked;
   var tok = session.access_token, uid = session.user.id;
