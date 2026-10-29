@@ -592,12 +592,14 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(state.sort === 'desc') list.sort(function(a,b){ return b.precio-a.precio; });
  if(state.sort === 'az') list.sort(function(a,b){ return a.nombre.localeCompare(b.nombre); });
  if(!state.sort){
-  /* Regla de Sergio: ningún slide/chancla entre los primeros 20 puestos de las miniaturas (todos los dispositivos) */
+  /* Reglas de Sergio (todos los dispositivos): los primeros 20 puestos son de marcas buscadas o de moda, y ningún slide/chancla entre los primeros 20 */
   var esSlide = function(p){ return /\b(slide|slides|chancla|chanclas|flip[\s-]?flops?)\b/i.test(p.nombre || ''); };
+  var TOPM = /nike|adidas|jordan|vans|new balance|puma|converse|skechers|reebok|asics|fila|under armour|hoka|birkenstock|\bugg\b|crocs|hey dude|steve madden|sam edelman|papillio/i;
+  var esTop = function(p){ return TOPM.test((p.marca || '') + ' ' + (p.nombre || '')); };
   var sinS = list.filter(function(p){ return !esSlide(p); });
-  var conS = list.filter(esSlide);
-  if(sinS.length >= 20){ var cab20 = sinS.slice(0, 20); list = cab20.concat(list.filter(function(p){ return cab20.indexOf(p) < 0; })); }
-  else { list = sinS.concat(conS); }
+  var cab20 = sinS.filter(esTop).slice(0, 20);
+  if(cab20.length < 20){ cab20 = cab20.concat(sinS.filter(function(p){ return cab20.indexOf(p) < 0; }).slice(0, 20 - cab20.length)); }
+  list = cab20.concat(list.filter(function(p){ return cab20.indexOf(p) < 0; }));
  }
  return list;
  }
