@@ -299,6 +299,17 @@ function telConCodigo(v){
   return d.charAt(0) === '+' && n >= 10 && n <= 15;
 }
 var TEL_MSG = 'El teléfono debe llevar el código de país: +505 (Nicaragua) o +1 (Estados Unidos). Ej: +505 8888 8888.';
+function splitTel(v){
+  v = (v || '').trim();
+  if(v.indexOf('+505') === 0) return { cod: '+505', num: v.slice(4).trim() };
+  if(v.indexOf('+1') === 0) return { cod: '+1', num: v.slice(2).trim() };
+  return { cod: '', num: v };
+}
+function joinTel(cod, num){
+  num = (num || '').trim();
+  if(!num) return '';
+  return num.charAt(0) === '+' ? num : (cod || '+505') + ' ' + num;
+}
 function dirFld(id, label, val, ph){
   return '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">' + label + '</label>'
     + '<input id="' + id + '" type="text" value="' + esc(val || '') + '" placeholder="' + ph + '" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px">';
@@ -345,7 +356,9 @@ function openDirForm(id){
     + dirFld('df-dep', 'Departamento', a.departamento, 'Ej: Estelí')
     + '<div id="df-zip-wrap" style="display:none">' + dirFld('df-zip', 'Código postal (ZIP)', a.codigo_postal, 'Ej: 90210') + '</div>'
     + dirFld('df-ref', 'Referencia (cómo llegar)', a.referencia, 'Ej: Casa verde, portón negro')
-    + dirFld('df-tel', 'Teléfono de contacto', a.telefono, 'Ej: +505 8888 8888')
+    + '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">Teléfono de contacto</label>'
+    + '<div style="display:flex;gap:8px"><select id="df-cod" aria-label="Código de país" style="width:104px;flex:none;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"><option value="+505">+505</option><option value="+1">+1</option></select>'
+    + '<input id="df-tel" type="tel" value="' + esc(splitTel(a.telefono).num) + '" placeholder="Ej: 8888 8888" style="flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"></div>'
     + '<label style="display:flex;gap:8px;align-items:center;font-size:14px;margin-top:12px"><input type="checkbox" id="df-prin" style="width:auto"' + (a.principal || !_dirs.length ? ' checked' : '') + '> Usar como dirección principal</label>'
     + '<div style="display:flex;gap:10px;margin-top:12px;flex-wrap:wrap"><button class="btn" id="df-save">Guardar dirección</button>'
     + '<button class="btn" id="df-cancel" style="background:none;border:1px solid var(--line)">Cancelar</button></div></div>';
@@ -356,10 +369,14 @@ function openDirForm(id){
     var us = dfPais.value === 'Estados Unidos';
     var dep = document.getElementById('df-dep');
     if(dep){ dep.placeholder = us ? 'Ej: California' : 'Ej: Estelí'; if(dep.previousElementSibling) dep.previousElementSibling.textContent = us ? 'Estado' : 'Departamento'; }
+    var codEl = document.getElementById('df-cod'); if(codEl) codEl.value = us ? '+1' : '+505';
     var zw = document.getElementById('df-zip-wrap'); if(zw) zw.style.display = us ? '' : 'none';
   };
   dfPais.addEventListener('change', dfUI);
   dfUI();
+  var st0 = splitTel(a.telefono);
+  var cod0 = document.getElementById('df-cod');
+  if(cod0 && st0.cod) cod0.value = st0.cod;
   wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 function saveDir(id){
@@ -371,7 +388,7 @@ function saveDir(id){
     departamento: document.getElementById('df-dep').value.trim() || null,
     pais: document.getElementById('df-pais').value || null,
     referencia: document.getElementById('df-ref').value.trim() || null,
-    telefono: document.getElementById('df-tel').value.trim() || null
+    telefono: joinTel(document.getElementById('df-cod').value, document.getElementById('df-tel').value) || null
   };
   if(body.pais === 'Estados Unidos' && zipVal) body.codigo_postal = zipVal;
   if(body.telefono && !telConCodigo(body.telefono)){ alert(TEL_MSG); return; }

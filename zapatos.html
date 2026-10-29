@@ -786,7 +786,7 @@ function envioPais(){
  }
 function saveShipForm(){
  var g = function(id){ var el = document.getElementById(id); return el ? el.value : ''; };
- var d = { nombre: g('sf-nom'), telefono: g('sf-tel'), direccion: g('sf-dir'), ciudad: g('sf-ciu'),
+ var d = { nombre: g('sf-nom'), telefono: joinTel(g('sf-cod'), g('sf-tel')), direccion: g('sf-dir'), ciudad: g('sf-ciu'),
  departamento: g('sf-dep'), pais: g('sf-pais'), zip: g('sf-zip') };
  try{ localStorage.setItem('dominus_zap_envio', JSON.stringify(d)); }catch(e){}
  }
@@ -795,6 +795,8 @@ function paisUI(){
  var lab = document.getElementById('sf-dep-lab'); if(lab) lab.textContent = esUS ? 'Estado' : 'Departamento';
  var dep = document.getElementById('sf-dep'); if(dep) dep.placeholder = esUS ? 'Ej: California' : 'Ej: Estelí';
  var zw = document.getElementById('sf-zip-wrap'); if(zw) zw.style.display = esUS ? '' : 'none';
+ var codEl = document.getElementById('sf-cod');
+ if(codEl){ var st = splitTel(shipData().telefono || ''); codEl.value = st.cod || (esUS ? '+1' : '+505'); }
  }
  function genTrack(){
  var chars = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789', s = '';
@@ -817,6 +819,17 @@ function paisUI(){
   return d.charAt(0) === '+' && n >= 10 && n <= 15;
 }
 var TEL_MSG = 'El teléfono debe llevar el código de país: +505 (Nicaragua) o +1 (Estados Unidos). Ej: +505 8888 8888.';
+function splitTel(v){
+  v = (v || '').trim();
+  if(v.indexOf('+505') === 0) return { cod: '+505', num: v.slice(4).trim() };
+  if(v.indexOf('+1') === 0) return { cod: '+1', num: v.slice(2).trim() };
+  return { cod: '', num: v };
+}
+function joinTel(cod, num){
+  num = (num || '').trim();
+  if(!num) return '';
+  return num.charAt(0) === '+' ? num : (cod || '+505') + ' ' + num;
+}
 function shipParts(){
  var sd = shipData();
  var ciu = (sd.ciudad || '').split(',');
@@ -847,7 +860,7 @@ function shipParts(){
  + '<div class="shipform"><h3 style="margin-top:18px;font-size:1.05rem">Datos de entrega</h3>'
  + '<label>País</label><select id="sf-pais"><option value="Nicaragua"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? '' : ' selected')+'>Nicaragua</option><option value="Estados Unidos"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? ' selected' : '')+'>Estados Unidos</option></select>'
  + '<label>Nombre de quien recibe</label><input id="sf-nom" value="'+esc(sd.nombre||'')+'" placeholder="Ej: María López">'
- + '<label>Teléfono / WhatsApp</label><input id="sf-tel" type="tel" value="'+esc(sd.telefono||'')+'" placeholder="Ej: +505 8888 8888">'
+ + '<label>Teléfono / WhatsApp</label><div style="display:flex;gap:8px"><select id="sf-cod" aria-label="Código de país" style="width:104px;flex:none"><option value="+505">+505</option><option value="+1">+1</option></select><input id="sf-tel" type="tel" value="'+esc(splitTel(sd.telefono).num)+'" placeholder="Ej: 8888 8888" style="flex:1;min-width:0"></div>'
  + '<label>Dirección (con referencias)</label><input id="sf-dir" value="'+esc(sd.direccion||'')+'" placeholder="Ej: Calle 5 #123, frente al parque">'
  + '<label>Ciudad</label><input id="sf-ciu" value="'+esc(sdCiu)+'" placeholder="Ej: Estelí">'
  + '<label id="sf-dep-lab">Departamento</label><input id="sf-dep" value="'+esc(sdDep)+'" placeholder="Ej: Estelí">'
@@ -873,6 +886,8 @@ function shipParts(){
  });
  var psEl = document.getElementById('sf-pais');
  if(psEl) psEl.addEventListener('change', function(){ saveShipForm(); renderCart(); });
+ var codEl2 = document.getElementById('sf-cod');
+ if(codEl2) codEl2.addEventListener('change', saveShipForm);
  paisUI();
  Array.prototype.forEach.call(body.querySelectorAll('[data-inc]'), function(b){ b.onclick = function(){ cart[+b.dataset.inc].qty = Math.min(9, cart[+b.dataset.inc].qty + 1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });

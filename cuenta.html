@@ -131,7 +131,8 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
           <div><label>País *</label>
           <input id="up-pais" type="text" placeholder="Ej: Nicaragua" autocomplete="country-name" required></div>
           <div><label>Número de WhatsApp *</label>
-          <input id="up-tel" type="tel" placeholder="Ej: +505 8888 8888" autocomplete="tel" required></div>
+          <div style="display:flex;gap:8px"><select id="up-cod" aria-label="Código de país" style="width:104px;flex:none;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"><option value="+505">+505</option><option value="+1">+1</option></select>
+          <input id="up-tel" type="tel" placeholder="Ej: 8888 8888" autocomplete="tel" required style="flex:1;min-width:0"></div></div>
         </div>
         <p style="font-size:12px;color:#9aa0a8;margin:6px 0 0">(privado: solo tú y Dominus lo ven)</p>
         <button class="btn" id="btn-up">Crear mi cuenta</button>
@@ -152,6 +153,17 @@ function telConCodigo(v){
   return d.charAt(0) === '+' && n >= 10 && n <= 15;
 }
 var TEL_MSG = 'El teléfono debe llevar el código de país: +505 (Nicaragua) o +1 (Estados Unidos). Ej: +505 8888 8888.';
+function splitTel(v){
+  v = (v || '').trim();
+  if(v.indexOf('+505') === 0) return { cod: '+505', num: v.slice(4).trim() };
+  if(v.indexOf('+1') === 0) return { cod: '+1', num: v.slice(2).trim() };
+  return { cod: '', num: v };
+}
+function joinTel(cod, num){
+  num = (num || '').trim();
+  if(!num) return '';
+  return num.charAt(0) === '+' ? num : (cod || '+505') + ' ' + num;
+}
 /* sesión persistente: renueva el token automáticamente (sin borrar ante fallos de red) */
 function getExp(s){
   if(s.expires_at) return s.expires_at * 1000;
@@ -282,6 +294,9 @@ document.getElementById('btn-in').onclick = function(){
       }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
     }).catch(function(){ showErr('Error de conexión. Intenta de nuevo.'); });
 };
+document.getElementById('up-pais').addEventListener('input', function(){
+  document.getElementById('up-cod').value = /unidos|usa|eeuu|united/i.test(this.value) ? '+1' : '+505';
+});
 document.getElementById('btn-up').onclick = function(){
   hideErr();
   var name = document.getElementById('up-name').value.trim();
@@ -296,7 +311,7 @@ document.getElementById('btn-up').onclick = function(){
   var ciu = document.getElementById('up-ciudad').value.trim();
   var dep = document.getElementById('up-depto').value.trim();
   var pai = document.getElementById('up-pais').value.trim();
-  var tel = document.getElementById('up-tel').value.trim();
+  var tel = joinTel(document.getElementById('up-cod').value, document.getElementById('up-tel').value);
   if(!ciu || !dep || !pai || !tel){ showErr('Completa ciudad, departamento, país y número de WhatsApp (son obligatorios).'); return; }
   if(!telConCodigo(tel)){ showErr(TEL_MSG); return; }
   fetch(SUPABASE_URL + '/auth/v1/signup', {
