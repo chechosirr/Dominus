@@ -167,6 +167,7 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
   <div class="tabs">
     <button data-tab="resumen" class="on">Resumen</button>
     <button data-tab="revendedores">Revendedores</button>
+    <button data-tab="compradores">Compradores</button>
     <button data-tab="zapatos">Inventario zapatos</button>
     <button data-tab="inventario">Inventario revendedores</button>
     <button data-tab="vzap">Ventas zapatos</button>
@@ -209,6 +210,12 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
   <section id="tab-revendedores" class="hidden">
     <input class="search" id="sel-q" type="search" placeholder="Buscar revendedor por nombre, ciudad, tipo, WhatsApp o PayPal…">
     <div id="sellers-list"><p class="mut">Cargando revendedores…</p></div>
+  </section>
+
+  <section id="tab-compradores" class="hidden">
+    <input class="search" id="buy-q" type="search" placeholder="Buscar comprador por nombre, teléfono, ciudad o correo…">
+    <button class="qgo" type="button" onclick="renderBuyers()" style="background:#3a3a40;color:#fff;border:1px solid #3a3a40;border-radius:999px;padding:9px 18px;font-weight:800;cursor:pointer;font-family:inherit;margin:0 0 12px">Buscar</button>
+    <div id="buyers-list"><p class="mut">Cargando compradores…</p></div>
   </section>
 
   <section id="tab-zapatos" class="hidden">
@@ -333,7 +340,7 @@ function cargar(){
  (res[5] || []).forEach(function(u){ DATA.correos[u.user_id] = u.email; });
  (Array.isArray(res[6]) ? res[6] : []).forEach(function(o){ if(o.paypal_order_id && o.codigo_rastreo) DATA.rastreo[o.paypal_order_id] = o.codigo_rastreo; });
  (res[7] || []).forEach(function(o){ if(o.entrega) DATA.entrega[o.id] = o.entrega; });
- renderResumen(); renderVentas(); renderPedidos(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
+ renderResumen(); renderVentas(); renderPedidos(); renderSellers(); renderBuyers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
  cargarZapatos(); cargarHistZapatos(); cargarVentasZap();
  adminAlertsMaybe();
  });
@@ -769,11 +776,98 @@ function renderInv(q){
 /* Los buscadores ahora buscan al presionar su botón Buscar (ver script al final). */
 document.getElementById('ped-f-todos').addEventListener('click', function(){ PED_FILTRO = 'todos'; document.getElementById('ped-f-todos').classList.add('on'); document.getElementById('ped-f-sin').classList.remove('on'); renderPedidos(); });
 document.getElementById('ped-f-sin').addEventListener('click', function(){ PED_FILTRO = 'sin'; document.getElementById('ped-f-sin').classList.add('on'); document.getElementById('ped-f-todos').classList.remove('on'); renderPedidos(); });
+
+/* ===== Compradores: datos, pausa y eliminación (solo administrador) ===== */
+function buyerOrders(uid){ return DATA.orders.filter(function(o){ return o.buyer_id === uid; }); }
+function patchProfile(uid, body){
+ return fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + uid, {
+ method: 'PATCH', headers: Object.assign(H(TOK), { 'Prefer': 'return=representation' }), body: JSON.stringify(body)
+ }).then(function(r){ if(!r.ok) throw new Error('patch ' + r.status); return r.json(); });
+}
+function renderBuyers(){
+ var box = document.getElementById('buyers-list');
+ if(!box) return;
+ var lista0 = Object.keys(DATA.profiles).map(function(k){ return DATA.profiles[k]; }).filter(function(p){ return p.tipo === 'comprador'; });
+ if(!lista0.length){ box.innerHTML = '<p class="mut">No hay compradores registrados.</p>'; return; }
+ var q = ((document.getElementById('buy-q') || {}).value || '').toLowerCase();
+ var lista = lista0.filter(function(p){
+ if(!q) return true;
+ return ((p.nombre || '') + ' ' + (p.telefono || '') + ' ' + (p.ciudad || '') + ' ' + (p.pais || '') + ' ' + (DATA.correos[p.user_id] || '')).toLowerCase().indexOf(q) >= 0;
+ });
+ if(!lista.length){ box.innerHTML = '<p class="mut">Ningún comprador coincide con esa búsqueda.</p>'; return; }
+ box.innerHTML = lista.map(function(p){
+ var ords = buyerOrders(p.user_id);
+ var total = ords.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
+ var est = p.estado || 'activo';
+ var tel = String(p.telefono || '').replace(/[^0-9]/g, '');
+ var datos = '<div class="datos" id="bdatos-' + p.user_id + '">'
+ + datoLine('Nombre', p.nombre || '—')
+ + (DATA.correos[p.user_id] ? '<div style="margin:2px 0"><b>Correo:</b> <a href="mailto:' + esc(DATA.correos[p.user_id]) + '">' + esc(DATA.correos[p.user_id]) + '</a></div>' : '')
+ + (p.telefono ? '<div style="margin:2px 0"><b>Teléfono:</b> <a href="https://wa.me/' + tel + '" target="_blank" rel="noopener">' + esc(p.telefono) + '</a></div>' : '')
+ + (p.direccion ? datoLine('Dirección', p.direccion) : '')
+ + ((p.ciudad || p.departamento || p.pais) ? datoLine('Ciudad', [p.ciudad, p.departamento, p.pais].filter(Boolean).join(', ')) : '')
+ + (p.referencia ? datoLine('Referencia', p.referencia) : '')
+ + datoLine('Pedidos en Comercios', ords.length + ' · ' + money(total))
+ + datoLine('Estado', est)
+ + datoLine('Registrado', fecha(p.created_at))
+ + '</div>';
+ var menu = '<span class="ddwrap"><button class="btn btn-dark" data-bmenu="' + p.user_id + '">Acciones ▾</button>'
+ + '<span class="ddmenu hidden" id="bmenu-' + p.user_id + '">'
+ + '<button data-bact="datos" data-buyer="' + p.user_id + '">Ver datos</button>'
+ + (est === 'activo'
+ ? '<button data-bact="pausar" data-buyer="' + p.user_id + '">Pausar</button>'
+ : '<button data-bact="reactivar" data-buyer="' + p.user_id + '">Reactivar</button>')
+ + '<button data-bact="eliminar" data-buyer="' + p.user_id + '" class="danger">Eliminar</button>'
+ + '</span></span>';
+ return '<div><div class="rowitem"><img alt="">'
+ + '<div class="grow"><b>' + esc(p.nombre || DATA.correos[p.user_id] || 'Comprador') + '</b><span class="mut">' + esc([p.ciudad, p.pais].filter(Boolean).join(', ')) + (ords.length ? ' · ' + ords.length + ' pedido(s)' : '') + '</span></div>'
+ + estadoBadge(est) + menu + '</div>' + datos + '</div>';
+ }).join('');
+ box.querySelectorAll('[data-bmenu]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var m = document.getElementById('bmenu-' + b.getAttribute('data-bmenu'));
+ var was = m.classList.contains('hidden');
+ box.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ if(was) m.classList.remove('hidden');
+ };
+ });
+ box.querySelectorAll('[data-bact]').forEach(function(b){
+ b.onclick = function(e){
+ e.stopPropagation();
+ var uid = b.getAttribute('data-buyer'), act = b.getAttribute('data-bact');
+ var p = DATA.profiles[uid];
+ box.querySelectorAll('.ddmenu').forEach(function(x){ x.classList.add('hidden'); });
+ if(act === 'datos'){
+ var d = document.getElementById('bdatos-' + uid);
+ if(d) d.classList.toggle('open');
+ return;
+ }
+ if(act === 'pausar' || act === 'reactivar'){
+ var est = act === 'pausar' ? 'pausado' : 'activo';
+ patchProfile(uid, { estado: est }).then(function(){ if(p) p.estado = est; renderBuyers(); })
+ .catch(function(){ alert('No se pudo aplicar el cambio. ¿Ya corriste el SQL supabase-compradores-admin.sql en Supabase? Sin ese SQL, Pausar no funciona.'); });
+ return;
+ }
+ if(act === 'eliminar'){
+ var nombre = (p && p.nombre) || 'este comprador';
+ if(!confirm('¿Eliminar la cuenta de ' + nombre + '?\n\nSe borra su cuenta de acceso, su perfil, sus direcciones y su carrito. Esto NO se puede deshacer.')) return;
+ if(!confirm('Confirma una vez más: eliminar definitivamente a ' + nombre + '.')) return;
+ rpc('eliminar_cuenta_comprador', { p_user_id: uid }).then(function(){
+ delete DATA.profiles[uid];
+ renderBuyers();
+ }).catch(function(){ alert('No se pudo eliminar. ¿Ya corriste el SQL supabase-compradores-admin.sql en Supabase? Sin ese SQL esta opción no funciona.'); });
+ return;
+ }
+ };
+ });
+}
+
 Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
  b.onclick = function(){
  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.classList.remove('on'); });
  b.classList.add('on');
- ['resumen','pedidos','vzap','ventas','revendedores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
+ ['resumen','pedidos','vzap','ventas','revendedores','compradores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
  document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
  });
  if(b.getAttribute('data-tab') === 'pedidos'){ renderPedidos(); adminAlertsMaybe(); }
@@ -1152,6 +1246,7 @@ wireEmail(function(){ return TOK; }, function(){ return (S && S.user && S.user.e
   }
   armSearch('inv-q', function(){ renderInv(document.getElementById('inv-q').value || ''); });
   armSearch('sel-q', function(){ renderSellers(); });
+  armSearch('buy-q', function(){ renderBuyers(); });
   armSearch('zap-q', function(){ renderZapatos(); });
   armSearch('hist-q', function(){ renderHistorial(); });
   armSearch('hzap-q', function(){ renderHistZapatos(); });

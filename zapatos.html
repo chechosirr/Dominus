@@ -838,6 +838,17 @@ function loadZapDirs(){
  .catch(function(){ ZAP_DIRS = []; });
  }catch(e){ ZAP_DIRS = []; }
 }
+var ZAP_PAUSADO = false;
+(function(){
+ try{
+ var sess = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(!sess || !sess.access_token || !sess.user || !sess.user.id) return;
+ fetch(SUPABASE_URL + '/rest/v1/profiles?user_id=eq.' + sess.user.id + '&select=estado', { headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token } })
+ .then(function(r){ return r.ok ? r.json() : []; })
+ .then(function(rows){ if(rows && rows[0] && rows[0].estado === 'pausado'){ ZAP_PAUSADO = true; if(cartwrap.classList.contains('open')) renderCart(); } })
+ .catch(function(){});
+ }catch(e){}
+})();
 function paisUI(){
  var esUS = envioPais() === 'US';
  var lab = document.getElementById('sf-dep-lab'); if(lab) lab.textContent = esUS ? 'Estado' : 'Departamento';
@@ -962,7 +973,11 @@ function shipParts(){
  Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-rm]'), function(b){ b.onclick = function(){ cart.splice(+b.dataset.rm, 1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-tipo]'), function(b){ b.onclick = function(){ setEnvioTipo(b.dataset.tipo); }; });
- if(tieneCuenta()){ renderPayPal(); }
+ if(ZAP_PAUSADO){
+ var pc0 = document.getElementById('paypal-button-container');
+ if(pc0) pc0.innerHTML = '<div style="border:1px solid #e5b4b4;border-radius:14px;padding:16px;text-align:center;background:#fdf1f1"><b>Tu cuenta está pausada.</b><br><span style="font-size:13px;color:var(--mut)">Por ahora no puedes comprar. Escríbenos por WhatsApp si crees que es un error.</span></div>';
+ }
+ else if(tieneCuenta()){ renderPayPal(); }
  else {
  var pc = document.getElementById('paypal-button-container');
  if(pc) pc.innerHTML = '<div style="border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;background:var(--soft)"><b>Para comprar necesitas una cuenta de comprador.</b><br><span style="font-size:13px;color:var(--mut)">Con tu cuenta guardas tus direcciones y sigues tus pedidos.</span><br><a href="cuenta.html" style="display:inline-block;margin-top:12px;background:#2a2a2e;color:#fff;text-decoration:none;font-weight:800;padding:12px 22px;border-radius:999px">Entrar o crear mi cuenta</a></div>';

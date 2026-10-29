@@ -199,6 +199,10 @@ function deleteMyAccountBuyer(){
 function renderPayPalButtons(total){
   var cont = document.getElementById('paypal-button-container');
   if(!cont || !cart.length) return;
+  if(_profBase && _profBase.estado === 'pausado'){
+    cont.innerHTML = '<div style="border:1px solid #e5b4b4;border-radius:14px;padding:16px;text-align:center;background:#fdf1f1"><b>Tu cuenta está pausada.</b><br><span style="font-size:13px;color:#666">Por ahora no puedes comprar. Escríbenos por WhatsApp si crees que es un error.</span></div>';
+    return;
+  }
   function init(){
     if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
     cont.innerHTML = '';
