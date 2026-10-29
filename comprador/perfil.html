@@ -609,7 +609,7 @@ function render(){
     });
   }
   initAccordions();
-  Array.prototype.forEach.call(document.querySelectorAll('#main .sec'), function(s){ if(s.querySelector('#cart-list')) s.classList.add('open'); });
+  Array.prototype.forEach.call(document.querySelectorAll('#main .sec'), function(s){ if(soloCart && s.querySelector('#cart-list')) s.classList.add('open'); });
   wireChangePass(function(){ return session.user.email; }, function(j){ session = j; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
   wireEmail(function(){ return session.access_token; }, function(){ return session.user.email; });
   var delBtn = document.getElementById('btn-delacc'); if(delBtn) delBtn.onclick = deleteMyAccountBuyer;
