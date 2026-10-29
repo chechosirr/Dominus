@@ -521,6 +521,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Botín de gamuza sintética con doble zipper - Vino"
  },
  {
+  "codigo": "DOM-1294",
+  "nombre": "Nike Air Max Metro (Big Kid) — White/Black/Smoke Grey/Energy"
+ },
+ {
   "codigo": "DOM-130",
   "nombre": "Flat Mary Jane de charol con tira - Negro"
  },
@@ -1165,6 +1169,10 @@ var ZAP_HISTORIAL = [
   "nombre": "KEEN Motozoa Sandal Jazzy/Evening Primrose (Niños)"
  },
  {
+  "codigo": "DOM-294",
+  "nombre": "Reebok Classic AZ (Men) - White/Luxe Grey/Chalk"
+ },
+ {
   "codigo": "DOM-296",
   "nombre": "Hey Dude Wally Funk Multi Mesh (Men) - Black/Smoke Grey"
  },
@@ -1233,6 +1241,14 @@ var ZAP_HISTORIAL = [
   "nombre": "Reebok Smash Edge Sneaker (Men) - Amber Blue Gum"
  },
  {
+  "codigo": "DOM-324",
+  "nombre": "adidas Racer TR23 (Men) - Dark Blue / Cloud White / Halo Silver"
+ },
+ {
+  "codigo": "DOM-326",
+  "nombre": "Reebok Smash Edge (Men) - Chalk / Camel / Grit Gold"
+ },
+ {
   "codigo": "DOM-327",
   "nombre": "Clarks Gessler Lace (Men) - Black Leather"
  },
@@ -1267,6 +1283,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-340",
   "nombre": "adidas Adilette Shower Slide (Men) - Ink/White/Ink"
+ },
+ {
+  "codigo": "DOM-341",
+  "nombre": "Under Armour Armr Slide Lite (Men) - Black/White/Black"
  },
  {
   "codigo": "DOM-347",
@@ -1305,6 +1325,18 @@ var ZAP_HISTORIAL = [
   "nombre": "GEL-NYC 2055 Glacier Grey / White"
  },
  {
+  "codigo": "DOM-362",
+  "nombre": "GEL-Contend 8 Carrier Grey / Metropolis"
+ },
+ {
+  "codigo": "DOM-363",
+  "nombre": "Club C Grounds UK Deepolive / Pumporange / Gum"
+ },
+ {
+  "codigo": "DOM-367",
+  "nombre": "Hands Free Slip-ins Max Cushioning Glide-Step Black / Gray"
+ },
+ {
   "codigo": "DOM-368",
   "nombre": "Court Shot White / Flax"
  },
@@ -1341,8 +1373,24 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike AL8 Platinum Violet/White/Metallic Silver"
  },
  {
+  "codigo": "DOM-393",
+  "nombre": "Vans Classic Slip-On Sherpa Tan"
+ },
+ {
+  "codigo": "DOM-394",
+  "nombre": "PUMA Palermo Velvet Dream Mauve Mist/Alpine Snow"
+ },
+ {
   "codigo": "DOM-395",
   "nombre": "PUMA Palermo Elevata Puma White"
+ },
+ {
+  "codigo": "DOM-398",
+  "nombre": "Nike Pacific Team Crimson/White/Black/Gum Light Brown"
+ },
+ {
+  "codigo": "DOM-399",
+  "nombre": "Nike Flex Train Vast Grey/Tattoo/College Grey"
  },
  {
   "codigo": "DOM-400",
@@ -1509,6 +1557,10 @@ var ZAP_HISTORIAL = [
   "nombre": "TOMS Constance Botín (Women) — Tan Suede"
  },
  {
+  "codigo": "DOM-480",
+  "nombre": "Hey Dude Camden Cuff Wool Cozy Bota (Women) — Tan"
+ },
+ {
   "codigo": "DOM-481",
   "nombre": "SOREL Out N About IV Classic Waterproof Bota (Women) — Rustic Brown/Redwood"
  },
@@ -1519,6 +1571,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-490",
   "nombre": "Nike Stellar Ride (Little Kid) - Violet Mist/Purple Dynasty/Barely Grape"
+ },
+ {
+  "codigo": "DOM-491",
+  "nombre": "Michael Kors Emmet Rumi (Little Kid) - Black/Brown"
  },
  {
   "codigo": "DOM-494",
@@ -1551,6 +1607,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-513",
   "nombre": "adidas Lightorama Runner Elastic Lace (Toddler) - Ice Lavender/Silver Metallic/Flash Aqua"
+ },
+ {
+  "codigo": "DOM-514",
+  "nombre": "New Balance 574 Newb Hook & Loop (Toddler) - Shell Pink/Carnival Pink"
  },
  {
   "codigo": "DOM-515",

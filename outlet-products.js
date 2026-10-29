@@ -118,8 +118,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas VL Court 3.0 Shoes (Men)",
   "genero": "Hombre",
-  "precio": 33.0,
-  "precio_c": 1214,
+  "precio": 32.0,
+  "precio_c": 1177,
   "fotos": [
    "https://i.ebayimg.com/images/g/yXEAAeSw2lxq4DWQ/s-l500.webp"
   ],
@@ -150,8 +150,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Samoa Shoes (Men)",
   "genero": "Hombre",
-  "precio": 44.0,
-  "precio_c": 1618,
+  "precio": 40.0,
+  "precio_c": 1471,
   "fotos": [
    "https://i.ebayimg.com/images/g/WLQAAeSwdK5q4DKZ/s-l500.webp"
   ],
@@ -585,50 +585,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-057",
-  "marca": "adidas",
-  "nombre": "adidas Runfalcon 5 Cloud White / Cloud White / Cloud White",
-  "genero": "Hombre",
-  "precio": 33.0,
-  "precio_c": 1214,
-  "fotos": [
-   "https://i.ebayimg.com/images/g/RAIAAeSwt4Jp1o4x/s-l1600.jpg"
-  ],
-  "descripcion": "Tenis de running totalmente blancos, frescos y minimalistas, listos para correr o para caminar todo el día. Un básico limpio que combina con todo.",
-  "detalles": [
-   "Color blanco total, fácil de combinar",
-   "Diseñados para running y caminata diaria",
-   "Perfil bajo y ligeros",
-   "Cierre de cordones"
-  ],
-  "tallas": [
-   "11.5"
-  ]
- },
- {
-  "codigo": "DOM-060",
-  "marca": "adidas",
-  "nombre": "adidas Ultimashow Core Black / Core Black / Cloud White",
-  "genero": "Hombre",
-  "precio": 37.0,
-  "precio_c": 1361,
-  "fotos": [
-   "https://i.ebayimg.com/images/g/weUAAeSwcLppMLGW/s-l1600.jpg"
-  ],
-  "descripcion": "Tenis de running en negro casi total con un toque blanco, discretos y versátiles para entrenar o para el día a día. Parte superior textil fresca y ligera.",
-  "detalles": [
-   "Parte superior textil transpirable",
-   "Silueta baja para running y uso diario",
-   "Cierre de cordones",
-   "Suela de goma con buen agarre"
-  ],
-  "tallas": [
-   "7.5",
-   "11",
-   "11.5"
-  ]
- },
- {
   "codigo": "DOM-062",
   "marca": "Mix No. 6",
   "nombre": "Mix No. 6 Egann Sneaker Black Rhinestone",
@@ -647,66 +603,6 @@ var ZAPATOS = [
    "Cierre de cordones y punta redonda",
    "Plantilla removible",
    "Suela sintética tipo cupsole"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-063",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Ignite Pro 8 Fixed Strap Black/Red",
-  "genero": "Hombre",
-  "precio": 38.92,
-  "precio_c": 1431,
-  "fotos": [
-   "https://media.kohlsimg.com/is/image/kohls/7816255_Black_Red?wid=1200&hei=1200&op_sharpen=1"
-  ],
-  "descripcion": "Slide negro con detalle rojo y plantilla de memory foam que se amolda al pie, ideal para descansar después del gimnasio o para andar cómodo en casa y en la calle.",
-  "detalles": [
-   "Plantilla suave de memory foam",
-   "Banda fija con bordes enrollados para mayor estabilidad",
-   "Entrada deslizable sin cordones",
-   "Pensado para descanso y recuperación post-entrenamiento"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-064",
-  "marca": "Sperry",
-  "nombre": "Sperry Striper II Slip-On Sneaker Grey",
-  "genero": "Hombre",
-  "precio": 39.18,
-  "precio_c": 1441,
-  "fotos": [
-   "https://n.nordstrommedia.com/it/ee5eb7ce-d91d-4cc2-8506-0d8ad3938f48.jpeg?crop=pad&trim=color&w=780&h=1196",
-   "https://n.nordstrommedia.com/it/00a2624a-5c06-4057-b419-5a559ac346bd.jpeg?crop=pad&trim=color&w=780&h=1196"
-  ],
-  "descripcion": "Slip-on náutico de lona con acabado lavado que se pone y se quita en segundos, pensado para días relajados junto al agua o en la ciudad. Su suela con ranuras de agarre da pasos firmes sin dejar marcas en el piso.",
-  "detalles": [
-   "Diseño slip-on sin cordones",
-   "Twill con lavado a la sal",
-   "Suela de agarre que no marca",
-   "Upper y forro textil, suela sintética"
   ],
   "tallas": [
    "7",
@@ -785,55 +681,6 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
- },
- {
-  "codigo": "DOM-067",
-  "marca": "Steve Madden",
-  "nombre": "Steve Madden Nereo Sneaker Black",
-  "genero": "Hombre",
-  "precio": 42.43,
-  "precio_c": 1560,
-  "fotos": [
-   "https://n.nordstrommedia.com/it/cebd5c55-a600-4bfc-a581-ae1fd76a7ac3.jpeg?crop=pad&trim=color&w=780&h=1196",
-   "https://n.nordstrommedia.com/it/7d249f46-e667-471d-b692-0ec3a662acf8.jpeg?crop=pad&trim=color&w=780&h=1196"
-  ],
-  "descripcion": "Sneaker casual negro con un giro atlético y suela contrastante flexible que acompaña el movimiento. Su construcción textil ligera lo vuelve una opción fácil para el uso diario con jeans o joggers.",
-  "detalles": [
-   "Cierre con cordones",
-   "Upper y forro textil",
-   "Suela de goma flexible en contraste",
-   "Solo tallas enteras (si usas medio número, pide el siguiente)"
-  ],
-  "tallas": [
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-068",
-  "marca": "Emerica",
-  "nombre": "Emerica OG-1 White/Green",
-  "genero": "Hombre",
-  "precio": 42.45,
-  "precio_c": 1561,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61ZXC+VaBVL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71UCMKhJ+kL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Sneaker de skate de perfil bajo en blanco con detalles verdes, con una construcción reforzada pensada para aguantar el uso diario. Combina look clásico de patineta con amortiguación cómoda para todo el día.",
-  "detalles": [
-   "Parte superior de gamuza y malla con costuras triples",
-   "Suela tipo cupsole de goma con entresuela interna de EVA",
-   "Plantilla de EVA y forro de algodón transpirable",
-   "Cierre con cordones y punta redonda"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "11.5"
   ]
  },
  {
@@ -1127,38 +974,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-089",
-  "marca": "Skechers",
-  "nombre": "Skechers BOBS B Flex Visionary Essence Black",
-  "genero": "Mujer",
-  "precio": 36.94,
-  "precio_c": 1358,
-  "fotos": [
-   "https://media.kohlsimg.com/is/image/kohls/6131494_Black?wid=560&hei=560&op_sharpen=1"
-  ],
-  "descripcion": "Tenis negros de punto suave con plantilla Memory Foam que se adapta a la forma del pie. Ligeros, flexibles y fáciles de lavar, pensados para caminar cómoda durante todo el día.",
-  "detalles": [
-   "Plantilla Memory Foam acolchada",
-   "Parte superior de punto con cierre de cordones",
-   "Materiales 100% veganos, lavables a máquina",
-   "Suela de goma flexible con tracción"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11"
-  ]
- },
- {
   "codigo": "DOM-090",
   "marca": "Cole Haan",
   "nombre": "Cole Haan Grand Crosscourt Brynn Dorado Metálico/Gamuza Birch",
@@ -1188,8 +1003,8 @@ var ZAPATOS = [
   "marca": "Bzees",
   "nombre": "Bzees Wednesday Modern Slip-On Verde Salvia Jaspeado",
   "genero": "Mujer",
-  "precio": 41.45,
-  "precio_c": 1524,
+  "precio": 46.95,
+  "precio_c": 1727,
   "fotos": [
    "https://m.media-amazon.com/images/I/71GViPY5TYL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71Lq1kVrrpL._AC_SR768,1024_.jpg",
@@ -2655,38 +2470,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-180",
-  "marca": "Hurley",
-  "nombre": "Hurley Immerse Men's Slip-On Lightweight Quick-Dry Water Shoes Grey Yellow",
-  "genero": "Hombre",
-  "precio": 31.2,
-  "precio_c": 1147,
-  "fotos": [
-   "https://media.kohlsimg.com/is/image/kohls/7819361_Grey_Yellow?wid=1200&hei=1200&op_sharpen=1",
-   "https://media.kohlsimg.com/is/image/kohls/7819361_ALT?wid=1200&hei=1200&op_sharpen=1"
-  ],
-  "descripcion": "Zapato acuático sin cordones, muy ligero y de secado rápido, pensado para la playa, la piscina y días de calor. Su parte superior transpirable deja salir el agua y la suela con buen agarre da seguridad en superficies mojadas.",
-  "detalles": [
-   "Diseño slip-on que se pone y se quita en segundos",
-   "Parte superior ligera y transpirable de secado rápido",
-   "Suela con tracción para pisos mojados",
-   "Color Grey Yellow, fácil de combinar"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-181",
   "marca": "adidas",
   "nombre": "adidas Adilette Shower Slide Sandal Black/White",
@@ -2889,8 +2672,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Golf Infinity G Next Nature Black/White/Smoke Grey/Blue Hero",
   "genero": "Hombre",
-  "precio": 37.95,
-  "precio_c": 1396,
+  "precio": 53.95,
+  "precio_c": 1984,
   "fotos": [
    "https://m.media-amazon.com/images/I/71R0gnVFR+L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/8150Pnx5MyL._AC_SR768,1024_.jpg"
@@ -3590,8 +3373,8 @@ var ZAPATOS = [
   "marca": "Hey Dude",
   "nombre": "Hey Dude Wendy Funk Mono Rosa Fucsia",
   "genero": "Mujer",
-  "precio": 33.44,
-  "precio_c": 1230,
+  "precio": 39.93,
+  "precio_c": 1468,
   "fotos": [
    "https://m.media-amazon.com/images/I/71DjDM6x41L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71fOZyTEOvL._AC_SR768,1024_.jpg",
@@ -3672,8 +3455,8 @@ var ZAPATOS = [
   "marca": "LifeStride",
   "nombre": "Botín LifeStride Dazzle Negro",
   "genero": "Mujer",
-  "precio": 37.91,
-  "precio_c": 1394,
+  "precio": 98.46,
+  "precio_c": 3621,
   "fotos": [
    "https://m.media-amazon.com/images/I/71bh6nsxvBL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71nuSEI-cpL._AC_SR768,1024_.jpg",
@@ -3725,8 +3508,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Sandalia Nike Calm Rosa Empolvado",
   "genero": "Mujer",
-  "precio": 38.95,
-  "precio_c": 1432,
+  "precio": 28.95,
+  "precio_c": 1065,
   "fotos": [
    "https://m.media-amazon.com/images/I/51PedHjinQL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/6131X4F6cuL._AC_SR768,1024_.jpg",
@@ -4022,8 +3805,8 @@ var ZAPATOS = [
   "marca": "Merrell",
   "nombre": "Merrell Hydro Moc Lilac/Peach (Niños)",
   "genero": "Niños",
-  "precio": 33.94,
-  "precio_c": 1248,
+  "precio": 45.45,
+  "precio_c": 1671,
   "fotos": [
    "https://m.media-amazon.com/images/I/71pRXBEdmjL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71I--TOjn9L._AC_SR768,1024_.jpg",
@@ -4254,8 +4037,8 @@ var ZAPATOS = [
   "marca": "Self Esteem",
   "nombre": "Self Esteem Debbie Brillo con Estrellas (Niños)",
   "genero": "Niños",
-  "precio": 40.93,
-  "precio_c": 1505,
+  "precio": 42.93,
+  "precio_c": 1579,
   "fotos": [
    "https://cdn.media.amplience.net/s/scvl/183800_408088_SET/1?fmt=auto&$webPdpProduct$",
    "https://cdn.media.amplience.net/s/scvl/183800_408088_SET/2?fmt=auto&$webPdpProduct$",
@@ -4455,8 +4238,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Suede Classic XXI Pink Lady/Puma White (Niños)",
   "genero": "Niños",
-  "precio": 30.45,
-  "precio_c": 1120,
+  "precio": 35.95,
+  "precio_c": 1322,
   "fotos": [
    "https://m.media-amazon.com/images/I/71jS4FDTx7L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71Uw5H3UxaL._SX700_.jpg",
@@ -4554,8 +4337,8 @@ var ZAPATOS = [
   "marca": "SKECHERS",
   "nombre": "SKECHERS Boundless Color Blitz 303599L Lavender/Multi (Niños)",
   "genero": "Niños",
-  "precio": 43.95,
-  "precio_c": 1616,
+  "precio": 48.95,
+  "precio_c": 1800,
   "fotos": [
    "https://m.media-amazon.com/images/I/71TGrPXY6WL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71f-OdtGXnL._SX700_.jpg",
@@ -4662,8 +4445,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Lite Spinner Black Passion Pink (Niños)",
   "genero": "Niños",
-  "precio": 40.92,
-  "precio_c": 1505,
+  "precio": 45.92,
+  "precio_c": 1689,
   "fotos": [
    "https://media.kohlsimg.com/is/image/kohls/7396839_Black_Passion_Pink?wid=600&hei=600&op_sharpen=1"
   ],
@@ -4690,8 +4473,8 @@ var ZAPATOS = [
   "marca": "Shaq",
   "nombre": "Shaq Devastator 3.1 Red (Niños)",
   "genero": "Niños",
-  "precio": 43.44,
-  "precio_c": 1597,
+  "precio": 53.94,
+  "precio_c": 1984,
   "fotos": [
    "https://media.kohlsimg.com/is/image/kohls/8220701_Red?wid=600&hei=600&op_sharpen=1"
   ],
@@ -4872,8 +4655,8 @@ var ZAPATOS = [
   "marca": "Blu D'or",
   "nombre": "Blu D'or D'or Bella Shoes White/Pink/Silv (Niños)",
   "genero": "Niños",
-  "precio": 42.97,
-  "precio_c": 1580,
+  "precio": 46.97,
+  "precio_c": 1727,
   "fotos": [
    "https://cdn.media.amplience.net/i/scvl/187165_418054_1?fmt=auto",
    "https://cdn.media.amplience.net/i/scvl/187165_418054_2?fmt=auto",
@@ -4944,67 +4727,6 @@ var ZAPATOS = [
    "4 - Big Kid",
    "4.5 - Big Kid",
    "5 - Big Kid"
-  ]
- },
- {
-  "codigo": "DOM-293",
-  "marca": "KEEN",
-  "nombre": "KEEN Motozoa Sandal Jazzy/Evening Primrose (Niños)",
-  "genero": "Niños",
-  "precio": 31.95,
-  "precio_c": 1175,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71zfy32D2GL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71WdYktYSiL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71obLUV2lgL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71PFVwIvhSL._SX700_.jpg"
-  ],
-  "descripcion": "Sandalia deportiva en tonos morados con cierre de velcro, fresca y ventilada para días de calor. Su plantilla con soporte de arco y su suela que no deja marcas la hacen ideal para piscina, playa y juego diario.",
-  "detalles": [
-   "Parte superior textil con cortes de ventilación",
-   "Cierre de velcro y tiradores para ponerla fácil",
-   "Plantilla removible con soporte de arco",
-   "Entresuela de EVA y suela de goma que no marca pisos"
-  ],
-  "tallas": [
-   "7Y"
-  ]
- },
- {
-  "codigo": "DOM-294",
-  "marca": "Reebok",
-  "nombre": "Reebok Classic AZ (Men) - White/Luxe Grey/Chalk",
-  "genero": "Unisex",
-  "precio": 36.45,
-  "precio_c": 1340,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61eInaljj3L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61mMeLFloqL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61i8nYYNr1L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61ZrB3m8w3L._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis retro de cuero en blanco con detalles grises, de silueta baja y limpia para uso diario. Combina con jeans, shorts y atuendos casuales con un aire clásico deportivo.",
-  "detalles": [
-   "Parte superior de cuero con franja lateral distintiva",
-   "Plantilla acolchada de goma para comodidad todo el día",
-   "Suela de goma con tracción confiable",
-   "Diseño bajo con cordones y punta redonda"
-  ],
-  "tallas": [
-   8,
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11"
   ]
  },
  {
@@ -5372,36 +5094,12 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-324",
-  "marca": "adidas",
-  "nombre": "adidas Racer TR23 (Men) - Dark Blue / Cloud White / Halo Silver",
-  "genero": "Hombre",
-  "precio": 35.0,
-  "precio_c": 1287,
-  "fotos": [
-   "https://i.ebayimg.com/images/g/2LEAAeSw2~NpClij/s-l400.jpg"
-  ],
-  "descripcion": "Tenis de running ligero con exterior de malla azul marino y las tres franjas en blanco, pensado para entrenamientos cortos y uso diario. Su suela con detalle translúcido en el talón le da un toque moderno y deportivo.",
-  "detalles": [
-   "Exterior de malla transpirable",
-   "Entresuela acolchada para pisada suave",
-   "Suela de goma con buen agarre",
-   "Cierre de cordones tradicional"
-  ],
-  "tallas": [
-   "10",
-   "10.5",
-   "11",
-   "11.5"
-  ]
- },
- {
   "codigo": "DOM-325",
   "marca": "adidas",
   "nombre": "adidas Streettalk (Men)",
   "genero": "Hombre",
-  "precio": 41.0,
-  "precio_c": 1508,
+  "precio": 30.0,
+  "precio_c": 1103,
   "fotos": [
    "https://assets.designerbrands.com/match/Site_Name/601630_100_ss_01/"
   ],
@@ -5426,33 +5124,6 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
- },
- {
-  "codigo": "DOM-326",
-  "marca": "Reebok",
-  "nombre": "Reebok Smash Edge (Men) - Chalk / Camel / Grit Gold",
-  "genero": "Hombre",
-  "precio": 44.99,
-  "precio_c": 1654,
-  "fotos": [
-   "https://i.ebayimg.com/images/g/B10AAOSwyt1ntuXk/s-l400.webp"
-  ],
-  "descripcion": "Tenis de estilo cancha con exterior de gamuza en tonos crema y camel, de silueta baja y atemporal. Combina con jeans, pantalones cortos y ropa casual de todos los días.",
-  "detalles": [
-   "Exterior de gamuza suave",
-   "Suela cupsole de perfil bajo",
-   "Logo vector lateral clásico",
-   "Plantilla cómoda para uso prolongado"
-  ],
-  "tallas": [
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
   ]
  },
  {
@@ -5598,36 +5269,6 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
- },
- {
-  "codigo": "DOM-341",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Armr Slide Lite (Men) - Black/White/Black",
-  "genero": "Hombre",
-  "precio": 42.99,
-  "precio_c": 1581,
-  "fotos": [
-   "https://images.footlocker.com/is/image/EBFL2/67528001?wid=800&hei=800",
-   "https://images.footlocker.com/is/image/EBFL2/67528001_a1?wid=800&hei=800",
-   "https://images.footlocker.com/is/image/EBFL2/67528001_a2?wid=800&hei=800",
-   "https://images.footlocker.com/is/image/EBFL2/67528001_a3?wid=800&hei=800"
-  ],
-  "descripcion": "Slides ultraligeras de Under Armour en negro con logo blanco, hechas de una sola pieza de EVA. Perfectas para el vestidor, la ducha y recuperarse después de entrenar.",
-  "detalles": [
-   "Construcción de EVA moldeado de una sola pieza",
-   "Suela texturizada con agarre en superficies mojadas",
-   "Diseño sin cordones, fácil de poner y quitar",
-   "Logo de Under Armour impreso en la banda"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
   ]
  },
  {
@@ -6003,82 +5644,12 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-362",
-  "marca": "ASICS",
-  "nombre": "GEL-Contend 8 Carrier Grey / Metropolis",
-  "genero": "Hombre",
-  "precio": 30.75,
-  "precio_c": 1131,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71WKpmle4dL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71Ru29kIjgL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71uBY4+rOdL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71VVzhHU-JL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis de running para hombre con amortiguación GEL en el talón, pensados para entrenamientos diarios y caminatas largas con un ajuste seguro.",
-  "detalles": [
-   "Parte superior de malla de ingeniería transpirable",
-   "Amortiguación GEL en el talón que absorbe el impacto",
-   "Suela de goma con ranuras de flexión para una pisada natural",
-   "Refuerzos sintéticos que dan soporte al mediopié"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-363",
-  "marca": "Reebok",
-  "nombre": "Club C Grounds UK Deepolive / Pumporange / Gum",
-  "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71i1u2hN+5L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81oXG5uf5AL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71S3cjL6-fL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71aFc7G2LIL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Silueta clásica de tenis con parte superior de cuero suave en verde olivo y suela de goma natural, fácil de combinar para el uso diario.",
-  "detalles": [
-   "Parte superior de cuero con perforaciones en la puntera",
-   "Suela tipo cupsole de goma con buena tracción",
-   "Plantilla acolchada para mayor comodidad",
-   "Detalles en naranja que contrastan con el verde olivo"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-364",
   "marca": "Under Armour",
   "nombre": "Charged Assert 10 Black / Black / Blue Surf",
   "genero": "Hombre",
-  "precio": 36.9,
-  "precio_c": 1357,
+  "precio": 68.55,
+  "precio_c": 2521,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ioA9Uj7NL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81sdQBeMvPL._AC_SR768,1024_.jpg",
@@ -6161,41 +5732,6 @@ var ZAPATOS = [
    "Entresuela ligera de EVA con buena amortiguación",
    "Suela de goma para tracción en asfalto",
    "Horma regular de hombre"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-367",
-  "marca": "Skechers",
-  "nombre": "Hands Free Slip-ins Max Cushioning Glide-Step Black / Gray",
-  "genero": "Hombre",
-  "precio": 43.95,
-  "precio_c": 1616,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71mbTlTbUUL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81RnnY+5WDL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71HBuZ6CE0L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71OIKWDLZuL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis que se calzan sin usar las manos, con talón de apoyo y amortiguación máxima para caminar con total comodidad.",
-  "detalles": [
-   "Tecnología Hands Free Slip-ins: te los pones sin agacharte",
-   "Talón Heel Pillow que sujeta el pie al entrar",
-   "Amortiguación Max Cushioning con geometría Glide-Step",
-   "Parte superior de punto técnico de una sola pieza"
   ],
   "tallas": [
    "7",
@@ -6776,74 +6312,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-393",
-  "marca": "Vans",
-  "nombre": "Vans Classic Slip-On Sherpa Tan",
-  "genero": "Mujer",
-  "precio": 37.45,
-  "precio_c": 1377,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61JJU6bRbQL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71kZDoLs6dL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "El clásico slip-on de Vans en tono tan con textura tipo sherpa, sin agujetas y listo para ponérselo en segundos.",
-  "detalles": [
-   "Diseño sin agujetas, fácil de poner y quitar",
-   "Parte superior de lona con textura sherpa",
-   "Suela waffle característica de la marca",
-   "Perfil bajo estilo skate clásico"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11"
-  ]
- },
- {
-  "codigo": "DOM-394",
-  "marca": "PUMA",
-  "nombre": "PUMA Palermo Velvet Dream Mauve Mist/Alpine Snow",
-  "genero": "Mujer",
-  "precio": 43.45,
-  "precio_c": 1598,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61uP0ZfYyBL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71M4Z4lGwUL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Palermo de inspiración retro con acabado tipo terciopelo en malva suave, un modelo de archivo que combina con todo el guardarropa casual.",
-  "detalles": [
-   "Acabado aterciopelado en tono malva",
-   "Silueta baja estilo retro",
-   "Suela de goma con tracción",
-   "Detalle de franja lateral característica"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11"
-  ]
- },
- {
   "codigo": "DOM-396",
   "marca": "Converse",
   "nombre": "Converse Chuck Taylor All Star Dainty Lucky Black/White/Black",
@@ -6906,78 +6374,6 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
- },
- {
-  "codigo": "DOM-398",
-  "marca": "Nike",
-  "nombre": "Nike Pacific Team Crimson/White/Black/Gum Light Brown",
-  "genero": "Mujer",
-  "precio": 41.95,
-  "precio_c": 1543,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81eFNeX5g+L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81QeerpqS6L._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis lifestyle en rojo carmesí con suela color goma, de cuero y gamuza, con un estilo urbano fácil de llevar a diario.",
-  "detalles": [
-   "Parte superior de cuero y gamuza",
-   "Suela con patrón herringbone para tracción",
-   "Combinación rojo, blanco y negro",
-   "Plantilla acolchada"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
-  ]
- },
- {
-  "codigo": "DOM-399",
-  "marca": "Nike",
-  "nombre": "Nike Flex Train Vast Grey/Tattoo/College Grey",
-  "genero": "Mujer",
-  "precio": 41.95,
-  "precio_c": 1543,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71WpBNReFiL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/810qMLGZaSL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis de entrenamiento en tonos grises, con malla transpirable y suela flexible para rutinas de gimnasio y caminatas.",
-  "detalles": [
-   "Diseñado para training y ejercicio diario",
-   "Parte superior de malla transpirable",
-   "Suela flexible que acompaña el movimiento",
-   "Amortiguación ligera"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
   ]
  },
  {
@@ -7120,8 +6516,8 @@ var ZAPATOS = [
   "marca": "victoria",
   "nombre": "victoria Seul Suede Colors Rojo",
   "genero": "Mujer",
-  "precio": 42.95,
-  "precio_c": 1579,
+  "precio": 49.2,
+  "precio_c": 1809,
   "fotos": [
    "https://m.media-amazon.com/images/I/71FICROwl2L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81G5XLzocHL._AC_SR768,1024_.jpg",
@@ -7156,8 +6552,8 @@ var ZAPATOS = [
   "marca": "victoria",
   "nombre": "victoria Seul Multicolor Camel",
   "genero": "Mujer",
-  "precio": 42.95,
-  "precio_c": 1579,
+  "precio": 55.45,
+  "precio_c": 2039,
   "fotos": [
    "https://m.media-amazon.com/images/I/61qO7dbVnIL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/7106BEbtZpL._AC_SR768,1024_.jpg",
@@ -7729,8 +7125,8 @@ var ZAPATOS = [
   "marca": "Soda",
   "nombre": "Soda Bryce Platform Sandals (Women) — Natural",
   "genero": "Mujer",
-  "precio": 44.97,
-  "precio_c": 1654,
+  "precio": 49.97,
+  "precio_c": 1838,
   "fotos": [
    "https://cdn.media.amplience.net/s/scvl/106172_212323_SET/1?fmt=auto&$webPdpProduct$",
    "https://cdn.media.amplience.net/s/scvl/106172_212323_SET/2?fmt=auto&$webPdpProduct$",
@@ -7765,8 +7161,8 @@ var ZAPATOS = [
   "marca": "Soda",
   "nombre": "Soda Topic Platform Sandals (Women) — Café y crema",
   "genero": "Mujer",
-  "precio": 44.97,
-  "precio_c": 1654,
+  "precio": 49.97,
+  "precio_c": 1838,
   "fotos": [
    "https://cdn.media.amplience.net/s/scvl/102384_226223_SET/1?fmt=auto&$webPdpProduct$",
    "https://cdn.media.amplience.net/s/scvl/102384_226223_SET/2?fmt=auto&$webPdpProduct$",
@@ -8198,39 +7594,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-480",
-  "marca": "Hey Dude",
-  "nombre": "Hey Dude Camden Cuff Wool Cozy Bota (Women) — Tan",
-  "genero": "Mujer",
-  "precio": 36.44,
-  "precio_c": 1340,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71-5-ac623L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71eU5B9jSHL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Bota acogedora en tono tan con puño doblado de lana, suave y ligera para el frío. Se pone sin cordones y abriga desde el primer paso.",
-  "detalles": [
-   "Puño doblado con tejido de lana acogedor",
-   "Color tan fácil de combinar",
-   "Diseño sin cordones, se pone en segundos",
-   "Estilo ligero tipo bota de descanso"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11"
-  ]
- },
- {
   "codigo": "DOM-483",
   "marca": "Madden Girl",
   "nombre": "Madden Girl Shakke Bota (Women) — Black Fabric",
@@ -8268,8 +7631,8 @@ var ZAPATOS = [
   "marca": "Bearpaw",
   "nombre": "Bearpaw Super Shorty Deco Bota con Plataforma (Women) — Iced Coffee",
   "genero": "Mujer",
-  "precio": 39.44,
-  "precio_c": 1450,
+  "precio": 30.94,
+  "precio_c": 1138,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NmItIlcuL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71BAi-BT0ML._AC_SR768,1024_.jpg"
@@ -8392,8 +7755,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance 327 New-B (Toddler) - Pink Salt/Dark Silver Metallic",
   "genero": "Niños",
-  "precio": 39.94,
-  "precio_c": 1469,
+  "precio": 43.19,
+  "precio_c": 1588,
   "fotos": [
    "https://m.media-amazon.com/images/I/71D3hJLu8XL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71n83DahI8L._AC_SR768,1024_.jpg",
@@ -8440,31 +7803,6 @@ var ZAPATOS = [
    "Cierre de cordones"
   ],
   "tallas": [
-   "3Y"
-  ]
- },
- {
-  "codigo": "DOM-491",
-  "marca": "Michael Kors",
-  "nombre": "Michael Kors Emmet Rumi (Little Kid) - Black/Brown",
-  "genero": "Niños",
-  "precio": 32.55,
-  "precio_c": 1197,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71gpNf2nweL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71rI5WpXylL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61NE9bh--2L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71SMdnMVXXL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis casuales con acabado elegante en negro y marrón, para un look más vestido sin perder comodidad.",
-  "detalles": [
-   "Diseño casual de inspiración premium",
-   "Combinación negro y marrón fácil de combinar",
-   "Suela cómoda para uso diario",
-   "Cierre de cordones"
-  ],
-  "tallas": [
-   "11",
    "3Y"
   ]
  },
@@ -8645,8 +7983,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Ultra Play (Toddler/Little Kid) - Puma Red/Puma Black/Puma White",
   "genero": "Niños",
-  "precio": 26.92,
-  "precio_c": 990,
+  "precio": 70.47,
+  "precio_c": 2591,
   "fotos": [
    "https://m.media-amazon.com/images/I/71uERa7CuhL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71RiRDrnybL._AC_SR768,1024_.jpg",
@@ -8695,8 +8033,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans SK8-Mid Reissue V (Toddler) - Grape Leaf/Canteen",
   "genero": "Niños",
-  "precio": 38.7,
-  "precio_c": 1423,
+  "precio": 40.95,
+  "precio_c": 1506,
   "fotos": [
    "https://m.media-amazon.com/images/I/81zXoB1Z30L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81YrQshN-1L._AC_SR768,1024_.jpg",
@@ -8748,8 +8086,8 @@ var ZAPATOS = [
   "marca": "Tsukihoshi",
   "nombre": "Tsukihoshi Rainbow (Toddler/Little Kid) - Fuchsia/Purple",
   "genero": "Niños",
-  "precio": 43.93,
-  "precio_c": 1615,
+  "precio": 47.67,
+  "precio_c": 1753,
   "fotos": [
    "https://m.media-amazon.com/images/I/71-kBcT7GFL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71I9HsZqLxL._AC_SR768,1024_.jpg",
@@ -8774,8 +8112,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike V5 RNR (Toddler) - Phantom/Phantom/Moon Particle",
   "genero": "Niños",
-  "precio": 38.75,
-  "precio_c": 1425,
+  "precio": 41.85,
+  "precio_c": 1539,
   "fotos": [
    "https://m.media-amazon.com/images/I/719zf+wM6aL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71TibLeFeLL._AC_SR768,1024_.jpg",
@@ -8845,31 +8183,6 @@ var ZAPATOS = [
    "8T",
    "9T",
    "10T"
-  ]
- },
- {
-  "codigo": "DOM-514",
-  "marca": "New Balance",
-  "nombre": "New Balance 574 Newb Hook & Loop (Toddler) - Shell Pink/Carnival Pink",
-  "genero": "Niños",
-  "precio": 39.94,
-  "precio_c": 1469,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71N0m5hNmFL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71cOnBTTRWL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71Fv7IZcYFL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71dYWw9MdQL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "El icónico 574 en versión para toddler con cierre de velcro, en rosas suaves.",
-  "detalles": [
-   "Cierre de velcro fácil",
-   "Estilo clásico 574 en miniatura",
-   "Tonos rosa shell y rosa carnaval",
-   "Suela de goma con tracción"
-  ],
-  "tallas": [
-   "7.5T",
-   "8T"
   ]
  },
  {
@@ -9004,8 +8317,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Marvel Spider-Man Run Falcon (Toddler) - Black/White/Pure Ruby",
   "genero": "Niños",
-  "precio": 41.25,
-  "precio_c": 1517,
+  "precio": 39.15,
+  "precio_c": 1440,
   "fotos": [
    "https://m.media-amazon.com/images/I/71DA1XZD+mL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71kv5vy1GlL._AC_SR768,1024_.jpg",
@@ -9130,8 +8443,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas x Disney Aladdin Grand Court 3.0 (Toddler) - Mint Ton/Gold Metallic/Wonder Quartz",
   "genero": "Niños",
-  "precio": 39.15,
-  "precio_c": 1440,
+  "precio": 43.35,
+  "precio_c": 1594,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Zur2YwVHL._AC_SR768,1024_.jpg"
   ],
@@ -30783,6 +30096,754 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
+  ]
+ },
+ {
+  "codigo": "DOM-1305",
+  "marca": "Nike",
+  "nombre": "Nike Pacific Moon Particle/Light Lemon Twist/Sail",
+  "genero": "Mujer",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/715CGjNjNSL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71hht9zfTDL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71tP3cmgRAL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/717tC0We4uL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "7",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1306",
+  "marca": "Madden Girl",
+  "nombre": "Madden Girl Giia Dark Brown/Light Sand Nylon",
+  "genero": "Mujer",
+  "precio": 48.41,
+  "precio_c": 1780,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71121T2mIGL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71cnWgc7xGL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61bMSyyTYlL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71N0uk25XoL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Madden Girl, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-1307",
+  "marca": "Allbirds",
+  "nombre": "Allbirds Tree Dasher 2 Hanami Night (Natural White)",
+  "genero": "Mujer",
+  "precio": 55.95,
+  "precio_c": 2058,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71loMd-M8SL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71ed+nszORL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61R6aDW0tRL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71HaAKcuh2L._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Allbirds, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1308",
+  "marca": "Nine West",
+  "nombre": "Tacón Nine West Vallie Transparente y Charol Negro",
+  "genero": "Mujer",
+  "precio": 45.45,
+  "precio_c": 1671,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61e8bGQJqwL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61KvDkBGRzL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/51Ha7djo6LL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61P9H8ibWWL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nine West, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8.5",
+   "9",
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1309",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Cloudfeel Stitchlite Tejido Hawthorn",
+  "genero": "Mujer",
+  "precio": 46.95,
+  "precio_c": 1727,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81nbKWbPHqL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71sDMCjAL4L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/81pmvIFAHML._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/81rI3++KCtL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Cole Haan, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1310",
+  "marca": "Nike",
+  "nombre": "Nike AL8 Platinum Violet/White/Metallic Silver",
+  "genero": "Mujer",
+  "precio": 51.95,
+  "precio_c": 1910,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61YjnmVtsFL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61J4XkI7B9L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61U14X0DvdL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61WKTIH+dZL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9",
+   "11.5",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-1311",
+  "marca": "Hey Dude",
+  "nombre": "Hey Dude Wally Funk Multi Mesh (Men) - Black/Smoke Grey",
+  "genero": "Hombre",
+  "precio": 46.44,
+  "precio_c": 1708,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71LwGd6v5dL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71Bom8glZpL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/717+ETqAOzL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71eF6UvsgtL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Hey Dude, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-1312",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool (Men) - Nineties Brown/Purple",
+  "genero": "Hombre",
+  "precio": 48.92,
+  "precio_c": 1799,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71tv8g+8saL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71R+3fb6AmL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71W16R04IML._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71SzmQ7DFLL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Vans, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-1313",
+  "marca": "Nike",
+  "nombre": "Nike Court Shot (Men) - Dark Hazel/Phantom/Velvet Brown",
+  "genero": "Hombre",
+  "precio": 53.95,
+  "precio_c": 1984,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71X9Qu8BXQL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61BcM0Z8xrL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71IGbrcmpQL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71vp2K0qehL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "7.5",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-1314",
+  "marca": "Clarks",
+  "nombre": "Clarks Sailview Lace (Men) - Sand Leather",
+  "genero": "Hombre",
+  "precio": 60.95,
+  "precio_c": 2241,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81gcPxEKb0L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/713uzOhC-WL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/81+lHaFNaHL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71GXwjfgjxL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Clarks, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-1315",
+  "marca": "etnies",
+  "nombre": "etnies Jameson 2 Eco (Men) - (Vegan) Navy/Gum/Gold",
+  "genero": "Hombre",
+  "precio": 62.94,
+  "precio_c": 2315,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71wJhRCcDSL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/613cRxEsogL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71-HrFy6qXL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71npNRSwEtL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de etnies, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1316",
+  "marca": "Nike",
+  "nombre": "Nike Court Shot White / Flax",
+  "genero": "Unisex",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61mybNwQUcL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61ZUYONwX1L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61dkmFgWogL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61wzhOaNcrL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-1317",
+  "marca": "SKECHERS",
+  "nombre": "SKECHERS Mighty Glow 2.0 403501N Black/Orange (Niños)",
+  "genero": "Niños",
+  "precio": 46.9,
+  "precio_c": 1725,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71+4BtQUiTL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/81r+MAxsuSL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/719eN8rIOQL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71mFMZHckJL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de SKECHERS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-1318",
+  "marca": "adidas",
+  "nombre": "adidas Tensaur Comfort 2 Pink Fusion/Clear Pink/White (Niños)",
+  "genero": "Niños",
+  "precio": 48.83,
+  "precio_c": 1796,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71dsO7aTylL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71jaFQcSs+L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71ztDqTPVBL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71K-7NBsbqL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-1319",
+  "marca": "New Balance",
+  "nombre": "New Balance DynaSoft 468 v1 Slip-On Daybreak/Cosmic Jade (Niños)",
+  "genero": "Niños",
+  "precio": 50.27,
+  "precio_c": 1849,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7185QcGwwsL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71m91WEPtNL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de New Balance, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "2",
+   "3",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-1320",
+  "marca": "Allbirds",
+  "nombre": "Allbirds Tree Runner Go Blizzard / Bold Red / Blizzard Sole",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61-QJlvjh+L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71syfAsUFSL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Allbirds, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "13.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1321",
+  "marca": "Allbirds",
+  "nombre": "Allbirds Tree Runner Go Blizzard / Hanami Night / Blizzard Sole",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71OyKGSWpZL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71FFgQ3cYrL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Allbirds, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "14"
+  ]
+ },
+ {
+  "codigo": "DOM-1322",
+  "marca": "Nike",
+  "nombre": "Nike Flex Experience Run 12 Wolf Grey / White / Iron Grey",
+  "genero": "Hombre",
+  "precio": 51.45,
+  "precio_c": 1892,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71KDhF7PfnL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71gdMqHwjkL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-1323",
+  "marca": "Reebok",
+  "nombre": "Reebok Walk Ultra 7 DMX Max White / Cold Grey / Collegiate Royal",
+  "genero": "Hombre",
+  "precio": 53.92,
+  "precio_c": 1983,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71lgbVLrmxL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71mYFD0roGL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7.5",
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1324",
+  "marca": "Skechers",
+  "nombre": "Skechers BOBS B Flex - Arch Comfort Edge (Men) - Chocolate",
+  "genero": "Hombre",
+  "precio": 72.39,
+  "precio_c": 2662,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71+UpCz42DL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/81756yblBIL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71eFIilWTEL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71j4H5-MosL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Skechers, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14",
+   "16"
+  ]
+ },
+ {
+  "codigo": "DOM-1325",
+  "marca": "PUMA",
+  "nombre": "PUMA Homura OG+ Shoes (Men) - Misty Pink/Dark Rose",
+  "genero": "Hombre",
+  "precio": 61.95,
+  "precio_c": 2278,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71AGJzmdXSL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71WVkKlUnoL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ]
+ },
+ {
+  "codigo": "DOM-1326",
+  "marca": "Nike",
+  "nombre": "Nike Air Monarch IV (Men) - Moon Particle/Dark Hazel/Black",
+  "genero": "Hombre",
+  "precio": 56.45,
+  "precio_c": 2076,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/714pLSAsUUL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71c89Ot6e1L._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1327",
+  "marca": "Nike",
+  "nombre": "Nike Offcourt Adjust (Men) - Black/White/Black",
+  "genero": "Hombre",
+  "precio": 55.91,
+  "precio_c": 2056,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71azlKICGkL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61Lhhi1pBQL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "9",
+   "12",
+   "18"
+  ]
+ },
+ {
+  "codigo": "DOM-1328",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Ignite Pro 8 Fixed Band Slides (Men) - Black/Black/Black",
+  "genero": "Hombre",
+  "precio": 53.9,
+  "precio_c": 1982,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71WPw4pHHDL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/718qP8lopSL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Under Armour, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14"
+  ]
+ },
+ {
+  "codigo": "DOM-1329",
+  "marca": "Nike",
+  "nombre": "Nike Marina (Men) - Light Smoke Grey/Black",
+  "genero": "Hombre",
+  "precio": 43.95,
+  "precio_c": 1616,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61KyKYO2XsL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61lY-vGx0ML._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-1330",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Locker IV (Men) - Black/White",
+  "genero": "Hombre",
+  "precio": 38.95,
+  "precio_c": 1432,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61NPoEPbVVL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/611-I7-9+0L._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Under Armour, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-1331",
+  "marca": "Nike",
+  "nombre": "Nike Court Vision Low FL (Men) - Black/White/Gum Med Brown",
+  "genero": "Hombre",
+  "precio": 58.95,
+  "precio_c": 2168,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71kqCqa2VaL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61Ye1xb+dlL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11.5",
+   "12",
+   "12.5"
+  ]
+ },
+ {
+  "codigo": "DOM-1332",
+  "marca": "Nike",
+  "nombre": "Nike V5 Runner (Men) - Thunder Blue/Sail/Pale Ivory/Cool Grey",
+  "genero": "Hombre",
+  "precio": 61.45,
+  "precio_c": 2260,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71bcw2Kvf3L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71tImx2dkJL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7.5",
+   "10.5",
+   "13",
+   "15"
   ]
  }
 ];
