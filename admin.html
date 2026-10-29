@@ -32,10 +32,30 @@ main{max-width:1060px;margin:0 auto;padding:22px 16px 60px}
 .ped-f{border:1.5px solid var(--dark);background:#fff;color:var(--dark);border-radius:999px;padding:9px 18px;font-family:inherit;font-weight:700;cursor:pointer}
 .ped-f.on{background:var(--dark);color:#fff}
 .ped-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px;background:#fff}
-.ped-card.bad{background:#fdf0ef;border-color:#e5484d}
+.ped-card.bad{background:#eefaf1;border-color:#1c7c43}
 .ped-head{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:14px;color:var(--txt);margin-bottom:8px}
 .ped-chip{font-size:11px;font-weight:800;border-radius:999px;padding:2px 9px;background:#eceff3;color:#44484f;white-space:nowrap}
-.ped-card.bad .ped-chip{background:#d92d20;color:#fff}
+.ped-card.bad .ped-chip{background:#1c7c43;color:#fff}
+.ped-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.ped-btn{padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:.85rem;font-weight:700;font-family:inherit;color:var(--txt)}
+.ped-btn.acc{background:#1c7c43;border-color:#1c7c43;color:#fff}
+.ord-ov{position:fixed;inset:0;z-index:400;background:#fff;overflow-y:auto;padding:26px 20px 30px;display:flex;flex-direction:column}
+.ord-x{position:absolute;top:16px;right:16px;width:44px;height:44px;border-radius:50%;border:1px solid #d0d4da;background:#fff;font-size:19px;cursor:pointer;color:#111;font-family:inherit}
+.ord-tag{display:inline-block;align-self:flex-start;background:#1c7c43;color:#fff;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;border-radius:999px;padding:5px 12px;margin-top:38px}
+.ord-h{font-size:27px;font-weight:900;margin:12px 0 4px;color:#111}
+.ord-fecha{color:#6a6a72;font-size:14px;margin:0 0 18px}
+.ord-items{border:1px solid #e2e5ea;border-radius:14px;padding:6px 14px}
+.ord-item{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid #eef0f3;font-size:15px;color:#111}
+.ord-item:last-child{border-bottom:0}
+.ord-item small{color:#6a6a72}
+.ord-total{display:flex;justify-content:space-between;font-size:19px;margin:16px 2px;color:#111}
+.ord-buyer{background:#f7f8fa;border:1px solid #e2e5ea;border-radius:14px;padding:14px 16px;margin-top:6px;color:#111;font-size:15px}
+.ord-buyer h3{font-size:15px;margin:0 0 8px}
+.ord-buyer p{margin:4px 0}
+.ord-note{color:#44484f;font-size:14px;margin:14px 2px 0}
+.ord-more{color:#6a6a72;font-size:13px;margin-top:8px}
+.ord-copy{margin-top:14px;width:100%;padding:15px;border:0;border-radius:14px;background:#2a2a2e;color:#fff;font-family:inherit;font-size:16px;font-weight:800;cursor:pointer}
+.ord-accept{margin-top:10px;width:100%;padding:18px;border:0;border-radius:14px;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%);color:#0a0c10;font-family:inherit;font-size:19px;font-weight:900;cursor:pointer}
 .ped-item{display:flex;justify-content:space-between;gap:10px;font-size:15px;color:var(--txt);padding:4px 0}
 .ped-total{display:flex;justify-content:space-between;font-size:17px;color:var(--txt);border-top:1px solid var(--line);margin-top:8px;padding-top:10px}
 .ped-contact{display:block;margin-top:12px;text-align:center;background:var(--ok);color:#fff;font-weight:800;border-radius:12px;padding:13px;text-decoration:none}
@@ -254,7 +274,7 @@ function patch(tabla, id, body, tok){
 }
 
 var S = session(), TOK = S && S.access_token, UID = S && S.user && S.user.id;
-var DATA = { orders: [], sellers: [], products: [], profiles: {}, estados: {}, correos: {}, rastreo: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [] };
+var DATA = { orders: [], sellers: [], products: [], profiles: {}, estados: {}, correos: {}, rastreo: {}, zapatos: [], ajustes: {}, histzap: [], ventasZap: [], entrega: {} };
 
 document.getElementById('menubtn').onclick = function(e){ e.stopPropagation(); document.getElementById('ddnav').classList.toggle('open'); };
 document.addEventListener('click', function(){ var n = document.getElementById('ddnav'); if(n) n.classList.remove('open'); });
@@ -304,15 +324,18 @@ function cargar(){
  api('profiles?select=*', TOK).catch(function(){ return []; }),
  api('orders?select=id,estado', TOK).catch(function(){ return []; }),
  fetch(SUPABASE_URL + '/rest/v1/rpc/correos_usuarios', { method: 'POST', headers: H(TOK), body: '{}' }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }),
- api('orders?select=paypal_order_id,codigo_rastreo&codigo_rastreo=not.is.null&limit=1000', TOK).catch(function(){ return []; })
+ api('orders?select=paypal_order_id,codigo_rastreo&codigo_rastreo=not.is.null&limit=1000', TOK).catch(function(){ return []; }),
+ api('orders?select=id,entrega', TOK).catch(function(){ return []; })
  ]).then(function(res){
  DATA.orders = res[0]; DATA.sellers = res[1]; DATA.products = res[2];
  (res[3] || []).forEach(function(p){ DATA.profiles[p.user_id] = p; });
  (res[4] || []).forEach(function(o){ DATA.estados[o.id] = o.estado; });
  (res[5] || []).forEach(function(u){ DATA.correos[u.user_id] = u.email; });
  (Array.isArray(res[6]) ? res[6] : []).forEach(function(o){ if(o.paypal_order_id && o.codigo_rastreo) DATA.rastreo[o.paypal_order_id] = o.codigo_rastreo; });
+ (res[7] || []).forEach(function(o){ if(o.entrega) DATA.entrega[o.id] = o.entrega; });
  renderResumen(); renderVentas(); renderPedidos(); renderSellers(); renderHistorial(); renderInv(document.getElementById('inv-q').value || '');
  cargarZapatos(); cargarHistZapatos(); cargarVentasZap();
+ adminAlertsMaybe();
  });
 }
 
@@ -345,48 +368,235 @@ function gruposPorMes(rows, getF){
  return orden;
 }
 var PED_FILTRO = 'todos';
-function renderPedidos(){
- var box = document.getElementById('ped-list');
- if(!box) return;
+var PED_COPY = {};
+function copiarTexto(txt, el){
+ var done = function(){ if(el){ var o = el.textContent; el.textContent = '✓ Copiado'; setTimeout(function(){ el.textContent = o; }, 1600); } };
+ if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(function(){ copiarFallback(); }); }
+ else { copiarFallback(); }
+ function copiarFallback(){
+  var ta = document.createElement('textarea');
+  ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try{ document.execCommand('copy'); }catch(e){}
+  ta.remove(); done();
+ }
+}
+function copiarPedido(key){ var t = PED_COPY[key]; if(t) copiarTexto(t, document.querySelector('[data-copy="' + key + '"]')); }
+function detalleZap(det){
+ var d = det || '';
+ var items = d.split(' · Rastreo:')[0] || d;
+ var ent = '';
+ var k = d.indexOf('|| Entrega: ');
+ if(k >= 0) ent = d.slice(k + 12).trim();
+ return { items: items, entrega: ent };
+}
+function adminAceptarGrupo(paypal, sellerId, firstId){
+ var q = paypal ? ('paypal_order_id=eq.' + encodeURIComponent(paypal) + '&seller_id=eq.' + encodeURIComponent(sellerId)) : ('id=eq.' + encodeURIComponent(firstId));
+ fetch(SUPABASE_URL + '/rest/v1/orders?' + q, { method: 'PATCH', headers: H(TOK), body: JSON.stringify({ estado: 'aceptado', estado_at: new Date().toISOString() }) })
+ .then(function(r){
+  if(!r.ok) throw new Error('patch ' + r.status);
+  (DATA.orders || []).forEach(function(o){ if((paypal && o.paypal_order_id === paypal && o.seller_id === sellerId) || (!paypal && String(o.id) === String(firstId))) DATA.estados[o.id] = 'aceptado'; });
+  renderPedidos();
+ })
+ .catch(function(){ alert('No se pudo marcar como aceptado. Revisa tu conexión e inténtalo de nuevo.'); });
+}
+function adminAceptarVenta(id){
+ patch('ventas_zapatos', id, { estado: 'aceptado' }, TOK)
+ .then(function(){
+  (DATA.ventasZap || []).forEach(function(v){ if(String(v.id) === String(id)) v.estado = 'aceptado'; });
+  renderPedidos(); renderVentasZap();
+ })
+ .catch(function(){ alert('No se pudo marcar como aceptada. Si aún no corres el SQL de pedidos del administrador en Supabase, hazlo primero.'); });
+}
+function hoyPedidosGrupos(){
  var now = new Date();
  var isToday = function(iso){ var d = new Date(iso); return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate(); };
  var rows = (DATA.orders || []).filter(function(o){ return isToday(o.created_at); });
- if(!rows.length){ box.innerHTML = '<p class="mut">Hoy no hay pedidos todavía.</p>'; return; }
  var groups = [], byK = {};
  rows.forEach(function(o){
  var gk = (o.paypal_order_id || ('row-' + o.id)) + '|' + o.seller_id;
- if(!byK[gk]){ byK[gk] = { items: [], seller_id: o.seller_id, buyer_id: o.buyer_id, created_at: o.created_at, paypal: o.paypal_order_id }; groups.push(byK[gk]); }
+ if(!byK[gk]){ byK[gk] = { key: gk, items: [], seller_id: o.seller_id, buyer_id: o.buyer_id, created_at: o.created_at, paypal: o.paypal_order_id }; groups.push(byK[gk]); }
  byK[gk].items.push(o);
  });
- var aceptado = function(g){ return g.items.every(function(o){ return (DATA.estados[o.id] || o.estado) === 'aceptado'; }); };
- if(PED_FILTRO === 'sin') groups = groups.filter(function(g){ return !aceptado(g); });
- if(!groups.length){ box.innerHTML = '<p class="mut">Todos los pedidos de hoy ya fueron aceptados.</p>'; return; }
- box.innerHTML = groups.map(function(g){
- var ac = aceptado(g);
- var seller = DATA.sellers.filter(function(s){ return s.id === g.seller_id; })[0] || {};
+ groups.forEach(function(g){ g.aceptado = g.items.every(function(o){ return (DATA.estados[o.id] || o.estado) === 'aceptado'; }); });
+ var ventas = (DATA.ventasZap || []).filter(function(v){ return isToday(v.fecha_pago); });
+ ventas.forEach(function(v){ v._ac = (v.estado || 'sin aceptar') === 'aceptado'; });
+ return { groups: groups, ventas: ventas };
+}
+function copiaGrupo(g){
+ var seller = DATA.sellers.filter(function(x){ return x.id === g.seller_id; })[0] || {};
  var vend = (g.items[0].sellers && g.items[0].sellers.nombre) || seller.nombre || '—';
  var prof = DATA.profiles[g.buyer_id] || {};
  var comp = prof.nombre || ('Cliente ' + String(g.buyer_id || '').slice(0, 8));
- var dir = [prof.direccion, prof.ciudad, prof.departamento].filter(Boolean).join(', ');
+ var ent = DATA.entrega[g.items[0].id] || [prof.direccion, prof.ciudad, prof.departamento, prof.pais].filter(Boolean).join(', ');
+ var total = g.items.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
+ return 'PEDIDO DOMINUS · COMERCIOS\n'
+ + g.items.map(function(o){ return o.titulo + ' ×' + (o.qty || 1) + ' — ' + money(Number(o.precio || 0) * Number(o.qty || 1)); }).join('\n')
+ + '\nTotal: ' + money(total)
+ + '\nVendedor: ' + vend
+ + '\nComprador: ' + comp + (prof.telefono ? ' · Tel: ' + prof.telefono : '')
+ + (ent ? '\nEntrega: ' + ent : '')
+ + (DATA.rastreo[g.paypal] ? '\nRastreo: ' + DATA.rastreo[g.paypal] : '')
+ + (g.paypal ? '\nPayPal: ' + g.paypal : '');
+}
+function copiaVenta(v){
+ var dz = detalleZap(v.detalle);
+ var rast = rastreoDe(v.detalle, v.codigo_rastreo);
+ return 'PEDIDO DOMINUS · ZAPATOS\n'
+ + dz.items.split('; ').join('\n')
+ + '\nTotal: ' + money(v.monto)
+ + '\nCliente: ' + (v.cliente || '')
+ + (dz.entrega ? '\nEntrega: ' + dz.entrega : '')
+ + (rast ? '\nRastreo: ' + rast : '')
+ + (v.paypal_id ? '\nPayPal: ' + v.paypal_id : '');
+}
+function renderPedidos(){
+ var box = document.getElementById('ped-list');
+ if(!box) return;
+ PED_COPY = {};
+ var data = hoyPedidosGrupos();
+ var groups = data.groups, ventas = data.ventas;
+ if(PED_FILTRO === 'sin'){ groups = groups.filter(function(g){ return !g.aceptado; }); ventas = ventas.filter(function(v){ return !v._ac; }); }
+ if(!groups.length && !ventas.length){
+ box.innerHTML = '<p class="mut">' + (PED_FILTRO === 'sin' ? 'Todos los pedidos de hoy ya fueron aceptados.' : 'Hoy no hay pedidos todavía.') + '</p>';
+ return;
+ }
+ var html = '';
+ groups.forEach(function(g){
+ var ac = g.aceptado;
+ var seller = DATA.sellers.filter(function(x){ return x.id === g.seller_id; })[0] || {};
+ var vend = (g.items[0].sellers && g.items[0].sellers.nombre) || seller.nombre || '—';
+ var prof = DATA.profiles[g.buyer_id] || {};
+ var comp = prof.nombre || ('Cliente ' + String(g.buyer_id || '').slice(0, 8));
+ var dir = DATA.entrega[g.items[0].id] || [prof.direccion, prof.ciudad, prof.departamento, prof.pais].filter(Boolean).join(', ');
  var total = g.items.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
  var hora = new Date(g.created_at).toLocaleTimeString('es-NI', { hour: 'numeric', minute: '2-digit' });
  var wa = String(seller.whatsapp || '').replace(/[^0-9]/g, '');
  if(wa.length === 8) wa = '505' + wa;
  var msg = 'Hola ' + (seller.nombre || '') + ', tienes un pedido sin aceptar en Dominus: ' + g.items.map(function(o){ return o.titulo + ' ×' + (o.qty || 1); }).join(', ') + ' (total ' + money(total) + '). Entra a tu panel y acéptalo para preparar el producto, por favor.';
- var contact = '';
- if(!ac){
- contact = wa
- ? '<a class="ped-contact" href="https://wa.me/' + wa + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Contactar al vendedor por WhatsApp</a>'
- : '<p class="mut" style="margin-top:10px">Este vendedor no tiene WhatsApp registrado.</p>';
- }
- return '<div class="ped-card' + (ac ? '' : ' bad') + '">'
+ var key = 'g-' + g.key;
+ PED_COPY[key] = copiaGrupo(g);
+ html += '<div class="ped-card' + (ac ? '' : ' bad') + '">'
  + '<div class="ped-head"><span><b>' + esc(vend) + '</b> · ' + esc(hora) + '</span><span class="ped-chip">' + (ac ? 'Aceptado' : 'Sin aceptar') + '</span></div>'
  + g.items.map(function(o){ return '<div class="ped-item"><span><b>' + esc(o.titulo) + '</b> <span class="mut">×' + (o.qty || 1) + '</span></span><b>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</b></div>'; }).join('')
  + '<div class="ped-total"><span>Total</span><b>' + money(total) + '</b></div>'
- + '<p class="mut" style="margin-top:8px">Comprador: ' + esc(comp) + (prof.telefono ? ' · Tel: ' + esc(prof.telefono) : '') + (dir ? '<br>' + esc(dir) : '') + (DATA.rastreo[g.paypal] ? '<br>Rastreo: <b>' + esc(DATA.rastreo[g.paypal]) + '</b>' : '') + '</p>'
- + contact
+ + '<p class="mut" style="margin-top:8px">Comprador: ' + esc(comp) + (prof.telefono ? ' · Tel: ' + esc(prof.telefono) : '') + (dir ? '<br><b>Entrega:</b> ' + esc(dir) : '') + (DATA.rastreo[g.paypal] ? '<br>Rastreo: <b>' + esc(DATA.rastreo[g.paypal]) + '</b>' : '') + '</p>'
+ + '<div class="ped-actions">'
+ + (ac ? '' : '<button class="ped-btn acc" onclick="adminAceptarGrupo(\'' + esc(g.paypal || '') + '\',\'' + esc(g.seller_id) + '\',\'' + esc(g.items[0].id) + '\')">Aceptar pedido</button>')
+ + '<button class="ped-btn" data-copy="' + esc(key) + '" onclick="copiarPedido(\'' + esc(key) + '\')">Copiar datos</button>'
+ + (!ac && wa ? '<a class="ped-btn" style="text-decoration:none" href="https://wa.me/' + wa + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">WhatsApp al vendedor</a>' : '')
+ + '</div>'
  + '</div>';
- }).join('');
+ });
+ ventas.forEach(function(v){
+ var ac = v._ac;
+ var dz = detalleZap(v.detalle);
+ var rast = rastreoDe(v.detalle, v.codigo_rastreo);
+ var hora = new Date(v.fecha_pago).toLocaleTimeString('es-NI', { hour: 'numeric', minute: '2-digit' });
+ var key = 'v-' + v.id;
+ PED_COPY[key] = copiaVenta(v);
+ html += '<div class="ped-card' + (ac ? '' : ' bad') + '">'
+ + '<div class="ped-head"><span><b>Zapatos</b> · ' + esc(hora) + '</span><span class="ped-chip">' + (ac ? 'Aceptado' : 'Sin aceptar') + '</span></div>'
+ + dz.items.split('; ').map(function(it){ return '<div class="ped-item"><span><b>' + esc(it) + '</b></span></div>'; }).join('')
+ + '<div class="ped-total"><span>Total</span><b>' + money(v.monto) + '</b></div>'
+ + '<p class="mut" style="margin-top:8px">Cliente: ' + esc(v.cliente || '') + (dz.entrega ? '<br><b>Entrega:</b> ' + esc(dz.entrega) : '') + (rast ? '<br>Rastreo: <b>' + esc(rast) + '</b>' : '') + '</p>'
+ + '<div class="ped-actions">'
+ + (ac ? '' : '<button class="ped-btn acc" onclick="adminAceptarVenta(\'' + esc(v.id) + '\')">Aceptar pedido</button>')
+ + '<button class="ped-btn" data-copy="' + esc(key) + '" onclick="copiarPedido(\'' + esc(key) + '\')">Copiar datos</button>'
+ + '</div>'
+ + '</div>';
+ });
+ box.innerHTML = html;
+}
+/* ===== Alerta de pedidos nuevos (pantalla completa) ===== */
+var ADMIN_ALERT_OPEN = false;
+var ADMIN_ALERT_SHOWN = {};
+function adminAlertsMaybe(){
+ if(ADMIN_ALERT_OPEN) return;
+ var dec = {};
+ try{ dec = JSON.parse(localStorage.getItem('dominus_admin_ped_dec') || '{}'); }catch(e){}
+ var data = hoyPedidosGrupos();
+ var queue = [];
+ data.groups.forEach(function(g){
+ if(g.aceptado || dec['ord:' + g.key] || ADMIN_ALERT_SHOWN['ord:' + g.key]) return;
+ queue.push({ kind: 'ord', key: 'ord:' + g.key, created_at: g.created_at, g: g });
+ });
+ data.ventas.forEach(function(v){
+ if(v._ac || dec['zap:' + v.id] || ADMIN_ALERT_SHOWN['zap:' + v.id]) return;
+ queue.push({ kind: 'zap', key: 'zap:' + v.id, created_at: v.fecha_pago, v: v });
+ });
+ queue.sort(function(a, b){ return new Date(a.created_at) - new Date(b.created_at); });
+ if(queue.length) showAdminAlert(queue, dec);
+}
+function showAdminAlert(queue, dec){
+ ADMIN_ALERT_OPEN = true;
+ var it = queue[0];
+ ADMIN_ALERT_SHOWN[it.key] = true;
+ var ov = document.createElement('div');
+ ov.className = 'ord-ov';
+ var fecha, itemsHtml, totalHtml, buyerHtml, copyTxt, tag;
+ if(it.kind === 'ord'){
+ var g = it.g;
+ var seller = DATA.sellers.filter(function(x){ return x.id === g.seller_id; })[0] || {};
+ var vend = (g.items[0].sellers && g.items[0].sellers.nombre) || seller.nombre || '—';
+ var prof = DATA.profiles[g.buyer_id] || {};
+ var comp = prof.nombre || ('Cliente ' + String(g.buyer_id || '').slice(0, 8));
+ var dir = DATA.entrega[g.items[0].id] || [prof.direccion, prof.ciudad, prof.departamento, prof.pais].filter(Boolean).join(', ');
+ var total = g.items.reduce(function(a, o){ return a + Number(o.precio || 0) * Number(o.qty || 1); }, 0);
+ var d = new Date(g.created_at);
+ fecha = d.toLocaleDateString('es-NI', { day: 'numeric', month: 'long' }) + ' · ' + d.toLocaleTimeString('es-NI', { hour: 'numeric', minute: '2-digit' }) + (g.paypal ? ' · PayPal ' + g.paypal : '');
+ itemsHtml = g.items.map(function(o){ return '<div class="ord-item"><div><b>' + esc(o.titulo) + '</b><br><small>' + (o.qty || 1) + ' × ' + money(o.precio) + '</small></div><b>' + money(Number(o.precio || 0) * Number(o.qty || 1)) + '</b></div>'; }).join('');
+ totalHtml = money(total);
+ buyerHtml = '<p><b>Comprador:</b> ' + esc(comp) + '</p>'
+ + '<p><b>Teléfono:</b> ' + esc(prof.telefono || 'Sin registrar') + '</p>'
+ + '<p><b>Dirección de entrega:</b> ' + esc(dir || 'Sin registrar') + '</p>'
+ + '<p><b>Vendedor:</b> ' + esc(vend) + '</p>'
+ + (DATA.rastreo[g.paypal] ? '<p><b>Rastreo:</b> ' + esc(DATA.rastreo[g.paypal]) + '</p>' : '');
+ copyTxt = copiaGrupo(g);
+ tag = 'Nuevo pedido · Comercios';
+ } else {
+ var v = it.v;
+ var dz = detalleZap(v.detalle);
+ var rast = rastreoDe(v.detalle, v.codigo_rastreo);
+ var d2 = new Date(v.fecha_pago);
+ fecha = d2.toLocaleDateString('es-NI', { day: 'numeric', month: 'long' }) + ' · ' + d2.toLocaleTimeString('es-NI', { hour: 'numeric', minute: '2-digit' }) + (v.paypal_id ? ' · PayPal ' + v.paypal_id : '');
+ itemsHtml = dz.items.split('; ').map(function(x){ return '<div class="ord-item"><div><b>' + esc(x) + '</b></div></div>'; }).join('');
+ totalHtml = money(v.monto);
+ buyerHtml = '<p><b>Cliente:</b> ' + esc(v.cliente || '') + '</p>'
+ + '<p><b>Dirección de entrega:</b> ' + esc(dz.entrega || 'Sin registrar') + '</p>'
+ + (rast ? '<p><b>Rastreo:</b> ' + esc(rast) + '</p>' : '');
+ copyTxt = copiaVenta(v);
+ tag = 'Nuevo pedido · Zapatos';
+ }
+ ov.innerHTML =
+ '<button class="ord-x" aria-label="Cerrar">✕</button>'
+ + '<span class="ord-tag">' + esc(tag) + '</span>'
+ + '<h2 class="ord-h">¡Tienes un pedido nuevo!</h2>'
+ + '<p class="ord-fecha">' + esc(fecha) + '</p>'
+ + '<div class="ord-items">' + itemsHtml + '</div>'
+ + '<div class="ord-total"><span>Total</span><b>' + esc(totalHtml) + '</b></div>'
+ + '<div class="ord-buyer"><h3>Datos del pedido</h3>' + buyerHtml + '</div>'
+ + (queue.length > 1 ? '<p class="ord-more">Al cerrar este quedan ' + (queue.length - 1) + ' pedido(s) más por revisar.</p>' : '')
+ + '<button class="ord-copy">Copiar código y datos</button>'
+ + '<button class="ord-accept">Aceptar</button>';
+ document.body.appendChild(ov);
+ document.body.style.overflow = 'hidden';
+ function decide(val){
+ dec[it.key] = val;
+ try{ localStorage.setItem('dominus_admin_ped_dec', JSON.stringify(dec)); }catch(e){}
+ ov.remove();
+ document.body.style.overflow = '';
+ queue.shift();
+ if(queue.length) showAdminAlert(queue, dec);
+ else { ADMIN_ALERT_OPEN = false; renderPedidos(); adminAlertsMaybe(); }
+ }
+ ov.querySelector('.ord-copy').onclick = function(){ copiarTexto(copyTxt, this); };
+ ov.querySelector('.ord-x').onclick = function(){ decide('omitido'); };
+ ov.querySelector('.ord-accept').onclick = function(){
+ if(it.kind === 'ord') adminAceptarGrupo(it.g.paypal || '', it.g.seller_id, it.g.items[0].id);
+ else adminAceptarVenta(it.v.id);
+ decide('aceptado');
+ };
 }
 function renderVentas(){
  var box = document.getElementById('ventas-list');
@@ -566,7 +776,7 @@ Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function
  ['resumen','pedidos','vzap','ventas','revendedores','zapatos','hzapatos','historial','inventario'].forEach(function(t){
  document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
  });
- if(b.getAttribute('data-tab') === 'pedidos') renderPedidos();
+ if(b.getAttribute('data-tab') === 'pedidos'){ renderPedidos(); adminAlertsMaybe(); }
  };
 });
 
@@ -785,7 +995,7 @@ function renderHistorial(){
 function cargarVentasZap(){
  api('ventas_zapatos?select=*&order=fecha_pago.desc&limit=500', TOK).then(function(rows){
  DATA.ventasZap = rows || [];
- renderVentasZap();
+ renderVentasZap(); renderPedidos(); adminAlertsMaybe();
  }).catch(function(){ DATA.ventasZap = []; renderVentasZap(); });
 }
 function renderVentasZap(){

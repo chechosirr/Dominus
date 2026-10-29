@@ -543,6 +543,11 @@ function genTrack(){
 }
 var trackCodeCompra = '';
 function saveOrders(ppId, code){
+  var ent = null;
+  if(_prof){
+    var partes = [_prof.direccion, _prof.ciudad, _prof.departamento, _prof.pais].filter(Boolean).join(', ');
+    if(partes) ent = partes + (_prof.referencia ? ' · Ref: ' + _prof.referencia : '');
+  }
   var rows = cart.map(function(it){
     return {
       buyer_id: session.user.id,
@@ -552,15 +557,20 @@ function saveOrders(ppId, code){
       precio: it.products.precio,
       qty: it.qty,
       paypal_order_id: ppId,
-      codigo_rastreo: code || null
+      codigo_rastreo: code || null,
+      entrega: ent
     };
   }).filter(function(r){ return r.seller_id; });
   if(!rows.length) return;
   var post = function(rs){ return fetch(SUPABASE_URL + '/rest/v1/orders', { method: 'POST', headers: h(session.access_token), body: JSON.stringify(rs) }); };
+  var sin = function(rs, col){ return rs.map(function(rw){ var c = {}; for(var k in rw){ if(k !== col) c[k] = rw[k]; } return c; }); };
   post(rows).then(function(r){
     if(r.ok) return;
-    var rows2 = rows.map(function(rw){ var c = {}; for(var k in rw){ if(k !== 'codigo_rastreo') c[k] = rw[k]; } return c; });
-    post(rows2).catch(function(){});
+    // Si la base aún no tiene la columna entrega (o la de rastreo), se reintenta sin ella
+    post(sin(rows, 'entrega')).then(function(r2){
+      if(r2.ok) return;
+      post(sin(sin(rows, 'entrega'), 'codigo_rastreo')).catch(function(){});
+    }).catch(function(){});
   }).catch(function(){});
 }
 function loadHistory(){
