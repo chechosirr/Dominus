@@ -327,8 +327,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Campus 00s (hombre)",
   "genero": "hombre",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/08f1d31399a5482bad9d8719ec6ab091.jpg?v=1781099070"
   ],
@@ -488,8 +488,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas X_PLR Path (hombre)",
   "genero": "hombre",
-  "precio": 38.95,
-  "precio_c": 1432,
+  "precio": 41.95,
+  "precio_c": 1543,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/b02b7d7de82d4744a5f2d1cb18956da5.jpg?v=1778926355"
   ],
@@ -2236,35 +2236,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-151",
-  "marca": "Reebok",
-  "nombre": "Reebok Classic Mld Negro (Niños)",
-  "genero": "Niños",
-  "precio": 34.94,
-  "precio_c": 1285,
-  "fotos": [
-   "https://www.shopwss.com/cdn/shop/files/100211415_1.jpg?v=1744064835&width=320",
-   "https://www.shopwss.com/cdn/shop/files/100211415_2.jpg?v=1744064835&width=320",
-   "https://www.shopwss.com/cdn/shop/files/100211415_3.jpg?v=1744064835&width=320",
-   "https://www.shopwss.com/cdn/shop/files/100211415_4.jpg?v=1744064835&width=320"
-  ],
-  "descripcion": "Slip-on negro de espuma moldeada de Reebok: el básico ligero para ponérselo sin pensarlo cada mañana.",
-  "detalles": [
-   "Sin cordones: diseño slip-on",
-   "Espuma moldeada de una pieza, muy ligera",
-   "Perforaciones para ventilación",
-   "Plantilla de espuma acolchada"
-  ],
-  "tallas": [
-   "11",
-   "12",
-   "13",
-   "1",
-   "2",
-   "3"
-  ]
- },
- {
   "codigo": "DOM-152",
   "marca": "Reebok",
   "nombre": "Reebok Court Advance Negro/Blanco/Gum (Niños)",
@@ -3504,8 +3475,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Galaxy 7 Core Black / Core Black / Core Black",
   "genero": "Hombre",
-  "precio": 74.95,
-  "precio_c": 2756,
+  "precio": 56.95,
+  "precio_c": 2094,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/c56089c77a3a41a79e5f5e53c94c0f5e.jpg?v=1778925750"
   ],
@@ -11730,8 +11701,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Samoa Sneakers — Core Black/Core Black",
   "genero": "Hombre",
-  "precio": 57.95,
-  "precio_c": 2131,
+  "precio": 45.95,
+  "precio_c": 1690,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/1d1dda64537c477cb771a97087812bf5_d751d00a-d3e5-4d85-ad20-764d37e7f264.jpg?v=1779458989",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/830ca3b066a647d1ba0b1a6e73850d1a_ca9d7091-1672-4b66-9039-9738ead2d1f8.jpg?v=1779458988",
@@ -15593,8 +15564,8 @@ var ZAPATOS = [
   "marca": "Character",
   "nombre": "Character Spiderman Sneaker (Little Kid) — Black/Red",
   "genero": "Niños",
-  "precio": 43.94,
-  "precio_c": 1616,
+  "precio": 37.94,
+  "precio_c": 1395,
   "fotos": [
    "https://www.famousfootwear.com/blob/product-images/20000/75/44/2/75442_pair_feed351.jpg",
    "https://www.famousfootwear.com/blob/product-images/20000/75/44/2/75442_right_feed351.jpg"
@@ -15621,8 +15592,8 @@ var ZAPATOS = [
   "marca": "Character",
   "nombre": "Character Sonic Sneaker (Little Kid) — White/Blue",
   "genero": "Niños",
-  "precio": 46.94,
-  "precio_c": 1726,
+  "precio": 43.94,
+  "precio_c": 1616,
   "fotos": [
    "https://www.famousfootwear.com/blob/product-images/20000/75/44/1/75441_pair_feed351.jpg",
    "https://www.famousfootwear.com/blob/product-images/20000/75/44/1/75441_right_feed351.jpg"
@@ -15677,8 +15648,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Care Bear Twinkle Sparks Light Up (Little Kid) — Blue Multi Care Bear",
   "genero": "Niños",
-  "precio": 54.94,
-  "precio_c": 2020,
+  "precio": 46.94,
+  "precio_c": 1726,
   "fotos": [
    "https://www.famousfootwear.com/blob/product-images/20000/78/45/4/78454_pair_feed351.jpg",
    "https://www.famousfootwear.com/blob/product-images/20000/78/45/4/78454_left_feed351.jpg"
@@ -30781,6 +30752,37 @@ var ZAPATOS = [
    "3.5Y",
    "4Y",
    "4.5Y"
+  ]
+ },
+ {
+  "codigo": "DOM-1304",
+  "marca": "Nike",
+  "nombre": "Nike Air Force 1 (Animal) Black/White (Niños)",
+  "genero": "Niños",
+  "precio": 89.96,
+  "precio_c": 3308,
+  "fotos": [
+   "https://www.shopwss.com/cdn/shop/files/IR0273001_1.jpg?v=1776124221",
+   "https://www.shopwss.com/cdn/shop/files/IR0273001_2.jpg?v=1776124221",
+   "https://www.shopwss.com/cdn/shop/files/IR0273001_3.jpg?v=1776124221",
+   "https://www.shopwss.com/cdn/shop/files/IR0273001_4.jpg?v=1776124221"
+  ],
+  "descripcion": "El Air Force 1 Youth trae el clásico de básquetbol de Nike a talla de niños: silueta de caña baja, colorway (Animal) Black/White y amortiguación Air en el talón.",
+  "detalles": [
+   "Silueta de caña baja",
+   "Colorway (Animal) Black/White",
+   "Amortiguación Air en el talón",
+   "Suela cupsole de goma"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
   ]
  }
 ];
