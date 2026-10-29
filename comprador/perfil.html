@@ -308,6 +308,7 @@ function renderDirs(){
       return '<div class="dir-card' + (a.principal ? ' prin' : '') + '">'
         + '<div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><b style="font-size:15px">' + esc(a.direccion || 'Sin dirección') + '</b>' + (a.principal ? '<span class="dir-badge">Principal</span>' : '') + '</div>'
         + '<p style="font-size:13px;color:var(--mut);margin-top:4px">' + esc([[a.ciudad, a.departamento].filter(Boolean).join(', '), a.pais].filter(Boolean).join(' · ')) + '</p>'
+        + (a.codigo_postal ? '<p style="font-size:13px;color:var(--mut)">ZIP: ' + esc(a.codigo_postal) + '</p>' : '')
         + (a.referencia ? '<p style="font-size:13px;color:var(--mut)">Referencia: ' + esc(a.referencia) + '</p>' : '')
         + (a.telefono ? '<p style="font-size:13px;color:var(--mut)">Tel: ' + esc(a.telefono) + '</p>' : '')
         + '<div class="dir-ops">'
@@ -334,7 +335,9 @@ function openDirForm(id){
     + dirFld('df-dir', 'Dirección (con referencias)', a.direccion, 'Ej: Calle 5 #123, frente al parque')
     + dirFld('df-ciu', 'Ciudad', a.ciudad, 'Ej: Estelí')
     + dirFld('df-dep', 'Departamento', a.departamento, 'Ej: Estelí')
-    + dirFld('df-pais', 'País', a.pais, 'Ej: Nicaragua')
+    + '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">País</label>'
+    + '<select id="df-pais" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"><option value="Nicaragua"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? '' : ' selected') + '>Nicaragua</option><option value="Estados Unidos"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? ' selected' : '') + '>Estados Unidos</option></select>'
+    + '<div id="df-zip-wrap" style="display:none">' + dirFld('df-zip', 'Código postal (ZIP)', a.codigo_postal, 'Ej: 90210') + '</div>'
     + dirFld('df-ref', 'Referencia (cómo llegar)', a.referencia, 'Ej: Casa verde, portón negro')
     + dirFld('df-tel', 'Teléfono de contacto', a.telefono, 'Ej: 8888 8888')
     + '<label style="display:flex;gap:8px;align-items:center;font-size:14px;margin-top:12px"><input type="checkbox" id="df-prin" style="width:auto"' + (a.principal || !_dirs.length ? ' checked' : '') + '> Usar como dirección principal</label>'
@@ -342,23 +345,46 @@ function openDirForm(id){
     + '<button class="btn" id="df-cancel" style="background:none;border:1px solid var(--line)">Cancelar</button></div></div>';
   document.getElementById('df-cancel').onclick = function(){ wrap.innerHTML = ''; };
   document.getElementById('df-save').onclick = function(){ saveDir(id); };
+  var dfPais = document.getElementById('df-pais');
+  var dfUI = function(){
+    var us = dfPais.value === 'Estados Unidos';
+    var dep = document.getElementById('df-dep');
+    if(dep){ dep.placeholder = us ? 'Ej: California' : 'Ej: Estelí'; if(dep.previousElementSibling) dep.previousElementSibling.textContent = us ? 'Estado' : 'Departamento'; }
+    var zw = document.getElementById('df-zip-wrap'); if(zw) zw.style.display = us ? '' : 'none';
+  };
+  dfPais.addEventListener('change', dfUI);
+  dfUI();
   wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 function saveDir(id){
+  var zipEl = document.getElementById('df-zip');
+  var zipVal = zipEl ? zipEl.value.trim() : '';
   var body = {
     direccion: document.getElementById('df-dir').value.trim() || null,
     ciudad: document.getElementById('df-ciu').value.trim() || null,
     departamento: document.getElementById('df-dep').value.trim() || null,
-    pais: document.getElementById('df-pais').value.trim() || null,
+    pais: document.getElementById('df-pais').value || null,
     referencia: document.getElementById('df-ref').value.trim() || null,
     telefono: document.getElementById('df-tel').value.trim() || null
   };
+  if(body.pais === 'Estados Unidos' && zipVal) body.codigo_postal = zipVal;
   if(!body.direccion){ alert('Escribe la dirección.'); return; }
   var quierePrin = document.getElementById('df-prin').checked;
   var tok = session.access_token, uid = session.user.id;
-  var req = id
-    ? fetch(SUPABASE_URL + '/rest/v1/direcciones?id=eq.' + id, { method: 'PATCH', headers: Object.assign({}, h(tok), { 'Prefer': 'return=representation' }), body: JSON.stringify(body) })
-    : fetch(SUPABASE_URL + '/rest/v1/direcciones', { method: 'POST', headers: Object.assign({}, h(tok), { 'Prefer': 'return=representation' }), body: JSON.stringify(Object.assign({ user_id: uid, principal: false }, body)) });
+  var sendDir = function(b){
+    return id
+      ? fetch(SUPABASE_URL + '/rest/v1/direcciones?id=eq.' + id, { method: 'PATCH', headers: Object.assign({}, h(tok), { 'Prefer': 'return=representation' }), body: JSON.stringify(b) })
+      : fetch(SUPABASE_URL + '/rest/v1/direcciones', { method: 'POST', headers: Object.assign({}, h(tok), { 'Prefer': 'return=representation' }), body: JSON.stringify(Object.assign({ user_id: uid, principal: false }, b)) });
+  };
+  var req = sendDir(body).then(function(r){
+    if(r.ok) return r;
+    if(body.codigo_postal){
+      var b2 = {}; for(var k in body){ if(k !== 'codigo_postal') b2[k] = body[k]; }
+      b2.referencia = ((b2.referencia || '') + ' · ZIP ' + body.codigo_postal).replace(/^ · /, '');
+      return sendDir(b2);
+    }
+    return r;
+  });
   req.then(function(r){ if(!r.ok) throw new Error('db'); return r.json(); })
     .then(function(rows){
       var saved = rows && rows[0];
