@@ -830,6 +830,14 @@ function joinTel(cod, num){
   if(!num) return '';
   return num.charAt(0) === '+' ? num : (cod || '+505') + ' ' + num;
 }
+var US_STATES = {'alabama':'AL','alaska':'AK','arizona':'AZ','arkansas':'AR','california':'CA','colorado':'CO','connecticut':'CT','delaware':'DE','district of columbia':'DC','distrito de columbia':'DC','florida':'FL','georgia':'GA','hawaii':'HI','idaho':'ID','illinois':'IL','indiana':'IN','iowa':'IA','kansas':'KS','kentucky':'KY','louisiana':'LA','luisiana':'LA','maine':'ME','maryland':'MD','massachusetts':'MA','michigan':'MI','minnesota':'MN','mississippi':'MS','misisipi':'MS','missouri':'MO','misuri':'MO','montana':'MT','nebraska':'NE','nevada':'NV','new hampshire':'NH','nuevo hampshire':'NH','new jersey':'NJ','nueva jersey':'NJ','new mexico':'NM','nuevo mexico':'NM','new york':'NY','nueva york':'NY','north carolina':'NC','carolina del norte':'NC','north dakota':'ND','dakota del norte':'ND','ohio':'OH','oklahoma':'OK','oregon':'OR','pennsylvania':'PA','pensilvania':'PA','puerto rico':'PR','rhode island':'RI','south carolina':'SC','carolina del sur':'SC','south dakota':'SD','dakota del sur':'SD','tennessee':'TN','texas':'TX','tejas':'TX','utah':'UT','vermont':'VT','virginia':'VA','washington':'WA','west virginia':'WV','virginia occidental':'WV','wisconsin':'WI','wyoming':'WY'};
+function usStateCode(v){
+  var t = (v || '').trim();
+  if(!t) return '';
+  if(/^[A-Za-z]{2}$/.test(t)) return t.toUpperCase();
+  var k = t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  return US_STATES[k] || '';
+}
 function shipParts(){
  var sd = shipData();
  var ciu = (sd.ciudad || '').split(',');
@@ -950,8 +958,10 @@ function shipParts(){
  };
  var conEnvio = !!(sp.nombre && sp.direccion && sp.ciudad);
  if(conEnvio){
+ var deptoPP = (sp.depto || sp.ciudad);
+ if(t.esUS) deptoPP = usStateCode(deptoPP) || deptoPP;
  var addr = { address_line_1: sp.direccion.slice(0, 100), admin_area_2: sp.ciudad.slice(0, 64),
- admin_area_1: (sp.depto || sp.ciudad).slice(0, 64), country_code: t.esUS ? 'US' : 'NI' };
+ admin_area_1: deptoPP.slice(0, 64), country_code: t.esUS ? 'US' : 'NI' };
  if(t.esUS && sp.zip) addr.postal_code = sp.zip.slice(0, 10);
  pu.shipping = { name: { full_name: sp.nombre.slice(0, 127) }, address: addr };
  }
