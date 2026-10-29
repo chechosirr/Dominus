@@ -150,7 +150,7 @@ var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
 function telConCodigo(v){
   var d = (v || '').replace(/[^\d+]/g, '');
   var n = d.replace(/\D/g, '').length;
-  return d.charAt(0) === '+' && n >= 10 && n <= 15;
+  return d.charAt(0) === '+' && n >= 7 && n <= 15;
 }
 var TEL_MSG = 'El teléfono debe llevar el código de país: +505 (Nicaragua) o +1 (Estados Unidos). Ej: +505 8888 8888.';
 function splitTel(v){

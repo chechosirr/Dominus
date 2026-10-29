@@ -296,7 +296,7 @@ function loadShipForm(){
 function telConCodigo(v){
   var d = (v || '').replace(/[^\d+]/g, '');
   var n = d.replace(/\D/g, '').length;
-  return d.charAt(0) === '+' && n >= 10 && n <= 15;
+  return d.charAt(0) === '+' && n >= 7 && n <= 15;
 }
 var TEL_MSG = 'El teléfono debe llevar el código de país: +505 (Nicaragua) o +1 (Estados Unidos). Ej: +505 8888 8888.';
 function splitTel(v){
@@ -386,7 +386,6 @@ function openDirForm(id){
       if(dep.previousElementSibling) dep.previousElementSibling.textContent = us ? 'Estado' : 'Departamento';
       depOptions(dep, us, keep ? (a.departamento || dep.value || '') : dep.value);
     }
-    var codEl = document.getElementById('df-cod'); if(codEl) codEl.value = us ? '+1' : '+505';
     var zw = document.getElementById('df-zip-wrap'); if(zw) zw.style.display = us ? '' : 'none';
   };
   dfPais.addEventListener('change', function(){ dfUI(false); });

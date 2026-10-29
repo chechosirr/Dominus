@@ -802,6 +802,17 @@ function depOptions(sel, esUS, cur){
   sel.innerHTML = opts;
   sel.value = cur || '';
 }
+var ZAP_DIRS = null;
+function loadZapDirs(){
+ try{
+ var sess = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(!sess || !sess.access_token || !sess.user || !sess.user.id){ ZAP_DIRS = []; return; }
+ fetch(SUPABASE_URL + '/rest/v1/direcciones?user_id=eq.' + sess.user.id + '&select=*&order=principal.desc,created_at.asc', { headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + sess.access_token } })
+ .then(function(r){ return r.ok ? r.json() : []; })
+ .then(function(rows){ ZAP_DIRS = rows || []; if(cartwrap.classList.contains('open')) renderCart(); })
+ .catch(function(){ ZAP_DIRS = []; });
+ }catch(e){ ZAP_DIRS = []; }
+}
 function paisUI(){
  var esUS = envioPais() === 'US';
  var lab = document.getElementById('sf-dep-lab'); if(lab) lab.textContent = esUS ? 'Estado' : 'Departamento';
@@ -809,7 +820,7 @@ function paisUI(){
  if(dep){ var sd9 = shipData(); var cur9 = (sd9.departamento || '').trim(); if(!cur9 && (sd9.ciudad || '').indexOf(',') >= 0) cur9 = (sd9.ciudad.split(',')[1] || '').trim().replace(/\.$/, ''); depOptions(dep, esUS, cur9); try{ var sdx = shipData(); sdx.departamento = dep.value; localStorage.setItem('dominus_zap_envio', JSON.stringify(sdx)); }catch(e){} }
  var zw = document.getElementById('sf-zip-wrap'); if(zw) zw.style.display = esUS ? '' : 'none';
  var codEl = document.getElementById('sf-cod');
- if(codEl){ var st = splitTel(shipData().telefono || ''); codEl.value = st.cod || (esUS ? '+1' : '+505'); }
+ if(codEl){ var st = splitTel(shipData().telefono || ''); if(st.cod) codEl.value = st.cod; }
  }
  function genTrack(){
  var chars = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789', s = '';
@@ -829,7 +840,7 @@ function paisUI(){
  function telConCodigo(v){
   var d = (v || '').replace(/[^\d+]/g, '');
   var n = d.replace(/\D/g, '').length;
-  return d.charAt(0) === '+' && n >= 10 && n <= 15;
+  return d.charAt(0) === '+' && n >= 7 && n <= 15;
 }
 var TEL_MSG = 'El teléfono debe llevar el código de país: +505 (Nicaragua) o +1 (Estados Unidos). Ej: +505 8888 8888.';
 function splitTel(v){
@@ -879,6 +890,7 @@ function shipParts(){
  + '<span class="pa">'+money(priceFor(p, it.talla) * it.qty)+'</span></div>';
  }).join('')
  + '<div class="shipform"><h3 style="margin-top:18px;font-size:1.05rem">Datos de entrega</h3>'
+ + (ZAP_DIRS && ZAP_DIRS.length ? '<label>Tus direcciones guardadas</label><select id="sf-dirpick"><option value="">— Escribir la dirección manualmente —</option>' + ZAP_DIRS.map(function(a, ix){ return '<option value="' + ix + '">' + esc((a.principal ? 'Principal · ' : '') + [a.direccion, a.ciudad, a.pais].filter(Boolean).join(', ')) + '</option>'; }).join('') + '</select>' : '')
  + '<label>País</label><select id="sf-pais"><option value="Nicaragua"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? '' : ' selected')+'>Nicaragua</option><option value="Estados Unidos"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? ' selected' : '')+'>Estados Unidos</option></select>'
  + '<label>Nombre de quien recibe</label><input id="sf-nom" value="'+esc(sd.nombre||'')+'" placeholder="Ej: María López">'
  + '<label>Teléfono / WhatsApp</label><div style="display:flex;gap:8px"><select id="sf-cod" aria-label="Código de país" style="width:104px;flex:none"><option value="+505">+505</option><option value="+1">+1</option></select><input id="sf-tel" type="tel" value="'+esc(splitTel(sd.telefono).num)+'" placeholder="Ej: 8888 8888" style="flex:1;min-width:0"></div>'
@@ -911,6 +923,14 @@ function shipParts(){
  if(psEl) psEl.addEventListener('change', function(){ saveShipForm(); renderCart(); });
  var codEl2 = document.getElementById('sf-cod');
  if(codEl2) codEl2.addEventListener('change', saveShipForm);
+ var dpEl = document.getElementById('sf-dirpick');
+ if(dpEl) dpEl.addEventListener('change', function(){
+ if(this.value === '') return;
+ var a = ZAP_DIRS[+this.value]; if(!a) return;
+ var d = { nombre: a.nombre || '', telefono: a.telefono || '', direccion: a.direccion || '', ciudad: a.ciudad || '', departamento: a.departamento || '', pais: /unidos|usa|eeuu|united/i.test(a.pais || '') ? 'Estados Unidos' : 'Nicaragua', zip: a.codigo_postal || '' };
+ try{ localStorage.setItem('dominus_zap_envio', JSON.stringify(d)); }catch(e){}
+ renderCart();
+ });
  paisUI();
  Array.prototype.forEach.call(body.querySelectorAll('[data-inc]'), function(b){ b.onclick = function(){ cart[+b.dataset.inc].qty = Math.min(9, cart[+b.dataset.inc].qty + 1); saveCart(); renderCart(); }; });
  Array.prototype.forEach.call(body.querySelectorAll('[data-dec]'), function(b){ b.onclick = function(){ var ix = +b.dataset.dec; cart[ix].qty -= 1; if(cart[ix].qty < 1) cart.splice(ix,1); saveCart(); renderCart(); }; });
@@ -1046,7 +1066,7 @@ function shipParts(){
  s2.onload = init; document.head.appendChild(s2);
  } else { init(); }
  }
- function openCart(){ renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } }
+ function openCart(){ if(ZAP_DIRS === null) loadZapDirs(); renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } }
  function closeCart(){ if(ovState === 'cart'){ history.back(); } else { cartwrap.classList.remove('open'); document.body.style.overflow = ''; } }
  document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
  document.getElementById('cartscrim').addEventListener('click', closeCart);
