@@ -530,11 +530,6 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <h2 style="margin-left:4px">Mi carrito</h2>
  </div>
  <div id="cart-body" style="margin-top:16px"></div>
- <div id="pp-zone" style="display:none;margin-top:16px">
- <div id="paypal-button-container"></div>
- <div id="pp-error" style="display:none;margin-top:10px;background:#fdecec;border:1px solid #e3a3a3;color:#8a1f1f;border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap"></div>
- <p id="pp-note" style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center"></p>
- </div>
  </div>
 </div>
 
@@ -811,7 +806,7 @@ function paisUI(){
  var esUS = envioPais() === 'US';
  var lab = document.getElementById('sf-dep-lab'); if(lab) lab.textContent = esUS ? 'Estado' : 'Departamento';
  var dep = document.getElementById('sf-dep');
- if(dep){ var sd9 = shipData(); var cur9 = (sd9.departamento || '').trim(); if(!cur9 && (sd9.ciudad || '').indexOf(',') >= 0) cur9 = (sd9.ciudad.split(',')[1] || '').trim().replace(/\.$/, ''); depOptions(dep, esUS, cur9); saveShipForm(); }
+ if(dep){ var sd9 = shipData(); var cur9 = (sd9.departamento || '').trim(); if(!cur9 && (sd9.ciudad || '').indexOf(',') >= 0) cur9 = (sd9.ciudad.split(',')[1] || '').trim().replace(/\.$/, ''); depOptions(dep, esUS, cur9); try{ var sdx = shipData(); sdx.departamento = dep.value; localStorage.setItem('dominus_zap_envio', JSON.stringify(sdx)); }catch(e){} }
  var zw = document.getElementById('sf-zip-wrap'); if(zw) zw.style.display = esUS ? '' : 'none';
  var codEl = document.getElementById('sf-cod');
  if(codEl){ var st = splitTel(shipData().telefono || ''); codEl.value = st.cod || (esUS ? '+1' : '+505'); }
@@ -870,7 +865,6 @@ function shipParts(){
  if(!cart.length){
  body.innerHTML = '<p class="cempty">Tu carrito está vacío.<br><br><button class="backbtn" id="c-empty-back">← Ver zapatos</button></p>';
  var eb = document.getElementById('c-empty-back'); if(eb) eb.onclick = closeCart;
- var pz0 = document.getElementById('pp-zone'); if(pz0) pz0.style.display = 'none';
  return;
  }
  var sd = shipData();
@@ -904,10 +898,11 @@ function shipParts(){
  + '<div class="ctotal"><span class="mut">'+(t.esUS ? 'Envío a Estados Unidos' : 'Envío '+(t.tipo==='prio'?'Prioritario':'Standard')+' ('+t.pares+' par'+(t.pares>1?'es':'')+')')+'</span><span>'+money(t.envio)+'</span></div>'
  + '<div class="ctotal"><span class="mut">Cargo por procesamiento</span><span>'+money(t.comision)+'</span></div>'
  + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
+ + '<div id="paypal-button-container" style="margin-top:8px"></div>'
+ + '<div id="pp-error" style="display:none;margin-top:10px;background:#fdecec;border:1px solid #e3a3a3;color:#8a1f1f;border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap"></div>'
+ + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. '+(t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en '+t.plazo+' días hábiles.')+'</p>'
  + '</div>';
  body.innerHTML = html;
- var pz = document.getElementById('pp-zone');
- if(pz){ pz.style.display = ''; var nt = document.getElementById('pp-note'); if(nt) nt.textContent = 'Pagas el total por PayPal en una sola transacción. ' + (t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en ' + t.plazo + ' días hábiles.'); }
  ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-zip'].forEach(function(id){
  var el = document.getElementById(id); if(el) el.addEventListener('input', saveShipForm);
  });
@@ -958,14 +953,13 @@ function shipParts(){
  function renderPayPal(){
  var cont = document.getElementById('paypal-button-container');
  if(!cont) return;
- if(cont.dataset.ok) return;
- cont.dataset.ok = '1';
  function init(){
  if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
  cont.innerHTML = '';
  paypal.Buttons({
  style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
  onClick: function(data, actions){
+ saveShipForm();
  var sp = shipParts();
  if(!sp.nombre || !sp.telefono || !sp.direccion || !sp.ciudad){
  alert('Completa tus datos de entrega (nombre, teléfono, dirección y ciudad) para poder enviarte el pedido.');
@@ -997,11 +991,6 @@ function shipParts(){
  unit_amount: { currency_code: 'USD', value: priceFor(p, it.talla).toFixed(2) } };
  });
  var desc = ('Zapatos Dominus | Rastreo ' + zapTrack + ' | ' + t.pares + ' par(es)' + (t.esUS ? ' | Envio a Estados Unidos' : ' | Envio ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' ' + t.plazo + ' dias habiles') + (sp.nombre ? ' | ' + sp.nombre : '') + (sp.telefono ? ' | Tel ' + sp.telefono : '') + (sp.ciudad ? ' | ' + sp.ciudad : '') + (t.esUS && sp.zip ? ' | ZIP ' + sp.zip : '')).slice(0, 127);
- var deptoPP = (sp.depto || sp.ciudad);
- if(t.esUS) deptoPP = usStateCode(deptoPP) || deptoPP;
- var addr = { address_line_1: sp.direccion.slice(0, 100), admin_area_2: sp.ciudad.slice(0, 64),
- admin_area_1: deptoPP.slice(0, 64), country_code: t.esUS ? 'US' : 'NI' };
- if(t.esUS && sp.zip) addr.postal_code = sp.zip.slice(0, 10);
  var pu = {
  custom_id: zapTrack,
  description: desc,
@@ -1009,12 +998,11 @@ function shipParts(){
  breakdown: { item_total: { currency_code: 'USD', value: t.subtotal.toFixed(2) },
  shipping: { currency_code: 'USD', value: t.envio.toFixed(2) },
  handling: { currency_code: 'USD', value: t.comision.toFixed(2) } } },
- items: items,
- shipping: { name: { full_name: sp.nombre.slice(0, 127) }, address: addr }
+ items: items
  };
  return actions.order.create({
  intent: 'CAPTURE',
- application_context: { brand_name: 'Dominus', shipping_preference: 'SET_PROVIDED_ADDRESS' },
+ application_context: { brand_name: 'Dominus', shipping_preference: 'GET_FROM_FILE' },
  purchase_units: [pu]
  });
  },
