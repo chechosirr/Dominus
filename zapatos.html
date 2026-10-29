@@ -866,14 +866,12 @@ function pintarFaltantes(f){
  if(el) el.classList.remove('sf-bad');
  });
  f.forEach(function(x){ var el = document.getElementById(x.id); if(el) el.classList.add('sf-bad'); });
- var box = document.getElementById('sf-error');
- if(box){
- if(f.length){ box.style.display = 'block'; box.innerHTML = '⚠ <b>Falta completar:</b> ' + f.map(function(x){ return x.label; }).join(', ') + '.'; }
- else { box.style.display = 'none'; box.innerHTML = ''; }
- }
  if(f.length){
  var primero = document.getElementById(f[0].id);
- if(primero) primero.scrollIntoView({ behavior: 'smooth', block: 'center' });
+ if(primero){
+ primero.scrollIntoView({ behavior: 'smooth', block: 'center' });
+ setTimeout(function(){ try{ primero.focus({ preventScroll: true }); }catch(e){} }, 380);
+ }
  }
 }
 function actualizarGate(){
@@ -968,7 +966,6 @@ function shipParts(){
  + '<label>Ciudad</label><input id="sf-ciu" value="'+esc(sdCiu)+'" placeholder="Ej: Estelí">'
  + '<label id="sf-dep-lab">Departamento</label><select id="sf-dep"></select>'
  + '<div id="sf-zip-wrap" style="display:none"><label>Código postal (ZIP)</label><input id="sf-zip" value="'+esc(sd.zip||'')+'" placeholder="Ej: 90210" inputmode="numeric"></div>'
- + '<div id="sf-error" style="display:none;margin-top:12px;border:1px solid #e5b4b4;background:#fdf1f1;color:#8c2323;border-radius:12px;padding:11px 13px;font-size:.92rem"></div>'
  + '</div>'
  + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
  + (t.esUS
@@ -981,7 +978,7 @@ function shipParts(){
  + '<div class="ctotal"><span class="mut">'+(t.esUS ? 'Envío a Estados Unidos' : 'Envío '+(t.tipo==='prio'?'Prioritario':'Standard')+' ('+t.pares+' par'+(t.pares>1?'es':'')+')')+'</span><span>'+money(t.envio)+'</span></div>'
  + '<div class="ctotal"><span class="mut">Cargo por procesamiento</span><span>'+money(t.comision)+'</span></div>'
  + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
- + '<div style="position:relative;margin-top:8px"><div id="paypal-button-container"></div><div id="pp-gate" style="display:none;position:absolute;inset:0;z-index:5;cursor:pointer"></div></div>'
+ + '<div style="position:relative;margin-top:8px"><div id="paypal-button-container"></div><div id="pp-gate" style="display:none;position:absolute;inset:0;z-index:2147483000;cursor:pointer"></div></div>'
  + '<div id="pp-error" style="display:none;margin-top:10px;background:#fdecec;border:1px solid #e3a3a3;color:#8a1f1f;border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap"></div>'
  + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. '+(t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en '+t.plazo+' días hábiles.')+'</p>'
  + '</div>';
