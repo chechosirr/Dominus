@@ -182,8 +182,19 @@ function render(){
           + '</div></div>';
       })()
     + '<button class="btn" id="btn-buy">Comprar</button>'
-    + '<button class="btn btn-ghost" id="btn-cart">+ Agregar al carrito</button>'
-; }).join('') + '</div>'
+    + '<button class="btn btn-ghost" id="btn-cart">+ Agregar al carrito</button></div></div>';
+  if(p.descripcion) html += '<div class="sec"><h2>Descripción</h2><p class="desc">' + esc(p.descripcion) + '</p></div>';
+  if(p.especificaciones) html += '<div class="sec"><h2>Especificaciones</h2><div class="specs">' + esc(p.especificaciones) + '</div></div>';
+  html += '<div class="sec"><h2>Reseñas <span class="hl">(' + REVIEWS.length + ')</span></h2>';
+  if(REVIEWS.length){
+    html += '<div class="avg"><b>' + avg.toFixed(1) + '</b>' + starsHTML(avg) + '</div>';
+    html += REVIEWS.map(function(r){
+      return '<div class="rev"><span class="rn">' + esc(r.nombre || 'Comprador') + '</span><span class="rt">' + new Date(r.created_at).toLocaleDateString('es') + '</span><div>' + starsHTML(r.rating) + '</div><p>' + esc(r.comentario || '') + '</p></div>';
+    }).join('');
+  } else html += '<p class="empty">Sé el primero en dejar una reseña.</p>';
+  if(sess){
+    html += '<div class="rform"><h2 style="margin-top:8px">Deja tu <span class="hl">reseña</span></h2>'
+      + '<label>Calificación</label><div class="starin" id="starin">' + [1,2,3,4,5].map(function(i){ return '<button data-v="' + i + '" class="' + (i <= 5 ? 'on' : '') + '">★</button>'; }).join('') + '</div>'
       + '<label>Comentario</label><textarea id="r-com" placeholder="¿Qué te pareció este producto?"></textarea>'
       + '<button class="btn" id="r-send">Publicar reseña</button><div class="rerr" id="rerr"></div></div>';
   } else {
