@@ -233,6 +233,17 @@ body.editing .card{cursor:grab}
   color:#111111;
 }
 body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}</style>
+
+<style>
+/* ===== Panel del vendedor en escritorio: botones como paneles cuadro, 5 por fila ===== */
+@media (min-width:900px){
+  .dash{max-width:none;width:min(1400px,94vw);position:relative;left:50%;transform:translateX(-50%);display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(12px,1.6vw,22px);padding:38px 34px}
+  .dash h2,.dash p{grid-column:1/-1}
+  .dash p{margin-bottom:8px}
+  .dash-btn{margin-bottom:0;min-height:clamp(118px,17vh,168px);flex-direction:column;justify-content:center;align-items:center;gap:8px;text-align:center;background:#ffffff;border-radius:20px;padding:18px 12px;font-size:clamp(1rem,1.9vh,1.22rem);box-shadow:0 10px 26px rgba(17,17,20,.05)}
+  .dash-btn:hover{transform:translateY(-3px);box-shadow:0 18px 36px rgba(17,17,20,.11)}
+}
+</style>
 </head>
 <body>
 <header class="top">
