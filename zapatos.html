@@ -109,7 +109,9 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .shipbox{background:var(--soft);border:1px solid var(--bord);border-radius:12px;padding:12px 14px;font-size:.93rem;line-height:1.5;margin:14px 0}
 .d-tallas-l{font-weight:700;margin:14px 0 8px}
 .d-tallas{display:flex;flex-wrap:wrap;gap:8px}
-.tsz{min-width:52px;padding:10px 0;text-align:center;border:1.5px solid var(--bord);border-radius:10px;background:#fff;cursor:pointer;font-family:inherit;font-size:.95rem;font-weight:600}
+.tsz{position:relative;min-width:58px;padding:8px 6px 18px;text-align:center;border:1.5px solid var(--bord);border-radius:10px;background:#fff;cursor:pointer;font-family:inherit;font-size:.95rem;font-weight:600}
+.tsz-p{position:absolute;right:5px;bottom:3px;font-size:9.5px;font-weight:700;color:var(--mut);letter-spacing:-.2px;pointer-events:none}
+.tsz.on .tsz-p{color:#c9ccd4}
 .tsz.on{border-color:var(--dark);background:var(--dark);color:#fff}
 .tsz.miss{border-color:var(--err);animation:shake .3s}
 @keyframes shake{25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
@@ -710,7 +712,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  }
  function renderSizes(){
  var tz = document.getElementById('d-tallas');
- tz.innerHTML = current.tallas.map(function(t){ return '<button class="tsz'+(t===curSize?' on':'')+'" data-t="'+esc(t)+'">'+esc(t)+'</button>'; }).join('');
+ tz.innerHTML = current.tallas.map(function(t){ return '<button class="tsz'+(t===curSize?' on':'')+'" data-t="'+esc(t)+'">'+esc(t)+'<span class="tsz-p">'+money(priceFor(current, t))+'</span></button>'; }).join('');
  Array.prototype.forEach.call(tz.querySelectorAll('.tsz'), function(b){
  b.addEventListener('click', function(){ curSize = b.getAttribute('data-t'); renderSizes(); document.getElementById('d-price').textContent = money(priceFor(current, curSize)); document.getElementById('d-price-c').textContent = 'C$' + priceCFor(current, curSize).toLocaleString('es-NI') + ' · precio del producto'; });
  });
