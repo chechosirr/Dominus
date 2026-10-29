@@ -1008,7 +1008,7 @@ function shipParts(){
  location.href = 'gracias.html';
  });
  },
- onError: function(err){ console.error('PayPal error:', err); alert('Hubo un problema con PayPal. Intenta de nuevo.'); }
+ onError: function(err){ console.error('PayPal error:', err); var em = (err && err.message) ? err.message : String(err || 'desconocido'); alert('PayPal devolvió este error:\n\n' + em + '\n\nPor favor mándame una captura de este mensaje.'); }
  }).render('#paypal-button-container');
  }
  if(typeof paypal === 'undefined'){
