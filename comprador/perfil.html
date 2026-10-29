@@ -332,11 +332,11 @@ function openDirForm(id){
   if(id) _dirs.forEach(function(x){ if(x.id === id) a = x; });
   wrap.innerHTML = '<div style="margin-top:14px;border-top:1px solid var(--line);padding-top:6px">'
     + '<h3 style="font-size:16px;margin:8px 0 2px">' + (id ? 'Editar dirección' : 'Nueva dirección') + '</h3>'
+    + '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">País</label>'
+    + '<select id="df-pais" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"><option value="Nicaragua"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? '' : ' selected') + '>Nicaragua</option><option value="Estados Unidos"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? ' selected' : '') + '>Estados Unidos</option></select>'
     + dirFld('df-dir', 'Dirección (con referencias)', a.direccion, 'Ej: Calle 5 #123, frente al parque')
     + dirFld('df-ciu', 'Ciudad', a.ciudad, 'Ej: Estelí')
     + dirFld('df-dep', 'Departamento', a.departamento, 'Ej: Estelí')
-    + '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">País</label>'
-    + '<select id="df-pais" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"><option value="Nicaragua"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? '' : ' selected') + '>Nicaragua</option><option value="Estados Unidos"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? ' selected' : '') + '>Estados Unidos</option></select>'
     + '<div id="df-zip-wrap" style="display:none">' + dirFld('df-zip', 'Código postal (ZIP)', a.codigo_postal, 'Ej: 90210') + '</div>'
     + dirFld('df-ref', 'Referencia (cómo llegar)', a.referencia, 'Ej: Casa verde, portón negro')
     + dirFld('df-tel', 'Teléfono de contacto', a.telefono, 'Ej: 8888 8888')
@@ -462,10 +462,10 @@ function loadShipLegacy(){
           + ' style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px">';
       }
       document.getElementById('ship-form').innerHTML =
-        fld('sf-dir', 'Dirección (con referencias)', p.direccion, 'Ej: Calle 5 #123, frente al parque')
+        fld('sf-pais', 'País', p.pais, 'Ej: Nicaragua')
+        + fld('sf-dir', 'Dirección (con referencias)', p.direccion, 'Ej: Calle 5 #123, frente al parque')
         + fld('sf-ciu', 'Ciudad', p.ciudad, 'Ej: Estelí')
         + fld('sf-dep', 'Departamento', p.departamento, 'Ej: Estelí')
-        + fld('sf-pais', 'País', p.pais, 'Ej: Nicaragua')
         + '<button class="btn" id="sf-save" style="margin-top:14px">Guardar datos</button>';
       document.getElementById('sf-save').onclick = saveShipForm;
     })

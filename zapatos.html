@@ -839,12 +839,12 @@ function paisUI(){
  + '<span class="pa">'+money(priceFor(p, it.talla) * it.qty)+'</span></div>';
  }).join('')
  + '<div class="shipform"><h3 style="margin-top:18px;font-size:1.05rem">Datos de entrega</h3>'
+ + '<label>País</label><select id="sf-pais"><option value="Nicaragua"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? '' : ' selected')+'>Nicaragua</option><option value="Estados Unidos"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? ' selected' : '')+'>Estados Unidos</option></select>'
  + '<label>Nombre de quien recibe</label><input id="sf-nom" value="'+esc(sd.nombre||'')+'" placeholder="Ej: María López">'
  + '<label>Teléfono / WhatsApp</label><input id="sf-tel" type="tel" value="'+esc(sd.telefono||'')+'" placeholder="Ej: 8888 8888">'
  + '<label>Dirección (con referencias)</label><input id="sf-dir" value="'+esc(sd.direccion||'')+'" placeholder="Ej: Calle 5 #123, frente al parque">'
  + '<label>Ciudad</label><input id="sf-ciu" value="'+esc(sdCiu)+'" placeholder="Ej: Estelí">'
  + '<label id="sf-dep-lab">Departamento</label><input id="sf-dep" value="'+esc(sdDep)+'" placeholder="Ej: Estelí">'
- + '<label>País</label><select id="sf-pais"><option value="Nicaragua"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? '' : ' selected')+'>Nicaragua</option><option value="Estados Unidos"'+(/unidos|usa|eeuu|united/i.test(sd.pais||'') ? ' selected' : '')+'>Estados Unidos</option></select>'
  + '<div id="sf-zip-wrap" style="display:none"><label>Código postal (ZIP)</label><input id="sf-zip" value="'+esc(sd.zip||'')+'" placeholder="Ej: 90210" inputmode="numeric"></div>'
  + '</div>'
  + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
