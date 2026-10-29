@@ -102,7 +102,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .btn:not(.btn-ghost):not(.btn-wa),.buy,.hero-search button{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%)!important;color:#0a0c10!important;border:0!important}
 .card-price,.pd-price{background:linear-gradient(120deg,#ffffff,#c2c9d4 40%,#f4f6f9 60%,#98a2b1)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
 .card-price{background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important;color:#111111!important}
-body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}</style>
+body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}.login-cta{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
+</style>
 </head>
 <body>
 <header class="top">
@@ -117,6 +118,24 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 </nav>
  </div>
 </header>
+<script>
+(function(){
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(s && s.access_token && s.user && s.user.id) return;
+ var btn = document.getElementById('menu-btn');
+ if(!btn) return;
+ btn.style.display = 'none';
+ var menu = document.getElementById('menu');
+ if(menu) menu.style.display = 'none';
+ var a = document.createElement('a');
+ a.href = 'cuenta.html';
+ a.textContent = 'Iniciar Sesión / Crear cuenta';
+ a.className = 'login-cta';
+ btn.parentNode.insertBefore(a, btn);
+ }catch(e){}
+})();
+</script>
 <div class="hero">
  <h1>Encuentra de todo.<br><span class="hl">Compra protegido.</span></h1>
  <p>Miles de productos físicos de vendedores verificados. Pagas por PayPal y lo recibes con número de rastreo.</p>

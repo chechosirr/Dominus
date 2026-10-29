@@ -163,6 +163,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .choice p.desc{margin:0 0 12px;color:#5c5c64;font-size:.92rem;line-height:1.45}
 .choice .go{display:inline-block;background:transparent;color:#2a2a2e;border:1.5px solid #2a2a2e;font-weight:700;letter-spacing:.05em;padding:9px 26px;border-radius:999px;font-size:.9rem;transition:background .2s ease,color .2s ease}
 .choice:hover .go{background:#2a2a2e;color:#fff}
+.login-cta{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
 </style>
 
 <style>
@@ -207,6 +208,24 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  </nav>
  </div>
 </header>
+<script>
+(function(){
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(s && s.access_token && s.user && s.user.id) return;
+ var btn = document.getElementById('menu-btn');
+ if(!btn) return;
+ btn.style.display = 'none';
+ var menu = document.getElementById('menu');
+ if(menu) menu.style.display = 'none';
+ var a = document.createElement('a');
+ a.href = 'cuenta.html';
+ a.textContent = 'Iniciar Sesión / Crear cuenta';
+ a.className = 'login-cta';
+ btn.parentNode.insertBefore(a, btn);
+ }catch(e){}
+})();
+</script>
 <main class="choice-wrap">
  <h1>Bienvenido a Dominus</h1>
  <p class="sub">Elige una sección para empezar</p>

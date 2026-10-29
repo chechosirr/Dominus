@@ -76,7 +76,8 @@ header.top{flex-wrap:wrap;gap:10px}
 .menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#111111}
 .menu a:last-child{border-bottom:0}
 .menu a:hover{background:rgba(0,0,0,.05)}
-body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}</style>
+body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}.login-cta{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
+</style>
 
 <style>
 /* ===== Compartir productos ===== */
@@ -106,6 +107,24 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 </nav>
   </div>
 </header>
+<script>
+(function(){
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(s && s.access_token && s.user && s.user.id) return;
+ var btn = document.getElementById('menu-btn');
+ if(!btn) return;
+ btn.style.display = 'none';
+ var menu = document.getElementById('menu');
+ if(menu) menu.style.display = 'none';
+ var a = document.createElement('a');
+ a.href = '../cuenta.html';
+ a.textContent = 'Iniciar Sesión / Crear cuenta';
+ a.className = 'login-cta';
+ btn.parentNode.insertBefore(a, btn);
+ }catch(e){}
+})();
+</script>
 <main id="main"><div class="loading">Cargando catálogo…</div></main>
 <footer>© 2026 Dominus · Compra y vende seguro</footer>
 <script>
