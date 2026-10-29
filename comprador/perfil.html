@@ -310,6 +310,19 @@ function joinTel(cod, num){
   if(!num) return '';
   return num.charAt(0) === '+' ? num : (cod || '+505') + ' ' + num;
 }
+var NI_DEPTOS = ['Boaco','Carazo','Chinandega','Chontales','Costa Caribe Norte','Costa Caribe Sur','Estelí','Granada','Jinotega','León','Madriz','Managua','Masaya','Matagalpa','Nueva Segovia','Río San Juan','Rivas'];
+var US_ESTADOS = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
+function depOptions(sel, esUS, cur){
+  var list = esUS ? US_ESTADOS : NI_DEPTOS;
+  var other = esUS ? NI_DEPTOS : US_ESTADOS;
+  cur = (cur || '').trim();
+  if(other.indexOf(cur) >= 0) cur = '';
+  var opts = '<option value="">' + (esUS ? 'Elige el estado…' : 'Elige el departamento…') + '</option>';
+  if(cur && list.indexOf(cur) < 0) opts += '<option value="' + esc(cur) + '">' + esc(cur) + '</option>';
+  opts += list.map(function(n){ return '<option value="' + esc(n) + '">' + esc(n) + '</option>'; }).join('');
+  sel.innerHTML = opts;
+  sel.value = cur || '';
+}
 function dirFld(id, label, val, ph){
   return '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">' + label + '</label>'
     + '<input id="' + id + '" type="text" value="' + esc(val || '') + '" placeholder="' + ph + '" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px">';
@@ -353,7 +366,8 @@ function openDirForm(id){
     + '<select id="df-pais" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"><option value="Nicaragua"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? '' : ' selected') + '>Nicaragua</option><option value="Estados Unidos"' + (/unidos|usa|eeuu|united/i.test(a.pais || '') ? ' selected' : '') + '>Estados Unidos</option></select>'
     + dirFld('df-dir', 'Dirección (con referencias)', a.direccion, 'Ej: Calle 5 #123, frente al parque')
     + dirFld('df-ciu', 'Ciudad', a.ciudad, 'Ej: Estelí')
-    + dirFld('df-dep', 'Departamento', a.departamento, 'Ej: Estelí')
+    + '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">Departamento</label>'
+    + '<select id="df-dep" style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--txt);font-family:inherit;font-size:15px"></select>'
     + '<div id="df-zip-wrap" style="display:none">' + dirFld('df-zip', 'Código postal (ZIP)', a.codigo_postal, 'Ej: 90210') + '</div>'
     + dirFld('df-ref', 'Referencia (cómo llegar)', a.referencia, 'Ej: Casa verde, portón negro')
     + '<label style="display:block;font-size:13px;color:var(--mut);margin:10px 0 4px">Teléfono de contacto</label>'
@@ -365,15 +379,18 @@ function openDirForm(id){
   document.getElementById('df-cancel').onclick = function(){ wrap.innerHTML = ''; };
   document.getElementById('df-save').onclick = function(){ saveDir(id); };
   var dfPais = document.getElementById('df-pais');
-  var dfUI = function(){
+  var dfUI = function(keep){
     var us = dfPais.value === 'Estados Unidos';
     var dep = document.getElementById('df-dep');
-    if(dep){ dep.placeholder = us ? 'Ej: California' : 'Ej: Estelí'; if(dep.previousElementSibling) dep.previousElementSibling.textContent = us ? 'Estado' : 'Departamento'; }
+    if(dep){
+      if(dep.previousElementSibling) dep.previousElementSibling.textContent = us ? 'Estado' : 'Departamento';
+      depOptions(dep, us, keep ? (a.departamento || dep.value || '') : dep.value);
+    }
     var codEl = document.getElementById('df-cod'); if(codEl) codEl.value = us ? '+1' : '+505';
     var zw = document.getElementById('df-zip-wrap'); if(zw) zw.style.display = us ? '' : 'none';
   };
-  dfPais.addEventListener('change', dfUI);
-  dfUI();
+  dfPais.addEventListener('change', function(){ dfUI(false); });
+  dfUI(true);
   var st0 = splitTel(a.telefono);
   var cod0 = document.getElementById('df-cod');
   if(cod0 && st0.cod) cod0.value = st0.cod;

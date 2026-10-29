@@ -530,6 +530,11 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <h2 style="margin-left:4px">Mi carrito</h2>
  </div>
  <div id="cart-body" style="margin-top:16px"></div>
+ <div id="pp-zone" style="display:none;margin-top:16px">
+ <div id="paypal-button-container"></div>
+ <div id="pp-error" style="display:none;margin-top:10px;background:#fdecec;border:1px solid #e3a3a3;color:#8a1f1f;border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap"></div>
+ <p id="pp-note" style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center"></p>
+ </div>
  </div>
 </div>
 
@@ -789,10 +794,24 @@ function saveShipForm(){
  departamento: g('sf-dep'), pais: g('sf-pais'), zip: g('sf-zip') };
  try{ localStorage.setItem('dominus_zap_envio', JSON.stringify(d)); }catch(e){}
  }
+var NI_DEPTOS = ['Boaco','Carazo','Chinandega','Chontales','Costa Caribe Norte','Costa Caribe Sur','Estelí','Granada','Jinotega','León','Madriz','Managua','Masaya','Matagalpa','Nueva Segovia','Río San Juan','Rivas'];
+var US_ESTADOS = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
+function depOptions(sel, esUS, cur){
+  var list = esUS ? US_ESTADOS : NI_DEPTOS;
+  var other = esUS ? NI_DEPTOS : US_ESTADOS;
+  cur = (cur || '').trim();
+  if(other.indexOf(cur) >= 0) cur = '';
+  var opts = '<option value="">' + (esUS ? 'Elige el estado…' : 'Elige el departamento…') + '</option>';
+  if(cur && list.indexOf(cur) < 0) opts += '<option value="' + esc(cur) + '">' + esc(cur) + '</option>';
+  opts += list.map(function(n){ return '<option value="' + esc(n) + '">' + esc(n) + '</option>'; }).join('');
+  sel.innerHTML = opts;
+  sel.value = cur || '';
+}
 function paisUI(){
  var esUS = envioPais() === 'US';
  var lab = document.getElementById('sf-dep-lab'); if(lab) lab.textContent = esUS ? 'Estado' : 'Departamento';
- var dep = document.getElementById('sf-dep'); if(dep) dep.placeholder = esUS ? 'Ej: California' : 'Ej: Estelí';
+ var dep = document.getElementById('sf-dep');
+ if(dep){ var sd9 = shipData(); var cur9 = (sd9.departamento || '').trim(); if(!cur9 && (sd9.ciudad || '').indexOf(',') >= 0) cur9 = (sd9.ciudad.split(',')[1] || '').trim().replace(/\.$/, ''); depOptions(dep, esUS, cur9); saveShipForm(); }
  var zw = document.getElementById('sf-zip-wrap'); if(zw) zw.style.display = esUS ? '' : 'none';
  var codEl = document.getElementById('sf-cod');
  if(codEl){ var st = splitTel(shipData().telefono || ''); codEl.value = st.cod || (esUS ? '+1' : '+505'); }
@@ -851,6 +870,7 @@ function shipParts(){
  if(!cart.length){
  body.innerHTML = '<p class="cempty">Tu carrito está vacío.<br><br><button class="backbtn" id="c-empty-back">← Ver zapatos</button></p>';
  var eb = document.getElementById('c-empty-back'); if(eb) eb.onclick = closeCart;
+ var pz0 = document.getElementById('pp-zone'); if(pz0) pz0.style.display = 'none';
  return;
  }
  var sd = shipData();
@@ -870,7 +890,7 @@ function shipParts(){
  + '<label>Teléfono / WhatsApp</label><div style="display:flex;gap:8px"><select id="sf-cod" aria-label="Código de país" style="width:104px;flex:none"><option value="+505">+505</option><option value="+1">+1</option></select><input id="sf-tel" type="tel" value="'+esc(splitTel(sd.telefono).num)+'" placeholder="Ej: 8888 8888" style="flex:1;min-width:0"></div>'
  + '<label>Dirección (con referencias)</label><input id="sf-dir" value="'+esc(sd.direccion||'')+'" placeholder="Ej: Calle 5 #123, frente al parque">'
  + '<label>Ciudad</label><input id="sf-ciu" value="'+esc(sdCiu)+'" placeholder="Ej: Estelí">'
- + '<label id="sf-dep-lab">Departamento</label><input id="sf-dep" value="'+esc(sdDep)+'" placeholder="Ej: Estelí">'
+ + '<label id="sf-dep-lab">Departamento</label><select id="sf-dep"></select>'
  + '<div id="sf-zip-wrap" style="display:none"><label>Código postal (ZIP)</label><input id="sf-zip" value="'+esc(sd.zip||'')+'" placeholder="Ej: 90210" inputmode="numeric"></div>'
  + '</div>'
  + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
@@ -884,14 +904,14 @@ function shipParts(){
  + '<div class="ctotal"><span class="mut">'+(t.esUS ? 'Envío a Estados Unidos' : 'Envío '+(t.tipo==='prio'?'Prioritario':'Standard')+' ('+t.pares+' par'+(t.pares>1?'es':'')+')')+'</span><span>'+money(t.envio)+'</span></div>'
  + '<div class="ctotal"><span class="mut">Cargo por procesamiento</span><span>'+money(t.comision)+'</span></div>'
  + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
- + '<div id="paypal-button-container" style="margin-top:8px"></div>'
- + '<div id="pp-error" style="display:none;margin-top:10px;background:#fdecec;border:1px solid #e3a3a3;color:#8a1f1f;border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap"></div>'
- + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. '+(t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en '+t.plazo+' días hábiles.')+'</p>'
  + '</div>';
  body.innerHTML = html;
- ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-dep','sf-zip'].forEach(function(id){
+ var pz = document.getElementById('pp-zone');
+ if(pz){ pz.style.display = ''; var nt = document.getElementById('pp-note'); if(nt) nt.textContent = 'Pagas el total por PayPal en una sola transacción. ' + (t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en ' + t.plazo + ' días hábiles.'); }
+ ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-zip'].forEach(function(id){
  var el = document.getElementById(id); if(el) el.addEventListener('input', saveShipForm);
  });
+ var depEl = document.getElementById('sf-dep'); if(depEl){ depEl.addEventListener('change', saveShipForm); depEl.addEventListener('input', saveShipForm); }
  var psEl = document.getElementById('sf-pais');
  if(psEl) psEl.addEventListener('change', function(){ saveShipForm(); renderCart(); });
  var codEl2 = document.getElementById('sf-cod');
@@ -935,12 +955,11 @@ function shipParts(){
  alert('PayPal devolvió este error:\n\n' + msg + '\n\nMándame una captura de este mensaje.');
  }
  var ppLast = null;
- var ppRendered = false;
  function renderPayPal(){
  var cont = document.getElementById('paypal-button-container');
  if(!cont) return;
- if(ppRendered) return;
- ppRendered = true;
+ if(cont.dataset.ok) return;
+ cont.dataset.ok = '1';
  function init(){
  if(typeof paypal === 'undefined'){ setTimeout(init, 300); return; }
  cont.innerHTML = '';
@@ -954,6 +973,10 @@ function shipParts(){
  }
  if(!telConCodigo(sp.telefono)){
  alert(TEL_MSG);
+ return actions.reject();
+ }
+ if(envioPais() === 'US' && !sp.depto){
+ alert('Elige el estado de entrega en los datos de entrega.');
  return actions.reject();
  }
  if(envioPais() === 'US' && !sp.zip){
@@ -1035,7 +1058,7 @@ function shipParts(){
  s2.onload = init; document.head.appendChild(s2);
  } else { init(); }
  }
- function openCart(){ ppRendered = false; renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } }
+ function openCart(){ renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } }
  function closeCart(){ if(ovState === 'cart'){ history.back(); } else { cartwrap.classList.remove('open'); document.body.style.overflow = ''; } }
  document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
  document.getElementById('cartscrim').addEventListener('click', closeCart);
