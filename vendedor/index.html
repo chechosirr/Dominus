@@ -167,6 +167,7 @@ body.editing .card{cursor:grab}
 .crop-zoom{display:flex;align-items:center;gap:12px;margin:16px 0 4px}
 .crop-zoom button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--txt);font-size:22px;cursor:pointer;flex:0 0 auto;font-family:inherit}
 .crop-zoom input{flex:1;accent-color:var(--acc);height:44px}
+.login-cta-h{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -287,6 +288,24 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 </nav>
   </div>
 </header>
+<script>
+(function(){
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(s && s.access_token && s.user && s.user.id) return;
+ var btn = document.getElementById('menu-btn');
+ if(!btn) return;
+ btn.style.display = 'none';
+ var menu = document.getElementById('menu');
+ if(menu) menu.style.display = 'none';
+ var a = document.createElement('a');
+ a.href = '../cuenta.html';
+ a.textContent = 'Iniciar Sesión / Crear cuenta';
+ a.className = 'login-cta-h';
+ btn.parentNode.insertBefore(a, btn);
+ }catch(e){}
+})();
+</script>
 <div id="wall"><div class="empty">Cargando…</div></div>
 <main>
   <div class="grid" id="grid"></div>

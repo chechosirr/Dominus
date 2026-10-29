@@ -89,6 +89,7 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 .passwrap{position:relative}
 .passwrap input{padding-right:74px}
 .eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#4a4a52;font-weight:700;cursor:pointer;font-family:inherit;font-size:13px;padding:6px 8px}
+.login-cta-h{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
 </style>
 
 <style>
@@ -121,6 +122,24 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
   </div>
   </div>
 </header>
+<script>
+(function(){
+ try{
+ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+ if(s && s.access_token && s.user && s.user.id) return;
+ var btn = document.getElementById('menu-btn');
+ if(!btn) return;
+ btn.style.display = 'none';
+ var menu = document.getElementById('menu');
+ if(menu) menu.style.display = 'none';
+ var a = document.createElement('a');
+ a.href = '../cuenta.html';
+ a.textContent = 'Iniciar Sesión / Crear cuenta';
+ a.className = 'login-cta-h';
+ btn.parentNode.insertBefore(a, btn);
+ }catch(e){}
+})();
+</script>
 <main id="main"><p class="empty">Cargando…</p></main>
 <footer>© 2026 Dominus · Compra y vende seguro</footer>
 <script>
