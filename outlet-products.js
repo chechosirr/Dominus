@@ -1,7 +1,7 @@
 // Zapatos por encargo · Dominus — datos del catalogo.
 // Generado por build_zapatos.py desde zapatos-catalogo.json. No editar a mano.
 // Precio mostrado = precio del producto (tienda + $10 + envio de la tienda).
-// El envio se suma al pagar segun el pais: a Nicaragua por par (Standard $15, 25 dias habiles; Prioritario $25, 10 dias habiles; entrega nacional incluida); a Estados Unidos $4.99 por pedido.
+// El envio se suma al pagar segun el pais: a Nicaragua por par (Standard $15, 25 dias habiles; Prioritario $25, 10 dias habiles; entrega nacional incluida); a Estados Unidos $4.99 por par.
 var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;

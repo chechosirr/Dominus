@@ -458,7 +458,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="steps">
  <div class="step"><span class="n">1</span><p><b>Elige tu par y tu talla.</b> Toca un producto para ver su descripción y todas sus fotos, y agrégalo al carrito.</p></div>
  <div class="step"><span class="n">2</span><p><b>Confirma tu talla.</b> Al agregarlo eliges la talla; revisa bien la guía porque es compra por encargo.</p></div>
- <div class="step"><span class="n">3</span><p><b>Pagas con PayPal.</b> En el carrito ves el total completo: productos + envío (a Nicaragua: Standard $15 o Prioritario $25 por par, tú eliges; a Estados Unidos: $4.99 por pedido) + cargo por procesamiento. Sin sorpresas.</p></div>
+ <div class="step"><span class="n">3</span><p><b>Pagas con PayPal.</b> En el carrito ves el total completo: productos + envío (a Nicaragua: Standard $15 o Prioritario $25 por par, tú eliges; a Estados Unidos: $4.99 por par) + cargo por procesamiento. Sin sorpresas.</p></div>
  <div class="step"><span class="n">4</span><p><b>Te lo entregamos.</b> Entrega en la puerta de tu casa. Tiempo estimado total: 25 días hábiles con Standard o 10 días hábiles con Prioritario.</p></div>
  </div>
  </section>
@@ -467,12 +467,12 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <h2>Políticas claras</h2>
  <div class="pols">
  <ul>
- <li><b>Precio:</b> el precio de cada producto es el que ves en su tarjeta. El envío se calcula en el carrito según el país: a Nicaragua, Standard $15 por par (25 días hábiles) o Prioritario $25 por par (10 días hábiles), con la entrega a tu casa incluida; a Estados Unidos, $4.99 por pedido.</li>
+ <li><b>Precio:</b> el precio de cada producto es el que ves en su tarjeta. El envío se calcula en el carrito según el país: a Nicaragua, Standard $15 por par (25 días hábiles) o Prioritario $25 por par (10 días hábiles), con la entrega a tu casa incluida; a Estados Unidos, $4.99 por par.</li>
  <li><b>Pago:</b> pagas aquí mismo con PayPal (saldo, tarjeta o cuenta bancaria). El cargo por procesamiento ya va incluido en el total del carrito.</li>
  <li><b>Tallas:</b> confirma bien tu talla antes de pagar; como es una compra por encargo, no hay cambios por talla.</li>
  <li><b>Disponibilidad:</b> el stock cambia a diario. Si tu modelo o tu talla se agotó antes de comprarlo, te devolvemos el 100% o lo cambias por otro modelo.</li>
  <li><b>Tiempos:</b> 25 días hábiles con envío Standard o 10 días hábiles con envío Prioritario (compra + envío aéreo + entrega local). Puede variar por disponibilidad y aduana.</li>
- <li><b>¿Estás en Estados Unidos?</b> También puedes comprar con envío a tu dirección de Estados Unidos: el envío cuesta $4.99 por pedido. Y si estás fuera, también puedes comprar para tu familia en Nicaragua: pagas tú y entregamos a su puerta.</li>
+ <li><b>¿Estás en Estados Unidos?</b> También puedes comprar con envío a tu dirección de Estados Unidos: el envío cuesta $4.99 por par. Y si estás fuera, también puedes comprar para tu familia en Nicaragua: pagas tú y entregamos a su puerta.</li>
  </ul>
  <p class="note" id="verif"></p>
  </div>
@@ -497,7 +497,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="d-brand" id="d-brand"></div>
  <h2 class="d-name" id="d-name"></h2>
  <div class="d-price"><span id="d-price"></span><small id="d-price-c"></small></div>
- <div class="shipbox"> <b>Envío: se suma en el carrito.</b><br>A Nicaragua: Standard $15 por par · 25 días hábiles — Prioritario $25 por par · 10 días hábiles · incluye la entrega en la puerta de tu casa.<br>A Estados Unidos: $4.99 por pedido.</div>
+ <div class="shipbox"> <b>Envío: se suma en el carrito.</b><br>A Nicaragua: Standard $15 por par · 25 días hábiles — Prioritario $25 por par · 10 días hábiles · incluye la entrega en la puerta de tu casa.<br>A Estados Unidos: $4.99 por par.</div>
  <div class="d-tallas-l">Talla US <span style="color:var(--mut);font-weight:600">(toca para elegir)</span></div>
  <div class="d-tallas" id="d-tallas"></div>
  <div class="qtyrow"><span style="font-weight:700">Cantidad</span>
@@ -768,7 +768,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  cart.forEach(function(it){ var p = byCode(it.codigo); if(p){ subtotal += priceFor(p, it.talla) * it.qty; pares += it.qty; } });
  var tipo = envioTipo();
  var esUS = envioPais() === 'US';
- var envio = esUS ? (pares ? ENVIO_USA_VAL() : 0) : pares * (tipo === 'prio' ? ZAP_ENVIO_PRIO : ZAP_ENVIO_STD);
+ var envio = esUS ? pares * ENVIO_USA_VAL() : pares * (tipo === 'prio' ? ZAP_ENVIO_PRIO : ZAP_ENVIO_STD);
  var base = subtotal + envio;
  var total = pares ? Math.round(((base + 0.30) / (1 - 0.054)) * 100) / 100 : 0;
  var comision = Math.round((total - base) * 100) / 100;
@@ -847,7 +847,7 @@ function paisUI(){
  + '</div>'
  + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
  + (t.esUS
- ? '<button class="shipopt sel" type="button"><span><b>Envío a Estados Unidos</b><br><small>Tarifa única por pedido</small></span><b>'+money(ENVIO_USA_VAL())+' / pedido</b></button>'
+ ? '<button class="shipopt sel" type="button"><span><b>Envío a Estados Unidos</b><br><small>Costo por cada par</small></span><b>'+money(ENVIO_USA_VAL())+' / par</b></button>'
  : '<button class="shipopt'+(t.tipo==='std'?' sel':'')+'" data-tipo="std"><span><b>Envío Standard</b><br><small>25 días hábiles</small></span><b>'+money(ZAP_ENVIO_STD)+' / par</b></button>'
  + '<button class="shipopt'+(t.tipo==='prio'?' sel':'')+'" data-tipo="prio"><span><b>Envío Prioritario</b><br><small>10 días hábiles</small></span><b>'+money(ZAP_ENVIO_PRIO)+' / par</b></button>')
  + '</div>'
@@ -857,7 +857,7 @@ function paisUI(){
  + '<div class="ctotal"><span class="mut">Cargo por procesamiento</span><span>'+money(t.comision)+'</span></div>'
  + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
  + '<div id="paypal-button-container" style="margin-top:8px"></div>'
- + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. '+(t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por pedido.' : 'Entrega a la puerta de tu casa en '+t.plazo+' días hábiles.')+'</p>'
+ + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. '+(t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en '+t.plazo+' días hábiles.')+'</p>'
  + '</div>';
  body.innerHTML = html;
  ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-dep','sf-zip'].forEach(function(id){
@@ -915,7 +915,7 @@ function paisUI(){
  return { name: (it.codigo + ' · ' + p.nombre + ' · Talla US ' + it.talla).slice(0,127), quantity: String(it.qty),
  unit_amount: { currency_code: 'USD', value: priceFor(p, it.talla).toFixed(2) } };
  });
- var desc = ('Zapatos Dominus · Rastreo ' + zapTrack + ' · ' + t.pares + ' par(es)' + (t.esUS ? ' · Envío a Estados Unidos ($4.99)' : ' · Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' (' + t.plazo + ' días hábiles)') + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '') + (t.esUS && sp.zip ? ' · ZIP ' + sp.zip : '')).slice(0,127);
+ var desc = ('Zapatos Dominus · Rastreo ' + zapTrack + ' · ' + t.pares + ' par(es)' + (t.esUS ? ' · Envío a Estados Unidos ($4.99 por par)' : ' · Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' (' + t.plazo + ' días hábiles)') + (sp.nombre ? ' · ' + sp.nombre : '') + (sp.telefono ? ' · Tel ' + sp.telefono : '') + (sp.ciudad ? ' · ' + sp.ciudad : '') + (t.esUS && sp.zip ? ' · ZIP ' + sp.zip : '')).slice(0,127);
  var pu = {
  custom_id: zapTrack,
  description: desc,
@@ -964,9 +964,9 @@ function paisUI(){
  var capId = data.orderID;
  try{ var caps = details.purchase_units && details.purchase_units[0] && details.purchase_units[0].payments && details.purchase_units[0].payments.captures; if(caps && caps[0] && caps[0].id) capId = caps[0].id; }catch(e){}
  var detItems = cart.map(function(it){ var pp = byCode(it.codigo); return it.codigo + ' ' + pp.nombre + ' · Talla US ' + it.talla + ' ×' + it.qty; }).join('; ');
- var detEntrega = 'Entrega: ' + (sd.nombre || nombre) + (sd.direccion ? ', ' + sd.direccion : '') + (spq.ciudad ? ', ' + spq.ciudad + (spq.depto ? ', ' + spq.depto : '') : '') + (t.esUS ? ', Estados Unidos' + (spq.zip ? ' ZIP ' + spq.zip : '') + ' · Envío EE. UU. $4.99' : '') + (sd.telefono ? ' · Tel: ' + sd.telefono : '');
+ var detEntrega = 'Entrega: ' + (sd.nombre || nombre) + (sd.direccion ? ', ' + sd.direccion : '') + (spq.ciudad ? ', ' + spq.ciudad + (spq.depto ? ', ' + spq.depto : '') : '') + (t.esUS ? ', Estados Unidos' + (spq.zip ? ' ZIP ' + spq.zip : '') + ' · Envío EE. UU. $4.99/par' : '') + (sd.telefono ? ' · Tel: ' + sd.telefono : '');
  registrarVentaZap({ fecha_pago: new Date().toISOString(), cliente: (sd.nombre || nombre || ''), detalle: detItems + ' · Rastreo: ' + zapTrack + ' || ' + detEntrega, monto: Number(t.total), paypal_id: capId, codigo_rastreo: zapTrack });
- try{ localStorage.setItem('dominus_gracias', JSON.stringify({ tipo: 'zapatos', codigo: zapTrack, nombre: nombre, total: money(t.total), items: lines.map(function(x){ return x.replace(/^• /, ''); }), paypal: data.orderID, wa: 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg), extra: t.esUS ? 'Envío a Estados Unidos ($4.99 por pedido).' : 'Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' · entrega estimada en ' + t.plazo + ' días hábiles. Entrega a la puerta de tu casa.' })); }catch(e){}
+ try{ localStorage.setItem('dominus_gracias', JSON.stringify({ tipo: 'zapatos', codigo: zapTrack, nombre: nombre, total: money(t.total), items: lines.map(function(x){ return x.replace(/^• /, ''); }), paypal: data.orderID, wa: 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg), extra: t.esUS ? 'Envío a Estados Unidos ($4.99 por par).' : 'Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' · entrega estimada en ' + t.plazo + ' días hábiles. Entrega a la puerta de tu casa.' })); }catch(e){}
  cart = []; saveCart();
  location.href = 'gracias.html';
  });
