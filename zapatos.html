@@ -367,6 +367,14 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   .cat-card::before{width:clamp(84px,16.5vh,150px);height:clamp(84px,16.5vh,150px)}
 }
 </style>
+
+<style>
+/* ===== Compartir productos (enlace propio ?p=DOM-###) ===== */
+.card{position:relative}
+.shareb{position:absolute;top:10px;right:10px;z-index:3;width:36px;height:36px;border-radius:50%;border:1px solid #e2e2e8;background:rgba(255,255,255,.94);color:#2a2a2e;display:grid;place-items:center;cursor:pointer;box-shadow:0 6px 16px rgba(17,17,20,.13);font-family:inherit}
+.shareb:active{transform:scale(.93)}
+#d-share{margin-left:auto;display:inline-flex;align-items:center;gap:7px}
+</style>
 </head>
 <body>
 <header class="top">
@@ -476,6 +484,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <div class="detail-in">
  <div class="backbar">
  <button class="backbtn" id="d-back">← Volver al catálogo</button>
+ <button class="backbtn light" id="d-share"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg> Compartir</button>
  </div>
  <div class="d-grid">
  <div>
@@ -639,6 +648,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(!list.length){ grid.innerHTML = (curCat === 'ninos' && !state.q && !state.marca && !state.precio && !state.talla) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
  grid.innerHTML = list.map(function(p){
  return '<article class="card" data-code="'+p.codigo+'">' +
+ '<button class="shareb" data-share="'+p.codigo+'" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>' +
  '<div class="ph"><img loading="lazy" src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>' +
  '<div class="bd"><div class="brand">'+esc(p.marca)+'</div>' +
  '<div class="name">'+esc(p.nombre)+'</div>' +
@@ -648,6 +658,18 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  Array.prototype.forEach.call(grid.querySelectorAll('.card'), function(c){
  c.addEventListener('click', function(){ openDetail(c.getAttribute('data-code')); });
  });
+ Array.prototype.forEach.call(grid.querySelectorAll('.shareb'), function(b){
+ b.addEventListener('click', function(e){ e.stopPropagation(); shareZap(b.getAttribute('data-share')); });
+ });
+ }
+ function zapLink(code){ return new URL('?p=' + encodeURIComponent(code), location.href).href; }
+ function shareZap(code){
+ var p = byCode(code); if(!p) return;
+ var url = zapLink(code);
+ var data = { title: 'Dominus · Zapatos', text: p.marca + ' ' + p.nombre + ' — ' + money(p.precio) + ' en Dominus', url: url };
+ if(navigator.share){ navigator.share(data).catch(function(){}); }
+ else if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(function(){ toast('Enlace copiado ✓'); }, function(){ window.prompt('Copia el enlace:', url); }); }
+ else { window.prompt('Copia el enlace:', url); }
  }
 
  /* ---------- Historial: atrás vuelve al catálogo ---------- */
@@ -656,7 +678,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  function ovReplace(name){ ovState = name; try{ history.replaceState({ov:name}, ''); }catch(e){} }
  window.addEventListener('popstate', function(){
  var closedOv = false;
- if(detail.classList.contains('open')){ detail.classList.remove('open'); document.body.style.overflow = ''; closedOv = true; }
+ if(detail.classList.contains('open')){ detail.classList.remove('open'); document.body.style.overflow = ''; closedOv = true; if(/[?&]p=/.test(location.search)){ try{ history.replaceState(null, '', location.pathname); }catch(e){} } }
  if(cartwrap.classList.contains('open')){ cartwrap.classList.remove('open'); document.body.style.overflow = ''; closedOv = true; }
  if(closedOv){ ovState = (typeof view !== 'undefined' && view === 'catalog') ? 'cat' : null; }
  else if(typeof view !== 'undefined' && view === 'catalog'){ backToPanel(); ovState = null; }
@@ -686,6 +708,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  document.getElementById('d-desc').textContent = current.descripcion;
  document.getElementById('d-feats').innerHTML = current.detalles.map(function(d){ return '<li>'+esc(d)+'</li>'; }).join('');
  detail.classList.add('open'); detail.scrollTop = 0; document.body.style.overflow = 'hidden'; if(ovState !== 'detail') ovPush('detail');
+ try{ history.replaceState({ov:'detail'}, '', location.pathname + '?p=' + encodeURIComponent(code)); }catch(e){}
  }
  function renderSizes(){
  var tz = document.getElementById('d-tallas');
@@ -702,8 +725,9 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  toast('Elige tu talla US primero ');
  return false;
  }
- function closeDetail(){ if(ovState === 'detail'){ history.back(); } else { detail.classList.remove('open'); document.body.style.overflow = ''; } }
+ function closeDetail(){ if(ovState === 'detail'){ history.back(); } else { detail.classList.remove('open'); document.body.style.overflow = ''; if(/[?&]p=/.test(location.search)){ try{ history.replaceState(null, '', location.pathname); }catch(e){} } } }
  document.getElementById('d-back').addEventListener('click', closeDetail);
+ document.getElementById('d-share').addEventListener('click', function(){ if(current) shareZap(current.codigo); });
  document.getElementById('d-inc').addEventListener('click', function(){ curQty = Math.min(9, curQty+1); document.getElementById('d-qty').textContent = curQty; });
  document.getElementById('d-dec').addEventListener('click', function(){ curQty = Math.max(1, curQty-1); document.getElementById('d-qty').textContent = curQty; });
  document.getElementById('d-add').addEventListener('click', function(){
@@ -984,6 +1008,9 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  document.getElementById('shop-back').addEventListener('click', function(){ if(ovState === 'cat'){ history.back(); } else { backToPanel(); } });
  updateBadges();
  render();
+ var deepP = null;
+ try{ deepP = new URLSearchParams(location.search).get('p'); }catch(e){}
+ if(deepP){ var dp = byCode(deepP); if(dp){ var dc = catOf(dp); enterCat(dc === 'unisex' ? 'hombre' : dc); openDetail(deepP); } }
 })();
 
 /* ===== Menú y cuenta (igual que el resto del sitio) ===== */

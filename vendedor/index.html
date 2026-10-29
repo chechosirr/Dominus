@@ -263,6 +263,15 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
   .hgrid{grid-template-columns:repeat(5,1fr);grid-template-rows:none;grid-auto-flow:row;grid-auto-columns:auto;overflow:visible;padding-bottom:0}
 }
 </style>
+
+<style>
+/* ===== Compartir productos ===== */
+#share-toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);background:#2a2a2e;color:#fff;font-size:14px;font-weight:700;padding:11px 20px;border-radius:999px;opacity:0;pointer-events:none;transition:all .25s ease;z-index:999;font-family:inherit}
+#share-toast.show{opacity:1;transform:translate(-50%,0)}
+.card{position:relative}
+.shareb{position:absolute;top:10px;right:10px;z-index:3;width:36px;height:36px;border-radius:50%;border:1px solid #e2e2e8;background:rgba(255,255,255,.94);color:#2a2a2e;display:grid;place-items:center;cursor:pointer;box-shadow:0 6px 16px rgba(17,17,20,.13);font-family:inherit}
+.shareb:active{transform:scale(.93)}
+</style>
 </head>
 <body>
 <header class="top">
@@ -443,6 +452,7 @@ function prodCardHTML(p, own){
     + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
     + '<div class="card-price">' + money(p.precio) + '</div>'
     + '<a class="buy" href="../producto/?id=' + p.id + '">Ver</a>'
+    + '<button class="shareb" data-share="' + p.id + '" data-titulo="' + esc(p.titulo) + '" data-precio="' + p.precio + '" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>'
     + '</div></div>';
 }
 function renderWallProducts(prods, own){
@@ -1654,6 +1664,28 @@ function doLogout(){
     }
   }catch(e){}
 })();
+</script>
+
+<script>
+function shareToast(msg){
+  var t = document.getElementById('share-toast');
+  if(!t){ t = document.createElement('div'); t.id = 'share-toast'; document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(t._h); t._h = setTimeout(function(){ t.classList.remove('show'); }, 2000);
+}
+function shareProd(id, titulo, precio){
+  var url = new URL('../producto/?id=' + id, location.href).href;
+  var data = { title: 'Dominus', text: (titulo || 'Producto') + (precio != null && precio !== '' ? ' — $' + Number(precio).toFixed(2) : '') + ' en Dominus', url: url };
+  if(navigator.share){ navigator.share(data).catch(function(){}); }
+  else if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(function(){ shareToast('Enlace copiado \u2713'); }, function(){ window.prompt('Copia el enlace:', url); }); }
+  else { window.prompt('Copia el enlace:', url); }
+}
+document.addEventListener('click', function(e){
+  var b = e.target && e.target.closest ? e.target.closest('.shareb') : null;
+  if(!b) return;
+  e.preventDefault(); e.stopPropagation();
+  shareProd(b.getAttribute('data-share'), b.getAttribute('data-titulo'), b.getAttribute('data-precio'));
+});
 </script>
 </body>
 </html>
