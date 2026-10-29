@@ -408,6 +408,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 <div class="toolbar">
  <div class="toolbar-in">
  <label class="search"> <input id="q" type="search" placeholder="Buscar zapatos: marca, modelo, color…"></label>
+ <button class="tbtn" id="q-btn" type="button">Buscar</button>
  <button class="tbtn filter-btn" id="fbtn">Filtros</button>
  </div>
 </div>
@@ -957,7 +958,9 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  document.getElementById('cartscrim').addEventListener('click', closeCart);
  
  /* ---------- Filtros / búsqueda ---------- */
- document.getElementById('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
+ function applySearch(){ state.q = document.getElementById('q').value; render(); }
+ document.getElementById('q-btn').addEventListener('click', applySearch);
+ document.getElementById('q').addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); applySearch(); } });
  document.getElementById('applyf').addEventListener('click', function(){
  state.marca = fm.value;
  state.precio = document.getElementById('f-precio').value;

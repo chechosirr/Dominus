@@ -86,11 +86,16 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 .shareb{position:absolute;top:10px;right:10px;z-index:3;width:36px;height:36px;border-radius:50%;border:1px solid #e2e2e8;background:rgba(255,255,255,.94);color:#2a2a2e;display:grid;place-items:center;cursor:pointer;box-shadow:0 6px 16px rgba(17,17,20,.13);font-family:inherit}
 .shareb:active{transform:scale(.93)}
 </style>
+
+<style>
+.qbtn{border:1.5px solid #e2e5ea;background:linear-gradient(180deg,#f7f7f9,#d7dbe2);color:#141416;border-radius:999px;padding:9px 18px;font-weight:800;cursor:pointer;font-family:inherit;font-size:.95rem;white-space:nowrap}
+</style>
 </head>
 <body>
 <header class="top">
   <a class="logo" href="../index.html">DOMIN<em>US</em></a>
   <label class="search"><input id="q" type="search" placeholder="Buscar productos o empresas…"></label>
+  <button class="qbtn" id="q-btn" type="button">Buscar</button>
   <div class="menu-wrap">
     <button id="menu-btn" aria-label="Menú">☰</button>
     <nav class="menu" id="menu">
@@ -152,8 +157,9 @@ function cats(){
   PRODUCTS.forEach(function(p){ s[p.categoria || 'General'] = 1; });
   return ['Todo'].concat(Object.keys(s).sort());
 }
+var qTerm = '';
 function filtered(){
-  var term = (document.getElementById('q').value || '').trim().toLowerCase();
+  var term = qTerm.trim().toLowerCase();
   return PRODUCTS.filter(function(p){
     var okC = activeCat === 'Todo' || (p.categoria || 'General') === activeCat;
     var okQ = !term || (p.titulo + ' ' + (p.descripcion || '') + ' ' + (p.categoria || '') + ' ' + (p.sellers ? p.sellers.nombre : '')).toLowerCase().indexOf(term) >= 0;
@@ -162,7 +168,7 @@ function filtered(){
 }
 function render(){
   var main = document.getElementById('main');
-  var term = (document.getElementById('q').value || '').trim();
+  var term = qTerm.trim();
   var list = filtered();
   var html = '<div class="chips">' + cats().map(function(c){
     return '<button class="chip' + (c === activeCat ? ' on' : '') + '" data-c="' + esc(c) + '">' + esc(c) + '</button>';
@@ -228,7 +234,9 @@ function addToCart(pid, btn){
       setTimeout(function(){ btn.disabled = false; btn.textContent = '+ Carrito'; }, 1500);
     }).catch(function(){ btn.disabled = false; btn.textContent = '+ Carrito'; });
 }
-document.getElementById('q').addEventListener('input', render);
+function applySearch(){ qTerm = document.getElementById('q').value || ''; render(); }
+document.getElementById('q-btn').addEventListener('click', applySearch);
+document.getElementById('q').addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); applySearch(); } });
 (function(){
   try{
     var q = new URLSearchParams(location.search).get('q');

@@ -471,7 +471,7 @@ function renderWallProducts(prods, own){
     + '<button class="catchip on" data-cat="">Todos</button>'
     + cats.map(function(c){ return '<button class="catchip" data-cat="' + esc(c) + '">' + esc(c) + '</button>'; }).join('')
     + '</div>'
-    + '<div id="wall-search-row" style="display:none;margin-bottom:14px"><input id="wall-search" type="search" placeholder="Buscar en esta tienda..." style="width:100%;background:#ffffff;border:1px solid #d0d4da;border-radius:12px;padding:13px 15px;color:#111;font-family:inherit;font-size:15px"></div>'
+    + '<div id="wall-search-row" style="display:none;margin-bottom:14px"><div style="display:flex;gap:8px"><input id="wall-search" type="search" placeholder="Buscar en esta tienda..." style="flex:1;background:#ffffff;border:1px solid #d0d4da;border-radius:12px;padding:13px 15px;color:#111;font-family:inherit;font-size:15px"><button id="wall-search-go" class="catchip on" type="button">Buscar</button></div></div>'
     + '<div class="showrow" id="showrow"></div>'
     + '<div class="grid hgrid" id="wall-grid"></div>';
   var wg = document.getElementById('wall-grid');
@@ -559,7 +559,9 @@ function renderWallProducts(prods, own){
       sInp.focus();
     }
   };
-  sInp.oninput = function(){ query = sInp.value.trim(); draw(); };
+  function applySearch(){ query = sInp.value.trim(); draw(); }
+  document.getElementById('wall-search-go').onclick = applySearch;
+  sInp.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); applySearch(); } });
   grid.querySelectorAll('.catchip[data-cat]').forEach(function(ch){
     ch.onclick = function(){
       grid.querySelectorAll('.catchip[data-cat]').forEach(function(x){ x.classList.remove('on'); });
@@ -765,7 +767,7 @@ function loadProdList(){
     + '<button class="catchip on" data-cat="">Todos</button>'
     + cats.map(function(c){ return '<button class="catchip" data-cat="' + esc(c) + '">' + esc(c) + '</button>'; }).join('')
     + '</div>'
-    + '<div id="inv-search-row" style="display:none;margin-bottom:14px"><input id="inv-search" type="search" placeholder="Buscar en tu inventario..." style="width:100%;background:#ffffff;border:1px solid #d0d4da;border-radius:12px;padding:13px 15px;color:#111;font-family:inherit;font-size:15px"></div>'
+    + '<div id="inv-search-row" style="display:none;margin-bottom:14px"><div style="display:flex;gap:8px"><input id="inv-search" type="search" placeholder="Buscar en tu inventario..." style="flex:1;background:#ffffff;border:1px solid #d0d4da;border-radius:12px;padding:13px 15px;color:#111;font-family:inherit;font-size:15px"><button id="inv-search-go" class="catchip on" type="button">Buscar</button></div></div>'
     + '<div id="inv-grid"></div>';
   var wg = box.querySelector('#inv-grid');
   var curCat = '', query = '';
@@ -843,7 +845,9 @@ function loadProdList(){
       sInp.focus();
     }
   };
-  sInp.oninput = function(){ query = sInp.value.trim(); draw(); };
+  function applySearch(){ query = sInp.value.trim(); draw(); }
+  box.querySelector('#inv-search-go').onclick = applySearch;
+  sInp.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); applySearch(); } });
   box.querySelectorAll('.catchip[data-cat]').forEach(function(ch){
     ch.onclick = function(){
       box.querySelectorAll('.catchip[data-cat]').forEach(function(x){ x.classList.remove('on'); });

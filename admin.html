@@ -98,6 +98,10 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
   .tabs button.on{background:var(--dark);color:#fff;border-color:var(--dark)}
 }
 </style>
+
+<style>
+.qbtn{border:1.5px solid var(--dark);background:var(--dark);color:#fff;border-radius:999px;padding:0 20px;font-family:inherit;font-weight:700;cursor:pointer;font-size:.95rem;white-space:nowrap}
+</style>
 </head>
 <body>
 <header class="top">
@@ -552,12 +556,7 @@ function renderInv(q){
  });
 }
 
-document.getElementById('inv-q').addEventListener('input', function(e){ renderInv(e.target.value); });
-document.getElementById('sel-q').addEventListener('input', function(){ renderSellers(); });
-document.getElementById('zap-q').addEventListener('input', function(){ renderZapatos(); });
-document.getElementById('hist-q').addEventListener('input', function(){ renderHistorial(); });
-document.getElementById('hzap-q').addEventListener('input', function(){ renderHistZapatos(); });
-document.getElementById('vzap-q').addEventListener('input', function(){ renderVentasZap(); });
+/* Los buscadores ahora buscan al presionar su botón Buscar (ver script al final). */
 document.getElementById('ped-f-todos').addEventListener('click', function(){ PED_FILTRO = 'todos'; document.getElementById('ped-f-todos').classList.add('on'); document.getElementById('ped-f-sin').classList.remove('on'); renderPedidos(); });
 document.getElementById('ped-f-sin').addEventListener('click', function(){ PED_FILTRO = 'sin'; document.getElementById('ped-f-sin').classList.add('on'); document.getElementById('ped-f-todos').classList.remove('on'); renderPedidos(); });
 Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
@@ -923,6 +922,30 @@ wireEmail(function(){ return TOK; }, function(){ return (S && S.user && S.user.e
  document.getElementById('panel').classList.remove('hidden');
  cargar().catch(function(){ gateFail('No se pudieron cargar los datos. Revisa tu conexión.'); document.getElementById('gate').classList.remove('hidden'); document.getElementById('panel').classList.add('hidden'); });
  }).catch(function(){ gateFail('No se pudo comprobar el acceso (¿ya corriste el SQL de administrador en Supabase?).'); });
+})();
+</script>
+
+<script>
+(function(){
+  function armSearch(id, fn){
+    var inp = document.getElementById(id); if(!inp) return;
+    var wrap = document.createElement('div');
+    wrap.style.cssText = 'display:flex;gap:8px;align-items:stretch;margin:0 0 14px';
+    inp.parentNode.insertBefore(wrap, inp);
+    inp.style.margin = '0'; inp.style.flex = '1'; inp.style.minWidth = '0';
+    wrap.appendChild(inp);
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'qbtn'; b.textContent = 'Buscar';
+    b.addEventListener('click', fn);
+    wrap.appendChild(b);
+    inp.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); fn(); } });
+  }
+  armSearch('inv-q', function(){ renderInv(document.getElementById('inv-q').value || ''); });
+  armSearch('sel-q', function(){ renderSellers(); });
+  armSearch('zap-q', function(){ renderZapatos(); });
+  armSearch('hist-q', function(){ renderHistorial(); });
+  armSearch('hzap-q', function(){ renderHistZapatos(); });
+  armSearch('vzap-q', function(){ renderVentasZap(); });
 })();
 </script>
 </body>
