@@ -744,6 +744,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  /* ---------- Carrito (local, como el del marketplace) ---------- */
  var cart = [];
  try{ cart = JSON.parse(localStorage.getItem('dominus_zap_cart') || '[]'); }catch(e){ cart = []; }
+ function cleanCart(){ var antes = cart.length; cart = cart.filter(function(it){ return !!byCode(it.codigo); }); if(cart.length !== antes) saveCart(); }
  function saveCart(){ try{ localStorage.setItem('dominus_zap_cart', JSON.stringify(cart)); }catch(e){} updateBadges(); }
  function cartCount(){ return cart.reduce(function(s,it){ return s + it.qty; }, 0); }
  function updateBadges(){
@@ -871,6 +872,7 @@ function shipParts(){
  pais: (sd.pais || '').trim(), zip: (sd.zip || '').trim() };
  }
  function renderCart(){
+ cleanCart();
  var body = document.getElementById('cart-body');
  var t = cartTotals();
  if(!cart.length){
@@ -1007,9 +1009,10 @@ function shipParts(){
  try{ localStorage.setItem('dominus_zap_pendiente', JSON.stringify({ track: zapTrack, total: t.total, esUS: t.esUS, tipo: t.tipo, plazo: t.plazo, pares: t.pares })); }catch(e){}
  var items = cart.map(function(it){
  var p = byCode(it.codigo);
+ if(!p) return null;
  return { name: (it.codigo + ' - ' + p.nombre + ' - Talla US ' + it.talla).slice(0, 127), quantity: String(it.qty),
  unit_amount: { currency_code: 'USD', value: priceFor(p, it.talla).toFixed(2) } };
- });
+ }).filter(Boolean);
  var desc = ('Zapatos Dominus | Rastreo ' + zapTrack + ' | ' + t.pares + ' par(es)' + (t.esUS ? ' | Envio a Estados Unidos' : ' | Envio ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' ' + t.plazo + ' dias habiles') + (sp.nombre ? ' | ' + sp.nombre : '') + (sp.telefono ? ' | Tel ' + sp.telefono : '') + (sp.ciudad ? ' | ' + sp.ciudad : '') + (t.esUS && sp.zip ? ' | ZIP ' + sp.zip : '')).slice(0, 127);
  var pu = {
  custom_id: zapTrack,
@@ -1037,7 +1040,7 @@ function shipParts(){
  var sd = shipData();
  var spq = shipParts();
  var nombre = ((details.payer && details.payer.name && details.payer.name.given_name) || sd.nombre || '');
- var lines = cart.map(function(it){ var p = byCode(it.codigo); return '• ' + it.codigo + ' · ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty; });
+ var lines = cart.map(function(it){ var p = byCode(it.codigo); return p ? ('• ' + it.codigo + ' · ' + p.nombre + ' — Talla US ' + it.talla + ' ×' + it.qty) : ''; }).filter(Boolean);
  var msg = 'Hola Dominus, acabo de pagar mi pedido de zapatos.\nPedido PayPal: ' + data.orderID + '\nCódigo de rastreo: ' + zapTrack + '\n' + lines.join('\n')
  + '\nTotal pagado: ' + money(t.total)
  + '\n\nEntrega: ' + (sd.nombre || nombre)
@@ -1045,7 +1048,7 @@ function shipParts(){
  try{ localStorage.setItem('dominus_zap_ultimo_pedido', JSON.stringify({ id: data.orderID, total: t.total, fecha: new Date().toISOString() })); }catch(e){}
  var capId = data.orderID;
  try{ var caps = details.purchase_units && details.purchase_units[0] && details.purchase_units[0].payments && details.purchase_units[0].payments.captures; if(caps && caps[0] && caps[0].id) capId = caps[0].id; }catch(e){}
- var detItems = cart.map(function(it){ var pp = byCode(it.codigo); return it.codigo + ' ' + pp.nombre + ' · Talla US ' + it.talla + ' ×' + it.qty; }).join('; ');
+ var detItems = cart.map(function(it){ var pp = byCode(it.codigo); return pp ? (it.codigo + ' ' + pp.nombre + ' · Talla US ' + it.talla + ' ×' + it.qty) : ''; }).filter(Boolean).join('; ');
  var detEntrega = 'Entrega: ' + (sd.nombre || nombre) + (sd.direccion ? ', ' + sd.direccion : '') + (spq.ciudad ? ', ' + spq.ciudad + (spq.depto ? ', ' + spq.depto : '') : '') + (t.esUS ? ', Estados Unidos' + (spq.zip ? ' ZIP ' + spq.zip : '') + ' · Envío EE. UU. $4.99/par' : '') + (sd.telefono ? ' · Tel: ' + sd.telefono : '');
  registrarVentaZap({ fecha_pago: new Date().toISOString(), cliente: (sd.nombre || nombre || ''), detalle: detItems + ' · Rastreo: ' + zapTrack + ' || ' + detEntrega, monto: Number(t.total), paypal_id: capId, codigo_rastreo: zapTrack });
  try{ localStorage.setItem('dominus_gracias', JSON.stringify({ tipo: 'zapatos', codigo: zapTrack, nombre: nombre, total: money(t.total), items: lines.map(function(x){ return x.replace(/^• /, ''); }), paypal: data.orderID, wa: 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg), extra: t.esUS ? 'Envío a Estados Unidos ($4.99 por par).' : 'Envío ' + (t.tipo === 'prio' ? 'Prioritario' : 'Standard') + ' · entrega estimada en ' + t.plazo + ' días hábiles. Entrega a la puerta de tu casa.' })); }catch(e){}
