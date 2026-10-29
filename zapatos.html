@@ -169,6 +169,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .login-cta-h{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
 #q-btn,#fbtn{background:#3a3a40;border-color:#3a3a40;color:#fff}
 .applyf{background:#3a3a40;color:#fff;box-shadow:none}
+.sf-bad{border-color:#d43a3a !important;background:#fdf1f1 !important}
 </style>
 
 <style>
@@ -849,6 +850,38 @@ var ZAP_PAUSADO = false;
  .catch(function(){});
  }catch(e){}
 })();
+function faltantesEnvio(sp){
+ var f = [];
+ if(!sp.nombre) f.push({ id: 'sf-nom', label: 'Nombre completo' });
+ if(!sp.telefono || !telConCodigo(sp.telefono)) f.push({ id: 'sf-tel', label: 'Teléfono con código de país' });
+ if(!sp.direccion) f.push({ id: 'sf-dir', label: 'Dirección' });
+ if(!sp.ciudad) f.push({ id: 'sf-ciu', label: 'Ciudad' });
+ if(!sp.departamento) f.push({ id: 'sf-dep', label: 'Estado/Departamento' });
+ if(envioPais() === 'US' && !sp.zip) f.push({ id: 'sf-zip', label: 'Código postal (ZIP)' });
+ return f;
+}
+function pintarFaltantes(f){
+ ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-dep','sf-zip'].forEach(function(id){
+ var el = document.getElementById(id);
+ if(el) el.classList.remove('sf-bad');
+ });
+ f.forEach(function(x){ var el = document.getElementById(x.id); if(el) el.classList.add('sf-bad'); });
+ var box = document.getElementById('sf-error');
+ if(box){
+ if(f.length){ box.style.display = 'block'; box.innerHTML = '⚠ <b>Falta completar:</b> ' + f.map(function(x){ return x.label; }).join(', ') + '.'; }
+ else { box.style.display = 'none'; box.innerHTML = ''; }
+ }
+ if(f.length){
+ var primero = document.getElementById(f[0].id);
+ if(primero) primero.scrollIntoView({ behavior: 'smooth', block: 'center' });
+ }
+}
+function actualizarGate(){
+ var g = document.getElementById('pp-gate');
+ if(!g) return;
+ if(!tieneCuenta() || ZAP_PAUSADO){ g.style.display = 'none'; return; }
+ g.style.display = faltantesEnvio(shipData()).length ? 'block' : 'none';
+}
 function paisUI(){
  var esUS = envioPais() === 'US';
  var lab = document.getElementById('sf-dep-lab'); if(lab) lab.textContent = esUS ? 'Estado' : 'Departamento';
@@ -935,6 +968,7 @@ function shipParts(){
  + '<label>Ciudad</label><input id="sf-ciu" value="'+esc(sdCiu)+'" placeholder="Ej: Estelí">'
  + '<label id="sf-dep-lab">Departamento</label><select id="sf-dep"></select>'
  + '<div id="sf-zip-wrap" style="display:none"><label>Código postal (ZIP)</label><input id="sf-zip" value="'+esc(sd.zip||'')+'" placeholder="Ej: 90210" inputmode="numeric"></div>'
+ + '<div id="sf-error" style="display:none;margin-top:12px;border:1px solid #e5b4b4;background:#fdf1f1;color:#8c2323;border-radius:12px;padding:11px 13px;font-size:.92rem"></div>'
  + '</div>'
  + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
  + (t.esUS
@@ -947,19 +981,19 @@ function shipParts(){
  + '<div class="ctotal"><span class="mut">'+(t.esUS ? 'Envío a Estados Unidos' : 'Envío '+(t.tipo==='prio'?'Prioritario':'Standard')+' ('+t.pares+' par'+(t.pares>1?'es':'')+')')+'</span><span>'+money(t.envio)+'</span></div>'
  + '<div class="ctotal"><span class="mut">Cargo por procesamiento</span><span>'+money(t.comision)+'</span></div>'
  + '<div class="ctotal grand"><span>Total</span><span>'+money(t.total)+'</span></div>'
- + '<div id="paypal-button-container" style="margin-top:8px"></div>'
+ + '<div style="position:relative;margin-top:8px"><div id="paypal-button-container"></div><div id="pp-gate" style="display:none;position:absolute;inset:0;z-index:5;cursor:pointer"></div></div>'
  + '<div id="pp-error" style="display:none;margin-top:10px;background:#fdecec;border:1px solid #e3a3a3;color:#8a1f1f;border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap"></div>'
  + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. '+(t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en '+t.plazo+' días hábiles.')+'</p>'
  + '</div>';
  body.innerHTML = html;
  ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-zip'].forEach(function(id){
- var el = document.getElementById(id); if(el) el.addEventListener('input', saveShipForm);
+ var el = document.getElementById(id); if(el) el.addEventListener('input', function(){ saveShipForm(); this.classList.remove('sf-bad'); actualizarGate(); });
  });
- var depEl = document.getElementById('sf-dep'); if(depEl){ depEl.addEventListener('change', saveShipForm); depEl.addEventListener('input', saveShipForm); }
+ var depEl = document.getElementById('sf-dep'); if(depEl){ depEl.addEventListener('change', saveShipForm); depEl.addEventListener('input', saveShipForm); depEl.addEventListener('change', function(){ this.classList.remove('sf-bad'); actualizarGate(); }); }
  var psEl = document.getElementById('sf-pais');
  if(psEl) psEl.addEventListener('change', function(){ saveShipForm(); renderCart(); });
  var codEl2 = document.getElementById('sf-cod');
- if(codEl2) codEl2.addEventListener('change', saveShipForm);
+ if(codEl2) codEl2.addEventListener('change', function(){ saveShipForm(); actualizarGate(); });
  var dpEl = document.getElementById('sf-dirpick');
  if(dpEl) dpEl.addEventListener('change', function(){
  if(this.value === '') return;
@@ -982,6 +1016,14 @@ function shipParts(){
  var pc = document.getElementById('paypal-button-container');
  if(pc) pc.innerHTML = '<div style="border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;background:var(--soft)"><b>Para comprar necesitas una cuenta de comprador.</b><br><span style="font-size:13px;color:var(--mut)">Con tu cuenta guardas tus direcciones y sigues tus pedidos.</span><br><a href="cuenta.html" style="display:inline-block;margin-top:12px;background:#2a2a2e;color:#fff;text-decoration:none;font-weight:800;padding:12px 22px;border-radius:999px">Entrar o crear mi cuenta</a></div>';
  }
+ var gate = document.getElementById('pp-gate');
+ if(gate) gate.addEventListener('click', function(){
+ saveShipForm();
+ var f = faltantesEnvio(shipData());
+ pintarFaltantes(f);
+ if(!f.length) actualizarGate();
+ });
+ actualizarGate();
  /* Si el cliente tiene cuenta Dominus con dirección guardada, se prellena el formulario de entrega */
  try{
  var sess2 = JSON.parse(localStorage.getItem('dominus_session') || 'null');
@@ -1025,23 +1067,9 @@ function shipParts(){
  style: { layout: 'vertical', color: 'silver', shape: 'pill', label: 'buynow' },
  onClick: function(data, actions){
  saveShipForm();
- var sp = shipParts();
- if(!sp.nombre || !sp.telefono || !sp.direccion || !sp.ciudad){
- alert('Completa tus datos de entrega (nombre, teléfono, dirección y ciudad) para poder enviarte el pedido.');
- return actions.reject();
- }
- if(!telConCodigo(sp.telefono)){
- alert(TEL_MSG);
- return actions.reject();
- }
- if(envioPais() === 'US' && !sp.depto){
- alert('Elige el estado de entrega en los datos de entrega.');
- return actions.reject();
- }
- if(envioPais() === 'US' && !sp.zip){
- alert('Para envíos a Estados Unidos escribe el código postal (ZIP) en los datos de entrega.');
- return actions.reject();
- }
+ var f = faltantesEnvio(shipData());
+ pintarFaltantes(f);
+ if(f.length) return actions.reject();
  return actions.resolve();
  },
  createOrder: function(data, actions){
