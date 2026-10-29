@@ -650,7 +650,6 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(!list.length){ grid.innerHTML = (curCat === 'ninos' && !state.q && !state.marca && !state.precio && !state.talla) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
  grid.innerHTML = list.map(function(p){
  return '<article class="card" data-code="'+p.codigo+'">' +
- '<button class="shareb" data-share="'+p.codigo+'" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>' +
  '<div class="ph"><img loading="lazy" src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>' +
  '<div class="bd"><div class="brand">'+esc(p.marca)+'</div>' +
  '<div class="name">'+esc(p.nombre)+'</div>' +
@@ -659,9 +658,6 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  }).join('');
  Array.prototype.forEach.call(grid.querySelectorAll('.card'), function(c){
  c.addEventListener('click', function(){ openDetail(c.getAttribute('data-code')); });
- });
- Array.prototype.forEach.call(grid.querySelectorAll('.shareb'), function(b){
- b.addEventListener('click', function(e){ e.stopPropagation(); shareZap(b.getAttribute('data-share')); });
  });
  }
  function zapLink(code){ return new URL('?p=' + encodeURIComponent(code), location.href).href; }

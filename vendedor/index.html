@@ -452,7 +452,6 @@ function prodCardHTML(p, own){
     + '<div class="card-body"><div class="card-title">' + esc(p.titulo) + '</div></a>'
     + '<div class="card-price">' + money(p.precio) + '</div>'
     + '<a class="buy" href="../producto/?id=' + p.id + '">Ver</a>'
-    + '<button class="shareb" data-share="' + p.id + '" data-titulo="' + esc(p.titulo) + '" data-precio="' + p.precio + '" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>'
     + '</div></div>';
 }
 function renderWallProducts(prods, own){
