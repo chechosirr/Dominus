@@ -334,6 +334,26 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   .cat-name{color:#17171a;font-size:1.5rem;letter-spacing:.01em}
 }
 </style>
+
+<style>
+/* ===== Tres escaparates en fila + parrilla de 5 columnas (solo escritorio) ===== */
+.showrow{display:none}
+@media (min-width:1024px){
+  .layout{display:block}
+  main{grid-column:auto;min-width:0}
+  .showrow{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-bottom:26px;will-change:opacity,transform}
+  .scbox{border:1px solid var(--bord);border-radius:18px;overflow:hidden;background:#fff;cursor:pointer}
+  .scbox .sc-ph{background:#fff}
+  .scbox .sc-ph img{width:100%;height:min(32vh,380px);object-fit:contain;padding:16px;box-sizing:border-box;display:block;transition:opacity .45s ease}
+  .scbox.fading .sc-ph img{opacity:0}
+  .scbox .sc-cap{padding:14px 18px 4px}
+  .scbox .sc-name{font-size:1.08rem}
+  .scbox .sc-price{font-size:1.3rem}
+  .scbox .sc-dots{padding:10px 18px 16px}
+  #grid{grid-template-columns:repeat(5,1fr);gap:16px}
+  #grid2{display:none!important}
+}
+</style>
 </head>
 <body>
 <header class="top">
@@ -378,7 +398,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <p style="font-size:.9rem;color:#55555c;margin:0 0 10px">Zapatos nuevos provenientes de Estados Unidos</p>
 
  <div class="layout">
- <div class="showcase" id="showcase" title="Ver este producto"></div>
+ <div class="showrow" id="showrow"><div class="scbox" title="Ver este producto"></div><div class="scbox" title="Ver este producto"></div><div class="scbox" title="Ver este producto"></div></div>
  <aside class="filters" id="filters">
  <h3>Marca</h3>
  <select class="fsel" id="f-marca"></select>
@@ -1013,50 +1033,57 @@ function doLogout(){
 </script>
 
 <script>
-/* Escaparate de escritorio: fotos grandes que rotan solas (solo >=1024px).
-   Se alimenta de las tarjetas visibles de la parrilla; no depende del script principal. */
+/* Tres escaparates de escritorio en fila (solo >=1024px): rotan solos cada 8s
+   y se desvanecen al bajar la página. Se alimentan de las tarjetas de la parrilla. */
 (function(){
-  var box = document.getElementById('showcase');
+  var row = document.getElementById('showrow');
   var grid = document.getElementById('grid');
-  if(!box || !grid) return;
-  var slides = [], idx = 0, timer = null;
+  if(!row || !grid) return;
+  var boxes = Array.prototype.slice.call(row.querySelectorAll('.scbox'));
+  var pools = [[], [], []], pos = [0, 0, 0], timer = null;
   function mq(){ return window.matchMedia('(min-width:1024px)').matches; }
-  function paint(){
-    if(!slides.length){ box.style.display = 'none'; return; }
+  function paint(b){
+    var pool = pools[b], box = boxes[b];
+    if(!pool.length){ box.style.display = 'none'; return; }
     box.style.display = '';
-    var p = slides[idx];
+    var p = pool[pos[b] % pool.length];
     box.innerHTML = '<div class="sc-ph"><img src="'+p.img+'" alt=""></div>'
       + '<div class="sc-cap"><div class="sc-brand">'+p.brand+'</div>'
       + '<div class="sc-name">'+p.name+'</div>'
       + '<div class="sc-price">'+p.price+'<small>'+p.pricec+'</small></div></div>'
-      + '<div class="sc-dots">'+slides.map(function(_, i){ return '<i class="'+(i===idx?'on':'')+'"></i>'; }).join('')+'</div>';
+      + '<div class="sc-dots">'+pool.map(function(_, i){ return '<i class="'+(i===(pos[b]%pool.length)?'on':'')+'"></i>'; }).join('')+'</div>';
     box.onclick = function(){
       var card = grid.querySelector('.card[data-code="'+p.code+'"]');
       if(card) card.click();
     };
   }
-  var fadeTO = null;
-  function tick(){
-    if(!slides.length || !mq() || document.hidden) return;
+  var fadeTOs = [null, null, null];
+  function tickBox(b){
+    var pool = pools[b]; if(!pool.length) return;
+    var box = boxes[b];
     box.classList.add('fading');
-    fadeTO = setTimeout(function(){
-      idx = (idx + 1) % slides.length;
-      paint();
+    fadeTOs[b] = setTimeout(function(){
+      pos[b] = (pos[b] + 1) % pool.length;
+      paint(b);
       box.classList.remove('fading');
     }, 460);
   }
-  box.addEventListener('mousedown', function(){
-    if(timer){ clearInterval(timer); timer = null; }
-    if(fadeTO){ clearTimeout(fadeTO); fadeTO = null; }
-    box.classList.remove('fading');
+  function tick(){
+    if(!mq() || document.hidden) return;
+    for(var b = 0; b < 3; b++) tickBox(b);
+  }
+  boxes.forEach(function(box, b){
+    box.addEventListener('mousedown', function(){
+      if(fadeTOs[b]){ clearTimeout(fadeTOs[b]); fadeTOs[b] = null; }
+      box.classList.remove('fading');
+    });
   });
   function build(){
-    if(!mq()){ slides = []; box.style.display = 'none'; return; }
+    if(!mq()){ pools = [[], [], []]; boxes.forEach(function(box){ box.style.display = 'none'; }); return; }
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
-    if(grid2) cards = cards.concat(Array.prototype.slice.call(grid2.querySelectorAll('.card')));
-    if(!cards.length){ slides = []; paint(); return; }
-    var step = Math.max(1, Math.floor(cards.length / 12));
-    slides = cards.filter(function(_, i){ return i % step === 0; }).slice(0, 12).map(function(c){
+    if(!cards.length){ pools = [[], [], []]; boxes.forEach(function(_, b){ paint(b); }); return; }
+    var step = Math.max(1, Math.floor(cards.length / 24));
+    var picks = cards.filter(function(_, i){ return i % step === 0; }).slice(0, 24).map(function(c){
       var pr = c.querySelector('.price');
       var first = pr && pr.childNodes[0] ? pr.childNodes[0].textContent.trim() : '';
       var small = pr && pr.querySelector('small') ? pr.querySelector('small').textContent.split('·')[0].trim() : '';
@@ -1066,25 +1093,38 @@ function doLogout(){
         name: c.querySelector('.name') ? c.querySelector('.name').innerHTML : '',
         price: first, pricec: small };
     });
-    idx = 0;
-    paint();
-    slides.forEach(function(p){ var im = new Image(); im.src = p.img; });
+    for(var b = 0; b < 3; b++){
+      pools[b] = picks.filter(function(_, i){ return i % 3 === b; });
+      pos[b] = 0;
+      paint(b);
+      pools[b].forEach(function(p){ var im = new Image(); im.src = p.img; });
+    }
   }
   var grid2 = document.getElementById('grid2');
-  var splitMark = null;
   function split(){
     if(grid2 && grid2.children.length){ while(grid2.firstChild) grid.appendChild(grid2.firstChild); }
-    splitMark = null;
   }
   var deb = null;
   function sync(){ clearTimeout(deb); deb = setTimeout(function(){ split(); build(); }, 350); }
   var obs = new MutationObserver(sync);
   obs.observe(grid, { childList: true });
-  box.addEventListener('mouseenter', function(){ if(timer){ clearInterval(timer); timer = null; } });
-  box.addEventListener('mouseleave', function(){ if(!timer) timer = setInterval(tick, 8000); });
+  row.addEventListener('mouseenter', function(){ if(timer){ clearInterval(timer); timer = null; } });
+  row.addEventListener('mouseleave', function(){ if(!timer) timer = setInterval(tick, 8000); });
   timer = setInterval(tick, 8000);
-  window.addEventListener('resize', sync);
-  setTimeout(build, 300);
+  /* Al bajar la página, los escaparates se van desvaneciendo hasta desaparecer */
+  var ticking = false;
+  function fade(){
+    ticking = false;
+    if(!mq()){ row.style.opacity = ''; row.style.transform = ''; row.style.pointerEvents = ''; row.style.visibility = ''; return; }
+    var p = Math.min(1, Math.max(0, window.scrollY / 280));
+    row.style.opacity = String(1 - p);
+    row.style.transform = 'translateY(' + (-26 * p) + 'px) scale(' + (1 - 0.02 * p) + ')';
+    row.style.pointerEvents = p > 0.6 ? 'none' : '';
+    row.style.visibility = p >= 1 ? 'hidden' : '';
+  }
+  window.addEventListener('scroll', function(){ if(!ticking){ ticking = true; requestAnimationFrame(fade); } }, { passive: true });
+  window.addEventListener('resize', function(){ sync(); fade(); });
+  setTimeout(function(){ build(); fade(); }, 300);
 })();
 </script>
 </body>
