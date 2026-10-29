@@ -357,6 +357,16 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   #grid2{display:none!important}
 }
 </style>
+
+<style>
+/* ===== Clases en escritorio: paneles tipo cuadro grandes, en dos filas, minimalistas y blancos ===== */
+@media (min-width:900px){
+  #catview{max-width:1440px}
+  .cat-grid{grid-template-columns:1fr 1fr;max-width:1440px;grid-auto-rows:clamp(250px,36vh,430px);gap:clamp(16px,2.4vw,28px)}
+  .cat-card[data-cat="ninos"]{grid-column:1/-1}
+  .cat-card::before{width:clamp(84px,16.5vh,150px);height:clamp(84px,16.5vh,150px)}
+}
+</style>
 </head>
 <body>
 <header class="top">
