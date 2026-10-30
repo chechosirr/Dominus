@@ -3003,27 +3003,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-200",
-  "marca": "adidas",
-  "nombre": "adidas Grand Court 2.0 Aurora Ink / Grey Six / Cloud White",
-  "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/6ca1023d63e24d9bbf09544ac0c2d66a.jpg?v=1744982412"
-  ],
-  "descripcion": "Tenis de cancha en un tono azul tinta con grises y blanco, de líneas limpias y espíritu retro. Comodidad acolchada para llevarlos a todas partes.",
-  "detalles": [
-   "3-Stripes clásicas a los costados",
-   "Amortiguación Cloudfoam Comfort",
-   "Parte superior con al menos 50% de contenido reciclado",
-   "Suela de goma de perfil bajo"
-  ],
-  "tallas": [
-   "13"
-  ]
- },
- {
   "codigo": "DOM-201",
   "marca": "Nike",
   "nombre": "Nike Offcourt — Dark Grey / Black / White",
@@ -3920,8 +3899,8 @@ var ZAPATOS = [
   "marca": "Carter's",
   "nombre": "Carter's Casual Shoes White / Grey (Niños)",
   "genero": "Niños",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 29.0,
+  "precio_c": 1066,
   "fotos": [
    "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw7f016a9b/productimages/CF25F19H.jpg?sw=1200",
    "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw7dc75176/productimages/CF25F19H_1.jpg?sw=1200",
@@ -4066,8 +4045,8 @@ var ZAPATOS = [
   "marca": "OshKosh B'gosh",
   "nombre": "OshKosh B'gosh High Top Sneakers Brown (Niños)",
   "genero": "Niños",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 33.0,
+  "precio_c": 1214,
   "fotos": [
    "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwb4f92f16/productimages/OF26B15H.jpg?sw=1200",
    "https://dw.cartersstorefront.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw41b8582c/productimages/OF26B15H_1.jpg?sw=1200",
@@ -8488,8 +8467,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Waterproof Bounder 2.0 Aqua Pace (Little Kid) - Navy/Blue",
   "genero": "Niños",
-  "precio": 44.94,
-  "precio_c": 1653,
+  "precio": 10.0,
+  "precio_c": 368,
   "fotos": [
    "https://images.skechers.com/image;width=88%2Cformat=auto/406341_NVBL_HERO_LG",
    "https://images.skechers.com/image;width=88%2Cformat=auto/406341_NVBL_PROFILE_01",
@@ -9042,8 +9021,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Grand Court 3.0 Junior (Big Kid) — Blanco/Rosa Rubor/Goma",
   "genero": "Niños",
-  "precio": 50.06,
-  "precio_c": 1841,
+  "precio": 54.0,
+  "precio_c": 1986,
   "fotos": [
    "https://m.media-amazon.com/images/I/61iMFbzMzvL.jpg",
    "https://m.media-amazon.com/images/I/61OqSPRsE+L.jpg",
@@ -10980,8 +10959,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Attacanto II Indoor Trainer Soccer Shoes — Black/White",
   "genero": "Hombre",
-  "precio": 50.5,
-  "precio_c": 1857,
+  "precio": 53.44,
+  "precio_c": 1965,
   "fotos": [
    "https://m.media-amazon.com/images/I/715VP0RFIFL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/715VP0RFIFL._SX700_.jpg",
@@ -14643,8 +14622,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Disney Run 70s 2.0 (Little Kid) — White/Black/Grey",
   "genero": "Niños",
-  "precio": 42.97,
-  "precio_c": 1580,
+  "precio": 42.0,
+  "precio_c": 1545,
   "fotos": [
    "https://m.media-amazon.com/images/I/61pfHI43zFL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/61DoswtC-ML._AC_SLundefined__FMwebp_.jpg",
@@ -14759,8 +14738,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Surge 5 Alternate Closure (Little Kid) — Grey/Pink Frenzy",
   "genero": "Niños",
-  "precio": 50.3,
-  "precio_c": 1850,
+  "precio": 50.39,
+  "precio_c": 1853,
   "fotos": [
    "https://m.media-amazon.com/images/I/81Gm0vvAUdL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81fQj+E8zoL._AC_SLundefined__FMwebp_.jpg",
@@ -14788,8 +14767,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Sola Glow 2.0 Dazzle Steps (Little Kid) — Pink/Lavender",
   "genero": "Niños",
-  "precio": 50.39,
-  "precio_c": 1853,
+  "precio": 50.36,
+  "precio_c": 1852,
   "fotos": [
    "https://m.media-amazon.com/images/I/71iNeiAFNmL._AC_SLundefined__FMwebp_.jpg",
    "https://m.media-amazon.com/images/I/81KES1G4sZL._AC_SLundefined__FMwebp_.jpg",
@@ -15553,8 +15532,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Breaknet Sleek (Big Kid) — White/Black/Orange Tint",
   "genero": "Niños",
-  "precio": 43.31,
-  "precio_c": 1593,
+  "precio": 43.61,
+  "precio_c": 1604,
   "fotos": [
    "https://m.media-amazon.com/images/I/5102reem7IL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61mMbtlPo1L._SX700_.jpg",
@@ -16581,8 +16560,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Rebound Retro Sneakers — Blue",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40021404_1l.jpg?v=1788533067",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40021404_2l.jpg?v=1788533068",
@@ -16846,8 +16825,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Adelina 2 Slip On Sneakers — Pink",
   "genero": "Mujer",
-  "precio": 42.95,
-  "precio_c": 1579,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40023608_1l.jpg?v=1792719740",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40023608_2l.jpg?v=1792719740",
@@ -16997,8 +16976,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Vikky Star Suede Sneakers — Purple",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40350710_1l.jpg?v=1792785035",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40350710_2l.jpg?v=1792785035",
@@ -17029,8 +17008,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Bella Donna SD Sneakers — Pink",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40267307_1l.jpg?v=1792842037",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40267307_2l.jpg?v=1792842037",
@@ -17845,8 +17824,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma ATTACANTO II Soccer Cleats — Puma Black / Puma White",
   "genero": "Hombre",
-  "precio": 42.99,
-  "precio_c": 1581,
+  "precio": 38.99,
+  "precio_c": 1434,
   "fotos": [
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108495/01/sv01/fnd/PNA/fmt/png/ATTACANTO-II-Men's-Soccer-Cleats",
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108495/01/fnd/PNA/fmt/png/ATTACANTO-II-Men's-Soccer-Cleats",
@@ -18084,8 +18063,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Weave Zip Training Shoes — Puma Black / Puma Black",
   "genero": "Mujer",
-  "precio": 42.99,
-  "precio_c": 1581,
+  "precio": 38.99,
+  "precio_c": 1434,
   "fotos": [
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/193923/02/sv01/fnd/PNA/fmt/png/Weave-Zip-Women's-Training-Shoes",
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/193923/02/fnd/PNA/fmt/png/Weave-Zip-Women's-Training-Shoes",
@@ -18189,8 +18168,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Serve Pro Lite Sneakers — Puma White / Puma White / Puma Silver / Gray Violet",
   "genero": "Mujer",
-  "precio": 47.99,
-  "precio_c": 1765,
+  "precio": 44.99,
+  "precio_c": 1654,
   "fotos": [
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397411/01/sv01/fnd/PNA/fmt/png/Serve-Pro-Lite-Women's-Sneakers",
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397411/01/mod03/fnd/PNA/fmt/png/Serve-Pro-Lite-Women's-Sneakers",
@@ -18717,32 +18696,6 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5"
-  ]
- },
- {
-  "codigo": "DOM-945",
-  "marca": "Reebok",
-  "nombre": "Reebok Club C Crib Shoes — White / White / White (Toddler)",
-  "genero": "Niños",
-  "precio": 44.94,
-  "precio_c": 1653,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_SLC_eCom.jpg?v=1764595210",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_TPP_eCom.jpg?v=1764595210",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_FLT_eCom.jpg?v=1764595210",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100226635_BLT_eCom.jpg?v=1764595210"
-  ],
-  "descripcion": "Zapatitos de cuna estilo Club C para bebés, suaves y ligeros, con el look clásico de Reebok en miniatura.",
-  "detalles": [
-   "Estilo Club C para bebé",
-   "Suela suave de cuna",
-   "Parte superior blanda",
-   "Segmento Toddler (cuna)"
-  ],
-  "tallas": [
-   "1",
-   "2",
-   "3"
   ]
  },
  {
@@ -19658,35 +19611,6 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
- },
- {
-  "codigo": "DOM-984",
-  "marca": "Jordan",
-  "nombre": "Jordan 6 Rings Sneaker — White/Cool Grey (Toddler)",
-  "genero": "Niños",
-  "precio": 56.97,
-  "precio_c": 2095,
-  "fotos": [
-   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_right",
-   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_right1",
-   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_main1",
-   "https://classic.cdn.media.amplience.net/i/hibbett/E4751_1225_main2"
-  ],
-  "descripcion": "El 6 Rings de Jordan en blanco y Cool Grey para niños pequeños, el homenaje a los seis campeonatos de MJ en versión mini.",
-  "detalles": [
-   "Diseño inspirado en los Air Jordan clásicos",
-   "Parte superior duradera para niños",
-   "Suela de goma con tracción",
-   "Silueta alta con soporte"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10"
   ]
  },
  {
@@ -23328,8 +23252,8 @@ var ZAPATOS = [
   "marca": "Brooks",
   "nombre": "Brooks Ghost Max 3 — Primer Grey/Ebony",
   "genero": "Hombre",
-  "precio": 100.35,
-  "precio_c": 3690,
+  "precio": 100.56,
+  "precio_c": 3698,
   "fotos": [
    "https://m.media-amazon.com/images/I/71juGVrWFIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71hkNJYuUQL._SX700_.jpg",
@@ -23466,8 +23390,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma RS-X Hyper Prep Fall — Chili Oil/Fierce Red/PUMA Black",
   "genero": "Hombre",
-  "precio": 74.99,
-  "precio_c": 2758,
+  "precio": 76.99,
+  "precio_c": 2831,
   "fotos": [
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/405734/02/sv01/fnd/PNA/fmt/png/RS-X-Hyper-Prep-Fall-Sneakers",
    "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/405734/02/mod01/fnd/PNA/fmt/png/RS-X-Hyper-Prep-Fall-Sneakers",
@@ -24237,8 +24161,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Palermo NYC Flagship — White",
   "genero": "Hombre",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40268901_1l.jpg?v=1792771867",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40268901_2l.jpg?v=1792771867",
@@ -25133,8 +25057,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield Volo 4 Running Shoes — Blue/Grey",
   "genero": "Mujer",
-  "precio": 58.95,
-  "precio_c": 2168,
+  "precio": 53.95,
+  "precio_c": 1984,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180251-D0897_1l.jpg?v=1792863566",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180251-D0897_2l.jpg?v=1792863566",
@@ -26173,8 +26097,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance Fresh Foam X More v6 Women's Stone Pink/Rosewood",
   "genero": "Mujer",
-  "precio": 169.95,
-  "precio_c": 6250,
+  "precio": 134.95,
+  "precio_c": 4963,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/2006/8755/files/044487_3.jpg?v=1772738074",
    "https://cdn.shopify.com/s/files/1/2006/8755/files/044487_1.jpg?v=1772738074",
@@ -28105,8 +28029,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike S.T. Dynamite (Grade School) — Black",
   "genero": "Niños",
-  "precio": 74.95,
-  "precio_c": 2756,
+  "precio": 70.0,
+  "precio_c": 2574,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH2308-004.jpg?v=1792602940",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH2308-004_GS-2.jpg?v=1792602945"
@@ -30844,6 +30768,89 @@ var ZAPATOS = [
    "10.5",
    "13",
    "15"
+  ]
+ },
+ {
+  "codigo": "DOM-1333",
+  "marca": "Vans",
+  "nombre": "Vans Premium Old Skool Skate Shoe - Racing Red",
+  "genero": "Hombre",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_895131_ZM.JPG"
+  ],
+  "descripcion": "El clásico Old Skool de Vans en versión Premium: parte superior de cuero resistente con SideStripe, plantilla Sola Foam y suela vulcanizada con el dibujo waffle de siempre.",
+  "detalles": [
+   "Parte superior de cuero durable",
+   "SideStripe con encaje",
+   "Plantilla removible Sola Foam ADC",
+   "Suela vulcanizada con tracción waffle"
+  ],
+  "tallas": [
+   "Mens 3.5/Womens 5",
+   "Mens 4/Womens 5.5",
+   "Mens 4.5/Womens 6",
+   "Mens 5/Womens 6.5",
+   "Mens 5.5/Womens 7",
+   "Mens 6/Womens 7.5",
+   "Mens 8.5/Womens 10"
+  ]
+ },
+ {
+  "codigo": "DOM-1334",
+  "marca": "Kamik",
+  "nombre": "Kamik Kids Seaturtle 2 (Toddler/Little Kid) — Light Gray",
+  "genero": "Niños",
+  "precio": 49.99,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71-1e6W+joL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71J9jSJuKDL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71teCP5CJZL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71eNF9-MQ3L._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia acuática infantil ligera y de secado rápido, ideal para juegos en agua y uso diario en verano.",
+  "detalles": [
+   "Parte superior sintética tramada con acabado repelente al agua",
+   "Triple cierre de gancho y bucle para un ajuste seguro",
+   "Puntera protectora de goma y forro sintético de secado rápido",
+   "Suela de goma durable con agarre para superficies mojadas"
+  ],
+  "tallas": [
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-1335",
+  "marca": "PUMA",
+  "nombre": "PUMA Easy Rider Sneakers (Youth) — Pink/Purple",
+  "genero": "Niños",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39971819_1l.jpg?v=1792735294",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39971819_2l.jpg?v=1792735293",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39971819_3l.jpg?v=1792735294",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39971819_4l.jpg?v=1792735294"
+  ],
+  "descripcion": "Tenis retro de correr para niñas pequeñas, con perfil clásico delgado y cierre fácil sin agujetas.",
+  "detalles": [
+   "Parte superior textil con refuerzos de gamuza en puntera, talón y empeine",
+   "Cierre de gancho y bucle, fácil de poner",
+   "Entresuela EVA",
+   "Reedición del modelo de running PUMA de finales de los 70"
+  ],
+  "tallas": [
+   "4",
+   "5.5",
+   "6",
+   "7",
+   "9"
   ]
  }
 ];

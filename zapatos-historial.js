@@ -1929,6 +1929,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Reebok NFX Trainer 2 Training Shoes — Chalk / Hazy Teal / Midnight Tide"
  },
  {
+  "codigo": "DOM-945",
+  "nombre": "Reebok Club C Crib Shoes — White / White / White (Toddler)"
+ },
+ {
   "codigo": "DOM-946",
   "nombre": "Reebok Zig Dynamica 6 Running Shoes — Dark Indigo / Midnight Tide / New Grey 1 (Little Kid)"
  },
@@ -1955,5 +1959,9 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-980",
   "nombre": "Converse Chuck Taylor All Star Sneaker — Pink Glitter (Toddler)"
+ },
+ {
+  "codigo": "DOM-984",
+  "nombre": "Jordan 6 Rings Sneaker — White/Cool Grey (Toddler)"
  }
 ];
