@@ -1745,6 +1745,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Mocasín plano con herraje de bocado - Blanco hueso"
  },
  {
+  "codigo": "DOM-1311",
+  "nombre": "Hey Dude Wally Funk Multi Mesh (Men) - Black/Smoke Grey"
+ },
+ {
   "codigo": "DOM-1313",
   "nombre": "Nike Court Shot (Men) - Dark Hazel/Phantom/Velvet Brown"
  },
@@ -2425,6 +2429,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Vans Old Skool (Men) - Nineties Brown/Purple"
  },
  {
+  "codigo": "DOM-298",
+  "nombre": "Converse Chuck Taylor All Star Low-Top (Men) - Blue Supermoon"
+ },
+ {
   "codigo": "DOM-300",
   "nombre": "Nike Court Shot (Men) - Dark Hazel/Phantom/Velvet Brown"
  },
@@ -2747,6 +2755,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-401",
   "nombre": "PUMA Foreverrun Nitro 2 Silver Mist/Apple Spritz"
+ },
+ {
+  "codigo": "DOM-402",
+  "nombre": "adidas Streettalk White/Cyber Metallic/White"
  },
  {
   "codigo": "DOM-403",

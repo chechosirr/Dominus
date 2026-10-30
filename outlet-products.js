@@ -634,8 +634,8 @@ var ZAPATOS = [
   "marca": "LifeStride",
   "nombre": "Botín LifeStride Dazzle Negro",
   "genero": "Mujer",
-  "precio": 98.46,
-  "precio_c": 3621,
+  "precio": 100.13,
+  "precio_c": 3682,
   "fotos": [
    "https://m.media-amazon.com/images/I/71bh6nsxvBL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71nuSEI-cpL._AC_SR768,1024_.jpg",
@@ -680,33 +680,6 @@ var ZAPATOS = [
   "tallas": [
    "10",
    "11"
-  ]
- },
- {
-  "codigo": "DOM-219",
-  "marca": "Nike",
-  "nombre": "Sandalia Nike Calm Rosa Empolvado",
-  "genero": "Mujer",
-  "precio": 28.95,
-  "precio_c": 1065,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/51PedHjinQL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/6131X4F6cuL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/611C1Zy0w7L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/51b9e9cmJlL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "La sandalia slide de Nike en rosa empolvado, hecha de una sola pieza de espuma suave que abraza el pie. Minimalista, cómoda para la casa, la piscina o salidas rápidas, con o sin calcetines.",
-  "detalles": [
-   "Espuma suave y con soporte en una sola pieza",
-   "Plantilla con textura que mantiene el pie en su sitio",
-   "Diseño contorneado sin costuras",
-   "Suela de goma con tracción incluso en superficies mojadas"
-  ],
-  "tallas": [
-   "9",
-   "10",
-   "11",
-   "12"
   ]
  },
  {
@@ -774,8 +747,8 @@ var ZAPATOS = [
   "marca": "Merrell",
   "nombre": "Merrell Hydro Moc Lilac/Peach (Niños)",
   "genero": "Niños",
-  "precio": 45.45,
-  "precio_c": 1671,
+  "precio": 58.95,
+  "precio_c": 2168,
   "fotos": [
    "https://m.media-amazon.com/images/I/71pRXBEdmjL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71I--TOjn9L._AC_SR768,1024_.jpg",
@@ -983,8 +956,8 @@ var ZAPATOS = [
   "marca": "Shaq",
   "nombre": "Shaq Devastator 3.1 Red (Niños)",
   "genero": "Niños",
-  "precio": 53.94,
-  "precio_c": 1984,
+  "precio": 45.19,
+  "precio_c": 1662,
   "fotos": [
    "https://media.kohlsimg.com/is/image/kohls/8220701_Red?wid=600&hei=600&op_sharpen=1"
   ],
@@ -1133,43 +1106,6 @@ var ZAPATOS = [
   "tallas": [
    11,
    12
-  ]
- },
- {
-  "codigo": "DOM-298",
-  "marca": "Converse",
-  "nombre": "Converse Chuck Taylor All Star Low-Top (Men) - Blue Supermoon",
-  "genero": "Unisex",
-  "precio": 43.95,
-  "precio_c": 1616,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61wDkBoA0QL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71uYKfPGHLL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/713WfkbBTEL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61ZODAzZ51L._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Chuck Taylor bajos en lona azul con la silueta icónica de siempre. Un básico versátil para atuendos casuales y de skate.",
-  "detalles": [
-   "Parte superior de lona gruesa y durable",
-   "Plantilla acolchada OrthoLite",
-   "Suela de goma clásica",
-   "Diseño bajo con cordones en contraste"
-  ],
-  "tallas": [
-   6,
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11"
   ]
  },
  {
@@ -1893,40 +1829,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-402",
-  "marca": "adidas",
-  "nombre": "adidas Streettalk White/Cyber Metallic/White",
-  "genero": "Mujer",
-  "precio": 40.45,
-  "precio_c": 1488,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61bgA16XGoL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61xP7CA2y3L._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis casuales blancos con detalles metálicos, de perfil bajo y materiales fáciles de mantener, ideales para el uso diario.",
-  "detalles": [
-   "Parte superior sintética resistente",
-   "Forro y plantilla de goma para mayor comodidad",
-   "Suela de goma natural",
-   "Cierre con agujetas para ajuste seguro"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11"
-  ]
- },
- {
   "codigo": "DOM-406",
   "marca": "Allbirds",
   "nombre": "Allbirds Courier Blizzard/Light Grey (Natural White)",
@@ -2032,8 +1934,8 @@ var ZAPATOS = [
   "marca": "victoria",
   "nombre": "victoria Seul Suede Colors Rojo",
   "genero": "Mujer",
-  "precio": 49.2,
-  "precio_c": 1809,
+  "precio": 42.95,
+  "precio_c": 1579,
   "fotos": [
    "https://m.media-amazon.com/images/I/71FICROwl2L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81G5XLzocHL._AC_SR768,1024_.jpg",
@@ -2880,8 +2782,8 @@ var ZAPATOS = [
   "marca": "Bearpaw",
   "nombre": "Bearpaw Super Shorty Deco Bota con Plataforma (Women) — Iced Coffee",
   "genero": "Mujer",
-  "precio": 30.94,
-  "precio_c": 1138,
+  "precio": 35.19,
+  "precio_c": 1294,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NmItIlcuL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71BAi-BT0ML._AC_SR768,1024_.jpg"
@@ -3232,8 +3134,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Ultra Play (Toddler/Little Kid) - Puma Red/Puma Black/Puma White",
   "genero": "Niños",
-  "precio": 70.47,
-  "precio_c": 2591,
+  "precio": 71.08,
+  "precio_c": 2614,
   "fotos": [
    "https://m.media-amazon.com/images/I/71uERa7CuhL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71RiRDrnybL._AC_SR768,1024_.jpg",
@@ -3692,8 +3594,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas x Disney Aladdin Grand Court 3.0 (Toddler) - Mint Ton/Gold Metallic/Wonder Quartz",
   "genero": "Niños",
-  "precio": 43.35,
-  "precio_c": 1594,
+  "precio": 41.25,
+  "precio_c": 1517,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Zur2YwVHL._AC_SR768,1024_.jpg"
   ],
@@ -4283,8 +4185,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Calm 2.0 Slides (Big Kid) — Rosa Suave",
   "genero": "Niños",
-  "precio": 43.92,
-  "precio_c": 1615,
+  "precio": 43.95,
+  "precio_c": 1616,
   "fotos": [
    "https://m.media-amazon.com/images/I/61L0ehMrA-L.jpg",
    "https://m.media-amazon.com/images/I/61N9u768fsL.jpg",
@@ -4495,29 +4397,6 @@ var ZAPATOS = [
   "tallas": [
    "9",
    "11.5",
-   "12"
-  ]
- },
- {
-  "codigo": "DOM-1311",
-  "marca": "Hey Dude",
-  "nombre": "Hey Dude Wally Funk Multi Mesh (Men) - Black/Smoke Grey",
-  "genero": "Hombre",
-  "precio": 46.44,
-  "precio_c": 1708,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71LwGd6v5dL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71Bom8glZpL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/717+ETqAOzL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71eF6UvsgtL._AC_SR920,736_.jpg"
-  ],
-  "descripcion": "Modelo original de Hey Dude, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
    "12"
   ]
  },
@@ -30127,6 +30006,106 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3"
+  ]
+ },
+ {
+  "codigo": "DOM-2171",
+  "marca": "Propet",
+  "nombre": "Propet B10 Unite Índigo",
+  "genero": "Mujer",
+  "precio": 45.43,
+  "precio_c": 1671,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71AQ0AprrjL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71YKy6Ty5IL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71hQOx62unL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/511B7a5kdcL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Tenis Propet B10 Unite para mujer en color índigo, cómodo para uso diario.",
+  "detalles": [
+   "Producto original",
+   "Página verificada en vivo el 30-oct-2026"
+  ],
+  "tallas": [
+   "5",
+   "5.5"
+  ]
+ },
+ {
+  "codigo": "DOM-2172",
+  "marca": "New Balance",
+  "nombre": "New Balance Fresh Foam Sport Negro/Goma",
+  "genero": "Mujer",
+  "precio": 46.95,
+  "precio_c": 1727,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71SAI+EiJnL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71+g91TpEsL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71XqYjuexIL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71SnQXn730L._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Tenis New Balance Fresh Foam Sport para mujer en negro con suela de goma, amortiguación cómoda para el día a día.",
+  "detalles": [
+   "Producto original",
+   "Página verificada en vivo el 30-oct-2026"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-2173",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool - Color Theory Deep Indigo",
+  "genero": "Unisex",
+  "precio": 48.92,
+  "precio_c": 1799,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71jvTF2G1yL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71I6MMq4d-L._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/714FRreoUQL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71qi7bvmvtL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Clásico Vans Old Skool unisex en índigo profundo, perfil bajo y suela waffle característica.",
+  "detalles": [
+   "Producto original",
+   "Página verificada en vivo el 30-oct-2026"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "8",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-2174",
+  "marca": "Propet",
+  "nombre": "Propet Easton Black (Men)",
+  "genero": "Hombre",
+  "precio": 36.43,
+  "precio_c": 1340,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61i5UmnxpML._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61R5yyrKLoL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71L70XchwiL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/61H6bVseOrL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Zapato Propet Easton para hombre en negro, cómodo y resistente para uso diario.",
+  "detalles": [
+   "Producto original",
+   "Página verificada en vivo el 30-oct-2026"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
   ]
  }
 ];
