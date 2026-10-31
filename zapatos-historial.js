@@ -1997,6 +1997,10 @@ var ZAP_HISTORIAL = [
   "nombre": "HOKA Ora Luxe Black/Black"
  },
  {
+  "codigo": "DOM-1884",
+  "nombre": "Jordan Air Jordan 1 Retro Low OG 'Chicago' Toddler"
+ },
+ {
   "codigo": "DOM-189",
   "nombre": "Nike Victori One Slides Black/White/Black"
  },

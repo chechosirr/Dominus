@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "31 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -3991,8 +3991,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Run Falcon 6 (Little Kid/Big Kid) — St Tropic Bloom/Plateado Metálico/Lucid Pink",
   "genero": "Niños",
-  "precio": 59.08,
-  "precio_c": 2173,
+  "precio": 51.67,
+  "precio_c": 1900,
   "fotos": [
    "https://m.media-amazon.com/images/I/71FX79owe+L.jpg",
    "https://m.media-amazon.com/images/I/71OhCp04fTL.jpg",
@@ -5138,8 +5138,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike G.T. Future — Black",
   "genero": "Hombre",
-  "precio": 210.0,
-  "precio_c": 7723,
+  "precio": 220.0,
+  "precio_c": 8090,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_FZ5590_20004_M092.jpg?v=1793035955",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_FZ5590_20004_M094.jpg?v=1793035955",
@@ -6657,8 +6657,8 @@ var ZAPATOS = [
   "marca": "Calvin Klein",
   "nombre": "Calvin Klein Elon — Black",
   "genero": "Hombre",
-  "precio": 49.97,
-  "precio_c": 1838,
+  "precio": 47.35,
+  "precio_c": 1741,
   "fotos": [
    "https://m.media-amazon.com/images/I/616ws79RJqL._AC_SR768,1024_.jpg"
   ],
@@ -7431,8 +7431,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Air Monarch IV — Black/Black",
   "genero": "Hombre",
-  "precio": 84.97,
-  "precio_c": 3125,
+  "precio": 84.2,
+  "precio_c": 3096,
   "fotos": [
    "https://m.media-amazon.com/images/I/71s97FuazIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71Quln0940L._SX700_.jpg",
@@ -8879,8 +8879,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Respected Holmgren Hands Free Slip-Ins — Charcoal",
   "genero": "Hombre",
-  "precio": 69.98,
-  "precio_c": 2573,
+  "precio": 82.0,
+  "precio_c": 3015,
   "fotos": [
    "https://m.media-amazon.com/images/I/7176nIKVbNL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71lFdlgGvpL._SX700_.jpg",
@@ -9861,8 +9861,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Own The Game 3.0 Basketball Shoes — Black/Gold Metallic/Solid Grey",
   "genero": "Hombre",
-  "precio": 67.33,
-  "precio_c": 2476,
+  "precio": 67.71,
+  "precio_c": 2490,
   "fotos": [
    "https://m.media-amazon.com/images/I/71WlKCqfRPL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71xmLD7BueL._SX700_.jpg",
@@ -10414,8 +10414,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Adilette Comfort — core black / cloud white / core black",
   "genero": "Hombre",
-  "precio": 30.95,
-  "precio_c": 1138,
+  "precio": 29.95,
+  "precio_c": 1101,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/b5f6682e6bd8437eadf0e628bef02534.jpg?v=1753452947",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/b8772a2c75964ad195695be3ac427bb3.jpg?v=1753452946",
@@ -10448,8 +10448,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Marina — brown",
   "genero": "Hombre",
-  "precio": 38.92,
-  "precio_c": 1431,
+  "precio": 37.92,
+  "precio_c": 1394,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/66f1a2df8fe34e3eb1acf832c043bb34.png?v=1775526563",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3ca653e650c5468d961dce33a8f38a91.png?v=1775526563",
@@ -10510,8 +10510,8 @@ var ZAPATOS = [
   "marca": "SeaVees",
   "nombre": "SeaVees Fremont High Top Sneakers — Grey",
   "genero": "Hombre",
-  "precio": 29.95,
-  "precio_c": 1101,
+  "precio": 24.95,
+  "precio_c": 918,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MFHTC23FPL-CCH_1l.jpg?v=1792681710",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MFHTC23FPL-CCH_2l.jpg?v=1792681710",
@@ -11388,8 +11388,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Equipe Nucleo Running Shoes — Grey",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179094-C3447_1l.jpg?v=1792743570",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179094-C3447_2l.jpg?v=1792743570",
@@ -12558,8 +12558,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Inhale Lace Up Sneakers — White",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40156013_1l.jpg?v=1792732999",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40156013_2l.jpg?v=1792732999",
@@ -12758,8 +12758,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Rocket Fuel Lite Running Shoes — Grey",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067703_1l.jpg?v=1788494068",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067703_2l.jpg?v=1788494068",
@@ -12938,8 +12938,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Future 7 Pro Cage Soccer Shoes — Blue",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10792301_1l.jpg?v=1792868875",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10792301_2l.jpg?v=1792868875",
@@ -13423,8 +13423,8 @@ var ZAPATOS = [
   "marca": "AND1",
   "nombre": "AND1 Pulse 2.0 Basketball Shoes — Black",
   "genero": "Hombre",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90080M-BB_1l.jpg?v=1788557017",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90080M-BB_2l.jpg?v=1788557017",
@@ -13537,8 +13537,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA GV Special SD Mix Lace Up Sneakers — Blue/Opal Blue",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39976401_1l.jpg?v=1788931811",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39976401_2l.jpg?v=1788931811",
@@ -13797,8 +13797,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA R78 Lace Up Sneakers — Grey/White",
   "genero": "Hombre",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/373117-02_1l.jpg?v=1792893263",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/373117-02_2l.jpg?v=1792893263",
@@ -17101,8 +17101,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Club II Era Lace Up Sneakers — Black",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40100125_1l.jpg?v=1792843221",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40100125_2l.jpg?v=1792843221",
@@ -17253,8 +17253,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Advantage — Cloud White / Cloud White / Pink Strata",
   "genero": "Mujer",
-  "precio": 40.95,
-  "precio_c": 1506,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/aebb455f5b0a43d689e70cd55a924198.jpg?v=1764104003"
   ],
@@ -22152,30 +22152,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-1884",
-  "marca": "Jordan",
-  "nombre": "Jordan Air Jordan 1 Retro Low OG 'Chicago' Toddler",
-  "genero": "Niños",
-  "precio": 47.93,
-  "precio_c": 1763,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ6997_20600_IF002.jpg?v=1761835263",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ6997_20600_IF004.jpg?v=1761835263",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ6997_20600_IF005.jpg?v=1761835263",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ6997_20600_IF003.jpg?v=1761835263"
-  ],
-  "descripcion": "Tenis de básquet para niños pequeños, con soporte y amortiguación para moverse con energía.",
-  "detalles": [
-   "Soporte cómodo para el tobillo según el modelo",
-   "Amortiguación suave para saltar y correr",
-   "Suela de goma con buen agarre en cancha",
-   "Diseño resistente para el juego diario"
-  ],
-  "tallas": [
-   "6"
-  ]
- },
- {
   "codigo": "DOM-1885",
   "marca": "CONVERSE",
   "nombre": "Chuck Taylor All Star Low Bluey Infant Toddler Lifestyle Shoes (Black/Blue)",
@@ -24681,8 +24657,8 @@ var ZAPATOS = [
   "marca": "Jordan",
   "nombre": "Jordan Air Jordan 1 Low Pre-School",
   "genero": "Niños",
-  "precio": 77.93,
-  "precio_c": 2866,
+  "precio": 80.0,
+  "precio_c": 2942,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644475_20609_PS045.jpg?v=1784132515",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644475_20609_PS047.jpg?v=1784132515",
@@ -25977,8 +25953,8 @@ var ZAPATOS = [
   "marca": "Cienta",
   "nombre": "Cienta 70777 (Little Kid/Big Kid) — Distressed Pink",
   "genero": "Niños",
-  "precio": 41.94,
-  "precio_c": 1542,
+  "precio": 42.01,
+  "precio_c": 1545,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NETdCLkSL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71kWY6ryjOL._SX700_.jpg",
@@ -26235,8 +26211,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Attacanto Turf Training Soccer Cleats (Little Kid/Big Kid) — Negro/Glowing Red",
   "genero": "Niños",
-  "precio": 41.02,
-  "precio_c": 1508,
+  "precio": 41.22,
+  "precio_c": 1516,
   "fotos": [
    "https://m.media-amazon.com/images/I/81ar45OUBKL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71uc71GpMaL._SX700_.jpg",
@@ -26463,8 +26439,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Ultra Play Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid) — Negro/Rojo",
   "genero": "Niños",
-  "precio": 49.88,
-  "precio_c": 1834,
+  "precio": 50.64,
+  "precio_c": 1862,
   "fotos": [
    "https://m.media-amazon.com/images/I/71VNgXFHdhL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71xGvJWnn4L._SX700_.jpg",
@@ -27198,8 +27174,8 @@ var ZAPATOS = [
   "marca": "Bogs",
   "nombre": "Bogs Rain Boot Fire Flame (Little Kid/Big Kid) — Oscuro",
   "genero": "Niños",
-  "precio": 60.23,
-  "precio_c": 2215,
+  "precio": 61.69,
+  "precio_c": 2269,
   "fotos": [
    "https://m.media-amazon.com/images/I/61UofObibZL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71N5lVX4DJL._SX700_.jpg",
@@ -27649,8 +27625,8 @@ var ZAPATOS = [
   "marca": "KIZIK",
   "nombre": "KIZIK Athens 2 Hands-Free (Big Kid) — Fiery Coral/Rosa",
   "genero": "Niños",
-  "precio": 85.0,
-  "precio_c": 3126,
+  "precio": 74.95,
+  "precio_c": 2756,
   "fotos": [
    "https://m.media-amazon.com/images/I/71OB6sen6fL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71ytgMXGhJL._SX700_.jpg",
@@ -28004,8 +27980,8 @@ var ZAPATOS = [
   "marca": "SOREL",
   "nombre": "SOREL Flurry Boots (Big Kid) — Negro/Sea Salt",
   "genero": "Niños",
-  "precio": 85.0,
-  "precio_c": 3126,
+  "precio": 80.0,
+  "precio_c": 2942,
   "fotos": [
    "https://m.media-amazon.com/images/I/61zf8TYgzOL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61fcED8+mmL._SX700_.jpg",
@@ -30106,6 +30082,34 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
+  ]
+ },
+ {
+  "codigo": "DOM-2175",
+  "marca": "PUMA",
+  "nombre": "PUMA Rebound V6 Mid Fade Easy On Sneakers (Youth)",
+  "genero": "Niños",
+  "precio": 40.95,
+  "precio_c": 1506,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40802801_1l.jpg?v=1791368346",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40802801_2l.jpg?v=1791368346",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40802801_3l.jpg?v=1791368346",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40802801_4l.jpg?v=1791368346"
+  ],
+  "descripcion": "Tenis PUMA Rebound de caña media que combinan diseño deportivo con comodidad diaria; opción perfecta para los días de escuela y las aventuras de fin de semana.",
+  "detalles": [
+   "Caña media",
+   "Diseño deportivo para uso diario",
+   "Cierre fácil (Easy On)",
+   "Comodidad diaria para niños"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
   ]
  }
 ];
