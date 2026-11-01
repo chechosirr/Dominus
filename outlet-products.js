@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "1 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -6657,8 +6657,8 @@ var ZAPATOS = [
   "marca": "Calvin Klein",
   "nombre": "Calvin Klein Elon — Black",
   "genero": "Hombre",
-  "precio": 44.5,
-  "precio_c": 1636,
+  "precio": 49.97,
+  "precio_c": 1838,
   "fotos": [
    "https://m.media-amazon.com/images/I/616ws79RJqL._AC_SR768,1024_.jpg"
   ],
@@ -7431,8 +7431,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Air Monarch IV — Black/Black",
   "genero": "Hombre",
-  "precio": 84.2,
-  "precio_c": 3096,
+  "precio": 84.97,
+  "precio_c": 3125,
   "fotos": [
    "https://m.media-amazon.com/images/I/71s97FuazIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71Quln0940L._SX700_.jpg",
@@ -7884,8 +7884,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Spiritain 2000 Shoes — Black/Grey/Carbon",
   "genero": "Hombre",
-  "precio": 69.47,
-  "precio_c": 2555,
+  "precio": 69.5,
+  "precio_c": 2556,
   "fotos": [
    "https://m.media-amazon.com/images/I/71aMIbIsDFL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71yQdQHBVAL._SX700_.jpg",
@@ -8735,8 +8735,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Terrex Rockadia Trail Running — Black/Carbon/Black",
   "genero": "Hombre",
-  "precio": 66.3,
-  "precio_c": 2438,
+  "precio": 66.25,
+  "precio_c": 2436,
   "fotos": [
    "https://m.media-amazon.com/images/I/710ybKEfvUL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71N2F0JUD3L._SX700_.jpg",
@@ -8953,8 +8953,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Contour Foam Cozy Fit Hands Free Slip-In — White/Navy",
   "genero": "Hombre",
-  "precio": 77.5,
-  "precio_c": 2850,
+  "precio": 86.5,
+  "precio_c": 3181,
   "fotos": [
    "https://m.media-amazon.com/images/I/617muk4ZDfL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/716pLELZ2PL._SX700_.jpg",
@@ -9103,8 +9103,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Initiator — Obsidian/Team Gold/Metallic Silver/White",
   "genero": "Hombre",
-  "precio": 56.75,
-  "precio_c": 2087,
+  "precio": 65.25,
+  "precio_c": 2400,
   "fotos": [
    "https://m.media-amazon.com/images/I/71uhdZJV9RL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/718i+Q8JBvL._SX700_.jpg",
@@ -9322,8 +9322,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas F50 Hyperfast League Indoor — White/Solar Purple/Solar Turbo",
   "genero": "Hombre",
-  "precio": 94.62,
-  "precio_c": 3480,
+  "precio": 94.96,
+  "precio_c": 3492,
   "fotos": [
    "https://m.media-amazon.com/images/I/714BUsJ03ML._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61BHPwkWOWL._SX700_.jpg",
@@ -11661,8 +11661,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Shorewood Fisherman Sandal — Briar",
   "genero": "Hombre",
-  "precio": 45.95,
-  "precio_c": 1690,
+  "precio": 46.08,
+  "precio_c": 1695,
   "fotos": [
    "https://m.media-amazon.com/images/I/71uEOntncyL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71kov0fs94L._AC_SR768,1024_.jpg",
@@ -11841,8 +11841,8 @@ var ZAPATOS = [
   "marca": "Ariat",
   "nombre": "Ariat Logo Hooded Clogs — Hashbrown",
   "genero": "Hombre",
-  "precio": 47.45,
-  "precio_c": 1745,
+  "precio": 47.33,
+  "precio_c": 1741,
   "fotos": [
    "https://m.media-amazon.com/images/I/71suR4zSmHL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71sOSPhNjYL._AC_SR768,1024_.jpg",
@@ -11990,8 +11990,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Classic Buckle Clogs — Metallic Sepia",
   "genero": "Hombre",
-  "precio": 51.24,
-  "precio_c": 1884,
+  "precio": 48.49,
+  "precio_c": 1783,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Ssd8NmW4L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71QFTc1bSPL._AC_SR768,1024_.jpg",
@@ -12288,8 +12288,8 @@ var ZAPATOS = [
   "marca": "Keds",
   "nombre": "Keds Champion Gn — White Leather",
   "genero": "Hombre",
-  "precio": 45.0,
-  "precio_c": 1655,
+  "precio": 48.5,
+  "precio_c": 1784,
   "fotos": [
    "https://m.media-amazon.com/images/I/61v87QUH1rL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/61ZJmQd8fVL._AC_SR768,1024_.jpg",
@@ -25929,8 +25929,8 @@ var ZAPATOS = [
   "marca": "Cienta",
   "nombre": "Cienta 70777 (Little Kid/Big Kid) — Distressed Pink",
   "genero": "Niños",
-  "precio": 41.88,
-  "precio_c": 1540,
+  "precio": 41.78,
+  "precio_c": 1536,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NETdCLkSL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71kWY6ryjOL._SX700_.jpg",
@@ -26187,8 +26187,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Attacanto Turf Training Soccer Cleats (Little Kid/Big Kid) — Negro/Glowing Red",
   "genero": "Niños",
-  "precio": 41.22,
-  "precio_c": 1516,
+  "precio": 41.28,
+  "precio_c": 1518,
   "fotos": [
    "https://m.media-amazon.com/images/I/81ar45OUBKL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71uc71GpMaL._SX700_.jpg",
@@ -27150,8 +27150,8 @@ var ZAPATOS = [
   "marca": "Bogs",
   "nombre": "Bogs Rain Boot Fire Flame (Little Kid/Big Kid) — Oscuro",
   "genero": "Niños",
-  "precio": 62.02,
-  "precio_c": 2281,
+  "precio": 61.99,
+  "precio_c": 2280,
   "fotos": [
    "https://m.media-amazon.com/images/I/61UofObibZL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71N5lVX4DJL._SX700_.jpg",
@@ -28126,8 +28126,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Assert 10 (Big Kid) — Anthracite/Blanco/Flare Orange",
   "genero": "Niños",
-  "precio": 50.62,
-  "precio_c": 1861,
+  "precio": 50.54,
+  "precio_c": 1859,
   "fotos": [
    "https://m.media-amazon.com/images/I/71vOCt1TUtL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/713h-l0Ix2L._SX700_.jpg",
@@ -28548,8 +28548,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance FuelCell Rebel Lace (Big Kid) — Negro/Blanco",
   "genero": "Niños",
-  "precio": 102.47,
-  "precio_c": 3768,
+  "precio": 106.43,
+  "precio_c": 3914,
   "fotos": [
    "https://m.media-amazon.com/images/I/71kszxN62hL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71i39MK06tL._SX700_.jpg",
@@ -28976,8 +28976,8 @@ var ZAPATOS = [
   "marca": "UGG",
   "nombre": "UGG Tazz Sun Stitch (Little Kid/Big Kid) — Horizon Pink",
   "genero": "Niños",
-  "precio": 99.97,
-  "precio_c": 3676,
+  "precio": 104.5,
+  "precio_c": 3843,
   "fotos": [
    "https://m.media-amazon.com/images/I/818jN0gd6zL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71PG6QHuj1L._SX700_.jpg",
