@@ -2037,6 +2037,10 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas VL Court 3.0 Grey Three / Cloud White / Cloud White"
  },
  {
+  "codigo": "DOM-1971",
+  "nombre": "Jordan 6 Rings Pre-School"
+ },
+ {
   "codigo": "DOM-198",
   "nombre": "adidas Grand Court Core Black / Core Black / Cloud White"
  },

@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "31 de octubre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -6205,8 +6205,8 @@ var ZAPATOS = [
   "marca": "ASICS",
   "nombre": "ASICS GEL-Nimbus 28 Black/Graphite Grey",
   "genero": "Hombre",
-  "precio": 179.95,
-  "precio_c": 6617,
+  "precio": 139.95,
+  "precio_c": 5147,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/2006/8755/files/043932_3.jpg?v=1767809604",
    "https://cdn.shopify.com/s/files/1/2006/8755/files/043932_1.jpg?v=1767809604",
@@ -11841,8 +11841,8 @@ var ZAPATOS = [
   "marca": "Ariat",
   "nombre": "Ariat Logo Hooded Clogs — Hashbrown",
   "genero": "Hombre",
-  "precio": 48.35,
-  "precio_c": 1778,
+  "precio": 47.45,
+  "precio_c": 1745,
   "fotos": [
    "https://m.media-amazon.com/images/I/71suR4zSmHL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71sOSPhNjYL._AC_SR768,1024_.jpg",
@@ -24571,30 +24571,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-1971",
-  "marca": "Jordan",
-  "nombre": "Jordan 6 Rings Pre-School",
-  "genero": "Niños",
-  "precio": 82.93,
-  "precio_c": 3050,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_323432_20602_PS020.jpg?v=1771614393",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_323432_20602_PS022.jpg?v=1771614393",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_323432_20602_PS023.jpg?v=1771614393",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_323432_20602_PS021.jpg?v=1771614393"
-  ],
-  "descripcion": "Tenis de básquet para niños pequeños, con soporte y amortiguación para moverse con energía.",
-  "detalles": [
-   "Soporte cómodo para el tobillo según el modelo",
-   "Amortiguación suave para saltar y correr",
-   "Suela de goma con buen agarre en cancha",
-   "Diseño resistente para el juego diario"
-  ],
-  "tallas": [
-   "12"
-  ]
- },
- {
   "codigo": "DOM-1972",
   "marca": "ADIDAS",
   "nombre": "Gazelle Indoor Preschool Lifestyle Shoes (Black/Cloud White/Gum)",
@@ -30110,6 +30086,34 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
+  ]
+ },
+ {
+  "codigo": "DOM-2176",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 6 Retro 'Oreo' Grade-School",
+  "genero": "Niños",
+  "precio": 172.95,
+  "precio_c": 6360,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_384665_20108-GS009.jpg?v=1785508688",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_384665_20108-GS011.jpg?v=1785508688",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_384665_20108-GS013.jpg?v=1785508688",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_384665_20108-GS010.jpg?v=1785508688"
+  ],
+  "descripcion": "El Air Jordan 6 Retro 'Oreo' revive uno de los colorways más versátiles de la silueta, con cuero blanco premium, gamuza negra y detalles moteados; ideal para la cancha o la calle.",
+  "detalles": [
+   "Cuero premium con overlays de gamuza",
+   "Unidad Nike Air visible para amortiguación ligera",
+   "Suela moteada con acentos translúcidos",
+   "Diseño clásico Jordan para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5"
   ]
  }
 ];
