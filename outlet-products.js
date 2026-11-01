@@ -30093,8 +30093,8 @@ var ZAPATOS = [
   "marca": "Jordan",
   "nombre": "Jordan Air Jordan 6 Retro 'Oreo' Grade-School",
   "genero": "Niños",
-  "precio": 172.95,
-  "precio_c": 6360,
+  "precio": 165.0,
+  "precio_c": 6068,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_384665_20108-GS009.jpg?v=1785508688",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_384665_20108-GS011.jpg?v=1785508688",
