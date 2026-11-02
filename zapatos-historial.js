@@ -1741,6 +1741,18 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Air Force 1 (Animal) Black/White (Niños)"
  },
  {
+  "codigo": "DOM-1305",
+  "nombre": "Nike Pacific Moon Particle/Light Lemon Twist/Sail"
+ },
+ {
+  "codigo": "DOM-1306",
+  "nombre": "Madden Girl Giia Dark Brown/Light Sand Nylon"
+ },
+ {
+  "codigo": "DOM-1307",
+  "nombre": "Allbirds Tree Dasher 2 Hanami Night (Natural White)"
+ },
+ {
   "codigo": "DOM-131",
   "nombre": "Mocasín plano con herraje de bocado - Blanco hueso"
  },
@@ -1761,8 +1773,28 @@ var ZAP_HISTORIAL = [
   "nombre": "etnies Jameson 2 Eco (Men) - (Vegan) Navy/Gum/Gold"
  },
  {
+  "codigo": "DOM-1317",
+  "nombre": "SKECHERS Mighty Glow 2.0 403501N Black/Orange (Niños)"
+ },
+ {
+  "codigo": "DOM-1318",
+  "nombre": "adidas Tensaur Comfort 2 Pink Fusion/Clear Pink/White (Niños)"
+ },
+ {
+  "codigo": "DOM-1319",
+  "nombre": "New Balance DynaSoft 468 v1 Slip-On Daybreak/Cosmic Jade (Niños)"
+ },
+ {
   "codigo": "DOM-132",
   "nombre": "Botín con zippers expuestos - Oliva"
+ },
+ {
+  "codigo": "DOM-1320",
+  "nombre": "Allbirds Tree Runner Go Blizzard / Bold Red / Blizzard Sole"
+ },
+ {
+  "codigo": "DOM-1321",
+  "nombre": "Allbirds Tree Runner Go Blizzard / Hanami Night / Blizzard Sole"
  },
  {
   "codigo": "DOM-1322",
@@ -1771,6 +1803,18 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1323",
   "nombre": "Reebok Walk Ultra 7 DMX Max White / Cold Grey / Collegiate Royal"
+ },
+ {
+  "codigo": "DOM-1324",
+  "nombre": "Skechers BOBS B Flex - Arch Comfort Edge (Men) - Chocolate"
+ },
+ {
+  "codigo": "DOM-1326",
+  "nombre": "Nike Air Monarch IV (Men) - Moon Particle/Dark Hazel/Black"
+ },
+ {
+  "codigo": "DOM-1328",
+  "nombre": "Under Armour Ignite Pro 8 Fixed Band Slides (Men) - Black/Black/Black"
  },
  {
   "codigo": "DOM-133",
@@ -2109,8 +2153,16 @@ var ZAP_HISTORIAL = [
   "nombre": "Hey Dude Wendy Funk Mono Rosa Fucsia"
  },
  {
+  "codigo": "DOM-2148",
+  "nombre": "Under Armour Locker V — Gray Dawn"
+ },
+ {
   "codigo": "DOM-215",
   "nombre": "Superga 2287 Bubble Line Negro/Blanco con Plataforma"
+ },
+ {
+  "codigo": "DOM-2154",
+  "nombre": "SKECHERS Rumblers - Queen B — Black"
  },
  {
   "codigo": "DOM-216",
@@ -2439,6 +2491,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-298",
   "nombre": "Converse Chuck Taylor All Star Low-Top (Men) - Blue Supermoon"
+ },
+ {
+  "codigo": "DOM-299",
+  "nombre": "Emerica Wino G6 Slip-On (Men) - Black/Tan"
  },
  {
   "codigo": "DOM-300",
@@ -2781,6 +2837,10 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Run 70s 2.0 Silver Metallic/Off White/Grey"
  },
  {
+  "codigo": "DOM-408",
+  "nombre": "Keds Champion Seasonal Tan/Black Leopard Calf Hair"
+ },
+ {
   "codigo": "DOM-413",
   "nombre": "Reebok Club C Double Geo White/Chalk"
  },
@@ -2997,6 +3057,10 @@ var ZAP_HISTORIAL = [
   "nombre": "PUMA Skyjet (Toddler) - PUMA Black/Glacial Gray"
  },
  {
+  "codigo": "DOM-503",
+  "nombre": "Skechers Mega-Flex Lite-Tuff 402130L (Little Kid) - Yellow/Black"
+ },
+ {
   "codigo": "DOM-506",
   "nombre": "Under Armour Surge 4 Alternate Closure (Toddler) - Black/Purple Ace/High-Vis Yellow"
  },
@@ -3021,12 +3085,32 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Breaknet Sleek (Little Kid) - White/Black/Orange Tint"
  },
  {
+  "codigo": "DOM-516",
+  "nombre": "Josmo Cars Lighted Sneaker (Toddler/Little Kid) - Black/Red"
+ },
+ {
+  "codigo": "DOM-518",
+  "nombre": "Josmo Frozen Jelly Sandal (Toddler/Little Kid) - Blue"
+ },
+ {
   "codigo": "DOM-519",
   "nombre": "Josmo Frozen Boots (Toddler/Little Kid) - Blue"
  },
  {
   "codigo": "DOM-522",
   "nombre": "Crocs Classic Peppa Pig Clogs (Toddler) - Multi"
+ },
+ {
+  "codigo": "DOM-526",
+  "nombre": "PUMA Palermo Dora (Toddler) - Mauve Glow/Warm White"
+ },
+ {
+  "codigo": "DOM-528",
+  "nombre": "adidas x Disney Aladdin Grand Court 3.0 (Toddler) - Mint Ton/Gold Metallic/Wonder Quartz"
+ },
+ {
+  "codigo": "DOM-529",
+  "nombre": "Stride Rite Kamila Sandals (Little Kid) - Purple"
  },
  {
   "codigo": "DOM-530",
@@ -3109,6 +3193,14 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance Rave Run v2 (Big Kid) — Grey Matter/Mint Flash"
  },
  {
+  "codigo": "DOM-567",
+  "nombre": "New Balance Rave Run v2 Bungee (Little Kid/Big Kid) — Signal Pink/Negro"
+ },
+ {
+  "codigo": "DOM-568",
+  "nombre": "Saucony Eclipse KDZ (Little Kid/Big Kid) — Blanco/Gris/Lima"
+ },
+ {
   "codigo": "DOM-569",
   "nombre": "Stride Rite Claire (Little Kid/Big Kid) — Azul Marino"
  },
@@ -3123,6 +3215,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-572",
   "nombre": "Crocs Classic Clogs Floral Cut Out (Little Kid/Big Kid) — Pink Milk"
+ },
+ {
+  "codigo": "DOM-573",
+  "nombre": "Nike Calm 2.0 Slides (Big Kid) — Rosa Suave"
  },
  {
   "codigo": "DOM-574",
@@ -3143,6 +3239,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-578",
   "nombre": "Nike Air Max Bia (Infant/Toddler) - Ghost/Peony/White"
+ },
+ {
+  "codigo": "DOM-579",
+  "nombre": "Dr. Martens Klaire J (Little Kid/Big Kid) - Pale Pink Athena"
  },
  {
   "codigo": "DOM-580",
