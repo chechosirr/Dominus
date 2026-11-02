@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "2 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -11186,8 +11186,8 @@ var ZAPATOS = [
   "marca": "Ariat",
   "nombre": "Ariat Logo Hooded Clogs — Hashbrown",
   "genero": "Hombre",
-  "precio": 47.33,
-  "precio_c": 1741,
+  "precio": 46.41,
+  "precio_c": 1707,
   "fotos": [
    "https://m.media-amazon.com/images/I/71suR4zSmHL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71sOSPhNjYL._AC_SR768,1024_.jpg",
