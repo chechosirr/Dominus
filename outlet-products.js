@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "2 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -9614,8 +9614,8 @@ var ZAPATOS = [
   "marca": "ASICS",
   "nombre": "Asics GEL-1130",
   "genero": "Hombre",
-  "precio": 99.98,
-  "precio_c": 3677,
+  "precio": 120.0,
+  "precio_c": 4413,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A609_20106_M082.jpg?v=1770671835",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A609_20106_M084.jpg?v=1770668951",
@@ -15315,8 +15315,8 @@ var ZAPATOS = [
   "marca": "ECCO",
   "nombre": "ECCO Bota Chelsea Dress Classic 35 — Black",
   "genero": "Mujer",
-  "precio": 120.46,
-  "precio_c": 4430,
+  "precio": 125.08,
+  "precio_c": 4600,
   "fotos": [
    "https://m.media-amazon.com/images/I/61ZFC0Op2UL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71spLmUNMLL._SX700_.jpg",
@@ -23747,8 +23747,8 @@ var ZAPATOS = [
   "marca": "Jordan",
   "nombre": "Jordan Air Jordan 1 Low Toddler",
   "genero": "Niños",
-  "precio": 67.93,
-  "precio_c": 2498,
+  "precio": 70.0,
+  "precio_c": 2574,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644476_20609_IF071.jpg?v=1783445285",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644476_20609_IF073.jpg?v=1783445285",
