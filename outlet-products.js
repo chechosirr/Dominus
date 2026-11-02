@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "2 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -712,31 +712,6 @@ var ZAPATOS = [
    "8.5",
    "9",
    "11"
-  ]
- },
- {
-  "codigo": "DOM-295",
-  "marca": "PUMA",
-  "nombre": "PUMA King Top Indoor Trainer Soccer Cleats (Men) - Puma Black/Puma White/Puma Gold",
-  "genero": "Hombre",
-  "precio": 40.95,
-  "precio_c": 1506,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71umq8BX1kL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71ftfqPVJlL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71vB+yCpHjL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71scQILM8-L._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Zapato de fútbol sala de inspiración retro en negro con detalles blancos y dorados. Pensado para canchas interiores y para un estilo deportivo urbano fuera de la cancha.",
-  "detalles": [
-   "Suela de goma para interiores que no deja marcas",
-   "Parte superior de gamuza sintética suave con costuras decorativas",
-   "Lengüeta y parte trasera con malla transpirable",
-   "Cierre con cordones y ajuste regular"
-  ],
-  "tallas": [
-   11,
-   12
   ]
  },
  {
@@ -4613,29 +4588,6 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
- },
- {
-  "codigo": "DOM-2191",
-  "marca": "Hey Dude",
-  "nombre": "Hey Dude Camden Cuff Wool Cozy Bota (Women) — Tan",
-  "genero": "Mujer",
-  "precio": 36.44,
-  "precio_c": 1340,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71-5-ac623L._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71HVfI+3eJL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61wIq9OqD2L._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71mJKbK58yL._AC_SR920,736_.jpg"
-  ],
-  "descripcion": "Modelo original de Hey Dude, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5"
   ]
  },
  {
@@ -29018,28 +28970,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-2993",
-  "marca": "ASICS",
-  "nombre": "ASICS GEL-Contend 7 — Black / Hazard Green",
-  "genero": "Hombre",
-  "precio": 59.41,
-  "precio_c": 2185,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71H6A3YZ7fL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71Y8C7FAghL._AC_SR768,1024_.jpg"
-  ],
-  "descripcion": "Tenis de running versatil y liviano para correr distancias cortas, ir al trabajo o usar todos los dias. Malla transpirable, soporte estable y amortiguacion GEL trasera.",
-  "detalles": [
-   "Amortiguacion GEL trasera",
-   "Malla transpirable",
-   "Soporte neutro",
-   "Suela de goma durable"
-  ],
-  "tallas": [
-   "10.5"
-  ]
- },
- {
   "codigo": "DOM-2994",
   "marca": "ASICS",
   "nombre": "ASICS GEL-Dedicate 8 Tennis — White / Black",
@@ -29347,8 +29277,8 @@ var ZAPATOS = [
   "marca": "SKECHERS",
   "nombre": "SKECHERS Go Walk Joy Stretch Fit — Black",
   "genero": "Mujer",
-  "precio": 28.95,
-  "precio_c": 1065,
+  "precio": 71.01,
+  "precio_c": 2611,
   "fotos": [
    "https://m.media-amazon.com/images/I/61hxYPJWfLL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71ZRdhWRUxL._AC_SR768,1024_.jpg"
@@ -29684,6 +29614,86 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3"
+  ]
+ },
+ {
+  "codigo": "DOM-3034",
+  "marca": "Nike",
+  "nombre": "Nike OffCourt Slide Black/Black/Summit White (Women)",
+  "genero": "Mujer",
+  "precio": 55.95,
+  "precio_c": 2058,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61XhT2-XbOL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-3035",
+  "marca": "PUMA",
+  "nombre": "PUMA Homura OG+ Shoes (Men) - Misty Pink/Dark Rose",
+  "genero": "Hombre",
+  "precio": 61.95,
+  "precio_c": 2278,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Cw5D8bE3L._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ]
+ },
+ {
+  "codigo": "DOM-3036",
+  "marca": "Nike",
+  "nombre": "Nike Air Monarch IV (Men) - Moon Particle/Dark Hazel/Black",
+  "genero": "Hombre",
+  "precio": 56.45,
+  "precio_c": 2076,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61ZqB2+7aQL._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "Modelo original, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5"
   ]
  },
  {

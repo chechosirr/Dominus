@@ -5441,6 +5441,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Sandalia Nike Calm Rosa Empolvado"
  },
  {
+  "codigo": "DOM-2191",
+  "nombre": "Hey Dude Camden Cuff Wool Cozy Bota (Women) — Tan"
+ },
+ {
   "codigo": "DOM-220",
   "nombre": "Tacón Marc Fisher Nylas Estampado Cereza"
  },
@@ -5745,6 +5749,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Reebok Classic AZ (Men) - White/Luxe Grey/Chalk"
  },
  {
+  "codigo": "DOM-295",
+  "nombre": "PUMA King Top Indoor Trainer Soccer Cleats (Men) - Puma Black/Puma White/Puma Gold"
+ },
+ {
   "codigo": "DOM-296",
   "nombre": "Hey Dude Wally Funk Multi Mesh (Men) - Black/Smoke Grey"
  },
@@ -5759,6 +5767,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-299",
   "nombre": "Emerica Wino G6 Slip-On (Men) - Black/Tan"
+ },
+ {
+  "codigo": "DOM-2993",
+  "nombre": "ASICS GEL-Contend 7 — Black / Hazard Green"
  },
  {
   "codigo": "DOM-300",
