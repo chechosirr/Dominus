@@ -3076,8 +3076,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Suede XL (Big Kid) — Negro/Blanco",
   "genero": "Niños",
-  "precio": 71.48,
-  "precio_c": 2629,
+  "precio": 61.86,
+  "precio_c": 2275,
   "fotos": [
    "https://m.media-amazon.com/images/I/61tgVT4T03L.jpg",
    "https://m.media-amazon.com/images/I/61EwFoD7kIL.jpg",
@@ -15285,8 +15285,8 @@ var ZAPATOS = [
   "marca": "ECCO",
   "nombre": "ECCO Bota Chelsea Dress Classic 35 — Black",
   "genero": "Mujer",
-  "precio": 133.85,
-  "precio_c": 4922,
+  "precio": 136.65,
+  "precio_c": 5025,
   "fotos": [
    "https://m.media-amazon.com/images/I/61ZFC0Op2UL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71spLmUNMLL._SX700_.jpg",
