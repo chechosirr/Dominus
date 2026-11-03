@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "2 de noviembre de 2026";
+var ZAP_VERIFICADO = "3 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -15315,8 +15315,8 @@ var ZAPATOS = [
   "marca": "ECCO",
   "nombre": "ECCO Bota Chelsea Dress Classic 35 — Black",
   "genero": "Mujer",
-  "precio": 125.08,
-  "precio_c": 4600,
+  "precio": 133.85,
+  "precio_c": 4922,
   "fotos": [
    "https://m.media-amazon.com/images/I/61ZFC0Op2UL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71spLmUNMLL._SX700_.jpg",
