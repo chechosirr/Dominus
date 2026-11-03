@@ -257,36 +257,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-181",
-  "marca": "adidas",
-  "nombre": "adidas Adilette Shower Slide Sandal Black/White",
-  "genero": "Hombre",
-  "precio": 31.93,
-  "precio_c": 1174,
-  "fotos": [
-   "https://assets.designerbrands.com/match/Site_Name/519333_001_ss_01/?quality=85&io=transform:fit,width:1280",
-   "https://assets.designerbrands.com/match/Site_Name/519333_001_ss_02/?quality=85&io=transform:fit,width:1280",
-   "https://assets.designerbrands.com/match/Site_Name/519333_001_ss_03/?quality=85&io=transform:fit,width:1280",
-   "https://assets.designerbrands.com/match/Site_Name/519333_001_ss_04/?quality=85&io=transform:fit,width:1280"
-  ],
-  "descripcion": "Slide clásico de una sola banda con las tres franjas, pensado para la piscina, la ducha y los días de descanso. Su plantilla contorneada y su entresuela ligera lo hacen cómodo desde el primer uso.",
-  "detalles": [
-   "Parte superior sintética de una banda",
-   "Plantilla contorneada con entresuela Cloudfoam",
-   "Diseño sin cordones, fácil de poner y quitar",
-   "Suela sintética ligera"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-182",
   "marca": "Vans",
   "nombre": "Vans Classic Slip-On Sherpa White",
@@ -387,8 +357,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Sport Low Black/Gum",
   "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
+  "precio": 45.45,
+  "precio_c": 1671,
   "fotos": [
    "https://m.media-amazon.com/images/I/615og0R7sKL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71Ljm-SeKOL._AC_SR768,1024_.jpg"
@@ -691,7 +661,7 @@ var ZAPATOS = [
  {
   "codigo": "DOM-221",
   "marca": "Vintage Havana",
-  "nombre": "Vintage Havana Close Gamuza Castaño",
+  "nombre": "Vintage Havana Close Gamuza Gris",
   "genero": "Mujer",
   "precio": 42.45,
   "precio_c": 1561,
@@ -1382,10 +1352,10 @@ var ZAPATOS = [
  {
   "codigo": "DOM-397",
   "marca": "Madden Girl",
-  "nombre": "Madden Girl Livvyy Red Multi",
+  "nombre": "Madden Girl Livvyy Baby Blue Multi",
   "genero": "Mujer",
-  "precio": 35.65,
-  "precio_c": 1311,
+  "precio": 64.96,
+  "precio_c": 2389,
   "fotos": [
    "https://m.media-amazon.com/images/I/71o6eAYJjML._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81zesg1GtaL._AC_SR768,1024_.jpg"
@@ -1545,8 +1515,8 @@ var ZAPATOS = [
   "marca": "victoria",
   "nombre": "victoria Cosmos Rosa",
   "genero": "Mujer",
-  "precio": 44.75,
-  "precio_c": 1646,
+  "precio": 51.45,
+  "precio_c": 1892,
   "fotos": [
    "https://m.media-amazon.com/images/I/71V7RvK1iJL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81mPfiXS9TL._AC_SR768,1024_.jpg",
@@ -2290,10 +2260,10 @@ var ZAPATOS = [
  {
   "codigo": "DOM-484",
   "marca": "Bearpaw",
-  "nombre": "Bearpaw Super Shorty Deco Bota con Plataforma (Women) — Iced Coffee",
+  "nombre": "Bearpaw Super Shorty Deco Bota con Plataforma (Women) — Black",
   "genero": "Mujer",
-  "precio": 39.44,
-  "precio_c": 1450,
+  "precio": 60.69,
+  "precio_c": 2232,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NmItIlcuL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71BAi-BT0ML._AC_SR768,1024_.jpg"
@@ -2538,8 +2508,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans SK8-Mid Reissue V (Toddler) - Grape Leaf/Canteen",
   "genero": "Niños",
-  "precio": 40.95,
-  "precio_c": 1506,
+  "precio": 38.7,
+  "precio_c": 1423,
   "fotos": [
    "https://m.media-amazon.com/images/I/81zXoB1Z30L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81YrQshN-1L._AC_SR768,1024_.jpg",
@@ -2591,8 +2561,8 @@ var ZAPATOS = [
   "marca": "Tsukihoshi",
   "nombre": "Tsukihoshi Rainbow (Toddler/Little Kid) - Fuchsia/Purple",
   "genero": "Niños",
-  "precio": 47.67,
-  "precio_c": 1753,
+  "precio": 43.93,
+  "precio_c": 1615,
   "fotos": [
    "https://m.media-amazon.com/images/I/71-kBcT7GFL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71I9HsZqLxL._AC_SR768,1024_.jpg",
@@ -2695,8 +2665,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Rebound Layup Mid Hook-and-Loop (Little Kid) - Puma White/Puma Red/Puma Silver",
   "genero": "Niños",
-  "precio": 41.45,
-  "precio_c": 1524,
+  "precio": 38.7,
+  "precio_c": 1423,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NLRgr-3zL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71v96D94shL._AC_SR768,1024_.jpg",
@@ -2769,8 +2739,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Marvel Spider-Man Run Falcon (Toddler) - Black/White/Pure Ruby",
   "genero": "Niños",
-  "precio": 39.15,
-  "precio_c": 1440,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://m.media-amazon.com/images/I/71DA1XZD+mL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71kv5vy1GlL._AC_SR768,1024_.jpg",
@@ -4836,8 +4806,8 @@ var ZAPATOS = [
   "marca": "etnies",
   "nombre": "etnies Jameson 2 Eco (Men) - (Vegan) Navy/Gum/Gold",
   "genero": "Hombre",
-  "precio": 59.45,
-  "precio_c": 2186,
+  "precio": 62.94,
+  "precio_c": 2315,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Jh0sZ6JqL._SR960%2C720_.jpg",
    "https://m.media-amazon.com/images/I/71u+1g0X7qL._SR960%2C720_.jpg",
@@ -28974,8 +28944,8 @@ var ZAPATOS = [
   "marca": "ASICS",
   "nombre": "ASICS GEL-Dedicate 8 Tennis — White / Black",
   "genero": "Hombre",
-  "precio": 53.95,
-  "precio_c": 1984,
+  "precio": 57.95,
+  "precio_c": 2131,
   "fotos": [
    "https://m.media-amazon.com/images/I/61HxxUc0olL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/61Np47GVooL._AC_SR768,1024_.jpg"
@@ -29495,8 +29465,8 @@ var ZAPATOS = [
   "marca": "Eastland 1955 Edition",
   "nombre": "Eastland 1955 Edition Jasmine — Gray",
   "genero": "Mujer",
-  "precio": 34.95,
-  "precio_c": 1285,
+  "precio": 71.65,
+  "precio_c": 2635,
   "fotos": [
    "https://m.media-amazon.com/images/I/71JHrc3PsuL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81lQEYYb9-L._AC_SR768,1024_.jpg"
@@ -29573,8 +29543,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Surge 5 Alternate Closure (Infant/Toddler) — Castlerock / White / Black",
   "genero": "Niños",
-  "precio": 48.29,
-  "precio_c": 1776,
+  "precio": 48.31,
+  "precio_c": 1777,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ZlKjakVgL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/91-HgkaGHOL._AC_SR768,1024_.jpg"
@@ -29599,8 +29569,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Swoosh 1 Essential (Infant/Toddler) — Picante Red / Sail / Total Orange",
   "genero": "Niños",
-  "precio": 41.95,
-  "precio_c": 1543,
+  "precio": 43.92,
+  "precio_c": 1615,
   "fotos": [
    "https://m.media-amazon.com/images/I/71R6c+1joCL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71omhBuHGtL._AC_SR768,1024_.jpg"
@@ -29621,8 +29591,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike OffCourt Slide Black/Black/Summit White (Women)",
   "genero": "Mujer",
-  "precio": 55.95,
-  "precio_c": 2058,
+  "precio": 46.19,
+  "precio_c": 1699,
   "fotos": [
    "https://m.media-amazon.com/images/I/61XhT2-XbOL._AC_SR920,736_.jpg"
   ],
@@ -29699,10 +29669,10 @@ var ZAPATOS = [
  {
   "codigo": "DOM-3019",
   "marca": "Under Armour",
-  "nombre": "Under Armour Charged Assert 11 Alternate Closure (Little Kid) — Distant Gray / Stream / Pink Frenzy",
+  "nombre": "Under Armour Charged Assert 11 Alternate Closure (Little Kid) — Anthracite/Posh Pink/Blue Float",
   "genero": "Niños",
-  "precio": 56.95,
-  "precio_c": 2094,
+  "precio": 57.22,
+  "precio_c": 2104,
   "fotos": [
    "https://m.media-amazon.com/images/I/71b-NA+AWwL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81HtZCnn1UL._AC_SR768,1024_.jpg"
@@ -29801,8 +29771,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance Rave Run Lace (Big Kid) — Bright Sky / Altitude",
   "genero": "Niños",
-  "precio": 66.4,
-  "precio_c": 2442,
+  "precio": 66.45,
+  "precio_c": 2444,
   "fotos": [
    "https://m.media-amazon.com/images/I/71yb12jXVML._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81Hs9EXVk4L._AC_SR768,1024_.jpg"
@@ -29830,8 +29800,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Court Pro 3 Basketball Shoes (Little Kid/Big Kid) — Puma Black / Puma White",
   "genero": "Niños",
-  "precio": 67.77,
-  "precio_c": 2492,
+  "precio": 68.01,
+  "precio_c": 2501,
   "fotos": [
    "https://m.media-amazon.com/images/I/71w5Tu4fTjL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/816K4N4HLZL._AC_SR768,1024_.jpg"
@@ -29985,8 +29955,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Ultra 6 Play Turf Training Soccer Cleats (Little Kid/Big Kid) — Puma Black / Fizzy Light / Green Terrain",
   "genero": "Niños",
-  "precio": 58.73,
-  "precio_c": 2160,
+  "precio": 58.95,
+  "precio_c": 2168,
   "fotos": [
    "https://m.media-amazon.com/images/I/71sFWgFI42L._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81Quf2jhjAL._AC_SR768,1024_.jpg"
@@ -30087,6 +30057,34 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
+  ]
+ },
+ {
+  "codigo": "DOM-3037",
+  "marca": "Nike",
+  "nombre": "Men's Nike Victori One Slides Black/White/Black",
+  "genero": "Hombre",
+  "precio": 43.92,
+  "precio_c": 1615,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ce6-4RevL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/81StG4bVvFL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/81Nb9zv+WrL._AC_SR920,736_.jpg",
+   "https://m.media-amazon.com/images/I/71F3C1HLh0L._AC_SR920,736_.jpg"
+  ],
+  "descripcion": "La Victori One es la sandalia clásica de Nike para después del entreno y el día a día: banda suave con el logo, plantilla acolchada con textura y suela de espuma ligera que amortigua cada paso.",
+  "detalles": [
+   "Banda suave con logo Nike",
+   "Plantilla acolchada con textura",
+   "Suela de espuma ligera",
+   "Diseño slip-on fácil de poner"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "15"
   ]
  }
 ];
