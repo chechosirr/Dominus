@@ -434,19 +434,14 @@ html{background:#f2f2f4}
 </head>
 <body>
 <script>
-// Sin sesión: entrar directo al panel de inicio de sesión (2026-11-04, pedido de Sergio; sin botón de iniciar sesión arriba)
+// Sin sesión: entrar directo al panel de inicio de sesión (2026-11-04, pedido de Sergio; sin botón de iniciar sesión arriba).
+// Redirección INMEDIATA al abrir: la versión anterior esperaba al DOMContentLoaded con un fundido, y en conexiones lentas la tienda (pesada) se quedaba a medio pintar — cabecera visible y el resto en blanco — sin llegar al panel (captura de Sergio, 4-nov). Ahora el salto es al instante, antes de cargar el catálogo.
 (function(){
  var ok = false;
  try{ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null'); ok = !!(s && s.access_token); }catch(e){}
  if(!ok){
  document.documentElement.style.background = '#2a2a2e';
- var goLogin = function(){ location.replace('cuenta.html'); };
- document.addEventListener('DOMContentLoaded', function(){
- document.body.style.transition = 'opacity .5s ease';
- document.body.style.opacity = '0';
- setTimeout(goLogin, 520);
- });
- setTimeout(goLogin, 2600);
+ location.replace('cuenta.html');
  }
 })();
 </script>
