@@ -96,6 +96,8 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 .cta-drop.open{display:block}
 .cta-drop p{margin:0 0 10px;font-size:.9rem;line-height:1.4}
 .cta-drop .cta-go{display:block;text-align:center;background:#2f2f34;color:#fff !important;border-radius:999px;padding:10px 14px;font-weight:700;text-decoration:none;font-size:.92rem}
+.cta-burger{display:none;background:none;border:1px solid rgba(255,255,255,.38);color:#f2f4f8;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit;line-height:1}
+@media (min-width:900px){.cta-wrap .login-cta-h{display:none}.cta-wrap .cta-burger{display:inline-block}}
 </style>
 
 <style>
@@ -144,13 +146,21 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
  a.type = 'button';
  a.textContent = 'Iniciar Sesión / Crear cuenta';
  a.className = 'login-cta-h';
+ var burger = document.createElement('button');
+ burger.type = 'button';
+ burger.textContent = '☰';
+ burger.className = 'cta-burger';
+ burger.setAttribute('aria-label', 'Menú');
  var drop = document.createElement('div');
  drop.className = 'cta-drop';
  drop.innerHTML = '<p><b>⚠ Menú no disponible todavía.</b><br>Este menú solo funciona con la sesión iniciada. Inicia sesión o crea tu cuenta para activarlo.</p><a class="cta-go" href="../cuenta.html">Iniciar sesión / Crear cuenta</a>';
  wrap.appendChild(a);
+ wrap.appendChild(burger);
  wrap.appendChild(drop);
  btn.parentNode.insertBefore(wrap, btn);
- a.addEventListener('click', function(e){ e.stopPropagation(); drop.classList.toggle('open'); });
+ var toggleDrop = function(e){ e.stopPropagation(); drop.classList.toggle('open'); };
+ a.addEventListener('click', toggleDrop);
+ burger.addEventListener('click', toggleDrop);
  document.addEventListener('click', function(e){ if(!wrap.contains(e.target)) drop.classList.remove('open'); });
  }catch(e){}
 })();
