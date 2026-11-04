@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "4 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -357,8 +357,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Sport Low Black/Gum",
   "genero": "Hombre",
-  "precio": 45.45,
-  "precio_c": 1671,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://m.media-amazon.com/images/I/615og0R7sKL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71Ljm-SeKOL._AC_SR768,1024_.jpg"
@@ -1352,10 +1352,10 @@ var ZAPATOS = [
  {
   "codigo": "DOM-397",
   "marca": "Madden Girl",
-  "nombre": "Madden Girl Livvyy Baby Blue Multi",
+  "nombre": "Madden Girl Livvyy Red Multi",
   "genero": "Mujer",
-  "precio": 64.96,
-  "precio_c": 2389,
+  "precio": 56.2,
+  "precio_c": 2067,
   "fotos": [
    "https://m.media-amazon.com/images/I/71o6eAYJjML._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81zesg1GtaL._AC_SR768,1024_.jpg"
@@ -2611,8 +2611,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Classic Nylon (Little Kid) - Bleached Yellow/White",
   "genero": "Niños",
-  "precio": 43.95,
-  "precio_c": 1616,
+  "precio": 28.95,
+  "precio_c": 1065,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Uoi-4+SoL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/714j3rsNP4L._AC_SR768,1024_.jpg",
@@ -2665,8 +2665,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Rebound Layup Mid Hook-and-Loop (Little Kid) - Puma White/Puma Red/Puma Silver",
   "genero": "Niños",
-  "precio": 38.7,
-  "precio_c": 1423,
+  "precio": 30.45,
+  "precio_c": 1120,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NLRgr-3zL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71v96D94shL._AC_SR768,1024_.jpg",
@@ -2814,8 +2814,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Bluey Classic Clogs (Toddler) - Bluey",
   "genero": "Niños",
-  "precio": 43.95,
-  "precio_c": 1616,
+  "precio": 33.93,
+  "precio_c": 1248,
   "fotos": [
    "https://m.media-amazon.com/images/I/81IrpzmefzL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71Cv6R8r23L._AC_SR768,1024_.jpg",
@@ -4092,8 +4092,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Kids Suede Classic XXI Alternate Closure — Puma Black/Puma White",
   "genero": "Niños",
-  "precio": 31.95,
-  "precio_c": 1175,
+  "precio": 34.2,
+  "precio_c": 1258,
   "fotos": [
    "https://m.media-amazon.com/images/I/71TZ1byOB+S._AC_SR920,736_.jpg"
   ],
@@ -4806,8 +4806,8 @@ var ZAPATOS = [
   "marca": "etnies",
   "nombre": "etnies Jameson 2 Eco (Men) - (Vegan) Navy/Gum/Gold",
   "genero": "Hombre",
-  "precio": 62.94,
-  "precio_c": 2315,
+  "precio": 59.45,
+  "precio_c": 2186,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Jh0sZ6JqL._SR960%2C720_.jpg",
    "https://m.media-amazon.com/images/I/71u+1g0X7qL._SR960%2C720_.jpg",
@@ -29569,8 +29569,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Swoosh 1 Essential (Infant/Toddler) — Picante Red / Sail / Total Orange",
   "genero": "Niños",
-  "precio": 43.92,
-  "precio_c": 1615,
+  "precio": 41.95,
+  "precio_c": 1543,
   "fotos": [
    "https://m.media-amazon.com/images/I/71R6c+1joCL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/71omhBuHGtL._AC_SR768,1024_.jpg"
@@ -29591,8 +29591,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike OffCourt Slide Black/Black/Summit White (Women)",
   "genero": "Mujer",
-  "precio": 46.19,
-  "precio_c": 1699,
+  "precio": 43.92,
+  "precio_c": 1615,
   "fotos": [
    "https://m.media-amazon.com/images/I/61XhT2-XbOL._AC_SR920,736_.jpg"
   ],
@@ -29671,8 +29671,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Charged Assert 11 Alternate Closure (Little Kid) — Anthracite/Posh Pink/Blue Float",
   "genero": "Niños",
-  "precio": 57.22,
-  "precio_c": 2104,
+  "precio": 55.2,
+  "precio_c": 2030,
   "fotos": [
    "https://m.media-amazon.com/images/I/71b-NA+AWwL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/81HtZCnn1UL._AC_SR768,1024_.jpg"
@@ -29800,8 +29800,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Court Pro 3 Basketball Shoes (Little Kid/Big Kid) — Puma Black / Puma White",
   "genero": "Niños",
-  "precio": 68.01,
-  "precio_c": 2501,
+  "precio": 70.83,
+  "precio_c": 2605,
   "fotos": [
    "https://m.media-amazon.com/images/I/71w5Tu4fTjL._AC_SR768,1024_.jpg",
    "https://m.media-amazon.com/images/I/816K4N4HLZL._AC_SR768,1024_.jpg"
