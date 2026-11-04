@@ -192,8 +192,39 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   header.top{padding-left:max(18px,calc((100vw - 1420px)/2 + 16px));padding-right:max(18px,calc((100vw - 1420px)/2 + 16px))}
 }
 </style>
+
+<style>
+/* ===== Apertura 2026-11-04 (pedido de Sergio): DOMINUS en el centro, a los 3 s va a su lugar y abre Zapatos ===== */
+#dom-splash{position:fixed;inset:0;z-index:200;background:#2a2a2e;display:flex;align-items:center;justify-content:center;cursor:pointer}
+#dom-splash .dom-splash-name{font-family:Archivo,'Source Sans 3',sans-serif;font-weight:900;font-size:clamp(44px,13vw,96px);letter-spacing:6px;color:#f5f5f7;white-space:nowrap;transition:transform .9s ease}
+#dom-splash.dom-fading{opacity:0;transition:opacity .3s ease}
+@media (prefers-reduced-motion:reduce){#dom-splash .dom-splash-name{transition:none}}
+</style>
 </head>
 <body>
+<script>
+/* Apertura Dominus 2026-11-04: nombre en el centro 3 s, luego vuela a su lugar (el logo del header) y abre Zapatos. Tocar la pantalla salta la espera. Nunca atrapa al usuario: a los 7 s redirige igual. */
+(function(){
+  var splash=document.createElement('div'); splash.id='dom-splash';
+  var name=document.createElement('div'); name.className='dom-splash-name'; name.textContent='DOMINUS';
+  splash.appendChild(name); document.body.appendChild(splash);
+  var done=false;
+  function redirect(ms){ if(done) return; done=true; splash.classList.add('dom-fading'); setTimeout(function(){ location.href='zapatos.html'; }, ms); }
+  function fly(){
+    if(done) return;
+    var logo=document.querySelector('header.top .logo');
+    if(!logo){ redirect(150); return; }
+    var r1=name.getBoundingClientRect(), r2=logo.getBoundingClientRect();
+    var dx=(r2.left + r2.width/2) - (r1.left + r1.width/2);
+    var dy=(r2.top + r2.height/2) - (r1.top + r1.height/2);
+    name.style.transform='translate('+dx+'px,'+dy+'px) scale('+(r2.width/r1.width)+')';
+    setTimeout(function(){ redirect(600); }, 950);
+  }
+  splash.addEventListener('click', function(){ redirect(150); });
+  setTimeout(fly, 3000);
+  setTimeout(function(){ if(!done){ done=true; location.href='zapatos.html'; } }, 7000);
+})();
+</script>
 <header class="top">
  <a class="logo" href="index.html">DOMIN<em>US</em></a>
  <div class="menu-wrap">
