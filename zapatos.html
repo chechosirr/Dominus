@@ -18,6 +18,13 @@ a{color:inherit}
 header.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:14px;padding:12px 18px;background:#2a2a2e;border-bottom:1px solid var(--line)}
 .logo{font-weight:900;font-size:22px;letter-spacing:3px;text-decoration:none;flex:0 0 auto;color:#111111!important;font-family:Archivo,'Source Sans 3',sans-serif}
 .logo em{font-style:normal}
+/* ===== Al elegir una sección (Hombre/Mujer/Niños): el DOMINUS del header pasa al centro, el botón de volver sube a la izquierda del header y el «Inicio» del menú se oculta (pedido de Sergio 4-nov). Solo dentro de la sección. ===== */
+#hdr-back-slot{display:none}
+body.en-seccion #hdr-back-slot{display:flex;align-items:center}
+body.en-seccion header.top .logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0}
+body.en-seccion #shop-back{background:#f2f2f3;color:#17171a;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+body.en-seccion .shopbar{display:none}
+body.en-seccion #menu a[href="index.html"]{display:none}
 .menu-wrap{position:relative;margin-left:auto}
 #menu-btn{background:none;border:1px solid var(--line);color:#f2f4f8;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
 .menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:210px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:60}
@@ -444,6 +451,7 @@ html{background:#f2f2f4}
 })();
 </script>
 <header class="top">
+ <span id="hdr-back-slot"></span>
  <a class="logo" href="index.html">DOMIN<em>US</em></a>
  <div class="menu-wrap">
  <button id="menu-btn" aria-label="Menú">☰</button>
@@ -1257,6 +1265,10 @@ function shipParts(){
  document.getElementById('catview').style.display = 'none';
  document.body.style.overflow = '';
  document.getElementById('shopview').style.display = '';
+ document.body.classList.add('en-seccion');
+ var hdrSb = document.getElementById('shop-back');
+ var hdrSlot = document.getElementById('hdr-back-slot');
+ if(hdrSb && hdrSlot) hdrSlot.appendChild(hdrSb);
  window.scrollTo(0, 0);
  render();
  if(ovState !== 'cat') ovPush('cat');
@@ -1265,6 +1277,10 @@ function shipParts(){
  curCat = null; view = 'panel';
  document.getElementById('shopview').style.display = 'none';
  document.getElementById('catview').style.display = '';
+ document.body.classList.remove('en-seccion');
+ var hdrSb2 = document.getElementById('shop-back');
+ var hdrBar = document.querySelector('.shopbar');
+ if(hdrSb2 && hdrBar) hdrBar.appendChild(hdrSb2);
  document.body.style.overflow = 'hidden';
  window.scrollTo(0, 0);
  }
