@@ -90,6 +90,12 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 .passwrap input{padding-right:74px}
 .eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#4a4a52;font-weight:700;cursor:pointer;font-family:inherit;font-size:13px;padding:6px 8px}
 .login-cta-h{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
+.cta-wrap{position:relative;display:inline-block}
+button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
+.cta-drop{display:none;position:absolute;right:0;top:calc(100% + 8px);width:262px;background:#fff;color:#17171a;border:1px solid #e2e2e8;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.28);padding:14px 16px;z-index:66;text-align:left}
+.cta-drop.open{display:block}
+.cta-drop p{margin:0 0 10px;font-size:.9rem;line-height:1.4}
+.cta-drop .cta-go{display:block;text-align:center;background:#2f2f34;color:#fff !important;border-radius:999px;padding:10px 14px;font-weight:700;text-decoration:none;font-size:.92rem}
 </style>
 
 <style>
@@ -132,11 +138,20 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
  btn.style.display = 'none';
  var menu = document.getElementById('menu');
  if(menu) menu.style.display = 'none';
- var a = document.createElement('a');
- a.href = '../cuenta.html';
+ var wrap = document.createElement('span');
+ wrap.className = 'cta-wrap';
+ var a = document.createElement('button');
+ a.type = 'button';
  a.textContent = 'Iniciar Sesión / Crear cuenta';
  a.className = 'login-cta-h';
- btn.parentNode.insertBefore(a, btn);
+ var drop = document.createElement('div');
+ drop.className = 'cta-drop';
+ drop.innerHTML = '<p><b>⚠ Menú no disponible todavía.</b><br>Este menú solo funciona con la sesión iniciada. Inicia sesión o crea tu cuenta para activarlo.</p><a class="cta-go" href="../cuenta.html">Iniciar sesión / Crear cuenta</a>';
+ wrap.appendChild(a);
+ wrap.appendChild(drop);
+ btn.parentNode.insertBefore(wrap, btn);
+ a.addEventListener('click', function(e){ e.stopPropagation(); drop.classList.toggle('open'); });
+ document.addEventListener('click', function(e){ if(!wrap.contains(e.target)) drop.classList.remove('open'); });
  }catch(e){}
 })();
 </script>

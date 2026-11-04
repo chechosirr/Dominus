@@ -164,6 +164,12 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .choice .go{display:inline-block;background:transparent;color:#2a2a2e;border:1.5px solid #2a2a2e;font-weight:700;letter-spacing:.05em;padding:9px 26px;border-radius:999px;font-size:.9rem;transition:background .2s ease,color .2s ease}
 .choice:hover .go{background:#2a2a2e;color:#fff}
 .login-cta-h{display:inline-block;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 50%,#c3cad4 100%);color:#0a0c10 !important;font-weight:800;font-size:13px;padding:9px 15px;border-radius:999px;text-decoration:none;white-space:nowrap}
+.cta-wrap{position:relative;display:inline-block}
+button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
+.cta-drop{display:none;position:absolute;right:0;top:calc(100% + 8px);width:262px;background:#fff;color:#17171a;border:1px solid #e2e2e8;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.28);padding:14px 16px;z-index:66;text-align:left}
+.cta-drop.open{display:block}
+.cta-drop p{margin:0 0 10px;font-size:.9rem;line-height:1.4}
+.cta-drop .cta-go{display:block;text-align:center;background:#2f2f34;color:#fff !important;border-radius:999px;padding:10px 14px;font-weight:700;text-decoration:none;font-size:.92rem}
 </style>
 
 <style>
@@ -209,7 +215,9 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   var name=document.createElement('div'); name.className='dom-splash-name'; name.textContent='DOMINUS';
   splash.appendChild(name); document.body.appendChild(splash);
   var done=false;
-  function redirect(ms){ if(done) return; done=true; splash.classList.add('dom-fading'); setTimeout(function(){ location.replace('zapatos.html'); }, ms); }
+  function hasSession(){ try{ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null'); return !!(s && s.access_token); }catch(e){ return false; } }
+  function goNext(){ location.replace(hasSession() ? 'zapatos.html' : 'cuenta.html'); }
+  function redirect(ms){ if(done) return; done=true; splash.classList.add('dom-fading'); setTimeout(function(){ goNext(); }, ms); }
   function fly(){
     if(done) return;
     var logo=document.querySelector('header.top .logo');
@@ -222,8 +230,8 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
   }
   splash.addEventListener('click', function(){ redirect(150); });
   setTimeout(fly, 3000);
-  setTimeout(function(){ if(!done){ done=true; location.replace('zapatos.html'); } }, 7000);
-  window.addEventListener('pageshow', function(e){ if(e.persisted){ location.replace('zapatos.html'); } });
+  setTimeout(function(){ if(!done){ done=true; goNext(); } }, 7000);
+  window.addEventListener('pageshow', function(e){ if(e.persisted){ goNext(); } });
 })();
 </script>
 <header class="top">
@@ -250,11 +258,20 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  btn.style.display = 'none';
  var menu = document.getElementById('menu');
  if(menu) menu.style.display = 'none';
- var a = document.createElement('a');
- a.href = 'cuenta.html';
+ var wrap = document.createElement('span');
+ wrap.className = 'cta-wrap';
+ var a = document.createElement('button');
+ a.type = 'button';
  a.textContent = 'Iniciar Sesión / Crear cuenta';
  a.className = 'login-cta-h';
- btn.parentNode.insertBefore(a, btn);
+ var drop = document.createElement('div');
+ drop.className = 'cta-drop';
+ drop.innerHTML = '<p><b>⚠ Menú no disponible todavía.</b><br>Este menú solo funciona con la sesión iniciada. Inicia sesión o crea tu cuenta para activarlo.</p><a class="cta-go" href="cuenta.html">Iniciar sesión / Crear cuenta</a>';
+ wrap.appendChild(a);
+ wrap.appendChild(drop);
+ btn.parentNode.insertBefore(wrap, btn);
+ a.addEventListener('click', function(e){ e.stopPropagation(); drop.classList.toggle('open'); });
+ document.addEventListener('click', function(e){ if(!wrap.contains(e.target)) drop.classList.remove('open'); });
  }catch(e){}
 })();
 </script>
