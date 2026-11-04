@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "4 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -3076,8 +3076,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Suede XL (Big Kid) — Negro/Blanco",
   "genero": "Niños",
-  "precio": 61.86,
-  "precio_c": 2275,
+  "precio": 61.93,
+  "precio_c": 2277,
   "fotos": [
    "https://m.media-amazon.com/images/I/61tgVT4T03L.jpg",
    "https://m.media-amazon.com/images/I/61EwFoD7kIL.jpg",
@@ -15250,8 +15250,8 @@ var ZAPATOS = [
   "marca": "Marc Fisher LTD",
   "nombre": "Marc Fisher LTD Tacón Zala — Dark Red Patent Leather",
   "genero": "Mujer",
-  "precio": 175.0,
-  "precio_c": 6435,
+  "precio": 158.5,
+  "precio_c": 5829,
   "fotos": [
    "https://m.media-amazon.com/images/I/61bPjSxF0xL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61IsVZK7lSL._SX700_.jpg",
@@ -15350,8 +15350,8 @@ var ZAPATOS = [
   "marca": "Born",
   "nombre": "Born Bota Mckenna — Black",
   "genero": "Mujer",
-  "precio": 200.0,
-  "precio_c": 7355,
+  "precio": 171.5,
+  "precio_c": 6307,
   "fotos": [
    "https://m.media-amazon.com/images/I/71sFXBGoswL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61QYxnGd-PL._SX700_.jpg",
@@ -23717,8 +23717,8 @@ var ZAPATOS = [
   "marca": "Jordan",
   "nombre": "Jordan Air Jordan 1 Low Toddler",
   "genero": "Niños",
-  "precio": 70.0,
-  "precio_c": 2574,
+  "precio": 59.98,
+  "precio_c": 2206,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644476_20609_IF071.jpg?v=1783445285",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644476_20609_IF073.jpg?v=1783445285",
