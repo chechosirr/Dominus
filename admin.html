@@ -1215,12 +1215,12 @@ document.getElementById('menu-pass').onclick = function(e){
 wireChangePass(function(){ return (S && S.user && S.user.email) || ''; }, function(j){ S = j; TOK = j.access_token; UID = j.user.id; try{ localStorage.setItem('dominus_session', JSON.stringify(j)); }catch(e){} });
 wireEmail(function(){ return TOK; }, function(){ return (S && S.user && S.user.email) || ''; });
 
-/* Puerta de acceso: solo cuentas con es_admin */
+/* Puerta de acceso: cuentas con es_admin y también cuentas de comprador (pedido de Sergio 4-nov: «que el panel del administrador se pueda iniciar como cuenta de comprador también») */
 (function(){
  if(!TOK || !UID){ gateFail('No hay una sesión activa. Entra primero a tu cuenta.'); return; }
  api('profiles?user_id=eq.' + UID + '&select=tipo,es_admin,nombre', TOK).then(function(rows){
  var p = rows && rows[0];
- if(!p || !p.es_admin){ gateFail('Esta cuenta no es de administrador.'); return; }
+ if(!p || !(p.es_admin || p.tipo === 'comprador')){ gateFail('Esta cuenta no puede entrar al panel (solo administrador o comprador).'); return; }
  document.getElementById('who').textContent = 'Sesión de ' + (p.nombre || (S.user && S.user.email) || 'administrador');
  document.getElementById('gate').classList.add('hidden');
  document.getElementById('panel').classList.remove('hidden');
