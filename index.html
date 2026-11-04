@@ -203,10 +203,13 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 
 <style>
 /* ===== Apertura 2026-11-04 (pedido de Sergio): DOMINUS en el centro, a los 3 s va a su lugar y abre Zapatos ===== */
-#dom-splash{position:fixed;inset:0;z-index:200;background:#2a2a2e;display:flex;align-items:center;justify-content:center;cursor:pointer}
+#dom-splash{position:fixed;inset:0;z-index:200;background:#2a2a2e;display:flex;align-items:center;justify-content:center;cursor:pointer;flex-direction:column;gap:14px}
 #dom-splash .dom-splash-name{font-family:Archivo,'Source Sans 3',sans-serif;font-weight:900;font-size:clamp(44px,13vw,96px);letter-spacing:6px;color:#f5f5f7;white-space:nowrap;transition:transform .9s ease}
+#dom-splash .dom-splash-tag{font-family:'Source Sans 3',Archivo,sans-serif;font-weight:600;font-size:clamp(15px,4.2vw,22px);letter-spacing:.05em;color:#c9c9cf;white-space:nowrap;opacity:0;animation:tagIn .9s ease .7s both;transition:opacity .35s ease}
+#dom-splash .dom-splash-tag.tag-out{animation:none;opacity:0}
+@keyframes tagIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 #dom-splash.dom-fading{opacity:0;transition:opacity .3s ease}
-@media (prefers-reduced-motion:reduce){#dom-splash .dom-splash-name{transition:none}}
+@media (prefers-reduced-motion:reduce){#dom-splash .dom-splash-name{transition:none}#dom-splash .dom-splash-tag{animation:none;opacity:1}}
 </style>
 <link rel="prefetch" href="cuenta.html">
 <link rel="prefetch" href="zapatos.html">
@@ -217,13 +220,15 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 (function(){
   var splash=document.createElement('div'); splash.id='dom-splash';
   var name=document.createElement('div'); name.className='dom-splash-name'; name.textContent='DOMINUS';
-  splash.appendChild(name); document.body.appendChild(splash);
+  var tag=document.createElement('div'); tag.className='dom-splash-tag'; tag.textContent='Tu tienda de zapatos favorita.';
+  splash.appendChild(name); splash.appendChild(tag); document.body.appendChild(splash);
   var done=false;
   function hasSession(){ try{ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null'); return !!(s && s.access_token); }catch(e){ return false; } }
   function goNext(){ location.replace(hasSession() ? 'zapatos.html' : 'cuenta.html'); }
   function redirect(ms){ if(done) return; done=true; splash.classList.add('dom-fading'); setTimeout(function(){ goNext(); }, ms); }
   function fly(){
     if(done) return;
+    tag.classList.add('tag-out');
     var logo=document.querySelector('header.top .logo');
     if(!logo){ redirect(150); return; }
     var r1=name.getBoundingClientRect(), r2=logo.getBoundingClientRect();
