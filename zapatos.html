@@ -393,7 +393,7 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 
 <style>
 /* ===== Escaparate del panel de clases, tipo Rager (2026-11-04, pedido de Sergio): fotos de zapatos a pantalla completa en rotación (5; la selección cambia cada hora) y los 3 botones abajo ===== */
-#catview{position:fixed;inset:0;height:100vh;height:100dvh;z-index:58;max-width:none;width:100%;margin:0;padding:0;display:flex;flex-direction:column;justify-content:flex-end;background:#f2f2f4;overflow:hidden}
+#catview{position:fixed;inset:0;height:100vh;height:100dvh;z-index:58;max-width:none;width:100%;margin:0;padding:0;display:flex;flex-direction:column;justify-content:flex-end;background:#f2f2f4;overflow:hidden;touch-action:none;overscroll-behavior:none}
 #catview .esc-fondo{position:absolute;inset:0}
 #catview .esc-brand{position:absolute;top:calc(16px + env(safe-area-inset-top));left:20px;z-index:3;font-family:Archivo,'Source Sans 3',Arial,sans-serif;font-weight:900;font-size:1.55rem;letter-spacing:.22em;color:#232327}
 #catview .esc-brand em{font-style:normal;background:linear-gradient(120deg,#17171a 0%,#565b63 35%,#232327 55%,#7c828b 80%,#2c2c30 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -1224,6 +1224,7 @@ function shipParts(){
  fm.value = ''; ft.value = '';
  document.getElementById('shop-h1').textContent = CAT_LABEL[cat];
  document.getElementById('catview').style.display = 'none';
+ document.body.style.overflow = '';
  document.getElementById('shopview').style.display = '';
  window.scrollTo(0, 0);
  render();
@@ -1233,8 +1234,10 @@ function shipParts(){
  curCat = null; view = 'panel';
  document.getElementById('shopview').style.display = 'none';
  document.getElementById('catview').style.display = '';
+ document.body.style.overflow = 'hidden';
  window.scrollTo(0, 0);
  }
+ document.body.style.overflow = 'hidden';
  Array.prototype.forEach.call(document.querySelectorAll('.cat-card'), function(b){
  b.addEventListener('click', function(){ enterCat(b.getAttribute('data-cat')); });
  });
