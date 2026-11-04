@@ -1244,7 +1244,7 @@ function shipParts(){
  if(imgs[escIdx]) imgs[escIdx].classList.remove('on');
  escIdx = (escIdx + 1) % imgs.length;
  imgs[escIdx].classList.add('on');
- }, 5000);
+ }, 8000);
  document.getElementById('shop-back').addEventListener('click', function(){ if(ovState === 'cat'){ history.back(); } else { backToPanel(); } });
  updateBadges();
  render();
