@@ -89,9 +89,11 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .cat-card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(20,20,25,.16)}
 .cat-name{font-family:Archivo,Arial,sans-serif;font-weight:800;font-size:1.15rem;color:#fff;letter-spacing:.02em}
 .shopbar{display:flex;align-items:center;gap:12px;padding:10px 16px 0}
-#shop-cat-label{font-weight:700;color:#55555c}
+/* Título de sección tipo Amazon (pedido de Sergio 2026-11-04): solo la clase, letra Amazon Ember/Arial */
+#shop-h1{font-family:'Amazon Ember',Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;color:#0F1111;letter-spacing:0}
 .backbtn{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%);color:#0a0c10;border:0;border-radius:999px;padding:9px 18px;font-family:inherit;font-size:.9rem;font-weight:800;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.18)}
 .backbtn:active{transform:scale(.97)}
+.backbtn.arrowonly{font-size:1.1rem;line-height:1;padding:9px 20px}
 .backbtn.light{background:linear-gradient(135deg,#ffffff 0%,#d9dee6 30%,#a9b2c0 50%,#f2f4f8 70%,#c3cad4 100%);color:#0a0c10;border:0;box-shadow:0 2px 8px rgba(0,0,0,.18);width:100%;justify-content:center;padding:14px}
 /* ===== Detalle del producto ===== */
 .detail{position:fixed;inset:0;background:#fff;z-index:70;overflow-y:auto;display:none}
@@ -418,8 +420,6 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 <div class="promo">Nuestra tienda · Envíos a Nicaragua y Estados Unidos · A la puerta de tu casa</div>
 
 <div id="catview">
-  <h1 class="cat-title">Zapatos</h1>
-  <p style="text-align:center;font-size:1.05rem;color:#17171a;margin:0 0 6px">Zapatos <b>nuevos</b> provenientes de <b>Estados Unidos</b></p>
   <p class="cat-sub">¿Para quién buscas?</p>
   <div class="cat-grid">
     <button class="cat-card" data-cat="hombre"><span class="cat-name">Hombre</span></button>
@@ -429,7 +429,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 </div>
 
 <div id="shopview" style="display:none">
- <div class="shopbar"><button class="backbtn" id="shop-back">← Volver</button><span id="shop-cat-label"></span></div>
+ <div class="shopbar"><button class="backbtn arrowonly" id="shop-back" aria-label="Volver">←</button></div>
 <div class="toolbar">
  <div class="toolbar-in">
  <label class="search"> <input id="q" type="search" placeholder="Buscar zapatos: marca, modelo, color…"></label>
@@ -510,7 +510,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
  <button id="d-share" class="share-corner" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>
  <div class="detail-in">
  <div class="backbar">
- <button class="backbtn" id="d-back">← Volver al catálogo</button>
+ <button class="backbtn arrowonly" id="d-back" aria-label="Volver al catálogo">←</button>
  </div>
  <div class="d-grid">
  <div>
@@ -1176,8 +1176,7 @@ function shipParts(){
  document.getElementById('sort').value = '';
  buildMarcas(); buildTallas();
  fm.value = ''; ft.value = '';
- document.getElementById('shop-h1').textContent = 'Zapatos · ' + CAT_LABEL[cat];
- document.getElementById('shop-cat-label').textContent = 'Zapatos para ' + (cat === 'ninos' ? 'niños' : cat);
+ document.getElementById('shop-h1').textContent = CAT_LABEL[cat];
  document.getElementById('catview').style.display = 'none';
  document.getElementById('shopview').style.display = '';
  window.scrollTo(0, 0);
