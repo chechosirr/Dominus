@@ -88,7 +88,8 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
     
     <div class="type-grid">
       <div class="type-card on" id="t-comprador"><b>Comprador</b></div>
-      <div class="type-card" id="t-vendedor"><b>Vendedor</b></div>
+      <!-- OCULTO 2026-11-04 (orden de Sergio: cuentas de vendedor en pausa, recuperable) -->
+      <div class="type-card" id="t-vendedor" style="display:none"><b>Vendedor</b></div>
     </div>
     <div class="form-card">
       <div class="tabs">
@@ -215,7 +216,8 @@ function setTipo(t){
 document.getElementById('t-comprador').onclick = function(){ setTipo('comprador'); };
 document.getElementById('t-vendedor').onclick = function(){ setTipo('vendedor'); };
 var qp = new URLSearchParams(location.search);
-if(qp.get('tipo') === 'vendedor') setTipo('vendedor'); else setTipo('comprador');
+/* OCULTO 2026-11-04: mientras las cuentas de vendedor estén en pausa, toda cuenta entra como comprador. Original: if(qp.get('tipo') === 'vendedor') setTipo('vendedor'); else setTipo('comprador'); */
+setTipo('comprador');
 
 var tabIn = document.getElementById('tab-in'), tabUp = document.getElementById('tab-up');
 tabIn.onclick = function(){ tabIn.classList.add('on'); tabUp.classList.remove('on'); document.getElementById('form-in').classList.remove('hidden'); document.getElementById('form-up').classList.add('hidden'); hideErr(); };
