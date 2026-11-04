@@ -7,6 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#2a2a2e">
+<link rel="prefetch" href="zapatos.html">
 <title>Crear cuenta — Dominus</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
@@ -73,7 +74,10 @@ html{background:#2a2a2e}
 header.top{animation:cuentaIn .4s ease both}
 main{animation:cuentaIn .6s ease .05s both}
 @keyframes cuentaIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){header.top,main{animation:none}}
+/* Salida suave hacia el escaparate (2026-11-04, pedido de Sergio: paso más lento y fluido) */
+body{transition:opacity .65s ease}
+body.page-out{opacity:0}
+@media (prefers-reduced-motion:reduce){header.top,main{animation:none}body{transition:none}}
 </style>
 </head>
 <body>
@@ -269,19 +273,23 @@ function ensureProfile(s, name, extra){
     }).then(function(){ return tipo; }).catch(function(){ return tipo; });
   }).catch(function(){ return tipo; });
 }
+function go(url){
+  document.body.classList.add('page-out');
+  setTimeout(function(){ location.href = url; }, 680);
+}
 function goTo(t, s){
   try{ localStorage.setItem('dominus_tipo', t); }catch(e){}
   if(t === 'vendedor'){
     api('sellers?user_id=eq.' + s.user.id + '&select=id,slug', s.access_token).then(function(rows){
       if(rows && rows.length){
         try{ localStorage.setItem('dominus_slug', rows[0].slug); }catch(e){}
-        location.href = 'vendedor/index.html?s=' + rows[0].slug + '&edit=1';
+        go('vendedor/index.html?s=' + rows[0].slug + '&edit=1');
       } else {
-        location.href = 'vendedor/cuenta.html';
+        go('vendedor/cuenta.html');
       }
-    }).catch(function(){ location.href = 'vendedor/cuenta.html'; });
+    }).catch(function(){ go('vendedor/cuenta.html'); });
   } else {
-    location.href = 'zapatos.html';
+    go('zapatos.html');
   }
 }
 document.getElementById('btn-in').onclick = function(){

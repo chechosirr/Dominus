@@ -407,6 +407,11 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 #catview .cat-card{background:rgba(17,17,21,.55);border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-radius:999px;padding:17px 20px;box-shadow:0 10px 28px rgba(0,0,0,.38);width:100%}
 #catview .cat-card::before{display:none}
 #catview .cat-name{color:#fff;font-size:1.22rem}
+/* Entrada fluida del escaparate al llegar (2026-11-04, pedido de Sergio: paso desde el inicio de sesión más lento y suave) */
+html{background:#f2f2f4}
+#catview.esc-in{animation:escIn 1.15s ease both}
+@keyframes escIn{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){#catview.esc-in{animation:none}}
 /* Escritorio (2026-11-04, pedido de Sergio): el fondo del escaparate es la misma imagen, grande y borrosa, con la foto nítida encima */
 @media (min-width:900px){
 #catview .esc-fondo .esc-blur{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.25);filter:blur(26px) brightness(.94)}
@@ -1272,6 +1277,7 @@ function shipParts(){
  escIdx = 0;
  }
  escBuild();
+ document.getElementById('catview').classList.add('esc-in');
  setInterval(function(){
  escBuild();
  var cont = document.getElementById('esc-fondo'); if(!cont) return;
