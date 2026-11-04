@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#2a2a2e">
 <title>Crear cuenta — Dominus</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" rel="stylesheet">
@@ -67,6 +68,12 @@ body{display:flex;flex-direction:column;min-height:100vh}footer{margin-top:auto}
 .eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#4a4a52;font-weight:700;cursor:pointer;font-family:inherit;font-size:13px;padding:6px 8px}
 .forgot{display:block;text-align:center;margin-top:14px;color:#5a6270;font-size:14px;font-weight:700;text-decoration:none}
 .forgot:hover{text-decoration:underline}
+/* Entrada suave del panel de sesión (2026-11-04, pedido de Sergio: sin pantalla blanca ni aparición de golpe) */
+html{background:#2a2a2e}
+header.top{animation:cuentaIn .4s ease both}
+main{animation:cuentaIn .6s ease .05s both}
+@keyframes cuentaIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){header.top,main{animation:none}}
 </style>
 </head>
 <body>
@@ -274,7 +281,7 @@ function goTo(t, s){
       }
     }).catch(function(){ location.href = 'vendedor/cuenta.html'; });
   } else {
-    location.href = 'comprador/perfil.html';
+    location.href = 'zapatos.html';
   }
 }
 document.getElementById('btn-in').onclick = function(){
