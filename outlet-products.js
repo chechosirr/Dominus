@@ -20857,8 +20857,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Bobs Arch Comfort Slip-Ins — Natural Linen",
   "genero": "Mujer",
-  "precio": 39.99,
-  "precio_c": 1471,
+  "precio": 49.98,
+  "precio_c": 1838,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114247NAT_1.jpg?v=1787607916",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114247NAT_2.jpg?v=1787607917",
@@ -24368,8 +24368,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Microspec Advance - Toddler",
   "genero": "Niños",
-  "precio": 39.99,
-  "precio_c": 1471,
+  "precio": 49.98,
+  "precio_c": 1838,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304071NWSL_1.jpg?v=1790114053",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304071NWSL_2.jpg?v=1790114053",
@@ -26659,8 +26659,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Speedcat OG (Big Kid) — Magic Rosa / Blanco",
   "genero": "Niños",
-  "precio": 69.98,
-  "precio_c": 2573,
+  "precio": 79.97,
+  "precio_c": 2941,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40169805_1.jpg?v=1753916504&width=1024",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40169805_2.jpg?v=1753916503&width=1024",
