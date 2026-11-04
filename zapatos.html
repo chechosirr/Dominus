@@ -165,10 +165,13 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(80px);background:var(--dark);color:#fff;padding:13px 22px;border-radius:999px;font-weight:700;font-size:.95rem;z-index:90;transition:transform .3s;box-shadow:0 10px 30px rgba(0,0,0,.35);max-width:92vw;text-align:center}
 .toast.show{transform:translateX(-50%) translateY(0)}
 .cartx{display:none}
-/* Escritorio (2026-11-04, pedido de Sergio): el checkout a pantalla completa, no como panel desplegado */
+.co-h{font-size:1.05rem;margin:0 0 12px}
+/* Escritorio (2026-11-04, pedido de Sergio): el checkout a pantalla completa, no como panel desplegado; artículos y dirección a la izquierda, pago a la derecha */
 @media (min-width:900px){
  .cartpanel{left:0;right:0;width:100%}
- .cartpanel #cart-body{max-width:860px;margin-left:auto;margin-right:auto}
+ .cartpanel #cart-body{max-width:1180px;margin-left:auto;margin-right:auto;display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:start}
+ .cartpanel .co-right{position:sticky;top:12px}
+ .cartpanel .cempty{grid-column:1/-1}
  .cartx{display:flex;align-items:center;justify-content:center;margin-left:auto;background:#fff;border:1px solid var(--bord);width:38px;height:38px;border-radius:50%;font-size:16px;cursor:pointer;color:#111;font-family:inherit;flex:none}
 }
 @media (max-width:900px){
@@ -1037,7 +1040,7 @@ function shipParts(){
  var sd = shipData();
  var sdCiu = sd.ciudad || '', sdDep = sd.departamento || '';
  if(!sdDep && sdCiu.indexOf(',') >= 0){ var _sp = sdCiu.split(','); sdCiu = (_sp[0] || '').trim(); sdDep = (_sp[1] || '').trim().replace(/\.$/, ''); }
- var html = cart.map(function(it, ix){
+ var html = '<div class="co-left"><h3 class="co-h">Artículos escogidos</h3>' + cart.map(function(it, ix){
  var p = byCode(it.codigo); if(!p) return '';
  return '<div class="citem"><img src="'+esc(p.fotos[0])+'" alt="">'
  + '<div class="info"><b>'+esc(p.nombre)+'</b><small>Talla US '+esc(it.talla)+' · '+money(priceFor(p, it.talla))+' c/u</small><br>'
@@ -1054,8 +1057,8 @@ function shipParts(){
  + '<label>Ciudad</label><input id="sf-ciu" value="'+esc(sdCiu)+'" placeholder="Ej: Estelí">'
  + '<label id="sf-dep-lab">Departamento</label><select id="sf-dep"></select>'
  + '<div id="sf-zip-wrap" style="display:none"><label>Código postal (ZIP)</label><input id="sf-zip" value="'+esc(sd.zip||'')+'" placeholder="Ej: 90210" inputmode="numeric"></div>'
- + '</div>'
- + '<div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
+ + '</div></div>'
+ + '<div class="co-right"><div class="shipopts"><h3 style="font-size:1.05rem;margin-bottom:8px">Tipo de envío</h3>'
  + (t.esUS
  ? '<button class="shipopt sel" type="button"><span><b>Envío a Estados Unidos</b><br><small>Costo por cada par</small></span><b>'+money(ENVIO_USA_VAL())+' / par</b></button>'
  : '<button class="shipopt'+(t.tipo==='std'?' sel':'')+'" data-tipo="std"><span><b>Envío Standard</b><br><small>25 días hábiles</small></span><b>'+money(ZAP_ENVIO_STD)+' / par</b></button>'
@@ -1069,7 +1072,7 @@ function shipParts(){
  + '<div style="position:relative;margin-top:8px"><div id="paypal-button-container"></div><div id="pp-gate" style="display:none;position:absolute;inset:0;z-index:2147483000;cursor:pointer"></div></div>'
  + '<div id="pp-error" style="display:none;margin-top:10px;background:#fdecec;border:1px solid #e3a3a3;color:#8a1f1f;border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap"></div>'
  + '<p style="font-size:12px;color:var(--mut);margin-top:10px;text-align:center">Pagas el total por PayPal en una sola transacción. '+(t.esUS ? 'Envío a tu dirección en Estados Unidos: $4.99 por par.' : 'Entrega a la puerta de tu casa en '+t.plazo+' días hábiles.')+'</p>'
- + '</div>';
+ + '</div></div>';
  body.innerHTML = html;
  ['sf-nom','sf-tel','sf-dir','sf-ciu','sf-zip'].forEach(function(id){
  var el = document.getElementById(id); if(el) el.addEventListener('input', function(){ saveShipForm(); this.classList.remove('sf-bad'); actualizarGate(); });
