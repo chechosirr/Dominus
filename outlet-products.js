@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "3 de noviembre de 2026";
+var ZAP_VERIFICADO = "4 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -20857,8 +20857,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Bobs Arch Comfort Slip-Ins — Natural Linen",
   "genero": "Mujer",
-  "precio": 54.98,
-  "precio_c": 2022,
+  "precio": 39.99,
+  "precio_c": 1471,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114247NAT_1.jpg?v=1787607916",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/114247NAT_2.jpg?v=1787607917",
@@ -24368,8 +24368,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Microspec Advance - Toddler",
   "genero": "Niños",
-  "precio": 54.98,
-  "precio_c": 2022,
+  "precio": 39.99,
+  "precio_c": 1471,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304071NWSL_1.jpg?v=1790114053",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/304071NWSL_2.jpg?v=1790114053",
@@ -26659,8 +26659,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Speedcat OG (Big Kid) — Magic Rosa / Blanco",
   "genero": "Niños",
-  "precio": 99.98,
-  "precio_c": 3677,
+  "precio": 69.98,
+  "precio_c": 2573,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40169805_1.jpg?v=1753916504&width=1024",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40169805_2.jpg?v=1753916503&width=1024",
