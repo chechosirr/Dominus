@@ -95,13 +95,7 @@ body.page-out{opacity:0}
 </header>
 <main>
   <div class="box">
-    <h1 style="color:#4a4a52">Elige tu tipo de cuenta:</h1>
-    
-    <div class="type-grid">
-      <div class="type-card on" id="t-comprador"><b>Comprador</b></div>
-      <!-- OCULTO 2026-11-04 (orden de Sergio: cuentas de vendedor en pausa, recuperable) -->
-      <div class="type-card" id="t-vendedor" style="display:none"><b>Vendedor</b></div>
-    </div>
+    <!-- Selector de tipo de cuenta ELIMINADO el 2026-11-04 por orden de Sergio («quita del panel de inicio de sesión eso de tipo de cuenta y las opciones para elegir cuenta»): el panel entra directo al formulario; toda cuenta es de comprador. -->
     <div class="form-card">
       <div class="tabs">
         <button id="tab-in" class="on">Entrar</button>
@@ -219,13 +213,9 @@ var FEATS = {
 };
 function setTipo(t){
   tipo = t;
-  document.getElementById('t-comprador').classList.toggle('on', t === 'comprador');
-  document.getElementById('t-vendedor').classList.toggle('on', t === 'vendedor');
   document.getElementById('feat').innerHTML = FEATS[t];
   document.getElementById('up-empresa-wrap').classList.toggle('hidden', t !== 'vendedor');
 }
-document.getElementById('t-comprador').onclick = function(){ setTipo('comprador'); };
-document.getElementById('t-vendedor').onclick = function(){ setTipo('vendedor'); };
 var qp = new URLSearchParams(location.search);
 /* OCULTO 2026-11-04: mientras las cuentas de vendedor estén en pausa, toda cuenta entra como comprador. Original: if(qp.get('tipo') === 'vendedor') setTipo('vendedor'); else setTipo('comprador'); */
 setTipo('comprador');
