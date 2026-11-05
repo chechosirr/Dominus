@@ -665,7 +665,7 @@ html{background:#f2f2f4}
 <div class="toast" id="toast"></div>
 
 <script>
-document.write('<script src="outlet-products.js?v=' + new Date().toISOString().slice(0,10) + '"><\/script>');
+document.write('<script src="outlet-products.js?v=' + Date.now() + '"><\/script>'); /* datos siempre frescos: con el sello por dia, el telefono servia la copia vieja del catalogo aunque ya estuviera corregido */
 </script>
 <script>
 var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
