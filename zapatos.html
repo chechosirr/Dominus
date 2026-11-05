@@ -1144,6 +1144,7 @@ function shipParts(){
  })
  .then(function(rows){
  var pr = rows && rows[0]; if(!pr) return;
+ var paisAntesPre = envioPais();
  var pon = function(id, v){ var el = document.getElementById(id); if(el && !el.value && v) el.value = v; };
  if(pr.nombre) pon('sf-nom', pr.nombre);
  pon('sf-dir', pr.direccion || '');
@@ -1151,10 +1152,10 @@ function shipParts(){
  pon('sf-dep', pr.departamento || '');
  pon('sf-tel', pr.telefono || '');
  var ps2 = document.getElementById('sf-pais');
- if(ps2 && pr.pais) ps2.value = /unidos|usa|eeuu|united/i.test(pr.pais) ? 'Estados Unidos' : 'Nicaragua';
+ if(ps2 && pr.pais && !(shipData().pais || '').trim()) ps2.value = /unidos|usa|eeuu|united/i.test(pr.pais) ? 'Estados Unidos' : 'Nicaragua'; /* el país que el cliente ya eligió/guardó manda: el prellenado de la cuenta NO lo pisa (ese pisado era el rebote a Nicaragua al cambiar de país) */
  saveShipForm();
  paisUI();
- if(envioPais() === 'US') renderCart();
+ if(envioPais() !== paisAntesPre) renderCart(); /* solo re-renderiza si el prellenado cambió el país de verdad (si no, se entraba en un ciclo de re-renderizados) */
  }).catch(function(){});
  }
  }catch(e){}
