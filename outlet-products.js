@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "5 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -4095,8 +4095,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Shibui Cat (Men) - Putty/Putty",
   "genero": "Hombre",
-  "precio": 42.94,
-  "precio_c": 1579,
+  "precio": 43.94,
+  "precio_c": 1616,
   "fotos": [
    "https://m.media-amazon.com/images/G/01/6pm/9629712/9629712_142257_01.jpg"
   ],
