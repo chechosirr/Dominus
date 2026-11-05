@@ -22,11 +22,11 @@ header.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:
 #hdr-back-slot{display:none}
 body.en-seccion #hdr-back-slot{display:flex;align-items:center}
 body.en-seccion header.top .logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0}
-body.en-seccion #shop-back{background:#f2f2f3;color:#17171a;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+body.en-seccion #shop-back{background:transparent;color:#fff;box-shadow:none;font-size:1.35rem;padding:6px 10px}
 body.en-seccion .shopbar{display:none}
 body.en-seccion #menu a[href="index.html"]{display:none}
 .menu-wrap{position:relative;margin-left:auto}
-#menu-btn{background:none;border:1px solid var(--line);color:#f2f4f8;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit}
+#menu-btn{background:none;border:0;color:#f2f4f8;font-size:20px;padding:8px 13px;cursor:pointer;font-family:inherit}
 .menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:16px;min-width:210px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.5);z-index:60}
 .menu.open{display:block}
 .menu a{display:block;padding:14px 20px;text-decoration:none;font-size:15px;font-weight:700;border-bottom:1px solid var(--line);color:#111111}
@@ -98,7 +98,7 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .shopbar{display:flex;align-items:center;gap:12px;padding:10px 16px 0}
 /* Título de sección tipo Amazon (pedido de Sergio 2026-11-04): solo la clase, letra Amazon Ember/Arial */
 #shop-h1{font-family:'Amazon Ember',Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;color:#0F1111;letter-spacing:0}
-.backbtn{display:inline-flex;align-items:center;gap:6px;background:#2f2f34;color:#fff;border:0;border-radius:999px;padding:9px 18px;font-family:inherit;font-size:.9rem;font-weight:800;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.18)}
+.backbtn{display:inline-flex;align-items:center;gap:6px;background:transparent;color:#17171a;border:0;padding:9px 18px;font-family:inherit;font-size:.9rem;font-weight:800;cursor:pointer;box-shadow:none}
 .backbtn:active{transform:scale(.97)}
 .backbtn.arrowonly{font-size:1.1rem;line-height:1;padding:9px 20px}
 .backbtn.light{background:#2f2f34;color:#fff;border:0;box-shadow:0 2px 8px rgba(0,0,0,.18);width:100%;justify-content:center;padding:14px}
@@ -138,6 +138,9 @@ footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-
 .d-desc ul{margin:10px 0 0 18px;line-height:1.6;font-size:.95rem}
 /* ===== Carrito (como el del marketplace) ===== */
 .cartwrap{position:fixed;inset:0;z-index:80;display:none}
+/* El header queda visible al entrar al carrito y a los productos (2026-11-04, pedido de Sergio): las vistas fijas empiezan debajo del header */
+.detail{top:var(--hdrh,64px)}
+.cartwrap{top:var(--hdrh,64px)}
 .cartwrap.open{display:block}
 .cartscrim{position:absolute;inset:0;background:rgba(0,0,0,.5)}
 .cartpanel{position:absolute;top:0;right:0;bottom:0;width:min(460px,100%);background:#fff;overflow-y:auto;padding:0 18px 40px;box-shadow:-12px 0 40px rgba(0,0,0,.3)}
@@ -192,7 +195,7 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 .cta-drop.open{display:block}
 .cta-drop p{margin:0 0 10px;font-size:.9rem;line-height:1.4}
 .cta-drop .cta-go{display:block;text-align:center;background:#2f2f34;color:#fff !important;border-radius:999px;padding:10px 14px;font-weight:700;text-decoration:none;font-size:.92rem}
-.cta-burger{display:none;background:none;border:1px solid rgba(255,255,255,.38);color:#f2f4f8;font-size:20px;border-radius:12px;padding:8px 13px;cursor:pointer;font-family:inherit;line-height:1}
+.cta-burger{display:none;background:none;border:0;color:#f2f4f8;font-size:20px;padding:8px 13px;cursor:pointer;font-family:inherit;line-height:1}
 @media (min-width:900px){.cta-wrap .login-cta-h{display:none}.cta-wrap .cta-burger{display:inline-block}}
 #q-btn,#fbtn{background:#3a3a40;border-color:#3a3a40;color:#fff}
 .applyf{background:#3a3a40;color:#fff;box-shadow:none}
@@ -468,6 +471,10 @@ html{background:#f2f2f4}
  </nav>
  </div>
 </header>
+<script>
+/* Mide el alto del header para que el carrito y el detalle del producto empiecen debajo de él y el header se siga viendo */
+(function(){ function m(){ var h = document.querySelector('header.top'); if(h) document.documentElement.style.setProperty('--hdrh', h.offsetHeight + 'px'); } m(); window.addEventListener('resize', m); })();
+</script>
 <script>
 (function(){
  try{
