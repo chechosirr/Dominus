@@ -20,9 +20,9 @@ header.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:
 .logo em{font-style:normal}
 /* ===== Al elegir una sección (Hombre/Mujer/Niños): el DOMINUS del header pasa al centro, el botón de volver sube a la izquierda del header y el «Inicio» del menú se oculta (pedido de Sergio 4-nov). Solo dentro de la sección. ===== */
 #hdr-back-slot{display:none}
-body.en-seccion #hdr-back-slot{display:flex;align-items:center}
-body.en-seccion header.top .logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0}
-body.en-seccion #shop-back{background:transparent;color:#fff;box-shadow:none;font-size:1.35rem;padding:6px 10px}
+body.en-seccion #hdr-back-slot,body.hdr-ov #hdr-back-slot{display:flex;align-items:center}
+body.en-seccion header.top .logo,body.hdr-ov header.top .logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0}
+body.en-seccion #shop-back,body.hdr-ov #shop-back{background:transparent;color:#fff;box-shadow:none;font-size:1.35rem;padding:6px 10px}
 body.en-seccion .shopbar{display:none}
 body.en-seccion #menu a[href="index.html"]{display:none}
 .menu-wrap{position:relative;margin-left:auto}
@@ -606,9 +606,6 @@ html{background:#f2f2f4}
 <div class="detail" id="detail" role="dialog" aria-modal="true">
  <button id="d-share" class="share-corner" aria-label="Compartir este producto"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4"/><path d="M15.4 6.5l-6.8 4"/></svg></button>
  <div class="detail-in">
- <div class="backbar">
- <button class="backbtn arrowonly" id="d-back" aria-label="Volver al catálogo">←</button>
- </div>
  <div class="d-grid">
  <div>
  <img class="d-main" id="d-main" alt="">
@@ -647,7 +644,6 @@ html{background:#f2f2f4}
  <div class="cartpanel">
  <div class="backbar" style="margin:0 -18px;padding:10px 18px">
  <h2 style="margin-left:4px">Mi carrito</h2>
- <button type="button" id="cart-close-x" class="cartx" aria-label="Cerrar carrito">✕</button>
  </div>
  <div id="cart-body" style="margin-top:16px"></div>
  </div>
@@ -796,6 +792,13 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  var ovState = null;
  function ovPush(name){ ovState = name; try{ history.pushState({ov:name}, ''); }catch(e){} }
  function ovReplace(name){ ovState = name; try{ history.replaceState({ov:name}, ''); }catch(e){} }
+ /* El botón de volver vive SOLO en el header (pedido de Sergio 4-nov): aparece en el header cuando hay una sección, un producto o el carrito abiertos, y es el único botón de volver en esas vistas */
+ function hdrBackSync(){
+ var need = document.body.classList.contains('en-seccion') || detail.classList.contains('open') || cartwrap.classList.contains('open');
+ var sb = document.getElementById('shop-back'), slot = document.getElementById('hdr-back-slot'), bar = document.querySelector('.shopbar');
+ if(need){ if(sb && slot && sb.parentNode !== slot) slot.appendChild(sb); document.body.classList.add('hdr-ov'); }
+ else { if(sb && bar && sb.parentNode !== bar) bar.appendChild(sb); document.body.classList.remove('hdr-ov'); }
+ }
  window.addEventListener('popstate', function(){
  var closedOv = false;
  if(detail.classList.contains('open')){ detail.classList.remove('open'); document.body.style.overflow = ''; closedOv = true; if(/[?&]p=/.test(location.search)){ try{ history.replaceState(null, '', location.pathname); }catch(e){} } }
@@ -803,6 +806,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(closedOv){ ovState = (typeof view !== 'undefined' && view === 'catalog') ? 'cat' : null; }
  else if(typeof view !== 'undefined' && view === 'catalog'){ backToPanel(); ovState = null; }
  else { ovState = null; }
+ hdrBackSync();
  });
  /* ---------- Detalle ---------- */
  function openDetail(code){
@@ -827,7 +831,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  renderSizes();
  document.getElementById('d-desc').textContent = current.descripcion;
  document.getElementById('d-feats').innerHTML = current.detalles.map(function(d){ return '<li>'+esc(d)+'</li>'; }).join('');
- detail.classList.add('open'); detail.scrollTop = 0; document.body.style.overflow = 'hidden'; if(ovState !== 'detail') ovPush('detail');
+ detail.classList.add('open'); detail.scrollTop = 0; document.body.style.overflow = 'hidden'; if(ovState !== 'detail') ovPush('detail'); hdrBackSync();
  try{ history.replaceState({ov:'detail'}, '', location.pathname + '?p=' + encodeURIComponent(code)); }catch(e){}
  }
  function renderSizes(){
@@ -845,8 +849,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  toast('Elige tu talla US primero ');
  return false;
  }
- function closeDetail(){ if(ovState === 'detail'){ history.back(); } else { detail.classList.remove('open'); document.body.style.overflow = ''; if(/[?&]p=/.test(location.search)){ try{ history.replaceState(null, '', location.pathname); }catch(e){} } } }
- document.getElementById('d-back').addEventListener('click', closeDetail);
+ function closeDetail(){ if(ovState === 'detail'){ history.back(); } else { detail.classList.remove('open'); document.body.style.overflow = ''; if(/[?&]p=/.test(location.search)){ try{ history.replaceState(null, '', location.pathname); }catch(e){} } hdrBackSync(); } }
  document.getElementById('d-share').addEventListener('click', function(){ if(current) shareZap(current.codigo); });
  document.getElementById('d-inc').addEventListener('click', function(){ curQty = Math.min(9, curQty+1); document.getElementById('d-qty').textContent = curQty; });
  document.getElementById('d-dec').addEventListener('click', function(){ curQty = Math.max(1, curQty-1); document.getElementById('d-qty').textContent = curQty; });
@@ -1040,8 +1043,7 @@ function shipParts(){
  var body = document.getElementById('cart-body');
  var t = cartTotals();
  if(!cart.length){
- body.innerHTML = '<p class="cempty">Tu carrito está vacío.<br><br><button class="backbtn" id="c-empty-back">← Ver zapatos</button></p>';
- var eb = document.getElementById('c-empty-back'); if(eb) eb.onclick = closeCart;
+ body.innerHTML = '<p class="cempty">Tu carrito está vacío.</p>';
  return;
  }
  var sd = shipData();
@@ -1235,11 +1237,10 @@ function shipParts(){
  s2.onload = init; document.head.appendChild(s2);
  } else { init(); }
  }
- function openCart(){ if(ZAP_DIRS === null) loadZapDirs(); renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } }
- function closeCart(){ if(ovState === 'cart'){ history.back(); } else { cartwrap.classList.remove('open'); document.body.style.overflow = ''; } }
+ function openCart(){ if(ZAP_DIRS === null) loadZapDirs(); renderCart(); cartwrap.classList.add('open'); document.body.style.overflow = 'hidden'; if(ovState === 'detail'){ ovReplace('cart'); } else if(ovState !== 'cart'){ ovPush('cart'); } hdrBackSync(); }
+ function closeCart(){ if(ovState === 'cart'){ history.back(); } else { cartwrap.classList.remove('open'); document.body.style.overflow = ''; hdrBackSync(); } }
  document.getElementById('menu-cart').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('menu').classList.remove('open'); openCart(); });
  document.getElementById('cartscrim').addEventListener('click', closeCart);
- var cartX = document.getElementById('cart-close-x'); if(cartX) cartX.addEventListener('click', closeCart);
  
  /* ---------- Filtros / búsqueda ---------- */
  function applySearch(){ state.q = document.getElementById('q').value; render(); }
@@ -1283,6 +1284,7 @@ function shipParts(){
  var hdrSb = document.getElementById('shop-back');
  var hdrSlot = document.getElementById('hdr-back-slot');
  if(hdrSb && hdrSlot) hdrSlot.appendChild(hdrSb);
+ hdrBackSync();
  window.scrollTo(0, 0);
  render();
  if(ovState !== 'cat') ovPush('cat');
@@ -1295,6 +1297,7 @@ function shipParts(){
  var hdrSb2 = document.getElementById('shop-back');
  var hdrBar = document.querySelector('.shopbar');
  if(hdrSb2 && hdrBar) hdrBar.appendChild(hdrSb2);
+ hdrBackSync();
  document.body.style.overflow = 'hidden';
  window.scrollTo(0, 0);
  }
@@ -1342,7 +1345,7 @@ function shipParts(){
  escIdx = (escIdx + 1) % imgs.length;
  imgs[escIdx].classList.add('on');
  }, 8000);
- document.getElementById('shop-back').addEventListener('click', function(){ if(ovState === 'cat'){ history.back(); } else { backToPanel(); } });
+ document.getElementById('shop-back').addEventListener('click', function(){ if(cartwrap.classList.contains('open')){ closeCart(); } else if(detail.classList.contains('open')){ closeDetail(); } else if(ovState === 'cat'){ history.back(); } else { backToPanel(); } });
  updateBadges();
  render();
  var deepP = null;
