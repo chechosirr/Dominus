@@ -696,6 +696,8 @@ var WA_NUMBER = "15704698339";
  var state = { q:'', genero:'', marca:'', precio:'', talla:'', sort:'' };
  var detail = document.getElementById('detail'), current = null, curSize = '', curQty = 1;
  var cartwrap = document.getElementById('cartwrap');
+ /* Red de seguridad permanente (2026-11-04): las URLs de Amazon con _AC_SRw,h_ RECORTAN la foto a ese encuadre y salian cortadas/enormes en la ficha. Aunque una URL recortada volviera a entrar al catalogo, aqui se convierte a _AC_SX1024_ (misma foto, sin recorte) antes de mostrarse. */
+ if(typeof ZAPATOS !== 'undefined'){ ZAPATOS.forEach(function(p){ if(p.fotos) p.fotos = p.fotos.map(function(u){ return (u || '').replace(/_AC_SR\d+,\d+_/, '_AC_SX1024_'); }); }); }
 
  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
  function money(n){ return '$' + Number(n).toFixed(2); }

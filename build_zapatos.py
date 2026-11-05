@@ -119,6 +119,9 @@ def _nocrop(u):
 def write_outputs(out, verificado=None):
     for p in out:
         if p.get('fotos'): p['fotos'] = [_nocrop(u) for u in p['fotos']]
+    malas = [u for p in out for u in (p.get('fotos') or []) if '_AC_SR' in u]
+    if malas:
+        raise SystemExit('FOTOS RECORTADAS DETECTADAS (variante _AC_SR no reconocida): ' + str(malas[:3]))
     master = {'tc': TC, 'envio_ni_lb': None, 'peso_lb': None,
               'envio_std_par': ENVIO_STD_PAR, 'envio_prio_par': ENVIO_PRIO_PAR, 'productos': out}
     json.dump(master, open(MASTER, 'w'), ensure_ascii=False, indent=1)
