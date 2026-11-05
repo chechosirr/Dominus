@@ -9725,76 +9725,460 @@ var ZAP_HISTORIAL = [
   "nombre": "Kids New-B 1440 Infant/Toddler Brighton Grey/Angora"
  },
  {
+  "codigo": "DOM-3863",
+  "nombre": "Sneaker Lab Sneaker Wipe"
+ },
+ {
+  "codigo": "DOM-3864",
+  "nombre": "On Running Mens Run PAF 1 Sock"
+ },
+ {
+  "codigo": "DOM-3866",
+  "nombre": "Men's Running Short Sleeve Tee"
+ },
+ {
+  "codigo": "DOM-3867",
+  "nombre": "Sneaker Wipes (Black)"
+ },
+ {
+  "codigo": "DOM-3868",
+  "nombre": "3 Pack Basic Sneaker Low Cut Socks"
+ },
+ {
+  "codigo": "DOM-3869",
+  "nombre": "White Sponge"
+ },
+ {
   "codigo": "DOM-387",
   "nombre": "Lee Roland — Black/Black"
+ },
+ {
+  "codigo": "DOM-3870",
+  "nombre": "Paradise Lost Road Runner Sleeveless Tee"
+ },
+ {
+  "codigo": "DOM-3873",
+  "nombre": "Men's Basketball T-Shirt"
+ },
+ {
+  "codigo": "DOM-3874",
+  "nombre": "SP Shoe Proofer"
+ },
+ {
+  "codigo": "DOM-3875",
+  "nombre": "PUMA Sneaker Graphic Tee"
+ },
+ {
+  "codigo": "DOM-3876",
+  "nombre": "Black Shine Sponge"
+ },
+ {
+  "codigo": "DOM-3877",
+  "nombre": "Nike Elite Crew Basketball Socks"
+ },
+ {
+  "codigo": "DOM-3879",
+  "nombre": "Men's Athlete Speed Running Tights"
  },
  {
   "codigo": "DOM-388",
   "nombre": "Dockers Energy Lo — White/Gum"
  },
  {
+  "codigo": "DOM-3880",
+  "nombre": "Premium Suede Nubuck Shoe Cleaner Solution"
+ },
+ {
+  "codigo": "DOM-3882",
+  "nombre": "Instant Shine Sponge"
+ },
+ {
+  "codigo": "DOM-3883",
+  "nombre": "Nike Max90 Basketball Tee"
+ },
+ {
+  "codigo": "DOM-3885",
+  "nombre": "Men's Country Club Oxford Pique Polo Shirt"
+ },
+ {
+  "codigo": "DOM-3886",
+  "nombre": "Premium Shoe Cleaner Solution"
+ },
+ {
+  "codigo": "DOM-3888",
+  "nombre": "Fresh Fogger 3oz"
+ },
+ {
   "codigo": "DOM-389",
   "nombre": "Reebok Classic Leather — Gritty Grey/Washed Black/Energy Red"
+ },
+ {
+  "codigo": "DOM-3891",
+  "nombre": "Men's Running Shorts 7\""
+ },
+ {
+  "codigo": "DOM-3892",
+  "nombre": "Crease Shield (Black)"
+ },
+ {
+  "codigo": "DOM-3894",
+  "nombre": "Rookie Basketball Short - Mens"
+ },
+ {
+  "codigo": "DOM-3896",
+  "nombre": "Men's Nike KMA Basketball Shorts - Damaged"
+ },
+ {
+  "codigo": "DOM-3898",
+  "nombre": "The Nightmare Before Christmas By Shoe Palace Web Beanie Mens Hat (Black/White)"
+ },
+ {
+  "codigo": "DOM-3899",
+  "nombre": "Adi365 Running Iconic Shorts"
  },
  {
   "codigo": "DOM-390",
   "nombre": "Skechers Track Broader Wide — Black/Charcoal"
  },
  {
+  "codigo": "DOM-3900",
+  "nombre": "Classic Basketball Short - Mens"
+ },
+ {
+  "codigo": "DOM-3901",
+  "nombre": "Jason Markk Jason Markk 4oz. Premium Shoe Cleaner"
+ },
+ {
+  "codigo": "DOM-3902",
+  "nombre": "Mitchell & Ness Kentucky Wildcats NCAA Vintage Basketball Tee in White / Blue / Orange"
+ },
+ {
+  "codigo": "DOM-3903",
+  "nombre": "The Nightmare Before Christmas By Shoe Palace RIP Beanie Mens Hat (Black/White)"
+ },
+ {
+  "codigo": "DOM-3904",
+  "nombre": "Basketball Graphic Crew Neck Short Sleeve T-Shirt"
+ },
+ {
+  "codigo": "DOM-3906",
+  "nombre": "Jason Markk Jason Markk Shoe Cleaner Starter Kit"
+ },
+ {
+  "codigo": "DOM-3907",
+  "nombre": "Marvel By Shoe Palace Heroes Beanie Mens Hat (Black/Red)"
+ },
+ {
+  "codigo": "DOM-3909",
+  "nombre": "Sneaker Cleaning Kit"
+ },
+ {
   "codigo": "DOM-391",
   "nombre": "Gola Tempest White/Light Grey/Ash"
+ },
+ {
+  "codigo": "DOM-3910",
+  "nombre": "Nike Ja Basketball Tee"
+ },
+ {
+  "codigo": "DOM-3911",
+  "nombre": "Disney Mickey and Friends By Shoe Palace Mickey Mouse Beanie Mens Hat (Cream/Black)"
+ },
+ {
+  "codigo": "DOM-3913",
+  "nombre": "Icon 10\" Basketball Short - Mens"
+ },
+ {
+  "codigo": "DOM-3914",
+  "nombre": "Jordan Flight Club Pro Unstructured Flat Bill Hat"
+ },
+ {
+  "codigo": "DOM-3915",
+  "nombre": "Disney Mickey Mouse Real Life By Shoe Palace All Over Print Mens Scarf (Beige/Black)"
+ },
+ {
+  "codigo": "DOM-3917",
+  "nombre": "Classic 10\" Basketball Short - Mens"
+ },
+ {
+  "codigo": "DOM-3919",
+  "nombre": "Essential Kit 4oz Shoe Cleaning Kit"
  },
  {
   "codigo": "DOM-392",
   "nombre": "Nike AL8 Platinum Violet/White/Metallic Silver"
  },
  {
+  "codigo": "DOM-3920",
+  "nombre": "ADI365 Running Formotion Iconic Shorts"
+ },
+ {
+  "codigo": "DOM-3922",
+  "nombre": "Shoe Palace Exclusive NBA Miami Heat 950AF Snapback Mens Hat (Chrome/Black)"
+ },
+ {
+  "codigo": "DOM-3923",
+  "nombre": "Verbiage T 2"
+ },
+ {
+  "codigo": "DOM-3924",
+  "nombre": "Flight Pro Unstructured Flat Bill Mens Hat (Black/Kelly Green/White)"
+ },
+ {
+  "codigo": "DOM-3925",
+  "nombre": "Running Armband"
+ },
+ {
+  "codigo": "DOM-3926",
+  "nombre": "Flight Club Pro Unstructured Flat Bill Mens Hat (Pale Ivory/Black)"
+ },
+ {
+  "codigo": "DOM-3927",
+  "nombre": "Dylan Wildcat Oversized Basketball Tee"
+ },
+ {
+  "codigo": "DOM-3928",
+  "nombre": "Flight Club Pro Unstructured Flat Bill Mens Hat (Black/Black)"
+ },
+ {
+  "codigo": "DOM-3929",
+  "nombre": "Summer Hoops Graphic T-Shirt"
+ },
+ {
   "codigo": "DOM-393",
   "nombre": "Vans Classic Slip-On Sherpa Tan"
+ },
+ {
+  "codigo": "DOM-3930",
+  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Día De Muertos Skull Mens Short Sleeve Shirt (Black)"
+ },
+ {
+  "codigo": "DOM-3932",
+  "nombre": "SP x Harlem Globetrotters Basketball Mens Short Sleeve Shirt (Cream/Red)"
+ },
+ {
+  "codigo": "DOM-3934",
+  "nombre": "SP x Harlem Globetrotters Basketball Washed Mens Short Sleeve Shirt (Black/Red)"
+ },
+ {
+  "codigo": "DOM-3936",
+  "nombre": "Realtree by Shoe Palace Camo Mesh Mens Jersey (Brown)"
+ },
+ {
+  "codigo": "DOM-3938",
+  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Houston Texans Snapback Mens Hat (Black/Navy)"
  },
  {
   "codigo": "DOM-394",
   "nombre": "PUMA Palermo Velvet Dream Mauve Mist/Alpine Snow"
  },
  {
+  "codigo": "DOM-3940",
+  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Seattle Seahawks Snapback Mens Hat (Black/Blue)"
+ },
+ {
+  "codigo": "DOM-3942",
+  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Kansas City Chiefs Snapback Mens Hat (Black/Red)"
+ },
+ {
+  "codigo": "DOM-3944",
+  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Miami Dolphins Snapback Mens Hat (Black/Teal)"
+ },
+ {
+  "codigo": "DOM-3946",
+  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Detroit Lions Snapback Mens Hat (Black/Blue)"
+ },
+ {
+  "codigo": "DOM-3948",
+  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Philadelphia Eagles Snapback Mens Hat (Black/Green)"
+ },
+ {
   "codigo": "DOM-395",
   "nombre": "PUMA Palermo Elevata Puma White"
+ },
+ {
+  "codigo": "DOM-3950",
+  "nombre": "Shoe Palace Exclusive East Los Angeles 950AF Snapback Mens Hat (Black/White)"
+ },
+ {
+  "codigo": "DOM-3952",
+  "nombre": "Shoe Palace Exclusive NBA Dallas Mavericks 950AF Snapback Mens Hat (Chrome/Black)"
+ },
+ {
+  "codigo": "DOM-3954",
+  "nombre": "Shoe Palace Exclusive San Francisco Giants Two Tone 950AF Snapback Mens Hat (White/Black)"
+ },
+ {
+  "codigo": "DOM-3956",
+  "nombre": "Shoe Palace Exclusive Seattle Mariners 20th Anniversay 59fifty Fitted Mens Hat (Navy/Green)"
+ },
+ {
+  "codigo": "DOM-3958",
+  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers City 950AF Mens Hat (Chrome/Light Blue)"
  },
  {
   "codigo": "DOM-396",
   "nombre": "Converse Chuck Taylor All Star Dainty Lucky Black/White/Black"
  },
  {
+  "codigo": "DOM-3960",
+  "nombre": "Basketball Stripe Mesh Mens Shorts (Black/White)"
+ },
+ {
+  "codigo": "DOM-3962",
+  "nombre": "Basketball Stripe Mesh Mens Shorts (Green/Black)"
+ },
+ {
+  "codigo": "DOM-3963",
+  "nombre": "Race Day Track & Field Running Arm Sleeves"
+ },
+ {
+  "codigo": "DOM-3964",
+  "nombre": "Originals Graphic Basketball Mens Shorts (Green/Red)"
+ },
+ {
+  "codigo": "DOM-3965",
+  "nombre": "3G Speed Basketball AEROREADY Shorts"
+ },
+ {
+  "codigo": "DOM-3966",
+  "nombre": "Original Basketball Mens Shorts (Black/Ivory)"
+ },
+ {
+  "codigo": "DOM-3967",
+  "nombre": "Adi365 Aspyre Running T-Shirt"
+ },
+ {
+  "codigo": "DOM-3968",
+  "nombre": "Shoe Palace Exclusive San Francisco 49ers Black Suede 950AF Snapback Mens Hat (Black)"
+ },
+ {
+  "codigo": "DOM-3969",
+  "nombre": "LaFrancé Heem Aerospace Oversized Basketball Tee"
+ },
+ {
   "codigo": "DOM-397",
   "nombre": "Madden Girl Livvyy Red Multi"
+ },
+ {
+  "codigo": "DOM-3970",
+  "nombre": "Shoe Palace Exclusive Las Vegas Raiders Gold 2 Tone 950AF Snapback Mens Hat (Gold/Black)"
+ },
+ {
+  "codigo": "DOM-3971",
+  "nombre": "Adi365 Running Animal Print Iconic T-Shirt"
+ },
+ {
+  "codigo": "DOM-3972",
+  "nombre": "Air Basketball Mens Short (Green/Black)"
+ },
+ {
+  "codigo": "DOM-3974",
+  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Modern Originals Mens Short Sleeve Shirt (Blue)"
+ },
+ {
+  "codigo": "DOM-3976",
+  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Modern Originals Mens Short Sleeve Shirt (Black)"
+ },
+ {
+  "codigo": "DOM-3978",
+  "nombre": "Disney Pixar's Toy Story By Shoe Palace Pizza Planet Mens Short Sleeve Shirt (Beige/Red)"
  },
  {
   "codigo": "DOM-398",
   "nombre": "Nike Pacific Team Crimson/White/Black/Gum Light Brown"
  },
  {
+  "codigo": "DOM-3980",
+  "nombre": "Disney Pixar's Toy Story By Shoe Palace Jessie Denim Mens Pants (Blue/Yellow)"
+ },
+ {
+  "codigo": "DOM-3982",
+  "nombre": "Disney Pixar's Toy Story By Shoe Palace Sid Mens Short Sleeve Shirt (Black/Green)"
+ },
+ {
+  "codigo": "DOM-3984",
+  "nombre": "Disney Pixar Cars By Shoe Palace Flags Hybrid Mens Shorts (Black/Red)"
+ },
+ {
+  "codigo": "DOM-3986",
+  "nombre": "Nike Basketball Tee"
+ },
+ {
   "codigo": "DOM-399",
   "nombre": "Nike Flex Train Vast Grey/Tattoo/College Grey"
+ },
+ {
+  "codigo": "DOM-3990",
+  "nombre": "Disney Pixar's Toy Story By Shoe Palace Toys Are Back Mens Short Sleeve Shirt (beige/Black)"
+ },
+ {
+  "codigo": "DOM-3997",
+  "nombre": "The Simpsons By Shoe Palace Chalkboard Mens Short Sleeve Shirt (Black/Yellow)"
  },
  {
   "codigo": "DOM-400",
   "nombre": "Calvin Klein Noahe Light Natural"
  },
  {
+  "codigo": "DOM-4004",
+  "nombre": "Kobe Basketball Mens Shorts (Black/Metallic Gold)"
+ },
+ {
+  "codigo": "DOM-4006",
+  "nombre": "Jordan Jumpman Pro Cap Structured Flat Bill Snapback"
+ },
+ {
   "codigo": "DOM-401",
   "nombre": "PUMA Foreverrun Nitro 2 Silver Mist/Apple Spritz"
+ },
+ {
+  "codigo": "DOM-4011",
+  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Waves And Roses Mens Shorts (Black/Blue)"
+ },
+ {
+  "codigo": "DOM-4015",
+  "nombre": "Nike SB Mens Skate Tee"
+ },
+ {
+  "codigo": "DOM-4018",
+  "nombre": "Shoe Palace Exclusive Houston Astros Waves And Roses Mens Shorts (Black/Blue)"
  },
  {
   "codigo": "DOM-402",
   "nombre": "adidas Streettalk White/Cyber Metallic/White"
  },
  {
+  "codigo": "DOM-4021",
+  "nombre": "Nike Dri-FIT Bowler Skate Top"
+ },
+ {
+  "codigo": "DOM-4025",
+  "nombre": "Realtree by Shoe Palace Hardwoods DK Mens Pants (Brown)"
+ },
+ {
   "codigo": "DOM-403",
   "nombre": "adidas Ultraboost S.RDY Echo Pink/Light Flash Red/Footwear White"
  },
  {
+  "codigo": "DOM-4030",
+  "nombre": "Ice Cream Rum Runner S/S Tee in Black"
+ },
+ {
+  "codigo": "DOM-4032",
+  "nombre": "Shoe Palace Exclusive Seattle Mariners 59fifty Fitted Mens Hat (Black/Green)"
+ },
+ {
+  "codigo": "DOM-4039",
+  "nombre": "Disney Tim Burton's The Nightmare Before Christmas By Shoe Palace Washed Moon Mens Short Sleeve Shirt (Black/Gray)"
+ },
+ {
   "codigo": "DOM-404",
   "nombre": "adidas Supernova Rise 2 Grey/Grey/Chalk White"
+ },
+ {
+  "codigo": "DOM-4048",
+  "nombre": "Nike SB Men's Double-Knee Skate Pants (Cacao Wow)"
  },
  {
   "codigo": "DOM-405",
@@ -9809,36 +10193,180 @@ var ZAP_HISTORIAL = [
   "nombre": "Vans MTE UltraRange 2.0 SE Ripstop Vintage White"
  },
  {
+  "codigo": "DOM-4075",
+  "nombre": "AlphaStyle Skate Pullover Fleece Hoodie"
+ },
+ {
+  "codigo": "DOM-4076",
+  "nombre": "Nike SB Mens Short-Sleeve Skate Top"
+ },
+ {
+  "codigo": "DOM-4078",
+  "nombre": "Adidas Originals Basketball Shorts"
+ },
+ {
   "codigo": "DOM-408",
   "nombre": "Keds Champion Seasonal Tan/Black Leopard Calf Hair"
+ },
+ {
+  "codigo": "DOM-4080",
+  "nombre": "Women's Basketball Mesh T-Shirt"
+ },
+ {
+  "codigo": "DOM-4082",
+  "nombre": "Shoe Palace Exclusive OG Bling Zip Up Womens Hoodie (Beige)"
+ },
+ {
+  "codigo": "DOM-4083",
+  "nombre": "Select Basketball 2 Quarter"
+ },
+ {
+  "codigo": "DOM-4084",
+  "nombre": "2 Pack Sneaker Happy Balls"
+ },
+ {
+  "codigo": "DOM-4086",
+  "nombre": "DTLR Sneaker Wipes"
+ },
+ {
+  "codigo": "DOM-4087",
+  "nombre": "Nike Elite Basketball Crew Socks"
+ },
+ {
+  "codigo": "DOM-4088",
+  "nombre": "Warm-Up Basketball T-Shirt"
  },
  {
   "codigo": "DOM-409",
   "nombre": "victoria Seul Suede Colors Rojo"
  },
  {
+  "codigo": "DOM-4092",
+  "nombre": "Shoe Horn"
+ },
+ {
+  "codigo": "DOM-4094",
+  "nombre": "DTLR Ultimate Cleaner"
+ },
+ {
+  "codigo": "DOM-4095",
+  "nombre": "HUF x Realtree Skate Tool"
+ },
+ {
+  "codigo": "DOM-4096",
+  "nombre": "Women's Long Sleeve Running Top"
+ },
+ {
+  "codigo": "DOM-4099",
+  "nombre": "Be One Multilayer Full Zip Running Vest"
+ },
+ {
   "codigo": "DOM-410",
   "nombre": "victoria Seul Multicolor Camel"
+ },
+ {
+  "codigo": "DOM-4100",
+  "nombre": "Woven Running Short - Womens"
+ },
+ {
+  "codigo": "DOM-4102",
+  "nombre": "DTLR Ultimate Proofer Spray"
+ },
+ {
+  "codigo": "DOM-4103",
+  "nombre": "Mitchell & Ness NBA Remix Logo Snapback 'Portland Trail Blazers' in Red"
+ },
+ {
+  "codigo": "DOM-4104",
+  "nombre": "Women's ID Basketball 3/4 Compression Leggings"
+ },
+ {
+  "codigo": "DOM-4106",
+  "nombre": "3-Stripes Rubber Mini Basketball"
+ },
+ {
+  "codigo": "DOM-4107",
+  "nombre": "6 Pack Sneaker Matrix Balls"
+ },
+ {
+  "codigo": "DOM-4108",
+  "nombre": "DTLR Crease Shield"
  },
  {
   "codigo": "DOM-411",
   "nombre": "Vintage Havana Hidden Black/Natural"
  },
  {
+  "codigo": "DOM-4110",
+  "nombre": "Woven Basketball Shorts"
+ },
+ {
+  "codigo": "DOM-4114",
+  "nombre": "Nike A'ja Wilson Dri-FIT Basketball Shorts"
+ },
+ {
+  "codigo": "DOM-4115",
+  "nombre": "Basketball Trucker Cap"
+ },
+ {
+  "codigo": "DOM-4118",
+  "nombre": "Flat Crossbody"
+ },
+ {
   "codigo": "DOM-412",
   "nombre": "victoria Cosmos Rosa"
+ },
+ {
+  "codigo": "DOM-4120",
+  "nombre": "Running Cap"
+ },
+ {
+  "codigo": "DOM-4124",
+  "nombre": "UGG Protector"
+ },
+ {
+  "codigo": "DOM-4125",
+  "nombre": "Flat Brim Running Cap"
+ },
+ {
+  "codigo": "DOM-4129",
+  "nombre": "Nike A'ja Wilson A'symmetric Reversible Dri-FIT Basketball Top"
  },
  {
   "codigo": "DOM-413",
   "nombre": "Reebok Club C Double Geo White/Chalk"
  },
  {
+  "codigo": "DOM-4130",
+  "nombre": "Vented Flat Brim Running Cap"
+ },
+ {
+  "codigo": "DOM-4133",
+  "nombre": "Nike A'ja Wilson A'symmetric Reversible Single-Leg Basketball Leggings"
+ },
+ {
+  "codigo": "DOM-4138",
+  "nombre": "Women's Lux Metallic 2-in-1 Running Shorts 3\""
+ },
+ {
   "codigo": "DOM-414",
   "nombre": "Allbirds Courier Stormy Grey/Medium Grey (Barely Grey)"
  },
  {
+  "codigo": "DOM-4144",
+  "nombre": "Technical Running Cap With Drawcord"
+ },
+ {
+  "codigo": "DOM-4147",
+  "nombre": "French Terry Basketball Hoodie"
+ },
+ {
   "codigo": "DOM-415",
   "nombre": "victoria Berlin Ciclista Glitter Hielo"
+ },
+ {
+  "codigo": "DOM-4159",
+  "nombre": "Women's Running Leggings"
  },
  {
   "codigo": "DOM-416",
@@ -9857,12 +10385,36 @@ var ZAP_HISTORIAL = [
   "nombre": "Blowfish Malibu Moon 2 Blue"
  },
  {
+  "codigo": "DOM-4191",
+  "nombre": "Race Day Running Headband"
+ },
+ {
+  "codigo": "DOM-4193",
+  "nombre": "Running Adizero Quarter Sock"
+ },
+ {
   "codigo": "DOM-420",
   "nombre": "Converse Chuck Taylor All Star Peached Canvas High-Top Sage Smoke/Egret/Black"
  },
  {
+  "codigo": "DOM-4201",
+  "nombre": "Running Baseball Cap"
+ },
+ {
+  "codigo": "DOM-4202",
+  "nombre": "Basketball 3-Stripe Shorts"
+ },
+ {
+  "codigo": "DOM-4203",
+  "nombre": "Basketball Leopard Graphic Tee"
+ },
+ {
   "codigo": "DOM-421",
   "nombre": "Rocket Dog Rex Black"
+ },
+ {
+  "codigo": "DOM-4211",
+  "nombre": "FS+ Button Up Shirt"
  },
  {
   "codigo": "DOM-422",
@@ -9871,6 +10423,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-423",
   "nombre": "Rocket Dog Jazzin Plus Natural"
+ },
+ {
+  "codigo": "DOM-4231",
+  "nombre": "Adizero Pro Running Pocket Shorts"
  },
  {
   "codigo": "DOM-424",
@@ -9897,16 +10453,40 @@ var ZAP_HISTORIAL = [
   "nombre": "Skechers Glide-Step Vortex Avalin Light Gray"
  },
  {
+  "codigo": "DOM-4299",
+  "nombre": "Jumpman Tee - Youth"
+ },
+ {
   "codigo": "DOM-430",
   "nombre": "DV Dolce Vita Sloane Black White"
+ },
+ {
+  "codigo": "DOM-4304",
+  "nombre": "Mesh Sneaker Tee - Youth"
  },
  {
   "codigo": "DOM-431",
   "nombre": "PUMA Fade Nitro Y2K Gray Echo/Puma Silver"
  },
  {
+  "codigo": "DOM-4312",
+  "nombre": "Multi Dri Fit Training Woven Grade School Shorts (Gym Red/Black/White)"
+ },
+ {
+  "codigo": "DOM-4317",
+  "nombre": "Multi Dri Fit Training Woven Grade School Shorts (Black/Pure Platinum/White)"
+ },
+ {
+  "codigo": "DOM-4319",
+  "nombre": "Reversible Basketball Short - Youth"
+ },
+ {
   "codigo": "DOM-432",
   "nombre": "Tommy Hilfiger Brighs Medium Natural"
+ },
+ {
+  "codigo": "DOM-4322",
+  "nombre": "Shoe Shop Graphic Grade School Short Sleeve Shirt (White)"
  },
  {
   "codigo": "DOM-433",
@@ -9915,6 +10495,14 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-434",
   "nombre": "adidas Barreda Decode Pulse Magenta/Yellow/Bliss Pink"
+ },
+ {
+  "codigo": "DOM-4341",
+  "nombre": "AJ3 Shoe Strings Tee - Youth"
+ },
+ {
+  "codigo": "DOM-4344",
+  "nombre": "Basketball Short - Youth"
  },
  {
   "codigo": "DOM-435",
@@ -9927,6 +10515,30 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-437",
   "nombre": "Skechers BOBS Squad Chaos Stroke of Luck Grey"
+ },
+ {
+  "codigo": "DOM-4412",
+  "nombre": "City Shoe Shop Tee - Youth"
+ },
+ {
+  "codigo": "DOM-4443",
+  "nombre": "Nike SB Full Zip Fleece Skate Hoodie (Baltic Blue)"
+ },
+ {
+  "codigo": "DOM-4453",
+  "nombre": "Archive Crop Grade School Jersey (Light Pink)"
+ },
+ {
+  "codigo": "DOM-4462",
+  "nombre": "Archieve Soccer Grade School Shorts (Black)"
+ },
+ {
+  "codigo": "DOM-4471",
+  "nombre": "Archieve Soccer Grade School Shorts (Real Green)"
+ },
+ {
+  "codigo": "DOM-4479",
+  "nombre": "Archive Grade School Jersey (Real Green)"
  },
  {
   "codigo": "DOM-449",

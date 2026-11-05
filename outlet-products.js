@@ -25411,71 +25411,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3863",
-  "marca": "Sneaker Lab",
-  "nombre": "Sneaker Lab Sneaker Wipe",
-  "genero": "Hombre",
-  "precio": 18.45,
-  "precio_c": 678,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/CG743_9998_main.jpg?v=1747272648"
-  ],
-  "descripcion": "Modelo original de Sneaker Lab, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3864",
-  "marca": "On",
-  "nombre": "On Running Mens Run PAF 1 Sock",
-  "genero": "Hombre",
-  "precio": 38.0,
-  "precio_c": 1397,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/2UG10480608-1.jpg?v=1781640398",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/2UG10480608-2.jpg?v=1781640627",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/2UG10480608-3.jpg?v=1781640627",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/2UG10480608-4.jpg?v=1781640627"
-  ],
-  "descripcion": "Modelo original de On, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3865",
   "marca": "Converse",
   "nombre": "Converse Chuck 70 Hi 'Happy Camper' in Green - Damaged",
@@ -25497,168 +25432,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10"
-  ]
- },
- {
-  "codigo": "DOM-3866",
-  "marca": "Reebok",
-  "nombre": "Men's Running Short Sleeve Tee",
-  "genero": "Hombre",
-  "precio": 32.99,
-  "precio_c": 1213,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295118_F_Model_eCom.jpg?v=1785846819",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295118_FR_Torso_eCom.jpg?v=1785331390",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295118_Sid_Model_eCom.jpg?v=1785846819",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295118_B_Model_eCom.jpg?v=1785846819"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3867",
-  "marca": "SHOEPALACE ESSENTIALS",
-  "nombre": "Sneaker Wipes (Black)",
-  "genero": "Hombre",
-  "precio": 24.95,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/da440ede33874b343e9f23b64d5ce088.jpg?v=1694712513",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/7c9ab4e21d02f2cd74b771eedfeec93b.jpg?v=1694712513"
-  ],
-  "descripcion": "Modelo original de SHOEPALACE ESSENTIALS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3868",
-  "marca": "PUMA",
-  "nombre": "3 Pack Basic Sneaker Low Cut Socks",
-  "genero": "Hombre",
-  "precio": 21.95,
-  "precio_c": 807,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/90713102_1l.jpg?v=1792812056"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3869",
-  "marca": "SOFSOLE",
-  "nombre": "White Sponge",
-  "genero": "Hombre",
-  "precio": 24.96,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/82352_1.jpg?v=1715300350"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3870",
-  "marca": "Paradise Lost",
-  "nombre": "Paradise Lost Road Runner Sleeveless Tee",
-  "genero": "Hombre",
-  "precio": 22.93,
-  "precio_c": 843,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/paradise_20lost_PL00937-GREEN_M-051.jpg?v=1782415485",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/paradise_20lost_PL00937-GREEN_M-052.jpg?v=1782415494",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/paradise_20lost_PL00937-GREEN_M-054.jpg?v=1782415496",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/paradise_20lost_PL00937-GREEN_M-053.jpg?v=1782415504"
-  ],
-  "descripcion": "Modelo original de Paradise Lost, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -25709,169 +25482,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3873",
-  "marca": "Reebok",
-  "nombre": "Men's Basketball T-Shirt",
-  "genero": "Hombre",
-  "precio": 37.99,
-  "precio_c": 1397,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269196_F_Model_eCom.jpg?v=1777637416",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269196_Sid_Model_eCom.jpg?v=1777637416",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269196_B_Model_eCom.jpg?v=1777637416",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100269196_FR_Torso_eCom.jpg?v=1778329894"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3874",
-  "marca": "Shoe Palace",
-  "nombre": "SP Shoe Proofer",
-  "genero": "Hombre",
-  "precio": 24.95,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/96ee2aba86acacb896132f84387a3bcd_244d87cc-f503-4032-a03f-de0a6a9d3b48.jpg?v=1646347193",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/2aa42af94d2ca385dbbcc3400d2ed776_77ec8f9c-7645-4393-96d7-6cc979bdd2b8.jpg?v=1646347193",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/1f354012b6dff282181a610982021f16_cc84eb02-1715-4415-b48b-07595d10649c.jpg?v=1646347193"
-  ],
-  "descripcion": "Modelo original de Shoe Palace, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3875",
-  "marca": "PUMA",
-  "nombre": "PUMA Sneaker Graphic Tee",
-  "genero": "Hombre",
-  "precio": 22.95,
-  "precio_c": 844,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/69398401_1l.jpg?v=1792611314",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/69398401_2l.jpg?v=1792611314",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/69398401_3l.jpg?v=1792611314",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/69398401_4l.jpg?v=1792611314"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3876",
-  "marca": "SOFSOLE",
-  "nombre": "Black Shine Sponge",
-  "genero": "Hombre",
-  "precio": 28.98,
-  "precio_c": 1066,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/91837_1.jpg?v=1715300316"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3877",
-  "marca": "Nike",
-  "nombre": "Nike Elite Crew Basketball Socks",
-  "genero": "Hombre",
-  "precio": 27.93,
-  "precio_c": 1027,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/SX7622-100.jpg?v=1769620630"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3878",
   "marca": "Converse",
   "nombre": "Converse Cons Blue 'Kentucky Denim' 30th Anniversary - Damaged",
@@ -25900,73 +25510,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3879",
-  "marca": "Reebok",
-  "nombre": "Men's Athlete Speed Running Tights",
-  "genero": "Hombre",
-  "precio": 38.99,
-  "precio_c": 1434,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254900_F_Model_eCom.jpg?v=1767705529",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254900_FR_Torso_eCom.jpg?v=1767705529",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254900_Sid_Model_eCom.jpg?v=1767705529",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254900_B_Model_eCom.jpg?v=1767705529"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3880",
-  "marca": "Shoe Palace",
-  "nombre": "Premium Suede Nubuck Shoe Cleaner Solution",
-  "genero": "Hombre",
-  "precio": 24.95,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/30f344cff26d54185cbb19d747e9f55b.jpg?v=1646347202",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/d5092748ff8d295d8ebce72fd1cebde0.jpg?v=1646347202",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/f89da3d72212e0d870ca291cf09c0c9d.jpg?v=1646347202"
-  ],
-  "descripcion": "Modelo original de Shoe Palace, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3881",
   "marca": "Sperry",
   "nombre": "A/O Float Cozy Lined Slip On Shoes",
@@ -25987,71 +25530,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
- },
- {
-  "codigo": "DOM-3882",
-  "marca": "SOFSOLE",
-  "nombre": "Instant Shine Sponge",
-  "genero": "Hombre",
-  "precio": 29.98,
-  "precio_c": 1102,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/91844_1.jpg?v=1715299506"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3883",
-  "marca": "Nike",
-  "nombre": "Nike Max90 Basketball Tee",
-  "genero": "Hombre",
-  "precio": 27.93,
-  "precio_c": 1027,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH4126_20100_M-059.jpg?v=1757006336",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH4126_20100_M-060.jpg?v=1757006341",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH4126_20100_M-061.jpg?v=1757006336",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH4126_20100_M-058.jpg?v=1757006338"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -26077,71 +25555,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3885",
-  "marca": "Reebok",
-  "nombre": "Men's Country Club Oxford Pique Polo Shirt",
-  "genero": "Hombre",
-  "precio": 39.99,
-  "precio_c": 1471,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100264295_F_Model_eCom.jpg?v=1764595748",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100264295_Sid_Model_eCom.jpg?v=1764595748",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100264295_B_Model_eCom.jpg?v=1764595748",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100264295_B_Torso_eCom.jpg?v=1764595748"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3886",
-  "marca": "CLEANERS",
-  "nombre": "Premium Shoe Cleaner Solution",
-  "genero": "Hombre",
-  "precio": 24.95,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/41e5ccf70a18c4506f4bf4b807ff62d2.jpg?v=1633644406"
-  ],
-  "descripcion": "Modelo original de CLEANERS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3887",
   "marca": "TOMS",
   "nombre": "Leandro Lace Up Sneakers",
@@ -26162,37 +25575,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
- },
- {
-  "codigo": "DOM-3888",
-  "marca": "SOFSOLE",
-  "nombre": "Fresh Fogger 3oz",
-  "genero": "Hombre",
-  "precio": 32.98,
-  "precio_c": 1213,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/82377_1.jpg?v=1723067489"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -26243,73 +25625,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3891",
-  "marca": "Reebok",
-  "nombre": "Men's Running Shorts 7\"",
-  "genero": "Hombre",
-  "precio": 42.99,
-  "precio_c": 1581,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100283268_F_Model_eCom.jpg?v=1785847884",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100283268_FR_Torso_eCom.jpg?v=1785327947",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100283268_Sid_Model_eCom.jpg?v=1785847885",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100283268_B_Model_eCom.jpg?v=1785847885"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3892",
-  "marca": "SHOEPALACE ESSENTIALS",
-  "nombre": "Crease Shield (Black)",
-  "genero": "Hombre",
-  "precio": 29.95,
-  "precio_c": 1101,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/7742643801b00a6f5fbf9c10cbe5da63.jpg?v=1694713767",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/3ac33a04cef08af2074c924b7ae2cd55.jpg?v=1694713767",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/f35c018442e61be7861106260c547975_8476cbd0-a655-4f7b-ac85-2c7657c8a377.jpg?v=1694713767"
-  ],
-  "descripcion": "Modelo original de SHOEPALACE ESSENTIALS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3893",
   "marca": "Sperry",
   "nombre": "Striper II CVO Lace Up Sneakers",
@@ -26330,39 +25645,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
- },
- {
-  "codigo": "DOM-3894",
-  "marca": "WSS ATHLETIC",
-  "nombre": "Rookie Basketball Short - Mens",
-  "genero": "Hombre",
-  "precio": 39.99,
-  "precio_c": 1471,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/TMS6231MCP_1.jpg?v=1788298279",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/TMS6231MCP_2.jpg?v=1788298279",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/TMS6231MCP_3.jpg?v=1788298279"
-  ],
-  "descripcion": "Modelo original de WSS ATHLETIC, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -26391,39 +25673,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3896",
-  "marca": "Nike",
-  "nombre": "Men's Nike KMA Basketball Shorts - Damaged",
-  "genero": "Hombre",
-  "precio": 47.0,
-  "precio_c": 1728,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0187/5180/products/ONENESS_0004_NIKE_BASKETBALL_SHORTS_PURPLE_ORANGE_BLACK_CK6391-010.jpg?v=1602610612",
-   "https://cdn.shopify.com/s/files/1/0187/5180/products/ONENESS_0005_NIKE_BASKETBALL_SHORTS_PURPLE_ORANGE_BLACK_CK6391-010.jpg?v=1602610617",
-   "https://cdn.shopify.com/s/files/1/0187/5180/products/ONENESS_0006_NIKE_BASKETBALL_SHORTS_PURPLE_ORANGE_BLACK_CK6391-010.jpg?v=1602610621"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3897",
   "marca": "Reebok",
   "nombre": "Men's Cityride 2 Running Shoes",
@@ -26444,237 +25693,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11.5"
-  ]
- },
- {
-  "codigo": "DOM-3898",
-  "marca": "NIGHTMARE BEFORE XMAS X SP",
-  "nombre": "The Nightmare Before Christmas By Shoe Palace Web Beanie Mens Hat (Black/White)",
-  "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/574ef1e5f53e403779e6bc92fa7f768d.jpg?v=1759429016",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/NBCB102.jpg?v=1759788618",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6ca6e83601162b275b8157941a6e0bc7.jpg?v=1759788618",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0f4f1179de0f2070eb2fd55ffeb7bcfa.jpg?v=1759788618"
-  ],
-  "descripcion": "Modelo original de NIGHTMARE BEFORE XMAS X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3899",
-  "marca": "adidas",
-  "nombre": "Adi365 Running Iconic Shorts",
-  "genero": "Hombre",
-  "precio": 24.95,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KC9066_1l.jpg?v=1789568225",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KC9066_2l.jpg?v=1789568225",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KC9066_3l.jpg?v=1789568225",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KC9066_4l.jpg?v=1789568225"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3900",
-  "marca": "WSS ATHLETIC",
-  "nombre": "Classic Basketball Short - Mens",
-  "genero": "Hombre",
-  "precio": 39.99,
-  "precio_c": 1471,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS2005BLK_1.jpg?v=1770229065",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS2005BLK_2.jpg?v=1770229065",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS2005BLK_3.jpg?v=1770229064",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS2005BLK_4.jpg?v=1770229065"
-  ],
-  "descripcion": "Modelo original de WSS ATHLETIC, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3901",
-  "marca": "Jason Markk",
-  "nombre": "Jason Markk Jason Markk 4oz. Premium Shoe Cleaner",
-  "genero": "Hombre",
-  "precio": 27.95,
-  "precio_c": 1028,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/F5709_1000_main.jpg?v=1746544841",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/F5709_1000_main1.jpg?v=1746544843"
-  ],
-  "descripcion": "Modelo original de Jason Markk, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3902",
-  "marca": "Mitchell & Ness",
-  "nombre": "Mitchell & Ness Kentucky Wildcats NCAA Vintage Basketball Tee in White / Blue / Orange",
-  "genero": "Hombre",
-  "precio": 48.0,
-  "precio_c": 1765,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0187/5180/files/oneness-mitchell-ness-kentucky-wildcats-ncaa-vintage-basketball-tee-01.jpg?v=1784712456"
-  ],
-  "descripcion": "Modelo original de Mitchell & Ness, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3903",
-  "marca": "NIGHTMARE BEFORE XMAS X SP",
-  "nombre": "The Nightmare Before Christmas By Shoe Palace RIP Beanie Mens Hat (Black/White)",
-  "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/be6da8b897798c6db0649ea877fa7229.jpg?v=1759429045",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/NBCB101.jpg?v=1759788477",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6fe010693bafd447d6eed0bd45bf15bd.jpg?v=1759788477",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/34e6e18f1af6807bd305a0ee8814859c.jpg?v=1759788477"
-  ],
-  "descripcion": "Modelo original de NIGHTMARE BEFORE XMAS X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3904",
-  "marca": "PUMA",
-  "nombre": "Basketball Graphic Crew Neck Short Sleeve T-Shirt",
-  "genero": "Hombre",
-  "precio": 25.95,
-  "precio_c": 954,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63361904_1l.jpg?v=1792610597",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63361904_2l.jpg?v=1792610596"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -26708,73 +25726,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3906",
-  "marca": "Jason Markk",
-  "nombre": "Jason Markk Jason Markk Shoe Cleaner Starter Kit",
-  "genero": "Hombre",
-  "precio": 29.95,
-  "precio_c": 1101,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/F3509_9900_main_20copy.jpg?v=1747286952",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/F3509_9900_main2_20copy.jpg?v=1747286954",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/F3509_9900_main3_20copy.jpg?v=1747286954"
-  ],
-  "descripcion": "Modelo original de Jason Markk, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3907",
-  "marca": "MARVEL X SP",
-  "nombre": "Marvel By Shoe Palace Heroes Beanie Mens Hat (Black/Red)",
-  "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/afa06dee7effb900448998de2d7c5082.jpg?v=1765410377",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/fbf715fe881e04f6ca8d55ff305bbda6.jpg?v=1765410377",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/611a2b3904aebc174cc52b327d5df1e0.jpg?v=1765410377",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/3a471af89c7d16d73e8f365a7473e691.jpg?v=1765410377"
-  ],
-  "descripcion": "Modelo original de MARVEL X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3908",
   "marca": "Sperry",
   "nombre": "Moc-Sider Winter Slip On Shoes",
@@ -26796,104 +25747,6 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "4.5"
-  ]
- },
- {
-  "codigo": "DOM-3909",
-  "marca": "SOFSOLE",
-  "nombre": "Sneaker Cleaning Kit",
-  "genero": "Hombre",
-  "precio": 44.98,
-  "precio_c": 1654,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/82448_1.jpg?v=1715300284"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3910",
-  "marca": "Nike",
-  "nombre": "Nike Ja Basketball Tee",
-  "genero": "Hombre",
-  "precio": 37.93,
-  "precio_c": 1395,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH5078-045_M-047.jpg?v=1774985080",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH5078-045_M-048.jpg?v=1774985068",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH5078-045_M-049.jpg?v=1774985068",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IH5078-045_M-046.jpg?v=1774985075"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3911",
-  "marca": "MICKEY X SP",
-  "nombre": "Disney Mickey and Friends By Shoe Palace Mickey Mouse Beanie Mens Hat (Cream/Black)",
-  "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/72646081e69f658a5cb5d05b5186cd62.jpg?v=1765565620",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/bb27a820989868ff16f90707c5743767.jpg?v=1765565620",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/b4baf4a93c3a7c42453d020bf8c1bbf7.jpg?v=1765565620"
-  ],
-  "descripcion": "Modelo original de MICKEY X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -26920,107 +25773,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3913",
-  "marca": "NIKE",
-  "nombre": "Icon 10\" Basketball Short - Mens",
-  "genero": "Hombre",
-  "precio": 45.96,
-  "precio_c": 1690,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184010_1.jpg?v=1772148178",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184010_2.jpg?v=1772148178",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184010_3.jpg?v=1772148178",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184010_4.jpg?v=1772148178"
-  ],
-  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3914",
-  "marca": "Jordan",
-  "nombre": "Jordan Flight Club Pro Unstructured Flat Bill Hat",
-  "genero": "Hombre",
-  "precio": 37.93,
-  "precio_c": 1395,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF3499_20010077.jpg?v=1767129466",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF3499_20010076.jpg?v=1767129471",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF3499_20010078.jpg?v=1767129478",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF3499_20010075.jpg?v=1767129487"
-  ],
-  "descripcion": "Modelo original de Jordan, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3915",
-  "marca": "MICKEY X SP",
-  "nombre": "Disney Mickey Mouse Real Life By Shoe Palace All Over Print Mens Scarf (Beige/Black)",
-  "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d1a1079fedf1e0034c3c615ab893514a.jpg?v=1748974717",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/MRLS101_04.jpg?v=1748975621",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/e0a45e64f6632fe6b6cc7a6764ee0feb.jpg?v=1748975621"
-  ],
-  "descripcion": "Modelo original de MICKEY X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3916",
   "marca": "diadora",
   "nombre": "B.Elite SPW Weave Lace Up Sneakers",
@@ -27041,40 +25793,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
- },
- {
-  "codigo": "DOM-3917",
-  "marca": "NIKE",
-  "nombre": "Classic 10\" Basketball Short - Mens",
-  "genero": "Hombre",
-  "precio": 49.96,
-  "precio_c": 1837,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184657_1.jpg?v=1777587331",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184657_2.jpg?v=1777587331",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184657_3.jpg?v=1777587331",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO9184657_4.jpg?v=1777587331"
-  ],
-  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -27100,72 +25818,6 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
- },
- {
-  "codigo": "DOM-3919",
-  "marca": "JASON MARKK",
-  "nombre": "Essential Kit 4oz Shoe Cleaning Kit",
-  "genero": "Hombre",
-  "precio": 37.95,
-  "precio_c": 1396,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/c27384d76c8623fce6e46af5ec39943c.jpg?v=1686071990",
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/1ba2cf868b1256c4d9cd4d5b9e191c85.jpg?v=1686071990"
-  ],
-  "descripcion": "Modelo original de JASON MARKK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3920",
-  "marca": "adidas",
-  "nombre": "ADI365 Running Formotion Iconic Shorts",
-  "genero": "Hombre",
-  "precio": 31.95,
-  "precio_c": 1175,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV2601_1l.jpg?v=1793740956",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV2601_2l.jpg?v=1793740957",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV2601_3l.jpg?v=1793740956",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV2601_4l.jpg?v=1793740956"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -27203,305 +25855,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3922",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive NBA Miami Heat 950AF Snapback Mens Hat (Chrome/Black)",
-  "genero": "Hombre",
-  "precio": 39.92,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/5c5359faf4ac38824816b834cf7ec866.jpg?v=1763657620",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/9603d0a436802d8fe967cd9583b615a9.jpg?v=1763657620",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/f3512af84f9caaaf27c1170ddbac9416.jpg?v=1763657620",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/5b7caae919ba15566e28c9ca13807e30.jpg?v=1763657620"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3923",
-  "marca": "adidas",
-  "nombre": "Verbiage T 2",
-  "genero": "Hombre",
-  "precio": 31.95,
-  "precio_c": 1175,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0861_1l.jpg?v=1793631628",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0861_2l.jpg?v=1793631628",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0861_3l.jpg?v=1793631628",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0861_4l.jpg?v=1793631628"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3924",
-  "marca": "JORDAN",
-  "nombre": "Flight Pro Unstructured Flat Bill Mens Hat (Black/Kelly Green/White)",
-  "genero": "Hombre",
-  "precio": 39.92,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/08da714dadfd04587e9a6140e9198966.jpg?v=1771633070",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/848dcf9ec3d8bfd0d963149e26c6eefd.jpg?v=1771633070",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/c9c74d6b550179ec804308badd3ca1eb.jpg?v=1771633070"
-  ],
-  "descripcion": "Modelo original de JORDAN, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3925",
-  "marca": "PUMA",
-  "nombre": "Running Armband",
-  "genero": "Hombre",
-  "precio": 31.95,
-  "precio_c": 1175,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/05478101_1l.jpg?v=1792687748",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/05478101_2l.jpg?v=1792687748"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3926",
-  "marca": "JORDAN",
-  "nombre": "Flight Club Pro Unstructured Flat Bill Mens Hat (Pale Ivory/Black)",
-  "genero": "Hombre",
-  "precio": 39.92,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/b0e33a017f20b693b55d962995e9cf7d.jpg?v=1771632440",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0042bed7e23c4b5e8e2307a171dcfe85.jpg?v=1771632440"
-  ],
-  "descripcion": "Modelo original de JORDAN, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3927",
-  "marca": "PUMA",
-  "nombre": "Dylan Wildcat Oversized Basketball Tee",
-  "genero": "Hombre",
-  "precio": 31.95,
-  "precio_c": 1175,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63721601_1l.jpg?v=1792687197",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63721601_2l.jpg?v=1792687197",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63721601_3l.jpg?v=1792687196",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63721601_4l.jpg?v=1792687197"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3928",
-  "marca": "JORDAN",
-  "nombre": "Flight Club Pro Unstructured Flat Bill Mens Hat (Black/Black)",
-  "genero": "Hombre",
-  "precio": 39.92,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/74a593a94fc7ecf1263b83a730b1b3b6.jpg?v=1771632312",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/c4c4c30d397fd2ca91378c5f8284fc92.jpg?v=1771632312"
-  ],
-  "descripcion": "Modelo original de JORDAN, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3929",
-  "marca": "adidas",
-  "nombre": "Summer Hoops Graphic T-Shirt",
-  "genero": "Hombre",
-  "precio": 31.95,
-  "precio_c": 1175,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0857_1l.jpg?v=1792585723",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0857_2l.jpg?v=1792585723",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0857_3l.jpg?v=1792585723",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KX0857_4l.jpg?v=1792585723"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3930",
-  "marca": "PRO STANDARD",
-  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Día De Muertos Skull Mens Short Sleeve Shirt (Black)",
-  "genero": "Hombre",
-  "precio": 39.92,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/2ed3489c026c43176c25fae9e852af91.jpg?v=1759941849",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/c37499cb98a8059dd1f7d71ca47e627b_d1b80394-bb67-4126-aac2-66a96dfaabf7.jpg?v=1759941849",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/216d7d31e0d7aeada0b8d4be77dffd83.jpg?v=1759941849",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d142e47474b899cbddfd3aec4b3329df.jpg?v=1759941849"
-  ],
-  "descripcion": "Modelo original de PRO STANDARD, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3931",
   "marca": "PUMA",
   "nombre": "Ultra Play Soccer Cleats",
@@ -27522,40 +25875,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
- },
- {
-  "codigo": "DOM-3932",
-  "marca": "HARLEM GLOBETROTTERS X SP",
-  "nombre": "SP x Harlem Globetrotters Basketball Mens Short Sleeve Shirt (Cream/Red)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/fad08e022518f1f2f8de5d7ec0b21850.jpg?v=1776124492",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/2a63391e3a1bc7f19291f53bdc11b711.jpg?v=1776124492",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ca2fb4eaf09a949c51ce09ae0da015c9.jpg?v=1776124492",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/e66ad19fbce53c617a8532c28986398a.jpg?v=1776124492"
-  ],
-  "descripcion": "Modelo original de HARLEM GLOBETROTTERS X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -27582,40 +25901,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3934",
-  "marca": "HARLEM GLOBETROTTERS X SP",
-  "nombre": "SP x Harlem Globetrotters Basketball Washed Mens Short Sleeve Shirt (Black/Red)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/e072696ab22874fd5a2309f5a2cefa01.jpg?v=1776124348",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6da1da69f16c61753f400bc4e65ab2e4.jpg?v=1776124348",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/b625cbb9b32a14a73260daa754bbdf70.jpg?v=1776124348",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/12ca5fabdd046b6b964ab5a92890aaab.jpg?v=1776124348"
-  ],
-  "descripcion": "Modelo original de HARLEM GLOBETROTTERS X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3935",
   "marca": "diadora",
   "nombre": "Mi Basket Row Cut Performance Lace Up Sneakers",
@@ -27639,40 +25924,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3936",
-  "marca": "MAISON ARTICLE",
-  "nombre": "Realtree by Shoe Palace Camo Mesh Mens Jersey (Brown)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/61bca011755221ff04d4ea80ee7cf491_caf7a005-7273-4300-8642-355a8b004bc5.jpg?v=1759508506",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/RTMJ01A.jpg?v=1760717985",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/73af30210fc88051be237a5276a15bfd_37e046d6-a8fe-4e6a-bb82-c736fa5c6a7f.jpg?v=1760717985",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/5851fd37d2462bcdb7cc4e3c1ba2d8c8_c25207ee-59c2-4a92-96ef-0dd8f39953a6.jpg?v=1760717985"
-  ],
-  "descripcion": "Modelo original de MAISON ARTICLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3937",
   "marca": "diadora",
   "nombre": "Game L Low Icona Lace Up Sneakers",
@@ -27693,40 +25944,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
- },
- {
-  "codigo": "DOM-3938",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Houston Texans Snapback Mens Hat (Black/Navy)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/3259d999315653aad7312d2757cc312a.jpg?v=1770744615",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/dea2e6f1dc5b026a27a25b3fb02cc8b3.jpg?v=1770744615",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4a510d0344422c1509d2955b308c2d1e.jpg?v=1770744615",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/b6fe5fed0bc9baa800836461363c4464.jpg?v=1770744615"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -27754,40 +25971,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3940",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Seattle Seahawks Snapback Mens Hat (Black/Blue)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/80bed06de51d7d57907302b89f6d851c.jpg?v=1770402348",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/9d8a994c3ff9f55bc3d01ef71dfc2cdb.jpg?v=1770402348",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/a1160db94ed9331a8c10797bad22e9bc.jpg?v=1770402348",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/18780980f19e023308f0ec5e8cc88a1d.jpg?v=1770402348"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3941",
   "marca": "diadora",
   "nombre": "Mi Basket Row Cut Milk Breakfast Lace Up Sneakers",
@@ -27808,40 +25991,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
- },
- {
-  "codigo": "DOM-3942",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Kansas City Chiefs Snapback Mens Hat (Black/Red)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/1b556f55b3c639c4129ce32334f24849.jpg?v=1770744205",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6483fc9d567f50d10155680e447266c6.jpg?v=1770744205",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4ad6acdf7805cd7ca31961761ae4dbd7.jpg?v=1770744205",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/8125ad12eb6f7814bd33005e3ed81226.jpg?v=1770744205"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -27868,40 +26017,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3944",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Miami Dolphins Snapback Mens Hat (Black/Teal)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/9a27b09ec86f5ee5e3a2bfde385b8c73.jpg?v=1770679667",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/14d09a8a3a70fc257f1ea420f5e94623.jpg?v=1770679667",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4e77fb4bc06318046e45b6ce6d7f1c5f.jpg?v=1770679667",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/82af211a40da321c4280cfe9bebfeb42.jpg?v=1770679667"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3945",
   "marca": "diadora",
   "nombre": "N9000 Anice Italia Lace Up Sneakers",
@@ -27922,40 +26037,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
- },
- {
-  "codigo": "DOM-3946",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Detroit Lions Snapback Mens Hat (Black/Blue)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/1bc3412b77dc7bd98791c381449825b6.jpg?v=1770667710",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/9208bf423b8629c8ca90d3b883306f97.jpg?v=1770667710",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/5b74a2bf23c22686664f0981b5e0a236.jpg?v=1770667710",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/16f58792acadd8c5f655cbdb6605ed67.jpg?v=1770667710"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -27982,40 +26063,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3948",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace x New Era NFL 90s Graffiti Exclusive Philadelphia Eagles Snapback Mens Hat (Black/Green)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4e90f00e89ebb5dcc553f0b832f9dfee.jpg?v=1770660181",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/7ccf6c599c913ef917e26f875e86b591.jpg?v=1770660181",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/862f11bf1ddd4df8098cbdadfc09e99b.jpg?v=1770660181",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/f2a0ab40cfc8b977c8e9f0b6c3ce8b7e.jpg?v=1770660181"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3949",
   "marca": "diadora",
   "nombre": "Eclipse Italia Perforated Lace Up Sneakers",
@@ -28036,40 +26083,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
- },
- {
-  "codigo": "DOM-3950",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive East Los Angeles 950AF Snapback Mens Hat (Black/White)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d942c296d156b7d67edcdbdc58978723.jpg?v=1763502119",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/cc7437414e38f343a40489cf376dc599.jpg?v=1763502119",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/cbd197abacae08db23e5e2e8e45ea442.jpg?v=1763502119",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d0006d6819a4a85d6f6b0052531179cd.jpg?v=1763502119"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -28096,40 +26109,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3952",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive NBA Dallas Mavericks 950AF Snapback Mens Hat (Chrome/Black)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ced05eb4de542df1d183f6b6e6bea320.jpg?v=1763491761",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/af9d8984bae7274720e4175706f3a632.jpg?v=1763491761",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ee4d7adefda636992175acdc4cf56a4a_ff528f54-947b-49ff-82af-91f378a1070a.jpg?v=1763491762",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/1c37460c41f289afe426171a3b822724.jpg?v=1763491762"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3953",
   "marca": "diadora",
   "nombre": "Game L Low 2030 Lace Up Sneakers",
@@ -28150,40 +26129,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
- },
- {
-  "codigo": "DOM-3954",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive San Francisco Giants Two Tone 950AF Snapback Mens Hat (White/Black)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/7b35be23a857d7adacddad3db282d5a8.jpg?v=1761239251",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/35f0b1308f4dfe68c5b66f150b7724c7.jpg?v=1761239251",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/c35c789c1091584736a62e91de01e468.jpg?v=1761239251",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/3747b66502a22ee71c37c7a1d281d09f.jpg?v=1761239251"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -28210,29 +26155,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3956",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive Seattle Mariners 20th Anniversay 59fifty Fitted Mens Hat (Navy/Green)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/cf0a9792619421ecffa39b6c21610dd3.jpg?v=1761004066",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/e7e537f36f3d4bd680cd678e321495ed.jpg?v=1761004066",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/aae9172f303ebc26006b85cdcdef643b.jpg?v=1761004066",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/58651255bec8729b0e82e0e1281ada92.jpg?v=1761004066"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7"
-  ]
- },
- {
   "codigo": "DOM-3957",
   "marca": "diadora",
   "nombre": "Game Low Waxed Suede Pop Lace Up Sneakers",
@@ -28253,40 +26175,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
- },
- {
-  "codigo": "DOM-3958",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers City 950AF Mens Hat (Chrome/Light Blue)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ec05f3119febdfe7083bba15d54f16d4.jpg?v=1756417263",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/737eaf5ed687e9d0bb46da42e8744849.jpg?v=1756417264",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/3ca482c96b4ae2cd242648e16abb64f3.jpg?v=1756417264",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/260b22caeb7a489d394abab7d9989933.jpg?v=1756417264"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -28314,40 +26202,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3960",
-  "marca": "MAISON ARTICLE",
-  "nombre": "Basketball Stripe Mesh Mens Shorts (Black/White)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/a52ec2f6797dffcdcba47b85d91ae652.jpg?v=1752860081",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/fa710dc832a451055f4e20f54984b049.jpg?v=1752860081",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/62f25ed595ae9103b411aae961852936.jpg?v=1752860081",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/f7a0b011290847a89c24c2091f0e8721.jpg?v=1752860081"
-  ],
-  "descripcion": "Modelo original de MAISON ARTICLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3961",
   "marca": "PUMA",
   "nombre": "Ultra Match Indoor Soccer Shoes",
@@ -28368,372 +26222,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
- },
- {
-  "codigo": "DOM-3962",
-  "marca": "MAISON ARTICLE",
-  "nombre": "Basketball Stripe Mesh Mens Shorts (Green/Black)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/c6376bfad71d1137a54411a4af5369c7.jpg?v=1752860040",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0f9daaaa14f0f365066062f15deb8a6e.jpg?v=1752860040",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/04d664ccd418c1d60899582eee301a30.jpg?v=1752860040",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6fa5c315b1e61bd78cdf1816a1223acd.jpg?v=1752860040"
-  ],
-  "descripcion": "Modelo original de MAISON ARTICLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3963",
-  "marca": "PUMA",
-  "nombre": "Race Day Track & Field Running Arm Sleeves",
-  "genero": "Hombre",
-  "precio": 35.95,
-  "precio_c": 1322,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/60780201_1l.jpg?v=1793359104",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/60780201_2l.jpg?v=1793359104",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/60780201_3l.jpg?v=1793359104"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3964",
-  "marca": "ADIDAS",
-  "nombre": "Originals Graphic Basketball Mens Shorts (Green/Red)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/e9e984a14166e61451980e74e7923750.jpg?v=1750877653",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/69b81955a34881a9d914a0df2a3264b8.jpg?v=1750877653",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/1eb6727f0eef420e2c510fff826a5de3.jpg?v=1750877653",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/459fd2982ed76469b37d66fff37340bc.jpg?v=1750877653"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3965",
-  "marca": "adidas",
-  "nombre": "3G Speed Basketball AEROREADY Shorts",
-  "genero": "Hombre",
-  "precio": 35.95,
-  "precio_c": 1322,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JM5103_1l.jpg?v=1791893966",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JM5103_2l.jpg?v=1791893966",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JM5103_3l.jpg?v=1791893966",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JM5103_4l.jpg?v=1791893966"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3966",
-  "marca": "ADIDAS",
-  "nombre": "Original Basketball Mens Shorts (Black/Ivory)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/76e0d8e8053db71a37394bfa67140416.jpg?v=1752006810",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/f420a070a0bf2ad794ec0eba2ede165f.jpg?v=1752006810",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/fd387cf24845282dafbf615c7aec49b2.jpg?v=1752006810"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3967",
-  "marca": "adidas",
-  "nombre": "Adi365 Aspyre Running T-Shirt",
-  "genero": "Hombre",
-  "precio": 35.95,
-  "precio_c": 1322,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KQ8650_1l.jpg?v=1792581164",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KQ8650_2l.jpg?v=1792581164",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KQ8650_3l.jpg?v=1792581164",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KQ8650_4l.jpg?v=1792581164"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3968",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive San Francisco 49ers Black Suede 950AF Snapback Mens Hat (Black)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4c0dfc5bae128f2332fcd44f9b4bb2c0.jpg?v=1734734014",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/c07c596f63596b4e23c2326be89bdbea.jpg?v=1734734014",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/802b41e8feb2c5a3b761d2cfd15072f6_1a1488b1-fc65-469b-b7f8-3f2e5c73bb50.jpg?v=1734734014"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3969",
-  "marca": "PUMA",
-  "nombre": "LaFrancé Heem Aerospace Oversized Basketball Tee",
-  "genero": "Hombre",
-  "precio": 38.95,
-  "precio_c": 1432,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63727502_1l.jpg?v=1792687228",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63727502_2l.jpg?v=1792687228",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63727502_3l.jpg?v=1792687228",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/63727502_4l.jpg?v=1792687228"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3970",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive Las Vegas Raiders Gold 2 Tone 950AF Snapback Mens Hat (Gold/Black)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6cde8d0bc01af75a93affa6a87ae844c.jpg?v=1734974131",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/21c17b18b120ab136830fc3be3757091.jpg?v=1734974131"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3971",
-  "marca": "adidas",
-  "nombre": "Adi365 Running Animal Print Iconic T-Shirt",
-  "genero": "Hombre",
-  "precio": 38.95,
-  "precio_c": 1432,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG1341_1l.jpg?v=1792587225",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG1341_2l.jpg?v=1792587225",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG1341_3l.jpg?v=1792587225",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG1341_4l.jpg?v=1792587225"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3972",
-  "marca": "NIKE",
-  "nombre": "Air Basketball Mens Short (Green/Black)",
-  "genero": "Hombre",
-  "precio": 39.93,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/products/f53c2d446f53ca5e9d225d5fa4ec42bf.jpg?v=1710951284"
-  ],
-  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -28760,40 +26248,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3974",
-  "marca": "PRO STANDARD",
-  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Modern Originals Mens Short Sleeve Shirt (Blue)",
-  "genero": "Hombre",
-  "precio": 44.92,
-  "precio_c": 1652,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/96ada1bc107297222d0ba5ac70035476.jpg?v=1759530537",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4a8a0fb3ec17c167b323ed8b4adb2ca9.jpg?v=1759530537",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/b8c108049098120ffde9c510ed4745d8.jpg?v=1759530537",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/492b334ad4ca55b4a95182b1e7e11185.jpg?v=1759530537"
-  ],
-  "descripcion": "Modelo original de PRO STANDARD, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3975",
   "marca": "PUMA",
   "nombre": "Disperse XT Training Shoes",
@@ -28817,40 +26271,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3976",
-  "marca": "PRO STANDARD",
-  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Modern Originals Mens Short Sleeve Shirt (Black)",
-  "genero": "Hombre",
-  "precio": 44.92,
-  "precio_c": 1652,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d37880b212743bd678572f23490bdb92.jpg?v=1759530343",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/124c3788dfbb1a7e88d2159c44e931eb.jpg?v=1759530343",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d76963a7f380896373dacb0de5a757f8.jpg?v=1759530343",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/00dc5f8f7f57e04f456d1ce9de0330c2.jpg?v=1759530343"
-  ],
-  "descripcion": "Modelo original de PRO STANDARD, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3977",
   "marca": "PUMA",
   "nombre": "PUMA X DC JUSTICE LEAGUE Court Rider Basketball Shoes",
@@ -28870,40 +26290,6 @@ var ZAPATOS = [
    "Entrega a domicilio en Nicaragua"
   ],
   "tallas": [
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3978",
-  "marca": "TOY STORY X SP",
-  "nombre": "Disney Pixar's Toy Story By Shoe Palace Pizza Planet Mens Short Sleeve Shirt (Beige/Red)",
-  "genero": "Hombre",
-  "precio": 44.93,
-  "precio_c": 1652,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0990226b615cc7cdd7b11ae6cf5d82ca.jpg?v=1781731507",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0290e8632aecb8d8c6667af9555e3790.jpg?v=1781731507",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/8a2abc3adaa9fb7da982d1d42df23c06.jpg?v=1781731507",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/137a6e7fa75be69dcfd2daa1de73a957.jpg?v=1781731507"
-  ],
-  "descripcion": "Modelo original de TOY STORY X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
    "13"
   ]
  },
@@ -28931,40 +26317,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3980",
-  "marca": "TOY STORY X SP",
-  "nombre": "Disney Pixar's Toy Story By Shoe Palace Jessie Denim Mens Pants (Blue/Yellow)",
-  "genero": "Hombre",
-  "precio": 44.93,
-  "precio_c": 1652,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/2b23bdbb405a2480f952dd588a953a92.jpg?v=1781728861",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4ccb7e1c626ea9b3b705c3474017b7b4.jpg?v=1781728861",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/c0f61918eac1beb925d10f8afbb994e8.jpg?v=1781728861",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/19725778376a035f6cba6ffb96be1a55.jpg?v=1781728861"
-  ],
-  "descripcion": "Modelo original de TOY STORY X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3981",
   "marca": "diadora",
   "nombre": "Mi Basket Arcobaleno Italia High Top Sneakers",
@@ -28985,40 +26337,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3.5"
-  ]
- },
- {
-  "codigo": "DOM-3982",
-  "marca": "TOY STORY X SP",
-  "nombre": "Disney Pixar's Toy Story By Shoe Palace Sid Mens Short Sleeve Shirt (Black/Green)",
-  "genero": "Hombre",
-  "precio": 44.93,
-  "precio_c": 1652,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ac1f4341d9041beadbc0e76a9dff9988.jpg?v=1781729997",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/91560f829d78aa7eb1bac9edf53f1f1e.jpg?v=1781729997",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/cb3fcdd465725403284ea8677d4c2aba.jpg?v=1781729997",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/b10a5c374e817921414ca41cd70cd03e.jpg?v=1781729997"
-  ],
-  "descripcion": "Modelo original de TOY STORY X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -29046,40 +26364,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-3984",
-  "marca": "CARS X SP",
-  "nombre": "Disney Pixar Cars By Shoe Palace Flags Hybrid Mens Shorts (Black/Red)",
-  "genero": "Hombre",
-  "precio": 44.93,
-  "precio_c": 1652,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/79f2f1db1fb714a6c9debad1e71ac331.jpg?v=1786126519",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ea02ae3030b4c24a744691ab9b8ecc16.jpg?v=1786126519",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/bd5e8baefc7b99eea75feadc83e8c2ed.jpg?v=1786126519",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ae83e362152f56ea72e29e33e9449e6d.jpg?v=1786126519"
-  ],
-  "descripcion": "Modelo original de CARS X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-3985",
   "marca": "PUMA",
   "nombre": "Future 4.3 Netfit Indoor Soccer Shoes",
@@ -29099,40 +26383,6 @@ var ZAPATOS = [
    "Entrega a domicilio en Nicaragua"
   ],
   "tallas": [
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3986",
-  "marca": "Nike",
-  "nombre": "Nike Basketball Tee",
-  "genero": "Hombre",
-  "precio": 57.93,
-  "precio_c": 2130,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM5040-010_M-044.jpg?v=1785439058",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM5040-010_M-045.jpg?v=1785439067",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM5040-010_M-046.jpg?v=1785439069",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM5040-010_M-043.jpg?v=1785439078"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
    "13"
   ]
  },
@@ -29204,40 +26454,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
- },
- {
-  "codigo": "DOM-3990",
-  "marca": "TOY STORY X SP",
-  "nombre": "Disney Pixar's Toy Story By Shoe Palace Toys Are Back Mens Short Sleeve Shirt (beige/Black)",
-  "genero": "Hombre",
-  "precio": 52.95,
-  "precio_c": 1947,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/a84ab75829191ba1bc47015b5be7ef5c.jpg?v=1781731086",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/f3f269c390a5612d596bc8781065b632.jpg?v=1781731086",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/8cc22d9b70f9f84141023c9141e9a550.jpg?v=1781731086",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/5d4d771e9ab7055392c717f8de0420a5.jpg?v=1781731086"
-  ],
-  "descripcion": "Modelo original de TOY STORY X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -29397,40 +26613,6 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-3997",
-  "marca": "SIMPSONS X SP",
-  "nombre": "The Simpsons By Shoe Palace Chalkboard Mens Short Sleeve Shirt (Black/Yellow)",
-  "genero": "Hombre",
-  "precio": 52.95,
-  "precio_c": 1947,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ac4f6a77edb44fa94cf96dc1106f066a.jpg?v=1779300779",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/2bcef92a4a9a2243bea52e08a7d16daa.jpg?v=1779300779",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/f2780647196d8111ded7781f7dc0f44b.jpg?v=1779300779",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6e6bd31b8bce63bed85fdcb837ec85af.jpg?v=1779300780"
-  ],
-  "descripcion": "Modelo original de SIMPSONS X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
    "12",
    "13"
   ]
@@ -29609,40 +26791,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4004",
-  "marca": "NIKE",
-  "nombre": "Kobe Basketball Mens Shorts (Black/Metallic Gold)",
-  "genero": "Hombre",
-  "precio": 54.92,
-  "precio_c": 2020,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/34d1b212ad27cf40be2dac26b61c5afc.jpg?v=1780332289",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/9d0cecde70efe3f517a574e819d28fd1.jpg?v=1780332289",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/3f223a127ae3a6d11fce520a2e741efd.jpg?v=1780332289",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/8c9aad84dc26b564637c978a09435858.jpg?v=1780332289"
-  ],
-  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4005",
   "marca": "adidas",
   "nombre": "Lite Racer Adapt 8.0 Shoes",
@@ -29670,40 +26818,6 @@ var ZAPATOS = [
    "9",
    "9.5",
    "11",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-4006",
-  "marca": "JORDAN",
-  "nombre": "Jordan Jumpman Pro Cap Structured Flat Bill Snapback",
-  "genero": "Hombre",
-  "precio": 53.99,
-  "precio_c": 1985,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM5689100_1.jpg?v=1781560449",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM5689100_2.jpg?v=1781560449",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM5689100_3.jpg?v=1781560449",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM5689100_4.jpg?v=1781560449"
-  ],
-  "descripcion": "Modelo original de JORDAN, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
    "12",
    "13"
   ]
@@ -29824,40 +26938,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4011",
-  "marca": "PRO STANDARD",
-  "nombre": "Shoe Palace Exclusive Los Angeles Dodgers Waves And Roses Mens Shorts (Black/Blue)",
-  "genero": "Hombre",
-  "precio": 54.92,
-  "precio_c": 2020,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/61bdbec87441ae7482d39a92b71ca2d6.jpg?v=1773704559",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/3b92d82a1ee436dcb2e907ee87a1b5ef.jpg?v=1773704559",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/2867ef6ad57fb1715039b5d489dd7c9c.jpg?v=1773704559",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/421d8c3271335e80ce883b8a769eea8c_08e12b94-ee5a-44f4-8785-47c34580ca5b.jpg?v=1773704559"
-  ],
-  "descripcion": "Modelo original de PRO STANDARD, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4012",
   "marca": "PUMA",
   "nombre": "Suede Camowave Sarface Sneakers",
@@ -29935,40 +27015,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4015",
-  "marca": "Nike SB",
-  "nombre": "Nike SB Mens Skate Tee",
-  "genero": "Hombre",
-  "precio": 55.0,
-  "precio_c": 2023,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/IU3731-100-1.jpg?v=1784238372",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/IU3731-100-2.jpg?v=1784238558",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/imgi_5_nikesbfcpacktshirtwhite1_1500x_d2c3608a-5082-4bc6-918d-81b8a10df396.jpg?v=1784238569",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/imgi_16_nikesbfcpacktshirtwhite4_1100x_da7ce296-5f06-41f2-9106-f63280f0170c.jpg?v=1784238569"
-  ],
-  "descripcion": "Modelo original de Nike SB, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4016",
   "marca": "Converse",
   "nombre": "Converse Chuck 70 Ox 'Happy Camper' in Game Royal / Malachite",
@@ -30029,40 +27075,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4018",
-  "marca": "PRO STANDARD",
-  "nombre": "Shoe Palace Exclusive Houston Astros Waves And Roses Mens Shorts (Black/Blue)",
-  "genero": "Hombre",
-  "precio": 54.92,
-  "precio_c": 2020,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/2defd30f80d94cba248ffb96fe2e080d.jpg?v=1773704358",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/9f9beafcb2d65faca2bf0a04d9e595a4.jpg?v=1773704358",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/fb56cb2baa1d0a94eb21e9216dc07414.jpg?v=1773704358",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/421d8c3271335e80ce883b8a769eea8c.jpg?v=1773704358"
-  ],
-  "descripcion": "Modelo original de PRO STANDARD, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4019",
   "marca": "diadora",
   "nombre": "Trainer Metallic Lace Up Sneakers",
@@ -30111,40 +27123,6 @@ var ZAPATOS = [
    "08.5",
    "09",
    "09.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-4021",
-  "marca": "Nike",
-  "nombre": "Nike Dri-FIT Bowler Skate Top",
-  "genero": "Hombre",
-  "precio": 67.93,
-  "precio_c": 2498,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR8701-012_M-076.jpg?v=1779902552",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR8701-012_M-080.jpg?v=1779902560",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR8701-012_M-078.jpg?v=1779981384",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR8701-012_M-082.jpg?v=1779902573"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
    "10",
    "10.5",
    "11",
@@ -30229,40 +27207,6 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-4025",
-  "marca": "MAISON ARTICLE",
-  "nombre": "Realtree by Shoe Palace Hardwoods DK Mens Pants (Brown)",
-  "genero": "Hombre",
-  "precio": 54.93,
-  "precio_c": 2020,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6a0f0f719c957ddd30999dfeb65b2924_2d345642-94f0-4486-b42c-984bc7a3296e.jpg?v=1759508925",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/RTCP01.jpg?v=1760717919",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/dfd2a0cacdf549e72ea799012fbd91da_30975bf9-0ff4-4a52-8125-48c93d7015be.jpg?v=1760717919",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d8670ada66d547dc472164e3d5582fc1_3f0b906e-1fb9-4b8e-90d1-5574abcc5b42.jpg?v=1760717919"
-  ],
-  "descripcion": "Modelo original de MAISON ARTICLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
    "7",
    "7.5",
    "8",
@@ -30382,37 +27326,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4030",
-  "marca": "Ice Cream",
-  "nombre": "Ice Cream Rum Runner S/S Tee in Black",
-  "genero": "Hombre",
-  "precio": 60.0,
-  "precio_c": 2206,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-ice-cream-rum-runner-s-s-tee-in-black-01.jpg?v=1788880715"
-  ],
-  "descripcion": "Modelo original de Ice Cream, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4031",
   "marca": "Reebok",
   "nombre": "Men's BB 1000 Shoes",
@@ -30437,40 +27350,6 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-4032",
-  "marca": "NEW ERA",
-  "nombre": "Shoe Palace Exclusive Seattle Mariners 59fifty Fitted Mens Hat (Black/Green)",
-  "genero": "Hombre",
-  "precio": 54.93,
-  "precio_c": 2020,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6878b2fa5ce3488b7de2e088cd6964c0.jpg?v=1761004308",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ac794cf21fee82d8b3b5df6d36cb9d89.jpg?v=1761004308",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/bbbb68dfc3e2fd48061a2e018ba9ae12.jpg?v=1761004308",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/38fc3cab8e4c54c921de846d5bbf9eba.jpg?v=1761004308"
-  ],
-  "descripcion": "Modelo original de NEW ERA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
    "7",
    "7.5",
    "8",
@@ -30624,40 +27503,6 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100292219_FLT_eCom.jpg?v=1785412038"
   ],
   "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-4039",
-  "marca": "NIGHTMARE BEFORE XMAS X SP",
-  "nombre": "Disney Tim Burton's The Nightmare Before Christmas By Shoe Palace Washed Moon Mens Short Sleeve Shirt (Black/Gray)",
-  "genero": "Hombre",
-  "precio": 54.95,
-  "precio_c": 2021,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/8f4d6dd4f54c2f72fe40f57e084e31aa.jpg?v=1792624215",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/53a093d003626bdbbb38fd7ab81a7ce0.jpg?v=1792624215",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/66ad9eb8951cb5f497c89a7ae5fd73b2.jpg?v=1792624215",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/60cf563c9a197106b9954ff6f3c38f01.jpg?v=1792624215"
-  ],
-  "descripcion": "Modelo original de NIGHTMARE BEFORE XMAS X SP, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
    "Producto original",
    "Por encargo: confirmamos tu talla antes de cobrar",
@@ -30893,40 +27738,6 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ]
- },
- {
-  "codigo": "DOM-4048",
-  "marca": "Nike SB",
-  "nombre": "Nike SB Men's Double-Knee Skate Pants (Cacao Wow)",
-  "genero": "Hombre",
-  "precio": 120.0,
-  "precio_c": 4413,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBMen_sDouble-KneeSkatePants_CacaoWow_FB8428-2592.jpg?v=1697564638",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBMen_sDouble-KneeSkatePants_CacaoWow_FB8428-2593.jpg?v=1697564638",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBMen_sDouble-KneeSkatePants_CacaoWow_FB8428-2594.jpg?v=1697564638",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBMen_sDouble-KneeSkatePants_CacaoWow_FB8428-2595.jpg?v=1697564638"
-  ],
-  "descripcion": "Modelo original de Nike SB, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
   ]
  },
  {
@@ -31705,74 +28516,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4075",
-  "marca": "AlphaStyle",
-  "nombre": "AlphaStyle Skate Pullover Fleece Hoodie",
-  "genero": "Hombre",
-  "precio": 105.95,
-  "precio_c": 3896,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/alphastyle_MBSW4082_20001_M-097.jpg?v=1793207656",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/alphastyle_MBSW4082_20001_M-099.jpg?v=1793207661",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/alphastyle_MBSW4082_20001_M-098.jpg?v=1793207670",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/alphastyle_MBSW4082_20001_M-096.jpg?v=1793207675"
-  ],
-  "descripcion": "Modelo original de AlphaStyle, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-4076",
-  "marca": "Nike SB",
-  "nombre": "Nike SB Mens Short-Sleeve Skate Top",
-  "genero": "Hombre",
-  "precio": 105.0,
-  "precio_c": 3861,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/IM5465-437-1.jpg?v=1787854092",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/AURORA_IM5465-437_PHSYM002-2000.jpg?v=1787854092",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/AURORA_IM5465-437_PHSYM001-2000.jpg?v=1787854092",
-   "https://cdn.shopify.com/s/files/1/0236/4333/files/AURORA_IM5465-437_PHSBM001-2000.jpg?v=1787854092"
-  ],
-  "descripcion": "Modelo original de Nike SB, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4077",
   "marca": "Havaianas",
   "nombre": "WOMEN'S SLIM FLIP FLOPS",
@@ -31798,41 +28541,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4078",
-  "marca": "Adidas",
-  "nombre": "Adidas Originals Basketball Shorts",
-  "genero": "Mujer",
-  "precio": 22.93,
-  "precio_c": 843,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/JD5198.jpg?v=1757942319",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/JD5198-A.jpg?v=1757942321",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/JD5198-B.jpg?v=1757942322",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/JD5198-C.jpg?v=1757942322"
-  ],
-  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4079",
   "marca": "Crocs",
   "nombre": "Women's Crocs Terre Ballet Core in Chalk - Damaged",
@@ -31854,41 +28562,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
- },
- {
-  "codigo": "DOM-4080",
-  "marca": "Reebok",
-  "nombre": "Women's Basketball Mesh T-Shirt",
-  "genero": "Mujer",
-  "precio": 27.99,
-  "precio_c": 1029,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254860_F_Model_eCom.jpg?v=1768051946",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254860_FR_Torso_eCom.jpg?v=1768051946",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254860_Sid_Model_eCom.jpg?v=1768051946",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254860_B_Model_eCom.jpg?v=1768051946"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -31924,107 +28597,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4082",
-  "marca": "JUICY COUTURE",
-  "nombre": "Shoe Palace Exclusive OG Bling Zip Up Womens Hoodie (Beige)",
-  "genero": "Mujer",
-  "precio": 39.92,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/a2229f9739b4aaa7e6410ea548e1ee79.jpg?v=1715639109",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0c49b3dd6a07498a0dade40a3c0b1880.jpg?v=1715639109",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/86fc89c491f494f06aeff8f120d46b7e.jpg?v=1715639109"
-  ],
-  "descripcion": "Modelo original de JUICY COUTURE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4083",
-  "marca": "adidas",
-  "nombre": "Select Basketball 2 Quarter",
-  "genero": "Mujer",
-  "precio": 22.95,
-  "precio_c": 844,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KL3156_1l.jpg?v=1792694482",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KL3156_2l.jpg?v=1792694483",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KL3156_3l.jpg?v=1792694483",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KL3156_4l.jpg?v=1792694482"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4084",
-  "marca": "SOFSOLE",
-  "nombre": "2 Pack Sneaker Happy Balls",
-  "genero": "Mujer",
-  "precio": 24.96,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/87008_1.jpg?v=1715299572"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4085",
   "marca": "adidas",
   "nombre": "adidas Retropy F90 'Fuschia'",
@@ -32035,107 +28607,6 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0409/9765/files/IMG-6529.jpg?v=1762199511"
   ],
   "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4086",
-  "marca": "DTLR",
-  "nombre": "DTLR Sneaker Wipes",
-  "genero": "Mujer",
-  "precio": 23.95,
-  "precio_c": 881,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/dtlr_DTLR25WIPE.jpg?v=1755119926"
-  ],
-  "descripcion": "Modelo original de DTLR, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4087",
-  "marca": "Nike",
-  "nombre": "Nike Elite Basketball Crew Socks",
-  "genero": "Mujer",
-  "precio": 30.0,
-  "precio_c": 1103,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0187/5180/files/oneness-nike-elite-basketball-crew-socks-01.jpg?v=1785316911",
-   "https://cdn.shopify.com/s/files/1/0187/5180/files/oneness-nike-elite-basketball-crew-socks-02.jpg?v=1785316911",
-   "https://cdn.shopify.com/s/files/1/0187/5180/files/oneness-nike-elite-basketball-crew-socks-03.jpg?v=1785316911"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4088",
-  "marca": "Reebok",
-  "nombre": "Warm-Up Basketball T-Shirt",
-  "genero": "Mujer",
-  "precio": 30.99,
-  "precio_c": 1140,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256730_F_Model_eCom.jpg?v=1767792041",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256730_FR_Torso_eCom.jpg?v=1767792041",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256730_Sid_Model_eCom.jpg?v=1767792041",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256730_B_Model_eCom.jpg?v=1767792041"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
    "Producto original",
    "Por encargo: confirmamos tu talla antes de cobrar",
@@ -32245,38 +28716,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4092",
-  "marca": "SOFSOLE",
-  "nombre": "Shoe Horn",
-  "genero": "Mujer",
-  "precio": 29.98,
-  "precio_c": 1102,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/82436_1.jpg?v=1715299184"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4093",
   "marca": "adidas",
   "nombre": "adidas Stan Smith Her Vegan 'Orange Rush'",
@@ -32289,106 +28728,6 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0409/9765/products/10-31_2.png?v=1667576674"
   ],
   "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4094",
-  "marca": "DTLR",
-  "nombre": "DTLR Ultimate Cleaner",
-  "genero": "Mujer",
-  "precio": 23.95,
-  "precio_c": 881,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ULT_20CLEANER.jpg?v=1754572723",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ULT_20CLEANER2.jpg?v=1754571655"
-  ],
-  "descripcion": "Modelo original de DTLR, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4095",
-  "marca": "Huf",
-  "nombre": "HUF x Realtree Skate Tool",
-  "genero": "Mujer",
-  "precio": 40.0,
-  "precio_c": 1471,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0187/5180/files/oneness-huf-x-realtree-skate-tool-01.jpg?v=1784908864"
-  ],
-  "descripcion": "Modelo original de Huf, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4096",
-  "marca": "Reebok",
-  "nombre": "Women's Long Sleeve Running Top",
-  "genero": "Mujer",
-  "precio": 32.99,
-  "precio_c": 1213,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295026_F_Model_eCom.jpg?v=1788267902",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295026_FR_Torso_eCom.jpg?v=1787414958",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295026_Sid_Model_eCom.jpg?v=1788267902",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100295026_B_Model_eCom.jpg?v=1788267902"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
    "Producto original",
    "Por encargo: confirmamos tu talla antes de cobrar",
@@ -32475,75 +28814,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4099",
-  "marca": "diadora",
-  "nombre": "Be One Multilayer Full Zip Running Vest",
-  "genero": "Mujer",
-  "precio": 22.95,
-  "precio_c": 844,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178158-80013_1l.jpg?v=1792736162",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178158-80013_2l.jpg?v=1792736162",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178158-80013_3l.jpg?v=1792736162"
-  ],
-  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4100",
-  "marca": "WSS ATHLETIC",
-  "nombre": "Woven Running Short - Womens",
-  "genero": "Mujer",
-  "precio": 29.98,
-  "precio_c": 1102,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS4022SSP_1.jpg?v=1757438354",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS4022SSP_2.jpg?v=1757438354",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS4022SSP_3.jpg?v=1757438354",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS4022SSP_4.jpg?v=1757438354"
-  ],
-  "descripcion": "Modelo original de WSS ATHLETIC, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4101",
   "marca": "Nike Sportswear",
   "nombre": "Womens Nike Air Bliss 'Photon Dust'",
@@ -32557,106 +28827,6 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0409/9765/products/DH5128-001-PHCTH001-2000.png?v=1679602990"
   ],
   "descripcion": "Modelo original de Nike Sportswear, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4102",
-  "marca": "DTLR",
-  "nombre": "DTLR Ultimate Proofer Spray",
-  "genero": "Mujer",
-  "precio": 23.95,
-  "precio_c": 881,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/UTLPROOFER1.jpg?v=1754313520"
-  ],
-  "descripcion": "Modelo original de DTLR, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4103",
-  "marca": "Mitchell & Ness",
-  "nombre": "Mitchell & Ness NBA Remix Logo Snapback 'Portland Trail Blazers' in Red",
-  "genero": "Mujer",
-  "precio": 40.0,
-  "precio_c": 1471,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-mitchell-ness-nba-remix-logo-snapback-portland-trail-blazers-in-red-01.jpg?v=1788899929",
-   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-mitchell-ness-nba-remix-logo-snapback-portland-trail-blazers-in-red-02.jpg?v=1788899929"
-  ],
-  "descripcion": "Modelo original de Mitchell & Ness, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4104",
-  "marca": "Reebok",
-  "nombre": "Women's ID Basketball 3/4 Compression Leggings",
-  "genero": "Mujer",
-  "precio": 32.99,
-  "precio_c": 1213,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254824_F_Model_eCom.jpg?v=1764941163",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254824_Sid_Model_eCom.jpg?v=1764941163",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254824_B_Model_eCom.jpg?v=1764941163",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254824_FR_Torso_eCom.jpg?v=1770154624"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
    "Producto original",
    "Por encargo: confirmamos tu talla antes de cobrar",
@@ -32701,94 +28871,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4106",
-  "marca": "adidas",
-  "nombre": "3-Stripes Rubber Mini Basketball",
-  "genero": "Mujer",
-  "precio": 22.95,
-  "precio_c": 844,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HM4971_1l.jpg?v=1789508383",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HM4971_2l.jpg?v=1789508383",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HM4971_3l.jpg?v=1789508383",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HM4971_4l.jpg?v=1789508383"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "3"
-  ]
- },
- {
-  "codigo": "DOM-4107",
-  "marca": "SOFSOLE",
-  "nombre": "6 Pack Sneaker Matrix Balls",
-  "genero": "Mujer",
-  "precio": 37.98,
-  "precio_c": 1397,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/87021_1.jpg?v=1715299671"
-  ],
-  "descripcion": "Modelo original de SOFSOLE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4108",
-  "marca": "DTLR",
-  "nombre": "DTLR Crease Shield",
-  "genero": "Mujer",
-  "precio": 23.95,
-  "precio_c": 881,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/233146-C.jpg?v=1717420239",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/233146-B.jpg?v=1717420007"
-  ],
-  "descripcion": "Modelo original de DTLR, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4109",
   "marca": "Puma",
   "nombre": "Women's Puma x Felipe Pantone Cruise Rider in Puma White",
@@ -32810,41 +28892,6 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "8.5"
-  ]
- },
- {
-  "codigo": "DOM-4110",
-  "marca": "Reebok",
-  "nombre": "Woven Basketball Shorts",
-  "genero": "Mujer",
-  "precio": 33.99,
-  "precio_c": 1250,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256705_F_Model_eCom.jpg?v=1775131664",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256705_Sid_Model_eCom.jpg?v=1775131664",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256705_B_Model_eCom.jpg?v=1775131664",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256705_FR_Torso_eCom.jpg?v=1775131664"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -32925,76 +28972,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4114",
-  "marca": "Nike",
-  "nombre": "Nike A'ja Wilson Dri-FIT Basketball Shorts",
-  "genero": "Mujer",
-  "precio": 37.93,
-  "precio_c": 1395,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4210-043_W-081.jpg?v=1778087844",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4210-043_W-082.jpg?v=1778087852",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4210-043_W-083.jpg?v=1778087864",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4210-043_W-084.jpg?v=1778087870"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4115",
-  "marca": "Reebok",
-  "nombre": "Basketball Trucker Cap",
-  "genero": "Mujer",
-  "precio": 34.8,
-  "precio_c": 1280,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH5900-100-adjusted.jpg?v=1774640180",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH5900-100_ALT1.jpg?v=1774640180",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH5900-100_ALT2.jpg?v=1774640180",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH5900-100_ALT3.jpg?v=1774640180"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4116",
   "marca": "Adidas",
   "nombre": "WMNS Adidas Adilette W (Dusky Bronze/Footwear White/Preloved Brown)",
@@ -33047,41 +29024,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4118",
-  "marca": "ADIDAS",
-  "nombre": "Flat Crossbody",
-  "genero": "Mujer",
-  "precio": 44.99,
-  "precio_c": 1654,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KL3477_1.jpg?v=1784672452",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KL3477_2.jpg?v=1784672453",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KL3477_3.jpg?v=1784672452",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KL3477_4.jpg?v=1784672453"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4119",
   "marca": "Azalea Wang",
   "nombre": "Azalea Wang Brittany",
@@ -33102,41 +29044,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
- },
- {
-  "codigo": "DOM-4120",
-  "marca": "Reebok",
-  "nombre": "Running Cap",
-  "genero": "Mujer",
-  "precio": 37.6,
-  "precio_c": 1383,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1400-001_MAIN.jpg?v=1761061939",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1400-001_3_tta0ab.jpg?v=1761061939",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1400-001_4_botsxh.jpg?v=1761061939",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1400-001_2_mw31ii.jpg?v=1761061938"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -33218,74 +29125,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4124",
-  "marca": "UGG",
-  "nombre": "UGG Protector",
-  "genero": "Mujer",
-  "precio": 37.95,
-  "precio_c": 1396,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/1171600_a245109c-3683-44c2-8f03-2c0e82d6ffc9.jpg?v=1759252720",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/1171600-A_b181b3a0-617b-4dbf-b035-98be3a9e9d7a.jpg?v=1759252721"
-  ],
-  "descripcion": "Modelo original de UGG, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4125",
-  "marca": "Reebok",
-  "nombre": "Flat Brim Running Cap",
-  "genero": "Mujer",
-  "precio": 37.6,
-  "precio_c": 1383,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH2900_413_MAIN.jpg?v=1761578514",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH2900_413_ALT1.jpg?v=1761578514",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH2900_413_ALT3.jpg?v=1761578514",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH2900_413_ALT4.jpg?v=1761578514"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4126",
   "marca": "Nike",
   "nombre": "WMNS Nike ReactX Rejuven8 (LT Orewood Brn/LT Orewood Brn)",
@@ -33362,76 +29201,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4129",
-  "marca": "Nike",
-  "nombre": "Nike A'ja Wilson A'symmetric Reversible Dri-FIT Basketball Top",
-  "genero": "Mujer",
-  "precio": 47.93,
-  "precio_c": 1763,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4238-645_W-070.jpg?v=1778087931",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4238-645_W-071.jpg?v=1778087940",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4238-645_W-072.jpg?v=1778087947",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4238-645_W-0692.jpg?v=1778095034"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4130",
-  "marca": "Reebok",
-  "nombre": "Vented Flat Brim Running Cap",
-  "genero": "Mujer",
-  "precio": 37.6,
-  "precio_c": 1383,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH4100_438_MAIN.jpg?v=1761578551",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH4100_438_ALT1.jpg?v=1761578551",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH4100_438_ALT3.jpg?v=1761578551",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH4100_438_ALT4.jpg?v=1761578551"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4131",
   "marca": "Nike",
   "nombre": "WMNS Nike Reactx Rejuven8 (Lt Armory Blue/LT Armory Blue)",
@@ -33475,41 +29244,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
- },
- {
-  "codigo": "DOM-4133",
-  "marca": "Nike",
-  "nombre": "Nike A'ja Wilson A'symmetric Reversible Single-Leg Basketball Leggings",
-  "genero": "Mujer",
-  "precio": 47.93,
-  "precio_c": 1763,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4223-043_W-077.jpg?v=1778087883",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4223-043_W-075.jpg?v=1778087895",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4223-043_W-076.jpg?v=1778087905",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II4223-043_W-078.jpg?v=1778087909"
-  ],
-  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -33626,41 +29360,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
- },
- {
-  "codigo": "DOM-4138",
-  "marca": "Reebok",
-  "nombre": "Women's Lux Metallic 2-in-1 Running Shorts 3\"",
-  "genero": "Mujer",
-  "precio": 37.99,
-  "precio_c": 1397,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254736_F_Model_eCom.jpg?v=1769018595",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254736_Sid_Model_eCom.jpg?v=1769018595",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254736_B_Model_eCom.jpg?v=1769018595",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254736_FR_Torso_eCom.jpg?v=1769018595"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -33800,41 +29499,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4144",
-  "marca": "Reebok",
-  "nombre": "Technical Running Cap With Drawcord",
-  "genero": "Mujer",
-  "precio": 39.0,
-  "precio_c": 1434,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1500-001_MAIN.jpg?v=1761061938",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1500-001_5_pvgrbu.jpg?v=1761061939",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1500-001_2_tmzoq3.jpg?v=1761061939",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/RBH1500-001_3_mlduvx.jpg?v=1761061938"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4145",
   "marca": "Jordan",
   "nombre": "WMNS Jordan Trunner LX (Black/Black-Black)",
@@ -33890,41 +29554,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
- },
- {
-  "codigo": "DOM-4147",
-  "marca": "Reebok",
-  "nombre": "French Terry Basketball Hoodie",
-  "genero": "Mujer",
-  "precio": 40.99,
-  "precio_c": 1507,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256721_F_Model_eCom.jpg?v=1767888492",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256721_FR_Torso_eCom.jpg?v=1767888492",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256721_Sid_Model_eCom.jpg?v=1767888492",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100256721_B_Model_eCom.jpg?v=1767888492"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -34230,41 +29859,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
- },
- {
-  "codigo": "DOM-4159",
-  "marca": "Reebok",
-  "nombre": "Women's Running Leggings",
-  "genero": "Mujer",
-  "precio": 47.99,
-  "precio_c": 1765,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100267321_F_Model_eCom.jpg?v=1779883740",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100267321_Sid_Model_eCom.jpg?v=1779883740",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100267321_B_Model_eCom.jpg?v=1779883740",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100267321_FR_Torso_eCom.jpg?v=1779883740"
-  ],
-  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -35054,38 +30648,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4191",
-  "marca": "PUMA",
-  "nombre": "Race Day Running Headband",
-  "genero": "Mujer",
-  "precio": 25.95,
-  "precio_c": 954,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/02728701_1l.jpg?v=1792687626"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
   "codigo": "DOM-4192",
   "marca": "Easy Street",
   "nombre": "Celeste Peep Toe Kitten Heel Pumps",
@@ -35106,41 +30668,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
- },
- {
-  "codigo": "DOM-4193",
-  "marca": "adidas",
-  "nombre": "Running Adizero Quarter Sock",
-  "genero": "Mujer",
-  "precio": 27.95,
-  "precio_c": 1028,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG7591_1l.jpg?v=1793166861",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG7591_2l.jpg?v=1793166861",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG7591_3l.jpg?v=1793166861",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG7591_4l.jpg?v=1793166861"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -35303,110 +30830,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
- },
- {
-  "codigo": "DOM-4201",
-  "marca": "PUMA",
-  "nombre": "Running Baseball Cap",
-  "genero": "Mujer",
-  "precio": 28.95,
-  "precio_c": 1065,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/02616903_1l.jpg?v=1792687512",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/02616903_2l.jpg?v=1792687512",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/02616903_3l.jpg?v=1792687512"
-  ],
-  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4202",
-  "marca": "adidas",
-  "nombre": "Basketball 3-Stripe Shorts",
-  "genero": "Mujer",
-  "precio": 28.95,
-  "precio_c": 1065,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KR2046_1l.jpg?v=1792153661",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KR2046_2l.jpg?v=1792153661",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KR2046_3l.jpg?v=1792153661",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KR2046_4l.jpg?v=1792153661"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
-  ]
- },
- {
-  "codigo": "DOM-4203",
-  "marca": "adidas",
-  "nombre": "Basketball Leopard Graphic Tee",
-  "genero": "Mujer",
-  "precio": 28.95,
-  "precio_c": 1065,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG4861_1l.jpg?v=1792590869",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG4861_2l.jpg?v=1792590870",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG4861_3l.jpg?v=1792590869",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KG4861_4l.jpg?v=1792590869"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -35593,41 +31016,6 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
- },
- {
-  "codigo": "DOM-4211",
-  "marca": "adidas",
-  "nombre": "FS+ Button Up Shirt",
-  "genero": "Mujer",
-  "precio": 51.95,
-  "precio_c": 1910,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KS4328_1l.jpg?v=1792584166",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KS4328_2l.jpg?v=1792584167",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KS4328_3l.jpg?v=1792584166",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KS4328_4l.jpg?v=1792584166"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -36111,41 +31499,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
- },
- {
-  "codigo": "DOM-4231",
-  "marca": "adidas",
-  "nombre": "Adizero Pro Running Pocket Shorts",
-  "genero": "Mujer",
-  "precio": 51.95,
-  "precio_c": 1910,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV7627_1l.jpg?v=1792692388",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV7627_2l.jpg?v=1792692388",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV7627_3l.jpg?v=1792692388",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KV7627_4l.jpg?v=1792692388"
-  ],
-  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "5.0",
-   "5.5",
-   "6.0",
-   "6.5",
-   "7.0",
-   "7.5",
-   "8.0",
-   "8.5",
-   "9.0",
-   "9.5",
-   "10.0",
-   "10.5",
-   "11.0"
   ]
  },
  {
@@ -38075,41 +33428,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4299",
-  "marca": "JORDAN",
-  "nombre": "Jumpman Tee - Youth",
-  "genero": "Niños",
-  "precio": 29.96,
-  "precio_c": 1102,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/952423001_1.jpg?v=1783715663",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/952423001_2.jpg?v=1783715663",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/952423001_3.jpg?v=1783715663",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/952423001_4.jpg?v=1783715663"
-  ],
-  "descripcion": "Modelo original de JORDAN, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4300",
   "marca": "Steve Madden",
   "nombre": "Steve Madden Pryce Grade-School",
@@ -38204,41 +33522,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
- },
- {
-  "codigo": "DOM-4304",
-  "marca": "CONVERSE",
-  "nombre": "Mesh Sneaker Tee - Youth",
-  "genero": "Niños",
-  "precio": 29.98,
-  "precio_c": 1102,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9CH457F8H_1.jpg?v=1783464685",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9CH457F8H_2.jpg?v=1783464686",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9CH457F8H_3.jpg?v=1783464686",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9CH457F8H_4.jpg?v=1783464686"
-  ],
-  "descripcion": "Modelo original de CONVERSE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ]
  },
  {
@@ -38421,40 +33704,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4312",
-  "marca": "NIKE",
-  "nombre": "Multi Dri Fit Training Woven Grade School Shorts (Gym Red/Black/White)",
-  "genero": "Niños",
-  "precio": 44.95,
-  "precio_c": 1653,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4f969f124aea6cffed1513015c68014e.jpg?v=1780330336",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/876f42d0b87f0a317bc17de2576e2dd8.jpg?v=1780330336",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/35d1e051457d00c17aa7a00746182cee.jpg?v=1780330336"
-  ],
-  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4313",
   "marca": "PUMA",
   "nombre": "Leadcat FTR Petals Slide Sandals (Youth)",
@@ -38562,41 +33811,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4317",
-  "marca": "NIKE",
-  "nombre": "Multi Dri Fit Training Woven Grade School Shorts (Black/Pure Platinum/White)",
-  "genero": "Niños",
-  "precio": 44.95,
-  "precio_c": 1653,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/d5f6ea341a8e53f35c62a6b5a1dd3e8d.jpg?v=1779986555",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/242b0bcfa11bcd297bff265b2ce0cccd.jpg?v=1779986556",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/424fd7b8e57a77d579958fdf8576abf3.jpg?v=1779986556",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/6dfebbd0ecd92df216a29e9d019dcdf1.jpg?v=1779986556"
-  ],
-  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4318",
   "marca": "PUMA",
   "nombre": "Leadcat 2.0 Slide Sandals (Youth)",
@@ -38617,41 +33831,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
- },
- {
-  "codigo": "DOM-4319",
-  "marca": "WSS ATHLETIC",
-  "nombre": "Reversible Basketball Short - Youth",
-  "genero": "Niños",
-  "precio": 34.96,
-  "precio_c": 1286,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS6010BGY_1.jpg?v=1757438322",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS6010BGY_2.jpg?v=1757438322",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS6010BGY_3.jpg?v=1757438322",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WSS6010BGY_4.jpg?v=1757438323"
-  ],
-  "descripcion": "Modelo original de WSS ATHLETIC, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ]
  },
  {
@@ -38706,39 +33885,6 @@ var ZAPATOS = [
    "1",
    "2",
    "3",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
-  "codigo": "DOM-4322",
-  "marca": "ADIDAS",
-  "nombre": "Shoe Shop Graphic Grade School Short Sleeve Shirt (White)",
-  "genero": "Niños",
-  "precio": 44.95,
-  "precio_c": 1653,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/cbf42626fb0343de0f58c52ff3228236.jpg?v=1774973686",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/8ff26b9b1033098097d5639f62a71f54.jpg?v=1774973686"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
    "11",
    "12",
    "13"
@@ -39221,41 +34367,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4341",
-  "marca": "JORDAN",
-  "nombre": "AJ3 Shoe Strings Tee - Youth",
-  "genero": "Niños",
-  "precio": 34.98,
-  "precio_c": 1286,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/95F483R78_1.jpg?v=1787090522",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/95F483R78_2.jpg?v=1787090521",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/95F483R78_3.jpg?v=1787090521",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/95F483R78_4.jpg?v=1787090521"
-  ],
-  "descripcion": "Modelo original de JORDAN, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4342",
   "marca": "Reebok",
   "nombre": "Charge Shoes - Little Kids",
@@ -39308,41 +34419,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "2"
-  ]
- },
- {
-  "codigo": "DOM-4344",
-  "marca": "PRO CLUB",
-  "nombre": "Basketball Short - Youth",
-  "genero": "Niños",
-  "precio": 34.98,
-  "precio_c": 1286,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41PK0405GCM_1.jpg?v=1744238731",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41PK0405GCM_2.jpg?v=1744238731",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41PK0405GCM_3.jpg?v=1744238731",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41PK0405GCM_4.jpg?v=1744238731"
-  ],
-  "descripcion": "Modelo original de PRO CLUB, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ]
  },
  {
@@ -41125,41 +36201,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4412",
-  "marca": "ADIDAS",
-  "nombre": "City Shoe Shop Tee - Youth",
-  "genero": "Niños",
-  "precio": 44.98,
-  "precio_c": 1654,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/OA1003AC08_1.jpg?v=1781901655",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/OA1003AC08_2.jpg?v=1781901656",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/OA1003AC08_3.jpg?v=1781901656",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/OA1003AC08_4.jpg?v=1781901655"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4413",
   "marca": "TOMS",
   "nombre": "Doheny Slip On Sneakers (Infant-Little Kid)",
@@ -41989,41 +37030,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4443",
-  "marca": "Nike SB",
-  "nombre": "Nike SB Full Zip Fleece Skate Hoodie (Baltic Blue)",
-  "genero": "Niños",
-  "precio": 70.0,
-  "precio_c": 2574,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBFullZipFleeceSkateHoodie_BalticBlue_FZ8796-4741.jpg?v=1768277966",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBFullZipFleeceSkateHoodie_BalticBlue_FZ8796-4742.jpg?v=1768277966",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBFullZipFleeceSkateHoodie_BalticBlue_FZ8796-4743.jpg?v=1768277966",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBFullZipFleeceSkateHoodie_BalticBlue_FZ8796-4744.jpg?v=1768277966"
-  ],
-  "descripcion": "Modelo original de Nike SB, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4444",
   "marca": "JORDAN",
   "nombre": "Air Jordan 1 Retro Mid SE Patent Black Gold Infant Toddler Lifestyle Shoes (Black/Gold)",
@@ -42272,39 +37278,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4453",
-  "marca": "ADIDAS",
-  "nombre": "Archive Crop Grade School Jersey (Light Pink)",
-  "genero": "Niños",
-  "precio": 54.95,
-  "precio_c": 2021,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/1c4af716e6b1962b808116b9fc55ad27.jpg?v=1774894357",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/78a299c97c82d5f07b0e7c65e7eb6777.jpg?v=1774894357"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4454",
   "marca": "adidas",
   "nombre": "A.E. 1 With Love Basketball Shoes (Youth)",
@@ -42507,41 +37480,6 @@ var ZAPATOS = [
    "5C",
    "8C",
    "10C"
-  ]
- },
- {
-  "codigo": "DOM-4462",
-  "marca": "ADIDAS",
-  "nombre": "Archieve Soccer Grade School Shorts (Black)",
-  "genero": "Niños",
-  "precio": 54.95,
-  "precio_c": 2021,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/ce2c5d45bd4357932f229e234a9252a4.jpg?v=1776804521",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/481d11390cef7a8a32899ea67a2182af.jpg?v=1776804521",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/54680b5e5cae59416c47b5d8549eef22.jpg?v=1776804521",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/fdfb66c486a8c990443672aceb3ae54b.jpg?v=1776804521"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ]
  },
  {
@@ -42756,39 +37694,6 @@ var ZAPATOS = [
   ]
  },
  {
-  "codigo": "DOM-4471",
-  "marca": "ADIDAS",
-  "nombre": "Archieve Soccer Grade School Shorts (Real Green)",
-  "genero": "Niños",
-  "precio": 54.95,
-  "precio_c": 2021,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/45e097606b218b33ac26202af40cfbe0.jpg?v=1774902718",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/63d756d49cf498faaa5a43be327ae46d.jpg?v=1774902718"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ]
- },
- {
   "codigo": "DOM-4472",
   "marca": "PUMA",
   "nombre": "Caven III Holo 2.0 Lace Up Sneakers (Youth)",
@@ -42992,40 +37897,6 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
- },
- {
-  "codigo": "DOM-4479",
-  "marca": "ADIDAS",
-  "nombre": "Archive Grade School Jersey (Real Green)",
-  "genero": "Niños",
-  "precio": 54.95,
-  "precio_c": 2021,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/81ad1273df7d5de2856267631c97c755.jpg?v=1774902673",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/adc631fd5c3237d0c936f5e0d2656419.jpg?v=1774902673",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/0dd766ac5c0b961f0d4b0913fa72991d.jpg?v=1774902673"
-  ],
-  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
-  "detalles": [
-   "Producto original",
-   "Por encargo: confirmamos tu talla antes de cobrar",
-   "Entrega a domicilio en Nicaragua"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ]
  },
  {
@@ -44025,6 +38896,3957 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4516",
+  "marca": "Reebok",
+  "nombre": "Men's Energen Lux Running Shoes",
+  "genero": "Hombre",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033639_SLC_eCom.jpg?v=1764595274",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033639_TPP_eCom.jpg?v=1764595274",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033639_BLT_eCom.jpg?v=1764595274",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100033639_FLT_eCom.jpg?v=1764595274"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4517",
+  "marca": "Reebok",
+  "nombre": "Men's NFX Trainer 2 Training Shoes",
+  "genero": "Hombre",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_SLC_eCom.jpg?v=1784116428",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_TPP_eCom.jpg?v=1784116428",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_BLT_eCom.jpg?v=1784116428",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272100_FLT_eCom.jpg?v=1784116428"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4518",
+  "marca": "Reebok",
+  "nombre": "Men's NFX Trainer 2 Training Shoes",
+  "genero": "Hombre",
+  "precio": 47.99,
+  "precio_c": 1765,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272098_SLC_eCom.jpg?v=1784116480",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272098_TPP_eCom.jpg?v=1784116480",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272098_BLT_eCom.jpg?v=1784116480",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272098_FLT_eCom.jpg?v=1784116480"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4519",
+  "marca": "CONVERSE",
+  "nombre": "Chuck Taylor All Star High Black Suede Mens Lifestyle Shoes (Charm Black)",
+  "genero": "Hombre",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_01.jpg?v=1759248123",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_02.jpg?v=1759248132",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_03.jpg?v=1759248141",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/A18994C_04.jpg?v=1759248149"
+  ],
+  "descripcion": "El Chuck Taylor All Star en su versión Madison de caña baja: lona clásica, plantilla acolchada y la suela de goma vulcanizada de siempre, en un corte pensado para mujer.",
+  "detalles": [
+   "Lona clásica",
+   "Caña baja ( Ox )",
+   "Plantilla acolchada",
+   "Suela vulcanizada de goma"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-4520",
+  "marca": "CONVERSE",
+  "nombre": "Chuck Taylor All Star High Blue Suede Mens Lifestyle Shoes (Masi Blue)",
+  "genero": "Hombre",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c5cb9a58dda3e35b2ad23271f0e0c915.jpg?v=1759248300",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/482f9543a4f7f6c4a6f5ec0643cc380e.jpg?v=1759248300",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6808093865998d024f01b317b0b510ab.jpg?v=1759248300",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4b58d87af46afcface3391cfce1324a1.jpg?v=1759248300"
+  ],
+  "descripcion": "El Chuck Taylor All Star en su versión Madison de caña baja: lona clásica, plantilla acolchada y la suela de goma vulcanizada de siempre, en un corte pensado para mujer.",
+  "detalles": [
+   "Lona clásica",
+   "Caña baja ( Ox )",
+   "Plantilla acolchada",
+   "Suela vulcanizada de goma"
+  ],
+  "tallas": [
+   "9",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4521",
+  "marca": "CONVERSE",
+  "nombre": "Chuck Taylor All Star High Hail Clay Suede Mens Lifestyle Shoes (Hail Clay)",
+  "genero": "Hombre",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5b2a4896ea6745eae14a39871627b33f.jpg?v=1759248423",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d09cc6104ae00c03a7a9939f80abfdf2.jpg?v=1759248423",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/dd66b31a20b4448fddce81abfd5b3a90.jpg?v=1759248423",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cb12dea01310198047030661ad5f15c1.jpg?v=1759248423"
+  ],
+  "descripcion": "El Chuck Taylor All Star en su versión Madison de caña baja: lona clásica, plantilla acolchada y la suela de goma vulcanizada de siempre, en un corte pensado para mujer.",
+  "detalles": [
+   "Lona clásica",
+   "Caña baja ( Ox )",
+   "Plantilla acolchada",
+   "Suela vulcanizada de goma"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4522",
+  "marca": "ASICS",
+  "nombre": "Gel Nunobiki Dried Leaf Green Mens Running Shoes (Dried Leaf Green/Pure Silver)",
+  "genero": "Hombre",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/389ad62e6fcfa4db8f7a7fbedebd00e0.jpg?v=1754495901",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/ae8c5c0d1ad528917e1886cdb2da36df.jpg?v=1754495901",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c5e19e5f37a66d8aec6df869c4a0599b.jpg?v=1754495901",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/2befe846387240d6836b12b4fb1487db.jpg?v=1754495901"
+  ],
+  "descripcion": "Modelo original de ASICS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4523",
+  "marca": "ASICS",
+  "nombre": "Skyhand OG Mens Lifestyle Shoes (Coneflower/Terracotta)",
+  "genero": "Hombre",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9b5e3dc903dc65cb2d3ffa90f49ad338.jpg?v=1757023257",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b42885faefb872c21b88f5392600d48a.jpg?v=1757023257",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/495212833811b6279f37522af28f6939.jpg?v=1757023257",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d4d877d569cd269a4b4536d8fb4d4bdf.jpg?v=1757023257"
+  ],
+  "descripcion": "Modelo original de ASICS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4524",
+  "marca": "DCM",
+  "nombre": "Strike The Goal Mens Long Sleeve Shirt (Navy)",
+  "genero": "Hombre",
+  "precio": 39.93,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/products/cf37d91d0d9aa0b7cfdc0f24b48d01b8.jpg?v=1710346795"
+  ],
+  "descripcion": "Modelo original de DCM, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "M",
+   "L"
+  ]
+ },
+ {
+  "codigo": "DOM-4525",
+  "marca": "diadora",
+  "nombre": "Action Perforated Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/175361-20006_1l.jpg?v=1792864909",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/175361-20006_2l.jpg?v=1792864909",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/175361-20006_3l.jpg?v=1792864909",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/175361-20006_4l.jpg?v=1792864910"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4526",
+  "marca": "PUMA",
+  "nombre": "Attacanto II Firm Ground/Artificial Ground Soccer Cleats",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10849306_1l.jpg?v=1792534358",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10849306_2l.jpg?v=1792534357",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10849306_3l.jpg?v=1792534357",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10849306_4l.jpg?v=1792534357"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5",
+   "8.5",
+   "10.5",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4527",
+  "marca": "diadora",
+  "nombre": "B. Elite Perforated Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/170595-C4701_1l.jpg?v=1792864929",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/170595-C4701_2l.jpg?v=1792864929",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/170595-C4701_3l.jpg?v=1792864929",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/170595-C4701_4l.jpg?v=1792864929"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "4.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4528",
+  "marca": "diadora",
+  "nombre": "B.Elite H Italia Sport Perforated Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176277-C6103_1l.jpg?v=1792998907",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176277-C6103_2l.jpg?v=1792998906",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176277-C6103_3l.jpg?v=1792998906",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176277-C6103_4l.jpg?v=1792998907"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4.5",
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4529",
+  "marca": "diadora",
+  "nombre": "B.Elite Tourney Pigskin Italia Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/181238-25160_1l.jpg?v=1793570848",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/181238-25160_2l.jpg?v=1793570848",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/181238-25160_3l.jpg?v=1793570848",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/181238-25160_4l.jpg?v=1793570848"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4530",
+  "marca": "Crevo",
+  "nombre": "Boonedock II Slip On Sneakers",
+  "genero": "Hombre",
+  "precio": 32.97,
+  "precio_c": 1212,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV1416-410_1l.jpg?v=1792990184",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV1416-410_2l.jpg?v=1792990184",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV1416-410_3l.jpg?v=1792990183",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV1416-410_4l.jpg?v=1792990184"
+  ],
+  "descripcion": "Modelo original de Crevo, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4531",
+  "marca": "diadora",
+  "nombre": "Brasil Elite 2 Lightweight MPH Firm Ground Soccer Cleats",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179062-C9981_1l.jpg?v=1793573781",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179062-C9981_2l.jpg?v=1793573781",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179062-C9981_3l.jpg?v=1793573781",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179062-C9981_4l.jpg?v=1793573782"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-4532",
+  "marca": "PUMA",
+  "nombre": "Ca Pro Gum Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39575301_1l.jpg?v=1793749839",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39575301_2l.jpg?v=1793749840",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39575301_3l.jpg?v=1793749840",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39575301_4l.jpg?v=1793749839"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "10",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4533",
+  "marca": "PUMA",
+  "nombre": "Club 5V5 Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39789402_1l.jpg?v=1789243895",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39789402_2l.jpg?v=1789243895",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39789402_3l.jpg?v=1789243895",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39789402_4l.jpg?v=1789243895"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4534",
+  "marca": "PUMA",
+  "nombre": "Club II Indoor ESD Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_1l.jpg?v=1791370274",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_2l.jpg?v=1791370274",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_3l.jpg?v=1791370274",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40446504_4l.jpg?v=1791370274"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4535",
+  "marca": "PUMA",
+  "nombre": "Club II Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39744404_1l.jpg?v=1792529634",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39744404_2l.jpg?v=1792529634",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39744404_3l.jpg?v=1792529634",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39744404_4l.jpg?v=1792529634"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-4536",
+  "marca": "PUMA",
+  "nombre": "Clyde EMBD NYC Flagship Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346601_1l.jpg?v=1792974052",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346601_2l.jpg?v=1792974052",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346601_3l.jpg?v=1792974052",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346601_4l.jpg?v=1792974052"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-4537",
+  "marca": "PUMA",
+  "nombre": "Clyde Embroidered Vegas Flagship Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40252201_1l.jpg?v=1793549998",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40252201_2l.jpg?v=1793549998",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40252201_3l.jpg?v=1793549998",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40252201_4l.jpg?v=1793549998"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4538",
+  "marca": "Crevo",
+  "nombre": "Columbus Lace Up Shoes",
+  "genero": "Hombre",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_1l.jpg?v=1792785790",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_2l.jpg?v=1792785790",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_3l.jpg?v=1792785790",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_4l.jpg?v=1792785790"
+  ],
+  "descripcion": "Modelo original de Crevo, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4539",
+  "marca": "PUMA",
+  "nombre": "Court Classico Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 42.95,
+  "precio_c": 1579,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40028401_1l.jpg?v=1792996356",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40028401_2l.jpg?v=1792996356",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40028401_3l.jpg?v=1792996356",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40028401_4l.jpg?v=1792996356"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4540",
+  "marca": "Hi-Tec",
+  "nombre": "Demolisher Mid Hiking Boots",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CH80046-OYB_1l.jpg?v=1792991267",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CH80046-OYB_2l.jpg?v=1792991267",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CH80046-OYB_3l.jpg?v=1792991267",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CH80046-OYB_4l.jpg?v=1792991267"
+  ],
+  "descripcion": "Modelo original de Hi-Tec, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4541",
+  "marca": "Fila",
+  "nombre": "Double Bounce 3 Pickleball Shoes",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM01800-256_1l.jpg?v=1789194969",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM01800-256_2l.jpg?v=1789194969",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM01800-256_3l.jpg?v=1789194970",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/1PM01800-256_4l.jpg?v=1789194969"
+  ],
+  "descripcion": "Modelo original de Fila, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4542",
+  "marca": "PUMA",
+  "nombre": "Easy Rider Thrive and Triumph Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40328902_1l.jpg?v=1792730135",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40328902_2l.jpg?v=1792730135",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40328902_3l.jpg?v=1792730135",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40328902_4l.jpg?v=1792730134"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4543",
+  "marca": "diadora",
+  "nombre": "Equipe Mad Italia Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/177158-C8489_1l.jpg?v=1792864737",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/177158-C8489_2l.jpg?v=1792864738",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/177158-C8489_3l.jpg?v=1792864738",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/177158-C8489_4l.jpg?v=1792864738"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4544",
+  "marca": "PUMA",
+  "nombre": "FlexFocus Lite Modern Running Shoes",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31009335_1l.jpg?v=1791369828",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31009335_2l.jpg?v=1791369829",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31009335_3l.jpg?v=1791369829",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31009335_4l.jpg?v=1791369829"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-4545",
+  "marca": "PUMA",
+  "nombre": "FlexFocus Lite Modern Wide Running Shoes",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31300001_1l.jpg?v=1792736733",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31300001_2l.jpg?v=1792736733",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31300001_3l.jpg?v=1792736733",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31300001_4l.jpg?v=1792736733"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4546",
+  "marca": "adidas",
+  "nombre": "Galaxy 8 Cloudfoam Running Shoes",
+  "genero": "Hombre",
+  "precio": 46.95,
+  "precio_c": 1727,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KZ6742_1l.jpg?v=1790276887",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KZ6742_2l.jpg?v=1790276887",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KZ6742_3l.jpg?v=1790276886",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KZ6742_4l.jpg?v=1790276886"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10",
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4547",
+  "marca": "PUMA",
+  "nombre": "GV Special NYC Flagship Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346701_1l.jpg?v=1793545983",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346701_2l.jpg?v=1793545984",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346701_3l.jpg?v=1793545983",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40346701_4l.jpg?v=1793545983"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4548",
+  "marca": "TOMS",
+  "nombre": "Harbor Plaid Slippers",
+  "genero": "Hombre",
+  "precio": 22.95,
+  "precio_c": 844,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10016938T_1l.jpg?v=1793556828",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10016938T_2l.jpg?v=1793556828",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10016938T_3l.jpg?v=1793556828",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10016938T_4l.jpg?v=1793556828"
+  ],
+  "descripcion": "Modelo original de TOMS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4549",
+  "marca": "adidas",
+  "nombre": "Kaptir Base Shoes",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JQ4632_1l.jpg?v=1789082789",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JQ4632_2l.jpg?v=1789082788",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JQ4632_3l.jpg?v=1789082788",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JQ4632_4l.jpg?v=1789082789"
+  ],
+  "descripcion": "El Kaptir 4.0 es un tenis urbano de tejido técnico con mediasuela acolchada pensada para caminar todo el día. Calce tipo calcetín y look deportivo limpio.",
+  "detalles": [
+   "Tejido técnico tipo calcetín",
+   "Mediasuela acolchada",
+   "Estilo urbano deportivo",
+   "Suela de goma"
+  ],
+  "tallas": [
+   "7.5",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-4550",
+  "marca": "diadora",
+  "nombre": "Kmaro 42 Suede Mesh Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178995-C4621_1l.jpg?v=1792999082",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178995-C4621_2l_bdccbd9c-bd49-458c-a4e9-4ba7bf6567f6.jpg?v=1792999082",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178995-C4621_3l.jpg?v=1792999082",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178995-C4621_4l.jpg?v=1792999082"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4.5",
+   "5.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4551",
+  "marca": "Lugz",
+  "nombre": "Lear Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MLEARC-4010_1l.jpg?v=1789414548",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MLEARC-4010_2l.jpg?v=1789414549",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MLEARC-4010_3l.jpg?v=1789414548",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MLEARC-4010_4l.jpg?v=1789414548"
+  ],
+  "descripcion": "Modelo original de Lugz, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "10.5",
+   "11.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4552",
+  "marca": "diadora",
+  "nombre": "Mi Basket Row Cut Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178541-C7213_1l.jpg?v=1793574982",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178541-C7213_2l.jpg?v=1793574982",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178541-C7213_3l.jpg?v=1793574981",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178541-C7213_4l.jpg?v=1793574982"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4553",
+  "marca": "diadora",
+  "nombre": "N9000 Alpina Italia Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179763-70312_1l.jpg?v=1793572293",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179763-70312_2l.jpg?v=1793572293",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179763-70312_3l.jpg?v=1793572293",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179763-70312_4l.jpg?v=1793572293"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4"
+  ]
+ },
+ {
+  "codigo": "DOM-4554",
+  "marca": "PUMA",
+  "nombre": "Palermo NYC Flagship Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40268901_1l.jpg?v=1793354192",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40268901_2l.jpg?v=1793354192",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40268901_3l.jpg?v=1793354192",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40268901_4l.jpg?v=1793354192"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "8",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4555",
+  "marca": "adidas",
+  "nombre": "Pureboost 22 Shoes",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/GZ5175_1l.jpg?v=1793519025",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/GZ5175_2l.jpg?v=1793519025",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/GZ5175_3l.jpg?v=1793519026",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/GZ5175_4l.jpg?v=1793519025"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4556",
+  "marca": "PUMA",
+  "nombre": "PWR Hybrid Training Shoes",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31028212_1l.jpg?v=1793750339",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31028212_2l.jpg?v=1793750340",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31028212_3l.jpg?v=1793750339",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31028212_4l.jpg?v=1793750340"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9.5",
+   "13",
+   "14",
+   "9",
+   "10",
+   "10.5",
+   "11.5",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4557",
+  "marca": "AND1",
+  "nombre": "Racer Lite Slip On Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90129M-BMV_1l.jpg?v=1792717566",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90129M-BMV_2l.jpg?v=1792717565",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90129M-BMV_3l.jpg?v=1792717565",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AD90129M-BMV_4l.jpg?v=1792717566"
+  ],
+  "descripcion": "Modelo original de AND1, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4558",
+  "marca": "PUMA",
+  "nombre": "RBD Game High Top Sneakers",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38583901_1l.jpg?v=1789729822",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38583901_2l.jpg?v=1789729822",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38583901_3l.jpg?v=1789729822",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38583901_4l.jpg?v=1789729823"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11.5",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4559",
+  "marca": "PUMA",
+  "nombre": "Rebound Joy Suede Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40529302_1l.jpg?v=1792524746",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40529302_2l.jpg?v=1792524746",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40529302_3l.jpg?v=1792524746",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40529302_4l.jpg?v=1792524746"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-4560",
+  "marca": "PUMA",
+  "nombre": "Roma 24 Standard Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686801_1l.jpg?v=1792726949",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686801_2l.jpg?v=1792726949",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686801_3l.jpg?v=1792726949",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686801_4l.jpg?v=1792726949"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4561",
+  "marca": "PUMA",
+  "nombre": "Roma 24 Standard Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686816_1l.jpg?v=1792803558",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686816_2l.jpg?v=1792803558",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686816_3l.jpg?v=1792803558",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39686816_4l.jpg?v=1792803558"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5.5",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4562",
+  "marca": "PUMA",
+  "nombre": "Shuffle Downtown OG Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40384001_1l.jpg?v=1793544037",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40384001_2l.jpg?v=1793544037",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40384001_3l.jpg?v=1793544037",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40384001_4l.jpg?v=1793544037"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-4563",
+  "marca": "PUMA",
+  "nombre": "ST Miler Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40162202_1l.jpg?v=1792732965",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40162202_2l.jpg?v=1792732965",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40162202_3l.jpg?v=1792732965",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40162202_4l.jpg?v=1792732965"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-4564",
+  "marca": "adidas",
+  "nombre": "Stan Smith Shoes",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FY5866_1l.jpg?v=1793858937",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FY5866_2l.jpg?v=1793858936",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FY5866_3l.jpg?v=1793858937",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FY5866_4l.jpg?v=1793858937"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4565",
+  "marca": "diadora",
+  "nombre": "Terrena Nylon Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176553-C9283_1l.jpg?v=1793573257",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176553-C9283_2l.jpg?v=1793573257",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176553-C9283_3l.jpg?v=1793573258",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/176553-C9283_4l.jpg?v=1793573258"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4566",
+  "marca": "Lugz",
+  "nombre": "Trax Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-1001_1l.jpg?v=1793283663",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-1001_2l.jpg?v=1793283663",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-1001_3l.jpg?v=1793283663",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-1001_4l.jpg?v=1793283663"
+  ],
+  "descripcion": "Modelo original de Lugz, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4567",
+  "marca": "Lugz",
+  "nombre": "Trax Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-0055_1l.jpg?v=1793283818",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-0055_2l.jpg?v=1793283818",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-0055_3l.jpg?v=1793283818",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MTRAXT-0055_4l.jpg?v=1793283818"
+  ],
+  "descripcion": "Modelo original de Lugz, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4568",
+  "marca": "PUMA",
+  "nombre": "Twitch Runner Trail Running Shoes",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37696101_1l.jpg?v=1793750867",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37696101_2l.jpg?v=1793750867",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37696101_3l.jpg?v=1793750867",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37696101_4l.jpg?v=1793750867"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4569",
+  "marca": "Prince",
+  "nombre": "Vintage Cup Baseline High Top Sneakers",
+  "genero": "Hombre",
+  "precio": 32.97,
+  "precio_c": 1212,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/PDPSN00001-100_1l.jpg?v=1792762324",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/PDPSN00001-100_2l.jpg?v=1792762324",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/PDPSN00001-100_3l.jpg?v=1792762324",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/PDPSN00001-100_4l.jpg?v=1792762324"
+  ],
+  "descripcion": "Modelo original de Prince, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "41"
+  ]
+ },
+ {
+  "codigo": "DOM-4570",
+  "marca": "TOMS",
+  "nombre": "West Elm x Repreve Alpargata Slip On Shoes",
+  "genero": "Hombre",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017466T_1l.jpg?v=1790948237",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017466T_2l.jpg?v=1790948237",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017466T_3l.jpg?v=1790948238",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017466T_4l.jpg?v=1790948238"
+  ],
+  "descripcion": "Modelo original de TOMS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4571",
+  "marca": "diadora",
+  "nombre": "Winner Lace Up Sneakers",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179584-C5934_1l.jpg?v=1792846877",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179584-C5934_2l.jpg?v=1792846877",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179584-C5934_3l.jpg?v=1792846877",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179584-C5934_4l.jpg?v=1792846877"
+  ],
+  "descripcion": "Modelo original de diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4572",
+  "marca": "PUMA",
+  "nombre": "X Cell Action Linear Running Shoes",
+  "genero": "Hombre",
+  "precio": 48.95,
+  "precio_c": 1800,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37977601_1l.jpg?v=1793393507",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37977601_2l.jpg?v=1793393508",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37977601_3l.jpg?v=1793393507",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37977601_4l.jpg?v=1793393507"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-4573",
+  "marca": "PUMA",
+  "nombre": "X-Cell Ayro Running Shoes",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31164801_1l.jpg?v=1792529698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31164801_2l.jpg?v=1792529698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31164801_3l.jpg?v=1792529698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31164801_4l.jpg?v=1792529698"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4574",
+  "marca": "ADIDAS",
+  "nombre": "Adilette - Mens",
+  "genero": "Hombre",
+  "precio": 45.96,
+  "precio_c": 1690,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_1.jpg?v=1775168952",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_2.jpg?v=1775168952",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_3.jpg?v=1775168952",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HQ9226_4.jpg?v=1775168952"
+  ],
+  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4575",
+  "marca": "ADIDAS",
+  "nombre": "Adilette Comfort - Mens",
+  "genero": "Hombre",
+  "precio": 43.96,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_1.jpg?v=1749488366",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_2.jpg?v=1749488366",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_3.jpg?v=1749488366",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GY1946_4.jpg?v=1749488366"
+  ],
+  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "08.0",
+   "09.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4576",
+  "marca": "ADIDAS",
+  "nombre": "Adilette Comfort 2.0 - Mens",
+  "genero": "Hombre",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_1.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_2.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_3.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4974_4.jpg?v=1780616066"
+  ],
+  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4577",
+  "marca": "ADIDAS",
+  "nombre": "Adilette Comfort 2.0 - Mens",
+  "genero": "Hombre",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4975_1.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4975_2.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4975_3.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS4975_4.jpg?v=1780616066"
+  ],
+  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4578",
+  "marca": "ADIDAS",
+  "nombre": "Adilette OG Comfort - Mens",
+  "genero": "Hombre",
+  "precio": 42.96,
+  "precio_c": 1580,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IH6880_1.jpg?v=1780937646",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IH6880_2.jpg?v=1780937646",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IH6880_3.jpg?v=1780937646",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IH6880_4.jpg?v=1780937646"
+  ],
+  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4579",
+  "marca": "ADIDAS",
+  "nombre": "Adilette Shower - Mens",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_1.jpg?v=1781031118",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_2.jpg?v=1781031118",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_3.jpg?v=1781031118",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GZ3772_4.jpg?v=1781031118"
+  ],
+  "descripcion": "Modelo original de ADIDAS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "07.0",
+   "08.0",
+   "09.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4580",
+  "marca": "NIKE",
+  "nombre": "Benassi JDI - Mens",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880605_1.jpg?v=1776965256",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880605_2.jpg?v=1776965256",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880605_3.jpg?v=1776965256",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880605_4.jpg?v=1776965257"
+  ],
+  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4581",
+  "marca": "NIKE",
+  "nombre": "Benassi JDI - Mens",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_1.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_2.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_3.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/343880090_4.jpg?v=1775518943"
+  ],
+  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4582",
+  "marca": "DOCKERS",
+  "nombre": "Benham - Mens",
+  "genero": "Hombre",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_1.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_2.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_3.jpg?v=1776188610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9034538_4.jpg?v=1776188610"
+  ],
+  "descripcion": "Modelo original de DOCKERS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4583",
+  "marca": "SKECHERS",
+  "nombre": "Bobs B Flex Chill Edge - Mens",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/118106BLK_1.jpg?v=1780609769",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/118106BLK_2.jpg?v=1780609769",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/118106BLK_3.jpg?v=1780609769",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/118106BLK_4.jpg?v=1780609769"
+  ],
+  "descripcion": "Modelo original de SKECHERS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4584",
+  "marca": "DOCKERS",
+  "nombre": "Bradburn - Mens",
+  "genero": "Hombre",
+  "precio": 44.96,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_1.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_2.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_3.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9022052_4.jpg?v=1777393851"
+  ],
+  "descripcion": "Modelo original de DOCKERS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4585",
+  "marca": "LUGZ",
+  "nombre": "Challenge - Mens",
+  "genero": "Hombre",
+  "precio": 44.96,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHALGD012_1.jpg?v=1756486000",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHALGD012_2.jpg?v=1756486000",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHALGD012_3.jpg?v=1756486000",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHALGD012_4.jpg?v=1756486000"
+  ],
+  "descripcion": "Modelo original de LUGZ, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "09.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4586",
+  "marca": "LUGZ",
+  "nombre": "Changeover II - Mens",
+  "genero": "Hombre",
+  "precio": 43.96,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHG3V1453_1.jpg?v=1778087950",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHG3V1453_2.jpg?v=1778087950",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHG3V1453_3.jpg?v=1778087950",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHG3V1453_4.jpg?v=1778087950"
+  ],
+  "descripcion": "Modelo original de LUGZ, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "08.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4587",
+  "marca": "LUGZ",
+  "nombre": "Changeover II - Mens",
+  "genero": "Hombre",
+  "precio": 43.96,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHGIID076_1.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHGIID076_2.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHGIID076_3.jpg?v=1777393851",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MCHGIID076_4.jpg?v=1777393851"
+  ],
+  "descripcion": "Modelo original de LUGZ, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4588",
+  "marca": "LEE",
+  "nombre": "Dante - Mens",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000015_1.jpg?v=1781196462",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000015_2.jpg?v=1781196462",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000015_3.jpg?v=1781196463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000015_4.jpg?v=1781196462"
+  ],
+  "descripcion": "Modelo original de LEE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4589",
+  "marca": "REEBOK",
+  "nombre": "Dash Pro - Mens",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262188_1.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262188_2.jpg?v=1780616067",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262188_3.jpg?v=1780616066",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262188_4.jpg?v=1780616066"
+  ],
+  "descripcion": "Modelo original de REEBOK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.0",
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4590",
+  "marca": "REEBOK",
+  "nombre": "Dash Pro - Mens",
+  "genero": "Hombre",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262186_1.jpg?v=1780616067",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262186_2.jpg?v=1780616067",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262186_3.jpg?v=1780616067",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100262186_4.jpg?v=1780616067"
+  ],
+  "descripcion": "Modelo original de REEBOK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.0",
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4591",
+  "marca": "EUROSTAR",
+  "nombre": "Dashing - Mens",
+  "genero": "Hombre",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_1.jpg?v=1731540667",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_2.jpg?v=1731540667",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_3.jpg?v=1731540667",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU6547DKGRY_4.jpg?v=1731540667"
+  ],
+  "descripcion": "Modelo original de EUROSTAR, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "08.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4592",
+  "marca": "LEE",
+  "nombre": "Daybreaker Hi - Mens",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_1.jpg?v=1784319710",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_2.jpg?v=1784319710",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_3.jpg?v=1784319710",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001819804_4.jpg?v=1784319710"
+  ],
+  "descripcion": "Modelo original de LEE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4593",
+  "marca": "LEE",
+  "nombre": "Dayton - Mens",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000012_1.jpg?v=1788302544",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000012_2.jpg?v=1788302544",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000012_3.jpg?v=1788302544",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000012_4.jpg?v=1788302544"
+  ],
+  "descripcion": "Modelo original de LEE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4594",
+  "marca": "REEBOK",
+  "nombre": "Energen Lux - Mens",
+  "genero": "Hombre",
+  "precio": 43.96,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_1.jpg?v=1775173427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_2.jpg?v=1775173427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_3.jpg?v=1775173427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100074832_4.jpg?v=1775173427"
+  ],
+  "descripcion": "Modelo original de REEBOK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4595",
+  "marca": "AVIA",
+  "nombre": "Move - Mens",
+  "genero": "Hombre",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MMR_1.jpg?v=1760654306",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MMR_2.jpg?v=1760654306",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MMR_3.jpg?v=1760654306",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MMR_4.jpg?v=1760654306"
+  ],
+  "descripcion": "Modelo original de AVIA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "08.5",
+   "09.0",
+   "09.5",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4596",
+  "marca": "AVIA",
+  "nombre": "Move - Mens",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MB_1.jpg?v=1786576427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MB_2.jpg?v=1786576427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MB_3.jpg?v=1786576427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/AA50247MB_4.jpg?v=1786576427"
+  ],
+  "descripcion": "Modelo original de AVIA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4597",
+  "marca": "LEE",
+  "nombre": "Noah Hi - Mens",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_1.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_2.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_3.jpg?v=1784319707",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001831090_4.jpg?v=1784319707"
+  ],
+  "descripcion": "Modelo original de LEE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ]
+ },
+ {
+  "codigo": "DOM-4598",
+  "marca": "Adidas Golf",
+  "nombre": "Adidas Golf Mens Rolling Links MC Z-Traxion Spikeless Golf Shoes",
+  "genero": "Hombre",
+  "precio": 100.0,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IF1699-1.jpg?v=1724950777",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IF1699-2.jpg?v=1724950777",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IF1699-3.jpg?v=1724950777",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IF1699-4.jpg?v=1724950777"
+  ],
+  "descripcion": "Modelo original de Adidas Golf, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10.5",
+   "12.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4599",
+  "marca": "Adidas Golf",
+  "nombre": "Adidas Golf Mens Rolling Links Superstar Spikeless Golf Shoes",
+  "genero": "Hombre",
+  "precio": 80.0,
+  "precio_c": 2942,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH2500-1.jpg?v=1724949890",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH2500-2.jpg?v=1724949891",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH2500-3.jpg?v=1724949890",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH2500-4.jpg?v=1724949891"
+  ],
+  "descripcion": "Modelo original de Adidas Golf, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "12.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4600",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Adimatic Shoes 'Preloved Yellow'",
+  "genero": "Hombre",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IE2225-1_d34aac56-7c8c-4bc7-82a5-7b6d7375d137.jpg?v=1692900476",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IE2225-2.jpg?v=1692900476",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IE2225-3.jpg?v=1692900476",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IE2225-4.jpg?v=1692900476"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-4601",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Adistar Hrmy Shoes",
+  "genero": "Hombre",
+  "precio": 90.0,
+  "precio_c": 3310,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ6787-1.jpg?v=1747413570",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ6787_6_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1747413572",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ6787_7_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1747413572",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ6787_9_FOOTWEAR_Photography_DetailView2_white.jpg?v=1747413572"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4602",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens BW Army Shoes",
+  "genero": "Hombre",
+  "precio": 94.0,
+  "precio_c": 3457,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/HQ9265-1.jpg?v=1769447273",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/HQ9265_6_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1769447827",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/HQ9265_7_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1769447827",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/HQ9265_8_FOOTWEAR_Photography_DetailView1_white.jpg?v=1769447827"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4603",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens F50 Sala SP Consortium Shoes",
+  "genero": "Hombre",
+  "precio": 75.0,
+  "precio_c": 2758,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR2206-1.jpg?v=1765208685",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR2206-2.jpg?v=1765208685",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR2206_7_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1765208685",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR2206_8_FOOTWEAR_Photography_DetailView1_white.jpg?v=1765208685"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4604",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Gazelle Indoor Shoes",
+  "genero": "Hombre",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5417-1.jpg?v=1744035992",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5417_6_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1744035995",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5417_7_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1744035995",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5417_9_FOOTWEAR_Photography_DetailView2_white.jpg?v=1744035995"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "12"
+  ]
+ },
+ {
+  "codigo": "DOM-4605",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Gazelle Indoor Shoes",
+  "genero": "Hombre",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5411-1.jpg?v=1736552855",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5411_6_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1736552855",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5411_7_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1736552855",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JH5411_8_FOOTWEAR_Photography_DetailView1_white.jpg?v=1736552855"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4606",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Handball Spezial WM Shoes",
+  "genero": "Hombre",
+  "precio": 85.0,
+  "precio_c": 3126,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH0136-1.jpg?v=1727123778",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH0136-2.jpg?v=1727123778",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH0136-3.jpg?v=1727123778",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH0136_8_FOOTWEAR_Photography_DetailView1_white.jpg?v=1727123777"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4607",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Jabbar High Shoes",
+  "genero": "Hombre",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH5316-1.jpg?v=1729004723",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH5316-2.jpg?v=1729004723",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH5316-3.jpg?v=1729004752",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/IH5316_3_FOOTWEAR_Photography_TopPortraitView_white.jpg?v=1729004752"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4608",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Jabbar Lo Shoes",
+  "genero": "Hombre",
+  "precio": 65.0,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR1597-1.jpg?v=1756234068",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR1597_6_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1756234184",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR1597_7_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1756234184",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR1597_8_FOOTWEAR_Photography_DetailView1_white.jpg?v=1756234184"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "7",
+   "7.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4609",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Jabbar Low Shoes",
+  "genero": "Hombre",
+  "precio": 65.0,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JI0150-1.jpg?v=1725889162",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JI0150-2.jpg?v=1725889242",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JI0150-3.jpg?v=1725889242",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JI0150-4.jpg?v=1725889264"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "7.5",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-4610",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Megaride S2 Shoes",
+  "genero": "Hombre",
+  "precio": 90.0,
+  "precio_c": 3310,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR0902-1_571bdf1c-4288-4819-a592-0ec06d99e541.jpg?v=1755815333",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR0902_6_FOOTWEAR_Photography_FrontLateralTopView_white_43a94888-c755-4bc9-b68b-44408c38d232.jpg?v=1755815337",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR0902_7_FOOTWEAR_Photography_BackLateralTopView_white_6d725dd5-7d3c-4cd2-96f7-e99138291f07.jpg?v=1755815337",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JR0902_9_FOOTWEAR_Photography_DetailView2_white_83dd71b4-614b-4613-9690-b2a818e7b6a6.jpg?v=1755815337"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4611",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Adistar Harmony Shoes",
+  "genero": "Hombre",
+  "precio": 122.0,
+  "precio_c": 4486,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ8743-1.jpg?v=1772827469",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ8743_6_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1772827511",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ8743_7_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1772827511",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/JQ8743_8_FOOTWEAR_Photography_DetailView1_white.jpg?v=1772827511"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9.5",
+   "10",
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4612",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Adistar XLG 2.0 Shoes",
+  "genero": "Hombre",
+  "precio": 160.0,
+  "precio_c": 5884,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KI4505-1.jpg?v=1784132564",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KI4505-2.jpg?v=1784132564",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KI4505-3.jpg?v=1784132564",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/imgi_10_adidas-adistar-xlg-2-0-royal-blue-ki4505-1.jpg?v=1784132566"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4613",
+  "marca": "Adidas",
+  "nombre": "Adidas Mens Adistar XLG 2.0 Shoes",
+  "genero": "Hombre",
+  "precio": 160.0,
+  "precio_c": 5884,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KJ7895-1.jpg?v=1784130322",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/imgi_13_ADISTAR_XLG_2.0_SHOES_Grey_KJ7895_04_standard.jpg?v=1784130321",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/imgi_15_ADISTAR_XLG_2.0_SHOES_Grey_KJ7895_05_standard.jpg?v=1784130321",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/imgi_19_ADISTAR_XLG_2.0_SHOES_Grey_KJ7895_42_detail.jpg?v=1784130321"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "12",
+   "11.5",
+   "10.5",
+   "5",
+   "10",
+   "9.5",
+   "9",
+   "8.5",
+   "8",
+   "13"
+  ]
+ },
+ {
+  "codigo": "DOM-4614",
+  "marca": "JUICY COUTURE",
+  "nombre": "Big Bling Fitted Womens Tank Top (Mint)",
+  "genero": "Mujer",
+  "precio": 39.92,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/46ae58aca5ddc5f51cb0aff88c1aa1f7.jpg?v=1713809622"
+  ],
+  "descripcion": "Modelo original de JUICY COUTURE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "XS"
+  ]
+ },
+ {
+  "codigo": "DOM-4615",
+  "marca": "JUICY COUTURE",
+  "nombre": "Big Bling Fitted Womens Tank Top (Purple)",
+  "genero": "Mujer",
+  "precio": 39.92,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/2daa6fe34626346ee71a615978039b29.jpg?v=1713809573"
+  ],
+  "descripcion": "Modelo original de JUICY COUTURE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "L"
+  ]
+ },
+ {
+  "codigo": "DOM-4616",
+  "marca": "NIKE",
+  "nombre": "NSW Chill Knit Cami Womens Tank Top (Beige)",
+  "genero": "Mujer",
+  "precio": 44.93,
+  "precio_c": 1652,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/ff54ba8b10fb1043f8653cafcd88f3ce.jpg?v=1713291380"
+  ],
+  "descripcion": "Modelo original de NIKE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "XS",
+   "L"
+  ]
+ },
+ {
+  "codigo": "DOM-4617",
+  "marca": "JUICY COUTURE",
+  "nombre": "OG Cropped Graphic Womens Tank Top (Black/Red)",
+  "genero": "Mujer",
+  "precio": 44.93,
+  "precio_c": 1652,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cbdd112a7d6422e54a334ba1a19db123.jpg?v=1723843004",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cb6c0f8867f0351d6645e0c669223b0f.jpg?v=1723843004"
+  ],
+  "descripcion": "Modelo original de JUICY COUTURE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "XS",
+   "S"
+  ]
+ },
+ {
+  "codigo": "DOM-4618",
+  "marca": "adidas",
+  "nombre": "adidas x Overtime Lightblaze Slides",
+  "genero": "Mujer",
+  "precio": 40.95,
+  "precio_c": 1506,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ6776_1l.jpg?v=1791465149",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ6776_2l.jpg?v=1791465149",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ6776_3l.jpg?v=1791465149",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ6776_4l.jpg?v=1791465150"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7W / 6M",
+   "9W / 8M",
+   "10W / 9M",
+   "11W / 10M",
+   "12W / 11M",
+   "13W / 12M"
+  ]
+ },
+ {
+  "codigo": "DOM-4619",
+  "marca": "adidas",
+  "nombre": "Adifom Iiinfinity Slides",
+  "genero": "Mujer",
+  "precio": 35.95,
+  "precio_c": 1322,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4709_1l.jpg?v=1791896420",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4709_2l.jpg?v=1791896420",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4709_3l.jpg?v=1791896420",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4709_4l.jpg?v=1791896420"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "12W / 11M"
+  ]
+ },
+ {
+  "codigo": "DOM-4620",
+  "marca": "adidas",
+  "nombre": "Adifom Iiinfinity Slides",
+  "genero": "Mujer",
+  "precio": 35.95,
+  "precio_c": 1322,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ0151_1l.jpg?v=1792404990",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ0151_2l.jpg?v=1792404990",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ0151_3l.jpg?v=1792404990",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ0151_4l.jpg?v=1792404990"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9W / 8M",
+   "11W / 10M",
+   "12W / 11M",
+   "14W / 13M",
+   "15W / 14M",
+   "16W / 15M",
+   "8W / 7M"
+  ]
+ },
+ {
+  "codigo": "DOM-4621",
+  "marca": "adidas",
+  "nombre": "Adilette Lite Slides",
+  "genero": "Mujer",
+  "precio": 28.95,
+  "precio_c": 1065,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6197_1l.jpg?v=1792583069",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6197_2l.jpg?v=1792583069",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6197_3l.jpg?v=1792583069",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6197_4l.jpg?v=1792583069"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4622",
+  "marca": "adidas",
+  "nombre": "Adilette Lite Slides",
+  "genero": "Mujer",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6198_1l.jpg?v=1790277797",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6198_2l.jpg?v=1790277796",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6198_3l.jpg?v=1790277796",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GZ6198_4l.jpg?v=1790277796"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ {
+  "codigo": "DOM-4623",
+  "marca": "adidas",
+  "nombre": "Adilette Lumia Flip Flop Slides",
+  "genero": "Mujer",
+  "precio": 32.95,
+  "precio_c": 1212,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HP6945_1l.jpg?v=1791465456",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HP6945_2l.jpg?v=1791465456",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HP6945_3l.jpg?v=1791465456",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-HP6945_4l.jpg?v=1791465457"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8W / 7M"
+  ]
+ },
+ {
+  "codigo": "DOM-4624",
+  "marca": "adidas",
+  "nombre": "Adilette Shower Bayern Munich Slides",
+  "genero": "Mujer",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4861_1l.jpg?v=1792575236",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4861_2l.jpg?v=1792575236",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4861_3l.jpg?v=1792575236",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JS4861_4l.jpg?v=1792575236"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7W / 6M",
+   "8W / 7M",
+   "10W / 9M",
+   "12W / 11M",
+   "9W / 8M"
+  ]
+ },
+ {
+  "codigo": "DOM-4625",
+  "marca": "adidas",
+  "nombre": "Adilette Shower Slides",
+  "genero": "Mujer",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GY1891_1l.jpg?v=1793167259",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GY1891_2l.jpg?v=1793167259",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GY1891_3l.jpg?v=1793167259",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-GY1891_4l.jpg?v=1793167259"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "19W / 18M"
+  ]
+ },
+ {
+  "codigo": "DOM-4626",
+  "marca": "TOMS",
+  "nombre": "Alpargata Fuzzy Mallow Mules",
+  "genero": "Mujer",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019208T_1l.jpg?v=1792870853",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019208T_2l.jpg?v=1792870853",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019208T_3l.jpg?v=1792870853",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019208T_4l.jpg?v=1792870853"
+  ],
+  "descripcion": "Modelo original de TOMS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4627",
+  "marca": "TOMS",
+  "nombre": "Alpargata Slip On Flats",
+  "genero": "Mujer",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017284T_1l.jpg?v=1792871142",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017284T_2l.jpg?v=1792871142",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017284T_3l.jpg?v=1792871142",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10017284T_4l.jpg?v=1792871142"
+  ],
+  "descripcion": "Modelo original de TOMS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4628",
+  "marca": "TOMS",
+  "nombre": "Alpargata Slip On Flats",
+  "genero": "Mujer",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019126T_1l.jpg?v=1790947198",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019126T_2l.jpg?v=1790947198",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019126T_3l.jpg?v=1790947198",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10019126T_4l.jpg?v=1790947198"
+  ],
+  "descripcion": "Modelo original de TOMS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4629",
+  "marca": "MIA",
+  "nombre": "Alta Metallic Lace Up Sneakers",
+  "genero": "Mujer",
+  "precio": 34.97,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MH1190-SWT_1l.jpg?v=1792988797",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MH1190-SWT_2l.jpg?v=1792988797",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MH1190-SWT_3l.jpg?v=1792988797",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MH1190-SWT_4l.jpg?v=1792988797"
+  ],
+  "descripcion": "Modelo original de MIA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4630",
+  "marca": "PUMA",
+  "nombre": "Amplifier Lace Up Sneakers",
+  "genero": "Mujer",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39768143_1l.jpg?v=1792534438",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39768143_2l.jpg?v=1792534438",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39768143_3l.jpg?v=1792534439",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39768143_4l.jpg?v=1792534439"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4631",
+  "marca": "Easy Street",
+  "nombre": "Aris Block Heel T Strap Sandals",
+  "genero": "Mujer",
+  "precio": 29.97,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1380-410_1l.jpg?v=1792860136",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1380-410_2l.jpg?v=1792860136",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1380-410_3l.jpg?v=1792860136",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1380-410_4l.jpg?v=1792860136"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-4632",
+  "marca": "Sperry",
+  "nombre": "Authentic Original 2-Eye Bionic Striped Boat Shoes",
+  "genero": "Mujer",
+  "precio": 37.95,
+  "precio_c": 1396,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS84565_1l.jpg?v=1793087822",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS84565_2l.jpg?v=1793087822",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS84565_3l.jpg?v=1793087823",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS84565_4l.jpg?v=1793087822"
+  ],
+  "descripcion": "Modelo original de Sperry, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4633",
+  "marca": "Easy Street",
+  "nombre": "Bizzy Pointed Toe Slingback Pumps",
+  "genero": "Mujer",
+  "precio": 41.97,
+  "precio_c": 1543,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-0933-100_1l.jpg?v=1792860795",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-0933-100_2l.jpg?v=1792860794",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-0933-100_3l.jpg?v=1792860795",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-0933-100_4l.jpg?v=1792860794"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4634",
+  "marca": "Easy Street",
+  "nombre": "Bolt Cut Out Slingback Sandals",
+  "genero": "Mujer",
+  "precio": 35.97,
+  "precio_c": 1323,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4763_1l.jpg?v=1790954402",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4763_2l.jpg?v=1790954403",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4763_3l.jpg?v=1790954402",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4763_4l.jpg?v=1790954403"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-4635",
+  "marca": "Easy Street",
+  "nombre": "Bolt Cut Out Slingback Sandals",
+  "genero": "Mujer",
+  "precio": 34.97,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4766_1l.jpg?v=1790954291",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4766_2l.jpg?v=1790954291",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4766_3l.jpg?v=1790954291",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30-4766_4l.jpg?v=1790954291"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4636",
+  "marca": "Cole Haan",
+  "nombre": "Brenley 45MM Pointed Toe Kitten Heel Pumps",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W29168_1l.jpg?v=1792750264",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W29168_2l.jpg?v=1792750264",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W29168_3l.jpg?v=1792750264",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W29168_4l.jpg?v=1792750264"
+  ],
+  "descripcion": "Modelo original de Cole Haan, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4637",
+  "marca": "BEACH by Matisse",
+  "nombre": "Cairo Platform Sandals",
+  "genero": "Mujer",
+  "precio": 29.97,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CAIRO-477_1l.jpg?v=1789284285",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CAIRO-477_2l.jpg?v=1789284285",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CAIRO-477_3l.jpg?v=1789284285",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CAIRO-477_4l.jpg?v=1789284285"
+  ],
+  "descripcion": "Modelo original de BEACH by Matisse, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4638",
+  "marca": "PUMA",
+  "nombre": "Carina 2.0 Lace Up Sneakers",
+  "genero": "Mujer",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38584917_1l.jpg?v=1793205697",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38584917_2l.jpg?v=1793205697",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38584917_3l.jpg?v=1793205697",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38584917_4l.jpg?v=1793205697"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4639",
+  "marca": "Easy Street",
+  "nombre": "Carmella Mules",
+  "genero": "Mujer",
+  "precio": 34.97,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-4433_1l.jpg?v=1792857576",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-4433_2l.jpg?v=1792857575",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-4433_3l.jpg?v=1792857576",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-4433_4l.jpg?v=1792857576"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-4640",
+  "marca": "Matisse",
+  "nombre": "Charlie Platform Wedge Slide Sandals",
+  "genero": "Mujer",
+  "precio": 29.97,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CHARLIE-854_1l.jpg?v=1792799781",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CHARLIE-854_2l.jpg?v=1792799781",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CHARLIE-854_3l.jpg?v=1792799781",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CHARLIE-854_4l.jpg?v=1792799781"
+  ],
+  "descripcion": "Modelo original de Matisse, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-4641",
+  "marca": "Easy Spirit",
+  "nombre": "Charter Boat Slip On Flats",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SE-CHARTER2-140_1l.jpg?v=1792748633",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SE-CHARTER2-140_2l.jpg?v=1792748634",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SE-CHARTER2-140_3l.jpg?v=1792748633",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SE-CHARTER2-140_4l.jpg?v=1792748633"
+  ],
+  "descripcion": "Modelo original de Easy Spirit, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4642",
+  "marca": "Sperry",
+  "nombre": "Charter LTT Sneakers",
+  "genero": "Mujer",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86546_1l.jpg?v=1790950580",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86546_2l.jpg?v=1790950580",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86546_3l.jpg?v=1790950580",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86546_4l.jpg?v=1790950580"
+  ],
+  "descripcion": "Modelo original de Sperry, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4643",
+  "marca": "Timberland",
+  "nombre": "Chicago Riverside Sandals",
+  "genero": "Mujer",
+  "precio": 36.97,
+  "precio_c": 1360,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/TB0A5MF5K31_1l.jpg?v=1789111794",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/TB0A5MF5K31_2l.jpg?v=1789111794",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/TB0A5MF5K31_3l.jpg?v=1789111794",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/TB0A5MF5K31_4l.jpg?v=1789111794"
+  ],
+  "descripcion": "Modelo original de Timberland, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4644",
+  "marca": "Easy Street",
+  "nombre": "Chiffon Pointed Toe Kitten Heel Pumps",
+  "genero": "Mujer",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40-6560_1l.jpg?v=1790953836",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40-6560_2l.jpg?v=1790953836",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40-6560_3l.jpg?v=1790953836",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40-6560_4l.jpg?v=1790953836"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "8.5",
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-4645",
+  "marca": "Easy Street",
+  "nombre": "Claudia Cut Out Slingback Sandals",
+  "genero": "Mujer",
+  "precio": 40.97,
+  "precio_c": 1507,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-6621_1l.jpg?v=1791029083",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-6621_2l.jpg?v=1791029083",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-6621_3l.jpg?v=1791029083",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-6621_4l.jpg?v=1791029083"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4646",
+  "marca": "Easy Street",
+  "nombre": "Clovelle Block Heel Sandals",
+  "genero": "Mujer",
+  "precio": 43.97,
+  "precio_c": 1617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1185-278_1l.jpg?v=1790944400",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1185-278_2l.jpg?v=1790944399",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1185-278_3l.jpg?v=1790944399",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-1185-278_4l.jpg?v=1790944400"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9"
+  ]
+ },
+ {
+  "codigo": "DOM-4647",
+  "marca": "Sperry",
+  "nombre": "Coastal Plushwave Round Toe Chelsea Boot",
+  "genero": "Mujer",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86786_1l.jpg?v=1790948355",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86786_2l.jpg?v=1790948355",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86786_3l.jpg?v=1790948355",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS86786_4l.jpg?v=1790948355"
+  ],
+  "descripcion": "Modelo original de Sperry, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4648",
+  "marca": "Easy Street",
+  "nombre": "Como Slingback Sandals",
+  "genero": "Mujer",
+  "precio": 45.97,
+  "precio_c": 1691,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-9153-100_1l.jpg?v=1790948149",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-9153-100_2l.jpg?v=1790948149",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-9153-100_3l.jpg?v=1790948149",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-9153-100_4l.jpg?v=1790948149"
+  ],
+  "descripcion": "Modelo original de Easy Street, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4649",
+  "marca": "PUMA",
+  "nombre": "Cool Cat 2.0 Slide Sandals",
+  "genero": "Mujer",
+  "precio": 32.95,
+  "precio_c": 1212,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39862801_1l.jpg?v=1793580515",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39862801_2l.jpg?v=1793580515",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39862801_3l.jpg?v=1793580515",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39862801_4l.jpg?v=1793580515"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5"
+  ]
+ },
+ {
+  "codigo": "DOM-4650",
+  "marca": "PUMA",
+  "nombre": "Cool Cat 2.0 Slide Sandals",
+  "genero": "Mujer",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38910807_1l.jpg?v=1792740407",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38910807_2l.jpg?v=1792740406",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38910807_3l.jpg?v=1792740407",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38910807_4l.jpg?v=1792740407"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6"
+  ]
+ },
+ {
+  "codigo": "DOM-4651",
+  "marca": "Lugz",
+  "nombre": "Delta Slip On Sneakers",
+  "genero": "Mujer",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WDELTC-0055_1l.jpg?v=1793283819",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WDELTC-0055_2l.jpg?v=1793283819",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WDELTC-0055_3l.jpg?v=1793283818",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/WDELTC-0055_4l.jpg?v=1793283818"
+  ],
+  "descripcion": "Modelo original de Lugz, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9.5"
+  ]
+ },
+ {
+  "codigo": "DOM-4652",
+  "marca": "PUMA",
+  "nombre": "Deviate NITRO 2 Wide Running Shoes",
+  "genero": "Mujer",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37748501_1l.jpg?v=1793750417",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37748501_2l.jpg?v=1793750417",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37748501_3l.jpg?v=1793750417",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37748501_4l.jpg?v=1793750417"
+  ],
+  "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4653",
+  "marca": "Puma",
+  "nombre": "MOSTRO FEY GORP WNS",
+  "genero": "Mujer",
+  "precio": 98.0,
+  "precio_c": 3604,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign-2025-10-17T130903.921.png?v=1760731872",
+   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign-2025-10-17T130923.746.png?v=1760731872",
+   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign-2025-10-17T130935.504.png?v=1760731872"
+  ],
+  "descripcion": "Modelo original de Puma, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5.5",
+   "9.5",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4654",
+  "marca": "Puma",
+  "nombre": "SPEEDCAT FADED WMNS",
+  "genero": "Mujer",
+  "precio": 90.0,
+  "precio_c": 3310,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_81_01dbd899-9371-4abf-9a57-52e158c1d76d.png?v=1757021917",
+   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_70_80473d30-cfa1-46d9-8e9b-5315becf1a71.png?v=1757021917",
+   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_71_531c0fec-605b-465c-a956-f9ed8707735a.png?v=1757021917",
+   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_72_3a4ff038-00dc-4fbf-a4db-90aaadbd862a.png?v=1757021917"
+  ],
+  "descripcion": "Modelo original de Puma, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4655",
+  "marca": "Adidas",
+  "nombre": "Adidas Superstar II Rhinestone Pre-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK4453_PS123.jpg?v=1770991318",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK4453_PS125.jpg?v=1770991318",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK4453_PS126.jpg?v=1770991318",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK4453_PS124.jpg?v=1770991318"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4656",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Butterfly Skull Hi Toddler",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF074.jpg?v=1771362373",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF076.jpg?v=1771363172",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF077.jpg?v=1771363176",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF075.jpg?v=1771362373"
+  ],
+  "descripcion": "Modelo original de Ed Hardy, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4657",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Dragon Hi Pre-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769001_PS008.jpg?v=1762452058",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769001_PS010.jpg?v=1762456726",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769001_PS011.jpg?v=1762456726",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769001_PS009.jpg?v=1762452058"
+  ],
+  "descripcion": "Modelo original de Ed Hardy, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4658",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Geisha Low Pre-School",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS068.jpg?v=1771362838",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS070.jpg?v=1771362838",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS071.jpg?v=1771362838",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS069.jpg?v=1771362838"
+  ],
+  "descripcion": "Modelo original de Ed Hardy, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4659",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Geisha Low Toddler",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF083.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF085.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF086.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF084.jpg?v=1776690782"
+  ],
+  "descripcion": "Modelo original de Ed Hardy, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "codigo": "DOM-4660",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Side Skull Hi Pre-School",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769655_PS085.jpg?v=1762293872",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769655_PS087.jpg?v=1762298342",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769655_PS088.jpg?v=1762298341",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04769655_PS086.jpg?v=1762293872"
+  ],
+  "descripcion": "Modelo original de Ed Hardy, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4661",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Skull Butterfly Hi Grade-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04771655_GS086.jpg?v=1771361925",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04771655_GS088.jpg?v=1771363084",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04771655_GS089.jpg?v=1771363096",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04771655_GS087.jpg?v=1771361925"
+  ],
+  "descripcion": "Modelo original de Ed Hardy, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4662",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Skull Butterfly Hi Pre-School",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04773655_PS062.jpg?v=1771362167",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04773655_PS064.jpg?v=1771363124",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04773655_PS065.jpg?v=1771363130",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04773655_PS063.jpg?v=1771362167"
+  ],
+  "descripcion": "Modelo original de Ed Hardy, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4663",
+  "marca": "Javi",
+  "nombre": "Javi Elect Pre-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_PS058.jpg?v=1770669827",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_PS060.jpg?v=1770669827",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_PS061.jpg?v=1770669827",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_PS059.jpg?v=1770669827"
+  ],
+  "descripcion": "Modelo original de Javi, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4664",
+  "marca": "Adidas",
+  "nombre": "Adidas  Samba OG Crib",
+  "genero": "Niños",
+  "precio": 57.95,
+  "precio_c": 2131,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI2758_Crib002.jpg?v=1734965263",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI2758_Crib004.jpg?v=1734965263",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI2758_Crib005.jpg?v=1734965263",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JI2758_Crib003.jpg?v=1734965263"
+  ],
+  "descripcion": "El Samba nació en las canchas de fútbol sala de los 50 y hoy es un ícono de la calle: perfil bajo de cuero suave, puntera reforzada en forma de T, las 3 franjas clásicas y suela de goma natural. Ligero, limpio y fácil de combinar.",
+  "detalles": [
+   "Parte superior de cuero suave",
+   "Puntera reforzada en T",
+   "Suela de goma natural (gum)",
+   "Perfil bajo clásico"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4665",
+  "marca": "Adidas",
+  "nombre": "Adidas Pro Model Grade-School",
+  "genero": "Niños",
+  "precio": 92.93,
+  "precio_c": 3417,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS064.jpg?v=1779983325",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS066.jpg?v=1779983325",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS067.jpg?v=1779983325",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS065.jpg?v=1779983325"
+  ],
+  "descripcion": "Modelo original de Adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ]
+ },
+ {
+  "codigo": "DOM-4666",
+  "marca": "Adidas",
+  "nombre": "Adidas Samba OG Pre-School",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6447_PS087.jpg?v=1784057937",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6447_PS089.jpg?v=1784057937",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6447_PS091.jpg?v=1784057937",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6447_PS088.jpg?v=1784057937"
+  ],
+  "descripcion": "El Samba nació en las canchas de fútbol sala de los 50 y hoy es un ícono de la calle: perfil bajo de cuero suave, puntera reforzada en forma de T, las 3 franjas clásicas y suela de goma natural. Ligero, limpio y fácil de combinar.",
+  "detalles": [
+   "Parte superior de cuero suave",
+   "Puntera reforzada en T",
+   "Suela de goma natural (gum)",
+   "Perfil bajo clásico"
+  ],
+  "tallas": [
+   "11",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "codigo": "DOM-4667",
+  "marca": "Adidas",
+  "nombre": "Adidas Samba OG Toddler",
+  "genero": "Niños",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF059.jpg?v=1784058182",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF061.jpg?v=1784058182",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF062.jpg?v=1784058182",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF060.jpg?v=1784058182"
+  ],
+  "descripcion": "El Samba nació en las canchas de fútbol sala de los 50 y hoy es un ícono de la calle: perfil bajo de cuero suave, puntera reforzada en forma de T, las 3 franjas clásicas y suela de goma natural. Ligero, limpio y fácil de combinar.",
+  "detalles": [
+   "Parte superior de cuero suave",
+   "Puntera reforzada en T",
+   "Suela de goma natural (gum)",
+   "Perfil bajo clásico"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "codigo": "DOM-4668",
+  "marca": "Adidas",
+  "nombre": "Adidas Samba Rhinestone Pre-School",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK1972_PS115.jpg?v=1775143404",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK1972_PS022.jpg?v=1775556212",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK1972_PS116.jpg?v=1775556212",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KK1972_PS023.jpg?v=1775556212"
+  ],
+  "descripcion": "El Samba nació en las canchas de fútbol sala de los 50 y hoy es un ícono de la calle: perfil bajo de cuero suave, puntera reforzada en forma de T, las 3 franjas clásicas y suela de goma natural. Ligero, limpio y fácil de combinar.",
+  "detalles": [
+   "Parte superior de cuero suave",
+   "Puntera reforzada en T",
+   "Suela de goma natural (gum)",
+   "Perfil bajo clásico"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "3"
   ]
  }
 ];
