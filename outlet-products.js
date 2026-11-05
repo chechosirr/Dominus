@@ -116,8 +116,8 @@ var ZAPATOS = [
   "precio": 39.45,
   "precio_c": 1451,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81Hi5BUafRS._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71ZPTiQkQgS._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/81Hi5BUafRS._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ZPTiQkQgS._AC_SX1024_.jpg"
   ],
   "descripcion": "Sneaker casual gris de lona, muy ligero y fácil de combinar para el uso diario. Su plantilla acolchada y su suela flexible lo hacen cómodo para caminar todo el día.",
   "detalles": [
@@ -149,8 +149,8 @@ var ZAPATOS = [
   "precio": 39.45,
   "precio_c": 1451,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71qgizQ+hjL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/817OJxvvgyL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71qgizQ+hjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/817OJxvvgyL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sneaker de skate en gris con negro, modelo signature pensado para patinar sin sacrificar comodidad. Su parte superior de cuero reforzado le da un aire sobrio que también funciona fuera de la tabla.",
   "detalles": [
@@ -201,8 +201,8 @@ var ZAPATOS = [
   "precio": 43.95,
   "precio_c": 1616,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71LVDMJbqcL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/815KT5ztAJL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71LVDMJbqcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/815KT5ztAJL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sneaker gris de inspiración basquetbolera con tecnología ultraligera para moverse sin peso extra. Su plantilla de espuma acolchada lo hace ideal para jornadas largas de pie o caminando.",
   "detalles": [
@@ -264,8 +264,8 @@ var ZAPATOS = [
   "precio": 33.45,
   "precio_c": 1230,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61ZKIl-bc3L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61CtAVo0CtL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61ZKIl-bc3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61CtAVo0CtL._AC_SX1024_.jpg"
   ],
   "descripcion": "Slip-on blanco de lona con construcción vulcanizada clásica, un básico versátil para combinar con todo.",
   "detalles": [
@@ -296,8 +296,8 @@ var ZAPATOS = [
   "precio": 34.94,
   "precio_c": 1285,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61rdG+nC4gL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61LqOfyDYEL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61rdG+nC4gL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61LqOfyDYEL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis blancos muy ligeros de estilo slip-on, pensados para el uso diario con una sensación suave desde el primer paso.",
   "detalles": [
@@ -328,8 +328,8 @@ var ZAPATOS = [
   "precio": 34.95,
   "precio_c": 1285,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71JrtkvLH6L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81ALATXoE1L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71JrtkvLH6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ALATXoE1L._AC_SX1024_.jpg"
   ],
   "descripcion": "Slip-on clásico en tono burdeos con detalle de perlas, fácil de poner y con la silueta atemporal de Vans para el día a día.",
   "detalles": [
@@ -360,8 +360,8 @@ var ZAPATOS = [
   "precio": 34.95,
   "precio_c": 1285,
   "fotos": [
-   "https://m.media-amazon.com/images/I/615og0R7sKL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71Ljm-SeKOL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/615og0R7sKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Ljm-SeKOL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de corte bajo con inspiración retro de cancha, en negro con suela gum y la franja lateral en forma de V.",
   "detalles": [
@@ -392,8 +392,8 @@ var ZAPATOS = [
   "precio": 36.43,
   "precio_c": 1340,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61xBSrgMcqL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71aBzbr9fWL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61xBSrgMcqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71aBzbr9fWL._AC_SX1024_.jpg"
   ],
   "descripcion": "El icónico Old Skool de corte bajo en gamuza tono hueso, con punta reforzada y un acabado limpio para uso diario.",
   "detalles": [
@@ -432,8 +432,8 @@ var ZAPATOS = [
   "precio": 37.95,
   "precio_c": 1396,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71AdMlpmd-L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71ZZWWfK5tL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71AdMlpmd-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ZZWWfK5tL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia slide de recuperación en negro total, ultraligera y con tira ajustable para descansar los pies después de entrenar o caminar.",
   "detalles": [
@@ -464,8 +464,8 @@ var ZAPATOS = [
   "precio": 40.95,
   "precio_c": 1506,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71r-JVnVUQL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71uJ-Bk8mlL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71r-JVnVUQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71uJ-Bk8mlL._AC_SX1024_.jpg"
   ],
   "descripcion": "Oxford de vestir con cordones en tono taupe, con amortiguación pensada para verse formal sin sacrificar comodidad durante todo el día.",
   "detalles": [
@@ -496,10 +496,10 @@ var ZAPATOS = [
   "precio": 30.45,
   "precio_c": 1120,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61L1PmJhPAL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71ApaLhAH8L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61pMc9ZvLuL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61q2R7jOo+L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61L1PmJhPAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ApaLhAH8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61pMc9ZvLuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61q2R7jOo+L._AC_SX1024_.jpg"
   ],
   "descripcion": "Slip-on de tejido azul marino pensado para caminar todo el día sin cansarte. Su plantilla acolchada con apoyo extra en el talón y su tejido transpirable lo hacen un básico cómodo y lavable.",
   "detalles": [
@@ -525,10 +525,10 @@ var ZAPATOS = [
   "precio": 39.93,
   "precio_c": 1468,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71DjDM6x41L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71fOZyTEOvL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/710CEB7yCFL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71aiL8aXhyL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71DjDM6x41L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fOZyTEOvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710CEB7yCFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71aiL8aXhyL._AC_SX1024_.jpg"
   ],
   "descripcion": "El clásico Wendy de Hey Dude en rosa fucsia monocromático, ultraligero y con cordones elásticos que no hay que amarrar. Perfecto para un look relajado con un golpe de color.",
   "detalles": [
@@ -550,10 +550,10 @@ var ZAPATOS = [
   "precio": 33.95,
   "precio_c": 1248,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61uQmu23u+L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71sDtlvub2L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61OkAB1lDNL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61VkN+XNw7L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61uQmu23u+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71sDtlvub2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61OkAB1lDNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61VkN+XNw7L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis italiano de lona negra con suela blanca tipo burbuja de 2 pulgadas que estiliza sin tacón. Un clásico europeo que combina con todo, de faldas a jeans.",
   "detalles": [
@@ -576,10 +576,10 @@ var ZAPATOS = [
   "precio": 37.65,
   "precio_c": 1385,
   "fotos": [
-   "https://m.media-amazon.com/images/I/719QmDgyBnL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/717Ury8nrJL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61IhZ2wBfmL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71WPNPdwUvL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/719QmDgyBnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/717Ury8nrJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61IhZ2wBfmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71WPNPdwUvL._AC_SX1024_.jpg"
   ],
   "descripcion": "Mocasín sin cordones en tejido negro con punta fina y una hebilla decorativa en el empeine. Elegante como un zapato de vestir pero con la comodidad de caminar todo el día.",
   "detalles": [
@@ -607,10 +607,10 @@ var ZAPATOS = [
   "precio": 37.95,
   "precio_c": 1396,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71s6BCBfmkL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71m+Yc2cQXL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61lEPX6EJyL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71S1575RiWL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71s6BCBfmkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71m+Yc2cQXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lEPX6EJyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71S1575RiWL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia de cuero con diseño de jaula y tira trasera ajustable, hecha a mano con la construcción Opanka de Born. El tacón bloque envuelto en cuero le da altura cómoda para ir del día a la noche.",
   "detalles": [
@@ -632,10 +632,10 @@ var ZAPATOS = [
   "precio": 40.65,
   "precio_c": 1495,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61dCbnPqNwL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71WBImQC8GL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61gXeNGw1xL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61Yt4HSEwbL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61dCbnPqNwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71WBImQC8GL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61gXeNGw1xL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Yt4HSEwbL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia de vestir con estampado de cerezas sobre fondo natural y tacón aguja de casi 3 pulgadas. La tira trasera slingback asegura el pie y el estampado hace todo el trabajo del outfit.",
   "detalles": [
@@ -666,10 +666,10 @@ var ZAPATOS = [
   "precio": 42.45,
   "precio_c": 1561,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71NfrQInTQL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71IYtCvmuGL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71DOYe9eghL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71xW-PnpPfL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71NfrQInTQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71IYtCvmuGL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71DOYe9eghL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71xW-PnpPfL._AC_SX1024_.jpg"
   ],
   "descripcion": "Slip-on de gamuza castaño con aire desgastado y forro tipo peluche que lo hace comodísimo. Estilo urbano relajado que combina con jeans, leggings y salidas de fin de semana.",
   "detalles": [
@@ -1048,9 +1048,9 @@ var ZAPATOS = [
   "precio": 99.95,
   "precio_c": 3676,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61X205Ncb2L._AC_SR1840,1472_.jpg",
-   "https://m.media-amazon.com/images/I/61T9Zyj1PfL._AC_SR1840,1472_.jpg",
-   "https://m.media-amazon.com/images/I/61Hcv+S4oZL._AC_SR1840,1472_.jpg"
+   "https://m.media-amazon.com/images/I/61X205Ncb2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61T9Zyj1PfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Hcv+S4oZL._AC_SX1024_.jpg"
   ],
   "descripcion": "El ícono Suede Classic en negro con la franja Formstrip blanca, en gamuza suave de perfil bajo atemporal. Un básico de streetwear que funciona con prácticamente todo el clóset.",
   "detalles": [
@@ -1082,9 +1082,9 @@ var ZAPATOS = [
   "precio": 55.0,
   "precio_c": 2023,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71ilQ2rXV4L._AC_SR1840,1472_.jpg",
-   "https://m.media-amazon.com/images/I/81lcr4f%2BlML._AC_SR1840,1472_.jpg",
-   "https://m.media-amazon.com/images/I/710-KFrR4dL._AC_SR1840,1472_.jpg"
+   "https://m.media-amazon.com/images/I/71ilQ2rXV4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81lcr4f%2BlML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710-KFrR4dL._AC_SX1024_.jpg"
   ],
   "descripcion": "La reedición noventera Knu Skool en gris pizarra glacial, con lengüeta y cuello extra acolchados y cordones anchos de espíritu skate. Silueta chunky con la franja Sidestripe en 3D que la hace inconfundible.",
   "detalles": [
@@ -1117,8 +1117,8 @@ var ZAPATOS = [
   "precio": 117.25,
   "precio_c": 4312,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71rfMjbihFL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71KvHkYcSKL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71rfMjbihFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71KvHkYcSKL._AC_SX1024_.jpg"
   ],
   "descripcion": "El Clifton 9 GTX suma membrana GORE-TEX de ajuste invisible al Clifton de máxima amortiguación, en negro total. Espuma ligera, detalles reflectivos de 360° y una pisada suave para caminar o correr con cualquier clima.",
   "detalles": [
@@ -1151,7 +1151,7 @@ var ZAPATOS = [
   "precio": 184.95,
   "precio_c": 6801,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61cvxHQ3KbL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61cvxHQ3KbL._AC_SX1024_.jpg"
   ],
   "descripcion": "El Bondi 9 es el modelo de máxima amortiguación de HOKA, aquí en negro total con malla de punto jacquard. Su espuma prémium y su suela ancha lo hacen el favorito para jornadas largas de pie o caminatas diarias.",
   "detalles": [
@@ -1219,10 +1219,10 @@ var ZAPATOS = [
   "precio": 40.95,
   "precio_c": 1506,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71dVCKs6S3L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81-oI0twsSL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71t497ryaTL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71wRsSxjKQL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71dVCKs6S3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81-oI0twsSL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71t497ryaTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71wRsSxjKQL._AC_SX1024_.jpg"
   ],
   "descripcion": "Inspirado en el calzado deportivo retro, con parte superior de nailon y gamuza en rojo intenso y una suela gruesa con gran agarre.",
   "detalles": [
@@ -1254,10 +1254,10 @@ var ZAPATOS = [
   "precio": 41.95,
   "precio_c": 1543,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71keN0ZbbQL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71i7EWvlJ7L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71hW20O2oaL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71GC47Ww7ML._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71keN0ZbbQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71i7EWvlJ7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71hW20O2oaL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71GC47Ww7ML._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de running versátiles con parte superior de malla ligera en azul oscuro y entresuela suave, para entrenar o moverte todo el día.",
   "detalles": [
@@ -1289,8 +1289,8 @@ var ZAPATOS = [
   "precio": 40.95,
   "precio_c": 1506,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71bdEJRUupL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71j57hhCWML._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71bdEJRUupL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71j57hhCWML._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis lifestyle de inspiración retro en tonos blanco y gris claro, fáciles de combinar con atuendos casuales de diario.",
   "detalles": [
@@ -1323,8 +1323,8 @@ var ZAPATOS = [
   "precio": 42.75,
   "precio_c": 1572,
   "fotos": [
-   "https://m.media-amazon.com/images/I/617Ofh4K0nL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/717tziBnzKL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/617Ofh4K0nL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/717tziBnzKL._AC_SX1024_.jpg"
   ],
   "descripcion": "Chuck Taylor de perfil más fino y delicado en negro con blanco, con plantilla acolchada para usarlos todo el día.",
   "detalles": [
@@ -1357,8 +1357,8 @@ var ZAPATOS = [
   "precio": 56.2,
   "precio_c": 2067,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71o6eAYJjML._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81zesg1GtaL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71o6eAYJjML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81zesg1GtaL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis con plataforma en rojo combinado, de estilo juvenil y llamativo para atuendos casuales con personalidad.",
   "detalles": [
@@ -1388,9 +1388,9 @@ var ZAPATOS = [
   "precio": 37.55,
   "precio_c": 1381,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61EGq9zQhKL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61UGhMfzr9L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61PhpFZg71L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61EGq9zQhKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61UGhMfzr9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61PhpFZg71L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de media caña en tonos gris claro y blanco natural, ligeros y de líneas limpias para el uso diario.",
   "detalles": [
@@ -1417,10 +1417,10 @@ var ZAPATOS = [
   "precio": 38.92,
   "precio_c": 1431,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61Ar7ilzGxL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71JdAfugXPL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/6140civ6OrL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61DUkMTnyvL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61Ar7ilzGxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71JdAfugXPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/6140civ6OrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61DUkMTnyvL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis todoterreno en blanco vintage con tejido ripstop resistente, pensados para caminar todo el día dentro y fuera de la ciudad.",
   "detalles": [
@@ -1453,10 +1453,10 @@ var ZAPATOS = [
   "precio": 42.95,
   "precio_c": 1579,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71FICROwl2L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81G5XLzocHL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61yyo08+PeL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71GC27LNuML._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71FICROwl2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81G5XLzocHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61yyo08+PeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71GC27LNuML._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis urbanos en rojo con detalles de gamuza y el logo lateral de la marca española, de estilo callejero y combinable.",
   "detalles": [
@@ -1489,10 +1489,10 @@ var ZAPATOS = [
   "precio": 43.95,
   "precio_c": 1616,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61XRYfkKILL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71fSlmP+6DL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61wG12SDq4L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61QHKIRTIUL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61XRYfkKILL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fSlmP+6DL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61wG12SDq4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61QHKIRTIUL._AC_SX1024_.jpg"
   ],
   "descripcion": "Botín tipo tenis con cuña oculta en negro y natural, de gamuza suave y estilo sin agujetas para un look elevado y cómodo.",
   "detalles": [
@@ -1518,10 +1518,10 @@ var ZAPATOS = [
   "precio": 51.45,
   "precio_c": 1892,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71V7RvK1iJL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81mPfiXS9TL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71a4mBZlsXL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/810i7voAFfL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71V7RvK1iJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81mPfiXS9TL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71a4mBZlsXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/810i7voAFfL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis deportivos en rosa con parte superior de gamuza y doble agujeta, con el logo lateral característico de la marca.",
   "detalles": [
@@ -1845,8 +1845,8 @@ var ZAPATOS = [
   "precio": 109.95,
   "precio_c": 4043,
   "fotos": [
-   "https://m.media-amazon.com/images/I/716TyDgas8L._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71BLQbwqV7L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/716TyDgas8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71BLQbwqV7L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis tipo dad sneaker con suela esculpida de gran volumen que aporta altura y un aire urbano muy actual. Sus paneles en capas en tono tan combinan con jeans sueltos, faldas midi y conjuntos casuales.",
   "detalles": [
@@ -1875,8 +1875,8 @@ var ZAPATOS = [
   "precio": 170.0,
   "precio_c": 6252,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61INk0dq5TL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61NeTjQ+96L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61INk0dq5TL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61NeTjQ+96L._AC_SX1024_.jpg"
   ],
   "descripcion": "Mocasín clásico renovado con plataforma chunky y herraje tipo bocado que le da un toque pulido y moderno. Ideal para elevar looks de oficina y conjuntos casuales con mucha personalidad.",
   "detalles": [
@@ -2199,8 +2199,8 @@ var ZAPATOS = [
   "precio": 42.45,
   "precio_c": 1561,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71gz9Phq5ZL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81m3rT++-zL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71gz9Phq5ZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81m3rT++-zL._AC_SX1024_.jpg"
   ],
   "descripcion": "Bota de gamuza en tono taupe con suela lug y correa decorativa, pensada para los días fríos con un toque rústico. Lleva tratamiento repelente al agua y a las manchas.",
   "detalles": [
@@ -2232,8 +2232,8 @@ var ZAPATOS = [
   "precio": 40.65,
   "precio_c": 1495,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61cvcUNyn7L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61ASlw3FI6L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61cvcUNyn7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ASlw3FI6L._AC_SX1024_.jpg"
   ],
   "descripcion": "Bota negra de punta fina con suela lug gruesa y tacón bloque, con mucha actitud para el día a día. Se pone sin cierre y suma altura con estabilidad.",
   "detalles": [
@@ -2265,8 +2265,8 @@ var ZAPATOS = [
   "precio": 60.69,
   "precio_c": 2232,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71NmItIlcuL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71BAi-BT0ML._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71NmItIlcuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71BAi-BT0ML._AC_SX1024_.jpg"
   ],
   "descripcion": "Botita corta de gamuza en tono café helado con plataforma baja y forro de lana que abriga todo el día. Se pone jalando y queda bien con todo el guardarropa de frío.",
   "detalles": [
@@ -2298,8 +2298,8 @@ var ZAPATOS = [
   "precio": 37.65,
   "precio_c": 1385,
   "fotos": [
-   "https://m.media-amazon.com/images/I/714KICtZbeL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/8161m15loqL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/714KICtZbeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/8161m15loqL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia alpargata de cuña con tiras textiles a rayas azul marino y tira al tobillo con hebilla. Fresca y elegante para vestir en temporada cálida.",
   "detalles": [
@@ -2331,8 +2331,8 @@ var ZAPATOS = [
   "precio": 34.93,
   "precio_c": 1285,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71zq+ZHCvkL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81ggmkQvHRL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71zq+ZHCvkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ggmkQvHRL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia de cuña en tono tan con tiras de gamuza y borde tipo alpargata, con un patrón diagonal moderno en la suela. Cierra con hebilla al tobillo para un ajuste seguro.",
   "detalles": [
@@ -2364,10 +2364,10 @@ var ZAPATOS = [
   "precio": 43.19,
   "precio_c": 1588,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71tMil+O2CL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71lp8tw6ZXL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71x+xcEqlKL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/811bcr-2teL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71tMil+O2CL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71lp8tw6ZXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71x+xcEqlKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/811bcr-2teL._AC_SX1024_.jpg"
   ],
   "descripcion": "Primeros pasos con estilo retro: tenis con cierre de velcro y suela de goma con tacos inspirada en senderos.",
   "detalles": [
@@ -2397,10 +2397,10 @@ var ZAPATOS = [
   "precio": 34.6,
   "precio_c": 1272,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71cHf+wD+xL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71N4DtjZQEL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/713LWiVNi8L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81jFdLm-WHL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71cHf+wD+xL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71N4DtjZQEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713LWiVNi8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81jFdLm-WHL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis con luces de Lilo & Stitch en tono denim que se encienden a cada paso.",
   "detalles": [
@@ -2425,10 +2425,10 @@ var ZAPATOS = [
   "precio": 34.65,
   "precio_c": 1274,
   "fotos": [
-   "https://m.media-amazon.com/images/I/611H7kQ9NoL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71TUo6nedWL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61unjs1AC9L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71ykMSDlkZL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/611H7kQ9NoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71TUo6nedWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61unjs1AC9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ykMSDlkZL._AC_SX1024_.jpg"
   ],
   "descripcion": "Zapato negro de estilo clásico, pensado para verse bien en la escuela y en salidas.",
   "detalles": [
@@ -2452,10 +2452,10 @@ var ZAPATOS = [
   "precio": 34.95,
   "precio_c": 1285,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71-0eA7-28L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71FH0mKAcCL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61Cms581QkL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71imoD2xrDL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71-0eA7-28L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71FH0mKAcCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Cms581QkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71imoD2xrDL._AC_SX1024_.jpg"
   ],
   "descripcion": "El clásico Jazz retro con doble cierre de velcro, en gris con detalles rosas.",
   "detalles": [
@@ -2484,10 +2484,10 @@ var ZAPATOS = [
   "precio": 37.05,
   "precio_c": 1362,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71LaW6Fx4eL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61kQVyTJweL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61cs4EOIw9L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61JjtinSeNL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71LaW6Fx4eL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61kQVyTJweL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61cs4EOIw9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61JjtinSeNL._AC_SX1024_.jpg"
   ],
   "descripcion": "El clásico Jazz retro con doble cierre de velcro, en blanco con detalles azules.",
   "detalles": [
@@ -2511,10 +2511,10 @@ var ZAPATOS = [
   "precio": 38.7,
   "precio_c": 1423,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81zXoB1Z30L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81YrQshN-1L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71GVezoC-7L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81JkDj3cqnL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/81zXoB1Z30L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81YrQshN-1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71GVezoC-7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81JkDj3cqnL._AC_SX1024_.jpg"
   ],
   "descripcion": "Botín de caña media estilo skate en gamuza verde, con cierre de velcro y suela color goma.",
   "detalles": [
@@ -2539,10 +2539,10 @@ var ZAPATOS = [
   "precio": 39.6,
   "precio_c": 1456,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71Vw3MrX21L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/7166QsfeYYL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71QfWOpum9L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71pFyyR5DaL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71Vw3MrX21L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7166QsfeYYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71QfWOpum9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pFyyR5DaL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis bajos en negro y blanco con suela color goma, un clásico fácil de combinar.",
   "detalles": [
@@ -2564,10 +2564,10 @@ var ZAPATOS = [
   "precio": 43.93,
   "precio_c": 1615,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71-kBcT7GFL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71I9HsZqLxL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61DuDCsfYOL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71t9wiSLU3L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71-kBcT7GFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71I9HsZqLxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61DuDCsfYOL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71t9wiSLU3L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis fucsia con morado diseñados para pies en crecimiento, ligeros y cómodos.",
   "detalles": [
@@ -2590,10 +2590,10 @@ var ZAPATOS = [
   "precio": 41.85,
   "precio_c": 1539,
   "fotos": [
-   "https://m.media-amazon.com/images/I/719zf+wM6aL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71TibLeFeLL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71EttRSKqRL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71ClBBDtgbL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/719zf+wM6aL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71TibLeFeLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71EttRSKqRL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ClBBDtgbL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis estilo runner retro en tonos neutros para los más pequeños.",
   "detalles": [
@@ -2614,10 +2614,10 @@ var ZAPATOS = [
   "precio": 28.95,
   "precio_c": 1065,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61Uoi-4+SoL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/714j3rsNP4L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/51bSPI0BE8L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61WMyVjABmL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61Uoi-4+SoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714j3rsNP4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51bSPI0BE8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61WMyVjABmL._AC_SX1024_.jpg"
   ],
   "descripcion": "El clásico de nylon de Reebok en amarillo suave con blanco, estilo retro para todos los días.",
   "detalles": [
@@ -2642,10 +2642,10 @@ var ZAPATOS = [
   "precio": 36.92,
   "precio_c": 1358,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71d1YwKhulL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81udWsBNubL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61VoM70QZyL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81x63UE18TL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71d1YwKhulL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81udWsBNubL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61VoM70QZyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81x63UE18TL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis para toddler en negro con amarillo, ligeros y cómodos para jugar todo el día.",
   "detalles": [
@@ -2668,10 +2668,10 @@ var ZAPATOS = [
   "precio": 30.45,
   "precio_c": 1120,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71NLRgr-3zL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71v96D94shL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71SysY827qL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71mP3q6UmsL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71NLRgr-3zL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71v96D94shL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71SysY827qL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71mP3q6UmsL._AC_SX1024_.jpg"
   ],
   "descripcion": "Botín estilo básquetbol en blanco con rojo, con cierre de velcro para un ajuste rápido.",
   "detalles": [
@@ -2692,7 +2692,7 @@ var ZAPATOS = [
   "precio": 32.31,
   "precio_c": 1188,
   "fotos": [
-   "https://m.media-amazon.com/images/I/712BN+hq-xL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/712BN+hq-xL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalias azul marino de Paw Patrol con luces que se encienden al caminar.",
   "detalles": [
@@ -2718,7 +2718,7 @@ var ZAPATOS = [
   "precio": 43.92,
   "precio_c": 1615,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71Dk8V4KEpL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71Dk8V4KEpL._AC_SX1024_.jpg"
   ],
   "descripcion": "Zuecos clásicos de Crocs edición Batman Batimóvil en negro, ultraligeros y cómodos.",
   "detalles": [
@@ -2742,10 +2742,10 @@ var ZAPATOS = [
   "precio": 34.95,
   "precio_c": 1285,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71DA1XZD+mL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71kv5vy1GlL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71gqbPYaKrL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/712iCwNb5sL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71DA1XZD+mL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71kv5vy1GlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71gqbPYaKrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/712iCwNb5sL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de running de Spider-Man en negro, blanco y rojo, ligeros para correr y jugar.",
   "detalles": [
@@ -2767,7 +2767,7 @@ var ZAPATOS = [
   "precio": 32.62,
   "precio_c": 1200,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71cc-jt1RML._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71cc-jt1RML._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalias marrones de Spider-Man, frescas y cómodas para el verano.",
   "detalles": [
@@ -2793,10 +2793,10 @@ var ZAPATOS = [
   "precio": 25.93,
   "precio_c": 954,
   "fotos": [
-   "https://m.media-amazon.com/images/I/712L9MdWL1L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/6169X-e5FcL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71LLQfEj+LL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71WfoarK89L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/712L9MdWL1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/6169X-e5FcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71LLQfEj+LL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71WfoarK89L._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia jelly rosada de Minnie Mouse, flexible y divertida para días soleados.",
   "detalles": [
@@ -2817,10 +2817,10 @@ var ZAPATOS = [
   "precio": 33.93,
   "precio_c": 1248,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81IrpzmefzL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71Cv6R8r23L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61Jkfvtl8UL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/617qyzGgyJL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/81IrpzmefzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Cv6R8r23L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Jkfvtl8UL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/617qyzGgyJL._AC_SX1024_.jpg"
   ],
   "descripcion": "Zuecos de Bluey en azul, ultraligeros y cómodos para fans de la serie.",
   "detalles": [
@@ -3333,10 +3333,10 @@ var ZAPATOS = [
   "precio": 45.45,
   "precio_c": 1671,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61e8bGQJqwL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61KvDkBGRzL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/51Ha7djo6LL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61P9H8ibWWL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61e8bGQJqwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61KvDkBGRzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51Ha7djo6LL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61P9H8ibWWL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Nine West, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -3361,10 +3361,10 @@ var ZAPATOS = [
   "precio": 46.95,
   "precio_c": 1727,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81nbKWbPHqL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71sDMCjAL4L._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/81pmvIFAHML._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/81rI3++KCtL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/81nbKWbPHqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71sDMCjAL4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81pmvIFAHML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81rI3++KCtL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Cole Haan, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -3390,10 +3390,10 @@ var ZAPATOS = [
   "precio": 48.92,
   "precio_c": 1799,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71tv8g+8saL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71R+3fb6AmL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71W16R04IML._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71SzmQ7DFLL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71tv8g+8saL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71R+3fb6AmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71W16R04IML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71SzmQ7DFLL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Vans, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -3419,10 +3419,10 @@ var ZAPATOS = [
   "precio": 45.95,
   "precio_c": 1690,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61mybNwQUcL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61ZUYONwX1L._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61dkmFgWogL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61wzhOaNcrL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61mybNwQUcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ZUYONwX1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61dkmFgWogL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61wzhOaNcrL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -3442,8 +3442,8 @@ var ZAPATOS = [
   "precio": 43.95,
   "precio_c": 1616,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61KyKYO2XsL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61lY-vGx0ML._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61KyKYO2XsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lY-vGx0ML._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -3470,8 +3470,8 @@ var ZAPATOS = [
   "precio": 38.95,
   "precio_c": 1432,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61NPoEPbVVL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/611-I7-9+0L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61NPoEPbVVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/611-I7-9+0L._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Under Armour, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4028,7 +4028,7 @@ var ZAPATOS = [
   "precio": 48.95,
   "precio_c": 1800,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71mM-knI5sS._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71mM-knI5sS._AC_SX1024_.jpg"
   ],
   "descripcion": "Zueco Merrell Kids Hydro Moc en negro para niños, fácil de poner y resistente al agua.",
   "detalles": [
@@ -4050,7 +4050,7 @@ var ZAPATOS = [
   "precio": 43.91,
   "precio_c": 1615,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71kat399IkL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71kat399IkL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia Crocs Kids Crocband Cruiser en negro y blanco, ligera y fácil de limpiar.",
   "detalles": [
@@ -4075,7 +4075,7 @@ var ZAPATOS = [
   "precio": 30.44,
   "precio_c": 1119,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71QHRiGdQLL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71QHRiGdQLL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia Blowfish Malibu Kids Monti-T en terracota para niñas pequeñas, cómoda y colorida.",
   "detalles": [
@@ -4095,7 +4095,7 @@ var ZAPATOS = [
   "precio": 34.2,
   "precio_c": 1258,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71TZ1byOB+S._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71TZ1byOB+S._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis PUMA Kids Suede Classic XXI para niños pequeños en negro y blanco, con cierre fácil.",
   "detalles": [
@@ -4115,7 +4115,7 @@ var ZAPATOS = [
   "precio": 37.92,
   "precio_c": 1394,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61oORFQyKbL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61oORFQyKbL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia Crocs Kids Crocband Cruiser en azul y guayaba, ligera y fácil de limpiar.",
   "detalles": [
@@ -4140,7 +4140,7 @@ var ZAPATOS = [
   "precio": 47.7,
   "precio_c": 1754,
   "fotos": [
-   "https://m.media-amazon.com/images/I/716+KLg1SaS._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/716+KLg1SaS._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis PUMA Kids Suede Classic XXI para niños pequeños en azul marino y blanco, con cierre fácil.",
   "detalles": [
@@ -4160,7 +4160,7 @@ var ZAPATOS = [
   "precio": 49.9,
   "precio_c": 1835,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61L5G90US9L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61L5G90US9L._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia Crocs Kids Crocband Cruiser en veneciano y azul, ligera y fácil de limpiar.",
   "detalles": [
@@ -4180,10 +4180,10 @@ var ZAPATOS = [
   "precio": 45.43,
   "precio_c": 1671,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71AQ0AprrjL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71YKy6Ty5IL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71hQOx62unL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/511B7a5kdcL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71AQ0AprrjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YKy6Ty5IL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71hQOx62unL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/511B7a5kdcL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis Propet B10 Unite para mujer en color índigo, cómodo para uso diario.",
   "detalles": [
@@ -4203,10 +4203,10 @@ var ZAPATOS = [
   "precio": 48.92,
   "precio_c": 1799,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71jvTF2G1yL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71I6MMq4d-L._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/714FRreoUQL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71qi7bvmvtL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71jvTF2G1yL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71I6MMq4d-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714FRreoUQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qi7bvmvtL._AC_SX1024_.jpg"
   ],
   "descripcion": "Clásico Vans Old Skool unisex en índigo profundo, perfil bajo y suela waffle característica.",
   "detalles": [
@@ -4229,10 +4229,10 @@ var ZAPATOS = [
   "precio": 36.43,
   "precio_c": 1340,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61i5UmnxpML._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61R5yyrKLoL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71L70XchwiL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/61H6bVseOrL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61i5UmnxpML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61R5yyrKLoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71L70XchwiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61H6bVseOrL._AC_SX1024_.jpg"
   ],
   "descripcion": "Zapato Propet Easton para hombre en negro, cómodo y resistente para uso diario.",
   "detalles": [
@@ -4256,9 +4256,9 @@ var ZAPATOS = [
   "precio": 27.44,
   "precio_c": 1009,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81VOg2p9aPL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71xWdODqgJL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/81bH3n2fJHL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/81VOg2p9aPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71xWdODqgJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81bH3n2fJHL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Kamik, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4279,7 +4279,7 @@ var ZAPATOS = [
   "precio": 27.45,
   "precio_c": 1009,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71IuQW0g7LL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71IuQW0g7LL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4300,7 +4300,7 @@ var ZAPATOS = [
   "precio": 29.93,
   "precio_c": 1101,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71pT9P+UfFL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71pT9P+UfFL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Crocs, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4321,7 +4321,7 @@ var ZAPATOS = [
   "precio": 30.15,
   "precio_c": 1109,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71m0p8uH1nL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71m0p8uH1nL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Stride Rite, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4343,7 +4343,7 @@ var ZAPATOS = [
   "precio": 27.73,
   "precio_c": 1020,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71rA6UQdNIL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71rA6UQdNIL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Josmo, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4365,7 +4365,7 @@ var ZAPATOS = [
   "precio": 33.15,
   "precio_c": 1219,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71Pphf3bYXL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71Pphf3bYXL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Janie and Jack, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4388,7 +4388,7 @@ var ZAPATOS = [
   "precio": 33.92,
   "precio_c": 1247,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61vZlQ+Q4RL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61vZlQ+Q4RL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de MIA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4411,7 +4411,7 @@ var ZAPATOS = [
   "precio": 49.95,
   "precio_c": 1837,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61QbP6Z6wZL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61QbP6Z6wZL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4433,7 +4433,7 @@ var ZAPATOS = [
   "precio": 45.45,
   "precio_c": 1671,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61a3oRlV+0L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61a3oRlV+0L._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de PUMA, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4453,7 +4453,7 @@ var ZAPATOS = [
   "precio": 46.44,
   "precio_c": 1708,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71UoA5kB9dL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71UoA5kB9dL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de New Balance, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4476,7 +4476,7 @@ var ZAPATOS = [
   "precio": 49.53,
   "precio_c": 1821,
   "fotos": [
-   "https://m.media-amazon.com/images/I/715xTq8xL4L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/715xTq8xL4L._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de SKECHERS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -4568,10 +4568,10 @@ var ZAPATOS = [
   "precio": 46.95,
   "precio_c": 1727,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71bW2bZQpUL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71g0BvVwP1L._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71tK6XyT5EL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71OR1o3vJBL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71bW2bZQpUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71g0BvVwP1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71tK6XyT5EL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71OR1o3vJBL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original de Cougar, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -28947,8 +28947,8 @@ var ZAPATOS = [
   "precio": 57.95,
   "precio_c": 2131,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61HxxUc0olL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/61Np47GVooL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61HxxUc0olL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Np47GVooL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de cancha con entresuela EVA y parte superior de piel sintetica y malla, comodo para tenis y uso diario. Suela de goma con buen agarre en superficies duras.",
   "detalles": [
@@ -28969,8 +28969,8 @@ var ZAPATOS = [
   "precio": 62.95,
   "precio_c": 2315,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61mdpyWkgYL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71xK14+5qKL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61mdpyWkgYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71xK14+5qKL._AC_SX1024_.jpg"
   ],
   "descripcion": "Zapatilla de voleibol de cancha cubierta con las 3 franjas laterales, entresuela acolchada y suela de goma. Comoda para jugar y para el uso diario.",
   "detalles": [
@@ -28997,10 +28997,10 @@ var ZAPATOS = [
   "precio": 51.45,
   "precio_c": 1892,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71KDhF7PfnL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71nztEVZt1L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71KMKW6yEeL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71gdMqHwjkL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71KDhF7PfnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71nztEVZt1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71KMKW6yEeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71gdMqHwjkL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de running flexible y liviano en tonos grises, con pisada suave para correr y caminar. Un basico comodo de Nike para todos los dias.",
   "detalles": [
@@ -29021,10 +29021,10 @@ var ZAPATOS = [
   "precio": 46.45,
   "precio_c": 1708,
   "fotos": [
-   "https://m.media-amazon.com/images/I/713Ws5bXtIL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71tXbvDrH+L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71-k87noktL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71S08TOSfyL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/713Ws5bXtIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71tXbvDrH+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71-k87noktL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71S08TOSfyL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis deportivo en negro con blanco, comodo y versatil para entrenar y caminar. Plantilla acolchada y suela de goma con traccion.",
   "detalles": [
@@ -29045,8 +29045,8 @@ var ZAPATOS = [
   "precio": 49.92,
   "precio_c": 1836,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71AUlx2O3HL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81ezeQADV9L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71AUlx2O3HL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ezeQADV9L._AC_SX1024_.jpg"
   ],
   "descripcion": "Zapato casual de tejido gris con la comodidad y durabilidad de Ariat, facil de calzar y versatil para todos los dias.",
   "detalles": [
@@ -29226,8 +29226,8 @@ var ZAPATOS = [
   "precio": 28.94,
   "precio_c": 1064,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71U2bmEcE5L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81Iz56m2T2L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71U2bmEcE5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Iz56m2T2L._AC_SX1024_.jpg"
   ],
   "descripcion": "Mocasín acolchado sin cordones, con interior afelpado y parte superior de cuero resistente al agua: cómodo y abrigador para el uso diario.",
   "detalles": [
@@ -29250,8 +29250,8 @@ var ZAPATOS = [
   "precio": 71.01,
   "precio_c": 2611,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61hxYPJWfLL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71ZRdhWRUxL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61hxYPJWfLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ZRdhWRUxL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis slip-on para caminar con amortiguación receptiva y malla elástica: soporte acolchado y entrada fácil en cada paso.",
   "detalles": [
@@ -29274,8 +29274,8 @@ var ZAPATOS = [
   "precio": 33.93,
   "precio_c": 1248,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81OmLeSMMfL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/815OXTt-v7L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/81OmLeSMMfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/815OXTt-v7L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis casual en gris cadete con perfil cómodo y versátil: un básico neutro para combinar con jeans y ropa deportiva.",
   "detalles": [
@@ -29304,8 +29304,8 @@ var ZAPATOS = [
   "precio": 33.43,
   "precio_c": 1229,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71GJsxs8QcL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71jtXp8DF8L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71GJsxs8QcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71jtXp8DF8L._AC_SX1024_.jpg"
   ],
   "descripcion": "Mocasín liviano en rosado eléctrico con silueta relajada: color llamativo y comodidad sin esfuerzo para todos los días.",
   "detalles": [
@@ -29326,8 +29326,8 @@ var ZAPATOS = [
   "precio": 34.93,
   "precio_c": 1285,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61WA4SivwML._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/719NzgUm6EL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61WA4SivwML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719NzgUm6EL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis casual en tonos piedra y chocolate, de estilo urbano y neutro: fácil de combinar para el uso diario.",
   "detalles": [
@@ -29348,8 +29348,8 @@ var ZAPATOS = [
   "precio": 28.65,
   "precio_c": 1054,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61SEpTCgH7L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71kE2e-hs7L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61SEpTCgH7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71kE2e-hs7L._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia negra lisa de estilo playero y relajado: sencilla, fresca y fácil de calzar para el calor.",
   "detalles": [
@@ -29372,8 +29372,8 @@ var ZAPATOS = [
   "precio": 27.15,
   "precio_c": 998,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71d3fhtv9lL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81pPX71LUiL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71d3fhtv9lL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81pPX71LUiL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia tejida en blanco y negro con aire artesanal: fresca y ligera para el verano y los días de calor.",
   "detalles": [
@@ -29396,8 +29396,8 @@ var ZAPATOS = [
   "precio": 27.45,
   "precio_c": 1009,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61D03G0YM4L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/617zy23ztBL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61D03G0YM4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/617zy23ztBL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia en tono morado rosado con plantilla suave: comodidad relajada con un toque de color para el verano.",
   "detalles": [
@@ -29418,8 +29418,8 @@ var ZAPATOS = [
   "precio": 28.95,
   "precio_c": 1065,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81f6JbEGFmL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81b7OfQfT3L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/81f6JbEGFmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81b7OfQfT3L._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia en tono natural de estilo sencillo y playero: neutra y fresca para combinar con ropa de verano.",
   "detalles": [
@@ -29440,8 +29440,8 @@ var ZAPATOS = [
   "precio": 30.75,
   "precio_c": 1131,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61IVexGisVL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81hW5aqL4TL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61IVexGisVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81hW5aqL4TL._AC_SX1024_.jpg"
   ],
   "descripcion": "Sandalia negra clásica de estilo playero: sencilla y versátil para la playa, la piscina o el uso diario en calor.",
   "detalles": [
@@ -29468,8 +29468,8 @@ var ZAPATOS = [
   "precio": 71.65,
   "precio_c": 2635,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71JHrc3PsuL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81lQEYYb9-L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71JHrc3PsuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81lQEYYb9-L._AC_SX1024_.jpg"
   ],
   "descripcion": "Bota en gris de estilo clásico y pulcro: un básico neutro que combina con jeans y ropa de temporada fresca.",
   "detalles": [
@@ -29494,8 +29494,8 @@ var ZAPATOS = [
   "precio": 37.65,
   "precio_c": 1385,
   "fotos": [
-   "https://m.media-amazon.com/images/I/81v6fudSN8L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/819hv9GkZeL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/81v6fudSN8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/819hv9GkZeL._AC_SX1024_.jpg"
   ],
   "descripcion": "Bota en marrón oscuro de estilo casual y resistente: compañera práctica para el día a día en temporada fresca.",
   "detalles": [
@@ -29519,8 +29519,8 @@ var ZAPATOS = [
   "precio": 30.93,
   "precio_c": 1137,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71q2sjkdgqL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81GfXPSaPrL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71q2sjkdgqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81GfXPSaPrL._AC_SX1024_.jpg"
   ],
   "descripcion": "Zapato plano estilo Mary Jane en gris claro, cómodo para caminar todo el día: clásico, suave y fácil de combinar.",
   "detalles": [
@@ -29546,8 +29546,8 @@ var ZAPATOS = [
   "precio": 48.31,
   "precio_c": 1777,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71ZlKjakVgL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/91-HgkaGHOL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71ZlKjakVgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/91-HgkaGHOL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de correr livianos para los más pequeños, con parte superior transpirable y cintas elásticas que facilitan calzarlos. Cómodos para el uso diario, el parque y la escuela.",
   "detalles": [
@@ -29572,8 +29572,8 @@ var ZAPATOS = [
   "precio": 41.95,
   "precio_c": 1543,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71R6c+1joCL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71omhBuHGtL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71R6c+1joCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71omhBuHGtL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis bajitos para bebés y niños pequeños con puntera amplia, correa de velcro y tirador en el talón. Diseñados para el movimiento natural del pie en los primeros pasos.",
   "detalles": [
@@ -29594,7 +29594,7 @@ var ZAPATOS = [
   "precio": 43.92,
   "precio_c": 1615,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61XhT2-XbOL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61XhT2-XbOL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -29621,7 +29621,7 @@ var ZAPATOS = [
   "precio": 61.95,
   "precio_c": 2278,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71Cw5D8bE3L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71Cw5D8bE3L._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -29653,7 +29653,7 @@ var ZAPATOS = [
   "precio": 56.45,
   "precio_c": 2076,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61ZqB2+7aQL._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/61ZqB2+7aQL._AC_SX1024_.jpg"
   ],
   "descripcion": "Modelo original, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
   "detalles": [
@@ -29674,8 +29674,8 @@ var ZAPATOS = [
   "precio": 55.2,
   "precio_c": 2030,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71b-NA+AWwL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81HtZCnn1UL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71b-NA+AWwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81HtZCnn1UL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de correr para niños pequeños con cintas elásticas y correa de velcro, fáciles de poner y quitar. Combinación de gris con acentos en azul y rosado para todos los días.",
   "detalles": [
@@ -29696,8 +29696,8 @@ var ZAPATOS = [
   "precio": 54.4,
   "precio_c": 2001,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71RVcw3QJOL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81R9yYrcG4L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71RVcw3QJOL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81R9yYrcG4L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis sin cordones que se calzan sin usar las manos, con plantilla de espuma con memoria para comodidad todo el día. En gris oscuro con acentos naranjas, ideales para la escuela y el juego.",
   "detalles": [
@@ -29723,8 +29723,8 @@ var ZAPATOS = [
   "precio": 53.94,
   "precio_c": 1984,
   "fotos": [
-   "https://m.media-amazon.com/images/I/716XJAa0MfL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81dREY6g7LL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/716XJAa0MfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81dREY6g7LL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de correr clásicos para preescolar, con malla transpirable y cintas elásticas con velcro. En azul con detalles claros, cómodos para correr, jugar y aprender.",
   "detalles": [
@@ -29750,8 +29750,8 @@ var ZAPATOS = [
   "precio": 64.95,
   "precio_c": 2388,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71g88LonelL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81NJzjYWq0L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71g88LonelL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81NJzjYWq0L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de correr para niños grandes con estilo deportivo y lengüeta acolchada de malla. En azul moteado con acentos verdes, para entrenar y para todos los días.",
   "detalles": [
@@ -29774,8 +29774,8 @@ var ZAPATOS = [
   "precio": 66.45,
   "precio_c": 2444,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71yb12jXVML._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81Hs9EXVk4L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71yb12jXVML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Hs9EXVk4L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis livianos de malla para niños grandes, con cierre de cordones para ajustar a medida. En azul cielo con detalles oscuros, frescos y cómodos para el día a día.",
   "detalles": [
@@ -29803,8 +29803,8 @@ var ZAPATOS = [
   "precio": 70.83,
   "precio_c": 2605,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71w5Tu4fTjL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/816K4N4HLZL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71w5Tu4fTjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/816K4N4HLZL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de básquetbol de caña media inspirados en la línea All-Pro, con malla tejida transpirable y amortiguación de largo completo. En negro y blanco, clásicos para la cancha y la calle.",
   "detalles": [
@@ -29830,8 +29830,8 @@ var ZAPATOS = [
   "precio": 58.95,
   "precio_c": 2168,
   "fotos": [
-   "https://m.media-amazon.com/images/I/719Ikcri+TL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81R4m5OS-XL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/719Ikcri+TL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81R4m5OS-XL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis clásicos de silueta baja con cintas elásticas y correa ajustable de velcro, fáciles de calzar solos. En tonos tropicales con acentos morados y amarillos, alegres para todos los días.",
   "detalles": [
@@ -29853,8 +29853,8 @@ var ZAPATOS = [
   "precio": 58.95,
   "precio_c": 2168,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71-XHnzD2lL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81cTr2Inz9L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71-XHnzD2lL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81cTr2Inz9L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis bajitos con acabado metálico inspirados en el ballet, con bandas elásticas para un calce flexible y cómodo. En gris ceniza con blanco, con brillo sutil para destacar.",
   "detalles": [
@@ -29877,8 +29877,8 @@ var ZAPATOS = [
   "precio": 58.9,
   "precio_c": 2166,
   "fotos": [
-   "https://m.media-amazon.com/images/I/61QSVpbb-cL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/71JmyakYAuL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/61QSVpbb-cL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71JmyakYAuL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis inspirados en el running para todos los días, con malla transpirable y detalles iridiscentes. En blanco con acentos rosados, livianos y cómodos para moverse sin parar.",
   "detalles": [
@@ -29903,8 +29903,8 @@ var ZAPATOS = [
   "precio": 48.62,
   "precio_c": 1788,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71LLlkVVfYL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81ffuGdATxL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71LLlkVVfYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ffuGdATxL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis deportivos slip-on con entresuela acolchada de geometría Glide-Step, diseñados para dar impulso natural en cada paso. En azul marino, livianos y lavables a máquina.",
   "detalles": [
@@ -29931,8 +29931,8 @@ var ZAPATOS = [
   "precio": 51.45,
   "precio_c": 1892,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71KF90TKt0L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81JC1bQo28L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71KF90TKt0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81JC1bQo28L._AC_SX1024_.jpg"
   ],
   "descripcion": "Botines de fútbol con lengüeta plegable que crea una zona de golpeo segura y el estilo clásico Predator. En blanco con acentos turquesa y negro, para césped natural y sintético.",
   "detalles": [
@@ -29958,8 +29958,8 @@ var ZAPATOS = [
   "precio": 58.95,
   "precio_c": 2168,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71sFWgFI42L._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81Quf2jhjAL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71sFWgFI42L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Quf2jhjAL._AC_SX1024_.jpg"
   ],
   "descripcion": "Botines de entrenamiento para césped sintético con malla de ingeniería y marco de soporte liviano. En negro con acentos verde lima, para velocidad y estabilidad en la cancha.",
   "detalles": [
@@ -29985,8 +29985,8 @@ var ZAPATOS = [
   "precio": 55.92,
   "precio_c": 2056,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71fgtsjEIjL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81lTxrWpOtL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71fgtsjEIjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81lTxrWpOtL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis transpirables y livianos para los más pequeños, con amortiguación suave y correas de velcro ajustables. En negro con rojo, para jugar todo el día con comodidad.",
   "detalles": [
@@ -30008,8 +30008,8 @@ var ZAPATOS = [
   "precio": 55.3,
   "precio_c": 2034,
   "fotos": [
-   "https://m.media-amazon.com/images/I/712Hj4Be6NL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81YIKyu409L._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/712Hj4Be6NL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81YIKyu409L._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis con luces que se encienden con cada paso, con el personaje Sonic y suela translúcida luminosa. En negro y azul, con cintas elásticas y velcro para calzar en segundos.",
   "detalles": [
@@ -30035,8 +30035,8 @@ var ZAPATOS = [
   "precio": 70.94,
   "precio_c": 2609,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71t5Pxf8kIL._AC_SR768,1024_.jpg",
-   "https://m.media-amazon.com/images/I/81p9Nq7ilGL._AC_SR768,1024_.jpg"
+   "https://m.media-amazon.com/images/I/71t5Pxf8kIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81p9Nq7ilGL._AC_SX1024_.jpg"
   ],
   "descripcion": "Tenis de correr con sistema de ajuste BOA de dial, que se ajusta con precisión sin cordones. En azul claro con azul oscuro, con entresuela DynaSoft suave y reactiva.",
   "detalles": [
@@ -30067,10 +30067,10 @@ var ZAPATOS = [
   "precio": 43.92,
   "precio_c": 1615,
   "fotos": [
-   "https://m.media-amazon.com/images/I/71ce6-4RevL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/81StG4bVvFL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/81Nb9zv+WrL._AC_SR920,736_.jpg",
-   "https://m.media-amazon.com/images/I/71F3C1HLh0L._AC_SR920,736_.jpg"
+   "https://m.media-amazon.com/images/I/71ce6-4RevL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81StG4bVvFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Nb9zv+WrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71F3C1HLh0L._AC_SX1024_.jpg"
   ],
   "descripcion": "La Victori One es la sandalia clásica de Nike para después del entreno y el día a día: banda suave con el logo, plantilla acolchada con textura y suela de espuma ligera que amortigua cada paso.",
   "detalles": [
