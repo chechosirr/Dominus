@@ -5921,6 +5921,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Under Armour Armr Slide Lite (Men) - Black/White/Black"
  },
  {
+  "codigo": "DOM-345",
+  "nombre": "adidas Handball Spezial — (FMF) White / Aurora Ivy / Better Scarlet"
+ },
+ {
   "codigo": "DOM-347",
   "nombre": "Nike Dunk Low Retro Astronomy Blue (HM9606-400)"
  },

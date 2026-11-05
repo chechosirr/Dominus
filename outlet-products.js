@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "4 de noviembre de 2026";
+var ZAP_VERIFICADO = "5 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -933,39 +933,6 @@ var ZAPATOS = [
    "8.5",
    "12",
    "13"
-  ]
- },
- {
-  "codigo": "DOM-345",
-  "marca": "adidas",
-  "nombre": "adidas Handball Spezial — (FMF) White / Aurora Ivy / Better Scarlet",
-  "genero": "Hombre",
-  "precio": 109.97,
-  "precio_c": 4044,
-  "fotos": [
-   "https://www.shopwss.com/cdn/shop/files/HP3674_1.jpg?v=1777486376&width=1024",
-   "https://www.shopwss.com/cdn/shop/files/HP3674_2.jpg?v=1777486376&width=1024",
-   "https://www.shopwss.com/cdn/shop/files/HP3674_3.jpg?v=1777486376&width=1024",
-   "https://www.shopwss.com/cdn/shop/files/HP3674_4.jpg?v=1777486376&width=1024"
-  ],
-  "descripcion": "Handball Spezial edición FMF en blanco con franjas en verde Aurora Ivy y rojo Better Scarlet sobre suela de goma. Un clásico de cancha de 1979 con un guiño futbolero que destaca sin esfuerzo.",
-  "detalles": [
-   "Edición especial con logo FMF en la lengüeta",
-   "Parte superior de cuero con detalles de gamuza y puntera en T",
-   "Suela de goma natural con tracción flexible",
-   "Silueta baja retro con 3 Franjas dentadas"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5"
   ]
  },
  {
@@ -23717,8 +23684,8 @@ var ZAPATOS = [
   "marca": "Jordan",
   "nombre": "Jordan Air Jordan 1 Low Toddler",
   "genero": "Niños",
-  "precio": 59.98,
-  "precio_c": 2206,
+  "precio": 70.0,
+  "precio_c": 2574,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644476_20609_IF071.jpg?v=1783445285",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_644476_20609_IF073.jpg?v=1783445285",
@@ -30085,6 +30052,38 @@ var ZAPATOS = [
    "8",
    "9",
    "15"
+  ]
+ },
+ {
+  "codigo": "DOM-3038",
+  "marca": "Nike",
+  "nombre": "Nike Court Vision Low — University Red / Black / White",
+  "genero": "Hombre",
+  "precio": 82.96,
+  "precio_c": 3051,
+  "fotos": [
+   "https://www.shopwss.com/cdn/shop/files/IO9112657_1.jpg?v=1776791733&width=1024",
+   "https://www.shopwss.com/cdn/shop/files/IO9112657_2.jpg?v=1776791733&width=1024",
+   "https://www.shopwss.com/cdn/shop/files/IO9112657_3.jpg?v=1776791733&width=1024",
+   "https://www.shopwss.com/cdn/shop/files/IO9112657_4.jpg?v=1776791733&width=1024"
+  ],
+  "descripcion": "Tenis Nike Court Vision Low en rojo universitario, blanco y negro: un clásico de básquetbol de los 80 con estilo retro para el día a día, cómodo y versátil.",
+  "detalles": [
+   "Estética clásica de básquetbol de los años 80 con empeine nítido y costuras decorativas",
+   "Cuello bajo acolchado que brinda soporte y perforaciones en la punta y los laterales para ventilación",
+   "Elaborado con al menos 20% de contenido reciclado"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
   ]
  }
 ];
