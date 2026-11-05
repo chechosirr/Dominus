@@ -434,6 +434,17 @@ html{background:#f2f2f4}
 #catview.esc-in{animation:escIn 1.15s ease both}
 @keyframes escIn{from{opacity:0}to{opacity:1}}
 @media (prefers-reduced-motion:reduce){#catview.esc-in{animation:none}}
+/* ===== Transiciones suaves entre secciones (2026-11-04, pedido de Sergio): nada cambia de golpe ===== */
+@keyframes secIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+#shopview.view-in{animation:secIn .45s ease both}
+#catview.panel-in{animation:escIn .5s ease both}
+.detail.open{animation:secIn .38s ease both}
+@keyframes cartIn{from{opacity:0;transform:translateX(26px)}to{opacity:1;transform:none}}
+.cartwrap.open .cartpanel{animation:cartIn .38s ease both}
+@keyframes menuIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.menu.open{animation:menuIn .18s ease both}
+.cta-drop.open{animation:menuIn .18s ease both}
+@media (prefers-reduced-motion:reduce){#shopview.view-in,#catview.panel-in,.detail.open,.cartwrap.open .cartpanel,.menu.open,.cta-drop.open{animation:none}}
 /* Escritorio (2026-11-04, pedido de Sergio): el fondo del escaparate es la misma imagen, grande y borrosa, con la foto nítida encima */
 @media (min-width:900px){
 #catview .esc-fondo .esc-blur{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.25);filter:blur(26px) brightness(.94)}
@@ -1280,6 +1291,7 @@ function shipParts(){
  document.getElementById('catview').style.display = 'none';
  document.body.style.overflow = '';
  document.getElementById('shopview').style.display = '';
+ var svIn = document.getElementById('shopview'); svIn.classList.remove('view-in'); void svIn.offsetWidth; svIn.classList.add('view-in');
  document.body.classList.add('en-seccion');
  var hdrSb = document.getElementById('shop-back');
  var hdrSlot = document.getElementById('hdr-back-slot');
@@ -1293,6 +1305,7 @@ function shipParts(){
  curCat = null; view = 'panel';
  document.getElementById('shopview').style.display = 'none';
  document.getElementById('catview').style.display = '';
+ var cvIn = document.getElementById('catview'); cvIn.classList.remove('panel-in'); void cvIn.offsetWidth; cvIn.classList.add('panel-in');
  document.body.classList.remove('en-seccion');
  var hdrSb2 = document.getElementById('shop-back');
  var hdrBar = document.querySelector('.shopbar');
