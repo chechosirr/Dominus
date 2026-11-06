@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "6 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -61877,6 +61877,2690 @@ var ZAPATOS = [
    "33"
   ],
   "categoria": "Chanclas",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6515",
+  "marca": "Bebe",
+  "nombre": "Lil Gabby Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706115_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706115_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706115_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706115_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Gabby Dress Shoe de Bebe en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6516",
+  "marca": "Bebe",
+  "nombre": "Lil Giselle Dress Shoe - Pink",
+  "genero": "Niños",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706116_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706116_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706116_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706116_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Giselle Dress Shoe de Bebe en color pink, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "7C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6517",
+  "marca": "Bebe",
+  "nombre": "Lil Giselle Dress Shoe - Taupe",
+  "genero": "Niños",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706118_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706118_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706118_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706118_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Giselle Dress Shoe de Bebe en color taupe, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "7C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6518",
+  "marca": "Bebe",
+  "nombre": "Rhinestone Mary Jane - Black",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707335_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707335_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707335_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707335_04"
+  ],
+  "descripcion": "Zapato de fiesta Rhinestone Mary Jane de Bebe en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6519",
+  "marca": "Bebe",
+  "nombre": "Satin Bow Mary Jane - Blush",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707339_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707339_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707339_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_707339_04"
+  ],
+  "descripcion": "Zapato de fiesta Satin Bow Mary Jane de Bebe en color blush, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6520",
+  "marca": "Blowfish Malibu",
+  "nombre": "Brave Mary Jane Shoe - Blush",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706368_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706368_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706368_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706368_04"
+  ],
+  "descripcion": "Zapato de fiesta Brave Mary Jane Shoe de Blowfish Malibu en color blush, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6521",
+  "marca": "Cupcake Couture",
+  "nombre": "Alysa Flat - Pink",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704843_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704843_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704843_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704843_04"
+  ],
+  "descripcion": "Zapato de fiesta Alysa Flat de Cupcake Couture en color pink, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6522",
+  "marca": "Cupcake Couture",
+  "nombre": "Anna Flat - Pink",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704447_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704447_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704447_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704447_04"
+  ],
+  "descripcion": "Zapato de fiesta Anna Flat de Cupcake Couture en color pink, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6523",
+  "marca": "Cupcake Couture",
+  "nombre": "Aria Flat - Pink",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704836_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704836_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704836_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704836_04"
+  ],
+  "descripcion": "Zapato de fiesta Aria Flat de Cupcake Couture en color pink, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6524",
+  "marca": "Cupcake Couture",
+  "nombre": "Ayla Flat - Black",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704837_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704837_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704837_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704837_04"
+  ],
+  "descripcion": "Zapato de fiesta Ayla Flat de Cupcake Couture en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6525",
+  "marca": "Cupcake Couture",
+  "nombre": "Charlie Dress Shoe - Champagne",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706594_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706594_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706594_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706594_04"
+  ],
+  "descripcion": "Zapato de fiesta Charlie Dress Shoe de Cupcake Couture en color champagne, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6526",
+  "marca": "Cupcake Couture",
+  "nombre": "Chloe Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704845_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704845_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704845_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704845_04"
+  ],
+  "descripcion": "Zapato de fiesta Chloe Dress Shoe de Cupcake Couture en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6527",
+  "marca": "Cupcake Couture",
+  "nombre": "Elsana Flat - Bright Blue",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704828_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704828_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704828_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704828_04"
+  ],
+  "descripcion": "Zapato de fiesta Elsana Flat de Cupcake Couture en color bright blue, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6528",
+  "marca": "Cupcake Couture",
+  "nombre": "Klarysa Flat - Red",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704848_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704848_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704848_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704848_04"
+  ],
+  "descripcion": "Zapato de fiesta Klarysa Flat de Cupcake Couture en color red, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6529",
+  "marca": "Cupcake Couture",
+  "nombre": "Lil Tilly Dress Shoe - Champagne",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706622_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706622_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706622_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706622_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Tilly Dress Shoe de Cupcake Couture en color champagne, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6530",
+  "marca": "Cupcake Couture",
+  "nombre": "Truly Bowtiful Flat - Champagne",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706623_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706623_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706623_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706623_04"
+  ],
+  "descripcion": "Zapato de fiesta Truly Bowtiful Flat de Cupcake Couture en color champagne, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6531",
+  "marca": "Dr. Martens",
+  "nombre": "Polley Ii Bow Mary Jane Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 89.94,
+  "precio_c": 3307,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704515_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704515_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704515_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704515_04"
+  ],
+  "descripcion": "Zapato de fiesta Polley Ii Bow Mary Jane Dress Shoe de Dr. Martens en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6532",
+  "marca": "Dr. Martens",
+  "nombre": "Polley Ii Bow T Mary Jane Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 84.94,
+  "precio_c": 3124,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704516_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704516_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704516_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704516_04"
+  ],
+  "descripcion": "Zapato de fiesta Polley Ii Bow T Mary Jane Dress Shoe de Dr. Martens en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6533",
+  "marca": "Jellypop",
+  "nombre": "Aurelyn Dress Shoe - Burgundy",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706607_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706607_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706607_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706607_04"
+  ],
+  "descripcion": "Zapato de fiesta Aurelyn Dress Shoe de Jellypop en color burgundy, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6534",
+  "marca": "Josmo",
+  "nombre": "Dress Shoe (Infant/Toddler) - Black",
+  "genero": "Niños",
+  "precio": 44.94,
+  "precio_c": 1653,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706059_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706059_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706059_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706059_04"
+  ],
+  "descripcion": "Zapato de fiesta Dress Shoe de Josmo en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "3C",
+   "4C",
+   "6C",
+   "7C",
+   "8C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6535",
+  "marca": "Josmo",
+  "nombre": "Dress Shoe - White",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706051_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706051_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706051_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706051_04"
+  ],
+  "descripcion": "Zapato de fiesta Dress Shoe de Josmo en color white, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6536",
+  "marca": "Josmo",
+  "nombre": "Dress Shoe (Little/Big Kid) - Black",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706052_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706052_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706052_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706052_04"
+  ],
+  "descripcion": "Zapato de fiesta Dress Shoe de Josmo en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6537",
+  "marca": "Josmo",
+  "nombre": "Giselle Dress Shoe - Pink",
+  "genero": "Niños",
+  "precio": 45.94,
+  "precio_c": 1689,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706203_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706203_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706203_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706203_04"
+  ],
+  "descripcion": "Zapato de fiesta Giselle Dress Shoe de Josmo en color pink, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "2C",
+   "3C",
+   "5C",
+   "6C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6538",
+  "marca": "Josmo",
+  "nombre": "Giselle Dress Shoe - Beige",
+  "genero": "Niños",
+  "precio": 45.94,
+  "precio_c": 1689,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706202_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706202_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706202_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706202_04"
+  ],
+  "descripcion": "Zapato de fiesta Giselle Dress Shoe de Josmo en color beige, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "2C",
+   "5C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6539",
+  "marca": "Josmo",
+  "nombre": "Noeud Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706074_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706074_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706074_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706074_04"
+  ],
+  "descripcion": "Zapato de fiesta Noeud Dress Shoe de Josmo en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6540",
+  "marca": "Laura Ashley",
+  "nombre": "Dress Shoe - Pink",
+  "genero": "Niños",
+  "precio": 45.94,
+  "precio_c": 1689,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706086_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706086_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706086_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706086_04"
+  ],
+  "descripcion": "Zapato de fiesta Dress Shoe de Laura Ashley en color pink, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "12C",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6541",
+  "marca": "Laura Ashley",
+  "nombre": "Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 45.94,
+  "precio_c": 1689,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706085_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706085_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706085_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706085_04"
+  ],
+  "descripcion": "Zapato de fiesta Dress Shoe de Laura Ashley en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6542",
+  "marca": "N by Nina",
+  "nombre": "Daisy Dress Shoe - Gold",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705324_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705324_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705324_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705324_04"
+  ],
+  "descripcion": "Zapato de fiesta Daisy Dress Shoe de N by Nina en color gold, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6543",
+  "marca": "N by Nina",
+  "nombre": "Lennie2 Dress Shoe - Gold",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705326_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705326_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705326_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705326_04"
+  ],
+  "descripcion": "Zapato de fiesta Lennie2 Dress Shoe de N by Nina en color gold, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "2Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6544",
+  "marca": "Rachel Shoes",
+  "nombre": "Abelina Dress Shoe - Burgundy",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705890_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705890_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705890_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705890_04"
+  ],
+  "descripcion": "Zapato de fiesta Abelina Dress Shoe de Rachel Shoes en color burgundy, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6545",
+  "marca": "Rachel Shoes",
+  "nombre": "Annalise Dress Shoe - Red",
+  "genero": "Niños",
+  "precio": 44.94,
+  "precio_c": 1653,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705891_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705891_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705891_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705891_04"
+  ],
+  "descripcion": "Zapato de fiesta Annalise Dress Shoe de Rachel Shoes en color red, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6546",
+  "marca": "Rachel Shoes",
+  "nombre": "Lil Abelina Dress Shoe - Burgundy",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705892_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705892_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705892_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705892_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Abelina Dress Shoe de Rachel Shoes en color burgundy, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6547",
+  "marca": "Rachel Shoes",
+  "nombre": "Lil Annalise Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705893_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705893_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705893_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705893_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Annalise Dress Shoe de Rachel Shoes en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6548",
+  "marca": "Rachel Shoes",
+  "nombre": "Lil Annalise Dress Shoe - Red",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705894_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705894_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705894_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705894_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Annalise Dress Shoe de Rachel Shoes en color red, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6549",
+  "marca": "Rachel Shoes",
+  "nombre": "Lil Kaelynn Dress Shoe - Black",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705897_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705897_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705897_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705897_04"
+  ],
+  "descripcion": "Zapato de fiesta Lil Kaelynn Dress Shoe de Rachel Shoes en color black, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6550",
+  "marca": "See Kai Run",
+  "nombre": "Sophia Mary Jane Shoe - Gold",
+  "genero": "Niños",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706872_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706872_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706872_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706872_04"
+  ],
+  "descripcion": "Zapato de fiesta Sophia Mary Jane Shoe de See Kai Run en color gold, con acabado brillante pensado para ceremonias, fotos y celebraciones. Cómodo para los niños y fácil de combinar con ropa de gala.",
+  "detalles": [
+   "Detalles con brillo de fiesta",
+   "Puntera redondeada estilo bailarina",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6551",
+  "marca": "Cupcake Couture",
+  "nombre": "Anya Flat - White",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705976_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705976_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705976_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705976_04"
+  ],
+  "descripcion": "Zapato de vestir Anya Flat de Cupcake Couture en color white, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6552",
+  "marca": "Cupcake Couture",
+  "nombre": "Delphine Flat - White",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705973_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705973_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705973_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705973_04"
+  ],
+  "descripcion": "Zapato de vestir Delphine Flat de Cupcake Couture en color white, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6553",
+  "marca": "Cupcake Couture",
+  "nombre": "Galina Flat - Nude",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705980_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705980_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705980_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705980_04"
+  ],
+  "descripcion": "Zapato de vestir Galina Flat de Cupcake Couture en color nude, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6554",
+  "marca": "Disney",
+  "nombre": "Minnie Mouse Flat - Pink",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704762_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704762_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704762_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704762_04"
+  ],
+  "descripcion": "Zapato de vestir Minnie Mouse Flat de Disney en color pink, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "6C"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6555",
+  "marca": "Josmo",
+  "nombre": "Oxford Shoe (Toddler/Little Kid) - Black",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706044_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706044_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706044_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706044_04"
+  ],
+  "descripcion": "Zapato de vestir Oxford Shoe de Josmo en color black, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6556",
+  "marca": "Josmo",
+  "nombre": "Oxford Shoe - Tan",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706043_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706043_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706043_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706043_04"
+  ],
+  "descripcion": "Zapato de vestir Oxford Shoe de Josmo en color tan, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6557",
+  "marca": "Josmo",
+  "nombre": "Oxford Shoe (Little/Big Kid) - Black",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706049_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706049_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706049_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706049_04"
+  ],
+  "descripcion": "Zapato de vestir Oxford Shoe de Josmo en color black, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6558",
+  "marca": "Kenneth Cole",
+  "nombre": "Klay Flex Dress Shoe (Toddler/Little Kid) - Black",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705037_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705037_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705037_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705037_04"
+  ],
+  "descripcion": "Zapato de vestir Klay Flex Dress Shoe de Kenneth Cole en color black, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6559",
+  "marca": "Rachel Shoes",
+  "nombre": "Lil Geovanna Dress Shoe - Pale Pink",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705895_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705895_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705895_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705895_04"
+  ],
+  "descripcion": "Zapato de vestir Lil Geovanna Dress Shoe de Rachel Shoes en color pale pink, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "10C"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6560",
+  "marca": "Eastland",
+  "nombre": "Buck Oxford - Black",
+  "genero": "Niños",
+  "precio": 100.94,
+  "precio_c": 3712,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706873_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706873_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706873_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706873_04"
+  ],
+  "descripcion": "Zapato de vestir Buck Oxford de Eastland en color black, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "13.5C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6561",
+  "marca": "Eastland",
+  "nombre": "Classic Oxford - Black",
+  "genero": "Niños",
+  "precio": 109.99,
+  "precio_c": 4045,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706877_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706877_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706877_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706877_04"
+  ],
+  "descripcion": "Zapato de vestir Classic Oxford de Eastland en color black, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13.5C",
+   "1Y",
+   "2Y",
+   "6.5Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6562",
+  "marca": "Eastland",
+  "nombre": "Classic Oxford - Burgundy",
+  "genero": "Niños",
+  "precio": 109.99,
+  "precio_c": 4045,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706883_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706883_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706883_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706883_04"
+  ],
+  "descripcion": "Zapato de vestir Classic Oxford de Eastland en color burgundy, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "13.5C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6563",
+  "marca": "Eastland",
+  "nombre": "Harper Mary Jane Shoe - Navy",
+  "genero": "Niños",
+  "precio": 109.99,
+  "precio_c": 4045,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706882_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706882_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706882_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706882_04"
+  ],
+  "descripcion": "Zapato de vestir Harper Mary Jane Shoe de Eastland en color navy, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "13C",
+   "13.5C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6564",
+  "marca": "Bebe",
+  "nombre": "Lil Briana Dress Shoe - Blush",
+  "genero": "Niños",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706119_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706119_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706119_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706119_04"
+  ],
+  "descripcion": "Zapato de vestir Lil Briana Dress Shoe de Bebe en color blush, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6565",
+  "marca": "Carter's",
+  "nombre": "Sophia Mary Jane Shoe - White",
+  "genero": "Niños",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706501_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706501_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706501_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706501_04"
+  ],
+  "descripcion": "Zapato de vestir Sophia Mary Jane Shoe de Carter's en color white, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6566",
+  "marca": "Cupcake Couture",
+  "nombre": "Addel Flat - Black",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706595_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706595_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706595_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706595_04"
+  ],
+  "descripcion": "Zapato de vestir Addel Flat de Cupcake Couture en color black, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6567",
+  "marca": "Eastland",
+  "nombre": "Buck Oxford - Taupe",
+  "genero": "Niños",
+  "precio": 99.94,
+  "precio_c": 3675,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704046_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704046_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704046_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704046_04"
+  ],
+  "descripcion": "Zapato de vestir Buck Oxford de Eastland en color taupe, clásico y pulido para ceremonias, escuela y ocasiones formales. Cómodo para todo el día.",
+  "detalles": [
+   "Parte superior de cuero clásico",
+   "Diseño clásico de vestir",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "11.5C",
+   "12C",
+   "13C",
+   "13.5C",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5.5Y",
+   "6Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6568",
+  "marca": "Bjorndal",
+  "nombre": "Coco Footbed Sandal - Dark Taupe",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705944_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705944_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705944_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705944_04"
+  ],
+  "descripcion": "Sandalia Coco Footbed Sandal de Bjorndal para niña en color dark taupe: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6569",
+  "marca": "Blowfish Malibu",
+  "nombre": "Jellyfish Sandal - Multicolor",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706363_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706363_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706363_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706363_04"
+  ],
+  "descripcion": "Sandalia Jellyfish Sandal de Blowfish Malibu para niña en color multicolor: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6570",
+  "marca": "Carter's",
+  "nombre": "Katniss Light Up Sandal - Silver",
+  "genero": "Niños",
+  "precio": 44.94,
+  "precio_c": 1653,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704322_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704322_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704322_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704322_04"
+  ],
+  "descripcion": "Sandalia Katniss Light Up Sandal de Carter's para niña en color silver: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "7C",
+   "8C",
+   "12C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6571",
+  "marca": "Crocs",
+  "nombre": "Cruiser Sandal - Light Blue",
+  "genero": "Niños",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706020_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706020_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706020_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706020_04"
+  ],
+  "descripcion": "Sandalia Cruiser Sandal de Crocs para niña en color light blue: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6572",
+  "marca": "Cupcake Couture",
+  "nombre": "Farah Sandal - Mint",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705992_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705992_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705992_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705992_04"
+  ],
+  "descripcion": "Sandalia Farah Sandal de Cupcake Couture para niña en color mint: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6573",
+  "marca": "Dr. Martens",
+  "nombre": "Marlowe Ii Sandal - Pink",
+  "genero": "Niños",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704170_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704170_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704170_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704170_04"
+  ],
+  "descripcion": "Sandalia Marlowe Ii Sandal de Dr. Martens para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6574",
+  "marca": "Jellypop",
+  "nombre": "Jellygems Sandal - Ivory",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706189_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706189_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706189_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706189_04"
+  ],
+  "descripcion": "Sandalia Jellygems Sandal de Jellypop para niña en color ivory: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6575",
+  "marca": "Jordan",
+  "nombre": "Hydrip Sandal (Toddler) - Pink",
+  "genero": "Niños",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705851_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705851_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705851_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705851_04"
+  ],
+  "descripcion": "Sandalia Hydrip Sandal de Jordan para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6576",
+  "marca": "Limelight",
+  "nombre": "Beth Platform Sandal - White",
+  "genero": "Niños",
+  "precio": 39.94,
+  "precio_c": 1469,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703561_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703561_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703561_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703561_04"
+  ],
+  "descripcion": "Sandalia Beth Platform Sandal de Limelight para niña en color white: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6577",
+  "marca": "Rachel Shoes",
+  "nombre": "Lil Camira Sandal - White",
+  "genero": "Niños",
+  "precio": 44.94,
+  "precio_c": 1653,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706187_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706187_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706187_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706187_04"
+  ],
+  "descripcion": "Sandalia Lil Camira Sandal de Rachel Shoes para niña en color white: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6578",
+  "marca": "Reef",
+  "nombre": "Banded Horizon Sandal - Black",
+  "genero": "Niños",
+  "precio": 44.92,
+  "precio_c": 1652,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705997_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705997_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705997_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705997_04"
+  ],
+  "descripcion": "Sandalia Banded Horizon Sandal de Reef para niña en color black: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6579",
+  "marca": "Steve Madden",
+  "nombre": "Jbigmona Wedge Sandal - Natural",
+  "genero": "Niños",
+  "precio": 49.92,
+  "precio_c": 1836,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704370_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704370_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704370_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704370_04"
+  ],
+  "descripcion": "Sandalia Jbigmona Wedge Sandal de Steve Madden para niña en color natural: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "13C",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6580",
+  "marca": "Adidas",
+  "nombre": "Water 2 Sandal (Toddler/Little Kid) - Pink",
+  "genero": "Niños",
+  "precio": 51.94,
+  "precio_c": 1910,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706555_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706555_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706555_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706555_04"
+  ],
+  "descripcion": "Sandalia Water 2 Sandal de Adidas para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "3C",
+   "4C",
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "8C",
+   "9C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6581",
+  "marca": "Badgley Mischka",
+  "nombre": "Eliza Dress Sandal - Silver",
+  "genero": "Niños",
+  "precio": 84.94,
+  "precio_c": 3124,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_702676_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_702676_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_702676_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_702676_04"
+  ],
+  "descripcion": "Sandalia Eliza Dress Sandal de Badgley Mischka para niña en color silver: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6582",
+  "marca": "Bebe",
+  "nombre": "Flat Sandal (Infant/Toddler) - Blush",
+  "genero": "Niños",
+  "precio": 51.94,
+  "precio_c": 1910,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706718_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706718_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706718_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706718_04"
+  ],
+  "descripcion": "Sandalia Flat Sandal de Bebe para niña en color blush: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "10C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6583",
+  "marca": "Birkenstock",
+  "nombre": "Arizona Flower Buckle Footbed Sandal - Lilac",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705089_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705089_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705089_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705089_04"
+  ],
+  "descripcion": "Sandalia Arizona Flower Buckle Footbed Sandal de Birkenstock para niña en color lilac: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6584",
+  "marca": "Blowfish Malibu",
+  "nombre": "Gal Pal Sandal - Pink",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706329_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706329_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706329_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706329_04"
+  ],
+  "descripcion": "Sandalia Gal Pal Sandal de Blowfish Malibu para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "12C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6585",
+  "marca": "Crocs",
+  "nombre": "Brooklyn Sandal - Black",
+  "genero": "Niños",
+  "precio": 54.92,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706011_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706011_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706011_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706011_04"
+  ],
+  "descripcion": "Sandalia Brooklyn Sandal de Crocs para niña en color black: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6586",
+  "marca": "Cupcake Couture",
+  "nombre": "Amore Dress Sandal - Silver",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704398_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704398_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704398_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704398_04"
+  ],
+  "descripcion": "Sandalia Amore Dress Sandal de Cupcake Couture para niña en color silver: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6587",
+  "marca": "Disney",
+  "nombre": "Minnie Sandal - Pink",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704216_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704216_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704216_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704216_04"
+  ],
+  "descripcion": "Sandalia Minnie Sandal de Disney para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "12C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6588",
+  "marca": "Jordan",
+  "nombre": "Hydrip Sandal - Fuschia",
+  "genero": "Niños",
+  "precio": 57.94,
+  "precio_c": 2131,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706484_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706484_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706484_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706484_04"
+  ],
+  "descripcion": "Sandalia Hydrip Sandal de Jordan para niña en color fuschia: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "10C",
+   "6Y",
+   "7Y",
+   "8Y",
+   "9Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6589",
+  "marca": "Limelight",
+  "nombre": "Quinn Sandal - Cognac",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705972_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705972_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705972_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705972_04"
+  ],
+  "descripcion": "Sandalia Quinn Sandal de Limelight para niña en color cognac: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6590",
+  "marca": "Marc Fisher",
+  "nombre": "Apple Sandal - Med Metallic",
+  "genero": "Niños",
+  "precio": 53.94,
+  "precio_c": 1984,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703793_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703793_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703793_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_703793_04"
+  ],
+  "descripcion": "Sandalia Apple Sandal de Marc Fisher para niña en color med metallic: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6591",
+  "marca": "Rachel Shoes",
+  "nombre": "Lil Ophelia Sandal - White",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706188_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706188_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706188_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706188_04"
+  ],
+  "descripcion": "Sandalia Lil Ophelia Sandal de Rachel Shoes para niña en color white: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6592",
+  "marca": "Reef",
+  "nombre": "Cali Coastin Sandal - Pink",
+  "genero": "Niños",
+  "precio": 54.92,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705994_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705994_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705994_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705994_04"
+  ],
+  "descripcion": "Sandalia Cali Coastin Sandal de Reef para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6593",
+  "marca": "See Kai Run",
+  "nombre": "Felicity Sandal (Toddler) - Pink",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706471_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706471_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706471_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706471_04"
+  ],
+  "descripcion": "Sandalia Felicity Sandal de See Kai Run para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6594",
+  "marca": "Skechers",
+  "nombre": "Jumpsters Sandal Butterfly Brights Light Up Sandal - White",
+  "genero": "Niños",
+  "precio": 59.94,
+  "precio_c": 2204,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704318_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704318_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704318_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_704318_04"
+  ],
+  "descripcion": "Sandalia Jumpsters Sandal Butterfly Brights Light Up Sandal de Skechers para niña en color white: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "1Y",
+   "2Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6595",
+  "marca": "Steve Madden",
+  "nombre": "Jbreen Sandal - Bright Pink",
+  "genero": "Niños",
+  "precio": 59.92,
+  "precio_c": 2203,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706040_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706040_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706040_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706040_04"
+  ],
+  "descripcion": "Sandalia Jbreen Sandal de Steve Madden para niña en color bright pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6596",
+  "marca": "Teva",
+  "nombre": "Hurricane Xlt 2 Outdoor Sandal - Coral",
+  "genero": "Niños",
+  "precio": 64.94,
+  "precio_c": 2388,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705075_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705075_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705075_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_705075_04"
+  ],
+  "descripcion": "Sandalia Hurricane Xlt 2 Outdoor Sandal de Teva para niña en color coral: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6597",
+  "marca": "Adidas",
+  "nombre": "Water 2 Sandal (Little Kid) - Pink",
+  "genero": "Niños",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706556_01",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706556_02",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706556_03",
+   "https://assets.rackroomshoes.com/image/upload/f_auto/q_auto/US_01_706556_04"
+  ],
+  "descripcion": "Sandalia Water 2 Sandal de Adidas para niña en color pink: cómoda y fresca, con el estilo perfecto para el verano, el parque y el día a día.",
+  "detalles": [
+   "Tiras ajustables para un calce seguro y cómodo.",
+   "Plantilla acolchada para comodidad todo el día.",
+   "Suela de goma antideslizante.",
+   "Ideal para el verano, el parque y el día a día."
+  ],
+  "tallas": [
+   "10C",
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y"
+  ],
+  "categoria": "Sandalias",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6598",
+  "marca": "Nike",
+  "nombre": "Dunk Low SE (TD) - Pink Blast/Black",
+  "genero": "Niños",
+  "precio": 54.05,
+  "precio_c": 1988,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IV2593-600_PHSLH000-2000.jpg?v=1779816127",
+   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IV2593-600_PHCFH001-2000.jpg?v=1779816126",
+   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IV2593-600_PHSRH001-2000.jpg?v=1779816126",
+   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IV2593-600_PHCTH001-2000.jpg?v=1779816127"
+  ],
+  "descripcion": "El Dunk Low SE en versión toddler: rosa Pink Blast con negro, la silueta retro de Nike adaptada a los más pequeños. Fácil de combinar y muy buscado.",
+  "detalles": [
+   "Parte superior de cuero y sintético",
+   "Suela de goma con tracción",
+   "Perfil bajo estilo retro",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "2C",
+   "6C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6599",
+  "marca": "Nike",
+  "nombre": "Force 1 Low (TD) - White",
+  "genero": "Niños",
+  "precio": 58.95,
+  "precio_c": 2168,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0282/5850/files/footwear_nike_td-force-1-low_IV2451-100.view_1.jpg?v=1777913695",
+   "https://cdn.shopify.com/s/files/1/0282/5850/files/footwear_nike_td-force-1-low_IV2451-100.view_2.jpg?v=1777913695",
+   "https://cdn.shopify.com/s/files/1/0282/5850/files/footwear_nike_td-force-1-low_IV2451-100.view_3.jpg?v=1777913695",
+   "https://cdn.shopify.com/s/files/1/0282/5850/files/footwear_nike_td-force-1-low_IV2451-100.view_4.jpg?v=1777913695"
+  ],
+  "descripcion": "El clásico Force 1 Low en versión toddler, blanco completo: el básico de Nike que combina con todo el clóset de los pequeños.",
+  "detalles": [
+   "Parte superior de cuero suave",
+   "Unidad Air encapsulada",
+   "Suela de goma con círculos de pivote",
+   "Puntera perforada"
+  ],
+  "tallas": [
+   "4C",
+   "6C",
+   "8C",
+   "9C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6600",
+  "marca": "Jordan",
+  "nombre": "Air Jordan 7 Retro (TD) - Barely Grape",
+  "genero": "Niños",
+  "precio": 64.95,
+  "precio_c": 2388,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0262/2475/products/AJ7BARELYGRAPETD-1.jpg?v=1674496852"
+  ],
+  "descripcion": "El Air Jordan 7 Retro en versión toddler, color Barely Grape: un ícono del básquet de 1992 adaptado a los más pequeños.",
+  "detalles": [
+   "Diseño retro de 1992",
+   "Parte superior de cuero y sintético",
+   "Suela de goma con tracción",
+   "Cuello acolchado"
+  ],
+  "tallas": [
+   "2C",
+   "3C",
+   "5C",
+   "6C",
+   "7C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6601",
+  "marca": "adidas",
+  "nombre": "Superstar II (GS) - Black/White",
+  "genero": "Niños",
+  "precio": 64.92,
+  "precio_c": 2387,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0219/2362/files/07a548f7cd05632f5acb4d5db995c303.jpg?v=1738253912",
+   "https://cdn.shopify.com/s/files/1/0219/2362/files/73f93529adb7b2f6e08cd59ef5d13583.jpg?v=1738253912",
+   "https://cdn.shopify.com/s/files/1/0219/2362/files/a2a50faf95ee6ad5fda5a3ac9f7f3617.jpg?v=1738253912"
+  ],
+  "descripcion": "El Superstar II juvenil en negro con las 3 franjas blancas: la puntera de concha clásica de adidas en versión Grade School.",
+  "detalles": [
+   "Puntera de concha clásica",
+   "Parte superior de cuero",
+   "Las 3 franjas laterales",
+   "Suela de goma con tracción"
+  ],
+  "tallas": [
+   "5.5Y",
+   "6Y"
+  ],
+  "categoria": "Casuales",
   "subcat": "ambos"
  }
 ];
