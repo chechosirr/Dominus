@@ -25,6 +25,10 @@ body.plano #fondo{display:none}
 .catbtn .nm{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#fff;font-size:19px;font-weight:800;text-shadow:0 1px 6px rgba(0,0,0,.7)}
 .catbtn .chev{position:absolute;right:14px;top:50%;transform:translateY(-50%);color:#fff;font-size:24px;font-weight:300;opacity:.9}
 .searchbar{display:flex;gap:8px;margin:0 0 12px}
+.fondoCat{position:fixed;inset:0;z-index:-1;overflow:hidden;background:#17171b}
+.fondoCat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}
+.fondoCat img.on{opacity:1}
+.fondoCat .velo{position:absolute;inset:0;background:linear-gradient(to bottom, rgba(10,10,14,.30), rgba(10,10,14,0) 34%, rgba(10,10,14,0) 70%, rgba(10,10,14,.28))}
 .searchbar input{flex:1;padding:11px 14px;border:1.5px solid #c9c9cf;border-radius:999px;font-size:15px;background:rgba(255,255,255,.92)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .card{background:transparent;border-radius:14px;overflow:visible;box-shadow:none}
@@ -46,7 +50,8 @@ var escIdx = 0, escFrente = 1;
 function fondoEscaparate(){
  if(fondoTimer){ clearInterval(fondoTimer); }
  escIdx = 0; escFrente = 1;
- var f1 = document.getElementById('f1'), f2 = document.getElementById('f2');
+ var f1 = document.getElementById('e1'), f2 = document.getElementById('e2');
+ if(!f1 || !f2) return;
  f2.classList.remove('on'); f1.src = ESCAP[0]; f1.classList.add('on');
  fondoTimer = setInterval(function(){
   escIdx = (escIdx + 1) % ESCAP.length;
@@ -105,7 +110,7 @@ function pintarCat(q){
  var c = catActual;
  var prods = c.prods.filter(function(p){ return !q || p.n.toLowerCase().indexOf(q.toLowerCase()) >= 0; });
  var v = document.getElementById('vista');
- var h = '<h1 class="sec">' + c.nombre + '</h1><p class="sub">' + (seccion === 'Niños' ? sub + ' · ' : '') + seccion + '</p>'
+ var h = '<div class="fondoCat"><img id="e1" alt=""><img id="e2" alt=""><div class="velo"></div></div><h1 class="sec">' + c.nombre + '</h1><p class="sub">' + (seccion === 'Niños' ? sub + ' · ' : '') + seccion + '</p>'
  + '<div class="searchbar"><input id="q" type="search" placeholder="Buscar en ' + c.nombre + '…" value="' + q.replace(/"/g,'&quot;') + '" oninput="pintarCat(this.value);var e=document.getElementById(\'q\');e.focus();e.setSelectionRange(e.value.length,e.value.length)"></div>'
  + '<div class="grid">';
  prods.slice(0, 24).forEach(function(p){
