@@ -378,10 +378,12 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 <style>
 /* ===== Tres escaparates en fila + parrilla de 5 columnas (solo escritorio) ===== */
 #catlist{position:relative;z-index:1}
-.catfondo{position:fixed;inset:0;z-index:-1;overflow:hidden;background:#17171b}
-.catfondo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.catfondo .catvelo{position:absolute;inset:0;background:linear-gradient(to bottom, rgba(10,10,14,.42), rgba(10,10,14,.08) 40%, rgba(10,10,14,.30))}
-.catcont{max-width:560px;margin:0 auto;padding:18px 16px 40px;display:flex;flex-direction:column}
+#catfondo{position:fixed;inset:0;z-index:0;display:none;background:#17171b}
+body.en-cats #catfondo{display:block}
+body.en-cats #shopview{position:relative;z-index:1}
+#catfondo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#catfondo .catvelo{position:absolute;inset:0;background:linear-gradient(to bottom, rgba(10,10,14,.42), rgba(10,10,14,.08) 40%, rgba(10,10,14,.30))}
+.catcont{max-width:560px;margin:0 auto;padding:18px 16px 40px;display:flex;flex-direction:column;min-height:74vh}
 .catsec{color:#fff;text-align:center;font-size:1.9rem;margin:10px 0 4px;text-shadow:0 2px 10px rgba(0,0,0,.45)}
 .catsub{color:rgba(255,255,255,.92);text-align:center;font-size:1.05rem;margin:0 0 10px;text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .catbtn{display:block;width:100%;text-align:left;margin-top:12px;padding:20px 18px;border-radius:14px;border:1px solid rgba(255,255,255,.35);background:rgba(23,23,28,.20);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);color:#fff;font-size:1.12rem;font-weight:700;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
@@ -537,6 +539,8 @@ html{background:#f2f2f4}
 </script>
 
 <div class="promo">Nuestra tienda · Envíos a Nicaragua y Estados Unidos · A la puerta de tu casa</div>
+
+<div id="catfondo" aria-hidden="true"><img id="catfondo-img" alt=""><div class="catvelo"></div></div>
 
 <div id="catview">
   <div class="esc-brand">DOMIN<em>US</em></div>
@@ -1322,7 +1326,8 @@ function shipParts(){
  var cl = document.getElementById('catlist'); if(!cl) return;
  cl.style.display = '';
  var fondo = (typeof FONDOS !== 'undefined' && FONDOS[curCat]) ? FONDOS[curCat] : '';
- var h = '<div class="catfondo"><img src="' + fondo + '" alt=""><div class="catvelo"></div></div>';
+ var cfImg = document.getElementById('catfondo-img'); if(cfImg && fondo && cfImg.getAttribute('src') !== fondo) cfImg.src = fondo;
+ var h = '';
  h += '<div class="catcont"><h1 class="catsec">' + CAT_LABEL[curCat] + '</h1>';
  if(curCat === 'ninos' && !curSub){
  h += '<div class="subsWrap"><button class="catbtn subbtn" data-sub="niño">Niño</button><button class="catbtn subbtn" data-sub="niña">Niña</button></div>';
