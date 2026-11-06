@@ -377,6 +377,18 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 
 <style>
 /* ===== Tres escaparates en fila + parrilla de 5 columnas (solo escritorio) ===== */
+#catlist{position:relative;z-index:1}
+.catfondo{position:fixed;inset:0;z-index:-1;overflow:hidden;background:#17171b}
+.catfondo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.catfondo .catvelo{position:absolute;inset:0;background:linear-gradient(to bottom, rgba(10,10,14,.42), rgba(10,10,14,.08) 40%, rgba(10,10,14,.30))}
+.catcont{max-width:560px;margin:0 auto;padding:18px 16px 40px;display:flex;flex-direction:column}
+.catsec{color:#fff;text-align:center;font-size:1.9rem;margin:10px 0 4px;text-shadow:0 2px 10px rgba(0,0,0,.45)}
+.catsub{color:rgba(255,255,255,.92);text-align:center;font-size:1.05rem;margin:0 0 10px;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.catbtn{display:block;width:100%;text-align:left;margin-top:12px;padding:20px 18px;border-radius:14px;border:1px solid rgba(255,255,255,.35);background:rgba(23,23,28,.20);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);color:#fff;font-size:1.12rem;font-weight:700;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.catbtn:active{transform:scale(.99)}
+.subsWrap{min-height:54vh;display:flex;flex-direction:column;justify-content:center}
+.subbtn{text-align:center;font-size:1.3rem;padding:24px 18px}
+body.en-cats #shopview>.toolbar,body.en-cats #shopview>.wrap,body.en-cats #shopview>section{display:none}
 .showrow{display:none}
 @media (min-width:1024px){
   .layout{display:block}
@@ -541,6 +553,7 @@ html{background:#f2f2f4}
 
 <div id="shopview" style="display:none">
  <div class="shopbar"><button class="backbtn arrowonly" id="shop-back" aria-label="Volver">←</button></div>
+ <div id="catlist" style="display:none"></div>
 <div class="toolbar">
  <div class="toolbar-in">
  <label class="search"> <input id="q" type="search" placeholder="Buscar zapatos: marca, modelo, color…"></label>
@@ -665,7 +678,8 @@ html{background:#f2f2f4}
 <div class="toast" id="toast"></div>
 
 <script>
-document.write('<script src="outlet-products.js?v=' + Date.now() + '"><\/script>'); /* datos siempre frescos: con el sello por dia, el telefono servia la copia vieja del catalogo aunque ya estuviera corregido */
+document.write('<script src="outlet-products.js?v=' + Date.now() + '"><\/script>');
+document.write('<script src="fondos-secciones.js?v=' + Date.now() + '"><\/script>'); /* datos siempre frescos: con el sello por dia, el telefono servia la copia vieja del catalogo aunque ya estuviera corregido */
 </script>
 <script>
 var SUPABASE_URL = "https://mmmkwkjzfyijnffniykt.supabase.co";
@@ -711,9 +725,11 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
 
  /* ---------- Catálogo ---------- */
  /* ---------- Clases: Hombre / Mujer / Niños (los unisex van en Hombre y Mujer) ---------- */
- var curCat = null, view = 'panel';
+ var curCat = null, view = 'panel', curSub = null, curCategoria = null;
  function catOf(p){ var g = (p.genero || '').toLowerCase(); if(g.indexOf('hombre') === 0) return 'hombre'; if(g.indexOf('mujer') === 0) return 'mujer'; if(g.indexOf('ni') === 0 || g.indexOf('kids') === 0) return 'ninos'; return 'unisex'; }
- function inCat(p){ if(!curCat) return true; var c = catOf(p); if(curCat === 'ninos') return c === 'ninos'; return c === curCat || c === 'unisex'; }
+ function inCat(p){ if(!curCat) return true; var c = catOf(p); if(curCat === 'ninos'){ if(c !== 'ninos') return false; } else if(c !== curCat && c !== 'unisex') return false;
+ if(curCategoria){ var cc = p.categoria || ''; if(curCat === 'ninos'){ var sc = p.subcat || 'ambos'; if(curSub === 'niño' && sc !== 'niño' && sc !== 'ambos') return false; if(curSub === 'niña' && sc !== 'niña' && sc !== 'ambos') return false; if(cc === 'Sandalias' && curCategoria === 'Chanclas' && curSub === 'niño') cc = 'Chanclas'; } if(cc !== curCategoria) return false; }
+ return true; }
  var fm = document.getElementById('f-marca');
  function buildMarcas(){
  var marcas = [];
@@ -766,14 +782,30 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(state.sort === 'desc') list.sort(function(a,b){ return b.precio-a.precio; });
  if(state.sort === 'az') list.sort(function(a,b){ return a.nombre.localeCompare(b.nombre); });
  if(!state.sort){
-  /* Reglas de Sergio (todos los dispositivos): los primeros 20 puestos son de marcas buscadas o de moda, y ningún slide/chancla entre los primeros 20 */
+  /* Regla de Sergio (5-nov-2026): en cada sección, los primeros 6 zapatos son de la banda de $50 a $100 y los primeros 25 son una mezcla de las 3 bandas de precio; el resto del catálogo también se muestra mezclado en la proporción de las bandas (5/3/2). Sin slides ni chanclas entre los primeros 25. */
   var esSlide = function(p){ return /\b(slide|slides|chancla|chanclas|flip[\s-]?flops?)\b/i.test(p.nombre || ''); };
-  var TOPM = /nike|adidas|jordan|vans|new balance|puma|converse|skechers|reebok|asics|fila|under armour|hoka|birkenstock|\bugg\b|crocs|hey dude|steve madden|sam edelman|papillio/i;
-  var esTop = function(p){ return TOPM.test((p.marca || '') + ' ' + (p.nombre || '')); };
-  var sinS = list.filter(function(p){ return !esSlide(p); });
-  var cab20 = sinS.filter(esTop).slice(0, 20);
-  if(cab20.length < 20){ cab20 = cab20.concat(sinS.filter(function(p){ return cab20.indexOf(p) < 0; }).slice(0, 20 - cab20.length)); }
-  list = cab20.concat(list.filter(function(p){ return cab20.indexOf(p) < 0; }));
+  var bandaDe = function(p){ return p.precio < 50 ? 0 : (p.precio <= 100 ? 1 : 2); };
+  var patron = [0, 1, 0, 2, 0, 1, 0, 1, 2, 0], pi = 0;
+  function mezclador(colas){
+   return function(){
+    for(var k = 0; k < patron.length; k++){
+     var b = patron[(pi + k) % patron.length];
+     if(colas[b].length){ pi = (pi + k + 1) % patron.length; return colas[b].shift(); }
+    }
+    return null;
+   };
+  }
+  var usados = {}, orden = [], p;
+  var qns = [[], [], []];
+  list.forEach(function(x){ if(!esSlide(x)) qns[bandaDe(x)].push(x); });
+  var sig = mezclador(qns);
+  while(qns[1].length && orden.length < 6){ p = qns[1].shift(); usados[p.codigo] = 1; orden.push(p); }
+  while(orden.length < 25 && (p = sig())){ usados[p.codigo] = 1; orden.push(p); }
+  var qtot = [[], [], []];
+  list.forEach(function(x){ if(!usados[x.codigo]) qtot[bandaDe(x)].push(x); });
+  sig = mezclador(qtot);
+  while((p = sig())) orden.push(p);
+  list = orden;
  }
  return list;
  }
@@ -1284,40 +1316,83 @@ function shipParts(){
 
  /* ---------- Panel de clases ---------- */
  var CAT_LABEL = { hombre: 'Hombre', mujer: 'Mujer', ninos: 'Niños' };
- function enterCat(cat){
- curCat = cat; view = 'catalog';
+ var CATS_SECCION = { hombre: ['Deportivos','Formales','Casuales','Elegantes','Botas','Chanclas','Tacos para fútbol'], mujer: ['Deportivos','Botines','Elegantes','Sandalias','Formales','Casuales','Chanclas'], ninos: ['Deportivos','Elegantes','Formales','Casuales','Chanclas'] };
+ function contarCategoria(nombre){ var n = 0, guardar = curCategoria; curCategoria = nombre; ZAPATOS.forEach(function(p){ if(inCat(p)) n++; }); curCategoria = guardar; return n; }
+ function pintarCats(){
+ var cl = document.getElementById('catlist'); if(!cl) return;
+ cl.style.display = '';
+ var fondo = (typeof FONDOS !== 'undefined' && FONDOS[curCat]) ? FONDOS[curCat] : '';
+ var h = '<div class="catfondo"><img src="' + fondo + '" alt=""><div class="catvelo"></div></div>';
+ h += '<div class="catcont"><h1 class="catsec">' + CAT_LABEL[curCat] + '</h1>';
+ if(curCat === 'ninos' && !curSub){
+ h += '<div class="subsWrap"><button class="catbtn subbtn" data-sub="niño">Niño</button><button class="catbtn subbtn" data-sub="niña">Niña</button></div>';
+ } else {
+ if(curCat === 'ninos') h += '<p class="catsub">' + (curSub === 'niño' ? 'Niño' : 'Niña') + '</p>';
+ var orden = CATS_SECCION[curCat].slice();
+ if(curCat === 'ninos' && curSub === 'niña') orden.splice(orden.indexOf('Chanclas'), 0, 'Sandalias');
+ orden.forEach(function(nombre){ if(contarCategoria(nombre) > 0) h += '<button class="catbtn" data-catname="' + nombre + '">' + nombre + '</button>'; });
+ }
+ h += '</div>';
+ cl.innerHTML = h;
+ Array.prototype.forEach.call(cl.querySelectorAll('.subbtn'), function(b){ b.addEventListener('click', function(){ curSub = b.getAttribute('data-sub'); pintarCats(); window.scrollTo(0, 0); }); });
+ Array.prototype.forEach.call(cl.querySelectorAll('[data-catname]'), function(b){ b.addEventListener('click', function(){ abrirCategoria(b.getAttribute('data-catname')); }); });
+ }
+ function abrirCategoria(nombre){
+ curCategoria = nombre;
  state = { q:'', genero:'', marca:'', precio:'', talla:'', sort:'' };
  document.getElementById('q').value = '';
  document.getElementById('f-precio').value = '';
  document.getElementById('sort').value = '';
  buildMarcas(); buildTallas();
  fm.value = ''; ft.value = '';
- document.getElementById('shop-h1').textContent = CAT_LABEL[cat];
- document.getElementById('catview').style.display = 'none';
- document.body.style.overflow = '';
- document.getElementById('shopview').style.display = '';
- var svIn = document.getElementById('shopview'); svIn.classList.remove('view-in'); void svIn.offsetWidth; svIn.classList.add('view-in');
- document.body.classList.add('en-seccion');
- var hdrSb = document.getElementById('shop-back');
- var hdrSlot = document.getElementById('hdr-back-slot');
- if(hdrSb && hdrSlot) hdrSlot.appendChild(hdrSb);
- hdrBackSync();
+ document.getElementById('shop-h1').textContent = nombre;
+ document.getElementById('catlist').style.display = 'none';
+ document.body.classList.remove('en-cats'); document.body.classList.add('en-cat');
  window.scrollTo(0, 0);
  render();
- if(ovState !== 'cat') ovPush('cat');
  }
- function backToPanel(){
- curCat = null; view = 'panel';
- document.getElementById('shopview').style.display = 'none';
- document.getElementById('catview').style.display = '';
- var cvIn = document.getElementById('catview'); cvIn.classList.remove('panel-in'); void cvIn.offsetWidth; cvIn.classList.add('panel-in');
- document.body.classList.remove('en-seccion');
- var hdrSb2 = document.getElementById('shop-back');
- var hdrBar = document.querySelector('.shopbar');
- if(hdrSb2 && hdrBar) hdrBar.appendChild(hdrSb2);
- hdrBackSync();
- document.body.style.overflow = 'hidden';
- window.scrollTo(0, 0);
+ function catBack(){
+ if(view !== 'catalog') return false;
+ if(curCategoria){ curCategoria = null; document.body.classList.remove('en-cat'); document.body.classList.add('en-cats'); pintarCats(); window.scrollTo(0, 0); return true; }
+ if(curCat === 'ninos' && curSub){ curSub = null; pintarCats(); window.scrollTo(0, 0); return true; }
+ return false;
+ }
+function enterCat(cat){
+curCat = cat; view = 'catalog'; curSub = null; curCategoria = null;
+state = { q:'', genero:'', marca:'', precio:'', talla:'', sort:'' };
+document.getElementById('q').value = '';
+document.getElementById('f-precio').value = '';
+document.getElementById('sort').value = '';
+buildMarcas(); buildTallas();
+fm.value = ''; ft.value = '';
+document.getElementById('catview').style.display = 'none';
+document.body.style.overflow = '';
+document.getElementById('shopview').style.display = '';
+var svIn = document.getElementById('shopview'); svIn.classList.remove('view-in'); void svIn.offsetWidth; svIn.classList.add('view-in');
+document.body.classList.add('en-seccion');
+document.body.classList.add('en-cats'); document.body.classList.remove('en-cat');
+var hdrSb = document.getElementById('shop-back');
+var hdrSlot = document.getElementById('hdr-back-slot');
+if(hdrSb && hdrSlot) hdrSlot.appendChild(hdrSb);
+hdrBackSync();
+window.scrollTo(0, 0);
+pintarCats();
+if(ovState !== 'cat') ovPush('cat');
+ }
+function backToPanel(){
+curCat = null; view = 'panel'; curSub = null; curCategoria = null;
+document.getElementById('shopview').style.display = 'none';
+document.getElementById('catlist').style.display = 'none';
+document.getElementById('catview').style.display = '';
+var cvIn = document.getElementById('catview'); cvIn.classList.remove('panel-in'); void cvIn.offsetWidth; cvIn.classList.add('panel-in');
+document.body.classList.remove('en-seccion');
+document.body.classList.remove('en-cats'); document.body.classList.remove('en-cat');
+var hdrSb2 = document.getElementById('shop-back');
+var hdrBar = document.querySelector('.shopbar');
+if(hdrSb2 && hdrBar) hdrBar.appendChild(hdrSb2);
+hdrBackSync();
+document.body.style.overflow = 'hidden';
+window.scrollTo(0, 0);
  }
  document.body.style.overflow = 'hidden';
  Array.prototype.forEach.call(document.querySelectorAll('.cat-card'), function(b){
@@ -1363,7 +1438,7 @@ function shipParts(){
  escIdx = (escIdx + 1) % imgs.length;
  imgs[escIdx].classList.add('on');
  }, 8000);
- document.getElementById('shop-back').addEventListener('click', function(){ if(cartwrap.classList.contains('open')){ closeCart(); } else if(detail.classList.contains('open')){ closeDetail(); } else if(ovState === 'cat'){ history.back(); } else { backToPanel(); } });
+ document.getElementById('shop-back').addEventListener('click', function(){ if(cartwrap.classList.contains('open')){ closeCart(); } else if(detail.classList.contains('open')){ closeDetail(); } else if(catBack()){ } else if(ovState === 'cat'){ history.back(); } else { backToPanel(); } });
  updateBadges();
  render();
  var deepP = null;

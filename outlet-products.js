@@ -42,7 +42,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-343",
@@ -76,7 +77,8 @@ var ZAPATOS = [
    "12.5",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-344",
@@ -103,7 +105,8 @@ var ZAPATOS = [
    "8.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-346",
@@ -141,7 +144,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-349",
@@ -175,7 +179,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-353",
@@ -209,7 +214,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-354",
@@ -244,7 +250,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-359",
@@ -278,7 +285,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-360",
@@ -311,7 +319,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-361",
@@ -346,7 +355,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-438",
@@ -376,7 +386,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-439",
@@ -405,7 +416,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-440",
@@ -434,7 +446,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-441",
@@ -465,7 +478,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-442",
@@ -499,7 +513,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-443",
@@ -526,7 +541,8 @@ var ZAPATOS = [
    "9-9.5",
    "10-10.5",
    "11-11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-444",
@@ -554,7 +570,8 @@ var ZAPATOS = [
    "9-9.5",
    "10-10.5",
    "11-11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-445",
@@ -581,7 +598,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-446",
@@ -608,7 +626,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-447",
@@ -637,7 +656,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-448",
@@ -667,7 +687,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-450",
@@ -700,7 +721,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-452",
@@ -728,7 +750,8 @@ var ZAPATOS = [
    "9-9.5",
    "10-10.5",
    "11-11.5"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-456",
@@ -760,7 +783,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-457",
@@ -786,7 +810,8 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-532",
@@ -815,7 +840,9 @@ var ZAPATOS = [
    "5.5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-533",
@@ -846,7 +873,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-535",
@@ -872,7 +901,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-536",
@@ -903,7 +934,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-537",
@@ -934,7 +967,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-538",
@@ -965,7 +1000,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-540",
@@ -993,7 +1030,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-541",
@@ -1024,7 +1063,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-542",
@@ -1052,7 +1093,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-543",
@@ -1078,7 +1121,9 @@ var ZAPATOS = [
    "3",
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-544",
@@ -1107,7 +1152,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-545",
@@ -1138,7 +1185,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-546",
@@ -1167,7 +1216,9 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-548",
@@ -1198,7 +1249,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-549",
@@ -1225,7 +1278,9 @@ var ZAPATOS = [
    "4",
    "5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-550",
@@ -1252,7 +1307,9 @@ var ZAPATOS = [
    "4",
    "5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-551",
@@ -1278,7 +1335,9 @@ var ZAPATOS = [
    "EU 36 (US 5-5.5)",
    "EU 37 (US 6-6.5)",
    "EU 38 (US 7-7.5)"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-1483",
@@ -1310,7 +1369,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1484",
@@ -1342,7 +1402,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1485",
@@ -1380,7 +1441,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1486",
@@ -1412,7 +1474,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1487",
@@ -1453,7 +1516,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1488",
@@ -1493,7 +1557,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1489",
@@ -1525,7 +1590,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1490",
@@ -1559,7 +1625,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1491",
@@ -1587,7 +1654,8 @@ var ZAPATOS = [
    "6.5",
    "9",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1613",
@@ -1616,7 +1684,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1630",
@@ -1652,7 +1721,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1631",
@@ -1688,7 +1758,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-1752",
@@ -1712,7 +1783,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "42"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-1753",
@@ -1736,7 +1808,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "41"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-1977",
@@ -1766,7 +1839,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-2039",
@@ -1790,7 +1865,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-2093",
@@ -1815,7 +1892,9 @@ var ZAPATOS = [
   "tallas": [
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3038",
@@ -1847,7 +1926,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3039",
@@ -1879,7 +1959,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-3040",
@@ -1913,7 +1994,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3041",
@@ -1939,7 +2021,8 @@ var ZAPATOS = [
    "10.5",
    "11.5",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3042",
@@ -1975,7 +2058,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3043",
@@ -2003,7 +2087,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3044",
@@ -2035,7 +2120,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3045",
@@ -2062,7 +2148,8 @@ var ZAPATOS = [
    "9",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-3046",
@@ -2093,7 +2180,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Botas"
  },
  {
   "codigo": "DOM-3047",
@@ -2127,7 +2215,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3048",
@@ -2153,7 +2242,8 @@ var ZAPATOS = [
    "10",
    "11.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3049",
@@ -2187,7 +2277,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3050",
@@ -2215,7 +2306,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3051",
@@ -2256,7 +2348,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3052",
@@ -2283,7 +2376,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3053",
@@ -2317,7 +2411,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3054",
@@ -2354,7 +2449,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3055",
@@ -2383,7 +2479,8 @@ var ZAPATOS = [
    "10",
    "11.5",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3056",
@@ -2419,7 +2516,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3057",
@@ -2445,7 +2543,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3058",
@@ -2477,7 +2576,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3059",
@@ -2510,7 +2610,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3060",
@@ -2536,7 +2637,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3061",
@@ -2572,7 +2674,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3062",
@@ -2598,7 +2701,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3063",
@@ -2633,7 +2737,8 @@ var ZAPATOS = [
    "13.0W",
    "11.5W",
    "10.5W"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3064",
@@ -2658,7 +2763,8 @@ var ZAPATOS = [
    "7.5",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3065",
@@ -2693,7 +2799,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3066",
@@ -2718,7 +2825,8 @@ var ZAPATOS = [
    "8",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3067",
@@ -2751,7 +2859,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3068",
@@ -2776,7 +2885,8 @@ var ZAPATOS = [
    "10.5",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3069",
@@ -2809,7 +2919,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3070",
@@ -2835,7 +2946,8 @@ var ZAPATOS = [
    "7",
    "8.5",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3071",
@@ -2871,7 +2983,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3072",
@@ -2897,7 +3010,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3073",
@@ -2933,7 +3047,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3074",
@@ -2958,7 +3073,8 @@ var ZAPATOS = [
    "7.5",
    "8",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3075",
@@ -2995,7 +3111,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3076",
@@ -3030,7 +3147,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3077",
@@ -3065,7 +3183,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3078",
@@ -3094,7 +3213,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3079",
@@ -3129,7 +3249,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3080",
@@ -3161,7 +3282,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3081",
@@ -3196,7 +3318,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3082",
@@ -3221,7 +3344,8 @@ var ZAPATOS = [
    "7.5",
    "8",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3083",
@@ -3257,7 +3381,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3084",
@@ -3290,7 +3415,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3085",
@@ -3324,7 +3450,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3086",
@@ -3359,7 +3486,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3087",
@@ -3395,7 +3523,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3088",
@@ -3425,7 +3554,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3089",
@@ -3462,7 +3592,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3090",
@@ -3487,7 +3618,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3091",
@@ -3521,7 +3653,8 @@ var ZAPATOS = [
    "12.0W",
    "13.0W",
    "10.5W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3092",
@@ -3550,7 +3683,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3093",
@@ -3581,7 +3715,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3094",
@@ -3606,7 +3741,8 @@ var ZAPATOS = [
    "11.5",
    "6",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3095",
@@ -3637,7 +3773,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3096",
@@ -3663,7 +3800,8 @@ var ZAPATOS = [
    "10.5",
    "9.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3097",
@@ -3690,7 +3828,8 @@ var ZAPATOS = [
    "9.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3098",
@@ -3725,7 +3864,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3099",
@@ -3754,7 +3894,8 @@ var ZAPATOS = [
    "11.5",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3100",
@@ -3789,7 +3930,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3101",
@@ -3815,7 +3957,8 @@ var ZAPATOS = [
    "9",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3102",
@@ -3851,7 +3994,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3103",
@@ -3884,7 +4028,8 @@ var ZAPATOS = [
    "10",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3104",
@@ -3919,7 +4064,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3105",
@@ -3949,7 +4095,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3106",
@@ -3985,7 +4132,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3107",
@@ -4011,7 +4159,8 @@ var ZAPATOS = [
    "7.5",
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3108",
@@ -4042,7 +4191,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3109",
@@ -4068,7 +4218,8 @@ var ZAPATOS = [
    "12.5",
    "6.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3110",
@@ -4106,7 +4257,8 @@ var ZAPATOS = [
    "14",
    "15",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3111",
@@ -4133,7 +4285,8 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3112",
@@ -4169,7 +4322,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3113",
@@ -4197,7 +4351,8 @@ var ZAPATOS = [
    "8.5",
    "6",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3114",
@@ -4231,7 +4386,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3115",
@@ -4262,7 +4418,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3116",
@@ -4296,7 +4453,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3117",
@@ -4322,7 +4480,8 @@ var ZAPATOS = [
    "4",
    "7",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3118",
@@ -4356,7 +4515,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3119",
@@ -4385,7 +4545,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3120",
@@ -4422,7 +4583,8 @@ var ZAPATOS = [
    "13",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3121",
@@ -4450,7 +4612,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3122",
@@ -4484,7 +4647,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3123",
@@ -4509,7 +4673,8 @@ var ZAPATOS = [
    "12.5",
    "10",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3124",
@@ -4539,7 +4704,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3125",
@@ -4572,7 +4738,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3126",
@@ -4605,7 +4772,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3127",
@@ -4640,7 +4808,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3128",
@@ -4674,7 +4843,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3129",
@@ -4700,7 +4870,8 @@ var ZAPATOS = [
    "9.5",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3130",
@@ -4729,7 +4900,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3131",
@@ -4755,7 +4927,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3132",
@@ -4786,7 +4959,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3133",
@@ -4819,7 +4993,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3134",
@@ -4844,7 +5019,8 @@ var ZAPATOS = [
    "8",
    "10",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3135",
@@ -4875,7 +5051,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3136",
@@ -4910,7 +5087,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3137",
@@ -4946,7 +5124,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3138",
@@ -4981,7 +5160,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3139",
@@ -5012,7 +5192,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3140",
@@ -5045,7 +5226,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3141",
@@ -5073,7 +5255,8 @@ var ZAPATOS = [
    "10",
    "11",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3142",
@@ -5104,7 +5287,8 @@ var ZAPATOS = [
    "9.5",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3143",
@@ -5136,7 +5320,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3144",
@@ -5170,7 +5355,8 @@ var ZAPATOS = [
    "12.0W",
    "13.0W",
    "10.5W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3145",
@@ -5200,7 +5386,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3146",
@@ -5228,7 +5415,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3147",
@@ -5263,7 +5451,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3148",
@@ -5291,7 +5480,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3149",
@@ -5320,7 +5510,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3150",
@@ -5354,7 +5545,8 @@ var ZAPATOS = [
    "12.0W",
    "13.0W",
    "10.5W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3151",
@@ -5388,7 +5580,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3152",
@@ -5428,7 +5621,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3153",
@@ -5464,7 +5658,8 @@ var ZAPATOS = [
    "12",
    "13",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3154",
@@ -5494,7 +5689,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3155",
@@ -5523,7 +5719,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3156",
@@ -5549,7 +5746,8 @@ var ZAPATOS = [
    "8",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3157",
@@ -5584,7 +5782,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3158",
@@ -5618,7 +5817,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3159",
@@ -5653,7 +5853,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3160",
@@ -5688,7 +5889,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3161",
@@ -5723,7 +5925,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3162",
@@ -5749,7 +5952,8 @@ var ZAPATOS = [
    "6",
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3163",
@@ -5780,7 +5984,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3164",
@@ -5812,7 +6017,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3165",
@@ -5847,7 +6053,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3166",
@@ -5881,7 +6088,8 @@ var ZAPATOS = [
    "12.0W",
    "13.0W",
    "10.5W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3167",
@@ -5909,7 +6117,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3168",
@@ -5943,7 +6152,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3169",
@@ -5977,7 +6187,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3170",
@@ -6005,7 +6216,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3171",
@@ -6040,7 +6252,8 @@ var ZAPATOS = [
    "12.5",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3172",
@@ -6070,7 +6283,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3173",
@@ -6095,7 +6309,8 @@ var ZAPATOS = [
    "7.5",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3174",
@@ -6125,7 +6340,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3175",
@@ -6160,7 +6376,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3176",
@@ -6195,7 +6412,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3177",
@@ -6229,7 +6447,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3178",
@@ -6264,7 +6483,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3179",
@@ -6295,7 +6515,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3180",
@@ -6320,7 +6541,8 @@ var ZAPATOS = [
    "8",
    "9",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3181",
@@ -6350,7 +6572,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3182",
@@ -6381,7 +6604,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3183",
@@ -6415,7 +6639,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3184",
@@ -6445,7 +6670,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3185",
@@ -6471,7 +6697,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3186",
@@ -6502,7 +6729,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3187",
@@ -6536,7 +6764,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3188",
@@ -6567,7 +6796,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3189",
@@ -6596,7 +6826,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3190",
@@ -6626,7 +6857,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3191",
@@ -6655,7 +6887,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3192",
@@ -6685,7 +6918,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3193",
@@ -6712,7 +6946,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3194",
@@ -6747,7 +6982,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3195",
@@ -6782,7 +7018,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3196",
@@ -6817,7 +7054,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3197",
@@ -6852,7 +7090,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3198",
@@ -6877,7 +7116,8 @@ var ZAPATOS = [
   "tallas": [
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3199",
@@ -6900,7 +7140,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3200",
@@ -6924,7 +7165,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Botas"
  },
  {
   "codigo": "DOM-3201",
@@ -6948,7 +7190,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "41"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3202",
@@ -6971,7 +7214,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3203",
@@ -6994,7 +7238,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3204",
@@ -7017,7 +7262,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7.5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3205",
@@ -7044,7 +7290,8 @@ var ZAPATOS = [
    "8.5",
    "10.5",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3206",
@@ -7076,7 +7323,8 @@ var ZAPATOS = [
    "10.5",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3207",
@@ -7103,7 +7351,8 @@ var ZAPATOS = [
    "8.5",
    "10.5",
    "11.5"
-  ]
+  ],
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-3208",
@@ -7134,7 +7383,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3209",
@@ -7165,7 +7415,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3210",
@@ -7190,7 +7441,8 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3211",
@@ -7214,7 +7466,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-3212",
@@ -7237,7 +7490,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3213",
@@ -7261,7 +7515,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3214",
@@ -7286,7 +7541,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3215",
@@ -7311,7 +7567,8 @@ var ZAPATOS = [
    "4",
    "4.5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3216",
@@ -7335,7 +7592,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3217",
@@ -7359,7 +7617,8 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3218",
@@ -7382,7 +7641,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3219",
@@ -7406,7 +7666,8 @@ var ZAPATOS = [
   "tallas": [
    "3.5",
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3220",
@@ -7429,7 +7690,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3221",
@@ -7454,7 +7716,8 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3222",
@@ -7478,7 +7741,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3223",
@@ -7502,7 +7766,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3224",
@@ -7526,7 +7791,8 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3225",
@@ -7550,7 +7816,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3226",
@@ -7575,7 +7842,8 @@ var ZAPATOS = [
    "4",
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3227",
@@ -7599,7 +7867,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3228",
@@ -7624,7 +7893,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3229",
@@ -7649,7 +7919,8 @@ var ZAPATOS = [
    "3.5",
    "4",
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3230",
@@ -7673,7 +7944,8 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "14"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3231",
@@ -7699,7 +7971,8 @@ var ZAPATOS = [
    "7.5",
    "8.5",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3232",
@@ -7724,7 +7997,8 @@ var ZAPATOS = [
    "5.5",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3233",
@@ -7753,7 +8027,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3234",
@@ -7783,7 +8058,8 @@ var ZAPATOS = [
    "7.5",
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3235",
@@ -7808,7 +8084,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3236",
@@ -7831,7 +8108,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3237",
@@ -7869,7 +8147,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3238",
@@ -7902,7 +8181,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3239",
@@ -7925,7 +8205,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3240",
@@ -7949,7 +8230,8 @@ var ZAPATOS = [
   "tallas": [
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3241",
@@ -7975,7 +8257,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3242",
@@ -8007,7 +8290,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3243",
@@ -8038,7 +8322,8 @@ var ZAPATOS = [
    "13",
    "14",
    "16"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3244",
@@ -8068,7 +8353,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3245",
@@ -8100,7 +8386,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3246",
@@ -8127,7 +8414,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3247",
@@ -8156,7 +8444,8 @@ var ZAPATOS = [
    "10",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3248",
@@ -8184,7 +8473,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3249",
@@ -8210,7 +8500,8 @@ var ZAPATOS = [
    "8",
    "9.5",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3250",
@@ -8233,7 +8524,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3251",
@@ -8258,7 +8550,8 @@ var ZAPATOS = [
    "7",
    "8",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3252",
@@ -8281,7 +8574,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3253",
@@ -8313,7 +8607,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3254",
@@ -8341,7 +8636,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3255",
@@ -8365,7 +8661,8 @@ var ZAPATOS = [
   "tallas": [
    "7",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3256",
@@ -8393,7 +8690,8 @@ var ZAPATOS = [
    "10",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3257",
@@ -8419,7 +8717,8 @@ var ZAPATOS = [
    "8",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3258",
@@ -8443,7 +8742,8 @@ var ZAPATOS = [
   "tallas": [
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3259",
@@ -8472,7 +8772,8 @@ var ZAPATOS = [
    "10",
    "11",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3260",
@@ -8495,7 +8796,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3261",
@@ -8518,7 +8820,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3262",
@@ -8541,7 +8844,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3263",
@@ -8564,7 +8868,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3264",
@@ -8587,7 +8892,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3265",
@@ -8615,7 +8921,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3266",
@@ -8640,7 +8947,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3267",
@@ -8669,7 +8977,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3268",
@@ -8697,7 +9006,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3269",
@@ -8722,7 +9032,8 @@ var ZAPATOS = [
    "8",
    "10",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3270",
@@ -8752,7 +9063,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3271",
@@ -8781,7 +9093,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3272",
@@ -8805,7 +9118,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3273",
@@ -8828,7 +9142,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3274",
@@ -8855,7 +9170,8 @@ var ZAPATOS = [
    "15",
    "16",
    "17"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3275",
@@ -8883,7 +9199,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3276",
@@ -8906,7 +9223,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3277",
@@ -8930,7 +9248,8 @@ var ZAPATOS = [
   "tallas": [
    "8",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3278",
@@ -8954,7 +9273,8 @@ var ZAPATOS = [
   "tallas": [
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3279",
@@ -8986,7 +9306,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3280",
@@ -9009,7 +9330,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3281",
@@ -9032,7 +9354,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3282",
@@ -9061,7 +9384,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3283",
@@ -9087,7 +9411,8 @@ var ZAPATOS = [
    "8",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3284",
@@ -9116,7 +9441,8 @@ var ZAPATOS = [
    "12",
    "13",
    "18"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3285",
@@ -9146,7 +9472,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3286",
@@ -9169,7 +9496,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3287",
@@ -9202,7 +9530,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3288",
@@ -9231,7 +9560,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3289",
@@ -9258,7 +9588,8 @@ var ZAPATOS = [
    "10",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3290",
@@ -9287,7 +9618,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3291",
@@ -9316,7 +9648,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3292",
@@ -9352,7 +9685,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3293",
@@ -9387,7 +9721,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3294",
@@ -9421,7 +9756,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3295",
@@ -9452,7 +9788,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3296",
@@ -9476,7 +9813,8 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3297",
@@ -9505,7 +9843,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3298",
@@ -9533,7 +9872,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3299",
@@ -9560,7 +9900,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3300",
@@ -9587,7 +9928,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3301",
@@ -9621,7 +9963,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3302",
@@ -9657,7 +10000,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3303",
@@ -9681,7 +10025,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3304",
@@ -9718,7 +10063,8 @@ var ZAPATOS = [
    "12.5",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3305",
@@ -9753,7 +10099,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3306",
@@ -9786,7 +10133,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3307",
@@ -9815,7 +10163,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3308",
@@ -9845,7 +10194,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3309",
@@ -9877,7 +10227,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3310",
@@ -9907,7 +10258,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3311",
@@ -9936,7 +10288,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3312",
@@ -9963,7 +10316,8 @@ var ZAPATOS = [
    "6.5",
    "7",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3313",
@@ -9994,7 +10348,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3314",
@@ -10025,7 +10380,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3315",
@@ -10052,7 +10408,8 @@ var ZAPATOS = [
    "6.5",
    "7.5",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3316",
@@ -10081,7 +10438,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3317",
@@ -10114,7 +10472,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3318",
@@ -10140,7 +10499,8 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3319",
@@ -10174,7 +10534,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3320",
@@ -10205,7 +10566,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3321",
@@ -10234,7 +10596,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3322",
@@ -10268,7 +10631,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3323",
@@ -10295,7 +10659,8 @@ var ZAPATOS = [
    "7.5",
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3324",
@@ -10321,7 +10686,8 @@ var ZAPATOS = [
    "6.5",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3325",
@@ -10349,7 +10715,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3326",
@@ -10376,7 +10743,8 @@ var ZAPATOS = [
    "7",
    "8.5",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3327",
@@ -10410,7 +10778,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3328",
@@ -10441,7 +10810,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3329",
@@ -10473,7 +10843,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3330",
@@ -10503,7 +10874,8 @@ var ZAPATOS = [
    "8.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3331",
@@ -10534,7 +10906,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3332",
@@ -10560,7 +10933,8 @@ var ZAPATOS = [
    "6",
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3333",
@@ -10587,7 +10961,8 @@ var ZAPATOS = [
    "7.5",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3334",
@@ -10615,7 +10990,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3335",
@@ -10646,7 +11022,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3336",
@@ -10677,7 +11054,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3337",
@@ -10704,7 +11082,8 @@ var ZAPATOS = [
    "7.5",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3338",
@@ -10734,7 +11113,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3339",
@@ -10762,7 +11142,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3340",
@@ -10794,7 +11175,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3341",
@@ -10826,7 +11208,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3342",
@@ -10858,7 +11241,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3343",
@@ -10884,7 +11268,8 @@ var ZAPATOS = [
    "7.5",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3344",
@@ -10912,7 +11297,8 @@ var ZAPATOS = [
    "6.5",
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3345",
@@ -10946,7 +11332,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3346",
@@ -10972,7 +11359,8 @@ var ZAPATOS = [
    "6.5",
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3347",
@@ -11006,7 +11394,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3348",
@@ -11032,7 +11421,8 @@ var ZAPATOS = [
    "8",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3349",
@@ -11060,7 +11450,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3350",
@@ -11091,7 +11482,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3351",
@@ -11119,7 +11511,8 @@ var ZAPATOS = [
    "7.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3352",
@@ -11147,7 +11540,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3353",
@@ -11174,7 +11568,8 @@ var ZAPATOS = [
    "5.5",
    "6.5",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3354",
@@ -11207,7 +11602,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3355",
@@ -11238,7 +11634,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3356",
@@ -11271,7 +11668,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3357",
@@ -11302,7 +11700,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3358",
@@ -11333,7 +11732,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3359",
@@ -11359,7 +11759,8 @@ var ZAPATOS = [
    "6",
    "6.5",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3360",
@@ -11386,7 +11787,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3361",
@@ -11420,7 +11822,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3362",
@@ -11454,7 +11857,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3363",
@@ -11487,7 +11891,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3364",
@@ -11519,7 +11924,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3365",
@@ -11551,7 +11957,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3366",
@@ -11587,7 +11994,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3367",
@@ -11619,7 +12027,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3368",
@@ -11647,7 +12056,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3369",
@@ -11678,7 +12088,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3370",
@@ -11710,7 +12121,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3371",
@@ -11745,7 +12157,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3372",
@@ -11777,7 +12190,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3373",
@@ -11813,7 +12227,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3374",
@@ -11846,7 +12261,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3375",
@@ -11879,7 +12295,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3376",
@@ -11914,7 +12331,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3377",
@@ -11941,7 +12359,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3378",
@@ -11967,7 +12386,8 @@ var ZAPATOS = [
    "6",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3379",
@@ -12001,7 +12421,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3380",
@@ -12030,7 +12451,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3381",
@@ -12066,7 +12488,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3382",
@@ -12102,7 +12525,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3383",
@@ -12135,7 +12559,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3384",
@@ -12163,7 +12588,8 @@ var ZAPATOS = [
    "6.5",
    "7.5",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3385",
@@ -12196,7 +12622,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3386",
@@ -12232,7 +12659,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3387",
@@ -12259,7 +12687,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3388",
@@ -12289,7 +12718,8 @@ var ZAPATOS = [
    "7.5",
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3389",
@@ -12325,7 +12755,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3390",
@@ -12359,7 +12790,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3391",
@@ -12395,7 +12827,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3392",
@@ -12431,7 +12864,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3393",
@@ -12467,7 +12901,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3394",
@@ -12502,7 +12937,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3395",
@@ -12537,7 +12973,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3396",
@@ -12575,7 +13012,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3397",
@@ -12613,7 +13051,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3398",
@@ -12643,7 +13082,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3399",
@@ -12679,7 +13119,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3400",
@@ -12708,7 +13149,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3401",
@@ -12742,7 +13184,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3402",
@@ -12778,7 +13221,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3403",
@@ -12804,7 +13248,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3404",
@@ -12831,7 +13276,8 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3405",
@@ -12858,7 +13304,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3406",
@@ -12889,7 +13336,8 @@ var ZAPATOS = [
    "7.5",
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3407",
@@ -12923,7 +13371,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3408",
@@ -12953,7 +13402,8 @@ var ZAPATOS = [
    "6.5",
    "7",
    "8.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3409",
@@ -12985,7 +13435,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3410",
@@ -13021,7 +13472,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3411",
@@ -13052,7 +13504,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3412",
@@ -13090,7 +13543,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3413",
@@ -13118,7 +13572,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3414",
@@ -13148,7 +13603,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3415",
@@ -13178,7 +13634,8 @@ var ZAPATOS = [
    "9",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3416",
@@ -13212,7 +13669,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3417",
@@ -13250,7 +13708,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3418",
@@ -13279,7 +13738,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3419",
@@ -13305,7 +13765,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3420",
@@ -13343,7 +13804,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3421",
@@ -13373,7 +13835,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3422",
@@ -13411,7 +13874,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3423",
@@ -13442,7 +13906,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3424",
@@ -13475,7 +13940,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3425",
@@ -13503,7 +13969,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3426",
@@ -13540,7 +14007,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3427",
@@ -13573,7 +14041,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3428",
@@ -13605,7 +14074,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3429",
@@ -13632,7 +14102,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3430",
@@ -13662,7 +14133,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3431",
@@ -13688,7 +14160,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3432",
@@ -13724,7 +14197,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3433",
@@ -13755,7 +14229,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3434",
@@ -13784,7 +14259,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3435",
@@ -13818,7 +14294,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3436",
@@ -13850,7 +14327,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3437",
@@ -13883,7 +14361,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3438",
@@ -13911,7 +14390,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3439",
@@ -13945,7 +14425,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3440",
@@ -13979,7 +14460,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3441",
@@ -14013,7 +14495,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3442",
@@ -14046,7 +14529,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3443",
@@ -14078,7 +14562,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3444",
@@ -14109,7 +14594,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3445",
@@ -14137,7 +14623,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3446",
@@ -14164,7 +14651,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3447",
@@ -14199,7 +14687,8 @@ var ZAPATOS = [
    "8W",
    "9.5W",
    "9W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3448",
@@ -14234,7 +14723,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3449",
@@ -14268,7 +14758,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3450",
@@ -14300,7 +14791,8 @@ var ZAPATOS = [
    "8W",
    "9.5W",
    "9W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3451",
@@ -14331,7 +14823,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3452",
@@ -14356,7 +14849,8 @@ var ZAPATOS = [
    "5.5W",
    "7.5W",
    "7W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3453",
@@ -14388,7 +14882,8 @@ var ZAPATOS = [
    "8W",
    "9.5W",
    "9W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3454",
@@ -14418,7 +14913,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3455",
@@ -14445,7 +14941,8 @@ var ZAPATOS = [
    "7.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3456",
@@ -14471,7 +14968,8 @@ var ZAPATOS = [
    "7.5W",
    "7W",
    "9W"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3457",
@@ -14497,7 +14995,8 @@ var ZAPATOS = [
    "7.5",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3458",
@@ -14530,7 +15029,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3459",
@@ -14563,7 +15063,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3460",
@@ -14596,7 +15097,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3461",
@@ -14626,7 +15128,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3462",
@@ -14660,7 +15163,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3463",
@@ -14688,7 +15192,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3464",
@@ -14715,7 +15220,8 @@ var ZAPATOS = [
    "6",
    "7.5",
    "8"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3465",
@@ -14750,7 +15256,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3466",
@@ -14784,7 +15291,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3467",
@@ -14816,7 +15324,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3468",
@@ -14847,7 +15356,8 @@ var ZAPATOS = [
    "8W",
    "9.5W",
    "9W"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3469",
@@ -14877,7 +15387,8 @@ var ZAPATOS = [
    "8",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3470",
@@ -14907,7 +15418,8 @@ var ZAPATOS = [
    "8.5W",
    "8W",
    "9W"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3471",
@@ -14936,7 +15448,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3472",
@@ -14965,7 +15478,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3473",
@@ -14992,7 +15506,8 @@ var ZAPATOS = [
    "9",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Elegantes"
  },
  {
   "codigo": "DOM-3474",
@@ -15018,7 +15533,8 @@ var ZAPATOS = [
    "9.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3475",
@@ -15051,7 +15567,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3476",
@@ -15085,7 +15602,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3477",
@@ -15118,7 +15636,8 @@ var ZAPATOS = [
    "8W",
    "9.5W",
    "9W"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3478",
@@ -15151,7 +15670,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3479",
@@ -15184,7 +15704,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3480",
@@ -15218,7 +15739,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3481",
@@ -15249,7 +15771,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3482",
@@ -15283,7 +15806,8 @@ var ZAPATOS = [
    "8W",
    "9.5W",
    "9W"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3483",
@@ -15308,7 +15832,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3484",
@@ -15339,7 +15864,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3485",
@@ -15369,7 +15895,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3486",
@@ -15394,7 +15921,8 @@ var ZAPATOS = [
    "9",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3487",
@@ -15426,7 +15954,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3488",
@@ -15458,7 +15987,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3489",
@@ -15487,7 +16017,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3490",
@@ -15516,7 +16047,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3491",
@@ -15543,7 +16075,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3492",
@@ -15571,7 +16104,8 @@ var ZAPATOS = [
    "7.5W",
    "9.5W",
    "9W"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3493",
@@ -15604,7 +16138,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3494",
@@ -15640,7 +16175,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3495",
@@ -15676,7 +16212,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3496",
@@ -15711,7 +16248,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3497",
@@ -15747,7 +16285,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3498",
@@ -15782,7 +16321,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3499",
@@ -15818,7 +16358,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3500",
@@ -15853,7 +16394,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3501",
@@ -15888,7 +16430,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3502",
@@ -15923,7 +16466,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3503",
@@ -15956,7 +16500,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3504",
@@ -15990,7 +16535,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3505",
@@ -16022,7 +16568,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3506",
@@ -16054,7 +16601,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3507",
@@ -16091,7 +16639,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3508",
@@ -16128,7 +16677,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3509",
@@ -16165,7 +16715,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3510",
@@ -16202,7 +16753,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3511",
@@ -16238,7 +16790,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3512",
@@ -16270,7 +16823,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3513",
@@ -16303,7 +16857,8 @@ var ZAPATOS = [
    "7W / 6M",
    "8W / 7M",
    "9W / 8M"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3514",
@@ -16334,7 +16889,8 @@ var ZAPATOS = [
    "6W / 5M",
    "7W / 6M",
    "8W / 7M"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3515",
@@ -16365,7 +16921,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3516",
@@ -16396,7 +16953,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3517",
@@ -16427,7 +16985,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3518",
@@ -16458,7 +17017,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3519",
@@ -16491,7 +17051,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3520",
@@ -16523,7 +17084,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3521",
@@ -16553,7 +17115,8 @@ var ZAPATOS = [
    "7.5",
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3522",
@@ -16583,7 +17146,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3523",
@@ -16612,7 +17176,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3524",
@@ -16642,7 +17207,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3525",
@@ -16672,7 +17238,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3526",
@@ -16701,7 +17268,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3527",
@@ -16737,7 +17305,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Elegantes"
  },
  {
   "codigo": "DOM-3528",
@@ -16767,7 +17336,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3529",
@@ -16795,7 +17365,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3530",
@@ -16827,7 +17398,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3531",
@@ -16857,7 +17429,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3532",
@@ -16886,7 +17459,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3533",
@@ -16919,7 +17493,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3534",
@@ -16949,7 +17524,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3535",
@@ -16979,7 +17555,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3536",
@@ -17013,7 +17590,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3537",
@@ -17049,7 +17627,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3538",
@@ -17081,7 +17660,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3539",
@@ -17111,7 +17691,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-3540",
@@ -17144,7 +17725,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3541",
@@ -17175,7 +17757,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3542",
@@ -17212,7 +17795,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3543",
@@ -17239,7 +17823,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3544",
@@ -17270,7 +17855,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3545",
@@ -17300,7 +17886,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3546",
@@ -17330,7 +17917,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3547",
@@ -17356,7 +17944,8 @@ var ZAPATOS = [
    "6",
    "9.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3548",
@@ -17389,7 +17978,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3549",
@@ -17423,7 +18013,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3550",
@@ -17451,7 +18042,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3551",
@@ -17483,7 +18075,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3552",
@@ -17516,7 +18109,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3553",
@@ -17545,7 +18139,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3554",
@@ -17571,7 +18166,8 @@ var ZAPATOS = [
    "7",
    "9",
    "14"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3555",
@@ -17597,7 +18193,8 @@ var ZAPATOS = [
    "10",
    "11",
    "14"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3556",
@@ -17632,7 +18229,8 @@ var ZAPATOS = [
    "15",
    "16",
    "18"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3557",
@@ -17665,7 +18263,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3558",
@@ -17696,7 +18295,8 @@ var ZAPATOS = [
    "9.5",
    "10.5",
    "12"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-3559",
@@ -17727,7 +18327,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3560",
@@ -17763,7 +18364,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3561",
@@ -17791,7 +18393,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3562",
@@ -17820,7 +18423,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3563",
@@ -17846,7 +18450,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Elegantes"
  },
  {
   "codigo": "DOM-3564",
@@ -17874,7 +18479,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Elegantes"
  },
  {
   "codigo": "DOM-3565",
@@ -17909,7 +18515,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3566",
@@ -17937,7 +18544,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "11"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-3567",
@@ -17972,7 +18580,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3568",
@@ -18008,7 +18617,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3569",
@@ -18037,7 +18647,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3570",
@@ -18063,7 +18675,9 @@ var ZAPATOS = [
    "4C",
    "5C",
    "7C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3571",
@@ -18090,7 +18704,9 @@ var ZAPATOS = [
    "2Y",
    "3Y",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3572",
@@ -18116,7 +18732,9 @@ var ZAPATOS = [
    "05.0",
    "06.0",
    "08.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3573",
@@ -18146,7 +18764,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3574",
@@ -18176,7 +18796,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3575",
@@ -18211,7 +18833,9 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3576",
@@ -18236,7 +18860,9 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3577",
@@ -18266,7 +18892,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3578",
@@ -18296,7 +18924,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3579",
@@ -18323,7 +18953,9 @@ var ZAPATOS = [
    "3",
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3580",
@@ -18353,7 +18985,9 @@ var ZAPATOS = [
    "3",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3581",
@@ -18386,7 +19020,9 @@ var ZAPATOS = [
    "11.5",
    "12",
    "12.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3582",
@@ -18413,7 +19049,9 @@ var ZAPATOS = [
    "02.0",
    "03.0",
    "04.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3583",
@@ -18442,7 +19080,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3584",
@@ -18471,7 +19111,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3585",
@@ -18501,7 +19143,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3586",
@@ -18526,7 +19170,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3587",
@@ -18555,7 +19201,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3588",
@@ -18582,7 +19230,9 @@ var ZAPATOS = [
    "05.0",
    "06.0",
    "07.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3589",
@@ -18611,7 +19261,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3590",
@@ -18640,7 +19292,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3591",
@@ -18669,7 +19323,9 @@ var ZAPATOS = [
    "7",
    "8",
    "9"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3592",
@@ -18699,7 +19355,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3593",
@@ -18725,7 +19383,9 @@ var ZAPATOS = [
    "2",
    "3",
    "4"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3594",
@@ -18754,7 +19414,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3595",
@@ -18782,7 +19444,9 @@ var ZAPATOS = [
    "3Y",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3596",
@@ -18812,7 +19476,9 @@ var ZAPATOS = [
    "10.0",
    "11.0",
    "12.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3597",
@@ -18840,7 +19506,9 @@ var ZAPATOS = [
    "3Y",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3598",
@@ -18870,7 +19538,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3599",
@@ -18899,7 +19569,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3600",
@@ -18927,7 +19599,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3601",
@@ -18952,7 +19626,9 @@ var ZAPATOS = [
   "tallas": [
    "05.0",
    "06.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3602",
@@ -18980,7 +19656,9 @@ var ZAPATOS = [
    "7",
    "8",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3603",
@@ -19008,7 +19686,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3604",
@@ -19037,7 +19717,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3605",
@@ -19067,7 +19749,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3606",
@@ -19092,7 +19776,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3607",
@@ -19122,7 +19808,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3608",
@@ -19147,7 +19835,9 @@ var ZAPATOS = [
   "tallas": [
    "4C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3609",
@@ -19177,7 +19867,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3610",
@@ -19202,7 +19894,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3611",
@@ -19231,7 +19925,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3612",
@@ -19256,7 +19952,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3613",
@@ -19285,7 +19983,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3614",
@@ -19315,7 +20015,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3615",
@@ -19344,7 +20046,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3616",
@@ -19372,7 +20076,9 @@ var ZAPATOS = [
    "03.0",
    "04.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3617",
@@ -19400,7 +20106,9 @@ var ZAPATOS = [
    "6C",
    "7C",
    "8C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3618",
@@ -19429,7 +20137,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3619",
@@ -19459,7 +20169,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3620",
@@ -19488,7 +20200,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3621",
@@ -19513,7 +20227,9 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "8"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3622",
@@ -19542,7 +20258,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3623",
@@ -19572,7 +20290,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3624",
@@ -19601,7 +20321,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3625",
@@ -19630,7 +20352,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3626",
@@ -19655,7 +20379,9 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3627",
@@ -19684,7 +20410,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3628",
@@ -19713,7 +20441,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3629",
@@ -19743,7 +20473,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3630",
@@ -19773,7 +20505,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3631",
@@ -19802,7 +20536,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3632",
@@ -19832,7 +20568,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3633",
@@ -19860,7 +20598,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3634",
@@ -19884,7 +20624,9 @@ var ZAPATOS = [
    "6C",
    "7C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3635",
@@ -19913,7 +20655,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3636",
@@ -19939,7 +20683,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3637",
@@ -19966,7 +20712,9 @@ var ZAPATOS = [
    "3",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3638",
@@ -19995,7 +20743,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3639",
@@ -20025,7 +20775,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3640",
@@ -20054,7 +20806,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3641",
@@ -20083,7 +20837,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3642",
@@ -20113,7 +20869,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3643",
@@ -20142,7 +20900,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3644",
@@ -20171,7 +20931,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3645",
@@ -20196,7 +20958,9 @@ var ZAPATOS = [
    "5C",
    "7C",
    "9C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3646",
@@ -20228,7 +20992,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3647",
@@ -20257,7 +21023,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3648",
@@ -20286,7 +21054,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3649",
@@ -20311,7 +21081,9 @@ var ZAPATOS = [
   "tallas": [
    "1",
    "2"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3650",
@@ -20339,7 +21111,9 @@ var ZAPATOS = [
    "6C",
    "7C",
    "8C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3651",
@@ -20368,7 +21142,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3652",
@@ -20395,7 +21171,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3653",
@@ -20424,7 +21202,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3654",
@@ -20453,7 +21233,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3655",
@@ -20482,7 +21264,9 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3656",
@@ -20508,7 +21292,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3657",
@@ -20537,7 +21323,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3658",
@@ -20567,7 +21355,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3659",
@@ -20595,7 +21385,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3660",
@@ -20624,7 +21416,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3661",
@@ -20653,7 +21447,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3662",
@@ -20683,7 +21479,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3663",
@@ -20709,7 +21507,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3664",
@@ -20739,7 +21539,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3665",
@@ -20769,7 +21571,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3666",
@@ -20798,7 +21602,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3667",
@@ -20828,7 +21634,9 @@ var ZAPATOS = [
    "6Y",
    "6.5Y",
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3668",
@@ -20853,7 +21661,9 @@ var ZAPATOS = [
   "tallas": [
    "1Y",
    "3Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3669",
@@ -20881,7 +21691,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3670",
@@ -20910,7 +21722,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3671",
@@ -20939,7 +21753,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3672",
@@ -20968,7 +21784,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3673",
@@ -20997,7 +21815,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3674",
@@ -21027,7 +21847,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3675",
@@ -21056,7 +21878,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3676",
@@ -21085,7 +21909,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3677",
@@ -21114,7 +21940,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3678",
@@ -21143,7 +21971,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3679",
@@ -21170,7 +22000,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3680",
@@ -21199,7 +22031,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3681",
@@ -21228,7 +22062,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3682",
@@ -21258,7 +22094,9 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3683",
@@ -21287,7 +22125,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3684",
@@ -21313,7 +22153,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3685",
@@ -21344,7 +22186,9 @@ var ZAPATOS = [
    "10C",
    "11C",
    "12C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3686",
@@ -21371,7 +22215,9 @@ var ZAPATOS = [
    "3",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3687",
@@ -21401,7 +22247,9 @@ var ZAPATOS = [
    "08.0",
    "09.0",
    "10.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3688",
@@ -21430,7 +22278,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3689",
@@ -21459,7 +22309,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3690",
@@ -21488,7 +22340,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3691",
@@ -21517,7 +22371,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3692",
@@ -21545,7 +22401,9 @@ var ZAPATOS = [
    "03.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3693",
@@ -21574,7 +22432,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3694",
@@ -21603,7 +22463,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3695",
@@ -21637,7 +22499,9 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3696",
@@ -21667,7 +22531,9 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3697",
@@ -21701,7 +22567,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3698",
@@ -21735,7 +22603,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3699",
@@ -21765,7 +22635,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3700",
@@ -21796,7 +22668,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3701",
@@ -21827,7 +22701,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3702",
@@ -21857,7 +22733,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3703",
@@ -21888,7 +22766,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3704",
@@ -21919,7 +22799,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3705",
@@ -21950,7 +22832,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3706",
@@ -21986,7 +22870,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3707",
@@ -22014,7 +22900,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3708",
@@ -22046,7 +22934,9 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3709",
@@ -22077,7 +22967,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3710",
@@ -22107,7 +22999,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3711",
@@ -22137,7 +23031,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3712",
@@ -22167,7 +23063,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3713",
@@ -22197,7 +23095,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3714",
@@ -22222,7 +23122,9 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "6"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3715",
@@ -22250,7 +23152,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3716",
@@ -22281,7 +23185,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3717",
@@ -22312,7 +23218,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3718",
@@ -22343,7 +23251,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3719",
@@ -22374,7 +23284,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3720",
@@ -22405,7 +23317,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3721",
@@ -22432,7 +23346,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3722",
@@ -22463,7 +23379,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3723",
@@ -22494,7 +23412,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3724",
@@ -22523,7 +23443,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3725",
@@ -22551,7 +23473,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3726",
@@ -22582,7 +23506,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3727",
@@ -22608,7 +23534,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3728",
@@ -22637,7 +23565,9 @@ var ZAPATOS = [
    "2.5",
    "3",
    "3.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3729",
@@ -22662,7 +23592,9 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3730",
@@ -22689,7 +23621,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3731",
@@ -22714,7 +23648,9 @@ var ZAPATOS = [
   "tallas": [
    "1.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3732",
@@ -22742,7 +23678,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3733",
@@ -22770,7 +23708,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3734",
@@ -22798,7 +23738,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3735",
@@ -22824,7 +23766,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3736",
@@ -22849,7 +23793,9 @@ var ZAPATOS = [
   "tallas": [
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3737",
@@ -22874,7 +23820,9 @@ var ZAPATOS = [
   "tallas": [
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3738",
@@ -22900,7 +23848,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3739",
@@ -22928,7 +23878,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3740",
@@ -22958,7 +23910,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3741",
@@ -22989,7 +23943,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3742",
@@ -23019,7 +23975,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3743",
@@ -23047,7 +24005,9 @@ var ZAPATOS = [
    "5.5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3744",
@@ -23078,7 +24038,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3745",
@@ -23106,7 +24068,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3746",
@@ -23132,7 +24096,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3747",
@@ -23161,7 +24127,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3748",
@@ -23190,7 +24158,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3749",
@@ -23216,7 +24186,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3750",
@@ -23242,7 +24214,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3751",
@@ -23273,7 +24247,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3752",
@@ -23304,7 +24280,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3753",
@@ -23335,7 +24313,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3754",
@@ -23366,7 +24346,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3755",
@@ -23397,7 +24379,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3756",
@@ -23428,7 +24412,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3757",
@@ -23459,7 +24445,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3758",
@@ -23490,7 +24478,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3759",
@@ -23519,7 +24509,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3760",
@@ -23546,7 +24538,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3761",
@@ -23576,7 +24570,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3762",
@@ -23606,7 +24602,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3763",
@@ -23636,7 +24634,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3764",
@@ -23663,7 +24663,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3765",
@@ -23694,7 +24696,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3766",
@@ -23725,7 +24729,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3767",
@@ -23756,7 +24762,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3768",
@@ -23787,7 +24795,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3769",
@@ -23818,7 +24828,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3770",
@@ -23849,7 +24861,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3771",
@@ -23879,7 +24893,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3772",
@@ -23908,7 +24924,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3773",
@@ -23939,7 +24957,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3774",
@@ -23970,7 +24990,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3775",
@@ -24001,7 +25023,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3776",
@@ -24032,7 +25056,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3777",
@@ -24063,7 +25089,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3778",
@@ -24094,7 +25122,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3779",
@@ -24123,7 +25153,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3780",
@@ -24152,7 +25184,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3781",
@@ -24181,7 +25215,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3782",
@@ -24210,7 +25246,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3783",
@@ -24239,7 +25277,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3784",
@@ -24268,7 +25308,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3785",
@@ -24297,7 +25339,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3786",
@@ -24323,7 +25367,9 @@ var ZAPATOS = [
    "4",
    "5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3787",
@@ -24351,7 +25397,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3788",
@@ -24381,7 +25429,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3789",
@@ -24411,7 +25461,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3790",
@@ -24441,7 +25493,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3791",
@@ -24470,7 +25524,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3792",
@@ -24500,7 +25556,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3793",
@@ -24529,7 +25587,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3794",
@@ -24558,7 +25618,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3795",
@@ -24587,7 +25649,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3796",
@@ -24617,7 +25681,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3797",
@@ -24647,7 +25713,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3798",
@@ -24677,7 +25745,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3799",
@@ -24704,7 +25774,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3800",
@@ -24730,7 +25802,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3801",
@@ -24754,7 +25828,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3802",
@@ -24779,7 +25855,9 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3803",
@@ -24808,7 +25886,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3804",
@@ -24837,7 +25917,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3805",
@@ -24867,7 +25949,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3806",
@@ -24896,7 +25980,9 @@ var ZAPATOS = [
    "5.5",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3807",
@@ -24924,7 +26010,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3808",
@@ -24949,7 +26037,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3809",
@@ -24975,7 +26065,9 @@ var ZAPATOS = [
    "4.5",
    "5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3810",
@@ -25001,7 +26093,9 @@ var ZAPATOS = [
    "3",
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3811",
@@ -25028,7 +26122,9 @@ var ZAPATOS = [
    "4",
    "5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3812",
@@ -25053,7 +26149,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3813",
@@ -25078,7 +26176,9 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3814",
@@ -25105,7 +26205,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3815",
@@ -25131,7 +26233,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3816",
@@ -25157,7 +26261,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3817",
@@ -25183,7 +26289,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3818",
@@ -25208,7 +26316,9 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3819",
@@ -25236,7 +26346,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3820",
@@ -25266,7 +26378,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3821",
@@ -25294,7 +26408,9 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3822",
@@ -25322,7 +26438,9 @@ var ZAPATOS = [
    "5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3823",
@@ -25351,7 +26469,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3824",
@@ -25380,7 +26500,9 @@ var ZAPATOS = [
    "5.5",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3825",
@@ -25408,7 +26530,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-3865",
@@ -25432,7 +26556,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3871",
@@ -25455,7 +26580,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3872",
@@ -25479,7 +26605,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3878",
@@ -25507,7 +26634,8 @@ var ZAPATOS = [
    "8",
    "9",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3881",
@@ -25530,7 +26658,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3884",
@@ -25552,7 +26681,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3887",
@@ -25575,7 +26705,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3889",
@@ -25598,7 +26729,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3890",
@@ -25622,7 +26754,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3893",
@@ -25645,7 +26778,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3895",
@@ -25670,7 +26804,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3897",
@@ -25693,7 +26828,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3905",
@@ -25723,7 +26859,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3908",
@@ -25747,7 +26884,8 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3912",
@@ -25770,7 +26908,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-3916",
@@ -25793,7 +26932,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3918",
@@ -25818,7 +26958,8 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3921",
@@ -25852,7 +26993,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3931",
@@ -25875,7 +27017,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-3933",
@@ -25898,7 +27041,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3935",
@@ -25921,7 +27065,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3937",
@@ -25944,7 +27089,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3939",
@@ -25968,7 +27114,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3941",
@@ -25991,7 +27138,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3943",
@@ -26014,7 +27162,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3945",
@@ -26037,7 +27186,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3947",
@@ -26060,7 +27210,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3949",
@@ -26083,7 +27234,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3951",
@@ -26106,7 +27258,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3953",
@@ -26129,7 +27282,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3955",
@@ -26152,7 +27306,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3957",
@@ -26175,7 +27330,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3959",
@@ -26199,7 +27355,8 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3961",
@@ -26222,7 +27379,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3973",
@@ -26245,7 +27403,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Botas"
  },
  {
   "codigo": "DOM-3975",
@@ -26268,7 +27427,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3977",
@@ -26291,7 +27451,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3979",
@@ -26314,7 +27475,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3.5"
-  ]
+  ],
+  "categoria": "Botas"
  },
  {
   "codigo": "DOM-3981",
@@ -26337,7 +27499,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3983",
@@ -26361,7 +27524,8 @@ var ZAPATOS = [
   "tallas": [
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3985",
@@ -26384,7 +27548,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3987",
@@ -26408,7 +27573,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3988",
@@ -26431,7 +27597,8 @@ var ZAPATOS = [
   "tallas": [
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3989",
@@ -26454,7 +27621,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3991",
@@ -26484,7 +27652,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3992",
@@ -26509,7 +27678,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3993",
@@ -26533,7 +27703,8 @@ var ZAPATOS = [
   "tallas": [
    "8",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3994",
@@ -26555,7 +27726,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3995",
@@ -26578,7 +27750,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3996",
@@ -26615,7 +27788,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-3998",
@@ -26638,7 +27812,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-3999",
@@ -26673,7 +27848,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4000",
@@ -26703,7 +27879,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4001",
@@ -26724,7 +27901,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4002",
@@ -26754,7 +27932,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4003",
@@ -26788,7 +27967,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4005",
@@ -26820,7 +28000,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4007",
@@ -26851,7 +28032,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4008",
@@ -26875,7 +28057,8 @@ var ZAPATOS = [
   "tallas": [
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4009",
@@ -26901,7 +28084,8 @@ var ZAPATOS = [
    "6.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4010",
@@ -26935,7 +28119,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4012",
@@ -26958,7 +28143,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4013",
@@ -26981,7 +28167,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "06.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4014",
@@ -27012,7 +28199,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4016",
@@ -27046,7 +28234,8 @@ var ZAPATOS = [
    "9.5",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4017",
@@ -27072,7 +28261,8 @@ var ZAPATOS = [
    "10",
    "11.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4019",
@@ -27095,7 +28285,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4020",
@@ -27129,7 +28320,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4022",
@@ -27157,7 +28349,8 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4023",
@@ -27179,7 +28372,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4024",
@@ -27219,7 +28413,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4026",
@@ -27243,7 +28438,8 @@ var ZAPATOS = [
   "tallas": [
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4027",
@@ -27277,7 +28473,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4028",
@@ -27300,7 +28497,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4029",
@@ -27323,7 +28521,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4031",
@@ -27362,7 +28561,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4033",
@@ -27385,7 +28585,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4034",
@@ -27418,7 +28619,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4035",
@@ -27439,7 +28641,8 @@ var ZAPATOS = [
   "tallas": [
    "9",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4036",
@@ -27464,7 +28667,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4037",
@@ -27487,7 +28691,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4038",
@@ -27521,7 +28726,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4040",
@@ -27545,7 +28751,8 @@ var ZAPATOS = [
   "tallas": [
    "8",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4041",
@@ -27576,7 +28783,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4042",
@@ -27607,7 +28815,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4043",
@@ -27631,7 +28840,8 @@ var ZAPATOS = [
   "tallas": [
    "8",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4044",
@@ -27662,7 +28872,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4045",
@@ -27686,7 +28897,8 @@ var ZAPATOS = [
   "tallas": [
    "6.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4046",
@@ -27709,7 +28921,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4047",
@@ -27738,7 +28951,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4049",
@@ -27771,7 +28985,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4050",
@@ -27796,7 +29011,8 @@ var ZAPATOS = [
    "6",
    "7",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4051",
@@ -27822,7 +29038,8 @@ var ZAPATOS = [
    "06.5",
    "07",
    "07.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4052",
@@ -27853,7 +29070,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4053",
@@ -27881,7 +29099,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4054",
@@ -27915,7 +29134,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4055",
@@ -27947,7 +29167,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4056",
@@ -27975,7 +29196,8 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4057",
@@ -28007,7 +29229,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4058",
@@ -28032,7 +29255,8 @@ var ZAPATOS = [
    "7",
    "10",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4059",
@@ -28059,7 +29283,8 @@ var ZAPATOS = [
    "09",
    "09.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4060",
@@ -28090,7 +29315,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4061",
@@ -28119,7 +29345,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4062",
@@ -28151,7 +29378,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4063",
@@ -28182,7 +29410,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4064",
@@ -28218,7 +29447,8 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4065",
@@ -28242,7 +29472,8 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4066",
@@ -28270,7 +29501,8 @@ var ZAPATOS = [
    "7",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4067",
@@ -28302,7 +29534,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4068",
@@ -28331,7 +29564,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4069",
@@ -28363,7 +29597,8 @@ var ZAPATOS = [
    "11",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4070",
@@ -28393,7 +29628,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4071",
@@ -28425,7 +29661,8 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4072",
@@ -28455,7 +29692,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4073",
@@ -28478,7 +29716,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4074",
@@ -28513,7 +29752,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4077",
@@ -28538,7 +29778,8 @@ var ZAPATOS = [
    "6",
    "7",
    "9"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4079",
@@ -28562,7 +29803,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4081",
@@ -28594,7 +29836,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4085",
@@ -28626,7 +29869,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4089",
@@ -28661,7 +29905,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4090",
@@ -28690,7 +29935,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4091",
@@ -28713,7 +29959,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4093",
@@ -28747,7 +29994,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4097",
@@ -28782,7 +30030,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4098",
@@ -28811,7 +30060,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4101",
@@ -28846,7 +30096,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4105",
@@ -28868,7 +30119,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4109",
@@ -28892,7 +30144,8 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4111",
@@ -28915,7 +30168,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4112",
@@ -28938,7 +30192,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4113",
@@ -28969,7 +30224,8 @@ var ZAPATOS = [
    "08.5",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-4116",
@@ -28998,7 +30254,8 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4117",
@@ -29021,7 +30278,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4119",
@@ -29044,7 +30302,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4121",
@@ -29068,7 +30327,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4122",
@@ -29092,7 +30352,8 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4123",
@@ -29122,7 +30383,8 @@ var ZAPATOS = [
    "08.5",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4126",
@@ -29145,7 +30407,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4127",
@@ -29168,7 +30431,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4128",
@@ -29198,7 +30462,8 @@ var ZAPATOS = [
    "08.5",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4131",
@@ -29221,7 +30486,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4132",
@@ -29244,7 +30510,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4134",
@@ -29279,7 +30546,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4135",
@@ -29314,7 +30582,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4136",
@@ -29337,7 +30606,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4137",
@@ -29360,7 +30630,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4139",
@@ -29383,7 +30654,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4140",
@@ -29407,7 +30679,8 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4141",
@@ -29440,7 +30713,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4142",
@@ -29473,7 +30747,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4143",
@@ -29496,7 +30771,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4145",
@@ -29531,7 +30807,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4146",
@@ -29554,7 +30831,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4148",
@@ -29577,7 +30855,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4149",
@@ -29601,7 +30880,8 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4150",
@@ -29636,7 +30916,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4151",
@@ -29671,7 +30952,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4152",
@@ -29694,7 +30976,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4153",
@@ -29729,7 +31012,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4154",
@@ -29753,7 +31037,8 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4155",
@@ -29776,7 +31061,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4156",
@@ -29811,7 +31097,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4157",
@@ -29836,7 +31123,8 @@ var ZAPATOS = [
    "4",
    "4.5",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4158",
@@ -29859,7 +31147,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4160",
@@ -29894,7 +31183,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4161",
@@ -29917,7 +31207,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4162",
@@ -29951,7 +31242,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4163",
@@ -29974,7 +31266,8 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4164",
@@ -29999,7 +31292,8 @@ var ZAPATOS = [
    "7",
    "9.5",
    "10.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4165",
@@ -30022,7 +31316,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4166",
@@ -30057,7 +31352,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4167",
@@ -30080,7 +31376,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Elegantes"
  },
  {
   "codigo": "DOM-4168",
@@ -30115,7 +31412,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4169",
@@ -30138,7 +31436,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4170",
@@ -30164,7 +31463,8 @@ var ZAPATOS = [
    "8.5",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4171",
@@ -30187,7 +31487,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4172",
@@ -30218,7 +31519,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4173",
@@ -30241,7 +31543,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4174",
@@ -30276,7 +31579,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4175",
@@ -30300,7 +31604,8 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4176",
@@ -30323,7 +31628,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4177",
@@ -30346,7 +31652,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4178",
@@ -30369,7 +31676,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4179",
@@ -30392,7 +31700,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4180",
@@ -30415,7 +31724,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4181",
@@ -30438,7 +31748,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4182",
@@ -30461,7 +31772,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4183",
@@ -30484,7 +31796,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4184",
@@ -30507,7 +31820,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4185",
@@ -30530,7 +31844,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4186",
@@ -30553,7 +31868,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4187",
@@ -30576,7 +31892,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4188",
@@ -30599,7 +31916,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4189",
@@ -30622,7 +31940,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4190",
@@ -30645,7 +31964,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7.5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4192",
@@ -30668,7 +31988,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-4194",
@@ -30692,7 +32013,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "6.5"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4195",
@@ -30715,7 +32037,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4196",
@@ -30738,7 +32061,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4197",
@@ -30761,7 +32085,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4198",
@@ -30784,7 +32109,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4199",
@@ -30807,7 +32133,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4200",
@@ -30830,7 +32157,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4204",
@@ -30856,7 +32184,8 @@ var ZAPATOS = [
    "7.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4205",
@@ -30883,7 +32212,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4206",
@@ -30907,7 +32237,8 @@ var ZAPATOS = [
   "tallas": [
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4207",
@@ -30930,7 +32261,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4208",
@@ -30965,7 +32297,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4209",
@@ -30988,7 +32321,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4210",
@@ -31016,7 +32350,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4212",
@@ -31040,7 +32375,8 @@ var ZAPATOS = [
   "tallas": [
    "07.5",
    "08"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4213",
@@ -31073,7 +32409,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4214",
@@ -31099,7 +32436,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4215",
@@ -31124,7 +32462,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4216",
@@ -31147,7 +32486,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4217",
@@ -31169,7 +32509,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4218",
@@ -31204,7 +32545,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4219",
@@ -31227,7 +32569,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4220",
@@ -31251,7 +32594,8 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4221",
@@ -31275,7 +32619,8 @@ var ZAPATOS = [
   "tallas": [
    "6.5",
    "11"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4222",
@@ -31299,7 +32644,8 @@ var ZAPATOS = [
   "tallas": [
    "06",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4223",
@@ -31320,7 +32666,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4224",
@@ -31348,7 +32695,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4225",
@@ -31372,7 +32720,8 @@ var ZAPATOS = [
    "6.5",
    "7",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4226",
@@ -31395,7 +32744,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4227",
@@ -31418,7 +32768,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4228",
@@ -31453,7 +32804,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4229",
@@ -31476,7 +32828,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4230",
@@ -31499,7 +32852,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4232",
@@ -31534,7 +32888,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4233",
@@ -31568,7 +32923,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4234",
@@ -31598,7 +32954,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4235",
@@ -31624,7 +32981,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4236",
@@ -31647,7 +33005,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4237",
@@ -31674,7 +33033,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4238",
@@ -31709,7 +33069,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4239",
@@ -31744,7 +33105,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4240",
@@ -31771,7 +33133,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4241",
@@ -31794,7 +33157,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4242",
@@ -31824,7 +33188,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4243",
@@ -31857,7 +33222,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4244",
@@ -31880,7 +33246,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4245",
@@ -31908,7 +33275,8 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4246",
@@ -31931,7 +33299,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4247",
@@ -31955,7 +33324,8 @@ var ZAPATOS = [
    "5",
    "7",
    "9"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4248",
@@ -31990,7 +33360,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4249",
@@ -32013,7 +33384,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4250",
@@ -32040,7 +33412,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4251",
@@ -32075,7 +33448,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4252",
@@ -32105,7 +33479,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4253",
@@ -32141,7 +33516,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4254",
@@ -32171,7 +33547,8 @@ var ZAPATOS = [
    "8.5",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4255",
@@ -32196,7 +33573,8 @@ var ZAPATOS = [
    "7",
    "8",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4256",
@@ -32221,7 +33599,8 @@ var ZAPATOS = [
    "5",
    "5.5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4257",
@@ -32252,7 +33631,8 @@ var ZAPATOS = [
    "9",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4258",
@@ -32287,7 +33667,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4259",
@@ -32311,7 +33692,8 @@ var ZAPATOS = [
   "tallas": [
    "7",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4260",
@@ -32340,7 +33722,8 @@ var ZAPATOS = [
    "8",
    "9.5",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4261",
@@ -32364,7 +33747,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4262",
@@ -32384,7 +33768,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4263",
@@ -32419,7 +33804,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4264",
@@ -32442,7 +33828,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4265",
@@ -32472,7 +33859,8 @@ var ZAPATOS = [
    "6.5",
    "7",
    "7.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4266",
@@ -32498,7 +33886,8 @@ var ZAPATOS = [
    "6.5",
    "7",
    "14"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4267",
@@ -32530,7 +33919,8 @@ var ZAPATOS = [
    "09",
    "09.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4268",
@@ -32564,7 +33954,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4269",
@@ -32589,7 +33980,8 @@ var ZAPATOS = [
    "7.5",
    "9",
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4270",
@@ -32619,7 +34011,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4271",
@@ -32642,7 +34035,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4272",
@@ -32672,7 +34066,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4273",
@@ -32707,7 +34102,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4274",
@@ -32731,7 +34127,8 @@ var ZAPATOS = [
   "tallas": [
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4275",
@@ -32757,7 +34154,8 @@ var ZAPATOS = [
    "6.5",
    "7",
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4276",
@@ -32781,7 +34179,8 @@ var ZAPATOS = [
   "tallas": [
    "12",
    "12.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4277",
@@ -32813,7 +34212,8 @@ var ZAPATOS = [
    "09",
    "09.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4278",
@@ -32848,7 +34248,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4279",
@@ -32878,7 +34279,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4280",
@@ -32908,7 +34310,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4281",
@@ -32936,7 +34339,8 @@ var ZAPATOS = [
    "7",
    "8",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4282",
@@ -32965,7 +34369,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4283",
@@ -33000,7 +34405,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4284",
@@ -33030,7 +34436,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4285",
@@ -33057,7 +34464,8 @@ var ZAPATOS = [
    "6",
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4286",
@@ -33092,7 +34500,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4287",
@@ -33125,7 +34534,8 @@ var ZAPATOS = [
    "09",
    "09.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4288",
@@ -33161,7 +34571,8 @@ var ZAPATOS = [
    "10.0",
    "10.5",
    "11.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4289",
@@ -33190,7 +34601,8 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4290",
@@ -33216,7 +34628,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4291",
@@ -33247,7 +34660,8 @@ var ZAPATOS = [
    "8.5",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4292",
@@ -33270,7 +34684,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4293",
@@ -33299,7 +34714,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4294",
@@ -33331,7 +34748,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4295",
@@ -33359,7 +34778,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4296",
@@ -33382,7 +34803,9 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4297",
@@ -33402,7 +34825,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4298",
@@ -33425,7 +34850,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4300",
@@ -33453,7 +34880,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4301",
@@ -33479,7 +34908,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4302",
@@ -33499,7 +34930,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4303",
@@ -33522,7 +34955,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4305",
@@ -33551,7 +34986,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4306",
@@ -33581,7 +35018,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4307",
@@ -33601,7 +35040,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4308",
@@ -33624,7 +35065,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4309",
@@ -33648,7 +35091,9 @@ var ZAPATOS = [
   "tallas": [
    "2",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4310",
@@ -33673,7 +35118,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4311",
@@ -33701,7 +35148,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4313",
@@ -33724,7 +35173,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4314",
@@ -33752,7 +35203,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4315",
@@ -33778,7 +35231,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4316",
@@ -33808,7 +35263,9 @@ var ZAPATOS = [
    "12",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4318",
@@ -33831,7 +35288,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4320",
@@ -33860,7 +35319,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4321",
@@ -33888,7 +35349,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4323",
@@ -33911,7 +35374,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "1"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4324",
@@ -33936,7 +35401,9 @@ var ZAPATOS = [
    "5",
    "7",
    "9"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4325",
@@ -33962,7 +35429,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4326",
@@ -33996,7 +35465,9 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4327",
@@ -34019,7 +35490,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4328",
@@ -34047,7 +35520,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4329",
@@ -34074,7 +35549,9 @@ var ZAPATOS = [
    "08",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4330",
@@ -34103,7 +35580,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4331",
@@ -34126,7 +35605,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4332",
@@ -34149,7 +35630,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4Y"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4333",
@@ -34174,7 +35657,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4334",
@@ -34201,7 +35686,9 @@ var ZAPATOS = [
    "08",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4335",
@@ -34236,7 +35723,9 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4336",
@@ -34261,7 +35750,9 @@ var ZAPATOS = [
   "tallas": [
    "2C",
    "3C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4337",
@@ -34287,7 +35778,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4338",
@@ -34311,7 +35804,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "02"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4339",
@@ -34341,7 +35836,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4340",
@@ -34364,7 +35861,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "1"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4342",
@@ -34396,7 +35895,9 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4343",
@@ -34419,7 +35920,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "2"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4345",
@@ -34453,7 +35956,9 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4346",
@@ -34478,7 +35983,9 @@ var ZAPATOS = [
    "1",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4347",
@@ -34506,7 +36013,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4348",
@@ -34536,7 +36045,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4349",
@@ -34559,7 +36070,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4350",
@@ -34582,7 +36095,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "02"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4351",
@@ -34612,7 +36127,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4352",
@@ -34635,7 +36152,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4353",
@@ -34661,7 +36180,9 @@ var ZAPATOS = [
    "06",
    "08",
    "09"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4354",
@@ -34695,7 +36216,9 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4355",
@@ -34718,7 +36241,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4356",
@@ -34747,7 +36272,9 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4357",
@@ -34782,7 +36309,9 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4358",
@@ -34805,7 +36334,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4359",
@@ -34829,7 +36360,9 @@ var ZAPATOS = [
   "tallas": [
    "2",
    "13"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4360",
@@ -34861,7 +36394,9 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4361",
@@ -34884,7 +36419,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "2"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4362",
@@ -34909,7 +36446,9 @@ var ZAPATOS = [
    "2",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4363",
@@ -34943,7 +36482,9 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4364",
@@ -34966,7 +36507,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4365",
@@ -34994,7 +36537,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4366",
@@ -35024,7 +36569,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4367",
@@ -35047,7 +36594,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4368",
@@ -35076,7 +36625,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4369",
@@ -35106,7 +36657,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4370",
@@ -35129,7 +36682,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4371",
@@ -35157,7 +36712,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4372",
@@ -35192,7 +36749,9 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4373",
@@ -35215,7 +36774,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4374",
@@ -35241,7 +36802,9 @@ var ZAPATOS = [
    "02",
    "03",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4375",
@@ -35275,7 +36838,9 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4376",
@@ -35299,7 +36864,9 @@ var ZAPATOS = [
   "tallas": [
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4377",
@@ -35324,7 +36891,9 @@ var ZAPATOS = [
    "5",
    "7",
    "9"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4378",
@@ -35356,7 +36925,9 @@ var ZAPATOS = [
    "7.5",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4379",
@@ -35379,7 +36950,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4380",
@@ -35409,7 +36982,9 @@ var ZAPATOS = [
    "06",
    "06.5",
    "07"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4381",
@@ -35432,7 +37007,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4382",
@@ -35460,7 +37037,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4383",
@@ -35483,7 +37062,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4384",
@@ -35511,7 +37092,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4385",
@@ -35534,7 +37117,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4386",
@@ -35560,7 +37145,9 @@ var ZAPATOS = [
    "02",
    "03",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4387",
@@ -35584,7 +37171,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4388",
@@ -35612,7 +37201,9 @@ var ZAPATOS = [
    "04",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4389",
@@ -35635,7 +37226,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4390",
@@ -35663,7 +37256,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4391",
@@ -35686,7 +37281,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4392",
@@ -35712,7 +37309,9 @@ var ZAPATOS = [
    "02",
    "03",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4393",
@@ -35736,7 +37335,9 @@ var ZAPATOS = [
   "tallas": [
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4394",
@@ -35762,7 +37363,9 @@ var ZAPATOS = [
    "02",
    "03",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4395",
@@ -35785,7 +37388,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "2"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4396",
@@ -35815,7 +37420,9 @@ var ZAPATOS = [
    "06",
    "06.5",
    "07"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4397",
@@ -35838,7 +37445,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4398",
@@ -35867,7 +37476,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4399",
@@ -35892,7 +37503,9 @@ var ZAPATOS = [
    "2",
    "3",
    "4"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4400",
@@ -35921,7 +37534,9 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4401",
@@ -35945,7 +37560,9 @@ var ZAPATOS = [
   "tallas": [
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4402",
@@ -35974,7 +37591,9 @@ var ZAPATOS = [
    "10",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4403",
@@ -35997,7 +37616,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4404",
@@ -36025,7 +37646,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4405",
@@ -36048,7 +37671,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4406",
@@ -36076,7 +37701,9 @@ var ZAPATOS = [
    "08",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4407",
@@ -36099,7 +37726,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4408",
@@ -36127,7 +37756,9 @@ var ZAPATOS = [
    "08",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4409",
@@ -36150,7 +37781,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4410",
@@ -36175,7 +37808,9 @@ var ZAPATOS = [
    "2",
    "11",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4411",
@@ -36198,7 +37833,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4413",
@@ -36221,7 +37858,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4414",
@@ -36250,7 +37889,9 @@ var ZAPATOS = [
    "08",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4415",
@@ -36273,7 +37914,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4416",
@@ -36298,7 +37941,9 @@ var ZAPATOS = [
   "tallas": [
    "04",
    "08"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4417",
@@ -36321,7 +37966,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4418",
@@ -36353,7 +38000,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4419",
@@ -36381,7 +38030,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4420",
@@ -36404,7 +38055,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4421",
@@ -36424,7 +38077,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4422",
@@ -36458,7 +38113,9 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4423",
@@ -36481,7 +38138,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4424",
@@ -36507,7 +38166,9 @@ var ZAPATOS = [
    "5C",
    "7C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4425",
@@ -36543,7 +38204,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4426",
@@ -36573,7 +38236,9 @@ var ZAPATOS = [
    "08",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4427",
@@ -36597,7 +38262,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4428",
@@ -36631,7 +38298,9 @@ var ZAPATOS = [
    "12C",
    "12.5C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4429",
@@ -36659,7 +38328,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4430",
@@ -36684,7 +38355,9 @@ var ZAPATOS = [
   "tallas": [
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4431",
@@ -36709,7 +38382,9 @@ var ZAPATOS = [
   "tallas": [
    "2Y",
    "3Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4432",
@@ -36747,7 +38422,9 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4433",
@@ -36770,7 +38447,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4434",
@@ -36791,7 +38470,9 @@ var ZAPATOS = [
   "tallas": [
    "4C",
    "5C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4435",
@@ -36826,7 +38507,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4436",
@@ -36851,7 +38534,9 @@ var ZAPATOS = [
    "04.5",
    "05",
    "06.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4437",
@@ -36875,7 +38560,9 @@ var ZAPATOS = [
   "tallas": [
    "5.5Y",
    "6.5Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4438",
@@ -36909,7 +38596,9 @@ var ZAPATOS = [
    "12C",
    "12.5C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4439",
@@ -36937,7 +38626,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Sandalias",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4440",
@@ -36963,7 +38654,9 @@ var ZAPATOS = [
    "1.5",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4441",
@@ -36998,7 +38691,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4442",
@@ -37027,7 +38722,9 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4444",
@@ -37050,7 +38747,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4445",
@@ -37077,7 +38776,9 @@ var ZAPATOS = [
    "3.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4446",
@@ -37106,7 +38807,9 @@ var ZAPATOS = [
    "08",
    "09",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4447",
@@ -37129,7 +38832,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "2Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4448",
@@ -37153,7 +38858,9 @@ var ZAPATOS = [
   "tallas": [
    "1",
    "2"
-  ]
+  ],
+  "categoria": "Sandalias",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4449",
@@ -37177,7 +38884,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4450",
@@ -37213,7 +38922,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4451",
@@ -37250,7 +38961,9 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4452",
@@ -37275,7 +38988,9 @@ var ZAPATOS = [
    "3.5Y",
    "4Y",
    "4.5Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4454",
@@ -37298,7 +39013,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4455",
@@ -37324,7 +39041,9 @@ var ZAPATOS = [
    "02",
    "03",
    "11"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4456",
@@ -37347,7 +39066,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4457",
@@ -37371,7 +39092,9 @@ var ZAPATOS = [
   "tallas": [
    "1",
    "2"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4458",
@@ -37397,7 +39120,9 @@ var ZAPATOS = [
    "5.5",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4459",
@@ -37420,7 +39145,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4460",
@@ -37455,7 +39182,9 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4461",
@@ -37480,7 +39209,9 @@ var ZAPATOS = [
    "5C",
    "8C",
    "10C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4463",
@@ -37503,7 +39234,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4464",
@@ -37529,7 +39262,9 @@ var ZAPATOS = [
    "05",
    "06",
    "07"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4465",
@@ -37555,7 +39290,9 @@ var ZAPATOS = [
    "4.5Y",
    "6.5Y",
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4466",
@@ -37581,7 +39318,9 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4467",
@@ -37609,7 +39348,9 @@ var ZAPATOS = [
    "2.5",
    "10.5",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4468",
@@ -37636,7 +39377,9 @@ var ZAPATOS = [
    "11.5C",
    "12.5C",
    "13.5C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4469",
@@ -37671,7 +39414,9 @@ var ZAPATOS = [
    "9",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4470",
@@ -37691,7 +39436,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4472",
@@ -37718,7 +39465,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4473",
@@ -37743,7 +39492,9 @@ var ZAPATOS = [
   "tallas": [
    "02",
    "03"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4474",
@@ -37771,7 +39522,9 @@ var ZAPATOS = [
    "6Y",
    "6.5Y",
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4475",
@@ -37800,7 +39553,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4476",
@@ -37829,7 +39584,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4477",
@@ -37863,7 +39620,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4478",
@@ -37897,7 +39656,9 @@ var ZAPATOS = [
    "12.5",
    "13",
    "13.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4480",
@@ -37925,7 +39686,9 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4481",
@@ -37949,7 +39712,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "03"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-4482",
@@ -37977,7 +39742,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4483",
@@ -38004,7 +39771,9 @@ var ZAPATOS = [
    "2",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4484",
@@ -38031,7 +39800,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4485",
@@ -38066,7 +39837,9 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4486",
@@ -38093,7 +39866,9 @@ var ZAPATOS = [
    "5.5Y",
    "6Y",
    "6.5Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4487",
@@ -38121,7 +39896,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4488",
@@ -38150,7 +39927,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4489",
@@ -38180,7 +39959,9 @@ var ZAPATOS = [
    "06",
    "06.5",
    "07"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-4490",
@@ -38201,7 +39982,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4491",
@@ -38229,7 +40012,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4492",
@@ -38255,7 +40040,9 @@ var ZAPATOS = [
    "1.5",
    "2.5",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4493",
@@ -38280,7 +40067,9 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4494",
@@ -38315,7 +40104,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4495",
@@ -38342,7 +40133,9 @@ var ZAPATOS = [
    "5.5Y",
    "6.5Y",
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4496",
@@ -38370,7 +40163,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4497",
@@ -38393,7 +40188,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "3.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4498",
@@ -38423,7 +40220,9 @@ var ZAPATOS = [
    "06",
    "06.5",
    "07"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4499",
@@ -38448,7 +40247,9 @@ var ZAPATOS = [
    "5C",
    "7C",
    "9C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4500",
@@ -38476,7 +40277,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4501",
@@ -38505,7 +40308,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4502",
@@ -38532,7 +40337,9 @@ var ZAPATOS = [
    "2.5Y",
    "11C",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4503",
@@ -38567,7 +40374,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4504",
@@ -38593,7 +40402,9 @@ var ZAPATOS = [
    "5.5Y",
    "6Y",
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4505",
@@ -38622,7 +40433,9 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4506",
@@ -38651,7 +40464,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4507",
@@ -38679,7 +40494,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4508",
@@ -38707,7 +40524,9 @@ var ZAPATOS = [
    "6Y",
    "6.5Y",
    "7Y"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4509",
@@ -38735,7 +40554,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4510",
@@ -38761,7 +40582,9 @@ var ZAPATOS = [
    "1.5",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4511",
@@ -38786,7 +40609,9 @@ var ZAPATOS = [
   "tallas": [
    "1.5Y",
    "13C"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4512",
@@ -38821,7 +40646,9 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4513",
@@ -38844,7 +40671,9 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4514",
@@ -38872,7 +40701,9 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ]
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4515",
@@ -38896,7 +40727,9 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4516",
@@ -38921,7 +40754,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4517",
@@ -38955,7 +40789,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4518",
@@ -38989,7 +40824,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4519",
@@ -39017,7 +40853,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4520",
@@ -39042,7 +40879,8 @@ var ZAPATOS = [
   "tallas": [
    "9",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4521",
@@ -39071,7 +40909,8 @@ var ZAPATOS = [
    "10",
    "11",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4522",
@@ -39094,7 +40933,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4523",
@@ -39121,7 +40961,8 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4524",
@@ -39142,7 +40983,8 @@ var ZAPATOS = [
   "tallas": [
    "M",
    "L"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4525",
@@ -39165,7 +41007,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4526",
@@ -39191,7 +41034,8 @@ var ZAPATOS = [
    "8.5",
    "10.5",
    "11.5"
-  ]
+  ],
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-4527",
@@ -39215,7 +41059,8 @@ var ZAPATOS = [
   "tallas": [
    "4",
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4528",
@@ -39239,7 +41084,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4529",
@@ -39264,7 +41110,8 @@ var ZAPATOS = [
    "3.5",
    "4",
    "4.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4530",
@@ -39287,7 +41134,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4531",
@@ -39310,7 +41158,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-4532",
@@ -39335,7 +41184,8 @@ var ZAPATOS = [
    "8",
    "10",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4533",
@@ -39358,7 +41208,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4534",
@@ -39382,7 +41233,8 @@ var ZAPATOS = [
   "tallas": [
    "7.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4535",
@@ -39405,7 +41257,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4536",
@@ -39436,7 +41289,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4537",
@@ -39461,7 +41315,8 @@ var ZAPATOS = [
    "5",
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4538",
@@ -39484,7 +41339,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4539",
@@ -39507,7 +41363,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4540",
@@ -39530,7 +41387,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Botas"
  },
  {
   "codigo": "DOM-4541",
@@ -39553,7 +41411,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4542",
@@ -39579,7 +41438,8 @@ var ZAPATOS = [
    "6",
    "6.5",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4543",
@@ -39602,7 +41462,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4544",
@@ -39630,7 +41491,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4545",
@@ -39653,7 +41515,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4546",
@@ -39677,7 +41540,8 @@ var ZAPATOS = [
   "tallas": [
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4547",
@@ -39706,7 +41570,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4548",
@@ -39729,7 +41594,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7.5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4549",
@@ -39754,7 +41620,8 @@ var ZAPATOS = [
   "tallas": [
    "7.5",
    "11"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4550",
@@ -39778,7 +41645,8 @@ var ZAPATOS = [
   "tallas": [
    "4.5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4551",
@@ -39805,7 +41673,8 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4552",
@@ -39829,7 +41698,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4553",
@@ -39852,7 +41722,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "4"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4554",
@@ -39883,7 +41754,8 @@ var ZAPATOS = [
    "10.5",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4555",
@@ -39906,7 +41778,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4556",
@@ -39936,7 +41809,8 @@ var ZAPATOS = [
    "10.5",
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4557",
@@ -39967,7 +41841,8 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4558",
@@ -39991,7 +41866,8 @@ var ZAPATOS = [
   "tallas": [
    "11.5",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4559",
@@ -40014,7 +41890,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4560",
@@ -40037,7 +41914,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4561",
@@ -40061,7 +41939,8 @@ var ZAPATOS = [
   "tallas": [
    "5.5",
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4562",
@@ -40084,7 +41963,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4563",
@@ -40107,7 +41987,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4564",
@@ -40130,7 +42011,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4565",
@@ -40154,7 +42036,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4566",
@@ -40177,7 +42060,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4567",
@@ -40201,7 +42085,8 @@ var ZAPATOS = [
   "tallas": [
    "10",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4568",
@@ -40224,7 +42109,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4569",
@@ -40247,7 +42133,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "41"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4570",
@@ -40270,7 +42157,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4571",
@@ -40295,7 +42183,8 @@ var ZAPATOS = [
    "4",
    "4.5",
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4572",
@@ -40318,7 +42207,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "11"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4573",
@@ -40341,7 +42231,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4574",
@@ -40371,7 +42262,8 @@ var ZAPATOS = [
    "12.0",
    "13.0",
    "14.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4575",
@@ -40398,7 +42290,8 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4576",
@@ -40427,7 +42320,8 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4577",
@@ -40456,7 +42350,8 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4578",
@@ -40485,7 +42380,8 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4579",
@@ -40515,7 +42411,8 @@ var ZAPATOS = [
    "07.0",
    "08.0",
    "09.0"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4580",
@@ -40545,7 +42442,8 @@ var ZAPATOS = [
    "12.0",
    "13.0",
    "14.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4581",
@@ -40576,7 +42474,8 @@ var ZAPATOS = [
    "13.0",
    "14.0",
    "15.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4582",
@@ -40604,7 +42503,8 @@ var ZAPATOS = [
    "10.0",
    "11.0",
    "12.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4583",
@@ -40638,7 +42538,8 @@ var ZAPATOS = [
    "11.5",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4584",
@@ -40669,7 +42570,8 @@ var ZAPATOS = [
    "13.0",
    "14.0",
    "15.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4585",
@@ -40694,7 +42596,8 @@ var ZAPATOS = [
    "07.0",
    "07.5",
    "09.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4586",
@@ -40719,7 +42622,8 @@ var ZAPATOS = [
    "07.0",
    "07.5",
    "08.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4587",
@@ -40745,7 +42649,8 @@ var ZAPATOS = [
    "08.0",
    "08.5",
    "09.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4588",
@@ -40780,7 +42685,8 @@ var ZAPATOS = [
    "11.5",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4589",
@@ -40810,7 +42716,8 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4590",
@@ -40840,7 +42747,8 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4591",
@@ -40865,7 +42773,8 @@ var ZAPATOS = [
    "07.0",
    "07.5",
    "08.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4592",
@@ -40900,7 +42809,8 @@ var ZAPATOS = [
    "11.5",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4593",
@@ -40935,7 +42845,8 @@ var ZAPATOS = [
    "11.5",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4594",
@@ -40968,7 +42879,8 @@ var ZAPATOS = [
    "11.5",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4595",
@@ -40994,7 +42906,8 @@ var ZAPATOS = [
    "09.0",
    "09.5",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4596",
@@ -41027,7 +42940,8 @@ var ZAPATOS = [
    "11.0",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4597",
@@ -41062,7 +42976,8 @@ var ZAPATOS = [
    "11.5",
    "12.0",
    "13.0"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4598",
@@ -41086,7 +43001,8 @@ var ZAPATOS = [
   "tallas": [
    "10.5",
    "12.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4599",
@@ -41109,7 +43025,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12.5"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4600",
@@ -41133,7 +43050,8 @@ var ZAPATOS = [
   "tallas": [
    "10",
    "9"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4601",
@@ -41161,7 +43079,8 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4602",
@@ -41199,7 +43118,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4603",
@@ -41222,7 +43142,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4604",
@@ -41245,7 +43166,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4605",
@@ -41268,7 +43190,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4606",
@@ -41291,7 +43214,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4607",
@@ -41314,7 +43238,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4608",
@@ -41341,7 +43266,8 @@ var ZAPATOS = [
    "6",
    "7",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4609",
@@ -41367,7 +43293,8 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4610",
@@ -41392,7 +43319,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4611",
@@ -41418,7 +43346,8 @@ var ZAPATOS = [
    "9.5",
    "10",
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4612",
@@ -41456,7 +43385,8 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4613",
@@ -41488,7 +43418,8 @@ var ZAPATOS = [
    "8.5",
    "8",
    "13"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4614",
@@ -41508,7 +43439,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "XS"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4615",
@@ -41528,7 +43460,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "L"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4616",
@@ -41549,7 +43482,8 @@ var ZAPATOS = [
   "tallas": [
    "XS",
    "L"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4617",
@@ -41571,7 +43505,8 @@ var ZAPATOS = [
   "tallas": [
    "XS",
    "S"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4618",
@@ -41599,7 +43534,8 @@ var ZAPATOS = [
    "11W / 10M",
    "12W / 11M",
    "13W / 12M"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4619",
@@ -41622,7 +43558,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "12W / 11M"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4620",
@@ -41651,7 +43588,8 @@ var ZAPATOS = [
    "15W / 14M",
    "16W / 15M",
    "8W / 7M"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4621",
@@ -41679,7 +43617,8 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4622",
@@ -41708,7 +43647,8 @@ var ZAPATOS = [
    "9",
    "10",
    "11"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4623",
@@ -41731,7 +43671,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8W / 7M"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4624",
@@ -41758,7 +43699,8 @@ var ZAPATOS = [
    "10W / 9M",
    "12W / 11M",
    "9W / 8M"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4625",
@@ -41781,7 +43723,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "19W / 18M"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4626",
@@ -41805,7 +43748,8 @@ var ZAPATOS = [
   "tallas": [
    "5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4627",
@@ -41828,7 +43772,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4628",
@@ -41851,7 +43796,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4629",
@@ -41875,7 +43821,8 @@ var ZAPATOS = [
   "tallas": [
    "6.5",
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4630",
@@ -41898,7 +43845,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4631",
@@ -41921,7 +43869,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4632",
@@ -41944,7 +43893,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4633",
@@ -41967,7 +43917,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "8.5"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-4634",
@@ -41990,7 +43941,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4635",
@@ -42014,7 +43966,8 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "7"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4636",
@@ -42037,7 +43990,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-4637",
@@ -42060,7 +44014,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4638",
@@ -42083,7 +44038,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4639",
@@ -42106,7 +44062,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4640",
@@ -42129,7 +44086,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4641",
@@ -42152,7 +44110,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4642",
@@ -42175,7 +44134,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4643",
@@ -42198,7 +44158,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5.5"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4644",
@@ -42224,7 +44185,8 @@ var ZAPATOS = [
    "8",
    "8.5",
    "9"
-  ]
+  ],
+  "categoria": "Formales"
  },
  {
   "codigo": "DOM-4645",
@@ -42247,7 +44209,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6.5"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4646",
@@ -42270,7 +44233,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4647",
@@ -42294,7 +44258,8 @@ var ZAPATOS = [
   "tallas": [
    "6",
    "6.5"
-  ]
+  ],
+  "categoria": "Botines"
  },
  {
   "codigo": "DOM-4648",
@@ -42317,7 +44282,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10"
-  ]
+  ],
+  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-4649",
@@ -42340,7 +44306,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "5"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4650",
@@ -42363,7 +44330,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "6"
-  ]
+  ],
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-4651",
@@ -42386,7 +44354,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "9.5"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4652",
@@ -42410,7 +44379,8 @@ var ZAPATOS = [
   "tallas": [
    "7",
    "10"
-  ]
+  ],
+  "categoria": "Deportivos"
  },
  {
   "codigo": "DOM-4653",
@@ -42434,7 +44404,8 @@ var ZAPATOS = [
    "5.5",
    "9.5",
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4654",
@@ -42457,7 +44428,8 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10"
-  ]
+  ],
+  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-4655",
@@ -42485,7 +44457,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4656",
@@ -42514,7 +44488,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4657",
@@ -42542,7 +44518,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4658",
@@ -42570,7 +44548,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4659",
@@ -42599,7 +44579,9 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4660",
@@ -42627,7 +44609,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4661",
@@ -42655,7 +44639,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4662",
@@ -42683,7 +44669,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4663",
@@ -42711,7 +44699,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4664",
@@ -42737,7 +44727,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4665",
@@ -42765,7 +44757,9 @@ var ZAPATOS = [
    "6",
    "6.5",
    "7"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4666",
@@ -42792,7 +44786,9 @@ var ZAPATOS = [
    "1",
    "2",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4667",
@@ -42820,7 +44816,9 @@ var ZAPATOS = [
    "6",
    "7",
    "8"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  },
  {
   "codigo": "DOM-4668",
@@ -42847,6 +44845,8 @@ var ZAPATOS = [
    "12",
    "13",
    "3"
-  ]
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
  }
 ];
