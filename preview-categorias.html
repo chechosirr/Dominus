@@ -19,19 +19,20 @@ h1.sec{font-size:22px;margin:4px 2px 2px}
 p.sub{color:#6b6b72;font-size:13px;margin:0 2px 12px}
 body.plano{background:#f4f4f6}
 body.plano #fondo{display:none}
+body.blanco{background:#fff}
 .catbtn{position:relative;display:block;width:100%;height:84px;border:1px solid rgba(255,255,255,.38);border-radius:16px;margin:0 0 12px;overflow:hidden;cursor:pointer;text-align:left;background:rgba(23,23,28,.20);backdrop-filter:blur(3px) saturate(1.2);-webkit-backdrop-filter:blur(3px) saturate(1.2);box-shadow:0 2px 12px rgba(0,0,0,.22)}
 .catbtn.sub{height:110px}
 .subsWrap{min-height:54vh;display:flex;flex-direction:column;justify-content:center}
 .catbtn .nm{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#fff;font-size:19px;font-weight:800;text-shadow:0 1px 6px rgba(0,0,0,.7)}
 .catbtn .chev{position:absolute;right:14px;top:50%;transform:translateY(-50%);color:#fff;font-size:24px;font-weight:300;opacity:.9}
 .searchbar{display:flex;gap:8px;margin:0 0 12px}
-.fondoCat{position:fixed;inset:0;z-index:-1;overflow:hidden;background:#17171b}
+.fondoCat{position:relative;height:38vh;border-radius:14px;overflow:hidden;margin:2px 0 12px;background:#17171b;box-shadow:0 4px 16px rgba(0,0,0,.18)}
 .fondoCat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}
 .fondoCat img.on{opacity:1}
 .fondoCat .velo{position:absolute;inset:0;background:linear-gradient(to bottom, rgba(10,10,14,.30), rgba(10,10,14,0) 34%, rgba(10,10,14,0) 70%, rgba(10,10,14,.28))}
 .searchbar input{flex:1;padding:11px 14px;border:1.5px solid #c9c9cf;border-radius:999px;font-size:15px;background:rgba(255,255,255,.92)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.08)}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:none}
 .card img{width:100%;height:130px;object-fit:contain;background:#fff}
 .card .inf{padding:8px 10px 10px}
 .card .inf b{font-size:13px;display:block;line-height:1.25;min-height:32px}
@@ -81,7 +82,7 @@ function fijarFondo(){
 function catsDe(){ return seccion === 'Niños' ? DATA[sub === 'Niña' ? 'Nina' : 'Nino'] : DATA[seccion]; }
 function vistaCats(){
  catActual = null;
- document.body.classList.add('sobre'); document.body.classList.remove('plano');
+ document.body.classList.add('sobre'); document.body.classList.remove('plano'); document.body.classList.remove('blanco');
  fijarFondo();
  var v = document.getElementById('vista');
  if(seccion === 'Niños' && !sub){
@@ -105,7 +106,7 @@ function vistaCats(){
 function setSub(x){ sub = x; vistaCats(); }
 function abrirCat(i){ catActual = catsDe()[i]; nivel = 'cat'; pintarCat(''); }
 function pintarCat(q){
- document.body.classList.add('sobre'); document.body.classList.remove('plano');
+ document.body.classList.remove('sobre'); document.body.classList.add('plano'); document.body.classList.add('blanco');
  fondoEscaparate();
  var c = catActual;
  var prods = c.prods.filter(function(p){ return !q || p.n.toLowerCase().indexOf(q.toLowerCase()) >= 0; });
