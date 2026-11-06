@@ -31,9 +31,6 @@ body.plano #fondo{display:none}
 .card .inf{padding:8px 10px 10px}
 .card .inf b{font-size:13px;display:block;line-height:1.25;min-height:32px}
 .card .inf span{color:#17171b;font-weight:800}
-.backrow{display:flex;align-items:center;gap:10px;margin:2px 0 12px}
-.backrow button{background:#2f2f34;color:#fff;border:0;width:38px;height:38px;border-radius:50%;font-size:18px;cursor:pointer}
-.backrow h1{font-size:20px}
 .note{color:#8a8a91;font-size:12px;text-align:center;margin-top:18px}
 </style></head><body>
 <div id="fondo"><img id="f1" alt=""><img id="f2" alt=""><div class="velo"></div></div>
@@ -90,7 +87,7 @@ function pintarCat(q){
  var c = catActual;
  var prods = c.prods.filter(function(p){ return !q || p.n.toLowerCase().indexOf(q.toLowerCase()) >= 0; });
  var v = document.getElementById('vista');
- var h = '<div class="backrow"><button onclick="vistaCats()" aria-label="Volver">←</button><h1>' + c.nombre + '</h1></div>'
+ var h = '<h1 class="sec">' + c.nombre + '</h1><p class="sub">' + (seccion === 'Niños' ? sub + ' · ' : '') + seccion + '</p>'
  + '<div class="searchbar"><input id="q" type="search" placeholder="Buscar en ' + c.nombre + '…" value="' + q.replace(/"/g,'&quot;') + '" oninput="pintarCat(this.value);var e=document.getElementById(\'q\');e.focus();e.setSelectionRange(e.value.length,e.value.length)"></div>'
  + '<div class="grid">';
  prods.slice(0, 24).forEach(function(p){
