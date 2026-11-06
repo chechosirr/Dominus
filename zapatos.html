@@ -787,10 +787,10 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  if(state.sort === 'desc') list.sort(function(a,b){ return b.precio-a.precio; });
  if(state.sort === 'az') list.sort(function(a,b){ return a.nombre.localeCompare(b.nombre); });
  if(!state.sort){
-  /* Regla de Sergio (5-nov-2026): en cada sección, los primeros 6 zapatos son de la banda de $50 a $100 y los primeros 25 son una mezcla de las 3 bandas de precio; el resto del catálogo también se muestra mezclado en la proporción de las bandas (5/3/2). Sin slides ni chanclas entre los primeros 25. */
+  /* Regla de Sergio (5-nov-2026): los zapatos se muestran en la proporción de su categoría desde el primer lugar: 40% de menos de $50, 40% de $50 a $100 y 20% de más de $100 (patrón 2/2/1). «Tacos para fútbol» usa su proporción propia: 30/30/40 (patrón 3/3/4). Sin slides ni chanclas entre los primeros 25. */
   var esSlide = function(p){ return /\b(slide|slides|chancla|chanclas|flip[\s-]?flops?)\b/i.test(p.nombre || ''); };
   var bandaDe = function(p){ return p.precio < 50 ? 0 : (p.precio <= 100 ? 1 : 2); };
-  var patron = [0, 1, 0, 2, 0, 1, 0, 1, 2, 0], pi = 0;
+  var patron = (curCategoria === 'Tacos para fútbol') ? [0, 1, 2, 0, 1, 2, 0, 1, 2, 2] : [0, 1, 0, 1, 2], pi = 0;
   function mezclador(colas){
    return function(){
     for(var k = 0; k < patron.length; k++){
@@ -804,7 +804,6 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
   var qns = [[], [], []];
   list.forEach(function(x){ if(!esSlide(x)) qns[bandaDe(x)].push(x); });
   var sig = mezclador(qns);
-  while(qns[1].length && orden.length < 6){ p = qns[1].shift(); usados[p.codigo] = 1; orden.push(p); }
   while(orden.length < 25 && (p = sig())){ usados[p.codigo] = 1; orden.push(p); }
   var qtot = [[], [], []];
   list.forEach(function(x){ if(!usados[x.codigo]) qtot[bandaDe(x)].push(x); });
