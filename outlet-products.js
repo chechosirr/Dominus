@@ -1122,7 +1122,7 @@ var ZAPATOS = [
    "4",
    "5"
   ],
-  "categoria": "Casuales",
+  "categoria": "Chanclas",
   "subcat": "ambos"
  },
  {
@@ -2461,7 +2461,7 @@ var ZAPATOS = [
    "12",
    "13"
   ],
-  "categoria": "Deportivos"
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-4685",
@@ -2799,7 +2799,7 @@ var ZAPATOS = [
    "12",
    "13"
   ],
-  "categoria": "Deportivos"
+  "categoria": "Tacos para fútbol"
  },
  {
   "codigo": "DOM-4695",
@@ -18161,7 +18161,7 @@ var ZAPATOS = [
    "12",
    "13"
   ],
-  "categoria": "Casuales"
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-5168",
@@ -24234,7 +24234,7 @@ var ZAPATOS = [
    "8.0",
    "9.0"
   ],
-  "categoria": "Casuales"
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-5358",
@@ -24337,7 +24337,7 @@ var ZAPATOS = [
    "8.0",
    "9.0"
   ],
-  "categoria": "Casuales"
+  "categoria": "Chanclas"
  },
  {
   "codigo": "DOM-5361",
@@ -51658,7 +51658,7 @@ var ZAPATOS = [
    "Black/Red",
    "Black/Red"
   ],
-  "categoria": "Casuales",
+  "categoria": "Chanclas",
   "subcat": "ambos"
  },
  {
@@ -51777,7 +51777,7 @@ var ZAPATOS = [
    "Red",
    "Red"
   ],
-  "categoria": "Casuales",
+  "categoria": "Chanclas",
   "subcat": "ambos"
  },
  {
@@ -52466,7 +52466,7 @@ var ZAPATOS = [
    "9C",
    "10C"
   ],
-  "categoria": "Casuales",
+  "categoria": "Chanclas",
   "subcat": "ambos"
  },
  {
