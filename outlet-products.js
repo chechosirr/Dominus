@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "6 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -24585,8 +24585,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto Franco Raina Sneaker — White Nylon / Microfiber",
   "genero": "Mujer",
-  "precio": 99.98,
-  "precio_c": 3677,
+  "precio": 95.99,
+  "precio_c": 3530,
   "fotos": [
    "https://www.francosarto.com/blob/product-images/20026/19/92/9/19929_pair_feed351.jpg",
    "https://www.francosarto.com/blob/product-images/20026/19/92/9/19929_right_feed351.jpg",
@@ -24695,8 +24695,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto Franco Raina Sneaker — Black Nylon / Microfiber",
   "genero": "Mujer",
-  "precio": 99.98,
-  "precio_c": 3677,
+  "precio": 95.99,
+  "precio_c": 3530,
   "fotos": [
    "https://www.francosarto.com/blob/product-images/20026/19/93/4/19934_pair_feed351.jpg",
    "https://www.francosarto.com/blob/product-images/20026/19/93/4/19934_right_feed351.jpg",
@@ -24897,8 +24897,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto Franco Raquel Lace Up Sneaker — Teal Blue Nylon / Microfiber",
   "genero": "Mujer",
-  "precio": 99.98,
-  "precio_c": 3677,
+  "precio": 95.99,
+  "precio_c": 3530,
   "fotos": [
    "https://www.francosarto.com/blob/product-images/20026/20/18/0/20180_pair_feed351.jpg",
    "https://www.francosarto.com/blob/product-images/20026/20/18/0/20180_right_feed351.jpg",
@@ -24933,8 +24933,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto Franco Raquel Lace Up Sneaker — White / Black Nylon / Microfiber",
   "genero": "Mujer",
-  "precio": 99.98,
-  "precio_c": 3677,
+  "precio": 95.99,
+  "precio_c": 3530,
   "fotos": [
    "https://www.francosarto.com/blob/product-images/20026/20/18/5/20185_pair_feed351.jpg",
    "https://www.francosarto.com/blob/product-images/20026/20/18/5/20185_right_feed351.jpg",
@@ -35480,8 +35480,8 @@ var ZAPATOS = [
   "marca": "TOP MODA",
   "nombre": "TOP MODA Doha Shell Womens Sandals",
   "genero": "Mujer",
-  "precio": 42.94,
-  "precio_c": 1579,
+  "precio": 27.97,
+  "precio_c": 1029,
   "fotos": [
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwde368252/1000x1000/535/139/412/535139412.jpg?sw=350&q=100",
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw23e8f200/1000x1000/535/139/412/535139412a.jpg?sw=350&q=100"
@@ -35689,8 +35689,8 @@ var ZAPATOS = [
   "marca": "BILLABONG",
   "nombre": "BILLABONG Josie Womens Flip Flops",
   "genero": "Mujer",
-  "precio": 45.94,
-  "precio_c": 1689,
+  "precio": 29.97,
+  "precio_c": 1102,
   "fotos": [
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7741492f/1000x1000/530/750/412/530750412.jpg?sw=350&q=100",
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc3ff5513/1000x1000/530/750/412/530750412a.jpg?sw=350&q=100"
@@ -35793,8 +35793,8 @@ var ZAPATOS = [
   "marca": "REEF",
   "nombre": "REEF Seaside Twist Womens Square Toe Flip Flops",
   "genero": "Mujer",
-  "precio": 49.94,
-  "precio_c": 1836,
+  "precio": 35.59,
+  "precio_c": 1309,
   "fotos": [
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1f715970/1000x1000/542/431/151/542431151.jpg?sw=350&q=100",
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfe581798/1000x1000/542/431/151/542431151a.jpg?sw=350&q=100"
@@ -35847,8 +35847,8 @@ var ZAPATOS = [
   "marca": "GIGI",
   "nombre": "GIGI Star Thong Womens Sandals",
   "genero": "Mujer",
-  "precio": 42.94,
-  "precio_c": 1579,
+  "precio": 27.97,
+  "precio_c": 1029,
   "fotos": [
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0ddfa904/1000x1000/543/203/100/543203100.jpg?sw=350&q=100",
    "https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59af82a1/1000x1000/543/203/100/543203100a.jpg?sw=350&q=100"
@@ -42952,8 +42952,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Vomero 5 Running (Little Kid) — Photon/White",
   "genero": "Niños",
-  "precio": 102.0,
-  "precio_c": 3751,
+  "precio": 105.0,
+  "precio_c": 3861,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR4587_20001_PS034.jpg?v=1776369132",
    "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR4587_20001_PS036.jpg?v=1776369132",
@@ -47809,8 +47809,8 @@ var ZAPATOS = [
   "marca": "Nina",
   "nombre": "Larna - Silver",
   "genero": "Niños",
-  "precio": 59.99,
-  "precio_c": 2206,
+  "precio": 54.99,
+  "precio_c": 2022,
   "fotos": [
    "https://m.media-amazon.com/images/I/81SDb8zrrHL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81SDb8zrrHL._AC_SX500_.jpg",
@@ -51061,8 +51061,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Roree - Natural",
   "genero": "Niños",
-  "precio": 56.4,
-  "precio_c": 2074,
+  "precio": 49.99,
+  "precio_c": 1838,
   "fotos": [
    "https://m.media-amazon.com/images/I/716GijCN-gL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/716GijCN-gL._AC_SX500_.jpg",
