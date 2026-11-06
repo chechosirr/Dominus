@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "5 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -55978,5 +55978,5905 @@ var ZAPATOS = [
   ],
   "categoria": "Sandalias",
   "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-6337",
+  "marca": "Nike",
+  "nombre": "Nike Phantom 6 High Academy NU4 FG/MG — Multi-Color/Black",
+  "genero": "Hombre",
+  "precio": 114.99,
+  "precio_c": 4229,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighAcademyNU4Firm_MultiGroundSoccerCleats-UnitedChapter4Pack_HO26_Side1.jpg?v=1793902507",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighAcademyNU4Firm_MultiGroundSoccerCleats-UnitedChapter4Pack_HO26_Side2.jpg?v=1793902556",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighAcademyNU4Firm_MultiGroundSoccerCleats-UnitedChapter4Pack_HO26_Pair-Lateral.jpg?v=1793902322",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighAcademyNU4Firm_MultiGroundSoccerCleats-UnitedChapter4Pack_HO26_Pair-Top.jpg?v=1793902322"
+  ],
+  "descripcion": "Taco alto de la familia Phantom 6 en versión Academy, con caña alta que abraza el tobillo y placa para césped natural y artificial, listo para entrenar y jugar con control y precisión.",
+  "detalles": [
+   "Caña alta con ajuste ceñido al tobillo",
+   "Placa FG/MG para césped natural y artificial",
+   "Empeine texturizado para mejor contacto con el balón",
+   "Cierre con cordones y calce regular"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "9",
+   "9.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6338",
+  "marca": "Nike",
+  "nombre": "Nike Superfly 11 Academy NU4 FG/MG — Multi-Color/Black",
+  "genero": "Hombre",
+  "precio": 114.99,
+  "precio_c": 4229,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeSuperfly11AcademyNU4Firm_MultiGroundSoccerCleats-UnitedNU4Pack_FA26_Side1.jpg?v=1792527082",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeSuperfly11AcademyNU4Firm_MultiGroundSoccerCleats-UnitedNU4Pack_FA26_Side2.jpg?v=1792527111",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeSuperfly11AcademyNU4Firm_MultiGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Lateral.jpg?v=1792526954",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeSuperfly11AcademyNU4Firm_MultiGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Top.jpg?v=1792526954"
+  ],
+  "descripcion": "El Superfly 11 Academy con cuello alto Dynamic Fit y placa FG/MG, pensado para jugadores rápidos que buscan arranque explosivo en césped natural y artificial.",
+  "detalles": [
+   "Cuello alto Dynamic Fit que se ajusta como un calcetín",
+   "Placa FG/MG para césped natural y artificial",
+   "Unidad Zoom Air en el antepié para respuesta explosiva",
+   "Empeine ligero con textura para el control"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6339",
+  "marca": "adidas",
+  "nombre": "adidas David Beckham Predator League Fold-Over Tongue FG — Cloud White / Silver Metallic / Lucid Red",
+  "genero": "Hombre",
+  "precio": 119.99,
+  "precio_c": 4413,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidasDavidBeckhamPredatorLeagueFold-OverTongueFirmGroundSoccerCleats-DBPack_FA26_Side1.jpg?v=1791323954",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidasDavidBeckhamPredatorLeagueFold-OverTongueFirmGroundSoccerCleats-DBPack_FA26_Side2.jpg?v=1791323976",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidasDavidBeckhamPredatorLeagueFold-OverTongueFirmGroundSoccerCleats-DBPack_FA26_Lateral-Front.jpg?v=1791323860",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidasDavidBeckhamPredatorLeagueFold-OverTongueFirmGroundSoccerCleats-DBPack_FA26_Lateral-Back.jpg?v=1791323860"
+  ],
+  "descripcion": "Edición David Beckham del Predator League con lengüeta plegada clásica, empeine de malla Nanostrike y placa Strikeframe para césped natural.",
+  "detalles": [
+   "Lengüeta plegada (fold-over) estilo clásico Predator",
+   "Empeine de malla Nanostrike suave y ligero",
+   "Placa Strikeframe de longitud completa para césped natural",
+   "Tecnología Powerspine que estabiliza el mediopié"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6340",
+  "marca": "Nike",
+  "nombre": "Nike Tiempo Maestro Elite NU4 FG — Multi-Color/Black",
+  "genero": "Hombre",
+  "precio": 269.99,
+  "precio_c": 9929,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side1.jpg?v=1792454144",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side2.jpg?v=1792454166",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Lateral.jpg?v=1792453999",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Top.jpg?v=1792453999"
+  ],
+  "descripcion": "La versión Elite del Tiempo Maestro con piel premium de tacto suave y placa FG, el taco de toque clásico para dominar el balón en césped natural.",
+  "detalles": [
+   "Empeine de piel premium con tacto suave y preciso",
+   "Placa FG con tacos cónicos para césped natural",
+   "Ajuste ceñido con lengüeta adaptada al empeine",
+   "Construcción Elite de gama alta para partidos exigentes"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6341",
+  "marca": "Nike",
+  "nombre": "Nike Phantom 6 Low Elite NU4 FG — Multi-Color/Black",
+  "genero": "Hombre",
+  "precio": 279.99,
+  "precio_c": 10296,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6LowEliteNU4FirmGroundSoccerCleats-UnitedChapter4Pack_HO26_Side1.jpg?v=1793042381",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6LowEliteNU4FirmGroundSoccerCleats-UnitedChapter4Pack_HO26_Side2.jpg?v=1793042416",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6LowEliteNU4FirmGroundSoccerCleats-UnitedChapter4Pack_HO26_Pair-Lateral.jpg?v=1793042205",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6LowEliteNU4FirmGroundSoccerCleats-UnitedChapter4Pack_HO26_Pair-Top.jpg?v=1793042205"
+  ],
+  "descripcion": "El Phantom 6 Low Elite con empeine de agarre y placa FG, diseñado para giros rápidos y disparos con efecto en césped natural.",
+  "detalles": [
+   "Empeine texturizado de agarre para giros y disparos con efecto",
+   "Placa FG para césped natural",
+   "Perfil bajo con ajuste preciso al pie",
+   "Versión Elite de gama alta del Phantom 6"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6342",
+  "marca": "Nike",
+  "nombre": "Nike Vapor 17 Elite NU4 FG — Multi-Color/Black",
+  "genero": "Hombre",
+  "precio": 279.99,
+  "precio_c": 10296,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeVapor17EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side1.jpg?v=1792521017",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeVapor17EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side2.jpg?v=1792521045",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeVapor17EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Lateral.jpg?v=1792520875",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeVapor17EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Top.jpg?v=1792520875"
+  ],
+  "descripcion": "El Vapor 17 Elite, el taco más rápido de Nike, con empeine ultraligero y unidad Zoom Air para velocidad máxima en césped natural.",
+  "detalles": [
+   "Empeine ultraligero con malla de precisión",
+   "Unidad Zoom Air para impulso en cada arranque",
+   "Placa FG con tacos para césped natural",
+   "Ajuste ceñido de competición"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6343",
+  "marca": "Nike",
+  "nombre": "Nike Phantom 6 High Elite NU4 FG — Multi-Color/Black",
+  "genero": "Hombre",
+  "precio": 304.99,
+  "precio_c": 11216,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side1.jpg?v=1792442204",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side2.jpg?v=1792442222",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Lateral.jpg?v=1792442038",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikePhantom6HighEliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Top.jpg?v=1792442038"
+  ],
+  "descripcion": "El Phantom 6 High Elite con caña alta, empeine de agarre y placa FG, la versión más completa del Phantom para control total en césped natural.",
+  "detalles": [
+   "Caña alta con ajuste ceñido al tobillo",
+   "Empeine texturizado para control y efecto",
+   "Placa FG para césped natural",
+   "Versión Elite de gama alta con acabados premium"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6344",
+  "marca": "Nike",
+  "nombre": "Nike Zoom Superfly 11 Elite FG — Shadow Pack (Black / Illusion Green-Black)",
+  "genero": "Hombre",
+  "precio": 304.99,
+  "precio_c": 11216,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteFirmGroundSoccerCleats-ShadowPack_FA26_Side1.jpg?v=1793037830",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteFirmGroundSoccerCleats-ShadowPack_FA26_Side2.jpg?v=1793037855",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteFirmGroundSoccerCleats-ShadowPack_FA26_Pair-Lateral.jpg?v=1793037705",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteFirmGroundSoccerCleats-ShadowPack_FA26_Pair-Top.jpg?v=1793037706"
+  ],
+  "descripcion": "El Superfly 11 Elite del Shadow Pack en negro con detalles verdes, con cuello Dynamic Fit y Zoom Air para velocidad de élite en césped natural.",
+  "detalles": [
+   "Cuello alto Dynamic Fit tipo calcetín",
+   "Unidad Zoom Air en el antepié",
+   "Placa FG para césped natural",
+   "Colorway Shadow Pack en negro y verde ilusión"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6345",
+  "marca": "Nike",
+  "nombre": "Nike Zoom Superfly 11 Elite NU4 FG — Multi-Colour/Black",
+  "genero": "Hombre",
+  "precio": 314.99,
+  "precio_c": 11583,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side1.jpg?v=1792436903",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Side2.jpg?v=1792436926",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Lateral.jpg?v=1792436741",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeZoomSuperfly11EliteNU4FirmGroundSoccerCleats-UnitedNU4Pack_FA26_Pair-Top.jpg?v=1792436741"
+  ],
+  "descripcion": "El Superfly 11 Elite NU4 con cuello alto y placa FG, el taco de velocidad tope de gama de Nike para césped natural.",
+  "detalles": [
+   "Cuello alto Dynamic Fit que abraza el tobillo",
+   "Unidad Zoom Air para arranque explosivo",
+   "Placa FG con tacos para césped natural",
+   "Empeine ligero de ajuste de competición"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "10"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6346",
+  "marca": "Nike",
+  "nombre": "Nike Tiempo Ligera Pro FG — Safety Orange/White",
+  "genero": "Hombre",
+  "precio": 167.99,
+  "precio_c": 6178,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006027_main.jpg?v=1793924256",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006027_gallery_1.jpg?v=1793924256",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006027_gallery_2.jpg?v=1793924256",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006027_gallery_3.jpg?v=1793924256"
+  ],
+  "descripcion": "El Tiempo Ligera Pro en naranja intenso, un taco ligero de piel sintética suave con placa FG para partidos rápidos en césped natural.",
+  "detalles": [
+   "Empeine suave de tacto similar a la piel",
+   "Placa FG para césped natural",
+   "Perfil ligero para moverse con libertad",
+   "Cierre con cordones y calce cómodo"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6347",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Magnetico Pro 6.0 FG — White / Metallic Copper Ore / White",
+  "genero": "Hombre",
+  "precio": 177.99,
+  "precio_c": 6545,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000425_main.jpg?v=1793358937",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000425_gallery_1.jpg?v=1793358937",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000425_gallery_2.jpg?v=1793358937",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000425_gallery_3.jpg?v=1793358937"
+  ],
+  "descripcion": "El Magnetico Pro 6.0 de Under Armour en blanco con cobre metálico, con empeine de control y placa FG para dominio en césped natural.",
+  "detalles": [
+   "Empeine con textura de control para el balón",
+   "Placa FG para césped natural",
+   "Ajuste ceñido con soporte en el mediopié",
+   "Diseño Pro de gama media-alta"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6348",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Shadow Pro 4.0 FG — Midnight Navy / White / Metallic Copper Ore",
+  "genero": "Hombre",
+  "precio": 177.99,
+  "precio_c": 6545,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000417_main.jpg?v=1793922219",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000417_gallery_1.jpg?v=1793922219",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000417_gallery_2.jpg?v=1793922219",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000417_gallery_3.jpg?v=1793922219"
+  ],
+  "descripcion": "El Shadow Pro 4.0 en azul medianoche, un taco ligero y rápido con placa FG para jugadores explosivos en césped natural.",
+  "detalles": [
+   "Empeine ligero y transpirable",
+   "Placa FG para césped natural",
+   "Ajuste ceñido para velocidad",
+   "Colorway azul medianoche con cobre metálico"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6349",
+  "marca": "Nike",
+  "nombre": "Nike Phantom 6 High Pro FG — Brt Crimson / Blur / Black",
+  "genero": "Hombre",
+  "precio": 187.99,
+  "precio_c": 6913,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4002170_main.jpg?v=1793911390",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4002170_gallery_1.jpg?v=1793911390",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4002170_gallery_2.jpg?v=1793911390",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4002170_gallery_3.jpg?v=1793911390"
+  ],
+  "descripcion": "El Phantom 6 High Pro en rojo brillante, con caña alta y empeine de agarre para control y disparos con efecto en césped natural.",
+  "detalles": [
+   "Caña alta con ajuste al tobillo",
+   "Empeine texturizado para control del balón",
+   "Placa FG para césped natural",
+   "Versión Pro con gran relación calidad-precio"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6350",
+  "marca": "Puma",
+  "nombre": "Puma Ultra Nitro 7 Ultimate Hyper Rush FG — Puma White / Dark Amethyst / Lapis Lazuli / Electric Peppermint",
+  "genero": "Hombre",
+  "precio": 277.99,
+  "precio_c": 10223,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000586_main.jpg?v=1793358821",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000586_gallery_1.jpg?v=1793358821",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000586_gallery_2.jpg?v=1793358821",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000586_gallery_3.jpg?v=1793358821"
+  ],
+  "descripcion": "El Ultra Nitro 7 Ultimate Hyper Rush de Puma, el taco de velocidad tope de gama con placa FG y colores vibrantes para césped natural.",
+  "detalles": [
+   "Empeine ultraligero con tecnología Nitro",
+   "Placa FG con tacos para césped natural",
+   "Ajuste ceñido de competición",
+   "Colorway Hyper Rush en blanco y tonos violeta y menta"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6351",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Shadow Elite 4.0 Mach FG — Midnight Navy / White / Metallic Copper Ore",
+  "genero": "Hombre",
+  "precio": 292.99,
+  "precio_c": 10774,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000415_main.jpg?v=1793358699",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000415_gallery_1.jpg?v=1793358699",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000415_gallery_2.jpg?v=1793358699",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4000415_gallery_3.jpg?v=1793358699"
+  ],
+  "descripcion": "El Shadow Elite 4.0 Mach en azul medianoche, la versión de élite del Shadow con placa FG para máxima velocidad en césped natural.",
+  "detalles": [
+   "Empeine de élite ultraligero",
+   "Placa FG con tacos de velocidad para césped natural",
+   "Ajuste de competición ceñido al pie",
+   "Tecnología Mach para arranque explosivo"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6352",
+  "marca": "Nike",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Elite FG — Multi-Color/Black",
+  "genero": "Hombre",
+  "precio": 297.99,
+  "precio_c": 10958,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006001_main.jpg?v=1793912808",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006001_gallery_1.jpg?v=1793912808",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006001_gallery_2.jpg?v=1793912808",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/4006001_gallery_3.jpg?v=1793912808"
+  ],
+  "descripcion": "El Mercurial Vapor XVII Elite con unidad Zoom Air y empeine de velocidad, el clásico de Nike para los más rápidos en césped natural.",
+  "detalles": [
+   "Unidad Air Zoom en el antepié para impulso",
+   "Empeine ligero con malla de precisión",
+   "Placa FG para césped natural",
+   "Ajuste ceñido de élite"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-6353",
+  "marca": "Timberland PRO",
+  "nombre": "Timberland PRO Boondock 6\" Composite Safety Toe Waterproof — Black",
+  "genero": "Hombre",
+  "precio": 179.95,
+  "precio_c": 6617,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81xC6D8haIL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/91J3Qe0yBBL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81Cg0GdXPDL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/91hEgKSgCfL._SX700_.jpg"
+  ],
+  "descripcion": "Bota de trabajo impermeable de 6 pulgadas con puntera de seguridad de composite, cuero resistente al agua y tecnología Anti-Fatigue para jornadas largas.",
+  "detalles": [
+   "Cuero impermeable con membrana para pies secos",
+   "Puntera de seguridad de composite (ASTM I/75 y C/75)",
+   "Plantilla Anti-Fatigue de doble densidad que absorbe impactos",
+   "Construcción Goodyear welt de tres cuartos para durabilidad"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6354",
+  "marca": "Dr. Martens",
+  "nombre": "Dr. Martens 1460 Pascal Bex — Black Pisa",
+  "genero": "Hombre",
+  "precio": 159.95,
+  "precio_c": 5882,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61cMTxUKupL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/51vwjMaQR3L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61jRM4zDf9L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71+VopZ6V1L._SX700_.jpg"
+  ],
+  "descripcion": "La clásica bota 1460 de ocho ojales en piel Hydro suave con acabado mate y suela Bex, con la costura amarilla inconfundible de Dr. Martens.",
+  "detalles": [
+   "Piel Hydro suave con acabado mate",
+   "Ocho ojales con costura amarilla en el ribete",
+   "Suela AirWair con cámara de aire amortiguadora",
+   "Construcción Goodyear welt para larga duración"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6355",
+  "marca": "Laredo",
+  "nombre": "Laredo Helix — Brown",
+  "genero": "Hombre",
+  "precio": 194.95,
+  "precio_c": 7169,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8077_1l.jpg?v=1793851750",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8077_2l.jpg?v=1793851751",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8077_3l.jpg?v=1793851750",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8077_4l.jpg?v=1793851751"
+  ],
+  "descripcion": "Bota vaquera de cuero con caña de 11 pulgadas, puntera cuadrada ancha y tacón stockman, con plantilla ortopédica removible para comodidad todo el día.",
+  "detalles": [
+   "Cuero con caña de 11 pulgadas",
+   "Puntera cuadrada ancha y tacón stockman",
+   "Plantilla ortopédica removible",
+   "Suela Tri-Tech de goma y EVA, ligera y con agarre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6356",
+  "marca": "Dan Post",
+  "nombre": "Dan Post Forge — Brown",
+  "genero": "Hombre",
+  "precio": 304.95,
+  "precio_c": 11214,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5295_1l.jpg?v=1793851547",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5295_2l.jpg?v=1793851547",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5295_3l.jpg?v=1793851547",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5295_4l.jpg?v=1793851547"
+  ],
+  "descripcion": "Bota vaquera robusta de cuero con caña de 13 pulgadas, puntera cuadrada ancha y suela Diamond Pro Flex, hecha para durar y rendir todo el día.",
+  "detalles": [
+   "Cuero con caña de 13 pulgadas",
+   "Puntera cuadrada ancha con estampado suroeste",
+   "Plantilla Soft Strike removible",
+   "Suela Diamond Pro Flex con construcción de ribete (welt)"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6357",
+  "marca": "Laredo",
+  "nombre": "Laredo Alloy — Brown",
+  "genero": "Hombre",
+  "precio": 194.95,
+  "precio_c": 7169,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8078_1l.jpg?v=1793851575",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8078_2l.jpg?v=1793851575",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8078_3l.jpg?v=1793851575",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/8078_4l.jpg?v=1793851574"
+  ],
+  "descripcion": "Bota vaquera ligera de la serie Tri-Tech con caña de 11 pulgadas y puntera cuadrada, con suela de doble densidad que absorbe impactos sin peso extra.",
+  "detalles": [
+   "Cuero con caña de 11 pulgadas",
+   "Puntera cuadrada ancha y tacón stockman",
+   "Plantilla ortopédica removible",
+   "Suela Tri-Tech ligera con entresuela EVA de doble densidad"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6358",
+  "marca": "Dan Post",
+  "nombre": "Dan Post Weston — Black",
+  "genero": "Hombre",
+  "precio": 339.95,
+  "precio_c": 12501,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5316_1l.jpg?v=1793851417",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5316_2l.jpg?v=1793851417",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5316_3l.jpg?v=1793851417",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5316_4l.jpg?v=1793851418"
+  ],
+  "descripcion": "Bota vaquera negra con estampado inspirado en el pirarucú, caña de 12 pulgadas y puntera cuadrada, con plantilla Soft Strike y suela de cuero.",
+  "detalles": [
+   "Cuero negro con estampado tipo pirarucú",
+   "Caña de 12 pulgadas y puntera cuadrada ancha",
+   "Plantilla Soft Strike removible",
+   "Suela de cuero duradera con tacón stockman"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6359",
+  "marca": "Dan Post",
+  "nombre": "Dan Post Frenchie — Brown",
+  "genero": "Hombre",
+  "precio": 354.95,
+  "precio_c": 13053,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP7141_1l.jpg?v=1793851380",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP7141_2l.jpg?v=1793851380",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP7141_3l.jpg?v=1793851380",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP7141_4l.jpg?v=1793851380"
+  ],
+  "descripcion": "Bota vaquera clásica de cuero con caña alta de 13 pulgadas y silueta refinada, con plantilla Soft Strike y suela de cuero de carácter auténtico.",
+  "detalles": [
+   "Cuero con caña de 13 pulgadas",
+   "Puntera tradicional y tacón vaquero",
+   "Plantilla Soft Strike removible",
+   "Suela de cuero con acabado clásico"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6360",
+  "marca": "Dan Post",
+  "nombre": "Dan Post Livingston Full Quill Ostrich — Brown",
+  "genero": "Hombre",
+  "precio": 544.95,
+  "precio_c": 20040,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5289_1l.jpg?v=1793851303",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5289_2l.jpg?v=1793851303",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5289_3l.jpg?v=1793851303",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5289_4l.jpg?v=1793851303"
+  ],
+  "descripcion": "Bota vaquera de piel de avestruz de caña completa con caña de 11 pulgadas y puntera cuadrada afinada, con plantilla Soft Strike y suela mixta de goma y cuero.",
+  "detalles": [
+   "Piel de avestruz (full quill) premium",
+   "Caña de 11 pulgadas y puntera cuadrada afinada",
+   "Plantilla Soft Strike removible",
+   "Suela de goma y cuero con tacón stockman"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6361",
+  "marca": "Dan Post",
+  "nombre": "Dan Post Marsh Caiman — Brown",
+  "genero": "Hombre",
+  "precio": 634.95,
+  "precio_c": 23350,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5313_1l.jpg?v=1793851278",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5313_2l.jpg?v=1793851278",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5313_3l.jpg?v=1793851278",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/DP5313_4l.jpg?v=1793851278"
+  ],
+  "descripcion": "Bota vaquera de piel exótica de caimán bay apache con caña de cuero marrón de 12 pulgadas, puntera ancha y suela ROM2 de goma y cuero.",
+  "detalles": [
+   "Pie de piel de caimán bay apache",
+   "Caña de cuero marrón de 12 pulgadas",
+   "Puntera ancha y tacón stockman",
+   "Plantilla Soft Strike removible y suela ROM2 de goma y cuero"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6362",
+  "marca": "Blundstone",
+  "nombre": "Blundstone Originals Chelsea 500 — Brown",
+  "genero": "Hombre",
+  "precio": 219.95,
+  "precio_c": 8088,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/500-BRN_1l.jpg?v=1793356735",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/500-BRN_2l.jpg?v=1793356735",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/500-BRN_3l.jpg?v=1793356735",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/500-BRN_4l.jpg?v=1793356735"
+  ],
+  "descripcion": "La chelsea original de Blundstone en cuero marrón, con elásticos laterales y suela resistente, un clásico icónico hecho para durar.",
+  "detalles": [
+   "Cuero premium con elásticos laterales",
+   "Diseño chelsea sin cordones de fácil calce",
+   "Suela duradera con gran agarre",
+   "El modelo original 500, un icono desde 1870"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-6363",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Beck Leather Bit Loafer — Tan",
+  "genero": "Hombre",
+  "precio": 118.75,
+  "precio_c": 4367,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61CP18uDKrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61KMHUklwEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/6178xyLVYeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Z64KfnHML._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín con hebilla metálica, clásico de vestir en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Hebilla metálica discreta en el empeine",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6364",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Jackson Plain Toe Oxford — Tan",
+  "genero": "Hombre",
+  "precio": 118.0,
+  "precio_c": 4339,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61D6bXX3vRL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/618oRgmuTZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61jub2NCSCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Qj02RWD8L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Oxford clásico de vestir en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Cierre con cordones para un ajuste seguro",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6365",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Tucker Venetian — Tan",
+  "genero": "Hombre",
+  "precio": 107.5,
+  "precio_c": 3953,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71qgoHyk5IL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61IjvFZkKIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71r3zVtAhdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61LIbxfKhzL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín veneciano clásico de vestir en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Empeine liso sin adornos, silueta pulida",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6366",
+  "marca": "Polo Ralph Lauren",
+  "nombre": "Polo Ralph Lauren Oslo Chelsea Boot — Black",
+  "genero": "Hombre",
+  "precio": 168.0,
+  "precio_c": 6178,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71GtMOpOnsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71vAezsQVVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61xpX8jeeBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713rqCzThqL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bota chelsea de vestir con elásticos laterales en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Elásticos laterales para calzarla sin esfuerzo",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6367",
+  "marca": "BOSS",
+  "nombre": "BOSS Sienne Moccasins — Black",
+  "genero": "Hombre",
+  "precio": 209.0,
+  "precio_c": 7686,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71mzu0m0oeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711AplC95mL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71a7cGFhWeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/814mqdLBKtL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6368",
+  "marca": "A.Veer",
+  "nombre": "A.Veer Jasper Penny Loafers — Black",
+  "genero": "Hombre",
+  "precio": 148.99,
+  "precio_c": 5479,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71pISHvkUNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71vBwT0xowL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/91FoXNQGmAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81McD2lbUWL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín penny clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Detalle penny en el empeine, sin cordones",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6369",
+  "marca": "Peter Millar",
+  "nombre": "Peter Millar Excursionist Nubuck Venetian Loafers — Navy",
+  "genero": "Hombre",
+  "precio": 210.0,
+  "precio_c": 7723,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61sbyKaYVbL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Ahz9O670L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/612LQdgSCnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pxccoBCoL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín veneciano clásico de vestir en nubuck color azul marino, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de nubuck",
+   "Empeine liso sin adornos, silueta pulida",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6370",
+  "marca": "Marc Joseph New York",
+  "nombre": "Marc Joseph New York Joseph Street Loafer (Hands-Free Technology) — Brown",
+  "genero": "Hombre",
+  "precio": 169.95,
+  "precio_c": 6250,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71uXjdaeB7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ucwVs7IxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61QG0lm0c7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71yXuGnGkxL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6371",
+  "marca": "ECCO",
+  "nombre": "ECCO New Jersey Slip-On — Black",
+  "genero": "Hombre",
+  "precio": 122.43,
+  "precio_c": 4502,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61IPxK8obLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71UhyRXoikL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71S7sxSQ8TL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Vugy2NLGL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6372",
+  "marca": "AllSaints",
+  "nombre": "AllSaints Blossom Loafers — Black",
+  "genero": "Hombre",
+  "precio": 241.0,
+  "precio_c": 8863,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71eyZLvTENL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qvZCZF4GL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7194bNlCFvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/718nQ9yY8DL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6373",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Langford Plain Toe Oxford — Tan",
+  "genero": "Hombre",
+  "precio": 117.27,
+  "precio_c": 4312,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71EkCW8JyuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71EmdTy6AtL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71aBzTOdT1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71JMRn5iL2L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Oxford clásico de vestir en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Cierre con cordones para un ajuste seguro",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6374",
+  "marca": "COACH",
+  "nombre": "COACH Dalton Chelsea Boot — Tan",
+  "genero": "Hombre",
+  "precio": 157.5,
+  "precio_c": 5792,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61s4GKestwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/517zHY0g1IL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ry4CIGf3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61IPxK8obLL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bota chelsea de vestir con elásticos laterales en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Elásticos laterales para calzarla sin esfuerzo",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6375",
+  "marca": "Frye",
+  "nombre": "Frye Lewis Venetian — Brown",
+  "genero": "Hombre",
+  "precio": 168.0,
+  "precio_c": 6178,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/819Ijhk61LL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71XgVT1X4xL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/717xhpZgXoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71nBhlyXFDL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín veneciano clásico de vestir en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Empeine liso sin adornos, silueta pulida",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6376",
+  "marca": "Taft",
+  "nombre": "Taft Jack Penny Loafers — Burgundy",
+  "genero": "Hombre",
+  "precio": 246.0,
+  "precio_c": 9046,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/712C9cXKhiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YyNKiW55L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71b6ihENmcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71NEGxUmC4L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín penny clásico de vestir en cuero color burdeos, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Detalle penny en el empeine, sin cordones",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6377",
+  "marca": "Nunn Bush",
+  "nombre": "Nunn Bush Otto Plain Toe Oxford — Gray",
+  "genero": "Hombre",
+  "precio": 109.0,
+  "precio_c": 4008,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/717SwzTwnTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Hdtujd87L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Cl1Y53VDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71OomnU2ATL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Oxford clásico de vestir en cuero color gris, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Cierre con cordones para un ajuste seguro",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6378",
+  "marca": "Vince",
+  "nombre": "Vince Sonoma Slip-On Loafers — Brown",
+  "genero": "Hombre",
+  "precio": 145.0,
+  "precio_c": 5332,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81ULdOlkXmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71t2tEFMgDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/910zaltWf6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81mMwKH6APL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en gamuza color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de gamuza",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6379",
+  "marca": "SAS",
+  "nombre": "SAS Venetian — Black",
+  "genero": "Hombre",
+  "precio": 228.95,
+  "precio_c": 8419,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81vYpp3dyGL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711xLoPcJxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81OmPJhZjHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81DJapDgC2L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín veneciano clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Empeine liso sin adornos, silueta pulida",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6380",
+  "marca": "Wolf & Shepherd",
+  "nombre": "Wolf & Shepherd Coast Venetian — Beige",
+  "genero": "Hombre",
+  "precio": 185.0,
+  "precio_c": 6803,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61rvWWbK9aL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Y9fn0gzoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61c9Ll6IZPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/619NTcXZ7PL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín veneciano clásico de vestir en cuero color beige, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Empeine liso sin adornos, silueta pulida",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6381",
+  "marca": "Anthony Veer",
+  "nombre": "Anthony Veer Torino Bit Loafers — Brown",
+  "genero": "Hombre",
+  "precio": 288.99,
+  "precio_c": 10627,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61VE6Q11zsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Ioe5MP7pL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/717FMaRNEVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71EOJBPGgNL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín con hebilla metálica, clásico de vestir en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Hebilla metálica discreta en el empeine",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6382",
+  "marca": "FRYE AND CO.",
+  "nombre": "FRYE AND CO. Hank Chelsea — Brown",
+  "genero": "Hombre",
+  "precio": 209.99,
+  "precio_c": 7722,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61vp7Lnid4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71UAtstSgIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71beuRDwo4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Ki58gOsaL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bota chelsea de vestir con elásticos laterales en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Elásticos laterales para calzarla sin esfuerzo",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6383",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Emmett Penny — Tan",
+  "genero": "Hombre",
+  "precio": 129.9,
+  "precio_c": 4777,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71sdUbnSpTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71CpvlLSr6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YxY2PRb6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71zYSqB5GlL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín penny clásico de vestir en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Detalle penny en el empeine, sin cordones",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6384",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rucci Moc Toe Penny Loafer — Tan",
+  "genero": "Hombre",
+  "precio": 119.99,
+  "precio_c": 4413,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71IicvecrvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pCMhfYhYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ICmEQhJnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71QxRRtZI4L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín penny clásico de vestir en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Detalle penny en el empeine, sin cordones",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6385",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Brower Moc Loafers — Brown",
+  "genero": "Hombre",
+  "precio": 110.8,
+  "precio_c": 4075,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61RP0qD5PNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719wJ4Xc7rL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61nNa3yQ9WL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61IPxK8obLL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6386",
+  "marca": "Polo Ralph Lauren",
+  "nombre": "Polo Ralph Lauren Bryson Chelsea Boot — Brown",
+  "genero": "Hombre",
+  "precio": 169.6,
+  "precio_c": 6237,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71A5NOzWp2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61cVyiWVkxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/712CIyia1pL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/613EcWBmmRL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bota chelsea de vestir con elásticos laterales en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Elásticos laterales para calzarla sin esfuerzo",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6387",
+  "marca": "BOSS",
+  "nombre": "BOSS Tayil Derby Shoes — Brown",
+  "genero": "Hombre",
+  "precio": 209.0,
+  "precio_c": 7686,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71YxXjYjfxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71J3w6X1rCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71BFyDnzm7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Si1BEuazL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Derby clásico de vestir en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Cierre con cordones para un ajuste seguro",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6388",
+  "marca": "A.Veer",
+  "nombre": "A.Veer Mason Penny Loafers — Black",
+  "genero": "Hombre",
+  "precio": 158.99,
+  "precio_c": 5847,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71I14FeTNDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71naBYKeM2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71dXbVWTyfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81AKVAGLiTL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín penny clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Detalle penny en el empeine, sin cordones",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6389",
+  "marca": "Peter Millar",
+  "nombre": "Peter Millar Crown Leather Bit Loafers — Brown",
+  "genero": "Hombre",
+  "precio": 260.0,
+  "precio_c": 9561,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61mWiaUSFqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Hu3d7HH3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713BhcJJedL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61urYQKHIOL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín con hebilla metálica, clásico de vestir en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Hebilla metálica discreta en el empeine",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6390",
+  "marca": "Marc Joseph New York",
+  "nombre": "Marc Joseph New York Chicago Road Loafers (Hands-Free Technology) — Black",
+  "genero": "Hombre",
+  "precio": 185.0,
+  "precio_c": 6803,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71BS9vuWYiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71CTSqhYmeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710EGq0S44L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714sSxbYHHL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6391",
+  "marca": "ECCO",
+  "nombre": "ECCO Dress Moc — Black",
+  "genero": "Hombre",
+  "precio": 194.95,
+  "precio_c": 7169,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61BBKRbnVyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615ohXlHJfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710J7YkvP4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615e75pOLCL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6392",
+  "marca": "AllSaints",
+  "nombre": "AllSaints Clive Chelsea Boots — Black",
+  "genero": "Hombre",
+  "precio": 309.0,
+  "precio_c": 11363,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71CmVzK7EvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71QrrWjzXuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71IgPi9ZHkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/813UVGnHi3L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bota chelsea de vestir con elásticos laterales en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Elásticos laterales para calzarla sin esfuerzo",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6393",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Kaylor Penny Slip-On Loafer — Black",
+  "genero": "Hombre",
+  "precio": 127.0,
+  "precio_c": 4670,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71iUBeDNdzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71LPO3Y19IL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61nm8dl358L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lHkiJcyfL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín penny clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Detalle penny en el empeine, sin cordones",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6394",
+  "marca": "COACH",
+  "nombre": "COACH Soft Loafers — Brown",
+  "genero": "Hombre",
+  "precio": 185.0,
+  "precio_c": 6803,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71L2cf0hStL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/816iGPcE6NL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71xYQlwub8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81lvwD39YIL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín clásico de vestir en cuero color marrón, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Estilo sin cordones, fácil de poner y quitar",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6395",
+  "marca": "Carlos by Carlos Santana",
+  "nombre": "Carlos by Carlos Santana Pulse Tassel Loafers — Tan",
+  "genero": "Hombre",
+  "precio": 178.99,
+  "precio_c": 6582,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71XhXQui6yL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71sjFBUxnML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61N41LLDEJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/91dslwb40fL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín con borlas, clásico de vestir en cuero color canela, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Borlas decorativas en el empeine",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6396",
+  "marca": "Frye",
+  "nombre": "Frye Paul Venetian — Black",
+  "genero": "Hombre",
+  "precio": 179.2,
+  "precio_c": 6590,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/619zFfDsZKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61TFYmpe6kL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714zBLhVn7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/718JteGu84L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín veneciano clásico de vestir en cuero color negro, de silueta sobria y pulida. Ideal para la oficina y ocasiones formales, combina con pantalones de vestir y trajes.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Empeine liso sin adornos, silueta pulida",
+   "Suela de goma con buena tracción",
+   "Punta redondeada clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6397",
+  "marca": "Clarks",
+  "nombre": "Clarks Monahan Oxford — Marrón",
+  "genero": "Hombre",
+  "precio": 139.0,
+  "precio_c": 5112,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/26179977_1l.jpg?v=1789045607",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/26179977_2l.jpg?v=1789045607",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/26179977_3l.jpg?v=1789045607",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/26179977_4l.jpg?v=1789045607"
+  ],
+  "descripcion": "Oxford de vestir de cuero liso con plantilla anatómica que acompaña todo el día, de líneas limpias y acabado pulido.",
+  "detalles": [
+   "Empeine de cuero liso",
+   "Plantilla anatómica para comodidad todo el día",
+   "Suela antideslizante",
+   "Silueta clásica de vestir"
+  ],
+  "tallas": [
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6398",
+  "marca": "Frye",
+  "nombre": "Frye Chris Venetian Loafers — Marrón",
+  "genero": "Hombre",
+  "precio": 288.0,
+  "precio_c": 10591,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR41890-CHOC_1l.jpg?v=1780740863",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR41890-CHOC_2l.jpg?v=1780740863",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR41890-CHOC_3l.jpg?v=1780740863",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR41890-CHOC_4l.jpg?v=1780740863"
+  ],
+  "descripcion": "Mocasín veneciano de cuero flexible con diseño estilizado, pensado para pasar del trabajo al fin de semana sin cambiar de zapatos.",
+  "detalles": [
+   "Cuero flexible que gana carácter con el uso",
+   "Diseño veneciano sin adornos, de líneas limpias",
+   "Calce slip-on cómodo",
+   "Estilo clásico de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6399",
+  "marca": "Frye",
+  "nombre": "Frye Paul Oxford Lite — Beige",
+  "genero": "Hombre",
+  "precio": 198.0,
+  "precio_c": 7281,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR42183-MUSH_1l.jpg?v=1788583651",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR42183-MUSH_2l.jpg?v=1788583650",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR42183-MUSH_3l.jpg?v=1788583651",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR42183-MUSH_4l.jpg?v=1788583651"
+  ],
+  "descripcion": "Oxford de cordones en cuero premium con construcción Goodyear y plantilla acolchada, ligero y hecho para el uso diario elegante.",
+  "detalles": [
+   "Cuero premium",
+   "Construcción Goodyear cosida",
+   "Plantilla acolchada",
+   "Acabado ligero para todo el día"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6400",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Brady Oxford — Negro",
+  "genero": "Hombre",
+  "precio": 198.95,
+  "precio_c": 7316,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4695_1l.jpg?v=1792151747",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4695_2l.jpg?v=1792151747",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4695_3l.jpg?v=1792151747",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4695_4l.jpg?v=1792151747"
+  ],
+  "descripcion": "Oxford de punta lisa en cuero con puntera más amplia y suela con presencia, una opción de vestir sofisticada y actual.",
+  "detalles": [
+   "Empeine de cuero",
+   "Puntera amplia y cómoda",
+   "Suela con mayor presencia",
+   "Diseño de vestir sofisticado"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6401",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Cort 2.0 Bit Loafer — Marrón",
+  "genero": "Hombre",
+  "precio": 125.97,
+  "precio_c": 4632,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4141_1l.jpg?v=1792861857",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4141_2l.jpg?v=1792861857",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4141_3l.jpg?v=1792861857",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4141_4l.jpg?v=1792861857"
+  ],
+  "descripcion": "Mocasín de cuero de plena flor con detalle metálico y construcción mocasín cosida a mano, clásico por fuera y cómodo por dentro.",
+  "detalles": [
+   "Cuero de plena flor",
+   "Detalle metálico (bit) en el empeine",
+   "Construcción mocasín cosida a mano",
+   "Calce flexible tipo slip-on"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6402",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Cort Ven Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 168.95,
+  "precio_c": 6213,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-6405_1l.jpg?v=1789006317",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-6405_2l.jpg?v=1789006317",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-6405_3l.jpg?v=1789006317",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-6405_4l.jpg?v=1789006317"
+  ],
+  "descripcion": "Mocasín veneciano de cuero con construcción mocasín genuina y suela acolchada, un slip-on elegante de líneas limpias.",
+  "detalles": [
+   "Empeine de cuero",
+   "Construcción mocasín genuina",
+   "Suela acolchada de cobertura completa",
+   "Diseño veneciano sin adornos"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6403",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Elston Penny Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 149.9,
+  "precio_c": 5512,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04863_1l.jpg?v=1792094169",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04863_2l.jpg?v=1792094169",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04863_3l.jpg?v=1792094169",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04863_4l.jpg?v=1792094168"
+  ],
+  "descripcion": "Mocasín penny de cuero premium con puntera mocasín tradicional, la elegancia clásica con comodidad para todos los días.",
+  "detalles": [
+   "Empeine de cuero premium",
+   "Puntera mocasín tradicional",
+   "Ranura penny clásica",
+   "Silueta baja de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6404",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Gibbons Embossed Loafers — Marrón",
+  "genero": "Hombre",
+  "precio": 148.95,
+  "precio_c": 5477,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8404_1l.jpg?v=1782904479",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8404_2l.jpg?v=1782904479",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8404_3l.jpg?v=1782904480",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8404_4l.jpg?v=1782904479"
+  ],
+  "descripcion": "Mocasín de cuero con relieve y plantilla acolchada, un slip-on versátil que se viste igual con traje que con ropa informal elegante.",
+  "detalles": [
+   "Empeine de cuero con relieve",
+   "Plantilla acolchada",
+   "Calce slip-on sin esfuerzo",
+   "Estilo versátil de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6405",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Gibbons Embossed Penny Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 148.95,
+  "precio_c": 5477,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8408_1l.jpg?v=1788589986",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8408_2l.jpg?v=1788589985",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8408_3l.jpg?v=1788589985",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8408_4l.jpg?v=1788589985"
+  ],
+  "descripcion": "Mocasín penny de cuero de plena flor con relieve refinado y puntera mocasín, sofisticación clásica con comodidad moderna.",
+  "detalles": [
+   "Cuero de plena flor con relieve",
+   "Ranura penny clásica",
+   "Puntera mocasín cosida",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "10",
+   "10.5",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6406",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Gibbons Oxford Cap Toe — Marrón",
+  "genero": "Hombre",
+  "precio": 148.95,
+  "precio_c": 5477,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8665_1l.jpg?v=1788403496",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8665_2l.jpg?v=1788403497",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8665_3l.jpg?v=1788403497",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8665_4l.jpg?v=1788403497"
+  ],
+  "descripcion": "Oxford de punta reforzada en cuero de plena flor, de forma afilada y atractivo sobrio: un básico de vestir imprescindible.",
+  "detalles": [
+   "Cuero de plena flor",
+   "Puntera reforzada (cap toe)",
+   "Plantilla extraíble acolchada",
+   "Silueta afilada de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6407",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Hayes Penny Loafer — Rojo",
+  "genero": "Hombre",
+  "precio": 139.9,
+  "precio_c": 5145,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1093_1l.jpg?v=1792063211",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1093_2l.jpg?v=1792063211",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1093_3l.jpg?v=1792063211",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1093_4l.jpg?v=1792063211"
+  ],
+  "descripcion": "Mocasín penny de cuero premium con tira penny y puntera mocasín cosida, en un rojo festivo que viste cualquier conjunto.",
+  "detalles": [
+   "Cuero premium",
+   "Tira penny clásica",
+   "Puntera mocasín cosida",
+   "Color rojo de acento festivo"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6408",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Hayes Penny Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 139.9,
+  "precio_c": 5145,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1091_1l.jpg?v=1789339074",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1091_2l.jpg?v=1789339074",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1091_3l.jpg?v=1789339074",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-1091_4l.jpg?v=1789339074"
+  ],
+  "descripcion": "Mocasín penny de cuero premium con tira penny y puntera mocasín cosida, el clásico de vestir que siempre se ve impecable.",
+  "detalles": [
+   "Cuero premium",
+   "Tira penny clásica",
+   "Puntera mocasín cosida",
+   "Acabado pulido de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6409",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Irving Runoff Slip-On Loafer — Marrón",
+  "genero": "Hombre",
+  "precio": 109.9,
+  "precio_c": 4041,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04480_1l.jpg?v=1792094086",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04480_2l.jpg?v=1792094086",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04480_3l.jpg?v=1792094086",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04480_4l.jpg?v=1792094086"
+  ],
+  "descripcion": "Mocasín veneciano de cuero, ligero y sin cordones, diseñado para calzarse sin esfuerzo y llevarse cómodo todo el día.",
+  "detalles": [
+   "Empeine de cuero",
+   "Estilo veneciano slip-on",
+   "Construcción ligera",
+   "Comodidad para todo el día"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6410",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Irving Runoff Slip-On Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 109.9,
+  "precio_c": 4041,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04481_1l.jpg?v=1792094112",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04481_2l.jpg?v=1792094112",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04481_3l.jpg?v=1792094112",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/59-04481_4l.jpg?v=1792094112"
+  ],
+  "descripcion": "Mocasín veneciano de cuero, ligero y sin cordones, diseñado para calzarse sin esfuerzo y llevarse cómodo todo el día.",
+  "detalles": [
+   "Empeine de cuero",
+   "Estilo veneciano slip-on",
+   "Construcción ligera",
+   "Comodidad para todo el día"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6411",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Reeve Bit Loafers — Negro",
+  "genero": "Hombre",
+  "precio": 139.9,
+  "precio_c": 5145,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8467_1l.jpg?v=1792303477",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8467_2l.jpg?v=1792303477",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8467_3l.jpg?v=1792303477",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8467_4l.jpg?v=1792303477"
+  ],
+  "descripcion": "Mocasín con detalle metálico pensado para días largos que se alargan hasta la noche, cómodo sin perder el aire de vestir.",
+  "detalles": [
+   "Detalle metálico (bit) en el empeine",
+   "Empeine de cuero",
+   "Comodidad para jornadas largas",
+   "Silueta de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6412",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Reeve Oxford Cap Toe — Negro",
+  "genero": "Hombre",
+  "precio": 139.9,
+  "precio_c": 5145,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8305_1l.jpg?v=1788929684",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8305_2l.jpg?v=1788929684",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8305_3l.jpg?v=1788929684",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8305_4l.jpg?v=1788929685"
+  ],
+  "descripcion": "Oxford de punta reforzada en cuero con plantilla de varias densidades que da soporte al arco y acolchado, versátil con traje o informal.",
+  "detalles": [
+   "Empeine de cuero",
+   "Puntera reforzada (cap toe)",
+   "Plantilla de varias densidades con soporte al arco",
+   "Diseño clásico versátil"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6413",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Reeve Oxford Cap Toe — Marrón",
+  "genero": "Hombre",
+  "precio": 139.9,
+  "precio_c": 5145,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8302_1l.jpg?v=1788840157",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8302_2l.jpg?v=1788840157",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8302_3l.jpg?v=1788840157",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8302_4l.jpg?v=1788840157"
+  ],
+  "descripcion": "Oxford de punta reforzada en cuero con plantilla de varias densidades que da soporte al arco y acolchado, versátil con traje o informal.",
+  "detalles": [
+   "Empeine de cuero",
+   "Puntera reforzada (cap toe)",
+   "Plantilla de varias densidades con soporte al arco",
+   "Diseño clásico versátil"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6414",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Reeve Run Off Venetian — Negro",
+  "genero": "Hombre",
+  "precio": 149.85,
+  "precio_c": 5511,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8307_1l_45d2be37-5f25-4db8-b530-62fb67f09289.jpg?v=1792081241",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8307_2l.jpg?v=1792081241",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8307_3l.jpg?v=1792081241",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8307_4l.jpg?v=1792081241"
+  ],
+  "descripcion": "Mocasín veneciano de cuero con puntera redonda y plantilla de varias densidades, comodidad y estilo de vestir en un solo calce.",
+  "detalles": [
+   "Empeine de cuero",
+   "Estilo veneciano slip-on",
+   "Puntera redonda",
+   "Plantilla con soporte al arco"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6415",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Reeve Run Off Venetian — Marrón",
+  "genero": "Hombre",
+  "precio": 149.85,
+  "precio_c": 5511,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8304_1l.jpg?v=1792081537",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8304_2l.jpg?v=1792081537",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8304_3l.jpg?v=1792081537",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8304_4l.jpg?v=1792081537"
+  ],
+  "descripcion": "Mocasín veneciano de cuero con puntera redonda y plantilla de varias densidades, comodidad y estilo de vestir en un solo calce.",
+  "detalles": [
+   "Empeine de cuero",
+   "Estilo veneciano slip-on",
+   "Puntera redonda",
+   "Plantilla con soporte al arco"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6416",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Tyson Oxford — Marrón",
+  "genero": "Hombre",
+  "precio": 178.95,
+  "precio_c": 6581,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4754_1l.jpg?v=1788403660",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4754_2l.jpg?v=1788403660",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4754_3l.jpg?v=1788403660",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-4754_4l.jpg?v=1788403660"
+  ],
+  "descripcion": "Oxford de punta lisa en cuero premium con costuras detalladas y plantilla acolchada, un vestir refinado para el día a día.",
+  "detalles": [
+   "Cuero premium",
+   "Costuras detalladas",
+   "Plantilla acolchada",
+   "Suela flexible"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6417",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Upton Oxford — Negro",
+  "genero": "Hombre",
+  "precio": 178.95,
+  "precio_c": 6581,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-3521_1l.jpg?v=1788792639",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-3521_2l.jpg?v=1788792639",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-3521_3l.jpg?v=1788792639",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-3521_4l.jpg?v=1788792640"
+  ],
+  "descripcion": "Oxford de punta lisa en cuero que combina estilo y comodidad, un favorito de vestir que se vuelve imprescindible.",
+  "detalles": [
+   "Empeine de cuero",
+   "Punta lisa clásica",
+   "Cierre de cordones",
+   "Comodidad para todo el día"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6418",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy XC Flex Landry Bit Loafer — Marrón",
+  "genero": "Hombre",
+  "precio": 108.97,
+  "precio_c": 4007,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8320_1l.jpg?v=1792866692",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8320_2l.jpg?v=1792866692",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8320_3l.jpg?v=1792866692",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8320_4l.jpg?v=1792866692"
+  ],
+  "descripcion": "Mocasín de cuero de plena flor con detalle metálico envuelto y construcción flexible, comodidad deportiva con estilo clásico.",
+  "detalles": [
+   "Cuero de plena flor",
+   "Detalle metálico (bit) envuelto",
+   "Construcción flexible",
+   "Acabados hechos a mano"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6419",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy XC Flex Landry Bit Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 108.97,
+  "precio_c": 4007,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8321_1l.jpg?v=1792866812",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8321_2l.jpg?v=1792866812",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8321_3l.jpg?v=1792866812",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/15-8321_4l.jpg?v=1792866812"
+  ],
+  "descripcion": "Mocasín de cuero de plena flor con detalle metálico envuelto y construcción flexible, comodidad deportiva con estilo clásico.",
+  "detalles": [
+   "Cuero de plena flor",
+   "Detalle metálico (bit) envuelto",
+   "Construcción flexible",
+   "Acabados hechos a mano"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "9.5",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6420",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Bennett Wingtip Oxford — Marrón",
+  "genero": "Hombre",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25752-226_1l.jpg?v=1793833673",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25752-226_2l.jpg?v=1793833673",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25752-226_3l.jpg?v=1793833673",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25752-226_4l.jpg?v=1793833673"
+  ],
+  "descripcion": "Oxford wingtip clásico con perforaciones y costuras elegantes en el ala, el talón y el cuello; va igual con traje que con jeans.",
+  "detalles": [
+   "Empeine de cuero",
+   "Puntera wingtip con perforaciones",
+   "Costuras elegantes en ala y talón",
+   "Estilo clásico para traje o jeans"
+  ],
+  "tallas": [
+   "8",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6421",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Brayden Wingtip Oxford — Negro",
+  "genero": "Hombre",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25635-001_1l.jpg?v=1792861880",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25635-001_2l.jpg?v=1792861880",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25635-001_3l.jpg?v=1792861880",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25635-001_4l.jpg?v=1792861880"
+  ],
+  "descripcion": "Oxford wingtip de cuero pulido a mano con perforaciones elegantes y tacón apilado moderno, un clásico que todo hombre debería tener.",
+  "detalles": [
+   "Cuero pulido a mano",
+   "Puntera wingtip con perforaciones",
+   "Tacón apilado moderno",
+   "Plantilla de confort"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6422",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Dayton II Wingtip Oxford — Negro y Blanco",
+  "genero": "Hombre",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25720-111_1l.jpg?v=1793561636",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25720-111_2l.jpg?v=1793561636",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25720-111_3l.jpg?v=1793561636",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25720-111_4l.jpg?v=1793561636"
+  ],
+  "descripcion": "Oxford wingtip estilo espectador en charol negro y blanco de contraste, hecho para bodas y para cualquier momento en que quieras destacar.",
+  "detalles": [
+   "Charol en contraste negro y blanco",
+   "Puntera wingtip clásica",
+   "Estilo espectador festivo",
+   "Acabado brillante de charol"
+  ],
+  "tallas": [
+   "9.5",
+   "10",
+   "11",
+   "11.5"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6423",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Jackson Penny Loafer — Marrón",
+  "genero": "Hombre",
+  "precio": 144.95,
+  "precio_c": 5330,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25823-200_1l.jpg?v=1792667266",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25823-200_2l.jpg?v=1792667265",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25823-200_3l.jpg?v=1792667266",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25823-200_4l.jpg?v=1792667265"
+  ],
+  "descripcion": "Mocasín penny de puntera mocasín que combina el atractivo clásico con la facilidad moderna, cómodo para el trabajo o el fin de semana.",
+  "detalles": [
+   "Puntera mocasín",
+   "Ranura penny clásica",
+   "Comodidad acolchada",
+   "Suela duradera"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6424",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Lawton Bit Loafer — Marrón",
+  "genero": "Hombre",
+  "precio": 149.95,
+  "precio_c": 5514,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-221_1l.jpg?v=1792727288",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-221_2l.jpg?v=1792727288",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-221_3l.jpg?v=1792727288",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-221_4l.jpg?v=1792727288"
+  ],
+  "descripcion": "Mocasín de cuero con textura y adorno metálico, de silueta esbelta: el detalle que se nota en cualquier conjunto de vestir.",
+  "detalles": [
+   "Cuero con textura",
+   "Adorno metálico en el empeine",
+   "Puntera mocasín",
+   "Silueta esbelta de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6425",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Lawton Bit Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 149.95,
+  "precio_c": 5514,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-001_1l.jpg?v=1792727266",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-001_2l.jpg?v=1792727267",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-001_3l.jpg?v=1792727266",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25796-001_4l.jpg?v=1792727266"
+  ],
+  "descripcion": "Mocasín de cuero con textura y adorno metálico, de silueta esbelta: el detalle que se nota en cualquier conjunto de vestir.",
+  "detalles": [
+   "Cuero con textura",
+   "Adorno metálico en el empeine",
+   "Puntera mocasín",
+   "Silueta esbelta de vestir"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6426",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Lucas Cap Toe Oxford — Negro",
+  "genero": "Hombre",
+  "precio": 121.95,
+  "precio_c": 4485,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25766-001_1l.jpg?v=1793721488",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25766-001_2l.jpg?v=1793721488",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25766-001_3l.jpg?v=1793721488",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25766-001_4l.jpg?v=1793721488"
+  ],
+  "descripcion": "Oxford de punta reforzada en cuero liso bruñido con forro suave de cuero, calidad que se nota a primera vista.",
+  "detalles": [
+   "Cuero liso bruñido",
+   "Puntera reforzada (cap toe)",
+   "Forro suave de cuero",
+   "Suela duradera"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "11.5",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6427",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Razzeto Cap Toe Oxford — Negro",
+  "genero": "Hombre",
+  "precio": 104.97,
+  "precio_c": 3860,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25739-001_1l.jpg?v=1792861678",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25739-001_2l.jpg?v=1792861678",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25739-001_3l.jpg?v=1792861678",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25739-001_4l.jpg?v=1792861678"
+  ],
+  "descripcion": "Oxford de punta reforzada que mezcla cuero con textura de lagarto y charol, un vestir llamativo con plantilla de confort.",
+  "detalles": [
+   "Cuero con textura de lagarto y charol",
+   "Puntera reforzada (cap toe)",
+   "Plantilla de confort",
+   "Forro suave"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6428",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Tristano Bike Toe Oxford — Negro",
+  "genero": "Hombre",
+  "precio": 101.95,
+  "precio_c": 3749,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25694-001_1l.jpg?v=1793180087",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25694-001_2l.jpg?v=1793180087",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25694-001_3l.jpg?v=1793180087",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25694-001_4l.jpg?v=1793180087"
+  ],
+  "descripcion": "Oxford de puntera ciclista en cuero con textura exótica de cocodrilo y lagarto, un vestir atrevido para lucir con tu mejor conjunto.",
+  "detalles": [
+   "Cuero con textura exótica",
+   "Puntera ciclista (bike toe)",
+   "Acabado llamativo de vestir",
+   "Silueta clásica de oxford"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6429",
+  "marca": "Tecovas",
+  "nombre": "Tecovas The Monterrey Loafers — Marrón",
+  "genero": "Hombre",
+  "precio": 205.0,
+  "precio_c": 7539,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10042-HIC_1l.jpg?v=1788798814",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10042-HIC_2l.jpg?v=1788798814",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10042-HIC_3l.jpg?v=1788798814",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10042-HIC_4l.jpg?v=1788798814"
+  ],
+  "descripcion": "El mocasín original de Tecovas, hecho a mano con costura Blake, plantilla de cuero acolchada y talón interior de ante.",
+  "detalles": [
+   "Hecho a mano con costura Blake",
+   "Plantilla de cuero acolchada",
+   "Suela híbrida de goma y cuero",
+   "Talón interior de ante"
+  ],
+  "tallas": [
+   "9.5",
+   "10",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6430",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy XC4 Prentiss 2 Oxford — Gris",
+  "genero": "Hombre",
+  "precio": 198.95,
+  "precio_c": 7316,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-7579_1l.jpg?v=1788790345",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-7579_2l.jpg?v=1788790345",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-7579_3l.jpg?v=1788790345",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/20-7579_4l.jpg?v=1788790345"
+  ],
+  "descripcion": "Oxford de punta lisa de la línea XC4, que lo hace todo: vestir pulido con las prestaciones de comodidad de la familia XC4.",
+  "detalles": [
+   "Empeine de cuero",
+   "Punta lisa clásica",
+   "Línea XC4 de confort",
+   "Cierre de cordones"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6431",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Melton Cap Toe Oxford — Negro",
+  "genero": "Hombre",
+  "precio": 208.95,
+  "precio_c": 7684,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61qAuSntwtL._SX700_.jpg"
+  ],
+  "descripcion": "Oxford de punta reforzada en piel de becerro pulida a mano, con brillo distintivo: un clásico de vestir que destaca en cualquier ambiente.",
+  "detalles": [
+   "Piel de becerro pulida a mano",
+   "Puntera reforzada (cap toe) con brillo",
+   "Calce fiel a la talla",
+   "Suela de cuero clásica"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6432",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Midtown Cap Toe Oxford — Marrón",
+  "genero": "Hombre",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61geqoW4kQL._SX700_.jpg"
+  ],
+  "descripcion": "Oxford de punta reforzada que deja cualquier atuendo de trabajo perfectamente pulido, cómodo desde el primer uso.",
+  "detalles": [
+   "Cuero liso marrón",
+   "Puntera reforzada (cap toe)",
+   "Calce fiel a la talla",
+   "Cómodo desde el primer uso"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6433",
+  "marca": "Allen Edmonds",
+  "nombre": "Allen Edmonds Liverpool Chelsea — Negro",
+  "genero": "Hombre",
+  "precio": 560.0,
+  "precio_c": 20593,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81p656jKiyL._SX700_.jpg"
+  ],
+  "descripcion": "Bota chelsea de cuero de una sola pieza, elegante y versátil: se lleva con traje, con pantalón gris o con denim oscuro.",
+  "detalles": [
+   "Cuero de becerro de una sola pieza",
+   "Estilo chelsea sin cordones",
+   "Disponible en varios anchos y tallas",
+   "Construcción bench welt recraftable"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6434",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Pinch Penny Loafer — Negro",
+  "genero": "Hombre",
+  "precio": 139.99,
+  "precio_c": 5148,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61Ru16j95vL._SX700_.jpg"
+  ],
+  "descripcion": "Mocasín penny de lujo para el hombre de gusto clásico, con suela de cuero y construcción cosida a mano.",
+  "detalles": [
+   "Cuero de becerro bruñido",
+   "Ranura penny clásica",
+   "Suela de cuero",
+   "Construcción cosida a mano"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-6435",
+  "marca": "Air Jordan",
+  "nombre": "Air Jordan 41 Mens Basketball Shoes",
+  "genero": "Hombre",
+  "precio": 224.95,
+  "precio_c": 8272,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/HV6474-003-1.jpg?v=1793306149",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/HV6474-003-2.jpg?v=1793306150",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/AURORA_HV6474-003_PHCBH000-2000.jpg?v=1793306149",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/AURORA_HV6474-003_PHSYD001-2000.jpg?v=1793306149"
+  ],
+  "descripcion": "Zapatilla de básquetbol para hombre de la línea Jordan, pensada para el juego en cancha con amortiguación reactiva y tracción segura en cada cambio de dirección.",
+  "detalles": [
+   "Amortiguación reactiva para saltos y aterrizajes",
+   "Tracción en la suela para cambios de dirección en cancha",
+   "Cierre con cordones y calce regular de hombre",
+   "Colorway en negro para combinar con cualquier uniforme"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6436",
+  "marca": "Crocs",
+  "nombre": "Crocs Mens Quick Trail Racer V2 Cordura Trail Running Shoes",
+  "genero": "Hombre",
+  "precio": 139.95,
+  "precio_c": 5147,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/214274-0TP-1.jpg?v=1790203797",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/214274-0TP-2.jpg?v=1790203797",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/214274-0TP-3.jpg?v=1790203797",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/214274-0TP-4.jpg?v=1790203797"
+  ],
+  "descripcion": "Zapatilla de trail para hombre con parte superior de Cordura resistente, lista para senderos y terrenos irregulares sin perder comodidad.",
+  "detalles": [
+   "Parte superior de Cordura resistente a la abrasión",
+   "Diseñada para trail running y terreno irregular",
+   "Suela con agarre para superficies mixtas",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "10",
+   "11",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6437",
+  "marca": "adidas",
+  "nombre": "adidas x Bad Bunny Gazelle Indoor Shoes — Solar Gold",
+  "genero": "Hombre",
+  "precio": 159.95,
+  "precio_c": 5882,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KI2592-1.jpg?v=1791230753",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KI2592-2.jpg?v=1791231134",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KI2592-3.jpg?v=1791231669",
+   "https://cdn.shopify.com/s/files/1/0236/4333/files/KI2592-4.jpg?v=1791231669"
+  ],
+  "descripcion": "La colaboración de adidas con Bad Bunny en versión indoor, con parte superior de cuero y suela de goma para jugar fútbol sala o usar a diario.",
+  "detalles": [
+   "Parte superior de cuero con calce regular",
+   "Suela de goma ideal para superficies indoor",
+   "Diseñada para fútbol sala e interior",
+   "Colorway Solar Gold con detalles en negro"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "14"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6438",
+  "marca": "Nike",
+  "nombre": "Nike Ja 4 'Zombie' Basketball Shoes",
+  "genero": "Hombre",
+  "precio": 159.94,
+  "precio_c": 5882,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/IO7939-300.jpg?v=1793197042",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/IO7939-300_1.jpg?v=1793197042",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/IO7939-300_2.jpg?v=1793197041",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/IO7939-300_3.jpg?v=1793197042"
+  ],
+  "descripcion": "Zapatilla de básquetbol Ja 4 en colorway Zombie, construida para velocidad y explosividad en la cancha con amortiguación ligera.",
+  "detalles": [
+   "Diseñada para básquetbol con enfoque en velocidad",
+   "Amortiguación ligera y reactiva",
+   "Tracción para cortes rápidos en cancha",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6439",
+  "marca": "Nike",
+  "nombre": "Nike Vomero 18 'Black Coconut Milk' Men's Road Running Shoes",
+  "genero": "Hombre",
+  "precio": 174.94,
+  "precio_c": 6433,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_HM6803-007_PHSRH000-2000.jpg?v=1785508128",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_HM6803-007_PHCFH001-2000.jpg?v=1785508127",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_HM6803-007_PHSLH000-2000.jpg?v=1785508127"
+  ],
+  "descripcion": "Zapatilla de running para hombre con amortiguación suave y transiciones fluidas, ideal para entrenamientos diarios en asfalto.",
+  "detalles": [
+   "Amortiguación ZoomX para pisadas suaves",
+   "Diseñada para running en asfalto",
+   "Malla transpirable en la parte superior",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "10",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6440",
+  "marca": "Nike",
+  "nombre": "Nike Vomero Plus 'Coconut Milk' Men's Road Running Shoes",
+  "genero": "Hombre",
+  "precio": 199.94,
+  "precio_c": 7353,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_HV8150-117_PHSRH000-2000.jpg?v=1792681162",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_HV8150-117_PHCFH001-2000.jpg?v=1792681163",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_HV8150-117_PHCBH000-2000.jpg?v=1792681163",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_HV8150-117_PHSLH001-2000.jpg?v=1792681163"
+  ],
+  "descripcion": "Zapatilla de running de máxima amortiguación para hombre, con espuma ZoomX y placa para rodajes largos y cómodos.",
+  "detalles": [
+   "Amortiguación ZoomX de máxima suavidad",
+   "Diseñada para rodajes largos en asfalto",
+   "Parte superior transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6441",
+  "marca": "Nike",
+  "nombre": "Nike Vomero Premium SP 'Skeleton Black' Men's Road Running Shoes",
+  "genero": "Hombre",
+  "precio": 249.94,
+  "precio_c": 9191,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/IV7509-001.jpg?v=1793197042",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/IV7509-001_1_3a331284-1dcf-4ac2-a532-a06196200678.jpg?v=1793197041",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/IV7509-001_2.jpg?v=1793197042"
+  ],
+  "descripcion": "Versión premium de la Vomero para running, con amortiguación de alto retorno y acabados especiales para corredores exigentes.",
+  "detalles": [
+   "Amortiguación ZoomX premium de alto retorno",
+   "Diseñada para running de larga distancia",
+   "Parte superior ligera y transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "8",
+   "9.5"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6442",
+  "marca": "Nike",
+  "nombre": "Nike Kobe 3 Low Protro 'Mamba Eterno' Basketball Shoes",
+  "genero": "Hombre",
+  "precio": 209.94,
+  "precio_c": 7720,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_IO6260-800_PHSRH000-2000.jpg?v=1792681163",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_IO6260-800_PHCFH001-2000.jpg?v=1792681163",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_IO6260-800_PHCTH001-2000.jpg?v=1792681163",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_IO6260-800_PHCBH000-2000.jpg?v=1792681164"
+  ],
+  "descripcion": "La Kobe 3 Low Protro en colorway Mamba Eterno, zapatilla de básquetbol de perfil bajo con tracción y respuesta para el juego rápido.",
+  "detalles": [
+   "Diseñada para básquetbol de perfil bajo",
+   "Tracción para movimientos explosivos en cancha",
+   "Amortiguación reactiva",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6443",
+  "marca": "Reebok",
+  "nombre": "Reebok Engine A 26 Basketball Shoes — Wheat",
+  "genero": "Hombre",
+  "precio": 105.99,
+  "precio_c": 3898,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272108_SLC_eCom.jpg?v=1781092365",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/1x1_ENGINEA3.jpg?v=1791553692",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272108_TPP_eCom.jpg?v=1781092365",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272108_BLT_eCom.jpg?v=1781092366"
+  ],
+  "descripcion": "Zapatilla de básquetbol Reebok Engine A 26, con energía de retorno y soporte para jugar con confianza en la cancha.",
+  "detalles": [
+   "Diseñada para básquetbol en cancha interior",
+   "Amortiguación con energía de retorno",
+   "Suela con tracción para cortes y giros",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "14",
+   "15"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6444",
+  "marca": "Reebok",
+  "nombre": "Reebok Nano X5 Training Shoes — Army Green",
+  "genero": "Hombre",
+  "precio": 109.99,
+  "precio_c": 4045,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279094_SLC_eCom.jpg?v=1793800734",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279094_TPP_eCom.jpg?v=1793800735",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279094_BLT_eCom.jpg?v=1793800735",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279094_FLT_eCom.jpg?v=1793800735"
+  ],
+  "descripcion": "Zapatilla de entrenamiento Nano X5 para hombre, versátil para gimnasio, levantamiento y entrenamientos funcionales de alta intensidad.",
+  "detalles": [
+   "Diseñada para entrenamiento funcional y gimnasio",
+   "Estabilidad para levantamiento de pesas",
+   "Suela con tracción para movimientos multidireccionales",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "14"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6445",
+  "marca": "Reebok",
+  "nombre": "Reebok Nano X5 Training Shoes — Blackberry",
+  "genero": "Hombre",
+  "precio": 109.99,
+  "precio_c": 4045,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279093_SLC_eCom.jpg?v=1793800564",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279093_TPP_eCom.jpg?v=1793800564",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279093_BLT_eCom.jpg?v=1793800564",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279093_FLT_eCom.jpg?v=1793800565"
+  ],
+  "descripcion": "Zapatilla de entrenamiento Nano X5 para hombre, versátil para gimnasio, levantamiento y entrenamientos funcionales de alta intensidad.",
+  "detalles": [
+   "Diseñada para entrenamiento funcional y gimnasio",
+   "Estabilidad para levantamiento de pesas",
+   "Suela con tracción para movimientos multidireccionales",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "14"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6446",
+  "marca": "Reebok",
+  "nombre": "Reebok x A Herd of Bison Men's Trailzillo DMX Trail Running Shoes — Black",
+  "genero": "Hombre",
+  "precio": 140.0,
+  "precio_c": 5148,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100278888_SLC_eCom.jpg?v=1790337717",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100278888_TPP_eCom.jpg?v=1790337718",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100278888_BLT_eCom.jpg?v=1790337718",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100278888_FLT_eCom.jpg?v=1790337717"
+  ],
+  "descripcion": "Zapatilla de trail running de la colaboración con A Herd of Bison, con amortiguación DMX y tracción para senderos.",
+  "detalles": [
+   "Diseñada para trail running en senderos",
+   "Amortiguación DMX para pisadas cómodas",
+   "Suela con tracción para terreno irregular",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6447",
+  "marca": "Nike",
+  "nombre": "Nike Kobe Air Force 1 Low Mens Basketball Shoes — Black/Purple Stardust/White",
+  "genero": "Hombre",
+  "precio": 144.95,
+  "precio_c": 5330,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3640b3db448b5ca6b626002329a8a4f2_f28541a3-353c-4a40-81b1-23c35e1d3731.jpg?v=1793208964",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4e66ecfb6e66e65bf836e46da9ea4ea5_9428963f-1161-4c38-838c-47bab25e2e72.jpg?v=1793208964",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8e7dd66670f63baba5325d0fcd5dd6e6_02d5be9b-f47a-483e-a83d-995777c6ff34.jpg?v=1793208964",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d25d63bed82f7730b5c84fd54d2ba59e_4ea7db76-87fc-448b-8e04-e07bd27fefa4.jpg?v=1793208964"
+  ],
+  "descripcion": "La Air Force 1 Low en versión Kobe de básquetbol, con el clásico perfil bajo y detalles en morado que rinden homenaje a la Mamba.",
+  "detalles": [
+   "Diseñada para básquetbol con perfil bajo",
+   "Parte superior resistente de uso diario en cancha",
+   "Suela con tracción clásica",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6448",
+  "marca": "Nike",
+  "nombre": "Nike P-6000 Mens Running Shoes — Midnight Navy/Metallic Silver/White",
+  "genero": "Hombre",
+  "precio": 144.95,
+  "precio_c": 5330,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b5e0c2a2c1a9606223e976c56e7d52df.jpg?v=1791216514",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/fb19e43e39f364b55c97ef0589622be0.jpg?v=1791216514",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9d0370690d6c52475364a1f8c4680195.jpg?v=1791216514",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/87ea3bf3585f98aed989d5e28daaf163.jpg?v=1791216514"
+  ],
+  "descripcion": "Zapatilla de running P-6000 con estética retro y amortiguación cómoda, ideal para correr y para uso diario con estilo deportivo.",
+  "detalles": [
+   "Diseñada para running con inspiración retro",
+   "Amortiguación cómoda para uso diario",
+   "Malla y sintéticos transpirables",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6449",
+  "marca": "Nike",
+  "nombre": "Nike P-6000 Mens Running Shoes — Linen/Natural/Black/Metallic Silver",
+  "genero": "Hombre",
+  "precio": 144.95,
+  "precio_c": 5330,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d5433574bee08432b5e8f2899bd6a44b.jpg?v=1790974405",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/59094382f946d7736c78e7ca87409e44.jpg?v=1790974405",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a4b99514b560608873e9af81b2bb162d.jpg?v=1790974405",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/001f289b84048e4087e1b7267f9a1d2a.jpg?v=1790974405"
+  ],
+  "descripcion": "Zapatilla de running P-6000 con estética retro y amortiguación cómoda, ideal para correr y para uso diario con estilo deportivo.",
+  "detalles": [
+   "Diseñada para running con inspiración retro",
+   "Amortiguación cómoda para uso diario",
+   "Malla y sintéticos transpirables",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6450",
+  "marca": "Nike",
+  "nombre": "Nike Air Max Metro Mens Running Shoes — Black/Black/Light Photo Blue/Illusion Green",
+  "genero": "Hombre",
+  "precio": 149.95,
+  "precio_c": 5514,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/be6f6209da4e91b868cf065417158f7a.jpg?v=1790891672",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b2f378722d7b88ba6afce70c089b415d.jpg?v=1790891672",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0b24ac1d25c28f04c17ab4e168139b78.jpg?v=1790891672",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5a48000f607614f7240410a2b63573f1.jpg?v=1790891672"
+  ],
+  "descripcion": "Zapatilla de running Air Max Metro con unidad Air visible, cómoda para entrenar y para el día a día con pisada amortiguada.",
+  "detalles": [
+   "Unidad Air Max para amortiguación visible",
+   "Diseñada para running y uso diario",
+   "Parte superior transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6451",
+  "marca": "Nike",
+  "nombre": "Nike Air Max Metro Mens Running Shoes — Black/Metallic Dark Grey/Bright Crimson",
+  "genero": "Hombre",
+  "precio": 149.95,
+  "precio_c": 5514,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/89d9e505b16f4cefa692b3bfb6a3d756.jpg?v=1792702196",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/20deddc7cb3235c16b6ea5f702916c82.jpg?v=1792702196",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b0789f0c38ccfdc91a5584bafc974dfe.jpg?v=1792702196",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a02a526d3cb59004684d72dc108b4615.jpg?v=1792702196"
+  ],
+  "descripcion": "Zapatilla de running Air Max Metro con unidad Air visible, cómoda para entrenar y para el día a día con pisada amortiguada.",
+  "detalles": [
+   "Unidad Air Max para amortiguación visible",
+   "Diseñada para running y uso diario",
+   "Parte superior transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6452",
+  "marca": "Nike",
+  "nombre": "Nike KD 6 Texas Mens Basketball Shoes — Black/Urban Orange",
+  "genero": "Hombre",
+  "precio": 154.95,
+  "precio_c": 5698,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1994ef815f89c0511369a591af0e7603.jpg?v=1793896452",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6e82acfb28ab123a289a1e10772ebc6b.jpg?v=1793896452",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/50d006bd096b27c33c2fad0b752d660a.jpg?v=1793896452",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f58912abb4efc1b9a7970fec1765eee5.jpg?v=1793896452"
+  ],
+  "descripcion": "La KD 6 en edición Texas, zapatilla de básquetbol con amortiguación Zoom y soporte para el juego explosivo de Kevin Durant.",
+  "detalles": [
+   "Diseñada para básquetbol de alto rendimiento",
+   "Amortiguación Zoom para respuesta en cada salto",
+   "Tracción para cancha interior",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6453",
+  "marca": "Jordan",
+  "nombre": "Jordan Tatum 5 Sunrise Mens Basketball Shoes — Bright Concord/Bright Mango/Urban Lilac",
+  "genero": "Hombre",
+  "precio": 154.95,
+  "precio_c": 5698,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8bb8d5928b9ffea322a25166d960748c.jpg?v=1791914263",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4fecbd6106550362214423676adb6f90.jpg?v=1791914263",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4fec9c6dd2736d619049091d14ca3d46.jpg?v=1791914263",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/edd915ff949847be82984b0d715989ba.jpg?v=1791914263"
+  ],
+  "descripcion": "Zapatilla de básquetbol Tatum 5 Sunrise, ligera y reactiva para jugadores que buscan velocidad y control en cada jugada.",
+  "detalles": [
+   "Diseñada para básquetbol con enfoque en velocidad",
+   "Amortiguación ligera y reactiva",
+   "Tracción para cambios de dirección",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6454",
+  "marca": "Nike",
+  "nombre": "Nike Zoom Skylon 11 Mens Running Shoes — Anthracite/Black/Metallic Silver",
+  "genero": "Hombre",
+  "precio": 154.95,
+  "precio_c": 5698,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cb3cf0a6b746c1a04f852a0b858b8bb1.jpg?v=1791560806",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5ab7c301987516ff0010221658dc0cbe.jpg?v=1791560806",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/ba1e413b319aa4cc947d747b090a696a.jpg?v=1791560806",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a0c75f9f25f9c2074afff0304cd5c766.jpg?v=1791560806"
+  ],
+  "descripcion": "Zapatilla de running Zoom Skylon 11 con amortiguación Zoom Air, hecha para rodajes cómodos y ritmo constante en asfalto.",
+  "detalles": [
+   "Amortiguación Zoom Air para pisadas suaves",
+   "Diseñada para running en asfalto",
+   "Parte superior transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6455",
+  "marca": "Nike",
+  "nombre": "Nike S.T. Charge Halloween Mens Basketball Shoes — Taupe/Metallic Silver/Light British Tan",
+  "genero": "Hombre",
+  "precio": 164.95,
+  "precio_c": 6066,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/17158d1949f086a2c0f943c235f79454.jpg?v=1792432203",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/349a9606a4741c6bdcb59396b87f93dc.jpg?v=1792432203",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/2fd1277f4e44b457d3a656c41e62178c.jpg?v=1792432203",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b6a4537d37e108567948d004a78a22d3.jpg?v=1792432203"
+  ],
+  "descripcion": "Zapatilla de básquetbol S.T. Charge en edición Halloween, con amortiguación y tracción para dominar la cancha con estilo.",
+  "detalles": [
+   "Diseñada para básquetbol en cancha interior",
+   "Amortiguación cómoda para saltos y aterrizajes",
+   "Tracción para movimientos rápidos",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6456",
+  "marca": "Nike",
+  "nombre": "Nike Mind 002 Pregame Mens Running Shoes — Work Blue/Light Lemon Twist/Hydrogen Blue",
+  "genero": "Hombre",
+  "precio": 164.95,
+  "precio_c": 6066,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d30dd239a9d8686218671bad80aedd80.jpg?v=1791560447",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f434b681e4dff97d72e686e876221792.jpg?v=1791560447",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c957c8bdce6f877a11457b0d4a4928c4.jpg?v=1791560447",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d46eb2ad79a8a6c2ac0ccb0d9d850e4d.jpg?v=1791560447"
+  ],
+  "descripcion": "Zapatilla de running Mind 002 Pregame, con amortiguación suave y diseño moderno para entrenar antes y después del partido.",
+  "detalles": [
+   "Diseñada para running y calentamiento",
+   "Amortiguación suave para pisadas cómodas",
+   "Parte superior transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6457",
+  "marca": "New Balance",
+  "nombre": "New Balance Kawhi V Blue Oyster Mens Basketball Shoes",
+  "genero": "Hombre",
+  "precio": 179.95,
+  "precio_c": 6617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3843cae10f5587cb485a783aa4f4f2fb.jpg?v=1791916160",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1705d7352c7027c120d12bb68a08469a.jpg?v=1791916160",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c99206579334997a6333d260de4cf010.jpg?v=1791916160",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cd49cf5047f33f8ba00b59faaa75f3bb.jpg?v=1791916160"
+  ],
+  "descripcion": "Zapatilla de básquetbol Kawhi V de New Balance, con amortiguación FuelCell y soporte para el juego físico en la pintura.",
+  "detalles": [
+   "Diseñada para básquetbol de alto rendimiento",
+   "Amortiguación FuelCell reactiva",
+   "Tracción para cancha interior",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6458",
+  "marca": "On",
+  "nombre": "On Cloudtilt Talavera Mens Running Shoes — Black/Red",
+  "genero": "Hombre",
+  "precio": 189.95,
+  "precio_c": 6985,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/fa2686c27c15ed6f3a25fb3055b3680a.jpg?v=1790721424",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0475c4d4edb0ebba4d5c66d12e7de829.jpg?v=1790721424",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/736364e1a575e4a3912ebb3f18b4ced5.jpg?v=1790721424",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/984c3f367340956874626ac7b428ba68.jpg?v=1790721424"
+  ],
+  "descripcion": "Zapatilla de running Cloudtilt exclusiva de Shoe Palace, con la amortiguación CloudTec de On para una pisada suave y estable.",
+  "detalles": [
+   "Amortiguación CloudTec para pisadas suaves",
+   "Diseñada para running en asfalto",
+   "Parte superior ligera y transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6459",
+  "marca": "On",
+  "nombre": "On Cloudtilt Talavera Mens Running Shoes — Egret/Quiet Shade",
+  "genero": "Hombre",
+  "precio": 189.95,
+  "precio_c": 6985,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/deba3d6a356b466617d3713e8e4610e1.jpg?v=1790721880",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5f0d896451e089841e7aee9086a6dca9.jpg?v=1790721880",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/22b20d2d4eab16e9757f1530262a7c7b.jpg?v=1790721880",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6cd88aa763cada66268d938c496b0e7b.jpg?v=1790721880"
+  ],
+  "descripcion": "Zapatilla de running Cloudtilt exclusiva de Shoe Palace, con la amortiguación CloudTec de On para una pisada suave y estable.",
+  "detalles": [
+   "Amortiguación CloudTec para pisadas suaves",
+   "Diseñada para running en asfalto",
+   "Parte superior ligera y transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6460",
+  "marca": "Nike",
+  "nombre": "Nike Air Griffey Max 1 Cincinnati Reds Mens Basketball Shoes — White/Varsity Red/Black",
+  "genero": "Hombre",
+  "precio": 199.95,
+  "precio_c": 7353,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/48ce37f4bd38003fa018fbca66b8351a.jpg?v=1792186724",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b8b319d3a78261fc38f3f9e502e80341.jpg?v=1792186724",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6a0d2801f3206d3d1eb0393a6207fb82.jpg?v=1792186724",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/e97f819a4fd06f8c8a6e5410777109e1.jpg?v=1792186724"
+  ],
+  "descripcion": "La Air Griffey Max 1 en edición Cincinnati Reds, zapatilla de básquetbol de perfil alto con amortiguación Max Air y estilo clásico.",
+  "detalles": [
+   "Diseñada para básquetbol con perfil alto",
+   "Amortiguación Max Air visible",
+   "Soporte de tobillo clásico",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6461",
+  "marca": "adidas",
+  "nombre": "adidas Megaride AG Mens Running Shoes — Aero Pink/St Tropic Bloom/Core Black",
+  "genero": "Hombre",
+  "precio": 209.95,
+  "precio_c": 7721,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c4ccfa2c79b4ca02df6685536f1c2216.jpg?v=1789574353",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b5fa8fbbecec7f3877ecac4544845638.jpg?v=1789574353",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/87f4a73d114356ffc99c3b89bad6e685.jpg?v=1789574353",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0eb737b4d58ac521f2d351395e5acb6c.jpg?v=1789574353"
+  ],
+  "descripcion": "Zapatilla de running Megaride AG de adidas, con amortiguación de alto retorno para rodajes largos y ritmo sostenido.",
+  "detalles": [
+   "Amortiguación de alto retorno para running",
+   "Diseñada para rodajes largos en asfalto",
+   "Parte superior transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6462",
+  "marca": "Nike",
+  "nombre": "Nike Air Foamposite Pro Glow In The Dark Mens Basketball Shoes — Summit White/Black",
+  "genero": "Hombre",
+  "precio": 269.95,
+  "precio_c": 9927,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6367da2392b97bbfcb0e9ad6ecc7d1bb.jpg?v=1791913853",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/87b6101d2791f1a5cb9f521e8bdf159e.jpg?v=1791913853",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8f5b4a424397900d7a504f091f3b6f75.jpg?v=1791913853",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/fe6454bd2078b91e691fa17b977dcf49.jpg?v=1791913853"
+  ],
+  "descripcion": "La Air Foamposite Pro que brilla en la oscuridad, zapatilla de básquetbol icónica con parte superior moldeada y amortiguación Zoom Air.",
+  "detalles": [
+   "Parte superior moldeada Foamposite",
+   "Amortiguación Zoom Air en el talón",
+   "Diseñada para básquetbol en cancha interior",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "14",
+   "15"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6463",
+  "marca": "Nike",
+  "nombre": "Nike Air Foamposite Pro Mens Basketball Shoes — Black/Voltage Green/Gum Dark Brown",
+  "genero": "Hombre",
+  "precio": 269.95,
+  "precio_c": 9927,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d6eb2fcf4525b6ad64c0437e5bc503fa.jpg?v=1789142606",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6f4d8ec3a5966678d34f87d91a4113da.jpg?v=1789142606",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7be4d86cc1932913dd65421fa3c49429.jpg?v=1789142606",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6afecf9528ce1ac33cc6f33de4008fe5.jpg?v=1789142606"
+  ],
+  "descripcion": "La Air Foamposite Pro en colorway multicolor, zapatilla de básquetbol icónica con parte superior moldeada y amortiguación Zoom Air.",
+  "detalles": [
+   "Parte superior moldeada Foamposite",
+   "Amortiguación Zoom Air en el talón",
+   "Diseñada para básquetbol en cancha interior",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6464",
+  "marca": "Puma",
+  "nombre": "Puma Electrify NITRO 4 Running Shoes",
+  "genero": "Hombre",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31078909_1l.jpg?v=1793859044",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31078909_2l.jpg?v=1793859044",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31078909_3l.jpg?v=1793859044",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31078909_4l.jpg?v=1793859044"
+  ],
+  "descripcion": "Zapatilla de running Electrify NITRO 4 de Puma, ligera y con espuma NITROFOAM para entrenamientos diarios con buena respuesta.",
+  "detalles": [
+   "Mediasuela NITROFOAM con buena respuesta",
+   "Diseñada para running en asfalto",
+   "Parte superior de malla transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "9.5"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6465",
+  "marca": "Puma",
+  "nombre": "Puma Helsinki G Spikeless Golf Shoes — White",
+  "genero": "Hombre",
+  "precio": 119.95,
+  "precio_c": 4411,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31215807_1l.jpg?v=1793859106",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31215807_2l.jpg?v=1793859106",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31215807_3l.jpg?v=1793859106",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31215807_4l.jpg?v=1793859106"
+  ],
+  "descripcion": "Zapato de golf sin tacos Helsinki G de Puma, con suela de tracción oculta y diseño de cuero que se ve bien dentro y fuera del campo.",
+  "detalles": [
+   "Diseñada para golf, sin tacos (spikeless)",
+   "Suela de tracción oculta para el campo",
+   "Parte superior de cuero",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "10",
+   "10.5",
+   "11.5",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6466",
+  "marca": "Puma",
+  "nombre": "Puma Ignite Elevate 2 Spikeless Golf Shoes — Grey",
+  "genero": "Hombre",
+  "precio": 139.95,
+  "precio_c": 5147,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31024306_1l.jpg?v=1793858604",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31024306_2l.jpg?v=1793858604",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31024306_3l.jpg?v=1793858604",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31024306_4l.jpg?v=1793858604"
+  ],
+  "descripcion": "Zapato de golf sin tacos Ignite Elevate 2 de Puma, con espuma IGNITE que devuelve energía en cada paso del recorrido.",
+  "detalles": [
+   "Mediasuela de espuma IGNITE con retorno de energía",
+   "Diseñada para golf, sin tacos (spikeless)",
+   "Suela con tracción para el campo",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "10.5",
+   "11"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6467",
+  "marca": "Puma",
+  "nombre": "Puma PWR NITRO SQD 2 Training Shoe",
+  "genero": "Hombre",
+  "precio": 139.95,
+  "precio_c": 5147,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31015012_1l.jpg?v=1793858591",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31015012_2l.jpg?v=1793858591",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31015012_3l.jpg?v=1793858591",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31015012_4l.jpg?v=1793858591"
+  ],
+  "descripcion": "Zapatilla de entrenamiento PWR NITRO SQD 2 de Puma, estable y reactiva para sesiones de fuerza y entrenamiento funcional.",
+  "detalles": [
+   "Mediasuela NITROFOAM reactiva",
+   "Diseñada para entrenamiento y gimnasio",
+   "Estabilidad para levantamiento",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9.5",
+   "10",
+   "11.5",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6468",
+  "marca": "Puma",
+  "nombre": "Puma MB.06 Shooting Star Basketball Shoe",
+  "genero": "Hombre",
+  "precio": 139.95,
+  "precio_c": 5147,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31362401_1l.jpg?v=1793858523",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31362401_2l.jpg?v=1793858523",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31362401_3l.jpg?v=1793858523",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31362401_4l.jpg?v=1793858523"
+  ],
+  "descripcion": "Zapatilla de básquetbol MB.06 Shooting Star de Puma, de la línea de LaMelo Ball, con amortiguación NITROFOAM y estilo llamativo en cancha.",
+  "detalles": [
+   "Diseñada para básquetbol con amortiguación NITROFOAM",
+   "Tracción para cancha interior",
+   "Estilo llamativo de la línea de LaMelo Ball",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6469",
+  "marca": "Puma",
+  "nombre": "Puma Avant 2.0 FS Spikeless Golf Shoes — White",
+  "genero": "Hombre",
+  "precio": 159.95,
+  "precio_c": 5882,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31420403_1l.jpg?v=1793858218",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31420403_2l.jpg?v=1793858218",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31420403_3l.jpg?v=1793858218",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31420403_4l.jpg?v=1793858218"
+  ],
+  "descripcion": "Zapato de golf sin tacos Avant 2.0 FS de Puma, impermeable y con detalles de cuero de grano entero para un look premium en el campo.",
+  "detalles": [
+   "Diseñada para golf, sin tacos (spikeless)",
+   "Parte superior de cuero de grano entero",
+   "Impermeable para jugar con cualquier clima",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6470",
+  "marca": "Puma",
+  "nombre": "Puma Velocity NITRO 5 GTX Running Shoe",
+  "genero": "Hombre",
+  "precio": 159.95,
+  "precio_c": 5882,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31304401_1l.jpg?v=1793858203",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31304401_2l.jpg?v=1793858203",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31304401_3l.jpg?v=1793858203",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31304401_4l.jpg?v=1793858203"
+  ],
+  "descripcion": "Zapatilla de running Velocity NITRO 5 GTX de Puma, con membrana impermeable Gore-Tex para correr con lluvia sin mojar los pies.",
+  "detalles": [
+   "Mediasuela NITROFOAM con buena respuesta",
+   "Membrana impermeable para correr con lluvia",
+   "Diseñada para running en asfalto",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "11.5",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6471",
+  "marca": "Puma",
+  "nombre": "Puma Voyage NITRO 4 Trail Running Shoe",
+  "genero": "Hombre",
+  "precio": 169.95,
+  "precio_c": 6250,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31104119_1l.jpg?v=1793859056",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31104119_2l.jpg?v=1793859056",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31104119_3l.jpg?v=1793859056",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31104119_4l.jpg?v=1793859056"
+  ],
+  "descripcion": "Zapatilla de trail running Voyage NITRO 4 de Puma, con espuma NITROFOAM y suela con agarre para senderos y terrenos mixtos.",
+  "detalles": [
+   "Mediasuela NITROFOAM para pisadas cómodas",
+   "Diseñada para trail running en senderos",
+   "Suela con tracción para terreno irregular",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "9.5",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6472",
+  "marca": "Saucony",
+  "nombre": "Saucony Triumph 24 Running Shoes",
+  "genero": "Hombre",
+  "precio": 179.95,
+  "precio_c": 6617,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/S100997-1022_1l.jpg?v=1793937379",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/S100997-1022_2l.jpg?v=1793937379",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/S100997-1022_3l.jpg?v=1793937379",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/S100997-1022_4l.jpg?v=1793937379"
+  ],
+  "descripcion": "Zapatilla de running Triumph 24 de Saucony, de máxima amortiguación con espuma PWRRUN PB para rodajes largos y cómodos.",
+  "detalles": [
+   "Amortiguación PWRRUN PB de máxima suavidad",
+   "Diseñada para running de larga distancia",
+   "Parte superior transpirable",
+   "Cierre con cordones y calce regular de hombre"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-6473",
+  "marca": "Franco Sarto",
+  "nombre": "Franco Sarto Boa Pump Shoes — Dark Brown Suede",
+  "genero": "Mujer",
+  "precio": 145.0,
+  "precio_c": 5332,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/710mV6n8qIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61APULWPlsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71-5Inr-A1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61taifqnRGL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de vestir clásico de punta afilada en ante marrón oscuro, elegante y cómodo para la oficina o una cena.",
+  "detalles": [
+   "Empeine de ante con punta afilada y silueta clásica",
+   "Tacón de vestir de altura media",
+   "Forro sintético suave y suela de cuero",
+   "Estilo slip-on sin cierres"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6474",
+  "marca": "Franco Sarto",
+  "nombre": "Franco Sarto L-Mirabelle Loafers — Dark Taupe Suede",
+  "genero": "Mujer",
+  "precio": 104.98,
+  "precio_c": 3861,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71CkWfaFHmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71MpcF96ZfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81lUqy7IMzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61r42+vQMHL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín de vestir refinado en ante topo oscuro, con punta almendrada y un detalle metálico discreto.",
+  "detalles": [
+   "Empeine de cuero o piel sintética con punta almendrada",
+   "Detalle de herraje moderno",
+   "Tacón bajo para comodidad todo el día",
+   "Estilo slip-on fácil de calzar"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6475",
+  "marca": "Lauren Ralph Lauren",
+  "nombre": "Lauren Ralph Lauren Lolah II Suede Slingback Pumps — Light Tobacco",
+  "genero": "Mujer",
+  "precio": 145.0,
+  "precio_c": 5332,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Er5pGuVVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61N-nS7-IAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71mWyPTdUCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71KAsSzRebL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón con tira trasera en ante color tabaco claro, de punta afilada y acabado pulido.",
+  "detalles": [
+   "Empeine y forro de cuero en ante suave",
+   "Punta afilada de silueta clásica",
+   "Tira trasera elástica tipo slingback",
+   "Estilo slip-on con ajuste seguro"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "8.5"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6476",
+  "marca": "Lauren Ralph Lauren",
+  "nombre": "Lauren Ralph Lauren Francesca Nappa Leather Pumps — Dark Garnet",
+  "genero": "Mujer",
+  "precio": 158.5,
+  "precio_c": 5829,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71JhzBbzL0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61a0xUdk+4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71r6Ot1IEjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71D8IgoK2RL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón clásico en piel napa color granate oscuro, con punta afilada y tacón kitten.",
+  "detalles": [
+   "Empeine de piel napa suave",
+   "Punta afilada con empeine alto",
+   "Tacón kitten elegante",
+   "Forro de cuero y estilo slip-on"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6477",
+  "marca": "ECCO",
+  "nombre": "ECCO Elevate Modern Wedges Mary Jane Pumps — Black",
+  "genero": "Mujer",
+  "precio": 144.95,
+  "precio_c": 5330,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/717HtrIsQvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71K5q8vijwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713CEedXzXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710SAtCECeL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato Mary Jane de vestir en negro, con cuña moderna y tira fina que combina encanto clásico y comodidad.",
+  "detalles": [
+   "Tira fina estilo Mary Jane",
+   "Cuña moderna con suela de poliuretano",
+   "Forro y plantilla acolchada",
+   "Diseño versátil para el día a día"
+  ],
+  "tallas": [
+   "5-5.5",
+   "7-7.5",
+   "10-10.5",
+   "11-11.5"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6478",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Nella Block Heel Pumps — Black Suede",
+  "genero": "Mujer",
+  "precio": 150.21,
+  "precio_c": 5524,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61vZdi7edeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61+LhCD0IWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610mq79ic0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51qX+YwR18L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón con tira trasera en ante negro, con tacón de bloque y amortiguación para llevarlo todo el día.",
+  "detalles": [
+   "Empeine de cuero en ante negro",
+   "Tacón de bloque estable",
+   "Plantilla con amortiguación y soporte de arco",
+   "Silueta slingback de tacón"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6479",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Sienna Pumps — Taupe",
+  "genero": "Mujer",
+  "precio": 112.7,
+  "precio_c": 4144,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ckSktUOtL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ae-OejaML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71eIcRPYcTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7198hfRD67L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón clásico en color topo, ligero y con plantilla acolchada para comodidad durante todo el día.",
+  "detalles": [
+   "Acabado liso en color topo",
+   "Plantilla con soporte de arco y amortiguación",
+   "Suela sintética con inserto texturizado",
+   "Silueta clásica de tacón"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6480",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Grand Ambition 2.0 Angelica Pumps — Tobacco Suede/Brown Stack",
+  "genero": "Mujer",
+  "precio": 155.49,
+  "precio_c": 5718,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61GfLgV3cIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61fL9ezWthL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61TtThGqqDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61G0cwu4PfL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón en ante tabaco con tacón apilado marrón, de cuero de primera calidad y amortiguación avanzada.",
+  "detalles": [
+   "Empeine de cuero con forro de cuero",
+   "Tacón de 1.5 pulgadas",
+   "Sistema de amortiguación multicapa Grand Ambition",
+   "Punta afilada estilo slip-on"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6481",
+  "marca": "Marc Joseph New York",
+  "nombre": "Marc Joseph New York Midtown Pumps — Black Embossed",
+  "genero": "Mujer",
+  "precio": 162.95,
+  "precio_c": 5992,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71iY66o7ZoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71b4VQeEzfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71HaGtcMupL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61TzqRx-r6L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir en piel napa negra con textura, con tacón de bloque y plantilla acolchada con gel.",
+  "detalles": [
+   "Empeine de piel napa suave",
+   "Tacón de bloque de altura media",
+   "Plantilla acolchada con inserto de gel en el talón",
+   "Silueta clásica atemporal"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6482",
+  "marca": "Lauren Ralph Lauren",
+  "nombre": "Lauren Ralph Lauren Lynden Perforated Nappa Leather Pumps — Vanilla/Refined Navy",
+  "genero": "Mujer",
+  "precio": 212.5,
+  "precio_c": 7814,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61pDoCxgf8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61kC0Fa6hdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71aWQE7AofL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Mabe3PmGL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón en piel napa perforada en dos tonos, con punta afilada y diseño de bloques de color.",
+  "detalles": [
+   "Empeine de piel napa perforada",
+   "Punta afilada de silueta clásica",
+   "Diseño de dos tonos vainilla y azul marino",
+   "Forro de cuero y plantilla acolchada"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7.5",
+   "8.5",
+   "9.5",
+   "10",
+   "11"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6483",
+  "marca": "Michael Kors",
+  "nombre": "Michael Kors Haisley Sling Pumps — Black",
+  "genero": "Mujer",
+  "precio": 117.97,
+  "precio_c": 4338,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61239IaltTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61YW-HT1OLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/611le39F5rL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51Sx8PldvQL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón con tira trasera en cuero negro, de punta afilada y tacón de aguja con forma de reloj de arena.",
+  "detalles": [
+   "Empeine de cuero negro",
+   "Punta afilada con silueta enjaulada",
+   "Tacón de aguja con hebilla en la tira trasera",
+   "Suela de goma con buen agarre"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "10"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6484",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Paxton Maryjane Pump — Black Patent Leather",
+  "genero": "Mujer",
+  "precio": 170.33,
+  "precio_c": 6264,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61i5W9rvTVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61urXbPhVoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/614JFGKoH1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61uLdI9ygyL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato Mary Jane de vestir en charol negro, con tira clásica y tacón elegante para ocasiones formales.",
+  "detalles": [
+   "Empeine de charol negro",
+   "Tira estilo Mary Jane",
+   "Tacón de vestir de altura media",
+   "Horma fiel a la talla según la mayoría de reseñas"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-6485",
+  "marca": "Pelle Moda",
+  "nombre": "Pelle Moda Unia 3 Slide — Clear",
+  "genero": "Mujer",
+  "precio": 127.0,
+  "precio_c": 4670,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61bQkaBth9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lEJtmT+gL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61NkI8UVzmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61U9yjfDMsL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Sandalia tipo slide con tira transparente y tacón kitten, ligera y fácil de combinar con vestidos o pantalones.",
+  "detalles": [
+   "Tira de vinilo transparente",
+   "Tacón kitten bajo",
+   "Plantilla acolchada de corcho",
+   "Estilo slip-on sin cierres"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-6486",
+  "marca": "Camper",
+  "nombre": "Camper Duet — Medium Gray",
+  "genero": "Niños",
+  "precio": 125.0,
+  "precio_c": 4597,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/815z9WCP54L._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/81lE+l9o2nL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/91h+FQvPZ8L._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71vezvj2kWL._AC_SX500_.jpg"
+  ],
+  "descripcion": "Mocasín de cuero gris de Camper, clásico y cómodo, pensado para ocasiones formales y el uniforme escolar.",
+  "detalles": [
+   "Cuero liso en gris medio",
+   "Mocasín sin cordones, fácil de poner",
+   "Suela de goma con buen agarre",
+   "Interior suave y cómodo para todo el día"
+  ],
+  "tallas": [
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6487",
+  "marca": "Camper",
+  "nombre": "Camper Peu Cami — Medium Brown",
+  "genero": "Niños",
+  "precio": 120.0,
+  "precio_c": 4413,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71SU2aEcAfL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71fUVyjL+PL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/91fCVhkFD3L._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71rEJzlgk4L._AC_SX500_.jpg"
+  ],
+  "descripcion": "Zapato de cuero marrón con cordones de Camper, de estilo clásico y flexible, ideal para vestir y para el día a día.",
+  "detalles": [
+   "Cuero marrón de acabado suave",
+   "Cierre con cordones",
+   "Suela flexible de goma",
+   "Plantilla cómoda para pies en crecimiento"
+  ],
+  "tallas": [
+   "10",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "1",
+   "2"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6488",
+  "marca": "Dr. Martens",
+  "nombre": "Dr. Martens Raffe Moc Shoes Y — Dark Brown",
+  "genero": "Niños",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Gy8VyyMZL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/81l7Pae8CkL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/81IXY0Ay1KL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71lNgqRuzOL._AC_SX500_.jpg"
+  ],
+  "descripcion": "Mocasín de cuero marrón oscuro de Dr. Martens, con punta mocasín y tira de velcro, un clásico de archivo en versión infantil.",
+  "detalles": [
+   "Cuero nubuck marrón oscuro",
+   "Tira de velcro de ajuste rápido",
+   "Costura contraste en color crema",
+   "Suela de goma resistente con el ADN Dr. Martens"
+  ],
+  "tallas": [
+   "5",
+   "6"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6489",
+  "marca": "Deer Stags",
+  "nombre": "Deer Stags Marco Oxford — Black",
+  "genero": "Niños",
+  "precio": 104.95,
+  "precio_c": 3859,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/c75464565def43279e479a752577754b.webp",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3730ea20d30f414e8dce5035c5805be3.webp",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/29d10d114bb643828bbc78d8e0098b71.webp",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3c2f47c55778474bb92523d49d881763.webp"
+  ],
+  "descripcion": "Oxford negro de cuero de Deer Stags, el zapato formal clásico con cordones para ceremonias, escuela y eventos.",
+  "detalles": [
+   "Cuero negro liso",
+   "Cierre con cordones",
+   "Punta redonda clásica",
+   "Suela resistente de buen agarre"
+  ],
+  "tallas": [
+   "11",
+   "1"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6490",
+  "marca": "Tinny King",
+  "nombre": "Tinny King Wing Tip Loafer — Bosque",
+  "genero": "Niños",
+  "precio": 105.95,
+  "precio_c": 3896,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/fdd77d8260c2402ebd1efcc66c0def01.jpg"
+  ],
+  "descripcion": "Mocasín de cuero color bosque con puntera wingtip, fabricado en España, elegante y cómodo para ocasiones formales.",
+  "detalles": [
+   "Cuero con diseño wingtip clásico",
+   "Forro interior de cuero suave",
+   "Suela cómoda para todo el día",
+   "Va bien con uniforme, pantalón de vestir o falda"
+  ],
+  "tallas": [
+   "31",
+   "32",
+   "33",
+   "34",
+   "36",
+   "37",
+   "38"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6491",
+  "marca": "Tinny King",
+  "nombre": "Tinny King Wing Tip Loafer — Azul",
+  "genero": "Niños",
+  "precio": 105.95,
+  "precio_c": 3896,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/340ca9d418984a4dbf04fb24db7aef72.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/949696b784e449968bcdbe804986857f.jpg"
+  ],
+  "descripcion": "Mocasín de cuero azul con puntera wingtip, fabricado en España, un clásico de vestir cómodo para niños y niñas.",
+  "detalles": [
+   "Cuero azul con diseño wingtip",
+   "Forro interior de cuero suave",
+   "Suela cómoda para todo el día",
+   "Ideal para escuela, reuniones familiares y eventos formales"
+  ],
+  "tallas": [
+   "26",
+   "28",
+   "29",
+   "31",
+   "32",
+   "33",
+   "34",
+   "35",
+   "36",
+   "37",
+   "38"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6492",
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Salvatore Ferragamo Vara Bow Leather Ballet — Black",
+  "genero": "Niños",
+  "precio": 238.95,
+  "precio_c": 8787,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/53f4db9167164d1792ac0994d9a86f0b.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/06354f3f34d44bd9959957f8242233b7.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/be0a22f51b0d44739d12b6f0cba59451.jpg"
+  ],
+  "descripcion": "Bailarina negra de cuero de Salvatore Ferragamo con su lazo Vara característico, hecha en Italia para ocasiones especiales.",
+  "detalles": [
+   "Cuero negro de alta calidad",
+   "Lazo Vara emblemático",
+   "Punta redonda y tacón plano",
+   "Hecha en Italia, ancho medio"
+  ],
+  "tallas": [
+   "30",
+   "31",
+   "32"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6493",
+  "marca": "Prodigy",
+  "nombre": "Prodigy Mary Jane — Black",
+  "genero": "Niños",
+  "precio": 102.95,
+  "precio_c": 3786,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/bd8b2d5b248c43558bacf8287ad9fe18.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/262dbe496d09465aaae714491fd1ee10.jpg"
+  ],
+  "descripcion": "Mary Jane negra clásica con tira de cierre, cómoda y segura para la escuela, eventos formales y ocasiones especiales.",
+  "detalles": [
+   "Silueta mary jane clásica",
+   "Tira de cierre segura",
+   "Materiales duraderos",
+   "Combina con uniformes, vestidos y conjuntos de vestir"
+  ],
+  "tallas": [
+   "6.5"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6494",
+  "marca": "Atlanta Mocassin",
+  "nombre": "Atlanta Mocassin Aurea Leather Loafer — Black",
+  "genero": "Niños",
+  "precio": 114.93,
+  "precio_c": 4226,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/65828685cbd44aea9207e21e293aeb1b.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/f4eff7d33e4e47729e63941deb665bd4.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/cf52d22b764044c8b4dddfddd0e375a6.jpg"
+  ],
+  "descripcion": "Mocasín negro de cuero liso de Atlanta Mocassin, con plantilla acolchada y suela de goma, cómodo y elegante para niñas.",
+  "detalles": [
+   "Cuero negro liso",
+   "Plantilla ligeramente acolchada",
+   "Suela de goma con tracción",
+   "Diseño clásico de mocasín"
+  ],
+  "tallas": [
+   "28",
+   "31",
+   "32",
+   "33",
+   "34",
+   "35",
+   "36"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6495",
+  "marca": "Atlanta Mocassin",
+  "nombre": "Atlanta Mocassin Teresa Leather Loafer — Black",
+  "genero": "Niños",
+  "precio": 114.93,
+  "precio_c": 4226,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/159a8409965d4a778a5e49ad1bab3bef.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/88be1a5301e3404ba83d830573c05cdf.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/ba1918907f1d4dccbb480300524d9400.jpg"
+  ],
+  "descripcion": "Mocasín negro de cuero liso de Atlanta Mocassin, con plantilla acolchada y suela de goma antideslizante para el uso diario.",
+  "detalles": [
+   "Cuero negro liso",
+   "Plantilla ligeramente acolchada",
+   "Suela de goma con tracción",
+   "Cómodo para llevar todo el día"
+  ],
+  "tallas": [
+   "28",
+   "29",
+   "30",
+   "31",
+   "32",
+   "34"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6496",
+  "marca": "Atlanta Mocassin",
+  "nombre": "Atlanta Mocassin Buckle Leather Loafer — Black",
+  "genero": "Niños",
+  "precio": 114.93,
+  "precio_c": 4226,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3117b3a2002849faa3ca98e1ce0862cb.jpg",
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/2f08507a75d541ce8f0f509c49a182c9.jpg"
+  ],
+  "descripcion": "Mocasín negro de cuero liso con hebilla de Atlanta Mocassin, un clásico versátil con plantilla acolchada y suela de goma.",
+  "detalles": [
+   "Cuero negro liso con detalle de hebilla",
+   "Plantilla ligeramente acolchada",
+   "Suela de goma con tracción",
+   "Estilo clásico para cualquier ocasión"
+  ],
+  "tallas": [
+   "28",
+   "29",
+   "30",
+   "31",
+   "32",
+   "33",
+   "34",
+   "35",
+   "36"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6497",
+  "marca": "Camper",
+  "nombre": "Camper Right — Black",
+  "genero": "Niños",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/231c62f33b734cb18acfff06814a0dbb.jpg"
+  ],
+  "descripcion": "Bailarina negra de cuero de Camper con lazo anudado, flexible como una zapatilla de ballet y con suela de calle resistente.",
+  "detalles": [
+   "Cuero negro flexible",
+   "Lazo anudado decorativo",
+   "Suela de goma lista para la calle",
+   "Ligera y cómoda para todo el día"
+  ],
+  "tallas": [
+   "27",
+   "30",
+   "32"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6498",
+  "marca": "Nike",
+  "nombre": "Nike Air More Uptempo Basketball (Grade-School) — Black / White",
+  "genero": "Niños",
+  "precio": 142.0,
+  "precio_c": 5222,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_415082_20002_GS065.jpg",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_415082_20002_GS067.jpg",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_415082_20002_GS069.jpg",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_415082_20002_GS066.jpg"
+  ],
+  "descripcion": "El icónico Nike Air More Uptempo '96 en versión juvenil, con las letras AIR grandes en los laterales y amortiguación Air visible de largo completo.",
+  "detalles": [
+   "Letras AIR grandes en blanco",
+   "Amortiguación Nike Air visible de largo completo",
+   "Empeine negro duradero",
+   "Tiras elásticas en la lengüeta para un ajuste seguro"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6499",
+  "marca": "UGG",
+  "nombre": "UGG Tazz (Little Kid/Big Kid) — Chestnut",
+  "genero": "Niños",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/712LxieVPWL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71-OVdzNU4L._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71jJUsd1SZL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71sk4JxT-3L._AC_SX500_.jpg"
+  ],
+  "descripcion": "Mule cómodo de UGG en color castaño, con forro suave y suela ligera, fácil de poner y perfecto para el día a día.",
+  "detalles": [
+   "Forro suave y abrigado",
+   "Diseño slip-on sin cordones",
+   "Suela ligera y cómoda",
+   "Color castaño clásico de UGG"
+  ],
+  "tallas": [
+   "13",
+   "1",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6500",
+  "marca": "UGG",
+  "nombre": "UGG Classic Ultra Mini (Little Kid/Big Kid) — Chestnut",
+  "genero": "Niños",
+  "precio": 144.95,
+  "precio_c": 5330,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/812eRjzcmUL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/81Mdyjs8I7L._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/716mn406HhL._AC_SX500_.jpg",
+   "https://m.media-amazon.com/images/I/71X3hdkVN2L._AC_SX500_.jpg"
+  ],
+  "descripcion": "La bota clásica de UGG en versión ultracorta para niños, en color castaño, cálida y fácil de poner para el frío.",
+  "detalles": [
+   "Caña ultracorta, fácil de poner",
+   "Forro de lana suave y cálido",
+   "Suela ligera y flexible",
+   "Color castaño clásico de UGG"
+  ],
+  "tallas": [
+   "13",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6501",
+  "marca": "Jordan",
+  "nombre": "Jordan True Flight Grade-School — Black",
+  "genero": "Niños",
+  "precio": 109.98,
+  "precio_c": 4044,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20011_GS094.jpg",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20011_GS096.jpg",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20011_GS097.jpg",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20011_GS095.jpg"
+  ],
+  "descripcion": "Jordan True Flight juvenil en negro, con silueta inspirada en el Air Jordan 7 y amortiguación de baloncesto, un clásico del 2009.",
+  "detalles": [
+   "Empeine de nobuk negro",
+   "Marca Jumpman",
+   "Sistema de cordones tradicional",
+   "Entresuela de espuma y suela de goma"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6502",
+  "marca": "UGG",
+  "nombre": "UGG Classic Ultra Mini Dazzle (Toddler) - Chestnut",
+  "genero": "Niños",
+  "precio": 110.45,
+  "precio_c": 4062,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81DR4ikX4-L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71oKfs+1WZL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71SGuzwgY+L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/810ZLgyf75L._SX700_.jpg"
+  ],
+  "descripcion": "Botín corto UGG con estampado brillante tipo foil sobre ante, forro cálido UGGplush y suela ligera de EVA para fiestas y días fríos.",
+  "detalles": [
+   "Ante con estampado brillante (foil) tipo dazzle",
+   "Forro y plantilla UGGplush de lana reciclada",
+   "Caña baja con fácil puesta",
+   "Suela ligera de EVA de caña de azúcar"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6503",
+  "marca": "UGG",
+  "nombre": "UGG Classic Ultra Mini Shiny Dots (Little Kid/Big Kid) - Chestnut",
+  "genero": "Niños",
+  "precio": 154.95,
+  "precio_c": 5698,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81yMtV0aeiL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71zwp6F4DyL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81cYRTXQIJL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81V9DItHWML._SX700_.jpg"
+  ],
+  "descripcion": "Botín corto UGG de ante con puntos metálicos brillantes, forro UGGplush y cierre lateral para un brillo festivo sin esfuerzo.",
+  "detalles": [
+   "Ante con puntos metálicos brillantes",
+   "Forro y plantilla UGGplush cálidos",
+   "Cierre lateral de cremallera",
+   "Suela ligera de EVA de caña de azúcar"
+  ],
+  "tallas": [
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6504",
+  "marca": "UGG",
+  "nombre": "UGG Tazz Shiny Dots (Little Kid/Big Kid) - Chestnut",
+  "genero": "Niños",
+  "precio": 119.95,
+  "precio_c": 4411,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81ajEGpMp5L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71azhY2YmkL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/818dHO0U+jL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81mretQe7sL._SX700_.jpg"
+  ],
+  "descripcion": "Slip-on UGG con plataforma baja y ante salpicado de puntos brillantes, cómodo y con mucho brillo para ocasiones especiales.",
+  "detalles": [
+   "Ante con puntos brillantes (shimmering dots)",
+   "Entrada slip-on sin cordones",
+   "Plantilla UGGplush acolchada",
+   "Plataforma baja de EVA ligera"
+  ],
+  "tallas": [
+   "13",
+   "2",
+   "3"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6505",
+  "marca": "UGG",
+  "nombre": "UGG Classic Ultra Mini Platform (Little Kid/Big Kid) - Light Bronze",
+  "genero": "Niños",
+  "precio": 154.95,
+  "precio_c": 5698,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81wYXBH2MPL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71GKsr4MkuL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81N9W1QYr6L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/812AlQp4-cL._SX700_.jpg"
+  ],
+  "descripcion": "Botín UGG de plataforma en ante bronce metalizado, con forro UGGplush y plataforma de 1,5 pulgadas para un look de fiesta con altura.",
+  "detalles": [
+   "Ante color bronce claro metalizado",
+   "Plataforma de 1,5 pulgadas",
+   "Forro y plantilla UGGplush",
+   "Suela ligera de EVA"
+  ],
+  "tallas": [
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6506",
+  "marca": "Dr. Martens",
+  "nombre": "Dr. Martens 1460 Hearts+Stars (Big Kid) - Black",
+  "genero": "Niños",
+  "precio": 120.0,
+  "precio_c": 4413,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71NTScrt+eL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61tVkziBO7L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61+Sh1Rrp1L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61O1fZgO6AL._SX700_.jpg"
+  ],
+  "descripcion": "Bota Dr. Martens 1460 en piel con corazones y estrellas plateados brillantes, ojales clásicos y cremallera lateral para fiestas.",
+  "detalles": [
+   "Piel con corazones y estrellas plateados brillantes",
+   "Diseño clásico de 8 ojales con pespunte amarillo",
+   "Cremallera lateral para fácil puesta",
+   "Suela DMS con cámara de aire"
+  ],
+  "tallas": [
+   "5",
+   "6"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6507",
+  "marca": "Dr. Martens",
+  "nombre": "Dr. Martens Genaya Hearts+Stars (Big Kid) - Black",
+  "genero": "Niños",
+  "precio": 120.0,
+  "precio_c": 4413,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/6195JYQ00BL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61EmgaqgPLL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61AAF8s4aYL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71HcfKCehgL._SX700_.jpg"
+  ],
+  "descripcion": "Bota media Dr. Martens Genaya en piel con corazones y estrellas, detalles plateados y hebillas ajustables para un look festivo.",
+  "detalles": [
+   "Piel con detalle de corazones y estrellas",
+   "Detalles plateados tipo arnés",
+   "Hebillas ajustables en el empeine",
+   "Cremallera interior y puntera redonda"
+  ],
+  "tallas": [
+   "5",
+   "6"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6508",
+  "marca": "Dr. Martens",
+  "nombre": "Dr. Martens Genaya Hearts+Stars (Little Kid/Big Kid) - Black",
+  "genero": "Niños",
+  "precio": 110.0,
+  "precio_c": 4045,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71JEuIXV0qL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71l0VuEN1EL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71IYcTp3j3L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71TS3JK-viL._SX700_.jpg"
+  ],
+  "descripcion": "Bota alta Dr. Martens Genaya en piel con corazones y estrellas bordados y tachonados, arnés plateado y cierre de cremallera.",
+  "detalles": [
+   "Corazones y estrellas bordados y tachonados",
+   "Arnés plateado con hebilla ajustable",
+   "Piel Wyoming con acabado natural",
+   "Cremallera interior de fácil puesta"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6509",
+  "marca": "Naturino",
+  "nombre": "Naturino Glitty (Toddler/Little Kid) - Phard",
+  "genero": "Niños",
+  "precio": 101.0,
+  "precio_c": 3714,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81JlvYEYrtL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71XlvnlzOdL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/81vhFrfOQDL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/812XzzkDrwL._SX700_.jpg"
+  ],
+  "descripcion": "Botín chelsea Naturino en ante rosa metalizado con brillo, elástico lateral y suela de goma con agarre para las más pequeñas.",
+  "detalles": [
+   "Ante rosa metalizado con brillo (verificado en foto)",
+   "Elástico lateral estilo chelsea",
+   "Plantilla de piel acolchada",
+   "Suela de goma con agarre texturizado"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7.5",
+   "8",
+   "9.5"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6510",
+  "marca": "Birkenstock",
+  "nombre": "Birkenstock Arizona Slide (Little Kid) — Taupe",
+  "genero": "Niños",
+  "precio": 122.98,
+  "precio_c": 4522,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_884948_FS.JPG",
+   "https://images.journeys.com/images/products/1_884948_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_884948_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_884948_FS_ALT3.JPG"
+  ],
+  "descripcion": "Slide clásico de dos tiras en ante color topo, con plantilla anatómica de corcho forrada en ante para comodidad todo el día.",
+  "detalles": [
+   "Parte superior de ante suave con dos tiras ajustables con hebilla",
+   "Plantilla anatómica de corcho y látex forrada en ante",
+   "Suela ligera de EVA con tracción flexible",
+   "Ancho Narrow, cómodo también para pies de ancho medio"
+  ],
+  "tallas": [
+   "30/US Little Kid 12-12.5",
+   "31/US Little Kid 13-13.5",
+   "33/US Little Kid 2-2.5",
+   "34/US Little Kid 3-3.5"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6511",
+  "marca": "HOKA",
+  "nombre": "HOKA Hopara 2 (Big Kid) — Cielo Blue",
+  "genero": "Niños",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71oALGABRlL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71ak3zioelL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71bIBOec+QL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71SXVq16glL._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia deportiva anfibia en azul cielo, lista para barro, tierra y agua, con puntera de goma y cierre de palanca para poner y quitar rápido.",
+  "detalles": [
+   "Puntera de goma protectora y cierre de palanca fácil de usar",
+   "Malla de secado rápido y drenaje de agua",
+   "Mediasuela acolchada de EVA para comodidad todo el día",
+   "Suela con tacos multidireccionales para agarre en seco y mojado"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6512",
+  "marca": "HOKA",
+  "nombre": "HOKA Hopara 2 Junior — Nautical Dusk/Cielo",
+  "genero": "Niños",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://www.holabirdsports.com/cdn/shop/files/121514_3.jpg?v=1740521560",
+   "https://www.holabirdsports.com/cdn/shop/files/121514_1.jpg?v=1740521560",
+   "https://www.holabirdsports.com/cdn/shop/files/121514_2.jpg?v=1740521560",
+   "https://www.holabirdsports.com/cdn/shop/files/121514_4.jpg?v=1740517544"
+  ],
+  "descripcion": "Sandalia de aventura en azul marino y celeste, preparada para el agua y el sendero, con puntera de goma y correa de talón ajustable.",
+  "detalles": [
+   "Puntera de goma y correa de talón ajustable para un ajuste seguro",
+   "Malla con tratamiento repelente al agua y drenaje rápido",
+   "Mediasuela de EVA de caña de azúcar, cómoda y ecológica",
+   "Suela de goma con tacos de 4 mm para agarre en seco y mojado"
+  ],
+  "tallas": [
+   "4",
+   "5.5",
+   "6",
+   "6.5"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6513",
+  "marca": "Fear of God",
+  "nombre": "Fear of God The California Slip-On (Kids) — Cream",
+  "genero": "Niños",
+  "precio": 118.95,
+  "precio_c": 4374,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-cream-01.jpg?v=1788509829",
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-cream-02.jpg?v=1788509829",
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-cream-03.jpg?v=1788509829",
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-cream-04.jpg?v=1788509829"
+  ],
+  "descripcion": "Slide sin talón en color crema, hecho en goma espuma con ventilación interior y suela con relieve para tracción.",
+  "detalles": [
+   "Diseño sin talón fácil de calzar, en goma espuma",
+   "Ventilación interior para que el pie respire",
+   "Suela con relieve elevado para mayor tracción",
+   "Estilo FG80-100EVAK, color Cream"
+  ],
+  "tallas": [
+   "32"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6514",
+  "marca": "Fear of God",
+  "nombre": "Fear of God The California Slip-On (Kids) — Almond",
+  "genero": "Niños",
+  "precio": 118.95,
+  "precio_c": 4374,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-almond-01.jpg?v=1788509830",
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-almond-02.jpg?v=1788509830",
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-almond-03.jpg?v=1788509830",
+   "https://cdn.shopify.com/s/files/1/0187/5180/products/oneness-kids-fear-of-god-the-california-slip-on-in-almond-04.jpg?v=1788509864"
+  ],
+  "descripcion": "Slide sin talón en color almendra, hecho en goma espuma con ventilación interior y suela con relieve para tracción.",
+  "detalles": [
+   "Diseño sin talón fácil de calzar, en goma espuma",
+   "Ventilación interior para que el pie respire",
+   "Suela con relieve elevado para mayor tracción",
+   "Estilo FG80-100EVAK, color Almond"
+  ],
+  "tallas": [
+   "27",
+   "28",
+   "29",
+   "30",
+   "32",
+   "33"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  }
 ];
