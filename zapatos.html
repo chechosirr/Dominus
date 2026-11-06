@@ -816,7 +816,7 @@ function priceCFor(p, t){ return (p && p.pt && t && p.pt[t] != null) ? Math.roun
  function render(){
  var list = filtered();
  count.textContent = 'Precios verificados el ' + ZAP_VERIFICADO + ' · Envíos a Nicaragua y Estados Unidos · El envío se suma en el carrito';
- if(!list.length){ grid.innerHTML = (curCat === 'ninos' && !state.q && !state.marca && !state.precio && !state.talla) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
+ if(!list.length){ var sinF = !state.q && !state.marca && !state.precio && !state.talla; grid.innerHTML = (curCategoria && sinF) ? '<div class="empty">Muy pronto tendremos zapatos en esta categoría.<br>Vuelve en unos días.</div>' : (curCat === 'ninos' && sinF) ? '<div class="empty">Muy pronto tendremos zapatos para niños.<br>Vuelve en unos días.</div>' : '<div class="empty">Ningún producto coincide con esos filtros.<br>Prueba con otra marca o limpia los filtros.</div>'; return; }
  grid.innerHTML = list.map(function(p){
  return '<article class="card" data-code="'+p.codigo+'">' +
  '<div class="ph"><img loading="lazy" src="'+esc(p.fotos[0])+'" alt="'+esc(p.nombre)+'"></div>' +
@@ -1335,7 +1335,7 @@ function shipParts(){
  if(curCat === 'ninos') h += '<p class="catsub">' + (curSub === 'niño' ? 'Niño' : 'Niña') + '</p>';
  var orden = CATS_SECCION[curCat].slice();
  if(curCat === 'ninos' && curSub === 'niña') orden.splice(orden.indexOf('Chanclas'), 0, 'Sandalias');
- orden.forEach(function(nombre){ if(contarCategoria(nombre) > 0) h += '<button class="catbtn" data-catname="' + nombre + '">' + nombre + '</button>'; });
+ orden.forEach(function(nombre){ h += '<button class="catbtn" data-catname="' + nombre + '">' + nombre + '</button>'; });
  }
  h += '</div>';
  cl.innerHTML = h;
