@@ -378,7 +378,8 @@ button.login-cta-h{font-family:inherit;cursor:pointer;border:0}
 <style>
 /* ===== Tres escaparates en fila + parrilla de 5 columnas (solo escritorio) ===== */
 #catlist{position:relative;z-index:1}
-#catfondo{position:fixed;inset:0;z-index:0;display:none;background:#17171b}
+#catfondo{position:fixed;top:0;left:0;width:100%;height:100vh;height:100lvh;z-index:0;display:none;background:#17171b;transform:translateZ(0);will-change:transform;pointer-events:none;overflow:hidden}
+body.en-cats{overscroll-behavior:none}
 body.en-cats #catfondo{display:block}
 body.en-cats #shopview{position:relative;z-index:1}
 #catfondo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
