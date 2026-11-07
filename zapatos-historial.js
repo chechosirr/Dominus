@@ -16545,6 +16545,10 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Lightorama Runner Elastic Lace (Toddler) - Ice Lavender/Silver Metallic/Flash Aqua"
  },
  {
+  "codigo": "DOM-5133",
+  "nombre": "Starter RT-X Black/Silver"
+ },
+ {
   "codigo": "DOM-514",
   "nombre": "New Balance 574 Newb Hook & Loop (Toddler) - Shell Pink/Carnival Pink"
  },
@@ -16919,6 +16923,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-623",
   "nombre": "Dockers Searose Boat Shoes — Briar"
+ },
+ {
+  "codigo": "DOM-6232",
+  "nombre": "Jordan Air Jordan 3 Retro 'Sail And Jade Aura' Toddler"
  },
  {
   "codigo": "DOM-624",
