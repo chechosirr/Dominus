@@ -130,6 +130,39 @@ var statusEl = panel.querySelector('#dc-status');
 var conv = lsGet('dominus_chat_conv') || null;
 var myName = lsGet('dominus_chat_name') || '';
 var myContact = lsGet('dominus_chat_contact') || '';
+/* Cliente CON sesión (Supabase, clave dominus_session): entra
+   DIRECTO al chat, sin el formulario de visitante, y sus mensajes
+   van con su token para que el servidor asocie la conversación a
+   su cuenta. Su conversación se guarda aparte de la de visitante. */
+var sbSession = null;
+try{ sbSession = JSON.parse(lsGet('dominus_session') || 'null'); }catch(e){}
+var acct = null;
+if(sbSession && sbSession.access_token && sbSession.user && sbSession.user.id){
+  acct = {
+    name: (sbSession.user.user_metadata && (sbSession.user.user_metadata.nombre || sbSession.user.user_metadata.name)) || sbSession.user.email || 'Cliente',
+    email: sbSession.user.email || '',
+    token: sbSession.access_token
+  };
+  conv = lsGet('dominus_chat_conv_acc') || null;
+}
+function convKey(){ return acct ? 'dominus_chat_conv_acc' : 'dominus_chat_conv'; }
+function ensureAcctConv(){
+  if(!acct || conv) return Promise.resolve();
+  return fetch(CHAT_BASE + '/myconv', { headers: { 'Authorization': 'Bearer ' + acct.token } })
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(j){ if(j && j.conv){ conv = j.conv; lsSet('dominus_chat_conv_acc', conv); rendered = 0; } })
+    .catch(function(){});
+}
+if(acct){
+  /* El nombre bueno es el de su perfil (profiles.nombre); el del
+     metadata o el correo es solo el de arranque. */
+  fetch(SB_URL + '/rest/v1/profiles?user_id=eq.' + encodeURIComponent(sbSession.user.id) + '&select=nombre', {
+    headers: { 'apikey': SB_ANON, 'Authorization': 'Bearer ' + acct.token }
+  }).then(function(r){ return r.ok ? r.json() : []; })
+    .then(function(rows){ if(rows && rows[0] && rows[0].nombre) acct.name = rows[0].nombre; })
+    .catch(function(){});
+  ensureAcctConv();
+}
 var rendered = 0;          /* cuántos mensajes ya se pintaron (= after del poll) */
 var pollTimer = null;
 var sending = false;
@@ -171,7 +204,7 @@ function poll(after0){
 }
 
 function showGateOrComposer(){
-  if(!myName){
+  if(!myName && !acct){
     /* Pantalla de datos primero (igual que NEXO): la conversación
        no se ve hasta que el visitante envía sus datos. */
     msgsEl.style.display = 'none';
@@ -181,6 +214,11 @@ function showGateOrComposer(){
     msgsEl.style.display = '';
     gateEl.style.display = 'none'; compEl.style.display = 'flex';
     if(conv) poll(rendered === 0);
+    else if(acct) ensureAcctConv().then(function(){
+      if(!isOpen) return;
+      if(conv) poll(true);
+      else if(!rendered) msgsEl.innerHTML = '<div class="dc-hint">Hola, ' + esc(acct.name) + ' 👋<br>¿En qué podemos ayudarte hoy?</div>';
+    });
     else if(!rendered) msgsEl.innerHTML = '<div class="dc-hint">Hola, ' + esc(myName) + ' 👋<br>¿En qué podemos ayudarte hoy?</div>';
   }
 }
@@ -195,7 +233,7 @@ function openChat(opts){
   if(pollTimer) clearInterval(pollTimer);
   pollTimer = setInterval(function(){ if(isOpen && conv) poll(false); }, 4000);
   setTimeout(function(){
-    if(myName) inputEl.focus(); else { var n = panel.querySelector('#dc-name'); if(n) n.focus(); }
+    if(myName || acct) inputEl.focus(); else { var n = panel.querySelector('#dc-name'); if(n) n.focus(); }
   }, 60);
 }
 function closeChat(){
@@ -224,18 +262,18 @@ panel.querySelector('#dc-gate-btn').addEventListener('click', function(){
 function doSend(){
   var text = inputEl.value.trim();
   if(!text || sending) return;
-  if(!myName){ showGateOrComposer(); return; }
+  if(!myName && !acct){ showGateOrComposer(); return; }
   sending = true; sendBtn.disabled = true;
   setStatus('Enviando…');
-  var body = { name: myName, text: text };
-  if(myContact) body.contact = myContact;
-  if(conv) body.conv = conv;
+  var body;
+  if(acct){ body = { text: text, auth: acct.token }; if(conv) body.conv = conv; }
+  else { body = { name: myName, text: text }; if(myContact) body.contact = myContact; if(conv) body.conv = conv; }
   fetch(CHAT_BASE + '/send', {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body)
   }).then(function(r){ if(!r.ok) throw new Error('send ' + r.status); return r.json(); })
     .then(function(j){
       if(!j || !j.ok || !j.conv) throw new Error('send');
-      if(j.conv !== conv){ conv = j.conv; lsSet('dominus_chat_conv', conv); }
+      if(j.conv !== conv){ conv = j.conv; lsSet(convKey(), conv); }
       inputEl.value = '';
       setStatus('');
       return poll(rendered === 0);
