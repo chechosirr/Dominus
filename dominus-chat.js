@@ -153,6 +153,24 @@ function ensureAcctConv(){
     .then(function(j){ if(j && j.conv){ conv = j.conv; lsSet('dominus_chat_conv_acc', conv); rendered = 0; } })
     .catch(function(){});
 }
+var opening = false;
+/* El saludo existe DESDE que el cliente entra al chat (orden de
+   Sergio): al entrar —con sesion, directo; el visitante, al enviar
+   sus datos— la conversacion se crea en el servidor con su saludo
+   ya puesto, sin esperar a su primer mensaje. */
+function ensureOpen(){
+  if(conv || opening) return Promise.resolve();
+  if(!myName && !acct) return Promise.resolve();
+  opening = true;
+  var body = acct ? { auth: acct.token } : { name: myName, contact: myContact };
+  return fetch(CHAT_BASE + '/open', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(j){
+      opening = false;
+      if(j && j.ok && j.conv){ conv = j.conv; lsSet(convKey(), conv); rendered = 0; if(isOpen) poll(true); }
+    })
+    .catch(function(){ opening = false; });
+}
 if(acct){
   /* El nombre bueno es el de su perfil (profiles.nombre); el del
      metadata o el correo es solo el de arranque. */
@@ -217,9 +235,9 @@ function showGateOrComposer(){
     else if(acct) ensureAcctConv().then(function(){
       if(!isOpen) return;
       if(conv) poll(true);
-      else if(!rendered) msgsEl.innerHTML = '<div class="dc-hint">Hola, ' + esc(acct.name) + ' 👋<br>¿En qué podemos ayudarte hoy?</div>';
+      else ensureOpen();
     });
-    else if(!rendered) msgsEl.innerHTML = '<div class="dc-hint">Hola, ' + esc(myName) + ' 👋<br>¿En qué podemos ayudarte hoy?</div>';
+    else ensureOpen();
   }
 }
 
@@ -231,7 +249,7 @@ function openChat(opts){
   if(opts.prefill && myName){ inputEl.value = opts.prefill; }
   if(opts.prefill && !myName){ panel.setAttribute('data-prefill', opts.prefill); }
   if(pollTimer) clearInterval(pollTimer);
-  pollTimer = setInterval(function(){ if(isOpen && conv) poll(false); }, 4000);
+  pollTimer = setInterval(function(){ if(!isOpen) return; if(conv) poll(false); else if(myName || acct) ensureOpen(); }, 4000);
   setTimeout(function(){
     if(myName || acct) inputEl.focus(); else { var n = panel.querySelector('#dc-name'); if(n) n.focus(); }
   }, 60);
