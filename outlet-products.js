@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "6 de noviembre de 2026";
+var ZAP_VERIFICADO = "7 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -5536,8 +5536,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Soccer Phantom 6 Low Club — Black",
   "genero": "Hombre",
-  "precio": 79.99,
-  "precio_c": 2942,
+  "precio": 73.0,
+  "precio_c": 2685,
   "fotos": [
    "https://m.media-amazon.com/images/I/71eMcNsr8lL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71U6MUyXjGL._AC_SX1024_.jpg",
@@ -11341,8 +11341,8 @@ var ZAPATOS = [
   "marca": "Hi-Tec",
   "nombre": "Demolisher Mid Hiking Boots — Black/Yellow",
   "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
+  "precio": 29.95,
+  "precio_c": 1101,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CH80046M-BY_1l.jpg?v=1792718943",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CH80046M-BY_2l.jpg?v=1792718943",
@@ -11479,8 +11479,8 @@ var ZAPATOS = [
   "marca": "Palladium",
   "nombre": "Pallabrousse 75th Anniversary Round Toe Lace Up Boots — Black",
   "genero": "Hombre",
-  "precio": 34.95,
-  "precio_c": 1285,
+  "precio": 29.95,
+  "precio_c": 1101,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/77952-001_1l.jpg?v=1788552328",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/77952-001_2l.jpg?v=1788552328",
@@ -11562,8 +11562,8 @@ var ZAPATOS = [
   "marca": "Lugz",
   "nombre": "Cypress Round Toe Lace Up Boots — Brown",
   "genero": "Hombre",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MCYPREGV-2013_1l.jpg?v=1789403626",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MCYPREGV-2013_2l.jpg?v=1789403626",
@@ -11816,8 +11816,8 @@ var ZAPATOS = [
   "marca": "Palladium",
   "nombre": "Pampa Hi Round Toe Lace Up Boots — Grey",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/02352-297-M_1l.jpg?v=1789395865",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/02352-297-M_2l.jpg?v=1789395865",
@@ -19755,8 +19755,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Equipe Atomo Running — Black",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178050-C3638_1l.jpg?v=1788896628",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178050-C3638_2l.jpg?v=1788896628",
@@ -19783,8 +19783,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Equipe Nucleo Running — Black",
   "genero": "Mujer",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179095-C0200_1l.jpg?v=1780406441",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179095-C0200_2l.jpg?v=1780406441",
@@ -19818,8 +19818,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Equipe Nucleo Running — Blue / Red",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179095-D0888_1l.jpg?v=1792743483",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179095-D0888_2l.jpg?v=1792743484",
@@ -19852,8 +19852,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield 7 Vortice Running — Blue",
   "genero": "Mujer",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178061-C9810_1l.jpg?v=1788863817",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178061-C9810_2l.jpg?v=1788863817",
@@ -19886,8 +19886,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield 7 Vortice Running — Grey / Pink",
   "genero": "Mujer",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178061-C3567_1l.jpg?v=1792736212",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178061-C3567_2l.jpg?v=1792736212",
@@ -19982,8 +19982,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield Vigore Running — Grey",
   "genero": "Mujer",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178045-C3567_1l.jpg?v=1792736277",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178045-C3567_2l.jpg?v=1792736277",
@@ -20016,8 +20016,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield Volo 3 Running — Black",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179088-C2609_1l.jpg?v=1788514484",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179088-C2609_2l.jpg?v=1788514484",
@@ -20047,8 +20047,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield Volo 3 Running — Grey",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179088-C0793_1l.jpg?v=1788979288",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179088-C0793_2l.jpg?v=1788979288",
@@ -20082,8 +20082,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield Volo 4 Hip Running — Black",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180250-C7406_1l.jpg?v=1779891044",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180250-C7406_2l.jpg?v=1779891045",
@@ -20142,8 +20142,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Better Foam Prowl Winter Bloom Running — Blue",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31128701_1l.jpg?v=1792741822",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31128701_2l.jpg?v=1792741822",
@@ -20245,8 +20245,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Electrify NITRO 4 Running — Green",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31078812_1l.jpg?v=1793389389",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31078812_2l.jpg?v=1793389389",
@@ -20448,8 +20448,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Scend Pro Running — Pink",
   "genero": "Mujer",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37965715_1l.jpg?v=1792835256",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37965715_2l.jpg?v=1792835256",
@@ -20706,8 +20706,8 @@ var ZAPATOS = [
   "marca": "Saucony",
   "nombre": "Saucony Kinvara 14 Running — Pink",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/S10823-25_1l.jpg?v=1789252417",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/S10823-25_2l.jpg?v=1789252417",
@@ -21300,8 +21300,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Atomo V7000 Running — Black",
   "genero": "Mujer",
-  "precio": 57.95,
-  "precio_c": 2131,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179068-C7406_1l.jpg?v=1787781182",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179068-C7406_2l.jpg?v=1787781182",
@@ -21828,8 +21828,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Equipe Nucleo Wide Running — Blue / White",
   "genero": "Mujer",
-  "precio": 53.95,
-  "precio_c": 1984,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180807-D0889_1l.jpg?v=1792730306",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180807-D0889_2l.jpg?v=1792730306",
@@ -21900,8 +21900,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Equipe Sestriere XT Trail Running — Black",
   "genero": "Mujer",
-  "precio": 53.95,
-  "precio_c": 1984,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179552-D0660_1l.jpg?v=1788767986",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179552-D0660_2l.jpg?v=1788767985",
@@ -22075,8 +22075,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Mythos Blushield 9 Vortice Hip Running — Black",
   "genero": "Mujer",
-  "precio": 57.95,
-  "precio_c": 2131,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180246-C2815_1l.jpg?v=1779890856",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180246-C2815_2l.jpg?v=1779890856",
@@ -23162,8 +23162,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora B.Icon All Ground Tennis — White",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178116-D0190_1l.jpg?v=1793109836",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/178116-D0190_2l.jpg?v=1793109836",
@@ -23190,8 +23190,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Finale All Ground Tennis — Pink",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179358-D0252_1l.jpg?v=1792743662",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179358-D0252_2l.jpg?v=1792743662",
@@ -23499,8 +23499,8 @@ var ZAPATOS = [
   "marca": "Fila",
   "nombre": "Fila Axilus 2 Tie Dye Energized Tennis — Multi",
   "genero": "Mujer",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5TM00626-781_1l.jpg?v=1788561962",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/5TM00626-781_2l.jpg?v=1788561962",
@@ -23721,8 +23721,8 @@ var ZAPATOS = [
   "marca": "LifeStride",
   "nombre": "LifeStride Haddie Slip On Sneakers — Black",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/H6614F3003_1l.jpg?v=1788506984",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/H6614F3003_2l.jpg?v=1788506984",
@@ -24344,8 +24344,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Gazelle Bold — Blue",
   "genero": "Mujer",
-  "precio": 58.95,
-  "precio_c": 2168,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JQ7776_1l.jpg?v=1788525848",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JQ7776_2l.jpg?v=1788525848",
@@ -24371,8 +24371,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Gazelle Bold — Brown",
   "genero": "Mujer",
-  "precio": 59.95,
-  "precio_c": 2205,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI2697_1l.jpg?v=1788799829",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI2697_2l.jpg?v=1788799829",
@@ -24764,8 +24764,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Handball Spezial — Green / Yellow",
   "genero": "Mujer",
-  "precio": 61.95,
-  "precio_c": 2278,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI2655_1l.jpg?v=1788682144",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI2655_2l.jpg?v=1788682144",
@@ -24830,8 +24830,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Handball Spezial — Blue",
   "genero": "Mujer",
-  "precio": 72.95,
-  "precio_c": 2683,
+  "precio": 64.95,
+  "precio_c": 2388,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JH5658_1l.jpg?v=1788525958",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JH5658_2l.jpg?v=1788525959",
@@ -25295,8 +25295,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Sambae — White",
   "genero": "Mujer",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 64.95,
+  "precio_c": 2388,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JI1349_1l.jpg?v=1788336295",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JI1349_2l.jpg?v=1788336295",
@@ -25332,8 +25332,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Blushield Torneo 2 All Ground Tennis — White",
   "genero": "Mujer",
-  "precio": 72.95,
-  "precio_c": 2683,
+  "precio": 64.95,
+  "precio_c": 2388,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179503-C1070_1l.jpg?v=1793172421",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179503-C1070_2l.jpg?v=1793172421",
@@ -25363,8 +25363,8 @@ var ZAPATOS = [
   "marca": "Diadora",
   "nombre": "Diadora Blushield Torneo 2 All Ground Tennis — Grey",
   "genero": "Mujer",
-  "precio": 72.95,
-  "precio_c": 2683,
+  "precio": 69.95,
+  "precio_c": 2572,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179503-D0686_1l.jpg?v=1788986546",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179503-D0686_2l.jpg?v=1788986546",
@@ -42026,32 +42026,6 @@ var ZAPATOS = [
   "subcat": "ambos"
  },
  {
-  "codigo": "DOM-5919",
-  "marca": "New Balance",
-  "nombre": "New Balance 530 Bungee Running (Toddler) — Pink",
-  "genero": "Niños",
-  "precio": 57.93,
-  "precio_c": 2130,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_IZ530EC_IF026.jpg?v=1750189465",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_IZ530EC_IF028.jpg?v=1750189465",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_IZ530EC_IF029.jpg?v=1750189465",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_IZ530EC_IF027.jpg?v=1750189465"
-  ],
-  "descripcion": "Pensado para los más activos, el 530 Bungee es un tenis de running juvenil con amortiguación ABZORB y parte superior de cuero. Cómodo desde la primera puesta y con el estilo de los grandes.",
-  "detalles": [
-   "Parte superior de cuero",
-   "Cierre cómodo y seguro para niños",
-   "Amortiguación ABZORB",
-   "Tenis de running juvenil, ideal para el día a día"
-  ],
-  "tallas": [
-   "6"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
   "codigo": "DOM-5920",
   "marca": "Saucony",
   "nombre": "Saucony Omni 9 Running (Toddler) — Black",
@@ -52367,8 +52341,8 @@ var ZAPATOS = [
   "marca": "Cienta",
   "nombre": "56000 (Infant/Toddler/Little Kid/Big Kid)",
   "genero": "Niños",
-  "precio": 28.92,
-  "precio_c": 1064,
+  "precio": 28.86,
+  "precio_c": 1061,
   "fotos": [
    "https://m.media-amazon.com/images/I/61q5dSDkzSL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61q5dSDkzSL._AC_SX1024_.jpg",
@@ -64559,6 +64533,38 @@ var ZAPATOS = [
   "tallas": [
    "5.5Y",
    "6Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6602",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Pryce Toddler — Negro",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_TPRYCE_20black_IF123.jpg?v=1775159143",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_TPRYCE_20black_IF052.jpg?v=1775644093",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_TPRYCE_20black_IF124.jpg?v=1775644093",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_TPRYCE_20black_IF053.jpg?v=1775644093"
+  ],
+  "descripcion": "El clásico Pryce en versión para los más pequeños: cómodo, resistente y fácil de combinar con cualquier ropa.",
+  "detalles": [
+   "Parte superior en material sintético y textil, resistente al uso diario.",
+   "Cierre con cordones para un ajuste seguro.",
+   "Suela de goma antideslizante para pisar con seguridad.",
+   "Plantilla acolchada para comodidad durante todo el día."
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
   ],
   "categoria": "Casuales",
   "subcat": "ambos"

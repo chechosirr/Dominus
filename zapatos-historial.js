@@ -16789,6 +16789,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Mercurial Vapor 16 Club MG — Racer Blue/White (Niños)"
  },
  {
+  "codigo": "DOM-5919",
+  "nombre": "New Balance 530 Bungee Running (Toddler) — Pink"
+ },
+ {
   "codigo": "DOM-592",
   "nombre": "Skechers Jumpsters Cutie Critters — Pink/White (Niños · Niños pequeños)"
  },
