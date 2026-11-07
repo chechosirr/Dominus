@@ -92,6 +92,7 @@ body.page-out{opacity:0}
       <a href="cuenta.html" onclick="return goMiCuenta()">Mi cuenta</a>
       <a href="comprador/perfil.html?ver=carrito">Carrito</a>
           <a href="#" onclick="return DominusChatOpen(event)">Ayuda</a>
+          <a href="#" onclick="return DominusChatOpenHistory(event)">Mis chats</a>
  <a href="#" id="menu-logout" style="display:none;color:#ff7b7b" onclick="return doLogout()">Cerrar sesión</a>
 </nav>
   </div>
@@ -111,7 +112,7 @@ body.page-out{opacity:0}
         <div class="passwrap"><input id="in-pass" type="password" placeholder="••••••••" autocomplete="current-password"><button type="button" class="eye" data-for="in-pass">Ver</button></div>
         <button class="btn" id="btn-in">Entrar</button>
         <a href="#" class="forgot" id="link-forgot">Olvidé mi contraseña</a>
-        <button type="button" class="btn-ayuda-login" onclick="return DominusChatOpen(event)">💬 Ayuda</button>
+        <button type="button" class="btn-ayuda-login" onclick="return DominusChatOpen(event)">Ayuda</button>
         <p class="ayuda-login-hint">¿Problemas para entrar? Escríbenos por el chat de ayuda, sin necesidad de cuenta.</p>
       </div>
       <div id="form-up" class="hidden">

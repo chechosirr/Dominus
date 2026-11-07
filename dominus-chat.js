@@ -67,6 +67,23 @@ var CSS = ''
 + '.dc-composer button:disabled{opacity:.5}'
 + '.dc-status{font-size:12px;color:#8a8f99;padding:0 14px 8px;background:#fff;display:none}'
 + '.dc-status.show{display:block}'
++ '.dc-finbar{display:flex;gap:8px;padding:9px 10px;border-top:1px solid #e2e5ea;background:#fff}'
++ '.dc-finbar button{flex:1;border:1px solid #f0c4c4;background:#fdf1f1;color:#b3261e;border-radius:10px;padding:9px;font-family:inherit;font-weight:700;font-size:13.5px;cursor:pointer}'
++ '.dc-closed{padding:22px 16px;text-align:center;background:#fff;border-top:1px solid #e2e5ea}'
++ '.dc-closed b{font-size:16px;color:#17171a}'
++ '.dc-closed p{color:#8a8f99;font-size:13.5px;margin:8px 0 14px}'
++ '.dc-closed button{background:#2a2a2e;color:#fff;border:0;border-radius:999px;padding:11px 20px;font-family:inherit;font-weight:800;font-size:14px;cursor:pointer}'
++ '.dc-hist{flex:1;overflow-y:auto;padding:12px;background:#f7f7f9;display:none;flex-direction:column;gap:9px}'
++ '.dc-hist.open{display:flex}'
++ '.dc-hi{text-align:left;background:#fff;border:1px solid #e2e5ea;border-radius:14px;padding:11px 13px;font-family:inherit;cursor:pointer;width:100%}'
++ '.dc-hi .d{font-size:11.5px;color:#8a8f99}'
++ '.dc-hi .p{font-size:14px;color:#17171a;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}'
++ '.dc-tag{font-size:10.5px;font-weight:800;border-radius:999px;padding:1px 8px;margin-left:7px;background:#eceef1;color:#8a8f99}'
++ '.dc-tag.on{background:#d9f2dc;color:#1c5c26}'
++ '.dc-viewbar{display:none;align-items:center;gap:8px;padding:8px 12px;background:#fff;border-bottom:1px solid #e2e5ea;font-size:12.5px;color:#8a8f99}'
++ '.dc-viewbar.open{display:flex}'
++ '.dc-viewbar button{margin-left:auto;background:#eceef1;border:0;border-radius:8px;padding:6px 10px;font-family:inherit;font-weight:700;font-size:12.5px;cursor:pointer;color:#17171a}'
++ '.dc-back{align-self:flex-start;background:none;border:0;color:#2a2a2e;font-family:inherit;font-weight:800;font-size:14px;cursor:pointer;padding:2px 0}'
 + '#dc-welcome{position:fixed;inset:0;z-index:300;background:#2a2a2e;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:opacity .6s ease}'
 + '#dc-welcome.dc-out{opacity:0}'
 + '#dc-welcome .dc-wtxt{font-family:Archivo,\'Source Sans 3\',Arial,sans-serif;font-weight:900;font-size:clamp(34px,9vw,64px);letter-spacing:.02em;text-align:center;padding:0 20px;background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%);-webkit-background-clip:text;background-clip:text;color:transparent}'
@@ -83,7 +100,7 @@ if(FLOATING){
   btn = document.createElement('button');
   btn.id = 'dc-help-btn'; btn.type = 'button';
   btn.setAttribute('aria-label', 'Ayuda — abrir el chat de Dominus');
-  btn.innerHTML = '💬 Ayuda';
+  btn.innerHTML = 'Ayuda';
   document.body.appendChild(btn);
   btn.addEventListener('click', function(){ toggleChat(); });
   /* En la tienda, el escaparate de clases (#catview) ocupa toda la pantalla
@@ -115,6 +132,10 @@ panel.innerHTML =
   + '<input id="dc-contact" type="text" placeholder="Opcional" autocomplete="tel">'
   + '<button class="dc-send" id="dc-gate-btn" type="button">Empezar chat</button></div>'
   + '<div class="dc-status" id="dc-status"></div>'
+  + '<div class="dc-viewbar" id="dc-viewbar"><span>Conversación finalizada · solo lectura</span><button id="dc-view-hist" type="button">← Mis chats</button></div>'
+  + '<div class="dc-hist" id="dc-hist"><button class="dc-back" id="dc-hist-back" type="button">← Volver al chat</button><div id="dc-hist-list"></div></div>'
+  + '<div class="dc-finbar" id="dc-finbar" style="display:none"><button id="dc-fin-btn" type="button">Finalizar chat</button></div>'
+  + '<div class="dc-closed" id="dc-closed" style="display:none"><b>Chat finalizado. Gracias por escribirnos.</b><p>Si necesitas algo más, puedes empezar un chat nuevo.</p><button id="dc-again" type="button">Iniciar un chat nuevo</button></div>'
   + '<div class="dc-composer" id="dc-composer" style="display:none">'
   + '<textarea id="dc-input" rows="1" placeholder="Escribe tu mensaje…"></textarea>'
   + '<button id="dc-send-btn" type="button" aria-label="Enviar">➤</button></div>';
@@ -126,8 +147,22 @@ var compEl = panel.querySelector('#dc-composer');
 var inputEl = panel.querySelector('#dc-input');
 var sendBtn = panel.querySelector('#dc-send-btn');
 var statusEl = panel.querySelector('#dc-status');
+var finbarEl = panel.querySelector('#dc-finbar');
+var closedEl = panel.querySelector('#dc-closed');
+var histEl = panel.querySelector('#dc-hist');
+var histListEl = panel.querySelector('#dc-hist-list');
+var viewbarEl = panel.querySelector('#dc-viewbar');
 
 var conv = lsGet('dominus_chat_conv') || null;
+/* Registro local de conversaciones de ESTE dispositivo («Mis
+   chats»): cada conversación que el cliente usa queda anotada;
+   las finalizadas siguen en la lista para poder releerlas. */
+var convIds = [];
+try{ convIds = JSON.parse(lsGet('dominus_chat_convs') || '[]') || []; }catch(e){ convIds = []; }
+function noteConv(id){ if(!id) return; if(convIds.indexOf(id) < 0){ convIds.push(id); if(convIds.length > 30) convIds = convIds.slice(-30); lsSet('dominus_chat_convs', JSON.stringify(convIds)); } }
+if(conv) noteConv(conv);
+var finalizada = false;   /* la conversación actual quedó cerrada */
+var viewing = null;       /* conv abierta en solo lectura desde «Mis chats» */
 var myName = lsGet('dominus_chat_name') || '';
 var myContact = lsGet('dominus_chat_contact') || '';
 /* Cliente CON sesión (Supabase, clave dominus_session): entra
@@ -150,7 +185,7 @@ function ensureAcctConv(){
   if(!acct || conv) return Promise.resolve();
   return fetch(CHAT_BASE + '/myconv', { headers: { 'Authorization': 'Bearer ' + acct.token } })
     .then(function(r){ return r.ok ? r.json() : null; })
-    .then(function(j){ if(j && j.conv){ conv = j.conv; lsSet('dominus_chat_conv_acc', conv); rendered = 0; } })
+    .then(function(j){ if(j && j.conv){ conv = j.conv; noteConv(conv); lsSet('dominus_chat_conv_acc', conv); rendered = 0; } })
     .catch(function(){});
 }
 var opening = false;
@@ -167,7 +202,7 @@ function ensureOpen(){
     .then(function(r){ return r.ok ? r.json() : null; })
     .then(function(j){
       opening = false;
-      if(j && j.ok && j.conv){ conv = j.conv; lsSet(convKey(), conv); rendered = 0; if(isOpen) poll(true); }
+      if(j && j.ok && j.conv){ conv = j.conv; noteConv(conv); lsSet(convKey(), conv); rendered = 0; if(isOpen) poll(true); }
     })
     .catch(function(){ opening = false; });
 }
@@ -205,7 +240,7 @@ function paintMsg(m){
 function scrollDown(){ msgsEl.scrollTop = msgsEl.scrollHeight; }
 
 function poll(after0){
-  if(!conv) return Promise.resolve();
+  if(!conv || viewing) return Promise.resolve();
   return fetch(CHAT_BASE + '/poll?conv=' + encodeURIComponent(conv) + '&after=' + (after0 ? 0 : rendered))
     .then(function(r){ if(!r.ok) throw new Error('poll ' + r.status); return r.json(); })
     .then(function(j){
@@ -217,6 +252,7 @@ function poll(after0){
       if(typeof j.total === 'number' && j.total < rendered){ msgsEl.innerHTML = ''; rendered = 0; return poll(true); }
       list.forEach(function(m){ paintMsg(m); rendered++; });
       if(list.length) scrollDown();
+      if(j.finalizada) showClosed();
     })
     .catch(function(){ setStatus('Sin conexión con el chat por ahora; seguimos intentando…'); });
 }
@@ -239,12 +275,92 @@ function showGateOrComposer(){
     });
     else ensureOpen();
   }
+  syncBars();
+}
+
+/* ----- Finalizar chat / chat nuevo / «Mis chats» (registro) ----- */
+function syncBars(){
+  var started = !!myName || !!acct;
+  var inHist = histEl.classList.contains('open');
+  if(started) compEl.style.display = (!finalizada && !viewing && !inHist) ? 'flex' : 'none';
+  finbarEl.style.display = (started && conv && !finalizada && !viewing && !inHist) ? 'flex' : 'none';
+  closedEl.style.display = (started && finalizada && !viewing && !inHist) ? 'block' : 'none';
+  viewbarEl.classList.toggle('open', !!viewing);
+}
+function showClosed(){ finalizada = true; syncBars(); }
+function doFinalizar(){
+  if(!conv || finalizada) return;
+  fetch(CHAT_BASE + '/finalizar', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ conv: conv }) })
+    .catch(function(){})
+    .then(function(){ showClosed(); });
+}
+function newChat(){
+  finalizada = false; viewing = null; rendered = 0;
+  try{ localStorage.removeItem(convKey()); }catch(e){}
+  conv = null;
+  msgsEl.innerHTML = '';
+  histEl.classList.remove('open');
+  showGateOrComposer();
+}
+function fmtFecha(ts){
+  if(!ts) return '';
+  var d = new Date(ts < 1e12 ? ts * 1000 : ts);
+  if(isNaN(d)) return '';
+  try{ return d.toLocaleDateString('es', { day: 'numeric', month: 'short' }) + ' · ' + d.toLocaleTimeString('es', { hour: 'numeric', minute: '2-digit' }); }catch(e){ return ''; }
+}
+function loadHist(){
+  histListEl.innerHTML = '<div class="dc-hint">Cargando…</div>';
+  var p = acct
+    ? fetch(CHAT_BASE + '/myhistory', { headers: { 'Authorization': 'Bearer ' + acct.token } }).then(function(r){ return r.json(); })
+    : fetch(CHAT_BASE + '/myhistory', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ids: convIds }) }).then(function(r){ return r.json(); });
+  p.then(function(j){
+    var chats = (j && j.chats) || [];
+    if(!chats.length){ histListEl.innerHTML = '<div class="dc-hint">Todavía no tienes chats guardados.</div>'; return; }
+    histListEl.innerHTML = '';
+    chats.forEach(function(it){
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'dc-hi';
+      var tag = it.finalizada ? '<span class="dc-tag">Finalizada</span>' : (it.activa ? '<span class="dc-tag on">Activa</span>' : '<span class="dc-tag">Anterior</span>');
+      b.innerHTML = '<span class="d">' + esc(fmtFecha(it.updated || it.created)) + '</span>' + tag + '<div class="p">' + esc((it.last_f === 'v' ? 'Tú: ' : '') + (it.last || '')) + '</div>';
+      b.addEventListener('click', function(){ openHistItem(it); });
+      histListEl.appendChild(b);
+    });
+  }).catch(function(){ histListEl.innerHTML = '<div class="dc-hint">No se pudo cargar tu registro.</div>'; });
+}
+function openHistory(){
+  openChat();
+  viewing = null;
+  gateEl.style.display = 'none'; msgsEl.style.display = 'none';
+  histEl.classList.add('open');
+  syncBars();
+  loadHist();
+}
+function closeHistToChat(){
+  histEl.classList.remove('open');
+  viewing = null;
+  rendered = 0; msgsEl.innerHTML = '';
+  showGateOrComposer();
+  if(conv) poll(true);
+}
+function openHistItem(it){
+  if(it.conv === conv && !it.finalizada){ closeHistToChat(); return; }
+  viewing = it.conv;
+  histEl.classList.remove('open');
+  msgsEl.style.display = '';
+  viewbarEl.querySelector('span').textContent = it.finalizada ? 'Conversación finalizada · solo lectura' : 'Conversación anterior · solo lectura';
+  syncBars();
+  msgsEl.innerHTML = '';
+  fetch(CHAT_BASE + '/poll?conv=' + encodeURIComponent(it.conv) + '&after=0')
+    .then(function(r){ return r.json(); })
+    .then(function(j){ if(j && j.ok){ (j.messages || []).forEach(paintMsg); scrollDown(); } })
+    .catch(function(){});
 }
 
 function openChat(opts){
   opts = opts || {};
   isOpen = true;
   panel.classList.add('open');
+  histEl.classList.remove('open');
+  viewing = null;
   showGateOrComposer();
   if(opts.prefill && myName){ inputEl.value = opts.prefill; }
   if(opts.prefill && !myName){ panel.setAttribute('data-prefill', opts.prefill); }
@@ -288,10 +404,12 @@ function doSend(){
   else { body = { name: myName, text: text }; if(myContact) body.contact = myContact; if(conv) body.conv = conv; }
   fetch(CHAT_BASE + '/send', {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body)
-  }).then(function(r){ if(!r.ok) throw new Error('send ' + r.status); return r.json(); })
-    .then(function(j){
+  }).then(function(r){ return r.json().then(function(j){ return { status: r.status, j: j }; }); })
+    .then(function(res){
+      if(res.status === 409){ inputEl.value = ''; setStatus(''); showClosed(); return; }
+      var j = res.j;
       if(!j || !j.ok || !j.conv) throw new Error('send');
-      if(j.conv !== conv){ conv = j.conv; lsSet(convKey(), conv); }
+      if(j.conv !== conv){ conv = j.conv; noteConv(conv); lsSet(convKey(), conv); }
       inputEl.value = '';
       setStatus('');
       return poll(rendered === 0);
@@ -304,8 +422,14 @@ inputEl.addEventListener('keydown', function(e){
   if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); doSend(); }
 });
 
-window.DominusChat = { open: openChat, close: closeChat, toggle: toggleChat, adminUrl: CHAT_ADMIN_URL };
+panel.querySelector('#dc-fin-btn').addEventListener('click', doFinalizar);
+panel.querySelector('#dc-again').addEventListener('click', newChat);
+panel.querySelector('#dc-hist-back').addEventListener('click', closeHistToChat);
+panel.querySelector('#dc-view-hist').addEventListener('click', openHistory);
+
+window.DominusChat = { open: openChat, close: closeChat, toggle: toggleChat, adminUrl: CHAT_ADMIN_URL, openHistory: openHistory };
 window.DominusChatOpen = function(e){ if(e){ e.preventDefault(); e.stopPropagation(); } openChat(); return false; };
+window.DominusChatOpenHistory = function(e){ if(e){ e.preventDefault(); e.stopPropagation(); } openHistory(); return false; };
 
 /* ---------------- experiencia de administrador ----------------
    Mismo marcador del sitio: profiles.es_admin === true, comprobado con
