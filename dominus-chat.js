@@ -135,7 +135,8 @@ panel.innerHTML =
   + '<div class="dc-viewbar" id="dc-viewbar"><span>Conversación finalizada · solo lectura</span><button id="dc-view-hist" type="button">← Mis chats</button></div>'
   + '<div class="dc-hist" id="dc-hist"><button class="dc-back" id="dc-hist-back" type="button">← Volver al chat</button><div id="dc-hist-list"></div></div>'
   + '<div class="dc-finbar" id="dc-finbar" style="display:none"><button id="dc-fin-btn" type="button">Finalizar chat</button></div>'
-  + '<div class="dc-closed" id="dc-closed" style="display:none"><b>Chat finalizado. Gracias por escribirnos.</b><p>Si necesitas algo más, puedes empezar un chat nuevo.</p><button id="dc-again" type="button">Iniciar un chat nuevo</button></div>'
+  + '<div class="dc-closed" id="dc-closed" style="display:none"><b>Chat finalizado. Gracias por escribirnos.</b><p>Si necesitas algo más, puedes empezar un chat nuevo.</p></div>'
+  + '<div class="dc-finbar" id="dc-againbar" style="display:none"><button id="dc-again" type="button">Iniciar un chat nuevo</button></div>'
   + '<div class="dc-composer" id="dc-composer" style="display:none">'
   + '<textarea id="dc-input" rows="1" placeholder="Escribe tu mensaje…"></textarea>'
   + '<button id="dc-send-btn" type="button" aria-label="Enviar">➤</button></div>';
@@ -149,6 +150,7 @@ var sendBtn = panel.querySelector('#dc-send-btn');
 var statusEl = panel.querySelector('#dc-status');
 var finbarEl = panel.querySelector('#dc-finbar');
 var closedEl = panel.querySelector('#dc-closed');
+var againbarEl = panel.querySelector('#dc-againbar');
 var histEl = panel.querySelector('#dc-hist');
 var histListEl = panel.querySelector('#dc-hist-list');
 var viewbarEl = panel.querySelector('#dc-viewbar');
@@ -285,6 +287,7 @@ function syncBars(){
   if(started) compEl.style.display = (!finalizada && !viewing && !inHist) ? 'flex' : 'none';
   finbarEl.style.display = (started && conv && !finalizada && !viewing && !inHist) ? 'flex' : 'none';
   closedEl.style.display = (started && finalizada && !viewing && !inHist) ? 'block' : 'none';
+  againbarEl.style.display = (started && finalizada && !viewing && !inHist) ? 'flex' : 'none';
   viewbarEl.classList.toggle('open', !!viewing);
 }
 function showClosed(){ finalizada = true; syncBars(); }
