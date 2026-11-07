@@ -289,7 +289,14 @@ document.getElementById('menubtn').onclick = function(e){ e.stopPropagation(); d
 document.addEventListener('click', function(){ var n = document.getElementById('ddnav'); if(n) n.classList.remove('open'); });
 document.getElementById('logout').onclick = function(e){
  e.preventDefault();
- try{ localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug'); }catch(err){}
+ try{
+  var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+  if(s && s.access_token){
+   /* Cierre también en el servidor (Supabase): invalida el token de refresco. */
+   fetch(SUPABASE_URL + '/auth/v1/logout', { method: 'POST', keepalive: true, headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token } }).catch(function(){});
+  }
+  localStorage.removeItem('dominus_session'); localStorage.removeItem('dominus_tipo'); localStorage.removeItem('dominus_slug');
+ }catch(err){}
  location.href = 'index.html';
 };
 
@@ -939,6 +946,23 @@ wireEmail(function(){ return TOK; }, function(){ return (S && S.user && S.user.e
   armSearch('zap-q', function(){ renderZapatos(); });
   armSearch('hzap-q', function(){ renderHistZapatos(); });
   armSearch('vzap-q', function(){ renderVentasZap(); });
+})();
+</script>
+
+<script>
+/* Sesión y botón «atrás» (corrección 2026-11-07): al volver, el navegador
+   puede restaurar esta página desde su caché tal como se dejó —con la
+   sesión ya cerrada en otra sección— y se vería «con sesión» sin estarlo.
+   Al volver a mostrarse, se compara la sesión actual con la que había al
+   cargarse; si cambió, la página se recarga y muestra el estado real. */
+(function(){
+  var stamp = null;
+  function cur(){ try{ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null'); return (s && s.user && s.user.id) || ''; }catch(e){ return ''; } }
+  window.addEventListener('pageshow', function(e){
+    if(!e.persisted){ stamp = cur(); return; }
+    if(stamp === null){ stamp = cur(); return; }
+    if(cur() !== stamp) location.reload();
+  });
 })();
 </script>
 </body>

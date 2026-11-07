@@ -1490,9 +1490,14 @@ function goMiCuenta(){
 }
 function doLogout(){
  try{
- localStorage.removeItem('dominus_session');
- localStorage.removeItem('dominus_tipo');
- localStorage.removeItem('dominus_slug');
+  var s = JSON.parse(localStorage.getItem('dominus_session') || 'null');
+  if(s && s.access_token){
+   /* Cierre también en el servidor (Supabase): invalida el token de refresco. */
+   fetch(SUPABASE_URL + '/auth/v1/logout', { method: 'POST', keepalive: true, headers: { 'apikey': SUPABASE_ANON, 'Authorization': 'Bearer ' + s.access_token } }).catch(function(){});
+  }
+  localStorage.removeItem('dominus_session');
+  localStorage.removeItem('dominus_tipo');
+  localStorage.removeItem('dominus_slug');
  }catch(e){}
  location.href = 'index.html';
  return false;
@@ -1605,5 +1610,22 @@ function doLogout(){
 </script>
 <script>window.DOMINUS_CHAT_OPTS={floating:false};</script>
 <script src="dominus-chat.js"></script>
+
+<script>
+/* Sesión y botón «atrás» (corrección 2026-11-07): al volver, el navegador
+   puede restaurar esta página desde su caché tal como se dejó —con la
+   sesión ya cerrada en otra sección— y se vería «con sesión» sin estarlo.
+   Al volver a mostrarse, se compara la sesión actual con la que había al
+   cargarse; si cambió, la página se recarga y muestra el estado real. */
+(function(){
+  var stamp = null;
+  function cur(){ try{ var s = JSON.parse(localStorage.getItem('dominus_session') || 'null'); return (s && s.user && s.user.id) || ''; }catch(e){ return ''; } }
+  window.addEventListener('pageshow', function(e){
+    if(!e.persisted){ stamp = cur(); return; }
+    if(stamp === null){ stamp = cur(); return; }
+    if(cur() !== stamp) location.reload();
+  });
+})();
+</script>
 </body>
 </html>
