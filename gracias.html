@@ -42,7 +42,7 @@
  <div class="codebox" id="g-codebox" style="display:none">
   <div class="lab">TU CÓDIGO DE RASTREO</div>
   <div class="code" id="g-code"></div>
-  <p class="note">Guárdalo y tenlo a la mano: con este código damos seguimiento a tu compra. Si nos escribes por WhatsApp, compártelo para ubicar tu pedido al instante.</p>
+  <p class="note">Guárdalo y tenlo a la mano: con este código damos seguimiento a tu compra. Si nos escribes por el chat de Ayuda, compártelo para ubicar tu pedido al instante.</p>
  </div>
 
  <div class="sum" id="g-sum" style="display:none">
@@ -75,15 +75,24 @@ if(g && g.codigo){
   document.getElementById('g-meta').innerHTML = meta;
   document.getElementById('g-sum').style.display = 'block';
  }
- if(g.wa){
+ /* PREVIEW chat: el boton de confirmacion abre el chat propio de Dominus (antes WhatsApp) */
+ if(g.codigo || g.wa){
   var wa = document.getElementById('g-wa');
-  wa.href = g.wa;
-  wa.textContent = g.tipo === 'zapatos' ? 'Confirmar datos de entrega por WhatsApp' : 'Ver mi pedido por WhatsApp';
+  wa.href = '#';
+  wa.removeAttribute('target');
+  wa.textContent = g.tipo === 'zapatos' ? 'Confirmar datos de entrega por el chat' : 'Ver mi pedido en el chat';
+  wa.onclick = function(e){
+   e.preventDefault();
+   if(window.DominusChat) window.DominusChat.open({ prefill: 'Hola, quiero confirmar mi pedido' + (g.codigo ? ' (c\u00f3digo de rastreo: ' + g.codigo + ')' : '') + '.' });
+   return false;
+  };
   wa.style.display = 'block';
  }
  var back = document.getElementById('g-back');
  if(g.tipo === 'zapatos'){ back.href = 'zapatos.html'; back.textContent = 'Seguir viendo zapatos'; }
 }
 </script>
+<script>window.DOMINUS_CHAT_OPTS={floating:false};</script>
+<script src="dominus-chat.js"></script>
 </body>
 </html>

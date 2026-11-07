@@ -121,17 +121,35 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
 
 <style>
 .qbtn{border:1.5px solid var(--dark);background:var(--dark);color:#fff;border-radius:999px;padding:0 20px;font-family:inherit;font-weight:700;cursor:pointer;font-size:.95rem;white-space:nowrap}
+/* ===== Inicio del administrador: página «Bienvenido, señor.» ===== */
+#admin-home{position:fixed;inset:0;z-index:35;background:#101014;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}#admin-home .welcome-hero{background:none;border:none;box-shadow:none;border-radius:0;padding:0;margin:0}#admin-home .welcome-txt{font-size:clamp(46px,11vw,88px)}#admin-home.hidden{display:none}
+.welcome-hero{background:#2a2a2e;border-radius:22px;padding:54px 22px 44px;text-align:center;margin:6px 0 22px}
+.welcome-txt{font-family:Archivo,'Source Sans 3',Arial,sans-serif;font-weight:900;font-size:clamp(34px,8vw,56px);letter-spacing:.01em;background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.who-line{color:#c9ccd4;margin:16px 0 4px;font-size:14.5px}
+.welcome-hint{color:#8f96a3;margin:0;font-size:14px}
+/* Menú y navegación según el tipo de sesión (body.is-admin lo pone la puerta) */
+.ddnav a.only-admin{display:none}
+body.is-admin .ddnav a.only-admin{display:block}
+body.is-admin .ddnav a.only-nonadmin{display:none}
+body.is-admin .tabs{display:none}
 </style>
 </head>
 <body>
 <header class="top">
-  <a class="logo" href="index.html">DOMIN<span>US</span></a>
+  <a class="logo" href="admin.html">DOMIN<span>US</span></a>
   <div class="menuwrap">
     <button id="menubtn" aria-label="Menú">☰</button>
     <nav class="ddnav" id="ddnav">
-      <a href="index.html">Inicio</a>
-      <a href="zapatos.html">Zapatos</a>
-      <a href="#" id="menu-pass">Ajustes de cuenta</a>
+      <a href="admin.html?tab=resumen" class="only-admin">Resumen</a>
+      <a href="admin.html?tab=compradores" class="only-admin">Compradores</a>
+      <a href="admin.html?tab=zapatos" class="only-admin">Inventario zapatos</a>
+      <a href="admin.html?tab=vzap" class="only-admin">Ventas zapatos</a>
+      <a href="admin.html?tab=hzapatos" class="only-admin">Historial zapatos</a>
+      <a href="admin.html?tab=pedidos" class="only-admin">Pedidos de hoy</a>
+      <a href="https://puente.ragerservices.net/dominus/chat/admin" id="menu-chat" class="only-admin" target="_blank" rel="noopener">Chat</a>
+      <a href="index.html" class="only-nonadmin">Inicio</a>
+      <a href="zapatos.html" class="only-nonadmin">Zapatos</a>
+      <a href="#" id="menu-pass" class="only-nonadmin">Ajustes de cuenta</a>
       <a href="#" id="logout" style="color:#ff7b7b">Cerrar sesión</a>
     </nav>
   </div>
@@ -161,8 +179,17 @@ th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mu
 </div>
 
 <main class="hidden" id="panel">
-  <h1 style="margin:0">Panel de administrador</h1>
-  <p class="sub" id="who">—</p>
+  <!-- Página de inicio del administrador: «Bienvenido, señor.»
+       Las secciones se eligen SOLO desde el menú ☰; en el cuerpo ya
+       no hay parrilla de botones de navegación ni botón grande de Chat
+       (la parrilla .tabs queda únicamente para cuentas de comprador). -->
+  <div id="admin-home" class="hidden">
+    <div class="welcome-hero">
+      <div class="welcome-txt">Bienvenido, señor.</div>
+      <p class="who-line" id="who">—</p>
+      <p class="welcome-hint">Elige una sección en el menú ☰.</p>
+    </div>
+  </div>
   <div class="tabs">
     <button data-tab="resumen" class="on">Resumen</button>
     <button data-tab="compradores">Compradores</button>
@@ -567,16 +594,34 @@ function renderBuyers(){
  });
 }
 
+/* Navegación por secciones SIN parrilla de botones para el
+   administrador: su página de inicio es «Bienvenido, señor.»
+   (#admin-home) y las secciones se abren desde el menú ☰ con
+   admin.html?tab=<sección>. La parrilla .tabs solo la usan las
+   cuentas de comprador (para el admin se oculta con body.is-admin). */
+function showSection(t){
+ ['resumen','pedidos','vzap','compradores','zapatos','hzapatos'].forEach(function(x){
+ document.getElementById('tab-' + x).classList.toggle('hidden', x !== t);
+ });
+ var home = document.getElementById('admin-home');
+ if(home) home.classList.toggle('hidden', !!t);
+ document.body.style.overflow = t ? '' : (document.body.classList.contains('is-admin') ? 'hidden' : '');
+ if(t === 'pedidos'){ renderPedidos(); adminAlertsMaybe(); }
+}
+window.__showSection = showSection;
 Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
  b.onclick = function(){
  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.classList.remove('on'); });
  b.classList.add('on');
- ['resumen','pedidos','vzap','compradores','zapatos','hzapatos'].forEach(function(t){
- document.getElementById('tab-' + t).classList.toggle('hidden', t !== b.getAttribute('data-tab'));
- });
- if(b.getAttribute('data-tab') === 'pedidos'){ renderPedidos(); adminAlertsMaybe(); }
+ showSection(b.getAttribute('data-tab'));
  };
 });
+
+/* Los botones «Chat» entran DIRECTO al panel de chat, con el traspaso
+   de la sesión de administrador (sin contraseña del panel). */
+(function(){ var tok = ''; try{ var ss = JSON.parse(localStorage.getItem('dominus_session') || 'null'); tok = (ss && ss.access_token) || ''; }catch(e){}
+ if(!tok) return; var url = 'https://puente.ragerservices.net/dominus/chat/admin#t=' + encodeURIComponent(tok);
+ Array.prototype.forEach.call(document.querySelectorAll('a[href="https://puente.ragerservices.net/dominus/chat/admin"]'), function(a){ a.href = url; }); })();
 
 /* ===== Zapatos: catálogo de la tienda con ajustes del administrador ===== */
 function zapEfectivo(z){
@@ -868,6 +913,8 @@ wireEmail(function(){ return TOK; }, function(){ return (S && S.user && S.user.e
  document.getElementById('who').textContent = 'Sesión de ' + (p.nombre || (S.user && S.user.email) || 'administrador');
  document.getElementById('gate').classList.add('hidden');
  document.getElementById('panel').classList.remove('hidden');
+ if(p.es_admin){ document.body.classList.add('is-admin'); }
+ if(window.__showSection){ var _tab = new URLSearchParams(location.search).get('tab') || ''; window.__showSection(p.es_admin ? _tab : (_tab || 'resumen')); }
  cargar().catch(function(){ gateFail('No se pudieron cargar los datos. Revisa tu conexión.'); document.getElementById('gate').classList.remove('hidden'); document.getElementById('panel').classList.add('hidden'); });
  }).catch(function(){ gateFail('No se pudo comprobar el acceso (¿ya corriste el SQL de administrador en Supabase?).'); });
 })();
