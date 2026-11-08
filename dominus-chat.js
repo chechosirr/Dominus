@@ -70,6 +70,12 @@ var CSS = ''
 + '.dc-finbar{display:flex;gap:8px;padding:9px 10px;border-top:1px solid #e2e5ea;background:#fff}'
 + '.dc-finbar button{flex:1;border:1px solid #f0c4c4;background:#fdf1f1;color:#b3261e;border-radius:10px;padding:9px;font-family:inherit;font-weight:700;font-size:13.5px;cursor:pointer}'
 + '#dc-againbar button{border:1px solid #a8c6f5;background:#e8f1fd;color:#1763d6}'
++ '.dc-lobby{flex:1;padding:24px 18px;background:#f7f7f9;display:none;flex-direction:column;gap:16px}'
++ '.dc-lobby.open{display:flex}'
++ '.dc-lobby p{font-size:15px;line-height:1.55;color:#17171a;margin:0;text-align:center}'
++ '.dc-lobby button{border:1px solid #a8c6f5;background:#e8f1fd;color:#1763d6;border-radius:10px;padding:12px;font-family:inherit;font-weight:700;font-size:15px;cursor:pointer;width:100%}'
++ '#dc-histbar{margin-top:auto}'
++ '#dc-histbar button{border:1px solid #a8c6f5;background:#e8f1fd;color:#1763d6}'
 + '.dc-closed{padding:22px 16px;text-align:center;background:#fff;border-top:1px solid #e2e5ea}'
 + '.dc-closed b{font-size:16px;color:#17171a}'
 + '.dc-closed p{color:#8a8f99;font-size:13.5px;margin:8px 0 14px}'
@@ -125,6 +131,8 @@ panel.setAttribute('aria-label', 'Chat de ayuda de Dominus');
 panel.innerHTML =
   '<div class="dc-head"><div><div class="dc-title">Ayuda · Dominus</div><div class="dc-sub">Escríbenos aquí mismo, te respondemos en este chat.</div></div>'
   + '<button class="dc-x" type="button" aria-label="Cerrar">✕</button></div>'
+  + '<div class="dc-lobby" id="dc-lobby"><p>Para hablar con nosotros, toca el botón <b>«Iniciar un chat nuevo»</b>: ahí se abre tu conversación y te respondemos por aquí.</p>'
+  + '<button id="dc-lobby-btn" type="button">Iniciar un chat nuevo</button></div>'
   + '<div class="dc-msgs" id="dc-msgs"><div class="dc-hint">Cargando…</div></div>'
   + '<div class="dc-gate" id="dc-gate" style="display:none">'
   + '<label class="dc-lab" for="dc-name">¿Cómo te llamas?</label>'
@@ -134,7 +142,8 @@ panel.innerHTML =
   + '<button class="dc-send" id="dc-gate-btn" type="button">Empezar chat</button></div>'
   + '<div class="dc-status" id="dc-status"></div>'
   + '<div class="dc-viewbar" id="dc-viewbar"><span>Conversación finalizada · solo lectura</span><button id="dc-view-hist" type="button">← Mis chats</button></div>'
-  + '<div class="dc-hist" id="dc-hist"><button class="dc-back" id="dc-hist-back" type="button">← Volver al chat</button><div id="dc-hist-list"></div></div>'
+  + '<div class="dc-hist" id="dc-hist"><button class="dc-back" id="dc-hist-back" type="button">← Volver al chat</button><div id="dc-hist-list"></div>'
+  + '<div class="dc-finbar" id="dc-histbar"><button id="dc-hist-new" type="button">Iniciar un chat nuevo</button></div></div>'
   + '<div class="dc-finbar" id="dc-finbar" style="display:none"><button id="dc-fin-btn" type="button">Finalizar chat</button></div>'
   + '<div class="dc-closed" id="dc-closed" style="display:none"><b>Chat finalizado. Gracias por escribirnos.</b><p>Si necesitas algo más, puedes empezar un chat nuevo.</p></div>'
   + '<div class="dc-finbar" id="dc-againbar" style="display:none"><button id="dc-again" type="button">Iniciar un chat nuevo</button></div>'
@@ -155,6 +164,7 @@ var againbarEl = panel.querySelector('#dc-againbar');
 var histEl = panel.querySelector('#dc-hist');
 var histListEl = panel.querySelector('#dc-hist-list');
 var viewbarEl = panel.querySelector('#dc-viewbar');
+var lobbyEl = panel.querySelector('#dc-lobby');
 
 var conv = lsGet('dominus_chat_conv') || null;
 /* Registro local de conversaciones de ESTE dispositivo («Mis
@@ -223,6 +233,7 @@ var rendered = 0;          /* cuántos mensajes ya se pintaron (= after del poll
 var pollTimer = null;
 var sending = false;
 var isOpen = false;
+var lobby = false;
 
 function setStatus(t){ statusEl.textContent = t || ''; statusEl.classList.toggle('show', !!t); }
 function fmtTs(ts){
@@ -260,7 +271,17 @@ function poll(after0){
     .catch(function(){ setStatus('Sin conexión con el chat por ahora; seguimos intentando…'); });
 }
 
+function showLobby(){
+  lobbyEl.classList.add('open');
+  msgsEl.style.display = 'none';
+  gateEl.style.display = 'none'; compEl.style.display = 'none';
+  finbarEl.style.display = 'none'; closedEl.style.display = 'none'; againbarEl.style.display = 'none';
+  histEl.classList.remove('open'); viewbarEl.classList.remove('open');
+  setStatus('');
+}
 function showGateOrComposer(){
+  if(lobby){ showLobby(); return; }
+  lobbyEl.classList.remove('open');
   if(!myName && !acct){
     /* Pantalla de datos primero (igual que NEXO): la conversación
        no se ve hasta que el visitante envía sus datos. */
@@ -283,6 +304,7 @@ function showGateOrComposer(){
 
 /* ----- Finalizar chat / chat nuevo / «Mis chats» (registro) ----- */
 function syncBars(){
+  if(lobby) return;
   var started = !!myName || !!acct;
   var inHist = histEl.classList.contains('open');
   if(started) compEl.style.display = (!finalizada && !viewing && !inHist) ? 'flex' : 'none';
@@ -362,6 +384,7 @@ function openHistItem(it){
 function openChat(opts){
   opts = opts || {};
   isOpen = true;
+  lobby = false; lobbyEl.classList.remove('open');
   panel.classList.add('open');
   histEl.classList.remove('open');
   viewing = null;
@@ -379,7 +402,30 @@ function closeChat(){
   panel.classList.remove('open');
   if(pollTimer){ clearInterval(pollTimer); pollTimer = null; }
 }
-function toggleChat(){ isOpen ? closeChat() : openChat(); }
+function toggleChat(){ isOpen ? closeChat() : openAyuda(); }
+/* Entrada «Ayuda» (orden de Sergio): picar Ayuda NO crea ningún
+   chat; primero se enseña este vestíbulo y la conversación solo
+   se crea o se abre cuando el cliente toca «Iniciar un chat
+   nuevo». Las demás entradas al chat no pasan por aquí. */
+function openAyuda(){
+  isOpen = true;
+  panel.classList.add('open');
+  histEl.classList.remove('open');
+  viewing = null;
+  lobby = true;
+  showLobby();
+  if(pollTimer) clearInterval(pollTimer);
+  pollTimer = setInterval(function(){ if(!isOpen || lobby) return; if(conv) poll(false); else if(myName || acct) ensureOpen(); }, 4000);
+  setTimeout(function(){ var b = panel.querySelector('#dc-lobby-btn'); if(b) b.focus(); }, 60);
+}
+function lobbyStart(){
+  lobby = false;
+  lobbyEl.classList.remove('open');
+  showGateOrComposer();
+  setTimeout(function(){
+    if(myName || acct) inputEl.focus(); else { var n = panel.querySelector('#dc-name'); if(n) n.focus(); }
+  }, 60);
+}
 
 panel.querySelector('.dc-x').addEventListener('click', closeChat);
 
@@ -426,13 +472,15 @@ inputEl.addEventListener('keydown', function(e){
   if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); doSend(); }
 });
 
+panel.querySelector('#dc-lobby-btn').addEventListener('click', lobbyStart);
+panel.querySelector('#dc-hist-new').addEventListener('click', newChat);
 panel.querySelector('#dc-fin-btn').addEventListener('click', doFinalizar);
 panel.querySelector('#dc-again').addEventListener('click', newChat);
 panel.querySelector('#dc-hist-back').addEventListener('click', closeHistToChat);
 panel.querySelector('#dc-view-hist').addEventListener('click', openHistory);
 
-window.DominusChat = { open: openChat, close: closeChat, toggle: toggleChat, adminUrl: CHAT_ADMIN_URL, openHistory: openHistory };
-window.DominusChatOpen = function(e){ if(e){ e.preventDefault(); e.stopPropagation(); } openChat(); return false; };
+window.DominusChat = { open: openChat, close: closeChat, toggle: toggleChat, ayuda: openAyuda, adminUrl: CHAT_ADMIN_URL, openHistory: openHistory };
+window.DominusChatOpen = function(e){ if(e){ e.preventDefault(); e.stopPropagation(); } openAyuda(); return false; };
 window.DominusChatOpenHistory = function(e){ if(e){ e.preventDefault(); e.stopPropagation(); } openHistory(); return false; };
 
 /* ---------------- experiencia de administrador ----------------
