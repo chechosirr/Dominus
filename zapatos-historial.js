@@ -16625,6 +16625,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Air Jordan Retro 1 High OG (Grade School) — Cool Grey/Negro/Game Royal"
  },
  {
+  "codigo": "DOM-5349",
+  "nombre": "Puma PUMA X DUA LIPA Mayze Flutur Lace Up Platform Sneakers — Black"
+ },
+ {
   "codigo": "DOM-539",
   "nombre": "New Balance 550 (Grade School) — Blanco/Azul"
  },

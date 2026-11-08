@@ -976,8 +976,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance 530 (Big Kid) — Light Arctic Grey/NB 103 White",
   "genero": "Niños",
-  "precio": 94.99,
-  "precio_c": 3493,
+  "precio": 73.74,
+  "precio_c": 2712,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gim57JkUL.jpg",
    "https://m.media-amazon.com/images/I/71+BZUYoU6L.jpg",
@@ -2839,8 +2839,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Viz Runner Wide Street Running Shoes",
   "genero": "Hombre",
-  "precio": 68.46,
-  "precio_c": 2518,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/194162-01_1l.jpg?v=1789035784",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/194162-01_2l.jpg?v=1789035784",
@@ -5190,7 +5190,7 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Future 9 Match Firm/ Artificial Ground Soccer Cleats — Blue",
   "genero": "Hombre",
-  "precio": 75.0,
+  "precio": 74.99,
   "precio_c": 2758,
   "fotos": [
    "https://m.media-amazon.com/images/I/81New98QEAL._AC_SX1024_.jpg",
@@ -8604,8 +8604,8 @@ var ZAPATOS = [
   "marca": "Carlos by Carlos Santana",
   "nombre": "Carlos by Carlos Santana Miles Derby — Black",
   "genero": "Hombre",
-  "precio": 168.99,
-  "precio_c": 6214,
+  "precio": 137.2,
+  "precio_c": 5045,
   "fotos": [
    "https://m.media-amazon.com/images/I/71idEGnmnvL._AC_SX1024_.jpg"
   ],
@@ -9410,8 +9410,8 @@ var ZAPATOS = [
   "marca": "Rockport",
   "nombre": "Rockport Garett Wing Tip — Tan",
   "genero": "Hombre",
-  "precio": 77.5,
-  "precio_c": 2850,
+  "precio": 91.0,
+  "precio_c": 3346,
   "fotos": [
    "https://m.media-amazon.com/images/I/61iQZe7uBjL._AC_SX1024_.jpg"
   ],
@@ -10396,8 +10396,8 @@ var ZAPATOS = [
   "marca": "Anthony Veer",
   "nombre": "Anthony Veer Dunhill Single Monk — Black",
   "genero": "Hombre",
-  "precio": 308.99,
-  "precio_c": 11363,
+  "precio": 273.2,
+  "precio_c": 10047,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Haa9XKlIL._AC_SX1024_.jpg"
   ],
@@ -10627,8 +10627,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Moc Toe Penny Loafers — Black",
   "genero": "Hombre",
-  "precio": 119.95,
-  "precio_c": 4411,
+  "precio": 105.12,
+  "precio_c": 3866,
   "fotos": [
    "https://m.media-amazon.com/images/I/61UNaFQ8mOL._AC_SX1024_.jpg"
   ],
@@ -13352,7 +13352,7 @@ var ZAPATOS = [
   "marca": "Bogs",
   "nombre": "Bogs Rain Boots — Black",
   "genero": "Hombre",
-  "precio": 110.0,
+  "precio": 109.99,
   "precio_c": 4045,
   "fotos": [
    "https://m.media-amazon.com/images/I/81gmew+Q5zL._SX700_.jpg",
@@ -13625,8 +13625,8 @@ var ZAPATOS = [
   "marca": "Carhartt",
   "nombre": "Carhartt 6\" Rugged Flex Waterproof Comp Toe — Brown",
   "genero": "Hombre",
-  "precio": 189.99,
-  "precio_c": 6987,
+  "precio": 159.99,
+  "precio_c": 5883,
   "fotos": [
    "https://m.media-amazon.com/images/I/818kCZbzYsL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/818kCZbzYsL._SX700_.jpg",
@@ -14238,8 +14238,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Classic Saturday Slides — Black",
   "genero": "Hombre",
-  "precio": 37.44,
-  "precio_c": 1377,
+  "precio": 29.99,
+  "precio_c": 1103,
   "fotos": [
    "https://m.media-amazon.com/images/I/61HYzrmy2cL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71of0b-L-XL._AC_SX1024_.jpg",
@@ -14508,8 +14508,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Ignite Pro 8 Fixed Band Slides — Black / Black / Black",
   "genero": "Hombre",
-  "precio": 45.95,
-  "precio_c": 1690,
+  "precio": 44.41,
+  "precio_c": 1633,
   "fotos": [
    "https://m.media-amazon.com/images/I/718qP8lopSL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71WPw4pHHDL._AC_SLundefined_.jpg",
@@ -14821,8 +14821,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Adilette Lumia Slides — Black / Black / Black",
   "genero": "Hombre",
-  "precio": 45.95,
-  "precio_c": 1690,
+  "precio": 44.84,
+  "precio_c": 1649,
   "fotos": [
    "https://m.media-amazon.com/images/I/61B9Y0O3SpL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61W4vuopsQL._AC_SLundefined_.jpg",
@@ -17456,8 +17456,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Arizona Nylon Yellow",
   "genero": "Hombre",
-  "precio": 62.95,
-  "precio_c": 2315,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39868236_1l.jpg?v=1793748839",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39868236_2l.jpg?v=1793748839",
@@ -20276,8 +20276,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Future 9 Play Firm Ground/Artifical Ground Soccer Cleats — Orange",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10871901_1l.jpg?v=1791369985",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10871901_2l.jpg?v=1791369985",
@@ -20531,8 +20531,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Softride Divine Running — White",
   "genero": "Mujer",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31016305_1l.jpg?v=1788513892",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31016305_2l.jpg?v=1788513892",
@@ -23939,32 +23939,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-5349",
-  "marca": "Puma",
-  "nombre": "Puma PUMA X DUA LIPA Mayze Flutur Lace Up Platform Sneakers — Black",
-  "genero": "Mujer",
-  "precio": 39.95,
-  "precio_c": 1469,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/388013-01_1l.jpg?v=1788536442",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/388013-01_2l.jpg?v=1788536442",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/388013-01_3l.jpg?v=1788536441",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/388013-01_4l.jpg?v=1788536441"
-  ],
-  "descripcion": "Tenis casuales para mujer en Black, cómodos y versátiles para el día a día. Combinan con jeans, shorts y vestidos casuales sin esfuerzo.",
-  "detalles": [
-   "Parte superior cómoda para uso diario",
-   "Plantilla acolchada para caminar todo el día",
-   "Suela de goma con buena tracción",
-   "Cierre con cordones y calce regular"
-  ],
-  "tallas": [
-   "6",
-   "8"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-5350",
   "marca": "Puma",
   "nombre": "Puma RS-X Summer Squeeze Lace Up Sneakers — Orange",
@@ -24698,8 +24672,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Gazelle Lo Pro — Beige",
   "genero": "Mujer",
-  "precio": 93.95,
-  "precio_c": 3455,
+  "precio": 84.95,
+  "precio_c": 3124,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KI4709_1l.jpg?v=1793359082",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KI4709_2l.jpg?v=1793359082",
@@ -25908,8 +25882,8 @@ var ZAPATOS = [
   "marca": "Dr. Scholl&apos;s",
   "nombre": "Dr. Scholl&apos;s Collins Western Short Boots — Black",
   "genero": "Mujer",
-  "precio": 89.97,
-  "precio_c": 3309,
+  "precio": 79.0,
+  "precio_c": 2905,
   "fotos": [
    "https://m.media-amazon.com/images/I/71OPikJPJ9L._AC_SX1024_.jpg"
   ],
@@ -27445,8 +27419,8 @@ var ZAPATOS = [
   "marca": "LifeStride",
   "nombre": "LifeStride Fawn Zip Short Boots — Black",
   "genero": "Mujer",
-  "precio": 79.99,
-  "precio_c": 2942,
+  "precio": 78.93,
+  "precio_c": 2903,
   "fotos": [
    "https://m.media-amazon.com/images/I/71LtG2H9dXL._AC_SX1024_.jpg"
   ],
@@ -30622,8 +30596,8 @@ var ZAPATOS = [
   "marca": "Aldo",
   "nombre": "Aldo Lala — Pewter",
   "genero": "Mujer",
-  "precio": 87.68,
-  "precio_c": 3224,
+  "precio": 74.98,
+  "precio_c": 2757,
   "fotos": [
    "https://m.media-amazon.com/images/I/61n0ISDNf+L._AC_SX1024_.jpg"
   ],
@@ -34749,8 +34723,8 @@ var ZAPATOS = [
   "marca": "Bandolino",
   "nombre": "Rissie — Multi",
   "genero": "Mujer",
-  "precio": 62.96,
-  "precio_c": 2315,
+  "precio": 75.69,
+  "precio_c": 2783,
   "fotos": [
    "https://m.media-amazon.com/images/I/61LF7Qmk7QL._AC_SX1024_.jpg"
   ],
@@ -52308,8 +52282,8 @@ var ZAPATOS = [
   "marca": "Cienta",
   "nombre": "56000 (Infant/Toddler/Little Kid/Big Kid)",
   "genero": "Niños",
-  "precio": 28.57,
-  "precio_c": 1051,
+  "precio": 28.22,
+  "precio_c": 1038,
   "fotos": [
    "https://m.media-amazon.com/images/I/61q5dSDkzSL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61q5dSDkzSL._AC_SX1024_.jpg",
@@ -64571,5 +64545,37 @@ var ZAPATOS = [
   ],
   "categoria": "Casuales",
   "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-6605",
+  "marca": "adidas",
+  "nombre": "adidas VL Court Bold Shoes — Pink",
+  "genero": "Mujer",
+  "precio": 64.95,
+  "precio_c": 2388,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JP6916_1l.jpg?v=1793448824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JP6916_2l.jpg?v=1793448824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JP6916_3l.jpg?v=1793448824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JP6916_4l.jpg?v=1793448824"
+  ],
+  "descripcion": "Tenis casuales para mujer en rosa con plataforma elevada y silueta baja tipo skate, un giro moderno del clásico VL Court 3.0 para el uso diario. Cómodos y versátiles, combinan con jeans, shorts y vestidos casuales sin esfuerzo.",
+  "detalles": [
+   "Parte superior de cuero y materiales sintéticos con suela de goma",
+   "Silueta baja con plataforma elevada, ideal para el streetwear casual",
+   "Cierre con cordones para un ajuste seguro",
+   "Materiales preferidos certificados LWG en el interior"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales"
  }
 ];
