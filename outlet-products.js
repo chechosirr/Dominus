@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "8 de noviembre de 2026";
+var ZAP_VERIFICADO = "9 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -13504,8 +13504,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 119.82,
-  "precio_c": 4406,
+  "precio": 116.63,
+  "precio_c": 4289,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -13936,8 +13936,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Originalgrand Cityspectre Stitchlite Wingtip",
   "genero": "Hombre",
-  "precio": 129.95,
-  "precio_c": 4779,
+  "precio": 146.0,
+  "precio_c": 5369,
   "fotos": [
    "https://m.media-amazon.com/images/I/71W9mvQybyL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71W9mvQybyL._AC_SX500_.jpg",
@@ -42944,8 +42944,8 @@ var ZAPATOS = [
   "marca": "Dr. Martens",
   "nombre": "Dr. Martens Buzz 5-Eye — Brown",
   "genero": "Mujer",
-  "precio": 109.99,
-  "precio_c": 4045,
+  "precio": 122.0,
+  "precio_c": 4486,
   "fotos": [
    "https://m.media-amazon.com/images/I/71K82ieh05L._AC_SX1024_.jpg"
   ],
@@ -48291,8 +48291,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Speedcat Ballet Metallic (Little Kid) — Silver",
   "genero": "Niños",
-  "precio": 50.0,
-  "precio_c": 1839,
+  "precio": 59.5,
+  "precio_c": 2188,
   "fotos": [
    "https://m.media-amazon.com/images/I/71-XHnzD2lL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/713vr-BbeyL._AC_SX1024_.jpg",
@@ -62020,8 +62020,8 @@ var ZAPATOS = [
   "marca": "Camper",
   "nombre": "Camper Peu Cami First Walkers Mary Janes (Toddler) — Gold",
   "genero": "Niños",
-  "precio": 100.0,
-  "precio_c": 3677,
+  "precio": 73.0,
+  "precio_c": 2685,
   "fotos": [
    "https://m.media-amazon.com/images/I/81fr2Wyi2TL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71LJLVKfUgL._SX700_.jpg",
