@@ -25205,12 +25205,20 @@ var ZAP_HISTORIAL = [
   "nombre": "Blowfish Malibu Parisian Ballerina Flats — Charcoal"
  },
  {
+  "codigo": "DOM-7587",
+  "nombre": "Public Desire Angelic Silver Mirror Perspex Bow Wrap Around Court Stiletto Heel"
+ },
+ {
   "codigo": "DOM-759",
   "nombre": "LifeStride Vibe-Cozy Mule Clog Shoes — Honey Brown"
  },
  {
   "codigo": "DOM-760",
   "nombre": "LifeStride Suki Pumps — Fire Red Patent"
+ },
+ {
+  "codigo": "DOM-7605",
+  "nombre": "Public Desire Trendsetter Hot Pink Knot Detail Flare Platform Heels"
  },
  {
   "codigo": "DOM-761",

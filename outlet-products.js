@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "9 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -4029,8 +4029,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance BB480L v1",
   "genero": "Hombre",
-  "precio": 59.97,
-  "precio_c": 2205,
+  "precio": 54.97,
+  "precio_c": 2021,
   "fotos": [
    "https://m.media-amazon.com/images/I/71u4YJSI28L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71u4YJSI28L._AC_SX500_.jpg",
@@ -6482,8 +6482,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Bridgeport",
   "genero": "Hombre",
-  "precio": 57.96,
-  "precio_c": 2131,
+  "precio": 57.79,
+  "precio_c": 2125,
   "fotos": [
    "https://m.media-amazon.com/images/I/71pE71IT-NL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71pE71IT-NL._AC_SX500_.jpg",
@@ -6588,8 +6588,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Eton",
   "genero": "Hombre",
-  "precio": 58.04,
-  "precio_c": 2134,
+  "precio": 58.06,
+  "precio_c": 2135,
   "fotos": [
    "https://m.media-amazon.com/images/I/61xQ9PFgANL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61xQ9PFgANL._AC_SX500_.jpg",
@@ -9856,7 +9856,7 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Fielder",
   "genero": "Hombre",
-  "precio": 54.59,
+  "precio": 54.57,
   "precio_c": 2007,
   "fotos": [
    "https://m.media-amazon.com/images/I/81aDtBi6mQL._AC_SX500_.jpg",
@@ -11291,8 +11291,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Stark Cap Toe Oxford Leather Business Formal Derby Dress Casual Lace-Up",
   "genero": "Hombre",
-  "precio": 77.02,
-  "precio_c": 2832,
+  "precio": 77.07,
+  "precio_c": 2834,
   "fotos": [
    "https://m.media-amazon.com/images/I/61pnjvM5gzL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61pnjvM5gzL._AC_SX500_.jpg",
@@ -11543,8 +11543,8 @@ var ZAPATOS = [
   "marca": "Rockport",
   "nombre": "Rockport Garett Wing Tip",
   "genero": "Hombre",
-  "precio": 84.6,
-  "precio_c": 3111,
+  "precio": 84.2,
+  "precio_c": 3096,
   "fotos": [
    "https://m.media-amazon.com/images/I/61sOn1sr7TL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61sOn1sr7TL._AC_SX500_.jpg",
@@ -11615,8 +11615,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Original Grand Stitchlite Wingtip Oxford",
   "genero": "Hombre",
-  "precio": 85.24,
-  "precio_c": 3135,
+  "precio": 84.24,
+  "precio_c": 3098,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gljxtrlaL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71gljxtrlaL._AC_SX500_.jpg",
@@ -13036,8 +13036,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Midtown Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 109.99,
-  "precio_c": 4045,
+  "precio": 109.95,
+  "precio_c": 4043,
   "fotos": [
    "https://m.media-amazon.com/images/I/61geqoW4kQL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61geqoW4kQL._AC_SX500_.jpg",
@@ -13252,8 +13252,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Gambetta Modified Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 118.0,
-  "precio_c": 4339,
+  "precio": 99.99,
+  "precio_c": 3677,
   "fotos": [
    "https://m.media-amazon.com/images/I/71RqcLZ+l-L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71RqcLZ+l-L._AC_SX500_.jpg",
@@ -13504,8 +13504,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 116.63,
-  "precio_c": 4289,
+  "precio": 127.63,
+  "precio_c": 4693,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -13792,8 +13792,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Landry Embossed Cap Toe",
   "genero": "Hombre",
-  "precio": 110.01,
-  "precio_c": 4046,
+  "precio": 109.41,
+  "precio_c": 4023,
   "fotos": [
    "https://m.media-amazon.com/images/I/61JSIvbd7ML._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61JSIvbd7ML._AC_SX500_.jpg",
@@ -13936,8 +13936,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Originalgrand Cityspectre Stitchlite Wingtip",
   "genero": "Hombre",
-  "precio": 146.0,
-  "precio_c": 5369,
+  "precio": 129.95,
+  "precio_c": 4779,
   "fotos": [
    "https://m.media-amazon.com/images/I/71W9mvQybyL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71W9mvQybyL._AC_SX500_.jpg",
@@ -14612,8 +14612,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Thomas",
   "genero": "Hombre",
-  "precio": 69.97,
-  "precio_c": 2573,
+  "precio": 69.85,
+  "precio_c": 2569,
   "fotos": [
    "https://m.media-amazon.com/images/I/71WT9WGguBL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71WT9WGguBL._AC_SX500_.jpg",
@@ -15137,8 +15137,8 @@ var ZAPATOS = [
   "marca": "Caterpillar",
   "nombre": "Caterpillar Diagnostic Hi WP Steel Toe",
   "genero": "Hombre",
-  "precio": 76.94,
-  "precio_c": 2829,
+  "precio": 78.05,
+  "precio_c": 2870,
   "fotos": [
    "https://m.media-amazon.com/images/I/81sCsUcPMAL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81sCsUcPMAL._AC_SX500_.jpg",
@@ -15748,8 +15748,8 @@ var ZAPATOS = [
   "marca": "2735",
   "nombre": "2735 Chaco Paonia Chelsea Boots in Earth Brown | Men",
   "genero": "Hombre",
-  "precio": 120.95,
-  "precio_c": 4448,
+  "precio": 113.95,
+  "precio_c": 4190,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/2dedf8479f174683aa21867eec10c19c.png?v=1794032791",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/7e2d24bbcfa343bd81a60b718428439f.jpg?v=1794032790"
@@ -19569,8 +19569,8 @@ var ZAPATOS = [
   "marca": "2735",
   "nombre": "2735 Chaco Lowdown Sandals in Monks Robe | Men",
   "genero": "Hombre",
-  "precio": 115.95,
-  "precio_c": 4264,
+  "precio": 111.95,
+  "precio_c": 4117,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/62ed276586814c6fb18ecad93df8cd9b.png?v=1794035291",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/1028b72019374038b807fc63f28dfef8.jpg?v=1794035291"
@@ -21426,7 +21426,7 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance Furon Team FG V9",
   "genero": "Hombre",
-  "precio": 88.67,
+  "precio": 88.69,
   "precio_c": 3261,
   "fotos": [
    "https://m.media-amazon.com/images/I/71hmt4poAKL._AC_SX500_.jpg",
@@ -26625,8 +26625,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "D.O.N. Issue 6 Basketball Shoes — Green",
   "genero": "Mujer",
-  "precio": 109.13,
-  "precio_c": 4013,
+  "precio": 108.94,
+  "precio_c": 4006,
   "fotos": [
    "https://m.media-amazon.com/images/I/61J-aMlHupL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61IgZm9G5GL._AC_SX1024_.jpg",
@@ -26661,8 +26661,8 @@ var ZAPATOS = [
   "marca": "SKECHERS",
   "nombre": "Max Cushioning Elite 2.0 — Pink",
   "genero": "Mujer",
-  "precio": 109.19,
-  "precio_c": 4015,
+  "precio": 109.04,
+  "precio_c": 4010,
   "fotos": [
    "https://m.media-amazon.com/images/I/71RRCKy-2iL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61K4b5tPCCL._AC_SX1024_.jpg",
@@ -27040,8 +27040,8 @@ var ZAPATOS = [
   "marca": "FootJoy",
   "nombre": "Traditions Golf Shoes- Previous Season — White",
   "genero": "Mujer",
-  "precio": 111.8,
-  "precio_c": 4111,
+  "precio": 111.52,
+  "precio_c": 4101,
   "fotos": [
    "https://m.media-amazon.com/images/I/613WaA9FJIL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/51aN1ij0l7L._AC_SX1024_.jpg",
@@ -27184,8 +27184,8 @@ var ZAPATOS = [
   "marca": "FootJoy",
   "nombre": "Fj Fuel — White",
   "genero": "Mujer",
-  "precio": 110.7,
-  "precio_c": 4071,
+  "precio": 110.68,
+  "precio_c": 4070,
   "fotos": [
    "https://m.media-amazon.com/images/I/61MCp3szjnL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61z1PdvLUeL._AC_SX1024_.jpg",
@@ -27522,8 +27522,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "Run Falcon 5 — Black",
   "genero": "Mujer",
-  "precio": 62.77,
-  "precio_c": 2308,
+  "precio": 62.62,
+  "precio_c": 2303,
   "fotos": [
    "https://m.media-amazon.com/images/I/71SfyU46v2L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61iJ3bbW6sL._AC_SX1024_.jpg",
@@ -27702,8 +27702,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "Darter Pro 2 Chrome Running Shoes — White",
   "genero": "Mujer",
-  "precio": 66.3,
-  "precio_c": 2438,
+  "precio": 62.77,
+  "precio_c": 2308,
   "fotos": [
    "https://m.media-amazon.com/images/I/71M3xZuDARL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61oJqfkT2mL._AC_SX1024_.jpg",
@@ -27810,8 +27810,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "608v5 Slip Resistant — Black",
   "genero": "Mujer",
-  "precio": 69.99,
-  "precio_c": 2574,
+  "precio": 79.95,
+  "precio_c": 2940,
   "fotos": [
    "https://m.media-amazon.com/images/I/7110IK9FO1L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61Mawjci4zL._AC_SX1024_.jpg",
@@ -27882,8 +27882,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "WX608v5 — White",
   "genero": "Mujer",
-  "precio": 71.09,
-  "precio_c": 2614,
+  "precio": 73.99,
+  "precio_c": 2721,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ehcn-xtUL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/718gospyOBL._AC_SX1024_.jpg",
@@ -28062,8 +28062,8 @@ var ZAPATOS = [
   "marca": "SKECHERS",
   "nombre": "Max Run Hands Free Slip-Ins — Black",
   "genero": "Mujer",
-  "precio": 100.45,
-  "precio_c": 3694,
+  "precio": 101.72,
+  "precio_c": 3741,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Cx1A-MuKL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71zdBupWImL._AC_SX1024_.jpg",
@@ -28530,8 +28530,8 @@ var ZAPATOS = [
   "marca": "Blowfish Malibu",
   "nombre": "Very Sadie Lace-up Shoes — Black",
   "genero": "Mujer",
-  "precio": 44.42,
-  "precio_c": 1634,
+  "precio": 45.99,
+  "precio_c": 1691,
   "fotos": [
    "https://m.media-amazon.com/images/I/71cUK+cLBOL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/715BfiGmrTL._AC_SX1024_.jpg",
@@ -29571,8 +29571,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "Darter Pro 2 Fade Running Shoes — Pink",
   "genero": "Mujer",
-  "precio": 66.81,
-  "precio_c": 2457,
+  "precio": 75.7,
+  "precio_c": 2784,
   "fotos": [
    "https://m.media-amazon.com/images/I/71G8uJ7-aZL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71j8maPgAML._AC_SX1024_.jpg",
@@ -31453,8 +31453,8 @@ var ZAPATOS = [
   "marca": "Journee",
   "nombre": "Journee Collection Bexlie — Black",
   "genero": "Mujer",
-  "precio": 70.0,
-  "precio_c": 2574,
+  "precio": 72.91,
+  "precio_c": 2681,
   "fotos": [
    "https://m.media-amazon.com/images/I/71X+sQEUSSL._AC_SX1024_.jpg"
   ],
@@ -32683,8 +32683,8 @@ var ZAPATOS = [
   "marca": "Michael Kors",
   "nombre": "Michael Kors Lex Booties — Black",
   "genero": "Mujer",
-  "precio": 102.65,
-  "precio_c": 3775,
+  "precio": 103.39,
+  "precio_c": 3802,
   "fotos": [
    "https://m.media-amazon.com/images/I/61GUN54dVbL._AC_SX1024_.jpg"
   ],
@@ -33013,8 +33013,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Go-To Suzanne Boots — Brown",
   "genero": "Mujer",
-  "precio": 162.94,
-  "precio_c": 5992,
+  "precio": 163.08,
+  "precio_c": 5997,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Ss7Cq7iZL._AC_SX1024_.jpg"
   ],
@@ -33959,42 +33959,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-7587",
-  "marca": "Public Desire",
-  "nombre": "Public Desire Angelic Silver Mirror Perspex Bow Wrap Around Court Stiletto Heel",
-  "genero": "Mujer",
-  "precio": 31.95,
-  "precio_c": 1175,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/771A5319.jpg?v=1692005098",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/771A5317_a51810ff-ee7a-46ce-b812-578912ba5610.jpg?v=1692005101",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/771A5316.jpg?v=1692005101",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/771A5318.jpg?v=1692005098"
-  ],
-  "descripcion": "Zapato elegante con tacón de aguja de mujer con diseño actual y acabado pulido. Perfecto para ocasiones especiales y para darle un toque sofisticado al conjunto.",
-  "detalles": [
-   "Silueta de vestir con acabado elegante",
-   "Plantilla acolchada para mayor comodidad",
-   "Suela con buen agarre",
-   "Detalle decorativo que viste el conjunto"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-7588",
   "marca": "Windsor",
   "nombre": "Windsor Petal Appeal Rhinestone Floral Stiletto Heels — Rosa",
@@ -34567,42 +34531,6 @@ var ZAPATOS = [
    "Punta afilada",
    "Plantilla acolchada para mayor comodidad",
    "Suela con buen agarre",
-   "Detalle decorativo que viste el conjunto"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-7605",
-  "marca": "Public Desire",
-  "nombre": "Public Desire Trendsetter Hot Pink Knot Detail Flare Platform Heels",
-  "genero": "Mujer",
-  "precio": 24.95,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/TRENDSETTERHOTPINK_1.jpg?v=1711466615",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/TRENDSETTERHOTPINK_2.jpg?v=1711466615",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/TRENDSETTERHOTPINK_3.jpg?v=1711466615",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/TRENDSETTERHOTPINK_4.jpg?v=1711466615"
-  ],
-  "descripcion": "Zapato elegante con plataforma de mujer con diseño actual y acabado pulido. Perfecto para ocasiones especiales y para darle un toque sofisticado al conjunto.",
-  "detalles": [
-   "Silueta de vestir con acabado elegante",
-   "Plantilla acolchada para mayor comodidad",
-   "Plataforma con suela antideslizante",
    "Detalle decorativo que viste el conjunto"
   ],
   "tallas": [
@@ -36476,8 +36404,8 @@ var ZAPATOS = [
   "marca": "Guess",
   "nombre": "GUESS Tango — Black",
   "genero": "Mujer",
-  "precio": 109.0,
-  "precio_c": 4008,
+  "precio": 87.71,
+  "precio_c": 3225,
   "fotos": [
    "https://m.media-amazon.com/images/I/71iAhUaKekL._AC_SX1024_.jpg"
   ],
@@ -43313,8 +43241,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Offcourt Duo — Black",
   "genero": "Mujer",
-  "precio": 52.3,
-  "precio_c": 1923,
+  "precio": 55.0,
+  "precio_c": 2023,
   "fotos": [
    "https://m.media-amazon.com/images/I/61a9uNnYF3L._AC_SX1024_.jpg"
   ],
@@ -43825,7 +43753,7 @@ var ZAPATOS = [
   "marca": "Reef",
   "nombre": "Reef Water Scout — Pink",
   "genero": "Mujer",
-  "precio": 45.63,
+  "precio": 45.62,
   "precio_c": 1678,
   "fotos": [
    "https://m.media-amazon.com/images/I/61fNH8di93L._AC_SX1024_.jpg"
@@ -44309,8 +44237,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Adilette Comfort 2.0 Slides — Black",
   "genero": "Mujer",
-  "precio": 48.73,
-  "precio_c": 1792,
+  "precio": 49.49,
+  "precio_c": 1820,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Z4tjw7+DL._AC_SX1024_.jpg"
   ],
@@ -44543,8 +44471,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Adissage Slides — Black",
   "genero": "Mujer",
-  "precio": 33.97,
-  "precio_c": 1249,
+  "precio": 36.25,
+  "precio_c": 1333,
   "fotos": [
    "https://m.media-amazon.com/images/I/61vtifZvyFL._AC_SX1024_.jpg"
   ],
@@ -44576,8 +44504,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Adilette Comfort Slides — Black",
   "genero": "Mujer",
-  "precio": 39.98,
-  "precio_c": 1470,
+  "precio": 32.0,
+  "precio_c": 1177,
   "fotos": [
    "https://m.media-amazon.com/images/I/61pm3BQfM3L._AC_SX1024_.jpg"
   ],
@@ -45464,8 +45392,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "SKECHERS GO WALK Arch Fit 2.0 Sandal - Leila — Black",
   "genero": "Mujer",
-  "precio": 57.56,
-  "precio_c": 2117,
+  "precio": 43.97,
+  "precio_c": 1617,
   "fotos": [
    "https://m.media-amazon.com/images/I/7173bYVn-8L._AC_SX1024_.jpg"
   ],
@@ -47095,8 +47023,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Surge 5 Alternate Closure Running (Toddler) — Gray",
   "genero": "Niños",
-  "precio": 44.38,
-  "precio_c": 1632,
+  "precio": 44.27,
+  "precio_c": 1628,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ZlKjakVgL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61XYK5FlATL._AC_SX1024_.jpg",
@@ -50365,8 +50293,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Barreda Mary Jane (Little Kid) — Black",
   "genero": "Niños",
-  "precio": 49.59,
-  "precio_c": 1824,
+  "precio": 49.62,
+  "precio_c": 1825,
   "fotos": [
    "https://m.media-amazon.com/images/I/61hYaljf-wL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71QEbXds92L._AC_SX1024_.jpg",
@@ -55395,8 +55323,8 @@ var ZAPATOS = [
   "marca": "KEEN",
   "nombre": "KEEN Hyperport H2 (Little Kid) — Pink",
   "genero": "Niños",
-  "precio": 60.35,
-  "precio_c": 2219,
+  "precio": 52.75,
+  "precio_c": 1940,
   "fotos": [
    "https://m.media-amazon.com/images/I/71IY9dFHCkL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71I-wINjilL._AC_SX1024_.jpg",
@@ -57540,8 +57468,8 @@ var ZAPATOS = [
   "marca": "Mia",
   "nombre": "Mia Petall (Big Kid) — Brown",
   "genero": "Niños",
-  "precio": 54.95,
-  "precio_c": 2021,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://m.media-amazon.com/images/I/71xCAELAmyL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61K64dsvDIL._SX700_.jpg",
@@ -57567,8 +57495,8 @@ var ZAPATOS = [
   "marca": "Mia",
   "nombre": "Mia Little Pratt-A (Big Kid) — Black",
   "genero": "Niños",
-  "precio": 54.95,
-  "precio_c": 2021,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://m.media-amazon.com/images/I/71cMQWphnoL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61yYZKj67tL._SX700_.jpg",
@@ -57699,8 +57627,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Abigl (Big Kid) — Blush Mesh",
   "genero": "Niños",
-  "precio": 57.42,
-  "precio_c": 2112,
+  "precio": 59.53,
+  "precio_c": 2189,
   "fotos": [
    "https://m.media-amazon.com/images/I/61B4bhx30WL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61MsiFimpaL._SX700_.jpg",
@@ -57725,8 +57653,8 @@ var ZAPATOS = [
   "marca": "Mia",
   "nombre": "Mia Brendie-A (Big Kid) — Seashell",
   "genero": "Niños",
-  "precio": 57.96,
-  "precio_c": 2131,
+  "precio": 69.95,
+  "precio_c": 2572,
   "fotos": [
    "https://m.media-amazon.com/images/I/81AcPOd+jjL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/81QwvpraXPL._SX700_.jpg",
@@ -57831,8 +57759,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Golden (Big Kid) — Natural Raffia",
   "genero": "Niños",
-  "precio": 63.99,
-  "precio_c": 2353,
+  "precio": 69.99,
+  "precio_c": 2574,
   "fotos": [
    "https://m.media-amazon.com/images/I/71VvNXrETdL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71nLWV1QsUL._SX700_.jpg",
@@ -64567,5 +64495,68 @@ var ZAPATOS = [
   ],
   "categoria": "Sandalias",
   "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-8546",
+  "marca": "Public Desire",
+  "nombre": "Public Desire Marigold Black Satin Cream Rose Detail Lace Up Heels",
+  "genero": "Mujer",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/MARIGOLDBLACK-1.jpg?v=1760386123",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/MARIGOLDBLACK-2.jpg?v=1760386123",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/MARIGOLDBLACK-3.jpg?v=1760386123",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/MARIGOLDBLACK-4.jpg?v=1760386123"
+  ],
+  "descripcion": "Tacón elegante de satén negro con delicadas rosas color crema y diseño de cordones, un toque juguetón y sofisticado para vestir.",
+  "detalles": [
+   "Tacón de aprox. 4.5 pulgadas",
+   "Parte superior sintética (PU) con rosas de satén color crema",
+   "Cierre con cordones (lace-up)",
+   "Color negro"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-8547",
+  "marca": "David Tate",
+  "nombre": "David Tate Sugar — Black",
+  "genero": "Mujer",
+  "precio": 45.98,
+  "precio_c": 1691,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61dz5h2EL3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61XRJcbDL0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Iz3oBYQNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71FgqC8HJ0L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato clásico de vestir con tacón bajo de bloque y tira slingback con hebilla, en piel Napa negra suave; cómodo para la oficina y para salir de noche.",
+  "detalles": [
+   "Parte superior de piel Napa suave con puntera cerrada",
+   "Tira slingback ajustable con hebilla",
+   "Forro de gamuza suave con almohadillas de confort bajo la planta y el talón",
+   "Tacón bajo de bloque y suela estable, calce fiel a la talla"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Elegantes"
  }
 ];
