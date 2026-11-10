@@ -25293,6 +25293,10 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Lightorama Runner (Toddler) — Lucid Blue/White/Solar Slime"
  },
  {
+  "codigo": "DOM-7782",
+  "nombre": "Call It Spring Haylee"
+ },
+ {
   "codigo": "DOM-779",
   "nombre": "Skechers Microspec Splash (Toddler) — Black/Silver"
  },

@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "10 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -13504,8 +13504,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 127.63,
-  "precio_c": 4693,
+  "precio": 123.04,
+  "precio_c": 4525,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -31453,8 +31453,8 @@ var ZAPATOS = [
   "marca": "Journee",
   "nombre": "Journee Collection Bexlie — Black",
   "genero": "Mujer",
-  "precio": 72.91,
-  "precio_c": 2681,
+  "precio": 72.84,
+  "precio_c": 2679,
   "fotos": [
    "https://m.media-amazon.com/images/I/71X+sQEUSSL._AC_SX1024_.jpg"
   ],
@@ -40442,42 +40442,6 @@ var ZAPATOS = [
   "categoria": "Formales"
  },
  {
-  "codigo": "DOM-7782",
-  "marca": "Call It Spring",
-  "nombre": "Call It Spring Haylee",
-  "genero": "Mujer",
-  "precio": 47.93,
-  "precio_c": 1763,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13750006_haylee_white_100-002-043_main_sq_gy.jpg?v=1757707443",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_76049_product_13750006_haylee_white_100-002-043_sw_sq.jpg?v=1757707443",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13750006_haylee_white_100-002-043_alt1_sq_gy.jpg?v=1757707443",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13750006_haylee_white_100-002-043_alt2_sq_gy.jpg?v=1757707443"
-  ],
-  "descripcion": "Zapato clásico de mujer con líneas limpias y acabado formal, ideal para la oficina y eventos. Su diseño atemporal combina con todo el guardarropa.",
-  "detalles": [
-   "Silueta clásica de vestir",
-   "Plantilla acolchada para jornadas largas",
-   "Suela con buen agarre",
-   "Acabado pulido de aspecto formal"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11"
-  ],
-  "categoria": "Formales"
- },
- {
   "codigo": "DOM-7783",
   "marca": "Toms",
   "nombre": "TOMS Alpargata Cupsole Slip On Flats",
@@ -42190,8 +42154,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Barreda Mary Jane Shoes",
   "genero": "Mujer",
-  "precio": 79.95,
-  "precio_c": 2940,
+  "precio": 62.45,
+  "precio_c": 2297,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KZ8762_1l.jpg?v=1790267069",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KZ8762_2l.jpg?v=1790267069",
@@ -43091,8 +43055,8 @@ var ZAPATOS = [
   "marca": "Frye",
   "nombre": "Frye Carson Multi Mary Jane Flats",
   "genero": "Mujer",
-  "precio": 168.0,
-  "precio_c": 6178,
+  "precio": 139.97,
+  "precio_c": 5147,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR42379-CHOC_1l.jpg?v=1792237689",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/FR42379-CHOC_2l.jpg?v=1792237689",
@@ -46749,8 +46713,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Goletto IX Firm Ground/Multi Ground Soccer Cleats (Toddler/Little Kid) — Black",
   "genero": "Niños",
-  "precio": 38.0,
-  "precio_c": 1397,
+  "precio": 37.71,
+  "precio_c": 1387,
   "fotos": [
    "https://m.media-amazon.com/images/I/71bscvZ87JL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81ULAhb1oDL._AC_SX1024_.jpg",
@@ -47667,8 +47631,8 @@ var ZAPATOS = [
   "marca": "NIKE",
   "nombre": "NIKE Vomero 5 Running (Toddler) — Sail/Anthracite/Photon Dust/Metallic Gold",
   "genero": "Niños",
-  "precio": 101.95,
-  "precio_c": 3749,
+  "precio": 69.98,
+  "precio_c": 2573,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0852/3376/files/9d6cb80b8f8eb5a1fc441cc891a24880.jpg?v=1779900772",
    "https://cdn.shopify.com/s/files/1/0852/3376/files/ba64d8cee109e1afc7d43b2e12545cb5.jpg?v=1779900772",
@@ -64558,5 +64522,32 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-8548",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Sarantos Pointed Toe Ankle Strap Pumps — Pink",
+  "genero": "Mujer",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SARA11S1-740_1l.jpg?v=1789358136",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SARA11S1-740_2l.jpg?v=1789358136",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SARA11S1-740_3l.jpg?v=1789358136",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SARA11S1-740_4l.jpg?v=1789358136"
+  ],
+  "descripcion": "Elegantes pumps de tacón fino con punta alargada y tira al tobillo, ideales para ocasiones formales.",
+  "detalles": [
+   "Punta fina alargada de silueta elegante",
+   "Tacón de aguja (stiletto) estilizado",
+   "Tira ajustable al tobillo",
+   "Diseño de dos piezas, estilo clásico de vestir"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "10"
+  ],
+  "categoria": "Formales"
  }
 ];
