@@ -25269,6 +25269,10 @@ var ZAP_HISTORIAL = [
   "nombre": "OshKosh B'gosh Varsity Sneakers (Toddler) — Brown/Green"
  },
  {
+  "codigo": "DOM-7726",
+  "nombre": "Call It Spring Destinii"
+ },
+ {
   "codigo": "DOM-773",
   "nombre": "Carter's Ballet Flats (Toddler) — Gold"
  },
@@ -25299,6 +25303,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-779",
   "nombre": "Skechers Microspec Splash (Toddler) — Black/Silver"
+ },
+ {
+  "codigo": "DOM-7798",
+  "nombre": "Call It Spring Greysin"
  },
  {
   "codigo": "DOM-780",
@@ -25487,6 +25495,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-826",
   "nombre": "Nike Dunk Low (Big Kid) — White/Pink/Laser Fuchsia"
+ },
+ {
+  "codigo": "DOM-8269",
+  "nombre": "PUMA Ultra 5 Play FG/AG (Big Kid) — Lapis Lazuli/White/Sunset Glow"
  },
  {
   "codigo": "DOM-827",
