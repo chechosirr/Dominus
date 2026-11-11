@@ -25001,6 +25001,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Skechers D'Lites - New Legacy Sneakers — Navy"
  },
  {
+  "codigo": "DOM-7072",
+  "nombre": "Nike Air Max Goadome Low (Vivid Sulfur/Black)"
+ },
+ {
   "codigo": "DOM-708",
   "nombre": "Skechers GO WALK Now - Trisha Sneakers — Mauve"
  },
@@ -25205,6 +25209,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Blowfish Malibu Parisian Ballerina Flats — Charcoal"
  },
  {
+  "codigo": "DOM-7585",
+  "nombre": "Public Desire Heroine Cream And Black Bow Detailing Lace Up Stiletto Mid Heels"
+ },
+ {
   "codigo": "DOM-7587",
   "nombre": "Public Desire Angelic Silver Mirror Perspex Bow Wrap Around Court Stiletto Heel"
  },
@@ -25363,6 +25371,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-793",
   "nombre": "Skechers Microspec Max Advance Squad P (Little Kid) — Navy/Charcoal"
+ },
+ {
+  "codigo": "DOM-7936",
+  "nombre": "CROCS Classic Clog — Womens"
  },
  {
   "codigo": "DOM-794",

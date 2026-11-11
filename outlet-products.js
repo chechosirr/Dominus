@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "10 de noviembre de 2026";
+var ZAP_VERIFICADO = "11 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -7337,8 +7337,8 @@ var ZAPATOS = [
   "marca": "Timberland",
   "nombre": "Timberland Redwood Falls Waterproof Oxford Shoes",
   "genero": "Hombre",
-  "precio": 119.95,
-  "precio_c": 4411,
+  "precio": 119.97,
+  "precio_c": 4412,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/TB0A699PW07_1l.jpg?v=1788624689",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/TB0A699PW07_2l.jpg?v=1788624689",
@@ -8327,8 +8327,8 @@ var ZAPATOS = [
   "marca": "Superga",
   "nombre": "Superga 2750 Cotu Classic",
   "genero": "Hombre",
-  "precio": 43.97,
-  "precio_c": 1617,
+  "precio": 43.9,
+  "precio_c": 1614,
   "fotos": [
    "https://m.media-amazon.com/images/I/61njm1tZRuL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61njm1tZRuL._AC_SX500_.jpg",
@@ -10358,8 +10358,8 @@ var ZAPATOS = [
   "marca": "R2275",
   "nombre": "R2275 Jil Sander Fabric Chunky Men's Sneakers",
   "genero": "Hombre",
-  "precio": 605.95,
-  "precio_c": 22283,
+  "precio": 607.95,
+  "precio_c": 22357,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/6a4e96e15a702028.jpg?v=1794099069",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/5c9fac9de97363dc.jpg?v=1794099069",
@@ -13504,8 +13504,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 119.21,
-  "precio_c": 4384,
+  "precio": 119.31,
+  "precio_c": 4388,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -17065,40 +17065,6 @@ var ZAPATOS = [
    "8",
    "9",
    "9.5"
-  ],
-  "categoria": "Botas"
- },
- {
-  "codigo": "DOM-7072",
-  "marca": "Nike",
-  "nombre": "Nike Air Max Goadome Low (Vivid Sulfur/Black)",
-  "genero": "Hombre",
-  "precio": 194.95,
-  "precio_c": 7169,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMaxGoadomeLow_VividSulfur_Black_IV4517-7001.jpg?v=1792033067",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMaxGoadomeLow_VividSulfur_Black_IV4517-7002.jpg?v=1792033067"
-  ],
-  "descripcion": "Nike Air Max Goadome Low (Vivid Sulfur/Black) — botas de Nike resistentes y cómodas, con suela de buen agarre para el día a día y el clima frío.",
-  "detalles": [
-   "Caña resistente con buen soporte",
-   "Suela de goma con agarre",
-   "Interior cómodo para uso prolongado",
-   "Cierre con cordones o cremallera según el modelo"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
   ],
   "categoria": "Botas"
  },
@@ -33890,42 +33856,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-7585",
-  "marca": "Public Desire",
-  "nombre": "Public Desire Heroine Cream And Black Bow Detailing Lace Up Stiletto Mid Heels",
-  "genero": "Mujer",
-  "precio": 42.94,
-  "precio_c": 1579,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/HEROINECREAMBLACK1.jpg?v=1719490605",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/HEROINECREAMBLACK2.jpg?v=1719490605",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/HEROINECREAMBLACK3.jpg?v=1719490630",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/HEROINECREAMBLACK4.jpg?v=1719490630"
-  ],
-  "descripcion": "Zapato de vestir con tacón de aguja con acabado elegante para eventos, fiestas y ocasiones especiales. Su silueta estilizada alarga la pierna y viste cualquier conjunto.",
-  "detalles": [
-   "Silueta de vestir con acabado elegante",
-   "Plantilla acolchada para mayor comodidad",
-   "Suela con buen agarre",
-   "Detalle decorativo que viste el conjunto"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-7586",
   "marca": "Windsor",
   "nombre": "Windsor Open Invite Pointed Toe Stiletto Heels — Negro",
@@ -42797,8 +42727,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Ronie Scrunched Loafer",
   "genero": "Mujer",
-  "precio": 119.9,
-  "precio_c": 4409,
+  "precio": 119.95,
+  "precio_c": 4411,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/RONI01S1-001_1l.jpg?v=1794124390",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/RONI01S1-001_2l.jpg?v=1794124390",
@@ -45460,35 +45390,6 @@ var ZAPATOS = [
   "categoria": "Chanclas"
  },
  {
-  "codigo": "DOM-7936",
-  "marca": "Crocs",
-  "nombre": "CROCS Classic Clog — Womens",
-  "genero": "Mujer",
-  "precio": 89.98,
-  "precio_c": 3309,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21392690H_1.jpg?v=1790286868",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21392690H_2.jpg?v=1790286868",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21392690H_3.jpg?v=1790286868",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21392690H_4.jpg?v=1790286868"
-  ],
-  "descripcion": "Modelo tipo chancla con pisada cómoda y diseño sencillo, ideal para el calor y el descanso. Ligera, práctica y fácil de combinar.",
-  "detalles": [
-   "Suela ligera y cómoda",
-   "Ajuste fácil de poner y quitar",
-   "Plantilla suave para el uso diario",
-   "Diseño resistente al agua"
-  ],
-  "tallas": [
-   "03.0",
-   "04.0",
-   "05.0",
-   "06.0",
-   "07.0"
-  ],
-  "categoria": "Chanclas"
- },
- {
   "codigo": "DOM-7937",
   "marca": "Journee",
   "nombre": "Journee Collection Enniss Mule Flats In Vegan Leather — Champagne",
@@ -46641,7 +46542,7 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Goletto IX Firm Ground/Multi Ground Soccer Cleats (Toddler/Little Kid) — Black",
   "genero": "Niños",
-  "precio": 38.0,
+  "precio": 37.98,
   "precio_c": 1397,
   "fotos": [
    "https://m.media-amazon.com/images/I/71bscvZ87JL._AC_SX1024_.jpg",
@@ -64541,5 +64442,97 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-8552",
+  "marca": "Sperry",
+  "nombre": "Sperry Saltwater Quilted Round Toe Duck Rain Boots — Blue",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23703_1l.jpg?v=1789330009",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23703_2l.jpg?v=1789330009",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23703_3l.jpg?v=1789330009",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23703_4l.jpg?v=1789330009"
+  ],
+  "descripcion": "Botas de lluvia Sperry Saltwater con caña acolchada azul, ideales para mantener los pies secos en días de lluvia sin renunciar al estilo clásico.",
+  "detalles": [
+   "Carcasa de goma resistente al agua con parte superior de nailon acolchado",
+   "Suela de goma antideslizante con tecnología Razor-Cut Wave-Siping para tracción en seco y mojado",
+   "Cierre con cordones y plantilla acolchada para mayor comodidad",
+   "Suela exterior de goma que no deja marcas; caña a la altura del tobillo"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-8553",
+  "marca": "Fashion Nova",
+  "nombre": "Fashion Nova Always A Classic Pump — White",
+  "genero": "Mujer",
+  "precio": 37.99,
+  "precio_c": 1397,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/03-25-25_S15_85_CONDITION39_White_CZ_13-49-06_FLATLAY_2870_PXF.jpg?v=1743109791&width=461&height=691&crop=center",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/03-25-25_S15_85_CONDITION39_White_CZ_13-49-06_FLATLAY_2871_PXF.jpg?v=1743109791&width=461&height=691&crop=center",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/03-25-25_S15_85_CONDITION39_White_CZ_13-49-06_FLATLAY_2872_PXF.jpg?v=1743109791&width=461&height=691&crop=center",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/03-31-25_S8_23_CONDITION39_White_CZ_JS_10-44-01_69000_PXF.jpg?v=1743609992&width=461&height=691&crop=center"
+  ],
+  "descripcion": "Un clásico atemporal: pump blanco de punta cerrada y tacón de aguja que eleva cualquier look, de la oficina a una noche especial.",
+  "detalles": [
+   "Punta cerrada con silueta clásica de pump",
+   "Tacón de aguja estilizado",
+   "Color blanco versátil",
+   "Valoración 4.46/5 con 733 reseñas en Fashion Nova"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "10",
+   "11"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-8554",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 Women's — Light Magenta / Light Magenta",
+  "genero": "Mujer",
+  "precio": 45.0,
+  "precio_c": 1655,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61gX+gJK2NL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61W13OyxZWL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61ZSU7+86ZL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/718iN6Ch9zL._SX700_.jpg"
+  ],
+  "descripcion": "Chancla tipo clog de recuperación con espuma ReactX suave y con respuesta, diseñada para descansar los pies y usarla todos los días. Su suela de goma adherente da buen agarre incluso en superficies resbalosas.",
+  "detalles": [
+   "Espuma Nike ReactX suave y con respuesta en el empeine y la mediasuela, para comodidad y recuperación diaria",
+   "Suela exterior de goma adherente para caminar con confianza dentro y fuera de casa",
+   "Puntera con espacio extra que se adapta a distintos anchos de pie",
+   "Calza fiel a la talla; ancho medio (B); valoración 4.0/5 con 62 reseñas en Zappos"
+  ],
+  "tallas": [
+   "5",
+   "8",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Chanclas"
  }
 ];
