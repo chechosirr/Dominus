@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "12 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -1566,8 +1566,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance 530 (Big Kid) — Light Arctic Grey/NB 103 White",
   "genero": "Niños",
-  "precio": 73.74,
-  "precio_c": 2712,
+  "precio": 81.99,
+  "precio_c": 3015,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gim57JkUL.jpg",
    "https://m.media-amazon.com/images/I/71+BZUYoU6L.jpg",
@@ -1662,8 +1662,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Suede XL (Big Kid) — Negro/Blanco",
   "genero": "Niños",
-  "precio": 62.02,
-  "precio_c": 2281,
+  "precio": 55.0,
+  "precio_c": 2023,
   "fotos": [
    "https://m.media-amazon.com/images/I/61tgVT4T03L.jpg",
    "https://m.media-amazon.com/images/I/61EwFoD7kIL.jpg",
@@ -1692,8 +1692,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs x LEGO Creativity Clog (Little Kid/Big Kid) — Negro",
   "genero": "Niños",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 52.97,
+  "precio_c": 1948,
   "fotos": [
    "https://m.media-amazon.com/images/I/71HYtnTyMyL.jpg",
    "https://m.media-amazon.com/images/I/613GJFFNYvL.jpg",
@@ -4084,8 +4084,8 @@ var ZAPATOS = [
   "marca": "Dr. Scholl's",
   "nombre": "Dr. Scholl's City Cloud Oxford",
   "genero": "Hombre",
-  "precio": 64.31,
-  "precio_c": 2365,
+  "precio": 64.28,
+  "precio_c": 2364,
   "fotos": [
    "https://m.media-amazon.com/images/I/714I2++cRBL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/714I2++cRBL._AC_SX500_.jpg",
@@ -4190,8 +4190,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Calderone Plain Toe Oxford",
   "genero": "Hombre",
-  "precio": 66.73,
-  "precio_c": 2454,
+  "precio": 66.35,
+  "precio_c": 2440,
   "fotos": [
    "https://m.media-amazon.com/images/I/715FoJscUlL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/715FoJscUlL._AC_SX500_.jpg",
@@ -4381,8 +4381,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Chase 2.0 Casual Plain Toe Oxford Contemporary Lace-Up",
   "genero": "Hombre",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 62.11,
+  "precio_c": 2284,
   "fotos": [
    "https://m.media-amazon.com/images/I/71E+wV4CBdL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71E+wV4CBdL._AC_SX500_.jpg",
@@ -4413,37 +4413,12 @@ var ZAPATOS = [
   "categoria": "Formales"
  },
  {
-  "codigo": "DOM-8632",
-  "marca": "Vance Co",
-  "nombre": "VANCE CO SERGIO VENETIAN DRIVING LOAFER",
-  "genero": "Hombre",
-  "precio": 76.94,
-  "precio_c": 2829,
-  "fotos": [
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504745_00",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504745_01",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504745_02",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504745_03"
-  ],
-  "descripcion": "VANCE CO SERGIO VENETIAN DRIVING LOAFER — oxford clásico de VANCE CO para vestir, de acabado elegante que combina con traje y pantalón de vestir.",
-  "detalles": [
-   "Parte superior de acabado liso y elegante",
-   "Cierre con cordones",
-   "Suela resistente para uso diario",
-   "Calce regular"
-  ],
-  "tallas": [
-   "13"
-  ],
-  "categoria": "Formales"
- },
- {
   "codigo": "DOM-8633",
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Wade Work Plain Toe Oxford",
   "genero": "Hombre",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 64.97,
+  "precio_c": 2389,
   "fotos": [
    "https://m.media-amazon.com/images/I/7190tXK7j5L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/7190tXK7j5L._AC_SX500_.jpg",
@@ -4503,8 +4478,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Jarvis Plain Toe Oxford Dress Casual Business Formal Lace Up",
   "genero": "Hombre",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 63.7,
+  "precio_c": 2343,
   "fotos": [
    "https://m.media-amazon.com/images/I/61C15k4TclL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61C15k4TclL._AC_SX500_.jpg",
@@ -4637,8 +4612,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Trustee Moc Toe Oxford",
   "genero": "Hombre",
-  "precio": 69.97,
-  "precio_c": 2573,
+  "precio": 57.5,
+  "precio_c": 2115,
   "fotos": [
    "https://m.media-amazon.com/images/I/716K9GuJbIL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/716K9GuJbIL._AC_SX500_.jpg"
@@ -4733,8 +4708,8 @@ var ZAPATOS = [
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Nio Wing Lace Up Oxford",
   "genero": "Hombre",
-  "precio": 86.3,
-  "precio_c": 3174,
+  "precio": 75.01,
+  "precio_c": 2758,
   "fotos": [
    "https://m.media-amazon.com/images/I/616nJ8mAtAL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/616nJ8mAtAL._AC_SX500_.jpg",
@@ -4769,8 +4744,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Vinson Plain Toe Oxford",
   "genero": "Hombre",
-  "precio": 77.5,
-  "precio_c": 2850,
+  "precio": 69.85,
+  "precio_c": 2569,
   "fotos": [
    "https://m.media-amazon.com/images/I/71OAgBXUGkL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71OAgBXUGkL._AC_SX500_.jpg",
@@ -6177,8 +6152,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Proctr Oxford",
   "genero": "Hombre",
-  "precio": 94.0,
-  "precio_c": 3457,
+  "precio": 85.38,
+  "precio_c": 3140,
   "fotos": [
    "https://m.media-amazon.com/images/I/71lP1sUjjGL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71lP1sUjjGL._AC_SX500_.jpg",
@@ -6357,8 +6332,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Langford Plain Toe Oxford",
   "genero": "Hombre",
-  "precio": 119.14,
-  "precio_c": 4381,
+  "precio": 120.17,
+  "precio_c": 4419,
   "fotos": [
    "https://m.media-amazon.com/images/I/71EkCW8JyuL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71EkCW8JyuL._AC_SX500_.jpg",
@@ -6465,8 +6440,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Launch Plain Toe Oxford",
   "genero": "Hombre",
-  "precio": 119.99,
-  "precio_c": 4413,
+  "precio": 100.0,
+  "precio_c": 3677,
   "fotos": [
    "https://m.media-amazon.com/images/I/71xSKJQyeAL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71xSKJQyeAL._AC_SX500_.jpg",
@@ -6537,8 +6512,8 @@ var ZAPATOS = [
   "marca": "Wolf & Shepherd",
   "nombre": "Wolf & Shepherd Crossover Derby Sport",
   "genero": "Hombre",
-  "precio": 124.98,
-  "precio_c": 4596,
+  "precio": 125.04,
+  "precio_c": 4598,
   "fotos": [
    "https://m.media-amazon.com/images/I/61rDy4L3EJL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61rDy4L3EJL._AC_SX500_.jpg",
@@ -7149,8 +7124,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Shibui Cat",
   "genero": "Hombre",
-  "precio": 39.99,
-  "precio_c": 1471,
+  "precio": 38.99,
+  "precio_c": 1434,
   "fotos": [
    "https://m.media-amazon.com/images/I/51+r5czssmL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/51+r5czssmL._AC_SX500_.jpg",
@@ -8308,40 +8283,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-8749",
-  "marca": "Converse",
-  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 HI - PARCHMENT",
-  "genero": "Hombre",
-  "precio": 65.0,
-  "precio_c": 2390,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171161C.view_1.jpg?v=1613677824",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171161C.view_2.jpg?v=1613677824",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171161C.view_3.jpg?v=1613677824",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171161C.view_4.jpg?v=1613677824"
-  ],
-  "descripcion": "CONVERSE X UNDEFEATED CHUCK 70 HI - PARCHMENT — tenis casuales de CONVERSE para el día a día, cómodos y fáciles de combinar con jeans y ropa urbana.",
-  "detalles": [
-   "Diseño casual versátil para uso diario",
-   "Suela de goma cómoda",
-   "Cierre con cordones",
-   "Calce regular"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-8750",
   "marca": "Saucony",
   "nombre": "SAUCONY ProGrid V2 'Night Sky'",
@@ -8377,8 +8318,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Sunland",
   "genero": "Hombre",
-  "precio": 50.0,
-  "precio_c": 1839,
+  "precio": 49.37,
+  "precio_c": 1816,
   "fotos": [
    "https://m.media-amazon.com/images/I/81UEAzCEBVL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81UEAzCEBVL._AC_SX500_.jpg",
@@ -9934,8 +9875,8 @@ var ZAPATOS = [
   "marca": "2000",
   "nombre": "2000 Hugo Boss Derrek Patent Oxford",
   "genero": "Hombre",
-  "precio": 194.93,
-  "precio_c": 7168,
+  "precio": 199.93,
+  "precio_c": 7352,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/038c13f30ce64224b57bb272753239d5.jpg?v=1794333211",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/bc144f0aa1044638965f61e330b90db5.jpg?v=1794333211",
@@ -10113,8 +10054,8 @@ var ZAPATOS = [
   "marca": "2000",
   "nombre": "2000 Hugo Boss Derek Patent Loafer",
   "genero": "Hombre",
-  "precio": 234.93,
-  "precio_c": 8639,
+  "precio": 239.93,
+  "precio_c": 8823,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/d6552c406d2f4fb8826024b8e3f953ba.jpg?v=1794334143",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/b6185cac2fd84adaaf8a269c5ff5c31b.jpg?v=1794334143",
@@ -10463,8 +10404,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Judson Grand Wingtip Oxfords",
   "genero": "Hombre",
-  "precio": 135.54,
-  "precio_c": 4984,
+  "precio": 135.4,
+  "precio_c": 4979,
   "fotos": [
    "https://m.media-amazon.com/images/I/71MFaRHljQL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71MFaRHljQL._AC_SX500_.jpg",
@@ -10681,8 +10622,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan 2.Zerogrand Laser Wingtip Oxfords Lined",
   "genero": "Hombre",
-  "precio": 136.94,
-  "precio_c": 5036,
+  "precio": 137.61,
+  "precio_c": 5060,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Gel7zmYWL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Gel7zmYWL._AC_SX500_.jpg",
@@ -12883,8 +12824,8 @@ var ZAPATOS = [
   "marca": "2000",
   "nombre": "2000 Dune London Mclurey Leather Boot",
   "genero": "Hombre",
-  "precio": 124.93,
-  "precio_c": 4594,
+  "precio": 129.93,
+  "precio_c": 4778,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/aaf821e7731d473b9b44b7a8be09d552.jpg?v=1794176341",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/90f0380e6ad849f68a0d30b61ac0985b.jpg?v=1794176341",
@@ -16546,8 +16487,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Ultra 7 Play Turf Training Soccer Shoes",
   "genero": "Hombre",
-  "precio": 61.48,
-  "precio_c": 2261,
+  "precio": 61.23,
+  "precio_c": 2252,
   "fotos": [
    "https://m.media-amazon.com/images/I/71mK+kkxW1L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71mK+kkxW1L._AC_SX500_.jpg",
@@ -17433,8 +17374,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Surge 5 Running Shoes",
   "genero": "Hombre",
-  "precio": 69.26,
-  "precio_c": 2547,
+  "precio": 70.35,
+  "precio_c": 2587,
   "fotos": [
    "https://m.media-amazon.com/images/I/8170P-qu1wL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/8170P-qu1wL._AC_SX500_.jpg",
@@ -17580,8 +17521,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Bedford Penny Loafers",
   "genero": "Hombre",
-  "precio": 128.8,
-  "precio_c": 4736,
+  "precio": 109.97,
+  "precio_c": 4044,
   "fotos": [
    "https://m.media-amazon.com/images/I/71AFa08lxKL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71AFa08lxKL._AC_SX500_.jpg",
@@ -17652,8 +17593,8 @@ var ZAPATOS = [
   "marca": "Ecco",
   "nombre": "ECCO Metropole Milan Waterproof Plain Toe Derby",
   "genero": "Hombre",
-  "precio": 131.83,
-  "precio_c": 4848,
+  "precio": 131.51,
+  "precio_c": 4836,
   "fotos": [
    "https://m.media-amazon.com/images/I/61BgZ-TEUXL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61BgZ-TEUXL._AC_SX500_.jpg",
@@ -17976,8 +17917,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Bradford Dress Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 159.85,
-  "precio_c": 5878,
+  "precio": 133.45,
+  "precio_c": 4907,
   "fotos": [
    "https://m.media-amazon.com/images/I/61nXKNSzeWL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61nXKNSzeWL._AC_SX500_.jpg",
@@ -18336,8 +18277,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Conard 2.0 Cap Toe",
   "genero": "Hombre",
-  "precio": 194.99,
-  "precio_c": 7171,
+  "precio": 166.56,
+  "precio_c": 6125,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Bu8l+QQKL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Bu8l+QQKL._AC_SX500_.jpg",
@@ -20150,8 +20091,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Centro Flex Formal Plain Toe Slip-On",
   "genero": "Hombre",
-  "precio": 65.65,
-  "precio_c": 2414,
+  "precio": 65.25,
+  "precio_c": 2400,
   "fotos": [
    "https://m.media-amazon.com/images/I/61XOssCIJtL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61XOssCIJtL._AC_SX500_.jpg",
@@ -20186,8 +20127,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Manvel Moc Toe Oxford",
   "genero": "Hombre",
-  "precio": 65.59,
-  "precio_c": 2412,
+  "precio": 58.76,
+  "precio_c": 2161,
   "fotos": [
    "https://m.media-amazon.com/images/I/61re2DkePxL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61re2DkePxL._AC_SX500_.jpg",
@@ -20222,8 +20163,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Jarvis Moccasin Toe Slip-On Dress Casual Business Loafers",
   "genero": "Hombre",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 61.93,
+  "precio_c": 2277,
   "fotos": [
    "https://m.media-amazon.com/images/I/61FY5Wz6G5L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61FY5Wz6G5L._AC_SX500_.jpg",
@@ -20802,8 +20743,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Grand Shadowlite Wingtip Oxfords",
   "genero": "Hombre",
-  "precio": 94.2,
-  "precio_c": 3464,
+  "precio": 94.26,
+  "precio_c": 3466,
   "fotos": [
    "https://m.media-amazon.com/images/I/61HHWxHwmEL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61HHWxHwmEL._AC_SX500_.jpg",
@@ -23209,8 +23150,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance Fresh Foam Roav V2 Golf Shoes",
   "genero": "Hombre",
-  "precio": 109.73,
-  "precio_c": 4035,
+  "precio": 109.95,
+  "precio_c": 4043,
   "fotos": [
    "https://m.media-amazon.com/images/I/61mTC+3NeFL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61mTC+3NeFL._AC_SX500_.jpg",
@@ -28924,8 +28865,8 @@ var ZAPATOS = [
   "marca": "Kate Spade New York",
   "nombre": "Kate Spade New York Bridal Bow — Ivory Satin",
   "genero": "Mujer",
-  "precio": 121.97,
-  "precio_c": 4485,
+  "precio": 127.69,
+  "precio_c": 4696,
   "fotos": [
    "https://m.media-amazon.com/images/I/61TBPrbFNIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61TBPrbFNIL._SX700_.jpg",
@@ -37136,8 +37077,8 @@ var ZAPATOS = [
   "marca": "Vince Camuto",
   "nombre": "Vince Camuto Aisven Flower Detail Ankle Strap Heeled Sandals — Rich Petit Sirah",
   "genero": "Mujer",
-  "precio": 135.29,
-  "precio_c": 4975,
+  "precio": 135.18,
+  "precio_c": 4971,
   "fotos": [
    "https://m.media-amazon.com/images/I/71X5NOZpxML._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71X5NOZpxML._SX700_.jpg",
@@ -37202,8 +37143,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Gracie Crystal Strappy Back-Strap Sandals — All Black",
   "genero": "Mujer",
-  "precio": 142.74,
-  "precio_c": 5249,
+  "precio": 141.0,
+  "precio_c": 5185,
   "fotos": [
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
@@ -37380,8 +37321,8 @@ var ZAPATOS = [
   "marca": "Kate Spade New York",
   "nombre": "Kate Spade New York Halo Criss Cross Lug Sandals — Saddle",
   "genero": "Mujer",
-  "precio": 195.0,
-  "precio_c": 7171,
+  "precio": 213.16,
+  "precio_c": 7839,
   "fotos": [
    "https://m.media-amazon.com/images/I/71C3ASCag2L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71C3ASCag2L._SX700_.jpg",
@@ -40528,8 +40469,8 @@ var ZAPATOS = [
   "marca": "Ryka",
   "nombre": "Ryka Dedicate LX — Pink",
   "genero": "Mujer",
-  "precio": 105.94,
-  "precio_c": 3896,
+  "precio": 108.93,
+  "precio_c": 4006,
   "fotos": [
    "https://m.media-amazon.com/images/I/710pjBEMGaL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/619FKwv1oUL._AC_SX1024_.jpg",
@@ -43935,8 +43876,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Run Falcon 6 Elastic Lace & Strap (Toddler) — Black",
   "genero": "Niños",
-  "precio": 46.64,
-  "precio_c": 1715,
+  "precio": 46.92,
+  "precio_c": 1725,
   "fotos": [
    "https://m.media-amazon.com/images/I/71WTdUdfXrL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71crxH0LAjL._AC_SX1024_.jpg",
@@ -44956,8 +44897,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Pre School Surge 5 Alternate Closure Running (Little Kid) — Gray",
   "genero": "Niños",
-  "precio": 50.19,
-  "precio_c": 1846,
+  "precio": 50.3,
+  "precio_c": 1850,
   "fotos": [
    "https://m.media-amazon.com/images/I/81QWP8o2mpL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81jeLnBxZ7L._AC_SX1024_.jpg",
@@ -45577,38 +45518,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "7C"
-  ],
-  "categoria": "Elegantes",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-9960",
-  "marca": "SEE KAI RUN",
-  "nombre": "SEE KAI RUN GIRLS SOPHIA MARY JANE (Toddler) — GOLD",
-  "genero": "Niños",
-  "precio": 57.94,
-  "precio_c": 2131,
-  "fotos": [
-   "https://assets.rackroomshoes.com/image/upload/t_cart/f_auto/q_auto/US_01_706872_00",
-   "https://assets.rackroomshoes.com/image/upload/t_cart/f_auto/q_auto/US_01_706872_01",
-   "https://assets.rackroomshoes.com/image/upload/t_cart/f_auto/q_auto/US_01_706872_02",
-   "https://assets.rackroomshoes.com/image/upload/t_cart/f_auto/q_auto/US_01_706872_03"
-  ],
-  "descripcion": "El GIRLS SOPHIA MARY JANE de SEE KAI RUN en GOLD es un zapato de fiesta con acabado brillante, pensado para ceremonias, fotos y celebraciones.",
-  "detalles": [
-   "Acabado brillante de fiesta",
-   "Cierre cómodo y seguro",
-   "Plantilla acolchada para comodidad todo el día",
-   "Ideal para ceremonias, fotos y celebraciones"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C"
   ],
   "categoria": "Elegantes",
   "subcat": "ambos"
@@ -51898,8 +51807,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Ultra Play Hook And Loop Turf Training (Toddler/Little Kid) — Blue",
   "genero": "Niños",
-  "precio": 48.17,
-  "precio_c": 1771,
+  "precio": 37.0,
+  "precio_c": 1361,
   "fotos": [
    "https://m.media-amazon.com/images/I/71uERfTMp0L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71VLYBugSOL._AC_SX1024_.jpg",
@@ -58700,8 +58609,8 @@ var ZAPATOS = [
   "marca": "Birkenstock",
   "nombre": "Birkenstock Arizona Eva Essentials Flower Buckle (Big Kid) — Crocus",
   "genero": "Niños",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 41.45,
+  "precio_c": 1524,
   "fotos": [
    "https://m.media-amazon.com/images/I/61NtUp9wsyL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61115tPyTAL._SX700_.jpg",
@@ -62885,6 +62794,100 @@ var ZAPATOS = [
    "12.5"
   ],
   "categoria": "Casuales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-10496",
+  "marca": "Crevo",
+  "nombre": "Crevo Columbus Lace Up Shoes",
+  "genero": "Hombre",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_1l.jpg?v=1792785790",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_2l.jpg?v=1792785790",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_3l.jpg?v=1792785790",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/CV2463-225_4l.jpg?v=1792785790"
+  ],
+  "descripcion": "Zapato de cuero con cordones de Crevo, clásico y cómodo para vestir a diario.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Cierre con cordones",
+   "Suela resistente para uso diario",
+   "Calce regular"
+  ],
+  "tallas": [
+   "8.5"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-10497",
+  "marca": "LEE",
+  "nombre": "LEE Specter Lux — Black Mono / Gum",
+  "genero": "Hombre",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_1.jpg?v=1792014914",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_2.jpg?v=1792014915",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_3.jpg?v=1792014915",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_4.jpg?v=1792014915"
+  ],
+  "descripcion": "Tenis casual retro de cancha LEE Specter Lux en negro con suela gum, cómodo para el día a día.",
+  "detalles": [
+   "Diseño casual retro de cancha",
+   "Cierre con cordones",
+   "Suela gum resistente",
+   "Calce regular"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-10498",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Claire (Toddler/Little Kid) — Black",
+  "genero": "Niños",
+  "precio": 44.99,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61sO28tuz0L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71QWKaCPx7L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/710t2rcA4CL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61lirpTb3+L._SX700_.jpg"
+  ],
+  "descripcion": "Mary Jane clásica de cuero negro Stride Rite Claire, el zapato escolar de todos los días para niña pequeña, con cierre de velcro ajustable.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Cierre de velcro ajustable",
+   "Plantilla acolchada",
+   "Suela resistente para uso diario"
+  ],
+  "tallas": [
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C"
+  ],
+  "categoria": "Formales",
   "subcat": "ambos"
  }
 ];

@@ -33665,6 +33665,10 @@ var ZAP_HISTORIAL = [
   "nombre": "PUMA C-Skate Fresh Leather Sneakers — Black/White"
  },
  {
+  "codigo": "DOM-8632",
+  "nombre": "VANCE CO SERGIO VENETIAN DRIVING LOAFER"
+ },
+ {
   "codigo": "DOM-864",
   "nombre": "PUMA Astro Play Sneakers — Green"
  },
@@ -33707,6 +33711,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-874",
   "nombre": "Corkys Waiting List Floral Sneakers — Grey/White"
+ },
+ {
+  "codigo": "DOM-8749",
+  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 HI - PARCHMENT"
  },
  {
   "codigo": "DOM-875",
@@ -34199,6 +34207,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-996",
   "nombre": "adidas VL Court Bold Platform Sneaker — Red/White"
+ },
+ {
+  "codigo": "DOM-9960",
+  "nombre": "SEE KAI RUN GIRLS SOPHIA MARY JANE (Toddler) — GOLD"
  },
  {
   "codigo": "DOM-997",
