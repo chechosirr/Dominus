@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "11 de noviembre de 2026";
+var ZAP_VERIFICADO = "12 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -6177,8 +6177,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Proctr Oxford",
   "genero": "Hombre",
-  "precio": 108.0,
-  "precio_c": 3972,
+  "precio": 94.0,
+  "precio_c": 3457,
   "fotos": [
    "https://m.media-amazon.com/images/I/71lP1sUjjGL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71lP1sUjjGL._AC_SX500_.jpg",
@@ -13750,37 +13750,6 @@ var ZAPATOS = [
   "categoria": "Chanclas"
  },
  {
-  "codigo": "DOM-8919",
-  "marca": "Dockers",
-  "nombre": "DOCKERS Searose - Mens",
-  "genero": "Hombre",
-  "precio": 44.96,
-  "precio_c": 1653,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_1.jpg?v=1776188610",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_2.jpg?v=1776188610",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_3.jpg?v=1776188610",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9021374_4.jpg?v=1776188609"
-  ],
-  "descripcion": "DOCKERS Searose - Mens — chanclas y sandalias de DOCKERS cómodas y frescas, ideales para la playa, la piscina y el descanso en casa.",
-  "detalles": [
-   "Diseño abierto y fresco",
-   "Suela moldeada y cómoda",
-   "Fáciles de poner y quitar",
-   "Calce regular"
-  ],
-  "tallas": [
-   "07.0",
-   "08.0",
-   "09.0",
-   "10.0",
-   "11.0",
-   "12.0",
-   "13.0"
-  ],
-  "categoria": "Chanclas"
- },
- {
   "codigo": "DOM-8920",
   "marca": "Adidas",
   "nombre": "ADIDAS Adilette Lite - Mens",
@@ -15154,8 +15123,8 @@ var ZAPATOS = [
   "marca": "Adidas",
   "nombre": "Adidas Adimule (Black/Black/White)",
   "genero": "Hombre",
-  "precio": 99.95,
-  "precio_c": 3676,
+  "precio": 80.0,
+  "precio_c": 2942,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0208/4764/files/AdidasAdimule_Black_Black_White_KI04071.jpg?v=1787689136",
    "https://cdn.shopify.com/s/files/1/0208/4764/files/AdidasAdimule_Black_Black_White_KI04072.jpg?v=1787689136",
@@ -15786,8 +15755,8 @@ var ZAPATOS = [
   "marca": "Adidas",
   "nombre": "Adidas Adimule (White/Prebrn/Auco)",
   "genero": "Hombre",
-  "precio": 119.95,
-  "precio_c": 4411,
+  "precio": 85.0,
+  "precio_c": 3126,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0208/4764/files/AdidasAdimule_White_Prebrn_Auco_KI04041.jpg?v=1787694742",
    "https://cdn.shopify.com/s/files/1/0208/4764/files/AdidasAdimule_White_Prebrn_Auco_KI04042.jpg?v=1787694742",
@@ -28984,8 +28953,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Delicato Crystal Cap-Toe Denim Ballet Flats — Dark Denim",
   "genero": "Mujer",
-  "precio": 128.8,
-  "precio_c": 4736,
+  "precio": 128.77,
+  "precio_c": 4735,
   "fotos": [
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
@@ -33940,8 +33909,8 @@ var ZAPATOS = [
   "marca": "MIA",
   "nombre": "MIA Kika Platform Espadrille Slide Sandals",
   "genero": "Mujer",
-  "precio": 52.97,
-  "precio_c": 1948,
+  "precio": 44.97,
+  "precio_c": 1654,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/GS1345808-KHA_1l.jpg?v=1792782045",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/GS1345808-KHA_2l.jpg?v=1792782045",
@@ -37233,8 +37202,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Gracie Crystal Strappy Back-Strap Sandals — All Black",
   "genero": "Mujer",
-  "precio": 144.5,
-  "precio_c": 5314,
+  "precio": 142.74,
+  "precio_c": 5249,
   "fotos": [
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
@@ -52392,32 +52361,6 @@ var ZAPATOS = [
   "subcat": "ambos"
  },
  {
-  "codigo": "DOM-10171",
-  "marca": "New Balance",
-  "nombre": "New Balance 530 'Silver Azure' Grade-School (Big Kid)",
-  "genero": "Niños",
-  "precio": 47.93,
-  "precio_c": 1763,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GR530MV_GS124.jpg?v=1753717227",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GR530MV_GS126.jpg?v=1753717227",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GR530MV_GS127.jpg?v=1753723130",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GR530MV_GS125.jpg?v=1753717227"
-  ],
-  "descripcion": "Tenis casuales para niños grandes, cómodos y versátiles para la escuela, el parque y todos los días.",
-  "detalles": [
-   "Parte superior resistente y cómoda para uso diario",
-   "Cierre cómodo para un ajuste seguro",
-   "Suela de goma duradera con buena tracción",
-   "Plantilla acolchada para comodidad durante todo el día"
-  ],
-  "tallas": [
-   "6"
-  ],
-  "categoria": "Casuales",
-  "subcat": "ambos"
- },
- {
   "codigo": "DOM-10172",
   "marca": "Vans",
   "nombre": "Vans Knu Skool Grade-School (Big Kid)",
@@ -60029,8 +59972,8 @@ var ZAPATOS = [
   "marca": "Corkys",
   "nombre": "Corkys Lucky For You Wedge Sandal",
   "genero": "Mujer",
-  "precio": 67.97,
-  "precio_c": 2500,
+  "precio": 74.99,
+  "precio_c": 2758,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/41-0891-BLKC_1l.jpg?v=1794025979",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/41-0891-BLKC_2l.jpg?v=1794025979",
@@ -62878,6 +62821,70 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-10494",
+  "marca": "Reebok",
+  "nombre": "REEBOK Fulgere Slide - Mens (Black)",
+  "genero": "Hombre",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_1.jpg?v=1779839534",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_2.jpg?v=1779839534",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_3.jpg?v=1779839534",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100210917_4.jpg?v=1779839534"
+  ],
+  "descripcion": "REEBOK Fulgere Slide - Mens (Black) — chanclas de REEBOK cómodas y frescas, ideales para la playa, la piscina y el descanso en casa.",
+  "detalles": [
+   "Parte superior de EVA moldeada, suave y cómoda",
+   "Resistentes al agua, ideales para playa y piscina",
+   "Material de secado rápido",
+   "Diseño slip-on, fáciles de poner y quitar"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-10495",
+  "marca": "PUMA",
+  "nombre": "PUMA Caven 2.0 Slip On Sneakers (Big Kid) — Negro",
+  "genero": "Niños",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39383901_1l.jpg?v=1788501913",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39383901_2l.jpg?v=1788501913",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39383901_3l.jpg?v=1788501913",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39383901_4l.jpg?v=1788501913"
+  ],
+  "descripcion": "Tenis casuales sin cordones para niños, con estilo colegial de los 90 y gran comodidad para todos los días.",
+  "detalles": [
+   "Diseño slip-on fácil de poner y quitar",
+   "Plantilla SoftFoam+ acolchada para comodidad todo el día",
+   "Estilo colegial inspirado en los años 90",
+   "Suela de goma duradera con buena tracción"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "11.5",
+   "12",
+   "12.5"
+  ],
+  "categoria": "Casuales",
   "subcat": "ambos"
  }
 ];

@@ -477,6 +477,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Skechers Cozy Fit Cordelux Slip-Ins — Black/Black"
  },
  {
+  "codigo": "DOM-10171",
+  "nombre": "New Balance 530 'Silver Azure' Grade-School (Big Kid)"
+ },
+ {
   "codigo": "DOM-1018",
   "nombre": "Reebok Velocity Pro — Navy/White"
  },
@@ -33771,6 +33775,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-891",
   "nombre": "Creative Recreation Cesario Hi — Green"
+ },
+ {
+  "codigo": "DOM-8919",
+  "nombre": "DOCKERS Searose - Mens"
  },
  {
   "codigo": "DOM-892",
