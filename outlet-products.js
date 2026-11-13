@@ -1566,8 +1566,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance 530 (Big Kid) — Light Arctic Grey/NB 103 White",
   "genero": "Niños",
-  "precio": 81.99,
-  "precio_c": 3015,
+  "precio": 73.74,
+  "precio_c": 2712,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gim57JkUL.jpg",
    "https://m.media-amazon.com/images/I/71+BZUYoU6L.jpg",
@@ -4321,31 +4321,6 @@ var ZAPATOS = [
   "categoria": "Formales"
  },
  {
-  "codigo": "DOM-8629",
-  "marca": "Vance Co",
-  "nombre": "VANCE CO EMIILIO MOC TOE LOAFER",
-  "genero": "Hombre",
-  "precio": 76.94,
-  "precio_c": 2829,
-  "fotos": [
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504696_00",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504696_01",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504696_02",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504696_03"
-  ],
-  "descripcion": "VANCE CO EMIILIO MOC TOE LOAFER — oxford clásico de VANCE CO para vestir, de acabado elegante que combina con traje y pantalón de vestir.",
-  "detalles": [
-   "Parte superior de acabado liso y elegante",
-   "Cierre con cordones",
-   "Suela resistente para uso diario",
-   "Calce regular"
-  ],
-  "tallas": [
-   "8.5"
-  ],
-  "categoria": "Formales"
- },
- {
   "codigo": "DOM-8630",
   "marca": "Wolverine",
   "nombre": "WOLVERINE Carlsbad WP Moc Toe - Mens",
@@ -4381,8 +4356,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Chase 2.0 Casual Plain Toe Oxford Contemporary Lace-Up",
   "genero": "Hombre",
-  "precio": 62.11,
-  "precio_c": 2284,
+  "precio": 62.09,
+  "precio_c": 2283,
   "fotos": [
    "https://m.media-amazon.com/images/I/71E+wV4CBdL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71E+wV4CBdL._AC_SX500_.jpg",
@@ -4478,8 +4453,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Jarvis Plain Toe Oxford Dress Casual Business Formal Lace Up",
   "genero": "Hombre",
-  "precio": 63.7,
-  "precio_c": 2343,
+  "precio": 63.81,
+  "precio_c": 2347,
   "fotos": [
    "https://m.media-amazon.com/images/I/61C15k4TclL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61C15k4TclL._AC_SX500_.jpg",
@@ -4708,8 +4683,8 @@ var ZAPATOS = [
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Nio Wing Lace Up Oxford",
   "genero": "Hombre",
-  "precio": 75.01,
-  "precio_c": 2758,
+  "precio": 74.87,
+  "precio_c": 2753,
   "fotos": [
    "https://m.media-amazon.com/images/I/616nJ8mAtAL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/616nJ8mAtAL._AC_SX500_.jpg",
@@ -4990,8 +4965,8 @@ var ZAPATOS = [
   "marca": "2000",
   "nombre": "2000 Hugo Boss Noel Leather Moccasin",
   "genero": "Hombre",
-  "precio": 184.93,
-  "precio_c": 6801,
+  "precio": 189.93,
+  "precio_c": 6984,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/4f2503c35bff4e3b8205a7a5707f10c0.jpg?v=1794336466",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/8fc87e4f011743bfae66748b6e8b2c98.jpg?v=1794336466",
@@ -6152,8 +6127,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Proctr Oxford",
   "genero": "Hombre",
-  "precio": 85.38,
-  "precio_c": 3140,
+  "precio": 85.33,
+  "precio_c": 3138,
   "fotos": [
    "https://m.media-amazon.com/images/I/71lP1sUjjGL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71lP1sUjjGL._AC_SX500_.jpg",
@@ -6512,8 +6487,8 @@ var ZAPATOS = [
   "marca": "Wolf & Shepherd",
   "nombre": "Wolf & Shepherd Crossover Derby Sport",
   "genero": "Hombre",
-  "precio": 125.04,
-  "precio_c": 4598,
+  "precio": 123.75,
+  "precio_c": 4551,
   "fotos": [
    "https://m.media-amazon.com/images/I/61rDy4L3EJL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61rDy4L3EJL._AC_SX500_.jpg",
@@ -7520,8 +7495,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Bradburn",
   "genero": "Hombre",
-  "precio": 41.49,
-  "precio_c": 1526,
+  "precio": 37.0,
+  "precio_c": 1361,
   "fotos": [
    "https://m.media-amazon.com/images/I/71E8vKvISlL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71E8vKvISlL._AC_SX500_.jpg",
@@ -8318,8 +8293,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Sunland",
   "genero": "Hombre",
-  "precio": 49.37,
-  "precio_c": 1816,
+  "precio": 49.31,
+  "precio_c": 1813,
   "fotos": [
    "https://m.media-amazon.com/images/I/81UEAzCEBVL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81UEAzCEBVL._AC_SX500_.jpg",
@@ -10218,8 +10193,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 119.95,
-  "precio_c": 4411,
+  "precio": 97.0,
+  "precio_c": 3567,
   "fotos": [
    "https://m.media-amazon.com/images/I/61gH7Y8TqaL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61gH7Y8TqaL._AC_SX500_.jpg",
@@ -10404,8 +10379,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Judson Grand Wingtip Oxfords",
   "genero": "Hombre",
-  "precio": 135.4,
-  "precio_c": 4979,
+  "precio": 136.32,
+  "precio_c": 5013,
   "fotos": [
    "https://m.media-amazon.com/images/I/71MFaRHljQL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71MFaRHljQL._AC_SX500_.jpg",
@@ -10766,8 +10741,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Bailey Cap Toe Lace-Up",
   "genero": "Hombre",
-  "precio": 140.0,
-  "precio_c": 5148,
+  "precio": 107.5,
+  "precio_c": 3953,
   "fotos": [
    "https://m.media-amazon.com/images/I/61FWfEdblOL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61FWfEdblOL._AC_SX500_.jpg",
@@ -17527,8 +17502,8 @@ var ZAPATOS = [
   "marca": "Ecco",
   "nombre": "ECCO Metropole Milan Waterproof Plain Toe Derby",
   "genero": "Hombre",
-  "precio": 131.51,
-  "precio_c": 4836,
+  "precio": 131.77,
+  "precio_c": 4846,
   "fotos": [
    "https://m.media-amazon.com/images/I/61BgZ-TEUXL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61BgZ-TEUXL._AC_SX500_.jpg",
@@ -17707,8 +17682,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Forecast Waterproof Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 153.48,
-  "precio_c": 5644,
+  "precio": 158.18,
+  "precio_c": 5817,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ZMNdEycpL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71ZMNdEycpL._AC_SX500_.jpg",
@@ -18211,8 +18186,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Conard 2.0 Cap Toe",
   "genero": "Hombre",
-  "precio": 166.56,
-  "precio_c": 6125,
+  "precio": 171.65,
+  "precio_c": 6312,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Bu8l+QQKL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Bu8l+QQKL._AC_SX500_.jpg",
@@ -20025,8 +20000,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Centro Flex Formal Plain Toe Slip-On",
   "genero": "Hombre",
-  "precio": 65.25,
-  "precio_c": 2400,
+  "precio": 65.55,
+  "precio_c": 2411,
   "fotos": [
    "https://m.media-amazon.com/images/I/61XOssCIJtL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61XOssCIJtL._AC_SX500_.jpg",
@@ -20061,8 +20036,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Manvel Moc Toe Oxford",
   "genero": "Hombre",
-  "precio": 58.76,
-  "precio_c": 2161,
+  "precio": 58.96,
+  "precio_c": 2168,
   "fotos": [
    "https://m.media-amazon.com/images/I/61re2DkePxL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61re2DkePxL._AC_SX500_.jpg",
@@ -20097,8 +20072,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Jarvis Moccasin Toe Slip-On Dress Casual Business Loafers",
   "genero": "Hombre",
-  "precio": 61.93,
-  "precio_c": 2277,
+  "precio": 62.03,
+  "precio_c": 2281,
   "fotos": [
    "https://m.media-amazon.com/images/I/61FY5Wz6G5L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61FY5Wz6G5L._AC_SX500_.jpg",
@@ -20497,8 +20472,8 @@ var ZAPATOS = [
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Cheer Single Monk Strap",
   "genero": "Hombre",
-  "precio": 70.64,
-  "precio_c": 2598,
+  "precio": 79.99,
+  "precio_c": 2942,
   "fotos": [
    "https://m.media-amazon.com/images/I/61BipEuSe-L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61BipEuSe-L._AC_SX500_.jpg",
@@ -20677,8 +20652,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Grand Shadowlite Wingtip Oxfords",
   "genero": "Hombre",
-  "precio": 94.26,
-  "precio_c": 3466,
+  "precio": 94.23,
+  "precio_c": 3465,
   "fotos": [
    "https://m.media-amazon.com/images/I/61HHWxHwmEL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61HHWxHwmEL._AC_SX500_.jpg",
@@ -20965,7 +20940,7 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Grand Remix Wing Tip",
   "genero": "Hombre",
-  "precio": 106.11,
+  "precio": 106.1,
   "precio_c": 3902,
   "fotos": [
    "https://m.media-amazon.com/images/I/71mOT3igxCL._AC_SX500_.jpg",
@@ -28769,8 +28744,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Delicato Crystal Cap-Toe Denim Ballet Flats — Dark Denim",
   "genero": "Mujer",
-  "precio": 128.74,
-  "precio_c": 4734,
+  "precio": 119.42,
+  "precio_c": 4392,
   "fotos": [
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
@@ -31661,8 +31636,8 @@ var ZAPATOS = [
   "marca": "Nine West",
   "nombre": "Nine West Folowe — Beige/Black Zebra Multi",
   "genero": "Mujer",
-  "precio": 106.48,
-  "precio_c": 3916,
+  "precio": 109.98,
+  "precio_c": 4044,
   "fotos": [
    "https://m.media-amazon.com/images/I/7156JpwGbhL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/7156JpwGbhL._SX700_.jpg",
@@ -37018,8 +36993,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Gracie Crystal Strappy Back-Strap Sandals — All Black",
   "genero": "Mujer",
-  "precio": 138.56,
-  "precio_c": 5095,
+  "precio": 137.94,
+  "precio_c": 5073,
   "fotos": [
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
@@ -40096,8 +40071,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Go Walk 7 Valin Hands Free Slip-Ins — White",
   "genero": "Mujer",
-  "precio": 104.13,
-  "precio_c": 3829,
+  "precio": 104.23,
+  "precio_c": 3833,
   "fotos": [
    "https://m.media-amazon.com/images/I/61vkjAsA69L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/51L3CrXYR-L._AC_SX1024_.jpg",
@@ -40344,8 +40319,8 @@ var ZAPATOS = [
   "marca": "Ryka",
   "nombre": "Ryka Dedicate LX — Pink",
   "genero": "Mujer",
-  "precio": 108.93,
-  "precio_c": 4006,
+  "precio": 108.95,
+  "precio_c": 4007,
   "fotos": [
    "https://m.media-amazon.com/images/I/710pjBEMGaL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/619FKwv1oUL._AC_SX1024_.jpg",
@@ -43298,8 +43273,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Attacanto Indoor Training Soccer (Little Kid) — Black",
   "genero": "Niños",
-  "precio": 31.99,
-  "precio_c": 1176,
+  "precio": 31.0,
+  "precio_c": 1140,
   "fotos": [
    "https://m.media-amazon.com/images/I/719Db7POdKL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71UsPWRt5PL._AC_SX1024_.jpg",
@@ -43330,8 +43305,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Attacanto Turf Training Soccer Cleats (Little Kid) — Black",
   "genero": "Niños",
-  "precio": 39.75,
-  "precio_c": 1462,
+  "precio": 39.77,
+  "precio_c": 1463,
   "fotos": [
    "https://m.media-amazon.com/images/I/81ar45OUBKL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81qQk1l0xCL._AC_SX1024_.jpg",
@@ -43362,8 +43337,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Surge 5 Alternate Closure Running (Toddler) — Blue",
   "genero": "Niños",
-  "precio": 44.17,
-  "precio_c": 1624,
+  "precio": 44.99,
+  "precio_c": 1654,
   "fotos": [
    "https://m.media-amazon.com/images/I/812edRmrxzL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71UUN3cOWML._AC_SX1024_.jpg",
@@ -43819,8 +43794,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance Rave Run V2 Bungee Lace With Top Strap (Toddler) — Pink",
   "genero": "Niños",
-  "precio": 47.86,
-  "precio_c": 1760,
+  "precio": 47.97,
+  "precio_c": 1764,
   "fotos": [
    "https://m.media-amazon.com/images/I/717Pen1XkZL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/613F3jk3IwL._AC_SX1024_.jpg",
@@ -44772,8 +44747,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Pre School Surge 5 Alternate Closure Running (Little Kid) — Gray",
   "genero": "Niños",
-  "precio": 50.3,
-  "precio_c": 1850,
+  "precio": 50.25,
+  "precio_c": 1848,
   "fotos": [
    "https://m.media-amazon.com/images/I/81QWP8o2mpL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81jeLnBxZ7L._AC_SX1024_.jpg",
@@ -58484,8 +58459,8 @@ var ZAPATOS = [
   "marca": "Birkenstock",
   "nombre": "Birkenstock Arizona Eva Essentials Flower Buckle (Big Kid) — Crocus",
   "genero": "Niños",
-  "precio": 41.45,
-  "precio_c": 1524,
+  "precio": 34.46,
+  "precio_c": 1267,
   "fotos": [
    "https://m.media-amazon.com/images/I/61NtUp9wsyL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61115tPyTAL._SX700_.jpg",
@@ -62891,5 +62866,31 @@ var ZAPATOS = [
    "12W"
   ],
   "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-10503",
+  "marca": "Sperry",
+  "nombre": "Sperry Overlook Smoking Slipper Plain Toe Dress Shoes — Black",
+  "genero": "Hombre",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_1l.jpg?v=1788746824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_2l.jpg?v=1788746824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_3l.jpg?v=1788746824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_4l.jpg?v=1788746824"
+  ],
+  "descripcion": "Sperry Overlook Smoking Slipper Plain Toe Dress Shoes — slip-on clásico de Sperry para vestir, con logo de ancla bordado y acabado elegante que combina con traje y pantalón de vestir.",
+  "detalles": [
+   "Slip-on sin cordones, fácil de calzar",
+   "Logo de ancla bordado",
+   "Suela con buena tracción",
+   "Calce regular"
+  ],
+  "tallas": [
+   "7",
+   "8"
+  ],
+  "categoria": "Formales"
  }
 ];

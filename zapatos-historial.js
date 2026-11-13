@@ -33661,6 +33661,10 @@ var ZAP_HISTORIAL = [
   "nombre": "PUMA Softride Exo Sneakers — Off White"
  },
  {
+  "codigo": "DOM-8629",
+  "nombre": "VANCE CO EMIILIO MOC TOE LOAFER"
+ },
+ {
   "codigo": "DOM-863",
   "nombre": "PUMA C-Skate Fresh Leather Sneakers — Black/White"
  },
