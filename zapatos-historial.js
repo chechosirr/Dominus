@@ -33833,8 +33833,16 @@ var ZAP_HISTORIAL = [
   "nombre": "Blowfish Malibu Leotina — Blue"
  },
  {
+  "codigo": "DOM-9027",
+  "nombre": "Nike Air Max 90 SE \"Mercurial\" (Black/White-Gold Leaf-Pear)"
+ },
+ {
   "codigo": "DOM-903",
   "nombre": "Nike ReactX Rejuven8 Slides — Pink"
+ },
+ {
+  "codigo": "DOM-9033",
+  "nombre": "Nike Air Max 90 \"Tiempo\" (Black/White-Black)"
  },
  {
   "codigo": "DOM-904",
@@ -33965,12 +33973,20 @@ var ZAP_HISTORIAL = [
   "nombre": "Reebok Court LXS Shoes — White / Legacy Blue / Grey 1"
  },
  {
+  "codigo": "DOM-9357",
+  "nombre": "Public Desire UK Vela Perspex Jewel Detail High Heels"
+ },
+ {
   "codigo": "DOM-936",
   "nombre": "Reebok Cityride 2 Running Shoes — Grey / Orange"
  },
  {
   "codigo": "DOM-937",
   "nombre": "Reebok Princess Shoes — White"
+ },
+ {
+  "codigo": "DOM-9370",
+  "nombre": "CIS Foliie"
  },
  {
   "codigo": "DOM-938",

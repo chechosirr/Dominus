@@ -16987,39 +16987,6 @@ var ZAPATOS = [
   "categoria": "Tacos para fútbol"
  },
  {
-  "codigo": "DOM-9027",
-  "marca": "Nike",
-  "nombre": "Nike Air Max 90 SE \"Mercurial\" (Black/White-Gold Leaf-Pear)",
-  "genero": "Hombre",
-  "precio": 101.95,
-  "precio_c": 3749,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90SE_Mercurial_Black_White-GoldLeaf-Pear_IR5903-0101.jpg?v=1779311184",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90SE_Mercurial_Black_White-GoldLeaf-Pear_IR5903-0102.jpg?v=1779311184",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90SE_Mercurial_Black_White-GoldLeaf-Pear_IR5903-0103.jpg?v=1779311184",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90SE_Mercurial_Black_White-GoldLeaf-Pear_IR5903-0104.jpg?v=1779311184"
-  ],
-  "descripcion": "Nike Air Max 90 SE \"Mercurial\" (Black/White-Gold Leaf-Pear) — tacos de fútbol de Nike para jugar en cancha, con suela de agarre y ajuste seguro para entrenar y competir.",
-  "detalles": [
-   "Suela con tacos para agarre en la cancha",
-   "Ajuste seguro y cómodo",
-   "Diseño ligero para moverse rápido",
-   "Cierre con cordones"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11.5",
-   "14"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
   "codigo": "DOM-9028",
   "marca": "Nike",
   "nombre": "Nike Cryoshot Tiempo '94 OG Color: BLACK/WHITE-UNIVERSITY GOLD-PALE IVORY Style: IQ8158-001",
@@ -17188,39 +17155,6 @@ var ZAPATOS = [
    "10.5",
    "11",
    "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-9033",
-  "marca": "Nike",
-  "nombre": "Nike Air Max 90 \"Tiempo\" (Black/White-Black)",
-  "genero": "Hombre",
-  "precio": 129.95,
-  "precio_c": 4779,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90_Black_White-Black_IU0523-0101.jpg?v=1779112200",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90_Black_White-Black_IU0523-0102.jpg?v=1779112200",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90_Black_White-Black_IU0523-0103.jpg?v=1779112200",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeAirMax90_Black_White-Black_IU0523-0104.jpg?v=1779112200"
-  ],
-  "descripcion": "Nike Air Max 90 \"Tiempo\" (Black/White-Black) — tacos de fútbol de Nike para jugar en cancha, con suela de agarre y ajuste seguro para entrenar y competir.",
-  "detalles": [
-   "Suela con tacos para agarre en la cancha",
-   "Ajuste seguro y cómodo",
-   "Diseño ligero para moverse rápido",
-   "Cierre con cordones"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "10.5",
-   "11",
    "12",
    "13"
   ],
@@ -21031,8 +20965,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Grand Remix Wing Tip",
   "genero": "Hombre",
-  "precio": 109.0,
-  "precio_c": 4008,
+  "precio": 106.11,
+  "precio_c": 3902,
   "fotos": [
    "https://m.media-amazon.com/images/I/71mOT3igxCL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71mOT3igxCL._AC_SX500_.jpg",
@@ -27123,30 +27057,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-9357",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Vela Perspex Jewel Detail High Heels",
-  "genero": "Mujer",
-  "precio": 24.95,
-  "precio_c": 918,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/VELAPERSPEX.jpg?v=1726735302",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/VELAPERSPEX_1.jpg?v=1726735302",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/VELAPERSPEX_2.jpg?v=1726735302",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/VELAPERSPEX_3.jpg?v=1726735302"
-  ],
-  "descripcion": "Tacón elegante de silueta femenina, ideal para eventos, fiestas y looks de noche.",
-  "detalles": [
-   "Material sintético de buen acabado",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para combinar con jeans, vestidos y faldas"
-  ],
-  "tallas": [
-   "UK 4 / EU 37 / US 6"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-9358",
   "marca": "Windsor",
   "nombre": "Windsor Ice Queen Rhinestone Kitten Heels",
@@ -27458,41 +27368,6 @@ var ZAPATOS = [
   ],
   "tallas": [
    "10"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-9370",
-  "marca": "CIS",
-  "nombre": "CIS Foliie",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14138957_foliie_red_601-002-033_main_sq_gy.jpg?v=1757701742",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87226_product_14138957_foliie_red_601-002-033_sw_sq.jpg?v=1757701742",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14138957_foliie_red_601-002-033_alt1_sq_gy.jpg?v=1757701742",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14138957_foliie_red_601-002-033_alt2_sq_gy.jpg?v=1757701742"
-  ],
-  "descripcion": "Tacón elegante de silueta femenina, ideal para eventos, fiestas y looks de noche.",
-  "detalles": [
-   "Material sintético de buen acabado",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para combinar con jeans, vestidos y faldas"
-  ],
-  "tallas": [
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "11"
   ],
   "categoria": "Elegantes"
  },
@@ -28894,8 +28769,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Delicato Crystal Cap-Toe Denim Ballet Flats — Dark Denim",
   "genero": "Mujer",
-  "precio": 128.77,
-  "precio_c": 4735,
+  "precio": 128.74,
+  "precio_c": 4734,
   "fotos": [
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
@@ -37143,8 +37018,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Gracie Crystal Strappy Back-Strap Sandals — All Black",
   "genero": "Mujer",
-  "precio": 141.0,
-  "precio_c": 5185,
+  "precio": 138.56,
+  "precio_c": 5095,
   "fotos": [
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
@@ -62889,5 +62764,132 @@ var ZAPATOS = [
   ],
   "categoria": "Formales",
   "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-10499",
+  "marca": "PUMA",
+  "nombre": "PUMA BMW M Motorsport X Extent NITRO Lace Up Sneakers — Blue/White",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30770302_1l.jpg?v=1792727248",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30770302_2l.jpg?v=1792727247",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30770302_3l.jpg?v=1792727247",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30770302_4l.jpg?v=1792727247"
+  ],
+  "descripcion": "Tenis PUMA BMW M Motorsport X Extent NITRO en azul y blanco, con amortiguación NITRO en el talón y detalles metálicos de BMW Motorsport; un corredor casual para todos los días, con estilo de automovilismo.",
+  "detalles": [
+   "Amortiguación NITRO en el talón para mayor comodidad",
+   "Detalles metálicos con la marca BMW M Motorsport",
+   "Construcción tipo jaula y silueta deportiva para uso diario"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-10500",
+  "marca": "adidas",
+  "nombre": "adidas Adizero Electric+ American Football Cleats — Silver",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH5978_1l.jpg?v=1788812937",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH5978_2l.jpg?v=1788812937",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH5978_3l.jpg?v=1788812937",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH5978_4l.jpg?v=1788812937"
+  ],
+  "descripcion": "Tacos adidas Adizero Electric+ en plateado para fútbol americano, con parte superior PRIMEKNIT que da ajuste firme y flexible, y suela con tacos sintéticos para máximo agarre en cambios de dirección.",
+  "detalles": [
+   "Parte superior adidas PRIMEKNIT de ajuste seguro y flexible",
+   "Suela con tacos sintéticos para agarre en arranques y frenadas",
+   "Forro textil cómodo para jugar todo el partido"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "14",
+   "15"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-10501",
+  "marca": "Public Desire UK",
+  "nombre": "Public Desire UK Ultra Chic Pink Diamante Strappy Square Toe Slim Block Illusion Heel",
+  "genero": "Mujer",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/ULTRACHICPINKDIAMOTE-1.jpg?v=1760389817",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/ULTRACHICPINKDIAMOTE-2.jpg?v=1760389817",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/ULTRACHICPINKDIAMOTE-3.jpg?v=1760389817",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/ULTRACHICPINKDIAMOTE-4.jpg?v=1760389817"
+  ],
+  "descripcion": "Tacón alto rosa con diamantes, ideal para fiestas y looks de noche con mucho brillo.",
+  "detalles": [
+   "Tacón bloque ilusión de aprox. 4\" cómodo para bailar toda la noche",
+   "Diseño con diamantes en todo el zapato y tira al tobillo",
+   "Punta cuadrada, material sintético (PU)"
+  ],
+  "tallas": [
+   "UK 3 / EU 36 / US 5",
+   "UK 4 / EU 37 / US 6",
+   "UK 5 / EU 38 / US 7",
+   "UK 6 / EU 39 / US 8",
+   "UK 7 / EU 40 / US 9",
+   "UK 8 / EU 41 / US 10"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-10502",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Nairri Vegan Leather Strappy Heels in Wide - Taupe",
+  "genero": "Mujer",
+  "precio": 39.0,
+  "precio_c": 1434,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-TAU_1_15cec829-aecf-43b2-9e2a-495976b7d239.jpg?v=1762462827",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-TAU_2_e52119b2-26f7-414a-aaeb-8b857864e11e.jpg?v=1762462829",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-TAU_4_0d79d435-a0af-499a-9b48-94d5c73e8d59.jpg?v=1762462830",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-TAU_3_3f5a3e92-9b53-4c0a-a891-da7b995b2921.jpg?v=1762462832"
+  ],
+  "descripcion": "Tacón de tiras color taupe en horma ancha, elegante y cómodo para eventos y salidas.",
+  "detalles": [
+   "Tacón bloque de 4\" con plataforma y plantilla acolchada",
+   "Punta abierta con tira y hebilla delicada",
+   "Parte superior de cuero vegano, horma ancha"
+  ],
+  "tallas": [
+   "8.5W",
+   "9.5W",
+   "10W",
+   "11W",
+   "12W"
+  ],
+  "categoria": "Elegantes"
  }
 ];
