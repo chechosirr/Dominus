@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "14 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -4222,32 +4222,6 @@ var ZAPATOS = [
   "categoria": "Formales"
  },
  {
-  "codigo": "DOM-8626",
-  "marca": "Vance Co",
-  "nombre": "VANCE CO EMIILIO MOC TOE LOAFER",
-  "genero": "Hombre",
-  "precio": 76.94,
-  "precio_c": 2829,
-  "fotos": [
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504688_00",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504688_01",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504688_02",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504688_03"
-  ],
-  "descripcion": "VANCE CO EMIILIO MOC TOE LOAFER — oxford clásico de VANCE CO para vestir, de acabado elegante que combina con traje y pantalón de vestir.",
-  "detalles": [
-   "Parte superior de acabado liso y elegante",
-   "Cierre con cordones",
-   "Suela resistente para uso diario",
-   "Calce regular"
-  ],
-  "tallas": [
-   "12",
-   "13"
-  ],
-  "categoria": "Formales"
- },
- {
   "codigo": "DOM-8627",
   "marca": "Skechers",
   "nombre": "SKECHERS Relaxed Fit Nampa Groton SR - Mens",
@@ -7495,8 +7469,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Bradburn",
   "genero": "Hombre",
-  "precio": 37.0,
-  "precio_c": 1361,
+  "precio": 44.99,
+  "precio_c": 1654,
   "fotos": [
    "https://m.media-amazon.com/images/I/71E8vKvISlL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71E8vKvISlL._AC_SX500_.jpg",
@@ -10741,8 +10715,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Bailey Cap Toe Lace-Up",
   "genero": "Hombre",
-  "precio": 107.5,
-  "precio_c": 3953,
+  "precio": 99.99,
+  "precio_c": 3677,
   "fotos": [
    "https://m.media-amazon.com/images/I/61FWfEdblOL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61FWfEdblOL._AC_SX500_.jpg",
@@ -16813,8 +16787,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA King Ultimate Soccer Cleats",
   "genero": "Hombre",
-  "precio": 54.95,
-  "precio_c": 2021,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10756307_1l.jpg?v=1792745522",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10756307_2l.jpg?v=1792745522",
@@ -20940,8 +20914,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Grand Remix Wing Tip",
   "genero": "Hombre",
-  "precio": 106.1,
-  "precio_c": 3902,
+  "precio": 106.05,
+  "precio_c": 3900,
   "fotos": [
    "https://m.media-amazon.com/images/I/71mOT3igxCL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71mOT3igxCL._AC_SX500_.jpg",
@@ -28744,8 +28718,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Delicato Crystal Cap-Toe Denim Ballet Flats — Dark Denim",
   "genero": "Mujer",
-  "precio": 119.42,
-  "precio_c": 4392,
+  "precio": 118.46,
+  "precio_c": 4356,
   "fotos": [
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71OAxRvV2YL._SX700_.jpg",
@@ -36993,8 +36967,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Gracie Crystal Strappy Back-Strap Sandals — All Black",
   "genero": "Mujer",
-  "precio": 137.94,
-  "precio_c": 5073,
+  "precio": 137.81,
+  "precio_c": 5068,
   "fotos": [
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71fuCaBaasL._SX700_.jpg",
@@ -62892,5 +62866,37 @@ var ZAPATOS = [
    "8"
   ],
   "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-10504",
+  "marca": "Sperry",
+  "nombre": "Sperry Authentic Original Cozy Float Boat Shoes — Grey",
+  "genero": "Hombre",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23885_1l.jpg?v=1789405125",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23885_2l.jpg?v=1789405126",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23885_3l.jpg?v=1789405126",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS23885_4l.jpg?v=1789405126"
+  ],
+  "descripcion": "Sperry Authentic Original Cozy Float Boat Shoes — Grey — zapato náutico clásico de Sperry, ligero y cómodo para el día a día, con diseño de dos ojales y encanto marinero atemporal.",
+  "detalles": [
+   "Diseño clásico de dos ojales, estilo náutico atemporal",
+   "Construcción ligera para comodidad todo el día",
+   "Se viste formal o casual, para la costa o la ciudad",
+   "Acabado con la atención al detalle característica de Sperry"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales"
  }
 ];
