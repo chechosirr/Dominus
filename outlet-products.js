@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "14 de noviembre de 2026";
+var ZAP_VERIFICADO = "15 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -5240,8 +5240,8 @@ var ZAPATOS = [
   "marca": "Superga",
   "nombre": "Superga 2750 Cotu Classic",
   "genero": "Hombre",
-  "precio": 39.94,
-  "precio_c": 1469,
+  "precio": 45.0,
+  "precio_c": 1655,
   "fotos": [
    "https://m.media-amazon.com/images/I/61njm1tZRuL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61njm1tZRuL._AC_SX500_.jpg",
@@ -9873,8 +9873,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 123.84,
-  "precio_c": 4554,
+  "precio": 121.57,
+  "precio_c": 4471,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -11915,8 +11915,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Air Max Goadome Low 'Dot Pack' - Light Orewood Brown/Black",
   "genero": "Hombre",
-  "precio": 158.75,
-  "precio_c": 5838,
+  "precio": 130.25,
+  "precio_c": 4790,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IR2174-100_PHSLH000-2000.jpg?v=1786654126",
    "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IR2174-100_PHCFH001-2000.jpg?v=1786654126",
@@ -12310,8 +12310,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Air Max Goadome Low 'Dot Pack' - Black/Black",
   "genero": "Hombre",
-  "precio": 158.75,
-  "precio_c": 5838,
+  "precio": 130.25,
+  "precio_c": 4790,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IR2174-001_PHSLH000-2000.jpg?v=1786654820",
    "https://cdn.shopify.com/s/files/1/0214/7974/files/Sneaker-Politics-Nike-AirMaxGoadomeLowQS_Holes_-IG-1.jpg?v=1787597782",
@@ -32580,30 +32580,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-11477",
-  "marca": "CIS",
-  "nombre": "CIS Aliccia",
-  "genero": "Mujer",
-  "precio": 57.92,
-  "precio_c": 2130,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14119920_aliccia_black_001-002-043_main_sq_gy.jpg?v=1757701650",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87231_product_14119920_aliccia_black_001-002-043_sw_sq.jpg?v=1757701650",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14119920_aliccia_black_001-002-043_alt1_sq_gy.jpg?v=1757701650",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14119920_aliccia_black_001-002-043_alt2_sq_gy.jpg?v=1757701650"
-  ],
-  "descripcion": "Tacón elegante de silueta femenina, ideal para eventos, fiestas y looks de noche.",
-  "detalles": [
-   "Material sintético de buen acabado",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para combinar con jeans, vestidos y faldas"
-  ],
-  "tallas": [
-   "6"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-11478",
   "marca": "Journee",
   "nombre": "Journee LUMMIE CASUAL LACE UP SNEAKERS - Black PU",
@@ -33829,8 +33805,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Delicato Pearls-And-Crystal Soft-Leather Ballerinas — Black",
   "genero": "Mujer",
-  "precio": 103.65,
-  "precio_c": 3812,
+  "precio": 103.6,
+  "precio_c": 3810,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Lp8hUnUWL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61NMl4EwF6L._SX700_.jpg",
@@ -38519,8 +38495,8 @@ var ZAPATOS = [
   "marca": "CROCS",
   "nombre": "CROCS Miami Flip Flop - Womens",
   "genero": "Mujer",
-  "precio": 57.98,
-  "precio_c": 2132,
+  "precio": 38.99,
+  "precio_c": 1434,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2128667DJ_1.jpg?v=1781648707",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2128667DJ_2.jpg?v=1781648707",
@@ -41343,8 +41319,8 @@ var ZAPATOS = [
   "marca": "CROCS",
   "nombre": "CROCS Getaway Strappy Sandal - Womens",
   "genero": "Mujer",
-  "precio": 59.98,
-  "precio_c": 2206,
+  "precio": 39.99,
+  "precio_c": 1471,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2095870LF_1.jpg?v=1756499763",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2095870LF_2.jpg?v=1756499764",
@@ -41490,8 +41466,8 @@ var ZAPATOS = [
   "marca": "CROCS",
   "nombre": "CROCS Saturday Metallic Buckle Sandal - Womens",
   "genero": "Mujer",
-  "precio": 64.98,
-  "precio_c": 2390,
+  "precio": 43.99,
+  "precio_c": 1618,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2133162EY_1.jpg?v=1768603297",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2133162EY_2.jpg?v=1768603297",
@@ -45673,30 +45649,6 @@ var ZAPATOS = [
   "subcat": "ambos"
  },
  {
-  "codigo": "DOM-11925",
-  "marca": "Dr.",
-  "nombre": "Dr. Martens Polley II Mary Jane Shoe - Little Kid / Big Kid - Black",
-  "genero": "Niños",
-  "precio": 37.97,
-  "precio_c": 1396,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_910199_FS.JPG"
-  ],
-  "descripcion": "Zapato de vestir para niños pequeños, de estilo clásico y acabado cuidado para ocasiones especiales y la escuela. Cómodo para usar todo el día.",
-  "detalles": [
-   "Acabado clásico de vestir",
-   "Cierre fácil de poner y quitar",
-   "Suela con buen agarre",
-   "Cómodo para usar todo el día"
-  ],
-  "tallas": [
-   "13C",
-   "3Y"
-  ],
-  "categoria": "Formales",
-  "subcat": "ambos"
- },
- {
   "codigo": "DOM-11926",
   "marca": "Ground Up",
   "nombre": "Ground Up Bluey Ballet Flat (Toddler) (Lilac Purple)",
@@ -48089,54 +48041,6 @@ var ZAPATOS = [
   "tallas": [
    "2Y",
    "3Y"
-  ],
-  "categoria": "Chanclas",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-12005",
-  "marca": "Birkenstock",
-  "nombre": "Birkenstock Arizona Vegan Slide Sandal - Little Kid - Stone Coin",
-  "genero": "Niños",
-  "precio": 37.97,
-  "precio_c": 1396,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_794462_FS.JPG"
-  ],
-  "descripcion": "Chancla ligera y fácil de calzar para niños pequeños, ideal para el calor, la playa y el uso diario. Suela cómoda con buen agarre.",
-  "detalles": [
-   "Diseño ligero de una pieza",
-   "Fácil de calzar",
-   "Suela con tracción",
-   "Cómodo para jugar y pasear"
-  ],
-  "tallas": [
-   "13C",
-   "13.5C"
-  ],
-  "categoria": "Chanclas",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-12006",
-  "marca": "Birkenstock",
-  "nombre": "Birkenstock Kay Clog - Little Kid - Mocha",
-  "genero": "Niños",
-  "precio": 37.97,
-  "precio_c": 1396,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_754801_FS.JPG"
-  ],
-  "descripcion": "Chancla ligera y fácil de calzar para niños pequeños, ideal para el calor, la playa y el uso diario. Suela cómoda con buen agarre.",
-  "detalles": [
-   "Diseño ligero de una pieza",
-   "Fácil de calzar",
-   "Suela con tracción",
-   "Cómodo para jugar y pasear"
-  ],
-  "tallas": [
-   "12C",
-   "12.5C"
   ],
   "categoria": "Chanclas",
   "subcat": "ambos"
@@ -58607,6 +58511,124 @@ var ZAPATOS = [
    "5",
    "6",
    "13"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-12360",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection NAIRRI STRAPPY HEELS IN VEGAN LEATHER - Leopard Faux Suede 2",
+  "genero": "Mujer",
+  "precio": 39.0,
+  "precio_c": 1434,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-LEO_1_8617787e-428d-44a2-997d-e023ef5c115b.jpg?v=1765939752",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-LEO_2_c06a8487-ade4-45ee-b2c3-93c8b528b193.jpg?v=1765939752",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-LEO_3_9faacf82-9364-4d16-af1a-02a652c44d6d.jpg?v=1765939752",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-LEO_4_72ce09f3-7079-4110-8e7b-afbe7a088282.jpg?v=1765939752"
+  ],
+  "descripcion": "Tacón elegante de punta abierta con tiras y hebilla en el tobillo, ideal para eventos, fiestas y looks de noche. Su tacón de bloque de 4 pulgadas con plataforma de 1 pulgada da altura con estabilidad, y su plantilla acolchada y su parte superior de ante sintético con estampado de leopardo lo hacen cómodo y llamativo.",
+  "detalles": [
+   "Parte superior de ante sintético con estampado de leopardo",
+   "Plantilla acolchada para comodidad todo el día",
+   "Tacón de bloque de 4 pulgadas con plataforma de 1 pulgada",
+   "Tira de tobillo con hebilla para un ajuste seguro"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-12361",
+  "marca": "Sperry",
+  "nombre": "Sperry Bahama Mary Jane (Little Kid/Big Kid) (Sweet Rose)",
+  "genero": "Niños",
+  "precio": 35.27,
+  "precio_c": 1297,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71wBBgzBHuL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71t-qsmlHcL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71XhNZ8g18L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71aQMtYYdCL._SX700_.jpg"
+  ],
+  "descripcion": "Mary Jane clásica para niña con cierre de hebilla ajustable y silueta de vestir, ideal para la escuela y ocasiones especiales. Parte superior y forro de algodón suave y flexible, con plantilla acolchada para comodidad todo el día y materiales duraderos que dan soporte y estabilidad.",
+  "detalles": [
+   "Cierre de hebilla ajustable",
+   "Parte superior y forro de algodón suave y flexible",
+   "Plantilla acolchada para comodidad todo el día"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-12362",
+  "marca": "Reef",
+  "nombre": "Reef Water Vista (Big Kid) — Black/Tan",
+  "genero": "Niños",
+  "precio": 45.0,
+  "precio_c": 1655,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71CwteFcjHL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61bIyKLj4VL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61p83LU7bFL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61Z0SCXJ0pL._SX700_.jpg"
+  ],
+  "descripcion": "Sandalia flip-flop ligera para niños grandes, ideal para la playa, la piscina y el calor del verano. Su tira suave entre los dedos y su suela cómoda con buen agarre la hacen fácil de calzar y perfecta para el uso diario.",
+  "detalles": [
+   "Tira suave entre los dedos",
+   "Suela cómoda con buen agarre",
+   "Ligera, ideal para playa y piscina"
+  ],
+  "tallas": [
+   "1Y",
+   "3Y",
+   "4Y",
+   "5Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-12363",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clog - Little Kid / Big Kid - Guava",
+  "genero": "Niños",
+  "precio": 47.97,
+  "precio_c": 1764,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_909069_FS.JPG",
+   "https://images.journeys.com/images/products/1_909069_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_909069_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_909069_FS_ALT3.JPG"
+  ],
+  "descripcion": "Zueco clásico de Crocs en color guava, ligero y fácil de limpiar, perfecto para el juego diario, la playa y el calor. Su espuma Croslite con ventilación, correa trasera ajustable y suela antideslizante le dan comodidad y buen agarre a los más pequeños.",
+  "detalles": [
+   "Espuma Croslite ligera con ventilación",
+   "Correa trasera ajustable",
+   "Suela antideslizante"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "2C",
+   "3C",
+   "5Y"
   ],
   "categoria": "Chanclas",
   "subcat": "ambos"

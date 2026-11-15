@@ -3069,6 +3069,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Skechers Go Run Max Cushion Endeavor Women's Shoes — Black"
  },
  {
+  "codigo": "DOM-11477",
+  "nombre": "CIS Aliccia"
+ },
+ {
   "codigo": "DOM-1148",
   "nombre": "ASICS Gel Contend 9 Women's Shoes — Watershed Rose/Desert Red"
  },
@@ -3269,6 +3273,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Dr. Martens Bota 1460 Smooth Leather — Black Smooth"
  },
  {
+  "codigo": "DOM-11925",
+  "nombre": "Dr. Martens Polley II Mary Jane Shoe - Little Kid / Big Kid - Black"
+ },
+ {
   "codigo": "DOM-1193",
   "nombre": "Steve Madden Bota Alta Everest — Black Leather"
  },
@@ -3303,6 +3311,14 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1200",
   "nombre": "Dr. Martens Bota 1460 Pascal Hearts + Stars 8 Eye — Black"
+ },
+ {
+  "codigo": "DOM-12005",
+  "nombre": "Birkenstock Arizona Vegan Slide Sandal - Little Kid - Stone Coin"
+ },
+ {
+  "codigo": "DOM-12006",
+  "nombre": "Birkenstock Kay Clog - Little Kid - Mocha"
  },
  {
   "codigo": "DOM-1201",
