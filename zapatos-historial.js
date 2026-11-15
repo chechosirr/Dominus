@@ -3273,6 +3273,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Dr. Martens Bota 1460 Smooth Leather — Black Smooth"
  },
  {
+  "codigo": "DOM-11924",
+  "nombre": "Dr. Martens 8065 Mary Jane Casual Shoe - Toddler - Pink"
+ },
+ {
   "codigo": "DOM-11925",
   "nombre": "Dr. Martens Polley II Mary Jane Shoe - Little Kid / Big Kid - Black"
  },
