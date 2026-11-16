@@ -6,42 +6,9 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "16 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
- {
-  "codigo": "DOM-1483",
-  "marca": "Nike",
-  "nombre": "Nike Dunk Low Retro SE — Pale Ivory / Baroque Brown / Pale Ivory",
-  "genero": "Hombre",
-  "precio": 147.98,
-  "precio_c": 5442,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_931938_ZM.JPG"
-  ],
-  "descripcion": "El Dunk Low Retro SE en tonos marfil y marrón barroco combina cuero y gamuza con un perfil bajo que va con casi todo. Un clásico de cancha convertido en imprescindible diario.",
-  "detalles": [
-   "Capellada de cuero y gamuza con refuerzos cosidos",
-   "Cuello acolchado para mayor comodidad",
-   "Incluye 2 pares de agujetas",
-   "Mediasuela de espuma y suela de goma con círculo de pivote clásico"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13",
-   "14"
-  ],
-  "categoria": "Casuales"
- },
  {
   "codigo": "DOM-1484",
   "marca": "Nike",
@@ -482,38 +449,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-1977",
-  "marca": "NIKE",
-  "nombre": "Dunk Low Infant Toddler Lifestyle Shoes (Linen/Sail/Platinum Tint)",
-  "genero": "Niños",
-  "precio": 76.95,
-  "precio_c": 2830,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/22f424e46d90039d379787f98b3a2b3f.jpg?v=1783372245",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/1541072568487dd9c7941b5bfc5c9eb5.jpg?v=1783372245",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/4421f998f1bfccc9eb9c872c0f6af717.jpg?v=1783372245",
-   "https://cdn.shopify.com/s/files/1/0852/3376/files/bd413b0028c86ef5d5c92dfea68a590e.jpg?v=1783372245"
-  ],
-  "descripcion": "Tenis casuales para niños pequeños, cómodos y resistentes para jugar todo el día.",
-  "detalles": [
-   "Parte superior resistente y flexible",
-   "Suela de goma con buen agarre",
-   "Plantilla acolchada para mayor comodidad",
-   "Diseño ligero para el juego diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C"
-  ],
-  "categoria": "Casuales",
-  "subcat": "ambos"
- },
- {
   "codigo": "DOM-2039",
   "marca": "Puma",
   "nombre": "Puma Palermo Hello Kitty And Friends Shoes (Big Kid) — Ciruela/Poised Pink",
@@ -565,39 +500,6 @@ var ZAPATOS = [
   ],
   "categoria": "Casuales",
   "subcat": "ambos"
- },
- {
-  "codigo": "DOM-3038",
-  "marca": "Nike",
-  "nombre": "Nike Court Vision Low — University Red / Black / White",
-  "genero": "Hombre",
-  "precio": 82.96,
-  "precio_c": 3051,
-  "fotos": [
-   "https://www.shopwss.com/cdn/shop/files/IO9112657_1.jpg?v=1776791733&width=1024",
-   "https://www.shopwss.com/cdn/shop/files/IO9112657_2.jpg?v=1776791733&width=1024",
-   "https://www.shopwss.com/cdn/shop/files/IO9112657_3.jpg?v=1776791733&width=1024",
-   "https://www.shopwss.com/cdn/shop/files/IO9112657_4.jpg?v=1776791733&width=1024"
-  ],
-  "descripcion": "Tenis Nike Court Vision Low en rojo universitario, blanco y negro: un clásico de básquetbol de los 80 con estilo retro para el día a día, cómodo y versátil.",
-  "detalles": [
-   "Estética clásica de básquetbol de los años 80 con empeine nítido y costuras decorativas",
-   "Cuello bajo acolchado que brinda soporte y perforaciones en la punta y los laterales para ventilación",
-   "Elaborado con al menos 20% de contenido reciclado"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
  },
  {
   "codigo": "DOM-342",
@@ -773,41 +675,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-353",
-  "marca": "Puma",
-  "nombre": "Puma Suede Classic — Black / White",
-  "genero": "Hombre",
-  "precio": 99.95,
-  "precio_c": 3676,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61X205Ncb2L._AC_SX1024_.jpg",
-   "https://m.media-amazon.com/images/I/61T9Zyj1PfL._AC_SX1024_.jpg",
-   "https://m.media-amazon.com/images/I/61Hcv+S4oZL._AC_SX1024_.jpg"
-  ],
-  "descripcion": "El ícono Suede Classic en negro con la franja Formstrip blanca, en gamuza suave de perfil bajo atemporal. Un básico de streetwear que funciona con prácticamente todo el clóset.",
-  "detalles": [
-   "Parte superior de gamuza suave con Formstrip de cuero",
-   "Plantilla OrthoLite® acolchada y transpirable",
-   "Forro de cuero sintético de tacto suave",
-   "Suela plana de goma con tracción para uso diario"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-354",
   "marca": "Vans",
   "nombre": "Vans Knu Skool — Stripes Glacial Slate",
@@ -840,75 +707,6 @@ var ZAPATOS = [
    "11.5",
    "12",
    "13"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-359",
-  "marca": "HOKA",
-  "nombre": "Clifton 9 GTX Black / Black",
-  "genero": "Hombre",
-  "precio": 117.25,
-  "precio_c": 4312,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71rfMjbihFL._AC_SX1024_.jpg",
-   "https://m.media-amazon.com/images/I/71KvHkYcSKL._AC_SX1024_.jpg"
-  ],
-  "descripcion": "El Clifton 9 GTX suma membrana GORE-TEX de ajuste invisible al Clifton de máxima amortiguación, en negro total. Espuma ligera, detalles reflectivos de 360° y una pisada suave para caminar o correr con cualquier clima.",
-  "detalles": [
-   "Membrana GORE-TEX de ajuste invisible contra la lluvia",
-   "Malla cerrada con reflectividad de 360°",
-   "Mediasuela de espuma ligera y respuesta suave",
-   "Cápsulas de tracción en la suela para agarre urbano"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13",
-   "14"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-360",
-  "marca": "HOKA",
-  "nombre": "Bondi 9 Black / Black",
-  "genero": "Hombre",
-  "precio": 184.95,
-  "precio_c": 6801,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61cvxHQ3KbL._AC_SX1024_.jpg"
-  ],
-  "descripcion": "El Bondi 9 es el modelo de máxima amortiguación de HOKA, aquí en negro total con malla de punto jacquard. Su espuma prémium y su suela ancha lo hacen el favorito para jornadas largas de pie o caminatas diarias.",
-  "detalles": [
-   "Mediasuela de espuma prémium suave y con rebote",
-   "Malla técnica de punto jacquard con zonas de ventilación",
-   "Suela de goma Durabrasion en las zonas de mayor desgaste",
-   "Cuello moldeado en 3D y plantilla acolchada"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13",
-   "14"
   ],
   "categoria": "Casuales"
  },
@@ -1250,37 +1048,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-448",
-  "marca": "Steve Madden",
-  "nombre": "Steve Madden Tenis de Plataforma Possession-J (Women) — Tan",
-  "genero": "Mujer",
-  "precio": 109.95,
-  "precio_c": 4043,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/716TyDgas8L._AC_SX1024_.jpg",
-   "https://m.media-amazon.com/images/I/71BLQbwqV7L._AC_SX1024_.jpg"
-  ],
-  "descripcion": "Tenis tipo dad sneaker con suela esculpida de gran volumen que aporta altura y un aire urbano muy actual. Sus paneles en capas en tono tan combinan con jeans sueltos, faldas midi y conjuntos casuales.",
-  "detalles": [
-   "Plataforma de 2.5 pulgadas con suela oversized esculpida",
-   "Parte superior sintética y textil con paneles en capas",
-   "Cierre de agujetas y tiradores en talón y lengüeta",
-   "Punta redonda y plantilla sintética acolchada"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-450",
   "marca": "Sam Edelman",
   "nombre": "Sam Edelman Mocasín Chunky Lea (Women) — Cuero Negro",
@@ -1313,35 +1080,6 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-452",
-  "marca": "Papillio by Birkenstock",
-  "nombre": "Papillio by Birkenstock Sandalia de Plataforma Florida Flex (Women) — Negro",
-  "genero": "Mujer",
-  "precio": 118.93,
-  "precio_c": 4374,
-  "fotos": [
-   "https://images.journeys.com/images/products/1_854299_ZM.JPG",
-   "https://images.journeys.com/images/products/1_854299_SW.JPG"
-  ],
-  "descripcion": "Sandalia slide de plataforma con tres tiras ajustables y plantilla de corcho anatómica que se adapta al pie. Combina comodidad todo el día con un look relajado y de tendencia.",
-  "detalles": [
-   "Plataforma EVA flexible de 1 pulgada",
-   "Parte superior Birkibuc de cuero sintético, construcción vegana",
-   "Tiras con hebillas ajustables para un calce personalizado",
-   "Plantilla contorneada de corcho y látex con soporte de arco"
-  ],
-  "tallas": [
-   "5-5.5",
-   "6-6.5",
-   "7-7.5",
-   "8-8.5",
-   "9-9.5",
-   "10-10.5",
-   "11-11.5"
-  ],
-  "categoria": "Sandalias"
  },
  {
   "codigo": "DOM-456",
@@ -1765,70 +1503,6 @@ var ZAPATOS = [
    "Amortiguación ABZORB en la entresuela",
    "Suela N-ergy que absorbe impactos",
    "Estilo runner de los 2000"
-  ],
-  "tallas": [
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7"
-  ],
-  "categoria": "Casuales",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-546",
-  "marca": "adidas",
-  "nombre": "adidas Run Falcon 6 (Little Kid/Big Kid) — St Tropic Bloom/Plateado Metálico/Lucid Pink",
-  "genero": "Niños",
-  "precio": 51.25,
-  "precio_c": 1885,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71FX79owe+L.jpg",
-   "https://m.media-amazon.com/images/I/71OhCp04fTL.jpg",
-   "https://m.media-amazon.com/images/I/715zfbSa2sL.jpg",
-   "https://m.media-amazon.com/images/I/8132Px+4HpL.jpg"
-  ],
-  "descripcion": "El Run Falcon 6 juvenil en tonos tropicales con rosa lúcido: ligero, con malla transpirable y listo para correr y jugar todo el día.",
-  "detalles": [
-   "Malla ligera y transpirable",
-   "Entresuela Cloudfoam suave",
-   "Diseño pensado para correr a diario",
-   "Suela de goma con tracción"
-  ],
-  "tallas": [
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-548",
-  "marca": "Nike",
-  "nombre": "Nike Court Borough Low (Big Kid) — Blanco/Gris Humo/Phantom",
-  "genero": "Niños",
-  "precio": 63.83,
-  "precio_c": 2347,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71TtlLl1FQL.jpg",
-   "https://m.media-amazon.com/images/I/71aCC-tzaUL.jpg",
-   "https://m.media-amazon.com/images/I/714EJfJUlvL.jpg",
-   "https://m.media-amazon.com/images/I/71JSC78hvbL.jpg"
-  ],
-  "descripcion": "El Court Borough Low juvenil en blanco con gris humo: la línea de cancha de Nike para niños, con look retro de básquet y cuero duradero.",
-  "detalles": [
-   "Parte superior de cuero resistente",
-   "Estilo retro de cancha de los 80",
-   "Suela de goma tipo cupsole",
-   "Cuello bajo acolchado"
   ],
   "tallas": [
    "3.5",
@@ -58636,5 +58310,260 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-12366",
+  "marca": "Nike",
+  "nombre": "Nike Mind 001 — Hemp / Pale Ivory / Sanddrift",
+  "genero": "Hombre",
+  "precio": 115.0,
+  "precio_c": 4229,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0262/2475/files/MIND001HEMP-1.jpg?v=1786456415",
+   "https://cdn.shopify.com/s/files/1/0262/2475/files/MIND001HEMP-2.jpg?v=1786456415",
+   "https://cdn.shopify.com/s/files/1/0262/2475/files/MIND001HEMP-3.jpg?v=1786456415",
+   "https://cdn.shopify.com/s/files/1/0262/2475/files/MIND001HEMP-4.jpg?v=1786456414"
+  ],
+  "descripcion": "La mule de recuperación de Nike con 22 nódulos de espuma que se mueven bajo el pie para estimular la pisada. Se calza en un segundo y acompaña el descanso después del entrenamiento o el día a día en casa.",
+  "detalles": [
+   "Capellada de punto con lengüeta perforada para ventilar",
+   "Plantilla de tela elástica con 22 nódulos de espuma articulados",
+   "Suela de espuma suave con tacos de goma en punta y talón",
+   "Logo Swoosh bordado y marca Nike Mind en el talón"
+  ],
+  "tallas": [
+   "7",
+   "8"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-12367",
+  "marca": "ASICS",
+  "nombre": "ASICS Gel-1130 — Black / Pure Silver",
+  "genero": "Hombre",
+  "precio": 127.98,
+  "precio_c": 4706,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_854138_ZM.JPG",
+   "https://images.journeys.com/images/products/1_854138_FS.JPG",
+   "https://images.journeys.com/images/products/1_854138_MD.JPG"
+  ],
+  "descripcion": "Un clásico retro de running que volvió con fuerza: malla transpirable con refuerzos metalizados y amortiguación GEL en el talón. Silueta baja y neutra que combina con jeans y con ropa deportiva.",
+  "detalles": [
+   "Capellada de malla resistente con refuerzos de piel sintética metalizada",
+   "Amortiguación GEL en el talón para absorber impactos",
+   "Lengüeta y cuello acolchados para mayor comodidad",
+   "Suela de goma durable con tracción flexible"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-12368",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool — Black / True White",
+  "genero": "Hombre",
+  "precio": 94.98,
+  "precio_c": 3493,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D3HY28_1.jpg?v=1775778779",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D3HY28_2.jpg?v=1775778779",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D3HY28_3.jpg?v=1775778779",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D3HY28_4.jpg?v=1775778779"
+  ],
+  "descripcion": "El skate clásico de Vans con su franja lateral inconfundible: lona y gamuza en negro con suela blanca de gofre. Un básico de todos los días que nunca pasa de moda.",
+  "detalles": [
+   "Capellada de lona y gamuza con la franja lateral Sidestripe",
+   "Cuello acolchado para mayor comodidad",
+   "Cierre de agujetas para ajuste seguro",
+   "Suela de goma vulcanizada con dibujo de gofre clásico"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-12369",
+  "marca": "JORDAN",
+  "nombre": "Jordan Retro 11 Low — Blue / Black / White",
+  "genero": "Hombre",
+  "precio": 189.99,
+  "precio_c": 6987,
+  "fotos": [
+   "https://assets.footlocker.com/is/image/FLDM/V5104100_01",
+   "https://assets.footlocker.com/is/image/FLDM/V5104100_03",
+   "https://assets.footlocker.com/is/image/FLDM/V5104100_04",
+   "https://assets.footlocker.com/is/image/FLDM/V5104100_05"
+  ],
+  "descripcion": "La leyenda del 11 en versión baja: charol brillante, malla balística y suela translúcida con placa de fibra de carbono. El azul universitario le da un aire fresco al modelo que MJ hizo famoso en el 95-96.",
+  "detalles": [
+   "Capellada de malla balística con refuerzo de charol",
+   "Unidades Nike Air en talón y antepié",
+   "Placa de fibra de carbono en el mediopié",
+   "Suela translúcida de goma con dibujo en espiga"
+  ],
+  "tallas": [
+   "9.5",
+   "10",
+   "10.5",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-12370",
+  "marca": "Nike",
+  "nombre": "Nike P-6000 — Flat Pewter / Light Bone / College Grey",
+  "genero": "Hombre",
+  "precio": 132.98,
+  "precio_c": 4890,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_931994_ZM.JPG",
+   "https://images.journeys.com/images/products/1_931994_FS.JPG",
+   "https://images.journeys.com/images/products/1_931994_MD.JPG"
+  ],
+  "descripcion": "Un homenaje al Pegasus del 2006 con malla transpirable y líneas retro de principios de los 2000. Cómodo para el día a día y con ese aire vintage que domina el streetwear.",
+  "detalles": [
+   "Capellada de malla transpirable con refuerzos sintéticos",
+   "Amortiguación de espuma para comodidad diaria",
+   "Suela de goma con tracción para uso diario",
+   "Diseño inspirado en el Nike Air Pegasus de 2006"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-12371",
+  "marca": "adidas",
+  "nombre": "adidas Barreda Mary Jane (Women) — Collegiate Green / Cream White / Gum",
+  "genero": "Mujer",
+  "precio": 78.83,
+  "precio_c": 2899,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61eEOlC9IkL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71hrW1hiH3L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61kZM87i3QL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61uJbq3E69L._SX700_.jpg"
+  ],
+  "descripcion": "Sneaker de perfil bajo inspirado en la bailarina, con tira cruzada elástica que se calza sin agujetas y puntera en T. Su parte superior de cuero con las 3 rayas combina con jeans, faldas midi y conjuntos casuales.",
+  "detalles": [
+   "Tira cruzada elástica de fácil calce sin agujetas",
+   "Parte superior de cuero con puntera en T y 3 rayas",
+   "Plantilla acolchada para comodidad todo el día",
+   "Suela de goma de perfil bajo con buen agarre"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-12372",
+  "marca": "Nike",
+  "nombre": "Nike Mind 001 (Women) — Palest Purple / Metallic Silver / Purple Pulse",
+  "genero": "Mujer",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://assets.footlocker.com/is/image/FLDM/Q4309500_01",
+   "https://assets.footlocker.com/is/image/FLDM/Q4309500_03",
+   "https://assets.footlocker.com/is/image/FLDM/Q4309500_04",
+   "https://assets.footlocker.com/is/image/FLDM/Q4309500_05"
+  ],
+  "descripcion": "Mule deslizante de Nike desarrollado con su departamento de ciencia de la mente: 22 nódulos bajo el pie se mueven al caminar para estimular la planta. Su parte superior de tejido con perforaciones y su espuma suave lo hacen cómodo para el día a día.",
+  "detalles": [
+   "22 nódulos bajo el pie que se mueven al caminar",
+   "Parte superior de tejido suave con perforaciones que respiran",
+   "Entresuela de espuma suave y plantilla de tela elástica",
+   "Puntos de goma en puntera y talón para un agarre duradero"
+  ],
+  "tallas": [
+   "6",
+   "8",
+   "9"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-12373",
+  "marca": "Crocs",
+  "nombre": "Crocs Pokémon Poké Ball Classic Clog (Little Kid/Big Kid) — Rojo/Blanco",
+  "genero": "Niños",
+  "precio": 64.95,
+  "precio_c": 2388,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7161injwOML._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71Qd-oIZK-L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71y3yDp0uQL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61h4-K2wLWL._SX700_.jpg"
+  ],
+  "descripcion": "El clog de Pokémon con el diseño de la Poké Ball en rojo y blanco: la colaboración del 30.º aniversario de Pokémon con Crocs, con charms esmaltados de Eevee y Pikachu y remache de Poké Ball en la correa.",
+  "detalles": [
+   "Colaboración oficial Pokémon x Crocs del 30.º aniversario",
+   "Diseño de Poké Ball en rojo y blanco con banda negra",
+   "Charms esmaltados de Pokémon y remache de Poké Ball en la correa trasera",
+   "Espuma Croslite ligera, resistente al agua y fácil de limpiar"
+  ],
+  "tallas": [
+   "11",
+   "1",
+   "3"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "ambos"
  }
 ];
