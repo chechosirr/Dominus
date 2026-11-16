@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "16 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -1566,8 +1566,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance 530 (Big Kid) — Light Arctic Grey/NB 103 White",
   "genero": "Niños",
-  "precio": 81.99,
-  "precio_c": 3015,
+  "precio": 73.74,
+  "precio_c": 2712,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gim57JkUL.jpg",
    "https://m.media-amazon.com/images/I/71+BZUYoU6L.jpg",
@@ -1815,8 +1815,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Court Borough Low (Big Kid) — Blanco/Gris Humo/Phantom",
   "genero": "Niños",
-  "precio": 63.74,
-  "precio_c": 2344,
+  "precio": 63.83,
+  "precio_c": 2347,
   "fotos": [
    "https://m.media-amazon.com/images/I/71TtlLl1FQL.jpg",
    "https://m.media-amazon.com/images/I/71aCC-tzaUL.jpg",
@@ -3084,8 +3084,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Darter Pro 2 Running Shoes",
   "genero": "Hombre",
-  "precio": 64.98,
-  "precio_c": 2390,
+  "precio": 64.75,
+  "precio_c": 2381,
   "fotos": [
    "https://m.media-amazon.com/images/I/610cFHdwHML._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/610cFHdwHML._AC_SX500_.jpg",
@@ -4764,8 +4764,8 @@ var ZAPATOS = [
   "marca": "R2275",
   "nombre": "R2275 Santoni Calf Leather Bos Taurus Slip-On Men's Loafers",
   "genero": "Hombre",
-  "precio": 796.95,
-  "precio_c": 29307,
+  "precio": 962.95,
+  "precio_c": 35412,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/1fb6a3a6170a5e10.jpg?v=1794597527",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/ca8a1cdff29c6d61.jpg?v=1794597527",
@@ -6029,8 +6029,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "OTW Premium Era 59 Vans Logo - Black",
   "genero": "Hombre",
-  "precio": 84.0,
-  "precio_c": 3089,
+  "precio": 90.0,
+  "precio_c": 3310,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Black-VN001186BLK1-7-VANSGRAYBG_6cd2a6a8-b4b0-47a9-a1bc-ba5d60ca270a.jpg?v=1788237894",
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Black-VN001186BLK1-9-VANSGRAYBG_0ec5f135-cafc-4246-80af-31cf7ff5ff61.jpg?v=1788237895",
@@ -6632,8 +6632,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "OTW Premium Era 59 Vans Logo - Marshmallow",
   "genero": "Hombre",
-  "precio": 84.0,
-  "precio_c": 3089,
+  "precio": 90.0,
+  "precio_c": 3310,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Marshmallow-VN001186CCZ1-7-VANSGRAYBG_3bd4c5ac-6ebf-48e9-9615-5d9798e9b5c3.jpg?v=1788237894",
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Marshmallow-VN001186CCZ1-9-VANSGRAYBG_857d98cd-708e-4876-a016-b3cc12188632.jpg?v=1788237894",
@@ -7018,31 +7018,6 @@ var ZAPATOS = [
    "8",
    "9",
    "11"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-10670",
-  "marca": "Vance Co",
-  "nombre": "VANCE CO CORMAC WINGTIP OXFORD",
-  "genero": "Hombre",
-  "precio": 86.94,
-  "precio_c": 3197,
-  "fotos": [
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504675_00",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504675_01",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504675_02",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504675_03"
-  ],
-  "descripcion": "VANCE CO CORMAC WINGTIP OXFORD — zapato elegante de VANCE CO con detalles refinados, ideal para ocasiones formales y eventos.",
-  "detalles": [
-   "Acabado refinado con detalles clásicos",
-   "Cierre con cordones o hebilla según el modelo",
-   "Suela resistente y cómoda",
-   "Calce regular"
-  ],
-  "tallas": [
-   "8.5"
   ],
   "categoria": "Elegantes"
  },
@@ -7580,8 +7555,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Stark Cap Toe Oxford Leather Business Formal Derby Dress Casual Lace-Up",
   "genero": "Hombre",
-  "precio": 77.13,
-  "precio_c": 2836,
+  "precio": 77.46,
+  "precio_c": 2849,
   "fotos": [
    "https://m.media-amazon.com/images/I/61pnjvM5gzL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61pnjvM5gzL._AC_SX500_.jpg",
@@ -8937,8 +8912,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Lockwood Wingtip Ornament Slip-On Loafer",
   "genero": "Hombre",
-  "precio": 104.99,
-  "precio_c": 3861,
+  "precio": 94.0,
+  "precio_c": 3457,
   "fotos": [
    "https://m.media-amazon.com/images/I/7184dyJQAPL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/7184dyJQAPL._AC_SX500_.jpg",
@@ -9117,8 +9092,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Gibbons Cap Toe",
   "genero": "Hombre",
-  "precio": 108.92,
-  "precio_c": 4005,
+  "precio": 108.93,
+  "precio_c": 4006,
   "fotos": [
    "https://m.media-amazon.com/images/I/61WYTmhhyOL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61WYTmhhyOL._AC_SX500_.jpg",
@@ -9153,8 +9128,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Landry Embossed Cap Toe",
   "genero": "Hombre",
-  "precio": 109.44,
-  "precio_c": 4025,
+  "precio": 109.03,
+  "precio_c": 4009,
   "fotos": [
    "https://m.media-amazon.com/images/I/61JSIvbd7ML._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61JSIvbd7ML._AC_SX500_.jpg",
@@ -9297,8 +9272,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Travato Wingtip Lace-Up",
   "genero": "Hombre",
-  "precio": 114.05,
-  "precio_c": 4194,
+  "precio": 114.15,
+  "precio_c": 4198,
   "fotos": [
    "https://m.media-amazon.com/images/I/71eSA3ntqNL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71eSA3ntqNL._AC_SX500_.jpg",
@@ -9369,8 +9344,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Tarango Modified Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 117.62,
-  "precio_c": 4325,
+  "precio": 117.53,
+  "precio_c": 4322,
   "fotos": [
    "https://m.media-amazon.com/images/I/71S2wQoKXNL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71S2wQoKXNL._AC_SX500_.jpg",
@@ -9873,8 +9848,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 115.35,
-  "precio_c": 4242,
+  "precio": 129.99,
+  "precio_c": 4780,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -11191,8 +11166,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Cypress Boot - Tetra",
   "genero": "Hombre",
-  "precio": 124.0,
-  "precio_c": 4560,
+  "precio": 140.0,
+  "precio_c": 5148,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0408/9909/files/Crocs-x-Salehe-Bembury-Cypress-Boot---Tetra-210506-9I5-08-29-25-Feature-JA-GRAYBG_437ba15d-4605-4bbc-b8df-6ac581b2924e.jpg?v=1788238706",
    "https://cdn.shopify.com/s/files/1/0408/9909/files/Crocs-x-Salehe-Bembury-Cypress-Boot---Tetra-210506-9I5-08-29-25-Feature-JA-4-GRAYBG_4ff27ba5-99cd-4183-99ae-adebc3e68220.jpg?v=1788238706",
@@ -16494,8 +16469,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance Furon Team FG V9",
   "genero": "Hombre",
-  "precio": 88.54,
-  "precio_c": 3256,
+  "precio": 88.57,
+  "precio_c": 3257,
   "fotos": [
    "https://m.media-amazon.com/images/I/71hmt4poAKL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71hmt4poAKL._AC_SX500_.jpg",
@@ -16653,8 +16628,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Ultra Nitro™ 7 Match Turf Training Soccer Shoes",
   "genero": "Hombre",
-  "precio": 91.0,
-  "precio_c": 3346,
+  "precio": 77.5,
+  "precio_c": 2850,
   "fotos": [
    "https://m.media-amazon.com/images/I/81TEqAiXFGL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81TEqAiXFGL._AC_SX500_.jpg",
@@ -20341,8 +20316,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Ajapp Oxford - Madden by Steve Madden",
   "genero": "Hombre",
-  "precio": 55.76,
-  "precio_c": 2051,
+  "precio": 55.7,
+  "precio_c": 2048,
   "fotos": [
    "https://m.media-amazon.com/images/I/81rrQfoZ-uL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81rrQfoZ-uL._AC_SX500_.jpg",
@@ -20413,8 +20388,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Jarvis Moccasin Toe Slip-On Dress Casual Business Loafers",
   "genero": "Hombre",
-  "precio": 62.63,
-  "precio_c": 2303,
+  "precio": 62.8,
+  "precio_c": 2309,
   "fotos": [
    "https://m.media-amazon.com/images/I/61MRj+UjikL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61MRj+UjikL._AC_SX500_.jpg",
@@ -20703,8 +20678,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Newmark Grand Plain Toe Oxfords",
   "genero": "Hombre",
-  "precio": 102.89,
-  "precio_c": 3784,
+  "precio": 102.86,
+  "precio_c": 3783,
   "fotos": [
    "https://m.media-amazon.com/images/I/71PQmbEXntL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71PQmbEXntL._AC_SX500_.jpg",
@@ -21504,8 +21479,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Jackson Plain Toe Oxford",
   "genero": "Hombre",
-  "precio": 85.04,
-  "precio_c": 3127,
+  "precio": 99.99,
+  "precio_c": 3677,
   "fotos": [
    "https://m.media-amazon.com/images/I/61klxsgzVKL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61klxsgzVKL._AC_SX500_.jpg",
@@ -21785,8 +21760,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Larkin Wingtip",
   "genero": "Hombre",
-  "precio": 102.1,
-  "precio_c": 3755,
+  "precio": 102.17,
+  "precio_c": 3757,
   "fotos": [
    "https://m.media-amazon.com/images/I/71qvcCcBORL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71qvcCcBORL._AC_SX500_.jpg",
@@ -22020,8 +21995,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Xc+ Parker Chukka",
   "genero": "Hombre",
-  "precio": 104.5,
-  "precio_c": 3843,
+  "precio": 128.8,
+  "precio_c": 4736,
   "fotos": [
    "https://m.media-amazon.com/images/I/71JxVxMUiXL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71JxVxMUiXL._AC_SX500_.jpg",
@@ -22263,8 +22238,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Offcourt Adjust",
   "genero": "Hombre",
-  "precio": 43.6,
-  "precio_c": 1603,
+  "precio": 43.19,
+  "precio_c": 1588,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Lhhi1pBQL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Lhhi1pBQL._AC_SX500_.jpg",
@@ -23753,8 +23728,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "Run Falcon 5 — Black",
   "genero": "Mujer",
-  "precio": 62.61,
-  "precio_c": 2302,
+  "precio": 62.64,
+  "precio_c": 2304,
   "fotos": [
    "https://m.media-amazon.com/images/I/71SfyU46v2L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61iJ3bbW6sL._AC_SX1024_.jpg",
@@ -26745,8 +26720,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "Basketball Legends Low Basketball Shoes — White",
   "genero": "Mujer",
-  "precio": 66.81,
-  "precio_c": 2457,
+  "precio": 64.9,
+  "precio_c": 2387,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Z-y436kML._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/612pDEOUYZL._AC_SX1024_.jpg",
@@ -33861,7 +33836,7 @@ var ZAPATOS = [
   "marca": "Naturalizer",
   "nombre": "Naturalizer Crystal — Brown Zebra Print Calf Hair",
   "genero": "Mujer",
-  "precio": 106.91,
+  "precio": 106.92,
   "precio_c": 3932,
   "fotos": [
    "https://m.media-amazon.com/images/I/71klgV2sXtL._SX700_.jpg",
@@ -42541,8 +42516,8 @@ var ZAPATOS = [
   "marca": "Naturalizer",
   "nombre": "Naturalizer Brandy Sandals — Dark Chestnut Stud Suede",
   "genero": "Mujer",
-  "precio": 109.99,
-  "precio_c": 4045,
+  "precio": 134.95,
+  "precio_c": 4963,
   "fotos": [
    "https://m.media-amazon.com/images/I/71EsKjkfQFL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71ihWKQL1vL._SX700_.jpg",
@@ -42610,8 +42585,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Lulu Crystal Embellished Toe-Post Sandals — All Black",
   "genero": "Mujer",
-  "precio": 109.99,
-  "precio_c": 4045,
+  "precio": 120.0,
+  "precio_c": 4413,
   "fotos": [
    "https://m.media-amazon.com/images/I/61MY+ndoH1L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61lHEN17JuL._SX700_.jpg",
@@ -43520,8 +43495,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Goletto IX Laceless Firm/Multi Ground Soccer Cleats (Toddler/Little Kid/Big Kid) (White/Black/Lucid Lemon)",
   "genero": "Niños",
-  "precio": 36.99,
-  "precio_c": 1360,
+  "precio": 44.99,
+  "precio_c": 1654,
   "fotos": [
    "https://m.media-amazon.com/images/I/616znXCCpjL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/611bJ0FaioL._SX700_.jpg",
@@ -43651,8 +43626,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Disney Run 70s 2.0 Elastic Lace & Strap Shoes (Black/White/Black)",
   "genero": "Niños",
-  "precio": 41.1,
-  "precio_c": 1511,
+  "precio": 39.99,
+  "precio_c": 1471,
   "fotos": [
    "https://m.media-amazon.com/images/I/71-2XRJ8PUL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/7161DH0yS3L._SX700_.jpg",
@@ -43684,8 +43659,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Goletto Ix Firm Ground/Multi Ground Soccer Cleats (Toddler/Little Kid/Big Kid) (Lucid Lemon/Black/Lucid Lemon)",
   "genero": "Niños",
-  "precio": 41.99,
-  "precio_c": 1544,
+  "precio": 37.49,
+  "precio_c": 1379,
   "fotos": [
    "https://m.media-amazon.com/images/I/71bscvZ87JL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71Wair65QyL._SX700_.jpg",
@@ -46411,8 +46386,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Rolan Cap Toe Oxford (Toddler/Little Kid) (Cognac)",
   "genero": "Niños",
-  "precio": 57.3,
-  "precio_c": 2107,
+  "precio": 55.0,
+  "precio_c": 2023,
   "fotos": [
    "https://m.media-amazon.com/images/I/81mbhlYZ2UL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/81kRHhp7-NL._SX700_.jpg",
@@ -50150,8 +50125,8 @@ var ZAPATOS = [
   "marca": "KEEN",
   "nombre": "KEEN Motozoa Sandal (Toddler/Little Kid/Big Kid) (Naval Academy/Evening Primrose)",
   "genero": "Niños",
-  "precio": 56.46,
-  "precio_c": 2076,
+  "precio": 69.47,
+  "precio_c": 2555,
   "fotos": [
    "https://m.media-amazon.com/images/I/71zHH+lCaSL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/81bG5+TjgUL._SX700_.jpg",
@@ -53024,8 +52999,8 @@ var ZAPATOS = [
   "marca": "SOREL",
   "nombre": "SOREL Roam'N™ Slides (Big Kid) — Black/Black",
   "genero": "Niños",
-  "precio": 107.1,
-  "precio_c": 3938,
+  "precio": 107.07,
+  "precio_c": 3937,
   "fotos": [
    "https://m.media-amazon.com/images/I/71oDzKYV9YL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61DNfVnj33L._SX700_.jpg",
@@ -53085,8 +53060,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Fionna Wave Double Band Slide Sandals (Big Kid) — Black Glossy Snake Print Leather",
   "genero": "Niños",
-  "precio": 109.97,
-  "precio_c": 4044,
+  "precio": 119.94,
+  "precio_c": 4411,
   "fotos": [
    "https://m.media-amazon.com/images/I/71+M+i7mnbL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/7126o--KFwL._SX700_.jpg",
@@ -54786,8 +54761,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Barreda Mary Jane (Big Kid) — White/Black/Silver Metallic",
   "genero": "Niños",
-  "precio": 55.0,
-  "precio_c": 2023,
+  "precio": 50.0,
+  "precio_c": 1839,
   "fotos": [
    "https://m.media-amazon.com/images/I/61m6urBKL3L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/614ESSttkjL._SX700_.jpg",
@@ -56008,8 +55983,8 @@ var ZAPATOS = [
   "marca": "Polo Ralph Lauren",
   "nombre": "Polo Ralph Lauren Striped Cotton Oxford Shirt (Big Kid) — Forest/Lavender Multicolor",
   "genero": "Niños",
-  "precio": 53.99,
-  "precio_c": 1985,
+  "precio": 48.85,
+  "precio_c": 1796,
   "fotos": [
    "https://m.media-amazon.com/images/I/91SPX54IGuL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/91anTyFxqhL._SX700_.jpg",
@@ -57651,8 +57626,8 @@ var ZAPATOS = [
   "marca": "Marc Fisher LTD",
   "nombre": "Marc Fisher LTD Dalani (Big Kid) — Dark Natural Leather",
   "genero": "Niños",
-  "precio": 109.16,
-  "precio_c": 4014,
+  "precio": 109.2,
+  "precio_c": 4016,
   "fotos": [
    "https://m.media-amazon.com/images/I/71DSjiDzY5L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71y50QQEhyL._SX700_.jpg",
@@ -58217,8 +58192,8 @@ var ZAPATOS = [
   "marca": "Stride Rite",
   "nombre": "Stride Rite Lacey 2.0 (Toddler/Little Kid) — Pink",
   "genero": "Niños",
-  "precio": 47.28,
-  "precio_c": 1739,
+  "precio": 47.32,
+  "precio_c": 1740,
   "fotos": [
    "https://m.media-amazon.com/images/I/61xnXFENeIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71-d8nFqTtL._SX700_.jpg",
@@ -58635,5 +58610,31 @@ var ZAPATOS = [
   ],
   "categoria": "Formales",
   "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-12365",
+  "marca": "Cole Haan",
+  "nombre": "Cole Haan Grand Atlantic Penny Loafer — Brown",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/C33028_1l.jpg?v=1789408832",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/C33028_2l.jpg?v=1789408833",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/C33028_3l.jpg?v=1789408832",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/C33028_4l.jpg?v=1789408833"
+  ],
+  "descripcion": "Mocasín penny clásico actualizado, con puntera moc angular y empeine alto. Zapato de vestir cómodo que se puede llevar formal o casual; se puede lustrar. Plantilla particularmente cómoda.",
+  "detalles": [
+   "Diseño penny clásico",
+   "Puntera moc angular",
+   "Empeine alto",
+   "Plantilla cómoda"
+  ],
+  "tallas": [
+   "11.5",
+   "13"
+  ],
+  "categoria": "Elegantes"
  }
 ];

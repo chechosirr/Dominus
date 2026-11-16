@@ -2717,6 +2717,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Reebok Workout Plus OG — Espresso/Dark Brown"
  },
  {
+  "codigo": "DOM-10670",
+  "nombre": "VANCE CO CORMAC WINGTIP OXFORD"
+ },
+ {
   "codigo": "DOM-1068",
   "nombre": "Reebok Club C 85 Vintage — Chalk/Alabaster/Vector Navy"
  },
