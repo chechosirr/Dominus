@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "15 de noviembre de 2026";
+var ZAP_VERIFICADO = "16 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -4764,8 +4764,8 @@ var ZAPATOS = [
   "marca": "R2275",
   "nombre": "R2275 Santoni Calf Leather Bos Taurus Slip-On Men's Loafers",
   "genero": "Hombre",
-  "precio": 962.95,
-  "precio_c": 35412,
+  "precio": 796.95,
+  "precio_c": 29307,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/1fb6a3a6170a5e10.jpg?v=1794597527",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/ca8a1cdff29c6d61.jpg?v=1794597527",
@@ -7788,8 +7788,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Calderone Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 64.97,
-  "precio_c": 2389,
+  "precio": 79.95,
+  "precio_c": 2940,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Y6G5uwnBL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71Y6G5uwnBL._AC_SX500_.jpg",
@@ -9765,8 +9765,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Originalgrand Cityspectre Wholecut",
   "genero": "Hombre",
-  "precio": 109.97,
-  "precio_c": 4044,
+  "precio": 124.0,
+  "precio_c": 4560,
   "fotos": [
    "https://m.media-amazon.com/images/I/61KbHa+53CL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61KbHa+53CL._AC_SX500_.jpg",
@@ -9873,8 +9873,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 119.39,
-  "precio_c": 4390,
+  "precio": 115.35,
+  "precio_c": 4242,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -10208,8 +10208,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Excavate Plain Toe Chukka Boots",
   "genero": "Hombre",
-  "precio": 59.97,
-  "precio_c": 2205,
+  "precio": 67.0,
+  "precio_c": 2464,
   "fotos": [
    "https://m.media-amazon.com/images/I/7153fYeQFfL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/7153fYeQFfL._AC_SX500_.jpg",
@@ -20377,8 +20377,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Brewski Canvas Moccasin Toe Venetian Slip-On",
   "genero": "Hombre",
-  "precio": 60.67,
-  "precio_c": 2231,
+  "precio": 64.95,
+  "precio_c": 2388,
   "fotos": [
    "https://m.media-amazon.com/images/I/71--JHDg+dL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71--JHDg+dL._AC_SX500_.jpg",
@@ -33805,8 +33805,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Delicato Pearls-And-Crystal Soft-Leather Ballerinas — Black",
   "genero": "Mujer",
-  "precio": 103.55,
-  "precio_c": 3808,
+  "precio": 103.45,
+  "precio_c": 3804,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Lp8hUnUWL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61NMl4EwF6L._SX700_.jpg",
@@ -44634,8 +44634,8 @@ var ZAPATOS = [
   "marca": "SAUCONY KIDS",
   "nombre": "ProGrid Guide 7 Preschool Running Shoes (Pink/Black)",
   "genero": "Niños",
-  "precio": 103.95,
-  "precio_c": 3823,
+  "precio": 69.98,
+  "precio_c": 2573,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0852/3376/files/13a643f25abb2c0fed387f43ede74f16.jpg?v=1788301719",
    "https://cdn.shopify.com/s/files/1/0852/3376/files/184fe3d5a96fdf38f8ef3ac78a0549d9.jpg?v=1788301719",
@@ -47752,8 +47752,8 @@ var ZAPATOS = [
   "marca": "JORDAN",
   "nombre": "Air Jordan 1 Retro High OG Nails and Grails Preschool Lifestyle Shoes (University Red/Metallic Silver) Free Shipping",
   "genero": "Niños",
-  "precio": 104.95,
-  "precio_c": 3859,
+  "precio": 69.98,
+  "precio_c": 2573,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0852/3376/files/007f713bf0eabbb782bf6bbee4dd80b5.jpg?v=1787764772",
    "https://cdn.shopify.com/s/files/1/0852/3376/files/d5770f6d0bd782b58b136ba39434b6de.jpg?v=1787764772",
@@ -57461,8 +57461,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Saturday Sandals (Big Kid) — Sepia/Metallic Buckle",
   "genero": "Niños",
-  "precio": 54.95,
-  "precio_c": 2021,
+  "precio": 54.99,
+  "precio_c": 2022,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Jo7RlNGIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71V6a4NHD6L._SX700_.jpg",
