@@ -2689,6 +2689,18 @@ var ZAP_HISTORIAL = [
   "nombre": "Brooks Ghost 18 Black/Grey/White"
  },
  {
+  "codigo": "DOM-10606",
+  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 MID - BLACKIRIS/ PARCHMENT"
+ },
+ {
+  "codigo": "DOM-10607",
+  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 MID - CHIVE/ PARCHMENT"
+ },
+ {
+  "codigo": "DOM-10608",
+  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 HI - BLACK/ IMPERIALBLUE"
+ },
+ {
   "codigo": "DOM-1061",
   "nombre": "Saucony Endorphin Speed 6 Black/White"
  },

@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "16 de noviembre de 2026";
+var ZAP_VERIFICADO = "17 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -4438,8 +4438,8 @@ var ZAPATOS = [
   "marca": "R2275",
   "nombre": "R2275 Santoni Calf Leather Bos Taurus Slip-On Men's Loafers",
   "genero": "Hombre",
-  "precio": 962.95,
-  "precio_c": 35412,
+  "precio": 794.95,
+  "precio_c": 29233,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/1fb6a3a6170a5e10.jpg?v=1794597527",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/ca8a1cdff29c6d61.jpg?v=1794597527",
@@ -4703,121 +4703,6 @@ var ZAPATOS = [
    "8",
    "9",
    "10"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-10606",
-  "marca": "Converse",
-  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 MID - BLACKIRIS/ PARCHMENT",
-  "genero": "Hombre",
-  "precio": 47.0,
-  "precio_c": 1728,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02142C.view_0.jpg?v=1644514505",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02142C.view_1.jpg?v=1644514506",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02142C.view_2.jpg?v=1644514506",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02142C.view_3.jpg?v=1644514506"
-  ],
-  "descripcion": "CONVERSE X UNDEFEATED CHUCK 70 MID - BLACKIRIS/ PARCHMENT — tenis casuales de CONVERSE para el día a día, cómodos y fáciles de combinar con jeans y ropa urbana.",
-  "detalles": [
-   "Diseño casual versátil para uso diario",
-   "Suela de goma cómoda",
-   "Cierre con cordones",
-   "Calce regular"
-  ],
-  "tallas": [
-   "3",
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "8",
-   "8.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13",
-   "14"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-10607",
-  "marca": "Converse",
-  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 MID - CHIVE/ PARCHMENT",
-  "genero": "Hombre",
-  "precio": 47.0,
-  "precio_c": 1728,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02143C.view_0.jpg?v=1644514587",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02143C.view_1.jpg?v=1644514587",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02143C.view_2.jpg?v=1644514587",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-mid_A02143C.view_3.jpg?v=1644514587"
-  ],
-  "descripcion": "CONVERSE X UNDEFEATED CHUCK 70 MID - CHIVE/ PARCHMENT — tenis casuales de CONVERSE para el día a día, cómodos y fáciles de combinar con jeans y ropa urbana.",
-  "detalles": [
-   "Diseño casual versátil para uso diario",
-   "Suela de goma cómoda",
-   "Cierre con cordones",
-   "Calce regular"
-  ],
-  "tallas": [
-   "3",
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11.5",
-   "12",
-   "13",
-   "14"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-10608",
-  "marca": "Converse",
-  "nombre": "CONVERSE X UNDEFEATED CHUCK 70 HI - BLACK/ IMPERIALBLUE",
-  "genero": "Hombre",
-  "precio": 47.0,
-  "precio_c": 1728,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171160C.view_1.jpg?v=1613677739",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171160C.view_2.jpg?v=1613677740",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171160C.view_3.jpg?v=1613677740",
-   "https://cdn.shopify.com/s/files/1/0282/5850/products/footwear_converse_undefeated_chuck-70-hi_171160C.view_4.jpg?v=1613677740"
-  ],
-  "descripcion": "CONVERSE X UNDEFEATED CHUCK 70 HI - BLACK/ IMPERIALBLUE — tenis casuales de CONVERSE para el día a día, cómodos y fáciles de combinar con jeans y ropa urbana.",
-  "detalles": [
-   "Diseño casual versátil para uso diario",
-   "Suela de goma cómoda",
-   "Cierre con cordones",
-   "Calce regular"
-  ],
-  "tallas": [
-   "3",
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5"
   ],
   "categoria": "Casuales"
  },
@@ -5703,8 +5588,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "OTW Premium Era 59 Vans Logo - Black",
   "genero": "Hombre",
-  "precio": 90.0,
-  "precio_c": 3310,
+  "precio": 66.0,
+  "precio_c": 2427,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Black-VN001186BLK1-7-VANSGRAYBG_6cd2a6a8-b4b0-47a9-a1bc-ba5d60ca270a.jpg?v=1788237894",
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Black-VN001186BLK1-9-VANSGRAYBG_0ec5f135-cafc-4246-80af-31cf7ff5ff61.jpg?v=1788237895",
@@ -6306,8 +6191,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "OTW Premium Era 59 Vans Logo - Marshmallow",
   "genero": "Hombre",
-  "precio": 90.0,
-  "precio_c": 3310,
+  "precio": 66.0,
+  "precio_c": 2427,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Marshmallow-VN001186CCZ1-7-VANSGRAYBG_3bd4c5ac-6ebf-48e9-9615-5d9798e9b5c3.jpg?v=1788237894",
    "https://cdn.shopify.com/s/files/1/0408/9909/files/OTWEra59VansLogo-Marshmallow-VN001186CCZ1-9-VANSGRAYBG_857d98cd-708e-4876-a016-b3cc12188632.jpg?v=1788237894",
@@ -9522,8 +9407,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 129.99,
-  "precio_c": 4780,
+  "precio": 116.95,
+  "precio_c": 4301,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Y6667fq2L._AC_SX500_.jpg",
@@ -9645,8 +9530,8 @@ var ZAPATOS = [
   "marca": "Cis",
   "nombre": "CIS Trekkerr",
   "genero": "Hombre",
-  "precio": 56.92,
-  "precio_c": 2093,
+  "precio": 41.97,
+  "precio_c": 1543,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14167831_trekkerr_red_601-002-043_main_sq_gy.jpg?v=1757702060",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_88459_product_14167831_trekkerr_red_601-002-043_sw_sq.jpg?v=1757702060",
@@ -10173,8 +10058,8 @@ var ZAPATOS = [
   "marca": "Cis",
   "nombre": "CIS Patrol",
   "genero": "Hombre",
-  "precio": 66.92,
-  "precio_c": 2461,
+  "precio": 51.97,
+  "precio_c": 1911,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14169471_patrol_black_001-002-029_main_sq_gy.jpg?v=1757701945",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_88482_product_14169471_patrol_black_001-002-029_sw_sq.jpg?v=1757701945",
@@ -10298,8 +10183,8 @@ var ZAPATOS = [
   "marca": "Cis",
   "nombre": "CIS Patrol",
   "genero": "Hombre",
-  "precio": 66.92,
-  "precio_c": 2461,
+  "precio": 51.97,
+  "precio_c": 1911,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14169470_patrol_beige_270-002-031_main_sq_gy.jpg?v=1757702075",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_88482_product_14169470_patrol_beige_270-002-031_sw_sq.jpg?v=1757702075",
@@ -10666,8 +10551,8 @@ var ZAPATOS = [
   "marca": "Call It Spring",
   "nombre": "Call It Spring Landrya",
   "genero": "Hombre",
-  "precio": 91.93,
-  "precio_c": 3381,
+  "precio": 69.98,
+  "precio_c": 2573,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14479934_landrya_brown_220-003-027_main_sq_gy.jpg?v=1780634519",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14479934_landrya_brown_220-003-027_alt1_sq_gy.jpg?v=1780634519",
@@ -10840,8 +10725,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Cypress Boot - Tetra",
   "genero": "Hombre",
-  "precio": 140.0,
-  "precio_c": 5148,
+  "precio": 101.0,
+  "precio_c": 3714,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0408/9909/files/Crocs-x-Salehe-Bembury-Cypress-Boot---Tetra-210506-9I5-08-29-25-Feature-JA-GRAYBG_437ba15d-4605-4bbc-b8df-6ac581b2924e.jpg?v=1788238706",
    "https://cdn.shopify.com/s/files/1/0408/9909/files/Crocs-x-Salehe-Bembury-Cypress-Boot---Tetra-210506-9I5-08-29-25-Feature-JA-4-GRAYBG_4ff27ba5-99cd-4183-99ae-adebc3e68220.jpg?v=1788238706",
@@ -14388,8 +14273,8 @@ var ZAPATOS = [
   "marca": "R2275",
   "nombre": "R2275 Marni Calfskin Men's Mules",
   "genero": "Hombre",
-  "precio": 948.95,
-  "precio_c": 34897,
+  "precio": 945.95,
+  "precio_c": 34786,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/c32bf21a6a442e13.jpg?v=1794597171",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/d0764a2b0a888f4e.jpg?v=1794597171",
@@ -14552,8 +14437,8 @@ var ZAPATOS = [
   "marca": "R2275",
   "nombre": "R2275 Marni Calfskin Men's Clogs",
   "genero": "Hombre",
-  "precio": 1013.95,
-  "precio_c": 37287,
+  "precio": 1010.95,
+  "precio_c": 37177,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/72ed6d485385f4b7.jpg?v=1794595988",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/539c9e1db6244576.jpg?v=1794595988",
@@ -21333,8 +21218,8 @@ var ZAPATOS = [
   "marca": "Cis",
   "nombre": "CIS Refresh 2.0",
   "genero": "Hombre",
-  "precio": 51.93,
-  "precio_c": 1910,
+  "precio": 34.97,
+  "precio_c": 1286,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13861478_refresh_202.0_black_001-002-029_main_sq_gy.jpg?v=1786336939",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_79495_product_13861478_refresh_202.0_black_001-002-029_sw_sq.jpg?v=1786336939",
@@ -21912,8 +21797,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Offcourt Adjust",
   "genero": "Hombre",
-  "precio": 43.19,
-  "precio_c": 1588,
+  "precio": 43.6,
+  "precio_c": 1603,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Lhhi1pBQL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61Lhhi1pBQL._AC_SX500_.jpg",
@@ -26338,8 +26223,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Charged Pursuit 4 Running Shoes — Medium",
   "genero": "Mujer",
-  "precio": 65.97,
-  "precio_c": 2426,
+  "precio": 61.97,
+  "precio_c": 2279,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3028261-514_1l.jpg?v=1788840664",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3028261-514_2l.jpg?v=1788840663",
@@ -26622,8 +26507,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Charged Pursuit 4 Running Shoes — Medium",
   "genero": "Mujer",
-  "precio": 69.97,
-  "precio_c": 2573,
+  "precio": 61.97,
+  "precio_c": 2279,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3028261-014_1l.jpg?v=1788919440",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/3028261-014_2l.jpg?v=1788919441",
@@ -26876,8 +26761,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Velociti Pace Running Shoes — Medium",
   "genero": "Mujer",
-  "precio": 109.95,
-  "precio_c": 4043,
+  "precio": 89.97,
+  "precio_c": 3309,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/6009108-001_1l.jpg?v=1771178566",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/6009108-001_2l.jpg?v=1771178566",
@@ -26907,8 +26792,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Velociti Pace Running Shoes — Medium",
   "genero": "Mujer",
-  "precio": 109.95,
-  "precio_c": 4043,
+  "precio": 89.97,
+  "precio_c": 3309,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/6009108-419_1l.jpg?v=1788402911",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/6009108-419_2l.jpg?v=1788402911",
@@ -28529,8 +28414,8 @@ var ZAPATOS = [
   "marca": "Windsor",
   "nombre": "Windsor Step It Up Patent Faux Leather Platform Boots",
   "genero": "Mujer",
-  "precio": 30.92,
-  "precio_c": 1137,
+  "precio": 19.97,
+  "precio_c": 734,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07402-000176_1_RED_StepItUpPatentFauxLeatherPlatformBoots.jpg?v=1789077652",
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07402-000176_2_RED_StepItUpPatentFauxLeatherPlatformBoots_38de1319-cbc3-4700-ab59-e9b0fb885781.jpg?v=1789077652",
@@ -29793,8 +29678,8 @@ var ZAPATOS = [
   "marca": "Princess Polly",
   "nombre": "Princess Polly Serene Faux Suede Pointed Toe Ankle Boots Burgundy",
   "genero": "Mujer",
-  "precio": 72.95,
-  "precio_c": 2683,
+  "precio": 50.0,
+  "precio_c": 1839,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_2e14624a-959b-4b93-b01e-402362549259.jpg?v=1785903554",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_11005285-74e5-44f6-a29b-d096beb5b29c.jpg?v=1785903554",
@@ -29973,8 +29858,8 @@ var ZAPATOS = [
   "marca": "Therapy",
   "nombre": "Therapy Therapy Frequency Knee High Boots Black",
   "genero": "Mujer",
-  "precio": 72.95,
-  "precio_c": 2683,
+  "precio": 65.5,
+  "precio_c": 2409,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_9bb65354-ebe7-436f-9a93-c724d4e8fb92.jpg?v=1783473644",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_5ae8b392-bbca-45e8-9864-0b9a9f9faaaf.jpg?v=1783473644",
@@ -31258,8 +31143,8 @@ var ZAPATOS = [
   "marca": "Windsor",
   "nombre": "Windsor Plans Got Hotter Snake Print Stiletto Heels",
   "genero": "Mujer",
-  "precio": 30.92,
-  "precio_c": 1137,
+  "precio": 19.97,
+  "precio_c": 734,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07401-000753_1_PINK_PlansGotHotterSnakePrintStilettoHeels.jpg?v=1787605210",
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07401-000753_2_PINK_PlansGotHotterSnakePrintStilettoHeels_5384e2b5-f731-4afb-a6b5-8d374bb7cfbd.jpg?v=1789606179",
@@ -31343,8 +31228,8 @@ var ZAPATOS = [
   "marca": "Windsor",
   "nombre": "Windsor Strap Theory Stiletto Pumps",
   "genero": "Mujer",
-  "precio": 30.92,
-  "precio_c": 1137,
+  "precio": 19.97,
+  "precio_c": 734,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07401-000732_1_SILVER_StrapTheoryStilettoPumps_2c958df4-afe5-4190-8608-f319efc50615.jpg?v=1783359431",
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07401-000732_3_SILVER_StrapTheoryStilettoPumps_23389746-9ff1-490c-98de-0ed8d5a2de95.jpg?v=1783359431",
@@ -31430,8 +31315,8 @@ var ZAPATOS = [
   "marca": "Windsor",
   "nombre": "Windsor Venom Kiss Stiletto Heels",
   "genero": "Mujer",
-  "precio": 30.92,
-  "precio_c": 1137,
+  "precio": 19.97,
+  "precio_c": 734,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07401-000702_1_SNAKE_VenomKissStilettoHeels.jpg?v=1783359172",
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07401-000702_3_SNAKE_VenomKissStilettoHeels.jpg?v=1783359172",
@@ -32381,8 +32266,8 @@ var ZAPATOS = [
   "marca": "CIS",
   "nombre": "CIS Qweenbee",
   "genero": "Mujer",
-  "precio": 57.94,
-  "precio_c": 2131,
+  "precio": 44.98,
+  "precio_c": 1654,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13536335_qweenbee_black_002-002-043_main_sq_gy.jpg?v=1757700401",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_56847_product_13536335_qweenbee_black_002-002-043_sw_sq.jpg?v=1757700401",
@@ -32666,8 +32551,8 @@ var ZAPATOS = [
   "marca": "CIS",
   "nombre": "CIS Mackenziee",
   "genero": "Mujer",
-  "precio": 57.94,
-  "precio_c": 2131,
+  "precio": 44.98,
+  "precio_c": 1654,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14166535_mackenziee_red_601-002-029_main_sq_gy.jpg?v=1757701868",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83563_product_14166535_mackenziee_red_601-002-029_sw_sq.jpg?v=1757701868",
@@ -33275,8 +33160,8 @@ var ZAPATOS = [
   "marca": "CIS",
   "nombre": "CIS Sabreena",
   "genero": "Mujer",
-  "precio": 62.92,
-  "precio_c": 2314,
+  "precio": 49.97,
+  "precio_c": 1838,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14120053_sabreena_brown_240-002-045_main_sq_gy.jpg?v=1757701711",
    "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87243_product_14120053_sabreena_brown_240-002-045_sw_sq.jpg?v=1757701711",
@@ -34087,8 +33972,8 @@ var ZAPATOS = [
   "marca": "Windsor",
   "nombre": "Windsor Height Check Scrunch Open Toe Wedges",
   "genero": "Mujer",
-  "precio": 30.92,
-  "precio_c": 1137,
+  "precio": 19.97,
+  "precio_c": 734,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07406-000075_1_BLACK_SCRUNCHOPENTOEWEDGE07406000074016_5193e0fa-1fe6-4a3d-b367-00481b4138b7.jpg?v=1791218825",
    "https://cdn.shopify.com/s/files/1/0070/8853/7651/files/07406-000075_3_BLACK_SCRUNCHOPENTOEWEDGE07406000074016_1f70226b-4e0a-4377-84fa-0e51346ad850.jpg?v=1791218825",
@@ -35112,8 +34997,8 @@ var ZAPATOS = [
   "marca": "Princess Polly",
   "nombre": "Princess Polly Brielle Heels White",
   "genero": "Mujer",
-  "precio": 60.95,
-  "precio_c": 2241,
+  "precio": 41.5,
+  "precio_c": 1526,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_b5f62b99-d15c-4617-b978-efc2ca3859b3.jpg?v=1712196790",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_566e674e-1501-4281-9368-181b7643a103.jpg?v=1712196791",
@@ -36662,8 +36547,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan 65MM High Heel Go-To Janey Pumps — Soft Buff Snake Print Leather",
   "genero": "Mujer",
-  "precio": 109.97,
-  "precio_c": 4044,
+  "precio": 130.0,
+  "precio_c": 4781,
   "fotos": [
    "https://m.media-amazon.com/images/I/61qFLcYKOyL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61csnCbfFzL._SX700_.jpg",
@@ -39662,8 +39547,8 @@ var ZAPATOS = [
   "marca": "Therapy",
   "nombre": "Therapy Therapy Guise Hardware Detail Sandals Brown / Gold",
   "genero": "Mujer",
-  "precio": 40.95,
-  "precio_c": 1506,
+  "precio": 33.5,
+  "precio_c": 1232,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_e891dde3-24ba-4517-849d-4fe3204333a4.jpg?v=1770695457",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_0d9b563d-03f9-409b-a09e-aca730d0c821.jpg?v=1770695457",
@@ -39823,8 +39708,8 @@ var ZAPATOS = [
   "marca": "Therapy",
   "nombre": "Therapy Therapy Flames Platform Sandals Brown",
   "genero": "Mujer",
-  "precio": 48.95,
-  "precio_c": 1800,
+  "precio": 41.5,
+  "precio_c": 1526,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_8c477bc2-bbd8-4601-af21-076f729efb96.jpg?v=1783988284",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_c5db7b54-eecc-4de7-80a3-f4ef104e266d.jpg?v=1783988284",
@@ -40703,8 +40588,8 @@ var ZAPATOS = [
   "marca": "Princess Polly",
   "nombre": "Princess Polly Ma Belle Sandals Cream",
   "genero": "Mujer",
-  "precio": 55.95,
-  "precio_c": 2058,
+  "precio": 39.0,
+  "precio_c": 1434,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_5d701706-699d-4d4f-95ee-af4ea4ad98e7.jpg?v=1770341828",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_ff9486f1-af79-440d-8ce0-f95cbd75b557.jpg?v=1770341828",
@@ -40852,8 +40737,8 @@ var ZAPATOS = [
   "marca": "Therapy",
   "nombre": "Therapy Therapy Val Sandals Chocolate",
   "genero": "Mujer",
-  "precio": 58.95,
-  "precio_c": 2168,
+  "precio": 40.0,
+  "precio_c": 1471,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_86d683a5-bfcc-4651-9ffe-403b1b1c5632.jpg?v=1754950897",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_7d98701d-0d6b-4de5-b2cd-a688977613c4.jpg?v=1754950897",
@@ -42134,8 +42019,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Fionna Wave Double Band Slide Sandals — Black Glossy Snake Print Leather",
   "genero": "Mujer",
-  "precio": 109.97,
-  "precio_c": 4044,
+  "precio": 119.94,
+  "precio_c": 4411,
   "fotos": [
    "https://m.media-amazon.com/images/I/71+M+i7mnbL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/7126o--KFwL._SX700_.jpg",
@@ -43333,8 +43218,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Goletto Ix Firm Ground/Multi Ground Soccer Cleats (Toddler/Little Kid/Big Kid) (Lucid Lemon/Black/Lucid Lemon)",
   "genero": "Niños",
-  "precio": 37.49,
-  "precio_c": 1379,
+  "precio": 37.75,
+  "precio_c": 1388,
   "fotos": [
    "https://m.media-amazon.com/images/I/71bscvZ87JL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71Wair65QyL._SX700_.jpg",
@@ -58565,5 +58450,103 @@ var ZAPATOS = [
   ],
   "categoria": "Chanclas",
   "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-12374",
+  "marca": "PUMA",
+  "nombre": "PUMA Inhale Lace Up Sneakers — Yellow",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40156005_1l.jpg?v=1788815649",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40156005_2l.jpg?v=1788815649",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40156005_3l.jpg?v=1788815649",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40156005_4l.jpg?v=1788815649"
+  ],
+  "descripcion": "Tenis PUMA Inhale en amarillo con silueta llamativa y paneles de malla transpirable, ideales para correr o para el uso diario con comodidad todo el día.",
+  "detalles": [
+   "Paneles de malla transpirable que mantienen el pie fresco",
+   "Amortiguación ligera CMEVA para comodidad y soporte",
+   "Suela de goma durable con tracción y estabilidad",
+   "Franja lateral PUMA y diseño cerrado de ancho medio"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-12375",
+  "marca": "Avia",
+  "nombre": "AVIA Move - Mens",
+  "genero": "Hombre",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://www.shopwss.com/cdn/shop/files/AA50247MSVC_1.jpg?v=1794609207&width=1200"
+  ],
+  "descripcion": "AVIA Move - Mens — tenis deportivos para hombre, ligeros y cómodos para correr o para el uso diario.",
+  "detalles": [
+   "Tenis deportivos para hombre en colorway Moonbeam / Black Sand / Papyrus",
+   "Tallas disponibles del 7 al 13 (11.5 y 14 agotadas)",
+   "Envío estándar a EE. UU. $9.99",
+   "Devolución gratuita en 30 días"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-12376",
+  "marca": "New Balance",
+  "nombre": "New Balance 480 — White / Pink",
+  "genero": "Hombre",
+  "precio": 37.97,
+  "precio_c": 1396,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_796589_FS.JPG",
+   "https://images.journeys.com/images/products/1_796589_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_796589_FS_ALT2.JPG",
+   "https://images.journeys.com/images/products/1_796589_FS_ALT3.JPG"
+  ],
+  "descripcion": "El clásico 480 de New Balance en blanco con rosa: cuero limpio, malla transpirable y amortiguación OrthoLite con suela tipo copa para el día a día.",
+  "detalles": [
+   "Capellada de cuero limpio con forro de malla transpirable",
+   "Amortiguación OrthoLite para comodidad todo el día",
+   "Suela tipo copa (cupsole) con tracción flexible",
+   "Silueta retro inspirada en el clásico BB680"
+  ],
+  "tallas": [
+   "7.5",
+   "9.5",
+   "11",
+   "11.5",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Casuales"
  }
 ];
