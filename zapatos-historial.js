@@ -11153,6 +11153,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Jordan True Flight (Big Kid) — Black/Gold"
  },
  {
+  "codigo": "DOM-12910",
+  "nombre": "VANCE CO HODGES OXFORD"
+ },
+ {
   "codigo": "DOM-1292",
   "nombre": "Nike Air Max 95 (Big Kid) — Black"
  },
