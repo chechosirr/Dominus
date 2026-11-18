@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "17 de noviembre de 2026";
+var ZAP_VERIFICADO = "18 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -161,8 +161,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Knu Skool — Black / True White",
   "genero": "Hombre",
-  "precio": 97.98,
-  "precio_c": 3603,
+  "precio": 69.98,
+  "precio_c": 2573,
   "fotos": [
    "https://images.journeys.com/images/products/1_744576_ZM.JPG"
   ],
@@ -542,8 +542,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Gazelle Indoor — Blue Bird / Cloud White / Gum",
   "genero": "Hombre",
-  "precio": 116.95,
-  "precio_c": 4301,
+  "precio": 107.95,
+  "precio_c": 3970,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/71701e02da3f482e8c9588fdacdd37f7.jpg?v=1792622532"
   ],
@@ -1400,8 +1400,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Suede XL (Big Kid) — Negro/Blanco",
   "genero": "Niños",
-  "precio": 55.0,
-  "precio_c": 2023,
+  "precio": 62.06,
+  "precio_c": 2282,
   "fotos": [
    "https://m.media-amazon.com/images/I/61tgVT4T03L.jpg",
    "https://m.media-amazon.com/images/I/61EwFoD7kIL.jpg",
@@ -2205,8 +2205,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas Runfalcon 5 Wide Running Shoes",
   "genero": "Hombre",
-  "precio": 62.95,
-  "precio_c": 2315,
+  "precio": 53.95,
+  "precio_c": 1984,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/e4b1a6431b464807835839e7cf151131.jpg?v=1794879449",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/21d767552a9c4fc5b132a9d23d099e92.jpg?v=1794879448",
@@ -2280,8 +2280,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas Runfalcon 5 Running Shoes",
   "genero": "Hombre",
-  "precio": 62.95,
-  "precio_c": 2315,
+  "precio": 53.95,
+  "precio_c": 1984,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/4cd9acee1066425fb22d865cb78cda19.jpg?v=1794879973",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/e12f155541fa4a2c90ff3518241b06e9.jpg?v=1794879973",
@@ -2391,8 +2391,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas Runfalcon 5 Running Shoes",
   "genero": "Hombre",
-  "precio": 62.95,
-  "precio_c": 2315,
+  "precio": 53.95,
+  "precio_c": 1984,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/e4c32971cde14893bec1fc8ef21d9c9a.jpg?v=1794879432",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/cfa49386664a457c8526f9c2a8d3b99a.jpg?v=1794879432",
@@ -2612,8 +2612,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas Galaxy 7 Running Shoes",
   "genero": "Hombre",
-  "precio": 62.95,
-  "precio_c": 2315,
+  "precio": 56.95,
+  "precio_c": 2094,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/e68564f6b8c14266babcf40bf02d3839.jpg?v=1794878705",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/6f43274ffd684b6d80770ab4be85309d.jpg?v=1794878705",
@@ -2711,8 +2711,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas Runfalcon 6 CLOUDFOAM Running Shoes",
   "genero": "Hombre",
-  "precio": 66.95,
-  "precio_c": 2462,
+  "precio": 60.95,
+  "precio_c": 2241,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/db9543d263564ae585cee3e5838309ad.jpg?v=1794879284",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/8e9ad0ca99cd4df48b149e4c28dfe4d9.jpg?v=1794879284",
@@ -9360,8 +9360,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas Adissage 360rec Slides",
   "genero": "Hombre",
-  "precio": 42.95,
-  "precio_c": 1579,
+  "precio": 40.95,
+  "precio_c": 1506,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3c3001dc845c43b498757f97b0ac1c81.jpg?v=1794878843",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/2d7f0ec74a334b93bc3c27552aa9a81b.jpg?v=1794878843",
@@ -9418,8 +9418,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA MB.04 Slide Sandals",
   "genero": "Hombre",
-  "precio": 37.95,
-  "precio_c": 1396,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39766514_1l.jpg?v=1792734243",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39766514_2l.jpg?v=1792734243",
@@ -9694,8 +9694,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Adissage Slides",
   "genero": "Hombre",
-  "precio": 35.0,
-  "precio_c": 1287,
+  "precio": 40.0,
+  "precio_c": 1471,
   "fotos": [
    "https://m.media-amazon.com/images/I/6144QchdilL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/6144QchdilL._AC_SX500_.jpg",
@@ -10743,8 +10743,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas PURECHILL SLIDES",
   "genero": "Hombre",
-  "precio": 58.95,
-  "precio_c": 2168,
+  "precio": 50.95,
+  "precio_c": 1874,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/f4a2dced60ee4cd0b9ebac0311597930.jpg?v=1794878296",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/7c539517f7684810b74503cb67b73832.jpg?v=1794878296",
@@ -10986,8 +10986,8 @@ var ZAPATOS = [
   "marca": "2055",
   "nombre": "2055 adidas ADILETTE COMFORT 2.0 SLIDES",
   "genero": "Hombre",
-  "precio": 59.95,
-  "precio_c": 2205,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/3edf610027f74fd2b5a12ed015b08ce9.jpg?v=1794879562",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/1352f33e3bba4e2399c38b73e9d621e9.jpg?v=1794879562",
@@ -11700,8 +11700,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Ultra 5 Play Firm Ground/Artificial Ground Soccer Cleats",
   "genero": "Hombre",
-  "precio": 42.95,
-  "precio_c": 1579,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10768901_1l.jpg?v=1792869139",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10768901_2l.jpg?v=1792869139",
@@ -11754,8 +11754,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Future 8 Play Turf Soccer Shoes",
   "genero": "Hombre",
-  "precio": 42.95,
-  "precio_c": 1579,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10860503_1l.jpg?v=1788438756",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10860503_2l.jpg?v=1788438756",
@@ -14115,8 +14115,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Corbetta Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 148.29,
-  "precio_c": 5453,
+  "precio": 148.09,
+  "precio_c": 5446,
   "fotos": [
    "https://m.media-amazon.com/images/I/61rSvxJ4QzL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61rSvxJ4QzL._AC_SX500_.jpg",
@@ -17241,8 +17241,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Runfalcon 5 TR Running Shoes",
   "genero": "Hombre",
-  "precio": 58.95,
-  "precio_c": 2168,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP7626_1l.jpg?v=1788343605",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP7626_2l.jpg?v=1788343605",
@@ -17269,8 +17269,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Run 70s 2.0 Shoes",
   "genero": "Hombre",
-  "precio": 58.95,
-  "precio_c": 2168,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4919_1l.jpg?v=1790721953",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4919_2l.jpg?v=1790721953",
@@ -18943,8 +18943,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Warden Plain Toe Oxford",
   "genero": "Hombre",
-  "precio": 69.99,
-  "precio_c": 2574,
+  "precio": 68.78,
+  "precio_c": 2529,
   "fotos": [
    "https://m.media-amazon.com/images/I/81mLqODDjUL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81mLqODDjUL._AC_SX500_.jpg",
@@ -23104,8 +23104,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Ultra 5 Match Soccer Cleats",
   "genero": "Hombre",
-  "precio": 47.95,
-  "precio_c": 1763,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10768701_1l.jpg?v=1788781092",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10768701_2l.jpg?v=1788781092",
@@ -25255,8 +25255,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "Duramo SL 2.0 — White",
   "genero": "Mujer",
-  "precio": 62.63,
-  "precio_c": 2303,
+  "precio": 70.88,
+  "precio_c": 2607,
   "fotos": [
    "https://m.media-amazon.com/images/I/61eozZlNdRL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61RIhn-aezL._AC_SX1024_.jpg",
@@ -25693,8 +25693,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "Velocity Nitro 4 Running Shoes — White",
   "genero": "Mujer",
-  "precio": 101.96,
-  "precio_c": 3749,
+  "precio": 80.0,
+  "precio_c": 2942,
   "fotos": [
    "https://m.media-amazon.com/images/I/71tEGmJOHcL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71YLDIxmgxL._AC_SX1024_.jpg",
@@ -28548,8 +28548,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike P-6000 Athletic Shoe - Summit White / Silt Red / Peony / Team Crimson — Summit White/Silt Red/Peony/Team Crimson",
   "genero": "Mujer",
-  "precio": 107.97,
-  "precio_c": 3970,
+  "precio": 79.98,
+  "precio_c": 2941,
   "fotos": [
    "https://images.journeys.com/images/products/1_903660_MD.JPG",
    "https://images.journeys.com/images/products/1_903660_SW.JPG"
@@ -28640,8 +28640,8 @@ var ZAPATOS = [
   "marca": "Gola",
   "nombre": "Gola Classics Elan Sneaker - Candy / White — Candy/White",
   "genero": "Mujer",
-  "precio": 107.97,
-  "precio_c": 3970,
+  "precio": 79.98,
+  "precio_c": 2941,
   "fotos": [
    "https://images.journeys.com/images/products/1_901846_MD.JPG",
    "https://images.journeys.com/images/products/1_901846_SW.JPG"
@@ -34365,8 +34365,8 @@ var ZAPATOS = [
   "marca": "Roper",
   "nombre": "Roper Riley Flextra Glitter — Gray",
   "genero": "Mujer",
-  "precio": 103.16,
-  "precio_c": 3794,
+  "precio": 102.24,
+  "precio_c": 3760,
   "fotos": [
    "https://m.media-amazon.com/images/I/81Be0Q9AY+L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81r4qpUM8bL._AC_SX1024_.jpg",
@@ -44696,8 +44696,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Authentic Skate Shoe - Baby / Toddler - Leopard (Toddler)",
   "genero": "Niños",
-  "precio": 50.98,
-  "precio_c": 1875,
+  "precio": 34.98,
+  "precio_c": 1286,
   "fotos": [
    "https://images.journeys.com/images/products/1_911932_FS.JPG",
    "https://images.journeys.com/images/products/1_911932_FS_ALT1.JPG",
@@ -44966,8 +44966,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Authentic Skate Shoe - Baby / Toddler - Black Monochrome (Toddler)",
   "genero": "Niños",
-  "precio": 52.98,
-  "precio_c": 1948,
+  "precio": 39.98,
+  "precio_c": 1470,
   "fotos": [
    "https://images.journeys.com/images/products/1_284963_FS.JPG",
    "https://images.journeys.com/images/products/1_284963_FS_ALT1.JPG",
@@ -45031,8 +45031,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Slip-On Skate Shoe - Baby / Toddler - Black Monochrome (Toddler)",
   "genero": "Niños",
-  "precio": 52.98,
-  "precio_c": 1948,
+  "precio": 39.98,
+  "precio_c": 1470,
   "fotos": [
    "https://images.journeys.com/images/products/1_522494_FS.JPG",
    "https://images.journeys.com/images/products/1_522494_FS_ALT1.JPG",
@@ -49337,8 +49337,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Old Skool V Glitter Skate Shoe - Little Kid - Pastel / Multicolor — Pastel/Multicolor (Toddler)",
   "genero": "Niños",
-  "precio": 67.98,
-  "precio_c": 2500,
+  "precio": 49.98,
+  "precio_c": 1838,
   "fotos": [
    "https://images.journeys.com/images/products/1_857648_FS.JPG",
    "https://images.journeys.com/images/products/1_857648_FS_ALT1.JPG",
@@ -52948,8 +52948,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Ultra 6 Play Turf Soccer Shoes (Big Kid)",
   "genero": "Niños",
-  "precio": 37.95,
-  "precio_c": 1396,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10854402_1l.jpg?v=1787760976",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10854402_2l.jpg?v=1787760975",
@@ -53459,8 +53459,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Future 7 Match Volume Up Firm Ground/Artificial Ground Soccer Cleats (Big Kid)",
   "genero": "Niños",
-  "precio": 55.95,
-  "precio_c": 2058,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10807601_1l.jpg?v=1788342312",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10807601_2l.jpg?v=1788342312",
@@ -53489,8 +53489,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma PUMA x FAST & FURIOUS MB.05 La Basketball Shoes (Big Kid)",
   "genero": "Niños",
-  "precio": 81.95,
-  "precio_c": 3014,
+  "precio": 79.95,
+  "precio_c": 2940,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31280201_1l.jpg?v=1788347521",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31280201_2l.jpg?v=1788347520",
@@ -60153,8 +60153,8 @@ var ZAPATOS = [
   "marca": "Sperry",
   "nombre": "Sperry Mary Jane Flats (Big Kid) — Rubor Rosa",
   "genero": "Niños",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 74.95,
+  "precio_c": 2756,
   "fotos": [
    "https://m.media-amazon.com/images/I/619Vu4YocbL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/714hiZFQZvL._AC_SY625_.jpg",
