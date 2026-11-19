@@ -679,8 +679,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Knu Skool — Stripes Glacial Slate",
   "genero": "Hombre",
-  "precio": 55.0,
-  "precio_c": 2023,
+  "precio": 46.0,
+  "precio_c": 1692,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ilQ2rXV4L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81lcr4f%2BlML._AC_SX1024_.jpg",
@@ -6282,8 +6282,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Vogel Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 64.0,
-  "precio_c": 2354,
+  "precio": 55.0,
+  "precio_c": 2023,
   "fotos": [
    "https://m.media-amazon.com/images/I/61SSussFZ0L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61SSussFZ0L._AC_SX500_.jpg",
@@ -7179,8 +7179,8 @@ var ZAPATOS = [
   "marca": "L.L.Bean",
   "nombre": "L.L.Bean Stonington Chelsea Boot Suede",
   "genero": "Hombre",
-  "precio": 79.5,
-  "precio_c": 2924,
+  "precio": 65.6,
+  "precio_c": 2412,
   "fotos": [
    "https://m.media-amazon.com/images/I/71v2xGEV-2L._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71v2xGEV-2L._AC_SX500_.jpg",
@@ -13899,8 +13899,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Stacy Adams Hobson Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 92.5,
-  "precio_c": 3402,
+  "precio": 77.5,
+  "precio_c": 2850,
   "fotos": [
    "https://m.media-amazon.com/images/I/61sMlCYIlaL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61sMlCYIlaL._AC_SX500_.jpg",
@@ -14115,8 +14115,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Corbetta Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 147.99,
-  "precio_c": 5442,
+  "precio": 147.79,
+  "precio_c": 5435,
   "fotos": [
    "https://m.media-amazon.com/images/I/61rSvxJ4QzL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61rSvxJ4QzL._AC_SX500_.jpg",
@@ -14655,8 +14655,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan 2.Zerogrand Casual Lightweight Leather Laser Wing Tip Oxfords",
   "genero": "Hombre",
-  "precio": 161.2,
-  "precio_c": 5928,
+  "precio": 139.4,
+  "precio_c": 5126,
   "fotos": [
    "https://m.media-amazon.com/images/I/71BYSPsdYyL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71BYSPsdYyL._AC_SX500_.jpg",
@@ -15087,8 +15087,8 @@ var ZAPATOS = [
   "marca": "Polo Ralph Lauren",
   "nombre": "Polo Ralph Lauren Owen Wing Tip Dress Shoes",
   "genero": "Hombre",
-  "precio": 215.2,
-  "precio_c": 7914,
+  "precio": 169.6,
+  "precio_c": 6237,
   "fotos": [
    "https://m.media-amazon.com/images/I/71lJRIc3OjL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/71lJRIc3OjL._AC_SX500_.jpg",
@@ -15519,8 +15519,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Ellsworth Cap Toe",
   "genero": "Hombre",
-  "precio": 278.2,
-  "precio_c": 10231,
+  "precio": 218.6,
+  "precio_c": 8039,
   "fotos": [
    "https://m.media-amazon.com/images/I/61br9F1OfgL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61br9F1OfgL._AC_SX500_.jpg",
@@ -17571,8 +17571,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA All-Pro Nitro™ 2 Basketball Shoes",
   "genero": "Hombre",
-  "precio": 104.5,
-  "precio_c": 3843,
+  "precio": 93.7,
+  "precio_c": 3446,
   "fotos": [
    "https://m.media-amazon.com/images/I/81PBUITDHQL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/81PBUITDHQL._AC_SX500_.jpg",
@@ -21399,8 +21399,8 @@ var ZAPATOS = [
   "marca": "Clarks",
   "nombre": "Clarks Breeze Slide",
   "genero": "Hombre",
-  "precio": 55.16,
-  "precio_c": 2028,
+  "precio": 55.0,
+  "precio_c": 2023,
   "fotos": [
    "https://m.media-amazon.com/images/I/61X2CwSN+pL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61X2CwSN+pL._AC_SX500_.jpg",
@@ -23528,8 +23528,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Foreverrun Nitro 2 Running Shoes",
   "genero": "Hombre",
-  "precio": 109.95,
-  "precio_c": 4043,
+  "precio": 94.95,
+  "precio_c": 3492,
   "fotos": [
    "https://m.media-amazon.com/images/I/713XvwCnOyL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/713XvwCnOyL._AC_SX500_.jpg",
@@ -23697,8 +23697,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Adizero Adios 9 Lightstrike Pro Running Shoes",
   "genero": "Hombre",
-  "precio": 109.95,
-  "precio_c": 4043,
+  "precio": 119.95,
+  "precio_c": 4411,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KI5699_1l.jpg?v=1793285063",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KI5699_2l.jpg?v=1793285063",
@@ -23764,8 +23764,8 @@ var ZAPATOS = [
   "marca": "Frye",
   "nombre": "Frye Connor Oxford",
   "genero": "Hombre",
-  "precio": 73.2,
-  "precio_c": 2692,
+  "precio": 57.4,
+  "precio_c": 2111,
   "fotos": [
    "https://m.media-amazon.com/images/I/618+-g21YjL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/618+-g21YjL._AC_SX500_.jpg",
@@ -25668,8 +25668,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "Velocity Nitro 4 Running Shoes — White",
   "genero": "Mujer",
-  "precio": 80.0,
-  "precio_c": 2942,
+  "precio": 87.95,
+  "precio_c": 3234,
   "fotos": [
    "https://m.media-amazon.com/images/I/71tEGmJOHcL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71YLDIxmgxL._AC_SX1024_.jpg",
@@ -26925,8 +26925,8 @@ var ZAPATOS = [
   "marca": "Madden Girl",
   "nombre": "Jumper — Pink",
   "genero": "Mujer",
-  "precio": 37.5,
-  "precio_c": 1379,
+  "precio": 33.1,
+  "precio_c": 1217,
   "fotos": [
    "https://m.media-amazon.com/images/I/71-wwRqwwPL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71dTdRL15HL._AC_SX1024_.jpg",
@@ -31519,8 +31519,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Daney — Grey Suede",
   "genero": "Mujer",
-  "precio": 105.97,
-  "precio_c": 3897,
+  "precio": 93.17,
+  "precio_c": 3426,
   "fotos": [
    "https://m.media-amazon.com/images/I/61lrTUODtGL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61lrTUODtGL._SX700_.jpg",
@@ -39780,8 +39780,8 @@ var ZAPATOS = [
   "marca": "Lauren Ralph Lauren",
   "nombre": "Lauren Ralph Lauren Nellie Washed Denim Espadrille — Blue",
   "genero": "Mujer",
-  "precio": 105.1,
-  "precio_c": 3865,
+  "precio": 89.58,
+  "precio_c": 3294,
   "fotos": [
    "https://m.media-amazon.com/images/I/71eksAkSDsL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71xOel+lujL._SX700_.jpg",
@@ -39840,8 +39840,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Samantha Asymmetrical Sandals — Black Nappa Leather",
   "genero": "Mujer",
-  "precio": 84.0,
-  "precio_c": 3089,
+  "precio": 76.6,
+  "precio_c": 2817,
   "fotos": [
    "https://m.media-amazon.com/images/I/71QnTR-W8HL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/717Uo50CiAL._SX700_.jpg",
@@ -40012,8 +40012,8 @@ var ZAPATOS = [
   "marca": "FitFlop",
   "nombre": "FitFlop Platfforms Espadrille Fisherman Wedge Sandals — Cappuccino",
   "genero": "Mujer",
-  "precio": 101.0,
-  "precio_c": 3714,
+  "precio": 94.0,
+  "precio_c": 3457,
   "fotos": [
    "https://m.media-amazon.com/images/I/81OhqWrfMTL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71qssud67jL._SX700_.jpg",
@@ -40953,8 +40953,8 @@ var ZAPATOS = [
   "marca": "Amie Rafa",
   "nombre": "Amie Rafa Cece Thong Sandals — Bone",
   "genero": "Mujer",
-  "precio": 72.55,
-  "precio_c": 2668,
+  "precio": 58.65,
+  "precio_c": 2157,
   "fotos": [
    "https://m.media-amazon.com/images/I/61xzOFb8EsL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61xzOFb8EsL._SX700_.jpg",
@@ -43588,31 +43588,6 @@ var ZAPATOS = [
    "8.5",
    "9.5",
    "10"
-  ],
-  "categoria": "Deportivos"
- },
- {
-  "codigo": "DOM-13699",
-  "marca": "Reebok",
-  "nombre": "Energen Run 4 Running Shoes — Digital Gleam / Twilight Purple / White",
-  "genero": "Mujer",
-  "precio": 47.99,
-  "precio_c": 1765,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209950_SLC_eCom.jpg?v=1767887576",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209950_TPP_eCom.jpg?v=1767887576",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209950_BLT_eCom.jpg?v=1767887576",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100209950_FLT_eCom.jpg?v=1767887576"
-  ],
-  "descripcion": "Zapatillas de running para mujer, con amortiguación suave y parte superior transpirable para correr o caminar con comodidad. Color Digital Gleam / Twilight Purple / White.",
-  "detalles": [
-   "Amortiguación cómoda para correr o caminar a diario",
-   "Parte superior transpirable que deja respirar el pie",
-   "Suela con buen agarre en distintas superficies",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "9.5"
   ],
   "categoria": "Deportivos"
  },
@@ -48835,8 +48810,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Galaxy 8 Shoes — Night Grey/Tech Grey Metallic/Screaming Green (Toddler)",
   "genero": "Niños",
-  "precio": 48.02,
-  "precio_c": 1766,
+  "precio": 41.5,
+  "precio_c": 1526,
   "fotos": [
    "https://m.media-amazon.com/images/I/71PxjOf0VXL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71rsu2pA-VL._SX700_.jpg",
@@ -50218,8 +50193,8 @@ var ZAPATOS = [
   "marca": "SKECHERS",
   "nombre": "SKECHERS Twinkle Sparks, Lighted 314475L — Pink/Multi (Toddler)",
   "genero": "Niños",
-  "precio": 46.71,
-  "precio_c": 1718,
+  "precio": 42.79,
+  "precio_c": 1574,
   "fotos": [
    "https://m.media-amazon.com/images/I/71WtXPAPecL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71r7GMVKj1L._SX700_.jpg",
@@ -53403,8 +53378,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Future Play Firm, Artificial Ground Soccer Cleats (Big Kid) — Poison Rosa / Sol Stream / Brillante Aqua / Blanco",
   "genero": "Niños",
-  "precio": 58.92,
-  "precio_c": 2167,
+  "precio": 52.0,
+  "precio_c": 1912,
   "fotos": [
    "https://m.media-amazon.com/images/I/71CVq+y24vL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71bkjn8QPGL._AC_SY625_.jpg",
@@ -54463,8 +54438,8 @@ var ZAPATOS = [
   "marca": "Mia",
   "nombre": "Mia Nikka (Big Kid) — Blanco / Negro",
   "genero": "Niños",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 37.97,
+  "precio_c": 1396,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NTi9WtbEL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71nSM7-CgCL._AC_SY625_.jpg",
@@ -55190,8 +55165,8 @@ var ZAPATOS = [
   "marca": "Sperry",
   "nombre": "Sperry Bahama Mary Jane (Big Kid) — Medianoche Azul",
   "genero": "Niños",
-  "precio": 32.97,
-  "precio_c": 1212,
+  "precio": 28.38,
+  "precio_c": 1044,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ZNOYi3nOL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71WbzWovYpL._AC_SY625_.jpg",
@@ -55331,8 +55306,8 @@ var ZAPATOS = [
   "marca": "Mia",
   "nombre": "Mia Salae (Big Kid) — Cognac",
   "genero": "Niños",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 37.97,
+  "precio_c": 1396,
   "fotos": [
    "https://m.media-amazon.com/images/I/71BwzvEUELL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/717-IMHoL0L._AC_SY625_.jpg",
@@ -55415,8 +55390,8 @@ var ZAPATOS = [
   "marca": "Bearpaw",
   "nombre": "Bearpaw Snuggle Martis (Big Kid) — Avena",
   "genero": "Niños",
-  "precio": 35.99,
-  "precio_c": 1323,
+  "precio": 30.79,
+  "precio_c": 1132,
   "fotos": [
    "https://m.media-amazon.com/images/I/71j9nu-VdpL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71QCmhO5lPL._AC_SY625_.jpg",
@@ -55581,8 +55556,8 @@ var ZAPATOS = [
   "marca": "Merrell",
   "nombre": "Merrell Hut Ultra (Big Kid) — Azul / Azul Marino",
   "genero": "Niños",
-  "precio": 39.0,
-  "precio_c": 1434,
+  "precio": 33.2,
+  "precio_c": 1221,
   "fotos": [
    "https://m.media-amazon.com/images/I/71JcmpiNsRL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71Xrnxc6dSL._AC_SY625_.jpg",
@@ -55638,8 +55613,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Classic Sandal V2 (Big Kid) — Rosa Leche / Brillo",
   "genero": "Niños",
-  "precio": 36.95,
-  "precio_c": 1359,
+  "precio": 29.95,
+  "precio_c": 1101,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ZaXQvPi6L._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/712LEt025jL._AC_SY625_.jpg",
@@ -55695,8 +55670,8 @@ var ZAPATOS = [
   "marca": "Keen",
   "nombre": "Keen Seacamp II CNX (Big Kid) — Coronet Azul / Rosa Fuerte",
   "genero": "Niños",
-  "precio": 63.95,
-  "precio_c": 2352,
+  "precio": 60.15,
+  "precio_c": 2212,
   "fotos": [
    "https://m.media-amazon.com/images/I/719R0iIM0gL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/61S-rfasCFL._AC_SY625_.jpg",
@@ -56704,8 +56679,8 @@ var ZAPATOS = [
   "marca": "Toms",
   "nombre": "Toms Diana (Big Kid) — Rosa",
   "genero": "Niños",
-  "precio": 35.0,
-  "precio_c": 1287,
+  "precio": 31.0,
+  "precio_c": 1140,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Cnc1CjCrL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/81O12+SDmKL._AC_SY625_.jpg",
@@ -56758,8 +56733,8 @@ var ZAPATOS = [
   "marca": "Dr. Martens",
   "nombre": "Dr. Martens Klaire Y (Big Kid) — Pálido Rosa Athena",
   "genero": "Niños",
-  "precio": 41.5,
-  "precio_c": 1526,
+  "precio": 34.5,
+  "precio_c": 1269,
   "fotos": [
    "https://m.media-amazon.com/images/I/61QcM6hqW8L._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/61O9u3ANRDL._AC_SY625_.jpg",
@@ -56837,8 +56812,8 @@ var ZAPATOS = [
   "marca": "Kurt Geiger",
   "nombre": "Kurt Geiger Orson Fringe (Big Kid) — Multicolor",
   "genero": "Niños",
-  "precio": 44.5,
-  "precio_c": 1636,
+  "precio": 37.6,
+  "precio_c": 1383,
   "fotos": [
    "https://m.media-amazon.com/images/I/81fnvkEa1fL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/8158yr8JtML._AC_SY625_.jpg",
@@ -56864,8 +56839,8 @@ var ZAPATOS = [
   "marca": "Mini Melissa",
   "nombre": "Mini Melissa Mar Sandals + Disney (Big Kid) — Brillo Transparente / Blanco",
   "genero": "Niños",
-  "precio": 44.5,
-  "precio_c": 1636,
+  "precio": 37.6,
+  "precio_c": 1383,
   "fotos": [
    "https://m.media-amazon.com/images/I/61YbaxmAewL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/61tY6UV6fyL._AC_SY625_.jpg",
@@ -56943,8 +56918,8 @@ var ZAPATOS = [
   "marca": "Kurt Geiger",
   "nombre": "Kurt Geiger Mini Fringe Sandals (Big Kid) — Multicolor",
   "genero": "Niños",
-  "precio": 44.5,
-  "precio_c": 1636,
+  "precio": 37.6,
+  "precio_c": 1383,
   "fotos": [
    "https://m.media-amazon.com/images/I/71pnNTcNqgL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/718+CKpxI0L._AC_SY625_.jpg",
@@ -56996,8 +56971,8 @@ var ZAPATOS = [
   "marca": "Dr. Martens",
   "nombre": "Dr. Martens Klaire J (Big Kid) — Pálido Rosa Athena",
   "genero": "Niños",
-  "precio": 40.0,
-  "precio_c": 1471,
+  "precio": 34.0,
+  "precio_c": 1250,
   "fotos": [
    "https://m.media-amazon.com/images/I/712mHfyxrBL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71HjOLiCyjL._AC_SY625_.jpg",
@@ -57022,8 +56997,8 @@ var ZAPATOS = [
   "marca": "Kurt Geiger",
   "nombre": "Kurt Geiger Mini Kensington Espadrille (Big Kid) — Pastel",
   "genero": "Niños",
-  "precio": 42.5,
-  "precio_c": 1563,
+  "precio": 39.25,
+  "precio_c": 1443,
   "fotos": [
    "https://m.media-amazon.com/images/I/81n3yXBiNeL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71JJ8lEMwVL._AC_SY625_.jpg",
@@ -57129,8 +57104,8 @@ var ZAPATOS = [
   "marca": "Mini Melissa",
   "nombre": "Mini Melissa Aranha 79 II (Big Kid) — Beige Brillo",
   "genero": "Niños",
-  "precio": 58.3,
-  "precio_c": 2144,
+  "precio": 52.78,
+  "precio_c": 1941,
   "fotos": [
    "https://m.media-amazon.com/images/I/81uJPIm9hZL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/81ICFKAe0FL._AC_SY625_.jpg",
@@ -57370,8 +57345,8 @@ var ZAPATOS = [
   "marca": "Kurt Geiger",
   "nombre": "Kurt Geiger Mini Orson Hearts (Big Kid) — Dorado",
   "genero": "Niños",
-  "precio": 65.3,
-  "precio_c": 2401,
+  "precio": 57.4,
+  "precio_c": 2111,
   "fotos": [
    "https://m.media-amazon.com/images/I/812teUyR1iL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/818zQkSLp9L._AC_SY625_.jpg",
@@ -57591,8 +57566,8 @@ var ZAPATOS = [
   "marca": "Nina",
   "nombre": "Nina Mercy (Big Kid) — Blanco",
   "genero": "Niños",
-  "precio": 54.99,
-  "precio_c": 2022,
+  "precio": 44.99,
+  "precio_c": 1654,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Rpk46lXvL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71Vnfx--+EL._AC_SY625_.jpg",
@@ -57806,8 +57781,8 @@ var ZAPATOS = [
   "marca": "Nina",
   "nombre": "Nina Mila (Big Kid) — Blanco Charol",
   "genero": "Niños",
-  "precio": 53.99,
-  "precio_c": 1985,
+  "precio": 48.49,
+  "precio_c": 1783,
   "fotos": [
    "https://m.media-amazon.com/images/I/61+whPIGcTL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/61ip4fGVvoL._AC_SY625_.jpg",
@@ -58022,8 +57997,8 @@ var ZAPATOS = [
   "marca": "Sam Edelman",
   "nombre": "Sam Edelman Maeve Michela (Big Kid) — Dorado 1",
   "genero": "Niños",
-  "precio": 54.99,
-  "precio_c": 2022,
+  "precio": 58.0,
+  "precio_c": 2133,
   "fotos": [
    "https://m.media-amazon.com/images/I/81m7BOGnzDL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/81Q0jSD-B7L._AC_SY625_.jpg",
@@ -58208,8 +58183,8 @@ var ZAPATOS = [
   "marca": "Dr. Martens",
   "nombre": "Dr. Martens Maccy II J (Big Kid) — Negro Charol",
   "genero": "Niños",
-  "precio": 70.0,
-  "precio_c": 2574,
+  "precio": 62.5,
+  "precio_c": 2298,
   "fotos": [
    "https://m.media-amazon.com/images/I/61eN-ZXvbpL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/61hUqOJG1HL._AC_SY625_.jpg",
@@ -58261,8 +58236,8 @@ var ZAPATOS = [
   "marca": "Mini Melissa",
   "nombre": "Mini Melissa Campana Papel (Big Kid) — Rosa Brillo",
   "genero": "Niños",
-  "precio": 41.6,
-  "precio_c": 1530,
+  "precio": 33.7,
+  "precio_c": 1239,
   "fotos": [
    "https://m.media-amazon.com/images/I/71JgWx-xUBL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71ntX4t2HxL._AC_SY625_.jpg",
@@ -58660,8 +58635,8 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Prodigy Driver Sparkle (Big Kid) — Rosa Sparkle",
   "genero": "Niños",
-  "precio": 31.0,
-  "precio_c": 1140,
+  "precio": 28.0,
+  "precio_c": 1030,
   "fotos": [
    "https://m.media-amazon.com/images/I/71DQv87u4+L._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71rC4rh270L._AC_SY625_.jpg",
@@ -58686,8 +58661,8 @@ var ZAPATOS = [
   "marca": "Hunter",
   "nombre": "Hunter Codys (Big Kid) — Plateado Metálico",
   "genero": "Niños",
-  "precio": 86.5,
-  "precio_c": 3181,
+  "precio": 69.5,
+  "precio_c": 2556,
   "fotos": [
    "https://m.media-amazon.com/images/I/6121kMs0O2L._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71ZzJ3L1vIL._AC_SY625_.jpg",
@@ -58800,8 +58775,8 @@ var ZAPATOS = [
   "marca": "Toms",
   "nombre": "Toms Valencia (Big Kid) — Negro",
   "genero": "Niños",
-  "precio": 43.0,
-  "precio_c": 1581,
+  "precio": 37.5,
+  "precio_c": 1379,
   "fotos": [
    "https://m.media-amazon.com/images/I/71S0DwIiO4L._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/715gcj+iw-L._AC_SY625_.jpg",
@@ -58862,8 +58837,8 @@ var ZAPATOS = [
   "marca": "Toms",
   "nombre": "Toms Carolina Lace-Up (Big Kid) — Medium Rosa",
   "genero": "Niños",
-  "precio": 48.5,
-  "precio_c": 1784,
+  "precio": 43.0,
+  "precio_c": 1581,
   "fotos": [
    "https://m.media-amazon.com/images/I/71j5CeXlqQL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/81SjsJOtQYL._AC_SY625_.jpg",
@@ -58893,8 +58868,8 @@ var ZAPATOS = [
   "marca": "Toms",
   "nombre": "Toms Alpargata (Big Kid) — Oscuro Marrón",
   "genero": "Niños",
-  "precio": 42.0,
-  "precio_c": 1545,
+  "precio": 38.0,
+  "precio_c": 1397,
   "fotos": [
    "https://m.media-amazon.com/images/I/81oy8RBeM4L._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/71p-266IO9L._AC_SY625_.jpg",
@@ -60372,5 +60347,42 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-14232",
+  "marca": "Reebok",
+  "nombre": "Cityride 2 Running Shoes — Chalk / Gentle Peach / Linen",
+  "genero": "Mujer",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263381_SLC_eCom.jpg?v=1784815082",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263381_TPP_eCom.jpg?v=1784815082",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263381_BLT_eCom.jpg?v=1784815082",
+   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263381_FLT_eCom.jpg?v=1784815082"
+  ],
+  "descripcion": "Zapatillas de running para mujer, con amortiguación suave y parte superior transpirable para correr o caminar con comodidad. Color Chalk / Gentle Peach / Linen.",
+  "detalles": [
+   "Amortiguación cómoda para correr o caminar a diario",
+   "Parte superior transpirable que deja respirar el pie",
+   "Suela con buen agarre en distintas superficies",
+   "Cierre con cordones para un ajuste seguro"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Deportivos"
  }
 ];
