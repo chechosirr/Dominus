@@ -10913,12 +10913,104 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance 480 — White / Pink"
  },
  {
+  "codigo": "DOM-12377",
+  "nombre": "PUMA FlexFocus Lite Modern Running Shoes"
+ },
+ {
+  "codigo": "DOM-12378",
+  "nombre": "diadora Equipe Nucleo Running Shoes"
+ },
+ {
+  "codigo": "DOM-12379",
+  "nombre": "diadora Mythos Blushield Volo 3 Running Shoes"
+ },
+ {
   "codigo": "DOM-1238",
   "nombre": "New Balance 9060 (Grade School) — White/Pink"
  },
  {
+  "codigo": "DOM-12380",
+  "nombre": "diadora Equipe Nucleo Running Shoes"
+ },
+ {
+  "codigo": "DOM-12381",
+  "nombre": "diadora Mythos Blushield Vigore 2 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12382",
+  "nombre": "diadora Mythos Blushield Volo 4 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12383",
+  "nombre": "diadora Mythos Blushield Volo 4 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12384",
+  "nombre": "NEW BALANCE FRESH FOAM ARISHI V4 RUNNING SHOE"
+ },
+ {
+  "codigo": "DOM-12385",
+  "nombre": "SAUCONY Grid Ride Millennium Mens Running Shoes (Fern/White)"
+ },
+ {
+  "codigo": "DOM-12386",
+  "nombre": "2055 adidas Runfalcon 5 Wide Running Shoes"
+ },
+ {
+  "codigo": "DOM-12387",
+  "nombre": "ASICS GEL-VENTURE 10 RUNNING SHOE"
+ },
+ {
+  "codigo": "DOM-12388",
+  "nombre": "2055 adidas Runfalcon 5 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12389",
+  "nombre": "Nike Basketball G.T. Cut Academy"
+ },
+ {
   "codigo": "DOM-1239",
   "nombre": "New Balance 1906 (Grade School) — Phantom"
+ },
+ {
+  "codigo": "DOM-12390",
+  "nombre": "ASICS VERSABLAST 4 RUNNING SHOE"
+ },
+ {
+  "codigo": "DOM-12391",
+  "nombre": "2055 adidas Runfalcon 5 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12392",
+  "nombre": "ASICS VERSABLAST 4 RUNNING SHOE"
+ },
+ {
+  "codigo": "DOM-12393",
+  "nombre": "ADIDAS RUNFALCON 5.0 RUNNING SHOE"
+ },
+ {
+  "codigo": "DOM-12394",
+  "nombre": "JORDAN Trunner Flow Mens Running Shoes (White/Black/Metallic Silver/White)"
+ },
+ {
+  "codigo": "DOM-12395",
+  "nombre": "adidas Basketball Legends Low Basketball Shoes"
+ },
+ {
+  "codigo": "DOM-12396",
+  "nombre": "ADIDAS RUNFALCON 5.0 RUNNING SHOE"
+ },
+ {
+  "codigo": "DOM-12397",
+  "nombre": "2055 adidas Galaxy 7 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12398",
+  "nombre": "ADIDAS Response Pace Mens Running Shoes (Core Black/Cloud White/Matte Silver)"
+ },
+ {
+  "codigo": "DOM-12399",
+  "nombre": "2718 Skechers GO Golf Flight 214131-WGY Sneakers Men's White Spikeless Shoes"
  },
  {
   "codigo": "DOM-124",
@@ -10929,40 +11021,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Jordan Air Jordan 14 Retro (Toddler) — Black/White/University Blue"
  },
  {
+  "codigo": "DOM-12400",
+  "nombre": "2055 adidas Runfalcon 6 CLOUDFOAM Running Shoes"
+ },
+ {
+  "codigo": "DOM-12401",
+  "nombre": "PUMA Voltaic Evo Cross Training Shoes"
+ },
+ {
+  "codigo": "DOM-12402",
+  "nombre": "2718 Puma Maxima Pro 313313-08 Sneakers Men's Alpine White Running Shoes"
+ },
+ {
+  "codigo": "DOM-12403",
+  "nombre": "NIKE ACG PEGASUS TRAIL"
+ },
+ {
+  "codigo": "DOM-12404",
+  "nombre": "Nike Air Trainer Huarache"
+ },
+ {
+  "codigo": "DOM-12405",
+  "nombre": "Crocs Quick Trail Racer SE - Moonlight/Sky Ice"
+ },
+ {
+  "codigo": "DOM-12406",
+  "nombre": "Nike ACG Pegasus Trail"
+ },
+ {
+  "codigo": "DOM-12407",
+  "nombre": "ADIDAS DND BW RUN HARLEM'S BEST"
+ },
+ {
+  "codigo": "DOM-12408",
+  "nombre": "NIKE ACG ULTRAFLY TRAIL"
+ },
+ {
+  "codigo": "DOM-12409",
+  "nombre": "CONVERSE RUN STAR CRUSH PONY HAIR - INCENSED"
+ },
+ {
   "codigo": "DOM-1241",
   "nombre": "adidas Samba OG Elastic Lace (Preschool) — Night Indigo/Warm Vanilla/Gum"
+ },
+ {
+  "codigo": "DOM-12410",
+  "nombre": "Reebok Club C Golf (Chalk/Green)"
+ },
+ {
+  "codigo": "DOM-12411",
+  "nombre": "Skechers Slip-ins Relaxed Fit Melson Edrick Moc Toe Casual Shoes"
+ },
+ {
+  "codigo": "DOM-12412",
+  "nombre": "2244 Leather Dress Loafers In Black"
+ },
+ {
+  "codigo": "DOM-12413",
+  "nombre": "Skechers Slip-ins Meroe Dayton Moc Toe Slip On Shoes"
+ },
+ {
+  "codigo": "DOM-12414",
+  "nombre": "VANCE CO SERGIO VENETIAN DRIVING LOAFER"
+ },
+ {
+  "codigo": "DOM-12415",
+  "nombre": "VANCE CO SERGIO VENETIAN DRIVING LOAFER"
+ },
+ {
+  "codigo": "DOM-12416",
+  "nombre": "VANCE CO YATES PENNY LOAFER"
+ },
+ {
+  "codigo": "DOM-12417",
+  "nombre": "VANCE CO YATES PENNY LOAFER - WIDE"
+ },
+ {
+  "codigo": "DOM-12418",
+  "nombre": "Johnston & Murphy Upton One-Piece Perforated Oxford Shoes"
+ },
+ {
+  "codigo": "DOM-12419",
+  "nombre": "DEER STAGS BELMONT OXFORD"
  },
  {
   "codigo": "DOM-1242",
   "nombre": "Jordan 6 Rings (Toddler) — White/Black/Gym Red"
  },
  {
+  "codigo": "DOM-12420",
+  "nombre": "Stacy Adams Phineas Plain Toe Lace Up Oxford Shoes"
+ },
+ {
+  "codigo": "DOM-12421",
+  "nombre": "DEER STAGS LISBON OXFORD"
+ },
+ {
+  "codigo": "DOM-12422",
+  "nombre": "Stacy Adams Sync Plain Toe Elastic Lace Up Oxford Shoes"
+ },
+ {
+  "codigo": "DOM-12423",
+  "nombre": "Clarks Wallabee - Beeswax"
+ },
+ {
+  "codigo": "DOM-12424",
+  "nombre": "Clarks Wallabee - Black Leather"
+ },
+ {
+  "codigo": "DOM-12425",
+  "nombre": "2932 Men’s Genuine Sheepskin Moccasin Winter Slippers - Flint"
+ },
+ {
+  "codigo": "DOM-12426",
+  "nombre": "2000 Hugo Boss Sienne Suede Loafer"
+ },
+ {
+  "codigo": "DOM-12427",
+  "nombre": "2000 Hugo Boss Colby Leather Derby"
+ },
+ {
+  "codigo": "DOM-12428",
+  "nombre": "2000 Hugo Boss Limber Suede Loafer"
+ },
+ {
+  "codigo": "DOM-12429",
+  "nombre": "2000 Hugo Boss Tayil Leather Loafer"
+ },
+ {
   "codigo": "DOM-1243",
   "nombre": "Converse Chuck Taylor All Star Eva Lift (Youth) — Little Butter/Donut Glaze/White"
+ },
+ {
+  "codigo": "DOM-12430",
+  "nombre": "2000 Hugo Boss Leather Driver"
+ },
+ {
+  "codigo": "DOM-12431",
+  "nombre": "2000 Ferragamo Fedro Leather Loafer"
+ },
+ {
+  "codigo": "DOM-12432",
+  "nombre": "Johnston & Murphy McGuffey Oxford Shoes"
+ },
+ {
+  "codigo": "DOM-12433",
+  "nombre": "Clarks Wallabee Moccasin Slip On"
+ },
+ {
+  "codigo": "DOM-12434",
+  "nombre": "Florsheim Work Loedin Oxford Slip Resistant Steel Toe Work Shoes"
+ },
+ {
+  "codigo": "DOM-12435",
+  "nombre": "Frye Chris Venetian Loafers"
+ },
+ {
+  "codigo": "DOM-12436",
+  "nombre": "Cole Haan Tucker Venetian"
+ },
+ {
+  "codigo": "DOM-12437",
+  "nombre": "A.Veer Rowan Derby"
+ },
+ {
+  "codigo": "DOM-12438",
+  "nombre": "A.Veer Maddox Cap-Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12439",
+  "nombre": "Johnston & Murphy Harrison Penny"
  },
  {
   "codigo": "DOM-1244",
   "nombre": "Nike V5 RNR (Big Kid) — Black/Anthracite/Black"
  },
  {
+  "codigo": "DOM-12440",
+  "nombre": "Clarks Brantin Loafer"
+ },
+ {
+  "codigo": "DOM-12441",
+  "nombre": "Cole Haan Bedford Penny Loafers"
+ },
+ {
+  "codigo": "DOM-12442",
+  "nombre": "Florsheim Midtown Moc Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12443",
+  "nombre": "Florsheim Midtown Moc Toe Slip-On"
+ },
+ {
+  "codigo": "DOM-12444",
+  "nombre": "Cole Haan Originalgrand Remastered Stitchlite Oxford"
+ },
+ {
+  "codigo": "DOM-12445",
+  "nombre": "Florsheim Vibe Canvas Plain Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12446",
+  "nombre": "Johnston & Murphy Burke Venetian Loafer"
+ },
+ {
+  "codigo": "DOM-12447",
+  "nombre": "A.Veer Nero Cap-Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12448",
+  "nombre": "DOCKERS EMIL CASUAL OXFORD"
+ },
+ {
+  "codigo": "DOM-12449",
+  "nombre": "Marc Joseph New York Baker Street Oxford (Hands Free Technology)"
+ },
+ {
   "codigo": "DOM-1245",
   "nombre": "Nike P-6000 (Big Kid) — Off White/Peony/Smoke Grey/Off White"
+ },
+ {
+  "codigo": "DOM-12450",
+  "nombre": "NUNN BUSH GATES MOC TOE OXFORD"
+ },
+ {
+  "codigo": "DOM-12451",
+  "nombre": "DR. SCHOLL'S SYNC FLEX OXFORD"
+ },
+ {
+  "codigo": "DOM-12452",
+  "nombre": "Stacy Adams Alexander Plain Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12453",
+  "nombre": "DR. SCHOLL'S SYNC FLEX OXFORD"
+ },
+ {
+  "codigo": "DOM-12454",
+  "nombre": "FRYE AND CO. Everett Penny"
+ },
+ {
+  "codigo": "DOM-12455",
+  "nombre": "DR. SCHOLL'S SYNC OXFORD"
+ },
+ {
+  "codigo": "DOM-12456",
+  "nombre": "Florsheim Rucci Moc Toe Penny Loafer"
+ },
+ {
+  "codigo": "DOM-12457",
+  "nombre": "CIS Elyiaa"
+ },
+ {
+  "codigo": "DOM-12458",
+  "nombre": "Call It Spring Hunny"
+ },
+ {
+  "codigo": "DOM-12459",
+  "nombre": "Call It Spring Lyza"
  },
  {
   "codigo": "DOM-1246",
   "nombre": "Jordan Air Jordan 5 Retro Halloween (Big Kid) — Black/Picante Red/Glow in the Dark"
  },
  {
+  "codigo": "DOM-12460",
+  "nombre": "CIS Tucson"
+ },
+ {
+  "codigo": "DOM-12461",
+  "nombre": "CIS Freshh_h"
+ },
+ {
+  "codigo": "DOM-12462",
+  "nombre": "CIS Dearest"
+ },
+ {
+  "codigo": "DOM-12463",
+  "nombre": "Call It Spring Missyy"
+ },
+ {
+  "codigo": "DOM-12464",
+  "nombre": "Call It Spring Duster"
+ },
+ {
+  "codigo": "DOM-12465",
+  "nombre": "Call It Spring Duster"
+ },
+ {
+  "codigo": "DOM-12466",
+  "nombre": "Call It Spring Beaa"
+ },
+ {
+  "codigo": "DOM-12467",
+  "nombre": "FitFlop Iqushion Two-Stripe Webbing Flip-Flops"
+ },
+ {
+  "codigo": "DOM-12468",
+  "nombre": "Vance Boyd"
+ },
+ {
+  "codigo": "DOM-12469",
+  "nombre": "Calvin Klein Wythe"
+ },
+ {
   "codigo": "DOM-1247",
   "nombre": "Jordan Air Jordan 4 Retro Toro Bravo (Big Kid) — Fire Red/White/Black/Cement Grey"
+ },
+ {
+  "codigo": "DOM-12470",
+  "nombre": "Dr. Scholl's Gavin"
+ },
+ {
+  "codigo": "DOM-12471",
+  "nombre": "Nike Marina"
+ },
+ {
+  "codigo": "DOM-12472",
+  "nombre": "Tommy Hilfiger Oaan"
+ },
+ {
+  "codigo": "DOM-12473",
+  "nombre": "Calvin Klein Espar"
+ },
+ {
+  "codigo": "DOM-12474",
+  "nombre": "NIKE V5 RNR"
+ },
+ {
+  "codigo": "DOM-12475",
+  "nombre": "CIS Payslee"
+ },
+ {
+  "codigo": "DOM-12476",
+  "nombre": "Anta Mens Kai Hela Style Shoes"
+ },
+ {
+  "codigo": "DOM-12477",
+  "nombre": "Puma H-Street Elastic - Inky Depths/Buttercream"
+ },
+ {
+  "codigo": "DOM-12478",
+  "nombre": "Nike Reactx Rejuven8"
+ },
+ {
+  "codigo": "DOM-12479",
+  "nombre": "CONVERSE CHUCK 70 HI - RHUBARB"
  },
  {
   "codigo": "DOM-1248",
   "nombre": "Jordan Air Jordan 9 Retro Space Jam (Big Kid) — White/True Red/Black"
  },
  {
+  "codigo": "DOM-12480",
+  "nombre": "Etnies Callicut 'Black White' Men's Shoes"
+ },
+ {
+  "codigo": "DOM-12481",
+  "nombre": "ASICS Gel-1130 Sneaker in Cream/Pink Cloud"
+ },
+ {
+  "codigo": "DOM-12482",
+  "nombre": "Unisex Vans Satin Authentic"
+ },
+ {
+  "codigo": "DOM-12483",
+  "nombre": "adidas Purechill"
+ },
+ {
+  "codigo": "DOM-12484",
+  "nombre": "Reebok Club C Grounds UK 1.0 Shoes"
+ },
+ {
+  "codigo": "DOM-12485",
+  "nombre": "Vans Unicorn Rainbow Classic Slip-On (Pink Lemonade/True White)"
+ },
+ {
+  "codigo": "DOM-12486",
+  "nombre": "adidas Purechill Shoes Color: Lucid Tangerine / Cloud White / Impact Orange Style: KH6424"
+ },
+ {
+  "codigo": "DOM-12487",
+  "nombre": "PUMA Suede Mens Lifestyle Shoes (Teal/Purple)"
+ },
+ {
+  "codigo": "DOM-12488",
+  "nombre": "PUMA ST Runner v4 Leather Lace Up Sneakers"
+ },
+ {
+  "codigo": "DOM-12489",
+  "nombre": "2244 Authentic Heritage Shoe In Bts Navy/gum"
+ },
+ {
   "codigo": "DOM-1249",
   "nombre": "Jordan Air Jordan 1 Retro High OG Royal (Big Kid) — Black/Game Royal/White"
+ },
+ {
+  "codigo": "DOM-12490",
+  "nombre": "LUGZ Cage - Mens"
+ },
+ {
+  "codigo": "DOM-12491",
+  "nombre": "Vans LX Authentic 44 'Overpaint' - Black/Black"
+ },
+ {
+  "codigo": "DOM-12492",
+  "nombre": "CONVERSE STAR PLAYER 76 \"EGRET/NAVY/BLUE\""
+ },
+ {
+  "codigo": "DOM-12493",
+  "nombre": "NIKE SB MALOR - LTKHAKI/ PALEIVORY"
+ },
+ {
+  "codigo": "DOM-12494",
+  "nombre": "CONVERSE Chuck 70 Canvas"
+ },
+ {
+  "codigo": "DOM-12495",
+  "nombre": "Nike A'ONE \"UNAPOLOGETIC\""
+ },
+ {
+  "codigo": "DOM-12496",
+  "nombre": "CIS Goldiie"
+ },
+ {
+  "codigo": "DOM-12497",
+  "nombre": "Anta Mens Kai Hela Style Shoes"
+ },
+ {
+  "codigo": "DOM-12498",
+  "nombre": "Vans Premium LX Authentic 44 Overpaint - Blanc De Blanc"
+ },
+ {
+  "codigo": "DOM-12499",
+  "nombre": "SNEEZE X REEBOK LT COURT \"VIPER GREEN\""
  },
  {
   "codigo": "DOM-125",
@@ -10973,40 +11465,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Little Posite Pro Glow in the Dark (Big Kid) — Summit White/Black"
  },
  {
+  "codigo": "DOM-12500",
+  "nombre": "Vans x Noon Goons Classic Slip-On"
+ },
+ {
+  "codigo": "DOM-12501",
+  "nombre": "Nike Sportswear ReactX Rejuven8"
+ },
+ {
+  "codigo": "DOM-12502",
+  "nombre": "Reebok Court LXS Shoes"
+ },
+ {
+  "codigo": "DOM-12503",
+  "nombre": "eS éS Contour (Black/Blue)"
+ },
+ {
+  "codigo": "DOM-12504",
+  "nombre": "REEBOK CLUB C WHITE/GREEN AR0546 100000155"
+ },
+ {
+  "codigo": "DOM-12505",
+  "nombre": "Vans OTW Authentic 44 Siped Vibram (Amphibian)"
+ },
+ {
+  "codigo": "DOM-12506",
+  "nombre": "OOG Rhinestone Runner"
+ },
+ {
+  "codigo": "DOM-12507",
+  "nombre": "adidas Top Sala Competition Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-12508",
+  "nombre": "VANS HALF CAB 33 EK LX"
+ },
+ {
+  "codigo": "DOM-12509",
+  "nombre": "Nike SB Air Max Ishod (Black/Black-Black-Black)"
+ },
+ {
   "codigo": "DOM-1251",
   "nombre": "New Balance 9060 (Big Kid) — Triple Black"
+ },
+ {
+  "codigo": "DOM-12510",
+  "nombre": "Nike Streetgato Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-12511",
+  "nombre": "Adidas Handball Top RM"
+ },
+ {
+  "codigo": "DOM-12512",
+  "nombre": "Vans OTW Era 95 Vibram - Black Patent"
+ },
+ {
+  "codigo": "DOM-12513",
+  "nombre": "Stacy Adams Vogel Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12514",
+  "nombre": "VANCE CO WARRICK WIDE WINGTIP OXFORD - WIDE"
+ },
+ {
+  "codigo": "DOM-12515",
+  "nombre": "Stacy Adams Gala Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12516",
+  "nombre": "Nunn Bush Calderone Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12517",
+  "nombre": "FLORSHEIM TUX STRAP SLIP ON"
+ },
+ {
+  "codigo": "DOM-12518",
+  "nombre": "Stacy Adams Dickinson Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12519",
+  "nombre": "Johnston & Murphy Gibbons Cap Toe"
  },
  {
   "codigo": "DOM-1252",
   "nombre": "Nike Vomero 5 (Big Kid) — Black/Black"
  },
  {
+  "codigo": "DOM-12520",
+  "nombre": "Cole Haan 2.Zerogrand Laser Wing Tip Oxford Lined"
+ },
+ {
+  "codigo": "DOM-12521",
+  "nombre": "Kenneth Cole Tully Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12522",
+  "nombre": "Carlos by Carlos Santana Jack Double Monk Strap"
+ },
+ {
+  "codigo": "DOM-12523",
+  "nombre": "Carlos by Carlos Santana Pulse Tassel Loafers"
+ },
+ {
+  "codigo": "DOM-12524",
+  "nombre": "Cole Haan Hawthorne Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12525",
+  "nombre": "Cole Haan Harmon Grand Cap Toe Oxfords"
+ },
+ {
+  "codigo": "DOM-12526",
+  "nombre": "Cole Haan Pinch Tassel"
+ },
+ {
+  "codigo": "DOM-12527",
+  "nombre": "Cole Haan Morse Grand Wingtip Oxfords"
+ },
+ {
+  "codigo": "DOM-12528",
+  "nombre": "Hi-Tec Demolisher Mid Hiking Boots"
+ },
+ {
+  "codigo": "DOM-12529",
+  "nombre": "Hi-Tec Ravus Mid Hiking Boots"
+ },
+ {
   "codigo": "DOM-1253",
   "nombre": "Jordan Spizike Low (Big Kid) — White/Black/Anthracite/Laser Fuchsia"
+ },
+ {
+  "codigo": "DOM-12530",
+  "nombre": "CIS Quinna"
+ },
+ {
+  "codigo": "DOM-12531",
+  "nombre": "NORTHSIDE HURRICANE RIDGE WATERPROOF BOOT"
+ },
+ {
+  "codigo": "DOM-12532",
+  "nombre": "Lugz Convoy 6 Inch Round Toe Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-12533",
+  "nombre": "LEE Denver - Mens"
+ },
+ {
+  "codigo": "DOM-12534",
+  "nombre": "Call It Spring Nyelle"
+ },
+ {
+  "codigo": "DOM-12535",
+  "nombre": "NORTHSIDE RANGER MID WATERPROOF HIKING BOOT"
+ },
+ {
+  "codigo": "DOM-12536",
+  "nombre": "LEE Robin - Mens"
+ },
+ {
+  "codigo": "DOM-12537",
+  "nombre": "Call It Spring Landrya"
+ },
+ {
+  "codigo": "DOM-12538",
+  "nombre": "Lugz Drifter Lo LX Round Toe Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-12539",
+  "nombre": "L.L.Bean Stonington Chelsea Boot Suede"
  },
  {
   "codigo": "DOM-1254",
   "nombre": "Jordan 6 Rings (Big Kid) — Black/Varsity Red/White"
  },
  {
+  "codigo": "DOM-12540",
+  "nombre": "Call It Spring Polarr"
+ },
+ {
+  "codigo": "DOM-12541",
+  "nombre": "SPERRY NORFOLK DUCK BOOT"
+ },
+ {
+  "codigo": "DOM-12542",
+  "nombre": "Lugz Echo Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-12543",
+  "nombre": "Call It Spring Polarr"
+ },
+ {
+  "codigo": "DOM-12544",
+  "nombre": "TIMBERLAND PARKER STREET SNEAKER BOOT"
+ },
+ {
+  "codigo": "DOM-12545",
+  "nombre": "Lugz Drifter Lo LX Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-12546",
+  "nombre": "CONVERSE Malden Street Boot - Mens"
+ },
+ {
+  "codigo": "DOM-12547",
+  "nombre": "Nunn Bush Otis 2.0 Chelsea Fashion Leather Boots"
+ },
+ {
+  "codigo": "DOM-12548",
+  "nombre": "Call It Spring Urbantrek"
+ },
+ {
+  "codigo": "DOM-12549",
+  "nombre": "TIMBERLAND PARKER STREET SNEAKER BOOT"
+ },
+ {
   "codigo": "DOM-1255",
   "nombre": "UGG Neumel II (Big Kid) — Black"
+ },
+ {
+  "codigo": "DOM-12550",
+  "nombre": "EUROSTAR Tito Wide - Mens"
+ },
+ {
+  "codigo": "DOM-12551",
+  "nombre": "Rockport Evan Waterproof Boots"
+ },
+ {
+  "codigo": "DOM-12552",
+  "nombre": "CIS Saphire"
+ },
+ {
+  "codigo": "DOM-12553",
+  "nombre": "VANCE CO STRATTON CHUKKA BOOT"
+ },
+ {
+  "codigo": "DOM-12554",
+  "nombre": "EUROSTAR Tito - Mens"
+ },
+ {
+  "codigo": "DOM-12555",
+  "nombre": "Western Chief Element Duck Camo Neoprene Classic Ankle Rain Boots"
+ },
+ {
+  "codigo": "DOM-12556",
+  "nombre": "CIS Saphire"
+ },
+ {
+  "codigo": "DOM-12557",
+  "nombre": "VANCE CO STRATTON CHUKKA BOOT"
+ },
+ {
+  "codigo": "DOM-12558",
+  "nombre": "EUROSTAR Taylor - Mens"
+ },
+ {
+  "codigo": "DOM-12559",
+  "nombre": "Western Chief 365 Neoprene Mid Cold Weather Boots"
  },
  {
   "codigo": "DOM-1256",
   "nombre": "Timberland Premium 6 Inch Waterproof (Big Kid) — Wheat"
  },
  {
+  "codigo": "DOM-12560",
+  "nombre": "CIS Izadoraa"
+ },
+ {
+  "codigo": "DOM-12561",
+  "nombre": "HEYDUDE PAUL PRO MID SNEAKER BOOT"
+ },
+ {
+  "codigo": "DOM-12562",
+  "nombre": "Muck Boot Outscape Lace Up Sneakers"
+ },
+ {
+  "codigo": "DOM-12563",
+  "nombre": "Carhartt 4\" Lightweight Wedge Boot"
+ },
+ {
+  "codigo": "DOM-12564",
+  "nombre": "Call It Spring Terrain"
+ },
+ {
+  "codigo": "DOM-12565",
+  "nombre": "SKECHERS GLIDE-STEP SOLE MID HIKING BOOT"
+ },
+ {
+  "codigo": "DOM-12566",
+  "nombre": "Nike Baltoro SP"
+ },
+ {
+  "codigo": "DOM-12567",
+  "nombre": "Converse x GOLF le FLEUR Converse Bronco Boot"
+ },
+ {
+  "codigo": "DOM-12568",
+  "nombre": "Columbia Sportswear Bugaboot 1.0 - Black/Tropical Ocean"
+ },
+ {
+  "codigo": "DOM-12569",
+  "nombre": "TIMBERLAND 6\" PREMIUM WATERPROOF BOOT (PS) - BLACK"
+ },
+ {
   "codigo": "DOM-1257",
   "nombre": "Jordan Air Jordan 1 Mid Metallic Gold (Big Kid) — Black/Gold"
+ },
+ {
+  "codigo": "DOM-12570",
+  "nombre": "Timberland® Premium 6-Inch Waterproof Boot WHEAT TB110061-713"
+ },
+ {
+  "codigo": "DOM-12571",
+  "nombre": "UGG Neumel Suede Boot Mens Boots (Chestnut Brown)"
+ },
+ {
+  "codigo": "DOM-12572",
+  "nombre": "TIMBERLAND X MLB 6\" PREMIUM BOOT 'ASTROS' - WHEAT"
+ },
+ {
+  "codigo": "DOM-12573",
+  "nombre": "Timberland x Loso Mens Field Lace Up WP Boot"
+ },
+ {
+  "codigo": "DOM-12574",
+  "nombre": "TIMBERLAND 6\" Premium WATERPROOF BOOT (PS) - WHEAT"
+ },
+ {
+  "codigo": "DOM-12575",
+  "nombre": "Nike Air Max Foamdome (Electro Purple/Black)"
+ },
+ {
+  "codigo": "DOM-12576",
+  "nombre": "Timberland Men's Textured Premium 6-Inch Boot Color: Burgundy Woven Style: TB0A6FD601W"
+ },
+ {
+  "codigo": "DOM-12577",
+  "nombre": "2000 Hugo Boss Lenner Leather Boot"
+ },
+ {
+  "codigo": "DOM-12578",
+  "nombre": "Timberland Re-Engineered Waterproof Field Boot - Wheat Nubuck"
+ },
+ {
+  "codigo": "DOM-12579",
+  "nombre": "TIMBERLAND X MLB 6\" PREMIUM BOOT 'LA DODGERS' - WHEAT"
  },
  {
   "codigo": "DOM-1258",
   "nombre": "Jordan Air Jordan 6 Retro Fearless (Big Kid) — Black/Laser Fuchsia/Pink Foam"
  },
  {
+  "codigo": "DOM-12580",
+  "nombre": "Red Wing Heritage Iron Ranger (Copper Rough and Tough)"
+ },
+ {
+  "codigo": "DOM-12581",
+  "nombre": "Timberland Mt. Maddsen Waterproof Hiking Boot"
+ },
+ {
+  "codigo": "DOM-12582",
+  "nombre": "FEATURE P404 Original Boot - Green/Brown"
+ },
+ {
+  "codigo": "DOM-12583",
+  "nombre": "THE NORTH FACE GLENCLYFFE URBAN BOOT"
+ },
+ {
+  "codigo": "DOM-12584",
+  "nombre": "Timberland Euro Hiker in Medium Grey Nubuck"
+ },
+ {
+  "codigo": "DOM-12585",
+  "nombre": "Timberland Men's Textured Premium 6-Inch Boot Color: Black Woven Style: TB0A6FD6EPV"
+ },
+ {
+  "codigo": "DOM-12586",
+  "nombre": "NIKE Air Max Goadome Low Mens Boots (Black/Anthracite)"
+ },
+ {
+  "codigo": "DOM-12587",
+  "nombre": "2000 Hugo Boss Lenner Leather Boot"
+ },
+ {
+  "codigo": "DOM-12588",
+  "nombre": "TIMBERLAND PREMIUM 6-INCH BOOT - DARK RED NUBUCK"
+ },
+ {
+  "codigo": "DOM-12589",
+  "nombre": "UGG MENS JLD Shroud Boot (Black)"
+ },
+ {
   "codigo": "DOM-1259",
   "nombre": "Jordan Air Jordan 12 Retro Bloodline (Big Kid) — Black/Varsity Red"
+ },
+ {
+  "codigo": "DOM-12590",
+  "nombre": "Timberland Mt. Maddsen Mid Lace-Up Waterproof Hiking Boot"
+ },
+ {
+  "codigo": "DOM-12591",
+  "nombre": "Timberland Mens World Hiker Gore-tex Boots"
+ },
+ {
+  "codigo": "DOM-12592",
+  "nombre": "TIMBERLAND 6\" WATERPROOF PREMIUM BOOT - BLACK"
+ },
+ {
+  "codigo": "DOM-12593",
+  "nombre": "NIKE Air Max Goadome Low Mens Boots (Taupe/Black)"
+ },
+ {
+  "codigo": "DOM-12594",
+  "nombre": "Timberland Waterproof Field Boot - Wheat"
+ },
+ {
+  "codigo": "DOM-12595",
+  "nombre": "TIMBERLAND PREMIUM 6-IN WATERPROOF BOOT - WHEAT"
+ },
+ {
+  "codigo": "DOM-12596",
+  "nombre": "Red Wing Heritage Engineer (Black Klondike)"
+ },
+ {
+  "codigo": "DOM-12597",
+  "nombre": "The North Face Nuptse Traction Chukka Boots"
+ },
+ {
+  "codigo": "DOM-12598",
+  "nombre": "Timberland Mens Premium 6 Inch Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-12599",
+  "nombre": "2000 Timberland Originals Mid-Lace Leather Boot"
  },
  {
   "codigo": "DOM-126",
@@ -11017,40 +11909,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Jordan Air Jordan 11 Retro Low University Blue (Big Kid) — White/University Blue/Black"
  },
  {
+  "codigo": "DOM-12600",
+  "nombre": "Timberland Waterproof Field Boot - Chocolate Brown"
+ },
+ {
+  "codigo": "DOM-12601",
+  "nombre": "TIMBERLAND HERITAGE MID PULL-ON BOOT - YELLOW"
+ },
+ {
+  "codigo": "DOM-12602",
+  "nombre": "Timberland Euro Hiker Boots"
+ },
+ {
+  "codigo": "DOM-12603",
+  "nombre": "Timberland Mens Premium 6 Inch Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-12604",
+  "nombre": "UGG Relaxed Boot - Black"
+ },
+ {
+  "codigo": "DOM-12605",
+  "nombre": "Nike Reactx Rejuven8 (Volt/Volt-Black)"
+ },
+ {
+  "codigo": "DOM-12606",
+  "nombre": "2055 adidas Adissage 360rec Slides"
+ },
+ {
+  "codigo": "DOM-12607",
+  "nombre": "PUMA Porsche Legacy x Leadcat 2.0 Slide Sandals"
+ },
+ {
+  "codigo": "DOM-12608",
+  "nombre": "PUMA MB.04 Slide Sandals"
+ },
+ {
+  "codigo": "DOM-12609",
+  "nombre": "PUMA Cool Cat 2.0 V Slide Sandals"
+ },
+ {
   "codigo": "DOM-1261",
   "nombre": "Nike Kobe 4 Draft Pack (Big Kid) — White/Glacier Blue/Fuchsia Glow"
+ },
+ {
+  "codigo": "DOM-12610",
+  "nombre": "PUMA Porsche Legacy x Leadcat 2.0 Slide Sandals"
+ },
+ {
+  "codigo": "DOM-12611",
+  "nombre": "adidas Purechill Slides"
+ },
+ {
+  "codigo": "DOM-12612",
+  "nombre": "adidas Purechill Slides"
+ },
+ {
+  "codigo": "DOM-12613",
+  "nombre": "Stacy Adams Montaine Perforated Slip On Clogs"
+ },
+ {
+  "codigo": "DOM-12614",
+  "nombre": "Propet Eli Strap River Sandals"
+ },
+ {
+  "codigo": "DOM-12615",
+  "nombre": "adidas Adilette Shower Slides"
+ },
+ {
+  "codigo": "DOM-12616",
+  "nombre": "Crocs Mickey Off Court Clog"
+ },
+ {
+  "codigo": "DOM-12617",
+  "nombre": "adidas Adissage Slides"
+ },
+ {
+  "codigo": "DOM-12618",
+  "nombre": "Sperry Flow Slides"
+ },
+ {
+  "codigo": "DOM-12619",
+  "nombre": "UFC UFC Octagon Slide"
  },
  {
   "codigo": "DOM-1262",
   "nombre": "Asics Gel-NYC (Big Kid) — White/Pink Cloud"
  },
  {
+  "codigo": "DOM-12620",
+  "nombre": "Lacoste Serve Slide 1.0"
+ },
+ {
+  "codigo": "DOM-12621",
+  "nombre": "Reef Reef One Slide"
+ },
+ {
+  "codigo": "DOM-12622",
+  "nombre": "adidas Adilette Lumia Slides"
+ },
+ {
+  "codigo": "DOM-12623",
+  "nombre": "Dockers Searose Fisherman Sandal"
+ },
+ {
+  "codigo": "DOM-12624",
+  "nombre": "HIGHLAND CREEK CORAL AQUA OUTDOOR SANDAL"
+ },
+ {
+  "codigo": "DOM-12625",
+  "nombre": "Reef Fanning Slide H20"
+ },
+ {
+  "codigo": "DOM-12626",
+  "nombre": "ADIDAS ADILETTE SHOWER SLIDE SANDAL"
+ },
+ {
+  "codigo": "DOM-12627",
+  "nombre": "Under Armour Ignite Pro 8 Fixed Band Slides"
+ },
+ {
+  "codigo": "DOM-12628",
+  "nombre": "HEYDUDE FINN AMERICANA FLIP FLOP SANDAL"
+ },
+ {
+  "codigo": "DOM-12629",
+  "nombre": "Dockers Shorewood Fisherman Sandal"
+ },
+ {
   "codigo": "DOM-1263",
   "nombre": "Nike Air DT Max 96 Low (Big Kid) — White/Metallic Silver"
+ },
+ {
+  "codigo": "DOM-12630",
+  "nombre": "HEYDUDE FINN FLIP FLOP SANDAL"
+ },
+ {
+  "codigo": "DOM-12631",
+  "nombre": "FitFlop Iqushion Pool Slides"
+ },
+ {
+  "codigo": "DOM-12632",
+  "nombre": "HIGHLAND CREEK TREK OUTDOOR SANDAL"
+ },
+ {
+  "codigo": "DOM-12633",
+  "nombre": "Dockers Newpage Quarter Strap Sandal"
+ },
+ {
+  "codigo": "DOM-12634",
+  "nombre": "Dockers Laguna Thong Sandal"
+ },
+ {
+  "codigo": "DOM-12635",
+  "nombre": "adidas Lightshift Slides"
+ },
+ {
+  "codigo": "DOM-12636",
+  "nombre": "Nike ReactX Rejuven8 Slides"
+ },
+ {
+  "codigo": "DOM-12637",
+  "nombre": "Crocs x Satisfy Quick Trail \"Moss\" Shoes"
+ },
+ {
+  "codigo": "DOM-12638",
+  "nombre": "FEATURE Cabana Slides - Red"
+ },
+ {
+  "codigo": "DOM-12639",
+  "nombre": "Crocs Classic Duck Camo Boat Shoe in Cargo Duck Camo"
  },
  {
   "codigo": "DOM-1264",
   "nombre": "Jordan Air Jordan 13 Retro (Big Kid) — Navy/University Blue/Flint Grey/White"
  },
  {
+  "codigo": "DOM-12640",
+  "nombre": "JORDAN FRANCHISE SLIDE SANDAL"
+ },
+ {
+  "codigo": "DOM-12641",
+  "nombre": "NIKE ReactX Rejuven8 Slide Mens Sandals (Hyper Royal/Hyper Royal/Deep Royal Blue)"
+ },
+ {
+  "codigo": "DOM-12642",
+  "nombre": "2244 Fraid Not Soft Top Flip Flops In Natural"
+ },
+ {
+  "codigo": "DOM-12643",
+  "nombre": "ADIDAS Adilette OG Comfort - Mens"
+ },
+ {
+  "codigo": "DOM-12644",
+  "nombre": "CROCS ROY ELEPHANT"
+ },
+ {
+  "codigo": "DOM-12645",
+  "nombre": "Crocs Mens ROY Clogs"
+ },
+ {
+  "codigo": "DOM-12646",
+  "nombre": "FEATURE Cabana Slides - Coffee"
+ },
+ {
+  "codigo": "DOM-12647",
+  "nombre": "Crocs Classic Duck Camo Boat Shoe in Shocking Orange Duck Camo"
+ },
+ {
+  "codigo": "DOM-12648",
+  "nombre": "ADIDAS ADIFOM IIINFINITY SLIDE SANDAL"
+ },
+ {
+  "codigo": "DOM-12649",
+  "nombre": "2055 adidas PURECHILL SLIDES"
+ },
+ {
   "codigo": "DOM-1265",
   "nombre": "Jordan Air Jordan 7 Retro Tennis Day (Big Kid) — Phantom/Lime Blast/Pink Blast/Anthracite"
+ },
+ {
+  "codigo": "DOM-12650",
+  "nombre": "JORDAN Franchise - Mens"
+ },
+ {
+  "codigo": "DOM-12651",
+  "nombre": "CROCS ROY \"NIGHTFALL\""
+ },
+ {
+  "codigo": "DOM-12652",
+  "nombre": "Nike ReactX Rejuven8 Slides"
+ },
+ {
+  "codigo": "DOM-12653",
+  "nombre": "Crocs Mens Roy Clogs"
+ },
+ {
+  "codigo": "DOM-12654",
+  "nombre": "Crocs Star Wars R2D2 Classic Clog"
+ },
+ {
+  "codigo": "DOM-12655",
+  "nombre": "CROCS CLASSIC ALL-TERRAIN CLOG"
+ },
+ {
+  "codigo": "DOM-12656",
+  "nombre": "NIKE Kobe Offcourt Slide Mens Sandals (White)"
+ },
+ {
+  "codigo": "DOM-12657",
+  "nombre": "2055 adidas ADILETTE COMFORT 2.0 SLIDES"
+ },
+ {
+  "codigo": "DOM-12658",
+  "nombre": "Lacoste Serve Slides 0.0"
+ },
+ {
+  "codigo": "DOM-12659",
+  "nombre": "Crocs Echo Wave in Army Green"
  },
  {
   "codigo": "DOM-1266",
   "nombre": "Jordan Air Jordan 3 Retro OG True Blue (Big Kid) — White/Fire Red/True Blue"
  },
  {
+  "codigo": "DOM-12660",
+  "nombre": "CROCS CLASSIC ALL-TERRAIN CLOG"
+ },
+ {
+  "codigo": "DOM-12661",
+  "nombre": "2244 Original Universal Sandal In Desert Mosaic Chocolate Brown"
+ },
+ {
+  "codigo": "DOM-12662",
+  "nombre": "THE NORTH FACE BASE CAMP THERMOBALL MULE"
+ },
+ {
+  "codigo": "DOM-12663",
+  "nombre": "Adidas Adimule (Black/Black/Gum)"
+ },
+ {
+  "codigo": "DOM-12664",
+  "nombre": "NIKE AIR MAX GOADOME LOW \"SULFUR CROC\""
+ },
+ {
+  "codigo": "DOM-12665",
+  "nombre": "NIKE AIR MAX GOADOME LOW \"BLACK CROC\""
+ },
+ {
+  "codigo": "DOM-12666",
+  "nombre": "NIKE AIR MAX GOADOME LOW \"NEO PINK CROC\""
+ },
+ {
+  "codigo": "DOM-12667",
+  "nombre": "NIKE AIR MAX GOADOME LOW \"NAVY CROC\""
+ },
+ {
+  "codigo": "DOM-12668",
+  "nombre": "Crocs Mens Classic EXP Clogs"
+ },
+ {
+  "codigo": "DOM-12669",
+  "nombre": "WALES BONNER X ADIDAS KARINTHA CROC \"DARK BROWN\""
+ },
+ {
   "codigo": "DOM-1267",
   "nombre": "New Balance Made in USA 992 (Big Kid) — Grey"
+ },
+ {
+  "codigo": "DOM-12670",
+  "nombre": "WALES BONNER X ADIDAS GAZELLE SUEDE CROC \"GREEN NIGHT\""
+ },
+ {
+  "codigo": "DOM-12671",
+  "nombre": "Crocs x Brain Dead Mens Echo II Clogs"
+ },
+ {
+  "codigo": "DOM-12672",
+  "nombre": "FEAR OF GOD BACKLESS MULE - TAUPE"
+ },
+ {
+  "codigo": "DOM-12673",
+  "nombre": "Crocs Mens Ripple Sandal"
+ },
+ {
+  "codigo": "DOM-12674",
+  "nombre": "Crocs x Chito Mens Crafted Clog"
+ },
+ {
+  "codigo": "DOM-12675",
+  "nombre": "PUMA Rapido III Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12676",
+  "nombre": "PUMA Vitoria II Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12677",
+  "nombre": "PUMA Ultra Play Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12678",
+  "nombre": "PUMA Ultra Play Firm Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12679",
+  "nombre": "PUMA Vitoria II Soccer Cleats"
  },
  {
   "codigo": "DOM-1268",
   "nombre": "Jordan Air Jordan 3 Retro x Levi's (Big Kid) — Indigo and Gym Red"
  },
  {
+  "codigo": "DOM-12680",
+  "nombre": "PUMA Ultra 5 Play Firm Ground/Artificial Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12681",
+  "nombre": "PUMA Future 8 Play Indoor Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-12682",
+  "nombre": "PUMA Future 8 Play Turf Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-12683",
+  "nombre": "diadora Pichichi 7 TFR Turf Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12684",
+  "nombre": "PUMA Ultra 6 Match Turf Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12685",
+  "nombre": "PUMA King 21 Indoor Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-12686",
+  "nombre": "PUMA Vitoria II Turf Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-12687",
+  "nombre": "adidas Copa Gloro 2 Turf Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-12688",
+  "nombre": "PUMA Ultra 5 Match Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12689",
+  "nombre": "adidas Predator Club Firm/multi-Ground Soccer Cleats"
+ },
+ {
   "codigo": "DOM-1269",
   "nombre": "Jordan Air Jordan 8 Retro Chrome (Big Kid) — Black"
+ },
+ {
+  "codigo": "DOM-12690",
+  "nombre": "PUMA Ultra 5 Match Forever Firm/Artifical Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-12691",
+  "nombre": "PUMA King 21 Indoor Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-12692",
+  "nombre": "adidas F50 Club Indoor Boots"
+ },
+ {
+  "codigo": "DOM-12693",
+  "nombre": "adidas Copa Pure 3 Club Firm/multi-Ground Boots"
+ },
+ {
+  "codigo": "DOM-12694",
+  "nombre": "adidas F50 Sparkfusion Club FG/AG"
+ },
+ {
+  "codigo": "DOM-12695",
+  "nombre": "2718 PUMA Attacanto IT 107479-01 Men's Black Silver Indoor Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-12696",
+  "nombre": "ADIDAS Predator Club FxG - Mens"
+ },
+ {
+  "codigo": "DOM-12697",
+  "nombre": "Nike Phantom 6 High Club FG/MG"
+ },
+ {
+  "codigo": "DOM-12698",
+  "nombre": "2718 Nike Force Trout 9 Elite MCS FZ0884-102 Mens White Silver Baseball Cleats"
+ },
+ {
+  "codigo": "DOM-12699",
+  "nombre": "Nike Air Zoom Mercurial Superfly XI Club FG/MG"
  },
  {
   "codigo": "DOM-127",
@@ -11061,44 +12353,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Air Max 270 (Big Kid) — Black/Black/Black"
  },
  {
+  "codigo": "DOM-12700",
+  "nombre": "NIKE Air Max 90 Tiempo Mens Running Shoes (Black/White/Black/Voltage Green)"
+ },
+ {
+  "codigo": "DOM-12701",
+  "nombre": "adidas Copa Premiere Shoes"
+ },
+ {
+  "codigo": "DOM-12702",
+  "nombre": "ADIDAS Predator Club FT FG/MG - Mens"
+ },
+ {
+  "codigo": "DOM-12703",
+  "nombre": "New Balance Furon V8 Team FG"
+ },
+ {
+  "codigo": "DOM-12704",
+  "nombre": "adidas Predator Sala Shoes"
+ },
+ {
+  "codigo": "DOM-12705",
+  "nombre": "Puma Ultra 6 Match FG/AG"
+ },
+ {
+  "codigo": "DOM-12706",
+  "nombre": "adidas Predator Sala Shoes"
+ },
+ {
+  "codigo": "DOM-12707",
+  "nombre": "NIKE Tiempo Maestro 10 Club FG/MG - Mens"
+ },
+ {
+  "codigo": "DOM-12708",
+  "nombre": "Nike Tiempo Legend 10 Academy Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-12709",
+  "nombre": "ADIDAS X COCA COLA PREDATOR SALA \"SILVER\""
+ },
+ {
   "codigo": "DOM-1271",
   "nombre": "Nike V5 RNR (Big Kid) — Off-White/Vast Grey/Silver Lilac/Metallic Silver"
+ },
+ {
+  "codigo": "DOM-12710",
+  "nombre": "Nike Tiempo Streetgato Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-12711",
+  "nombre": "Nike Mercurial Vapor 16 Academy Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-12712",
+  "nombre": "ADIDAS PREDATOR SALA - BEIGE / TEAM VICTORY RED"
+ },
+ {
+  "codigo": "DOM-12713",
+  "nombre": "ADIDAS TERREX ROCKADIA TRAIL RUNNING SHOE"
+ },
+ {
+  "codigo": "DOM-12714",
+  "nombre": "DEER STAGS LISBON OXFORD"
+ },
+ {
+  "codigo": "DOM-12715",
+  "nombre": "Stacy Adams Phineas Plain Toe Lace Up Oxford Shoes"
+ },
+ {
+  "codigo": "DOM-12716",
+  "nombre": "Nunn Bush Brewski Canvas Moccasin Toe Venetian Slip-On"
+ },
+ {
+  "codigo": "DOM-12717",
+  "nombre": "FRANCO FORTINI PENNY LOAFER"
+ },
+ {
+  "codigo": "DOM-12718",
+  "nombre": "Stacy Adams Sync Plain Toe Elastic Lace Up Oxford Shoes"
+ },
+ {
+  "codigo": "DOM-12719",
+  "nombre": "Nunn Bush Kore City Walk EZ Moccasin Toe Lace-Up Lightweight Easy-On Easy-Off Oxford"
  },
  {
   "codigo": "DOM-1272",
   "nombre": "New Balance 2010 (Big Kid) — Navy"
  },
  {
+  "codigo": "DOM-12720",
+  "nombre": "FRANCO FORTINI PENNY LOAFER"
+ },
+ {
+  "codigo": "DOM-12721",
+  "nombre": "Stacy Adams Alexander Plain Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12722",
+  "nombre": "Florsheim Launch Plain Toe Oxford"
+ },
+ {
   "codigo": "DOM-12723",
   "nombre": "CLARKS BRANTIN PLAIN TOE OXFORD"
+ },
+ {
+  "codigo": "DOM-12724",
+  "nombre": "Sperry Ao Venetian"
+ },
+ {
+  "codigo": "DOM-12725",
+  "nombre": "CLARKS SHACRE II RUN MOC TOE LOAFER"
+ },
+ {
+  "codigo": "DOM-12726",
+  "nombre": "CLARKS WALLASTON LOW OXFORD"
+ },
+ {
+  "codigo": "DOM-12727",
+  "nombre": "A.Veer Mason Penny Loafers"
+ },
+ {
+  "codigo": "DOM-12728",
+  "nombre": "COLE HAAN GRAND+ VENETIAN LOAFER"
+ },
+ {
+  "codigo": "DOM-12729",
+  "nombre": "Cole Haan Pinch Prep Penny Loafer"
  },
  {
   "codigo": "DOM-1273",
   "nombre": "New Balance 9060 (Big Kid) — Black/Silver"
  },
  {
+  "codigo": "DOM-12730",
+  "nombre": "COLE HAAN GRAND+ VENETIAN LOAFER"
+ },
+ {
+  "codigo": "DOM-12731",
+  "nombre": "DR. SCHOLL'S ASHTON OXFORD"
+ },
+ {
+  "codigo": "DOM-12732",
+  "nombre": "NUNN BUSH GRIFF PLAIN TOE OXFORD"
+ },
+ {
+  "codigo": "DOM-12733",
+  "nombre": "Tommy Hilfiger Trory"
+ },
+ {
+  "codigo": "DOM-12734",
+  "nombre": "Steve Madden Alden"
+ },
+ {
+  "codigo": "DOM-12735",
+  "nombre": "Calvin Klein Wiston"
+ },
+ {
+  "codigo": "DOM-12736",
+  "nombre": "FitFlop Iqushion Textured-Strap Flip-Flops"
+ },
+ {
+  "codigo": "DOM-12737",
+  "nombre": "Reef Cushion Dawn"
+ },
+ {
+  "codigo": "DOM-12738",
+  "nombre": "Sanuk Cosmic Seas Mesh"
+ },
+ {
+  "codigo": "DOM-12739",
+  "nombre": "Reef Smoothy"
+ },
+ {
   "codigo": "DOM-1274",
   "nombre": "Nike Air Max Moto 2K (Big Kid) — Black/Pink Foam/Pink Rise"
+ },
+ {
+  "codigo": "DOM-12740",
+  "nombre": "Tommy Hilfiger Farron"
+ },
+ {
+  "codigo": "DOM-12741",
+  "nombre": "Tommy Hilfiger Davidos"
+ },
+ {
+  "codigo": "DOM-12742",
+  "nombre": "Tommy Hilfiger Destino"
+ },
+ {
+  "codigo": "DOM-12743",
+  "nombre": "Tommy Hilfiger Momil"
+ },
+ {
+  "codigo": "DOM-12744",
+  "nombre": "Orthofeet Clearwater"
+ },
+ {
+  "codigo": "DOM-12745",
+  "nombre": "Calvin Klein Lusako"
+ },
+ {
+  "codigo": "DOM-12746",
+  "nombre": "NIKE Field General Mens Lifestyle Shoes (University Blue/Gum Medium Brown/White)"
+ },
+ {
+  "codigo": "DOM-12747",
+  "nombre": "Stacy Adams Hobson Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12748",
+  "nombre": "Cole Haan 2.Zerogrand Laser Wing Tip Oxford Lined"
+ },
+ {
+  "codigo": "DOM-12749",
+  "nombre": "Stacy Adams Tinsley Wingtip Oxford"
  },
  {
   "codigo": "DOM-1275",
   "nombre": "Jordan Air Jordan 1 Mid Chicago Black Toe (Big Kid) — Black/Black/Gym Red"
  },
  {
+  "codigo": "DOM-12750",
+  "nombre": "Johnston & Murphy Reeve Cap Toe"
+ },
+ {
+  "codigo": "DOM-12751",
+  "nombre": "Stacy Adams Dayton - Wingtip"
+ },
+ {
+  "codigo": "DOM-12752",
+  "nombre": "Cole Haan Judson Grand Wingtip Oxfords"
+ },
+ {
+  "codigo": "DOM-12753",
+  "nombre": "Florsheim Corbetta Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12754",
+  "nombre": "Johnston & Murphy Xc Parker Wingtip"
+ },
+ {
+  "codigo": "DOM-12755",
+  "nombre": "Johnston & Murphy Xc Copley Wingtip"
+ },
+ {
+  "codigo": "DOM-12756",
+  "nombre": "Johnston & Murphy Xc Copley Wingtip"
+ },
+ {
+  "codigo": "DOM-12757",
+  "nombre": "Florsheim Tux Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12758",
+  "nombre": "Cole Haan Zerogrand Remastered Stitchlite Wingtip"
+ },
+ {
+  "codigo": "DOM-12759",
+  "nombre": "Marc Joseph New York Russell Drive Wing Tip Oxford (Hands-Free Technology)"
+ },
+ {
   "codigo": "DOM-1276",
   "nombre": "Nike Court Borough Mid 2 (Big Kid) — Black/Sunset Pulse/White"
+ },
+ {
+  "codigo": "DOM-12760",
+  "nombre": "Florsheim High-Rise Cap Toe Oxford (Hands Free)"
+ },
+ {
+  "codigo": "DOM-12761",
+  "nombre": "Florsheim Rucci Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12762",
+  "nombre": "Florsheim Sorrento Lux Cap Toe Balmoral Oxford"
+ },
+ {
+  "codigo": "DOM-12763",
+  "nombre": "Stacy Adams Madison (Cap Toe)"
+ },
+ {
+  "codigo": "DOM-12764",
+  "nombre": "Florsheim Lexington Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12765",
+  "nombre": "Florsheim Rucci Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12766",
+  "nombre": "A.Veer Dante Kiltie Tassel Loafers"
+ },
+ {
+  "codigo": "DOM-12767",
+  "nombre": "Florsheim Forecast II Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12768",
+  "nombre": "Cole Haan 2.Zerogrand Casual Lightweight Leather Laser Wing Tip Oxfords"
+ },
+ {
+  "codigo": "DOM-12769",
+  "nombre": "Cole Haan OriginalGrand NeoArc Quick-On Wingtip Oxford"
  },
  {
   "codigo": "DOM-1277",
   "nombre": "Nike Vomero 18 (Big Kid) — Black/Bright Crimson/University Red"
  },
  {
+  "codigo": "DOM-12770",
+  "nombre": "ECCO Prague Derby Cap Toe"
+ },
+ {
+  "codigo": "DOM-12771",
+  "nombre": "Cole Haan ZEROGRAND Remastered Wing Tip Oxfords"
+ },
+ {
+  "codigo": "DOM-12772",
+  "nombre": "Johnston & Murphy Tyson Wingtip"
+ },
+ {
+  "codigo": "DOM-12773",
+  "nombre": "ECCO Helsinki 2.0 Cap Toe Tie Oxford"
+ },
+ {
+  "codigo": "DOM-12774",
+  "nombre": "Johnston & Murphy Conlin Cap Toe"
+ },
+ {
+  "codigo": "DOM-12775",
+  "nombre": "Johnston & Murphy Conard 2.0 Cap Toe"
+ },
+ {
+  "codigo": "DOM-12776",
+  "nombre": "Johnston & Murphy Ripley Wingtip"
+ },
+ {
+  "codigo": "DOM-12777",
+  "nombre": "Cole Haan Grand Neoclassic Flexcraft Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12778",
+  "nombre": "Polo Ralph Lauren Asher Cap Toe"
+ },
+ {
+  "codigo": "DOM-12779",
+  "nombre": "Cole Haan ZEROGRAND Remastered Wing Tip Oxfords"
+ },
+ {
   "codigo": "DOM-1278",
   "nombre": "Adidas Samba OG Toy Story (Little Kid) — Denim/Yellow"
  },
  {
+  "codigo": "DOM-12780",
+  "nombre": "Polo Ralph Lauren Owen Wing Tip Dress Shoes"
+ },
+ {
+  "codigo": "DOM-12781",
+  "nombre": "ECCO Prague Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12782",
+  "nombre": "ECCO Prague Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12783",
+  "nombre": "Cole Haan ZEROGRAND Remastered Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12784",
+  "nombre": "ECCO London Wing Tip Oxford"
+ },
+ {
+  "codigo": "DOM-12785",
+  "nombre": "Johnston & Murphy Flynch Cap Toe"
+ },
+ {
+  "codigo": "DOM-12786",
+  "nombre": "Johnston & Murphy Flynch Wing Tip"
+ },
+ {
+  "codigo": "DOM-12787",
+  "nombre": "Cole Haan Dean Grand Cap Toe Oxfords"
+ },
+ {
+  "codigo": "DOM-12788",
+  "nombre": "ECCO Prague Derby Cap Toe"
+ },
+ {
+  "codigo": "DOM-12789",
+  "nombre": "ECCO ST.1 Hybrid Cap Toe Oxford"
+ },
+ {
   "codigo": "DOM-1279",
   "nombre": "Nike Air Max Invigor (Big Kid) — Black/Pink Foam/White/Pearl Grey"
+ },
+ {
+  "codigo": "DOM-12790",
+  "nombre": "AllSaints Skiff Tassel Loafers"
+ },
+ {
+  "codigo": "DOM-12791",
+  "nombre": "Florsheim Kenmoor Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12792",
+  "nombre": "Johnston & Murphy Ellsworth Cap Toe"
+ },
+ {
+  "codigo": "DOM-12793",
+  "nombre": "Johnston & Murphy Ellsworth Cap Toe"
+ },
+ {
+  "codigo": "DOM-12794",
+  "nombre": "Johnston & Murphy Arrister Cap Toe"
+ },
+ {
+  "codigo": "DOM-12795",
+  "nombre": "Johnston & Murphy Arrister Double Monk Cap Toe"
+ },
+ {
+  "codigo": "DOM-12796",
+  "nombre": "Johnston & Murphy Redford Single Buckle Monk"
+ },
+ {
+  "codigo": "DOM-12797",
+  "nombre": "Johnston & Murphy Hartford Cap Toe"
+ },
+ {
+  "codigo": "DOM-12798",
+  "nombre": "Johnston & Murphy Redford Cap Toe"
+ },
+ {
+  "codigo": "DOM-12799",
+  "nombre": "Anthony Veer Windsor Brogue Cap-Toe"
  },
  {
   "codigo": "DOM-128",
@@ -11109,40 +12797,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike ReactX Rejuven8 (Big Kid) — Black/Black/Black"
  },
  {
+  "codigo": "DOM-12800",
+  "nombre": "Cole Haan Ledley Grand Cap Toe Oxfords"
+ },
+ {
+  "codigo": "DOM-12801",
+  "nombre": "Cole Haan Ledley Grand Cap Toe Oxfords"
+ },
+ {
+  "codigo": "DOM-12802",
+  "nombre": "Cole Haan Ledley Grand Flexcraft Laser Wing Tip"
+ },
+ {
+  "codigo": "DOM-12803",
+  "nombre": "Cole Haan Ledley Grand Cap Toe"
+ },
+ {
+  "codigo": "DOM-12804",
+  "nombre": "Cole Haan Ledley Grand Flexcraft Laser Wing Tip"
+ },
+ {
+  "codigo": "DOM-12805",
+  "nombre": "Anthony Veer Windsor Brogue Cap-Toe"
+ },
+ {
+  "codigo": "DOM-12806",
+  "nombre": "Allen Edmonds Ryder Monk Strap Shoes"
+ },
+ {
+  "codigo": "DOM-12807",
+  "nombre": "Allen Edmonds Richards Monk Strap Shoes"
+ },
+ {
+  "codigo": "DOM-12808",
+  "nombre": "Justin Boots Hudson Chukka Booties"
+ },
+ {
+  "codigo": "DOM-12809",
+  "nombre": "Nunn Bush Ozark 2.0 Plain Toe Chukka Leather Boots"
+ },
+ {
   "codigo": "DOM-1281",
   "nombre": "Converse Malden Street (Little Kid) — White/Red/Blue"
+ },
+ {
+  "codigo": "DOM-12810",
+  "nombre": "Call It Spring Ironwood"
+ },
+ {
+  "codigo": "DOM-12811",
+  "nombre": "CATERPILLAR STRIVER SOFT TOE WORK BOOT"
+ },
+ {
+  "codigo": "DOM-12812",
+  "nombre": "AIR JORDAN 9 RETRO BOOT NRG \"BLACK GUM\""
+ },
+ {
+  "codigo": "DOM-12813",
+  "nombre": "TIMBERLAND PREMIUM 6 INCH WATERPROOF BOOT \"DARK RED NUBUCK\""
+ },
+ {
+  "codigo": "DOM-12814",
+  "nombre": "2932 CAT Mens Leather Low-Cut Boots - Colorado Boat Lo"
+ },
+ {
+  "codigo": "DOM-12815",
+  "nombre": "Nike Air Max Goadome Low SP - Black/Black"
+ },
+ {
+  "codigo": "DOM-12816",
+  "nombre": "TIMBERLAND 6\" PREMIUM BOOT - DARK BROWN"
+ },
+ {
+  "codigo": "DOM-12817",
+  "nombre": "Steve Madden Clog"
+ },
+ {
+  "codigo": "DOM-12818",
+  "nombre": "Nunn Bush Laguna 3 Strap River Sandal Lightweight Adjustable and Comfortable"
+ },
+ {
+  "codigo": "DOM-12819",
+  "nombre": "CROCS Echo Wave Mens Sandals (Chalk)"
  },
  {
   "codigo": "DOM-1282",
   "nombre": "Puma Caven III Nubuck (Big Kid) — Black/Black/Shadow Gray"
  },
  {
+  "codigo": "DOM-12820",
+  "nombre": "Crocs Classic Saturday Slide"
+ },
+ {
+  "codigo": "DOM-12821",
+  "nombre": "Crocs Classic Saturday Slide"
+ },
+ {
+  "codigo": "DOM-12822",
+  "nombre": "CROCS Squidward Classic Clog Mens Sandals (Blue/Green)"
+ },
+ {
+  "codigo": "DOM-12823",
+  "nombre": "CROCS Patrick Star Classic Clog Mens Sandals (Pink/Green)"
+ },
+ {
+  "codigo": "DOM-12824",
+  "nombre": "CROCS FUTURA ALL TERRAIN CLOG"
+ },
+ {
+  "codigo": "DOM-12825",
+  "nombre": "Nike Calm Slides 2.0"
+ },
+ {
+  "codigo": "DOM-12826",
+  "nombre": "CROCS CLASSIC CONFETTI CLOG"
+ },
+ {
+  "codigo": "DOM-12827",
+  "nombre": "NIKE Kobe Offcourt Slide Mens Sandals (Black/University Gold)"
+ },
+ {
+  "codigo": "DOM-12828",
+  "nombre": "2735 Crocs Echo Wave Clogs in Starfish/Black | Men"
+ },
+ {
+  "codigo": "DOM-12829",
+  "nombre": "Nike Phantom 6 Academy Low FG/MG"
+ },
+ {
   "codigo": "DOM-1283",
   "nombre": "Saucony Omni 9 (Little Kid) — Black/Silver"
+ },
+ {
+  "codigo": "DOM-12830",
+  "nombre": "adidas Copa Premiere Shoes"
+ },
+ {
+  "codigo": "DOM-12831",
+  "nombre": "PUMA Softride Sway Running Shoes"
+ },
+ {
+  "codigo": "DOM-12832",
+  "nombre": "PUMA X-Cell Action Soft Focus Running Shoes"
+ },
+ {
+  "codigo": "DOM-12833",
+  "nombre": "PUMA Softride Symmetry Fuzion Running Shoes"
+ },
+ {
+  "codigo": "DOM-12834",
+  "nombre": "adidas Dame 9 Weber State Wildcats Basketball Shoes"
+ },
+ {
+  "codigo": "DOM-12835",
+  "nombre": "adidas Runfalcon 5 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12836",
+  "nombre": "PUMA Cell Thrill Dash Training Shoes"
+ },
+ {
+  "codigo": "DOM-12837",
+  "nombre": "diadora Mythos Blushield Vigore 2 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12838",
+  "nombre": "adidas D.O.N. Issue 6 Basketball Shoes"
+ },
+ {
+  "codigo": "DOM-12839",
+  "nombre": "adidas Run 70s 2.0 Shoes"
  },
  {
   "codigo": "DOM-1284",
   "nombre": "Jordan Air Jordan 1 Low Black Toe (Big Kid) — White/Varsity Red/Black"
  },
  {
+  "codigo": "DOM-12840",
+  "nombre": "PUMA Voltaic Evo Qtr Fade Running Shoes"
+ },
+ {
+  "codigo": "DOM-12841",
+  "nombre": "PUMA PWR Hybrid Training Shoes"
+ },
+ {
+  "codigo": "DOM-12842",
+  "nombre": "PUMA Smash 3.0 Retro Run Sneakers"
+ },
+ {
+  "codigo": "DOM-12843",
+  "nombre": "adidas Run 60s 2.0 Shoes"
+ },
+ {
+  "codigo": "DOM-12844",
+  "nombre": "Under Armour Charged Surge 4 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12845",
+  "nombre": "adidas Runfalcon 5 TR Running Shoes"
+ },
+ {
+  "codigo": "DOM-12846",
+  "nombre": "adidas Run 70s 2.0 Shoes"
+ },
+ {
+  "codigo": "DOM-12847",
+  "nombre": "diadora Atomo V7000 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12848",
+  "nombre": "diadora Mythos Blushield 8 Vortice Hip Running Shoes"
+ },
+ {
+  "codigo": "DOM-12849",
+  "nombre": "diadora Mythos Blushield 8 Vortice Running Shoes"
+ },
+ {
   "codigo": "DOM-1285",
   "nombre": "Nike Air Force 1 Low (Big Kid) — White"
+ },
+ {
+  "codigo": "DOM-12850",
+  "nombre": "PUMA All Pro NITRO Lace Up Basketball Shoes"
+ },
+ {
+  "codigo": "DOM-12851",
+  "nombre": "diadora Mythos Blushield 9 Vortice Hip Running Shoes"
+ },
+ {
+  "codigo": "DOM-12852",
+  "nombre": "diadora Mythos Blushield 9 Vortice Hip Running Shoes"
+ },
+ {
+  "codigo": "DOM-12853",
+  "nombre": "diadora Mythos Blushield Volo 2 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12854",
+  "nombre": "diadora Mythos Blushield Volo 3 Hip Running Shoes"
+ },
+ {
+  "codigo": "DOM-12855",
+  "nombre": "Under Armour Velociti 4 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12856",
+  "nombre": "PUMA All-Pro Nitro™ 2 Basketball Shoes"
+ },
+ {
+  "codigo": "DOM-12857",
+  "nombre": "adidas Dame 9 Basketball Shoes"
+ },
+ {
+  "codigo": "DOM-12858",
+  "nombre": "NIKE AIR MAX ALPHA TRAINER 5 CROSS TRAINING SHOE"
+ },
+ {
+  "codigo": "DOM-12859",
+  "nombre": "NIKE Run Swift 3 - Mens"
  },
  {
   "codigo": "DOM-1286",
   "nombre": "Nike V5 RNR (Little Kid) — Black/Black/Anthracite"
  },
  {
+  "codigo": "DOM-12860",
+  "nombre": "NIKE Run Swift 3 - Mens"
+ },
+ {
+  "codigo": "DOM-12861",
+  "nombre": "PUMA Foreverrun Nitro 2 Saysky Running Shoes"
+ },
+ {
+  "codigo": "DOM-12862",
+  "nombre": "Callaway Pacific XT Spikeless Golf Shoes"
+ },
+ {
+  "codigo": "DOM-12863",
+  "nombre": "Saucony Kinvara 16 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12864",
+  "nombre": "Saucony Kinvara 16 Running Shoes"
+ },
+ {
+  "codigo": "DOM-12865",
+  "nombre": "Altra Experience Wild 2 Trail Running Shoe"
+ },
+ {
+  "codigo": "DOM-12866",
+  "nombre": "NEWBALANCE 2002R Mens Running Shoes (Black/Timber Wolf/White)"
+ },
+ {
+  "codigo": "DOM-12867",
+  "nombre": "NEWBALANCE 1000 Mens Running Shoes (Metallic Pink)"
+ },
+ {
+  "codigo": "DOM-12868",
+  "nombre": "ASICS GT 2160 Mens Running Shoes (White/Soft Yellow)"
+ },
+ {
+  "codigo": "DOM-12869",
+  "nombre": "ASICS Gel Kinetic Fluent Mens Running Shoes (White/White)"
+ },
+ {
   "codigo": "DOM-1287",
   "nombre": "Skechers Twinkle Sparks Unicorn Galaxy (Little Kid) — Black/Pink"
+ },
+ {
+  "codigo": "DOM-12870",
+  "nombre": "JORDAN 6 Rings Mens Basketball Shoes (White/ Cool Grey)"
+ },
+ {
+  "codigo": "DOM-12871",
+  "nombre": "NEWBALANCE ABZORB 2010 Mens Running Shoes (Grey/Black)"
+ },
+ {
+  "codigo": "DOM-12872",
+  "nombre": "NIKE S.T. Charge Detroit Tough Mens Basketball Shoes (Bright Ceramic/Metallic Gold)"
+ },
+ {
+  "codigo": "DOM-12873",
+  "nombre": "NIKE Zoom KD 6 Night Vision Mens Basketball Shoes (Black/Multi-Color/Light Lucid Green)"
+ },
+ {
+  "codigo": "DOM-12874",
+  "nombre": "CONVERSE Shai 001 Mens Basketball Shoes (Clean Slate)"
+ },
+ {
+  "codigo": "DOM-12875",
+  "nombre": "NIKE Book 2 Spiridon Mens Basketball Shoes (Metallic Silver/Sport Red/Black/White)"
+ },
+ {
+  "codigo": "DOM-12876",
+  "nombre": "NIKE Air Max 90 Mens Running Shoes (Black/Tough Red)"
+ },
+ {
+  "codigo": "DOM-12877",
+  "nombre": "NIKE Air Max 90 White Black Hot Curry Mens Running Shoes (White/Black/Hot Curry/Pure Platinum)"
+ },
+ {
+  "codigo": "DOM-12878",
+  "nombre": "NIKE Book 1 Air Max Solar Red Mens Basketball Shoes (Wolf Grey/Cool Grey/Photon Dust/Anthracite/White/Black)"
+ },
+ {
+  "codigo": "DOM-12879",
+  "nombre": "NIKE Air Max 90 Mens Running Shoes (Black/Black/Light Smoke Grey)"
  },
  {
   "codigo": "DOM-1288",
   "nombre": "UGG Ultra Mini Bailey Bow (Big Kid) — Chestnut"
  },
  {
+  "codigo": "DOM-12880",
+  "nombre": "NIKE Ava Rover Mens Running Shoes (Sanddrift/Alabaster/Khaki Twine)"
+ },
+ {
+  "codigo": "DOM-12881",
+  "nombre": "JORDAN Trunner O/S Mens Running Shoes (Photon Dust/Black/Sail/White)"
+ },
+ {
+  "codigo": "DOM-12882",
+  "nombre": "NIKE Air Max 90 Mens Running Shoes (White/College Grey/Vast Grey/University Red) Final Sale"
+ },
+ {
+  "codigo": "DOM-12883",
+  "nombre": "NEWBALANCE Shoe Palace x New Balance 2002R Volcanic Rocks Mens Running Shoes (Blue/Red)"
+ },
+ {
+  "codigo": "DOM-12884",
+  "nombre": "NIKE Air Pegasus 2005 Mens Running Shoes (Olive Aura/Jade Horizon/Volt/Glacier Blue)"
+ },
+ {
+  "codigo": "DOM-12885",
+  "nombre": "Nunn Bush Centro Flex Formal Plain Toe Slip-On"
+ },
+ {
+  "codigo": "DOM-12886",
+  "nombre": "Nunn Bush Griff Plain Toe Oxford Lightweight and Comfortable for all Occasions Suede Lace-Up"
+ },
+ {
+  "codigo": "DOM-12887",
+  "nombre": "Stacy Adams Lundy Slip On Loafer"
+ },
+ {
+  "codigo": "DOM-12888",
+  "nombre": "Nunn Bush Chase 2.0 Casual Plain Toe Oxford Contemporary Lace-Up"
+ },
+ {
+  "codigo": "DOM-12889",
+  "nombre": "Nunn Bush Wade Work Plain Toe Oxford"
+ },
+ {
   "codigo": "DOM-1289",
   "nombre": "On Cloudswift (Big Kid) — Midnight"
+ },
+ {
+  "codigo": "DOM-12890",
+  "nombre": "Nunn Bush KORE Cliffside Moccasin Toe Rugged Outdoor Oxford"
+ },
+ {
+  "codigo": "DOM-12891",
+  "nombre": "Nunn Bush Sherman Slip Resistant Plain Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12892",
+  "nombre": "Nunn Bush Chase 2.0 Casual Plain Toe Oxford Contemporary Lace-Up"
+ },
+ {
+  "codigo": "DOM-12893",
+  "nombre": "Nunn Bush KORE Cliffside Moccasin Toe Rugged Outdoor Slip-On Loafers"
+ },
+ {
+  "codigo": "DOM-12894",
+  "nombre": "Nunn Bush Chase Moccasin Toe Slip-On Lightweight Contemporary Loafer"
+ },
+ {
+  "codigo": "DOM-12895",
+  "nombre": "Nunn Bush Otto EZ Moccasin Toe Slip-On Easy On Loafer"
+ },
+ {
+  "codigo": "DOM-12896",
+  "nombre": "Deer Stags Times Comfort Oxford"
+ },
+ {
+  "codigo": "DOM-12897",
+  "nombre": "Dockers Warden Plain Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12898",
+  "nombre": "Steve Madden Ajapp Oxford - Madden by Steve Madden"
+ },
+ {
+  "codigo": "DOM-12899",
+  "nombre": "Nunn Bush Bayridge Plain Toe Oxford"
  },
  {
   "codigo": "DOM-129",
@@ -11153,6 +13241,46 @@ var ZAP_HISTORIAL = [
   "nombre": "Jordan Max Aura (Big Kid) — Cool Grey/Black/White/Clear"
  },
  {
+  "codigo": "DOM-12900",
+  "nombre": "Dr. Scholl's Madison Men Oxford Oxford Shoes"
+ },
+ {
+  "codigo": "DOM-12901",
+  "nombre": "Marc Joseph New York Monaco Loafer"
+ },
+ {
+  "codigo": "DOM-12902",
+  "nombre": "Florsheim Lakeside Canvas Moc Toe Slip-On"
+ },
+ {
+  "codigo": "DOM-12903",
+  "nombre": "Florsheim Sorrento Moc Toe Penny Loafers"
+ },
+ {
+  "codigo": "DOM-12904",
+  "nombre": "A.Veer Maddox Cap-Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12905",
+  "nombre": "NUNN BUSH GRIFF PLAIN TOE OXFORD"
+ },
+ {
+  "codigo": "DOM-12906",
+  "nombre": "NUNN BUSH LUCA MOC TOE PENNY LOAFER"
+ },
+ {
+  "codigo": "DOM-12907",
+  "nombre": "STACY ADAMS CONROY LOAFER"
+ },
+ {
+  "codigo": "DOM-12908",
+  "nombre": "STACY ADAMS CONROY LOAFER"
+ },
+ {
+  "codigo": "DOM-12909",
+  "nombre": "VANCE CO HODGES OXFORD"
+ },
+ {
   "codigo": "DOM-1291",
   "nombre": "Jordan True Flight (Big Kid) — Black/Gold"
  },
@@ -11161,36 +13289,392 @@ var ZAP_HISTORIAL = [
   "nombre": "VANCE CO HODGES OXFORD"
  },
  {
+  "codigo": "DOM-12911",
+  "nombre": "FLORSHEIM LAUNCH CANVAS PLAIN TOE OXFORD"
+ },
+ {
+  "codigo": "DOM-12912",
+  "nombre": "FLORSHEIM LAUNCH CANVAS PLAIN TOE OXFORD"
+ },
+ {
+  "codigo": "DOM-12913",
+  "nombre": "FLORSHEIM MOTOR MOC TOE BIT DRIVER LOAFER"
+ },
+ {
+  "codigo": "DOM-12914",
+  "nombre": "FLORSHEIM MOTOR MOC TOE BIT DRIVER LOAFER"
+ },
+ {
+  "codigo": "DOM-12915",
+  "nombre": "FLORSHEIM MOTOR MOC TOE DRIVER PENNY LOAFER"
+ },
+ {
+  "codigo": "DOM-12916",
+  "nombre": "FLORSHEIM MOTOR MOC TOE DRIVER PENNY LOAFER"
+ },
+ {
+  "codigo": "DOM-12917",
+  "nombre": "Sperry Moc-Sider Quilted Nylon Slippers"
+ },
+ {
+  "codigo": "DOM-12918",
+  "nombre": "diadora Game L Waxed High Top Sneakers"
+ },
+ {
+  "codigo": "DOM-12919",
+  "nombre": "diadora B.Elite A Ma Maniére Lace Up Sneakers"
+ },
+ {
   "codigo": "DOM-1292",
   "nombre": "Nike Air Max 95 (Big Kid) — Black"
+ },
+ {
+  "codigo": "DOM-12920",
+  "nombre": "diadora Mi Basket Row Cut Denver 55 Perforated Lace Up Sneakers"
+ },
+ {
+  "codigo": "DOM-12921",
+  "nombre": "SeaVees SeaChange High Top Sneakers"
+ },
+ {
+  "codigo": "DOM-12922",
+  "nombre": "diadora Kick Lace Up Sneakers"
+ },
+ {
+  "codigo": "DOM-12923",
+  "nombre": "diadora Mi Basket Metallic Used High Top Sneakers"
+ },
+ {
+  "codigo": "DOM-12924",
+  "nombre": "Diadora x Leo Colacicco B.560 Apulia Used Italia Lace Up Sneakers"
+ },
+ {
+  "codigo": "DOM-12925",
+  "nombre": "PUMA Suede Crochet Lace Up Sneakers"
+ },
+ {
+  "codigo": "DOM-12926",
+  "nombre": "PUMA Capri Royale Lace Up Sneakers"
+ },
+ {
+  "codigo": "DOM-12927",
+  "nombre": "Reef Ojai Classic"
+ },
+ {
+  "codigo": "DOM-12928",
+  "nombre": "Sanuk Sawyer"
+ },
+ {
+  "codigo": "DOM-12929",
+  "nombre": "Johnston & Murphy Tanner Wingtip"
  },
  {
   "codigo": "DOM-1293",
   "nombre": "UGG Classic Ultra Mini Platform (Little Kid/Big Kid) — Chestnut"
  },
  {
+  "codigo": "DOM-12930",
+  "nombre": "Florsheim Norwalk Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12931",
+  "nombre": "Nunn Bush Kore Pro Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12932",
+  "nombre": "Nunn Bush Centro Flex Wing Tip Oxford"
+ },
+ {
+  "codigo": "DOM-12933",
+  "nombre": "Nunn Bush Fitz Flex Cap Toe Oxford Comfortable Dress Casual Leather Lace-Up"
+ },
+ {
+  "codigo": "DOM-12934",
+  "nombre": "Stacy Adams Trudell Wing Tip Lace-Up"
+ },
+ {
+  "codigo": "DOM-12935",
+  "nombre": "Cole Haan Original Grand Stitchlite Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12936",
+  "nombre": "Stacy Adams Lockwood Wingtip Ornament Slip-On Loafer"
+ },
+ {
+  "codigo": "DOM-12937",
+  "nombre": "Florsheim Launch Wing Tip Oxford"
+ },
+ {
+  "codigo": "DOM-12938",
+  "nombre": "Florsheim Sorrento Wing Tip Oxford"
+ },
+ {
+  "codigo": "DOM-12939",
+  "nombre": "Stacy Adams Razzeto Cap Toe Oxford"
+ },
+ {
   "codigo": "DOM-1294",
   "nombre": "Nike Air Max Metro (Big Kid) — White/Black/Smoke Grey/Energy"
+ },
+ {
+  "codigo": "DOM-12940",
+  "nombre": "Johnston & Murphy Cason Wingtip"
+ },
+ {
+  "codigo": "DOM-12941",
+  "nombre": "Marc Joseph New York Oliver Street Double Monk Oxford (Hands Free Technology)"
+ },
+ {
+  "codigo": "DOM-12942",
+  "nombre": "Florsheim Jackson Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12943",
+  "nombre": "Rockport Charles Road Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12944",
+  "nombre": "Florsheim Montinaro Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12945",
+  "nombre": "Florsheim Montinaro Double Monk Strap"
+ },
+ {
+  "codigo": "DOM-12946",
+  "nombre": "Florsheim Montinaro Wingtip Oxford"
+ },
+ {
+  "codigo": "DOM-12947",
+  "nombre": "Rockport Garett Wing Tip"
+ },
+ {
+  "codigo": "DOM-12948",
+  "nombre": "Stacy Adams Gambetta Modified Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12949",
+  "nombre": "Stacy Adams Synergy Wing Tip Oxford"
  },
  {
   "codigo": "DOM-1295",
   "nombre": "New Balance 9060 (Big Kid) — Shadow Blue/Dark Night"
  },
  {
+  "codigo": "DOM-12950",
+  "nombre": "Stacy Adams Gambetta Modified Cap Toe Oxford"
+ },
+ {
+  "codigo": "DOM-12951",
+  "nombre": "Cole Haan Grand Shadowlite Stitchlite Wingtip"
+ },
+ {
+  "codigo": "DOM-12952",
+  "nombre": "Wolverine Floorhand 10 Inch Waterproof Soft Toe Work Boots"
+ },
+ {
+  "codigo": "DOM-12953",
+  "nombre": "Call It Spring Zeina"
+ },
+ {
+  "codigo": "DOM-12954",
+  "nombre": "Call It Spring Frostiine"
+ },
+ {
+  "codigo": "DOM-12955",
+  "nombre": "Call It Spring Frostiine"
+ },
+ {
+  "codigo": "DOM-12956",
+  "nombre": "Rockport Rugged Bucks Waterproof Boot"
+ },
+ {
+  "codigo": "DOM-12957",
+  "nombre": "Wolverine Rancher Waterproof Pull On Cowboy Boots"
+ },
+ {
+  "codigo": "DOM-12958",
+  "nombre": "Florsheim Lodge Plain Toe Gore Boots"
+ },
+ {
+  "codigo": "DOM-12959",
+  "nombre": "Wolverine Carlsbad Waterproof 6\\\" Work Boot"
+ },
+ {
   "codigo": "DOM-1296",
   "nombre": "ASICS Gel-NYC (Big Kid) — Black/Pure Silver"
+ },
+ {
+  "codigo": "DOM-12960",
+  "nombre": "CIS Jenelle"
+ },
+ {
+  "codigo": "DOM-12961",
+  "nombre": "DR. SCHOLL'S SYNC FLEX CHUKKA BOOT"
+ },
+ {
+  "codigo": "DOM-12962",
+  "nombre": "DR. SCHOLL'S SYNC FLEX CHUKKA BOOT"
+ },
+ {
+  "codigo": "DOM-12963",
+  "nombre": "HEYDUDE BRADLEY II SNEAKER BOOT"
+ },
+ {
+  "codigo": "DOM-12964",
+  "nombre": "Crocs Classic Superman Clog"
+ },
+ {
+  "codigo": "DOM-12965",
+  "nombre": "Nunn Bush Huck Sport Closed Toe Fisherman Sandal"
+ },
+ {
+  "codigo": "DOM-12966",
+  "nombre": "Nunn Bush Rio Bravo 3-Strap River Sandal"
+ },
+ {
+  "codigo": "DOM-12967",
+  "nombre": "Reef Santa Ana Flip Flops"
+ },
+ {
+  "codigo": "DOM-12968",
+  "nombre": "Nunn Bush Rio Vista 3-Strap River Sandal"
+ },
+ {
+  "codigo": "DOM-12969",
+  "nombre": "The North Face Base Camp Slide III"
  },
  {
   "codigo": "DOM-1297",
   "nombre": "Jordan Air Jordan 12 Retro Idols Become Rivals (Big Kid) — Summit White/Gorge Green/Fierce Purple"
  },
  {
+  "codigo": "DOM-12970",
+  "nombre": "Clarks Breeze Slide"
+ },
+ {
+  "codigo": "DOM-12971",
+  "nombre": "CROCS CLASSIC CONFETTI CLOG"
+ },
+ {
+  "codigo": "DOM-12972",
+  "nombre": "Birkenstock Professional Birki Clog by Birkenstock"
+ },
+ {
+  "codigo": "DOM-12973",
+  "nombre": "Birkenstock Profi Birki Clog 2.0"
+ },
+ {
+  "codigo": "DOM-12974",
+  "nombre": "Propet Hudson River Sandals"
+ },
+ {
+  "codigo": "DOM-12975",
+  "nombre": "Propet Hunter Fisherman Sandals"
+ },
+ {
+  "codigo": "DOM-12976",
+  "nombre": "Propet Hunter Fisherman Sandals"
+ },
+ {
+  "codigo": "DOM-12977",
+  "nombre": "NIKE Offcourt - Mens"
+ },
+ {
+  "codigo": "DOM-12978",
+  "nombre": "Puma King Liga FG/AG"
+ },
+ {
+  "codigo": "DOM-12979",
+  "nombre": "Nike Tiempo ReactGato LE"
+ },
+ {
   "codigo": "DOM-1298",
   "nombre": "Jordan Air Jordan 6 Retro Oreo (Big Kid) — Black/White"
  },
  {
+  "codigo": "DOM-12980",
+  "nombre": "Nike Tiempo Maestro Academy TF"
+ },
+ {
+  "codigo": "DOM-12981",
+  "nombre": "Nike Tiempo Maestro Academy FG/MG"
+ },
+ {
+  "codigo": "DOM-12982",
+  "nombre": "adidas F50 League x Messi FG"
+ },
+ {
+  "codigo": "DOM-12983",
+  "nombre": "adidas F50 League x Messi TF"
+ },
+ {
+  "codigo": "DOM-12984",
+  "nombre": "Puma Future 9 Match FG/AG"
+ },
+ {
+  "codigo": "DOM-12985",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy TF"
+ },
+ {
+  "codigo": "DOM-12986",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy IC"
+ },
+ {
+  "codigo": "DOM-12987",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy FG/MG"
+ },
+ {
+  "codigo": "DOM-12988",
+  "nombre": "Nike Phantom 6 Low Academy FG/MG"
+ },
+ {
+  "codigo": "DOM-12989",
+  "nombre": "Nike Phantom 6 Low Academy TF"
+ },
+ {
   "codigo": "DOM-1299",
   "nombre": "Nike Vomero 5 (Big Kid) — Vintage Lilac/Metallic Silver"
+ },
+ {
+  "codigo": "DOM-12990",
+  "nombre": "Nike Tiempo StreetGato"
+ },
+ {
+  "codigo": "DOM-12991",
+  "nombre": "Nike Phantom 6 Low Academy TF"
+ },
+ {
+  "codigo": "DOM-12992",
+  "nombre": "New Balance Furon V9 Team Wide FG"
+ },
+ {
+  "codigo": "DOM-12993",
+  "nombre": "New Balance Tekela V5 Team Wide FG"
+ },
+ {
+  "codigo": "DOM-12994",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy IC"
+ },
+ {
+  "codigo": "DOM-12995",
+  "nombre": "New Balance Furon V9 Team FG"
+ },
+ {
+  "codigo": "DOM-12996",
+  "nombre": "New Balance Tekela V5 Team FG"
+ },
+ {
+  "codigo": "DOM-12997",
+  "nombre": "Nike Phantom 6 Low Academy AG"
+ },
+ {
+  "codigo": "DOM-12998",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy TF"
+ },
+ {
+  "codigo": "DOM-12999",
+  "nombre": "Nike Phantom 6 Low Academy FG/MG"
  },
  {
   "codigo": "DOM-130",
@@ -11201,40 +13685,440 @@ var ZAP_HISTORIAL = [
   "nombre": "UGG Lowmel (Little Kid) — Pink"
  },
  {
+  "codigo": "DOM-13000",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy FG/MG"
+ },
+ {
+  "codigo": "DOM-13001",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy AG"
+ },
+ {
+  "codigo": "DOM-13002",
+  "nombre": "Nike Phantom 6 Low Academy AG"
+ },
+ {
+  "codigo": "DOM-13003",
+  "nombre": "Puma Future 9 Match TT"
+ },
+ {
+  "codigo": "DOM-13004",
+  "nombre": "Nike Tiempo StreetGato PRM"
+ },
+ {
+  "codigo": "DOM-13005",
+  "nombre": "Nike Phantom 6 Low Academy IC"
+ },
+ {
+  "codigo": "DOM-13006",
+  "nombre": "Nike Tiempo StreetGato"
+ },
+ {
+  "codigo": "DOM-13007",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy AG"
+ },
+ {
+  "codigo": "DOM-13008",
+  "nombre": "New Balance 442 V3 Pro TF"
+ },
+ {
+  "codigo": "DOM-13009",
+  "nombre": "Diadora Brasil Pro FG"
+ },
+ {
   "codigo": "DOM-1301",
   "nombre": "Nike Little Posite Pro (Little Kid) — Gym Red"
+ },
+ {
+  "codigo": "DOM-13010",
+  "nombre": "Nike Air Zoom Mercurial Superfly X Pro x Mbappe FG"
+ },
+ {
+  "codigo": "DOM-13011",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVI Pro FG"
+ },
+ {
+  "codigo": "DOM-13012",
+  "nombre": "adidas F50 League Mid FG/MG"
+ },
+ {
+  "codigo": "DOM-13013",
+  "nombre": "adidas F50 League Laceless FG/MG"
+ },
+ {
+  "codigo": "DOM-13014",
+  "nombre": "Puma Future 9 Match FG/AG"
+ },
+ {
+  "codigo": "DOM-13015",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVI Academy x Mbappe FG/MG"
+ },
+ {
+  "codigo": "DOM-13016",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVI Academy x Mbappe FG/MG"
+ },
+ {
+  "codigo": "DOM-13017",
+  "nombre": "New Balance 442 V2 Pro FG"
+ },
+ {
+  "codigo": "DOM-13018",
+  "nombre": "Nike Phantom 6 High Academy FG/MG"
+ },
+ {
+  "codigo": "DOM-13019",
+  "nombre": "Nike Air Zoom Mercurial Superfly X Academy IC"
  },
  {
   "codigo": "DOM-1302",
   "nombre": "Timberland Stacked Heritage 6-Inch Waterproof (Big Kid) — Black"
  },
  {
+  "codigo": "DOM-13020",
+  "nombre": "Puma Future 8 Pro FG/AG"
+ },
+ {
+  "codigo": "DOM-13021",
+  "nombre": "Puma Ultra 6 Pro FG/AG"
+ },
+ {
+  "codigo": "DOM-13022",
+  "nombre": "Nike Air Zoom Mercurial Superfly X Academy AG"
+ },
+ {
+  "codigo": "DOM-13023",
+  "nombre": "PUMA Ultra 5 Match Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13024",
+  "nombre": "diadora Pichichi 5 Indoor Soccer Shoes"
+ },
+ {
+  "codigo": "DOM-13025",
+  "nombre": "PUMA King Pro Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13026",
+  "nombre": "PUMA Ultra 6 Pro Firm/Artificial Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13027",
+  "nombre": "PUMA Ultra 5 Pro Firm Ground/Artificial Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13028",
+  "nombre": "PUMA King Pro Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13029",
+  "nombre": "PUMA Future 7 Pro Cage Soccer Shoes"
+ },
+ {
   "codigo": "DOM-1303",
   "nombre": "Vans Premium Old Skool 36 Pearlized Yacht Club (Big Kid) — Pearlized Yacht Club Green/Multicolor"
+ },
+ {
+  "codigo": "DOM-13030",
+  "nombre": "PUMA Ultra 5 Pro Firm Ground/Artificial Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13031",
+  "nombre": "adidas Predator League Firm Multi-Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13032",
+  "nombre": "diadora Brasil Original Light Turf MDPU Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13033",
+  "nombre": "PUMA Ultra Pro Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-13034",
+  "nombre": "adidas Texas A&m Adizero SL2 Running Shoes"
+ },
+ {
+  "codigo": "DOM-13035",
+  "nombre": "PUMA evoSPEED NITRO Elite 2 Long Distance Running Shoes"
+ },
+ {
+  "codigo": "DOM-13036",
+  "nombre": "NIKE Air Max Limited 3 Mens Running Shoe (White/White)"
+ },
+ {
+  "codigo": "DOM-13037",
+  "nombre": "Converse Run Star Motion Hi in Taupe / Chocolate"
+ },
+ {
+  "codigo": "DOM-13038",
+  "nombre": "PUMA Foreverrun Nitro 2 Running Shoes"
+ },
+ {
+  "codigo": "DOM-13039",
+  "nombre": "FootJoy FJ Flex Golf Shoes"
  },
  {
   "codigo": "DOM-1304",
   "nombre": "Nike Air Force 1 (Animal) Black/White (Niños)"
  },
  {
+  "codigo": "DOM-13040",
+  "nombre": "ADIDAS Dame 10 All Star Mens Basketball Shoes (Lucid Orange/Ice Tangerine/Icey Blue)"
+ },
+ {
+  "codigo": "DOM-13041",
+  "nombre": "ADIDAS Dame 10 Zero Mens Basketball Shoes (Zero Metallic/Core Black/Court Green)"
+ },
+ {
+  "codigo": "DOM-13042",
+  "nombre": "NIKE V5 RNR Mens Running Shoes (Blue Viod/Black Wolf/Grey Platinum Tint)"
+ },
+ {
+  "codigo": "DOM-13043",
+  "nombre": "adidas Adizero Adios 9 Lightstrike Pro Running Shoes"
+ },
+ {
+  "codigo": "DOM-13044",
+  "nombre": "PUMA HOOPS X TMNT MB.03 Lo Krang Basketball Shoes"
+ },
+ {
+  "codigo": "DOM-13045",
+  "nombre": "Frye Connor Oxford"
+ },
+ {
+  "codigo": "DOM-13046",
+  "nombre": "Stacy Adams Ridgely Moc Toe Slip-On Loafer"
+ },
+ {
+  "codigo": "DOM-13047",
+  "nombre": "Dr. Scholl's Ashton Derby Shoes"
+ },
+ {
+  "codigo": "DOM-13048",
+  "nombre": "Wolverine Floorhand 10 Inch Waterproof Soft Toe Work Boots"
+ },
+ {
+  "codigo": "DOM-13049",
+  "nombre": "HEYDUDE BRADLEY II SNEAKER BOOT"
+ },
+ {
   "codigo": "DOM-1305",
   "nombre": "Nike Pacific Moon Particle/Light Lemon Twist/Sail"
+ },
+ {
+  "codigo": "DOM-13050",
+  "nombre": "NIKE Benassi JDI - Mens"
+ },
+ {
+  "codigo": "DOM-13051",
+  "nombre": "ADIDAS ADILETTE AQUA SLIDE SANDAL"
+ },
+ {
+  "codigo": "DOM-13052",
+  "nombre": "Crocs Classic EXP in Carbon / Black"
+ },
+ {
+  "codigo": "DOM-13053",
+  "nombre": "Diadora Brasil Classico II FG"
+ },
+ {
+  "codigo": "DOM-13054",
+  "nombre": "Nike Tiempo Maestro Academy FG"
+ },
+ {
+  "codigo": "DOM-13055",
+  "nombre": "Nike Air Zoom Mercurial Superfly XI Club TF"
+ },
+ {
+  "codigo": "DOM-13056",
+  "nombre": "Nike Phantom 6 Low Pro FG"
+ },
+ {
+  "codigo": "DOM-13057",
+  "nombre": "Run Falcon 6 — Black"
+ },
+ {
+  "codigo": "DOM-13058",
+  "nombre": "Swift Run — Black"
+ },
+ {
+  "codigo": "DOM-13059",
+  "nombre": "Response — Bone"
  },
  {
   "codigo": "DOM-1306",
   "nombre": "Madden Girl Giia Dark Brown/Light Sand Nylon"
  },
  {
+  "codigo": "DOM-13060",
+  "nombre": "Lockdown 7 — Black"
+ },
+ {
+  "codigo": "DOM-13061",
+  "nombre": "Go Run Consistent Mapleton — Black"
+ },
+ {
+  "codigo": "DOM-13062",
+  "nombre": "Surge 5 Running Shoes — Blue"
+ },
+ {
+  "codigo": "DOM-13063",
+  "nombre": "Go Run Consistent 3 Rushline — Black"
+ },
+ {
+  "codigo": "DOM-13064",
+  "nombre": "Go Run Consistent 3 Vivid Rush — Brown"
+ },
+ {
+  "codigo": "DOM-13065",
+  "nombre": "Run Swift 3 — Green"
+ },
+ {
+  "codigo": "DOM-13066",
+  "nombre": "Asics Gel-Venture 10 Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13067",
+  "nombre": "Nike Quest 6 Running Shoe — Blush"
+ },
+ {
+  "codigo": "DOM-13068",
+  "nombre": "Nike Run Defy Running Shoe — Lilac"
+ },
+ {
+  "codigo": "DOM-13069",
+  "nombre": "Nike Run Defy Running Shoe — Off White"
+ },
+ {
   "codigo": "DOM-1307",
   "nombre": "Allbirds Tree Dasher 2 Hanami Night (Natural White)"
+ },
+ {
+  "codigo": "DOM-13070",
+  "nombre": "Chuck Taylor All Star Peached Canvas High-Top — Pink"
+ },
+ {
+  "codigo": "DOM-13071",
+  "nombre": "Brooks Anthem 7 Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13072",
+  "nombre": "Skechers Slip-Ins Summits Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13073",
+  "nombre": "Puma Voltaic Evo Running Shoe — White"
+ },
+ {
+  "codigo": "DOM-13074",
+  "nombre": "New Balance Ctlyst Running Shoe — Off White"
+ },
+ {
+  "codigo": "DOM-13075",
+  "nombre": "Skechers Slip-Ins Go Run Consistent 2.0 Running Shoe — White"
+ },
+ {
+  "codigo": "DOM-13076",
+  "nombre": "Brooks Anthem 7 Running Shoe — Dark Grey"
+ },
+ {
+  "codigo": "DOM-13077",
+  "nombre": "Skechers Go Walk Flex Running Shoe — Navy"
+ },
+ {
+  "codigo": "DOM-13078",
+  "nombre": "Skechers Slip-Ins Glide Step Sole Running Shoe — Natural"
+ },
+ {
+  "codigo": "DOM-13079",
+  "nombre": "Skechers Slip-Ins Summits Running Shoe — Black"
  },
  {
   "codigo": "DOM-1308",
   "nombre": "Tacón Nine West Vallie Transparente y Charol Negro"
  },
  {
+  "codigo": "DOM-13080",
+  "nombre": "Skechers Go Walk Flex Running Shoe — White"
+ },
+ {
+  "codigo": "DOM-13081",
+  "nombre": "Skechers Glide-Step Sole Running Shoe — Grey"
+ },
+ {
+  "codigo": "DOM-13082",
+  "nombre": "Skechers Glide-Step Vortex Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13083",
+  "nombre": "Skechers Glide-Step Vortex Running Shoe — Light Blue"
+ },
+ {
+  "codigo": "DOM-13084",
+  "nombre": "Skechers Slip-Ins Arch Fit Summits Running Shoe — Pale Pink"
+ },
+ {
+  "codigo": "DOM-13085",
+  "nombre": "Skechers Slip-Ins Arch Fit Summits Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13086",
+  "nombre": "Devotion Swift Running Sneakers — Black"
+ },
+ {
+  "codigo": "DOM-13087",
+  "nombre": "Chuck Taylor All Star Canvas Low Top Sneakers — Gray"
+ },
+ {
+  "codigo": "DOM-13088",
+  "nombre": "Swift Run 1.0 — Gold"
+ },
+ {
+  "codigo": "DOM-13089",
+  "nombre": "Duramo SL 2.0 — White"
+ },
+ {
   "codigo": "DOM-1309",
   "nombre": "Cole Haan Cloudfeel Stitchlite Tejido Hawthorn"
+ },
+ {
+  "codigo": "DOM-13090",
+  "nombre": "Stewie 4 Flawless Basketball Shoes — Lime Squeeze-Lime Sheen"
+ },
+ {
+  "codigo": "DOM-13091",
+  "nombre": "Skyrocket Lite Alt Refresh Running Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13092",
+  "nombre": "Max Cushioning Endeavour Kauska Running Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13093",
+  "nombre": "Ultra Flex 4.0 Slip-ins Running Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13094",
+  "nombre": "Aurora 3 — Pink"
+ },
+ {
+  "codigo": "DOM-13095",
+  "nombre": "Cohesion 19 Running Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13096",
+  "nombre": "Cohesion 19 Running Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13097",
+  "nombre": "Structure 26 Special Edition — Orange"
+ },
+ {
+  "codigo": "DOM-13098",
+  "nombre": "GT-1000 14 — Black"
+ },
+ {
+  "codigo": "DOM-13099",
+  "nombre": "Skechers Slip-Ins Glide Step Sole Running Shoe — Teal"
  },
  {
   "codigo": "DOM-131",
@@ -11245,40 +14129,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike AL8 Platinum Violet/White/Metallic Silver"
  },
  {
+  "codigo": "DOM-13100",
+  "nombre": "Skechers Slip-ins: GO GOLF Flight"
+ },
+ {
+  "codigo": "DOM-13101",
+  "nombre": "Omni 22 — White"
+ },
+ {
+  "codigo": "DOM-13102",
+  "nombre": "Velocity Nitro 4 Running Shoes — White"
+ },
+ {
+  "codigo": "DOM-13103",
+  "nombre": "Noosa Tri 16 — Navy"
+ },
+ {
+  "codigo": "DOM-13104",
+  "nombre": "Asics Gt-1000 14 Running Shoe — Grey"
+ },
+ {
+  "codigo": "DOM-13105",
+  "nombre": "Nike Winflo 12 Running Shoe — Pale Blue"
+ },
+ {
+  "codigo": "DOM-13106",
+  "nombre": "Nike Winflo 12 Running Shoe — White"
+ },
+ {
+  "codigo": "DOM-13107",
+  "nombre": "Prio Running and Fitness Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13108",
+  "nombre": "Prio Running and Fitness Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13109",
+  "nombre": "Prio Coast - Hands-free Barefoot Running Shoes — Medium"
+ },
+ {
   "codigo": "DOM-1311",
   "nombre": "Hey Dude Wally Funk Multi Mesh (Men) - Black/Smoke Grey"
+ },
+ {
+  "codigo": "DOM-13110",
+  "nombre": "Prio Coast - Hands-free Barefoot Running Shoes — Medium"
+ },
+ {
+  "codigo": "DOM-13111",
+  "nombre": "Brooks Defyance Max Running Shoe — Grey"
+ },
+ {
+  "codigo": "DOM-13112",
+  "nombre": "Brooks Cascadia 18 Running Shoe — Off White"
+ },
+ {
+  "codigo": "DOM-13113",
+  "nombre": "Saucony Ride 18 Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13114",
+  "nombre": "Asics Dynablast 5 Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13115",
+  "nombre": "Brooks Glycerin Stealthfit 22 Running Shoe — Off White"
+ },
+ {
+  "codigo": "DOM-13116",
+  "nombre": "Brooks Adrenaline Gts 24 Running Shoe — Black"
+ },
+ {
+  "codigo": "DOM-13117",
+  "nombre": "HEYDUDE Wendy Slip-On Casual Shoe - Onyx"
+ },
+ {
+  "codigo": "DOM-13118",
+  "nombre": "PUMA Cali Dream Athletic Shoe - White Monochrome"
+ },
+ {
+  "codigo": "DOM-13119",
+  "nombre": "Steve Madden Myles Athletic Shoe - Black Monochrome"
  },
  {
   "codigo": "DOM-1312",
   "nombre": "Vans Old Skool (Men) - Nineties Brown/Purple"
  },
  {
+  "codigo": "DOM-13120",
+  "nombre": "Converse Chuck Taylor All Star Crafted Patchwork High-Top Sneaker - Egret"
+ },
+ {
+  "codigo": "DOM-13121",
+  "nombre": "Converse Chuck Taylor All Star Lugged High-Top Sneaker - Cave Shadow"
+ },
+ {
+  "codigo": "DOM-13122",
+  "nombre": "Roxy Bayshore Plus Slip-On Casual Shoe - White"
+ },
+ {
+  "codigo": "DOM-13123",
+  "nombre": "Steve Madden Possession Platform Sneaker - Bone"
+ },
+ {
+  "codigo": "DOM-13124",
+  "nombre": "Steve Madden Charlie Rhinestone Sneaker - White / Pink — White/Pink"
+ },
+ {
+  "codigo": "DOM-13125",
+  "nombre": "Roxy Bayshore Plus Slip-On Casual Shoe - Black"
+ },
+ {
+  "codigo": "DOM-13126",
+  "nombre": "Roxy Bayshore Plus Slip-On Casual Shoe - Tan"
+ },
+ {
+  "codigo": "DOM-13127",
+  "nombre": "HEYDUDE Hudson Lift Color-Block Casual Shoe - Cream / Multicolor — Cream/Multicolor"
+ },
+ {
+  "codigo": "DOM-13128",
+  "nombre": "Fila Disruptor 2 Shine Metallic Athletic Shoe - Black / White — Black/White"
+ },
+ {
+  "codigo": "DOM-13129",
+  "nombre": "adidas Hoops Mid 3.0 Athletic Shoe - Silver"
+ },
+ {
   "codigo": "DOM-1313",
   "nombre": "Nike Court Shot (Men) - Dark Hazel/Phantom/Velvet Brown"
+ },
+ {
+  "codigo": "DOM-13130",
+  "nombre": "PUMA Suede XL Athletic Shoe - Dewdrop / Warm White — Dewdrop/Warm White"
+ },
+ {
+  "codigo": "DOM-13131",
+  "nombre": "Keds Point Platform Sneaker - Black"
+ },
+ {
+  "codigo": "DOM-13132",
+  "nombre": "Keds Point Slip Denim Platform Sneaker - Denim"
+ },
+ {
+  "codigo": "DOM-13133",
+  "nombre": "HEYDUDE Wendy Comf Suede Slip-On Casual Shoe - Tan"
+ },
+ {
+  "codigo": "DOM-13134",
+  "nombre": "HEYDUDE Cody Hi Sneaker - Black"
+ },
+ {
+  "codigo": "DOM-13135",
+  "nombre": "HEYDUDE Wendy Slip-On Casual Shoe - Pink / Daisies — Pink/Daisies"
+ },
+ {
+  "codigo": "DOM-13136",
+  "nombre": "HEYDUDE Cody Hi Sneaker - Vintage Varsity"
+ },
+ {
+  "codigo": "DOM-13137",
+  "nombre": "Rocket Dog Flair Patchwork Platform Casual Shoe - Natural"
+ },
+ {
+  "codigo": "DOM-13138",
+  "nombre": "HEYDUDE x Mean Girls Wendy Burn Book Slip-On Casual Shoe - Pink"
+ },
+ {
+  "codigo": "DOM-13139",
+  "nombre": "Converse Chuck Taylor All Star Hearts And Roses High-Top Sneaker - White"
  },
  {
   "codigo": "DOM-1314",
   "nombre": "Clarks Sailview Lace (Men) - Sand Leather"
  },
  {
+  "codigo": "DOM-13140",
+  "nombre": "KOI x The Twilight Saga Olympic Coven Crest Platform Sneaker - Black"
+ },
+ {
+  "codigo": "DOM-13141",
+  "nombre": "Converse Chuck Taylor All Star Lift High-Top Sneaker - Egret / Floral — Egret/Floral"
+ },
+ {
+  "codigo": "DOM-13142",
+  "nombre": "HEYDUDE Wendy Funk Slip-On Casual Shoe - Black / Psychedelic Patches — Black/Psychedelic Patches"
+ },
+ {
+  "codigo": "DOM-13143",
+  "nombre": "Chuck Taylor All Star Beads High-Top — White"
+ },
+ {
+  "codigo": "DOM-13144",
+  "nombre": "Jumper — Pink"
+ },
+ {
+  "codigo": "DOM-13145",
+  "nombre": "Old Skool™ — Orange"
+ },
+ {
+  "codigo": "DOM-13146",
+  "nombre": "HEYDUDE Wendy Slip-On Casual Shoe - Natural"
+ },
+ {
+  "codigo": "DOM-13147",
+  "nombre": "HEYDUDE Wendy Funk Serape Slip-On Casual Shoe - Khaki"
+ },
+ {
+  "codigo": "DOM-13148",
+  "nombre": "HEYDUDE Wendy Metallic Sparkle Slip-On Casual Shoe - Charcoal"
+ },
+ {
+  "codigo": "DOM-13149",
+  "nombre": "HEYDUDE Wendy Metallic Sparkle Slip-On Casual Shoe - Rose Gold"
+ },
+ {
   "codigo": "DOM-1315",
   "nombre": "etnies Jameson 2 Eco (Men) - (Vegan) Navy/Gum/Gold"
+ },
+ {
+  "codigo": "DOM-13150",
+  "nombre": "Dv By Dolce Vita Voyage Sneaker — Leopard"
+ },
+ {
+  "codigo": "DOM-13151",
+  "nombre": "Madden Girl Giia-Cb Sneaker — Red"
+ },
+ {
+  "codigo": "DOM-13152",
+  "nombre": "Madden Girl Giia-Cb Sneaker — Taupe"
+ },
+ {
+  "codigo": "DOM-13153",
+  "nombre": "Cell Thrill Dash Sneakers — PUMA Black-Cool Dark Gray"
+ },
+ {
+  "codigo": "DOM-13154",
+  "nombre": "Prowl Ella Lite Shoes — PUMA Black-PUMA Silver"
+ },
+ {
+  "codigo": "DOM-13155",
+  "nombre": "Softride Harli Shoes — PUMA Black-PUMA White-Galactic Gray"
+ },
+ {
+  "codigo": "DOM-13156",
+  "nombre": "Classic Slip-On - — Warm Taupe/White Checkerboard"
+ },
+ {
+  "codigo": "DOM-13157",
+  "nombre": "Classic Nylon - Womens"
+ },
+ {
+  "codigo": "DOM-13158",
+  "nombre": "Adidas Breaknet Sleek Sneaker — Silver"
+ },
+ {
+  "codigo": "DOM-13159",
+  "nombre": "Converse Chuck Taylor All Star Low Top Sneaker — Natural"
  },
  {
   "codigo": "DOM-1316",
   "nombre": "Nike Court Shot White / Flax"
  },
  {
+  "codigo": "DOM-13160",
+  "nombre": "Heydude Wendy Stretch Speckle Slip On Sneaker — Black"
+ },
+ {
+  "codigo": "DOM-13161",
+  "nombre": "Converse Chuck Taylor All Star Chrome Queen High-Top Sneaker - White"
+ },
+ {
+  "codigo": "DOM-13162",
+  "nombre": "DC Manteca 4 Skate Shoe - White / Blush — White/Blush"
+ },
+ {
+  "codigo": "DOM-13163",
+  "nombre": "DC Manteca 4 Skate Shoe - White / Multicolor — White/Multicolor"
+ },
+ {
+  "codigo": "DOM-13164",
+  "nombre": "Saucony Ride Millennium Athletic Shoe - Silver / Cream — Silver/Cream"
+ },
+ {
+  "codigo": "DOM-13165",
+  "nombre": "Saucony Ride Millennium Athletic Shoe - Pink / White — Pink/White"
+ },
+ {
+  "codigo": "DOM-13166",
+  "nombre": "adidas Sambae Athletic Shoe - White / Linen Green / Gum — White/Linen Green/Gum"
+ },
+ {
+  "codigo": "DOM-13167",
+  "nombre": "Nike Field General Athletic Shoe - Metallic Silver / Photon Dust / White / Black — Metallic Silver/Photon Dust/White/Black"
+ },
+ {
+  "codigo": "DOM-13168",
+  "nombre": "Nike Field General Suede Athletic Shoe - Pink Foam / Gum Dark Brown / Gum Dark Brown / Light Crimson — Pink Foam/Gum Dark Brown/Light Crimson"
+ },
+ {
+  "codigo": "DOM-13169",
+  "nombre": "Classic Nylon 89 - Womens"
+ },
+ {
   "codigo": "DOM-1317",
   "nombre": "SKECHERS Mighty Glow 2.0 403501N Black/Orange (Niños)"
+ },
+ {
+  "codigo": "DOM-13170",
+  "nombre": "Classic Nylon 89 - Womens"
+ },
+ {
+  "codigo": "DOM-13171",
+  "nombre": "Blowfish Malibu Sadie Sun Platform Sneaker — White"
+ },
+ {
+  "codigo": "DOM-13172",
+  "nombre": "Skechers B Flex Slip On Sneaker — Off White"
+ },
+ {
+  "codigo": "DOM-13173",
+  "nombre": "Blowfish Malibu Sadie Sun Platform Sneaker — Coral"
+ },
+ {
+  "codigo": "DOM-13174",
+  "nombre": "Dv By Dolce Vita Bynx Sneaker — Blue"
+ },
+ {
+  "codigo": "DOM-13175",
+  "nombre": "Dv By Dolce Vita Bynx Sneaker — Pale Pink"
+ },
+ {
+  "codigo": "DOM-13176",
+  "nombre": "Keds Blisswalk Lace Ombre Sneaker — Navy"
+ },
+ {
+  "codigo": "DOM-13177",
+  "nombre": "Keds Jump Kick T-Toe Sneaker — Off White"
+ },
+ {
+  "codigo": "DOM-13178",
+  "nombre": "Blowfish Malibu Leo Retro Lace Up Sneaker — Multicolor"
+ },
+ {
+  "codigo": "DOM-13179",
+  "nombre": "Keds Blisswalk Lace Ombre Sneaker — Green"
  },
  {
   "codigo": "DOM-1318",
   "nombre": "adidas Tensaur Comfort 2 Pink Fusion/Clear Pink/White (Niños)"
  },
  {
+  "codigo": "DOM-13180",
+  "nombre": "Dv By Dolce Vita Voyage Sneaker — Leopard"
+ },
+ {
+  "codigo": "DOM-13181",
+  "nombre": "Reebok Court Advance Sneaker — White"
+ },
+ {
+  "codigo": "DOM-13182",
+  "nombre": "Reebok Fiori Sneaker — Silver"
+ },
+ {
+  "codigo": "DOM-13183",
+  "nombre": "Reebok Club C 85 Athletic Shoe - White / Light Grey"
+ },
+ {
+  "codigo": "DOM-13184",
+  "nombre": "Reebok Classic Leather Athletic Shoe - Black / Gum — Black/Gum"
+ },
+ {
+  "codigo": "DOM-13185",
+  "nombre": "Reebok Classic Leather Athletic Shoe - White / Gum — White/Gum"
+ },
+ {
+  "codigo": "DOM-13186",
+  "nombre": "Reebok Club C Vintage 85 Athletic Shoe - Chalk / Alabaster / Glen Green — Chalk/Alabaster/Glen Green"
+ },
+ {
+  "codigo": "DOM-13187",
+  "nombre": "PUMA H-Street OG Sneaker - PUMA Black / PUMA Silver — PUMA Black/PUMA Silver"
+ },
+ {
+  "codigo": "DOM-13188",
+  "nombre": "PUMA H-Street OG Sneaker - Fizzy Green / PUMA Silver — Fizzy Green/PUMA Silver"
+ },
+ {
+  "codigo": "DOM-13189",
+  "nombre": "PUMA H-Street OG Sneaker - Frosted Ivory / PUMA Silver — Frosted Ivory/PUMA Silver"
+ },
+ {
   "codigo": "DOM-1319",
   "nombre": "New Balance DynaSoft 468 v1 Slip-On Daybreak/Cosmic Jade (Niños)"
+ },
+ {
+  "codigo": "DOM-13190",
+  "nombre": "PUMA H-Street OG Sneaker - Poison Pink / PUMA Silver — Poison Pink/PUMA Silver"
+ },
+ {
+  "codigo": "DOM-13191",
+  "nombre": "PUMA H-Street OG Sneaker - Sandstone / Chocolate Brown — Sandstone/Chocolate Brown"
+ },
+ {
+  "codigo": "DOM-13192",
+  "nombre": "Converse Chuck Taylor All Star Lift Boho Floral High-Top Sneaker - Vintage White / Summit Pink — Vintage White/Summit Pink"
+ },
+ {
+  "codigo": "DOM-13193",
+  "nombre": "Converse Chuck Taylor All Star Lift Bows & Rings High-Top Sneaker - Black"
+ },
+ {
+  "codigo": "DOM-13194",
+  "nombre": "UGG® Lo Lowmel Sneaker - Mustard Seed"
+ },
+ {
+  "codigo": "DOM-13195",
+  "nombre": "Nike P-6000 Athletic Shoe - Summit White / Silt Red / Peony / Team Crimson — Summit White/Silt Red/Peony/Team Crimson"
+ },
+ {
+  "codigo": "DOM-13196",
+  "nombre": "Saucony ProGrid Guide 7 Athletic Shoe - Grey / Green / Pink — Grey/Green/Pink"
+ },
+ {
+  "codigo": "DOM-13197",
+  "nombre": "Saucony ProGrid Guide 7 Athletic Shoe - White / Peach — White/Peach"
+ },
+ {
+  "codigo": "DOM-13198",
+  "nombre": "Gola Classics Elan Sneaker - Candy / White — Candy/White"
+ },
+ {
+  "codigo": "DOM-13199",
+  "nombre": "Gola Classics Elan Glitz Sneaker - Bone / Gold / Dark Brown — Bone/Gold/Dark Brown"
  },
  {
   "codigo": "DOM-132",
@@ -11289,40 +14573,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Allbirds Tree Runner Go Blizzard / Bold Red / Blizzard Sole"
  },
  {
+  "codigo": "DOM-13200",
+  "nombre": "MIA Women's Bronwen Boot — Black"
+ },
+ {
+  "codigo": "DOM-13201",
+  "nombre": "Lugz Sequoia Bootie Slippers"
+ },
+ {
+  "codigo": "DOM-13202",
+  "nombre": "Clarks Hearth Kaylie — Mushroom Oily Leather"
+ },
+ {
+  "codigo": "DOM-13203",
+  "nombre": "BCBG Women's Zera Dress Bootie — Black Micro"
+ },
+ {
+  "codigo": "DOM-13204",
+  "nombre": "Dolce Vita Ramona Pull On Round Toe Booties"
+ },
+ {
+  "codigo": "DOM-13205",
+  "nombre": "BCBG Women's Zera Dress Bootie — Tan Micro"
+ },
+ {
+  "codigo": "DOM-13206",
+  "nombre": "Keds Cooper Zip Booties"
+ },
+ {
+  "codigo": "DOM-13207",
+  "nombre": "Keds Scout Boot III Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-13208",
+  "nombre": "Keds Scout Boot III SP Twill Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-13209",
+  "nombre": "Keds Scout IV Lottie X Rifle Paper Floral Lace Up Boots"
+ },
+ {
   "codigo": "DOM-1321",
   "nombre": "Allbirds Tree Runner Go Blizzard / Hanami Night / Blizzard Sole"
+ },
+ {
+  "codigo": "DOM-13210",
+  "nombre": "Keds Scout IV Splash Canvas Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-13211",
+  "nombre": "PUMA Mayze Round Toe Platform Chelsea Boots"
+ },
+ {
+  "codigo": "DOM-13212",
+  "nombre": "PUMA Mayze Stack Round Toe Chelsea Boots"
+ },
+ {
+  "codigo": "DOM-13213",
+  "nombre": "Sperry Maritime Step In Pull On Boots"
+ },
+ {
+  "codigo": "DOM-13214",
+  "nombre": "Sperry Maritime Step In Round Toe Pull On Boots"
+ },
+ {
+  "codigo": "DOM-13215",
+  "nombre": "Sperry Saltwater 1-Eye Duck Boots"
+ },
+ {
+  "codigo": "DOM-13216",
+  "nombre": "Sperry Saltwater Metallic Camouflage Zippered Duck Boots"
+ },
+ {
+  "codigo": "DOM-13217",
+  "nombre": "Sperry Syren Gulf Round Toe Zippered Duck Boots"
+ },
+ {
+  "codigo": "DOM-13218",
+  "nombre": "TOMS Dakota Pull On Boots"
+ },
+ {
+  "codigo": "DOM-13219",
+  "nombre": "TOMS Hyde Glitter Wedge Boots"
  },
  {
   "codigo": "DOM-1322",
   "nombre": "Nike Flex Experience Run 12 Wolf Grey / White / Iron Grey"
  },
  {
+  "codigo": "DOM-13220",
+  "nombre": "Cole Haan Generation Zerogrand Pull On Round Toe Boot"
+ },
+ {
+  "codigo": "DOM-13221",
+  "nombre": "Avia Avi-Canyon Slip Resistant Soft Toe Lace Up Work Boot"
+ },
+ {
+  "codigo": "DOM-13222",
+  "nombre": "Bearpaw Marina Snow Boots"
+ },
+ {
+  "codigo": "DOM-13223",
+  "nombre": "Keds Camp II Lace Up Snow Boots"
+ },
+ {
+  "codigo": "DOM-13224",
+  "nombre": "Keds Scout Boot III SP Twill Lace Up Boots — Green"
+ },
+ {
+  "codigo": "DOM-13225",
+  "nombre": "PUMA Mayze Stack Round Toe Pull On Platform Chelsea Boots"
+ },
+ {
+  "codigo": "DOM-13226",
+  "nombre": "PUMA Mayze Wellis Chelsea Boots"
+ },
+ {
+  "codigo": "DOM-13227",
+  "nombre": "Sperry Maritime Repel Zippered Snow Boots"
+ },
+ {
+  "codigo": "DOM-13228",
+  "nombre": "Sperry Maritime Step In Pull On Boots — Black"
+ },
+ {
+  "codigo": "DOM-13229",
+  "nombre": "Sperry Saltwater Heel Round Toe Lace Up Boots"
+ },
+ {
   "codigo": "DOM-1323",
   "nombre": "Reebok Walk Ultra 7 DMX Max White / Cold Grey / Collegiate Royal"
+ },
+ {
+  "codigo": "DOM-13230",
+  "nombre": "Sperry Saltwater Tall Duck Boots"
+ },
+ {
+  "codigo": "DOM-13231",
+  "nombre": "Cole Haan Addie Round Toe Zippered Boot"
+ },
+ {
+  "codigo": "DOM-13232",
+  "nombre": "Cole Haan Reid Waterproof Round Toe Chelsea Boot"
+ },
+ {
+  "codigo": "DOM-13233",
+  "nombre": "PUMA Mayze Round Toe Pull On Chelsea Booties"
+ },
+ {
+  "codigo": "DOM-13234",
+  "nombre": "TOMS Kelsey Wedge Boots"
+ },
+ {
+  "codigo": "DOM-13235",
+  "nombre": "TOMS Alpine Winter Booties"
+ },
+ {
+  "codigo": "DOM-13236",
+  "nombre": "Cole Haan Isabelle Over The Knee Round Toe Zippered Boot"
+ },
+ {
+  "codigo": "DOM-13237",
+  "nombre": "Dingo Gypsy Studded Fringe Metallic Snip Toe Pull On Cowboy Boots"
+ },
+ {
+  "codigo": "DOM-13238",
+  "nombre": "Dingo Live A Little Cow Pointed Toe Pull On Cowboy Boots"
+ },
+ {
+  "codigo": "DOM-13239",
+  "nombre": "Dingo Primrose Floral Embroidered Metallic Snip Toe Pull On Cowboy Booties"
  },
  {
   "codigo": "DOM-1324",
   "nombre": "Skechers BOBS B Flex - Arch Comfort Edge (Men) - Chocolate"
  },
  {
+  "codigo": "DOM-13240",
+  "nombre": "LifeStride Women's Maya Ankle Bootie — Silver Faux Leather"
+ },
+ {
+  "codigo": "DOM-13241",
+  "nombre": "Franco Sarto Franco Delani Block Heel Bootie — Black Faux Suede"
+ },
+ {
+  "codigo": "DOM-13242",
+  "nombre": "Journee Collection SANZI ZIP-UP BOOTIES IN FAUX SUEDE - Taupe"
+ },
+ {
+  "codigo": "DOM-13243",
+  "nombre": "Billini Billini Urson Boots Tan"
+ },
+ {
+  "codigo": "DOM-13244",
+  "nombre": "Public Desire UK Dusty Beige Chunky Sole Faux Suede Fold Over Boots"
+ },
+ {
+  "codigo": "DOM-13245",
+  "nombre": "Ryka Layla Bootie — Black Microfiber Fabric"
+ },
+ {
+  "codigo": "DOM-13246",
+  "nombre": "Cole Haan Teegan Pointed Toe Zippered Bootie"
+ },
+ {
+  "codigo": "DOM-13247",
+  "nombre": "Windsor Sleek Stance Faux Leather Stiletto Boots"
+ },
+ {
+  "codigo": "DOM-13248",
+  "nombre": "Teva ANAYA BOOTIE RR — Brown"
+ },
+ {
+  "codigo": "DOM-13249",
+  "nombre": "Blowfish Malibu Women's Antwerp Sneaker Boot — Charcoal"
+ },
+ {
   "codigo": "DOM-1325",
   "nombre": "PUMA Homura OG+ Shoes (Men) - Misty Pink/Dark Rose"
+ },
+ {
+  "codigo": "DOM-13250",
+  "nombre": "Franco Sarto Franco Delani Block Heel Bootie — Charcoal Grey Faux Suede"
+ },
+ {
+  "codigo": "DOM-13251",
+  "nombre": "Journee THADA SLIPPER BOOTIE - Chestnut"
+ },
+ {
+  "codigo": "DOM-13252",
+  "nombre": "Princess Polly Achillies Riding Boots Black"
+ },
+ {
+  "codigo": "DOM-13253",
+  "nombre": "Public Desire UK Audrina Black Suede Block Heel Knee High Sock Boots"
+ },
+ {
+  "codigo": "DOM-13254",
+  "nombre": "Ryka Layla Bootie — Fudge Brown Microfiber Fabric"
+ },
+ {
+  "codigo": "DOM-13255",
+  "nombre": "Timberland Courmayeur Valley Round Toe Pull On Boots"
+ },
+ {
+  "codigo": "DOM-13256",
+  "nombre": "Windsor City Sleek Knee High Stiletto Boots"
+ },
+ {
+  "codigo": "DOM-13257",
+  "nombre": "Cougar Villa — Almond"
+ },
+ {
+  "codigo": "DOM-13258",
+  "nombre": "Blowfish Malibu Women's Antwerp Sneaker Boot — Mushroom"
+ },
+ {
+  "codigo": "DOM-13259",
+  "nombre": "Franco Sarto Franco Flexa Jael Block Heel Bootie — Black Croco Print Faux Leather"
  },
  {
   "codigo": "DOM-1326",
   "nombre": "Nike Air Monarch IV (Men) - Moon Particle/Dark Hazel/Black"
  },
  {
+  "codigo": "DOM-13260",
+  "nombre": "Journee BRAYLEE WESTERN ANKLE BOOTIES - Black"
+ },
+ {
+  "codigo": "DOM-13261",
+  "nombre": "Princess Polly Hardy Boots Black"
+ },
+ {
+  "codigo": "DOM-13262",
+  "nombre": "Public Desire UK Bryant Black Pu Chunky Sole Elasticated Knee High Boots"
+ },
+ {
+  "codigo": "DOM-13263",
+  "nombre": "Ryka Vivie Ankle Bootie — Black Microfiber"
+ },
+ {
+  "codigo": "DOM-13264",
+  "nombre": "Dingo Gypsy Embroidered Studded Fringe Metallic Snip Toe Cowboy Boots"
+ },
+ {
+  "codigo": "DOM-13265",
+  "nombre": "Windsor Edge Of Midnight Lace Up Knee High Boots"
+ },
+ {
+  "codigo": "DOM-13266",
+  "nombre": "Cobb Hill Serri — Medium Brown Leather"
+ },
+ {
+  "codigo": "DOM-13267",
+  "nombre": "Blowfish Malibu Women's Kinsley Lace Up Bootie — Black/Grey"
+ },
+ {
+  "codigo": "DOM-13268",
+  "nombre": "Franco Sarto Franco Flexa Jael Block Heel Bootie — Black Faux Leather"
+ },
+ {
+  "codigo": "DOM-13269",
+  "nombre": "Journee BRAYLEE WESTERN ANKLE BOOTIES - Snake Brown"
+ },
+ {
   "codigo": "DOM-1327",
   "nombre": "Nike Offcourt Adjust (Men) - Black/White/Black"
+ },
+ {
+  "codigo": "DOM-13270",
+  "nombre": "Lemonade Allora Western Boots Beige Faux Suede"
+ },
+ {
+  "codigo": "DOM-13271",
+  "nombre": "Public Desire UK Finery Ecru Croc Metal Toe Capped Zip Up Knee High Stiletto Boots"
+ },
+ {
+  "codigo": "DOM-13272",
+  "nombre": "Ryka Vivie Ankle Bootie — Brownie Brown Microfiber"
+ },
+ {
+  "codigo": "DOM-13273",
+  "nombre": "Muck Boot Original Lace Up Duck Boots"
+ },
+ {
+  "codigo": "DOM-13274",
+  "nombre": "Windsor Extra Attitude Western Belted Boots"
+ },
+ {
+  "codigo": "DOM-13275",
+  "nombre": "Journee Collection Vienna Boot — Taupe"
+ },
+ {
+  "codigo": "DOM-13276",
+  "nombre": "Cliffs by White Mountain Women's Mingo Chelsea Boot — Dark Brown"
+ },
+ {
+  "codigo": "DOM-13277",
+  "nombre": "Journee CHEYENNE WESTERN BOOTIES - Black"
+ },
+ {
+  "codigo": "DOM-13278",
+  "nombre": "Billini Billini Harlen Knee High Boots Brunette"
+ },
+ {
+  "codigo": "DOM-13279",
+  "nombre": "Public Desire UK Zelda Black Pocket and Zip Detail Over the Knee Boots"
  },
  {
   "codigo": "DOM-1328",
   "nombre": "Under Armour Ignite Pro 8 Fixed Band Slides (Men) - Black/Black/Black"
  },
  {
+  "codigo": "DOM-13280",
+  "nombre": "Clarks WOMEN'S WALLABEE BOOT"
+ },
+ {
+  "codigo": "DOM-13281",
+  "nombre": "Eastland Women's Willa Chelsea Boot — Black/Red"
+ },
+ {
+  "codigo": "DOM-13282",
+  "nombre": "Franco Sarto Franco Flexa Blix Knee High Boot — Black Faux Leather"
+ },
+ {
+  "codigo": "DOM-13283",
+  "nombre": "Journee Collection KAISON THIGH HIGH BOOTS IN FAUX SUEDE - Black Faux Suede"
+ },
+ {
+  "codigo": "DOM-13284",
+  "nombre": "DR. MARTENS 1460 Smooth Leather Lace Up Boots"
+ },
+ {
+  "codigo": "DOM-13285",
+  "nombre": "Princess Polly Renzo Knee High Boots Brown"
+ },
+ {
+  "codigo": "DOM-13286",
+  "nombre": "CATERPILLAR Striver Chelsea Steel Toe WP - Mens"
+ },
+ {
+  "codigo": "DOM-13287",
+  "nombre": "Vans Vans OTW Chukka 49 Vibram Suede Leather 'Oil Green'"
+ },
+ {
+  "codigo": "DOM-13288",
+  "nombre": "Lucky Brand Basel — Black"
+ },
+ {
+  "codigo": "DOM-13289",
+  "nombre": "The North Face The North Face Nuptse Traction Booties"
+ },
+ {
   "codigo": "DOM-1329",
   "nombre": "Nike Marina (Men) - Light Smoke Grey/Black"
+ },
+ {
+  "codigo": "DOM-13290",
+  "nombre": "Franco Sarto Women's Flexa Shara Knee High Boot — Black Croco Print Leather"
+ },
+ {
+  "codigo": "DOM-13291",
+  "nombre": "Franco Sarto Franco Flexa Blix Knee High Boot — Black Faux Suede"
+ },
+ {
+  "codigo": "DOM-13292",
+  "nombre": "Journee Collection KAISON THIGH HIGH BOOTS IN FAUX SUEDE - Black PU"
+ },
+ {
+  "codigo": "DOM-13293",
+  "nombre": "DR. MARTENS 2976 BEX Smooth Leather Chelsea Boots"
+ },
+ {
+  "codigo": "DOM-13294",
+  "nombre": "Princess Polly Lishaa Knee High Boots Black"
+ },
+ {
+  "codigo": "DOM-13295",
+  "nombre": "Justin Original Workboots Rush 6 Inch Waterproof Soft Toe Work Boots"
+ },
+ {
+  "codigo": "DOM-13296",
+  "nombre": "CATERPILLAR Reclaimer Chelsea WP - Mens"
+ },
+ {
+  "codigo": "DOM-13297",
+  "nombre": "Steve Madden Daney — Grey Suede"
+ },
+ {
+  "codigo": "DOM-13298",
+  "nombre": "DV Dolce Vita Women's Gotie Jelly Sandal Tortoise — Tortoise"
+ },
+ {
+  "codigo": "DOM-13299",
+  "nombre": "Public Desire UK Confession Lime Metallic Diamante Broach Detail Slingback Court Shoes"
  },
  {
   "codigo": "DOM-133",
@@ -11333,44 +15017,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Under Armour Locker IV (Men) - Black/White"
  },
  {
+  "codigo": "DOM-13300",
+  "nombre": "Windsor Save A Dance Block Heels"
+ },
+ {
+  "codigo": "DOM-13301",
+  "nombre": "Feetures Elite Ultra Light Invisible — Blue"
+ },
+ {
+  "codigo": "DOM-13302",
+  "nombre": "Jellypop Women's Casati Sandal Black — Black"
+ },
+ {
+  "codigo": "DOM-13303",
+  "nombre": "Public Desire UK Aspen Hot Pink Knot Strap Lace Up Square Toe Stiletto Heels"
+ },
+ {
+  "codigo": "DOM-13304",
+  "nombre": "Sperry Conway Metallic Boat Shoes"
+ },
+ {
+  "codigo": "DOM-13305",
+  "nombre": "Windsor Crystal Hour Strappy Block Heels"
+ },
+ {
+  "codigo": "DOM-13306",
+  "nombre": "Journee Collection Hensley — Silver"
+ },
+ {
+  "codigo": "DOM-13307",
+  "nombre": "Jellypop Women's Malay Sandal Tan — Tan"
+ },
+ {
+  "codigo": "DOM-13308",
+  "nombre": "Public Desire UK Glow Up White PU Knotted Strappy Lace Up Square Toe Stiletto Heels"
+ },
+ {
+  "codigo": "DOM-13309",
+  "nombre": "MIA Keona Studded Flat Slide Sandals"
+ },
+ {
   "codigo": "DOM-1331",
   "nombre": "Nike Court Vision Low FL (Men) - Black/White/Gum Med Brown"
+ },
+ {
+  "codigo": "DOM-13310",
+  "nombre": "Windsor Going Somewhere Platform Suede Heels"
+ },
+ {
+  "codigo": "DOM-13311",
+  "nombre": "Dolce Vita Genora — Gray"
+ },
+ {
+  "codigo": "DOM-13312",
+  "nombre": "Jellypop Women's Bianka Sandal White Multi — White Multi"
+ },
+ {
+  "codigo": "DOM-13313",
+  "nombre": "Public Desire UK Dax Gold PU Barely There Lace Up Square Toe Stiletto Heels"
+ },
+ {
+  "codigo": "DOM-13314",
+  "nombre": "Shu Shop Bridget Rhinestone Slide Sandals"
+ },
+ {
+  "codigo": "DOM-13315",
+  "nombre": "Windsor Wild Card Energy Zebra Slingback Heels"
+ },
+ {
+  "codigo": "DOM-13316",
+  "nombre": "Steve Madden Tracie — Silver"
+ },
+ {
+  "codigo": "DOM-13317",
+  "nombre": "Jellypop Women's Lovat Wedge Sandal Pink Multi — Pink Multi"
+ },
+ {
+  "codigo": "DOM-13318",
+  "nombre": "Public Desire UK Seren Black Pu Strappy Square Toe Star Stiletto Heels"
+ },
+ {
+  "codigo": "DOM-13319",
+  "nombre": "MIA Kathalina Studded Gladiator Sandals"
  },
  {
   "codigo": "DOM-1332",
   "nombre": "Nike V5 Runner (Men) - Thunder Blue/Sail/Pale Ivory/Cool Grey"
  },
  {
+  "codigo": "DOM-13320",
+  "nombre": "Windsor Dressed To Fly Butterfly Wedges"
+ },
+ {
+  "codigo": "DOM-13321",
+  "nombre": "Steve Madden Momentum — Multi"
+ },
+ {
+  "codigo": "DOM-13322",
+  "nombre": "Madden Girl Women's Brynn Pump Black Patent — Black Patent"
+ },
+ {
+  "codigo": "DOM-13323",
+  "nombre": "Public Desire UK Leighton Pink Satin Slant Toe Block Heels"
+ },
+ {
+  "codigo": "DOM-13324",
+  "nombre": "BEACH by Matisse Stowe Platform Loafer"
+ },
+ {
+  "codigo": "DOM-13325",
+  "nombre": "Windsor Silver Lining Strappy Kitten Heels"
+ },
+ {
+  "codigo": "DOM-13326",
+  "nombre": "Madden Girl Women's Charlotte Thong Kitten Heel Sandal Nat Raffia — Nat Raffia"
+ },
+ {
+  "codigo": "DOM-13327",
+  "nombre": "Public Desire UK Tameika Wide Fit Nude Diamante Strap Barely There Mid Heels"
+ },
+ {
+  "codigo": "DOM-13328",
+  "nombre": "Easy Street Holly Studded Mules"
+ },
+ {
+  "codigo": "DOM-13329",
+  "nombre": "Windsor Point Taken Patent Kitten Heels"
+ },
+ {
   "codigo": "DOM-1333",
   "nombre": "Vans Premium Old Skool Skate Shoe - Racing Red"
+ },
+ {
+  "codigo": "DOM-13330",
+  "nombre": "Madden Girl Women's Charlotte Thong Kitten Heel Sandal Blue/White — Blue/White"
+ },
+ {
+  "codigo": "DOM-13331",
+  "nombre": "Public Desire UK Euphoria Baby Blue Patent Square Toe Lace Up Mid Heels"
+ },
+ {
+  "codigo": "DOM-13332",
+  "nombre": "Windsor Dressed For It Lace-Up Block Heels"
+ },
+ {
+  "codigo": "DOM-13333",
+  "nombre": "Madden Girl Women's Shells T-Strap Sandal Black Multi — Black Multi"
+ },
+ {
+  "codigo": "DOM-13334",
+  "nombre": "Public Desire UK Solange Black Patent Lace Up Strappy Square Toe High Heels"
+ },
+ {
+  "codigo": "DOM-13335",
+  "nombre": "MIA Zahara Studded Gladiator Strappy Sandals"
+ },
+ {
+  "codigo": "DOM-13336",
+  "nombre": "Windsor Own the Moment Patent Heeled Mules"
+ },
+ {
+  "codigo": "DOM-13337",
+  "nombre": "CIS Atheena"
+ },
+ {
+  "codigo": "DOM-13338",
+  "nombre": "Madden Girl Women's Glowen Dress Sandal Merlot Patent — Merlot Patent"
+ },
+ {
+  "codigo": "DOM-13339",
+  "nombre": "Franco Sarto Racer Slingback Silver Faux Leather — Silver Faux Leather"
  },
  {
   "codigo": "DOM-1334",
   "nombre": "Kamik Kids Seaturtle 2 (Toddler/Little Kid) — Light Gray"
  },
  {
+  "codigo": "DOM-13340",
+  "nombre": "Journee Collection BRINSLEY CUTOUT SANDALS IN PATENT - Nude Patent"
+ },
+ {
+  "codigo": "DOM-13341",
+  "nombre": "Princess Polly Billini Ayla Pointed Toe Heels Bone"
+ },
+ {
+  "codigo": "DOM-13342",
+  "nombre": "Public Desire UK Verde Black Ankle Strap Bow Detail High Heels"
+ },
+ {
+  "codigo": "DOM-13343",
+  "nombre": "Windsor Extra Extra Newspaper Print Stiletto Pumps"
+ },
+ {
+  "codigo": "DOM-13344",
+  "nombre": "Nine West Shells — Clear"
+ },
+ {
+  "codigo": "DOM-13345",
+  "nombre": "CIS Zorra"
+ },
+ {
+  "codigo": "DOM-13346",
+  "nombre": "Madden Girl Women's Glowen Dress Sandal Black Patent — Black Patent"
+ },
+ {
+  "codigo": "DOM-13347",
+  "nombre": "Sarto by Franco Sarto Flexa Winley Ballet Flat Buffalo Sequin — Buffalo Sequin"
+ },
+ {
+  "codigo": "DOM-13348",
+  "nombre": "Journee Collection BRINSLEY CUTOUT SANDALS IN PATENT - Mango"
+ },
+ {
+  "codigo": "DOM-13349",
+  "nombre": "Princess Polly Charisma Pointed Toe Heels Black"
+ },
+ {
   "codigo": "DOM-1335",
   "nombre": "PUMA Easy Rider Sneakers (Youth) — Pink/Purple"
+ },
+ {
+  "codigo": "DOM-13350",
+  "nombre": "Public Desire UK Trisha Black Mesh Bow Diamante Detail Sling Back Court Heels"
+ },
+ {
+  "codigo": "DOM-13351",
+  "nombre": "COCONUTS by Matisse Madison Platform Slip On Loafer"
+ },
+ {
+  "codigo": "DOM-13352",
+  "nombre": "Windsor Worth Dressing Up For Metallic Heels"
+ },
+ {
+  "codigo": "DOM-13353",
+  "nombre": "David Tate Icon — White"
+ },
+ {
+  "codigo": "DOM-13354",
+  "nombre": "CIS Sollenne"
+ },
+ {
+  "codigo": "DOM-13355",
+  "nombre": "Franco Sarto Emilana Sandal Gold Metallic Faux Raffia — Gold Metallic Faux Raffia"
+ },
+ {
+  "codigo": "DOM-13356",
+  "nombre": "Journee Collection BRINSLEY CUTOUT SANDALS IN PATENT - Hot Pink"
+ },
+ {
+  "codigo": "DOM-13357",
+  "nombre": "Princess Polly Avedon Heels White"
  },
  {
   "codigo": "DOM-13358",
   "nombre": "Public Desire UK Pageant Queen Silver Mirror Diamante Butterfly Detail Lace Up Pointed Toe High Heels"
  },
  {
+  "codigo": "DOM-13359",
+  "nombre": "Steve Madden Rodrigo Platform Slip On Loafers"
+ },
+ {
   "codigo": "DOM-1336",
   "nombre": "The North Face Base Camp 100 Waterproof Boots — Black"
+ },
+ {
+  "codigo": "DOM-13360",
+  "nombre": "Windsor Bow Down Rhinestone Platform Stiletto Heels"
+ },
+ {
+  "codigo": "DOM-13361",
+  "nombre": "David Tate Bride — White"
+ },
+ {
+  "codigo": "DOM-13362",
+  "nombre": "Sarto by Franco Sarto Bennet Mule Natural Beige Twisted Raffia — Natural Beige Twisted Raffia"
+ },
+ {
+  "codigo": "DOM-13363",
+  "nombre": "Journee Collection BRINSLEY CUTOUT SANDALS IN PATENT - Black Patent"
+ },
+ {
+  "codigo": "DOM-13364",
+  "nombre": "Princess Polly Lower Impact Denalia Pointed Toe Heels White Matte"
+ },
+ {
+  "codigo": "DOM-13365",
+  "nombre": "Public Desire UK Aluna Tan Faux Suede Wooden Wedge Heels"
+ },
+ {
+  "codigo": "DOM-13366",
+  "nombre": "Windsor Flirting With Glam Rhinestone Stilettos"
+ },
+ {
+  "codigo": "DOM-13367",
+  "nombre": "LifeStride Florence Bow Strappy Sandals — Blue"
+ },
+ {
+  "codigo": "DOM-13368",
+  "nombre": "Jessica Simpson Women's Orelis Platform Dress Sandal Black — Black"
+ },
+ {
+  "codigo": "DOM-13369",
+  "nombre": "Journee Collection ARRINA BASIC PATENT SLIDE SANDALS IN WIDE - Champagne PU"
  },
  {
   "codigo": "DOM-1337",
   "nombre": "Jordan Air Jordan 9 Retro Boot 'Anthracite' — Black"
  },
  {
+  "codigo": "DOM-13370",
+  "nombre": "Princess Polly Kamiko Wedged Heels Tan Faux Suede"
+ },
+ {
+  "codigo": "DOM-13371",
+  "nombre": "Public Desire UK Disco Ball Black Buckle Embellished Detail Platform Heels"
+ },
+ {
+  "codigo": "DOM-13372",
+  "nombre": "COCONUTS by Matisse Minnieplatform Loafer"
+ },
+ {
+  "codigo": "DOM-13373",
+  "nombre": "LifeStride Cheyenne 2 Slingback Sandal Platino Gold Mesh — Platino Gold Mesh"
+ },
+ {
+  "codigo": "DOM-13374",
+  "nombre": "Franco Sarto Destin Slingback Soft Blue Patent Faux Leather — Soft Blue Patent Faux Leather"
+ },
+ {
+  "codigo": "DOM-13375",
+  "nombre": "Bella Vita Aliette Rhinestone Block Heeled Evening Sandal"
+ },
+ {
+  "codigo": "DOM-13376",
+  "nombre": "Steve Madden Cyra — Black"
+ },
+ {
+  "codigo": "DOM-13377",
+  "nombre": "LifeStride Cheyenne 2 Slingback Sandal White Mesh — White Mesh"
+ },
+ {
+  "codigo": "DOM-13378",
+  "nombre": "Franco Sarto Racer Slingback Wicker Faux Leather Weave — Wicker Faux Leather Weave"
+ },
+ {
+  "codigo": "DOM-13379",
+  "nombre": "LifeStride Cheyenne 2 Slingback Sandal Lux Navy Mesh — Lux Navy Mesh"
+ },
+ {
   "codigo": "DOM-1338",
   "nombre": "Jordan Air Jordan 1 Mid SE — Grey"
  },
  {
+  "codigo": "DOM-13380",
+  "nombre": "Steve Madden Mino Pearl Mesh Flats"
+ },
+ {
+  "codigo": "DOM-13381",
+  "nombre": "Seychelles Applause Metallic Woven Sandal — Gold"
+ },
+ {
+  "codigo": "DOM-13382",
+  "nombre": "LifeStride Cheyenne 2 Slingback Sandal Silver Mesh — Silver Mesh"
+ },
+ {
+  "codigo": "DOM-13383",
+  "nombre": "Franco Sarto Flexa Junia Pointed Toe Pump Brown Zebra Print Calf Hair — Brown Zebra Print Calf Hair"
+ },
+ {
+  "codigo": "DOM-13384",
+  "nombre": "Bella Vita Majesty Rhinestone Sandal"
+ },
+ {
+  "codigo": "DOM-13385",
+  "nombre": "Vince Camuto Arlein Strappy High Heel Sandals — Orange"
+ },
+ {
+  "codigo": "DOM-13386",
+  "nombre": "LifeStride Women's Tracy Strappy Pump True Blush Patent Leather — True Blush Patent Leather"
+ },
+ {
+  "codigo": "DOM-13387",
+  "nombre": "Franco Sarto Racer 2 Slingback Pump Brown Multi Woven Fabric — Brown Multi Woven Fabric"
+ },
+ {
+  "codigo": "DOM-13388",
+  "nombre": "Roper Riley Flextra Glitter — Gray"
+ },
+ {
+  "codigo": "DOM-13389",
+  "nombre": "Journee Women's Suvi Mary Jane Patent/Black — Patent/Black"
+ },
+ {
   "codigo": "DOM-1339",
   "nombre": "Jordan Air Jordan 12 Retro 'Fireside' — Brown"
+ },
+ {
+  "codigo": "DOM-13390",
+  "nombre": "Public Desire UK Dream Silver Mirror Strappy Diamante Heel Detail Pointed Toe Stiletto"
+ },
+ {
+  "codigo": "DOM-13391",
+  "nombre": "Betsey Johnson Pratt — Silver"
+ },
+ {
+  "codigo": "DOM-13392",
+  "nombre": "Kenneth Cole Perfect — Brown"
+ },
+ {
+  "codigo": "DOM-13393",
+  "nombre": "Franco Sarto Franco Christina Ballet Flat Black Leather"
+ },
+ {
+  "codigo": "DOM-13394",
+  "nombre": "Tommy Hilfiger Maxline Slip On Loafer Dark Red"
+ },
+ {
+  "codigo": "DOM-13395",
+  "nombre": "Journee Collection WINDY STATEMENT MARY JANE PUMP HEELS IN NARROW - Red"
+ },
+ {
+  "codigo": "DOM-13396",
+  "nombre": "Propet TravelFit Slip On Flats"
+ },
+ {
+  "codigo": "DOM-13397",
+  "nombre": "Windsor Sassy Sleek Square Toe Kitten Heels"
+ },
+ {
+  "codigo": "DOM-13398",
+  "nombre": "Dr. Scholl's Nice Day Max Loafer/Moc Shoes — Light Grey"
+ },
+ {
+  "codigo": "DOM-13399",
+  "nombre": "Franco Sarto Franco Christina Ballet Flat Soft Blush Pink Leather"
  },
  {
   "codigo": "DOM-134",
@@ -11381,40 +15461,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Converse Shai 001 'Peek A Boo' — Black"
  },
  {
+  "codigo": "DOM-13400",
+  "nombre": "Sam and Libby Fredi Mary Jane Flat Cream Linen"
+ },
+ {
+  "codigo": "DOM-13401",
+  "nombre": "Journee Collection WINDY STATEMENT MARY JANE PUMP HEELS IN NARROW - Tan"
+ },
+ {
+  "codigo": "DOM-13402",
+  "nombre": "Propet Cameo Cut Out Slip On Flats"
+ },
+ {
+  "codigo": "DOM-13403",
+  "nombre": "Sam and Libby Carlin Ballet Flat Mauve Mist/Cream"
+ },
+ {
+  "codigo": "DOM-13404",
+  "nombre": "Sperry Conway Kiltie Loafers"
+ },
+ {
+  "codigo": "DOM-13405",
+  "nombre": "Windsor Sleek Little Buckle Kitten Heels"
+ },
+ {
+  "codigo": "DOM-13406",
+  "nombre": "Sam and Libby Fredi Mary Jane Flat Iris Sage Multi"
+ },
+ {
+  "codigo": "DOM-13407",
+  "nombre": "Propet Mabel Loafers"
+ },
+ {
+  "codigo": "DOM-13408",
+  "nombre": "LifeStride Zoey Loafer Bone White Faux Leather"
+ },
+ {
+  "codigo": "DOM-13409",
+  "nombre": "TOMS Olivia Ballet Flats"
+ },
+ {
   "codigo": "DOM-1341",
   "nombre": "Nike Air Griffey Max 1 'Cincinnati Reds' — Red"
+ },
+ {
+  "codigo": "DOM-13410",
+  "nombre": "Sam and Libby Nadia Loafer Black"
+ },
+ {
+  "codigo": "DOM-13411",
+  "nombre": "Easy Street Megafresh Cut Out Slip On Flats"
+ },
+ {
+  "codigo": "DOM-13412",
+  "nombre": "Sam and Libby Faith Mary Jane Flat Crema"
+ },
+ {
+  "codigo": "DOM-13413",
+  "nombre": "Journee Collection ZIMIA SQUARE TOE FLATS IN VEGAN LEATHER - Aqua"
+ },
+ {
+  "codigo": "DOM-13414",
+  "nombre": "MIA Ulani Mary Jane Ballet Flats"
+ },
+ {
+  "codigo": "DOM-13415",
+  "nombre": "DV Dolce Vita Mulaney Woven Mary Jane Ballet Flat Ivory"
+ },
+ {
+  "codigo": "DOM-13416",
+  "nombre": "Journee Collection OKENNA MARY JANE PUMP HEELS - Yellow"
+ },
+ {
+  "codigo": "DOM-13417",
+  "nombre": "LifeStride Zee Loafer Grey"
+ },
+ {
+  "codigo": "DOM-13418",
+  "nombre": "TOMS Redondo Slip On Flats"
+ },
+ {
+  "codigo": "DOM-13419",
+  "nombre": "DV Dolce Vita Klara Slingback Pump Camel"
  },
  {
   "codigo": "DOM-1342",
   "nombre": "Nike Dunk Low 'Shibuya Halloween' — Black"
  },
  {
+  "codigo": "DOM-13420",
+  "nombre": "Journee Collection OLINA T-STRAP PUMP HEELS IN WIDE - Nude"
+ },
+ {
+  "codigo": "DOM-13421",
+  "nombre": "PUMA Illiana Ballet Flats"
+ },
+ {
+  "codigo": "DOM-13422",
+  "nombre": "Madden Girl Grovee Pump Black Micro"
+ },
+ {
+  "codigo": "DOM-13423",
+  "nombre": "Journee Collection OLINA T-STRAP PUMP HEELS IN NARROW - Black"
+ },
+ {
+  "codigo": "DOM-13424",
+  "nombre": "Madden Girl Grovee Pump Taupe Fab"
+ },
+ {
+  "codigo": "DOM-13425",
+  "nombre": "Chinese Laundry Avery Mary Jane Ballet Flat"
+ },
+ {
+  "codigo": "DOM-13426",
+  "nombre": "Madden Girl Prep Loafer Black"
+ },
+ {
+  "codigo": "DOM-13427",
+  "nombre": "BC Footwear Somebody New Ballet Flat"
+ },
+ {
+  "codigo": "DOM-13428",
+  "nombre": "Madden Girl Prep Loafer Bordeaux Box"
+ },
+ {
+  "codigo": "DOM-13429",
+  "nombre": "LifeStride Malta 3 Loafer California Wine Faux Leather"
+ },
+ {
   "codigo": "DOM-1343",
   "nombre": "Nike Air Force 1 Low QS 'Team Red' — Red"
+ },
+ {
+  "codigo": "DOM-13430",
+  "nombre": "COCONUTS by Matisse Bronx Mary Jane Ballet Flat"
+ },
+ {
+  "codigo": "DOM-13431",
+  "nombre": "Jessica Simpson Aanya 3 Pump Chai Latte"
+ },
+ {
+  "codigo": "DOM-13432",
+  "nombre": "MIA Roz Ankle Strap Ballet Flats"
+ },
+ {
+  "codigo": "DOM-13433",
+  "nombre": "Sarto by Franco Sarto Sarto Lainey Loafer Soft Blue Leather"
+ },
+ {
+  "codigo": "DOM-13434",
+  "nombre": "Journee Silas Loafer Black"
+ },
+ {
+  "codigo": "DOM-13435",
+  "nombre": "Blowfish Malibu Walk On Oxfords — Black"
+ },
+ {
+  "codigo": "DOM-13436",
+  "nombre": "Franco Sarto Franco Abigail Ballet Flat Beige/Black Tweed Fabric"
+ },
+ {
+  "codigo": "DOM-13437",
+  "nombre": "Journee Marci Loafer Black"
+ },
+ {
+  "codigo": "DOM-13438",
+  "nombre": "Journee Collection OKENNA MARY JANE PUMP HEELS IN WIDE - Pine"
+ },
+ {
+  "codigo": "DOM-13439",
+  "nombre": "LifeStride Kandi Loafers/Moc Shoes — Fire Red"
  },
  {
   "codigo": "DOM-1344",
   "nombre": "Jordan Air Jordan 5 Retro 'Halloween' — Black"
  },
  {
+  "codigo": "DOM-13440",
+  "nombre": "Franco Sarto Franco Marylee Mary Jane Flat Soft Blue Linen"
+ },
+ {
+  "codigo": "DOM-13441",
+  "nombre": "Journee Marci Loafer Taupe"
+ },
+ {
+  "codigo": "DOM-13442",
+  "nombre": "LifeStride Kandi Loafers/Moc Shoes — Black"
+ },
+ {
+  "codigo": "DOM-13443",
+  "nombre": "Franco Sarto Franco Marylee Mary Jane Flat Soft Blush Faux Leather"
+ },
+ {
+  "codigo": "DOM-13444",
+  "nombre": "Journee Silas Loafer Brown"
+ },
+ {
+  "codigo": "DOM-13445",
+  "nombre": "VANELi Simply Slip On Loafers"
+ },
+ {
+  "codigo": "DOM-13446",
+  "nombre": "LifeStride Sonoma 2 Loafer/Moc Shoes — Mocha Brown"
+ },
+ {
+  "codigo": "DOM-13447",
+  "nombre": "LifeStride Madelyn Mary Jane Shoes — Brown Linen"
+ },
+ {
+  "codigo": "DOM-13448",
+  "nombre": "Sarto by Franco Sarto Sarto Flexa Winley Ballet Flat Natural Beige Linen"
+ },
+ {
+  "codigo": "DOM-13449",
+  "nombre": "Journee Collection OLINA T-STRAP PUMP HEELS IN WIDE - Oxblood Suede"
+ },
+ {
   "codigo": "DOM-1345",
   "nombre": "Nike G.T. Future — Black"
+ },
+ {
+  "codigo": "DOM-13450",
+  "nombre": "TOMS Briella Ballet Flats"
+ },
+ {
+  "codigo": "DOM-13451",
+  "nombre": "Johnston & Murphy Emmalynn Bit Loafers — Gray"
+ },
+ {
+  "codigo": "DOM-13452",
+  "nombre": "Franco Sarto Franco Racer Pump Light Pink Suede"
+ },
+ {
+  "codigo": "DOM-13453",
+  "nombre": "Journee Tannya Ballet Flat Tan"
+ },
+ {
+  "codigo": "DOM-13454",
+  "nombre": "Yosi Samra Sadie Slip On Ballet Flats"
+ },
+ {
+  "codigo": "DOM-13455",
+  "nombre": "LifeStride Monica Pump Shoes — Almond Milk"
+ },
+ {
+  "codigo": "DOM-13456",
+  "nombre": "Franco Sarto Franco Carita Tassel Loafer Lapis Blue Leather"
+ },
+ {
+  "codigo": "DOM-13457",
+  "nombre": "Dr Scholls Hello Cutie Loafer Walnut/Brown"
+ },
+ {
+  "codigo": "DOM-13458",
+  "nombre": "LifeStride Delight Ballet Flat — Black Smooth Leather"
+ },
+ {
+  "codigo": "DOM-13459",
+  "nombre": "Franco Sarto Franco Salino Pump Ballet Pink Suede"
  },
  {
   "codigo": "DOM-1346",
   "nombre": "Nike Air Liquid Max — Black"
  },
  {
+  "codigo": "DOM-13460",
+  "nombre": "MIA Corrine Ballet Flat Red"
+ },
+ {
+  "codigo": "DOM-13461",
+  "nombre": "Journee Collection MARCI LOAFER FLATS IN VEGAN LEATHER - Tan Woven"
+ },
+ {
+  "codigo": "DOM-13462",
+  "nombre": "LifeStride Alessandra Pumps Shoes — Black"
+ },
+ {
+  "codigo": "DOM-13463",
+  "nombre": "Sarto by Franco Sarto Sarto Tawny Pump Fuchsia Suede"
+ },
+ {
+  "codigo": "DOM-13464",
+  "nombre": "DV Dolce Vita Klara Slingback Pump Black"
+ },
+ {
+  "codigo": "DOM-13465",
+  "nombre": "Journee SAVANNAH BALLET FLATS - Black"
+ },
+ {
+  "codigo": "DOM-13466",
+  "nombre": "Bella Vita Rhea Ballet Flat"
+ },
+ {
+  "codigo": "DOM-13467",
+  "nombre": "Michael Kors Alina Flex Kitten Pump — Rosewood"
+ },
+ {
+  "codigo": "DOM-13468",
+  "nombre": "Sarto by Franco Sarto Sarto Amelie Slingback Soft Blush Pink Leather"
+ },
+ {
+  "codigo": "DOM-13469",
+  "nombre": "Madden Girl Dominic Mary Jane Burgundy"
+ },
+ {
   "codigo": "DOM-1347",
   "nombre": "Nike Air Force 1 '07 Low 'Ghostface' — Black"
+ },
+ {
+  "codigo": "DOM-13470",
+  "nombre": "Franco Sarto Franco Oakes Mary Jane Bordo Red Leather"
+ },
+ {
+  "codigo": "DOM-13471",
+  "nombre": "Franco Sarto Pura Slingback Soft Blush Leather"
+ },
+ {
+  "codigo": "DOM-13472",
+  "nombre": "Clarks Lynell Bay Loafer"
+ },
+ {
+  "codigo": "DOM-13473",
+  "nombre": "Franco Sarto L-Rainey Pump Shoes — Dark Brown"
+ },
+ {
+  "codigo": "DOM-13474",
+  "nombre": "Franco Sarto Franco Oakes Mary Jane Hickory Brown Suede"
+ },
+ {
+  "codigo": "DOM-13475",
+  "nombre": "Franco Sarto Pura Slingback Black Leather"
+ },
+ {
+  "codigo": "DOM-13476",
+  "nombre": "Bella Vita Kimiko Slip On Flat"
+ },
+ {
+  "codigo": "DOM-13477",
+  "nombre": "Johnston & Murphy Gillian Loafers — Coral"
+ },
+ {
+  "codigo": "DOM-13478",
+  "nombre": "Vince Camuto Hamden Buckle Slingback Pumps — Pomegranate"
+ },
+ {
+  "codigo": "DOM-13479",
+  "nombre": "Calvin Klein Gabrianna Pump Black Leather"
  },
  {
   "codigo": "DOM-1348",
   "nombre": "Nike P-6000 — Navy"
  },
  {
+  "codigo": "DOM-13480",
+  "nombre": "Calvin Klein Gabrianna Pump — Cognac 1"
+ },
+ {
+  "codigo": "DOM-13481",
+  "nombre": "Vince Camuto Hamden Slingback Pumps — Brownie Multi"
+ },
+ {
+  "codigo": "DOM-13482",
+  "nombre": "Bella Vita Astro Mary Jane Flat"
+ },
+ {
+  "codigo": "DOM-13483",
+  "nombre": "Cole Haan Go-to Verley Horsebit Ballet Flats — Black Leather"
+ },
+ {
+  "codigo": "DOM-13484",
+  "nombre": "VANELi Serene Quilted Slip On Ballet Flats"
+ },
+ {
+  "codigo": "DOM-13485",
+  "nombre": "Franco Sarto Alexa Pump Shoes — Grey Synthetic"
+ },
+ {
+  "codigo": "DOM-13486",
+  "nombre": "Lauren Ralph Lauren Tasha Leather Pumps — Black"
+ },
+ {
+  "codigo": "DOM-13487",
+  "nombre": "Dolce Vita Reyes Mary Jane Ballet Flats"
+ },
+ {
+  "codigo": "DOM-13488",
+  "nombre": "Madewell The Greta Ballet Flat — Chocolate Raisin"
+ },
+ {
+  "codigo": "DOM-13489",
+  "nombre": "Franco Sarto Franco Racer Slingback Alabaster Faux Leather Weave"
+ },
+ {
   "codigo": "DOM-1349",
   "nombre": "Timberland Stacked Heritage 6-Inch Lace Waterproof Boots — Tan"
+ },
+ {
+  "codigo": "DOM-13490",
+  "nombre": "Propet Caylee Strappy Sandals"
+ },
+ {
+  "codigo": "DOM-13491",
+  "nombre": "Journee Collection LYDDIA ESPADRILLE SANDALS IN VEGAN LEATHER - Red"
+ },
+ {
+  "codigo": "DOM-13492",
+  "nombre": "Journee Collection Comfort Foam™ Valentina Sandals — Red"
+ },
+ {
+  "codigo": "DOM-13493",
+  "nombre": "Public Desire UK Radiance Brown Buckle Trim Flat Sandals"
+ },
+ {
+  "codigo": "DOM-13494",
+  "nombre": "Sperry Adriatic T-Strap Sandals"
+ },
+ {
+  "codigo": "DOM-13495",
+  "nombre": "Journee Collection TRISTEEN ESPADRILLE SANDALS IN FABRIC - Coral"
+ },
+ {
+  "codigo": "DOM-13496",
+  "nombre": "Public Desire UK Taryn Gold Knotted Upper Block Heel Sandals"
+ },
+ {
+  "codigo": "DOM-13497",
+  "nombre": "Journee Collection TRISTEEN ESPADRILLE SANDALS IN FABRIC - Tan"
+ },
+ {
+  "codigo": "DOM-13498",
+  "nombre": "LifeStride Tess Wedge Espadrille Sandals — French Pink"
+ },
+ {
+  "codigo": "DOM-13499",
+  "nombre": "Public Desire UK Oceania Gold Strappy Side Knot Lace Up Mid Heels"
  },
  {
   "codigo": "DOM-135",
@@ -11425,40 +15905,440 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance 983 — Red"
  },
  {
+  "codigo": "DOM-13500",
+  "nombre": "TOMS Viv Flat Sandals"
+ },
+ {
+  "codigo": "DOM-13501",
+  "nombre": "Journee Collection TIVONA STATMENT STRAPPY BLOCK HEELS IN WIDE - Dark Brown"
+ },
+ {
+  "codigo": "DOM-13502",
+  "nombre": "Blowfish Malibu Marshlo 3 Espadrille Sandals — Multi"
+ },
+ {
+  "codigo": "DOM-13503",
+  "nombre": "Public Desire UK Oceania Silver Strappy Side Knot Lace Up Mid Heels"
+ },
+ {
+  "codigo": "DOM-13504",
+  "nombre": "Journee Collection TIVONA STATMENT STRAPPY BLOCK HEELS IN WIDE - Red"
+ },
+ {
+  "codigo": "DOM-13505",
+  "nombre": "Blowfish Malibu Annika Strappy Sandals — Natural Black"
+ },
+ {
+  "codigo": "DOM-13506",
+  "nombre": "Public Desire UK Robin Bronze Strappy Square Toe Mid Block Heels"
+ },
+ {
+  "codigo": "DOM-13507",
+  "nombre": "VANELi Elija Perforated Block Heel Sandals"
+ },
+ {
+  "codigo": "DOM-13508",
+  "nombre": "Journee Collection TIVONA STRAPPY BLOCK HEELS IN STATEMENT - Dark Brown"
+ },
+ {
+  "codigo": "DOM-13509",
+  "nombre": "Public Desire UK Robin Gold Strappy Square Toe Mid Block Heels"
+ },
+ {
   "codigo": "DOM-1351",
   "nombre": "UGG Adirondack Boots XXV — Black"
+ },
+ {
+  "codigo": "DOM-13510",
+  "nombre": "Journee Collection TIVONA STRAPPY BLOCK HEELS IN VEGAN LEATHER - Blue"
+ },
+ {
+  "codigo": "DOM-13511",
+  "nombre": "Public Desire UK Brightside Metallic Gold Strappy Tie Up Square Toe Flared Heels"
+ },
+ {
+  "codigo": "DOM-13512",
+  "nombre": "VANELi Levana Slingback Sandals"
+ },
+ {
+  "codigo": "DOM-13513",
+  "nombre": "VANELi Levya Block Heel Sandals"
+ },
+ {
+  "codigo": "DOM-13514",
+  "nombre": "VANELi Mavis Studded Sling Back Sandals"
+ },
+ {
+  "codigo": "DOM-13515",
+  "nombre": "VANELi Mayda Studded Block Heel Sandals"
+ },
+ {
+  "codigo": "DOM-13516",
+  "nombre": "VANELi Monir Ankle Strap Wedge Sandals"
+ },
+ {
+  "codigo": "DOM-13517",
+  "nombre": "Dirty Laundry Francee Metallic Snake Gladiator Ankle Strap Sandals"
+ },
+ {
+  "codigo": "DOM-13518",
+  "nombre": "Chinese Laundry Jasmine Metallic Ankle Strap Sandal"
+ },
+ {
+  "codigo": "DOM-13519",
+  "nombre": "VANELi Trevin Slingback Wedge Sandals"
  },
  {
   "codigo": "DOM-1352",
   "nombre": "New Balance Made In USA 992 — Blue"
  },
  {
+  "codigo": "DOM-13520",
+  "nombre": "BEACH by Matisse Blondie Kitten Heel Sandal"
+ },
+ {
+  "codigo": "DOM-13521",
+  "nombre": "BEACH by Matisse Borderline Espadrille Platform Sandal"
+ },
+ {
+  "codigo": "DOM-13522",
+  "nombre": "BEACH by Matisse Cairo Platform Sandal"
+ },
+ {
+  "codigo": "DOM-13523",
+  "nombre": "BEACH by Matisse Caravan Block Heel Platform Espadrille Sandal"
+ },
+ {
+  "codigo": "DOM-13524",
+  "nombre": "BEACH by Matisse Hali Espadrille Platform Sandal"
+ },
+ {
+  "codigo": "DOM-13525",
+  "nombre": "BEACH by Matisse Peony Platform Espadrille Sandal"
+ },
+ {
+  "codigo": "DOM-13526",
+  "nombre": "BIRKENSTOCK Arizona Big Buckle EVA Sandal"
+ },
+ {
+  "codigo": "DOM-13527",
+  "nombre": "Journee Collection TRAYLE GLADIATOR SANDALS IN VEGAN LEATHER - Grey PU"
+ },
+ {
+  "codigo": "DOM-13528",
+  "nombre": "Miz Mooz Ever Wedge Sandals — Black"
+ },
+ {
+  "codigo": "DOM-13529",
+  "nombre": "Journee Collection TRAYLE GLADIATOR SANDALS IN VEGAN LEATHER - Wine PU"
+ },
+ {
   "codigo": "DOM-1353",
   "nombre": "New Balance Made in USA 990v4 — Green"
+ },
+ {
+  "codigo": "DOM-13530",
+  "nombre": "Miz Mooz Pennie Sandals — Black"
+ },
+ {
+  "codigo": "DOM-13531",
+  "nombre": "Corkys Can We Go Wedge Slingback Sandal"
+ },
+ {
+  "codigo": "DOM-13532",
+  "nombre": "Journee Collection TRAYLE GLADIATOR SANDALS IN VEGAN LEATHER - Pewter"
+ },
+ {
+  "codigo": "DOM-13533",
+  "nombre": "Cole Haan Landon Sandals 40mm — Dark Cuoio Leather"
+ },
+ {
+  "codigo": "DOM-13534",
+  "nombre": "Journee Collection BIANCA WEDGE HEELED SANDALS IN VEGAN LEATHER - Black PU"
+ },
+ {
+  "codigo": "DOM-13535",
+  "nombre": "Blowfish Malibu Marshlo Sun Espadrille Sandals — Black"
+ },
+ {
+  "codigo": "DOM-13536",
+  "nombre": "Corkys Carley Studded Wedge Slingback Sandal"
+ },
+ {
+  "codigo": "DOM-13537",
+  "nombre": "Journee Collection BIANCA WEDGE HEELED SANDALS IN VEGAN LEATHER - Blue PU"
+ },
+ {
+  "codigo": "DOM-13538",
+  "nombre": "ECCO Flowt Wedge Cork Sandal — Moonrock/Python"
+ },
+ {
+  "codigo": "DOM-13539",
+  "nombre": "Corkys For Keeps Studded Wedge Slingback Sandal"
  },
  {
   "codigo": "DOM-1354",
   "nombre": "Timberland Heritage 6-Inch Waterproof Boots — Brown"
  },
  {
+  "codigo": "DOM-13540",
+  "nombre": "LifeStride Florence Bow Strappy Sandals — Ice Blue"
+ },
+ {
+  "codigo": "DOM-13541",
+  "nombre": "Corkys Lil Bit Knotty Platform Sandal"
+ },
+ {
+  "codigo": "DOM-13542",
+  "nombre": "LifeStride Mallory Strappy Wedge Sandals — Black"
+ },
+ {
+  "codigo": "DOM-13543",
+  "nombre": "Easy Street Como Slingback Sandals"
+ },
+ {
+  "codigo": "DOM-13544",
+  "nombre": "Pelle Moda Laika Sandal — Beige"
+ },
+ {
+  "codigo": "DOM-13545",
+  "nombre": "Easy Street Jupiter Wedge Slingback Sandals"
+ },
+ {
+  "codigo": "DOM-13546",
+  "nombre": "Rebecca Minkoff Catalina Sandals — Red"
+ },
+ {
+  "codigo": "DOM-13547",
+  "nombre": "Nina Abbi Metallic Sling Back Sandals"
+ },
+ {
+  "codigo": "DOM-13548",
+  "nombre": "Blowfish Malibu Aurora Strappy Sandals — Fuchsia Suede"
+ },
+ {
+  "codigo": "DOM-13549",
+  "nombre": "Nina Abbi Rhinestone Sling Back Sandals"
+ },
+ {
   "codigo": "DOM-1355",
   "nombre": "ASICS GEL-1130"
+ },
+ {
+  "codigo": "DOM-13550",
+  "nombre": "Madewell The Amee Wedge Platform Sandal — True Black"
+ },
+ {
+  "codigo": "DOM-13551",
+  "nombre": "Nina Bobby Metallic Ankle Strap Sandals"
+ },
+ {
+  "codigo": "DOM-13552",
+  "nombre": "Journee Collection EMELIE MULTI STRAP ESPADRILLE SANDALS - Black"
+ },
+ {
+  "codigo": "DOM-13553",
+  "nombre": "Aetrex Madelyn Wedge Sandal — Black"
+ },
+ {
+  "codigo": "DOM-13554",
+  "nombre": "Nina Nelena Glitter Ankle Strap Sandals"
+ },
+ {
+  "codigo": "DOM-13555",
+  "nombre": "Journee Collection EMELIE MULTI STRAP ESPADRILLE SANDALS - Blue"
+ },
+ {
+  "codigo": "DOM-13556",
+  "nombre": "Lucky Brand Jaelah Braided Wedge Sandals — Tusk"
+ },
+ {
+  "codigo": "DOM-13557",
+  "nombre": "Reef Cushion Vista Higher Platform Sandals"
+ },
+ {
+  "codigo": "DOM-13558",
+  "nombre": "Journee Collection EMELIE MULTI STRAP ESPADRILLE SANDALS - Hot Pink"
+ },
+ {
+  "codigo": "DOM-13559",
+  "nombre": "Nine West Pruce Block Heel Sandal — Black Nappa"
  },
  {
   "codigo": "DOM-1356",
   "nombre": "Vans LX Old Skool 36 — Black"
  },
  {
+  "codigo": "DOM-13560",
+  "nombre": "Sorel Ona Streetworks Go-To Flat Sandals"
+ },
+ {
+  "codigo": "DOM-13561",
+  "nombre": "Jessica Simpson Cezia Block Heels Platform Sandals — Medium Blue"
+ },
+ {
+  "codigo": "DOM-13562",
+  "nombre": "LifeStride Celia Strappy Sandals — Rose Quartz"
+ },
+ {
+  "codigo": "DOM-13563",
+  "nombre": "BEACH by Matisse Moorea Block Heel Platform Ankle Strap Sandal"
+ },
+ {
+  "codigo": "DOM-13564",
+  "nombre": "LifeStride Mallory Strappy Sandals — Almond Milk"
+ },
+ {
+  "codigo": "DOM-13565",
+  "nombre": "Seychelles Applause Metallic Woven Sandal — Light Gold Polyurethane"
+ },
+ {
+  "codigo": "DOM-13566",
+  "nombre": "Roper Mika Floral Embossed Block Heel Sandals"
+ },
+ {
+  "codigo": "DOM-13567",
+  "nombre": "Vince Camuto Fisella Cross Band Espadrille Wedge Sandals — Black"
+ },
+ {
+  "codigo": "DOM-13568",
+  "nombre": "Cole Haan Cloudfeel Silvee Espadrille Wedges 75mm — Soft Gold Leather"
+ },
+ {
+  "codigo": "DOM-13569",
+  "nombre": "Roper Stella Block Heel Sandals"
+ },
+ {
   "codigo": "DOM-1357",
   "nombre": "Jordan Spizike Low — Grey"
+ },
+ {
+  "codigo": "DOM-13570",
+  "nombre": "Vince Camuto Lilah Ankle Strap High Heel Sandal — Black"
+ },
+ {
+  "codigo": "DOM-13571",
+  "nombre": "Lauren Ralph Lauren Nellie Washed Denim Espadrille — Blue"
+ },
+ {
+  "codigo": "DOM-13572",
+  "nombre": "VANELi Ekon Wedge Sandals"
+ },
+ {
+  "codigo": "DOM-13573",
+  "nombre": "Johnston & Murphy Samantha Asymmetrical Sandals — Black Nappa Leather"
+ },
+ {
+  "codigo": "DOM-13574",
+  "nombre": "VANELi Elysha Platform Slingback Sandals"
+ },
+ {
+  "codigo": "DOM-13575",
+  "nombre": "Cinq à Sept Dana Strappy Heeled Sandals — Brown Sugar"
+ },
+ {
+  "codigo": "DOM-13576",
+  "nombre": "VANELi Huda Casual Sandals"
+ },
+ {
+  "codigo": "DOM-13577",
+  "nombre": "Michael Kors Erin Platform Sandals — Optic White"
+ },
+ {
+  "codigo": "DOM-13578",
+  "nombre": "VANELi Monde Metallic Slingback Sandals"
+ },
+ {
+  "codigo": "DOM-13579",
+  "nombre": "FitFlop Platfforms Espadrille Fisherman Wedge Sandals — Cappuccino"
  },
  {
   "codigo": "DOM-1358",
   "nombre": "Jordan Air Jordan 1 Retro Low OG ‘Howard' — Blue"
  },
  {
+  "codigo": "DOM-13580",
+  "nombre": "VANELi Oksana Block Heel Sandals"
+ },
+ {
+  "codigo": "DOM-13581",
+  "nombre": "Free People Harbor Platform Sandals — Tan"
+ },
+ {
+  "codigo": "DOM-13582",
+  "nombre": "Sesto Meucci Elanie Cut-Outs Slingback Sandals"
+ },
+ {
+  "codigo": "DOM-13583",
+  "nombre": "Easy Street Dorinda Cut Out Espadrille Slingback Sandals"
+ },
+ {
+  "codigo": "DOM-13584",
+  "nombre": "Chinese Laundry Teri Evening Sandal"
+ },
+ {
+  "codigo": "DOM-13585",
+  "nombre": "Corkys Bless Her Heart Footbed Sandal"
+ },
+ {
+  "codigo": "DOM-13586",
+  "nombre": "Ryka Viv Slide Sandal — Academy Blue Fabric"
+ },
+ {
+  "codigo": "DOM-13587",
+  "nombre": "Blowfish Malibu Women's Jellyfish Slide Sandal — Scotch Tan"
+ },
+ {
+  "codigo": "DOM-13588",
+  "nombre": "Blowfish Malibu Addison 2 Slide Sandals — Natural"
+ },
+ {
+  "codigo": "DOM-13589",
+  "nombre": "Aerosoles Big Charm Slide Sandal"
+ },
+ {
   "codigo": "DOM-1359",
   "nombre": "Jordan Air Jordan 1 Retro Low OG 'Garden' — Red"
+ },
+ {
+  "codigo": "DOM-13590",
+  "nombre": "Journee Collection COLETTE SLIDE SANDALS IN VEGAN LEATHER - Silver"
+ },
+ {
+  "codigo": "DOM-13591",
+  "nombre": "CELIA Gable Flip Flop - Womens"
+ },
+ {
+  "codigo": "DOM-13592",
+  "nombre": "Public Desire UK Guilty Black Chunky Toe Post Slider Sandals"
+ },
+ {
+  "codigo": "DOM-13593",
+  "nombre": "Ryka Viv Slide Sandal — Black Fabric"
+ },
+ {
+  "codigo": "DOM-13594",
+  "nombre": "Blowfish Malibu Women's Jellyfish Slide Sandal — White"
+ },
+ {
+  "codigo": "DOM-13595",
+  "nombre": "Journee Collection COLETTE SLIDE SANDALS IN WIDE - Brown"
+ },
+ {
+  "codigo": "DOM-13596",
+  "nombre": "CELIA Papaya H Band Slide - Womens"
+ },
+ {
+  "codigo": "DOM-13597",
+  "nombre": "Public Desire UK Juicy Green Terry Towelling Slider Slippers"
+ },
+ {
+  "codigo": "DOM-13598",
+  "nombre": "Blowfish Malibu Women's Montreal Slip On Platform Mule — Cedar"
+ },
+ {
+  "codigo": "DOM-13599",
+  "nombre": "Crocs Miami Slide — Black"
  },
  {
   "codigo": "DOM-136",
@@ -11469,40 +16349,436 @@ var ZAP_HISTORIAL = [
   "nombre": "Timberland Field Boot — Brown"
  },
  {
+  "codigo": "DOM-13600",
+  "nombre": "BEACH by Matisse Pacific Espadrille Platform Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13601",
+  "nombre": "Journee Collection COLETTE SLIDE SANDALS IN WIDE - Black"
+ },
+ {
+  "codigo": "DOM-13602",
+  "nombre": "CROCS Getaway Strappy Sandal - Womens"
+ },
+ {
+  "codigo": "DOM-13603",
+  "nombre": "Public Desire UK Bettie Natural Rattan Diamante Buckle Detail Flatform Slider Sandals"
+ },
+ {
+  "codigo": "DOM-13604",
+  "nombre": "Clarks Women's Breeze Reyna Cloudsteppers Flip Flop Sandal — Sand"
+ },
+ {
+  "codigo": "DOM-13605",
+  "nombre": "Crocs Mickey Off Court Clog — White"
+ },
+ {
+  "codigo": "DOM-13606",
+  "nombre": "BEACH by Matisse Baxter Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13607",
+  "nombre": "NIKE Marina Thong - Womens"
+ },
+ {
+  "codigo": "DOM-13608",
+  "nombre": "Public Desire UK Lapis Cream Pu Buckle Detail Double Strap Slider Sandals"
+ },
+ {
+  "codigo": "DOM-13609",
+  "nombre": "Franco Sarto Brianka Slide Sandal — Wine Red Leather"
+ },
+ {
   "codigo": "DOM-1361",
   "nombre": "Jordan Air Jordan 9 Retro Space Jam (White/True Red/Black)"
+ },
+ {
+  "codigo": "DOM-13610",
+  "nombre": "Ryka Sophie Mule — Paloma Grey Faux Fur"
+ },
+ {
+  "codigo": "DOM-13611",
+  "nombre": "Aerosoles Women's Bigcharm Slide Sandals — Natural Cork"
+ },
+ {
+  "codigo": "DOM-13612",
+  "nombre": "Amie Rafa Cece Thong Sandals — Bone"
+ },
+ {
+  "codigo": "DOM-13613",
+  "nombre": "BEACH by Matisse Del Mar Platform Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13614",
+  "nombre": "Journee PRISILLA SLIDE SANDALS IN STATEMENT - Black Open Raffia"
+ },
+ {
+  "codigo": "DOM-13615",
+  "nombre": "ADIDAS Znsory - Womens"
+ },
+ {
+  "codigo": "DOM-13616",
+  "nombre": "Franco Sarto Brianka Slide Sandal — Tan Leather"
+ },
+ {
+  "codigo": "DOM-13617",
+  "nombre": "Ryka Sophie Mule — Honey Brown Faux Fur"
+ },
+ {
+  "codigo": "DOM-13618",
+  "nombre": "Aerosoles Women's Erik Medium/Wide Mule Flat — Black Faux Leather"
+ },
+ {
+  "codigo": "DOM-13619",
+  "nombre": "Barbour Claudia Mule Slippers — Camel"
  },
  {
   "codigo": "DOM-1362",
   "nombre": "Nike Air Foamposite Pro Black And MultiColor (Black/Black/Voltage Green/Gum Dark Brown)"
  },
  {
+  "codigo": "DOM-13620",
+  "nombre": "Journee PRISILLA SLIDE SANDALS IN STATEMENT - White"
+ },
+ {
+  "codigo": "DOM-13621",
+  "nombre": "ADIDAS Adilette Lumia - Womens"
+ },
+ {
+  "codigo": "DOM-13622",
+  "nombre": "Franco Sarto Taziana Espadrille Slide Sandal — Papaya Pink Suede"
+ },
+ {
+  "codigo": "DOM-13623",
+  "nombre": "Aerosoles Women's Glitz Thong Sandal — Eggnog"
+ },
+ {
+  "codigo": "DOM-13624",
+  "nombre": "BEACH by Matisse Bali Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13625",
+  "nombre": "Journee BRISA MULTI STRAP SLIDE SANDALS - Cork"
+ },
+ {
+  "codigo": "DOM-13626",
+  "nombre": "Aerosoles Women's Glitz Thong Sandal — Black"
+ },
+ {
+  "codigo": "DOM-13627",
+  "nombre": "Journee BRISA MULTI STRAP SLIDE SANDALS - Denim"
+ },
+ {
+  "codigo": "DOM-13628",
+  "nombre": "ADIDAS Adilette OG - Womens"
+ },
+ {
+  "codigo": "DOM-13629",
+  "nombre": "Ryka Belfast Mule — Honey Brown Suede"
+ },
+ {
   "codigo": "DOM-1363",
   "nombre": "Jordan Air Jordan 12 Retro Idols Become Rivals (Summit White/Gorge Green/Fierce Purple)"
+ },
+ {
+  "codigo": "DOM-13630",
+  "nombre": "CROCS Classic Metallic Buckle Clog - Womens"
+ },
+ {
+  "codigo": "DOM-13631",
+  "nombre": "Ryka Belfast Mule — Black Suede"
+ },
+ {
+  "codigo": "DOM-13632",
+  "nombre": "Journee PRISILLA SLIDE SANDALS IN STATEMENT - Bone Open Raffia"
+ },
+ {
+  "codigo": "DOM-13633",
+  "nombre": "CROCS Miami Toe Loop Sandal - Womens"
+ },
+ {
+  "codigo": "DOM-13634",
+  "nombre": "Franco Sarto Holland 2 Mule — Woodsmoke Woven Faux Leather"
+ },
+ {
+  "codigo": "DOM-13635",
+  "nombre": "Franco Sarto Taziana Espadrille Slide Sandal — Leopard Print Calf Hair"
+ },
+ {
+  "codigo": "DOM-13636",
+  "nombre": "Aerosoles Women's Finn Slip On Mule — Black"
+ },
+ {
+  "codigo": "DOM-13637",
+  "nombre": "Aetrex Kasey Adjustable Slide Sandals — Off White"
+ },
+ {
+  "codigo": "DOM-13638",
+  "nombre": "Ariat Country Sherpa Mule"
+ },
+ {
+  "codigo": "DOM-13639",
+  "nombre": "CROCS Classic Platform Clog - Womens"
  },
  {
   "codigo": "DOM-1364",
   "nombre": "Jordan Air Jordan 4 Retro Rare Air Tour Yellow (White/Dark Blue Grey/Black/Tour Yellow)"
  },
  {
+  "codigo": "DOM-13640",
+  "nombre": "Franco Sarto Britley Thong Sandal — Black Leather"
+ },
+ {
+  "codigo": "DOM-13641",
+  "nombre": "Aerosoles Women's Finn Slip On Mule — Dune"
+ },
+ {
+  "codigo": "DOM-13642",
+  "nombre": "AllSaints Eclipse Slider — Chalk White"
+ },
+ {
+  "codigo": "DOM-13643",
+  "nombre": "BIRKENSTOCK Zermatt 365 Mule"
+ },
+ {
+  "codigo": "DOM-13644",
+  "nombre": "VANS Harbor Mule - Womens"
+ },
+ {
+  "codigo": "DOM-13645",
+  "nombre": "Franco Sarto Britley Thong Sandal — Ginger Brown Leather"
+ },
+ {
+  "codigo": "DOM-13646",
+  "nombre": "Aerosoles Women's Gioiosa Thong Sandal — Beige Bisque"
+ },
+ {
+  "codigo": "DOM-13647",
+  "nombre": "AllSaints Biggy Slider — Red"
+ },
+ {
+  "codigo": "DOM-13648",
+  "nombre": "BIRKENSTOCK Buckley Suede Leather Clog"
+ },
+ {
+  "codigo": "DOM-13649",
+  "nombre": "Baretraps Origins Women's Haliah Platform Slide Sandal — White Leather"
+ },
+ {
   "codigo": "DOM-1365",
   "nombre": "Jordan Air Jordan 8 Retro Chrome Black And Light Graphite (Black/White/Light Graphite)"
+ },
+ {
+  "codigo": "DOM-13650",
+  "nombre": "AllSaints Saint Slider — Black"
+ },
+ {
+  "codigo": "DOM-13651",
+  "nombre": "BIRKENSTOCK Boston Chunky Suede Leather Clog"
+ },
+ {
+  "codigo": "DOM-13652",
+  "nombre": "Baretraps Origins Women's Henrika Platform Slide Sandal — Champagne"
+ },
+ {
+  "codigo": "DOM-13653",
+  "nombre": "Dr Scholls Women's So Original Jelly Slide Sandal — Ocean/Translucent"
+ },
+ {
+  "codigo": "DOM-13654",
+  "nombre": "Crocs Classic Saturday Slides — Black 1"
+ },
+ {
+  "codigo": "DOM-13655",
+  "nombre": "BEACH by Matisse Gale Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13656",
+  "nombre": "NIKE Victori One - Womens"
+ },
+ {
+  "codigo": "DOM-13657",
+  "nombre": "Princess Polly Remi Sandals Chocolate"
+ },
+ {
+  "codigo": "DOM-13658",
+  "nombre": "Dr Scholls Women's So Original Jelly Slide Sandal — Clear/Translucent"
+ },
+ {
+  "codigo": "DOM-13659",
+  "nombre": "Crocs Miami Slide Sandals — Metallic Black"
  },
  {
   "codigo": "DOM-1366",
   "nombre": "Jordan Air Jordan 13 Retro Navy And Flint Grey (Navy/University Blue/Flint Grey/White)"
  },
  {
+  "codigo": "DOM-13660",
+  "nombre": "BEACH by Matisse La Jolla Platform Espadrille Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13661",
+  "nombre": "Crocs Classic Bae Clog — White"
+ },
+ {
+  "codigo": "DOM-13662",
+  "nombre": "BEACH by Matisse Caspia Espadrille Platform Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13663",
+  "nombre": "NIKE Benassi JDI - Womens"
+ },
+ {
+  "codigo": "DOM-13664",
+  "nombre": "BEACH by Matisse Ciao Fisherman Slide Sandal"
+ },
+ {
+  "codigo": "DOM-13665",
+  "nombre": "Journee BRISA SLIDE SANDALS IN VEGAN LEATHER - Gold PU"
+ },
+ {
+  "codigo": "DOM-13666",
+  "nombre": "CROCS Saturday Metallic Buckle Sandal - Womens"
+ },
+ {
+  "codigo": "DOM-13667",
+  "nombre": "Franco Sarto Holland 2 Mule — Black Woven Faux Leather"
+ },
+ {
+  "codigo": "DOM-13668",
+  "nombre": "Ryka Devoted All Day Slide Sandal — Academy Blue Mesh"
+ },
+ {
+  "codigo": "DOM-13669",
+  "nombre": "Aerosoles Women's Jilda Slide Sandal — Blue"
+ },
+ {
   "codigo": "DOM-1367",
   "nombre": "Jordan Air Jordan 1 Retro High OG Love Letter (Shadow Brown/Team Red/Light British Tan)"
+ },
+ {
+  "codigo": "DOM-13670",
+  "nombre": "Blowfish Malibu Lakeshore Thong Sandals — Lily"
+ },
+ {
+  "codigo": "DOM-13671",
+  "nombre": "BEACH by Matisse Ray Flip Flops"
+ },
+ {
+  "codigo": "DOM-13672",
+  "nombre": "Journee BRISA SLIDE SANDALS IN VEGAN LEATHER - Silver PU"
+ },
+ {
+  "codigo": "DOM-13673",
+  "nombre": "Franco Sarto Holland Mule — Bright White Pebble Leather"
+ },
+ {
+  "codigo": "DOM-13674",
+  "nombre": "Ryka Devoted All Day Slide Sandal — French Beige Mesh"
+ },
+ {
+  "codigo": "DOM-13675",
+  "nombre": "AllSaints Ella Slider — Dark Brown"
+ },
+ {
+  "codigo": "DOM-13676",
+  "nombre": "Havaianas Women's Top Flip Flop Sandal — Black"
+ },
+ {
+  "codigo": "DOM-13677",
+  "nombre": "Crocs Miami Thong Sandals — Sepia Metallic"
+ },
+ {
+  "codigo": "DOM-13678",
+  "nombre": "PUMA Cool Cat 2.0 - Womens"
+ },
+ {
+  "codigo": "DOM-13679",
+  "nombre": "Princess Polly Worth It Buckle Detail Sandals Black"
  },
  {
   "codigo": "DOM-1368",
   "nombre": "Jordan Air Jordan 3 Retro OG True Blue (White/Varsity Red/True Blue/Cement Grey/Anthracite)"
  },
  {
+  "codigo": "DOM-13680",
+  "nombre": "Blowfish Malibu Jellyfish Slide Sandals — Scotch"
+ },
+ {
+  "codigo": "DOM-13681",
+  "nombre": "Blowfish Malibu Women's Ashland Slide Sandal — Cream/Beige/Gold"
+ },
+ {
+  "codigo": "DOM-13682",
+  "nombre": "Franco Sarto Toba Mule — Dark Brown Woven Leather"
+ },
+ {
+  "codigo": "DOM-13683",
+  "nombre": "Aerosoles Women's Daffodil Medium/Wide Mule — Natural"
+ },
+ {
+  "codigo": "DOM-13684",
+  "nombre": "Franco Sarto Holland Mule — Black Pebble Leather"
+ },
+ {
+  "codigo": "DOM-13685",
+  "nombre": "Easy Street Flattery Kitten Heel Evening Sandals"
+ },
+ {
+  "codigo": "DOM-13686",
+  "nombre": "MIA Layce Metallic Mules"
+ },
+ {
+  "codigo": "DOM-13687",
+  "nombre": "Roper Mika Hook And Loop Block Heel Sandals"
+ },
+ {
+  "codigo": "DOM-13688",
+  "nombre": "Nina Anna Glitter Ankle Strap Sandals"
+ },
+ {
+  "codigo": "DOM-13689",
+  "nombre": "Shu Shop Cecily Studded Strappy Footbed Sandals"
+ },
+ {
   "codigo": "DOM-1369",
   "nombre": "Jordan Air Jordan 5 Retro OG White Metallic (White/Metallic Silver/Black)"
+ },
+ {
+  "codigo": "DOM-13690",
+  "nombre": "Bella Vita Carmen Rhinestone Metallic Block Heel Sandal"
+ },
+ {
+  "codigo": "DOM-13691",
+  "nombre": "Corkys Chain Reaction Slip On Loafer"
+ },
+ {
+  "codigo": "DOM-13692",
+  "nombre": "COCONUTS by Matisse Vicky Cut Out Mary Jane Flat"
+ },
+ {
+  "codigo": "DOM-13693",
+  "nombre": "COCONUTS by Matisse Missy Ballet Flat"
+ },
+ {
+  "codigo": "DOM-13694",
+  "nombre": "Weave Zip Women's Training Shoes — Puma Black / Puma Black"
+ },
+ {
+  "codigo": "DOM-13695",
+  "nombre": "Cityride 2 Running Shoes — Black / White / Grey"
+ },
+ {
+  "codigo": "DOM-13696",
+  "nombre": "Cityride 2 Running Shoes — White / Grey / Red"
+ },
+ {
+  "codigo": "DOM-13697",
+  "nombre": "Energen Lux Running Shoes — Core Black / Pure Grey / Ftwr White"
+ },
+ {
+  "codigo": "DOM-13698",
+  "nombre": "Energen Lux Running Shoes — White / Barely Grey / White"
  },
  {
   "codigo": "DOM-13699",
@@ -11517,40 +16793,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Jordan Air Jordan 6 Retro Cap And Gown (Black/Reflective Silver/Black)"
  },
  {
+  "codigo": "DOM-13700",
+  "nombre": "Energen Run 4 Running Shoes — Grey 1 / Y2K Blue"
+ },
+ {
+  "codigo": "DOM-13701",
+  "nombre": "NFX Trainer 2 Training Shoes — Chalk / Hazy Teal / Midnight Tide"
+ },
+ {
+  "codigo": "DOM-13702",
+  "nombre": "NFX Trainer 2 Training Shoes — Light Cocoa / Elemental Pink / Rose Gold"
+ },
+ {
+  "codigo": "DOM-13703",
+  "nombre": "TravelFit Pro Running Shoes — Purple"
+ },
+ {
+  "codigo": "DOM-13704",
+  "nombre": "Defy Mid Varsity Slip On Training Shoes — White"
+ },
+ {
+  "codigo": "DOM-13705",
+  "nombre": "Fast-Trac NITRO Running Shoes — Black"
+ },
+ {
+  "codigo": "DOM-13706",
+  "nombre": "PWR Hybrid Floral Ribbon Training Shoes — Red/White"
+ },
+ {
+  "codigo": "DOM-13707",
+  "nombre": "Pwr Hybrid Training Shoes — Black"
+ },
+ {
+  "codigo": "DOM-13708",
+  "nombre": "Pwr Hybrid Training Shoes — White"
+ },
+ {
+  "codigo": "DOM-13709",
+  "nombre": "Deviate NITRO 2 Wide Running Shoes — Black"
+ },
+ {
   "codigo": "DOM-1371",
   "nombre": "Nike Pegasus Premium Cow Print (Light Orewood Brown/Sail/Black/University Red)"
+ },
+ {
+  "codigo": "DOM-13710",
+  "nombre": "Future 9 Play Firm Ground/Artificial Ground Soccer Cleats — Orange"
+ },
+ {
+  "codigo": "DOM-13711",
+  "nombre": "SM NCAA Exhibit Select 2.0 Low Rutgers Basketball Shoes — Red/White"
+ },
+ {
+  "codigo": "DOM-13712",
+  "nombre": "Ultra 5 Match+ Firm Ground/Artificial Ground Soccer Cleats — White"
+ },
+ {
+  "codigo": "DOM-13713",
+  "nombre": "Galaxy 7 Running Shoes — White"
+ },
+ {
+  "codigo": "DOM-13714",
+  "nombre": "Runfalcon 6 Wide Running Shoes — Black"
+ },
+ {
+  "codigo": "DOM-13715",
+  "nombre": "Softride Courtney Running Shoes — Black"
+ },
+ {
+  "codigo": "DOM-13716",
+  "nombre": "Softride Enzo 5 Running Shoes — White"
+ },
+ {
+  "codigo": "DOM-13717",
+  "nombre": "Softride Mayve Running Shoes — Black"
+ },
+ {
+  "codigo": "DOM-13718",
+  "nombre": "Softride Pro Echo Molten Metal Running Shoes — White"
+ },
+ {
+  "codigo": "DOM-13719",
+  "nombre": "Reebok Club C Athletic Shoe - Little Kid - Chalk / Alabaster / Glen Green — Chalk/Alabaster/Glen Green (Toddler)"
  },
  {
   "codigo": "DOM-1372",
   "nombre": "Nike Vomero Plus Cow Print (Sail/University Red/Light Orewood Brown)"
  },
  {
+  "codigo": "DOM-13720",
+  "nombre": "Converse Chuck Taylor All Star Lift High-Top Sneaker - Little Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13721",
+  "nombre": "NIKE Dunk Low Triple Pink Infant Toddler Lifestyle Shoes (Pink) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13722",
+  "nombre": "NIKE Air Force 1 Low Infant Toddler Lifestyle Shoes (Black/Arctic Green/Anthracite) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13723",
+  "nombre": "Crocs Swiftwater Splash Water Shoe - Little Kid / Big Kid - Dragonfruit (Toddler)"
+ },
+ {
+  "codigo": "DOM-13724",
+  "nombre": "HEYDUDE Wally Casual Shoe - Toddler - Beach Horizon (Toddler)"
+ },
+ {
+  "codigo": "DOM-13725",
+  "nombre": "New Balance 480 Athletic Shoe - Little Kid - Twilight Haze / Rose Sugar — Twilight Haze/Rose Sugar (Toddler)"
+ },
+ {
+  "codigo": "DOM-13726",
+  "nombre": "Crocs Swiftwater Splash Water Shoe - Little Kid / Big Kid - Black Monochrome (Toddler)"
+ },
+ {
+  "codigo": "DOM-13727",
+  "nombre": "Ground Up Mario Princess Hi Sneaker - Toddler - Light Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13728",
+  "nombre": "Ground Up Super Mario Bros. Hi Sneaker - Toddler - Black / Multicolor — Black/Multicolor (Toddler)"
+ },
+ {
+  "codigo": "DOM-13729",
+  "nombre": "Converse Chuck Taylor All Star Groovy Space Glow High-Top Sneaker - Little Kid - Black (Toddler)"
+ },
+ {
   "codigo": "DOM-1373",
   "nombre": "HOKA Clifton 11 (White/Black)"
+ },
+ {
+  "codigo": "DOM-13730",
+  "nombre": "Vans Old Skool V Polka Dots Skate Shoe - Baby / Toddler - Black / Rainbow — Black/Rainbow (Toddler)"
+ },
+ {
+  "codigo": "DOM-13731",
+  "nombre": "Kid Power Hello Kitty® & Friends Low Sneaker - Toddler - White / Pink — White/Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13732",
+  "nombre": "Ground Up Sonic the Hedgehog™ Sonic And Shadow Hi Sneaker - Little Kid / Big Kid - Red / Royal Blue — Red/Royal Blue (Toddler)"
+ },
+ {
+  "codigo": "DOM-13733",
+  "nombre": "DCShoeCo DC Court Graffik Skate Shoe - Little Kid / Big Kid - Neon Lights (Toddler)"
+ },
+ {
+  "codigo": "DOM-13734",
+  "nombre": "HEYDUDE Wendy Boho Crochet Slip-On Casual Shoe - Little Kid / Big Kid - White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13735",
+  "nombre": "HEYDUDE Kids' Wally Slip On Shoe Toddler Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13736",
+  "nombre": "Vans Authentic Skate Shoe - Baby / Toddler - Leopard (Toddler)"
+ },
+ {
+  "codigo": "DOM-13737",
+  "nombre": "Nike Kids' Air Max Bia Sneaker Toddler Black/White/Red (Toddler)"
+ },
+ {
+  "codigo": "DOM-13738",
+  "nombre": "Converse Kids' Chuck Taylor All Star High Top Sneaker Toddler Navy (Toddler)"
+ },
+ {
+  "codigo": "DOM-13739",
+  "nombre": "adidas Kids' Streettalk Sneaker Toddler Black/White (Toddler)"
  },
  {
   "codigo": "DOM-1374",
   "nombre": "HOKA Bondi 9 (Galactic Grey/Stellar Grey)"
  },
  {
+  "codigo": "DOM-13740",
+  "nombre": "HEYDUDE Kids' Wally Slip On Shoe Toddler Black Dino/Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13741",
+  "nombre": "New Balance 574 Athletic Shoe - Baby / Toddler - Grey / Multicolor — Grey/Multicolor (Toddler)"
+ },
+ {
+  "codigo": "DOM-13742",
+  "nombre": "Converse Chuck Taylor All Star Ladybugs Low-Top Sneaker - Baby / Toddler - Natural — White/Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13743",
+  "nombre": "Converse Chuck Taylor All Star High-Top Sneaker - Baby / Toddler - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13744",
+  "nombre": "Vans Authentic Skate Shoe - Baby / Toddler - Black Monochrome (Toddler)"
+ },
+ {
+  "codigo": "DOM-13745",
+  "nombre": "TOMS Alpargata Classic Shoe - Baby / Toddler / Little Kid - Hot Cocoa (Toddler)"
+ },
+ {
+  "codigo": "DOM-13746",
+  "nombre": "Vans Slip-On Skate Shoe - Baby / Toddler - Black Monochrome (Toddler)"
+ },
+ {
+  "codigo": "DOM-13747",
+  "nombre": "TOMS Resident Plus Sneaker - Baby / Toddler / Little Kid - Drizzle Grey (Toddler)"
+ },
+ {
+  "codigo": "DOM-13748",
+  "nombre": "TOMS Cruz Double Strap Sneaker - Baby / Toddler / Little Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13749",
+  "nombre": "Blowfish Malibu Kids' Whisker-T High Top Sneaker Toddler Dusty Lavender Faux Leather (Toddler)"
+ },
+ {
   "codigo": "DOM-1375",
   "nombre": "On Cloudmonster (Black/Black)"
+ },
+ {
+  "codigo": "DOM-13750",
+  "nombre": "Converse Kids' Chuck Taylor All Star 1V High Top Sneaker Little Kid Pink/Floral (Toddler)"
+ },
+ {
+  "codigo": "DOM-13751",
+  "nombre": "Bluey Kids' Bluey Sneaker Toddler Pink/Purple/Blue (Toddler)"
+ },
+ {
+  "codigo": "DOM-13752",
+  "nombre": "Nike Kids' Air Max 270 Sneaker Toddler Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13753",
+  "nombre": "Nike Kids' Air Max 270 Sneaker Little Kid White/Silver (Toddler)"
+ },
+ {
+  "codigo": "DOM-13754",
+  "nombre": "JORDAN 9 Retro 'Space Jam' Baby/Toddler Shoes (Toddler)"
+ },
+ {
+  "codigo": "DOM-13755",
+  "nombre": "New Balance 9060 Bungee Athletic Shoe - Baby / Toddler - Raincloud / Castlerock — Raincloud/Castlerock (Toddler)"
+ },
+ {
+  "codigo": "DOM-13756",
+  "nombre": "JORDAN 13 Retro 'Flint' Baby/Toddler Shoes (Toddler)"
+ },
+ {
+  "codigo": "DOM-13757",
+  "nombre": "JORDAN 4 Retro 'Comic' Baby/Toddler Shoes (Toddler)"
+ },
+ {
+  "codigo": "DOM-13758",
+  "nombre": "JORDAN 8 Retro 'Chrome' Baby/Toddler Shoes (Toddler)"
+ },
+ {
+  "codigo": "DOM-13759",
+  "nombre": "JORDAN 4 Retro 'Rare Air Tour Yellow' Baby/Toddler Shoes (Toddler)"
  },
  {
   "codigo": "DOM-1376",
   "nombre": "HOKA Bondi 9 Varsity Navy/White"
  },
  {
+  "codigo": "DOM-13760",
+  "nombre": "CROCS Classic Clog Glow Dino Preschool/Grade School Sandals (Glow Green) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13761",
+  "nombre": "CROCS Pokemon Classic Clog Preschool/Grade School Sandals (Black/Orange) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13762",
+  "nombre": "CROCS Classic Floral Cut Out Preschool/Grade School Sandals (Pink/Pink) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13763",
+  "nombre": "CROCS Classic Clog Floral Cut Out Preschool/Grade School Sandals (White) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13764",
+  "nombre": "Crocs Classic Clog - Baby / Toddler - Marbled Navy / Multicolor — Marbled Navy/Multicolor (Toddler)"
+ },
+ {
+  "codigo": "DOM-13765",
+  "nombre": "Crocs Classic Clog - Baby / Toddler - Pink Crush (Toddler)"
+ },
+ {
+  "codigo": "DOM-13766",
+  "nombre": "Crocs Classic Butterfly Clog - Little Kid / Big Kid - White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13767",
+  "nombre": "Crocs Star Wars™ Crocs R2-D2 Classic Clog - Baby / Toddler - White / Multicolor — White/Multicolor (Toddler)"
+ },
+ {
+  "codigo": "DOM-13768",
+  "nombre": "Crocs Classic High-Shine Clog - Little Kid / Big Kid - Pink Crush (Toddler)"
+ },
+ {
+  "codigo": "DOM-13769",
+  "nombre": "Crocs Classic Summer Camp Clog - Little Kid / Big Kid - Neo Mint (Toddler)"
+ },
+ {
   "codigo": "DOM-1377",
   "nombre": "HOKA Clifton 11 White/White"
+ },
+ {
+  "codigo": "DOM-13770",
+  "nombre": "Crocs Harry Potter x Crocs Gryffindor Classic Clog - Little Kid / Big Kid - Multicolor (Toddler)"
+ },
+ {
+  "codigo": "DOM-13771",
+  "nombre": "Crocs DC Comics Batman x Crocs Batmobile Classic Clog - Baby / Toddler - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13772",
+  "nombre": "Crocs The Nightmare Before Christmas x Crocs Classic Clog - Little Kid / Big Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13773",
+  "nombre": "Crocs Classic Celebration Glitter Clog - Little Kid / Big Kid - Champagne (Toddler)"
+ },
+ {
+  "codigo": "DOM-13774",
+  "nombre": "Crocs Classic Glitter Clog - Little Kid / Big Kid - Frosted Purple (Toddler)"
+ },
+ {
+  "codigo": "DOM-13775",
+  "nombre": "Crocs Classic Glow-In-The-Dark Skull Clog - Little Kid / Big Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13776",
+  "nombre": "Crocs Classic Rocket Ship Clog - Baby / Toddler - Gray / Mirage Orange — Gray/Mirage Orange (Toddler)"
+ },
+ {
+  "codigo": "DOM-13777",
+  "nombre": "Crocs Mattel Barbie™ x Crocs Classic Clog - Baby / Toddler - Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13778",
+  "nombre": "Crocs Star Wars™ Crocs R2-D2 Classic Clog - Little Kid / Big Kid - White / Multicolor — White/Multicolor (Toddler)"
+ },
+ {
+  "codigo": "DOM-13779",
+  "nombre": "Crocs Sonic the Hedgehog™ x Crocs Classic Clog - Baby / Toddler - Blue (Toddler)"
  },
  {
   "codigo": "DOM-1378",
   "nombre": "ASICS GEL-Nimbus 28 Black/Graphite Grey"
  },
  {
+  "codigo": "DOM-13780",
+  "nombre": "Crocs Kids' Graphic Classic Clog Toddler Pink Bows (Toddler)"
+ },
+ {
+  "codigo": "DOM-13781",
+  "nombre": "Crocs Kids' Graphic Classic Clog Toddler Green Realtree Camo (Toddler)"
+ },
+ {
+  "codigo": "DOM-13782",
+  "nombre": "Crocs Kids' Classic IAM Clog Toddler Green Dino (Toddler)"
+ },
+ {
+  "codigo": "DOM-13783",
+  "nombre": "Birkenstock Milano EVA Sandal - Toddler / Little Kid - Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13784",
+  "nombre": "Birkenstock Arizona EVA Slide Sandal - Little Kid - Fondant Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13785",
+  "nombre": "Birkenstock Milano EVA Sandal - Little Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13786",
+  "nombre": "Birkenstock Arizona EVA Slide Sandal - Little Kid - Surf Green (Toddler)"
+ },
+ {
+  "codigo": "DOM-13787",
+  "nombre": "Crocs Kids' Classic Clog Toddler Navy (Toddler)"
+ },
+ {
+  "codigo": "DOM-13788",
+  "nombre": "REEF Kids' Little Ojai Sandal Baby/Toddler/Little Kid Brown (Toddler)"
+ },
+ {
+  "codigo": "DOM-13789",
+  "nombre": "Under Armour Kids' Ignite Pro 8 Slide Sandal Little Kid Black /Pink / Black (Toddler)"
+ },
+ {
   "codigo": "DOM-1379",
   "nombre": "ASICS GEL-Kayano 33 Midnight/Khaki Green"
+ },
+ {
+  "codigo": "DOM-13790",
+  "nombre": "Crocs Kids' Classic Clog Toddler Pink Milk (Toddler)"
+ },
+ {
+  "codigo": "DOM-13791",
+  "nombre": "Crocs Kids' Classic Clog Toddler Pink Lemonade (Toddler)"
+ },
+ {
+  "codigo": "DOM-13792",
+  "nombre": "adidas Kids' Marvel Spiderman Water Sandal Baby/Toddler Red Spiderman (Toddler)"
+ },
+ {
+  "codigo": "DOM-13793",
+  "nombre": "Crocs Kids' Classic Clog Toddler Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13794",
+  "nombre": "Crocs Kids' Classic Clog Toddler White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13795",
+  "nombre": "CROCS Classic Clog Infant Toddler Sandals (Pink Milk/Pink) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13796",
+  "nombre": "Crocs Kids' Graphic Classic Clog Toddler Chalk Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13797",
+  "nombre": "Jordan Kids Hydrip Clog Sandal Little Kid Pink Glitter (Toddler)"
+ },
+ {
+  "codigo": "DOM-13798",
+  "nombre": "Crocs Kids' Marbled Classic Clog Toddler Red/Black Marble (Toddler)"
+ },
+ {
+  "codigo": "DOM-13799",
+  "nombre": "Crocs Kids' Graphic Classic Clog Toddler Quartz Friendship Bracelet (Toddler)"
  },
  {
   "codigo": "DOM-138",
@@ -11561,40 +17237,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Brooks Glycerin Max 2 Black/Rain Washed/Nightlife"
  },
  {
+  "codigo": "DOM-13800",
+  "nombre": "UGG ® Lowmel Mule - Little Kid / Big Kid - Moonlight (Toddler)"
+ },
+ {
+  "codigo": "DOM-13801",
+  "nombre": "Birkenstock Boston 2.0 Soft Footbed Clog - Big Kid - Concrete Gray (Toddler)"
+ },
+ {
+  "codigo": "DOM-13802",
+  "nombre": "PUMA Future Z 3.4 Firm Ground/Artificial Ground — Parisian Night/Fizzy Light/Pistachio (Toddler)"
+ },
+ {
+  "codigo": "DOM-13803",
+  "nombre": "SAUCONY KIDS Ride Millenium Infant Toddler Running Shoes (Pink) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13804",
+  "nombre": "REEBOK Rush Runner 6.0 (Toddler)"
+ },
+ {
+  "codigo": "DOM-13805",
+  "nombre": "adidas Marvel Spider-Man Run Falcon Shoes — Black/White/Pure Ruby (Toddler)"
+ },
+ {
+  "codigo": "DOM-13806",
+  "nombre": "PUMA Ultra Pro Firm, Artificial Ground Soccer Cleats — Yellow Alert/Black/Glowing Red/Lime Squeeze (Toddler)"
+ },
+ {
+  "codigo": "DOM-13807",
+  "nombre": "diadora Simple Run Slip On Sneakers (Toddler)"
+ },
+ {
+  "codigo": "DOM-13808",
+  "nombre": "SAUCONY KIDS ProGrid Guide 7 Infant Toddler Running Shoes (Pink/Black) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13809",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Red (Toddler)"
+ },
+ {
   "codigo": "DOM-1381",
   "nombre": "Brooks Ghost 18 Black/Silver/Chameleon"
+ },
+ {
+  "codigo": "DOM-13810",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Black/Volt (Toddler)"
+ },
+ {
+  "codigo": "DOM-13811",
+  "nombre": "Under Armour Kids' Lockdown 7 Basketball Shoe Little Kid White/Red (Toddler)"
+ },
+ {
+  "codigo": "DOM-13812",
+  "nombre": "Nike Kids' Cosmic Runner Running Shoe Toddler Red/Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13813",
+  "nombre": "Under Armour Leadoff Icon Low RM Jr. Baseball Cleats — White/Midnight Navy/Midnight Navy (Toddler)"
+ },
+ {
+  "codigo": "DOM-13814",
+  "nombre": "adidas Kids' Galaxy 8 Sneaker Little Kid Medium Grey (Toddler)"
+ },
+ {
+  "codigo": "DOM-13815",
+  "nombre": "Nike Cosmic Runner — Light Current Blue/Black/Glacier Blue (Toddler)"
+ },
+ {
+  "codigo": "DOM-13816",
+  "nombre": "adidas A.E. 1 Basketball Shoes (Toddler)"
+ },
+ {
+  "codigo": "DOM-13817",
+  "nombre": "adidas Goletto Ix Laceless Firm Ground/Multi Ground Football — Solar Turbo/Core Black/Core Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13818",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13819",
+  "nombre": "Nike Kids' Stellar Ride Running Shoe Little Kid Black/White (Toddler)"
  },
  {
   "codigo": "DOM-1382",
   "nombre": "Saucony Endorphin Speed 6 Surf/Black"
  },
  {
+  "codigo": "DOM-13820",
+  "nombre": "adidas Goletto Ix Firm Ground/Multi Ground — Solar Turbo/Core Black/Core Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13821",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Black/Red (Toddler)"
+ },
+ {
+  "codigo": "DOM-13822",
+  "nombre": "Under Armour Kids' Assert 10 Running Shoe Little Kid Black/White Wide (Toddler)"
+ },
+ {
+  "codigo": "DOM-13823",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Black/Gold (Toddler)"
+ },
+ {
+  "codigo": "DOM-13824",
+  "nombre": "Under Armour Flash — Prime Pink/Rebel Pink/High Vis Yellow (Toddler)"
+ },
+ {
+  "codigo": "DOM-13825",
+  "nombre": "adidas Trae Unlimited — Black/Carbon/Solar Red (Toddler)"
+ },
+ {
+  "codigo": "DOM-13826",
+  "nombre": "New Balance Rave Run v2 — Nb Navy/Salt Water (Toddler)"
+ },
+ {
+  "codigo": "DOM-13827",
+  "nombre": "Nike Cosmic Runner Light — Palest Purple/Persian Violet (Toddler)"
+ },
+ {
+  "codigo": "DOM-13828",
+  "nombre": "adidas Kids' Lightorama Light Up Sneaker Toddler Light/Pastel Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13829",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler White/Orange Jdi (Toddler)"
+ },
+ {
   "codigo": "DOM-1383",
   "nombre": "Saucony Triumph 24 White/Naval"
+ },
+ {
+  "codigo": "DOM-13830",
+  "nombre": "Nike Kids' Cosmic Runner Running Shoe Toddler Blue/Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13831",
+  "nombre": "Nike Flex Runner 4 Athletic Shoe - Baby / Toddler - Black / Black / White — Black/Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13832",
+  "nombre": "adidas Kids' Runfalcon 6 Sneaker Toddler Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13833",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Pink/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13834",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Black/Purple (Toddler)"
+ },
+ {
+  "codigo": "DOM-13835",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13836",
+  "nombre": "Under Armour Kids' Charged+ Assert 11 AC Running Shoe Little Kid Black Camo (Toddler)"
+ },
+ {
+  "codigo": "DOM-13837",
+  "nombre": "Nike Kids' Flex Runner 4 Slip on Running Shoe Toddler Pink/Blue (Toddler)"
+ },
+ {
+  "codigo": "DOM-13838",
+  "nombre": "PUMA Kids' Rebound Layup High Top Sneaker Little Kid Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13839",
+  "nombre": "Nike Kids' Air Max Bia Sneaker Little Kid Grey/Pink (Toddler)"
  },
  {
   "codigo": "DOM-1384",
   "nombre": "New Balance 990v6 Grey/Grey"
  },
  {
+  "codigo": "DOM-13840",
+  "nombre": "PUMA Kids' MB World .01 Basketball Shoe Little Kid Black/Yellow (Toddler)"
+ },
+ {
+  "codigo": "DOM-13841",
+  "nombre": "PUMA Kids' Rebound Layup High Top Sneaker Little Kid Grey/Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13842",
+  "nombre": "HOKA Clifton 10 Preschool Running Shoes (Black) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13843",
+  "nombre": "New Balance 990v6 — Grey/Silver (Toddler)"
+ },
+ {
+  "codigo": "DOM-13844",
+  "nombre": "New Balance 990V6 — Purple/Nb Navy 2 (Toddler)"
+ },
+ {
+  "codigo": "DOM-13845",
+  "nombre": "NEWBALANCE FuelCell 990v6 Preschool Running Shoes (Grey/Silver/White) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13846",
+  "nombre": "ON RUNNING Cloudswift Preschool Running Shoes (All Black) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13847",
+  "nombre": "Reebok Angel Reese 1 — Atomic Aqua/Atomic Aqua/Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13848",
+  "nombre": "NIKE Air max 95 Big Bubble Pink Foam Preschool Running Shoes (Black/Pink Foam/White/Medium Grey) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13849",
+  "nombre": "Nike Pegasus 42 — Dark Slate/Black/Grey Mist/Racer Blue (Toddler)"
+ },
+ {
   "codigo": "DOM-1385",
   "nombre": "On Cloudmonster 3 Hyper Black/Ivory"
+ },
+ {
+  "codigo": "DOM-13850",
+  "nombre": "Nike Pegasus Trail 5 — Black/Phantom/Volt Ice (Toddler)"
+ },
+ {
+  "codigo": "DOM-13851",
+  "nombre": "Nike Vomero 18 — Black/Bright Crimson/University Red (Toddler)"
+ },
+ {
+  "codigo": "DOM-13852",
+  "nombre": "Hey Dude LILDUDE Slip-On Novelty — Sparkle Purple (Toddler)"
+ },
+ {
+  "codigo": "DOM-13853",
+  "nombre": "Dr. Martens Marlowe Hearts II J — Black/Nebula Glitter (Toddler)"
+ },
+ {
+  "codigo": "DOM-13854",
+  "nombre": "Under Armour Surge 4 Alternate Closure — Halo Gray/White/Iridescent (Toddler)"
+ },
+ {
+  "codigo": "DOM-13855",
+  "nombre": "Disney Princess Kids' Disney Princess Dress Shoe Toddler/Little Kid Pink Glitter (Toddler)"
+ },
+ {
+  "codigo": "DOM-13856",
+  "nombre": "adidas Street Talk Shoes — Black/White/Gold Metallic (Toddler)"
+ },
+ {
+  "codigo": "DOM-13857",
+  "nombre": "adidas Galaxy 8 Shoes — Night Grey/Tech Grey Metallic/Screaming Green (Toddler)"
+ },
+ {
+  "codigo": "DOM-13858",
+  "nombre": "Hey Dude Wendy Funk Butterfly — Iridescent (Toddler)"
+ },
+ {
+  "codigo": "DOM-13859",
+  "nombre": "NEWBALANCE 740 Infant Toddler Lifestyle Shoes (Black/Silver Metallic) (Toddler)"
  },
  {
   "codigo": "DOM-1386",
   "nombre": "On Cloudsurfer Max White/White"
  },
  {
+  "codigo": "DOM-13860",
+  "nombre": "adidas Copa Pure IV Club Firm Ground/Multi Ground — Zero Metallic/Dark Blue/Lucid Ray Blue (Toddler)"
+ },
+ {
+  "codigo": "DOM-13861",
+  "nombre": "Hello Kitty Kids' Hello Kitty Hi Top Sneaker Toddler Pink Glitter Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13862",
+  "nombre": "Blowfish Malibu Kids' Perfect-T Zip Up Sneaker Toddler/Little Kid Blush Shimmer Fabric (Toddler)"
+ },
+ {
+  "codigo": "DOM-13863",
+  "nombre": "Skechers Kids' Twinkle Spark Bow Toddler/Little Kid Black/Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13864",
+  "nombre": "Skechers Kids' Twinkle Sparks Precious Mary Jane Toddler/Little Kid Silver Glitter/Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13865",
+  "nombre": "Converse Kids' Chuck Taylor All Star Lift High Top Sneaker Little Kid Pink Glitter (Toddler)"
+ },
+ {
+  "codigo": "DOM-13866",
+  "nombre": "New Balance Kids' 515 Retro Sneaker Toddler Pink/Rainbow (Toddler)"
+ },
+ {
+  "codigo": "DOM-13867",
+  "nombre": "NEWBALANCE 1000 Preschool Running Shoes (Bright Lavender/Light Silver Metallic) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13868",
+  "nombre": "JORDAN Air Jordan 11 Retro Low Mothers Day Infant Toddler Lifestyle Shoes (White/Metallic Gold/Team Gold) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13869",
+  "nombre": "JORDAN Air Jordan 1 Retro Low OG Metallic Silver Preschool Lifestyle Shoes (Neutral Grey/Metallic Silver/White) (Toddler)"
+ },
+ {
   "codigo": "DOM-1387",
   "nombre": "Mizuno Wave Rider 30 Black/White"
+ },
+ {
+  "codigo": "DOM-13870",
+  "nombre": "Vans Old Skool V Glitter Skate Shoe - Little Kid - Pastel / Multicolor — Pastel/Multicolor (Toddler)"
+ },
+ {
+  "codigo": "DOM-13871",
+  "nombre": "Dr. Martens 1460 8-Eye Glitter Boot - Toddler - Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13872",
+  "nombre": "TOMS Carolina Lace-Up Espadrille - Little Kid / Big Kid - Seashell Metallic (Toddler)"
+ },
+ {
+  "codigo": "DOM-13873",
+  "nombre": "TOMS Mia Boot - Baby / Toddler / Little Kid - Seashell Metallic (Toddler)"
+ },
+ {
+  "codigo": "DOM-13874",
+  "nombre": "adidas Samba OG Elastic Lace Athletic Shoe - Baby / Toddler - Wonder Mauve / Cream White / Tech Grey Metallic — Wonder Mauve/Cream White/Tech Grey Metallic (Toddler)"
+ },
+ {
+  "codigo": "DOM-13875",
+  "nombre": "ADIDAS Samba OG Comfort Closure Elastic Laces Infant Toddler Lifestyle Shoes (Silver Metallic/Cloud White/Core White) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13876",
+  "nombre": "ADIDAS Samba OG Wonder Mauve Infant Toddler Lifestyle Shoes (Wonder Mauve/Cream White/Tech Grey Metallic) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13877",
+  "nombre": "ADIDAS Samba OG Comfort Closure Elastic Lace Infant Toddler Lifestyle Shoes (Silver Metallic/Cloud White/Gum) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13878",
+  "nombre": "ADIDAS Samba Jane Infant Toddler Lifestyle Shoes (Silver Metallic/Cloud White/Gum) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13879",
+  "nombre": "NIKE Vomero 5 Preschool Running Shoes (Sail/Metallic Gold/Anthracite) (Toddler)"
  },
  {
   "codigo": "DOM-1388",
   "nombre": "Mizuno Wave Sky 9 Dark Slate/White"
  },
  {
+  "codigo": "DOM-13880",
+  "nombre": "JORDAN Air Jordan 4 Retro Platinum Gold Preschool Lifestyle Shoes (Pure Platinum/Metallic Gold/Black/Sail) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13881",
+  "nombre": "JORDAN Air Jordan 4 Retro Abundance Preschool Lifestyle Shoes (Seafoam/Sail/Metallic Silver) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13882",
+  "nombre": "JORDAN Air Jordan 4 Retro Worn Blue Preschool Lifestyle Shoes (Sail/Gum Light Brown/Worn Blue/Sail/Metallic Gold) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13883",
+  "nombre": "Nike Pegasus 41 — Ghost Aqua/Metallic Silver/Mint Foam (Toddler)"
+ },
+ {
+  "codigo": "DOM-13884",
+  "nombre": "NIKE Air DT Max 96 Low Infant Toddler Basketball Shoes (White/Metallic Silver) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13885",
+  "nombre": "NIKE Air Diamond Turf II Patent Preschool Basketball Shoes (Black/Gym Red/Metallic Gold) (Toddler)"
+ },
+ {
+  "codigo": "DOM-13886",
+  "nombre": "NIKE LEGO x Air Max 95 Lucky Green Preschool Lifestyle Shoes (Lucky Green/Metallic Silver/Black/Green Strike/Dark Concord) Free Shipping (Toddler)"
+ },
+ {
+  "codigo": "DOM-13887",
+  "nombre": "NIKE LEGO x Air Max 95 Brick Pixel Preschool Lifestyle Shoes (Smoke Grey/Metallic Silver/Black/University Gold/Volt/Hyper Pink) Free Shipping (Toddler)"
+ },
+ {
+  "codigo": "DOM-13888",
+  "nombre": "mou Eskimo Special Leather — Stone Metallic (Toddler)"
+ },
+ {
+  "codigo": "DOM-13889",
+  "nombre": "Crocs Brooklyn Ballet Flats — Black (Toddler)"
+ },
+ {
   "codigo": "DOM-1389",
   "nombre": "ASICS GEL-Resolution X Midnight/White"
+ },
+ {
+  "codigo": "DOM-13890",
+  "nombre": "Stride Rite PW Ella — White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13891",
+  "nombre": "Floafers Anchor — Baby Pink/Bright White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13892",
+  "nombre": "Stride Rite PW Bonnie — Cloud White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13893",
+  "nombre": "Stride Rite Cheyenne — Tan (Toddler)"
+ },
+ {
+  "codigo": "DOM-13894",
+  "nombre": "Hey Dude Austin Lift Y Leather — Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13895",
+  "nombre": "Hey Dude Wendy Y Stretch Jersey — Light Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13896",
+  "nombre": "SKECHERS Twinkle Sparks, Lighted 314475L — Pink/Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13897",
+  "nombre": "Stride Rite Kids' Cheyenne Mary Jane Baby/Toddler Tan (Toddler)"
+ },
+ {
+  "codigo": "DOM-13898",
+  "nombre": "Merrell Jungle Moc Leather — Gunsmoke (Toddler)"
+ },
+ {
+  "codigo": "DOM-13899",
+  "nombre": "Stride Rite Colby — Grey (Toddler)"
  },
  {
   "codigo": "DOM-139",
@@ -11605,40 +17681,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Brooks Glycerin 23 Black/Ebony"
  },
  {
+  "codigo": "DOM-13900",
+  "nombre": "Josmo Essential Walker — Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13901",
+  "nombre": "Stride Rite Claire — Navy (Toddler)"
+ },
+ {
+  "codigo": "DOM-13902",
+  "nombre": "KEEN Kootenay IV Mid WP — Steel Grey/Porcelain (Toddler)"
+ },
+ {
+  "codigo": "DOM-13903",
+  "nombre": "TOMS Oliver — Navy 1 (Toddler)"
+ },
+ {
+  "codigo": "DOM-13904",
+  "nombre": "Stride Rite SRT Elliot — White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13905",
+  "nombre": "Stride Rite SRT Emilia — White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13906",
+  "nombre": "Deer Stags Kids' Gabe Medium/Wide Oxford Toddler/Little Kid Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13907",
+  "nombre": "Skechers Kids' Twinkle Sparks Precious Mary Jane Toddler/Little Kid Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13908",
+  "nombre": "Skechers Kids' Twinkle Sparks Precious Mary Jane Toddler/Little Kid Red (Toddler)"
+ },
+ {
+  "codigo": "DOM-13909",
+  "nombre": "Florsheim Kids' Norwalk Plain Toe Oxford, Jr. Toddler/Little/Big Kid Black Crazy Horse (Toddler)"
+ },
+ {
   "codigo": "DOM-1391",
   "nombre": "Tommy Hilfiger Recoup — Dark Blue"
+ },
+ {
+  "codigo": "DOM-13910",
+  "nombre": "Florsheim Kids' Norwalk Plain Toe Oxford, Jr. Toddler/Little/Big Kid Brown Crazy Horse (Toddler)"
+ },
+ {
+  "codigo": "DOM-13911",
+  "nombre": "Florsheim Kids' Rucci Penny Loafer Jr Toddler/Little/Big Kid Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13912",
+  "nombre": "Florsheim Kids' Rucci Penny Loafer Jr Toddler/Little/Big Kid Cognac (Toddler)"
+ },
+ {
+  "codigo": "DOM-13913",
+  "nombre": "Florsheim Kids' Norwalk Plain Toe Oxford, Jr. Toddler/Little/Big Kid Cognac Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13914",
+  "nombre": "Dr. Martens Maccy Mary Jane Casual Shoe - Little Kid / Big Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13915",
+  "nombre": "Dr. Martens Polley II Mary Jane Shoe - Little Kid / Big Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13916",
+  "nombre": "Dr. Martens 8065 Mary Jane Casual Shoe - Little Kid / Big Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13917",
+  "nombre": "Kurt Geiger Mini Hugh Eagle Head Loafer - Little Kid / Big Kid - Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13918",
+  "nombre": "Dr. Martens 8065 Mary Jane Casual Shoe - Little Kid / Big Kid - Brown (Toddler)"
+ },
+ {
+  "codigo": "DOM-13919",
+  "nombre": "Mini Melissa June Mary Jane Loafer - Little Kid / Big Kid - Black / Clear — Black/Clear (Toddler)"
  },
  {
   "codigo": "DOM-1392",
   "nombre": "Tommy Hilfiger Rosell — Brown"
  },
  {
+  "codigo": "DOM-13920",
+  "nombre": "Mini Melissa June Mary Jane Loafer - Little Kid / Big Kid - Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13921",
+  "nombre": "UGG Lowmel — Chestnut (Toddler)"
+ },
+ {
+  "codigo": "DOM-13922",
+  "nombre": "VEJA Small Canary Light Alveomesh — Light Grey/California/Silver (Toddler)"
+ },
+ {
+  "codigo": "DOM-13923",
+  "nombre": "UGG Lowmel — Dusty Orchid (Toddler)"
+ },
+ {
+  "codigo": "DOM-13924",
+  "nombre": "UGG Classic Ultra Stretch Cuff — Dusty Orchid (Toddler)"
+ },
+ {
+  "codigo": "DOM-13925",
+  "nombre": "MOON BOOT Icon Nylon — Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13926",
+  "nombre": "MOON BOOT JR Park Strap — Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13927",
+  "nombre": "mou Eskimo Suede — Black/Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13928",
+  "nombre": "Crocs Kids' Classic Fisherman Sandal Toddler Chalk Glitter (Toddler)"
+ },
+ {
+  "codigo": "DOM-13929",
+  "nombre": "adidas Kids' Altaswim Water Sandal Baby/Toddler Turquoise Marble (Toddler)"
+ },
+ {
   "codigo": "DOM-1393",
   "nombre": "Calvin Klein Elon — Black"
+ },
+ {
+  "codigo": "DOM-13930",
+  "nombre": "Jellypop Kids' Baleno Jelly Sandal Toddler/Little Kid Pink Multi Jelly (Toddler)"
+ },
+ {
+  "codigo": "DOM-13931",
+  "nombre": "adidas Kids' Altaswim Water Sandal Toddler/Little Kid Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13932",
+  "nombre": "Blowfish Malibu Kids' Gal Pal 2-T Slingback Sandal Toddler/Little Kid Floral Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13933",
+  "nombre": "adidas Kids' Altaventure 3.0 Water Sandal Toddler/Little Kid Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13934",
+  "nombre": "Nike Kids' Sunray Protect 4 Sandal Toddler Soft Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13935",
+  "nombre": "Blowfish Malibu Kids' Jellyfish Fisherman Sandal Toddler/Little Kid Clear Glitter (Toddler)"
+ },
+ {
+  "codigo": "DOM-13936",
+  "nombre": "Nike Kids' Sunray Protect 4 Sandal Toddler Light Blue/Pink (Toddler)"
+ },
+ {
+  "codigo": "DOM-13937",
+  "nombre": "Nike Kids' Sunray Protect 4 Sandal Little Kid Volt Tint (Toddler)"
+ },
+ {
+  "codigo": "DOM-13938",
+  "nombre": "Birkenstock Kids' Essentials Arizona Footbed Sandal Little Kid Pink Clay (Toddler)"
+ },
+ {
+  "codigo": "DOM-13939",
+  "nombre": "adidas Kids' Disney Mickey Mouse Water Sandal Baby/Toddler Black Mickey Multi (Toddler)"
  },
  {
   "codigo": "DOM-1394",
   "nombre": "Calvin Klein Zion — Black"
  },
  {
+  "codigo": "DOM-13940",
+  "nombre": "adidas Kids' Altaswim Water Sandal Baby/Toddler Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13941",
+  "nombre": "adidas Kids' Water Sandal Baby/Toddler Black/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13942",
+  "nombre": "Jellypop Kids' Lil Sivora Sandal Toddler/Little Kid White Eyelet (Toddler)"
+ },
+ {
+  "codigo": "DOM-13943",
+  "nombre": "REEF Kids' Little Water Vista Sandal Baby/Toddler/Little Kid White/Tan (Toddler)"
+ },
+ {
+  "codigo": "DOM-13944",
+  "nombre": "adidas Kids' Disney Minnie Mouse Water Sandal Baby/Toddler Light Pink Minnie (Toddler)"
+ },
+ {
+  "codigo": "DOM-13945",
+  "nombre": "REEF Kids' Surfspray Sandal Baby/Toddler/Little Kid Black Marble (Toddler)"
+ },
+ {
+  "codigo": "DOM-13946",
+  "nombre": "REEF Kids' Little Water Vista Sandal Baby/Toddler/Little Kid Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13947",
+  "nombre": "Birkenstock Kids' Essentials Arizona Footbed Sandal Little Kid Light Rose (Toddler)"
+ },
+ {
+  "codigo": "DOM-13948",
+  "nombre": "Nike Kids' Sunray Protect 4 Sandal Toddler Sandrift Beige (Toddler)"
+ },
+ {
+  "codigo": "DOM-13949",
+  "nombre": "Blowfish Malibu Kids' Sunflower Sandal Toddler/Little Kid White (Toddler)"
+ },
+ {
   "codigo": "DOM-1395",
   "nombre": "Calvin Klein Meiiny — Dark Brown"
+ },
+ {
+  "codigo": "DOM-13950",
+  "nombre": "Nike Kids' Sunray Protect 4 Sandal Toddler Blue/White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13951",
+  "nombre": "Nike Kids' Sunray Protect 4 Sandal Toddler Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13952",
+  "nombre": "Minnie Mouse Kids' Minnie Wink Sandal Toddler/Little Kid Pink Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13953",
+  "nombre": "Minnie Mouse Kids' Minnie Mouse Water Sandal Toddler/Little Kid Pink Multi (Toddler)"
+ },
+ {
+  "codigo": "DOM-13954",
+  "nombre": "Frozen Kids' Frozen 2 Sandal Toddler/Little Kid Blue/Purple (Toddler)"
+ },
+ {
+  "codigo": "DOM-13955",
+  "nombre": "Birkenstock Kids' Arizona Footbed Sandal Little Kid Black (Toddler)"
+ },
+ {
+  "codigo": "DOM-13956",
+  "nombre": "Birkenstock Kids' Arizona Footbed Sandal Little Kid Gray Taupe (Toddler)"
+ },
+ {
+  "codigo": "DOM-13957",
+  "nombre": "Birkenstock Kids' Mayari Footbed Sandal Little Kid White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13958",
+  "nombre": "Birkenstock Kids' Roma Footbed Sandal Toddler/Little Kid Mocha (Toddler)"
+ },
+ {
+  "codigo": "DOM-13959",
+  "nombre": "Birkenstock Kids' Arizona Footbed Sandal Little Kid Mocha (Toddler)"
  },
  {
   "codigo": "DOM-1396",
   "nombre": "Tommy Hilfiger Nevyn — Cognac"
  },
  {
+  "codigo": "DOM-13960",
+  "nombre": "Birkenstock Kids' Arizona Footbed Sandal Little Kid Pearl White (Toddler)"
+ },
+ {
+  "codigo": "DOM-13961",
+  "nombre": "Puma Voltaic Evo Wide Running Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13962",
+  "nombre": "Puma Softride Enzo 5 Rose Gold Running Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13963",
+  "nombre": "Puma Electrify NITRO 2 Running Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13964",
+  "nombre": "Puma Ultra 6 Play Easy On TT Turf Soccer Cleats (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13965",
+  "nombre": "Puma PUMA X 2K Scoot Zeros Basketball Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13966",
+  "nombre": "adidas Goletto IX Laceless Firm/Multi Ground Soccer Cleats (Big Kid) — Blanco / Negro / Lúcido Limón"
+ },
+ {
+  "codigo": "DOM-13967",
+  "nombre": "Puma Future 8 Match Creativity Firm Ground/Artificial Ground Soccer Cleats (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13968",
+  "nombre": "Diadora Pichichi 7 Turf/Artifical Ground Soccer Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13969",
+  "nombre": "Puma MB.03 Iridescent Basketball Shoes (Big Kid)"
+ },
+ {
   "codigo": "DOM-1397",
   "nombre": "Tommy Hilfiger Rozi — Dark Blue"
+ },
+ {
+  "codigo": "DOM-13970",
+  "nombre": "Diadora Calcetto II Leather Turf Soccer Shoes (-) (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13971",
+  "nombre": "Puma Ultra 6 Match+ Laceless Firm Ground/Multi Ground Soccer Cleats (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13972",
+  "nombre": "Puma Ultra Match Laceless Energy Firm Ground/Artificial Ground Soccer Cleats (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13973",
+  "nombre": "Saucony Ride Millennium Running Shoes (Big Kid) — Negro / Metálico"
+ },
+ {
+  "codigo": "DOM-13974",
+  "nombre": "Puma Ultra 6 Play Turf Soccer Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13975",
+  "nombre": "Puma Ultra Pulisic Artificial, Firm Ground Soccer Cleats (Big Kid) — Blanco / Rojo / Negro"
+ },
+ {
+  "codigo": "DOM-13976",
+  "nombre": "Puma ST Runner Slip On Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13977",
+  "nombre": "Puma Scoot Zeros II Sterling Basketball Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13978",
+  "nombre": "Puma Dagger Basketball Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13979",
+  "nombre": "Puma evoSPEED Star 9 Running Shoes (Big Kid)"
  },
  {
   "codigo": "DOM-1398",
   "nombre": "Tommy Hilfiger Davidos — Dark Brown/Navy"
  },
  {
+  "codigo": "DOM-13980",
+  "nombre": "Puma Cell Vive Training Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13981",
+  "nombre": "adidas Believe That 1 Basketball (Big Kid) — Lúcido Azul / Court Verde / Lúcido Azul"
+ },
+ {
+  "codigo": "DOM-13982",
+  "nombre": "Puma Velocity NITRO 2 Running Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13983",
+  "nombre": "Puma Future 7 Play Turf Training (Big Kid) — Puma Negro / Puma Blanco"
+ },
+ {
+  "codigo": "DOM-13984",
+  "nombre": "Puma MB.03 Kid Super Basketball Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13985",
+  "nombre": "Puma Future 9 Match Firm/Artificial Ground Soccer Cleats (Big Kid) — Helado Azul / Azul Joya"
+ },
+ {
+  "codigo": "DOM-13986",
+  "nombre": "Puma Future 9 Play Turf Training Soccer Cleats (Big Kid) — Brillante Rojo / Blanco / Negro / Plateado"
+ },
+ {
+  "codigo": "DOM-13987",
+  "nombre": "adidas Purechill Runner Lifestyle Shoes (Big Kid) — Transparente Rosa / Matte Plateado / Transparente Rosa"
+ },
+ {
+  "codigo": "DOM-13988",
+  "nombre": "Puma Scoot Zeros Purple Lightning Basketball Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13989",
+  "nombre": "Puma PUMA HOOPS X TMNT MB.03 Baxter Stockman Basketball Shoes (Big Kid)"
+ },
+ {
   "codigo": "DOM-1399",
   "nombre": "Isotoner Diamond Corduroy Moccasin Slipper — Black"
+ },
+ {
+  "codigo": "DOM-13990",
+  "nombre": "Puma Future Play Firm, Artificial Ground Soccer Cleats (Big Kid) — Poison Rosa / Sol Stream / Brillante Aqua / Blanco"
+ },
+ {
+  "codigo": "DOM-13991",
+  "nombre": "Puma Future 7 Match Volume Up Firm Ground/Artificial Ground Soccer Cleats (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13992",
+  "nombre": "Puma PUMA x FAST & FURIOUS MB.05 La Basketball Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13993",
+  "nombre": "Nike Star Runner Utility (Big Kid) — Negro Spruce / Safety Naranja / Camuflaje Verde / Dusty Oliva / Limón Venom / Mo"
+ },
+ {
+  "codigo": "DOM-13994",
+  "nombre": "Kurt Geiger Mini Kurt Runner (Big Kid) — Blanco"
+ },
+ {
+  "codigo": "DOM-13995",
+  "nombre": "Nike Air Max 95 Big Bubble Neon Running Shoes (Big Kid) — Negro / Neon Amarillo / Antracita / Claro Grafito"
+ },
+ {
+  "codigo": "DOM-13996",
+  "nombre": "Nike Flex Runner 4 Special Edition (Big Kid) — Negro / Metálico Dorado / Negro"
+ },
+ {
+  "codigo": "DOM-13997",
+  "nombre": "adidas Predator Club Fold-Over Tongue Elastic Laces Firm Ground Soccer Cleats (Big Kid) — Crystal Celeste / Ray Azul / Team Solar Amarillo"
+ },
+ {
+  "codigo": "DOM-13998",
+  "nombre": "Puma PUMA X LAMELO BALL MB.04 Lo Alien Skins Basketball Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-13999",
+  "nombre": "Newbalance 2002R Running Shoes (Big Kid) — Negro / Negro Metálico"
  },
  {
   "codigo": "DOM-140",
@@ -11649,40 +18125,440 @@ var ZAP_HISTORIAL = [
   "nombre": "Isotoner Microterry Slip On Slipper — Black"
  },
  {
+  "codigo": "DOM-14000",
+  "nombre": "Asics Gel 1130 Running Shoes (Big Kid) — Rosa Cloud / Crema"
+ },
+ {
+  "codigo": "DOM-14001",
+  "nombre": "Jordan Air Jordan MVP 92 Basketball Shoes (Black/Infrared 23) (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14002",
+  "nombre": "On Running Cloudleap Running Shoes (Big Kid) — Salt / Bubblegum"
+ },
+ {
+  "codigo": "DOM-14003",
+  "nombre": "Hoka Rincon 4 Running Shoes (Big Kid) — Negro / Negro"
+ },
+ {
+  "codigo": "DOM-14004",
+  "nombre": "Anta Kai 1 College Basketball Shoes (Big Kid) — Azul / Blanco / Plateado"
+ },
+ {
+  "codigo": "DOM-14005",
+  "nombre": "Nike Little Posite Pro Premium Black And Multicolor Basketball Shoes (Big Kid) — Negro / Negro / Voltage Verde / Goma Oscuro / Marrón"
+ },
+ {
+  "codigo": "DOM-14006",
+  "nombre": "Jordan Spizike Low Flint Basketball Shoes (Big Kid) — Flint / University Azul / Blanco / Azul Marino"
+ },
+ {
+  "codigo": "DOM-14007",
+  "nombre": "adidas Anthony Edwards 2 Alphadawg Basketball Shoes (Big Kid) — Footwear Blanco / Core Negro / Dusty Ink"
+ },
+ {
+  "codigo": "DOM-14008",
+  "nombre": "Nike Little Posite Pro Glow In The Dark Basketball Shoes (Big Kid) — Summit Blanco / Negro"
+ },
+ {
+  "codigo": "DOM-14009",
+  "nombre": "Puma Hali 1 Basketball Shoe (Big Kid)"
+ },
+ {
   "codigo": "DOM-1401",
   "nombre": "Isotoner Microterry Slip On Slipper — Navy"
+ },
+ {
+  "codigo": "DOM-14010",
+  "nombre": "Nike Air Diamond Turf II Basketball Shoes (Big Kid) — Negro / Blanco / Fire Rojo / Metálico Dorado"
+ },
+ {
+  "codigo": "DOM-14011",
+  "nombre": "Puma Accelerate Tennis Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14012",
+  "nombre": "Puma Palermo Leather Easy On Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14013",
+  "nombre": "Puma PUMA X SMILEYWORLD Future Rider AC Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14014",
+  "nombre": "Puma Caven Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14015",
+  "nombre": "Puma Scuderia Ferrari Palermo Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14016",
+  "nombre": "Puma ST Miler Rose Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14017",
+  "nombre": "Steve Madden Atomic (Big Kid) — Taupe"
+ },
+ {
+  "codigo": "DOM-14018",
+  "nombre": "Puma Karmen Rebelle Mid Platform Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14019",
+  "nombre": "Puma Carina Street Lacey Lace Up Sneakers (Big Kid)"
  },
  {
   "codigo": "DOM-1402",
   "nombre": "Isotoner Moccasin Gel Infused Memory Foam — Black"
  },
  {
+  "codigo": "DOM-14020",
+  "nombre": "Converse Chuck Taylor® All Star® Hi (Big Kid) — Egret / All Heat / Sunny Outlook"
+ },
+ {
+  "codigo": "DOM-14021",
+  "nombre": "Puma Rebound LayUp RCL Bling Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14022",
+  "nombre": "Puma Carina 2.0 Crystal Wings Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14023",
+  "nombre": "Puma Pacer Future Allure Night Out Glitter Slip On Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14024",
+  "nombre": "Puma Future Rider Twofold Brain Freeze Slip On Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14025",
+  "nombre": "Mia Nikka (Big Kid) — Blanco / Negro"
+ },
+ {
+  "codigo": "DOM-14026",
+  "nombre": "Puma PUMA X SMILEYWORLD Scuff Slipper (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14027",
+  "nombre": "Toms Paseo Lace Up Sneakers (-) (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14028",
+  "nombre": "Keds Triple UP Glitter Celebrations (Big Kid) — Champagne Brillo"
+ },
+ {
+  "codigo": "DOM-14029",
+  "nombre": "Roper Jed Ostrich Square Toe Cowboy Boots (Big Kid)"
+ },
+ {
   "codigo": "DOM-1403",
   "nombre": "Tommy Hilfiger Radden — Dark Blue"
+ },
+ {
+  "codigo": "DOM-14030",
+  "nombre": "Skechers Skechers Meteor-Lights-Krendox 401495L (Big Kid) — Negro / Azul"
+ },
+ {
+  "codigo": "DOM-14031",
+  "nombre": "Sperry Fairwater Plushwave (Big Kid) — Negro 1"
+ },
+ {
+  "codigo": "DOM-14032",
+  "nombre": "Puma PUMA X FAST AND FURIOUS LaFrance RNR LA Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14033",
+  "nombre": "Nike Air Force 1 Tech Essential Lifestyle Shoes (Big Kid) — Blanco / Game Azul Real"
+ },
+ {
+  "codigo": "DOM-14034",
+  "nombre": "adidas F50 Hyperfast League Laceless Turf (Big Kid) — Blanco / Solar Morado / Solar Turbo"
+ },
+ {
+  "codigo": "DOM-14035",
+  "nombre": "Polo Frazier (Big Kid) — Blanco / Azul Marino"
+ },
+ {
+  "codigo": "DOM-14036",
+  "nombre": "Puma Fade Lace Up Sneakers (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14037",
+  "nombre": "Skechers Hands Free Slip-Ins-Wave 92 304053L (Big Kid) — Claro Rosa / Multicolor"
+ },
+ {
+  "codigo": "DOM-14038",
+  "nombre": "adidas Adizero Pacer J (Big Kid) — Blanco / Team Azul Real Azul / Pure Rubí"
+ },
+ {
+  "codigo": "DOM-14039",
+  "nombre": "New Balance Furon Team FG V8 (Big Kid) — Punch Amarillo / Negro"
  },
  {
   "codigo": "DOM-1404",
   "nombre": "Nike Soccer Legend 10 Club — Black/Black"
  },
  {
+  "codigo": "DOM-14040",
+  "nombre": "Jordan Air Jordan 1 Retro High OG UNC Reimagined Lifestyle Shoes (Big Kid) — Oscuro Powder Azul / Oscuro Powder Azul / Vela"
+ },
+ {
+  "codigo": "DOM-14041",
+  "nombre": "Puma Palermo (Big Kid) — Puma Blanco / Vapor Gris / Goma"
+ },
+ {
+  "codigo": "DOM-14042",
+  "nombre": "Jordan Air Jordan 1 Mid 'Black Palomino' Big Kids' Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14043",
+  "nombre": "Air Jordan Air Jordan 1 Kids Mid Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14044",
+  "nombre": "New Balance 990v6 (Big Kid) — Gris / Plateado"
+ },
+ {
+  "codigo": "DOM-14045",
+  "nombre": "Jordan Air Jordan 1 Mid 'Obsidian Dark Powder Blue' Big Kids' Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14046",
+  "nombre": "Nike Nike Air Force 1 Low 'Kobe Bryant Forever White Armory Blue' Big Kids' Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14047",
+  "nombre": "Nike LEGO x Air Max 95 Brick Pixel Lifestyle Shoes Free Shipping (Big Kid) — Gris Humo / Plateado Metálico / Negro / University Dorado / Volt / Hyper Rosa"
+ },
+ {
+  "codigo": "DOM-14048",
+  "nombre": "adidas Minecraft Handball Spezial Lifestyle Shoes (Big Kid) — Core Negro / Pure Naranja / Cloud Blanco"
+ },
+ {
+  "codigo": "DOM-14049",
+  "nombre": "Sperry Bahama Mary Jane (Big Kid) — Medianoche Azul"
+ },
+ {
   "codigo": "DOM-1405",
   "nombre": "Dockers Searose — Briar"
+ },
+ {
+  "codigo": "DOM-14050",
+  "nombre": "Hey Dude Wendy Unicorn Sparkle (Big Kid) — Lila"
+ },
+ {
+  "codigo": "DOM-14051",
+  "nombre": "Floafers Pace (Big Kid) — Azul / Cloud"
+ },
+ {
+  "codigo": "DOM-14052",
+  "nombre": "Teva Hurricane XLT Jr (Big Kid) — Starlight Morado"
+ },
+ {
+  "codigo": "DOM-14053",
+  "nombre": "Puma PUMA X Bratz Leadcat Slide Sandals (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14054",
+  "nombre": "Mia Salae (Big Kid) — Cognac"
+ },
+ {
+  "codigo": "DOM-14055",
+  "nombre": "Native Chase (Big Kid) — Future Morado Bling / Future Morado"
+ },
+ {
+  "codigo": "DOM-14056",
+  "nombre": "Puma Fluff Remix Bx Slide Sandals (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14057",
+  "nombre": "Bearpaw Snuggle Martis (Big Kid) — Avena"
+ },
+ {
+  "codigo": "DOM-14058",
+  "nombre": "Crocs Brooklyn Sandals (Big Kid) — Rosa Blast / Rosa Blast"
+ },
+ {
+  "codigo": "DOM-14059",
+  "nombre": "Puma Fluff Bx Slide Sandals (Big Kid)"
  },
  {
   "codigo": "DOM-1406",
   "nombre": "New Balance 530 — Black/Castlerock"
  },
  {
+  "codigo": "DOM-14060",
+  "nombre": "Teva Apreaqua CT (Big Kid) — Pirouette"
+ },
+ {
+  "codigo": "DOM-14061",
+  "nombre": "Crocs Classic Glitter Clogs (Big Kid) — Rosa Leche"
+ },
+ {
+  "codigo": "DOM-14062",
+  "nombre": "Puma Fluff Cheetah Slide Sandals (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14063",
+  "nombre": "Merrell Hut Ultra (Big Kid) — Azul / Azul Marino"
+ },
+ {
+  "codigo": "DOM-14064",
+  "nombre": "Crocs Classic Camo Clogs (Big Kid) — Negro / Pizarra Gris"
+ },
+ {
+  "codigo": "DOM-14065",
+  "nombre": "Crocs Classic Sandal V2 (Big Kid) — Rosa Leche / Brillo"
+ },
+ {
+  "codigo": "DOM-14066",
+  "nombre": "Keen Seacamp II CNX (Big Kid) — Negro / Brillante Azul"
+ },
+ {
+  "codigo": "DOM-14067",
+  "nombre": "Keen Seacamp II CNX (Big Kid) — Coronet Azul / Rosa Fuerte"
+ },
+ {
+  "codigo": "DOM-14068",
+  "nombre": "Crocs Classic I am Clogs (Big Kid) — Claro Up / Naranja"
+ },
+ {
+  "codigo": "DOM-14069",
+  "nombre": "Teva Manatee (Big Kid) — Gris / Dazzling Azul"
+ },
+ {
   "codigo": "DOM-1407",
   "nombre": "Converse Chuck Taylor All Star High-Top Sneaker — Black"
+ },
+ {
+  "codigo": "DOM-14070",
+  "nombre": "Teva Original Universal Metallic (Big Kid) — Neutral Multicolor"
+ },
+ {
+  "codigo": "DOM-14071",
+  "nombre": "Crocs Disney Frozen 2 Clogs (Big Kid) — Olaf #2"
+ },
+ {
+  "codigo": "DOM-14072",
+  "nombre": "Crocs Classic Sports Clogs (Big Kid) — Bone"
+ },
+ {
+  "codigo": "DOM-14073",
+  "nombre": "Crocs Classic Pokemon Clog (Big Kid) — Poke Ball"
+ },
+ {
+  "codigo": "DOM-14074",
+  "nombre": "Crocs Classic Buckle Clogs (Big Kid) — Celeste Hielo Star"
+ },
+ {
+  "codigo": "DOM-14075",
+  "nombre": "Teva Tanza (Big Kid) — Hydro Camuflaje Total Eclipse"
+ },
+ {
+  "codigo": "DOM-14076",
+  "nombre": "Crocs Classic Superman Clogs (Big Kid) — Multicolor"
+ },
+ {
+  "codigo": "DOM-14077",
+  "nombre": "Keen Hyperport H2 Sandals (Big Kid) — Mediterranea / Naranja Peel"
+ },
+ {
+  "codigo": "DOM-14078",
+  "nombre": "Nike ReactX Rejuven8 (Big Kid) — Oscuro Gris Humo / Lightening / Negro"
+ },
+ {
+  "codigo": "DOM-14079",
+  "nombre": "Nike ReactX Rejuven8 Sandals (Big Kid) — Verde Strike / Negro / Volt"
  },
  {
   "codigo": "DOM-1408",
   "nombre": "Converse Chuck Taylor All Star Low Top Sneaker — Black"
  },
  {
+  "codigo": "DOM-14080",
+  "nombre": "UGG Tazz Shiny Dots Slipper Sandals (Chestnut) (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14081",
+  "nombre": "Hey Dude Austin Lift Clog (Big Kid) — Sesame"
+ },
+ {
+  "codigo": "DOM-14082",
+  "nombre": "Keen Newport Neo H2 (Big Kid) — Azul Nights / Brillante Azul"
+ },
+ {
+  "codigo": "DOM-14083",
+  "nombre": "Crocs Classic Harry Potter Clog (Big Kid) — Multicolor / Hogwarts Express"
+ },
+ {
+  "codigo": "DOM-14084",
+  "nombre": "Columbia Techsun Adventure PT (Big Kid) — Kettle / Super Sonic"
+ },
+ {
+  "codigo": "DOM-14085",
+  "nombre": "The North Face Explore Camp Shandals (Big Kid) — Escarcha Gris / Fizz Lima"
+ },
+ {
+  "codigo": "DOM-14086",
+  "nombre": "Crocs Hearts Cut Out Classic Clog Sandals (Bubble Ice) (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14087",
+  "nombre": "Nike Calm 2.0 Slides (Big Kid) — Energy / Energy"
+ },
+ {
+  "codigo": "DOM-14088",
+  "nombre": "Nina Noula (Big Kid) — Claro Rosa"
+ },
+ {
+  "codigo": "DOM-14089",
+  "nombre": "Crocs Classic Clog - Youth (Big Kid)"
+ },
+ {
   "codigo": "DOM-1409",
   "nombre": "New Balance Fresh Foam Arishi v4 — Graphite/Slate Grey"
+ },
+ {
+  "codigo": "DOM-14090",
+  "nombre": "Crocs Hello Kitty And Friends Lace Classic Clog Sandals (Big Kid) — Rosa / Rosa"
+ },
+ {
+  "codigo": "DOM-14091",
+  "nombre": "Crocs Pikachu Classic Clog Sandals (Big Kid) — Rosa / Amarillo"
+ },
+ {
+  "codigo": "DOM-14092",
+  "nombre": "Puma Cool Cat Fluffy BX Slide Sandals (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14093",
+  "nombre": "Puma Fluff Remix Logo Slide Sandals (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14094",
+  "nombre": "Puma Fluffy Slide Sandals (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14095",
+  "nombre": "Nike Kawa Slide - Youth (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14096",
+  "nombre": "Crocs Toy Story Classic Clog (Big Kid) — Azul Jean"
+ },
+ {
+  "codigo": "DOM-14097",
+  "nombre": "Crocs Zootopia Classic Clogs (Big Kid) — Zootopia"
+ },
+ {
+  "codigo": "DOM-14098",
+  "nombre": "Keen Motozoa Sandal (Big Kid) — Rosa Lemonade / Cabbage"
+ },
+ {
+  "codigo": "DOM-14099",
+  "nombre": "Merrell Hydro Trekker (Big Kid) — Índigo / Fucsia"
  },
  {
   "codigo": "DOM-141",
@@ -11693,40 +18569,440 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance 608v5 — White/Navy"
  },
  {
+  "codigo": "DOM-14100",
+  "nombre": "Steve Madden Arabela (Big Kid) — Natural"
+ },
+ {
+  "codigo": "DOM-14101",
+  "nombre": "Steve Madden Dori (Big Kid) — Rubor"
+ },
+ {
+  "codigo": "DOM-14102",
+  "nombre": "Reef Water Vista (Big Kid) — Blanco / Tostado"
+ },
+ {
+  "codigo": "DOM-14103",
+  "nombre": "Toms Diana (Big Kid) — Rosa"
+ },
+ {
+  "codigo": "DOM-14104",
+  "nombre": "Mia Elodee Too (Big Kid) — Rubor"
+ },
+ {
+  "codigo": "DOM-14105",
+  "nombre": "Dr. Martens Klaire Y (Big Kid) — Pálido Rosa Athena"
+ },
+ {
+  "codigo": "DOM-14106",
+  "nombre": "Mini Melissa Free Platform Slide (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14107",
+  "nombre": "Steve Madden Golden (Big Kid) — Natural Raffia"
+ },
+ {
+  "codigo": "DOM-14108",
+  "nombre": "Kurt Geiger Orson Fringe (Big Kid) — Multicolor"
+ },
+ {
+  "codigo": "DOM-14109",
+  "nombre": "Mini Melissa Mar Sandals + Disney (Big Kid) — Brillo Transparente / Blanco"
+ },
+ {
   "codigo": "DOM-1411",
   "nombre": "Vans Classic Slip-On — True White (Canvas)"
+ },
+ {
+  "codigo": "DOM-14110",
+  "nombre": "Steve Madden Savvy (Big Kid) — Blanco"
+ },
+ {
+  "codigo": "DOM-14111",
+  "nombre": "Toms Giana (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14112",
+  "nombre": "Kurt Geiger Mini Fringe Sandals (Big Kid) — Multicolor"
+ },
+ {
+  "codigo": "DOM-14113",
+  "nombre": "Mia Mollee (Big Kid) — Cognac"
+ },
+ {
+  "codigo": "DOM-14114",
+  "nombre": "Dr. Martens Klaire J (Big Kid) — Pálido Rosa Athena"
+ },
+ {
+  "codigo": "DOM-14115",
+  "nombre": "Kurt Geiger Mini Kensington Espadrille (Big Kid) — Pastel"
+ },
+ {
+  "codigo": "DOM-14116",
+  "nombre": "Jack Rogers Jacks Flat Sandals (Big Kid) — Midnite"
+ },
+ {
+  "codigo": "DOM-14117",
+  "nombre": "Steve Madden Abigal (Big Kid) — Plateado"
+ },
+ {
+  "codigo": "DOM-14118",
+  "nombre": "Nina Cameena (Big Kid) — Plateado Metálico"
+ },
+ {
+  "codigo": "DOM-14119",
+  "nombre": "Mini Melissa Aranha 79 II (Big Kid) — Beige Brillo"
  },
  {
   "codigo": "DOM-1412",
   "nombre": "New Balance U574v1 — Black/NB White"
  },
  {
+  "codigo": "DOM-14120",
+  "nombre": "Steve Madden Mona Jelly (Big Kid) — Morado"
+ },
+ {
+  "codigo": "DOM-14121",
+  "nombre": "Nina Dance-T (Big Kid) — Plateado"
+ },
+ {
+  "codigo": "DOM-14122",
+  "nombre": "Teva Original Universal Metallic (Big Kid) — Quiet Verde Multicolor"
+ },
+ {
+  "codigo": "DOM-14123",
+  "nombre": "Steve Madden Mayson (Big Kid) — Denim"
+ },
+ {
+  "codigo": "DOM-14124",
+  "nombre": "Steve Madden Lessa (Big Kid) — Blanco"
+ },
+ {
+  "codigo": "DOM-14125",
+  "nombre": "Jack Rogers Jacks Eva (Big Kid) — Azul Marino"
+ },
+ {
+  "codigo": "DOM-14126",
+  "nombre": "Steve Madden Carrson (Big Kid) — Rubor Charol"
+ },
+ {
+  "codigo": "DOM-14127",
+  "nombre": "Steve Madden Adia (Big Kid) — Blanco Malla"
+ },
+ {
+  "codigo": "DOM-14128",
+  "nombre": "Kurt Geiger Mini Orson Hearts (Big Kid) — Dorado"
+ },
+ {
+  "codigo": "DOM-14129",
+  "nombre": "Sam Edelman Bella Bay (Big Kid) — Cognac"
+ },
+ {
   "codigo": "DOM-1413",
   "nombre": "Vans Classic Slip-On Checkerboard — Black and White Checker/White (Canvas)"
+ },
+ {
+  "codigo": "DOM-14130",
+  "nombre": "Salt Water Retro (Big Kid) — Rosa Dorado"
+ },
+ {
+  "codigo": "DOM-14131",
+  "nombre": "Nina Carla (Big Kid) — Plateado"
+ },
+ {
+  "codigo": "DOM-14132",
+  "nombre": "Mini Melissa Mini Possession (Big Kid) — Rosa"
+ },
+ {
+  "codigo": "DOM-14133",
+  "nombre": "Nina Marysol (Big Kid) — Blanco Liso / Stones"
+ },
+ {
+  "codigo": "DOM-14134",
+  "nombre": "Salt Water Salt Water Original Sandals (Big Kid) — Kelly Verde"
+ },
+ {
+  "codigo": "DOM-14135",
+  "nombre": "Salt Water Salt Water Original Sandals (Big Kid) — Mostaza"
+ },
+ {
+  "codigo": "DOM-14136",
+  "nombre": "Nina Mercy (Big Kid) — Blanco"
+ },
+ {
+  "codigo": "DOM-14137",
+  "nombre": "Steve Madden Cinthia (Big Kid) — Rubor"
+ },
+ {
+  "codigo": "DOM-14138",
+  "nombre": "Bearpaw Caprice (Big Kid) — Hickory"
+ },
+ {
+  "codigo": "DOM-14139",
+  "nombre": "Nina Charma (Big Kid) — Dorado"
  },
  {
   "codigo": "DOM-1414",
   "nombre": "Vans Authentic — Black"
  },
  {
+  "codigo": "DOM-14140",
+  "nombre": "Marjen Luna (Big Kid) — Dorado"
+ },
+ {
+  "codigo": "DOM-14141",
+  "nombre": "Nina Nami (Big Kid) — Rosa Dorado"
+ },
+ {
+  "codigo": "DOM-14142",
+  "nombre": "Steve Madden Krista (Big Kid) — Transparente"
+ },
+ {
+  "codigo": "DOM-14143",
+  "nombre": "Steve Madden Elinor (Big Kid) — Negro Charol"
+ },
+ {
+  "codigo": "DOM-14144",
+  "nombre": "Nina Mila (Big Kid) — Blanco Charol"
+ },
+ {
+  "codigo": "DOM-14145",
+  "nombre": "Nina Bryonna (Big Kid) — Plateado"
+ },
+ {
+  "codigo": "DOM-14146",
+  "nombre": "Nina Lacey (Big Kid) — Plateado Metálico"
+ },
+ {
+  "codigo": "DOM-14147",
+  "nombre": "Steve Madden Avenue (Big Kid) — Rainbow Multicolor"
+ },
+ {
+  "codigo": "DOM-14148",
+  "nombre": "Nina Alisia (Big Kid) — Azul"
+ },
+ {
+  "codigo": "DOM-14149",
+  "nombre": "Nina Pollie (Big Kid) — Plateado / Multicolor"
+ },
+ {
   "codigo": "DOM-1415",
   "nombre": "Nike Run Swift 3 — White/University Red/Black/Off-White"
+ },
+ {
+  "codigo": "DOM-14150",
+  "nombre": "Sperry Piper Ballet Flats (Big Kid) — Dorado"
+ },
+ {
+  "codigo": "DOM-14151",
+  "nombre": "Sam Edelman Felicia Flex (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14152",
+  "nombre": "Sam Edelman Maeve Michela (Big Kid) — Dorado 1"
+ },
+ {
+  "codigo": "DOM-14153",
+  "nombre": "Dr. Martens 8065 J (Big Kid) — Negro Suave T"
+ },
+ {
+  "codigo": "DOM-14154",
+  "nombre": "Sam Edelman Taelor Tstrap (Big Kid) — Negro 1"
+ },
+ {
+  "codigo": "DOM-14155",
+  "nombre": "Nina Joansie (Big Kid) — Marfil"
+ },
+ {
+  "codigo": "DOM-14156",
+  "nombre": "Dr. Martens Maccy J (Big Kid) — Negro Charol Lamper"
+ },
+ {
+  "codigo": "DOM-14157",
+  "nombre": "Mini Melissa Sweet Love Chrome (Big Kid) — Negro / Onix"
+ },
+ {
+  "codigo": "DOM-14158",
+  "nombre": "Dr. Martens Polley II Y (Big Kid) — Negro Charol"
+ },
+ {
+  "codigo": "DOM-14159",
+  "nombre": "Dr. Martens Maccy II J (Big Kid) — Negro Charol"
  },
  {
   "codigo": "DOM-1416",
   "nombre": "Nike Air Monarch IV — Black/Black"
  },
  {
+  "codigo": "DOM-14160",
+  "nombre": "Dr. Martens 8065 Y (Big Kid) — Negro Suave T"
+ },
+ {
+  "codigo": "DOM-14161",
+  "nombre": "Mini Melissa Campana Papel (Big Kid) — Rosa Brillo"
+ },
+ {
+  "codigo": "DOM-14162",
+  "nombre": "Dr. Martens Polley II Bow J (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14163",
+  "nombre": "Nina Rozy (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14164",
+  "nombre": "L'Amour Rebecca (Big Kid) — Charol Negro"
+ },
+ {
+  "codigo": "DOM-14165",
+  "nombre": "Mini Melissa Sweet Love + Disney Princess (Big Kid) — Rosa / Little Mermaid"
+ },
+ {
+  "codigo": "DOM-14166",
+  "nombre": "Nina Jax (Big Kid) — Plateado Malla"
+ },
+ {
+  "codigo": "DOM-14167",
+  "nombre": "Mini Melissa Sweet Love + Snow White (Big Kid) — Metálico Azul / Rojo"
+ },
+ {
+  "codigo": "DOM-14168",
+  "nombre": "Mini Melissa Mini Sophie (Big Kid) — Metálico Negro"
+ },
+ {
+  "codigo": "DOM-14169",
+  "nombre": "Steve Madden Roree (Big Kid) — Natural"
+ },
+ {
   "codigo": "DOM-1417",
   "nombre": "Vans Old Skool — Black/White"
+ },
+ {
+  "codigo": "DOM-14170",
+  "nombre": "Dr. Martens Maccy Y (Big Kid) — Negro Charol 1"
+ },
+ {
+  "codigo": "DOM-14171",
+  "nombre": "Nina Leva (Big Kid) — Blanco Malla"
+ },
+ {
+  "codigo": "DOM-14172",
+  "nombre": "Steve Madden Prettyy (Big Kid) — Rubor Charol"
+ },
+ {
+  "codigo": "DOM-14173",
+  "nombre": "Nina Lennie 2 (Big Kid) — Claro Dorado"
+ },
+ {
+  "codigo": "DOM-14174",
+  "nombre": "Nina Macey (Big Kid) — Blanco"
+ },
+ {
+  "codigo": "DOM-14175",
+  "nombre": "Nina Seeley (Big Kid) — Negro Charol"
+ },
+ {
+  "codigo": "DOM-14176",
+  "nombre": "Floafers Prodigy Driver Sparkle (Big Kid) — Rosa Sparkle"
+ },
+ {
+  "codigo": "DOM-14177",
+  "nombre": "Hunter Codys (Big Kid) — Plateado Metálico"
+ },
+ {
+  "codigo": "DOM-14178",
+  "nombre": "Floafers Prodigy Driver Patent (Big Kid) — Negro Charol / Negro"
+ },
+ {
+  "codigo": "DOM-14179",
+  "nombre": "Floafers Prodigy Driver Metallic (Big Kid) — Azul Metálico / Crema"
  },
  {
   "codigo": "DOM-1418",
   "nombre": "Vans Old Skool — Suede Pewter"
  },
  {
+  "codigo": "DOM-14180",
+  "nombre": "adidas Barreda Mary Jane (Big Kid) — Negro / Negro / Negro"
+ },
+ {
+  "codigo": "DOM-14181",
+  "nombre": "Toms Valencia (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14182",
+  "nombre": "Stride Rite Claire (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14183",
+  "nombre": "Toms Carolina Lace-Up (Big Kid) — Medium Rosa"
+ },
+ {
+  "codigo": "DOM-14184",
+  "nombre": "Toms Alpargata (Big Kid) — Oscuro Marrón"
+ },
+ {
+  "codigo": "DOM-14185",
+  "nombre": "Hey Dude Wally Stretch Jersey (Big Kid) — Claro Azul"
+ },
+ {
+  "codigo": "DOM-14186",
+  "nombre": "Floafers Prodigy Driver Print (Big Kid) — Azul Teñido / Brillante Blanco"
+ },
+ {
+  "codigo": "DOM-14187",
+  "nombre": "Steve Madden Anaya (Big Kid) — Plateado"
+ },
+ {
+  "codigo": "DOM-14188",
+  "nombre": "Nina Dallas (Big Kid) — Azul Marino"
+ },
+ {
+  "codigo": "DOM-14189",
+  "nombre": "Marc Joseph Davidson St (Big Kid) — Marrón Grainy"
+ },
+ {
   "codigo": "DOM-1419",
   "nombre": "New Balance Fresh Foam 680 V9 — Black/Faded Black"
+ },
+ {
+  "codigo": "DOM-14190",
+  "nombre": "Steve Madden Grovee (Big Kid) — Transparente"
+ },
+ {
+  "codigo": "DOM-14191",
+  "nombre": "Florsheim Crossover Moc Toe Slip-On Jr. (Big Kid) — Mushroom"
+ },
+ {
+  "codigo": "DOM-14192",
+  "nombre": "Florsheim Rucci Penny Loafer Jr. (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14193",
+  "nombre": "Florsheim High-rise Moc Toe Slip, Jr. Hands-free (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14194",
+  "nombre": "Florsheim Vibe Plain Toe Oxford Jr. (Big Kid) — Negro Liso"
+ },
+ {
+  "codigo": "DOM-14195",
+  "nombre": "Florsheim Norwalk Plain Toe Oxford (Big Kid) — Cognac Multicolor"
+ },
+ {
+  "codigo": "DOM-14196",
+  "nombre": "Florsheim Highland Canvas Plain Toe Oxford Jr. (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14197",
+  "nombre": "Florsheim Vibe Jr. Boys Plain Toe Saddle Shoe (Big Kid) — Marrón / Azul Marino"
+ },
+ {
+  "codigo": "DOM-14198",
+  "nombre": "Florsheim Rucci Jr. Cap Toe Oxford (Big Kid) — Cognac"
+ },
+ {
+  "codigo": "DOM-14199",
+  "nombre": "Florsheim Lookout Jr. Plain Toe Oxford (Big Kid) — Castaño"
  },
  {
   "codigo": "DOM-142",
@@ -11737,16 +19013,156 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike V5 Runner — Sail/Black/Buff Gold/Saturn Gold"
  },
  {
+  "codigo": "DOM-14200",
+  "nombre": "Florsheim High-Rise Cap Toe Elastic Lace, Jr. Hands-Free (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14201",
+  "nombre": "Florsheim Rucci Jr. Wing Tip Oxford (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14202",
+  "nombre": "Florsheim Jasper Venetian Jr. (Big Kid) — Cuero Tostado"
+ },
+ {
+  "codigo": "DOM-14203",
+  "nombre": "Florsheim Reveal Cap Toe Ox, Jr. (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14204",
+  "nombre": "Florsheim Croquet Penny Loafer Jr. (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14205",
+  "nombre": "Florsheim Jasper Driver Jr. (Big Kid) — Cuero Tostado"
+ },
+ {
+  "codigo": "DOM-14206",
+  "nombre": "Florsheim Bogan Jr. II (Big Kid) — Negro Liso Cuero"
+ },
+ {
+  "codigo": "DOM-14207",
+  "nombre": "Florsheim Berwyn Jr. II (Big Kid) — Negro Liso Cuero"
+ },
+ {
+  "codigo": "DOM-14208",
+  "nombre": "Florsheim Supacush Plain Toe Ox, Jr. (Big Kid) — Cognac Milled / Blanco Sole"
+ },
+ {
+  "codigo": "DOM-14209",
+  "nombre": "Florsheim Billings Jr. II (Big Kid) — Negro Liso Cuero"
+ },
+ {
   "codigo": "DOM-1421",
   "nombre": "New Balance Fresh Foam X Cruz v3 — White/White"
+ },
+ {
+  "codigo": "DOM-14210",
+  "nombre": "Florsheim Rucci Moc Toe Bit Loafer Jr. (Big Kid) — Negro"
+ },
+ {
+  "codigo": "DOM-14211",
+  "nombre": "Florsheim Great Lakes Moc Slip, Jr. (Big Kid) — Piedra Crazy Horse / Gamuza"
+ },
+ {
+  "codigo": "DOM-14212",
+  "nombre": "Toms Alpargata (Big Kid) — Dorado"
+ },
+ {
+  "codigo": "DOM-14213",
+  "nombre": "Marjen Sam (Big Kid) — Camel"
+ },
+ {
+  "codigo": "DOM-14214",
+  "nombre": "Marjen Alex (Big Kid) — Marrón"
+ },
+ {
+  "codigo": "DOM-14215",
+  "nombre": "Johnston & Murphy Braxton (Big Kid) — Negro Entero Grano"
+ },
+ {
+  "codigo": "DOM-14216",
+  "nombre": "Johnston & Murphy Upton Knit Plain Toe (Big Kid) — Azul Marino Knit"
+ },
+ {
+  "codigo": "DOM-14217",
+  "nombre": "Johnston & Murphy Upton Venetian (Big Kid) — Tostado Entero Grano"
+ },
+ {
+  "codigo": "DOM-14218",
+  "nombre": "Johnston & Murphy Zeke Boat Shoe (Big Kid) — Tostado Oiled Cuero"
+ },
+ {
+  "codigo": "DOM-14219",
+  "nombre": "Johnston & Murphy Locklin Venetian (Big Kid) — Tostado Cuero"
  },
  {
   "codigo": "DOM-1422",
   "nombre": "Under Armour Charged Assert 11 — Black/Black/Black"
  },
  {
+  "codigo": "DOM-14220",
+  "nombre": "Johnston & Murphy Conard Cap Toe (Big Kid) — Negro Entero Grano"
+ },
+ {
+  "codigo": "DOM-14221",
+  "nombre": "Johnston & Murphy Conard Saddle (Big Kid) — Tostado / Oscuro Marrón Entero Grano"
+ },
+ {
+  "codigo": "DOM-14222",
+  "nombre": "Nina Rose (Big Kid) — Blanco"
+ },
+ {
+  "codigo": "DOM-14223",
+  "nombre": "Floafers Prodigy Driver (Big Kid) — Negro / Asphalt"
+ },
+ {
+  "codigo": "DOM-14224",
+  "nombre": "Sperry Mary Jane Flats (Big Kid) — Rubor Rosa"
+ },
+ {
+  "codigo": "DOM-14225",
+  "nombre": "Floafers Prodigy Print (Big Kid) — Gris Tartan Plaid / Negro"
+ },
+ {
+  "codigo": "DOM-14226",
+  "nombre": "Marjen Cassie (Big Kid) — Borgoña"
+ },
+ {
+  "codigo": "DOM-14227",
+  "nombre": "adidas Barreda Mary Jane Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14228",
+  "nombre": "adidas Barreda Mary Jane Shoes (Big Kid)"
+ },
+ {
+  "codigo": "DOM-14229",
+  "nombre": "Windsor High Step Platform Knee High Boots"
+ },
+ {
   "codigo": "DOM-1423",
   "nombre": "Converse Chuck Taylor All Star Workwear-inspired Twill High-top — Fresh Soil/Vachetta Beige"
+ },
+ {
+  "codigo": "DOM-14230",
+  "nombre": "Clarks Adalynn Ezra — Black Nubuck"
+ },
+ {
+  "codigo": "DOM-14231",
+  "nombre": "DEER STAGS MENS DURHAM OXFORD — Black"
+ },
+ {
+  "codigo": "DOM-14232",
+  "nombre": "Cityride 2 Running Shoes — Chalk / Gentle Peach / Linen"
+ },
+ {
+  "codigo": "DOM-14233",
+  "nombre": "Fulton Oxford Plain Toe Dress Shoes"
+ },
+ {
+  "codigo": "DOM-14234",
+  "nombre": "Pepper Black Velvet Bow Detail Slingback High Heels"
  },
  {
   "codigo": "DOM-1424",
@@ -11757,8 +19173,32 @@ var ZAP_HISTORIAL = [
   "nombre": "Vans Super Lowpro — Black"
  },
  {
+  "codigo": "DOM-14254",
+  "nombre": "Nike Cortez Textile 'Black Sail Safety Orange' Men's Shoes"
+ },
+ {
+  "codigo": "DOM-14256",
+  "nombre": "Men's Club C Revenge Golf Shoes"
+ },
+ {
+  "codigo": "DOM-14259",
+  "nombre": "740 - Mens"
+ },
+ {
   "codigo": "DOM-1426",
   "nombre": "Converse Chuck Taylor All Star Tectuff High-Top — Fresh Brew/Black/Black"
+ },
+ {
+  "codigo": "DOM-14261",
+  "nombre": "New Balance 2010"
+ },
+ {
+  "codigo": "DOM-14268",
+  "nombre": "Nike Zoom Skylon 11"
+ },
+ {
+  "codigo": "DOM-14269",
+  "nombre": "Nike Cortez TXT 'Black White' Men's Shoes"
  },
  {
   "codigo": "DOM-1427",
@@ -11769,8 +19209,44 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Spiritain 2000 Shoes — Black/Grey/Carbon"
  },
  {
+  "codigo": "DOM-14280",
+  "nombre": "Nike Air Max Moto 2K"
+ },
+ {
+  "codigo": "DOM-14281",
+  "nombre": "Nike Cortez 'Sail Stadium Green' Men's Shoes"
+ },
+ {
+  "codigo": "DOM-14283",
+  "nombre": "Air Max 90 Mens Running Shoes (Black/Tough Red)"
+ },
+ {
+  "codigo": "DOM-14287",
+  "nombre": "Jordan Trunner 'Black Cat' Men's Shoes"
+ },
+ {
+  "codigo": "DOM-14288",
+  "nombre": "Nano Zero Training Shoes"
+ },
+ {
+  "codigo": "DOM-14289",
+  "nombre": "Ava Rover Mens Running Shoes (Sanddrift/Alabaster/Khaki Twine)"
+ },
+ {
   "codigo": "DOM-1429",
   "nombre": "Brooks Anthem 8 — Black/Black/Ebony"
+ },
+ {
+  "codigo": "DOM-14290",
+  "nombre": "Uno - Mens"
+ },
+ {
+  "codigo": "DOM-14297",
+  "nombre": "Nike Mc Trainer 4 — Gray"
+ },
+ {
+  "codigo": "DOM-14298",
+  "nombre": "New Balance 2010 'Summer Steps'"
  },
  {
   "codigo": "DOM-143",
@@ -11781,16 +19257,44 @@ var ZAP_HISTORIAL = [
   "nombre": "Vans Super Lowpro Ballet Light Shoe — Oil Green"
  },
  {
+  "codigo": "DOM-14307",
+  "nombre": "Air Max 90 White Black Hot Curry Mens Running Shoes (White/Black/Hot Curry/Pure Platinum)"
+ },
+ {
   "codigo": "DOM-1431",
   "nombre": "Converse Chuck Taylor All Star Workwear-inspired Twill Low Top — Incensed/Vachetta Beige"
+ },
+ {
+  "codigo": "DOM-14313",
+  "nombre": "CLOUDMONSTER HYPER X PAF \"WHITE\""
+ },
+ {
+  "codigo": "DOM-14315",
+  "nombre": "Nike Vomero Premium (Light Boulder/Black-Light Bone)"
+ },
+ {
+  "codigo": "DOM-14318",
+  "nombre": "POST ARCHIVE FACTION X CLOUDMONSTER HYPER \"WHITE\""
  },
  {
   "codigo": "DOM-1432",
   "nombre": "Nike Basketball Giannis Immortality 5 — Hyper Turquoise/Hyper Orange/Star Blue"
  },
  {
+  "codigo": "DOM-14322",
+  "nombre": "On Running x Sky High Farm Goods Mens Cloud Low WP Shoes"
+ },
+ {
+  "codigo": "DOM-14327",
+  "nombre": "Nike Vomero Premium (Black/Black-Bright Crimson)"
+ },
+ {
   "codigo": "DOM-1433",
   "nombre": "Nike Air Max Alpha Trainer 6 — Light Smoke Grey/Anthracite/Black"
+ },
+ {
+  "codigo": "DOM-14330",
+  "nombre": "POST ARCHIVE FACTION X CLOUDMONSTER HYPER \"GRAY\""
  },
  {
   "codigo": "DOM-1434",
@@ -11829,8 +19333,20 @@ var ZAP_HISTORIAL = [
   "nombre": "Vans SK8-HI — Black/Black/Black"
  },
  {
+  "codigo": "DOM-14411",
+  "nombre": "Bruno Magli Adriano — Brown"
+ },
+ {
+  "codigo": "DOM-14419",
+  "nombre": "Allen Edmonds Parksnkr 2.0 Oxford Shoes — Black"
+ },
+ {
   "codigo": "DOM-1442",
   "nombre": "Converse Chuck Taylor All Star Leather High Top Sneaker — Pot Hole Plum/Egret/Black"
+ },
+ {
+  "codigo": "DOM-14427",
+  "nombre": "Johnston & Murphy Arrister Moc Toe Lace-Up — Red"
  },
  {
   "codigo": "DOM-1443",
@@ -11917,6 +19433,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Initiator — Obsidian/Team Gold/Metallic Silver/White"
  },
  {
+  "codigo": "DOM-14614",
+  "nombre": "Magnanni Daren — Black"
+ },
+ {
   "codigo": "DOM-1462",
   "nombre": "Hey Dude Wally Stretch Sox Jingle — Cherry Red/Multi"
  },
@@ -11937,16 +19457,92 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Basketball Precision 8 Mid — Black/University Red/White"
  },
  {
+  "codigo": "DOM-14667",
+  "nombre": "Timberland x New Era Heritage 6-Inch Waterproof Boots 'New York Yankees'"
+ },
+ {
+  "codigo": "DOM-14668",
+  "nombre": "TwoJeys x Peggy Gou Drive Boot Case"
+ },
+ {
   "codigo": "DOM-1467",
   "nombre": "adidas F50 Hyperfast League Indoor — White/Solar Purple/Solar Turbo"
+ },
+ {
+  "codigo": "DOM-14671",
+  "nombre": "Air Max Goadome 'Black Pony Hair' Men's Boots"
+ },
+ {
+  "codigo": "DOM-14672",
+  "nombre": "Timberland x LOSO Waterproof Field Boot in Wheat Nubuck / Gold"
+ },
+ {
+  "codigo": "DOM-14673",
+  "nombre": "AIR MAX GOADOME LOW SP \"BLACK\""
+ },
+ {
+  "codigo": "DOM-14674",
+  "nombre": "Air Jordan 9 Retro Boot NRG (Wheat/Wheat-Baroque Brown)"
+ },
+ {
+  "codigo": "DOM-14675",
+  "nombre": "Timberland Men's Waterproof Field Boot Color: Dark Brown Nubuck Style: TB0A42SGW07"
+ },
+ {
+  "codigo": "DOM-14676",
+  "nombre": "Air Max Goadome Low Mens Boots (Black/Anthracite)"
+ },
+ {
+  "codigo": "DOM-14677",
+  "nombre": "Timberland Field Boot - Olive Nubuck/Camo"
+ },
+ {
+  "codigo": "DOM-14678",
+  "nombre": "WALLABEE \"BROWN\""
  },
  {
   "codigo": "DOM-1468",
   "nombre": "Nunn Bush KORE Taz EZ Hands Free Moc Toe Slip-Resistant Oxford — Brown Crazy Horse"
  },
  {
+  "codigo": "DOM-14684",
+  "nombre": "Timberland Heritage 6-Inch Waterproof Boots"
+ },
+ {
+  "codigo": "DOM-14685",
+  "nombre": "The North Face Mens Base Camp 100 WP Boot"
+ },
+ {
+  "codigo": "DOM-14687",
+  "nombre": "BUGABOOT 1.0 - BLACK / TROPICAL OCEAN"
+ },
+ {
+  "codigo": "DOM-14688",
+  "nombre": "Men's Timberland Classic 6-Inch 'Wheat' Waterproof Boot"
+ },
+ {
+  "codigo": "DOM-14689",
+  "nombre": "Postour Boot in Tatsu/Black"
+ },
+ {
   "codigo": "DOM-1469",
   "nombre": "Nike Tennis Court Lite 4 — White/Black/Light Silver/Steam"
+ },
+ {
+  "codigo": "DOM-14690",
+  "nombre": "Timberland Heritage Mid Pull-On Boot in Black Nubuck"
+ },
+ {
+  "codigo": "DOM-14692",
+  "nombre": "Clarks Wallabee Boot (Brown Combi Suede)"
+ },
+ {
+  "codigo": "DOM-14693",
+  "nombre": "Timberland Men's Textured Premium 6-Inch Boot Color: Burgundy Woven Style: TB0A6FD601W"
+ },
+ {
+  "codigo": "DOM-14694",
+  "nombre": "Politics x Timberland 6\" Waterproof Boot 'Rodeo' - Brown"
  },
  {
   "codigo": "DOM-147",
@@ -11957,8 +19553,48 @@ var ZAP_HISTORIAL = [
   "nombre": "Skechers Summits High Range Hands Free Slip-Ins — Navy"
  },
  {
+  "codigo": "DOM-14701",
+  "nombre": "Timberland x Loso Mens Field Lace Up WP Boot"
+ },
+ {
+  "codigo": "DOM-14702",
+  "nombre": "Bugaboot 1.0 - Black/Tropical Ocean"
+ },
+ {
+  "codigo": "DOM-14703",
+  "nombre": "SOREL X ARIES DAYSTORM CHUKKA - BLACK"
+ },
+ {
+  "codigo": "DOM-14704",
+  "nombre": "Timberland Premium 6-Inch Waterproof Men's Boots"
+ },
+ {
+  "codigo": "DOM-14706",
+  "nombre": "Timberland Heritage 6-Inch Waterproof Boot in Light Beige Suede"
+ },
+ {
   "codigo": "DOM-1471",
   "nombre": "Converse Chuck Taylor All Star Suede High-Top — Darker Grey/Egret/Black"
+ },
+ {
+  "codigo": "DOM-14710",
+  "nombre": "Nike Air Max Foamdome 'Eggplant' - Electro Purple/Black"
+ },
+ {
+  "codigo": "DOM-14711",
+  "nombre": "6 IN LACE UP WOVEN BOOT"
+ },
+ {
+  "codigo": "DOM-14712",
+  "nombre": "Nike SFB B2 'Black'"
+ },
+ {
+  "codigo": "DOM-14713",
+  "nombre": "6 Classic Premium Boot - Mens"
+ },
+ {
+  "codigo": "DOM-14715",
+  "nombre": "Blundstone BL1306 — Brown"
  },
  {
   "codigo": "DOM-1472",
@@ -12009,32 +19645,128 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Own The Game 3.0 Basketball Shoes — Black/Gold Metallic/Solid Grey"
  },
  {
+  "codigo": "DOM-14820",
+  "nombre": "F50 SALA SP CONSORTIUM \"SILVER GRANITE\""
+ },
+ {
+  "codigo": "DOM-14822",
+  "nombre": "Air Jordan 1 Retro Low OG Phantom And Pine Green Mens Lifestyle Shoes (Phantom/Pine Green/Black)"
+ },
+ {
+  "codigo": "DOM-14823",
+  "nombre": "Mercurial Superfly 11 Club FG/MG - Mens"
+ },
+ {
+  "codigo": "DOM-14825",
+  "nombre": "Nike Tiempo Legend 10 Club Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-14827",
+  "nombre": "PREDATOR SALA"
+ },
+ {
+  "codigo": "DOM-14829",
+  "nombre": "Air Max 90 Tiempo Mens Running Shoes (Black/White/Black/Voltage Green)"
+ },
+ {
   "codigo": "DOM-1483",
   "nombre": "Nike Dunk Low Retro SE — Pale Ivory / Baroque Brown / Pale Ivory"
+ },
+ {
+  "codigo": "DOM-14834",
+  "nombre": "adidas F50 Hyperfast League Artificial Ground — White"
  },
  {
   "codigo": "DOM-1484",
   "nombre": "Nike Air Force 1 '07 — White / Black / Gum Light Brown"
  },
  {
+  "codigo": "DOM-14841",
+  "nombre": "PUMA Ultra 6 Match Turf Trainer Soccer Cleats — Black"
+ },
+ {
+  "codigo": "DOM-14844",
+  "nombre": "Predator Club FT TF - Mens"
+ },
+ {
+  "codigo": "DOM-14846",
+  "nombre": "Mercurial Superfly 11 Club TF - Mens"
+ },
+ {
+  "codigo": "DOM-14848",
+  "nombre": "Skx 2 Academy FG - Mens"
+ },
+ {
   "codigo": "DOM-1485",
   "nombre": "Nike Air Force 1 Low '07 — White / White"
+ },
+ {
+  "codigo": "DOM-14854",
+  "nombre": "adidas X Crazyfast Club FxG Cleats"
+ },
+ {
+  "codigo": "DOM-14855",
+  "nombre": "Mercurial Superfly 10 Academy KM TF - Mens"
+ },
+ {
+  "codigo": "DOM-14856",
+  "nombre": "New Balance 442 Pro In V3 Soccer Shoes — White"
+ },
+ {
+  "codigo": "DOM-14858",
+  "nombre": "Gazelle Indoor - Mens"
+ },
+ {
+  "codigo": "DOM-14859",
+  "nombre": "Under Armour Shadow Select 4 Turf Soccer Cleats — Navy"
  },
  {
   "codigo": "DOM-1486",
   "nombre": "adidas Campus 00s — Core Black / Cloud White / Off White"
  },
  {
+  "codigo": "DOM-14860",
+  "nombre": "F50 League Mid FGxMG - Mens"
+ },
+ {
+  "codigo": "DOM-14863",
+  "nombre": "PUMA Ultra Nitro&#8482; 7 Match Laceless Firm, Artificial Ground Soccer Cleats — Red"
+ },
+ {
+  "codigo": "DOM-14864",
+  "nombre": "adidas F50 Club Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-14866",
+  "nombre": "New Balance Furon Team FG V9 — White"
+ },
+ {
   "codigo": "DOM-1487",
   "nombre": "Puma Speedcat OG — Black / White"
+ },
+ {
+  "codigo": "DOM-14870",
+  "nombre": "adidas Predator Accuracy.4 Indoor Shoes"
+ },
+ {
+  "codigo": "DOM-14874",
+  "nombre": "Tor Ultra Lo - Varsity Navy/Varsity Navy"
  },
  {
   "codigo": "DOM-1488",
   "nombre": "Vans Knu Skool — Black / True White"
  },
  {
+  "codigo": "DOM-14887",
+  "nombre": "adidas F50 Hyperfast Elite Laceless Cleats"
+ },
+ {
   "codigo": "DOM-1489",
   "nombre": "New Balance 2002R — Stoneware / Silver Metallic"
+ },
+ {
+  "codigo": "DOM-14896",
+  "nombre": "Nike Mercurial Vapor 16 Elite FG Cleats"
  },
  {
   "codigo": "DOM-149",
@@ -12047,6 +19779,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1491",
   "nombre": "adidas Samba XLG — Wonder White / Ash Blue / Gum"
+ },
+ {
+  "codigo": "DOM-14914",
+  "nombre": "Nike Phantom 6 High Elite LV8 FG Cleats"
  },
  {
   "codigo": "DOM-1492",
