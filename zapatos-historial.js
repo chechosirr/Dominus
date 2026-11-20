@@ -11069,6 +11069,10 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance 2010 (Big Kid) — Navy"
  },
  {
+  "codigo": "DOM-12723",
+  "nombre": "CLARKS BRANTIN PLAIN TOE OXFORD"
+ },
+ {
   "codigo": "DOM-1273",
   "nombre": "New Balance 9060 (Big Kid) — Black/Silver"
  },
@@ -11347,6 +11351,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1335",
   "nombre": "PUMA Easy Rider Sneakers (Youth) — Pink/Purple"
+ },
+ {
+  "codigo": "DOM-13358",
+  "nombre": "Public Desire UK Pageant Queen Silver Mirror Diamante Butterfly Detail Lace Up Pointed Toe High Heels"
  },
  {
   "codigo": "DOM-1336",

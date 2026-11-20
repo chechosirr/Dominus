@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "19 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -2749,8 +2749,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Voltaic Evo Cross Training Shoes",
   "genero": "Hombre",
-  "precio": 64.98,
-  "precio_c": 2390,
+  "precio": 59.99,
+  "precio_c": 2206,
   "fotos": [
    "https://m.media-amazon.com/images/I/718sbyTgtLL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/718sbyTgtLL._AC_SX500_.jpg",
@@ -2785,8 +2785,8 @@ var ZAPATOS = [
   "marca": "2718",
   "nombre": "2718 Puma Maxima Pro 313313-08 Sneakers Men's Alpine White Running Shoes",
   "genero": "Hombre",
-  "precio": 74.95,
-  "precio_c": 2756,
+  "precio": 78.15,
+  "precio_c": 2874,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/d6999c93b5e542499b50202048898f8d.webp?v=1794802693",
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/827cd2b872194ab7bd03c71599c40aab.webp?v=1794802693",
@@ -5529,8 +5529,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA ST Runner v4 Leather Lace Up Sneakers",
   "genero": "Hombre",
-  "precio": 52.95,
-  "precio_c": 1947,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39906801_1l.jpg?v=1788477417",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39906801_2l.jpg?v=1788477417",
@@ -9532,8 +9532,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Purechill Slides",
   "genero": "Hombre",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KH6673_1l.jpg?v=1789555006",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KH6673_2l.jpg?v=1789555006",
@@ -11815,8 +11815,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Ultra 6 Match Turf Soccer Cleats",
   "genero": "Hombre",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 47.95,
+  "precio_c": 1763,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10897502_1l.jpg?v=1793393259",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10897502_2l.jpg?v=1793393259",
@@ -11853,8 +11853,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA King 21 Indoor Soccer Shoes",
   "genero": "Hombre",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 47.95,
+  "precio_c": 1763,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10669620_1l.jpg?v=1793392460",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10669620_2l.jpg?v=1793392460",
@@ -13064,31 +13064,6 @@ var ZAPATOS = [
   "categoria": "Formales"
  },
  {
-  "codigo": "DOM-12723",
-  "marca": "Clarks",
-  "nombre": "CLARKS BRANTIN PLAIN TOE OXFORD",
-  "genero": "Hombre",
-  "precio": 109.99,
-  "precio_c": 4045,
-  "fotos": [
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504941_00",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504941_01",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504941_02",
-   "https://assets.rackroomshoes.com/image/upload/b_rgb:ffffff,c_pad,h_832,q_auto,w_1248/US_01_504941_03"
-  ],
-  "descripcion": "CLARKS BRANTIN PLAIN TOE OXFORD — oxford clásico de CLARKS para vestir, de acabado elegante que combina con traje y pantalón de vestir.",
-  "detalles": [
-   "Parte superior de acabado liso y elegante",
-   "Cierre con cordones",
-   "Suela resistente para uso diario",
-   "Calce regular"
-  ],
-  "tallas": [
-   "11.5"
-  ],
-  "categoria": "Formales"
- },
- {
   "codigo": "DOM-12724",
   "marca": "Sperry",
   "nombre": "Sperry Ao Venetian",
@@ -14115,8 +14090,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Corbetta Cap Toe Oxford",
   "genero": "Hombre",
-  "precio": 147.69,
-  "precio_c": 5431,
+  "precio": 147.49,
+  "precio_c": 5424,
   "fotos": [
    "https://m.media-amazon.com/images/I/61rSvxJ4QzL._AC_SX500_.jpg",
    "https://m.media-amazon.com/images/I/61rSvxJ4QzL._AC_SX500_.jpg",
@@ -16930,8 +16905,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Runfalcon 5 Running Shoes",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ6979_1l.jpg?v=1789092450",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JQ6979_2l.jpg?v=1789092450",
@@ -17085,8 +17060,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Voltaic Evo Qtr Fade Running Shoes",
   "genero": "Hombre",
-  "precio": 54.95,
-  "precio_c": 2021,
+  "precio": 59.95,
+  "precio_c": 2205,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31300501_1l.jpg?v=1771724677",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31300501_2l.jpg?v=1771724677",
@@ -17269,8 +17244,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Run 70s 2.0 Shoes",
   "genero": "Hombre",
-  "precio": 59.95,
-  "precio_c": 2205,
+  "precio": 64.95,
+  "precio_c": 2388,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4919_1l.jpg?v=1790721953",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4919_2l.jpg?v=1790721953",
@@ -23176,8 +23151,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA Ultra 6 Pro Firm/Artificial Ground Soccer Cleats",
   "genero": "Hombre",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10855102_1l.jpg?v=1789337255",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10855102_2l.jpg?v=1789337255",
@@ -23445,8 +23420,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PUMA evoSPEED NITRO Elite 2 Long Distance Running Shoes",
   "genero": "Hombre",
-  "precio": 59.95,
-  "precio_c": 2205,
+  "precio": 64.95,
+  "precio_c": 2388,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37955701_1l.jpg?v=1793561807",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37955701_2l.jpg?v=1793561808",
@@ -29412,8 +29387,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Mayze Wellis Chelsea Boots",
   "genero": "Mujer",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39853502_1l.jpg?v=1792734525",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39853502_2l.jpg?v=1792734525",
@@ -33345,31 +33320,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-13358",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Pageant Queen Silver Mirror Diamante Butterfly Detail Lace Up Pointed Toe High Heels",
-  "genero": "Mujer",
-  "precio": 54.94,
-  "precio_c": 2020,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PAGEANTQUEENSILVER-1.jpg?v=1751969369",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PAGEANTQUEENSILVER-3.jpg?v=1751969369",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PAGEANTQUEEN-2.jpg?v=1751969369",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PAGEANTQUEENSILVER_3.jpg?v=1751969369"
-  ],
-  "descripcion": "Tacón de fiesta con punta fina, de acabado llamativo para ocasiones especiales. Tacón de fiesta con acabado llamativo, pensado para ocasiones especiales y noches de gala.",
-  "detalles": [
-   "Material sintético de buen acabado",
-   "Cierre con cordones para un ajuste seguro",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para combinar con jeans, vestidos y faldas"
-  ],
-  "tallas": [
-   "UK 5 / EU 38 / US 7"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-13359",
   "marca": "Steve Madden",
   "nombre": "Steve Madden Rodrigo Platform Slip On Loafers",
@@ -34340,7 +34290,7 @@ var ZAPATOS = [
   "marca": "Roper",
   "nombre": "Roper Riley Flextra Glitter — Gray",
   "genero": "Mujer",
-  "precio": 112.51,
+  "precio": 112.5,
   "precio_c": 4137,
   "fotos": [
    "https://m.media-amazon.com/images/I/81Be0Q9AY+L._AC_SX1024_.jpg",
@@ -43747,8 +43697,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Fast-Trac NITRO Running Shoes — Black",
   "genero": "Mujer",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37704601_1l.jpg?v=1793750497",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37704601_2l.jpg?v=1793750496",
@@ -43772,8 +43722,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "PWR Hybrid Floral Ribbon Training Shoes — Red/White",
   "genero": "Mujer",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31173902_1l.jpg?v=1793748711",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31173902_2l.jpg?v=1793748712",
@@ -43826,8 +43776,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Pwr Hybrid Training Shoes — White",
   "genero": "Mujer",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 44.95,
+  "precio_c": 1653,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31047709_1l.jpg?v=1793748768",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31047709_2l.jpg?v=1793748768",
@@ -43880,8 +43830,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Future 9 Play Firm Ground/Artificial Ground Soccer Cleats — Orange",
   "genero": "Mujer",
-  "precio": 44.95,
-  "precio_c": 1653,
+  "precio": 47.95,
+  "precio_c": 1763,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10871901_1l.jpg?v=1791369985",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10871901_2l.jpg?v=1791369985",
@@ -52509,8 +52459,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Voltaic Evo Wide Running Shoes (Big Kid)",
   "genero": "Niños",
-  "precio": 34.95,
-  "precio_c": 1285,
+  "precio": 37.95,
+  "precio_c": 1396,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31315617_1l.jpg?v=1777586813",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31315617_2l.jpg?v=1777586813",
@@ -52631,8 +52581,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma PUMA X 2K Scoot Zeros Basketball Shoes (Big Kid)",
   "genero": "Niños",
-  "precio": 34.95,
-  "precio_c": 1285,
+  "precio": 37.95,
+  "precio_c": 1396,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30986601_1l.jpg?v=1788843126",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/30986601_2l.jpg?v=1788843126",
@@ -52988,8 +52938,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Scoot Zeros II Sterling Basketball Shoes (Big Kid)",
   "genero": "Niños",
-  "precio": 37.95,
-  "precio_c": 1396,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31136401_1l.jpg?v=1777486036",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31136401_2l.jpg?v=1777486036",
@@ -53621,8 +53571,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma PUMA X LAMELO BALL MB.04 Lo Alien Skins Basketball Shoes (Big Kid)",
   "genero": "Niños",
-  "precio": 79.95,
-  "precio_c": 2940,
+  "precio": 84.95,
+  "precio_c": 3124,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31132001_1l.jpg?v=1792741008",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31132001_2l.jpg?v=1792741009",
@@ -54166,8 +54116,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma ST Miler Rose Lace Up Sneakers (Big Kid)",
   "genero": "Niños",
-  "precio": 29.95,
-  "precio_c": 1101,
+  "precio": 31.95,
+  "precio_c": 1175,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40539001_1l.jpg?v=1777582620",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40539001_2l.jpg?v=1777582620",
@@ -57997,8 +57947,8 @@ var ZAPATOS = [
   "marca": "Sam Edelman",
   "nombre": "Sam Edelman Maeve Michela (Big Kid) — Dorado 1",
   "genero": "Niños",
-  "precio": 58.0,
-  "precio_c": 2133,
+  "precio": 55.09,
+  "precio_c": 2026,
   "fotos": [
    "https://m.media-amazon.com/images/I/81m7BOGnzDL._AC_SY625_.jpg",
    "https://m.media-amazon.com/images/I/81Q0jSD-B7L._AC_SY625_.jpg",
@@ -60384,5 +60334,59 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-14233",
+  "marca": "Rush by Gordon Rush",
+  "nombre": "Fulton Oxford Plain Toe Dress Shoes",
+  "genero": "Hombre",
+  "precio": 46.97,
+  "precio_c": 1727,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_1l.jpg?v=1792681698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_2l.jpg?v=1792681698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_3l.jpg?v=1792681698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_4l.jpg?v=1792681698"
+  ],
+  "descripcion": "Oxford clásico de vestir de puntera lisa, de piel sintética premium con acabado pulido y plantilla acolchada para comodidad todo el día.",
+  "detalles": [
+   "Puntera lisa de vestir",
+   "Cierre con cordones",
+   "Piel sintética premium de acabado pulido",
+   "Plantilla acolchada"
+  ],
+  "tallas": [
+   "13"
+  ],
+  "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-14234",
+  "marca": "Public Desire UK",
+  "nombre": "Pepper Black Velvet Bow Detail Slingback High Heels",
+  "genero": "Mujer",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://www.publicdesire.com/cdn/shop/files/PEPPERBLAC-1K_1024x1024.jpg?v=1791381070",
+   "https://www.publicdesire.com/cdn/shop/files/PEPPERBLACK-2_1024x1024.jpg?v=1791381070",
+   "https://www.publicdesire.com/cdn/shop/files/PEPPERBLACK-3_1024x1024.jpg?v=1791381070"
+  ],
+  "descripcion": "Tacón de fiesta de terciopelo negro con lazo en el empeine y tira slingback, de tacón alto para ocasiones especiales y noches de gala.",
+  "detalles": [
+   "Terciopelo negro con lazo en el empeine",
+   "Tira slingback para un ajuste seguro",
+   "Tacón alto de aprox. 4 pulgadas",
+   "Diseño de fiesta para ocasiones especiales"
+  ],
+  "tallas": [
+   "UK 3 / EU 36 / US 5",
+   "UK 4 / EU 37 / US 6",
+   "UK 5 / EU 38 / US 7",
+   "UK 6 / EU 39 / US 8",
+   "UK 7 / EU 40 / US 9",
+   "UK 8 / EU 41 / US 10"
+  ],
+  "categoria": "Elegantes"
  }
 ];
