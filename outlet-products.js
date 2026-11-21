@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "20 de noviembre de 2026";
+var ZAP_VERIFICADO = "21 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -1914,77 +1914,6 @@ var ZAPATOS = [
   "subcat": "ambos"
  },
  {
-  "codigo": "DOM-14235",
-  "marca": "Nike",
-  "nombre": "Nike Air Max 270 \"usa\"",
-  "genero": "Hombre",
-  "precio": 15.0,
-  "precio_c": 552,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/nike_cw5581100_m-1.jpg?v=1590515637",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/nike_cw5581100_m-2.jpg?v=1590515639"
-  ],
-  "descripcion": "Tenis deportivos para hombre, con amortiguación cómoda y buen agarre, pensados para entrenar y para el uso diario.",
-  "detalles": [
-   "Amortiguación cómoda para entrenamientos y caminatas largas",
-   "Ajuste seguro con cordones",
-   "Suela con tracción para distintos terrenos",
-   "Diseño transpirable y ligero"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "12.5",
-   "13",
-   "14",
-   "15"
-  ],
-  "categoria": "Deportivos"
- },
- {
-  "codigo": "DOM-14236",
-  "marca": "Reebok",
-  "nombre": "Men's Viva Speed Shoes",
-  "genero": "Hombre",
-  "precio": 49.99,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100266547_SLC_eCom.jpg?v=1781178425",
-   "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100266547_TPP_eCom.jpg?v=1781178425"
-  ],
-  "descripcion": "Tenis deportivos para hombre, con amortiguación cómoda y buen agarre, pensados para entrenar y para el uso diario.",
-  "detalles": [
-   "Amortiguación cómoda para entrenamientos y caminatas largas",
-   "Ajuste seguro con cordones",
-   "Suela con tracción para distintos terrenos",
-   "Diseño transpirable y ligero"
-  ],
-  "tallas": [
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Deportivos"
- },
- {
   "codigo": "DOM-14237",
   "marca": "REEBOK",
   "nombre": "Velocity Pro - Mens",
@@ -2047,37 +1976,6 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ],
-  "categoria": "Deportivos"
- },
- {
-  "codigo": "DOM-14239",
-  "marca": "Asics",
-  "nombre": "Asics GEL-DS TRAINER 14",
-  "genero": "Hombre",
-  "precio": 39.98,
-  "precio_c": 1470,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/1203A607-300.jpg?v=1772666173"
-  ],
-  "descripcion": "Tenis deportivos para hombre, con amortiguación cómoda y buen agarre, pensados para entrenar y para el uso diario.",
-  "detalles": [
-   "Amortiguación cómoda para entrenamientos y caminatas largas",
-   "Ajuste seguro con cordones",
-   "Suela con tracción para distintos terrenos",
-   "Diseño transpirable y ligero"
-  ],
-  "tallas": [
-   "8",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13",
-   "14"
   ],
   "categoria": "Deportivos"
  },
@@ -2287,8 +2185,8 @@ var ZAPATOS = [
   "marca": "REEBOK",
   "nombre": "Zig Dynamica 6 - Mens",
   "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100283962_1.jpg?v=1790372893",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100283962_2.jpg?v=1790372893"
@@ -2408,8 +2306,8 @@ var ZAPATOS = [
   "marca": "REEBOK",
   "nombre": "Belwave - Mens",
   "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
+  "precio": 42.95,
+  "precio_c": 1579,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100257101_1.jpg?v=1789681728",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100257101_2.jpg?v=1789681728"
@@ -2435,8 +2333,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "FlexFocus Lite - Mens",
   "genero": "Hombre",
-  "precio": 44.97,
-  "precio_c": 1654,
+  "precio": 42.95,
+  "precio_c": 1579,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/31009338_1.jpg?v=1778288296",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/31009338_2.jpg?v=1778288296"
@@ -2485,37 +2383,6 @@ var ZAPATOS = [
   "categoria": "Deportivos"
  },
  {
-  "codigo": "DOM-14253",
-  "marca": "Asics",
-  "nombre": "Asics GEL-NYC 2055",
-  "genero": "Hombre",
-  "precio": 79.98,
-  "precio_c": 2941,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A542_20200_M125.jpg?v=1775143831",
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1203A542_20200_M043.jpg?v=1775643972"
-  ],
-  "descripcion": "Tenis deportivos para hombre, con amortiguación cómoda y buen agarre, pensados para entrenar y para el uso diario.",
-  "detalles": [
-   "Amortiguación cómoda para entrenamientos y caminatas largas",
-   "Ajuste seguro con cordones",
-   "Suela con tracción para distintos terrenos",
-   "Diseño transpirable y ligero"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Deportivos"
- },
- {
   "codigo": "DOM-14255",
   "marca": "CONVERSE",
   "nombre": "NAUT-1 X GOLF LE FLEUR",
@@ -2557,8 +2424,8 @@ var ZAPATOS = [
   "marca": "Nike SB",
   "nombre": "Nike SB Zoom Tennis Classic (Deep Pewter/Medium Olive)",
   "genero": "Hombre",
-  "precio": 60.0,
-  "precio_c": 2206,
+  "precio": 50.0,
+  "precio_c": 1839,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBZoomTennisClassic_DeepPewter_MediumOlive_HF7386-2001.jpg?v=1784808644",
    "https://cdn.shopify.com/s/files/1/0208/4764/files/NikeSBZoomTennisClassic_DeepPewter_MediumOlive_HF7386-2002.jpg?v=1784808644"
@@ -6270,8 +6137,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Aspire Knit Moccasin Toe Sneaker Oxford Comfortable Lightweight Fabric Lace Up — Black",
   "genero": "Hombre",
-  "precio": 62.5,
-  "precio_c": 2298,
+  "precio": 61.79,
+  "precio_c": 2272,
   "fotos": [
    "https://m.media-amazon.com/images/I/71zQw-6Wo6L._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61EZ3kVKk0L._AC_SX679_.jpg"
@@ -7436,8 +7303,8 @@ var ZAPATOS = [
   "marca": "Dr. Scholl's",
   "nombre": "Dr. Scholl's Feel Driven — Brown",
   "genero": "Hombre",
-  "precio": 139.99,
-  "precio_c": 5148,
+  "precio": 135.0,
+  "precio_c": 4964,
   "fotos": [
    "https://m.media-amazon.com/images/I/61txcx8IpQL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61LFdk7yT1L._AC_SX679_.jpg"
@@ -7724,35 +7591,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14436",
-  "marca": "CIS",
-  "nombre": "Sunda",
-  "genero": "Hombre",
-  "precio": 39.97,
-  "precio_c": 1470,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14122912_sunda_red_601-002-029_main_sq_gy.jpg?v=1757702016",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87327_product_14122912_sunda_red_601-002-029_sw_sq.jpg?v=1757702016"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14437",
   "marca": "Javi",
   "nombre": "Javi Evoke",
@@ -7820,39 +7658,6 @@ var ZAPATOS = [
    "13",
    "14",
    "15"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-14439",
-  "marca": "Public Desire UK",
-  "nombre": "Midnight Silver Glitter Wrap Around Diamante Bow Pointed Toe High Heel",
-  "genero": "Hombre",
-  "precio": 44.99,
-  "precio_c": 1654,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/771A2050.jpg?v=1668596557",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/771A2048.jpg?v=1668596557"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ],
   "categoria": "Casuales"
  },
@@ -8003,39 +7808,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14444",
-  "marca": "Converse",
-  "nombre": "Converse Chuck 70 Low Ox 'Chocolate'",
-  "genero": "Hombre",
-  "precio": 37.0,
-  "precio_c": 1361,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/conversechuck70lowchocolate.jpg?v=1762200403"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14445",
   "marca": "EUROSTAR",
   "nombre": "Toby - Mens",
@@ -8161,35 +7933,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14449",
-  "marca": "CIS",
-  "nombre": "Taber",
-  "genero": "Hombre",
-  "precio": 44.97,
-  "precio_c": 1654,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13960523_taber_black_001-002-043_main_sq_gy.jpg?v=1757701734",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83569_product_13960523_taber_black_001-002-043_sw_sq.jpg?v=1757701734"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14450",
   "marca": "True Religion",
   "nombre": "True Religion Dex Horseshoe Belt",
@@ -8231,39 +7974,6 @@ var ZAPATOS = [
   "precio_c": 735,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0187/5180/products/sneakerfreakerissue43.jpg?v=1660065692"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-14452",
-  "marca": "Public Desire UK",
-  "nombre": "Ti Amo Silver Metallic Pu Padlock Detail Barely There Pointed Toe Stilettos Heels",
-  "genero": "Hombre",
-  "precio": 42.99,
-  "precio_c": 1581,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/TIAMOSILVER-1.jpg?v=1760389752",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/TIAMOSILVER-2.jpg?v=1760389752"
   ],
   "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
   "detalles": [
@@ -8400,37 +8110,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14456",
-  "marca": "Vans",
-  "nombre": "Vans LX Half Cab Reissue 33 'Hairy Suede Ginger'",
-  "genero": "Hombre",
-  "precio": 41.5,
-  "precio_c": 1526,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/halfcabginger.jpg?v=1762201951",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/halfcabginger2.jpg?v=1732206202"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14457",
   "marca": "LEE",
   "nombre": "Specter Too - Mens",
@@ -8455,35 +8134,6 @@ var ZAPATOS = [
    "09.5",
    "10.5",
    "11.5"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-14458",
-  "marca": "CIS",
-  "nombre": "Sussex",
-  "genero": "Hombre",
-  "precio": 39.97,
-  "precio_c": 1470,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13960486_sussex_black_001-002-043_main_sq_gy.jpg?v=1757701730",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83550_product_13960486_sussex_black_001-002-043_sw_sq.jpg?v=1757701730"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
   ],
   "categoria": "Casuales"
  },
@@ -8623,37 +8273,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14463",
-  "marca": "Converse",
-  "nombre": "Converse Chuck 70 Low 'Ox Mineral Clay'",
-  "genero": "Hombre",
-  "precio": 34.0,
-  "precio_c": 1250,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/products/IMG_1845.jpg?v=1759264203"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14464",
   "marca": "LUGZ",
   "nombre": "Cage - Mens",
@@ -8678,37 +8297,6 @@ var ZAPATOS = [
    "09.5",
    "10.5",
    "11.5"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-14465",
-  "marca": "CIS",
-  "nombre": "Pantherra",
-  "genero": "Hombre",
-  "precio": 39.97,
-  "precio_c": 1470,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14129221_pantherra_black_001-002-029_main_sq_gy.jpg?v=1757702044",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87339_product_14129221_pantherra_black_001-002-029_sw_sq.jpg?v=1757702044"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13",
-   "14"
   ],
   "categoria": "Casuales"
  },
@@ -8868,68 +8456,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14471",
-  "marca": "CIS",
-  "nombre": "Crews",
-  "genero": "Hombre",
-  "precio": 46.97,
-  "precio_c": 1727,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13958839_crews_green_300-002-029_main_sq_gy.jpg?v=1757701366",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83431_product_13958839_crews_green_300-002-029_sw_sq.jpg?v=1757701366"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-14472",
-  "marca": "Public Desire UK",
-  "nombre": "Afterhours Gold Strappy Platform Square Toe Stiletto Heels",
-  "genero": "Hombre",
-  "precio": 20.0,
-  "precio_c": 735,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/9771A2431copy.jpg?v=1708533040",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/AboutLastNight08039.jpg?v=1708533040"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14473",
   "marca": "Reebok",
   "nombre": "Reebok Club C Grounds UK (Aqua/Orange/Gum)",
@@ -8947,38 +8473,6 @@ var ZAPATOS = [
    "Suela resistente para el uso diario"
   ],
   "tallas": [
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-14474",
-  "marca": "Nike",
-  "nombre": "NIKE AIR FORCE 1 '07",
-  "genero": "Hombre",
-  "precio": 79.0,
-  "precio_c": 2905,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_DJ2739-100_PHSRH000-2000.jpg?v=1775166613",
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_DJ2739-100_PHCFH001-2000.jpg?v=1775166589"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "8",
    "8.5",
    "9",
    "9.5",
@@ -9377,39 +8871,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14486",
-  "marca": "New Balance",
-  "nombre": "New Balance 509 - Black/White",
-  "genero": "Hombre",
-  "precio": 81.5,
-  "precio_c": 2997,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0214/7974/files/Sneaker-Politics-NEWBALANCE-509-U509E4CN-WB-1.jpg?v=1774536203",
-   "https://cdn.shopify.com/s/files/1/0214/7974/files/Sneaker-Politics-NEWBALANCE-509-U509E4CN-WB-6.jpg?v=1775589546"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14487",
   "marca": "NEW BALANCE",
   "nombre": "650 \"BRED\"",
@@ -9445,37 +8906,6 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ],
-  "categoria": "Casuales"
- },
- {
-  "codigo": "DOM-14488",
-  "marca": "adidas",
-  "nombre": "adidas Superstar 82 'White'",
-  "genero": "Hombre",
-  "precio": 65.0,
-  "precio_c": 2390,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/superstar82.jpg?v=1762268601",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/superstar822.jpg?v=1741787399"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
   ],
   "categoria": "Casuales"
  },
@@ -10078,37 +9508,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14507",
-  "marca": "Converse",
-  "nombre": "Converse Weapon 'Ox Green Envy/Vintage White'",
-  "genero": "Hombre",
-  "precio": 65.0,
-  "precio_c": 2390,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/envygreen.jpg?v=1762201925",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/envygreen2.jpg?v=1729511557"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14508",
   "marca": "ADIDAS",
   "nombre": "Campus 00s - Mens",
@@ -10319,39 +9718,6 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-14515",
-  "marca": "RELEASE 10/10",
-  "nombre": "FEID X SALOMON ACS NEXXT \"THE GREEN STAR\"",
-  "genero": "Hombre",
-  "precio": 160.0,
-  "precio_c": 5884,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/0048/files/L45506800-1.jpg?v=1790955521",
-   "https://cdn.shopify.com/s/files/1/0852/0048/files/L45506800-2.jpg?v=1790955521"
-  ],
-  "descripcion": "Tenis casuales para hombre, cómodos y con estilo, perfectos para el día a día.",
-  "detalles": [
-   "Comodidad para llevarlos todo el día",
-   "Estilo casual que combina con todo",
-   "Ajuste seguro con cordones",
-   "Suela resistente para el uso diario"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-14516",
   "marca": "Public Desire UK",
   "nombre": "Figure Black Platform Patent High Heel",
@@ -10416,39 +9782,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-14518",
-  "marca": "Public Desire UK",
-  "nombre": "Resist Chocolate Patent Platform High Heels",
-  "genero": "Hombre",
-  "precio": 39.99,
-  "precio_c": 1471,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/CHOCOLATEPATENTRESIST-1.jpg?v=1763725249",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/CHOCOLATEPATENTRESIST-2.jpg?v=1763725249"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-14519",
   "marca": "Windsor",
   "nombre": "Smooth Finish Satin Strappy Stiletto Heels",
@@ -10476,39 +9809,6 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-14520",
-  "marca": "Nike",
-  "nombre": "AIR FORCE 1 '07 PATENT LEATHER",
-  "genero": "Hombre",
-  "precio": 85.0,
-  "precio_c": 3126,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_IV2857-010_PHSRH000-2000.jpg?v=1778615120",
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_IV2857-010_PHCFH001-2000.jpg?v=1778615129"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "12.5",
-   "13"
   ],
   "categoria": "Elegantes"
  },
@@ -10651,37 +9951,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-14525",
-  "marca": "Vans",
-  "nombre": "Vans OTW Era 95 Vibram 'Navy Red Patent'",
-  "genero": "Hombre",
-  "precio": 55.0,
-  "precio_c": 2023,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/VN000E8YGHP-ALT1.jpg?v=1762268991",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/VN000E8YGHP-ALT2.jpg?v=1756907859"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-14526",
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Emmett Penny — Tan",
@@ -10715,75 +9984,12 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-14527",
-  "marca": "VANS",
-  "nombre": "LX LOAFER 53 - BLACK",
-  "genero": "Hombre",
-  "precio": 90.0,
-  "precio_c": 3310,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0852/0048/files/VN000VATBLK-1.jpg?v=1776288605",
-   "https://cdn.shopify.com/s/files/1/0852/0048/files/VN000VATBLK-2.jpg?v=1776288605"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-14528",
-  "marca": "Vans",
-  "nombre": "Vans OTW Era 95 Vibram 'Black Patent'",
-  "genero": "Hombre",
-  "precio": 87.0,
-  "precio_c": 3199,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/VN000E8Y3KY-ALT1.jpg?v=1762268992",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/VN000E8Y3KY-ALT2.jpg?v=1756907830"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-14529",
   "marca": "Clarks",
   "nombre": "Clarks DressLite Cap — Black",
   "genero": "Hombre",
-  "precio": 73.0,
-  "precio_c": 2685,
+  "precio": 79.0,
+  "precio_c": 2905,
   "fotos": [
    "https://m.media-amazon.com/images/I/61NirxjIhSL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61dyoo1i6qL._AC_SX679_.jpg"
@@ -10878,8 +10084,8 @@ var ZAPATOS = [
   "marca": "Clarks",
   "nombre": "Clarks DressLite Ace — Mahogany",
   "genero": "Hombre",
-  "precio": 73.0,
-  "precio_c": 2685,
+  "precio": 79.0,
+  "precio_c": 2905,
   "fotos": [
    "https://m.media-amazon.com/images/I/61VMUV9PrJL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61cXY21x7fL._AC_SX679_.jpg"
@@ -12212,37 +11418,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-14572",
-  "marca": "Nike Sportswear",
-  "nombre": "Nike Air Force 1 '07 Premium Patent Leather 'Black'",
-  "genero": "Hombre",
-  "precio": 135.0,
-  "precio_c": 4964,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/AURORA_IV2857-010_PHSRH000-2000.jpg?v=1777569646",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/AURORA_IV2857-010_PHCFH001-2000.jpg?v=1777569646"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-14573",
   "marca": "VANS",
   "nombre": "Premium Harris Tweed Loafer 53",
@@ -12306,33 +11481,6 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-14575",
-  "marca": "JosephT",
-  "nombre": "RALPH",
-  "genero": "Hombre",
-  "precio": 195.0,
-  "precio_c": 7171,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_28.png?v=1755895066",
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_29.png?v=1755895066"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10"
   ],
   "categoria": "Elegantes"
  },
@@ -12980,35 +12128,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-14595",
-  "marca": "Nike Sportswear",
-  "nombre": "Nike Air Force 1 Low '07 LV8 Patent 'Beef and Broccoli'",
-  "genero": "Hombre",
-  "precio": 135.0,
-  "precio_c": 4964,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/AURORA_IX4088-352_PHSRH000-2000.jpg?v=1788896028",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/AURORA_IX4088-352_PHCFH001-2000.jpg?v=1788896028"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12"
-  ],
-  "categoria": "Elegantes"
- },
- {
   "codigo": "DOM-14596",
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Charles — Black",
@@ -13018,38 +12137,6 @@ var ZAPATOS = [
   "fotos": [
    "https://m.media-amazon.com/images/I/71XbBdNXJaL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/710U5BMcznL._AC_SX679_.jpg"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-14597",
-  "marca": "Dr. Martens",
-  "nombre": "Dr. Martens Made in England Adrian Tassel Loafers 'Red'",
-  "genero": "Hombre",
-  "precio": 171.0,
-  "precio_c": 6288,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/adiranred.jpg?v=1762268725"
   ],
   "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
   "detalles": [
@@ -13101,38 +12188,6 @@ var ZAPATOS = [
    "10",
    "10.5",
    "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Elegantes"
- },
- {
-  "codigo": "DOM-14599",
-  "marca": "Vans",
-  "nombre": "Premium LX Old Skool 36 'Patent' - Bordeaux/Olive",
-  "genero": "Hombre",
-  "precio": 115.0,
-  "precio_c": 4229,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0408/9909/files/7247586132039-P1-GRAYBG-CORRECTED_b355a2b0-ab2d-4689-86d3-d09206beb808.jpg?v=1790350230",
-   "https://cdn.shopify.com/s/files/1/0408/9909/files/7247586132039-P2-GRAYBG-CORRECTED_d111a4e6-a8e3-4b95-aa33-f094a692be29.jpg?v=1790350230"
-  ],
-  "descripcion": "Zapato elegante para hombre, de estilo refinado y cómodo, perfecto para eventos y para vestir bien a diario.",
-  "detalles": [
-   "Estilo refinado con detalles cuidados",
-   "Comodidad para llevarlo todo el día",
-   "Fácil de combinar con pantalón de vestir o casual",
-   "Acabado de calidad para ocasiones especiales"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
    "12",
    "13"
   ],
@@ -13636,67 +12691,6 @@ var ZAPATOS = [
   "categoria": "Elegantes"
  },
  {
-  "codigo": "DOM-14616",
-  "marca": "CIS",
-  "nombre": "Bettinson",
-  "genero": "Hombre",
-  "precio": 49.97,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14171499_bettinson_beige_252-002-029_main_sq_gy.jpg?v=1763527381",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_88516_product_14171499_bettinson_beige_252-002-029_sw_sq.jpg?v=1763527378"
-  ],
-  "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
-  "detalles": [
-   "Construcción resistente para uso diario",
-   "Buen soporte y estabilidad al caminar",
-   "Materiales duraderos y fáciles de cuidar",
-   "Diseño versátil que combina con todo"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Botas"
- },
- {
-  "codigo": "DOM-14617",
-  "marca": "Public Desire UK",
-  "nombre": "Sheriff Silver Metallic Western Fold Over Block Cowboy Knee High Boots",
-  "genero": "Hombre",
-  "precio": 25.0,
-  "precio_c": 919,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SHERIFFSILV.jpg?v=1699958661"
-  ],
-  "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
-  "detalles": [
-   "Construcción resistente para uso diario",
-   "Buen soporte y estabilidad al caminar",
-   "Materiales duraderos y fáciles de cuidar",
-   "Diseño versátil que combina con todo"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Botas"
- },
- {
   "codigo": "DOM-14618",
   "marca": "DOCKERS",
   "nombre": "Dudley - Mens",
@@ -13724,39 +12718,6 @@ var ZAPATOS = [
   "categoria": "Botas"
  },
  {
-  "codigo": "DOM-14619",
-  "marca": "Public Desire UK",
-  "nombre": "Christina Silver Grain Pointed Toe Block Heel Knee High Boots",
-  "genero": "Hombre",
-  "precio": 25.0,
-  "precio_c": 919,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/ChristinaSilverGrain1.jpg?v=1756302722",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/ChristinaSilverGrain.jpg?v=1756302722"
-  ],
-  "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
-  "detalles": [
-   "Construcción resistente para uso diario",
-   "Buen soporte y estabilidad al caminar",
-   "Materiales duraderos y fáciles de cuidar",
-   "Diseño versátil que combina con todo"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Botas"
- },
- {
   "codigo": "DOM-14620",
   "marca": "DOCKERS",
   "nombre": "Durham - Mens",
@@ -13780,39 +12741,6 @@ var ZAPATOS = [
    "09.5",
    "10.5",
    "11.5"
-  ],
-  "categoria": "Botas"
- },
- {
-  "codigo": "DOM-14621",
-  "marca": "Public Desire UK",
-  "nombre": "Demeter Black Pu Chunky Heeled Platform Ankle Boots",
-  "genero": "Hombre",
-  "precio": 18.0,
-  "precio_c": 662,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/DemeterBlack1.jpg?v=1695739027",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/DemeterBlack.jpg?v=1695739027"
-  ],
-  "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
-  "detalles": [
-   "Construcción resistente para uso diario",
-   "Buen soporte y estabilidad al caminar",
-   "Materiales duraderos y fáciles de cuidar",
-   "Diseño versátil que combina con todo"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ],
   "categoria": "Botas"
  },
@@ -13854,39 +12782,6 @@ var ZAPATOS = [
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EILISHGOLDMIRROR-1.jpg?v=1749206756",
    "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EILISHGOLDMIRROR-2.jpg?v=1749206756"
-  ],
-  "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
-  "detalles": [
-   "Construcción resistente para uso diario",
-   "Buen soporte y estabilidad al caminar",
-   "Materiales duraderos y fáciles de cuidar",
-   "Diseño versátil que combina con todo"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Botas"
- },
- {
-  "codigo": "DOM-14624",
-  "marca": "Air Jordan",
-  "nombre": "JORDAN 11 \"GAMMA\" CRIB BOOTIE",
-  "genero": "Hombre",
-  "precio": 85.0,
-  "precio_c": 3126,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_CI6165-047_PHSRH000-2000.jpg?v=1765234107",
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_CI6165-047_PHCFH001-2000.jpg?v=1765234107"
   ],
   "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
   "detalles": [
@@ -14048,39 +12943,6 @@ var ZAPATOS = [
   "fotos": [
    "https://m.media-amazon.com/images/I/71pMUZFQMbL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/71OGWLDYDjL._AC_SX679_.jpg"
-  ],
-  "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
-  "detalles": [
-   "Construcción resistente para uso diario",
-   "Buen soporte y estabilidad al caminar",
-   "Materiales duraderos y fáciles de cuidar",
-   "Diseño versátil que combina con todo"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Botas"
- },
- {
-  "codigo": "DOM-14630",
-  "marca": "Szade",
-  "nombre": "BOOTH",
-  "genero": "Hombre",
-  "precio": 75.0,
-  "precio_c": 2758,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_77_12e92fbe-cdab-4213-aa4f-202ccc8481f8.jpg?v=1774045105",
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/Untitleddesign_78_c65b7e87-2e37-42ca-86a4-dfefcf82e2d2.jpg?v=1774045156"
   ],
   "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
   "detalles": [
@@ -14290,41 +13152,12 @@ var ZAPATOS = [
   "categoria": "Botas"
  },
  {
-  "codigo": "DOM-14637",
-  "marca": "CIS",
-  "nombre": "Berk",
-  "genero": "Hombre",
-  "precio": 64.97,
-  "precio_c": 2389,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14362572_berk_brown_200-002-029_main_sq_gy.jpg?v=1769143272",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14362572_berk_brown_200-002-029_alt1_sq_gy.jpg?v=1769143272"
-  ],
-  "descripcion": "Bota resistente para hombre, con buen soporte y materiales duraderos, lista para el trabajo y para el día a día.",
-  "detalles": [
-   "Construcción resistente para uso diario",
-   "Buen soporte y estabilidad al caminar",
-   "Materiales duraderos y fáciles de cuidar",
-   "Diseño versátil que combina con todo"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Botas"
- },
- {
   "codigo": "DOM-14638",
   "marca": "LUGZ",
   "nombre": "Wilderness - Mens",
   "genero": "Hombre",
-  "precio": 69.98,
-  "precio_c": 2573,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MWILDERMV0837_1.jpg?v=1787607675",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/MWILDERMV0837_2.jpg?v=1787607675"
@@ -15839,60 +14672,6 @@ var ZAPATOS = [
   "categoria": "Botas"
  },
  {
-  "codigo": "DOM-14716",
-  "marca": "Nike",
-  "nombre": "NIKE CALM 2.0",
-  "genero": "Hombre",
-  "precio": 43.0,
-  "precio_c": 1581,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_IB0183-001_PHSRH000-2000.jpg?v=1778953950",
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_IB0183-001_PHCYD001-2000.jpg?v=1778953949"
-  ],
-  "descripcion": "Sandalia cómoda para hombre, ligera y fácil de poner, ideal para descansar y para el uso diario en casa o fuera.",
-  "detalles": [
-   "Ligera y fácil de poner y quitar",
-   "Plantilla cómoda para el uso diario",
-   "Suela con buen agarre",
-   "Diseño sencillo y versátil"
-  ],
-  "tallas": [
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Chanclas"
- },
- {
-  "codigo": "DOM-14717",
-  "marca": "Nike",
-  "nombre": "Nike Benassi Slide - Navy Blue",
-  "genero": "Hombre",
-  "precio": 39.98,
-  "precio_c": 1470,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/products/nike-benassi-slide-navy-343880-403.png?v=1633761313"
-  ],
-  "descripcion": "Sandalia cómoda para hombre, ligera y fácil de poner, ideal para descansar y para el uso diario en casa o fuera.",
-  "detalles": [
-   "Ligera y fácil de poner y quitar",
-   "Plantilla cómoda para el uso diario",
-   "Suela con buen agarre",
-   "Diseño sencillo y versátil"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Chanclas"
- },
- {
   "codigo": "DOM-14718",
   "marca": "ADIDAS",
   "nombre": "Adidas 'Black Grey Trefoil' Men's Slides",
@@ -16033,38 +14812,6 @@ var ZAPATOS = [
    "8",
    "9",
    "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Chanclas"
- },
- {
-  "codigo": "DOM-14723",
-  "marca": "FELT",
-  "nombre": "FELT Work Wear Logo Slides 'Black'",
-  "genero": "Hombre",
-  "precio": 32.0,
-  "precio_c": 1177,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/products/blackslides2_x500_2x_f9d114ef-677f-4d5f-af20-1ba733489286.jpg?v=1762199321"
-  ],
-  "descripcion": "Sandalia cómoda para hombre, ligera y fácil de poner, ideal para descansar y para el uso diario en casa o fuera.",
-  "detalles": [
-   "Ligera y fácil de poner y quitar",
-   "Plantilla cómoda para el uso diario",
-   "Suela con buen agarre",
-   "Diseño sencillo y versátil"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
    "11",
    "12",
    "13"
@@ -16717,39 +15464,6 @@ var ZAPATOS = [
    "12",
    "13",
    "14"
-  ],
-  "categoria": "Chanclas"
- },
- {
-  "codigo": "DOM-14745",
-  "marca": "Public Desire UK",
-  "nombre": "Flare Black Cross Strap Chunky Mid Heel Sandals",
-  "genero": "Hombre",
-  "precio": 20.0,
-  "precio_c": 735,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/FLARE-BLACK_1.jpg?v=1712060198",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/FLARE-BLACK_2.jpg?v=1712060198"
-  ],
-  "descripcion": "Sandalia cómoda para hombre, ligera y fácil de poner, ideal para descansar y para el uso diario en casa o fuera.",
-  "detalles": [
-   "Ligera y fácil de poner y quitar",
-   "Plantilla cómoda para el uso diario",
-   "Suela con buen agarre",
-   "Diseño sencillo y versátil"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ],
   "categoria": "Chanclas"
  },
@@ -17455,39 +16169,6 @@ var ZAPATOS = [
   "categoria": "Chanclas"
  },
  {
-  "codigo": "DOM-14769",
-  "marca": "BIRKENSTOCK",
-  "nombre": "Birkenstock Boston Soft Footbed 'Suede Black'",
-  "genero": "Hombre",
-  "precio": 100.0,
-  "precio_c": 3677,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/660473_side.jpg?v=1759270455",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/660473_sole.jpg?v=1707143876"
-  ],
-  "descripcion": "Sandalia cómoda para hombre, ligera y fácil de poner, ideal para descansar y para el uso diario en casa o fuera.",
-  "detalles": [
-   "Ligera y fácil de poner y quitar",
-   "Plantilla cómoda para el uso diario",
-   "Suela con buen agarre",
-   "Diseño sencillo y versátil"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Chanclas"
- },
- {
   "codigo": "DOM-14770",
   "marca": "CROCS",
   "nombre": "Bistro Sneaker - Mens",
@@ -17964,39 +16645,6 @@ var ZAPATOS = [
    "11",
    "12",
    "13"
-  ],
-  "categoria": "Chanclas"
- },
- {
-  "codigo": "DOM-14786",
-  "marca": "Vans",
-  "nombre": "Vans LX Mule Style 17 'Hairy Suede Peyote'",
-  "genero": "Hombre",
-  "precio": 94.0,
-  "precio_c": 3457,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/mule1.jpg?v=1762268659",
-   "https://cdn.shopify.com/s/files/1/0409/9765/files/mule2.jpg?v=1739923088"
-  ],
-  "descripcion": "Sandalia cómoda para hombre, ligera y fácil de poner, ideal para descansar y para el uso diario en casa o fuera.",
-  "detalles": [
-   "Ligera y fácil de poner y quitar",
-   "Plantilla cómoda para el uso diario",
-   "Suela con buen agarre",
-   "Diseño sencillo y versátil"
-  ],
-  "tallas": [
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5"
   ],
   "categoria": "Chanclas"
  },
@@ -18764,37 +17412,6 @@ var ZAPATOS = [
   "categoria": "Chanclas"
  },
  {
-  "codigo": "DOM-14811",
-  "marca": "Nike",
-  "nombre": "NIKE MIND 001 \"FAITH KIPYEGON\"",
-  "genero": "Hombre",
-  "precio": 105.0,
-  "precio_c": 3861,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_IR2175-200_PHSRH000-2000.jpg?v=1782163427",
-   "https://cdn.shopify.com/s/files/1/0049/9112/files/AURORA_IR2175-200_PHCFH001-2000.jpg?v=1782163427"
-  ],
-  "descripcion": "Sandalia cómoda para hombre, ligera y fácil de poner, ideal para descansar y para el uso diario en casa o fuera.",
-  "detalles": [
-   "Ligera y fácil de poner y quitar",
-   "Plantilla cómoda para el uso diario",
-   "Suela con buen agarre",
-   "Diseño sencillo y versátil"
-  ],
-  "tallas": [
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13",
-   "14"
-  ],
-  "categoria": "Chanclas"
- },
- {
   "codigo": "DOM-14812",
   "marca": "Crocs",
   "nombre": "Crocs Mens Quick Trail Racer Sandal",
@@ -19015,39 +17632,6 @@ var ZAPATOS = [
    "09.5",
    "10.5",
    "11.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-14819",
-  "marca": "Topps",
-  "nombre": "Topps 2025-26 Premier League Debut Edition Cards - Golden Boot Tin (57 Cards + 7 Golden Boot LE)",
-  "genero": "Hombre",
-  "precio": 49.99,
-  "precio_c": 1838,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/topps-2025-26-premier-league-debut-edition-cards-golden-boot-tin-57-cards-7-golden-boot-le-6222662.webp?v=1767642193",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/topps-2025-26-premier-league-debut-edition-cards-golden-boot-tin-57-cards-7-golden-boot-le-9768157.webp?v=1767642194"
-  ],
-  "descripcion": "Taco de fútbol para hombre, con tracción firme en el campo y ajuste seguro, listo para entrenar y competir.",
-  "detalles": [
-   "Tracción firme para arranques y giros en el campo",
-   "Ajuste seguro con cordones",
-   "Diseño ligero para moverse con rapidez",
-   "Suela pensada para terreno firme"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
   ],
   "categoria": "Tacos para fútbol"
  },
@@ -22563,8 +21147,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Carina Street Platform Sneakers",
   "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
+  "precio": 54.95,
+  "precio_c": 2021,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38939014_1l.jpg?v=1792151880",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38939014_2l.jpg?v=1792151880",
@@ -24633,8 +23217,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Energen Lux — Muted Mauve/White/Berry Chill",
   "genero": "Mujer",
-  "precio": 49.97,
-  "precio_c": 1838,
+  "precio": 37.95,
+  "precio_c": 1396,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100244579_1.jpg?v=1788538830",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100244579_2.jpg?v=1788538830",
@@ -24662,8 +23246,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Energen Lux — Black/Black/Black",
   "genero": "Mujer",
-  "precio": 49.97,
-  "precio_c": 1838,
+  "precio": 37.95,
+  "precio_c": 1396,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100273330_1.jpg?v=1788538830",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100273330_2.jpg?v=1788538830",
@@ -24965,8 +23549,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers D'Lites Retro Radiance — Light Pink/Off White",
   "genero": "Mujer",
-  "precio": 63.96,
-  "precio_c": 2352,
+  "precio": 49.95,
+  "precio_c": 1837,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/150555LPMT_1.jpg?v=1773696169",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/150555LPMT_2.jpg?v=1773696169",
@@ -25026,8 +23610,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Magnify NITRO 2 Running",
   "genero": "Mujer",
-  "precio": 69.95,
-  "precio_c": 2572,
+  "precio": 74.95,
+  "precio_c": 2756,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37754020_1l.jpg?v=1793748800",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/37754020_2l.jpg?v=1793748800",
@@ -25114,8 +23698,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas F50 Sparkfusion League Mid Cut Turf Soccer",
   "genero": "Mujer",
-  "precio": 74.95,
-  "precio_c": 2756,
+  "precio": 79.95,
+  "precio_c": 2940,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KI1023_1l.jpg?v=1793281308",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-KI1023_2l.jpg?v=1793281308",
@@ -25880,8 +24464,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Samba OG — (Fuzzy Giraffe) Crystal Linen/Ivory/Brown/Gum",
   "genero": "Mujer",
-  "precio": 98.96,
-  "precio_c": 3639,
+  "precio": 69.95,
+  "precio_c": 2572,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI6669_1.jpg?v=1787268502",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI6669_2.jpg?v=1787268503",
@@ -26655,8 +25239,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Predator Elite Firm Ground Soccer Cleats — 6.5W / 5.5M",
   "genero": "Mujer",
-  "precio": 269.95,
-  "precio_c": 9927,
+  "precio": 217.95,
+  "precio_c": 8015,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-IH4700_1l.jpg?v=1793163988",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-IH4700_2l.jpg?v=1793163988",
@@ -26720,37 +25304,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-15090",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Horizon Black PU Knee High Boots",
-  "genero": "Mujer",
-  "precio": 29.95,
-  "precio_c": 1101,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/HorizonBlackFront.jpg?v=1629894379",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/HorizonBlackBack.jpg?v=1629894379",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/HorizonBlackDetail.jpg?v=1629894379",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/HorizonWalkingBlack.jpg?v=1629894379"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-15091",
   "marca": "Lugz",
   "nombre": "Lugz Rucker Hi Faux Fur Round Toe Lace Up Boots",
@@ -26776,40 +25329,6 @@ var ZAPATOS = [
    "7",
    "7.5",
    "8"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15092",
-  "marca": "CIS",
-  "nombre": "CIS Needa",
-  "genero": "Mujer",
-  "precio": 47.92,
-  "precio_c": 1762,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13678182_needa_black_001-002-025_main_sq_gy.jpg?v=1757707465",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_72931_product_13678182_needa_black_001-002-025_sw_sq.jpg?v=1757707465",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13678182_needa_black_001-002-025_alt1_sq_gy.jpg?v=1757707465",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13678182_needa_black_001-002-025_alt2_sq_gy.jpg?v=1757707465"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Botines"
  },
@@ -26843,37 +25362,6 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15094",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Nashville Wide Fit Black Western Studded Block Heel Knee High Boot",
-  "genero": "Mujer",
-  "precio": 29.95,
-  "precio_c": 1101,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/NASHVILLEBLACK-1_ee3ca919-ddad-4741-889d-ce3e66e9422d.jpg?v=1760345388",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/NASHVILLEBLACK-3_1e32486f-876a-471c-b3e0-a1d710fa61e7.jpg?v=1760345404",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/NASHVILLEBLACK-4_86bd997d-1622-4fc1-9e43-19bf7c7b0bd7.jpg?v=1760345404",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/NASHVILLEBLACK_1_eaeba448-faa4-4beb-a984-133dd1fcf393.jpg?v=1760345404"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Botines"
  },
@@ -26962,37 +25450,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-15098",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Pose Black Textured Pu Zip Up Knee High Slim Block Heeled Boots",
-  "genero": "Mujer",
-  "precio": 29.95,
-  "precio_c": 1101,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PoseBlackTexPU1.jpg?v=1695985901",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PoseBlackTexPU.jpg?v=1695636212",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PoseBlackTexPU3.jpg?v=1695636212",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/PoseBlackTexPU2.jpg?v=1695636212"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-15099",
   "marca": "Keds",
   "nombre": "Keds Fielder Water-Resistant Lace Up Boots",
@@ -27016,40 +25473,6 @@ var ZAPATOS = [
    "5.5",
    "6",
    "6.5"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15100",
-  "marca": "CIS",
-  "nombre": "CIS Willlow",
-  "genero": "Mujer",
-  "precio": 49.92,
-  "precio_c": 1836,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118316_willlow_brown_230-003-027_main_sq_gy.jpg?v=1757701896",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87222_product_14118316_willlow_brown_230-003-027_sw_sq.jpg?v=1757701896",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118316_willlow_brown_230-003-027_alt1_sq_gy.jpg?v=1757701896",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118316_willlow_brown_230-003-027_alt2_sq_gy.jpg?v=1757701896"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Botines"
  },
@@ -27087,36 +25510,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-15102",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Uptown Girl Black Suedette Western Cowboy Knee High Boots",
-  "genero": "Mujer",
-  "precio": 34.95,
-  "precio_c": 1285,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/UPTOWNGIRL-2.jpg?v=1749736033",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/UPTOWNGIRL-3.jpg?v=1749736033",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/UPTOWNGRIL-1.jpg?v=1749736032"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-15103",
   "marca": "Dingo",
   "nombre": "Dingo Primrose Floral Embroidered Metallic Pull On Snip Toe Cowboy Booties",
@@ -27142,37 +25535,6 @@ var ZAPATOS = [
    "7.5",
    "8",
    "8.5"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15104",
-  "marca": "CIS",
-  "nombre": "CIS Oaklie",
-  "genero": "Mujer",
-  "precio": 49.92,
-  "precio_c": 1836,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14082433_oaklie_brown_201-002-006_main_sq_gy.jpg?v=1757701699",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_85867_product_14082433_oaklie_brown_201-002-006_sw_sq.jpg?v=1757701699",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14082433_oaklie_brown_201-002-006_alt1_sq_gy.jpg?v=1757701699",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14082433_oaklie_brown_201-002-006_alt2_sq_gy.jpg?v=1757701699"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Botines"
  },
@@ -27206,37 +25568,6 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15106",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Amped Black Pointed Toe Mid Heel Knee High Boots",
-  "genero": "Mujer",
-  "precio": 49.95,
-  "precio_c": 1837,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/AMPEDBLACK-1.jpg?v=1761831190",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/AMPED-2.jpg?v=1765290749",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/AMPED-3.jpg?v=1765290749",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/AMPEDBLACK-2.jpg?v=1765290749"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Botines"
  },
@@ -27963,40 +26294,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-15129",
-  "marca": "CIS",
-  "nombre": "CIS Ashanti",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13677805_ashanti_black_001-002-029_main_sq_gy.jpg?v=1757707452",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_72926_product_13677805_ashanti_black_001-002-029_sw_sq.jpg?v=1757707452",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13677805_ashanti_black_001-002-029_alt1_sq_gy.jpg?v=1757707452",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13677805_ashanti_black_001-002-029_alt2_sq_gy.jpg?v=1757707452"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-15130",
   "marca": "Windsor",
   "nombre": "Windsor Downtown Sleek Faux Leather Booties",
@@ -28040,37 +26337,6 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/products/1-Montgomery-Boot-White-Croc.jpg?v=1639093073",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/products/1_2ba36e87-411d-49fe-aa08-1e3933ee67e7.jpg?v=1639093073",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/products/2_3728a5d8-102b-406c-9877-dbf14cf35ad2.jpg?v=1639093073"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15132",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Ralph Black Fold Over Pu Knee High Stiletto Boots",
-  "genero": "Mujer",
-  "precio": 62.95,
-  "precio_c": 2315,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/RALPHBLACK-1.jpg?v=1756982016",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/RALPHBLACK-2.jpg?v=1756982016",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/RALPHBLACK-3.jpg?v=1756982016",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/RALPHBLACK-4.jpg?v=1756982017"
   ],
   "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
   "detalles": [
@@ -28178,40 +26444,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-15136",
-  "marca": "CIS",
-  "nombre": "CIS Aila",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13634338_aila_brown_201-002-029_main_sq_gy.jpg?v=1757707439",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_71337_product_13634338_aila_brown_201-002-029_sw_sq.jpg?v=1757707439",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13634338_aila_brown_201-002-029_alt1_sq_gy.jpg?v=1757707439",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13634338_aila_brown_201-002-029_alt2_sq_gy.jpg?v=1757707439"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-15137",
   "marca": "Windsor",
   "nombre": "Windsor Slay On Thigh-High Ribbed Knit Platform Boots",
@@ -28255,37 +26487,6 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_bb365507-2562-4416-b7d6-1762e3258c1b.jpg?v=1770786959",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/3_6d8d8b8f-9080-4c8f-8fb6-f342d406b845.jpg?v=1770786959",
    "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/4_e5dca46a-5118-4198-a4c2-195f9010b42f.jpg?v=1770786959"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15139",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Evergreen Black Pu Wide Fit Knee High Elasticated Detail Chunky Heeled Sole Boots",
-  "genero": "Mujer",
-  "precio": 64.94,
-  "precio_c": 2388,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EVERGREENBLACKPU-1.jpg?v=1760384235",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EVERGREENBLACKPU-2.jpg?v=1760384235",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EVERGREENBLACKPU-3.jpg?v=1760384235",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EVERGREENBLACKPU-4.jpg?v=1760384235"
   ],
   "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
   "detalles": [
@@ -28619,40 +26820,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-15150",
-  "marca": "CIS",
-  "nombre": "CIS Zayra",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118304_zayra_red_601-002-025_main_sq_gy.jpg?v=1757701825",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87225_product_14118304_zayra_red_601-002-025_sw_sq.jpg?v=1757701825",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118304_zayra_red_601-002-025_alt1_sq_gy.jpg?v=1757701825",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118304_zayra_red_601-002-025_alt2_sq_gy.jpg?v=1757701825"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-15151",
   "marca": "Windsor",
   "nombre": "Windsor All Strapped In Knee-High Heels",
@@ -28819,40 +26986,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-15156",
-  "marca": "CIS",
-  "nombre": "CIS Maelie",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118293_maelie_black_001-002-045_main_sq_gy.jpg?v=1757701856",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_87208_product_14118293_maelie_black_001-002-045_sw_sq.jpg?v=1757701856",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118293_maelie_black_001-002-045_alt1_sq_gy.jpg?v=1757701856",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118293_maelie_black_001-002-045_alt2_sq_gy.jpg?v=1757701856"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-15157",
   "marca": "Windsor",
   "nombre": "Windsor Power Stomp Platform Ankle Booties",
@@ -28946,35 +27079,6 @@ var ZAPATOS = [
    "10",
    "11",
    "12"
-  ],
-  "categoria": "Botines"
- },
- {
-  "codigo": "DOM-15160",
-  "marca": "CIS",
-  "nombre": "CIS Devynn",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14216371_devynn_brown_220-002-029_main_sq_gy.jpg?v=1760676352",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14216371_devynn_brown_220-002-029_alt1_sq_gy.jpg?v=1760676352",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14216371_devynn_brown_220-002-029_alt2_sq_gy.jpg?v=1760676352",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14216371_devynn_brown_220-002-029_alt3_sq_gy.jpg?v=1760676352"
-  ],
-  "descripcion": "Botín de mujer cómodo y con buen ajuste, ideal para el día a día y para combinar con jeans y vestidos.",
-  "detalles": [
-   "Caña cómoda con buen ajuste",
-   "Suela estable para caminar todo el día",
-   "Diseño versátil para combinar con jeans y vestidos",
-   "Acabado cuidado y materiales resistentes"
-  ],
-  "tallas": [
-   "6",
-   "7",
-   "8",
-   "9",
-   "10"
   ],
   "categoria": "Botines"
  },
@@ -33899,37 +32003,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15316",
-  "marca": "CIS",
-  "nombre": "CIS Belini",
-  "genero": "Mujer",
-  "precio": 37.92,
-  "precio_c": 1394,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13958810_belini_black_001-002-057_main_sq_gy.jpg?v=1757701396",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83436_product_13958810_belini_black_001-002-057_sw_sq.jpg?v=1757701396",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13958810_belini_black_001-002-057_alt1_sq_gy.jpg?v=1757701396",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13958810_belini_black_001-002-057_alt2_sq_gy.jpg?v=1757701396"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15317",
   "marca": "Journee Collection",
   "nombre": "Journee Collection MONTE ESPADRILLE WEDGE SANDALS IN WIDE - Tan Fabric",
@@ -34058,37 +32131,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15321",
-  "marca": "CIS",
-  "nombre": "CIS Belini",
-  "genero": "Mujer",
-  "precio": 37.92,
-  "precio_c": 1394,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13958818_belini_grey_050-002-057_main_sq_gy.jpg?v=1757701362",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83436_product_13958818_belini_grey_050-002-057_sw_sq.jpg?v=1757701362",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13958818_belini_grey_050-002-057_alt1_sq_gy.jpg?v=1757701362",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13958818_belini_grey_050-002-057_alt2_sq_gy.jpg?v=1757701362"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15322",
   "marca": "Journee Collection",
   "nombre": "Journee Collection MONTE ESPADRILLE WEDGE SANDALS IN WIDE - Navy Blue Fabric",
@@ -34179,40 +32221,6 @@ var ZAPATOS = [
    "6",
    "7",
    "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15325",
-  "marca": "CIS",
-  "nombre": "CIS Kayce",
-  "genero": "Mujer",
-  "precio": 37.93,
-  "precio_c": 1395,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13948083_kayce_white_100-002-043_main_sq_gy.jpg?v=1757701253",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83358_product_13948083_kayce_white_100-002-043_sw_sq.jpg?v=1757701253",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13948083_kayce_white_100-002-043_alt1_sq_gy.jpg?v=1757701253",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13948083_kayce_white_100-002-043_alt2_sq_gy.jpg?v=1757701253"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
    "9",
    "10",
    "11"
@@ -34317,38 +32325,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15329",
-  "marca": "CIS",
-  "nombre": "CIS Kawai",
-  "genero": "Mujer",
-  "precio": 39.92,
-  "precio_c": 1468,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13951917_kawai_white_102-002-043_main_sq_gy.jpg?v=1757701294",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83399_product_13951917_kawai_white_102-002-043_sw_sq.jpg?v=1757701294",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13951917_kawai_white_102-002-043_alt1_sq_gy.jpg?v=1757701294",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13951917_kawai_white_102-002-043_alt2_sq_gy.jpg?v=1757701294"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15330",
   "marca": "Journee Collection",
   "nombre": "Journee Collection MONTE ESPADRILLE WEDGE SANDALS IN CANVAS - Navy Blue Fabric",
@@ -34443,40 +32419,6 @@ var ZAPATOS = [
    "6",
    "7",
    "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15333",
-  "marca": "CIS",
-  "nombre": "CIS Avaline",
-  "genero": "Mujer",
-  "precio": 41.92,
-  "precio_c": 1542,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080034_avaline_black_001-002-025_main_sq_gy.jpg?v=1757701624",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_85811_product_14080034_avaline_black_001-002-025_sw_sq.jpg?v=1757701624",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080034_avaline_black_001-002-025_alt1_sq_gy.jpg?v=1757701624",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080034_avaline_black_001-002-025_alt2_sq_gy.jpg?v=1757701624"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
    "9",
    "10",
    "11"
@@ -34584,40 +32526,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15337",
-  "marca": "CIS",
-  "nombre": "CIS Cassiane",
-  "genero": "Mujer",
-  "precio": 42.92,
-  "precio_c": 1578,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13698509_cassiane_brown_220-002-008_main_sq_gy.jpg?v=1758115651",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_74245_product_13698509_cassiane_brown_220-002-008_sw_sq.jpg?v=1758115651",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13698509_cassiane_brown_220-002-008_alt1_sq_gy.jpg?v=1758115651",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13698509_cassiane_brown_220-002-008_alt2_sq_gy.jpg?v=1758115651"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15338",
   "marca": "Journee Collection",
   "nombre": "Journee Collection MONTE ESPADRILLE WEDGE SANDALS IN CANVAS - Tan Fabric",
@@ -34711,40 +32619,6 @@ var ZAPATOS = [
    "6",
    "7",
    "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15341",
-  "marca": "CIS",
-  "nombre": "CIS Cassiane",
-  "genero": "Mujer",
-  "precio": 42.92,
-  "precio_c": 1578,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13698507_cassiane_black_001-002-008_main_sq_gy.jpg?v=1757836900",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_74245_product_13698507_cassiane_black_001-002-008_sw_sq.jpg?v=1757836900",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13698507_cassiane_black_001-002-008_alt1_sq_gy.jpg?v=1757836900",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13698507_cassiane_black_001-002-008_alt2_sq_gy.jpg?v=1757836900"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
    "9",
    "10",
    "11"
@@ -34849,40 +32723,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15345",
-  "marca": "CIS",
-  "nombre": "CIS Mattea",
-  "genero": "Mujer",
-  "precio": 42.92,
-  "precio_c": 1578,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13950698_mattea_black_009-002-042_main_sq_gy.jpg?v=1757701386",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83375_product_13950698_mattea_black_009-002-042_sw_sq.jpg?v=1757701386",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13950698_mattea_black_009-002-042_alt1_sq_gy.jpg?v=1757701386",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13950698_mattea_black_009-002-042_alt2_sq_gy.jpg?v=1757701386"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15346",
   "marca": "Journee Collection",
   "nombre": "Journee Collection TRAYLE WEDGE GLADIATOR SANDALS IN WIDE - Tan PU",
@@ -34910,36 +32750,6 @@ var ZAPATOS = [
    "8W",
    "8.5W",
    "9W"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15347",
-  "marca": "CIS",
-  "nombre": "CIS Florrence",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13948321_florrence_beige_101-002-040_main_sq_gy.jpg?v=1757701499",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83338_product_13948321_florrence_beige_101-002-040_sw_sq.jpg?v=1757701499",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13948321_florrence_beige_101-002-040_alt1_sq_gy.jpg?v=1757701499",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13948321_florrence_beige_101-002-040_alt2_sq_gy.jpg?v=1757701499"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Sandalias"
  },
@@ -35032,40 +32842,6 @@ var ZAPATOS = [
    "8.5W",
    "9W",
    "10W"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15351",
-  "marca": "CIS",
-  "nombre": "CIS Auguust",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13942522_auguust_white_100-002-043_main_sq_gy.jpg?v=1757701235",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83278_product_13942522_auguust_white_100-002-043_sw_sq.jpg?v=1757701235",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13942522_auguust_white_100-002-043_alt1_sq_gy.jpg?v=1757701235",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13942522_auguust_white_100-002-043_alt2_sq_gy.jpg?v=1757701235"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Sandalias"
  },
@@ -35164,40 +32940,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15355",
-  "marca": "CIS",
-  "nombre": "CIS Auguust",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13942498_auguust_black_001-002-043_main_sq_gy.jpg?v=1757701302",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83278_product_13942498_auguust_black_001-002-043_sw_sq.jpg?v=1757701302",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13942498_auguust_black_001-002-043_alt1_sq_gy.jpg?v=1757701302",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13942498_auguust_black_001-002-043_alt2_sq_gy.jpg?v=1757701302"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15356",
   "marca": "COCONUTS by Matisse",
   "nombre": "COCONUTS by Matisse Calvin Heeled Thong Sandal",
@@ -35258,37 +33000,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15358",
-  "marca": "CIS",
-  "nombre": "CIS Tropicall",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14289249_tropicall_multi_799-003-003_main_sq_gy.jpg?v=1763527228",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14289249_tropicall_multi_799-003-003_alt1_sq_gy.jpg?v=1763527228",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14289249_tropicall_multi_799-003-003_alt2_sq_gy.jpg?v=1763527228",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14289249_tropicall_multi_799-003-003_alt3_sq_gy.jpg?v=1763527228"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15359",
   "marca": "Journee Collection",
   "nombre": "Journee Collection BIANCA SANDALS IN STATEMENT COLORS - Red",
@@ -35319,36 +33030,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15360",
-  "marca": "CIS",
-  "nombre": "CIS Tiya",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13950459_tiya_black_001-002-043_main_sq_gy.jpg?v=1757701384",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83388_product_13950459_tiya_black_001-002-043_sw_sq.jpg?v=1757701384",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13950459_tiya_black_001-002-043_alt1_sq_gy.jpg?v=1757701384",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13950459_tiya_black_001-002-043_alt2_sq_gy.jpg?v=1757701384"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "6",
-   "6.5",
-   "7.5",
-   "8.5",
-   "9",
-   "10"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15361",
   "marca": "Journee Collection",
   "nombre": "Journee Collection BIANCA SANDALS IN STATEMENT COLORS - Tan",
@@ -35369,40 +33050,6 @@ var ZAPATOS = [
    "Suela cómoda para caminar"
   ],
   "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15362",
-  "marca": "CIS",
-  "nombre": "CIS Shaylee",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080117_shaylee_red_601-003-027_main_sq_gy.jpg?v=1757701600",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_71323_product_14080117_shaylee_red_601-003-027_sw_sq.jpg?v=1757701600",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080117_shaylee_red_601-003-027_alt1_sq_gy.jpg?v=1757701600",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080117_shaylee_red_601-003-027_alt2_sq_gy.jpg?v=1757701600"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
    "7",
    "7.5",
    "8",
@@ -35445,40 +33092,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15364",
-  "marca": "CIS",
-  "nombre": "CIS Shaylee",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080115_shaylee_beige_251-003-027_main_sq_gy.jpg?v=1757701683",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_71323_product_14080115_shaylee_beige_251-003-027_sw_sq.jpg?v=1757701683",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080115_shaylee_beige_251-003-027_alt1_sq_gy.jpg?v=1757701683",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14080115_shaylee_beige_251-003-027_alt2_sq_gy.jpg?v=1757701683"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15365",
   "marca": "Journee Collection",
   "nombre": "Journee Collection BIANCA WEDGE HEELED SANDALS IN CLASSIC COLORS - Black",
@@ -35506,40 +33119,6 @@ var ZAPATOS = [
    "8.5",
    "9",
    "10"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15366",
-  "marca": "CIS",
-  "nombre": "CIS Veronna",
-  "genero": "Mujer",
-  "precio": 50.92,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13953305_veronna_pink_653-003-042_main_sq_gy.jpg?v=1757701367",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_83404_product_13953305_veronna_pink_653-003-042_sw_sq.jpg?v=1757701367",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13953305_veronna_pink_653-003-042_alt1_sq_gy.jpg?v=1757701367",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13953305_veronna_pink_653-003-042_alt2_sq_gy.jpg?v=1757701367"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
   ],
   "categoria": "Sandalias"
  },
@@ -35576,40 +33155,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15368",
-  "marca": "CIS",
-  "nombre": "CIS Raia",
-  "genero": "Mujer",
-  "precio": 50.93,
-  "precio_c": 1873,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13805831_raia_black_001-002-043_main_sq_gy.jpg?v=1757701096",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_77871_product_13805831_raia_black_001-002-043_sw_sq.jpg?v=1757701096",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13805831_raia_black_001-002-043_alt1_sq_gy.jpg?v=1757701096",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13805831_raia_black_001-002-043_alt2_sq_gy.jpg?v=1757701096"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15369",
   "marca": "Journee Collection",
   "nombre": "Journee Collection BIANCA SANDALS IN STATEMENT COLORS - Grey",
@@ -35635,40 +33180,6 @@ var ZAPATOS = [
   "categoria": "Sandalias"
  },
  {
-  "codigo": "DOM-15370",
-  "marca": "CIS",
-  "nombre": "CIS Teigan",
-  "genero": "Mujer",
-  "precio": 51.92,
-  "precio_c": 1909,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14081351_teigan_black_001-002-043_main_sq_gy.jpg?v=1757701608",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_85835_product_14081351_teigan_black_001-002-043_sw_sq.jpg?v=1757701608",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14081351_teigan_black_001-002-043_alt1_sq_gy.jpg?v=1757701608",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14081351_teigan_black_001-002-043_alt2_sq_gy.jpg?v=1757701608"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15371",
   "marca": "Journee Collection",
   "nombre": "Journee Collection BIANCA SANDALS IN STATEMENT COLORS - Pink",
@@ -35689,40 +33200,6 @@ var ZAPATOS = [
    "Suela cómoda para caminar"
   ],
   "tallas": [
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
-  "codigo": "DOM-15372",
-  "marca": "CIS",
-  "nombre": "CIS Gretchen",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13384008_gretchen_beige_280-002-033_main_sq_gy.jpg?v=1757707426",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_63176_product_13384008_gretchen_beige_280-002-033_sw_sq.jpg?v=1757707426",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13384008_gretchen_beige_280-002-033_alt1_sq_gy.jpg?v=1757707426",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13384008_gretchen_beige_280-002-033_alt2_sq_gy.jpg?v=1757707426"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
    "6",
    "6.5",
    "7",
@@ -37651,8 +35128,8 @@ var ZAPATOS = [
   "marca": "Lucky Brand",
   "nombre": "Lucky Brand Basel — Olive",
   "genero": "Mujer",
-  "precio": 100.3,
-  "precio_c": 3688,
+  "precio": 119.65,
+  "precio_c": 4400,
   "fotos": [
    "https://m.media-amazon.com/images/I/81voV2--NNL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71Ga1wBue0L._SX700_.jpg",
@@ -41994,40 +39471,6 @@ var ZAPATOS = [
   "categoria": "Chanclas"
  },
  {
-  "codigo": "DOM-15584",
-  "marca": "CIS",
-  "nombre": "CIS Georginaa",
-  "genero": "Mujer",
-  "precio": 52.92,
-  "precio_c": 1946,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13750480_georginaa_black_001-002-031_main_sq_gy.jpg?v=1757701621",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/base_76032_product_13750480_georginaa_black_001-002-031_sw_sq.jpg?v=1757701621",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13750480_georginaa_black_001-002-031_alt1_sq_gy.jpg?v=1757701621",
-   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13750480_georginaa_black_001-002-031_alt2_sq_gy.jpg?v=1757701621"
-  ],
-  "descripcion": "Sandalia de mujer fresca y cómoda para el verano, con buen ajuste y pisada suave para caminar todo el día.",
-  "detalles": [
-   "Tiras de buen ajuste y plantilla cómoda",
-   "Fresca y ligera para el verano",
-   "Diseño versátil para combinar con jeans, vestidos y faldas",
-   "Suela cómoda para caminar"
-  ],
-  "tallas": [
-   "5",
-   "6",
-   "6.5",
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "10",
-   "11"
-  ],
-  "categoria": "Sandalias"
- },
- {
   "codigo": "DOM-15585",
   "marca": "White Mountain",
   "nombre": "White Mountain Harrington — Blue",
@@ -44255,8 +41698,8 @@ var ZAPATOS = [
   "marca": "Stride Rite",
   "nombre": "Stride Rite Claire (Toddler/Little Kid) — Negro",
   "genero": "Niños",
-  "precio": 44.99,
-  "precio_c": 1654,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://m.media-amazon.com/images/I/61sO28tuz0L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61vVyPiov5L._AC_SX1024_.jpg",
@@ -50544,34 +47987,6 @@ var ZAPATOS = [
   "subcat": "ambos"
  },
  {
-  "codigo": "DOM-15839",
-  "marca": "Jordan",
-  "nombre": "Jordan Jordan Air Jordan 1 Mid Grade-School (Big Kid) — Gris",
-  "genero": "Niños",
-  "precio": 49.93,
-  "precio_c": 1836,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/HQ2014-100.jpg?v=1757366318"
-  ],
-  "descripcion": "El Jordan Jordan Air Jordan 1 Mid Grade-School en gris lleva el estilo deportivo de Jordan a la talla juvenil, con pisada cómoda para el deporte y el día a día.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Pisada cómoda para correr y jugar",
-   "Cierre con agujetas para un ajuste seguro",
-   "Diseño ligero para el deporte"
-  ],
-  "tallas": [
-   "4",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
   "codigo": "DOM-15840",
   "marca": "Jordan",
   "nombre": "Jordan Jordan MVP 92 Grade-School (Big Kid) — Negro / Morado",
@@ -53313,8 +50728,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Classic Clog (Big Kid) — (marble) / Morado / Blanco",
   "genero": "Niños",
-  "precio": 45.96,
-  "precio_c": 1690,
+  "precio": 32.95,
+  "precio_c": 1212,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2107185CPY_1.jpg?v=1778109596",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2107185CPY_2.jpg?v=1778109596",
@@ -55591,8 +53006,8 @@ var ZAPATOS = [
   "marca": "Bearpaw",
   "nombre": "Bearpaw Caprice (Big Kid) — Rosa Lemonade",
   "genero": "Niños",
-  "precio": 39.99,
-  "precio_c": 1471,
+  "precio": 39.95,
+  "precio_c": 1469,
   "fotos": [
    "https://m.media-amazon.com/images/I/71tiIbKOsUL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71mktWHqdfL._AC_SX1024_.jpg",
@@ -62706,5 +60121,2513 @@ var ZAPATOS = [
   ],
   "categoria": "Sandalias",
   "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-16235",
+  "marca": "Reebok",
+  "nombre": "Reebok Energen Lux — Vector Navy/White/Grey",
+  "genero": "Hombre",
+  "precio": 39.96,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100201547_1.jpg?v=1726270520",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100201547_2.jpg?v=1726270520",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100201547_3.jpg?v=1726270520",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100201547_4.jpg?v=1726270519"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "10.0",
+   "11.0"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16236",
+  "marca": "Reebok",
+  "nombre": "Reebok BB 1000 — Black/Blue/White",
+  "genero": "Hombre",
+  "precio": 47.94,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_1.jpg?v=1787183862",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_2.jpg?v=1787183862",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_3.jpg?v=1787183862",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_4.jpg?v=1787183862"
+  ],
+  "descripcion": "El 1000 vuelve de 1999 con su diseño técnico invertido: capas sintéticas y de malla, mediasuela ABZORB y ese look Y2K que está en todos lados.",
+  "detalles": [
+   "Diseño técnico de 1999",
+   "Mediasuela ABZORB",
+   "Capas de malla y sintético",
+   "Estética Y2K"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16237",
+  "marca": "Reebok",
+  "nombre": "Reebok Classic Nylon — (40th) Upgrade Blue/Vector Navy/Chalk",
+  "genero": "Hombre",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100241183_1_337b0059-778b-40f6-be96-88f38c285434.jpg?v=1745365335",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100241183_2_0cfc92e5-a036-4960-92fd-63769500f69d.jpg?v=1745365336",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100241183_3_35c73b02-078d-40c2-8c48-e232f301a0ba.jpg?v=1745365335",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100241183_4_03a1168e-c462-446c-a9bb-2b370a4dc1a5.jpg?v=1745365335"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.5",
+   "09.0",
+   "10.0",
+   "11.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16238",
+  "marca": "SeaVees",
+  "nombre": "SeaVees Mariners High Top — Blue",
+  "genero": "Hombre",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M089C16CMB-PNV_1l.jpg?v=1795210150",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M089C16CMB-PNV_2l.jpg?v=1795210150",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M089C16CMB-PNV_3l.jpg?v=1795210150",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M089C16CMB-PNV_4l.jpg?v=1795210150"
+  ],
+  "descripcion": "Modelo original de SeaVees, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "10.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16239",
+  "marca": "Puma",
+  "nombre": "Puma Rocket Fuel Lite — Black",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_1l.jpg?v=1792742394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_2l.jpg?v=1792742394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_3l.jpg?v=1792742394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_4l.jpg?v=1792742394"
+  ],
+  "descripcion": "Modelo original de Puma, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16240",
+  "marca": "Diadora",
+  "nombre": "Diadora Frequenza — White",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180241-D1060_1l.jpg?v=1793572272",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180241-D1060_2l.jpg?v=1793572271",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180241-D1060_3l.jpg?v=1793572272",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180241-D1060_4l.jpg?v=1793572272"
+  ],
+  "descripcion": "Modelo original de Diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16241",
+  "marca": "adidas",
+  "nombre": "adidas Fear of God Athletics Los Angeles — Yellow",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH2275_1l.jpg?v=1789008495",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH2275_2l.jpg?v=1789008495",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH2275_3l.jpg?v=1789008495",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/IH2275_4l.jpg?v=1789008495"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16242",
+  "marca": "Diadora",
+  "nombre": "Diadora Mythos Blushield Volo 3 — Grey",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179090-D0483_1l.jpg?v=1788979482",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179090-D0483_2l.jpg?v=1788979482",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179090-D0483_3l.jpg?v=1788979482",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179090-D0483_4l.jpg?v=1788979482"
+  ],
+  "descripcion": "Modelo original de Diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16243",
+  "marca": "Diadora",
+  "nombre": "Diadora Equipe Nucleo — Grey",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179094-C3447_1l.jpg?v=1792743570",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179094-C3447_2l.jpg?v=1792743570",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179094-C3447_3l.jpg?v=1792743570",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/179094-C3447_4l.jpg?v=1792743570"
+  ],
+  "descripcion": "Modelo original de Diadora, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16244",
+  "marca": "Puma",
+  "nombre": "Puma Contempt Demi — Green",
+  "genero": "Hombre",
+  "precio": 47.95,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19316009_1l.jpg?v=1792745252",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19316009_2l.jpg?v=1792745252",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19316009_3l.jpg?v=1792745252",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/19316009_4l.jpg?v=1792745252"
+  ],
+  "descripcion": "Modelo original de Puma, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16245",
+  "marca": "adidas",
+  "nombre": "adidas Supernova Rise 2 — White",
+  "genero": "Hombre",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4510-A_1l.jpg?v=1788506119",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4510-A_2l.jpg?v=1788506119",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4510-A_3l.jpg?v=1788506119",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JI4510-A_4l.jpg?v=1788506119"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "12.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16246",
+  "marca": "Reebok",
+  "nombre": "Reebok Classic Leather — Gritty Grey/Washed Black/Energy Red",
+  "genero": "Hombre",
+  "precio": 51.96,
+  "precio_c": 1911,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100239552_1.jpg?v=1779839518",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100239552_2.jpg?v=1779839519",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100239552_3.jpg?v=1779839519",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100239552_4.jpg?v=1779839518"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16247",
+  "marca": "Vans",
+  "nombre": "Vans Authentic — Deep Indigo",
+  "genero": "Hombre",
+  "precio": 54.96,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7YFOB_1.jpg?v=1775778781",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7YFOB_2.jpg?v=1775778781",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7YFOB_3.jpg?v=1775778781",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D7YFOB_4.jpg?v=1775778781"
+  ],
+  "descripcion": "Modelo original de Vans, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16248",
+  "marca": "DC",
+  "nombre": "DC Court Graffik — White/Black",
+  "genero": "Hombre",
+  "precio": 54.94,
+  "precio_c": 2020,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/300529WLK_1.jpg?v=1786576427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/300529WLK_2.jpg?v=1786576427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/300529WLK_3.jpg?v=1786576427",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/300529WLK_4.jpg?v=1786576427"
+  ],
+  "descripcion": "Modelo original de DC, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.0",
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "11.0",
+   "11.5",
+   "12.0"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16249",
+  "marca": "Jordan",
+  "nombre": "Jordan Franchise — Black/White",
+  "genero": "Hombre",
+  "precio": 54.98,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_1.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_2.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_3.jpg?v=1775518943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/HF3263001_4.jpg?v=1775518943"
+  ],
+  "descripcion": "Modelo original de Jordan, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "07.0",
+   "08.0",
+   "09.0",
+   "10.0",
+   "11.0",
+   "12.0",
+   "13.0",
+   "14.0",
+   "15.0"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16250",
+  "marca": "adidas",
+  "nombre": "adidas SL 72 RS — Blue",
+  "genero": "Hombre",
+  "precio": 54.95,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JH5103_1l.jpg?v=1788525990",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JH5103_2l.jpg?v=1788525990",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JH5103_3l.jpg?v=1788525990",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JH5103_4l.jpg?v=1788525990"
+  ],
+  "descripcion": "El SL 72 OG nació para las Olimpiadas del 72 como un tenis de running ultraligero. Hoy conserva su mezcla de nylon y gamuza, su perfil fino y su suela con tacos, en clave retro total.",
+  "detalles": [
+   "Nylon con detalles de gamuza",
+   "Perfil fino y ligero",
+   "Suela retro con tacos",
+   "Original de 1972"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-16251",
+  "marca": "Sperry",
+  "nombre": "Sperry Overlook Smoking Slipper — Black",
+  "genero": "Hombre",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_1l.jpg?v=1788746824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_2l.jpg?v=1788746824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_3l.jpg?v=1788746824",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/STS18365_4l.jpg?v=1788746824"
+  ],
+  "descripcion": "Modelo original de Sperry, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "8"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16252",
+  "marca": "Rush by Gordon Rush",
+  "nombre": "Rush by Gordon Rush Fulton Oxford — Black",
+  "genero": "Hombre",
+  "precio": 46.97,
+  "precio_c": 1727,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_1l.jpg?v=1792681698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_2l.jpg?v=1792681698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_3l.jpg?v=1792681698",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301293-BLK_4l.jpg?v=1792681698"
+  ],
+  "descripcion": "Modelo original de Rush by Gordon Rush, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16253",
+  "marca": "Rush by Gordon Rush",
+  "nombre": "Rush by Gordon Rush Oxford II — Brown",
+  "genero": "Hombre",
+  "precio": 54.97,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301334-COG_1l.jpg?v=1788999939",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301334-COG_2l.jpg?v=1788999939",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301334-COG_3l.jpg?v=1788999939",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/301334-COG_4l.jpg?v=1788999939"
+  ],
+  "descripcion": "Modelo original de Rush by Gordon Rush, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16254",
+  "marca": "Dockers",
+  "nombre": "Dockers Trustee Moc Toe Oxford — Brown",
+  "genero": "Hombre",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71cqQY8vy7L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/716K9GuJbIL._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Dockers, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16255",
+  "marca": "Clarks",
+  "nombre": "Clarks DressLite Ace — Black",
+  "genero": "Hombre",
+  "precio": 62.5,
+  "precio_c": 2298,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/612JYhZNtzL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61HCo9Px8vL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71vQsMSCKfL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61hRnBobblL._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Clarks, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16256",
+  "marca": "Deer Stags",
+  "nombre": "Deer Stags Delgado — Black",
+  "genero": "Hombre",
+  "precio": 64.99,
+  "precio_c": 2390,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61fCYQA0Q-L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61yfIFUqg-L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/712iIYGilmL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61RJQCDtUIL._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Deer Stags, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16257",
+  "marca": "Dockers",
+  "nombre": "Dockers Edgar — Tan",
+  "genero": "Hombre",
+  "precio": 69.94,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71eC5+MVJNL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71pwsvVI0UL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71r0FywzvkL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71Jjd5uW94L._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Dockers, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16258",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Everidge Slip On — Green",
+  "genero": "Hombre",
+  "precio": 74.97,
+  "precio_c": 2757,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25689-303_1l.jpg?v=1793613381",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25689-303_2l.jpg?v=1793613381",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25689-303_3l.jpg?v=1793613381",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25689-303_4l.jpg?v=1793613381"
+  ],
+  "descripcion": "Modelo original de Stacy Adams, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16259",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Ridgley Moc Toe Slip On — Black",
+  "genero": "Hombre",
+  "precio": 77.97,
+  "precio_c": 2867,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25758-013_1l.jpg?v=1792861591",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25758-013_2l.jpg?v=1792861591",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25758-013_3l.jpg?v=1792861591",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25758-013_4l.jpg?v=1792861591"
+  ],
+  "descripcion": "Modelo original de Stacy Adams, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16260",
+  "marca": "Stacy Adams",
+  "nombre": "Stacy Adams Pharaoh Oxford Cap Toe — Black",
+  "genero": "Hombre",
+  "precio": 79.95,
+  "precio_c": 2940,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25530-001_1l.jpg?v=1794631124",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25530-001_2l.jpg?v=1794631124",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25530-001_3l.jpg?v=1794631124",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/25530-001_4l.jpg?v=1794631123"
+  ],
+  "descripcion": "Modelo original de Stacy Adams, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "9.5",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Elegantes"
+ },
+ {
+  "codigo": "DOM-16261",
+  "marca": "Lugz",
+  "nombre": "Lugz Forager Moc Toe Chukka Boots — Beige",
+  "genero": "Hombre",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MFORAGED-7523_1l.jpg?v=1794660402",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MFORAGED-7523_2l.jpg?v=1794660402",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MFORAGED-7523_3l.jpg?v=1794660402",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MFORAGED-7523_4l.jpg?v=1794660402"
+  ],
+  "descripcion": "Modelo original de Lugz, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-16262",
+  "marca": "LEE",
+  "nombre": "LEE Treyton Rugged Chukka Boot — Grey",
+  "genero": "Hombre",
+  "precio": 80.0,
+  "precio_c": 2942,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000218-019_1l.jpg?v=1794665394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000218-019_2l.jpg?v=1794665394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000218-019_3l.jpg?v=1794665394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000218-019_4l.jpg?v=1794665394"
+  ],
+  "descripcion": "Modelo original de LEE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-16263",
+  "marca": "LEE",
+  "nombre": "LEE Montoya Chukka Boot — Brown",
+  "genero": "Hombre",
+  "precio": 80.0,
+  "precio_c": 2942,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000213-2161_1l.jpg?v=1794665244",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000213-2161_2l.jpg?v=1794665244",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000213-2161_3l.jpg?v=1794665243",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/M000213-2161_4l.jpg?v=1794665243"
+  ],
+  "descripcion": "Modelo original de LEE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-16264",
+  "marca": "Lugz",
+  "nombre": "Lugz Drifter Ripstop Round Toe Lace Up Boots — Blue",
+  "genero": "Hombre",
+  "precio": 61.99,
+  "precio_c": 2280,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MDRST-411_1l.jpg?v=1794660483",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MDRST-411_2l.jpg?v=1794660483",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MDRST-411_3l.jpg?v=1794660483",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/MDRST-411_4l.jpg?v=1794660483"
+  ],
+  "descripcion": "Modelo original de Lugz, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-16265",
+  "marca": "EUROSTAR",
+  "nombre": "EUROSTAR 6' Tempest — Black",
+  "genero": "Hombre",
+  "precio": 84.98,
+  "precio_c": 3125,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SR0104_1.jpg?v=1786741142",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SR0104_2.jpg?v=1786741142",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SR0104_3.jpg?v=1786741142"
+  ],
+  "descripcion": "Modelo original de EUROSTAR, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.0",
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-16266",
+  "marca": "EUROSTAR",
+  "nombre": "EUROSTAR Troop 8\" — Taupe",
+  "genero": "Hombre",
+  "precio": 89.98,
+  "precio_c": 3309,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU01930TAN_1.jpg?v=1781650682",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU01930TAN_2.jpg?v=1781650682",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/EU01930TAN_3.jpg?v=1781650682"
+  ],
+  "descripcion": "Modelo original de EUROSTAR, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "12.0",
+   "13.0"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-16267",
+  "marca": "WOLVERINE",
+  "nombre": "WOLVERINE Carlsbad WP Moc Toe — Black",
+  "genero": "Hombre",
+  "precio": 79.96,
+  "precio_c": 2940,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/W251002_1.jpg?v=1776203564",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/W251002_2.jpg?v=1776203564",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/W251002_3.jpg?v=1776203564"
+  ],
+  "descripcion": "Modelo original de WOLVERINE, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "08.5",
+   "10.0",
+   "10.5",
+   "11.0",
+   "11.5",
+   "12.0",
+   "13.0"
+  ],
+  "categoria": "Botas"
+ },
+ {
+  "codigo": "DOM-16268",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Clog 2.0 — Black",
+  "genero": "Hombre",
+  "precio": 44.95,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JR4025_1l.jpg?v=1788330834",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JR4025_2l.jpg?v=1788330835"
+  ],
+  "descripcion": "Modelo original de adidas, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-16269",
+  "marca": "Puma",
+  "nombre": "Puma Mostro Clogs — Beige",
+  "genero": "Hombre",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40443302_1l.jpg?v=1792996114",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40443302_2l.jpg?v=1792996114"
+  ],
+  "descripcion": "Modelo original de Puma, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-16270",
+  "marca": "Birkenstock",
+  "nombre": "Birkenstock Arizona EVA Slide Sandal — Black",
+  "genero": "Hombre",
+  "precio": 67.98,
+  "precio_c": 2500,
+  "fotos": [
+   "https://images.journeys.com/images/products/1_390253_FS.JPG",
+   "https://images.journeys.com/images/products/1_390253_FS_ALT1.JPG",
+   "https://images.journeys.com/images/products/1_390253_FS_ALT2.JPG"
+  ],
+  "descripcion": "Modelo original de Birkenstock, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-16271",
+  "marca": "Nike",
+  "nombre": "Nike Offcourt Slide — Dark Grey/White/Black",
+  "genero": "Hombre",
+  "precio": 46.97,
+  "precio_c": 1727,
+  "fotos": [
+   "https://static.nike.com/a/images/t_default/4f064a60-380b-4e33-8d80-fd5f81626592/NIKE+OFFCOURT+SLIDE.png",
+   "https://static.nike.com/a/images/t_default/e3f0390b-4ae3-4d0b-a8bd-194db860b6ea/NIKE+OFFCOURT+SLIDE.png",
+   "https://static.nike.com/a/images/t_default/f7b20914-f9dd-4132-8c68-7c1765ff6637/NIKE+OFFCOURT+SLIDE.png"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-16272",
+  "marca": "Nike",
+  "nombre": "Nike Offcourt Adjust Slide — Black/Black/White",
+  "genero": "Hombre",
+  "precio": 57.0,
+  "precio_c": 2096,
+  "fotos": [
+   "https://static.nike.com/a/images/t_default/22dbb81f-bb9b-43a9-a854-cf1e4ca4a2c0/NIKE+OFFCOURT+ADJUST+SLIDE.png",
+   "https://static.nike.com/a/images/t_default/c125be2d-52c3-4dcb-9f70-268993ffcdf2/NIKE+OFFCOURT+ADJUST+SLIDE.png",
+   "https://static.nike.com/a/images/t_default/81878c67-3121-4112-811c-8d6a617f417d/NIKE+OFFCOURT+ADJUST+SLIDE.png"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-16273",
+  "marca": "Oofos",
+  "nombre": "Oofos OOahh Slide — Black",
+  "genero": "Hombre",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61B7+UNMAbL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/612X99NAkZL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61eQcjh5wkL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/6137Y2XKMJL._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Oofos, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-16274",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clog — Black",
+  "genero": "Hombre",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71zLOzX7HcL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/712cLD4MbgL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71w8u9wgaDL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71flixDpg5L._SX700_.jpg"
+  ],
+  "descripcion": "El Classic Clog de Crocs: la zueco original de resina Croslite, ultraligera, con ventilación lateral y correa trasera ajustable. Comodidad total para la casa, el jardín o la playa.",
+  "detalles": [
+   "Resina Croslite ultraligera",
+   "Ventilación lateral",
+   "Correa trasera ajustable",
+   "Se limpia con agua"
+  ],
+  "tallas": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "13"
+  ],
+  "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-16275",
+  "marca": "Reebok",
+  "nombre": "Reebok NFX Trainer 2 — Vector Red / White / Black",
+  "genero": "Hombre",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://www.reebok.com/cdn/shop/files/100272102_SLC_eCom.jpg?v=1784116401&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100272102_TPP_eCom.jpg?v=1784116401&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100272102_BLT_eCom.jpg?v=1784116401&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100272102_FLT_eCom.jpg?v=1784116401&width=2000"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-16276",
+  "marca": "Reebok",
+  "nombre": "Reebok Cityride 2 — Navy / White / Blue",
+  "genero": "Hombre",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://www.reebok.com/cdn/shop/files/100271439_SLC_eCom.jpg?v=1783079331&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100271439_TPP_eCom.jpg?v=1783079331&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100271439_BLT_eCom.jpg?v=1783079331&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100271439_FLT_eCom.jpg?v=1783079331&width=2000"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-16277",
+  "marca": "New Balance",
+  "nombre": "New Balance ABZORB 2010 — Grey / Black",
+  "genero": "Hombre",
+  "precio": 79.97,
+  "precio_c": 2941,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c14bcac219cb3d55e8c763b96cda1806.jpg?v=1785448186",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/fc2583b778ddbc1ea942477f6698b60a.jpg?v=1785448186",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/84d37bd261039fd216b7402d60bbc3bb.jpg?v=1785448186",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3515b04a99778dff9d23c4def57dfb21.jpg?v=1785448186"
+  ],
+  "descripcion": "Modelo original de New Balance, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-16278",
+  "marca": "adidas",
+  "nombre": "adidas Grand Court 2.0 — White / Black",
+  "genero": "Hombre",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1694_1.jpg?v=1786576426",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1694_2.jpg?v=1786576426",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1694_3.jpg?v=1786576426",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS1694_4.jpg?v=1786576426"
+  ],
+  "descripcion": "Línea de cancha de perfil bajo y acabado limpio: parte superior suave con las 3 franjas, suela cupsole y plantilla acolchada. El básico elegante de adidas que resuelve cualquier outfit, del jean al pantalón de vestir.",
+  "detalles": [
+   "Perfil bajo estilo tenis clásico",
+   "Las 3 franjas laterales",
+   "Plantilla acolchada",
+   "Suela cupsole de goma"
+  ],
+  "tallas": [
+   "06.5",
+   "07.0",
+   "07.5",
+   "08.0",
+   "08.5",
+   "09.0",
+   "09.5"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-16279",
+  "marca": "Nike",
+  "nombre": "Nike Tiempo Maestro Academy FG/MG — White / Dusty Cactus",
+  "genero": "Hombre",
+  "precio": 99.99,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroAcademyFirm-MultiGroundSoccerCleats-BrightLightsPack_HO26_Side1.jpg?v=1790711132",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroAcademyFirm-MultiGroundSoccerCleats-BrightLightsPack_HO26_Side2.jpg?v=1790711151",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroAcademyFirm-MultiGroundSoccerCleats-BrightLightsPack_HO26_Pair-Lateral.jpg?v=1790711031",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/NikeTiempoMaestroAcademyFirm-MultiGroundSoccerCleats-BrightLightsPack_HO26_Pair-Top.jpg?v=1790711031"
+  ],
+  "descripcion": "Modelo original de Nike, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "14"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-16280",
+  "marca": "Reebok",
+  "nombre": "Reebok Zig Dynamica 6 — Grey / Black / Digital Lime",
+  "genero": "Niños",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://www.reebok.com/cdn/shop/files/100271001_SLC_eCom.jpg?v=1777636122&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100271001_TPP_eCom.jpg?v=1777636122&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100271001_BLT_eCom.jpg?v=1777636122&width=2000",
+   "https://www.reebok.com/cdn/shop/files/100271001_FLT_eCom.jpg?v=1777636122&width=2000"
+  ],
+  "descripcion": "Modelo original de Reebok, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "ambos"
+ },
+ {
+  "codigo": "DOM-16281",
+  "marca": "Public Desire UK",
+  "nombre": "Public Desire UK Wild One — Black Diamante Western Cowboy Pointed Toe Block Heel Ankle Boots",
+  "genero": "Mujer",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/WildOne1.jpg?v=1695815415",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/WildOne.jpg?v=1695815415",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/WildOne3.jpg?v=1695815415",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/WildOne2.jpg?v=1695815415"
+  ],
+  "descripcion": "Modelo original de Public Desire UK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "9",
+   "10"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16282",
+  "marca": "Public Desire UK",
+  "nombre": "Public Desire UK Scorpion — Burgundy Mid Heel Sock Knee High Boots",
+  "genero": "Mujer",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SCORPIANBURGUNDY-1.jpg?v=1761211626",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SCORPIANBURGUNDY-2.jpg?v=1761209952",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SCORPIANBURGUNDY-3.jpg?v=1761209952",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SCORPIANBURGUNDY-4.jpg?v=1761209952"
+  ],
+  "descripcion": "Modelo original de Public Desire UK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "9",
+   "10"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16283",
+  "marca": "Public Desire UK",
+  "nombre": "Public Desire UK Sensored — Burgundy Chunky Sole Sock Over the Knee Boots",
+  "genero": "Mujer",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SENSOREDBURGUNDY-1.jpg?v=1761833443",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SENSOREDBURGUNDY-2.jpg?v=1761833443",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SENSOREDBURGUNDY-3.jpg?v=1761833443",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/SENSOREDBURGUNDY-4.jpg?v=1761833443"
+  ],
+  "descripcion": "Modelo original de Public Desire UK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16284",
+  "marca": "Public Desire UK",
+  "nombre": "Public Desire UK Manhattan — Pewter Pointed Toe Knee High Narrow Block Heel Boots",
+  "genero": "Mujer",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/AboutLastNight00232.jpg?v=1699013698",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/Manhattan1.jpg?v=1699013698",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/Manhattan.jpg?v=1699013698",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/Manhattan3.jpg?v=1699013698"
+  ],
+  "descripcion": "Modelo original de Public Desire UK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16285",
+  "marca": "Public Desire UK",
+  "nombre": "Public Desire UK Edgy — Taupe Pu Elasticated Ankle Rounded Chunky Sole Ankle Boots",
+  "genero": "Mujer",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/771A5594.jpg?v=1695991779",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/DSC01328.jpg?v=1695991779",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/771A5593.jpg?v=1695640463",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/771A5596.jpg?v=1695640463"
+  ],
+  "descripcion": "Modelo original de Public Desire UK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16286",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Wrenley — Taupe",
+  "genero": "Mujer",
+  "precio": 32.49,
+  "precio_c": 1195,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ESoMRZZ-L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61rAJzDd0eL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61oyx3my7VL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71gb6KAf-aL._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Journee Collection, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "11"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16287",
+  "marca": "Madden Girl",
+  "nombre": "Madden Girl Shakke — Black Fabric",
+  "genero": "Mujer",
+  "precio": 36.7,
+  "precio_c": 1350,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61cvcUNyn7L._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61aav0fqttL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/513qmdc+0CL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61OX5ujJELL._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Madden Girl, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7.5",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16288",
+  "marca": "Corkys",
+  "nombre": "Corkys Room Service — Beige",
+  "genero": "Mujer",
+  "precio": 24.97,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/80-0232-CAFS_1l.jpg?v=1793815972",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/80-0232-CAFS_2l.jpg?v=1793815972",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/80-0232-CAFS_3l.jpg?v=1793815972",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/80-0232-CAFS_4l.jpg?v=1793815972"
+  ],
+  "descripcion": "Modelo original de Corkys, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16289",
+  "marca": "Justin Boots",
+  "nombre": "Justin Boots Zila — Green",
+  "genero": "Mujer",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JL220_1l.jpg?v=1794590333",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JL220_2l.jpg?v=1794590333",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JL220_3l.jpg?v=1794590333",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JL220_4l.jpg?v=1794590333"
+  ],
+  "descripcion": "Modelo original de Justin Boots, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16290",
+  "marca": "SeaVees",
+  "nombre": "SeaVees Laguna — Black",
+  "genero": "Mujer",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W047C18CLC-BLK_1l.jpg?v=1795180866",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W047C18CLC-BLK_2l.jpg?v=1795180866",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W047C18CLC-BLK_3l.jpg?v=1795180866",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/W047C18CLC-BLK_4l.jpg?v=1795180866"
+  ],
+  "descripcion": "Modelo original de SeaVees, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16291",
+  "marca": "CIS",
+  "nombre": "CIS Seraphina — Dark Brown",
+  "genero": "Mujer",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13858296_seraphina_brown_201-002-043_main_sq_gy.jpg?v=1757700979",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13858296_seraphina_brown_201-002-043_alt1_sq_gy.jpg?v=1757700979",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13858296_seraphina_brown_201-002-043_alt2_sq_gy.jpg?v=1757700979",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13858296_seraphina_brown_201-002-043_alt3_sq_gy.jpg?v=1757700979"
+  ],
+  "descripcion": "Modelo original de CIS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16292",
+  "marca": "CIS",
+  "nombre": "CIS Kamrynn — Bordo",
+  "genero": "Mujer",
+  "precio": 57.92,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118397_kamrynn_red_601-002-053_main_sq_gy.jpg?v=1757702069",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118397_kamrynn_red_601-002-053_alt1_sq_gy.jpg?v=1757702069",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118397_kamrynn_red_601-002-053_alt2_sq_gy.jpg?v=1757702069",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14118397_kamrynn_red_601-002-053_alt3_sq_gy.jpg?v=1757702069"
+  ],
+  "descripcion": "Modelo original de CIS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16293",
+  "marca": "CIS",
+  "nombre": "CIS Layci — Black",
+  "genero": "Mujer",
+  "precio": 52.92,
+  "precio_c": 1946,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14168653_layci_black_001-003-027_main_sq_gy.jpg?v=1757702065",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14168653_layci_black_001-003-027_alt1_sq_gy.jpg?v=1757702065",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14168653_layci_black_001-003-027_alt2_sq_gy.jpg?v=1757702065",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_14168653_layci_black_001-003-027_alt3_sq_gy.jpg?v=1757702065"
+  ],
+  "descripcion": "Modelo original de CIS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16294",
+  "marca": "Journee",
+  "nombre": "Journee Mylee — Black",
+  "genero": "Mujer",
+  "precio": 77.99,
+  "precio_c": 2868,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MYLEE-BLK_1_c31c4bec-10ab-4401-aecc-fe54a9b13552.jpg?v=1762459011",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MYLEE-BLK_2_71b44166-ae11-4984-a97e-8a44591d257b.jpg?v=1762459011",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MYLEE-BLK_3_c3b571af-b0b3-42e5-8e0e-5d979feeb755.jpg?v=1762459011",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/MYLEE-BLK_4_c15c79c6-43f4-4639-8999-50adca0f2276.jpg?v=1762459011"
+  ],
+  "descripcion": "Modelo original de Journee, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16295",
+  "marca": "Journee",
+  "nombre": "Journee Avalonn — Charcoal",
+  "genero": "Mujer",
+  "precio": 97.99,
+  "precio_c": 3603,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AVALONN-CHA_WEB1.jpg?v=1784260977",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AVALONN-CHA_WEB2.jpg?v=1784260977",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AVALONN-CHA_WEB3.jpg?v=1784260977",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/AVALONN-CHA_WEB4.jpg?v=1784260977"
+  ],
+  "descripcion": "Modelo original de Journee, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Botines"
+ },
+ {
+  "codigo": "DOM-16296",
+  "marca": "Dolce Vita",
+  "nombre": "Dolce Vita Gitel — Ivory",
+  "genero": "Mujer",
+  "precio": 85,
+  "precio_c": 3126,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Fn0GR5tSL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/712rJegMigL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71lvHaHHUzL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/6162ge9en-L._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Dolce Vita, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "8",
+   "8.5",
+   "9"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16297",
+  "marca": "Clarks",
+  "nombre": "Clarks Natalyn Wish — Burgundy Intrest Leather",
+  "genero": "Mujer",
+  "precio": 76.5,
+  "precio_c": 2813,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61ELVaV2gKL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/718wdFknsEL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/61Y44neTbKL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71nejPHX27L._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Clarks, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16298",
+  "marca": "Born",
+  "nombre": "Born Sloan — White Bianco",
+  "genero": "Mujer",
+  "precio": 54.63,
+  "precio_c": 2009,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71fA6VydtNL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71FYhVa3JFL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71Ekp7BvpnL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71IjL-1chkL._SX700_.jpg"
+  ],
+  "descripcion": "Modelo original de Born, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16299",
+  "marca": "Billini",
+  "nombre": "Billini Aricella Sandals — Cream",
+  "genero": "Mujer",
+  "precio": 61.49,
+  "precio_c": 2261,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/5_ed111642-1929-4d52-9a78-7dec2dc29c22.jpg?v=1776063914",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_d9705368-c0eb-4c8d-9e20-98f9da40cf9e.jpg?v=1776063914",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_5dda0c5c-2562-423b-b260-db873000d602.jpg?v=1776063914",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/3_c76618b8-b077-4c96-ba62-79219e50c59d.jpg?v=1776063914"
+  ],
+  "descripcion": "Modelo original de Billini, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16300",
+  "marca": "CIS",
+  "nombre": "CIS Vicki — Beige",
+  "genero": "Mujer",
+  "precio": 64.98,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13804434_vicki_beige_271-002-031_main_sq_gy.jpg?v=1757701897",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13804434_vicki_beige_271-002-031_alt1_sq_gy.jpg?v=1757701897",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13804434_vicki_beige_271-002-031_alt2_sq_gy.jpg?v=1757701897"
+  ],
+  "descripcion": "Modelo original de CIS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16301",
+  "marca": "CIS",
+  "nombre": "CIS Adia — Black",
+  "genero": "Mujer",
+  "precio": 61.98,
+  "precio_c": 2279,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13804448_adia_black_001-002-025_main_sq_gy.jpg?v=1757701912",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13804448_adia_black_001-002-025_alt1_sq_gy.jpg?v=1757701912",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13804448_adia_black_001-002-025_alt2_sq_gy.jpg?v=1757701912"
+  ],
+  "descripcion": "Modelo original de CIS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16302",
+  "marca": "CIS",
+  "nombre": "CIS Kiira — Black",
+  "genero": "Mujer",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13943783_kiira_black_001-002-043_main_sq_gy.jpg?v=1757701246",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13943783_kiira_black_001-002-043_alt1_sq_gy.jpg?v=1757701246",
+   "https://cdn.shopify.com/s/files/1/0910/2462/1874/files/product_13943783_kiira_black_001-002-043_alt2_sq_gy.jpg?v=1757701246"
+  ],
+  "descripcion": "Modelo original de CIS, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16303",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Jemry — Black",
+  "genero": "Mujer",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JEMRY-BLK_WEB1_f18b75ae-4a9a-4249-8faf-b1d7e70bda0e.jpg?v=1762464026",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JEMRY-BLK_WEB2_e6fef7d3-1cfe-4427-96fc-2f397f0428af.jpg?v=1762464028",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JEMRY-BLK_WEB3_68c8c74e-b4f5-4766-be5f-a75f396e1df2.jpg?v=1762464030",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/JEMRY-BLK_WEB4_2802802e-da61-4d51-b734-472a564dcbb8.jpg?v=1762464032"
+  ],
+  "descripcion": "Modelo original de Journee Collection, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16304",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Nalie — Multi",
+  "genero": "Mujer",
+  "precio": 79.99,
+  "precio_c": 2942,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NALIE-MLT_WEB1_a9c85730-db7b-4201-a0e4-a8fe722e1e5a.jpg?v=1762463916",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NALIE-MLT_WEB2_e58bb66b-8526-4e54-b085-4b0827d58dbd.jpg?v=1762463921",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NALIE-MLT_WEB3_c81c7cbb-0c81-4b86-8422-eb8a25c2761f.jpg?v=1762463923",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/NALIE-MLT_WEB4_84f3317c-1649-4992-86bf-3facdc23c604.jpg?v=1762463925"
+  ],
+  "descripcion": "Modelo original de Journee Collection, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16305",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Primrose — Teal Nubuck",
+  "genero": "Mujer",
+  "precio": 64.99,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMROSE-TEU_WEB1_b365fdc0-25ce-4c42-9b7a-4e4623d0f06f.jpg?v=1766025064",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMROSE-TEU_WEB2_9f269be7-e7c1-4821-9af2-3014a8d3c3bf.jpg?v=1766025064",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMROSE-TEU_WEB3_2d9ba832-b677-4e9d-b01a-e7d444c4ae60.jpg?v=1766025064",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/PRIMROSE-TEU_WEB4_11e45741-15fa-48cc-9342-ddb45d87f05f.jpg?v=1766025064"
+  ],
+  "descripcion": "Modelo original de Journee Collection, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16306",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Serissa — Black",
+  "genero": "Mujer",
+  "precio": 64.99,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SERISSA-BLK_1_32165709-130c-4a31-8bb2-075de6fa4e2a.jpg?v=1762459632",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SERISSA-BLK_2_980c50c1-57d1-471f-9eaf-69eae477b259.jpg?v=1762459634",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SERISSA-BLK_3_55935858-566a-4328-a4eb-2baba1ab1ce6.jpg?v=1762459636",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/SERISSA-BLK_4_b48b144f-358d-4cc2-ba85-fd9c298596b7.jpg?v=1762459637"
+  ],
+  "descripcion": "Modelo original de Journee Collection, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16307",
+  "marca": "Journee Collection",
+  "nombre": "Journee Collection Biara — Brown",
+  "genero": "Mujer",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/BIARA-BRN_WEB1_c90fc0fa-c80a-4d33-a90d-f4987a11ccc3.jpg?v=1762464131",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/BIARA-BRN_WEB2_2c7eb779-ca1a-4573-9a1f-794e050dc5dc.jpg?v=1762464133",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/BIARA-BRN_WEB3_b74af6aa-9959-4981-8e82-7b33cc4dfd4f.jpg?v=1762464135",
+   "https://cdn.shopify.com/s/files/1/2100/4797/files/BIARA-BRN_WEB4_ba01b8d8-c27d-4ad2-81d2-6bf80ba7340b.jpg?v=1762464137"
+  ],
+  "descripcion": "Modelo original de Journee Collection, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "12"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16308",
+  "marca": "Skechers",
+  "nombre": "Skechers BOBS Desert Kiss Low - Boho Glide — Black",
+  "genero": "Mujer",
+  "precio": 70,
+  "precio_c": 2574,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113465_BLK_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113465_BLK_PROFILE_01",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113465_BLK_PROFILE_05",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113465_BLK_INSOLE"
+  ],
+  "descripcion": "Modelo original de Skechers, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16309",
+  "marca": "Skechers",
+  "nombre": "Skechers Desert Kiss 2.0 — Black",
+  "genero": "Mujer",
+  "precio": 70,
+  "precio_c": 2574,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113160_BLK_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113160_BLK_PROFILE_01",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113160_BLK_PROFILE_05",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/113160_BLK_INSOLE"
+  ],
+  "descripcion": "Modelo original de Skechers, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "11"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16310",
+  "marca": "Skechers",
+  "nombre": "Skechers Jammin - Sun Kissed — Black",
+  "genero": "Mujer",
+  "precio": 65,
+  "precio_c": 2390,
+  "fotos": [
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/163555_BLK_HERO_LG",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/163555_BLK_PROFILE_01",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/163555_BLK_PROFILE_05",
+   "https://images.skechers.com/image;width=auto%2Cformat=auto/163555_BLK_FIG"
+  ],
+  "descripcion": "Modelo original de Skechers, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16311",
+  "marca": "Princess Polly",
+  "nombre": "Princess Polly Riki Mini Belt Sandals — Black",
+  "genero": "Mujer",
+  "precio": 45.99,
+  "precio_c": 1691,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_4c318997-9881-492b-8645-ab5642266578.jpg?v=1770697822",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/products/0_13660b62-7560-4c2d-a4fe-f83f5c85cee0.jpg?v=1770697822",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_dc00b0b3-7fb4-457e-88f2-c34b0dcc47fe.jpg?v=1770697822",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/3_4ed894d5-c892-40e4-98dd-1afb9ec0e943.jpg?v=1770697822"
+  ],
+  "descripcion": "Modelo original de Princess Polly, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16312",
+  "marca": "Princess Polly",
+  "nombre": "Princess Polly Dedication Double Strap Sandals — Chocolate",
+  "genero": "Mujer",
+  "precio": 45.49,
+  "precio_c": 1673,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/1_2b781291-f6b8-44ba-8196-75d4151b526b.jpg?v=1780289319",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/2_f9e1c11c-00bf-48b9-82c4-76a512d670eb.jpg?v=1780289320",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/3_441e66ae-3d55-4448-8f02-b80e96ad41e1.jpg?v=1780289319",
+   "https://cdn.shopify.com/s/files/1/0061/8627/0804/files/4_c9279dd8-80d0-4763-8a25-2f60c3724584.jpg?v=1780289319"
+  ],
+  "descripcion": "Modelo original de Princess Polly, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16313",
+  "marca": "Public Desire UK",
+  "nombre": "Public Desire UK Equinox — White",
+  "genero": "Mujer",
+  "precio": 20,
+  "precio_c": 735,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EQUINOXWHITE_1.jpg?v=1716292920",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EQUINOXWHITE_2.jpg?v=1716292921",
+   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/EQUINOXWHITE_3.jpg?v=1716292920"
+  ],
+  "descripcion": "Modelo original de Public Desire UK, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "UK 3 / EU 36 / US 5",
+   "UK 4 / EU 37 / US 6",
+   "UK 5 / EU 38 / US 7",
+   "UK 6 / EU 39 / US 8",
+   "UK 7 / EU 40 / US 9",
+   "UK 8 / EU 41 / US 10"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16314",
+  "marca": "Fashion Nova",
+  "nombre": "Fashion Nova Nikia Heeled Sandals — Gold",
+  "genero": "Mujer",
+  "precio": 47.98,
+  "precio_c": 1764,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/10-06-23Studio6_CB_RS_09-52-22_9_NIKIA223_Gold_12641_PXF.jpg?v=1743805562",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/10-06-23Studio6_CB_RS_09-51-58_9_NIKIA223_Gold_12639_PXF.jpg?v=1743805562",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/10-06-23Studio6_CB_RS_09-52-17_9_NIKIA223_Gold_12640_PXF.jpg?v=1743805562",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/10-06-23Studio6_CB_RS_09-52-26_9_NIKIA223_Gold_12642_PXF.jpg?v=1697216883"
+  ],
+  "descripcion": "Modelo original de Fashion Nova, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Sandalias"
+ },
+ {
+  "codigo": "DOM-16315",
+  "marca": "Fashion Nova",
+  "nombre": "Fashion Nova Ready Or Knot Heeled Sandals — Black",
+  "genero": "Mujer",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/8-9-2024__014_Ready_or_Knot_Heeled_Sandals_Black_WG_MH.jpg?v=1763055822",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/04-04-24_S15_56_ENGAEMENT_Black_P_CZ_15-04-42_0058_SG_ES.jpg?v=1763055817",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/04-04-24_S15_56_ENGAEMENT_Black_P_CZ_15-04-42_0059_SG_ES.jpg?v=1763055817",
+   "https://cdn.shopify.com/s/files/1/0293/9277/files/04-11-24_S8_36_ENGAEMENT_Black_KJ_IM_13-23-20_67889_PXF.jpg?v=1763055817"
+  ],
+  "descripcion": "Modelo original de Fashion Nova, cómodo y versátil para uso diario. Lo compramos por encargo y te lo entregamos en Nicaragua.",
+  "detalles": [
+   "Producto original",
+   "Por encargo: confirmamos tu talla antes de cobrar",
+   "Entrega a domicilio en Nicaragua"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "10",
+   "11"
+  ],
+  "categoria": "Sandalias"
  }
 ];

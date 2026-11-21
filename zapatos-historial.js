@@ -19165,12 +19165,28 @@ var ZAP_HISTORIAL = [
   "nombre": "Pepper Black Velvet Bow Detail Slingback High Heels"
  },
  {
+  "codigo": "DOM-14235",
+  "nombre": "Nike Air Max 270 \"usa\""
+ },
+ {
+  "codigo": "DOM-14236",
+  "nombre": "Men's Viva Speed Shoes"
+ },
+ {
+  "codigo": "DOM-14239",
+  "nombre": "Asics GEL-DS TRAINER 14"
+ },
+ {
   "codigo": "DOM-1424",
   "nombre": "Under Armour Lockdown 8 Basketball Shoes — Red/Black/White"
  },
  {
   "codigo": "DOM-1425",
   "nombre": "Vans Super Lowpro — Black"
+ },
+ {
+  "codigo": "DOM-14253",
+  "nombre": "Asics GEL-NYC 2055"
  },
  {
   "codigo": "DOM-14254",
@@ -19353,24 +19369,80 @@ var ZAP_HISTORIAL = [
   "nombre": "Converse Chuck Taylor All Star Malden Street Mid Top Sneakers — Black/Black/Dark Smoke Grey"
  },
  {
+  "codigo": "DOM-14436",
+  "nombre": "Sunda"
+ },
+ {
+  "codigo": "DOM-14439",
+  "nombre": "Midnight Silver Glitter Wrap Around Diamante Bow Pointed Toe High Heel"
+ },
+ {
   "codigo": "DOM-1444",
   "nombre": "Clarks Step 365 Style — Beeswax Leather"
+ },
+ {
+  "codigo": "DOM-14444",
+  "nombre": "Converse Chuck 70 Low Ox 'Chocolate'"
+ },
+ {
+  "codigo": "DOM-14449",
+  "nombre": "Taber"
  },
  {
   "codigo": "DOM-1445",
   "nombre": "New Balance 608v5 Slip Resistant — Black/Black"
  },
  {
+  "codigo": "DOM-14452",
+  "nombre": "Ti Amo Silver Metallic Pu Padlock Detail Barely There Pointed Toe Stilettos Heels"
+ },
+ {
+  "codigo": "DOM-14456",
+  "nombre": "Vans LX Half Cab Reissue 33 'Hairy Suede Ginger'"
+ },
+ {
+  "codigo": "DOM-14458",
+  "nombre": "Sussex"
+ },
+ {
   "codigo": "DOM-1446",
   "nombre": "Converse Chuck Taylor All Star Leather Low Top Sneaker — White"
+ },
+ {
+  "codigo": "DOM-14463",
+  "nombre": "Converse Chuck 70 Low 'Ox Mineral Clay'"
+ },
+ {
+  "codigo": "DOM-14465",
+  "nombre": "Pantherra"
  },
  {
   "codigo": "DOM-1447",
   "nombre": "Vans Authentic — Tartan Oil Green"
  },
  {
+  "codigo": "DOM-14471",
+  "nombre": "Crews"
+ },
+ {
+  "codigo": "DOM-14472",
+  "nombre": "Afterhours Gold Strappy Platform Square Toe Stiletto Heels"
+ },
+ {
+  "codigo": "DOM-14474",
+  "nombre": "NIKE AIR FORCE 1 '07"
+ },
+ {
   "codigo": "DOM-1448",
   "nombre": "Puma Easy Rider Vintage Shoes — Red/White"
+ },
+ {
+  "codigo": "DOM-14486",
+  "nombre": "New Balance 509 - Black/White"
+ },
+ {
+  "codigo": "DOM-14488",
+  "nombre": "adidas Superstar 82 'White'"
  },
  {
   "codigo": "DOM-1449",
@@ -19385,12 +19457,40 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance Fresh Foam X Kaiha Road V2 — Grey Matter/Slate Grey"
  },
  {
+  "codigo": "DOM-14507",
+  "nombre": "Converse Weapon 'Ox Green Envy/Vintage White'"
+ },
+ {
   "codigo": "DOM-1451",
   "nombre": "adidas Terrex Rockadia Trail Running — Black/Carbon/Black"
  },
  {
+  "codigo": "DOM-14515",
+  "nombre": "FEID X SALOMON ACS NEXXT \"THE GREEN STAR\""
+ },
+ {
+  "codigo": "DOM-14518",
+  "nombre": "Resist Chocolate Patent Platform High Heels"
+ },
+ {
   "codigo": "DOM-1452",
   "nombre": "Puma Fade Nitro Y2K Shoes — Gray Echo/Silver"
+ },
+ {
+  "codigo": "DOM-14520",
+  "nombre": "AIR FORCE 1 '07 PATENT LEATHER"
+ },
+ {
+  "codigo": "DOM-14525",
+  "nombre": "Vans OTW Era 95 Vibram 'Navy Red Patent'"
+ },
+ {
+  "codigo": "DOM-14527",
+  "nombre": "LX LOAFER 53 - BLACK"
+ },
+ {
+  "codigo": "DOM-14528",
+  "nombre": "Vans OTW Era 95 Vibram 'Black Patent'"
  },
  {
   "codigo": "DOM-1453",
@@ -19413,12 +19513,32 @@ var ZAP_HISTORIAL = [
   "nombre": "Skechers Contour Foam Cozy Fit Hands Free Slip-In — White/Navy"
  },
  {
+  "codigo": "DOM-14572",
+  "nombre": "Nike Air Force 1 '07 Premium Patent Leather 'Black'"
+ },
+ {
+  "codigo": "DOM-14575",
+  "nombre": "RALPH"
+ },
+ {
   "codigo": "DOM-1458",
   "nombre": "Converse Chuck Taylor All Star Leather — Black"
  },
  {
   "codigo": "DOM-1459",
   "nombre": "Converse Chuck Taylor All Star Malden Street Tonal Mid Top — Classic Grey/Black/Brown"
+ },
+ {
+  "codigo": "DOM-14595",
+  "nombre": "Nike Air Force 1 Low '07 LV8 Patent 'Beef and Broccoli'"
+ },
+ {
+  "codigo": "DOM-14597",
+  "nombre": "Dr. Martens Made in England Adrian Tassel Loafers 'Red'"
+ },
+ {
+  "codigo": "DOM-14599",
+  "nombre": "Premium LX Old Skool 36 'Patent' - Bordeaux/Olive"
  },
  {
   "codigo": "DOM-146",
@@ -19437,12 +19557,40 @@ var ZAP_HISTORIAL = [
   "nombre": "Magnanni Daren — Black"
  },
  {
+  "codigo": "DOM-14616",
+  "nombre": "Bettinson"
+ },
+ {
+  "codigo": "DOM-14617",
+  "nombre": "Sheriff Silver Metallic Western Fold Over Block Cowboy Knee High Boots"
+ },
+ {
+  "codigo": "DOM-14619",
+  "nombre": "Christina Silver Grain Pointed Toe Block Heel Knee High Boots"
+ },
+ {
   "codigo": "DOM-1462",
   "nombre": "Hey Dude Wally Stretch Sox Jingle — Cherry Red/Multi"
  },
  {
+  "codigo": "DOM-14621",
+  "nombre": "Demeter Black Pu Chunky Heeled Platform Ankle Boots"
+ },
+ {
+  "codigo": "DOM-14624",
+  "nombre": "JORDAN 11 \"GAMMA\" CRIB BOOTIE"
+ },
+ {
   "codigo": "DOM-1463",
   "nombre": "Nike Golf Next Nature — White/Black/Pure Platinum/Wolf Grey"
+ },
+ {
+  "codigo": "DOM-14630",
+  "nombre": "BOOTH"
+ },
+ {
+  "codigo": "DOM-14637",
+  "nombre": "Berk"
  },
  {
   "codigo": "DOM-1464",
@@ -19597,8 +19745,20 @@ var ZAP_HISTORIAL = [
   "nombre": "Blundstone BL1306 — Brown"
  },
  {
+  "codigo": "DOM-14716",
+  "nombre": "NIKE CALM 2.0"
+ },
+ {
+  "codigo": "DOM-14717",
+  "nombre": "Nike Benassi Slide - Navy Blue"
+ },
+ {
   "codigo": "DOM-1472",
   "nombre": "Converse Chuck Taylor All Star Low Top — Black/White/Red"
+ },
+ {
+  "codigo": "DOM-14723",
+  "nombre": "FELT Work Wear Logo Slides 'Black'"
  },
  {
   "codigo": "DOM-1473",
@@ -19609,6 +19769,10 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance 440 — Black/Gum 1"
  },
  {
+  "codigo": "DOM-14745",
+  "nombre": "Flare Black Cross Strap Chunky Mid Heel Sandals"
+ },
+ {
   "codigo": "DOM-1475",
   "nombre": "Nike Revolution 8 EasyOn — Black/White/Anthracite/Wolf Grey"
  },
@@ -19617,12 +19781,20 @@ var ZAP_HISTORIAL = [
   "nombre": "New Balance Fresh Foam Arishi v4 GTX — Black/Black"
  },
  {
+  "codigo": "DOM-14769",
+  "nombre": "Birkenstock Boston Soft Footbed 'Suede Black'"
+ },
+ {
   "codigo": "DOM-1477",
   "nombre": "Sperry Cvo Helm — Olive"
  },
  {
   "codigo": "DOM-1478",
   "nombre": "Skechers Go Walk Flex Plus — Black/Black"
+ },
+ {
+  "codigo": "DOM-14786",
+  "nombre": "Vans LX Mule Style 17 'Hairy Suede Peyote'"
  },
  {
   "codigo": "DOM-1479",
@@ -19639,6 +19811,14 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1481",
   "nombre": "Dockers Rutherford SR — Black"
+ },
+ {
+  "codigo": "DOM-14811",
+  "nombre": "NIKE MIND 001 \"FAITH KIPYEGON\""
+ },
+ {
+  "codigo": "DOM-14819",
+  "nombre": "Topps 2025-26 Premier League Debut Edition Cards - Golden Boot Tin (57 Cards + 7 Golden Boot LE)"
  },
  {
   "codigo": "DOM-1482",
@@ -19861,12 +20041,44 @@ var ZAP_HISTORIAL = [
   "nombre": "Puma evoSPEED Star 7 Track Running Shoes — Pink"
  },
  {
+  "codigo": "DOM-15090",
+  "nombre": "Public Desire UK Horizon Black PU Knee High Boots"
+ },
+ {
+  "codigo": "DOM-15092",
+  "nombre": "CIS Needa"
+ },
+ {
+  "codigo": "DOM-15094",
+  "nombre": "Public Desire UK Nashville Wide Fit Black Western Studded Block Heel Knee High Boot"
+ },
+ {
+  "codigo": "DOM-15098",
+  "nombre": "Public Desire UK Pose Black Textured Pu Zip Up Knee High Slim Block Heeled Boots"
+ },
+ {
   "codigo": "DOM-151",
   "nombre": "Reebok Classic Mld Negro (Niños)"
  },
  {
   "codigo": "DOM-1510",
   "nombre": "Puma Court Classico Sport Lace Up Sneakers — White"
+ },
+ {
+  "codigo": "DOM-15100",
+  "nombre": "CIS Willlow"
+ },
+ {
+  "codigo": "DOM-15102",
+  "nombre": "Public Desire UK Uptown Girl Black Suedette Western Cowboy Knee High Boots"
+ },
+ {
+  "codigo": "DOM-15104",
+  "nombre": "CIS Oaklie"
+ },
+ {
+  "codigo": "DOM-15106",
+  "nombre": "Public Desire UK Amped Black Pointed Toe Mid Heel Knee High Boots"
  },
  {
   "codigo": "DOM-1511",
@@ -19877,8 +20089,24 @@ var ZAP_HISTORIAL = [
   "nombre": "Puma Smash 3.0 Geometric Lace Up Sneakers — White"
  },
  {
+  "codigo": "DOM-15129",
+  "nombre": "CIS Ashanti"
+ },
+ {
   "codigo": "DOM-1513",
   "nombre": "Puma Rocket Fuel Lite Running Shoes — Black"
+ },
+ {
+  "codigo": "DOM-15132",
+  "nombre": "Public Desire UK Ralph Black Fold Over Pu Knee High Stiletto Boots"
+ },
+ {
+  "codigo": "DOM-15136",
+  "nombre": "CIS Aila"
+ },
+ {
+  "codigo": "DOM-15139",
+  "nombre": "Public Desire UK Evergreen Black Pu Wide Fit Knee High Elasticated Detail Chunky Heeled Sole Boots"
  },
  {
   "codigo": "DOM-1514",
@@ -19889,8 +20117,20 @@ var ZAP_HISTORIAL = [
   "nombre": "Puma Club II Era Lace Up Sneakers — Grey"
  },
  {
+  "codigo": "DOM-15150",
+  "nombre": "CIS Zayra"
+ },
+ {
+  "codigo": "DOM-15156",
+  "nombre": "CIS Maelie"
+ },
+ {
   "codigo": "DOM-1516",
   "nombre": "Diadora Mythos Blushield Vigore 2 Running Shoes — Blue, Grey"
+ },
+ {
+  "codigo": "DOM-15160",
+  "nombre": "CIS Devynn"
  },
  {
   "codigo": "DOM-1517",
@@ -19961,28 +20201,104 @@ var ZAP_HISTORIAL = [
   "nombre": "Puma Easy Rider Pride Lace Up Sneakers — White"
  },
  {
+  "codigo": "DOM-15316",
+  "nombre": "CIS Belini"
+ },
+ {
   "codigo": "DOM-1532",
   "nombre": "Puma Milenio Tech 2000 Lace Up Sneakers — White"
+ },
+ {
+  "codigo": "DOM-15321",
+  "nombre": "CIS Belini"
+ },
+ {
+  "codigo": "DOM-15325",
+  "nombre": "CIS Kayce"
+ },
+ {
+  "codigo": "DOM-15329",
+  "nombre": "CIS Kawai"
  },
  {
   "codigo": "DOM-1533",
   "nombre": "Diadora Mythos Blushield Volo 3 Running Shoes — Grey"
  },
  {
+  "codigo": "DOM-15333",
+  "nombre": "CIS Avaline"
+ },
+ {
+  "codigo": "DOM-15337",
+  "nombre": "CIS Cassiane"
+ },
+ {
   "codigo": "DOM-1534",
   "nombre": "Puma Palermo Vintage Lace Up Sneakers — Green"
+ },
+ {
+  "codigo": "DOM-15341",
+  "nombre": "CIS Cassiane"
+ },
+ {
+  "codigo": "DOM-15345",
+  "nombre": "CIS Mattea"
+ },
+ {
+  "codigo": "DOM-15347",
+  "nombre": "CIS Florrence"
  },
  {
   "codigo": "DOM-1535",
   "nombre": "Polo Ralph Lauren Polo Bear Slide — White Beach Shop Bear"
  },
  {
+  "codigo": "DOM-15351",
+  "nombre": "CIS Auguust"
+ },
+ {
+  "codigo": "DOM-15355",
+  "nombre": "CIS Auguust"
+ },
+ {
+  "codigo": "DOM-15358",
+  "nombre": "CIS Tropicall"
+ },
+ {
   "codigo": "DOM-1536",
   "nombre": "Lacoste Serve Slide 1.0 — Black/White Croc"
  },
  {
+  "codigo": "DOM-15360",
+  "nombre": "CIS Tiya"
+ },
+ {
+  "codigo": "DOM-15362",
+  "nombre": "CIS Shaylee"
+ },
+ {
+  "codigo": "DOM-15364",
+  "nombre": "CIS Shaylee"
+ },
+ {
+  "codigo": "DOM-15366",
+  "nombre": "CIS Veronna"
+ },
+ {
+  "codigo": "DOM-15368",
+  "nombre": "CIS Raia"
+ },
+ {
   "codigo": "DOM-1537",
   "nombre": "Dockers Bardwell — Taupe"
+ },
+ {
+  "codigo": "DOM-15370",
+  "nombre": "CIS Teigan"
+ },
+ {
+  "codigo": "DOM-15372",
+  "nombre": "CIS Gretchen"
  },
  {
   "codigo": "DOM-1538",
@@ -20075,6 +20391,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1558",
   "nombre": "Vance Colt — Black"
+ },
+ {
+  "codigo": "DOM-15584",
+  "nombre": "CIS Georginaa"
  },
  {
   "codigo": "DOM-1559",
@@ -20187,6 +20507,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1583",
   "nombre": "Lugz Clipper Slip On Sneakers — White"
+ },
+ {
+  "codigo": "DOM-15839",
+  "nombre": "Jordan Jordan Air Jordan 1 Mid Grade-School (Big Kid) — Gris"
  },
  {
   "codigo": "DOM-1584",
