@@ -1367,8 +1367,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Knu Skool (Big Kid) — Negro/Blanco Verdadero",
   "genero": "Niños",
-  "precio": 54.08,
-  "precio_c": 1989,
+  "precio": 54.12,
+  "precio_c": 1990,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ws9qEPPLL.jpg",
    "https://m.media-amazon.com/images/I/71CmoDShJEL.jpg",
@@ -1400,8 +1400,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Suede XL (Big Kid) — Negro/Blanco",
   "genero": "Niños",
-  "precio": 55.0,
-  "precio_c": 2023,
+  "precio": 64.99,
+  "precio_c": 2390,
   "fotos": [
    "https://m.media-amazon.com/images/I/61tgVT4T03L.jpg",
    "https://m.media-amazon.com/images/I/61EwFoD7kIL.jpg",
@@ -1826,8 +1826,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Barreda Mary Jane (Women) — Collegiate Green / Cream White / Gum",
   "genero": "Mujer",
-  "precio": 78.72,
-  "precio_c": 2895,
+  "precio": 78.71,
+  "precio_c": 2894,
   "fotos": [
    "https://m.media-amazon.com/images/I/61eEOlC9IkL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71hrW1hiH3L._SX700_.jpg",
@@ -3149,8 +3149,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Hoops Classic Basketball Shoes — Gold",
   "genero": "Hombre",
-  "precio": 70.42,
-  "precio_c": 2590,
+  "precio": 72.97,
+  "precio_c": 2683,
   "fotos": [
    "https://m.media-amazon.com/images/I/71UhZ-orMoL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/71keNPNlafL._AC_SX679_.jpg"
@@ -3213,8 +3213,8 @@ var ZAPATOS = [
   "marca": "PUMA",
   "nombre": "PUMA Rebound Slam Lo Shoes — White",
   "genero": "Hombre",
-  "precio": 72.82,
-  "precio_c": 2678,
+  "precio": 72.54,
+  "precio_c": 2668,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Txc8oksfL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/710aT4Ft7ML._AC_SX679_.jpg"
@@ -4530,8 +4530,8 @@ var ZAPATOS = [
   "marca": "Vance",
   "nombre": "Vance Blackwell — Black",
   "genero": "Hombre",
-  "precio": 90.99,
-  "precio_c": 3346,
+  "precio": 89.97,
+  "precio_c": 3309,
   "fotos": [
    "https://m.media-amazon.com/images/I/716kLdXHviL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61zT2M4p8LL._AC_SX679_.jpg"
@@ -4817,8 +4817,8 @@ var ZAPATOS = [
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Hogart — Black",
   "genero": "Hombre",
-  "precio": 69.2,
-  "precio_c": 2545,
+  "precio": 69.19,
+  "precio_c": 2544,
   "fotos": [
    "https://m.media-amazon.com/images/I/613mwaSWC-L._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61CNnBQUr-L._AC_SX679_.jpg"
@@ -4982,7 +4982,7 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Proctr Oxford — Tan",
   "genero": "Hombre",
-  "precio": 85.25,
+  "precio": 85.24,
   "precio_c": 3135,
   "fotos": [
    "https://m.media-amazon.com/images/I/71lP1sUjjGL._AC_SX679_.jpg",
@@ -5048,8 +5048,8 @@ var ZAPATOS = [
   "marca": "Tommy Hilfiger",
   "nombre": "Tommy Hilfiger Hitcher — Black",
   "genero": "Hombre",
-  "precio": 71.08,
-  "precio_c": 2614,
+  "precio": 70.7,
+  "precio_c": 2600,
   "fotos": [
    "https://m.media-amazon.com/images/I/71fqy-NUvAL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/81ehoMZriLL._AC_SX679_.jpg"
@@ -5378,8 +5378,8 @@ var ZAPATOS = [
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Lance — Brown",
   "genero": "Hombre",
-  "precio": 71.97,
-  "precio_c": 2647,
+  "precio": 71.8,
+  "precio_c": 2640,
   "fotos": [
    "https://m.media-amazon.com/images/I/6163vvbs8sL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61eKY5P89oL._AC_SX679_.jpg"
@@ -5543,8 +5543,8 @@ var ZAPATOS = [
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Martin — Brown",
   "genero": "Hombre",
-  "precio": 72.63,
-  "precio_c": 2671,
+  "precio": 72.56,
+  "precio_c": 2668,
   "fotos": [
    "https://m.media-amazon.com/images/I/71uHe-WGDpL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/71sTqeIFMIL._AC_SX679_.jpg"
@@ -5576,8 +5576,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Stark Cap Toe Oxford Leather Business Formal Derby Dress Casual Lace-Up — Black",
   "genero": "Hombre",
-  "precio": 77.58,
-  "precio_c": 2853,
+  "precio": 77.51,
+  "precio_c": 2850,
   "fotos": [
    "https://m.media-amazon.com/images/I/61pnjvM5gzL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61MTisHGNNL._AC_SX679_.jpg"
@@ -5774,8 +5774,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Caper Plain Toe Sneaker Oxford — Black",
   "genero": "Hombre",
-  "precio": 89.72,
-  "precio_c": 3299,
+  "precio": 90.19,
+  "precio_c": 3317,
   "fotos": [
    "https://m.media-amazon.com/images/I/61qDNWUvtGL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61eKxRLxfZL._AC_SX679_.jpg"
@@ -5873,8 +5873,8 @@ var ZAPATOS = [
   "marca": "Tommy Hilfiger",
   "nombre": "Tommy Hilfiger Creagan — Brown",
   "genero": "Hombre",
-  "precio": 88.13,
-  "precio_c": 3241,
+  "precio": 88.3,
+  "precio_c": 3247,
   "fotos": [
    "https://m.media-amazon.com/images/I/61clYluNWpL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61IT7VLlBAL._AC_SX679_.jpg"
@@ -6104,8 +6104,8 @@ var ZAPATOS = [
   "marca": "Clarks",
   "nombre": "Clarks Steadwell Cap — Black",
   "genero": "Hombre",
-  "precio": 85.27,
-  "precio_c": 3136,
+  "precio": 85.15,
+  "precio_c": 3131,
   "fotos": [
    "https://m.media-amazon.com/images/I/715FN9H7D6L._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/7164Qw9M-nL._AC_SX679_.jpg"
@@ -6137,8 +6137,8 @@ var ZAPATOS = [
   "marca": "Nunn Bush",
   "nombre": "Nunn Bush Aspire Knit Moccasin Toe Sneaker Oxford Comfortable Lightweight Fabric Lace Up — Black",
   "genero": "Hombre",
-  "precio": 61.79,
-  "precio_c": 2272,
+  "precio": 61.74,
+  "precio_c": 2270,
   "fotos": [
    "https://m.media-amazon.com/images/I/71zQw-6Wo6L._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61EZ3kVKk0L._AC_SX679_.jpg"
@@ -8975,8 +8975,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Duramo SL 2.0 — Beige",
   "genero": "Hombre",
-  "precio": 65.41,
-  "precio_c": 2405,
+  "precio": 65.32,
+  "precio_c": 2402,
   "fotos": [
    "https://m.media-amazon.com/images/I/711pAnaX05L._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/71IxWSo6ULL._AC_SX679_.jpg"
@@ -9955,8 +9955,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Emmett Penny — Tan",
   "genero": "Hombre",
-  "precio": 95.81,
-  "precio_c": 3523,
+  "precio": 95.64,
+  "precio_c": 3517,
   "fotos": [
    "https://m.media-amazon.com/images/I/71sdUbnSpTL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61cL3VIQ7FL._AC_SX679_.jpg"
@@ -10051,8 +10051,8 @@ var ZAPATOS = [
   "marca": "Born",
   "nombre": "Born Roger — Brown",
   "genero": "Hombre",
-  "precio": 95.85,
-  "precio_c": 3525,
+  "precio": 95.6,
+  "precio_c": 3516,
   "fotos": [
    "https://m.media-amazon.com/images/I/81b-arWsVxL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/81hkWSbvzgL._AC_SX679_.jpg"
@@ -10414,8 +10414,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Landry Embossed Cap Toe — Black",
   "genero": "Hombre",
-  "precio": 92.94,
-  "precio_c": 3418,
+  "precio": 92.5,
+  "precio_c": 3402,
   "fotos": [
    "https://m.media-amazon.com/images/I/61JSIvbd7ML._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/613Mm8mwbeL._AC_SX679_.jpg"
@@ -10711,8 +10711,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Grand Laser Penny Driver — Beige",
   "genero": "Hombre",
-  "precio": 96.23,
-  "precio_c": 3539,
+  "precio": 96.41,
+  "precio_c": 3545,
   "fotos": [
    "https://m.media-amazon.com/images/I/71+RTmha8EL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/71iBaP22XdL._AC_SX679_.jpg"
@@ -11041,8 +11041,8 @@ var ZAPATOS = [
   "marca": "Kenneth Cole",
   "nombre": "Kenneth Cole Leland — Black",
   "genero": "Hombre",
-  "precio": 69.92,
-  "precio_c": 2571,
+  "precio": 64.5,
+  "precio_c": 2372,
   "fotos": [
    "https://m.media-amazon.com/images/I/61-lSqAec0L._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61zS1sOgyIL._AC_SX679_.jpg"
@@ -12662,8 +12662,8 @@ var ZAPATOS = [
   "marca": "Florsheim",
   "nombre": "Florsheim Sorrento Moc Toe Penny Loafers — Black",
   "genero": "Hombre",
-  "precio": 105.28,
-  "precio_c": 3872,
+  "precio": 105.24,
+  "precio_c": 3870,
   "fotos": [
    "https://m.media-amazon.com/images/I/61UNaFQ8mOL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61nggAIFE8L._AC_SX679_.jpg"
@@ -13245,8 +13245,8 @@ var ZAPATOS = [
   "marca": "Carhartt",
   "nombre": "Carhartt 4\" Lightweight Wedge Boot — Brown",
   "genero": "Hombre",
-  "precio": 96.26,
-  "precio_c": 3540,
+  "precio": 96.35,
+  "precio_c": 3543,
   "fotos": [
    "https://m.media-amazon.com/images/I/81JBDZ0o9bL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/711ztzYDdCL._AC_SX679_.jpg"
@@ -13306,8 +13306,8 @@ var ZAPATOS = [
   "marca": "Deer Stags",
   "nombre": "Deer Stags Rockland — Brown",
   "genero": "Hombre",
-  "precio": 69.99,
-  "precio_c": 2574,
+  "precio": 82.0,
+  "precio_c": 3015,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gSYm9mpwL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/81tqINyQVzL._AC_SX679_.jpg"
@@ -13548,8 +13548,8 @@ var ZAPATOS = [
   "marca": "Caterpillar",
   "nombre": "Caterpillar Impact WP CT — Brown",
   "genero": "Hombre",
-  "precio": 99.55,
-  "precio_c": 3661,
+  "precio": 99.53,
+  "precio_c": 3660,
   "fotos": [
    "https://m.media-amazon.com/images/I/71r9spPczDL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/71x4ujlFPXL._AC_SX679_.jpg"
@@ -13609,7 +13609,7 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Highline — Brown",
   "genero": "Hombre",
-  "precio": 82.76,
+  "precio": 82.74,
   "precio_c": 3043,
   "fotos": [
    "https://m.media-amazon.com/images/I/71KIo2aT7YL._AC_SX679_.jpg",
@@ -14920,8 +14920,8 @@ var ZAPATOS = [
   "marca": "Tommy Hilfiger",
   "nombre": "Tommy Hilfiger Momil — Navy",
   "genero": "Hombre",
-  "precio": 48.84,
-  "precio_c": 1796,
+  "precio": 48.82,
+  "precio_c": 1795,
   "fotos": [
    "https://m.media-amazon.com/images/I/61NV9YTeeJL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/71GQo2j0qlL._AC_SX679_.jpg"
@@ -15532,8 +15532,8 @@ var ZAPATOS = [
   "marca": "Reef",
   "nombre": "Reef Mulligan Slide — Green",
   "genero": "Hombre",
-  "precio": 43.0,
-  "precio_c": 1581,
+  "precio": 40.0,
+  "precio_c": 1471,
   "fotos": [
    "https://m.media-amazon.com/images/I/71nST-cxcXL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61lTN4Qgw6L._AC_SX679_.jpg"
@@ -23968,8 +23968,8 @@ var ZAPATOS = [
   "marca": "Puma",
   "nombre": "Puma Electrify Nitro&#8482; 5 Running Shoes — Misty Pink/Rose Gold",
   "genero": "Mujer",
-  "precio": 87.62,
-  "precio_c": 3222,
+  "precio": 89.73,
+  "precio_c": 3300,
   "fotos": [
    "https://m.media-amazon.com/images/I/81yGMYBHhxL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71qwWwBcv8L._SX700_.jpg",
@@ -35095,8 +35095,8 @@ var ZAPATOS = [
   "marca": "TOMS",
   "nombre": "TOMS Goldie — Black",
   "genero": "Mujer",
-  "precio": 67.77,
-  "precio_c": 2492,
+  "precio": 67.89,
+  "precio_c": 2497,
   "fotos": [
    "https://m.media-amazon.com/images/I/71jHgZBILIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/6190CcAmmmL._SX700_.jpg",
@@ -35482,8 +35482,8 @@ var ZAPATOS = [
   "marca": "Easy Street",
   "nombre": "Easy Street Pointe — Black",
   "genero": "Mujer",
-  "precio": 51.99,
-  "precio_c": 1912,
+  "precio": 53.53,
+  "precio_c": 1969,
   "fotos": [
    "https://m.media-amazon.com/images/I/61t98+qGb+L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61xlolJhDhL._SX700_.jpg",
@@ -35812,8 +35812,8 @@ var ZAPATOS = [
   "marca": "LifeStride",
   "nombre": "LifeStride Minimalist — Black",
   "genero": "Mujer",
-  "precio": 57.99,
-  "precio_c": 2133,
+  "precio": 49.99,
+  "precio_c": 1838,
   "fotos": [
    "https://m.media-amazon.com/images/I/71jjYWheIiL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/5187dbCormL._SX700_.jpg",
@@ -35911,8 +35911,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto Salino — Brown",
   "genero": "Mujer",
-  "precio": 101.12,
-  "precio_c": 3719,
+  "precio": 101.02,
+  "precio_c": 3715,
   "fotos": [
    "https://m.media-amazon.com/images/I/61iyEUySQUL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/617i9mbXtBL._SX700_.jpg",
@@ -35935,8 +35935,8 @@ var ZAPATOS = [
   "marca": "Betsey Johnson",
   "nombre": "Betsey Johnson Melisa — Pink",
   "genero": "Mujer",
-  "precio": 101.06,
-  "precio_c": 3716,
+  "precio": 101.09,
+  "precio_c": 3717,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Xs+eTuxIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61cp8w0sWrL._SX700_.jpg",
@@ -35992,8 +35992,8 @@ var ZAPATOS = [
   "marca": "Trotters",
   "nombre": "Trotters Doris — Black",
   "genero": "Mujer",
-  "precio": 100.89,
-  "precio_c": 3710,
+  "precio": 100.92,
+  "precio_c": 3711,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gBsK1MutL._SX700_.jpg"
   ],
@@ -36052,8 +36052,8 @@ var ZAPATOS = [
   "marca": "Seychelles",
   "nombre": "Seychelles Applause Metallic Woven Sandal — Gold",
   "genero": "Mujer",
-  "precio": 101.14,
-  "precio_c": 3719,
+  "precio": 101.02,
+  "precio_c": 3715,
   "fotos": [
    "https://m.media-amazon.com/images/I/81HFuizHFQL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71YEMiRIKPL._SX700_.jpg",
@@ -36268,8 +36268,8 @@ var ZAPATOS = [
   "marca": "Nine West",
   "nombre": "Nine West Gemmha — Black",
   "genero": "Mujer",
-  "precio": 102.95,
-  "precio_c": 3786,
+  "precio": 102.93,
+  "precio_c": 3785,
   "fotos": [
    "https://m.media-amazon.com/images/I/71pmM8DAnIL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61AYxvSwKKL._SX700_.jpg",
@@ -36301,8 +36301,8 @@ var ZAPATOS = [
   "marca": "Sam Edelman",
   "nombre": "Sam Edelman Summer — Brown",
   "genero": "Mujer",
-  "precio": 103.3,
-  "precio_c": 3799,
+  "precio": 104.04,
+  "precio_c": 3826,
   "fotos": [
    "https://m.media-amazon.com/images/I/61KcgjsNJkL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71iTWqwFluL._SX700_.jpg",
@@ -36919,8 +36919,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto L-Rainey Pump Shoes — Brown",
   "genero": "Mujer",
-  "precio": 100.34,
-  "precio_c": 3690,
+  "precio": 100.48,
+  "precio_c": 3695,
   "fotos": [
    "https://m.media-amazon.com/images/I/71MCXdbmt2L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71-RiOrVG0L._SX700_.jpg",
@@ -37137,8 +37137,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan Patsy Bow Slingback Pumps — Black",
   "genero": "Mujer",
-  "precio": 101.79,
-  "precio_c": 3743,
+  "precio": 102.12,
+  "precio_c": 3755,
   "fotos": [
    "https://m.media-amazon.com/images/I/71JnjmroLuL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61DWZtU-osL._SX700_.jpg",
@@ -37870,8 +37870,8 @@ var ZAPATOS = [
   "marca": "Naturalizer",
   "nombre": "Naturalizer Della — Yellow",
   "genero": "Mujer",
-  "precio": 101.21,
-  "precio_c": 3722,
+  "precio": 101.13,
+  "precio_c": 3719,
   "fotos": [
    "https://m.media-amazon.com/images/I/71W0Yb2hfsL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71DCyd1Wa1L._SX700_.jpg",
@@ -37905,8 +37905,8 @@ var ZAPATOS = [
   "marca": "GUESS",
   "nombre": "GUESS Everly — Neutral",
   "genero": "Mujer",
-  "precio": 101.5,
-  "precio_c": 3733,
+  "precio": 101.67,
+  "precio_c": 3739,
   "fotos": [
    "https://m.media-amazon.com/images/I/71TydxupTPL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71kGH4a5-PL._SX700_.jpg",
@@ -38107,8 +38107,8 @@ var ZAPATOS = [
   "marca": "GUESS",
   "nombre": "GUESS Manzy — Bone",
   "genero": "Mujer",
-  "precio": 103.0,
-  "precio_c": 3788,
+  "precio": 87.5,
+  "precio_c": 3218,
   "fotos": [
    "https://m.media-amazon.com/images/I/61l0Ar1Wf8L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/51VjzdpI-NL._SX700_.jpg",
@@ -38811,8 +38811,8 @@ var ZAPATOS = [
   "marca": "SKECHERS",
   "nombre": "SKECHERS Summer Cove - Spring Showers — Tan",
   "genero": "Mujer",
-  "precio": 52.9,
-  "precio_c": 1945,
+  "precio": 53.05,
+  "precio_c": 1951,
   "fotos": [
    "https://m.media-amazon.com/images/I/71l01v-mZ5L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71czT77+UvL._SX700_.jpg",
@@ -38996,8 +38996,8 @@ var ZAPATOS = [
   "marca": "Marc Fisher LTD",
   "nombre": "Marc Fisher LTD Nacole — Bone",
   "genero": "Mujer",
-  "precio": 100.01,
-  "precio_c": 3678,
+  "precio": 100.2,
+  "precio_c": 3685,
   "fotos": [
    "https://m.media-amazon.com/images/I/61W9UBNmPOL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/718n4ecJG-L._SX700_.jpg",
@@ -39441,8 +39441,8 @@ var ZAPATOS = [
   "marca": "SOREL",
   "nombre": "SOREL Roam'N&#8482; Slides — Black",
   "genero": "Mujer",
-  "precio": 107.05,
-  "precio_c": 3937,
+  "precio": 107.15,
+  "precio_c": 3940,
   "fotos": [
    "https://m.media-amazon.com/images/I/71oDzKYV9YL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61DNfVnj33L._SX700_.jpg",
@@ -39606,8 +39606,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Run Falcon 6 Elastic Lace & Strap (Infant/Toddler) — Azul Oscuro/Azul Rey Vivo/Limón Lúcido",
   "genero": "Niños",
-  "precio": 40.0,
-  "precio_c": 1471,
+  "precio": 39.08,
+  "precio_c": 1437,
   "fotos": [
    "https://m.media-amazon.com/images/I/71eRfJrqRVL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71UydzcD0gL._SX700_.jpg",
@@ -39885,8 +39885,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Pre School Ascend Big Logo Alternate Lace Running Shoes (Little Kid) — Negro/Negro/Blanco",
   "genero": "Niños",
-  "precio": 53.77,
-  "precio_c": 1977,
+  "precio": 53.64,
+  "precio_c": 1973,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Uh2B9VotL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71hxYr9wLxL._SX700_.jpg",
@@ -39922,8 +39922,8 @@ var ZAPATOS = [
   "marca": "Saucony",
   "nombre": "Saucony Kinvara 14 A/C Sneakers (Little Kid/Big Kid) — Azul Marino/Rojo",
   "genero": "Niños",
-  "precio": 54.2,
-  "precio_c": 1993,
+  "precio": 54.25,
+  "precio_c": 1995,
   "fotos": [
    "https://m.media-amazon.com/images/I/71cZ5EOozuL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71KW4tr-rcL._SX700_.jpg",
@@ -40547,8 +40547,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Old Skool V (Infant/Toddler/Little Kid) — Color Theory Oil Verde",
   "genero": "Niños",
-  "precio": 50.0,
-  "precio_c": 1839,
+  "precio": 46.0,
+  "precio_c": 1692,
   "fotos": [
    "https://m.media-amazon.com/images/I/81QyDmALvBL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/81hFw1zpXEL._SX700_.jpg",
@@ -41854,8 +41854,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Anaya (Little Kid/Big Kid) — Negro",
   "genero": "Niños",
-  "precio": 46.95,
-  "precio_c": 1727,
+  "precio": 46.49,
+  "precio_c": 1710,
   "fotos": [
    "https://m.media-amazon.com/images/I/61dUKuB6TJL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61GxQeG9X7L._AC_SX1024_.jpg",
@@ -44157,8 +44157,8 @@ var ZAPATOS = [
   "marca": "Stride Rite",
   "nombre": "Stride Rite Summer Time (Toddler) — White",
   "genero": "Niños",
-  "precio": 49.14,
-  "precio_c": 1807,
+  "precio": 49.09,
+  "precio_c": 1805,
   "fotos": [
    "https://m.media-amazon.com/images/I/81JMEcRRRdL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71QNYouAoPL._SX700_.jpg",
@@ -51009,8 +51009,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Swiftwater Splash (Big Kid) — Verde Ivy",
   "genero": "Niños",
-  "precio": 33.97,
-  "precio_c": 1249,
+  "precio": 38.41,
+  "precio_c": 1412,
   "fotos": [
    "https://m.media-amazon.com/images/I/71yoAoikzHL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71j8neHhMKL._AC_SX1024_.jpg",
@@ -51071,8 +51071,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Classic Clogs (Big Kid) — Mystic Morado",
   "genero": "Niños",
-  "precio": 33.99,
-  "precio_c": 1250,
+  "precio": 37.97,
+  "precio_c": 1396,
   "fotos": [
    "https://m.media-amazon.com/images/I/61p-jaZ2EQL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61-LGGsMqTL._AC_SX1024_.jpg",
@@ -52717,8 +52717,8 @@ var ZAPATOS = [
   "marca": "Nina",
   "nombre": "Nina Nicola (Big Kid) — Negro Smooth",
   "genero": "Niños",
-  "precio": 49.31,
-  "precio_c": 1813,
+  "precio": 49.19,
+  "precio_c": 1809,
   "fotos": [
    "https://m.media-amazon.com/images/I/717KX3U8ZeL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71eIP+3EMFL._AC_SX1024_.jpg",
@@ -52871,8 +52871,8 @@ var ZAPATOS = [
   "marca": "Mini Melissa",
   "nombre": "Mini Melissa Ultragirl Classy (Big Kid) — Lila",
   "genero": "Niños",
-  "precio": 49.25,
-  "precio_c": 1811,
+  "precio": 49.46,
+  "precio_c": 1819,
   "fotos": [
    "https://m.media-amazon.com/images/I/51WsvU22puL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/51S33yyygoL._AC_SX1024_.jpg",
@@ -53006,8 +53006,8 @@ var ZAPATOS = [
   "marca": "Bearpaw",
   "nombre": "Bearpaw Caprice (Big Kid) — Rosa Lemonade",
   "genero": "Niños",
-  "precio": 39.95,
-  "precio_c": 1469,
+  "precio": 39.88,
+  "precio_c": 1467,
   "fotos": [
    "https://m.media-amazon.com/images/I/71tiIbKOsUL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71mktWHqdfL._AC_SX1024_.jpg",
@@ -53836,8 +53836,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Joycee (Big Kid) — Plateado",
   "genero": "Niños",
-  "precio": 48.99,
-  "precio_c": 1802,
+  "precio": 56.57,
+  "precio_c": 2080,
   "fotos": [
    "https://m.media-amazon.com/images/I/71WvaaZ9g3L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71GXsvm1RFL._AC_SX1024_.jpg",
@@ -54714,8 +54714,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Classic Fisherman Sandals (Big Kid) — Rosa Milk",
   "genero": "Niños",
-  "precio": 27.99,
-  "precio_c": 1029,
+  "precio": 32.49,
+  "precio_c": 1195,
   "fotos": [
    "https://m.media-amazon.com/images/I/61rsZa+tVjL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61koYu8EJTL._AC_SX1024_.jpg",
@@ -55136,8 +55136,8 @@ var ZAPATOS = [
   "marca": "Merrell",
   "nombre": "Merrell Hut Ultra (Big Kid) — Negro / Lima",
   "genero": "Niños",
-  "precio": 38.99,
-  "precio_c": 1434,
+  "precio": 34.95,
+  "precio_c": 1285,
   "fotos": [
    "https://m.media-amazon.com/images/I/71T40gg725L._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/712mndAmouL._AC_SX1024_.jpg",
@@ -55382,8 +55382,8 @@ var ZAPATOS = [
   "marca": "Steve Madden",
   "nombre": "Steve Madden Mona (Big Kid) — Negro",
   "genero": "Niños",
-  "precio": 51.24,
-  "precio_c": 1884,
+  "precio": 49.99,
+  "precio_c": 1838,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Fz4XLD7tL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71RP7kGpwWL._AC_SX1024_.jpg",
@@ -55412,8 +55412,8 @@ var ZAPATOS = [
   "marca": "Keen",
   "nombre": "Keen Seacamp II CNX (Big Kid) — Dubarry / Pink-a-boo",
   "genero": "Niños",
-  "precio": 51.97,
-  "precio_c": 1911,
+  "precio": 47.77,
+  "precio_c": 1757,
   "fotos": [
    "https://m.media-amazon.com/images/I/712vLjmxmjL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71nArVqL2xL._AC_SX1024_.jpg",
@@ -59486,8 +59486,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Soho Y Strap Sandals — Verde",
   "genero": "Niños",
-  "precio": 50.03,
-  "precio_c": 1840,
+  "precio": 50.1,
+  "precio_c": 1842,
   "fotos": [
    "https://m.media-amazon.com/images/I/61lZ1HPN5kL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/51ozMsx+TLL._SX700_.jpg",
@@ -59517,8 +59517,8 @@ var ZAPATOS = [
   "marca": "Sam Edelman",
   "nombre": "Sam Edelman Amie — Canela",
   "genero": "Niños",
-  "precio": 100.17,
-  "precio_c": 3684,
+  "precio": 100.07,
+  "precio_c": 3680,
   "fotos": [
    "https://m.media-amazon.com/images/I/71NQ0puZ4sL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71vggP4+UIL._SX700_.jpg",
@@ -59908,8 +59908,8 @@ var ZAPATOS = [
   "marca": "Dansko",
   "nombre": "Dansko Jodie — Beige",
   "genero": "Niños",
-  "precio": 100.96,
-  "precio_c": 3713,
+  "precio": 74.97,
+  "precio_c": 2757,
   "fotos": [
    "https://m.media-amazon.com/images/I/61CoBmaphmL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71tIGOeJ+vL._SX700_.jpg",
