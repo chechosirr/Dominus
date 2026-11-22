@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "21 de noviembre de 2026";
+var ZAP_VERIFICADO = "22 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -36688,8 +36688,8 @@ var ZAPATOS = [
   "marca": "Cliffs by White Mountain",
   "nombre": "Cliffs by White Mountain Cheryl — Black",
   "genero": "Mujer",
-  "precio": 50.46,
-  "precio_c": 1856,
+  "precio": 49.83,
+  "precio_c": 1832,
   "fotos": [
    "https://m.media-amazon.com/images/I/71fjK7J+KOL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71wJfDUtACL._SX700_.jpg",
@@ -44286,8 +44286,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Sunray Protect 4 Sandals (Infant/Toddler) — Echo Pink/White",
   "genero": "Niños",
-  "precio": 48.0,
-  "precio_c": 1765,
+  "precio": 38.5,
+  "precio_c": 1416,
   "fotos": [
    "https://m.media-amazon.com/images/I/61covQnjL5L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61t+-KdtgkL._SX700_.jpg",
@@ -53006,8 +53006,8 @@ var ZAPATOS = [
   "marca": "Bearpaw",
   "nombre": "Bearpaw Caprice (Big Kid) — Rosa Lemonade",
   "genero": "Niños",
-  "precio": 39.88,
-  "precio_c": 1467,
+  "precio": 39.86,
+  "precio_c": 1466,
   "fotos": [
    "https://m.media-amazon.com/images/I/71tiIbKOsUL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71mktWHqdfL._AC_SX1024_.jpg",
@@ -57435,8 +57435,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Weston — Marrón",
   "genero": "Hombre",
-  "precio": 48.0,
-  "precio_c": 1765,
+  "precio": 54.99,
+  "precio_c": 2022,
   "fotos": [
    "https://m.media-amazon.com/images/I/71JXkqkjp9L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71RiNEakxhL._SX700_.jpg",
@@ -62570,8 +62570,8 @@ var ZAPATOS = [
   "marca": "Fashion Nova",
   "nombre": "Fashion Nova Nikia Heeled Sandals — Gold",
   "genero": "Mujer",
-  "precio": 47.98,
-  "precio_c": 1764,
+  "precio": 31.99,
+  "precio_c": 1176,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0293/9277/files/10-06-23Studio6_CB_RS_09-52-22_9_NIKIA223_Gold_12641_PXF.jpg?v=1743805562",
    "https://cdn.shopify.com/s/files/1/0293/9277/files/10-06-23Studio6_CB_RS_09-51-58_9_NIKIA223_Gold_12639_PXF.jpg?v=1743805562",
@@ -62603,8 +62603,8 @@ var ZAPATOS = [
   "marca": "Fashion Nova",
   "nombre": "Fashion Nova Ready Or Knot Heeled Sandals — Black",
   "genero": "Mujer",
-  "precio": 44.98,
-  "precio_c": 1654,
+  "precio": 29.99,
+  "precio_c": 1103,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0293/9277/files/8-9-2024__014_Ready_or_Knot_Heeled_Sandals_Black_WG_MH.jpg?v=1763055822",
    "https://cdn.shopify.com/s/files/1/0293/9277/files/04-04-24_S15_56_ENGAEMENT_Black_P_CZ_15-04-42_0058_SG_ES.jpg?v=1763055817",
