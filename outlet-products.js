@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "22 de noviembre de 2026";
+var ZAP_VERIFICADO = "23 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -4275,8 +4275,8 @@ var ZAPATOS = [
   "marca": "Cole Haan",
   "nombre": "Cole Haan GrandPro Topspin Golf — White",
   "genero": "Hombre",
-  "precio": 145.0,
-  "precio_c": 5332,
+  "precio": 118.0,
+  "precio_c": 4339,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Zf1aJIqrL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/51OXEYpLW3L._AC_SX679_.jpg"
@@ -35482,8 +35482,8 @@ var ZAPATOS = [
   "marca": "Easy Street",
   "nombre": "Easy Street Pointe — Black",
   "genero": "Mujer",
-  "precio": 53.53,
-  "precio_c": 1969,
+  "precio": 44.99,
+  "precio_c": 1654,
   "fotos": [
    "https://m.media-amazon.com/images/I/61t98+qGb+L._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61xlolJhDhL._SX700_.jpg",
@@ -39441,8 +39441,8 @@ var ZAPATOS = [
   "marca": "SOREL",
   "nombre": "SOREL Roam'N&#8482; Slides — Black",
   "genero": "Mujer",
-  "precio": 115.0,
-  "precio_c": 4229,
+  "precio": 107.62,
+  "precio_c": 3958,
   "fotos": [
    "https://m.media-amazon.com/images/I/71oDzKYV9YL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61DNfVnj33L._SX700_.jpg",
@@ -39885,8 +39885,8 @@ var ZAPATOS = [
   "marca": "Under Armour",
   "nombre": "Under Armour Pre School Ascend Big Logo Alternate Lace Running Shoes (Little Kid) — Negro/Negro/Blanco",
   "genero": "Niños",
-  "precio": 53.67,
-  "precio_c": 1974,
+  "precio": 65.0,
+  "precio_c": 2390,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Uh2B9VotL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71hxYr9wLxL._SX700_.jpg",
@@ -53006,8 +53006,8 @@ var ZAPATOS = [
   "marca": "Bearpaw",
   "nombre": "Bearpaw Caprice (Big Kid) — Rosa Lemonade",
   "genero": "Niños",
-  "precio": 39.81,
-  "precio_c": 1464,
+  "precio": 39.79,
+  "precio_c": 1463,
   "fotos": [
    "https://m.media-amazon.com/images/I/71tiIbKOsUL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71mktWHqdfL._AC_SX1024_.jpg",
