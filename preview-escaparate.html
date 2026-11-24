@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Preview — Escaparate centrado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#f2f2f4}
+/* ===== Escaparate: MISMO código que zapatos.html, con la foto centrada en su zona (preview 2026-11-24) ===== */
+#catview{position:fixed;inset:0;height:100vh;height:100dvh;z-index:58;max-width:none;width:100%;margin:0;padding:0;display:flex;flex-direction:column;justify-content:flex-end;background:#f2f2f4;overflow:hidden;touch-action:none;overscroll-behavior:none}
+#catview .esc-fondo{position:absolute;inset:0}
+#catview .esc-brand{position:absolute;top:calc(16px + env(safe-area-inset-top));left:20px;z-index:3;font-family:Archivo,'Source Sans 3',Arial,sans-serif;font-weight:900;font-size:1.55rem;letter-spacing:.22em;color:#232327}
+#catview .esc-brand em{font-style:normal;background:linear-gradient(120deg,#17171a 0%,#565b63 35%,#232327 55%,#7c828b 80%,#2c2c30 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+#catview .esc-fondo .esc-slide{position:absolute;inset:0;opacity:0;transition:opacity 3s ease-in-out;background:linear-gradient(to bottom,#ffffff 0%,#fbfbfc 26%,#eeeef0 48%,#dedee2 72%,#c9c9cf 100%)}
+#catview .esc-fondo .esc-slide.on{opacity:1}
+/* CAMBIO: la foto vive en una zona centrada de la pantalla (debajo de la marca y encima de los botones), nunca tapa las letras */
+#catview .esc-fondo .esc-main{position:absolute;left:0;right:0;top:12%;width:100%;height:46%;object-fit:contain;object-position:center;mix-blend-mode:multiply}
+#catview .esc-fondo .esc-blur{display:none}
+#catview .cat-bottom{position:relative;z-index:2;width:100%;max-width:560px;margin:0 auto;padding:0 18px calc(20px + env(safe-area-inset-bottom))}
+#catview .cat-sub{color:#26262b;font-size:1.32rem;font-weight:600;margin:0 0 16px}
+#catview .cat-grid{display:flex;flex-direction:column;gap:12px;max-width:none;width:100%}
+#catview .cat-card{background:rgba(17,17,21,.55);border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-radius:999px;padding:17px 20px;box-shadow:0 10px 28px rgba(0,0,0,.38);width:100%;font-family:inherit;cursor:pointer}
+#catview .cat-card::before{display:none}
+#catview .cat-name{color:#fff;font-size:1.22rem;font-weight:700}
+@media (min-width:900px){
+#catview .esc-fondo .esc-blur{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.25);filter:blur(26px) brightness(.94)}
+#catview .esc-fondo .esc-main{mix-blend-mode:normal;height:100%;top:0;object-position:center}
+#catview .esc-fondo::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,8,10,.30) 0%,rgba(8,8,10,.03) 34%,rgba(8,8,10,.40) 68%,rgba(8,8,10,.80) 100%)}
+#catview .esc-brand{color:#f5f5f7}
+#catview .esc-brand em{background:linear-gradient(120deg,#ffffff 0%,#c2c9d4 35%,#f4f6f9 55%,#98a2b1 80%,#e8ecf1 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+#catview .cat-sub{color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.7)}
+}
+</style>
+</head>
+<body>
+<div id="catview">
+  <div class="esc-brand">DOMIN<em>US</em></div>
+  <div class="esc-fondo" id="esc-fondo" aria-hidden="true"></div>
+  <div class="cat-bottom">
+  <p class="cat-sub">¿Para quién buscas?</p>
+  <div class="cat-grid">
+    <button class="cat-card" data-cat="hombre"><span class="cat-name">Hombre</span></button>
+    <button class="cat-card" data-cat="mujer"><span class="cat-name">Mujer</span></button>
+    <button class="cat-card" data-cat="ninos"><span class="cat-name">Niños</span></button>
+  </div>
+  </div>
+</div>
+<script>
+var FOTOS = [
+  'https://cdn.shopify.com/s/files/1/0262/2475/files/MIND001HEMP-1.jpg?v=1786456415',
+  'https://cdn.shopify.com/s/files/1/2100/4797/files/NAIRRI-NUD_1_e00d10ed-baf1-4d8a-be94-981c6b1080f1.jpg?v=1762459502',
+  'https://m.media-amazon.com/images/I/71lYRZS2qZL._SX700_.jpg',
+  'https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100271873_SLC_eCom.jpg?v=1781006166',
+  'https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31110015_1l.jpg?v=1794168340'
+];
+var fondo = document.getElementById('esc-fondo');
+FOTOS.forEach(function(src, i){
+  var d = document.createElement('div');
+  d.className = 'esc-slide' + (i === 0 ? ' on' : '');
+  var b = document.createElement('img'); b.className = 'esc-blur'; b.src = src; b.alt = '';
+  var m = document.createElement('img'); m.className = 'esc-main'; m.src = src; m.alt = '';
+  d.appendChild(b); d.appendChild(m); fondo.appendChild(d);
+});
+var idx = 0;
+setInterval(function(){
+  var slides = fondo.children;
+  slides[idx].classList.remove('on');
+  idx = (idx + 1) % slides.length;
+  slides[idx].classList.add('on');
+}, 8000);
+</script>
+</body>
+</html>
