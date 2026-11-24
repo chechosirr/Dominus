@@ -42808,44 +42808,6 @@ var ZAPATOS = [
   "subcat": "niña"
  },
  {
-  "codigo": "DOM-17678",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Glyde Sola Jr RM Softball Cleats (Toddler/Little Kid/Big Kid) — Blue Calm/White/Blue Calm",
-  "genero": "Niños",
-  "precio": 40.0,
-  "precio_c": 1471,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71YpFG-5fYL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61EXXAtU4cL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61Vdx17ISDL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61c2AQYPjkL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "niño"
- },
- {
   "codigo": "DOM-17680",
   "marca": "New Balance",
   "nombre": "New Balance Fresh Foam Arishi v4 Bungee Lace with Hook-and-Loop Top Strap (Infant/Toddler) — Team Navy/Electric Red",
@@ -42879,44 +42841,6 @@ var ZAPATOS = [
   ],
   "categoria": "Deportivos",
   "subcat": "niña"
- },
- {
-  "codigo": "DOM-17683",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Leadoff Icon Low RM Jr. Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/Black/White",
-  "genero": "Niños",
-  "precio": 41.99,
-  "precio_c": 1544,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71s180NZYKL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71zmaTILghL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71zCANeDsoL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71QG3saCVqL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "niño"
  },
  {
   "codigo": "DOM-17684",
@@ -43017,44 +42941,6 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "niña"
- },
- {
-  "codigo": "DOM-17689",
-  "marca": "adidas",
-  "nombre": "adidas Adizero Impact Molded 2.0 Baseball (Toddler/Little Kid/Big Kid) — Solar Slime/Silver Metallic/Black",
-  "genero": "Niños",
-  "precio": 39.25,
-  "precio_c": 1443,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71w6gVOdkxL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71jS3Qd2PmL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81JuMk-8DPL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71o6sixe6LL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
   ],
   "categoria": "Deportivos",
   "subcat": "niña"
@@ -43258,44 +43144,6 @@ var ZAPATOS = [
   "subcat": "niña"
  },
  {
-  "codigo": "DOM-17697",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Leadoff Icon Mid RM Jr Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/White/Black",
-  "genero": "Niños",
-  "precio": 47.0,
-  "precio_c": 1728,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71Knq2KxqVL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/7121OsGrlyL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/7153+v1C-lL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71aW7Dv2j+L._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "niño"
- },
- {
   "codigo": "DOM-17698",
   "marca": "adidas",
   "nombre": "adidas Tensor Run 4.0 Shoes (Little Kid) — Crystal Linen/Black/White",
@@ -43356,44 +43204,6 @@ var ZAPATOS = [
    "8C",
    "9C",
    "10C"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "niño"
- },
- {
-  "codigo": "DOM-17707",
-  "marca": "adidas",
-  "nombre": "adidas Adizero Impact 2.0 Molded Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/White/White",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71qiVW5Gu+L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71boqDAcxcL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/711X3gUJKnL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71qkQIpB+hL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
   ],
   "categoria": "Deportivos",
   "subcat": "niño"
@@ -43896,44 +43706,6 @@ var ZAPATOS = [
   ],
   "categoria": "Deportivos",
   "subcat": "niño"
- },
- {
-  "codigo": "DOM-17732",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Harper 10 Jr RM Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/Stone/Black",
-  "genero": "Niños",
-  "precio": 52.0,
-  "precio_c": 1912,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71eU6f1WWiL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71HCRrGf-CL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71PQ7tDeu7L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71DWX9BBjmL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "niña"
  },
  {
   "codigo": "DOM-17734",
@@ -46412,7 +46184,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "niña"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17811",
@@ -46931,7 +46703,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "niña"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17826",
@@ -47871,7 +47643,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "niña"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17853",
@@ -60012,7 +59784,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "niña"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18231",
@@ -60065,7 +59837,7 @@ var ZAPATOS = [
    "7Y"
   ],
   "categoria": "Formales",
-  "subcat": "niña"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18232",
@@ -62937,5 +62709,16404 @@ var ZAPATOS = [
    "11.5"
   ],
   "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18332",
+  "marca": "Nike",
+  "nombre": "Nike Air Force 1 Low Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR1822_20100_IF168.jpg?v=1775156931",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR1822_20100_IF059.jpg?v=1775297468",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR1822_20100_IF169.jpg?v=1775297468",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR1822_20100_IF060.jpg?v=1775297468"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Nike, pensados para los más pequeños (toddler). Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 8",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18333",
+  "marca": "Saucony",
+  "nombre": "Saucony Ride Millennium Pre-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB8_PS119.jpg?v=1775158480",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB8_PS034.jpg?v=1775643283",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB8_PS120.jpg?v=1775643283",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB8_PS035.jpg?v=1775643283"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Saucony, pensados para niños en edad preescolar. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 1 a 3",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18334",
+  "marca": "Jordan",
+  "nombre": "Jordan Son Of Mars Low Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20003_IF062.jpg?v=1776110942",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20003_IF064.jpg?v=1776110942",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20003_IF065.jpg?v=1776110942",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20003_IF063.jpg?v=1776110942"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para los más pequeños (toddler). Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Talla de niño disponible: 8",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "8"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18335",
+  "marca": "REEBOK",
+  "nombre": "Smash Edge - Youth",
+  "genero": "Niños",
+  "precio": 40.96,
+  "precio_c": 1506,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100240612_1.jpg?v=1755730898",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100240612_2.jpg?v=1755730898",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100240612_3.jpg?v=1755730898",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100240612_4.jpg?v=1755730898"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea REEBOK, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: Cream",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Cream"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18336",
+  "marca": "REEBOK",
+  "nombre": "Rush Runner Slip-On - Youth",
+  "genero": "Niños",
+  "precio": 32.96,
+  "precio_c": 1212,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100238555_1.jpg?v=1755730897",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100238555_2.jpg?v=1755730897",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100238555_3.jpg?v=1755730897",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100238555_4.jpg?v=1755730898"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea REEBOK, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Black",
+   "Diseño slip-on: se ponen sin cordones, ideal para niños independientes",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Black"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18337",
+  "marca": "DC SHOES",
+  "nombre": "Cure - Youth",
+  "genero": "Niños",
+  "precio": 49.94,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ADBS700090XNKS_1.jpg?v=1723589241",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ADBS700090XNKS_2.jpg?v=1723589241",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ADBS700090XNKS_3.jpg?v=1723589242",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ADBS700090XNKS_4.jpg?v=1723589242"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea DC SHOES, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: 04.0",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "04.0"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18338",
+  "marca": "PUMA",
+  "nombre": "FlexFocus Lite - Youth",
+  "genero": "Niños",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40151717_1.jpg?v=1769809092",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40151717_2.jpg?v=1769809092",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40151717_3.jpg?v=1769809092",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/40151717_4.jpg?v=1769809093"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea PUMA, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: Persian Blue",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Persian Blue"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18339",
+  "marca": "REEBOK",
+  "nombre": "Zig Dynamica - Youth",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_1.jpg?v=1789507951",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_2.jpg?v=1789507951",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_3.jpg?v=1789507951",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100272208_4.jpg?v=1789507951"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea REEBOK, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Vector Navy",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Vector Navy"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18340",
+  "marca": "REEBOK",
+  "nombre": "Rush Runner 6.0 - Youth",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_1.jpg?v=1789163610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_2.jpg?v=1789163610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_3.jpg?v=1789163610",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271856_4.jpg?v=1789163610"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea REEBOK, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Black",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Black"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18341",
+  "marca": "ADIDAS",
+  "nombre": "VL Court 3.0 - Toddler",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9156_1_ec5fdcbe-0f51-41ad-8bdf-41187a5ce33f.jpg?v=1794505904",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9156_2_0ae20ff4-0063-42fa-a1d9-b66739164434.jpg?v=1794505942",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9156_3_39e9c866-d924-4010-ba4d-27ead3c53272.jpg?v=1790723049",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ID9156_4_683f5539-f20b-4185-8783-15c6a4d3a691.jpg?v=1790723049"
+  ],
+  "descripcion": "Tenis de cancha para niño de la línea ADIDAS, pensados para los más pequeños (toddler). Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para la cancha",
+   "Tallas de niño disponibles: 04.0 a 10.0",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "04.0",
+   "05.0",
+   "07.0",
+   "06.0",
+   "08.0",
+   "09.0",
+   "10.0"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18342",
+  "marca": "SKECHERS",
+  "nombre": "Skech-O-Saurus - Toddler",
+  "genero": "Niños",
+  "precio": 44.96,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/402283NOLV_1.jpg?v=1754505547",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/402283NOLV_2.jpg?v=1754505547",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/402283NOLV_3.jpg?v=1754505547",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/402283NOLV_4.jpg?v=1754505547"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea SKECHERS, pensados para los más pequeños (toddler). Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Luces en la suela que se encienden al caminar",
+   "Tallas de niño disponibles: 07.0 a 10.0",
+   "Cierre de cordones clásico para un ajuste seguro"
+  ],
+  "tallas": [
+   "07.0",
+   "06.0",
+   "05.0",
+   "08.0",
+   "09.0",
+   "10.0"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18343",
+  "marca": "PUMA",
+  "nombre": "Caven 2.0 - Toddler",
+  "genero": "Niños",
+  "precio": 48.94,
+  "precio_c": 1800,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/39384026_1.jpg?v=1715308468",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/39384026_2.jpg?v=1715308468",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/39384026_3.jpg?v=1715308468",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/39384026_4.jpg?v=1715308468"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea PUMA, pensados para los más pequeños (toddler). Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Tallas de niño disponibles: 05.0 a 09.0",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "05.0",
+   "06.0",
+   "08.0",
+   "09.0"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18344",
+  "marca": "ADIDAS",
+  "nombre": "Tensaur Run - Kids",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6695_1.jpg?v=1795215080",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6695_2.jpg?v=1795215081",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6695_3.jpg?v=1795215080",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6695_4.jpg?v=1795215080"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea ADIDAS, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Black",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Black"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18345",
+  "marca": "CHARACTER",
+  "nombre": "Spiderman Athletic Lighted - Toddler",
+  "genero": "Niños",
+  "precio": 34.96,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25R0303A1_1.jpg?v=1771625097",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25R0303A1_2.jpg?v=1771625097",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25R0303A1_3.jpg?v=1771625097",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/SPA25R0303A1_4.jpg?v=1771625097"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea CHARACTER, pensados para los más pequeños (toddler). Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Luces en la suela que se encienden al caminar",
+   "Talla de niño disponible: Navy",
+   "Cierre de cordones clásico para un ajuste seguro"
+  ],
+  "tallas": [
+   "Navy"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18346",
+  "marca": "SKECHERS",
+  "nombre": "Bounder - Kids",
+  "genero": "Niños",
+  "precio": 39.96,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/403905LRED_1.jpg?v=1764701827",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/403905LRED_2.jpg?v=1764701827",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/403905LRED_3.jpg?v=1764701827",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/403905LRED_4.jpg?v=1764701827"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea SKECHERS, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: Red",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Red"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18347",
+  "marca": "REEBOK",
+  "nombre": "Classic Nylon - Kids",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269452_1.jpg?v=1794944859",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269452_2.jpg?v=1794944859",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269452_3.jpg?v=1794944859",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269452_4.jpg?v=1794944859"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea REEBOK, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: Dark Indigo",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Dark Indigo"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18348",
+  "marca": "NIKE",
+  "nombre": "Flex Runner 4 - Toddler",
+  "genero": "Niños",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2895400_1_1e080d30-5c76-4c75-96b8-d365d49c8db5.jpg?v=1787093504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2895400_2_be4ed28b-ae14-4af1-8f4e-50522f85e636.jpg?v=1787093504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2895400_3_fe968f94-257f-413d-8edb-0ad21aa78437.jpg?v=1787093504",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF2895400_4_fadc9f01-cc8b-4f12-aa99-818deb4ae78f.jpg?v=1787093504"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea NIKE, pensados para los más pequeños (toddler). Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Midnight Navy",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Midnight Navy"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18349",
+  "marca": "CHARACTER",
+  "nombre": "Sonic Retro Runner - Kids",
+  "genero": "Niños",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3164S_1.jpg?v=1791496088",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3164S_2.jpg?v=1791496089",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3164S_3.jpg?v=1791496089",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3164S_4.jpg?v=1791496089"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea CHARACTER, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Black",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Black"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18350",
+  "marca": "CHARACTER",
+  "nombre": "Sonic Court - Kids",
+  "genero": "Niños",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3145_1.jpg?v=1791496085",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3145_2.jpg?v=1791496085",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3145_3.jpg?v=1791496085",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECSO3145_4.jpg?v=1791496085"
+  ],
+  "descripcion": "Tenis de cancha para niño de la línea CHARACTER, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para la cancha",
+   "Talla de niño disponible: Black",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Black"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18351",
+  "marca": "LEE",
+  "nombre": "Specter Perf - Kids",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000261096_1.jpg?v=1786053863",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000261096_2.jpg?v=1786053863",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000261096_3.jpg?v=1786053863",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000261096_4.jpg?v=1786053863"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea LEE, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: White Mist",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "White Mist"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18352",
+  "marca": "REEBOK",
+  "nombre": "Royal Prime 2.0 - Kids",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268752Y_1.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268752Y_2.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268752Y_3.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268752Y_4.jpg?v=1789422061"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea REEBOK, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: Grey",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Grey"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18353",
+  "marca": "SKECHERS",
+  "nombre": "Skech Cage - Kids",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404842LBKRD_1.jpg?v=1791583647",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404842LBKRD_2.jpg?v=1791583647",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404842LBKRD_3.jpg?v=1791583647",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/404842LBKRD_4.jpg?v=1791583647"
+  ],
+  "descripcion": "Tenis deportivos para niño de la línea SKECHERS, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el deporte y el juego diario",
+   "Talla de niño disponible: Red",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Red"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18354",
+  "marca": "Nike",
+  "nombre": "Nike Ja 3 'Animal Pack' Grade-School",
+  "genero": "Niños",
+  "precio": 99.98,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV2622_20800_GS060.jpg?v=1784659454",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV2622_20800_GS062.jpg?v=1784659454",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV2622_20800_GS063.jpg?v=1784659454",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV2622_20800_GS061.jpg?v=1784659454"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 3.5 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18355",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Retro Low OG 'Phantom and Pine Green' Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2300_20030_GS064.jpg?v=1779383934",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2300_20030_GS066.jpg?v=1779383934",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2300_20030_GS067.jpg?v=1779383934",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2300_20030_GS065.jpg?v=1779383934"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 3.5 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18356",
+  "marca": "Converse",
+  "nombre": "Converse SHAI 001 Lace Up 'Cheetah' Grade-School",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Converse_A24986C_GS007.jpg?v=1787937088",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Converse_A24986C_GS008.jpg?v=1787937088",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Converse_A24986C_GS010.jpg?v=1787937089",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Converse_A24986C_GS009.jpg?v=1787937089"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Converse, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18357",
+  "marca": "Jordan",
+  "nombre": "Jordan Max Aura Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9214_20006_GS100.jpg?v=1783445401",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9214_20006_GS102.jpg?v=1783445401",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9214_20006_GS103.jpg?v=1783445401",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9214_20006_GS101.jpg?v=1783445401"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18358",
+  "marca": "Asics",
+  "nombre": "Asics GEL-1130 Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/1204A169-109.jpg?v=1783372545",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/1204A169-109-A.jpg?v=1783372554",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/1204A169-109-B.jpg?v=1783372558",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/1204A169-109-C.jpg?v=1783372563"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Asics, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18359",
+  "marca": "Asics",
+  "nombre": "Asics GEL-CUMULUS 16 Grade-School",
+  "genero": "Niños",
+  "precio": 99.98,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20001_GS046.jpg?v=1782741907",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20001_GS048.jpg?v=1782741907",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20001_GS049.jpg?v=1782741907",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20001_GS047.jpg?v=1782741907"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Asics, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18360",
+  "marca": "Nike",
+  "nombre": "Nike S.T. Dynamite Grade-School",
+  "genero": "Niños",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO0281_20100_GS079.jpg?v=1782417388",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO0281_20100_GS082.jpg?v=1782417388",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO0281_20100_GS080.jpg?v=1782417388",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO0281_20100_GS083.jpg?v=1782417388"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18361",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Mid Grade-School",
+  "genero": "Niños",
+  "precio": 89.98,
+  "precio_c": 3309,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IV6050_20541_GS016.jpg?v=1781702391",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IV6050_20541_GS018.jpg?v=1781702391",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IV6050_20541_GS019.jpg?v=1781702391",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IV6050_20541_GS017.jpg?v=1781702391"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18362",
+  "marca": "Jordan",
+  "nombre": "Jordan Spizike Low Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FQ3950_20110_GS002.jpg?v=1781702098",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FQ3950_20110_GS004.jpg?v=1781702098",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FQ3950_20110_GS0051.jpg?v=1781709366",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FQ3950_20110_GS003.jpg?v=1781702098"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18363",
+  "marca": "New Balance",
+  "nombre": "New Balance 2010 Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G201088B_GS016.jpg?v=1781025542",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G201088B_GS018.jpg?v=1781025542",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G201088B_GS020.jpg?v=1781025542",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G201088B_GS017.jpg?v=1781025542"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea New Balance, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18364",
+  "marca": "Nike",
+  "nombre": "Nike Air Force 1 Low Tech Essentials Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM7662_20100_GS023.jpg?v=1780071435",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM7662_20100_GS025.jpg?v=1780071435",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM7662_20100_GS026.jpg?v=1780071435",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IM7662_20100_GS024.jpg?v=1780071435"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18365",
+  "marca": "Adidas",
+  "nombre": "Adidas Pro Model Grade-School",
+  "genero": "Niños",
+  "precio": 77.93,
+  "precio_c": 2866,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS064.jpg?v=1779983325",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS066.jpg?v=1779983325",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS067.jpg?v=1779983325",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_HQ2515_GS065.jpg?v=1779983325"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Adidas, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18366",
+  "marca": "Nike",
+  "nombre": "Nike Air Griffey Max 1 'White and Fresh Water' Grade-School",
+  "genero": "Niños",
+  "precio": 99.98,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/DD8561-100.jpg?v=1613148182"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18367",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Low SE Grade-School",
+  "genero": "Niños",
+  "precio": 77.93,
+  "precio_c": 2866,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2310_20100_GS046.jpg?v=1776779112",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2310_20100_GS048.jpg?v=1776779112",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2310_20100_GS049.jpg?v=1776779112",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR2310_20100_GS047.jpg?v=1776779112"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18368",
+  "marca": "Jordan",
+  "nombre": "Jordan Sixty Plus Low Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IO1866_20002_GS083.jpg?v=1775504692",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IO1866_20002_GS085.jpg?v=1775504692",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IO1866_20002_GS086.jpg?v=1775504692",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IO1866_20002_GS084.jpg?v=1775504692"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18369",
+  "marca": "Jordan",
+  "nombre": "Jordan True Flight Grade-School",
+  "genero": "Niños",
+  "precio": 99.98,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20017_GS088.jpg?v=1790088563",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20017_GS090.jpg?v=1790088563",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20017_GS092.jpg?v=1790088563",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343795_20017_GS089.jpg?v=1790088563"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18370",
+  "marca": "Nike",
+  "nombre": "Nike Kobe Air Force 1 Low 'Armory Blue' Grade-School",
+  "genero": "Niños",
+  "precio": 89.98,
+  "precio_c": 3309,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO4610_20100_GS111.jpg?v=1788200994",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO4610_20100_GS113.jpg?v=1788200994",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO4610_20100_GS115.jpg?v=1788200994",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO4610_20100_GS112.jpg?v=1788200994"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18371",
+  "marca": "Adidas",
+  "nombre": "Adidas Top Ten Hi OG Grade-School",
+  "genero": "Niños",
+  "precio": 89.98,
+  "precio_c": 3309,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KJ4761_GS031.jpg?v=1787072080",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KJ4761_GS033.jpg?v=1787072080",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KJ4761_GS035.jpg?v=1787072080",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KJ4761_GS032.jpg?v=1787072080"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Adidas, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18372",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Low Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX3530_20010_GS087.jpg?v=1786469504",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX3530_20010_GS089.jpg?v=1786469504",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX3530_20010_GS091.jpg?v=1786469504",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX3530_20010_GS088.jpg?v=1786469505"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18373",
+  "marca": "Nike",
+  "nombre": "Nike KD 6 'Meteorology' Grade-School",
+  "genero": "Niños",
+  "precio": 99.98,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1287_20001_GS103.jpg?v=1785444203",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1287_20001_GS105.jpg?v=1785444203",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1287_20001_GS107.jpg?v=1785444203",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1287_20001_GS104.jpg?v=1785444203"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18374",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Arc 96 'Fresh Set' Grade-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6015038_20035_M059.jpg?v=1786037438",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6015038_20035_M061.jpg?v=1786043818",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6015038_20035_M063.jpg?v=1786037438",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6015038_20035_M060.jpg?v=1786037438"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Under Armour, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18375",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Retro High OG 'Love Letter' Grade-School",
+  "genero": "Niños",
+  "precio": 99.98,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20201-GS002.jpg?v=1785256951",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20201-GS004.jpg?v=1785256951",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20201-GS006.jpg?v=1785256951",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20201-GS003.jpg?v=1785256951"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18376",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Tech Runner Grade-School",
+  "genero": "Niños",
+  "precio": 77.93,
+  "precio_c": 2866,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6010795_20002_GS011.jpg?v=1784660389",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6010795_20002_GS013.jpg?v=1784660389",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6010795_20002_GS014.jpg?v=1784660389",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/under_20armour_6010795_20002_GS012.jpg?v=1784660389"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Under Armour, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18377",
+  "marca": "Nike",
+  "nombre": "Nike Air Max 95 Big Bubble 'Solar Red' Grade-School",
+  "genero": "Niños",
+  "precio": 99.98,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3914_20060_GS009.jpg?v=1784900188",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3914_20060_GS011.jpg?v=1784900188",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3914_20060_GS013.jpg?v=1784900188",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3914_20060_GS010.jpg?v=1784900188"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18378",
+  "marca": "New Balance",
+  "nombre": "New Balance 740 'Letters to Legacy' Grade-School",
+  "genero": "Niños",
+  "precio": 82.93,
+  "precio_c": 3050,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G74081M_GS016.jpg?v=1780071016",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G74081M_GS018.jpg?v=1780071016",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G74081M_GS019.jpg?v=1780071016",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_G74081M_GS017.jpg?v=1780071016"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea New Balance, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 5 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18379",
+  "marca": "Nike",
+  "nombre": "Nike Air Max 95 Big Bubble PRM Grade-School",
+  "genero": "Niños",
+  "precio": 129.98,
+  "precio_c": 4780,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF7054_20077_GS053.jpg?v=1794346824",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF7054_20077_GS055.jpg?v=1794346824",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF7054_20077_GS057.jpg?v=1794346824",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF7054_20077_GS054.jpg?v=1794346824"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Nike, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18380",
+  "marca": "NEW BALANCE",
+  "nombre": "NEW BALANCE 1906 Lace 'Rose Sugar Ice Wine' Big Kids' Shoes",
+  "genero": "Niños",
+  "precio": 129.94,
+  "precio_c": 4778,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/GC1906CK_1.jpg?v=1783352081",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/GC1906CK_3.jpg?v=1783352081",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/GC1906CK_2.jpg?v=1783352081"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea NEW BALANCE, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 5.5-M a 4.5-M",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "5.5-M",
+   "5-M",
+   "4.5-M"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18381",
+  "marca": "NEW BALANCE",
+  "nombre": "NEW BALANCE 1906R 'Phantom Black' Big Kids' Shoes",
+  "genero": "Niños",
+  "precio": 129.94,
+  "precio_c": 4778,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/GC1906EX_1.jpg?v=1783352081",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/GC1906EX_3.jpg?v=1783352081",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/GC1906EX_2.jpg?v=1783352081"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea NEW BALANCE, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4.5-M a 6.5-M",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4.5-M",
+   "6.5-M"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18382",
+  "marca": "NEW BALANCE",
+  "nombre": "NEW BALANCE 9060 Lace 'Oxford Blue Grey Matter' Big Kids' Shoes",
+  "genero": "Niños",
+  "precio": 134.94,
+  "precio_c": 4962,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/G906034H_1.jpg?v=1783352080",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/G906034H_3.jpg?v=1783352081",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/G906034H_2.jpg?v=1783352081"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea NEW BALANCE, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: 5.5-M",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "5.5-M"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18383",
+  "marca": "JORDAN",
+  "nombre": "Jordan Spizike Low 'Black Cat' Big Kids' Shoes",
+  "genero": "Niños",
+  "precio": 149.95,
+  "precio_c": 5514,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_FQ3950-001_PHSRH000-2000_038bb0a6-21da-4516-9461-ca2405c33da7.jpg?v=1752182405",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_FQ3950-001_PHCFH001-2000_be5ff9e4-babd-4169-ad85-80fcfd918827.jpg?v=1752182405",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/AURORA_FQ3950-001_PHSLH001-2000_6cd1531a-cbb1-464a-aa47-cdb1b51a4d3e.jpg?v=1752182405"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea JORDAN, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Talla de niño disponible: 4.5",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4.5"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18384",
+  "marca": "NIKE",
+  "nombre": "Air DT Max 96 Low Grade School Basketball Shoes (Black/Metallic Gold/White)",
+  "genero": "Niños",
+  "precio": 129.93,
+  "precio_c": 4778,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bd5de476881fd14d8a629fc1d6ca5ae5.jpg?v=1778859661",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/05fc53c1d3972f26da389c615314cc3a.jpg?v=1778859661",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8abb16f62c26f213a2308e8a87926064.jpg?v=1778859661",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bc22db93e01439c8f17c36285ee279d6.jpg?v=1778859661"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea NIKE, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4Y a 7Y",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18385",
+  "marca": "NIKE",
+  "nombre": "Air Diamond Turf II Grade School Basketball Shoes (Black/White/Fire Red/Metallic Gold)",
+  "genero": "Niños",
+  "precio": 119.93,
+  "precio_c": 4410,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/fe89f4ed480abef76e91f06245505b2d.jpg?v=1788291946",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a81b8baf0f988e116914bb8fb04e14af.jpg?v=1788291946",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/eaaffc860a1040b730f9b7728f1fad80.jpg?v=1788291946",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7dff7639734dfb1dae8e6d7d99f600fc.jpg?v=1788291946"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea NIKE, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4Y a 7Y",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18386",
+  "marca": "NIKE",
+  "nombre": "Air Foamposite Pro Gym Red Grade School Basketball Shoes (Gym Red/Black)",
+  "genero": "Niños",
+  "precio": 144.92,
+  "precio_c": 5329,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/323cb8053761af70da87adda99ce523b.jpg?v=1779469168",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1bf662cfb10285d80539b13a6ebec05e.jpg?v=1779469168",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/905e981d5ecc2ae59b51edf53d477b23.jpg?v=1779469168",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3dd1b07daa1cd415486e0af621f6ca05.jpg?v=1779469168"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea NIKE, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Talla de niño disponible: 5Y",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "5Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18387",
+  "marca": "NIKE",
+  "nombre": "Air Diamond Turff II Preschool Basketball Shoes (Black/White/Fire Red/Metallic Gold)",
+  "genero": "Niños",
+  "precio": 119.93,
+  "precio_c": 4410,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/55cb52c9fd99bafe3e01360ea6457d33.jpg?v=1788291989",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/660d3d01b0b070e50ec24a892d2f7ff0.jpg?v=1788291989",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3e3693ba885e6acaa29ddbdaa264250b.jpg?v=1788291989",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/2da1b4c5ef5ced8e23da17ad449975c0.jpg?v=1788291989"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea NIKE, pensados para niños en edad preescolar. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 12C a 3Y",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18388",
+  "marca": "NIKE",
+  "nombre": "Air Force 1 Low Wolf Grade School Lifestyle Shoes (Black/University Red/Metallic Silver/Black)",
+  "genero": "Niños",
+  "precio": 129.95,
+  "precio_c": 4779,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9eda0f9ef59a905c03f679d31799b0f1.jpg?v=1792444535",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4e7db75f7636d4526c5cbc7f2a0ec810.jpg?v=1792444535",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d886555f4451484627d01ecd47ea7ea1.jpg?v=1792444535",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6fff9d839dca62cf5f61fc6b936336dd.jpg?v=1792444535"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea NIKE, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 3.5Y a 7Y",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18389",
+  "marca": "REEBOK",
+  "nombre": "Zig Dynamica - Kids",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100267867_1.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100267867_2.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100267867_3.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100267867_4.jpg?v=1789422065"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea REEBOK, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Navy",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Navy"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18390",
+  "marca": "REEBOK",
+  "nombre": "Rush Runner 6.0 - Kids",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_1.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_2.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_3.jpg?v=1789422065",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100271867_4.jpg?v=1789422065"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea REEBOK, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Black",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Black"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18391",
+  "marca": "REEBOK",
+  "nombre": "Rush Runner Slip-On - Kids",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269649_1.jpg?v=1789163609",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269649_2.jpg?v=1789163609",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269649_3.jpg?v=1789163609",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269649_4.jpg?v=1789163609"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea REEBOK, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: Black",
+   "Diseño slip-on: se ponen sin cordones, ideal para niños independientes",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "Black"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18392",
+  "marca": "ADIDAS",
+  "nombre": "VL Court 3.0 - Kids",
+  "genero": "Niños",
+  "precio": 49.96,
+  "precio_c": 1837,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI9174_1.jpg?v=1794947141",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI9174_2.jpg?v=1794947141",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI9174_3.jpg?v=1794947141",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI9174_4.jpg?v=1794947141"
+  ],
+  "descripcion": "Tenis de cancha para niño de la línea ADIDAS, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para la cancha",
+   "Talla de niño disponible: (Toy Story) Cow",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "(Toy Story) Cow"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18393",
+  "marca": "CHARACTER",
+  "nombre": "Spiderman Court - Kids",
+  "genero": "Niños",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML3166_1.jpg?v=1790719529",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML3166_2.jpg?v=1790719529",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML3166_3.jpg?v=1790719529",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML3166_4.jpg?v=1790719529"
+  ],
+  "descripcion": "Tenis de cancha para niño de la línea CHARACTER, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para la cancha",
+   "Talla de niño disponible: White",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "White"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18394",
+  "marca": "ADIDAS",
+  "nombre": "Tensaur Run - Kids",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6698_1.jpg?v=1795220381",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6698_2.jpg?v=1795220381",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6698_3.jpg?v=1795220381",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ6698_4.jpg?v=1795220381"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea ADIDAS, pensados para niños. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Talla de niño disponible: White",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "White"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18395",
+  "marca": "Saucony",
+  "nombre": "Saucony Ride Millennium Grade-School",
+  "genero": "Niños",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB2_GS109.jpg?v=1775158413",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB2_GS004.jpg?v=1775642896",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB2_GS110.jpg?v=1775642897",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SYF25BB2_GS005.jpg?v=1775642897"
+  ],
+  "descripcion": "Tenis para correr para niño de la línea Saucony, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para correr y jugar",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18396",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Retro Low OG 'Banned' Grade-School",
+  "genero": "Niños",
+  "precio": 77.93,
+  "precio_c": 2866,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IW6277_20001_GS069.jpg?v=1778768890",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IW6277_20001_GS071.jpg?v=1778768890",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IW6277_20001_GS073.jpg?v=1778768890",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IW6277_20001_GS070.jpg?v=1778771963"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18397",
+  "marca": "Converse",
+  "nombre": "Converse SHAI 001 Lace Up 'Berry' Grade-School",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/converse_A24967C_GS002.jpg?v=1786035178",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/converse_A24967C_GS004.jpg?v=1786035178",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/converse_A24967C_GS006_00b27054-4290-453d-93c8-6b1127768e75.jpg?v=1786035178",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/converse_A24967C_GS003.jpg?v=1786036668"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Converse, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18398",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 4 Retro 'Tour Yellow' Grade-School",
+  "genero": "Niños",
+  "precio": 149.98,
+  "precio_c": 5515,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_408452_20102_GS081.jpg?v=1788197381",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_408452_20102_GS083.jpg?v=1788197381",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_408452_20102_GS085.jpg?v=1788197381",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_408452_20102_GS082.jpg?v=1788197381"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18399",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 3 Retro 'Sail and University Red' Grade-School",
+  "genero": "Niños",
+  "precio": 109.98,
+  "precio_c": 4044,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DM0967_20103_GS032.jpg?v=1778511346",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DM0967_20103_GS035.jpg?v=1778511346",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DM0967_20103_GS037.jpg?v=1778511346",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DM0967_20103_GS033.jpg?v=1778511346"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18400",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Retro High OG 'Royal' Grade-School",
+  "genero": "Niños",
+  "precio": 119.98,
+  "precio_c": 4412,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20005_GS016.jpg?v=1792677637",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20005_GS018.jpg?v=1792677637",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20005_GS020.jpg?v=1792677637",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_FD1437_20005_GS017.jpg?v=1792682152"
+  ],
+  "descripcion": "Tenis de baloncesto para niño de la línea Jordan, pensados para niños grandes. Cómodos y resistentes para el deporte, la escuela y el juego diario.",
+  "detalles": [
+   "Ideales para el baloncesto",
+   "Tallas de niño disponibles: 4 a 7",
+   "Cierre de cordones clásico para un ajuste seguro",
+   "Suela de goma con buena tracción para superficies de juego"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18401",
+  "marca": "Saucony",
+  "nombre": "Omni 9 Preschool Lifestyle Shoes (Fuchsia/Iridescent)",
+  "genero": "Niños",
+  "precio": 37.96,
+  "precio_c": 1396,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/272b60d1f7be8cde02c5b935f2839166.jpg?v=1754334806",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5fe01a16a07deb5acf8da65629ec6a33.jpg?v=1754334807",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8d51fd577a26845e3c49c14ddd8df0a6.jpg?v=1754334807",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/452d65943e4b72880ecba3a61602a621.jpg?v=1754334807"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "12C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18402",
+  "marca": "Saucony",
+  "nombre": "Ride Millenium Grade School Lifestyle Shoes (Pink/Black)",
+  "genero": "Niños",
+  "precio": 37.96,
+  "precio_c": 1396,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/71845fa79cd58436c2cdffeaf8084d66_4c7a6bdc-2432-4bd6-bcdf-3dd73e1faa40.jpg?v=1754082843",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/be0ea694beb192abda0bff16c32e4124_cfbf9ead-267d-4503-939a-a7b3290331d8.jpg?v=1754082843",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/12756ee541c658dfb4f4fadb4e657d34_3151bd91-a82f-410b-9744-23c7a6a11254.jpg?v=1754082843",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/e0d2c0d5ebe7d7aeebcbe4414a2f12d2_3f9c3f9c-5c91-474a-9bd0-da375bf9d1c0.jpg?v=1754082843"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4.5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18403",
+  "marca": "Nike",
+  "nombre": "V5 RNR Preschool Running Shoes (Taupe Haze/Burgundy Ash/Tattoo Silt)",
+  "genero": "Niños",
+  "precio": 37.96,
+  "precio_c": 1396,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/92552b0670000e233ed40efe0358b36e.jpg?v=1771288101",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/53500255bf27c44a2e1c4f4739fd0c5c.jpg?v=1771288101",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c64f5c7aa3ba7c55b55e0b6687ea285e.jpg?v=1771288101",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a6a4f95bcd404931790b18e20e6fa3f8.jpg?v=1771288101"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "11C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18404",
+  "marca": "Saucony",
+  "nombre": "Ride Millenium Preschool Running Shoes (Pink)",
+  "genero": "Niños",
+  "precio": 47.96,
+  "precio_c": 1764,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/SY126W18_01.jpg?v=1784914889"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18405",
+  "marca": "Nike",
+  "nombre": "V5 RNR Grade School Running Shoes (Pearl Pink/Pink Rise)",
+  "genero": "Niños",
+  "precio": 56.96,
+  "precio_c": 2095,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/62e41a846efdafa671103615af0ee5a3.jpg?v=1788980213",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/28b20082518c8f98fac8a8c934f2c56e.jpg?v=1788980213",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/428d151ba4bbf7b508a66b2f3848d79a.jpg?v=1788980213",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bc5ed0871ad5b2e9ed9b11b908c2a49b.jpg?v=1788980213"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18406",
+  "marca": "Nike",
+  "nombre": "V5 RNR Preschool Running Shoes (Pearl Pink/Pink Rise)",
+  "genero": "Niños",
+  "precio": 57.96,
+  "precio_c": 2131,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8349eb1457eb4997eb7c6e94eb0b329d.jpg?v=1788980016",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3eb79f7a0f1604b84e7aad7f3d64cccf.jpg?v=1788980016",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/96f73faf5067262c78c7636a66262095.jpg?v=1788980016",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/35cd4d8ca97feb169e63ec384a14982c.jpg?v=1788980016"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18407",
+  "marca": "Saucony",
+  "nombre": "Omni 9 Grade School Lifestyle Shoes (Pink/Silver)",
+  "genero": "Niños",
+  "precio": 57.96,
+  "precio_c": 2131,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6700bfaf951e374e1a89c0d75125b034.jpg?v=1754334894",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/78eaf118f5852fc54d7db6417da8d63a.jpg?v=1754334894",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bae9e4ca3adbdf727200e337f9dd4874.jpg?v=1754334894",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/58f1f3aed8773da9a974aee835d7cf21.jpg?v=1754334894"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18408",
+  "marca": "Nike",
+  "nombre": "Vomero 5 Grade School Running Shoes (Taupe Haze/Tatto Silt/Red/Pale Ivory)",
+  "genero": "Niños",
+  "precio": 67.97,
+  "precio_c": 2500,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a724da69064b774995c3b88ca5ead24f.jpg?v=1770685217",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6e8f829cc5449e50d4355ed02af9c260.jpg?v=1770685217",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a2e13be383a80a2dd48d939ac916c2a8.jpg?v=1770685217",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8318604e387d0004dd62d47ad772e757.jpg?v=1770685217"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18409",
+  "marca": "Saucony",
+  "nombre": "Progrid Guide 7 Grade School Running Shoes (Rose/Gold)",
+  "genero": "Niños",
+  "precio": 68.96,
+  "precio_c": 2536,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/SY126Y06_01.jpg?v=1784915180"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18410",
+  "marca": "ASICS",
+  "nombre": "Gel 1130 Preschool Running Shoes (White/Dragon Fruit)",
+  "genero": "Niños",
+  "precio": 72.96,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8f4f2543502d77e790b1c128ed3c4102.jpg?v=1782863797",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/878adb3fd60c1d14a391edb02b9f206a.jpg?v=1782863797",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c18bab25925c20465b16e333d06e315f.jpg?v=1782863797",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f7b6aa78f5f80773e96ef0e4791be876.jpg?v=1782863797"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18411",
+  "marca": "Saucony",
+  "nombre": "ProGrid Guide 7 Preschool Running Shoes (Pink/Black)",
+  "genero": "Niños",
+  "precio": 77.97,
+  "precio_c": 2867,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/13a643f25abb2c0fed387f43ede74f16.jpg?v=1788301719",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/184fe3d5a96fdf38f8ef3ac78a0549d9.jpg?v=1788301719",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/e38bb51dbf7df65a4b232f6806b4546b.jpg?v=1788301719",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0cd0bc7fbc4ba3b700ff5f595f62af9e.jpg?v=1788301719"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18412",
+  "marca": "New Balance",
+  "nombre": "530 Grade School Running Shoes (White/Pink Sugar)",
+  "genero": "Niños",
+  "precio": 87.96,
+  "precio_c": 3235,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/e9f66b03a7c240ccc2f03b0f242c9bce_95b4efe6-ae97-4364-bf26-3bd1bae203c0.jpg?v=1754082922",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5c195d31b31dbc0b8382340d4f64dd22_2b644ab4-311d-4199-8cb6-d2a60b56f0f2.jpg?v=1754082922",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a16a57e78c0d98b5c0b9744a8bcd1f2f_90fcc103-ba72-44b2-a092-f5d96f5f5d34.jpg?v=1754082922",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/40f0f5b0f7d2e79fcbaf9bf4a258a1d2_577d0270-03af-4ec5-b316-973d8ca3c427.jpg?v=1754082922"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5.5Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18413",
+  "marca": "Nike",
+  "nombre": "V5 RNR Grade School Running Shoes (Black/Black/Pink Rise)",
+  "genero": "Niños",
+  "precio": 94.99,
+  "precio_c": 3493,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7aec2e639eb2311dbfd6f13ef938ddfb.jpg?v=1782847136",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d475f0a49179be9a8b15d389cc24bd3c.jpg?v=1782847136",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b12976de7534028b1a7c10926604d57a.jpg?v=1782847136",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/430f5c0c471c11be1b32d8787b1a6b86.jpg?v=1782847136"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18414",
+  "marca": "Nike",
+  "nombre": "Air Max Moto 2K Grade School Running Shoes (White/Pink Foam/Pure Platinum)",
+  "genero": "Niños",
+  "precio": 97.97,
+  "precio_c": 3603,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/950b0ad9d0f19cdd594422a60fb488ab.jpg?v=1784578339",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/ea116c8f3742b8974347b973eaa4c22d.jpg?v=1784578340",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/28b330ca1a7fbc092ec4cc8341c904ec.jpg?v=1784578340",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1f40ca06a8819b62ad802d2b1c758623.jpg?v=1784578340"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18415",
+  "marca": "Nike",
+  "nombre": "Air Max Moto 2K Grade School Running Shoes (Black/Pink Foam/Pink Rise)",
+  "genero": "Niños",
+  "precio": 97.97,
+  "precio_c": 3603,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/2bcbd617fbdc2326debb6db0debdaea3.jpg?v=1784314751",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/84879d8e9aa5cf69d9c857c24f6667df.jpg?v=1784314751",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d8504acf2d12171e93707fd7b1c6d303.jpg?v=1784314751",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b9d6765ed32f75c17b8d3e0322748df0.jpg?v=1784314751"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18416",
+  "marca": "Nike",
+  "nombre": "Vomero 5 Grade School Running Shoes (Photon Dust/Chrome/Gridiron Sail)",
+  "genero": "Niños",
+  "precio": 106.97,
+  "precio_c": 3934,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7bbdc5c08d61f0ec8fd9da7d68ce694e.jpg?v=1755290381",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3bea5e15471f96fedf7146a2a805696e.jpg?v=1755290381",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1e80fceef32deab140ce9c0e7d852758.jpg?v=1755290381",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/574050bf4e75276b82cffecd57039e0c.jpg?v=1755290381"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18417",
+  "marca": "ASICS",
+  "nombre": "Gel 1130 Grade School Running Shoes (Lavender Glow/Pure Silver)",
+  "genero": "Niños",
+  "precio": 112.99,
+  "precio_c": 4155,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3f05f0faca636c317670dd6f8aaada7a.jpg?v=1774391264",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6feff38f4663d853ff35ed5e19b51c57.jpg?v=1774391264",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/465e65783e8015c7b1d5f413b989638d.jpg?v=1774391264",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0e135d66b9c6778ca3a68ebc1928738b.jpg?v=1774391264"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18418",
+  "marca": "ASICS",
+  "nombre": "Gel 1130 Grade School Running Shoes (Cream/Sweet Pink)",
+  "genero": "Niños",
+  "precio": 112.99,
+  "precio_c": 4155,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/225e5a12cfebe914b466f4e14caeca43_2fa96b7f-df07-466d-9ccf-3c1fb25b484c.jpg?v=1753210589",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/90958441be50fc292b7e43ba29adac9b_4e3be7de-00a7-4576-9815-6f5df77c5ffa.jpg?v=1753210589",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/750ab22faa8a518624e77a643cd66345_92b7bbda-3fe6-4a15-b867-fe143cab5822.jpg?v=1753210589",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0850a4e1d08e968be2709b105af04922_88f81c25-63db-4522-8542-294e83543128.jpg?v=1753210589"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18419",
+  "marca": "On",
+  "nombre": "Cloudleap Grade School Running Shoes (Salt/Bubblegum)",
+  "genero": "Niños",
+  "precio": 117.99,
+  "precio_c": 4339,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7ec3be1efb522698111c32da6071575f.jpg?v=1785956105",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d663b854e729a950f3e471dd4d56005c.jpg?v=1785956105",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/82a3700353fa66f6bbfa927fa8445f8e.jpg?v=1785956105",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1b398fb71f0040d2de5e71a9c156af21.jpg?v=1785956105"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18420",
+  "marca": "Hoka",
+  "nombre": "Clifton 10 Grade School Running Shoes (Gold/Truffle Salt/Sea Glass)",
+  "genero": "Niños",
+  "precio": 127.99,
+  "precio_c": 4707,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/99661092b687ce12631f8fbb670add71.jpg?v=1754950940",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bf6fc441d5a76bb399aa2cabbca4857d.jpg?v=1754950940",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9bcccc2e10ea9304d463d6091671d2ab.jpg?v=1754950940",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b74d11eba288f396187f6371b44b60fa.jpg?v=1754950940"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18421",
+  "marca": "On",
+  "nombre": "Cloudswift Grade School Running Shoes (Salt/White)",
+  "genero": "Niños",
+  "precio": 137.99,
+  "precio_c": 5074,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a866f15f7af220c580223b88777714d5.jpg?v=1783556047",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a24ed37fe439684286328225bbbade43.jpg?v=1783556047",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/960ec5dbdf9f8b6a4edc0ec2c539d5cb.jpg?v=1783556047",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/eb361848c058c15e4e53b81dadadeb04.jpg?v=1783556047"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18422",
+  "marca": "Nike",
+  "nombre": "Nike Vomero 18 \"Pink Foam/Bright Violet/Sail/Tattoo\" Grade School Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 139.99,
+  "precio_c": 5148,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/4689L_9103_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/4689L_9103_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/4689L_9103_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/4689L_9103_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18423",
+  "marca": "Nike",
+  "nombre": "Nike Vomero 18 \"Bleached Lilac/Black/Lt Magenta\" Grade School Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 139.99,
+  "precio_c": 5148,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/00C9E_9105_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/00C9E_9105_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/00C9E_9105_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/00C9E_9105_main2"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18424",
+  "marca": "Nike",
+  "nombre": "Nike Pegasus 42 \"White/Bleached Lilac/Sunset Haze/Black\" Grade School Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 129.99,
+  "precio_c": 4780,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/6575L_1000_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/6575L_1000_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/6575L_1000_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/6575L_1000_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18425",
+  "marca": "Nike",
+  "nombre": "Nike Pegasus 42 \"Pink Smoke/Gunsmoke/Black\" Grade School Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 129.99,
+  "precio_c": 4780,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/6478L_9102_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/6478L_9102_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/6478L_9102_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/6478L_9102_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18426",
+  "marca": "Nike",
+  "nombre": "Nike Vomero 5 \"Ghost/Summit White/Platinum Tint\" Grade School Girls' Shoe",
+  "genero": "Niños",
+  "precio": 129.99,
+  "precio_c": 4780,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/007VM_9100_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/007VM_9100_right1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/007VM_9100_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/007VM_9100_main2"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18427",
+  "marca": "ASICS",
+  "nombre": "ASICS GEL-1130 \"Glacier Grey/Pure Silver\" Grade School Girls' Shoe",
+  "genero": "Niños",
+  "precio": 112.99,
+  "precio_c": 4155,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/00CDY_9112_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/00CDY_9112_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/00CDY_9112_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/00CDY_9112_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18428",
+  "marca": "Saucony",
+  "nombre": "Saucony Omni 9 \"Rose Gold\" Grade School Girls' Shoe",
+  "genero": "Niños",
+  "precio": 107.99,
+  "precio_c": 3971,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/007TG_6262_right",
+   "https://classic.cdn.media.amplience.net/i/hibbett/007TG_6262_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/007TG_6262_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/007TG_6262_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18429",
+  "marca": "Nike",
+  "nombre": "Nike Flex Runner 4 \"Pink Rise/Playful Pink/Pink Foam/Racer Blue\" Preschool Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 62.99,
+  "precio_c": 2316,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/1005M_9103_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1005M_9103_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1005M_9103_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1005M_9103_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18430",
+  "marca": "Nike",
+  "nombre": "Nike Flex Runner 3 \"Laser Fuchsia/Black\" Preschool Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 67.99,
+  "precio_c": 2500,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/1324I_9103_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1324I_9103_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1324I_9103_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1324I_9103_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "8",
+   "9"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18431",
+  "marca": "adidas",
+  "nombre": "adidas Lite Racer Adapt 8.0 \"Frozen Purple/Clear Pink/Core White\" Grade School Girls' Shoe",
+  "genero": "Niños",
+  "precio": 77.99,
+  "precio_c": 2868,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/8503L_9105_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/8503L_9105_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/8503L_9105_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/8503L_9105_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18432",
+  "marca": "Nike",
+  "nombre": "Nike Cosmic Runner \"Playful Pink/Bleached Lilac/Black\" Grade School Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/1037M_9103_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1037M_9103_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1037M_9103_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/1037M_9103_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18433",
+  "marca": "Nike",
+  "nombre": "Nike Star Runner 4 \"Summit White/Viotech/Summit White/Beyond Pink\" Grade School Girls' Running Shoe",
+  "genero": "Niños",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/5477I_1000_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/5477I_1000_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/5477I_1000_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/5477I_1000_main3"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18434",
+  "marca": "Nike",
+  "nombre": "Nike Team Hustle D 12 \"White/Pink Rise/Playful Pink/Black\" Preschool Girls' Basketball Shoe",
+  "genero": "Niños",
+  "precio": 79.99,
+  "precio_c": 2942,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/0978M_1000_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/0978M_1000_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/0978M_1000_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/0978M_1000_main3"
+  ],
+  "descripcion": "Zapatilla de baloncesto para niñas en edad preescolar, con soporte y tracción pensados para la cancha.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Suela con tracción para la cancha",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "12.5",
+   "13",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18435",
+  "marca": "Nike",
+  "nombre": "Nike Team Hustle D 12 \"White/Pink Rise/Playful Pink/Black\" Grade School Girls' Basketball Shoe",
+  "genero": "Niños",
+  "precio": 84.99,
+  "precio_c": 3125,
+  "fotos": [
+   "https://classic.cdn.media.amplience.net/i/hibbett/0975M_1000_main",
+   "https://classic.cdn.media.amplience.net/i/hibbett/0975M_1000_main1",
+   "https://classic.cdn.media.amplience.net/i/hibbett/0975M_1000_main2",
+   "https://classic.cdn.media.amplience.net/i/hibbett/0975M_1000_main3"
+  ],
+  "descripcion": "Zapatilla de baloncesto para niñas grandes (big kid), con soporte y tracción pensados para la cancha.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Suela con tracción para la cancha",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18436",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Flash (Toddler) — Pink",
+  "genero": "Niños",
+  "precio": 46.84,
+  "precio_c": 1722,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71I+3Jt34GL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71i4cWOsoTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ZLf9u1b+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/716jt2qpFCL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas pequeñas (toddler), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18437",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Surge 4 Alternate Closure (Little Kid) — Blue",
+  "genero": "Niños",
+  "precio": 47.73,
+  "precio_c": 1755,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71VK-+fzFPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Q1Lw1kAvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61rfyDqABwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Mlg3zPPWL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario. Cierre alternativo sin cordones, fácil de poner y quitar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre alternativo, sin cordones",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18438",
+  "marca": "Reebok",
+  "nombre": "Reebok Futura Dash 1V (Little Kid/Big Kid) — Gray",
+  "genero": "Niños",
+  "precio": 44.97,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71YVBaHdTFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71J8OMOTUIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61D-QvffXdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71MaV9+tA8L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18439",
+  "marca": "New Balance",
+  "nombre": "New Balance Fresh Foam 650v1 Bungee Lace with Top Strap (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 37.49,
+  "precio_c": 1379,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61lAJ-5ZolL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615U9KwCcbL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71nTJzo464L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lAJ-5ZolL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario. Cierre alternativo sin cordones, fácil de poner y quitar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre alternativo, sin cordones",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18440",
+  "marca": "Skechers",
+  "nombre": "Skechers Glide-Step Flow 303677L (Little Kid/Big Kid) — Gray",
+  "genero": "Niños",
+  "precio": 39.25,
+  "precio_c": 1443,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/711XIayDwnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71FvG0d5i2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61I4X+WvKTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pmkaS4hSL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18441",
+  "marca": "Skechers",
+  "nombre": "Skechers Glide-Step Flow 303677L (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 43.95,
+  "precio_c": 1616,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/716HelX6KrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ZzUJYrijL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/617Np9YgmnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71PHNrXJs6L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18442",
+  "marca": "Skechers",
+  "nombre": "Skechers Sola Glow 2.0 - Dazzle Steps 303729N (Toddler) — Gray",
+  "genero": "Niños",
+  "precio": 39.37,
+  "precio_c": 1448,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Omb8aiVqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71A+B1RAoeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ZsTjv+rZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714gcW+-BxL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas pequeñas (toddler), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18443",
+  "marca": "Skechers",
+  "nombre": "Skechers Jumpsters - Cutie Critters 302363L (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 42.82,
+  "precio_c": 1575,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71iG3aF5uuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71cO4ZbQStL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61CNZDIkTQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71IxDrWxm1L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18444",
+  "marca": "Skechers",
+  "nombre": "Skechers Glide-Step Lights 303730L (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 44.27,
+  "precio_c": 1628,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/614lzKrSS+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71tLKXQcJFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61WiapYGsPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71r0Ur+b3dL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18445",
+  "marca": "Skechers",
+  "nombre": "Skechers Boundless - Color Blitz 303599L (Little Kid/Big Kid) — Gray",
+  "genero": "Niños",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/713zzTg3B7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71j-rq0sTPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61fRmp9WsrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71n9ZqvIusL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18446",
+  "marca": "Skechers",
+  "nombre": "Skechers Hands-Free Slip-Ins-Bounder Pro - Step One 303690N (Toddler) — Purple",
+  "genero": "Niños",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/713L-QZXo7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714bM+xADKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71VagXGFJiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71L0TDp0gQL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas pequeñas (toddler), ligera y con amortiguación suave para correr, entrenar y jugar a diario. Se pone sin usar las manos, sin cordones que atar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Diseño slip-in: se calza sin manos",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18447",
+  "marca": "Skechers",
+  "nombre": "Skechers Jumpsters 2.0 303380L (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 46.98,
+  "precio_c": 1728,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71-57gOJbmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71TyzTWzORL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71sGSyKKYVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71EVxoBRLjL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18448",
+  "marca": "Skechers",
+  "nombre": "Skechers Glide-Step Drift 303682l (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 48.05,
+  "precio_c": 1767,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71xjgQMVjpL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71HUFF4J4wL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61GOucQh1rL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71m+2Sr5uAL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18449",
+  "marca": "Skechers",
+  "nombre": "Skechers Sprinta 304065L (Little Kid/Big Kid) — Navy",
+  "genero": "Niños",
+  "precio": 49.95,
+  "precio_c": 1837,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81B5PZ6+AXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71HIGNmZl9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61z6mFx2RhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Ev7uTGTfL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18450",
+  "marca": "Skechers",
+  "nombre": "Skechers Ultra Flex 3.0 303782L (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 48.47,
+  "precio_c": 1782,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81Rq-r01KCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71lpnlkBFGL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61RtFjv2F2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71xysEyi9fL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18451",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Assert 10 (Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 50.53,
+  "precio_c": 1858,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71vOCt1TUtL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719aF-VwABL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pmh3rrpXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713h-l0Ix2L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18452",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Surge 5 Alternate Closure Running Shoes (Infant/Toddler) — Pink",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71KoNIv3CML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71rwBxxuvIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61aTxnz15AL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714J3Nhz6tL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas pequeñas (toddler), ligera y con amortiguación suave para correr, entrenar y jugar a diario. Cierre alternativo sin cordones, fácil de poner y quitar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre alternativo, sin cordones",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18453",
+  "marca": "Reebok",
+  "nombre": "Reebok Aniwa (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 54.95,
+  "precio_c": 2021,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7162AJMnmdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71LOpGJH1mL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71lVifRKQrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71R3xO7domL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18454",
+  "marca": "Saucony",
+  "nombre": "Saucony Cohesion TR14 LTT (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 58.06,
+  "precio_c": 2135,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71v9f91eRkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61kjTjdxKdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71TrX7PJmAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71+W0uuC1JL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18455",
+  "marca": "Skechers",
+  "nombre": "Skechers Go-Run Accelerate - Glitter Soul 303898L (Little Kid/Big Kid) — Navy",
+  "genero": "Niños",
+  "precio": 59.95,
+  "precio_c": 2205,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71In4Cv4tYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71MMDy47H4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71zcyHW8QXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71hyPM6pwVL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18456",
+  "marca": "Tsukihoshi",
+  "nombre": "Tsukihoshi Racer (Infant/Toddler) — Pink",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81TI5+WKD+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71rrZRQyszL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71O4g9ZUu2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/716dkrAHewL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas pequeñas (toddler), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18457",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Pre School Surge 5 Alternate Closure Running Shoes (Little Kid) — Blue",
+  "genero": "Niños",
+  "precio": 44.99,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71W8aP-iuvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71gdhSCayDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61eIXuHLv-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81jzFxDzMUL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario. Cierre alternativo sin cordones, fácil de poner y quitar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre alternativo, sin cordones",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18458",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Pre School Surge 5 Alternate Closure Running Shoes (Little Kid) — Gray",
+  "genero": "Niños",
+  "precio": 45.0,
+  "precio_c": 1655,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81QWP8o2mpL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81jeLnBxZ7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/715B3dBDWvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Gm0vvAUdL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario. Cierre alternativo sin cordones, fácil de poner y quitar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre alternativo, sin cordones",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18459",
+  "marca": "Skechers",
+  "nombre": "Skechers Hands-Free Slip-Ins-Comfy Sprints 304103N (Toddler) — White",
+  "genero": "Niños",
+  "precio": 44.26,
+  "precio_c": 1628,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Pbe3oafzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71X-u5+8azL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61yQLp59PmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711oCTyj4+L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas pequeñas (toddler), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18460",
+  "marca": "Skechers",
+  "nombre": "Skechers Skechers Hands Free Slip-Ins, Glide-Step + - Vista Lane 303654L (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 45.3,
+  "precio_c": 1666,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71flxZRGTZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71uSAWuLX+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71OUfgQzioL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719H88eqF5L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18461",
+  "marca": "Skechers",
+  "nombre": "Skechers Skechers Hands Free Slip-Ins, Glide-Step + - Vista Lane 303654L (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 49.87,
+  "precio_c": 1834,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ui+-L+TmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Ton+C3SlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71gykk0o6nL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Is6xzgv3L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18462",
+  "marca": "ASICS",
+  "nombre": "Gel 1130 Preschool Running Shoes (Lavender Glow/Pure Silver)",
+  "genero": "Niños",
+  "precio": 102.99,
+  "precio_c": 3787,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b284dbc11d35a77710e8ca5126d6deac.jpg?v=1775579806",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f4961f8f06a2cae7236d2ee043f92dc1.jpg?v=1775579806",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/170482285c56f09299841e77e5801fc0.jpg?v=1775579806"
+  ],
+  "descripcion": "Zapatilla de running para niñas en edad preescolar, ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18463",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Rogue 5 (Big Kid) — Gray",
+  "genero": "Niños",
+  "precio": 62.28,
+  "precio_c": 2290,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61RcR4zUmYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61aXN2Fw9uL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/619JmlYuIhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71oKVuC2E5L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18464",
+  "marca": "Skechers",
+  "nombre": "Skechers Wave 92 303557L (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 45.95,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81HjVT759yL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71svbs3j1FL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61g2s8tevHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/816gKor6TcL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18465",
+  "marca": "Skechers",
+  "nombre": "Skechers Glide-step + - Sprint Lines 303686L (Little Kid/Big Kid) — Green",
+  "genero": "Niños",
+  "precio": 49.9,
+  "precio_c": 1835,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71WGBF1iI0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pDMCUAPgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71L5tAOBtrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71-9oWMpiBL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid/big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18466",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Surge 4 Alternate Closure (Little Kid) — Gray",
+  "genero": "Niños",
+  "precio": 49.6,
+  "precio_c": 1824,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/6146lROVHFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qkVA1MP0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71QmMkTapEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ZXFfvto6L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas (little kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario. Cierre alternativo sin cordones, fácil de poner y quitar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre alternativo, sin cordones",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18467",
+  "marca": "Tsukihoshi",
+  "nombre": "Tsukihoshi B. Racer (Infant/Toddler) — Gold",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71LYU-hU9WL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61uSvemhK3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71LpoE64SIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71eyTWd8kUL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas pequeñas (toddler), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18468",
+  "marca": "Under Armour",
+  "nombre": "Under Armour Surge 4 Sneakers (Big Kid) — Gray",
+  "genero": "Niños",
+  "precio": 53.3,
+  "precio_c": 1960,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Zu9VnwRjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71rdiJGfzvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Ohpr10PgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71+uoN0c-AL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapatilla de running para niñas grandes (big kid), ligera y con amortiguación suave para correr, entrenar y jugar a diario.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación suave que protege cada paso",
+   "Cierre de cordones con ajuste seguro",
+   "Pensada para el pie de las niñas, con horma infantil"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18469",
+  "marca": "Javi",
+  "nombre": "Javi Elevate Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elevate_20sprk_20red_20pro_IF111.jpg?v=1784656104",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elevate_20sprk_20red_20pro_IF113.jpg?v=1784661357",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elevate_20sprk_20red_20pro_IF114.jpg?v=1784656105",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elevate_20sprk_20red_20pro_IF112.jpg?v=1784656105"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Javi: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18470",
+  "marca": "Javi",
+  "nombre": "Javi Evoke Toddler",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20blk_IF044.jpg?v=1782319385",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20blk_IF046.jpg?v=1782319385",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20blk_IF047.jpg?v=1782319385",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_evoke_20spark_20blk_IF045.jpg?v=1782319385"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Javi: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18471",
+  "marca": "Von Dutch",
+  "nombre": "Von Dutch Ryder Low Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdtd_20navy_IF073.jpg?v=1775664559",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdtd_20navy_IF075.jpg?v=1775664559",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdtd_20navy_IF076.jpg?v=1775664559",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_ryder_20vdtd_20navy_IF074.jpg?v=1775664559"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Von Dutch: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18472",
+  "marca": "Javi",
+  "nombre": "Javi Elect Toddler",
+  "genero": "Niños",
+  "precio": 32.93,
+  "precio_c": 1211,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_IF097.jpg?v=1770838978",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_IF099.jpg?v=1770838978",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_IF100.jpg?v=1770838978",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_elect_20blk_20wht_IF098.jpg?v=1770838978"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Javi: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18473",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Dragon Hi Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH0406003_IF002.jpg?v=1762451459",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH0406003_IF004.jpg?v=1762456719",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH0406003_IF005.jpg?v=1762456720",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH0406003_IF003.jpg?v=1762451459"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Ed Hardy: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18474",
+  "marca": "Vans",
+  "nombre": "Vans Authentic Elastic Lace 'Halloween' Pre-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000VACCYL_PS060.jpg?v=1791832165",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000VACCYL_PS062.jpg?v=1791832165",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000VACCYL_PS064.jpg?v=1791832165",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000VACCYL_PS066.jpg?v=1791832165"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Vans: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18475",
+  "marca": "Von Dutch",
+  "nombre": "Von Dutch Reese Low Pre-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_reese_20vdps_20black_PS009.jpg?v=1775589250",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_reese_20vdps_20black_PS011.jpg?v=1775589250",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_reese_20vdps_20black_PS012.jpg?v=1775589250",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/von_20dutch_reese_20vdps_20black_PS010.jpg?v=1775589250"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Von Dutch: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18476",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Possession Toddler",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpossessionp_20white_IF154.jpg?v=1775159092",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpossessionp_20white_IF086.jpg?v=1775643481",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpossessionp_20white_IF155.jpg?v=1775643481",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpossessionp_20white_IF087.jpg?v=1775643481"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Steve Madden: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18477",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Geisha Low Pre-School",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS068.jpg?v=1771362838",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS070.jpg?v=1771362838",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS071.jpg?v=1771362838",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04779002_PS069.jpg?v=1771362838"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Ed Hardy: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18478",
+  "marca": "adidas",
+  "nombre": "Adidas Superstar II Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JH9985_IF142.jpg?v=1740689905",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JH9985_IF144.jpg?v=1740689905",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JH9985_IF145.jpg?v=1740689905",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_JH9985_IF143.jpg?v=1740689905"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de adidas: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18479",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 Pre-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20001_PS016.jpg?v=1768510846",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20001_PS018.jpg?v=1768510846",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20001_PS019.jpg?v=1768510846",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20001_PS017.jpg?v=1768510846"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18480",
+  "marca": "Vans",
+  "nombre": "Vans Old Skool Elastic Lace Toddler",
+  "genero": "Niños",
+  "precio": 32.93,
+  "precio_c": 1211,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000V20QPT_IF008.jpg?v=1756483033",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000V20QPT_IF010.jpg?v=1756483033",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000V20QPT_IF011.jpg?v=1756483033",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000V20QPT_IF009.jpg?v=1756483033"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Vans: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18481",
+  "marca": "Jordan",
+  "nombre": "Jordan Spizike Low Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Jordan_FQ3952_20001_IF020.jpg?v=1717596695",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Jordan_FQ3952_20001_IF022.jpg?v=1717596695",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Jordan_FQ3952_20001_IF023.jpg?v=1717596695",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Jordan_FQ3952_20001_IF021.jpg?v=1717596695"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18482",
+  "marca": "New Balance",
+  "nombre": "New Balance  480 Grade-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS068.jpg?v=1766150333",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS070.jpg?v=1766150340",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS071.jpg?v=1766150340",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_GSB480SB_GS069.jpg?v=1766150344"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de New Balance: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "5.5",
+   "6"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18483",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool Grade-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCY09_GS025.jpg?v=1756482749",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCY09_GS027.jpg?v=1756482749",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCY09_GS028.jpg?v=1756482750",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCY09_GS026.jpg?v=1756482750"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de Vans: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "6",
+   "6.5"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18484",
+  "marca": "Jordan",
+  "nombre": "Jordan MVP 92 Grade-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ4427_20005_GS110.jpg?v=1754944659",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ4427_20005_GS112.jpg?v=1754944659",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ4427_20005_GS113.jpg?v=1754944659",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_HQ4427_20005_GS111.jpg?v=1754944659"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "5",
+   "5.5"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18485",
+  "marca": "Saucony",
+  "nombre": "Saucony Omni 9 Toddler",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25A01_IF014.jpg?v=1750798340",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25A01_IF015.jpg?v=1750800056",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25A01_IF016.jpg?v=1750800058",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/saucony_SLF25A01_IF013.jpg?v=1750798341"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Saucony: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18486",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 3 Retro 'Sail and Jade Aura’ Pre-School",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF4757_20100_PS151.jpg?v=1775147969",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF4757_20100_PS034.jpg?v=1776161585",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF4757_20100_PS152.jpg?v=1776161585",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IF4757_20100_PS035.jpg?v=1776161585"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18487",
+  "marca": "Nike",
+  "nombre": "Nike Air Max 95 Toddler",
+  "genero": "Niños",
+  "precio": 87.93,
+  "precio_c": 3234,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_905462_20077_IF073.jpg?v=1793908520",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_905462_20077_IF075.jpg?v=1793908520",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_905462_20077_IF077.jpg?v=1793908520",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_905462_20077_IF074.jpg?v=1793908520"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18488",
+  "marca": "Jordan",
+  "nombre": "Jordan Max Aura Infant",
+  "genero": "Niños",
+  "precio": 62.93,
+  "precio_c": 2314,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9215_20006_IF002.jpg?v=1789996554",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9215_20006_IF004.jpg?v=1789996554",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9215_20006_IF006.jpg?v=1789996554",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_AQ9215_20006_IF003.jpg?v=1789996554"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18489",
+  "marca": "Nike",
+  "nombre": "Nike Air Diamond Turf 2 '49ers' Toddler",
+  "genero": "Niños",
+  "precio": 97.93,
+  "precio_c": 3601,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR4725_20001_IF016.jpg?v=1788201857",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR4725_20001_IF018.jpg?v=1788201857",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR4725_20001_IF020.jpg?v=1788201857",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IR4725_20001_IF017.jpg?v=1788201857"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18490",
+  "marca": "Nike",
+  "nombre": "Nike KD 6 'Meteorology' Toddler",
+  "genero": "Niños",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1289_20001_IF079.jpg?v=1785784911",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1289_20001_IF081.jpg?v=1785784911",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1289_20001_IF083.jpg?v=1785784911",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IU1289_20001_IF080.jpg?v=1785784911"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18491",
+  "marca": "New Balance",
+  "nombre": "New Balance 2010 Bungee 'Carbon' Toddler",
+  "genero": "Niños",
+  "precio": 77.93,
+  "precio_c": 2866,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I201050N_IF075.jpg?v=1785443625",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I201050N_IF077.jpg?v=1785443625",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I201050N_IF080.jpg?v=1785443625",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I201050N_IF076.jpg?v=1785443625"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de New Balance: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18492",
+  "marca": "Nike",
+  "nombre": "Nike Air Max 95 'Solar Red' Toddler",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3918_20060_IF002.jpg?v=1784900605",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3918_20060_IF004.jpg?v=1784900605",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3918_20060_IF006.jpg?v=1784900605",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IX3918_20060_IF003.jpg?v=1784900605"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18493",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 13 Retro 'Flint' Toddler",
+  "genero": "Niños",
+  "precio": 97.93,
+  "precio_c": 3601,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3004_20400_IF053.jpg?v=1784657674",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3004_20400_IF055.jpg?v=1784661586",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3004_20400_IF056.jpg?v=1784657674",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3004_20400_IF057.jpg?v=1784661593"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18494",
+  "marca": "Jordan",
+  "nombre": "Jordan True Flight Toddler",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343797_20011_IF104.jpg?v=1784656947",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343797_20011_IF106.jpg?v=1784656947",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343797_20011_IF108.jpg?v=1784656947",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_343797_20011_IF105.jpg?v=1784656947"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18495",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Mid Toddler",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DQ8425_20007_IF046.jpg?v=1784658360",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DQ8425_20007_IF048.jpg?v=1784658360",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DQ8425_20007_IF050.jpg?v=1784658360",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DQ8425_20007_IF047.jpg?v=1784658360"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18496",
+  "marca": "Jordan",
+  "nombre": "Jordan Son Of Mars Low Toddler",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20005_IF030.jpg?v=1784133530",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20005_IF032.jpg?v=1784133530",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20005_IF036.jpg?v=1784133530",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IR0530_20005_IF031.jpg?v=1784133530"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18497",
+  "marca": "New Balance",
+  "nombre": "New Balance 2010 Bungee 'Summer Steps' Toddler",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I20105G0_IF002.jpg?v=1784824748",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I20105G0_IF004.jpg?v=1784824748",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I20105G0_IF006.jpg?v=1784824748",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I20105G0_IF003.jpg?v=1784824748"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de New Balance: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18498",
+  "marca": "Nike",
+  "nombre": "Nike Force 1 Tech Essentials Toddler",
+  "genero": "Niños",
+  "precio": 62.93,
+  "precio_c": 2314,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO1681_20100_IF063.jpg?v=1783447422",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO1681_20100_IF065.jpg?v=1783447422",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO1681_20100_IF066.jpg?v=1783447422",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO1681_20100_IF064.jpg?v=1783447422"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18499",
+  "marca": "Javi",
+  "nombre": "Javi Atmos Toddler",
+  "genero": "Niños",
+  "precio": 57.93,
+  "precio_c": 2130,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_atmos_20black_IF016.jpg?v=1783354278",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_atmos_20black_IF018.jpg?v=1783354278",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_atmos_20black_IF020.jpg?v=1783354278",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/javi_atmos_20black_IF017.jpg?v=1783354278"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Javi: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18500",
+  "marca": "Nike",
+  "nombre": "Nike Force 1 Low Toddler",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV5948_20001_IF002.jpg?v=1780072263",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV5948_20001_IF004.jpg?v=1780072263",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV5948_20001_IF005.jpg?v=1780072263",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV5948_20001_IF003.jpg?v=1780072263"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18501",
+  "marca": "New Balance",
+  "nombre": "New Balance 740 Bungee 'Letters To Legacy' Toddler",
+  "genero": "Niños",
+  "precio": 62.93,
+  "precio_c": 2314,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I7409FG_IF065.jpg?v=1779997969",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I7409FG_IF067.jpg?v=1779997969",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I7409FG_IF069.jpg?v=1779997969",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/NB_I7409FG_IF066.jpg?v=1779997969"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de New Balance: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18502",
+  "marca": "Nike",
+  "nombre": "Nike Force 1 Low 'World Tour' Toddler",
+  "genero": "Niños",
+  "precio": 62.93,
+  "precio_c": 2314,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO9738_20100_IF037.jpg?v=1777661069",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO9738_20100_IF041.jpg?v=1777661069",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO9738_20100_IF042.jpg?v=1777661069",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IO9738_20100_IF039.jpg?v=1777661069"
+  ],
+  "descripcion": "Sneaker casual de niño (toddler) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18503",
+  "marca": "Nike",
+  "nombre": "Nike Air Griffey Max 1 'Cincinnati Reds' Grade-School",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_JA1136_20100_GS042.jpg?v=1790714437",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_JA1136_20100_GS044.jpg?v=1790714437",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_JA1136_20100_GS046.jpg?v=1790714437",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_JA1136_20100_GS043.jpg?v=1790714437"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18504",
+  "marca": "Asics",
+  "nombre": "Asics GEL-CUMULUS 16 Grade-School",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20101_GS090.jpg?v=1790256931",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20101_GS092.jpg?v=1790256931",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20101_GS094.jpg?v=1790256931",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/asics_1204A193_20101_GS091.jpg?v=1790256931"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de Asics: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18505",
+  "marca": "Nike",
+  "nombre": "Nike Little Posite Pro PRM 'Green Camo' Grade-School",
+  "genero": "Niños",
+  "precio": 157.93,
+  "precio_c": 5808,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV7555_20001_GS117.jpg?v=1785444830",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV7555_20001_GS119.jpg?v=1785444830",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV7555_20001_GS121.jpg?v=1785444830",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV7555_20001_GS118.jpg?v=1785444830"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18506",
+  "marca": "Nike",
+  "nombre": "Nike Air Liquid Max Grade-School",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF6334_20001_GS083.jpg?v=1784658494",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF6334_20001_GS085.jpg?v=1784658494",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF6334_20001_GS087.jpg?v=1784658494",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_HF6334_20001_GS084.jpg?v=1784661759"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18507",
+  "marca": "Nike",
+  "nombre": "Nike Air Griffey Max 1 Grade-School",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV6222_20410_GS058.jpg?v=1782149661",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV6222_20410_GS060.jpg?v=1782149661",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV6222_20410_GS061.jpg?v=1782149661",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IV6222_20410_GS059.jpg?v=1782149661"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18508",
+  "marca": "Nike",
+  "nombre": "Nike Little Posite Pro 'Gym Red' Grade-School",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7230_20600_GS011.jpg?v=1778512613",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7230_20600_GS014.jpg?v=1778512619",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7230_20600_GS016.jpg?v=1778512624",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7230_20600_GS012.jpg?v=1778505681"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18509",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 13 Retro 'True Red' Pre-School",
+  "genero": "Niños",
+  "precio": 107.93,
+  "precio_c": 3969,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3005_20102_PS135.jpg?v=1775145227",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3005_20102_PS073.jpg?v=1776085632",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3005_20102_PS136.jpg?v=1776085632",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DJ3005_20102_PS074.jpg?v=1776085632"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18510",
+  "marca": "Nike",
+  "nombre": "Nike Little Posite One 'Carbon Fiber' Grade-School",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7228_20001_GS130.jpg?v=1762438390",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7228_20001_GS132.jpg?v=1762438390",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7228_20001_GS133.jpg?v=1762438390",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IQ7228_20001_GS131.jpg?v=1762438390"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18511",
+  "marca": "Jordan",
+  "nombre": "Jordan Air Jordan 1 Mid SE Grade-School",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DC1420_20700_GS120.jpg?v=1793887890",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DC1420_20700_GS122.jpg?v=1793887890",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DC1420_20700_GS124.jpg?v=1793887890",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_DC1420_20700_GS121.jpg?v=1793887890"
+  ],
+  "descripcion": "Sneaker casual de niño (big kid) de Jordan: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18512",
+  "marca": "Nike",
+  "nombre": "Nike Little Posite Pro Premium 'Summit White' Pre-School",
+  "genero": "Niños",
+  "precio": 107.93,
+  "precio_c": 3969,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/IV7560-100.jpg?v=1791213293"
+  ],
+  "descripcion": "Sneaker casual de niño (little kid) de Nike: estilo urbano para todos los días, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Parte superior resistente de uso diario",
+   "Cierre seguro pensado para niños"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18513",
+  "marca": "Nike",
+  "nombre": "Nike Calm Slides Grade-School",
+  "genero": "Niños",
+  "precio": 47.93,
+  "precio_c": 1763,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/Nike_FD4116_20001_GS066.jpg?v=1710785522",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/Nike_FD4116_20001_GS068.jpg?v=1710785522",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/Nike_FD4116_20001_GS069.jpg?v=1710785523",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/Nike_FD4116_20001_GS067.jpg?v=1710785523"
+  ],
+  "descripcion": "Chancla tipo slide de niño (big kid) de Nike: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18514",
+  "marca": "Crocs",
+  "nombre": "Star Wars R2-D2 Classic Clog Preschool Sandals (White/Blue/Light Grey)",
+  "genero": "Niños",
+  "precio": 37.92,
+  "precio_c": 1394,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7e6e22daa36610d42c5f38ea953c932b.jpg?v=1761340192",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d9fee3c59065f10d49397d3a90913999.jpg?v=1761340192",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cd3b07b435ba9f7e1ecc836f6212be9a.jpg?v=1761340192",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/eb2affdb107fa536c279bd03f336402e.jpg?v=1761340192"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18515",
+  "marca": "Crocs",
+  "nombre": "Classic Floral Cut Out Preschool/Grade School Sandals (Pink/Pink)",
+  "genero": "Niños",
+  "precio": 37.92,
+  "precio_c": 1394,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/39bab953eb8ee80b3e3cc7b21ee530df.jpg?v=1752701809",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/796633dd937558a7d034586e50dd5fbb.jpg?v=1752701809",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/35b3904268cfa5decf197475821f90ac.jpg?v=1752701809",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/ae0b55d9dff82dba61580a241e1c1712.jpg?v=1752701809"
+  ],
+  "descripcion": "Sandalia de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Correas ajustables de secado rápido",
+   "Apta para agua y alberca"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18516",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Floral Cut Out Preschool/Grade School Sandals (White)",
+  "genero": "Niños",
+  "precio": 37.92,
+  "precio_c": 1394,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/5f985ab85cb615ac478b677d41f38215.jpg?v=1752864237",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bc2a5f215782a3a41a9708b5662f5d59.jpg?v=1752864237",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4657596abf711547120d4ed443dce258.jpg?v=1752864237",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4d38c0a661107ccbe805e053d9320937.jpg?v=1752864237"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18517",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Glow Dino Preschool/Grade School Sandals (Glow Green)",
+  "genero": "Niños",
+  "precio": 37.92,
+  "precio_c": 1394,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0af58de6689929b890d4fa9cde3a1087.jpg?v=1759536372",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a97c65db8901b8062f1eae8a02bb080a.jpg?v=1759536372",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/dabe0906cf7b61f7e5fed7d4148ecb61.jpg?v=1759536372"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18518",
+  "marca": "Crocs",
+  "nombre": "Pokemon Classic Clog Preschool/Grade School Sandals (Black/Orange)",
+  "genero": "Niños",
+  "precio": 37.92,
+  "precio_c": 1394,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8623a42ffb028b2d18f7f12587cf6afc_5ca915ff-e84b-48dc-9a40-43138cf90388.jpg?v=1748964697",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/edd04bb538bd454c10489a4d884508c2_e7c12c2a-ce80-4ace-85ee-5f9f3a840333.jpg?v=1748964697",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/000a294e12169d5fc15eaf3249777483_fc0910ee-6702-402b-b6d9-1a61a609061a.jpg?v=1748964697",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3bcfec72392dfac3b1cc9cbe4741236d_a6b6e055-4a70-4c68-9688-998e7fa8d994.jpg?v=1748964697"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18519",
+  "marca": "Nike",
+  "nombre": "ReactX Rejuven8 Grade School Sandals (Khaki)",
+  "genero": "Niños",
+  "precio": 47.92,
+  "precio_c": 1762,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f52dbd10efd6fe0f1a9f0f05bb0d1b42.jpg?v=1746222297",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/18d81fda5c9730758c40c5d43fa7b904.jpg?v=1746222297",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/62070d2d4d60fff997543f5de0b7ac02.jpg?v=1746222298",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6139fdd0e348969669fa567f33b2d5bf.jpg?v=1746222298"
+  ],
+  "descripcion": "Sandalia de niño (big kid) de Nike: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Correas ajustables de secado rápido",
+   "Apta para agua y alberca"
+  ],
+  "tallas": [
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18520",
+  "marca": "Crocs",
+  "nombre": "Disney Maui Classic Clog Preschool Sandals (Blue/Green)",
+  "genero": "Niños",
+  "precio": 37.93,
+  "precio_c": 1395,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b2f8c4b216e4fecc4542af735a20ec98.jpg?v=1750962186",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/50ef562fec4a2b6c41969910f62eb5fb.jpg?v=1750962186",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/8154eb3a8a962ab5cdbd8ef3b7b8fef4.jpg?v=1750962186",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/85a351e34f098ca800421828bfca4ccd.jpg?v=1750962186"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "2Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18521",
+  "marca": "Crocs",
+  "nombre": "Classic Clog - Toddler",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/206990100_1_d3b8f0ba-fb1e-48bd-bf86-c2672aba374b.jpg?v=1792190902",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/206990100_2_5e12189a-6fc7-456a-983f-2ce7f1aa8f64.jpg?v=1792190903",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/206990100_3_3f78be75-140f-472d-80a7-f603bcea7f40.jpg?v=1792190902",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/206990100_4_8d98ffe4-6da8-467f-bc03-c6194e70b87e.jpg?v=1792190902"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "04.0",
+   "05.0",
+   "07.0",
+   "06.0",
+   "08.0",
+   "09.0",
+   "10.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18522",
+  "marca": "Crocs",
+  "nombre": "Crocband Clog - Toddler",
+  "genero": "Niños",
+  "precio": 49.98,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/207005485_1.jpg?v=1793397869",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/207005485_2.jpg?v=1793397869",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/207005485_3.jpg?v=1793397869",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/207005485_4.jpg?v=1793397869"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "10.0",
+   "04.0",
+   "05.0",
+   "06.0",
+   "07.0",
+   "08.0",
+   "09.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18523",
+  "marca": "adidas",
+  "nombre": "Superstar Sandal - Kids",
+  "genero": "Niños",
+  "precio": 46.96,
+  "precio_c": 1727,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2844_1.jpg?v=1756485269",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2844_2.jpg?v=1756485269",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2844_3.jpg?v=1756485270",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2844_4.jpg?v=1756485270"
+  ],
+  "descripcion": "Sandalia de niño (big kid) de adidas: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Correas ajustables de secado rápido",
+   "Apta para agua y alberca"
+  ],
+  "tallas": [
+   "11.0",
+   "12.0",
+   "10.0",
+   "01.0",
+   "02.0",
+   "13.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18524",
+  "marca": "Character",
+  "nombre": "Spiderman Lighted Clog - Toddler",
+  "genero": "Niños",
+  "precio": 29.98,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F26TSR043A_1.jpg?v=1786570696",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F26TSR043A_2.jpg?v=1786570696",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F26TSR043A_3.jpg?v=1786570696",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F26TSR043A_4.jpg?v=1786570696"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Character: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "7/8",
+   "9/10",
+   "5/6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18525",
+  "marca": "Character",
+  "nombre": "Sonic Clog - Toddler",
+  "genero": "Niños",
+  "precio": 29.98,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F25TSN051AM_1.jpg?v=1790199622",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F25TSN051AM_2.jpg?v=1790199622",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F25TSN051AM_3.jpg?v=1790199622",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F25TSN051AM_4.jpg?v=1790199622"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Character: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "7/8",
+   "9/10",
+   "5/6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18526",
+  "marca": "Nike",
+  "nombre": "Kawa Slide - Toddler",
+  "genero": "Niños",
+  "precio": 47.98,
+  "precio_c": 1764,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094001_1.jpg?v=1779326708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094001_2.jpg?v=1779326708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094001_3.jpg?v=1779326708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BV1094001_4.jpg?v=1779326708"
+  ],
+  "descripcion": "Chancla tipo slide de niño (toddler) de Nike: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "10.0",
+   "04.0",
+   "05.0",
+   "06.0",
+   "07.0",
+   "08.0",
+   "09.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18527",
+  "marca": "Character",
+  "nombre": "Spiderman Glow Eyes 3D Slipper - Toddler",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5100_1.jpg?v=1795127969",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5100_2.jpg?v=1795127969",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5100_3.jpg?v=1795127969",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5100_4.jpg?v=1795127969"
+  ],
+  "descripcion": "Pantufla de niño (toddler) de Character: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Interior suave y calientito",
+   "Suela apta para interior y exterior"
+  ],
+  "tallas": [
+   "10.0",
+   "05.0",
+   "06.0",
+   "07.0",
+   "08.0",
+   "09.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18528",
+  "marca": "Character",
+  "nombre": "Cars 3 Slipper - Toddler",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECPX5032_1.jpg?v=1795127971",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECPX5032_2.jpg?v=1795127970",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECPX5032_3.jpg?v=1795127970",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECPX5032_4.jpg?v=1795127970"
+  ],
+  "descripcion": "Pantufla de niño (toddler) de Character: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Interior suave y calientito",
+   "Suela apta para interior y exterior"
+  ],
+  "tallas": [
+   "7/8",
+   "9/10",
+   "5/6",
+   "11/12"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18529",
+  "marca": "Character",
+  "nombre": "Spidey & Friends Scuff Slipper - Toddler",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5220_1.jpg?v=1795215071",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5220_2.jpg?v=1795215072",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5220_3.jpg?v=1795215071",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ETML5220_4.jpg?v=1795215071"
+  ],
+  "descripcion": "Pantufla de niño (toddler) de Character: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Interior suave y calientito",
+   "Suela apta para interior y exterior"
+  ],
+  "tallas": [
+   "7/8",
+   "9/10",
+   "5/6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18530",
+  "marca": "Crocs",
+  "nombre": "Crocs Littles - Infant",
+  "genero": "Niños",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/11441100_1_8864127b-b8b7-4600-a350-e8396df6ccc6.jpg?v=1791587507",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/11441100_2_73065d93-4cd5-448b-a94d-3989dd3b458f.jpg?v=1791587507",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/11441100_3_0490ef28-b9de-438b-8a0a-d4422c51d1e4.jpg?v=1791587508",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/11441100_4_156dce55-92dd-462c-a6b9-a6a2b3967cf7.jpg?v=1791587507"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "02.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18531",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clog Toddler",
+  "genero": "Niños",
+  "precio": 52.95,
+  "precio_c": 1947,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/CROCS-206990-001-TD304.jpg?v=1687795055",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/CROCS-206990-001-TD306.jpg?v=1687795055",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/CROCS-206990-001-TD307.jpg?v=1687795055",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/products/CROCS-206990-001-TD305.jpg?v=1687795055"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18532",
+  "marca": "Crocs",
+  "nombre": "Crocs Echo Clog Pre-School",
+  "genero": "Niños",
+  "precio": 67.95,
+  "precio_c": 2499,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Crocs_208190_20001_PS111.jpg?v=1711388538",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Crocs_208190_20001_PS113.jpg?v=1711388563",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Crocs_208190_20001_PS114.jpg?v=1711388538",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/Crocs_208190_20001_PS112.jpg?v=1711388538"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18533",
+  "marca": "Crocs",
+  "nombre": "Crocs  Echo II Clog Grade-School",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_214204_20001_GS132.jpg?v=1784655772",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_214204_20001_GS134.jpg?v=1784655772",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_214204_20001_GS136.jpg?v=1784655772",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_214204_20001_GS133.jpg?v=1784655772"
+  ],
+  "descripcion": "Zueco tipo clog de niño (big kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18534",
+  "marca": "Crocs",
+  "nombre": "Pikachu Classic Clog Preschool/Grade School Sandals (Pink/Yellow)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/86e0a63ffb30860a2205b9f43ea70d84_e7e13f67-e8a5-466f-b200-7b3d874bc561.jpg?v=1748964647",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/85e18ab268c1c709868e4fe2bd837216_12755870-960b-4d8c-b7ff-502f9854669d.jpg?v=1748964647",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/440d341d7f28e889cc5819442547896a_86c5f529-14b2-4d45-9ddf-2322849cb1c5.jpg?v=1748964647",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9af1826822ee424336a66d74af4a3461_f0a6788e-f67d-4315-a18a-a906c48c5a9b.jpg?v=1748964647"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18535",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Preschool/Grade School Sandals (Black)",
+  "genero": "Niños",
+  "precio": 57.95,
+  "precio_c": 2131,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/products/f3161d4f9fc062ca75bd760bf5865e85.jpg?v=1660602845",
+   "https://cdn.shopify.com/s/files/1/0852/3376/products/21d1d97ae5022c73509fcd91be0e65d1.jpg?v=1660602845",
+   "https://cdn.shopify.com/s/files/1/0852/3376/products/4465855baca4330ae0be9a3cf5c93221.jpg?v=1660602845",
+   "https://cdn.shopify.com/s/files/1/0852/3376/products/5c0fd121eca31404905a06958d93a0f7.jpg?v=1660602845"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18536",
+  "marca": "Crocs",
+  "nombre": "Hearts Cut Out Classic Clog Preschool/Grade School Sandals (Bubble Ice)",
+  "genero": "Niños",
+  "precio": 62.95,
+  "precio_c": 2315,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/214206-7DF_01.jpg?v=1784826752"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18537",
+  "marca": "Crocs",
+  "nombre": "Disney And Pixar's Lightning Mcqueen Dinoco Crocband Preschool Sandals (Multicolor)",
+  "genero": "Niños",
+  "precio": 77.95,
+  "precio_c": 2867,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/875650172e9dd3dc3877952fb0409fa0_19c73a9f-3b2f-48fa-996b-6be3c1c40b67.jpg?v=1788971439",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/413f3445697f16c2d0b69a1c3333c4dd_31fca74f-24a8-41d7-9b1b-27c3393939b3.jpg?v=1788971439",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d4c7f0d7a7527d48f0457cdf16a79960_2c542854-f0ec-4a1d-b9dd-701560c9c68b.jpg?v=1788971439",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/476dc7d1e87f60fe900c6029967e7ac6_15a39b87-6e59-48b4-9c22-b6fd955e410a.jpg?v=1788971439"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18538",
+  "marca": "Crocs",
+  "nombre": "Spider-Man Classic Clog Preschool Sandals (Multicolor)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/66048e083a5969440e610df50ee4a624_4bb07eff-36df-42d6-8f44-9fedcffa994a.jpg?v=1783698955",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0ad5707f5704c337bbce7856aa6f4f15_abdf95ae-d9c6-4ebd-826f-f5e9cad88dba.jpg?v=1783698955",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/742a2caa91eda9ec67605c37ada79ba4_ad10026d-4d94-4ad2-a180-2df9336f95a2.jpg?v=1783698955",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9d52167f0b55df634082e9703579b33d_b3adeb74-68a8-48c3-95a3-670b886f99d5.jpg?v=1783698955"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18539",
+  "marca": "Crocs",
+  "nombre": "Super Mario Classic Clog Preschool/Grade School Sandals (Blue/Green) Free Shipping",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/804e975dacd3e3ffa6b210a9c13bf9e7_1e7d152a-be2d-4143-9676-43435f348b5e.jpg?v=1783525072",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c10c6e7e0fbccde93d9affcbf400fcae_09028234-6cd1-46aa-9273-d7d58b15a234.jpg?v=1783525072",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/75f5f18c2469722f572c4153131e09ee_aa873637-82d6-4975-a6e1-0d2a59668fc5.jpg?v=1783525072",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/4b8359e6fa0f7ca69256139666b35abb_e794ee35-b0b9-4b5e-a454-3654c0a74930.jpg?v=1783525072"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18540",
+  "marca": "Crocs",
+  "nombre": "Disney Pixar’s Toy Story Alien Classic Clog Preschool/Grade School Sandals (Green/Blue)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/dc66f20bf10ff078b5ba72bb6fe48da4_ef93ba96-68fe-4ea7-9550-7cfbca63d56a.jpg?v=1781118523",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a02addaeb20bad0dfb7400c2601584f0_3abf2ef1-9fe4-411d-a9e9-ad4a4d63689f.jpg?v=1781118523",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/fb34232f888a4444937f2282e73ef315_e4b7ce5b-e03f-47ee-a05e-5b15d41072c8.jpg?v=1781118523",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/525d0e53923ce9555118f60c17445ded_c557cdc6-fc61-4018-b055-2936045c243a.jpg?v=1781118523"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18541",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Bluey Best Buddies Preschool/Grade School Sandals (Blue/Green)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/213492-90H_01_d6949034-fbed-4774-8fb1-23241fa28676.jpg?v=1771871602",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/6edf0c20079ffcf3e6248f902577f8ed.jpg?v=1771871602",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/213492-90H_03.jpg?v=1771871602"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18542",
+  "marca": "Crocs",
+  "nombre": "Disney Pixar's Toy Story Buzz Lightyear Classic Clog Preschool/Grade School Sandals (Green/White/Purple)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c2f9ea821ddc568312962f94f8ac132e_df4d456d-882b-46de-8a01-100018161eaa.jpg?v=1781118622",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/a9484c215d2a36f09d3398f6dc9ce39f_1e7116b5-6b55-438e-96e0-f0ce3c1d4c4a.jpg?v=1781118622"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18543",
+  "marca": "Crocs",
+  "nombre": "Classic Creature Lights Clog Preschool/Grade School Sandals (Steel)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/213938-1IS_01.jpg?v=1784826673"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18544",
+  "marca": "Crocs",
+  "nombre": "Marvel Spider-Man Classic Clog Preschool/Grade School Sandals (Red/Blue)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/049362aa9b2a903eb699415c1ec52eea.jpg?v=1760388366",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/39d65a3c4e6060aea34b59acd33eab92.jpg?v=1760388366",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bfdb5767e44c0c59274645e5caf9138c.jpg?v=1760388366",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f1310671ea2d62c356b4be6976e5e819.jpg?v=1760388366"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "12C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18545",
+  "marca": "Crocs",
+  "nombre": "Disney Mickey Holiday Classic Clog Preschool/Grade School Sandals (Green/Red)",
+  "genero": "Niños",
+  "precio": 82.95,
+  "precio_c": 3050,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9e082a0136f982ed1ec4b972b5dba695.jpg?v=1729874764",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f635a395837b1f49aab9fa0d80bbf48f.jpg?v=1729874764"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "12C",
+   "13C",
+   "1Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18546",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Buffalo Check Preschool/Grade School Sandals (Black/Red)",
+  "genero": "Niños",
+  "precio": 67.95,
+  "precio_c": 2499,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/fcef307b643ff2f376e74dec461cf791.jpg?v=1729875029",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/668db21de8ccc028502dabddd51ebf4b.jpg?v=1729875029"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "12C",
+   "1Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18547",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Minecraft Preschool/Grade School Sandals (Black/Green)",
+  "genero": "Niños",
+  "precio": 72.95,
+  "precio_c": 2683,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/940edbdbf392d9414c563360e49efd84.jpg?v=1740692235",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/cf3032c7d110bee4356e271b1d9bc562.jpg?v=1740692235",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/7cda060a1b7fc1cbdaccf351110a5885.jpg?v=1740692235"
+  ],
+  "descripcion": "Zueco tipo clog de niño (little kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18548",
+  "marca": "Crocs",
+  "nombre": "Classic Velvet Clog - Youth",
+  "genero": "Niños",
+  "precio": 54.98,
+  "precio_c": 2022,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/211877001Y_1.jpg?v=1764116931",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/211877001Y_2.jpg?v=1764116931",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/211877001Y_3.jpg?v=1764116931",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/211877001Y_4.jpg?v=1764116931"
+  ],
+  "descripcion": "Zueco tipo clog de niño (big kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "04.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18549",
+  "marca": "Crocs",
+  "nombre": "Classig Clog Snapback Strap - Kids",
+  "genero": "Niños",
+  "precio": 64.98,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2149304HQ_1.jpg?v=1790199614",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2149304HQ_2.jpg?v=1790199614",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2149304HQ_3.jpg?v=1790199614",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2149304HQ_4.jpg?v=1790199614"
+  ],
+  "descripcion": "Zueco tipo clog de niño (big kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "11.0",
+   "12.0",
+   "13.0",
+   "01.0",
+   "02.0",
+   "03.0"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18550",
+  "marca": "UGG",
+  "nombre": "UGG Lowmel Mule Grade-School",
+  "genero": "Niños",
+  "precio": 117.95,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1180201K_20CHE_GS037.jpg?v=1783532811",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1180201K_20CHE_GS039.jpg?v=1783532811",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1180201K_20CHE_GS041.jpg?v=1783532811",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1180201K_20CHE_GS038.jpg?v=1783532812"
+  ],
+  "descripcion": "Zueco sin talón (mule) de niño (big kid) de UGG: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18551",
+  "marca": "UGG",
+  "nombre": "UGG  Tasman Mule Grade-School",
+  "genero": "Niños",
+  "precio": 117.95,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1175213K_20CHE_GS064.jpg?v=1767799307",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1175213K_20CHE_GS066.jpg?v=1767799314",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1175213K_20CHE_GS067.jpg?v=1767799322",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_K1175213K_20CHE_GS065.jpg?v=1767799332"
+  ],
+  "descripcion": "Pantufla de niño (big kid) de UGG: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Interior suave y calientito",
+   "Suela apta para interior y exterior"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18552",
+  "marca": "Jordan",
+  "nombre": "Air Jordan 3 Retro Lucky Shorts Grade School Lifestyle Shoes (Summit White/Hydrogen Blue/Legend Blue)",
+  "genero": "Niños",
+  "precio": 117.93,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/354ebcad48a6088ffe847fe9c3ffb3ac_c2524090-f785-4e7a-9a2e-7e34f7d8f8d1.jpg?v=1754086459",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/660f426e08da6fe4af540d72627b0fd5_ad47a510-8ada-4665-939d-21e7c60fbd5c.jpg?v=1754086459",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c9f8be0357e3a0b9e3df3fc6213c1a9d_5f3b50e3-edf0-40a8-b6f7-65acc089ce1b.jpg?v=1754086459",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0e8b225f161c56d6fc4e37b734b6f344_6d704eab-8ec5-4c65-9e38-f916d9175f2f.jpg?v=1754086459"
+  ],
+  "descripcion": "Chancla tipo slide de niño (big kid) de Jordan: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "4Y",
+   "5.5Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18553",
+  "marca": "UGG",
+  "nombre": "Lowmel Mule Grade School Boots (Chestnut)",
+  "genero": "Niños",
+  "precio": 117.95,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b5c9a610b179ab1c1b06e8218ac1496a.jpg?v=1789670953",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/3439d64d14700fac4b1c463d0aab6577.jpg?v=1789670953",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/80346a8ff71bf163d38080b48a46687e.jpg?v=1789670953",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1ed54f2ce3eee9548cbaed9a800fee9c.jpg?v=1789670953"
+  ],
+  "descripcion": "Zueco sin talón (mule) de niño (big kid) de UGG: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18554",
+  "marca": "UGG",
+  "nombre": "Tasman II Slipper Grade School Sandals (Black)",
+  "genero": "Niños",
+  "precio": 107.95,
+  "precio_c": 3970,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/81f349cf571ba02e5d7dfc981121965b.jpg?v=1768943337",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c7bb4ec48ddcadbf5e97408f0ba1972f.jpg?v=1768943337",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0869f33834db4a30aba7b07177bab97b.jpg?v=1768943337",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9c5039577381c74d5e8bf53ba3f4c4ed.jpg?v=1768943337"
+  ],
+  "descripcion": "Pantufla de niño (big kid) de UGG: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Interior suave y calientito",
+   "Suela apta para interior y exterior"
+  ],
+  "tallas": [
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18555",
+  "marca": "UGG",
+  "nombre": "Tasman Slipper Grade School Sandals (Chestnut)",
+  "genero": "Niños",
+  "precio": 107.95,
+  "precio_c": 3970,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/21bdbcdea0947b648b4b3e77fa0afb02.jpg?v=1757961187",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/9e8f5cd563040cc5c52da806cd1e745d.jpg?v=1757961187",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/66dc1fb696592f090bda8bb09fbd7caf.jpg?v=1757961187"
+  ],
+  "descripcion": "Pantufla de niño (big kid) de UGG: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Interior suave y calientito",
+   "Suela apta para interior y exterior"
+  ],
+  "tallas": [
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18556",
+  "marca": "UGG",
+  "nombre": "Tazz Slipper Grade School Sandals (Chestnut)",
+  "genero": "Niños",
+  "precio": 117.95,
+  "precio_c": 4337,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/942ff33a1e0757496b47d7543241a875.jpg?v=1757961231",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/f991780ed4dee7e03b3d3fb1be65dafc.jpg?v=1757961231",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/47674724a5725daf7cfa0db5ef595d1d.jpg?v=1757961231"
+  ],
+  "descripcion": "Pantufla de niño (big kid) de UGG: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Interior suave y calientito",
+   "Suela apta para interior y exterior"
+  ],
+  "tallas": [
+   "3Y",
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18557",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clogs Toddler",
+  "genero": "Niños",
+  "precio": 51.99,
+  "precio_c": 1912,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/06990001"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18558",
+  "marca": "Crocs",
+  "nombre": "Crocs Echo Clogs Grade School",
+  "genero": "Niños",
+  "precio": 66.99,
+  "precio_c": 2463,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/08190001"
+  ],
+  "descripcion": "Zueco tipo clog de niño (big kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18559",
+  "marca": "Crocs",
+  "nombre": "Crocs APX Realtree Classic Clogs Grade School",
+  "genero": "Niños",
+  "precio": 54.48,
+  "precio_c": 2003,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/1011190H"
+  ],
+  "descripcion": "Zueco tipo clog de niño (big kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18560",
+  "marca": "Crocs",
+  "nombre": "Crocs Classic Clogs Spider-Man Toddler",
+  "genero": "Niños",
+  "precio": 66.99,
+  "precio_c": 2463,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/1141090H"
+  ],
+  "descripcion": "Zueco tipo clog de niño (toddler) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "4",
+   "7",
+   "10"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18561",
+  "marca": "Crocs",
+  "nombre": "Crocs Spiderman Classic Clogs Grade School",
+  "genero": "Niños",
+  "precio": 71.99,
+  "precio_c": 2647,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/1351990H"
+  ],
+  "descripcion": "Zueco tipo clog de niño (big kid) de Crocs: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Material Croslite ligero que se lava fácil",
+   "Perforaciones de ventilación y drenaje"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "12",
+   "13"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18562",
+  "marca": "Nike",
+  "nombre": "Nike Kawa Slides Grade School",
+  "genero": "Niños",
+  "precio": 46.99,
+  "precio_c": 1728,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/19352001"
+  ],
+  "descripcion": "Chancla tipo slide de niño (big kid) de Nike: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18563",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Aqua Slides Preschool",
+  "genero": "Niños",
+  "precio": 36.99,
+  "precio_c": 1360,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/F35556P"
+  ],
+  "descripcion": "Chancla tipo slide de niño (little kid) de adidas: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "10"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18564",
+  "marca": "Jordan",
+  "nombre": "Jordan Franchise Slides Grade School",
+  "genero": "Niños",
+  "precio": 41.98,
+  "precio_c": 1544,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/F4490001"
+  ],
+  "descripcion": "Chancla tipo slide de niño (big kid) de Jordan: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (big kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18565",
+  "marca": "adidas",
+  "nombre": "adidas Adilette Shower Slides Preschool",
+  "genero": "Niños",
+  "precio": 38.99,
+  "precio_c": 1434,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/G27625P"
+  ],
+  "descripcion": "Chancla tipo slide de niño (little kid) de adidas: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18566",
+  "marca": "adidas",
+  "nombre": "adidas adilette 2 Preschool",
+  "genero": "Niños",
+  "precio": 46.99,
+  "precio_c": 1728,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/HQ0114"
+  ],
+  "descripcion": "Chancla tipo slide de niño (little kid) de adidas: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (little kid)",
+   "Suela de goma con buen agarre",
+   "Banda ancha que sujeta el pie sin apretar",
+   "Plantilla acolchada y ligera"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "10"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18567",
+  "marca": "adidas",
+  "nombre": "adidas Water 2 Toddler",
+  "genero": "Niños",
+  "precio": 48.99,
+  "precio_c": 1802,
+  "fotos": [
+   "https://images.footlocker.com/is/image/EBFL2/JP9414"
+  ],
+  "descripcion": "Sandalia de niño (toddler) de adidas: ligera, fresca y fácil de poner y quitar, ideal para el calor, la alberca y estar en casa.",
+  "detalles": [
+   "Para niño (toddler)",
+   "Suela de goma con buen agarre",
+   "Correas ajustables de secado rápido",
+   "Apta para agua y alberca"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18568",
+  "marca": "Reebok",
+  "nombre": "Classic Nylon - Youth — Dream Purple",
+  "genero": "Niños",
+  "precio": 34.97,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100281587_1.jpg?v=1786570708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100281587_2.jpg?v=1786570708",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100281587_3.jpg?v=1786570709",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100281587_4.jpg?v=1786570708"
+  ],
+  "descripcion": "Sneaker casual para niña de Reebok, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18569",
+  "marca": "Disney Princess",
+  "nombre": "Princess Lighted - Toddler — Purple",
+  "genero": "Niños",
+  "precio": 34.97,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PRSA24R0262L1_1.jpg?v=1785183464",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PRSA24R0262L1_2.jpg?v=1785183464",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PRSA24R0262L1_3.jpg?v=1785183463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PRSA24R0262L1_5.jpg?v=1785183464"
+  ],
+  "descripcion": "Sneaker casual para niña de Disney Princess, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18570",
+  "marca": "Paw Patrol",
+  "nombre": "Paw Patrol Lighted - Toddler — Blue",
+  "genero": "Niños",
+  "precio": 34.97,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PAWA24R0949C1_1.jpg?v=1785183468",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PAWA24R0949C1_2.jpg?v=1785183467",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PAWA24R0949C1_3.jpg?v=1785183468",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/PAWA24R0949C1_4.jpg?v=1785183468"
+  ],
+  "descripcion": "Sneaker casual para niña de Paw Patrol, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18571",
+  "marca": "Apres",
+  "nombre": "Wrap Boot - Youth — Chestnut",
+  "genero": "Niños",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_1.jpg?v=1792533026",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_2.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_3.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPCHESTNUTG_4.jpg?v=1792533027"
+  ],
+  "descripcion": "Bota casual para niña de Apres, abrigadora y resistente para la temporada fresca, con un estilo que combina con todo.",
+  "detalles": [
+   "Caña acolchada que abriga el tobillo",
+   "Cierre práctico para calzarla fácil",
+   "Suela de goma con tracción",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18572",
+  "marca": "Apres",
+  "nombre": "Wrap Boot - Youth — Black",
+  "genero": "Niños",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_1.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_2.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_3.jpg?v=1792533027",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/WRAPBLKG_4.jpg?v=1792533027"
+  ],
+  "descripcion": "Bota casual para niña de Apres, abrigadora y resistente para la temporada fresca, con un estilo que combina con todo.",
+  "detalles": [
+   "Caña acolchada que abriga el tobillo",
+   "Cierre práctico para calzarla fácil",
+   "Suela de goma con tracción",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18573",
+  "marca": "Disney",
+  "nombre": "Stitch & Angel Court - Kids — Purple",
+  "genero": "Niños",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LSA25N0095A1_1.jpg?v=1773439044",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LSA25N0095A1_2.jpg?v=1773439043",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LSA25N0095A1_3.jpg?v=1773439043",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LSA25N0095A1_4.jpg?v=1773439043"
+  ],
+  "descripcion": "Sneaker casual para niña de Disney, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18574",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Geisha Low Toddler",
+  "genero": "Niños",
+  "precio": 39.93,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF083.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF085.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF086.jpg?v=1776690782",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04778002_IF084.jpg?v=1776690782"
+  ],
+  "descripcion": "Sneaker casual para niña de Ed Hardy, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18575",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Pryce Grade-School",
+  "genero": "Niños",
+  "precio": 39.93,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/JPRYCELACE-WHT.jpg?v=1774372893"
+  ],
+  "descripcion": "Sneaker casual para niña de Steve Madden, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18576",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Pryce Toddler",
+  "genero": "Niños",
+  "precio": 39.93,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpryce_20white_IF158.jpg?v=1775159191",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpryce_20white_IF098.jpg?v=1775643264",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpryce_20white_IF159.jpg?v=1775643264",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/steve_20madden_tpryce_20white_IF099.jpg?v=1775643264"
+  ],
+  "descripcion": "Sneaker casual para niña de Steve Madden, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18577",
+  "marca": "Ed Hardy",
+  "nombre": "Ed Hardy Butterfly Skull Hi Toddler",
+  "genero": "Niños",
+  "precio": 39.93,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF074.jpg?v=1771362373",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF076.jpg?v=1771363172",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF077.jpg?v=1771363176",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ed_20hardy_EH04774655_IF075.jpg?v=1771362373"
+  ],
+  "descripcion": "Sneaker casual para niña de Ed Hardy, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18578",
+  "marca": "Skechers",
+  "nombre": "Heart Steps - Toddler",
+  "genero": "Niños",
+  "precio": 39.96,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_1.jpg?v=1755127001",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_2.jpg?v=1755127001",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_3.jpg?v=1755127001",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_4.jpg?v=1755127001"
+  ],
+  "descripcion": "Sneaker casual para niña de Skechers, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18579",
+  "marca": "Starter",
+  "nombre": "Fast Break Low X - Kids — White",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010467_1.jpg?v=1790978706",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010467_2.jpg?v=1790978706",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010467_3.jpg?v=1790978706",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010467_4.jpg?v=1790978705"
+  ],
+  "descripcion": "Sneaker casual para niña de Starter, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18580",
+  "marca": "Vans",
+  "nombre": "Old Skool V - Toddler",
+  "genero": "Niños",
+  "precio": 44.96,
+  "precio_c": 1653,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_1.jpg?v=1762357181",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_2.jpg?v=1762357181",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_3.jpg?v=1762357181",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_4.jpg?v=1762357181"
+  ],
+  "descripcion": "Sneaker casual para niña de Vans, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de velcro para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18581",
+  "marca": "Bluey",
+  "nombre": "Bluey Retro Run - Toddler — Pink",
+  "genero": "Niños",
+  "precio": 44.98,
+  "precio_c": 1654,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6253_1.jpg?v=1791583659",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6253_2.jpg?v=1791583659",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6253_3.jpg?v=1791583659",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6253_4.jpg?v=1791583659"
+  ],
+  "descripcion": "Sneaker casual para niña de Bluey, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18582",
+  "marca": "Converse",
+  "nombre": "Chuck Taylor All Star Maddison - Toddler",
+  "genero": "Niños",
+  "precio": 45.96,
+  "precio_c": 1690,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A11802F_1.jpg?v=1746574307",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A11802F_2.jpg?v=1746574308",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A11802F_3.jpg?v=1746574307",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A11802F_4.jpg?v=1746574307"
+  ],
+  "descripcion": "Sneaker casual para niña de Converse, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "8C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18583",
+  "marca": "Vans",
+  "nombre": "Knu Skool - Toddler — Pink Dawn",
+  "genero": "Niños",
+  "precio": 45.96,
+  "precio_c": 1690,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBGMY_1_60cec55e-4877-4b15-83f1-400b282857da.jpg?v=1793993937",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBGMY_2_45042e7b-1ee1-40d9-89b4-dac77db07829.jpg?v=1793993938",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBGMY_3_b86ce986-1583-4825-bfb7-3d4a193af7c1.jpg?v=1793993938",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBGMY_4_f2201bd9-26aa-413d-9be8-9dad2b92681e.jpg?v=1793993938"
+  ],
+  "descripcion": "Sneaker casual para niña de Vans, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18584",
+  "marca": "Converse",
+  "nombre": "Chuck Taylor All Star Bow Easy On - Toddler — Red",
+  "genero": "Niños",
+  "precio": 45.96,
+  "precio_c": 1690,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A15143F_1.jpg?v=1763596041",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A15143F_2.jpg?v=1763596041",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A15143F_3.jpg?v=1763596041",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A15143F_4.jpg?v=1763596041"
+  ],
+  "descripcion": "Sneaker casual para niña de Converse, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de velcro para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "8C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18585",
+  "marca": "Vans",
+  "nombre": "Knu Skool - Toddler — Brown",
+  "genero": "Niños",
+  "precio": 47.96,
+  "precio_c": 1764,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBYS51_1.jpg?v=1761065584",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBYS51_2.jpg?v=1761065584",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBYS51_3.jpg?v=1761065584",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000EFBYS51_4.jpg?v=1761065584"
+  ],
+  "descripcion": "Sneaker casual para niña de Vans, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18586",
+  "marca": "adidas",
+  "nombre": "Grand Court 3.0 - Kids — Leo (White",
+  "genero": "Niños",
+  "precio": 52.96,
+  "precio_c": 1948,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4817_1.jpg?v=1770849856",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4817_2.jpg?v=1770849856",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4817_3.jpg?v=1770849856",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4817_4.jpg?v=1770849856"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18587",
+  "marca": "Vans",
+  "nombre": "Old Skool V - Kids",
+  "genero": "Niños",
+  "precio": 52.96,
+  "precio_c": 1948,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYA7VF_1.jpg?v=1761863589",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYA7VF_2.jpg?v=1761863589",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYA7VF_3.jpg?v=1761863589",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CYA7VF_4.jpg?v=1761863589"
+  ],
+  "descripcion": "Sneaker casual para niña de Vans, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de velcro para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18588",
+  "marca": "Skechers",
+  "nombre": "Retro Graph - Kids — White",
+  "genero": "Niños",
+  "precio": 54.97,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/303692LPNK_1.jpg?v=1781127535",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/303692LPNK_2.jpg?v=1781127535",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/303692LPNK_3.jpg?v=1781127535",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/303692LPNK_4.jpg?v=1781127535"
+  ],
+  "descripcion": "Sneaker casual para niña de Skechers, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18589",
+  "marca": "Nike",
+  "nombre": "Court Borough Low Re - Toddler — Leopard",
+  "genero": "Niños",
+  "precio": 54.97,
+  "precio_c": 2021,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0565001_1.jpg?v=1786662464",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0565001_2.jpg?v=1786662464",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0565001_3.jpg?v=1786662465",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0565001_4.jpg?v=1786662465"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18590",
+  "marca": "Nike",
+  "nombre": "Court Borough Low Recraft - Kids — Platinum Tint",
+  "genero": "Niños",
+  "precio": 57.96,
+  "precio_c": 2131,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB0715001_1.jpg?v=1758321016",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB0715001_2.jpg?v=1758321016",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB0715001_3.jpg?v=1758321016",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB0715001_4.jpg?v=1758321016"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18591",
+  "marca": "adidas",
+  "nombre": "Superstar II - Toddler — Black",
+  "genero": "Niños",
+  "precio": 58.96,
+  "precio_c": 2168,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2003_1.jpg?v=1773352595",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2003_2.jpg?v=1773352595",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2003_3.jpg?v=1773352595",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2003_4.jpg?v=1773352595"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18592",
+  "marca": "adidas",
+  "nombre": "Samba OG - Toddler — Cream",
+  "genero": "Niños",
+  "precio": 59.96,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI6682_1.jpg?v=1774562358",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI6682_2.jpg?v=1774562358",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI6682_3.jpg?v=1774562357",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KI6682_4.jpg?v=1774562357"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18593",
+  "marca": "adidas",
+  "nombre": "Grand Court 3.0 - Youth — Leo (White",
+  "genero": "Niños",
+  "precio": 59.96,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4849_1.jpg?v=1770936879",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4849_2.jpg?v=1770936879",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4849_3.jpg?v=1770936879",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KJ4849_4.jpg?v=1770936879"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18594",
+  "marca": "Nike",
+  "nombre": "Air Force 1 - Toddler — Black",
+  "genero": "Niños",
+  "precio": 59.97,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0274001_1.jpg?v=1776726795",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0274001_2.jpg?v=1776726795",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0274001_3.jpg?v=1776726795",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR0274001_4.jpg?v=1776726795"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18595",
+  "marca": "Nike",
+  "nombre": "Air Force 1 - Toddler — Platinum Tint",
+  "genero": "Niños",
+  "precio": 61.96,
+  "precio_c": 2279,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF1674014_1.jpg?v=1787095726",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF1674014_2.jpg?v=1787095726",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF1674014_3.jpg?v=1787095726",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IF1674014_4.jpg?v=1787095726"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "2C",
+   "3C",
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18596",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool Grade-School",
+  "genero": "Niños",
+  "precio": 64.93,
+  "precio_c": 2388,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCGMY_GS017.jpg?v=1775159399",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCGMY_GS019.jpg?v=1775159399",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCGMY_GS021.jpg?v=1775159399",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000EGCGMY_GS018.jpg?v=1775159399"
+  ],
+  "descripcion": "Sneaker casual para niña de Vans, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18597",
+  "marca": "Vans",
+  "nombre": "Vans Knu Skool Grade-School",
+  "genero": "Niños",
+  "precio": 64.93,
+  "precio_c": 2388,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000D2TBMB_GS028.jpg?v=1771271016",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000D2TBMB_GS030.jpg?v=1771271016",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000D2TBMB_GS031.jpg?v=1771271016",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/vans_VN000D2TBMB_GS029.jpg?v=1771271016"
+  ],
+  "descripcion": "Sneaker casual para niña de Vans, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18598",
+  "marca": "Nike",
+  "nombre": "Court Borough Mid 2 - Toddler — White",
+  "genero": "Niños",
+  "precio": 64.96,
+  "precio_c": 2389,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB4399100_1.jpg?v=1786662465",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB4399100_2.jpg?v=1786662465",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB4399100_3.jpg?v=1786662465",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IB4399100_4.jpg?v=1786662465"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "2C",
+   "3C",
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18599",
+  "marca": "adidas",
+  "nombre": "Samba OG - Toddler — Cheetah (White",
+  "genero": "Niños",
+  "precio": 64.97,
+  "precio_c": 2389,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KZ6448_1.jpg?v=1781041256",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KZ6448_2.jpg?v=1781041256",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KZ6448_3.jpg?v=1781041256",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/KZ6448_4.jpg?v=1781041256"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18600",
+  "marca": "Nike",
+  "nombre": "Air Max INTRLK Lite - Youth — Pink Foam",
+  "genero": "Niños",
+  "precio": 67.96,
+  "precio_c": 2499,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DH9393601_1.jpg?v=1761250463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DH9393601_2.jpg?v=1761250463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DH9393601_3.jpg?v=1761250463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/DH9393601_4.jpg?v=1761250463"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18601",
+  "marca": "adidas",
+  "nombre": "Superstar II - Kids — Black",
+  "genero": "Niños",
+  "precio": 68.96,
+  "precio_c": 2536,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2004_1.jpg?v=1773263186",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2004_2.jpg?v=1773263186",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2004_3.jpg?v=1773263186",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JQ2004_4.jpg?v=1773263186"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18602",
+  "marca": "Nike",
+  "nombre": "Court Borough Mid 2 - Youth — Platinum Tint",
+  "genero": "Niños",
+  "precio": 69.96,
+  "precio_c": 2573,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_1.jpg?v=1761250463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_2.jpg?v=1761250463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_3.jpg?v=1761250463",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_4.jpg?v=1761250464"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18603",
+  "marca": "adidas",
+  "nombre": "Adidas Campus 00 'Camp Clear Pink Cloud White' Toddler Shoes",
+  "genero": "Niños",
+  "precio": 74.94,
+  "precio_c": 2756,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/ADIDAS_JP5508_PIC2_9a661ccb-66bd-44b8-aeea-6164450622da.jpg?v=1752622580",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/ADIDAS_JP5508_PIC1_50c18cf7-536f-45bb-a7e2-7448834aa540.jpg?v=1752622580",
+   "https://cdn.shopify.com/s/files/1/0297/2762/1253/files/ADIDAS_JP5508_PIC2_2c59799a-cf0f-4b4a-b5e8-a13a758a040e.jpg?v=1752622580"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "5C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18604",
+  "marca": "adidas",
+  "nombre": "Adidas Samba OG Toddler",
+  "genero": "Niños",
+  "precio": 74.95,
+  "precio_c": 2756,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF059.jpg?v=1784058182",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF061.jpg?v=1784058182",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF062.jpg?v=1784058182",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/adidas_KZ6448_IF060.jpg?v=1784058182"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "6C",
+   "7C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18605",
+  "marca": "adidas",
+  "nombre": "Samba Jane - Toddler — White",
+  "genero": "Niños",
+  "precio": 74.98,
+  "precio_c": 2757,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LA3703_1.jpg?v=1790806126",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LA3703_2.jpg?v=1790806126",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LA3703_3.jpg?v=1790806126",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/LA3703_4.jpg?v=1790806126"
+  ],
+  "descripcion": "Sneaker casual para niña de adidas, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18606",
+  "marca": "Nike",
+  "nombre": "Air Max Moto 2k - Toddler — Black",
+  "genero": "Niños",
+  "precio": 101.98,
+  "precio_c": 3750,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5606004_1.jpg?v=1791928390",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5606004_2.jpg?v=1791928390",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5606004_3.jpg?v=1791928391",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5606004_4.jpg?v=1791928390"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18607",
+  "marca": "Jordan",
+  "nombre": "Retro 1 High OG - Kids — University Red",
+  "genero": "Niños",
+  "precio": 104.98,
+  "precio_c": 3861,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD2597601_1.jpg?v=1787175749",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD2597601_2.jpg?v=1787175749",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD2597601_3.jpg?v=1787175749",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD2597601_4.jpg?v=1787175749"
+  ],
+  "descripcion": "Sneaker casual para niña de Jordan, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18608",
+  "marca": "New Balance",
+  "nombre": "530 - Youth — Mushroom",
+  "genero": "Niños",
+  "precio": 104.98,
+  "precio_c": 3861,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5306GC_1.jpg?v=1786570712",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5306GC_2.jpg?v=1786570712",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5306GC_3.jpg?v=1786570712",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5306GC_4.jpg?v=1786570712"
+  ],
+  "descripcion": "Sneaker casual para niña de New Balance, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18609",
+  "marca": "New Balance",
+  "nombre": "530 - Youth — Shell Pink",
+  "genero": "Niños",
+  "precio": 104.98,
+  "precio_c": 3861,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5302KD_1.jpg?v=1782935598",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5302KD_2.jpg?v=1782855907",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5302KD_3.jpg?v=1782855907",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/G5302KD_4.jpg?v=1782855907"
+  ],
+  "descripcion": "Sneaker casual para niña de New Balance, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18610",
+  "marca": "Jordan",
+  "nombre": "Retro 4 - Toddler — White",
+  "genero": "Niños",
+  "precio": 109.98,
+  "precio_c": 4044,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ7670102_1.jpg?v=1787607914",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ7670102_2.jpg?v=1787607914",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ7670102_3.jpg?v=1787607914",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/BQ7670102_4.jpg?v=1787607914"
+  ],
+  "descripcion": "Sneaker casual para niña de Jordan, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18611",
+  "marca": "Jordan",
+  "nombre": "Retro 4 - Toddler — Sweet Beet",
+  "genero": "Niños",
+  "precio": 109.98,
+  "precio_c": 4044,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO2830600_1.jpg?v=1785360311",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO2830600_2.jpg?v=1785360311",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO2830600_3.jpg?v=1785360311",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IO2830600_4.jpg?v=1785360311"
+  ],
+  "descripcion": "Sneaker casual para niña de Jordan, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18612",
+  "marca": "Nike",
+  "nombre": "Air Max 270 - Youth — Pink Foam",
+  "genero": "Niños",
+  "precio": 109.98,
+  "precio_c": 4044,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IQ9154663_1.jpg?v=1777674200",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IQ9154663_2.jpg?v=1777674200",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IQ9154663_3.jpg?v=1777674200",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IQ9154663_4.jpg?v=1777674201"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18613",
+  "marca": "Nike",
+  "nombre": "Air Max 270 - Youth — White",
+  "genero": "Niños",
+  "precio": 109.99,
+  "precio_c": 4045,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/943345129_1.jpg?v=1781899929",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/943345129_2.jpg?v=1781899929",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/943345129_3.jpg?v=1781899929",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/943345129_4.jpg?v=1781899929"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18614",
+  "marca": "Nike",
+  "nombre": "Air Max Moto 2k - Kids — Black",
+  "genero": "Niños",
+  "precio": 111.98,
+  "precio_c": 4118,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5605005_1.jpg?v=1793224314",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5605005_2.jpg?v=1793224314",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5605005_3.jpg?v=1793224314",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IR5605005_4.jpg?v=1793224314"
+  ],
+  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18615",
+  "marca": "Jordan",
+  "nombre": "Retro 1 High OG - Youth",
+  "genero": "Niños",
+  "precio": 114.97,
+  "precio_c": 4228,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD1437402_1.jpg?v=1746122948",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD1437402_2.jpg?v=1746122948",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD1437402_3.jpg?v=1746122948",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FD1437402_4.jpg?v=1746122948"
+  ],
+  "descripcion": "Sneaker casual para niña de Jordan, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4.5Y",
+   "5Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18616",
+  "marca": "Reebok",
+  "nombre": "Court Advance - Youth — White",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_1.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_2.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_3.jpg?v=1789422061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100268510_4.jpg?v=1789422061"
+  ],
+  "descripcion": "Sneaker casual para niña de Reebok, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18617",
+  "marca": "Reebok",
+  "nombre": "Classic AZ - Youth — Chalk",
+  "genero": "Niños",
+  "precio": 39.97,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_1.jpg?v=1788904340",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_2.jpg?v=1788904339",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_3.jpg?v=1788904340",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100269664_4.jpg?v=1788904340"
+  ],
+  "descripcion": "Sneaker casual para niña de Reebok, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18618",
+  "marca": "Hello Kitty",
+  "nombre": "Hello Kitty Slipper - Toddler",
+  "genero": "Niños",
+  "precio": 29.96,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094430AS1_1.jpg?v=1765325324",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094430AS1_2.jpg?v=1765325324",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094430AS1_3.jpg?v=1765325324",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094430AS1_4.jpg?v=1765325324"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Hello Kitty, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18619",
+  "marca": "Crocs",
+  "nombre": "Classic Clog - Toddler — Quiet Rose",
+  "genero": "Niños",
+  "precio": 29.98,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069901BE_1_ac599b99-0f01-45af-81de-4ee6c237c4b1.jpg?v=1784065364",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069901BE_2.jpg?v=1784065364",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069901BE_3_86a4a51e-867d-434e-9989-bb1f704ed77a.jpg?v=1784065364",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069901BE_4_84ee4f46-8be2-4d5f-a19a-9c8bdd0ae691.jpg?v=1784065363"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Crocs: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18620",
+  "marca": "Hello Kitty",
+  "nombre": "Hello Kitty Slipper - Kids",
+  "genero": "Niños",
+  "precio": 30.96,
+  "precio_c": 1139,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094498AS2_1.jpg?v=1765481170",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094498AS2_2.jpg?v=1765481170",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094498AS2_3.jpg?v=1765481170",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/41094498AS2_4.jpg?v=1765481170"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Hello Kitty, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "13C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18621",
+  "marca": "Hello Kitty",
+  "nombre": "Hello Kitty Slide - Toddler — Pink",
+  "genero": "Niños",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECHK6004_1.jpg?v=1791238062",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECHK6004_2.jpg?v=1791238061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECHK6004_3.jpg?v=1791238061",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECHK6004_4.jpg?v=1791238061"
+  ],
+  "descripcion": "Slide casual para niña de Hello Kitty: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18622",
+  "marca": "Character",
+  "nombre": "Clog Eva - Toddler — Blue",
+  "genero": "Niños",
+  "precio": 34.98,
+  "precio_c": 1286,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6430_1.jpg?v=1791238056",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6430_2.jpg?v=1791238056",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6430_3.jpg?v=1791238057",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/ECBY6430_4.jpg?v=1791238056"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Character: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18623",
+  "marca": "Nike",
+  "nombre": "Nike Calm Slides 2.0 Pre-School",
+  "genero": "Niños",
+  "precio": 39.93,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II6118_20600_PS002.jpg?v=1771007932",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II6118_20600_PS004.jpg?v=1771007932",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II6118_20600_PS005.jpg?v=1771007932",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_II6118_20600_PS003.jpg?v=1771007932"
+  ],
+  "descripcion": "Slide casual para niña de Nike: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1Y",
+   "2Y",
+   "3Y",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18624",
+  "marca": "Crocs",
+  "nombre": "Crocs Minnie Mouse Classic Clog Pre-School",
+  "genero": "Niños",
+  "precio": 39.93,
+  "precio_c": 1468,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_212294_2090H_PS020.jpg?v=1768492201",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_212294_2090H_PS022.jpg?v=1768492201",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_212294_2090H_PS023.jpg?v=1768492201",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/crocs_212294_2090H_PS021.jpg?v=1768492201"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Crocs: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18625",
+  "marca": "Crocs",
+  "nombre": "Classic Clog - Youth — Quiet Rose",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069911BEY_1.jpg?v=1784065363",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069911BEY_2.jpg?v=1784065364",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069911BEY_3.jpg?v=1784065364",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069911BEY_4.jpg?v=1784065364"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Crocs: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "5Y",
+   "6Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18626",
+  "marca": "Kurt Geiger",
+  "nombre": "Kurt Geiger Mini Orson Sandal Toddler",
+  "genero": "Niños",
+  "precio": 44.93,
+  "precio_c": 1652,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS23LA1_IF066.jpg?v=1771963744",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS23LA1_IF068.jpg?v=1771968098",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS23LA1_IF069.jpg?v=1771968106",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS23LA1_IF067.jpg?v=1771963745"
+  ],
+  "descripcion": "Sandalia casual para niña de Kurt Geiger, fresca y cómoda para el verano, la playa y la piscina.",
+  "detalles": [
+   "Diseño abierto y fresco para días de calor",
+   "Cierre ajustable para un calce seguro",
+   "Suela ligera y flexible",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18627",
+  "marca": "Nike",
+  "nombre": "Nike Calm Slides 2.0 Grade-School",
+  "genero": "Niños",
+  "precio": 44.93,
+  "precio_c": 1652,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/IF9306-600.jpg?v=1769534495"
+  ],
+  "descripcion": "Slide casual para niña de Nike: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18628",
+  "marca": "Nike",
+  "nombre": "Kawa Slide - Toddler — Photon Dust",
+  "genero": "Niños",
+  "precio": 47.98,
+  "precio_c": 1764,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IZ1989006_1.jpg?v=1794353243",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IZ1989006_2.jpg?v=1794353242",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IZ1989006_3.jpg?v=1794353242",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IZ1989006_4.jpg?v=1794353243"
+  ],
+  "descripcion": "Slide casual para niña de Nike: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18629",
+  "marca": "Nike",
+  "nombre": "Kawa Slide - Toddler — Playful Pink",
+  "genero": "Niños",
+  "precio": 47.98,
+  "precio_c": 1764,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ8811601_1.jpg?v=1793397870",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ8811601_2.jpg?v=1793397870",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ8811601_3.jpg?v=1793397870",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ8811601_4.jpg?v=1793397870"
+  ],
+  "descripcion": "Slide casual para niña de Nike: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18630",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 Pre-School",
+  "genero": "Niños",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_PS054.jpg?v=1778595123",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_PS056.jpg?v=1778595123",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_PS057.jpg?v=1778595123",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_PS055.jpg?v=1778595123"
+  ],
+  "descripcion": "Slide casual para niña de Nike: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "2Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18631",
+  "marca": "Kurt Geiger",
+  "nombre": "Kurt Geiger Mini Orson Sandal Pre-School",
+  "genero": "Niños",
+  "precio": 49.93,
+  "precio_c": 1836,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS22A2_PS061.jpg?v=1771963469",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS22A2_PS063.jpg?v=1771968123",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS22A2_PS064.jpg?v=1771968066",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/kurt_20geiger_KGS22A2_PS062.jpg?v=1771963469"
+  ],
+  "descripcion": "Sandalia casual para niña de Kurt Geiger, fresca y cómoda para el verano, la playa y la piscina.",
+  "detalles": [
+   "Diseño abierto y fresco para días de calor",
+   "Cierre ajustable para un calce seguro",
+   "Suela ligera y flexible",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1Y",
+   "2Y",
+   "3Y",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18632",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Fun Lab - Toddler",
+  "genero": "Niños",
+  "precio": 52.98,
+  "precio_c": 1948,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2140632PL_1.jpg?v=1792187452",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2140632PL_2.jpg?v=1792187452",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2140632PL_3.jpg?v=1792187452",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2140632PL_4.jpg?v=1792187452"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Crocs: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18633",
+  "marca": "Nike",
+  "nombre": "Nike ReactX Rejuven8 Grade-School",
+  "genero": "Niños",
+  "precio": 59.93,
+  "precio_c": 2204,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_GS135.jpg?v=1775155974",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_GS109.jpg?v=1775671742",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_GS136.jpg?v=1775671742",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF1746_20600_GS110.jpg?v=1775671742"
+  ],
+  "descripcion": "Slide casual para niña de Nike: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18634",
+  "marca": "Nike",
+  "nombre": "Nike Calm 2.0 Slides Grade-School",
+  "genero": "Niños",
+  "precio": 59.95,
+  "precio_c": 2205,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF9306-602_GS.jpg?v=1792602920",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/nike_IF9306-602_GS-2.jpg?v=1792602937"
+  ],
+  "descripcion": "Slide casual para niña de Nike: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18635",
+  "marca": "Crocs",
+  "nombre": "Classic Clog Fun Lab - Toddler",
+  "genero": "Niños",
+  "precio": 64.98,
+  "precio_c": 2390,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2116254WK_1.jpg?v=1752707479",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2116254WK_2.jpg?v=1752707479",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2116254WK_3.jpg?v=1752707479",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2116254WK_4.jpg?v=1752707479"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Crocs: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18636",
+  "marca": "Crocs",
+  "nombre": "Classic Lighted Backtrap Clog - Toddler",
+  "genero": "Niños",
+  "precio": 69.98,
+  "precio_c": 2573,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134167CR_1.jpg?v=1768603297",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134167CR_2.jpg?v=1768603297",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134167CR_3.jpg?v=1768603297",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134167CR_4.jpg?v=1768603296"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Crocs: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "4C",
+   "5C",
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18637",
+  "marca": "Crocs",
+  "nombre": "Classic Lighted Backtrap Clog - Kids",
+  "genero": "Niños",
+  "precio": 74.98,
+  "precio_c": 2757,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134157CR_1.jpg?v=1768603295",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134157CR_2.jpg?v=1768603295",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134157CR_3.jpg?v=1768603295",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2134157CR_4.jpg?v=1768603295"
+  ],
+  "descripcion": "Zueco tipo clog para niña de Crocs: ligero, cómodo y fácil de limpiar, ideal para el día a día y la piscina.",
+  "detalles": [
+   "Parte superior sintética perforada, ligera y ventilada",
+   "Se pone y se quita en segundos, sin cordones",
+   "Suela con buen agarre para superficies mojadas",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "1C",
+   "2C",
+   "3C",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18638",
+  "marca": "UGG",
+  "nombre": "UGG Tasman II Slippers Toddler",
+  "genero": "Niños",
+  "precio": 90.0,
+  "precio_c": 3310,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_T1019066T_20BHTF_IF029.jpg?v=1783533004",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_T1019066T_20BHTF_IF031.jpg?v=1783533004",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_T1019066T_20BHTF_IF033.jpg?v=1783533004",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_T1019066T_20BHTF_IF030.jpg?v=1783533004"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de UGG, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18639",
+  "marca": "UGG",
+  "nombre": "UGG Tasman II Shiny Dots Toddler",
+  "genero": "Niños",
+  "precio": 100.0,
+  "precio_c": 3677,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_1182791T-BLK.jpg?v=1791926457",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/ugg_1182791T-BLK-2.jpg?v=1791926463"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de UGG, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18640",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite 360 Slippers (Toddler/Little Kid)",
+  "genero": "Niños",
+  "precio": 26.99,
+  "precio_c": 993,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81drCe4psNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81drCe4psNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81YwL7tjI5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81zK3XFL8bL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Stride Rite, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18641",
+  "marca": "Josmo",
+  "nombre": "Josmo Minnie Slippers (Toddler/Little Kid)",
+  "genero": "Niños",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Z3bTICeGL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Z3bTICeGL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71bLcvMcfCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7196PFSj5AL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Josmo, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18642",
+  "marca": "Rothy's",
+  "nombre": "Rothy's The Teddy Slippers (Toddler/Little Kid)",
+  "genero": "Niños",
+  "precio": 50.0,
+  "precio_c": 1839,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/615haoUuhUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615haoUuhUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71CbCDwGU6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61s8y4Bug5L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Rothy's, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18643",
+  "marca": "Hey Dude",
+  "nombre": "Hey Dude Wendy Slipper (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 50.49,
+  "precio_c": 1857,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61e+9GAPlRL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61e+9GAPlRL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610KFb4hPnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61nFB5gnW4L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Hey Dude, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18644",
+  "marca": "Bearpaw",
+  "nombre": "Bearpaw Delphi (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 51.99,
+  "precio_c": 1912,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81Iw2VoXkWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Iw2VoXkWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Kwp194csL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61n4dZ5lwxL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Slide casual para niña de Bearpaw: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18645",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Sleigh (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 52.0,
+  "precio_c": 1912,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81iuuX3CI3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81iuuX3CI3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71erLAWedLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/819fpqyy44L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Slide casual para niña de Steve Madden: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18646",
+  "marca": "Naturino",
+  "nombre": "Naturino Free Open 2 Vl (Toddler/Little Kid)",
+  "genero": "Niños",
+  "precio": 53.15,
+  "precio_c": 1955,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71qLXYuFAVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qLXYuFAVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71QDyxi55kL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71d9XWv4ZbL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Slide casual para niña de Naturino: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18647",
+  "marca": "Bearpaw",
+  "nombre": "Bearpaw Martis (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 53.99,
+  "precio_c": 1985,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71jAWVfWL+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71jAWVfWL+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71KqsHivTpL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fRyVD369L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Slide casual para niña de Bearpaw: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18648",
+  "marca": "Hey Dude",
+  "nombre": "Hey Dude Wally Slipper Cozy Reindeer (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/8150p22QmmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/8150p22QmmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81T4wRFJFgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81y5H8ZDy3L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Hey Dude, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18649",
+  "marca": "L.L.Bean",
+  "nombre": "L.L.Bean Wicked Good Slipper (Toddler)",
+  "genero": "Niños",
+  "precio": 59.95,
+  "precio_c": 2205,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/810WdB9nc5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/810WdB9nc5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fTdre0HeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71cawJbzYfL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de L.L.Bean, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18650",
+  "marca": "UGG",
+  "nombre": "UGG Tazz (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81DXfLmz+2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81DXfLmz+2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ZR2OZwEhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81jWELaTb2L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de UGG, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18651",
+  "marca": "UGG",
+  "nombre": "UGG Cozy II Knit (Toddler/Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 109.95,
+  "precio_c": 4043,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/619icOHn2SL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/619icOHn2SL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Rc8tMbgDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61bMJFOKUPL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Slide casual para niña de UGG: se calza en segundos y acompaña perfecto la playa, la piscina y el diario.",
+  "detalles": [
+   "Una sola tira ancha: fácil de poner y quitar",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera con buen agarre",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "6C",
+   "7C",
+   "8C",
+   "9C",
+   "10C",
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18652",
+  "marca": "UGG",
+  "nombre": "UGG Tazz Shiny Dots (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 119.95,
+  "precio_c": 4411,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81ajEGpMp5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ajEGpMp5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81JuOymxjaL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71azhY2YmkL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de UGG, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18653",
+  "marca": "UGG",
+  "nombre": "UGG Disquette Glisten (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 124.95,
+  "precio_c": 4595,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81o8TGYVG1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81o8TGYVG1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ZmDiqdspL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/8163dOlnagL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de UGG, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18654",
+  "marca": "UGG",
+  "nombre": "UGG Disquette Glisten (Little Kid/Big Kid)",
+  "genero": "Niños",
+  "precio": 124.95,
+  "precio_c": 4595,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71itT0bbUVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71itT0bbUVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Joblw5HBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61315zgh+IL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de UGG, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "5Y",
+   "6Y",
+   "7Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18655",
+  "marca": "Mou",
+  "nombre": "Mou Slippers Back Strap - Letter Logo (Little Kid)",
+  "genero": "Niños",
+  "precio": 130.0,
+  "precio_c": 4781,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81nU6jktg-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81nU6jktg-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81JaQ1-WGzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71e03mgBtzL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Pantufla suave y abrigadora para niña de Mou, perfecta para estar cómoda en casa en los días frescos.",
+  "detalles": [
+   "Interior suave y cálido tipo borrego",
+   "Diseño sin cordones: se calza al instante",
+   "Suela ligera con tracción para interiores",
+   "Tallas de niña (toddler a big kid)"
+  ],
+  "tallas": [
+   "11C",
+   "12C",
+   "13C",
+   "1Y",
+   "2Y",
+   "3Y"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18656",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Kyle (Toddler/Little Kid) — Chestnut",
+  "genero": "Niños",
+  "precio": 43.75,
+  "precio_c": 1609,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81PZipJjMEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/8110N-gWyBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/818hajTIMnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81yJT-5lvrL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "L'Amour Shoes Kyle (Toddler/Little Kid) en castaño: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18657",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Vibe Jr. Boys Plain Toe Saddle Shoe (Toddler/Little Kid/Big Kid) — Cognac Multi",
+  "genero": "Niños",
+  "precio": 45.96,
+  "precio_c": 1690,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/610NBFMnceL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61n5tAMRacL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71UXQ7ZBSsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YpVmhldJL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Vibe Jr. Boys Plain Toe Saddle Shoe (Toddler/Little Kid/Big Kid) en coñac: zapato de vestir bicolor estilo saddle para niño, un clásico elegante para eventos y fotos especiales.",
+  "detalles": [
+   "Parte superior de cuero con diseño bicolor clásico",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18658",
+  "marca": "Janie and Jack",
+  "nombre": "Janie and Jack Tan Loafers (Toddler/Little Kid/Big Kid) — Brown",
+  "genero": "Niños",
+  "precio": 54.85,
+  "precio_c": 2017,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81o-4hTFllL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81JqC8PYzkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Gt-oh0tvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ZmVxI3ZCL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Janie and Jack Tan Loafers (Toddler/Little Kid/Big Kid) en marrón: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18659",
+  "marca": "Janie and Jack",
+  "nombre": "Janie and Jack Tan Loafers (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 54.85,
+  "precio_c": 2017,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Dk6X0nZCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71jCuVJDhUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81x2y1MPRZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61GL5tbRjoL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Janie and Jack Tan Loafers (Toddler/Little Kid/Big Kid) en negro: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18660",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rolan Cap Toe Oxford (Toddler/Little Kid) — Cognac",
+  "genero": "Niños",
+  "precio": 56.82,
+  "precio_c": 2089,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81mbhlYZ2UL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71bJrxHgM9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81kRHhp7-NL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81iy5w5o3lL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Rolan Cap Toe Oxford (Toddler/Little Kid) en coñac: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18661",
+  "marca": "Kenneth Cole Reaction",
+  "nombre": "Kenneth Cole Reaction Jason Venetian (Toddler) — Cognac",
+  "genero": "Niños",
+  "precio": 60.0,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61cZOGtbi1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711KVxhkJ-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61FUi7ovVoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71x7mo-AaSL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Kenneth Cole Reaction Jason Venetian (Toddler) en coñac: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18662",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Upton Venetian (Little Kid/Big Kid) — Black Full Grain",
+  "genero": "Niños",
+  "precio": 61.75,
+  "precio_c": 2271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/619H5HwGtcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71xsVHPkOqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61820ygXkbL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Jz0ZnLwSL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Upton Venetian (Little Kid/Big Kid) en negro: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18663",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Conard Saddle (Little Kid/Big Kid) — Tan Dark Brown",
+  "genero": "Niños",
+  "precio": 65.3,
+  "precio_c": 2401,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Qhngx49cL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YJDtzPaXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71hgkGmGofL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71CQcjUNC2L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Conard Saddle (Little Kid/Big Kid) en camel: zapato de vestir bicolor estilo saddle para niño, un clásico elegante para eventos y fotos especiales.",
+  "detalles": [
+   "Parte superior de cuero con diseño bicolor clásico",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18664",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Tyler (Toddler/Little Kid) — White",
+  "genero": "Niños",
+  "precio": 66.0,
+  "precio_c": 2427,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71OkiZ7GIbL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71IyfcCPDBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610pHIIRWPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Ta1qoDXYL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "L'Amour Shoes Tyler (Toddler/Little Kid) en blanco: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18665",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Tyler (Toddler/Little Kid) — Khaki",
+  "genero": "Niños",
+  "precio": 66.0,
+  "precio_c": 2427,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71S9gNQ25tL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71649-wzSnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71udXBd4s7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/812kwoga4FL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "L'Amour Shoes Tyler (Toddler/Little Kid) en khaki: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18666",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rucci Moc Toe Bit Loafer Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/6113MHuLRhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ZXtTHOI2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fUvJq58mL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71uO5ztUoEL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Rucci Moc Toe Bit Loafer Jr. (Toddler/Little Kid/Big Kid) en negro: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18667",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rucci Penny Loafer Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61mGH5igDCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61UZwC1Pa5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71LTRF7Hg8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71x2zIeMBnL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Rucci Penny Loafer Jr. (Toddler/Little Kid/Big Kid) en negro: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18668",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rucci Penny Loafer Jr. (Toddler/Little Kid/Big Kid) — Cognac",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61XRPRvIZlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71HyjnkrV9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71GF3tani6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610I-XbdVsL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Rucci Penny Loafer Jr. (Toddler/Little Kid/Big Kid) en coñac: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18669",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Norwalk Plain Toe Oxford (Toddler/Little Kid/Big Kid) — Cognac Multi",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7109KdmeNBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Cb8jSVk2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71I2qrKY28L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/717bVO8r4cL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Norwalk Plain Toe Oxford (Toddler/Little Kid/Big Kid) en coñac: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18670",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Norwalk Plain Toe Oxford (Toddler/Little Kid/Big Kid) — Brown Crazy Horse",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71IsqWAZ36L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71h83Kizu9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71SSaBHo6rL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81O7-78nT0L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Norwalk Plain Toe Oxford (Toddler/Little Kid/Big Kid) en marrón: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18671",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rucci Jr. Wing Tip Oxford (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/712vpsokkvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71kRrVw54dL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71PxujAO0ZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/613cibRxzHL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Rucci Jr. Wing Tip Oxford (Toddler/Little Kid/Big Kid) en negro: zapato de vestir wingtip para niño, con detalles perforados clásicos, perfecto para eventos y celebraciones.",
+  "detalles": [
+   "Parte superior de cuero con puntera wingtip perforada",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18672",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rucci Jr. Wing Tip Oxford (Toddler/Little Kid/Big Kid) — Cognac",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71yQzgLvZRL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61MPGiJROLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711QELBCBJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714VFKnh-eL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Rucci Jr. Wing Tip Oxford (Toddler/Little Kid/Big Kid) en coñac: zapato de vestir wingtip para niño, con detalles perforados clásicos, perfecto para eventos y celebraciones.",
+  "detalles": [
+   "Parte superior de cuero con puntera wingtip perforada",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18673",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Lookout Jr. Plain Toe Oxford (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71BNrM7kLjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61JgLkCArzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711dNHucrIL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61la6NPIcQL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Lookout Jr. Plain Toe Oxford (Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18674",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Rucci Jr. Cap Toe Oxford (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7170ETJy4HL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61GIUFFYEuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711wSeiiOhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71zKyPEq9LL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Rucci Jr. Cap Toe Oxford (Toddler/Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18675",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Vibe Plain Toe Oxford Jr. (Toddler/Little Kid/Big Kid) — Brown Crazy Horse",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61s3fvRjsEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qNRD3w74L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71HGtRGEqwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61xeKieTkuL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Vibe Plain Toe Oxford Jr. (Toddler/Little Kid/Big Kid) en marrón: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18676",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Vibe Plain Toe Oxford Jr. (Toddler/Little Kid/Big Kid) — Cognac",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71nI9ytPXnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61FFmZB1AnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71OE7S4DvdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61rahxtt2PL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Vibe Plain Toe Oxford Jr. (Toddler/Little Kid/Big Kid) en coñac: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18677",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Holden Wing Tip (Toddler/Little Kid) — Tan",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71cPYwI6c7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719SsCkeqeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81C0QbXJuBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61tbCTNrs7L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Holden Wing Tip (Toddler/Little Kid) en camel: zapato de vestir wingtip para niño, con detalles perforados clásicos, perfecto para eventos y celebraciones.",
+  "detalles": [
+   "Parte superior de cuero con puntera wingtip perforada",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18678",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Supacush Plain Toe Ox, Jr. (Toddler/Little Kid/Big Kid) — Cognac Milled White Sole",
+  "genero": "Niños",
+  "precio": 69.99,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/718gEhySrcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71UKM-Wd8ML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YWYdq-nyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71FC1u92xmL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Supacush Plain Toe Ox, Jr. (Toddler/Little Kid/Big Kid) en coñac: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18679",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Reveal Wingtip Jr. (Toddler/Little Kid/Big Kid) — Cognac",
+  "genero": "Niños",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71A8HGHKvNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71rPQ6kEi0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71hJCGkCtNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/716lfMRo8HL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Reveal Wingtip Jr. (Toddler/Little Kid/Big Kid) en coñac: zapato de vestir wingtip para niño, con detalles perforados clásicos, perfecto para eventos y celebraciones.",
+  "detalles": [
+   "Parte superior de cuero con puntera wingtip perforada",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18680",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Jasper Venetian Jr. (Toddler/Little Kid/Big Kid) — Saddle Tan",
+  "genero": "Niños",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/6122CXYXn4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61fZU4HVdHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71CkWY7UCAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qR8neawfL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Jasper Venetian Jr. (Toddler/Little Kid/Big Kid) en camel: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18681",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Jasper Venetian Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/615zQPUmxXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61aLbyvLZxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61DdH8beNiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71l4uHa4tpL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Jasper Venetian Jr. (Toddler/Little Kid/Big Kid) en negro: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18682",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Otis (Toddler/Little Kid/Big Kid) — Chestnut",
+  "genero": "Niños",
+  "precio": 75.0,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71BE5AbrtBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71TSOGqkdsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71KonQu-S1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71iwlRNtlgL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "L'Amour Shoes Otis (Toddler/Little Kid/Big Kid) en castaño: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18683",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Croquet Penny Loafer Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61wi9WCd59L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61KVFkdXLxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61DWVPZ1boL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Bv2ToqKYL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Croquet Penny Loafer Jr. (Toddler/Little Kid/Big Kid) en negro: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18684",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Croquet Penny Loafer Jr. (Toddler/Little Kid/Big Kid) — Burgundy",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61paQ-I8AeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615SmcMP45L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/612cz2PhM4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71XTTaZptmL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Croquet Penny Loafer Jr. (Toddler/Little Kid/Big Kid) en burdeos: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18685",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Kearny Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61NBxTMzfZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61gpgCi7xyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61CJ73W8AsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61jBOdxecyL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Kearny Jr. (Toddler/Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18686",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Kearny Jr. (Toddler/Little Kid/Big Kid) — Sand",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71pRZYOCY1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71MXiOpFUuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719hQZwqriL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81bGHFy9NoL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Kearny Jr. (Toddler/Little Kid/Big Kid) en arena: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18687",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Supacush Plain Toe Ox, Jr. (Toddler/Little Kid/Big Kid) — Black Milled Black Sole",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71mXN2j4xxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713fuMOI9sL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/718X1YPCpWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71PXDKSHk0L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Supacush Plain Toe Ox, Jr. (Toddler/Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18688",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Midtown Plain Ox, Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81rjfjxXC4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71W82NHLvhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81rFIflItJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81wADJP6ZkL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Midtown Plain Ox, Jr. (Toddler/Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18689",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Great Lakes Wing Tip Ox Jr. (Toddler/Little Kid/Big Kid) — Cognac Milled Leather",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71LklaIBeNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719HbjN2YdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71dvo4KULTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81KmqfF9ZJL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Great Lakes Wing Tip Ox Jr. (Toddler/Little Kid/Big Kid) en coñac: zapato de vestir wingtip para niño, con detalles perforados clásicos, perfecto para eventos y celebraciones.",
+  "detalles": [
+   "Parte superior de cuero con puntera wingtip perforada",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18690",
+  "marca": "FootMates",
+  "nombre": "FootMates Bucky 2 (Toddler/Little Kid) — Dirty Buck",
+  "genero": "Niños",
+  "precio": 79.95,
+  "precio_c": 2940,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81ViI7Ox7yL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81flwqVhAzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81QlxpBtC-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81oeXSj4hkL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "FootMates Bucky 2 (Toddler/Little Kid) en ante claro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "13.5C",
+   "1Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18691",
+  "marca": "FootMates",
+  "nombre": "FootMates Willy 3 (Infant/Toddler/Little Kid) — White",
+  "genero": "Niños",
+  "precio": 79.95,
+  "precio_c": 2940,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71t-Dw8-f1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81bdA4bD9iL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/817Tgoegh4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71-0RKDWfqL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "FootMates Willy 3 (Infant/Toddler/Little Kid) en blanco: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "3.5C",
+   "4C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "13.5C",
+   "1Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18692",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Conard Cap Toe (Toddler/Little Kid/Big Kid) — Black Full Grain",
+  "genero": "Niños",
+  "precio": 84.95,
+  "precio_c": 3124,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81gjbugetWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81OZWI-Na6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71HanOcjm4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81v4Pnzx2aL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Conard Cap Toe (Toddler/Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18693",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Upton Wingtip (Little Kid/Big Kid) — Tan Full Grain",
+  "genero": "Niños",
+  "precio": 85.0,
+  "precio_c": 3126,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71vHkLCjl2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71NR1kD2xlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7161uG-gbNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71iyV2RCCjL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Upton Wingtip (Little Kid/Big Kid) en camel: zapato de vestir wingtip para niño, con detalles perforados clásicos, perfecto para eventos y celebraciones.",
+  "detalles": [
+   "Parte superior de cuero con puntera wingtip perforada",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18694",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Locklin Venetian (Little Kid/Big Kid) — Tan Leather",
+  "genero": "Niños",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71F7rOcqyKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71InrIQyrTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61moxyhL7zL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ptknME3GL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Locklin Venetian (Little Kid/Big Kid) en camel: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18695",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Locklin Venetian (Little Kid/Big Kid) — Black Leather",
+  "genero": "Niños",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61KE0S19B-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61uPAh-ADTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71isxe7wxeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Gzyo9qiqL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Locklin Venetian (Little Kid/Big Kid) en negro: mocasín de vestir para niño, fácil de poner y quitar, ideal para eventos y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Diseño sin cordones, fácil de poner y quitar",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18696",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Conard Cap Toe (Little Kid/Big Kid) — Black Full Grain",
+  "genero": "Niños",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71mkTyw8W1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71owQAxZUlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/717pess-zuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Ur2sN0jsL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Conard Cap Toe (Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18697",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Conard Cap Toe (Little Kid/Big Kid) — Tan Full Grain",
+  "genero": "Niños",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81Eoyet-IHS._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71nV59wJbfS._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71TbCfEnQqS._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81yMqgaxB9S._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Conard Cap Toe (Little Kid/Big Kid) en camel: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18698",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Holden Plain Toe (Little Kid/Big Kid) — Black Full Grain",
+  "genero": "Niños",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71utRWLgzyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719ot-3jPWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71wbl7y5JML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71nVQQTO4zL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Holden Plain Toe (Little Kid/Big Kid) en negro: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18699",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Holden Plain Toe (Little Kid/Big Kid) — Brown",
+  "genero": "Niños",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/6189n3hgVQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61fNIUNUclL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71m-GsvTQUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61phUxcA-wL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Holden Plain Toe (Little Kid/Big Kid) en marrón: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18700",
+  "marca": "Johnston & Murphy",
+  "nombre": "Johnston & Murphy Upton Plain Toe (Little Kid/Big Kid) — Tan Full Grain",
+  "genero": "Niños",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61v0obWhaVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61r69j9cXOL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610e1izQLqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81HmeFH7lfL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Johnston & Murphy Upton Plain Toe (Little Kid/Big Kid) en camel: zapato de vestir con cordones para niño, elegante y cómodo para eventos, la escuela y ocasiones especiales.",
+  "detalles": [
+   "Parte superior de cuero de acabado pulido",
+   "Cierre con cordones para un ajuste seguro",
+   "Plantilla acolchada para mayor comodidad",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Formales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18701",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Reveal Wingtip Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81T2LNt6mFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/716mD4JhrrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7146Of7GskL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ggwk285fL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Reveal Wingtip Jr. (Toddler/Little Kid/Big Kid) en negro: zapato de charol brillante para niño, el toque elegante para fiestas, bodas, comuniones y eventos especiales.",
+  "detalles": [
+   "Parte superior de charol con brillo elegante",
+   "Cierre con cordones para un ajuste seguro",
+   "Acabado brillante ideal para fiestas y ceremonias",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18702",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Reveal Cap Toe Ox, Jr. (Toddler/Little Kid/Big Kid) — Black Patent",
+  "genero": "Niños",
+  "precio": 74.99,
+  "precio_c": 2758,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61x-pldPn-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61wHixepAiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61CkUuj2lhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61OGFbDmlKL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Reveal Cap Toe Ox, Jr. (Toddler/Little Kid/Big Kid) en negro charol: zapato de charol brillante para niño, el toque elegante para fiestas, bodas, comuniones y eventos especiales.",
+  "detalles": [
+   "Parte superior de charol con brillo elegante",
+   "Cierre con cordones para un ajuste seguro",
+   "Acabado brillante ideal para fiestas y ceremonias",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18703",
+  "marca": "Florsheim",
+  "nombre": "Florsheim Reveal Bit Jr. (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81XNQa3bWJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qSv9V61lL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719boKGsDPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711LpdEy1gL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Florsheim Reveal Bit Jr. (Toddler/Little Kid/Big Kid) en negro: zapato de charol brillante para niño, el toque elegante para fiestas, bodas, comuniones y eventos especiales.",
+  "detalles": [
+   "Parte superior de charol con brillo elegante",
+   "Cierre con cordones para un ajuste seguro",
+   "Acabado brillante ideal para fiestas y ceremonias",
+   "Suela de goma flexible con buen agarre"
+  ],
+  "tallas": [
+   "5C",
+   "5.5C",
+   "6C",
+   "6.5C",
+   "7C",
+   "7.5C",
+   "8C",
+   "8.5C",
+   "9C",
+   "9.5C",
+   "10C",
+   "10.5C",
+   "11C",
+   "11.5C",
+   "12C",
+   "12.5C",
+   "13C",
+   "1Y",
+   "1.5Y",
+   "2Y",
+   "2.5Y",
+   "3Y",
+   "3.5Y",
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18704",
+  "marca": "Nina",
+  "nombre": "Nina Seeley (Little Kid/Big Kid) — White Patent",
+  "genero": "Niños",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71T+J3H0HLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61a84UNTr5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71N2JPdriyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qTqXAgsLL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color White Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: White Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "13.5 Little Kid",
+   "1 Little Kid",
+   "1.5 Little Kid",
+   "2 Little Kid",
+   "4.5 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18705",
+  "marca": "Nina",
+  "nombre": "Nina Mila (Little Kid/Big Kid) — White Patent",
+  "genero": "Niños",
+  "precio": 48.49,
+  "precio_c": 1783,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61+whPIGcTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ip4fGVvoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61z-2mk8B-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61bBfVmE5qL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color White Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: White Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 1 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18706",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Golden (Little Kid/Big Kid) — Natural Raffia",
+  "genero": "Niños",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71VvNXrETdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71wkBtbeFqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71HBsXXEupL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81RQTKazoZL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Steve Madden en color Natural Raffia. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Natural Raffia",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 1 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "1 Little Kid",
+   "3 Little Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18707",
+  "marca": "Nina",
+  "nombre": "Nina Mila (Little Kid/Big Kid) — Silver Baby Glitter",
+  "genero": "Niños",
+  "precio": 37.49,
+  "precio_c": 1379,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81wGpkdzbLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/815nU6gXlvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71u-I-DoIqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81kFWw8uT1L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color Silver Baby Glitter. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado con glitter",
+   "Color: Silver Baby Glitter",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 2 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "2 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18708",
+  "marca": "Nina",
+  "nombre": "Nina Natty-T (Toddler) — White Pearlized",
+  "genero": "Niños",
+  "precio": 34.99,
+  "precio_c": 1287,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61Pn4qVzhmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/612+ioNUCxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61Vor7zOzhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61NMAiQG8RL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color White Pearlized. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de perlas",
+   "Color: White Pearlized",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 6 Toddler a 10 Toddler"
+  ],
+  "tallas": [
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18709",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Prettyy (Little Kid/Big Kid) — Black Patent",
+  "genero": "Niños",
+  "precio": 43.49,
+  "precio_c": 1599,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61ao2Qt6DTS._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51rGOeomPCS._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61FBrhQsblS._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61n9ZdPAy6S._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Steve Madden en color Black Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Black Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 1 Little Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18710",
+  "marca": "Nina",
+  "nombre": "Nina Bluee (Toddler/Little Kid) — Rose Gold",
+  "genero": "Niños",
+  "precio": 34.99,
+  "precio_c": 1287,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Zrm0NHhLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71L8hK-v49L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71+DXgyKYxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Z6yHb9ibL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Rose Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Rose Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Talla con stock verificado: 6 Toddler"
+  ],
+  "tallas": [
+   "6 Toddler"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18711",
+  "marca": "Michael Kors",
+  "nombre": "Michael Kors Jem Cameron (Little Kid/Big Kid) — Pale Gold",
+  "genero": "Niños",
+  "precio": 49.0,
+  "precio_c": 1802,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71CGu3ZCVmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71EBMIITlwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71lzurKDmzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81+xTttI1oL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Michael Kors en color Pale Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Pale Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18712",
+  "marca": "Mini Melissa",
+  "nombre": "Mini Melissa Sweet Love + Snow White (Little Kid/Big Kid) — Metallic Blue/Red",
+  "genero": "Niños",
+  "precio": 45.55,
+  "precio_c": 1675,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71sW04GSnKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lZXu+naUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71-0g2tROsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Fu3GnIYYL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Mini Melissa en color Metallic Blue/Red. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado metalizado",
+   "Color: Metallic Blue/Red",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 2 Little Kid a 4 Big Kid"
+  ],
+  "tallas": [
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18713",
+  "marca": "Mini Melissa",
+  "nombre": "Mini Melissa Campana Papel Baby(Toddler/Little Kid) — Glitter Green",
+  "genero": "Niños",
+  "precio": 36.55,
+  "precio_c": 1344,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71mxc3QRJYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7107OaXjSVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/715HPBdQa6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71GefVqOBBL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Mini Melissa en color Glitter Green. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado con glitter",
+   "Color: Glitter Green",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 12 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18714",
+  "marca": "Mini Melissa",
+  "nombre": "Mini Melissa Mini Campana Papel BB (Toddler) — Pearly Lilac",
+  "genero": "Niños",
+  "precio": 48.5,
+  "precio_c": 1784,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61cbSZ5PGeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Q2DWnmCLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61QfjOUeESL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YRvcRNVeL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Mini Melissa en color Pearly Lilac. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de perlas",
+   "Color: Pearly Lilac",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 12 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18715",
+  "marca": "Ground Up",
+  "nombre": "Ground Up Disney Princess Play Heels (Toddler/Little Kid) — Gold",
+  "genero": "Niños",
+  "precio": 39.99,
+  "precio_c": 1471,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/816CkGLQQ7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/8114QlkqANL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/818S5LTO1NL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81VIAiIlQwL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Ground Up en color Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 6 Toddler a 12 Little Kid"
+  ],
+  "tallas": [
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18716",
+  "marca": "Mini Melissa",
+  "nombre": "Mini Melissa Sweet Love + Snow White (Little Kid/Big Kid) — Pearlish Beige/Gold",
+  "genero": "Niños",
+  "precio": 41.6,
+  "precio_c": 1530,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61BdJQFLmUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610ooKXf2sL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51PqyRJWx8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/712UCGapBtL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Mini Melissa en color Pearlish Beige/Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de perlas",
+   "Color: Pearlish Beige/Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 3 Little Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18717",
+  "marca": "Mini Melissa",
+  "nombre": "Mini Melissa Campana Papel (Little Kid/Big Kid) — Rose Glitter",
+  "genero": "Niños",
+  "precio": 33.7,
+  "precio_c": 1239,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71JgWx-xUBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ntX4t2HxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71sLgS8MC5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71S484AA0EL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Mini Melissa en color Rose Glitter. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado con glitter",
+   "Color: Rose Glitter",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 11 Little Kid a 13 Little Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18718",
+  "marca": "Mini Melissa",
+  "nombre": "Mini Melissa Ultragirl Classic Bow Baby (Toddler/Little Kid) — Pink",
+  "genero": "Niños",
+  "precio": 44.5,
+  "precio_c": 1636,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71leg4cds2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71uFDxaKPPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ZnUyCE8ZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81U1Pcc9bTL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Mini Melissa en color Pink. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de lazo",
+   "Color: Pink",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 7 Toddler"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18719",
+  "marca": "Camper",
+  "nombre": "Camper Right (Toddler/Little Kid/Big Kid) — Gold",
+  "genero": "Niños",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71lXsCwXoFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710H0F1f5GL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Hew-AIhDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/818GsaS81+L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Camper en color Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 27 Toddler a 33 Little Kid"
+  ],
+  "tallas": [
+   "27 Toddler",
+   "28 Little Kid",
+   "29 Little Kid",
+   "30 Little Kid",
+   "31 Little Kid",
+   "32 Little Kid",
+   "33 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18720",
+  "marca": "Nina",
+  "nombre": "Nina Nicola (Toddler/Little Kid/Big Kid) — Silver Metallic",
+  "genero": "Niños",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61FSImzVbNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61wwnedrtXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71P7kMIuIfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pnsfcULPL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Silver Metallic. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado metalizado",
+   "Color: Silver Metallic",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 7 Toddler a 6 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18721",
+  "marca": "Janie and Jack",
+  "nombre": "Janie and Jack Bow Flats (Toddler/Little Kid/Big Kid) — Gold",
+  "genero": "Niños",
+  "precio": 65.3,
+  "precio_c": 2401,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71+Nhkx0qEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71JmZhCxofL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pHX9Dk9PL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81pSx3624FL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Janie and Jack en color Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de lazo",
+   "Color: Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 9 Toddler a 4 Big Kid"
+  ],
+  "tallas": [
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18722",
+  "marca": "Nina",
+  "nombre": "Nina Rozy (Toddler/Little Kid/Big Kid) — White Shimmer",
+  "genero": "Niños",
+  "precio": 50.49,
+  "precio_c": 1857,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71JoKulhCHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710FvEQhT2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/715szAasJjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71hgA2aka4L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color White Shimmer. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White Shimmer",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 7 Toddler a 6 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18723",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Bianca Bowey (Little Kid/Big Kid) — White",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61qRIIEDFoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/618vUBYHjtL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ARE0HKIrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/715fuva8-eL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Sam Edelman en color White. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de lazo",
+   "Color: White",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18724",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Maeve Michela (Little Kid/Big Kid) — Silver",
+  "genero": "Niños",
+  "precio": 65.0,
+  "precio_c": 2390,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ZQcBDURLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71G2R+FVRML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/716jgworCwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ZDk5vioiL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Silver. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Silver",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18725",
+  "marca": "Nina",
+  "nombre": "Nina Carla (Little Kid/Big Kid) — Silver",
+  "genero": "Niños",
+  "precio": 64.0,
+  "precio_c": 2354,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71hLTd14LQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81GY+UQfXpL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71X6dETmYyL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81i4EozLarL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color Silver. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Silver",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18726",
+  "marca": "Nina",
+  "nombre": "Nina Larna (Little Kid/Big Kid) — Silver",
+  "genero": "Niños",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81SDb8zrrHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Gb1ZrC9ZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81cq7-3-3fL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/810n-bkMBvL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color Silver. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Silver",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18727",
+  "marca": "Nina",
+  "nombre": "Nina Charma (Toddler/Little Kid/Big Kid) — Gold",
+  "genero": "Niños",
+  "precio": 50.49,
+  "precio_c": 1857,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81G3h6ROYUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81tCq2nYYTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81K4WZgHEEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81tOQ0TFrzL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18728",
+  "marca": "Nina",
+  "nombre": "Nina Nami (Toddler/Little Kid/Big Kid) — Rose Gold",
+  "genero": "Niños",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81sPm-VsnLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81LN3-7GCNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81XAUgvuOTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81cL-f9xKcL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Rose Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Rose Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18729",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Elinor (Little Kid/Big Kid) — Blush Patent",
+  "genero": "Niños",
+  "precio": 64.99,
+  "precio_c": 2390,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/51ZcsMGbjiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61cD7VcXJ1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61F4HVjH3fL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71FNZppipsL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Steve Madden en color Blush Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Blush Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18730",
+  "marca": "Janie and Jack",
+  "nombre": "Janie and Jack Velvet Bow Flats (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 65.3,
+  "precio_c": 2401,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71smKlEAMML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/714JTitRRjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7114Ut4AqUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/91R8YLNVykL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Janie and Jack en color Black. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de lazo",
+   "Color: Black",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 10 Toddler a 4 Big Kid"
+  ],
+  "tallas": [
+   "10 Toddler",
+   "11 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18731",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Prettyy (Little Kid/Big Kid) — Blush Patent",
+  "genero": "Niños",
+  "precio": 59.95,
+  "precio_c": 2205,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/51itnH5aIWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51NUy7K+5lL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51VORmbcqaL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51Rc-16LygL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Steve Madden en color Blush Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Blush Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18732",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Sonia (Toddler/Little Kid) — Gold",
+  "genero": "Niños",
+  "precio": 72.0,
+  "precio_c": 2648,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71fa+heh97L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81mNOGBBGLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81VHptIh3HL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81VKQpOC78L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 2 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18733",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Sonia (Toddler/Little Kid) — Pearl White",
+  "genero": "Niños",
+  "precio": 72.0,
+  "precio_c": 2648,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61kbEjO167L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71NxiJFsfRL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/718Onmf+qdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61YqHf4wbpL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Pearl White. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de perlas",
+   "Color: Pearl White",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 2 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18734",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Ruthie (Toddler/Little Kid) — Patent Burgundy",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71+pbFwRVKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7149mB1kEuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71K5mP-iO0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713ufdigT2L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Patent Burgundy. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Patent Burgundy",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 4 Toddler a 13 Little Kid"
+  ],
+  "tallas": [
+   "4 Toddler",
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18735",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Ruthie (Toddler/Little Kid) — Patent Black",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71yOlaxSfML._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/712ZrYFotUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71uSHmddfzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81nUShQX1hL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Patent Black. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Patent Black",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 4 Toddler a 13 Little Kid"
+  ],
+  "tallas": [
+   "4 Toddler",
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18736",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Rebecca (Toddler/Little Kid) — Patent Black",
+  "genero": "Niños",
+  "precio": 74.0,
+  "precio_c": 2721,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/711mGbLmF5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71MYUulmEGL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7185ej2R8yL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71k633uotPL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Patent Black. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Patent Black",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 2 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18737",
+  "marca": "FootMates",
+  "nombre": "FootMates Emma (Toddler/Little Kid) — Black Patent",
+  "genero": "Niños",
+  "precio": 79.95,
+  "precio_c": 2940,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61op-r3WEkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61hejOnc-aL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61WnpXVdypL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71DEuesU0WL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de FootMates en color Black Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Black Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 7 Toddler a 3 Little Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "7.5 Toddler",
+   "8 Toddler",
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "11.5 Little Kid",
+   "12 Little Kid",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "13.5 Little Kid",
+   "1 Little Kid",
+   "1.5 Little Kid",
+   "2 Little Kid",
+   "2.5 Little Kid",
+   "3 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18738",
+  "marca": "FootMates",
+  "nombre": "FootMates Emma (Toddler/Little Kid) — Soft Gold",
+  "genero": "Niños",
+  "precio": 79.95,
+  "precio_c": 2940,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71NjO7dIV5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61qr0UhQnJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ncNXdsDPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71en-4PQ7EL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de FootMates en color Soft Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Soft Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 7 Toddler a 3 Little Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "7.5 Toddler",
+   "8 Toddler",
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "11.5 Little Kid",
+   "12 Little Kid",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "13.5 Little Kid",
+   "1 Little Kid",
+   "1.5 Little Kid",
+   "2 Little Kid",
+   "2.5 Little Kid",
+   "3 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18739",
+  "marca": "Nina",
+  "nombre": "Nina Bonnett (Toddler/Little Kid) — Black Patent",
+  "genero": "Niños",
+  "precio": 64.0,
+  "precio_c": 2354,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81GoCFIWhKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/616QC3bg7QL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71hsf+xCSVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/711hkAi2AhL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Black Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Black Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 1.5 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "5.5 Toddler",
+   "6 Toddler",
+   "6.5 Toddler",
+   "7 Toddler",
+   "7.5 Toddler",
+   "8 Toddler",
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "11.5 Little Kid",
+   "12 Little Kid",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "13.5 Little Kid",
+   "1 Little Kid",
+   "1.5 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18740",
+  "marca": "Nina",
+  "nombre": "Nina Marissa (Toddler/Little Kid/Big Kid) — Rose Gold Distressed",
+  "genero": "Niños",
+  "precio": 36.99,
+  "precio_c": 1360,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71i910KySuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71h8bxqSL3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713Ik8kQ1FL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81vLSTlZLeL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Rose Gold Distressed. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Rose Gold Distressed",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 7 Toddler a 5 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18741",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Carrson (Big Kid) — Pearl",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61Q90Vn8pnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61KaPSdJ1yL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51s-QTMcP+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610WG5i0btL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Steve Madden en color Pearl. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Detalle de perlas",
+   "Color: Pearl",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 1 Little Kid a 7 Big Kid"
+  ],
+  "tallas": [
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid",
+   "7 Big Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18742",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Chloe (Toddler/Little Kid) — Champagne",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71NFgCGVj8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71pFqJiqW3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71NsRNwNBPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81whSLDxTaL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Champagne. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Champagne",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 4 Toddler a 2 Little Kid"
+  ],
+  "tallas": [
+   "4 Toddler",
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18743",
+  "marca": "FootMates",
+  "nombre": "FootMates Allie (Infant/Toddler/Little Kid) — Soft Gold",
+  "genero": "Niños",
+  "precio": 79.95,
+  "precio_c": 2940,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Dq7-nxbgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Znaw-nlnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/613fm1WRdfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61+huFtEtfL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de FootMates en color Soft Gold. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Tono metalizado",
+   "Color: Soft Gold",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 3 Infant a 1 Little Kid"
+  ],
+  "tallas": [
+   "3 Infant",
+   "3.5 Toddler",
+   "4 Toddler",
+   "4.5 Toddler",
+   "5 Toddler",
+   "5.5 Toddler",
+   "6 Toddler",
+   "6.5 Toddler",
+   "7 Toddler",
+   "7.5 Toddler",
+   "8 Toddler",
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "13.5 Little Kid",
+   "1 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18744",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite SR Mara (Toddler/Little Kid) — Red Patent",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71UQT5Ys-rL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71NiyybpPOL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Ssjp5ffHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81RXj1FAlkL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Stride Rite en color Red Patent. Con detalles de fiesta, ideal para eventos, celebraciones y ocasiones especiales.",
+  "detalles": [
+   "Acabado de charol",
+   "Color: Red Patent",
+   "Ocasión: Fiestas y eventos especiales",
+   "Tallas con stock verificado: 5 Toddler a 1 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "5.5 Toddler",
+   "6 Toddler",
+   "6.5 Toddler",
+   "7 Toddler",
+   "7.5 Toddler",
+   "8 Toddler",
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "11.5 Little Kid",
+   "12 Little Kid",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "13.5 Little Kid",
+   "1 Little Kid"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18745",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Claire (Little Kid/Big Kid) — Navy",
+  "genero": "Niños",
+  "precio": 49.99,
+  "precio_c": 1838,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61poDz8kzZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61vPMr8XPgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71bH-L+rYfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71slwbZJ2SL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Stride Rite en color Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 6 Toddler a 6 Big Kid"
+  ],
+  "tallas": [
+   "6 Toddler",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "13.5 Little Kid",
+   "1 Little Kid",
+   "1.5 Little Kid",
+   "2 Little Kid",
+   "2.5 Little Kid",
+   "3 Little Kid",
+   "3.5 Big Kid",
+   "4 Big Kid",
+   "4.5 Big Kid",
+   "5 Big Kid",
+   "5.5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18746",
+  "marca": "Nina",
+  "nombre": "Nina Nicola (Toddler/Little Kid/Big Kid) — Black Smooth",
+  "genero": "Niños",
+  "precio": 49.21,
+  "precio_c": 1810,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/717KX3U8ZeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71eIP+3EMFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71kmz-bC-ZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71G45rQEoKL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Black Smooth. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black Smooth",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 7 Toddler a 5 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18747",
+  "marca": "Nina",
+  "nombre": "Nina Macey (Little Kid/Big Kid) — White",
+  "genero": "Niños",
+  "precio": 41.49,
+  "precio_c": 1526,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/51QYEeAfYEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51FCdT2PZiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/5189t8he1DL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61wrMy9yfmL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color White. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18748",
+  "marca": "Nina",
+  "nombre": "Nina Rose (Little Kid/Big Kid) — White",
+  "genero": "Niños",
+  "precio": 41.49,
+  "precio_c": 1526,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7189ehA4WxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71wrkKvzfqL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71tkVJkefNL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71+XK0a6EiL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color White. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18749",
+  "marca": "Nina",
+  "nombre": "Nina Mercy (Little Kid/Big Kid) — White",
+  "genero": "Niños",
+  "precio": 44.99,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71Rpk46lXvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Vnfx--+EL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/713ZGGGIldL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81jq27JBviL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color White. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18750",
+  "marca": "Nina",
+  "nombre": "Nina Sidnee (Little Kid/Big Kid) — White",
+  "genero": "Niños",
+  "precio": 44.99,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61p6lnMLSjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/610Cd8r5llL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61n-uQhcm9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71RpzVIM+CL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color White. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18751",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Roree (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 24.99,
+  "precio_c": 919,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/712eRgLIgwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71eTpUCIULL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/712bOS4aWWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ID0kOknQL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Steve Madden en color Pink. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Pink",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18752",
+  "marca": "Nina",
+  "nombre": "Nina Bonnett (Toddler/Little Kid) — Tan Smooth",
+  "genero": "Niños",
+  "precio": 34.75,
+  "precio_c": 1278,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/619Z4Fmm4QL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61DnsfeUasL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61-HkqyQPDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61RrwdBnpcL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Tan Smooth. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Tan Smooth",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 5 Toddler a 1.5 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "5.5 Toddler",
+   "6 Toddler",
+   "6.5 Toddler",
+   "7 Toddler",
+   "7.5 Toddler",
+   "8 Toddler",
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "11.5 Little Kid",
+   "12 Little Kid",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "1.5 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18753",
+  "marca": "Janie and Jack",
+  "nombre": "Janie and Jack Flower Flat (Toddler/Little Kids/Big Kids) — Light",
+  "genero": "Niños",
+  "precio": 42.0,
+  "precio_c": 1545,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71PGSyBl7gL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71mYKXs0wYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71dGmP6cA-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81-H855ib+L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Janie and Jack en color Light. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Light",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 9 Toddler a 4 Big Kid"
+  ],
+  "tallas": [
+   "9 Toddler",
+   "12 Little Kid",
+   "1 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18754",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Savvy (Little Kid/Big Kid) — White",
+  "genero": "Niños",
+  "precio": 42.49,
+  "precio_c": 1563,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61NgRdi0NwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61+oItxKq5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61TEODgDtvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61e3PFAnxwL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Steve Madden en color White. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18755",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Claire (Toddler/Little Kid) — Black",
+  "genero": "Niños",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61sO28tuz0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61vVyPiov5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lirpTb3+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7169ELCU4cL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Stride Rite en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 8.5 Toddler a 12 Little Kid"
+  ],
+  "tallas": [
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "11.5 Little Kid",
+   "12 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18756",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Claire (Toddler/Little Kid) — Navy",
+  "genero": "Niños",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81LaKfC6XlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71KTmIsdl1L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81erM76OwPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81hUu1Fi1VL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Stride Rite en color Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 8.5 Toddler a 12 Little Kid"
+  ],
+  "tallas": [
+   "8.5 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "11.5 Little Kid",
+   "12 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18757",
+  "marca": "Nina",
+  "nombre": "Nina Leva (Little Kid/Big Kid) — Blush Mesh",
+  "genero": "Niños",
+  "precio": 48.49,
+  "precio_c": 1783,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61K+ZQIsn3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/611GZvFhWxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ipdSZ5I5L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71UBNRvquYL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Blush Mesh. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Blush Mesh",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 1 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "1 Little Kid",
+   "2 Little Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18758",
+  "marca": "Nina",
+  "nombre": "Nina Ruthi-T (Toddler/Little Kid) — Black",
+  "genero": "Niños",
+  "precio": 27.99,
+  "precio_c": 1029,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71XY67QtF4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81yaKldgMgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71PSofBTKTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81yEYMjS8EL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 6 Toddler a 12 Little Kid"
+  ],
+  "tallas": [
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18759",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Lucia Buckle (Little Kid/Big Kid) — Pink",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ZCIOq4uAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71-ejIJ5wTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71061+xeCAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71zH81EOufL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Sam Edelman en color Pink. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Pink",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 12 Little Kid a 1 Little Kid"
+  ],
+  "tallas": [
+   "12 Little Kid",
+   "1 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18760",
+  "marca": "Nina",
+  "nombre": "Nina Tuley (Toddler/Little Kid) — Black",
+  "genero": "Niños",
+  "precio": 44.99,
+  "precio_c": 1654,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61YzXQJMQhL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/613t0-AcUoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/611VmH+HscL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/6116IudknWL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Talla con stock verificado: 11 Little Kid"
+  ],
+  "tallas": [
+   "11 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18761",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite PW Bonnie (Infant/Toddler) — Black",
+  "genero": "Niños",
+  "precio": 36.95,
+  "precio_c": 1359,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71oBgGK5eVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71qc7HWOudL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71a+kEsMPgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71xV99Lic8L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de vestir para niña pequeña para niña de Stride Rite en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 1 Infant a 3 Infant"
+  ],
+  "tallas": [
+   "1 Infant",
+   "2 Infant",
+   "3 Infant"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18762",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite PW Bonnie (Infant/Toddler) — White",
+  "genero": "Niños",
+  "precio": 36.95,
+  "precio_c": 1359,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61aK+wYclsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/618qgYVEl6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61i+qv63v4L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61zCk1AkIlL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de vestir para niña pequeña para niña de Stride Rite en color White. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 1 Infant a 4 Toddler"
+  ],
+  "tallas": [
+   "1 Infant",
+   "2 Infant",
+   "4 Toddler"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18763",
+  "marca": "Naturino",
+  "nombre": "Naturino Ballet (Toddler/Little Kid) — Pink",
+  "genero": "Niños",
+  "precio": 48.0,
+  "precio_c": 1765,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81OksrIxp8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61wbQKd-UlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ANbmytqvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71iwZfgb55L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Naturino en color Pink. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Pink",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 22 Toddler a 24 Toddler"
+  ],
+  "tallas": [
+   "22 Toddler",
+   "24 Toddler"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18764",
+  "marca": "Marjen",
+  "nombre": "Marjen Alma (Infant/Toddler/Little Kid/Big Kid) — Mint",
+  "genero": "Niños",
+  "precio": 29.2,
+  "precio_c": 1074,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/7195hyWFXXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ftuR5302L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71DmmB1IJiL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81XgMF24DcL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Marjen en color Mint. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Mint",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 6 Toddler a 4 Big Kid"
+  ],
+  "tallas": [
+   "6 Toddler",
+   "8 Toddler",
+   "8.5 Toddler",
+   "23 Toddler",
+   "26 Toddler",
+   "27 Toddler",
+   "13.5 Little Kid",
+   "2 Little Kid",
+   "28 Little Kid",
+   "29 Little Kid",
+   "30 Little Kid",
+   "32 Little Kid",
+   "34 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18765",
+  "marca": "Camper",
+  "nombre": "Camper Spiral Comet 80356 (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71ee3p0rbuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ryJfIr6qL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71jGBU5G-tL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71gA4bSwZBL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Camper en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 27 Toddler a 33 Little Kid"
+  ],
+  "tallas": [
+   "27 Toddler",
+   "28 Little Kid",
+   "29 Little Kid",
+   "30 Little Kid",
+   "31 Little Kid",
+   "32 Little Kid",
+   "33 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18766",
+  "marca": "Camper",
+  "nombre": "Camper Spiral Comet 80356 (Toddler/Little Kid/Big Kid) — Navy",
+  "genero": "Niños",
+  "precio": 105.0,
+  "precio_c": 3861,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/616XL2mrPkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71k91Zhz2CL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61KdltRKiEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81-Cfj319bL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Camper en color Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 27 Toddler a 33 Little Kid"
+  ],
+  "tallas": [
+   "27 Toddler",
+   "28 Little Kid",
+   "29 Little Kid",
+   "30 Little Kid",
+   "31 Little Kid",
+   "32 Little Kid",
+   "33 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18767",
+  "marca": "Camper",
+  "nombre": "Camper Duet (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 115.0,
+  "precio_c": 4229,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/714Zw13Cy3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/716ExkfqUFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71+6BJwSZJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71dT4L1mYSL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Camper en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 28 Little Kid a 34 Little Kid"
+  ],
+  "tallas": [
+   "28 Little Kid",
+   "29 Little Kid",
+   "30 Little Kid",
+   "31 Little Kid",
+   "32 Little Kid",
+   "33 Little Kid",
+   "34 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18768",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Joy (Toddler/Little Kid/Big Kid) — Navy",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/814D2cNfbKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71gnNqiXcwL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fgODXq9EL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Xmq6e0E9L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 6 Toddler a 4 Big Kid"
+  ],
+  "tallas": [
+   "6 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18769",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Joy (Toddler/Little Kid/Big Kid) — Spicy Mustard",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81Qd0RzAvnL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/813EklY5tbL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81C-YeG7fVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81K4KZ9SQzL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Spicy Mustard. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Spicy Mustard",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 7 Toddler a 4 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18770",
+  "marca": "FootMates",
+  "nombre": "FootMates Brooklyn (Toddler/Little Kid/Big Kid) — Chestnut",
+  "genero": "Niños",
+  "precio": 89.95,
+  "precio_c": 3308,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71o0By0bZzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61XUatJd+CL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71wAVzc2NVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61UJDsYel4L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín de vestir para niña de FootMates en color Chestnut. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Chestnut",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 7 Toddler a 5 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18771",
+  "marca": "FootMates",
+  "nombre": "FootMates Brooklyn (Toddler/Little Kid/Big Kid) — Cognac",
+  "genero": "Niños",
+  "precio": 89.95,
+  "precio_c": 3308,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71FWkVG0pWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61A+UVrlw-L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71yW46-5f3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7148-UdsvuL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín de vestir para niña de FootMates en color Cognac. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Cognac",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 7 Toddler a 5 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18772",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Claire (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/617+M5WRcTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61qLHuXn1tL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61I7AuV013L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/6168vGHxgWL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Stride Rite en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 12.5 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "1.5 Little Kid",
+   "2.5 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "4.5 Big Kid",
+   "5 Big Kid",
+   "5.5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18773",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Maeve Michela (Little Kid/Big Kid) — Black 1",
+  "genero": "Niños",
+  "precio": 58.0,
+  "precio_c": 2133,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71uu-JMjLeL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71EWq8d4IkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71UVvx03guL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81QEIVdyvTL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Black 1. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black 1",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18774",
+  "marca": "Nina",
+  "nombre": "Nina Dallas (Little Kid/Big Kid) — Navy",
+  "genero": "Niños",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71iZc6f+lxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71CtvHd0L9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7104PxGB+RL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81s3RlCfsiL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18775",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Maeve Shine (Little Kid/ Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/811FjLB7giL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81UTlzAaObL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81lBdWvOSQL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81y4GqdDVFL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18776",
+  "marca": "Kenneth Cole Reaction",
+  "nombre": "Kenneth Cole Reaction Klay Captain (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 60.0,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71698HekjTL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71IME2exCcL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61gEaTJB20L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/8148NCSC5RL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato oxford de vestir para niña de Kenneth Cole Reaction en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18777",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Felicia Flex (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/719rWR4upSL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61mnZhs074L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71oaWILL-BL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ECoykx3AL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18778",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Felicia Flex (Little Kid/Big Kid) — Beige",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61BhGCQN3aL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61HFl6pVSlL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61fisKgG46L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71RXJZLY+tL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Beige. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Beige",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18779",
+  "marca": "Naturino",
+  "nombre": "Naturino Naturino Valy (Little Kid/ Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 84.0,
+  "precio_c": 3089,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61Cm2nRl2+L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61QfithWxDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61U2erEAncL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710cdRLyU4L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Naturino en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 10.5 Little Kid a 3.5 Big Kid"
+  ],
+  "tallas": [
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "12 Little Kid",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "1.5 Little Kid",
+   "3.5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18780",
+  "marca": "Nina",
+  "nombre": "Nina Joansie (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 59.0,
+  "precio_c": 2170,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71RDjft7MXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/712fpIVUsXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61zKVf577rL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71rzJSoDFKL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 8 Toddler a 5 Big Kid"
+  ],
+  "tallas": [
+   "8 Toddler",
+   "10 Toddler",
+   "13 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18781",
+  "marca": "Nina",
+  "nombre": "Nina Larna (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81kcJAloVCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81bdm21r5iL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81yHuHYpnCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Yyeo9GWTL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Nina en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18782",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Candice Cross Charm (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71q4F927IkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71IagirKeBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fqNQWpInL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81Qe9GYtUAL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 4 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18783",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Candice Cross Charm (Little Kid/Big Kid) — White",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61fXNsCR8BL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615KCVgBUDL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615N3pag7kL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71zIas7352L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color White. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 4 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18784",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Bianca Teddy (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 58.0,
+  "precio_c": 2133,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71mOGdPkxfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61sb9lQZdVL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61qXozwkrsL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71y-+P29VqL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Sam Edelman en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18785",
+  "marca": "Nina",
+  "nombre": "Nina Rozy (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 54.0,
+  "precio_c": 1986,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61WxEqiMQBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61NiDXO5VrL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61yy0HkaQmL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61pWmSfdNIL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 8 Toddler a 5 Big Kid"
+  ],
+  "tallas": [
+   "8 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "13 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18786",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Krista (Little Kid/Big Kid) — Clear",
+  "genero": "Niños",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61zhKmhoCFL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71kYa3yyVLL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/617fRAMeNPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/712Hf+mQt4L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Steve Madden en color Clear. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Clear",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 5 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18787",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Maeve Michela (Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 62.0,
+  "precio_c": 2280,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71gS4KBe37L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71dKmMepAWL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fgZtAqtxL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81ywVL9IQpL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Black. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 11 Little Kid a 4 Big Kid"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18788",
+  "marca": "Sam Edelman",
+  "nombre": "Sam Edelman Felicia S Flex (Little Kid/Big Kid) — Berry",
+  "genero": "Niños",
+  "precio": 55.0,
+  "precio_c": 2023,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81vOul9WEYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81HDhJ9TqdL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81EFdlgLg6L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81QKGoPmkML._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Sam Edelman en color Berry. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Berry",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 12 Little Kid a 4 Big Kid"
+  ],
+  "tallas": [
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18789",
+  "marca": "See Kai Run",
+  "nombre": "See Kai Run Annabelle (Toddler/Little Kid) — Navy",
+  "genero": "Niños",
+  "precio": 73.99,
+  "precio_c": 2721,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71azmHzk79L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81rJM338QYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71sMeKug+VL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81xJFQoknML._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de See Kai Run en color Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 5 Toddler a 13.5 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "9.5 Toddler",
+   "10 Toddler",
+   "10.5 Little Kid",
+   "11 Little Kid",
+   "12.5 Little Kid",
+   "13 Little Kid",
+   "13.5 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18790",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Rebecca (Toddler/Little Kid) — Dark Navy",
+  "genero": "Niños",
+  "precio": 74.0,
+  "precio_c": 2721,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71YEub5TRpL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71wDOhi0poL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71StJgXaVgL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71mUaxaFZVL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Dark Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Dark Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 5 Toddler a 2 Little Kid"
+  ],
+  "tallas": [
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18791",
+  "marca": "Nina",
+  "nombre": "Nina Marissa (Toddler/Little Kid/Big Kid) — Black Smooth",
+  "genero": "Niños",
+  "precio": 54.0,
+  "precio_c": 1986,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81GW+hV2CKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71ObPHRBAfL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71H-9k9PUvL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/817h4zoYLnL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Black Smooth. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Black Smooth",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 7 Toddler a 5 Big Kid"
+  ],
+  "tallas": [
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18792",
+  "marca": "Steve Madden",
+  "nombre": "Steve Madden Carrson (Big Kid) — White Mesh",
+  "genero": "Niños",
+  "precio": 69.95,
+  "precio_c": 2572,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61f7lK0NbJL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61BAzYkPREL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51qFatWwh7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61zNBNH6AIL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de tacón de vestir para niña de Steve Madden en color White Mesh. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: White Mesh",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 2 Little Kid a 7 Big Kid"
+  ],
+  "tallas": [
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "5 Big Kid",
+   "6 Big Kid",
+   "7 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18793",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Chloe (Toddler/Little Kid) — Navy",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/711Q0+fDRPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71FavyFoXzL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/718s8eaixUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/81hNP2L4AmL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de L'Amour Shoes en color Navy. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Navy",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 4 Toddler a 2 Little Kid"
+  ],
+  "tallas": [
+   "4 Toddler",
+   "5 Toddler",
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18794",
+  "marca": "Nina",
+  "nombre": "Nina Joansie (Toddler/Little Kid/Big Kid) — Ivory",
+  "genero": "Niños",
+  "precio": 59.99,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/615LD56ZP2L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61R2mq4RdEL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61dcmvYu6eL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/716yApbwwHL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato plano de vestir para niña de Nina en color Ivory. De línea clásica y elegante, ideal para la escuela, ceremonias y eventos.",
+  "detalles": [
+   "Diseño clásico de vestir",
+   "Color: Ivory",
+   "Ocasión: Escuela, ceremonias y eventos",
+   "Tallas con stock verificado: 13 Little Kid a 6 Big Kid"
+  ],
+  "tallas": [
+   "13 Little Kid",
+   "1 Little Kid",
+   "2 Little Kid",
+   "3 Little Kid",
+   "4 Big Kid",
+   "6 Big Kid"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18795",
+  "marca": "Floafers",
+  "nombre": "Floafers Prodigy Driver Patent (Toddler/Little Kid) — Red Patent/Black",
+  "genero": "Niños",
+  "precio": 60.0,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71mIJfbgbuL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71CgAfNbQUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61gvpbtN5iL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61eQ4efHRlL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Driver tipo mocasín de charol rojo con suela de goma flexible, un toque de fiesta cómodo para los más pequeños.",
+  "detalles": [
+   "Parte superior de charol brillante color rojo con detalle negro",
+   "Estilo driver sin cordones, fácil de poner y quitar",
+   "Suela de goma flexible tipo Floafers, apta para agua",
+   "Ideal para fiestas, fotos y ocasiones especiales"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18796",
+  "marca": "Floafers",
+  "nombre": "Floafers Prodigy Driver Patent (Toddler/Little Kid) — Alaskan Blue Patent/Putty",
+  "genero": "Niños",
+  "precio": 60.0,
+  "precio_c": 2206,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/610tWn6adjL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/6157HWMBfBL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61fgE8516nL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61iXzlFBFzL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Driver tipo mocasín de charol azul Alaska con suela color masilla, brillante y cómodo para lucir en eventos.",
+  "detalles": [
+   "Parte superior de charol brillante azul Alaska",
+   "Estilo driver sin cordones, fácil de poner y quitar",
+   "Suela de goma flexible tipo Floafers, apta para agua",
+   "Ideal para fiestas, fotos y ocasiones especiales"
+  ],
+  "tallas": [
+   "4",
+   "6",
+   "7",
+   "8",
+   "10"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18797",
+  "marca": "Floafers",
+  "nombre": "Floafers Prodigy Driver Patent (Big Kid) — Bone Patent/Gum",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61ekp7ddjXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61yzeq3XFZL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61LuDe4H3tL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/51Rv6SW4iVL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Driver tipo mocasín de charol color hueso con suela de goma, un modelo de fiesta diferente y muy combinable.",
+  "detalles": [
+   "Parte superior de charol brillante color hueso",
+   "Estilo driver sin cordones, fácil de poner y quitar",
+   "Suela de goma flexible tipo Floafers, apta para agua",
+   "Ideal para fiestas, fotos y ocasiones especiales"
+  ],
+  "tallas": [
+   "4",
+   "5"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18798",
+  "marca": "Vans",
+  "nombre": "Vans K Loafer 53 (Little Kid) — Patent Black/Black",
+  "genero": "Niños",
+  "precio": 63.0,
+  "precio_c": 2317,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71+4z9Ous9L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71eimqCPRUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71GOdOcpYpL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71MPOdN8-DL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mocasín Loafer 53 de charol negro: el clásico estilo de vestir con la suela waffle de Vans.",
+  "detalles": [
+   "Parte superior de charol negro brillante",
+   "Silueta de mocasín clásico sin cordones",
+   "Suela waffle de goma estilo Vans",
+   "Para eventos, escuela y ocasiones especiales"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13",
+   "13.5"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18799",
+  "marca": "Dr. Martens",
+  "nombre": "Dr. Martens 1460 J (Little Kid/Big Kid) — Black Patent Lamper",
+  "genero": "Niños",
+  "precio": 71.95,
+  "precio_c": 2646,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71DDFVctzHL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/615WdSPyY3L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71WFx08EWKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61v7mrMjzoL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bota 1460 de charol negro con la costura amarilla clásica de Dr. Martens, en versión para niños.",
+  "detalles": [
+   "Parte superior de charol negro brillante (Patent Lamper)",
+   "Costura amarilla y tirador trasero característicos de la marca",
+   "Cierre lateral para ponerla y quitarla fácil",
+   "Suela AirWair con amortiguación"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18800",
+  "marca": "Dr. Martens",
+  "nombre": "Dr. Martens 1460 T (Toddler) — Black Patent Lamper",
+  "genero": "Niños",
+  "precio": 62.5,
+  "precio_c": 2298,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71+KhFvfVoL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61zF00ZlYPL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/718AJF7IBtL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61js3C4vbpL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bota 1460 para toddlers de charol negro con la costura amarilla clásica de Dr. Martens.",
+  "detalles": [
+   "Parte superior de charol negro brillante (Patent Lamper)",
+   "Costura amarilla y tirador trasero característicos de la marca",
+   "Cierre lateral pensado para los más pequeños",
+   "Suela AirWair con amortiguación"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18801",
+  "marca": "Nina",
+  "nombre": "Nina Nicola (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61RLMpgykCL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71Fs+XkqyYL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61ReV33wshL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61SZyR5l0cL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Bailarina clásica negra de Nina, sencilla y combinable, perfecta para la escuela y eventos formales.",
+  "detalles": [
+   "Estilo bailarina clásico en color negro",
+   "Punta redonda y perfil bajo",
+   "Suela flexible y ligera",
+   "Fácil de poner y quitar"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18802",
+  "marca": "Nina",
+  "nombre": "Nina Meryl (Toddler/Little Kid/Big Kid) — Black",
+  "genero": "Niños",
+  "precio": 54.99,
+  "precio_c": 2022,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61xo8OV71iL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/614tED1e1DL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61pAfB7Nz7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61QbyoDUhQL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mary jane clásica negra de Nina con correa ajustable, un básico de vestir para niñas.",
+  "detalles": [
+   "Estilo mary jane en color negro",
+   "Correa ajustable con hebilla",
+   "Suela flexible y ligera",
+   "Para escuela, iglesia y eventos formales"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "13"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18803",
+  "marca": "Stride Rite",
+  "nombre": "Stride Rite Claire (Toddler/Little Kid) — Black",
+  "genero": "Niños",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/61sO28tuz0L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71QWKaCPx7L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/710t2rcA4CL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61lirpTb3+L._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mary jane escolar negra de Stride Rite, un clásico cómodo pensado para el uso diario.",
+  "detalles": [
+   "Estilo mary jane en color negro",
+   "Cierre de velcro fácil de ajustar",
+   "Construcción ligera y flexible",
+   "Ideal para uniforme escolar y eventos"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18804",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Joy (Toddler/Little Kid/Big Kid) — Navy",
+  "genero": "Niños",
+  "precio": 70.0,
+  "precio_c": 2574,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/814D2cNfbKL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71SLZc4W2GL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/7197B0SQAXL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71fgODXq9EL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Zapato de vestir azul marino con correa en T y detalles perforados, de L'Amour Shoes.",
+  "detalles": [
+   "Correa en T con detalles perforados",
+   "Color azul marino clásico",
+   "Cuero suave y flexible",
+   "Para ocasiones especiales y eventos formales"
+  ],
+  "tallas": [
+   "6",
+   "9",
+   "10"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18805",
+  "marca": "L'Amour Shoes",
+  "nombre": "L'Amour Shoes Emma (Toddler/Little Kid) — Navy",
+  "genero": "Niños",
+  "precio": 74.0,
+  "precio_c": 2721,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/71M9T4XFecL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/719j4ddpw8L._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71aQgr9PvAL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71tH3XiJ2tL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Mary jane azul marino con lazo de L'Amour Shoes, de cuero suave y estilo clásico para vestir.",
+  "detalles": [
+   "Mary jane con lazo decorativo",
+   "Color azul marino",
+   "Cuero suave y transpirable",
+   "Para fiestas, iglesia y eventos formales"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Formales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18806",
+  "marca": "Saucony",
+  "nombre": "Ride Millennium Grade School Running Shoes (Black/Metallic)",
+  "genero": "Niños",
+  "precio": 37.92,
+  "precio_c": 1394,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/SYF25BB2_01.jpg?v=1753393525"
+  ],
+  "descripcion": "Zapato de running ligero en negro con detalles metálicos, pensado para niños activos.",
+  "detalles": [
+   "Malla transpirable y ligera",
+   "Suela con buena tracción para correr y jugar",
+   "Ajuste con cordones seguro",
+   "Para educación física, deporte y diario"
+  ],
+  "tallas": [
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18807",
+  "marca": "adidas",
+  "nombre": "Adizero Aruku Shoes (Youth)",
+  "genero": "Niños",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP8742_1l.jpg?v=1792499640",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP8742_2l.jpg?v=1792499640",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP8742_3l.jpg?v=1792499640",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/JP8742_4l.jpg?v=1792499640"
+  ],
+  "descripcion": "Running Adizero Aruku con diseño ligero y suela con retorno de energía para pequeños corredores.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Suela con amortiguación reactiva",
+   "Ajuste con cordones",
+   "Para correr, entrenar y jugar"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18808",
+  "marca": "PUMA",
+  "nombre": "Pounce Lite Running Shoes (Youth)",
+  "genero": "Niños",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40151201_1l.jpg?v=1791370689",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40151201_2l.jpg?v=1791370689",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40151201_3l.jpg?v=1791370689",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40151201_4l.jpg?v=1791370689"
+  ],
+  "descripcion": "Zapato de running Pounce Lite, ligero y flexible para el deporte y el recreo.",
+  "detalles": [
+   "Construcción ligera y flexible",
+   "Suela de goma con buena tracción",
+   "Ajuste con cordones seguro",
+   "Para correr y uso diario"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18809",
+  "marca": "adidas",
+  "nombre": "Duramo - Youth",
+  "genero": "Niños",
+  "precio": 61.96,
+  "precio_c": 2279,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2369_1.jpg?v=1770849856",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2369_2.jpg?v=1770849856",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2369_3.jpg?v=1770849856",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS2369_4.jpg?v=1770849856"
+  ],
+  "descripcion": "Running Duramo con mediasuela amortiguada, ideal para correr y entrenar todos los días.",
+  "detalles": [
+   "Malla transpirable de una pieza",
+   "Mediasuela con amortiguación suave",
+   "Suela de goma resistente",
+   "Para correr, entrenar y la escuela"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18810",
+  "marca": "Nike",
+  "nombre": "V5 RNR Grade School Running Shoes (Pearl Pink/Pink Rise)",
+  "genero": "Niños",
+  "precio": 56.92,
+  "precio_c": 2093,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/62e41a846efdafa671103615af0ee5a3.jpg?v=1788980213",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/28b20082518c8f98fac8a8c934f2c56e.jpg?v=1788980213",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/428d151ba4bbf7b508a66b2f3848d79a.jpg?v=1788980213",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/bc5ed0871ad5b2e9ed9b11b908c2a49b.jpg?v=1788980213"
+  ],
+  "descripcion": "Running V5 RNR en rosa perla, ligero y amortiguado para niñas que no paran de moverse.",
+  "detalles": [
+   "Malla ligera y transpirable en tonos rosa",
+   "Espuma suave con buena amortiguación",
+   "Suela de goma con tracción",
+   "Para correr, entrenar y jugar"
+  ],
+  "tallas": [
+   "4Y",
+   "4.5Y",
+   "5Y",
+   "5.5Y",
+   "6Y",
+   "6.5Y",
+   "7Y"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18811",
+  "marca": "Saucony",
+  "nombre": "Ride Millenium Preschool Running Shoes (Pink)",
+  "genero": "Niños",
+  "precio": 47.92,
+  "precio_c": 1762,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/SY126W18_01.jpg?v=1784914889"
+  ],
+  "descripcion": "Running Ride Millenium en rosa para preescolares, con ajuste fácil y suela flexible.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Cierre fácil pensado para preescolares",
+   "Suela flexible con buena tracción",
+   "Para correr y jugar todo el día"
+  ],
+  "tallas": [
+   "1Y",
+   "2Y",
+   "3Y",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18812",
+  "marca": "Nike",
+  "nombre": "Air Force 1 Low Preschool Lifestyle Shoes (Black/White)",
+  "genero": "Niños",
+  "precio": 47.92,
+  "precio_c": 1762,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/29a15ba18e9ceebf54ad586f92a3cd78.jpg?v=1772819266",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/1018f13a75423ae23325b6cc491a38b4.jpg?v=1772819266",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/65705e40a8e12965522b05831f214cdf.jpg?v=1772819266",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b659d8d8bedf51fe10ef6cd7318d2d40.jpg?v=1772819266"
+  ],
+  "descripcion": "El clásico Air Force 1 Low en negro y blanco, versión preescolar del ícono de Nike.",
+  "detalles": [
+   "Cuero suave en combinación negro y blanco",
+   "Suela gruesa estilo cupsole con unidad Air",
+   "Ajuste con cordones",
+   "Un clásico que combina con todo"
+  ],
+  "tallas": [
+   "1Y",
+   "2Y",
+   "3Y",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18813",
+  "marca": "Vans",
+  "nombre": "Knu Skool - Toddler",
+  "genero": "Niños",
+  "precio": 51.98,
+  "precio_c": 1912,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0K6BT_1_8b73a574-211d-46a4-bdb5-d4f6cf64a7af.jpg?v=1793993942",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0K6BT_2_dc494bdd-8124-4d6c-b00e-df778f66f63d.jpg?v=1793993943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0K6BT_3_9d9a514b-3733-4b95-b155-62af34bf46fc.jpg?v=1793993943",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D0K6BT_4_b633b166-30e3-46bc-9389-89de340b12e4.jpg?v=1793993943"
+  ],
+  "descripcion": "Knu Skool de Vans en versión toddler: silueta chunky noventera con lengüeta acolchada.",
+  "detalles": [
+   "Silueta chunky inspirada en los años 90",
+   "Lengüeta y cuello acolchados",
+   "Suela waffle de goma de Vans",
+   "Cierre pensado para toddlers"
+  ],
+  "tallas": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18814",
+  "marca": "Converse",
+  "nombre": "Chuck Taylor All Star Hi - Youth",
+  "genero": "Niños",
+  "precio": 49.97,
+  "precio_c": 1838,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A18001F_1.jpg?v=1785518740",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A18001F_2.jpg?v=1785518740",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A18001F_3.jpg?v=1785518740",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/A18001F_4.jpg?v=1785518741"
+  ],
+  "descripcion": "Chuck Taylor All Star de caña alta, el clásico de lona de Converse para todos los días.",
+  "detalles": [
+   "Lona clásica de caña alta",
+   "Puntera de goma característica",
+   "Suela vulcanizada de goma",
+   "Estilo atemporal"
+  ],
+  "tallas": [
+   "3.5",
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18815",
+  "marca": "PUMA",
+  "nombre": "Palermo Lace Up Sneakers (Youth)",
+  "genero": "Niños",
+  "precio": 31.95,
+  "precio_c": 1175,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39727305_1l.jpg?v=1789267898",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39727305_2l.jpg?v=1789267899",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39727305_3l.jpg?v=1789267899",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/39727305_4l.jpg?v=1789267899"
+  ],
+  "descripcion": "Palermo de PUMA en versión preescolar: el clásico estilo terrace con suela de goma natural.",
+  "detalles": [
+   "Parte superior con el diseño clásico Palermo",
+   "Suela de goma color natural (gum)",
+   "Ajuste con cordones",
+   "Estilo retro para todos los días"
+  ],
+  "tallas": [
+   "1",
+   "1.5",
+   "2",
+   "2.5",
+   "3",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18816",
+  "marca": "Jordan",
+  "nombre": "Air Jordan 1 Mid Preschool Lifestyle Shoes (Black/Red/White)",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/d4662e841b1ad4875d732a9373023a82.jpg?v=1772126993",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c20a01990eedf14428aceadcaf249097_fd5c057b-be00-41d2-89a7-1eba01ae0a69.jpg?v=1772126993",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/b7bae123c0426b3e63b8ec831b9a8add_7ad331a3-3909-4e61-9c34-ed4e1539b3e2.jpg?v=1772126993",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/c0105d6bb185c6c987a11fcb656c9d17_01fead66-d6ae-4708-ba91-fc9825cb7b96.jpg?v=1772126993"
+  ],
+  "descripcion": "Air Jordan 1 Mid preescolar en negro, rojo y blanco: el ícono del básquet en versión para pequeños.",
+  "detalles": [
+   "Combinación clásica negro, rojo y blanco",
+   "Cuello de caña media acolchado",
+   "Suela de goma con tracción",
+   "Estilo Jordan original"
+  ],
+  "tallas": [
+   "1Y",
+   "2Y",
+   "3Y",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18817",
+  "marca": "Nike",
+  "nombre": "Dunk Low Preschool Lifestyle Shoes (White/Black/White)",
+  "genero": "Niños",
+  "precio": 67.93,
+  "precio_c": 2498,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/576bf0eeb7e625e2477e018639f58ac4.jpg?v=1773359105",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/18d5cc77f4288848001951b2b4da6524.jpg?v=1773359105",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/615eac952cb7121bd638ae13dc3c95c8.jpg?v=1773359105",
+   "https://cdn.shopify.com/s/files/1/0852/3376/files/0eed0c88d3318506a128f34d75934971.jpg?v=1773359105"
+  ],
+  "descripcion": "Dunk Low preescolar en blanco y negro, el clásico de Nike que combina con todo.",
+  "detalles": [
+   "Cuero en combinación blanco y negro (panda)",
+   "Suela cupsole de goma",
+   "Ajuste con cordones",
+   "Estilo atemporal para diario"
+  ],
+  "tallas": [
+   "1Y",
+   "2Y",
+   "3Y",
+   "11C",
+   "12C",
+   "13C"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18818",
+  "marca": "TOMS",
+  "nombre": "Brogue Slip On Shoes (Infant-Little Kid)",
+  "genero": "Niños",
+  "precio": 27.95,
+  "precio_c": 1028,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10010665_1l.jpg?v=1792872878",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10010665_2l.jpg?v=1792872878",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10010665_3l.jpg?v=1792872878",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10010665_4l.jpg?v=1792872878"
+  ],
+  "descripcion": "Slip-on estilo brogue de TOMS para bebés y niños pequeños, fácil de poner y muy cómodo.",
+  "detalles": [
+   "Diseño brogue sin cordones",
+   "Parte superior ligera y suave",
+   "Suela flexible para primeros pasos",
+   "Para diario y salidas"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18819",
+  "marca": "PUMA",
+  "nombre": "Leadcat 2.0 Slide Sandals (Youth)",
+  "genero": "Niños",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38443501_1l.jpg?v=1788891114",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38443501_2l.jpg?v=1788891114",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38443501_3l.jpg?v=1788891114",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38443501_4l.jpg?v=1788891115"
+  ],
+  "descripcion": "Slide Leadcat 2.0 de PUMA, ligero y cómodo para la piscina, la playa y el descanso.",
+  "detalles": [
+   "Banda ancha con logo PUMA",
+   "Plantilla moldeada cómoda",
+   "Suela ligera de secado rápido",
+   "Para piscina, playa y casa"
+  ],
+  "tallas": [
+   "1",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18820",
+  "marca": "AND1",
+  "nombre": "Haven Slide Sandal (Youth)",
+  "genero": "Niños",
+  "precio": 22.95,
+  "precio_c": 844,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/D2020B-RBR_1l.jpg?v=1792717589",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/D2020B-RBR_2l.jpg?v=1792717589",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/D2020B-RBR_3l.jpg?v=1792717589",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/D2020B-RBR_4l.jpg?v=1792717589"
+  ],
+  "descripcion": "Slide deportivo AND1 con plantilla acolchada, ideal para después del deporte y el verano.",
+  "detalles": [
+   "Banda ancha deportiva",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera y flexible",
+   "Para piscina, playa y descanso"
+  ],
+  "tallas": [
+   "2",
+   "4",
+   "6",
+   "11",
+   "13"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18821",
+  "marca": "PUMA",
+  "nombre": "Cool Cat Echo Slide Sandals (Youth)",
+  "genero": "Niños",
+  "precio": 24.95,
+  "precio_c": 918,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38361601_1l.jpg?v=1789380168",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38361601_2l.jpg?v=1789380168",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38361601_3l.jpg?v=1789380168",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/38361601_4l.jpg?v=1789380168"
+  ],
+  "descripcion": "Slide Cool Cat Echo de PUMA con banda acolchada, comodidad total para pies pequeños.",
+  "detalles": [
+   "Banda acolchada con logo PUMA",
+   "Plantilla moldeada suave",
+   "Suela ligera de secado rápido",
+   "Para piscina, playa y casa"
+  ],
+  "tallas": [
+   "1",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18822",
+  "marca": "Character",
+  "nombre": "Spiderman Lighted Clog - Kids",
+  "genero": "Niños",
+  "precio": 29.98,
+  "precio_c": 1102,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F24BSR050A_1.jpg?v=1786570699",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F24BSR050A_2.jpg?v=1786570699",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F24BSR050A_3.jpg?v=1786570699",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/F24BSR050A_4.jpg?v=1786570699"
+  ],
+  "descripcion": "Zueco de Spider-Man con luces, en rojo y negro: diversión y comodidad para fans del superhéroe.",
+  "detalles": [
+   "Diseño de Spider-Man en rojo y negro",
+   "Luces que se activan al caminar",
+   "Material ligero estilo zueco, fácil de limpiar",
+   "Correa trasera para mejor ajuste"
+  ],
+  "tallas": [
+   "2/3",
+   "11/12",
+   "13/1"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18823",
+  "marca": "Crocs",
+  "nombre": "Classic Clog - Toddler",
+  "genero": "Niños",
+  "precio": 69.98,
+  "precio_c": 2573,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21055990H_1_9dde23f7-4c3e-417e-92ae-f3dab6f30061.jpg?v=1792190917",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21055990H_2_f458c2a1-3f70-488c-8671-e3b0d67509ae.jpg?v=1792190917",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21055990H_3_17a6ffcb-e7af-4234-8f16-b15476c0cf7e.jpg?v=1792190917",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/21055990H_4_4c9057a4-4dbf-414f-9b66-9d35a6567e0b.jpg?v=1792190917"
+  ],
+  "descripcion": "Zueco clásico de Crocs edición Bluey para toddlers: ligero, cómodo y fácil de limpiar.",
+  "detalles": [
+   "Material Croslite ligero y acolchado",
+   "Diseño de Bluey, el personaje favorito de los pequeños",
+   "Correa trasera para mejor ajuste",
+   "Fácil de lavar y de secado rápido"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-18824",
+  "marca": "Nike",
+  "nombre": "Kawa Slide - Kids",
+  "genero": "Niños",
+  "precio": 40.96,
+  "precio_c": 1506,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_1.jpg?v=1780011636",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_2.jpg?v=1780011636",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_3.jpg?v=1780011636",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FJ2250600Y_4.jpg?v=1780011636"
+  ],
+  "descripcion": "Slide Kawa de Nike en rosa, suave y ligera para la piscina y el verano.",
+  "detalles": [
+   "Banda suave con logo Nike",
+   "Plantilla acolchada y cómoda",
+   "Suela ligera de secado rápido",
+   "Para piscina, playa y casa"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18825",
+  "marca": "Crocs",
+  "nombre": "Classic Clog - Kids",
+  "genero": "Niños",
+  "precio": 59.98,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069916ZW_1_e9439e17-d281-41cc-94fb-38935f010326.jpg?v=1792190918",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069916ZW_2_43fb2841-c381-4fe6-aeec-ed6597f9b7e5.jpg?v=1792190918",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069916ZW_3_c8f50e59-a4e4-40f3-beed-1a3ae9bf5c71.jpg?v=1792190919",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2069916ZW_4_9a42859a-f492-499a-b1d8-a358298c4b03.jpg?v=1792190918"
+  ],
+  "descripcion": "Zueco clásico de Crocs en rosa leche: ligero, cómodo y listo para personalizar con charms.",
+  "detalles": [
+   "Material Croslite ligero y acolchado",
+   "Orificios para charms Jibbitz",
+   "Correa trasera para mejor ajuste",
+   "Fácil de lavar y de secado rápido"
+  ],
+  "tallas": [
+   "1",
+   "2",
+   "3",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Chanclas",
+  "subcat": "niña"
  }
 ];
