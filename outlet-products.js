@@ -5181,118 +5181,6 @@ var ZAPATOS = [
   "categoria": "Deportivos"
  },
  {
-  "codigo": "DOM-16416",
-  "marca": "Charly",
-  "nombre": "Charly Artemis FG — Aqua/Black",
-  "genero": "Hombre",
-  "precio": 46.0,
-  "precio_c": 1692,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-artemis-fg-5741731.webp?v=1767645374",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-artemis-fg-2308090.webp?v=1767645374",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-artemis-fg-3264374.webp?v=1767645374",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-artemis-fg-7935981.webp?v=1767645374"
-  ],
-  "descripcion": "Los Charly Artemis FG — Aqua/Black son unos tacos de fútbol de Charly para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 7.5 / W 9",
-   "M 8 / W 9.5",
-   "M 8.5 / W 10",
-   "M 9.5 / W 11",
-   "M 10 / W 11.5",
-   "M 10.5 / W 12",
-   "M 11.5 / W 13",
-   "M 12 / W 13.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16417",
-  "marca": "Charly",
-  "nombre": "Charly Encore FG — Forrest Green/Orange/White",
-  "genero": "Hombre",
-  "precio": 38.0,
-  "precio_c": 1397,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-encore-fg-6976426.webp?v=1767647599",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-encore-fg-9632169.webp?v=1767647599",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-encore-fg-4897856.webp?v=1767647600",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-encore-fg-7586705.webp?v=1767647600"
-  ],
-  "descripcion": "Los Charly Encore FG — Forrest Green/Orange/White son unos tacos de fútbol de Charly para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 7 / W 8.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16418",
-  "marca": "Charly",
-  "nombre": "Charly Hotcross 4.0 Turf — Black",
-  "genero": "Hombre",
-  "precio": 42.0,
-  "precio_c": 1545,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-hotcross-40-turf-8767036.webp?v=1767645372",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-hotcross-40-turf-4416303.webp?v=1767645372",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-hotcross-40-turf-1142343.webp?v=1767645373",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-hotcross-40-turf-5017634.webp?v=1767645373"
-  ],
-  "descripcion": "Los Charly Hotcross 4.0 Turf — Black son unos tacos de fútbol de Charly para hombre, con suela de tacos cortos para césped sintético. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela Turf con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 6.5 / W 8",
-   "M 7 / W 8.5",
-   "M 7.5 / W 9"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16419",
-  "marca": "Charly",
-  "nombre": "Charly Stitch Turf Soccer Shoes — Black/White",
-  "genero": "Hombre",
-  "precio": 42.0,
-  "precio_c": 1545,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-stitch-turf-soccer-shoes-4927432.webp?v=1767643156",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-stitch-turf-soccer-shoes-1171023.webp?v=1767643156",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-stitch-turf-soccer-shoes-8315222.webp?v=1767643157",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/charly-stitch-turf-soccer-shoes-1163492.webp?v=1767643157"
-  ],
-  "descripcion": "Los Charly Stitch Turf Soccer Shoes — Black/White son unos tacos de fútbol de Charly para hombre, con suela de tacos cortos para césped sintético. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela Turf con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 7 / W 8.5",
-   "M 7.5 / W 9",
-   "M 8 / W 9.5",
-   "M 10.5 / W 12"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
   "codigo": "DOM-16420",
   "marca": "Nike",
   "nombre": "Nike Legend 10 Academy Firm/Multi Ground Soccer Cleats - Mad Energy Pack (SP25) — Hot Lava/White",
@@ -5333,82 +5221,6 @@ var ZAPATOS = [
   "descripcion": "Los Nike Legend 10 Academy Firm/Multi Ground Soccer Cleats - Scary Good Pack (FA25) — Blue Eclipse/Black son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural y artificial. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
   "detalles": [
    "Suela FG/MG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 4 / W 5.5",
-   "M 4.5 / W 6"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16422",
-  "marca": "Nike",
-  "nombre": "Nike Phantom 6 High Club Firm/Multi Ground Soccer Cleats - Shadow Pack (FA25) — Black/Black",
-  "genero": "Hombre",
-  "precio": 49.0,
-  "precio_c": 1802,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-firmmulti-ground-soccer-cleats-shadow-pack-fa25-5282465.webp?v=1767643642",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-firmmulti-ground-soccer-cleats-shadow-pack-fa25-7536794.webp?v=1767643643",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-firmmulti-ground-soccer-cleats-shadow-pack-fa25-8193202.webp?v=1767643643",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-firmmulti-ground-soccer-cleats-shadow-pack-fa25-5670758.webp?v=1767643643"
-  ],
-  "descripcion": "Los Nike Phantom 6 High Club Firm/Multi Ground Soccer Cleats - Shadow Pack (FA25) — Black/Black son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural y artificial. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG/MG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 4 / W 5.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16423",
-  "marca": "Nike",
-  "nombre": "Nike Phantom 6 High Club Turf Soccer Shoes - Scary Good Pack (FA25) — Royal Tint/Bright Crimson",
-  "genero": "Hombre",
-  "precio": 42.0,
-  "precio_c": 1545,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-scary-good-pack-fa25-1873656.webp?v=1767643449",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-scary-good-pack-fa25-3937181.webp?v=1767643449",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-scary-good-pack-fa25-6768042.webp?v=1767643449",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-scary-good-pack-fa25-2410482.webp?v=1767643449"
-  ],
-  "descripcion": "Los Nike Phantom 6 High Club Turf Soccer Shoes - Scary Good Pack (FA25) — Royal Tint/Bright Crimson son unos tacos de fútbol de Nike para hombre, con suela de tacos cortos para césped sintético. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela Turf con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 4 / W 5.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16424",
-  "marca": "Nike",
-  "nombre": "Nike Phantom 6 High Club Turf Soccer Shoes - Shadow Pack (FA25) — Black/Black",
-  "genero": "Hombre",
-  "precio": 49.0,
-  "precio_c": 1802,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-shadow-pack-fa25-3523258.webp?v=1767643690",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-shadow-pack-fa25-9798464.webp?v=1767643690",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-shadow-pack-fa25-3829233.webp?v=1767643691",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-high-club-turf-soccer-shoes-shadow-pack-fa25-1536499.webp?v=1767643691"
-  ],
-  "descripcion": "Los Nike Phantom 6 High Club Turf Soccer Shoes - Shadow Pack (FA25) — Black/Black son unos tacos de fútbol de Nike para hombre, con suela de tacos cortos para césped sintético. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela Turf con tracción para arranques y giros",
    "Parte superior resistente con buen toque de balón",
    "Ajuste cómodo que se mantiene firme durante el juego",
    "Cierre con cordones para un ajuste seguro"
@@ -5467,60 +5279,6 @@ var ZAPATOS = [
   "tallas": [
    "M 10.5 / W 12",
    "M 13 / W 14.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16427",
-  "marca": "Nike",
-  "nombre": "Nike Superfly 10 Club Firm/Multi Ground Soccer Cleats - Scary Good Pack (FA25) — Magic Flamingo/Total Crimson/Black",
-  "genero": "Hombre",
-  "precio": 44.0,
-  "precio_c": 1618,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-2728238.webp?v=1767643516",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-5712696.webp?v=1767643516",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-3801907.webp?v=1767643517",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-1198598.webp?v=1767643517"
-  ],
-  "descripcion": "Los Nike Superfly 10 Club Firm/Multi Ground Soccer Cleats - Scary Good Pack (FA25) — Magic Flamingo/Total Crimson/Black son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural y artificial. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG/MG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 4.5 / W 6",
-   "M 9.5 / W 11"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16428",
-  "marca": "Nike",
-  "nombre": "Nike Superfly 10 Club Turf Soccer Shoes - Scary Good Pack (FA25) — Magic Flamingo/Black-Total Crimson",
-  "genero": "Hombre",
-  "precio": 44.0,
-  "precio_c": 1618,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-turf-soccer-shoes-scary-good-pack-fa25-1923526.webp?v=1767643638",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-turf-soccer-shoes-scary-good-pack-fa25-2072456.webp?v=1767643638",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-turf-soccer-shoes-scary-good-pack-fa25-3665929.webp?v=1767643639",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-turf-soccer-shoes-scary-good-pack-fa25-5568659.webp?v=1767643639"
-  ],
-  "descripcion": "Los Nike Superfly 10 Club Turf Soccer Shoes - Scary Good Pack (FA25) — Magic Flamingo/Black-Total Crimson son unos tacos de fútbol de Nike para hombre, con suela de tacos cortos para césped sintético. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela Turf con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 4 / W 5.5",
-   "M 5 / W 6.5",
-   "M 12 / W 13.5",
-   "M 12.5 / W 14"
   ],
   "categoria": "Tacos para fútbol"
  },
@@ -5654,142 +5412,6 @@ var ZAPATOS = [
   "categoria": "Tacos para fútbol"
  },
  {
-  "codigo": "DOM-16434",
-  "marca": "Nike",
-  "nombre": "Nike Bomba TF",
-  "genero": "Hombre",
-  "precio": 81.98,
-  "precio_c": 3015,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/products/nike_bombax_turf_shoes.jpg?v=1586136838"
-  ],
-  "descripcion": "Los Nike Bomba TF son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16435",
-  "marca": "Nike",
-  "nombre": "Nike Mercurial Vapor 16 Club FG/MG Cleats — Racer Blue/White",
-  "genero": "Hombre",
-  "precio": 94.98,
-  "precio_c": 3493,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/nike-mercurial-vapor-16-club-fg.png?v=1772759627",
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/nike-mercurial-vapor-16-club-fg_1.png?v=1772759468",
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/nike-mercurial-vapor-16-club-fg_2.png?v=1772759468",
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/nike-mercurial-vapor-16-club-fg_3.png?v=1772759468"
-  ],
-  "descripcion": "Los Nike Mercurial Vapor 16 Club FG/MG Cleats — Racer Blue/White son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "12",
-   "13",
-   "6.5",
-   "7.5",
-   "8.5",
-   "9.5",
-   "10.5",
-   "11.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16436",
-  "marca": "Nike",
-  "nombre": "Nike Mercurial Vortex TF",
-  "genero": "Hombre",
-  "precio": 81.98,
-  "precio_c": 3015,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/products/831971-002-phsrh000.jpg?v=1587592467"
-  ],
-  "descripcion": "Los Nike Mercurial Vortex TF son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16437",
-  "marca": "Puma",
-  "nombre": "Puma Ultra Play Turf Shoes",
-  "genero": "Hombre",
-  "precio": 99.98,
-  "precio_c": 3677,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/puma-ultra-play-turf-shoes.png?v=1693898751",
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/puma-ultra-play-turf-shoes_12.png?v=1693898751",
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/puma-ultra-play-turf-shoes_2.png?v=1693898752",
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/files/puma-ultra-play-turf-shoes_1.png?v=1693898750"
-  ],
-  "descripcion": "Los Puma Ultra Play Turf Shoes son unos tacos de fútbol de Puma para hombre, con suela de tacos cortos para césped sintético. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela Turf con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "7.5",
-   "8.5",
-   "9.5",
-   "10.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16438",
-  "marca": "adidas",
-  "nombre": "adidas Conquisto II FG",
-  "genero": "Hombre",
-  "precio": 74.98,
-  "precio_c": 2757,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0265/3719/7591/products/adidas-conquisto-ii-fg-818-800x800.jpg?v=1586128820"
-  ],
-  "descripcion": "Los adidas Conquisto II FG son unos tacos de fútbol de adidas para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "13"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
   "codigo": "DOM-16439",
   "marca": "adidas",
   "nombre": "adidas X 15.1 Cage TF",
@@ -5888,179 +5510,6 @@ var ZAPATOS = [
    "9.5",
    "10.5",
    "11.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16442",
-  "marca": "Skechers",
-  "nombre": "Skechers Razor 2 Club TF",
-  "genero": "Hombre",
-  "precio": 75.0,
-  "precio_c": 2758,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000956_main.jpg?v=1795109493",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000956_gallery_1.jpg?v=1795109493",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000956_gallery_2.jpg?v=1795109493",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000956_gallery_3.jpg?v=1795109493"
-  ],
-  "descripcion": "Los Skechers Razor 2 Club TF son unos tacos de fútbol de Skechers para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "6.5",
-   "7.5",
-   "8.5",
-   "9.5",
-   "10.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16443",
-  "marca": "Skechers",
-  "nombre": "Skechers SKX 2 Club MG",
-  "genero": "Hombre",
-  "precio": 75.0,
-  "precio_c": 2758,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000937_main.jpg?v=1795106760",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000937_gallery_1.jpg?v=1795106760",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000937_gallery_2.jpg?v=1795106760",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000937_gallery_3.jpg?v=1795106760"
-  ],
-  "descripcion": "Los Skechers SKX 2 Club MG son unos tacos de fútbol de Skechers para hombre, con suela de tacos para césped natural y artificial. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG/MG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6",
-   "7",
-   "8",
-   "9",
-   "10",
-   "11",
-   "6.5",
-   "7.5",
-   "8.5",
-   "9.5",
-   "10.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16444",
-  "marca": "Skechers",
-  "nombre": "Skechers SKX 2 Club TF",
-  "genero": "Hombre",
-  "precio": 75.0,
-  "precio_c": 2758,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000938_main.jpg?v=1795097106",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000938_gallery_1.jpg?v=1795097106",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000938_gallery_2.jpg?v=1795097106",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000938_gallery_3.jpg?v=1795097106"
-  ],
-  "descripcion": "Los Skechers SKX 2 Club TF son unos tacos de fútbol de Skechers para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6",
-   "7",
-   "9",
-   "10",
-   "11",
-   "6.5",
-   "7.5",
-   "8.5",
-   "9.5",
-   "10.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16445",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Shadow Select 4.0 FG",
-  "genero": "Hombre",
-  "precio": 62.0,
-  "precio_c": 2280,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000418_main.jpg?v=1795444793",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000418_gallery_1.jpg?v=1795444793",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000418_gallery_2.jpg?v=1795444793",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/4000418_gallery_3.jpg?v=1795444793"
-  ],
-  "descripcion": "Los Under Armour Shadow Select 4.0 FG son unos tacos de fútbol de Under Armour para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6",
-   "8",
-   "9",
-   "10",
-   "11",
-   "6.5",
-   "7.5",
-   "8.5",
-   "9.5",
-   "10.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16446",
-  "marca": "Nike",
-  "nombre": "Nike Superfly 10 Club Firm/Multi Ground Soccer Cleats - Attack Pack (SP26) — Racer Blue/White",
-  "genero": "Hombre",
-  "precio": 59.0,
-  "precio_c": 2170,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-attack-pack-sp26-3280932.jpg?v=1781909956",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-attack-pack-sp26-3947427.jpg?v=1781909957",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-attack-pack-sp26-6136510.jpg?v=1781909957",
-   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-superfly-10-club-firmmulti-ground-soccer-cleats-attack-pack-sp26-8011700.jpg?v=1781909957"
-  ],
-  "descripcion": "Los Nike Superfly 10 Club Firm/Multi Ground Soccer Cleats - Attack Pack (SP26) — Racer Blue/White son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural y artificial. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG/MG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "M 6.5 / W 8",
-   "M 8.5 / W 10",
-   "M 9 / W 10.5",
-   "M 9.5 / W 11",
-   "M 10 / W 11.5",
-   "M 10.5 / W 12",
-   "M 11 / W 12.5",
-   "M 11.5 / W 13",
-   "M 12 / W 13.5",
-   "M 12.5 / W 14",
-   "M 13 / W 14.5"
   ],
   "categoria": "Tacos para fútbol"
  },
@@ -6264,57 +5713,6 @@ var ZAPATOS = [
   "categoria": "Tacos para fútbol"
  },
  {
-  "codigo": "DOM-16453",
-  "marca": "Diadora",
-  "nombre": "Diadora Brasil LT Plus MPH Soccer Cleat",
-  "genero": "Hombre",
-  "precio": 69.95,
-  "precio_c": 2572,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180696-C0351_1l.jpg?v=1793572613",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180696-C0351_2l.jpg?v=1793572612",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180696-C0351_3l.jpg?v=1793572613",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180696-C0351_4l.jpg?v=1793572612"
-  ],
-  "descripcion": "Los Diadora Brasil LT Plus MPH Soccer Cleat son unos tacos de fútbol de Diadora para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6.5",
-   "11.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16454",
-  "marca": "Puma",
-  "nombre": "Puma Future 8 Play FG/AG Soccer Cleat",
-  "genero": "Hombre",
-  "precio": 64.95,
-  "precio_c": 2388,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10860203_1l.jpg?v=1795268075",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10860203_2l.jpg?v=1795268075",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10860203_3l.jpg?v=1795268075",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/10860203_4l.jpg?v=1795268075"
-  ],
-  "descripcion": "Los Puma Future 8 Play FG/AG Soccer Cleat son unos tacos de fútbol de Puma para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "9"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
   "codigo": "DOM-16455",
   "marca": "Puma",
   "nombre": "Puma Future 9 Match Playmaker FG/AG Soccer Cleat",
@@ -6404,33 +5802,6 @@ var ZAPATOS = [
   "categoria": "Tacos para fútbol"
  },
  {
-  "codigo": "DOM-16458",
-  "marca": "adidas",
-  "nombre": "adidas Copa Pure IV Club Firm Ground / Multi Ground Soccer Cleats",
-  "genero": "Hombre",
-  "precio": 69.95,
-  "precio_c": 2572,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JR6185_1l.jpg?v=1793937487",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JR6185_2l.jpg?v=1793937487",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JR6185_3l.jpg?v=1793937487",
-   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/SB1158-JR6185_4l.jpg?v=1793937487"
-  ],
-  "descripcion": "Los adidas Copa Pure IV Club Firm Ground / Multi Ground Soccer Cleats son unos tacos de fútbol de adidas para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "10",
-   "12"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
   "codigo": "DOM-16459",
   "marca": "Nike",
   "nombre": "Nike Mercurial Superfly 10 Academy KM FG/MG - Mens — (Mbappe) Melon Tint/Neo Turq/Igloo",
@@ -6459,298 +5830,6 @@ var ZAPATOS = [
    "10.5",
    "11.0",
    "12.0"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16460",
-  "marca": "Nike",
-  "nombre": "Nike Mercurial Superfly 10 Club FG - Mens — Ocean Cube/Pink Blast",
-  "genero": "Hombre",
-  "precio": 66.96,
-  "precio_c": 2462,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8314001_1.jpg?v=1777050336",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8314001_2.jpg?v=1777050336",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8314001_3.jpg?v=1777050336",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/FQ8314001_4.jpg?v=1777050336"
-  ],
-  "descripcion": "Los Nike Mercurial Superfly 10 Club FG - Mens — Ocean Cube/Pink Blast son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "07.0",
-   "08.0",
-   "08.5",
-   "09.0",
-   "09.5",
-   "10.0",
-   "10.5",
-   "11.0",
-   "11.5",
-   "12.0"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16461",
-  "marca": "Nike",
-  "nombre": "Nike Mercurial Superfly 11 Club FG/MG - Mens — Black/Illusion Green/Black",
-  "genero": "Hombre",
-  "precio": 94.98,
-  "precio_c": 3493,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM0358001_1.jpg?v=1785183482",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM0358001_2.jpg?v=1785183482",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM0358001_3.jpg?v=1785183482",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/IM0358001_4.jpg?v=1785183481"
-  ],
-  "descripcion": "Los Nike Mercurial Superfly 11 Club FG/MG - Mens — Black/Illusion Green/Black son unos tacos de fútbol de Nike para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "07.0",
-   "07.5",
-   "08.0",
-   "08.5",
-   "09.0",
-   "09.5",
-   "10.0",
-   "10.5",
-   "11.0",
-   "11.5",
-   "12.0"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16462",
-  "marca": "adidas",
-  "nombre": "adidas F50 Club FG - Mens — Black/Iron Met/Lucid Lemon",
-  "genero": "Hombre",
-  "precio": 57.96,
-  "precio_c": 2131,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JI0047_1.jpg?v=1777654721",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JI0047_2.jpg?v=1777654721",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JI0047_3.jpg?v=1777654721",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JI0047_4.jpg?v=1777654721"
-  ],
-  "descripcion": "Los adidas F50 Club FG - Mens — Black/Iron Met/Lucid Lemon son unos tacos de fútbol de adidas para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "06.5",
-   "07.0",
-   "07.5",
-   "08.0",
-   "08.5",
-   "09.0",
-   "09.5",
-   "10.0",
-   "10.5",
-   "11.0",
-   "11.5",
-   "12.0"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16463",
-  "marca": "adidas",
-  "nombre": "adidas F50 Club FG Messi - Mens — Team Royal/Solar Yellow/Semi Blue Burst",
-  "genero": "Hombre",
-  "precio": 59.96,
-  "precio_c": 2205,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JP7444_1.jpg?v=1778170879",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JP7444_2.jpg?v=1778170879",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JP7444_3.jpg?v=1778170879",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JP7444_4.jpg?v=1778170879"
-  ],
-  "descripcion": "Los adidas F50 Club FG Messi - Mens — Team Royal/Solar Yellow/Semi Blue Burst son unos tacos de fútbol de adidas para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "06.5",
-   "07.0",
-   "07.5",
-   "08.0",
-   "08.5",
-   "09.0",
-   "09.5",
-   "10.0",
-   "10.5",
-   "11.0",
-   "12.0"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16464",
-  "marca": "adidas",
-  "nombre": "adidas Predator Club FT FG/MG - Mens — Crystal Sky/Ray Blue/Ray Blue",
-  "genero": "Hombre",
-  "precio": 65.96,
-  "precio_c": 2426,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS0347_1.jpg?v=1775168946",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS0347_2.jpg?v=1775168946",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS0347_3.jpg?v=1775168946",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/JS0347_4.jpg?v=1775168947"
-  ],
-  "descripcion": "Los adidas Predator Club FT FG/MG - Mens — Crystal Sky/Ray Blue/Ray Blue son unos tacos de fútbol de adidas para hombre, con suela de tacos para césped natural firme. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "06.5",
-   "07.0",
-   "07.5",
-   "08.0",
-   "08.5",
-   "09.0",
-   "09.5",
-   "10.0",
-   "10.5",
-   "11.0",
-   "11.5",
-   "12.0"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16465",
-  "marca": "New Balance",
-  "nombre": "New Balance Rush V5 Low Lacrosse Cleats — White/Black/Team Red",
-  "genero": "Hombre",
-  "precio": 74.26,
-  "precio_c": 2731,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71otIW51deL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61oP6ddawjL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71RIbipuTzL._SX700_.jpg"
-  ],
-  "descripcion": "Los New Balance Rush V5 Low Lacrosse Cleats — White/Black/Team Red son unos tacos de fútbol de New Balance para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "11.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16466",
-  "marca": "New Balance",
-  "nombre": "New Balance Rush V5 Mid Lacrosse Cleats — White/Black/Team Red",
-  "genero": "Hombre",
-  "precio": 89.33,
-  "precio_c": 3285,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71p2okx7wLL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61gAYgiJ3FL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71GnTpr8o7L._SX700_.jpg"
-  ],
-  "descripcion": "Los New Balance Rush V5 Mid Lacrosse Cleats — White/Black/Team Red son unos tacos de fútbol de New Balance para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "8",
-   "9"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16467",
-  "marca": "Puma",
-  "nombre": "Puma Attacanto II Firm/ Artificial Ground Soccer Cleats — Ultra Blue/Lime Squeeze",
-  "genero": "Hombre",
-  "precio": 55.0,
-  "precio_c": 2023,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71f4-sYcxcL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71rRBLD-X6L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/715Op+7-ZGL._SX700_.jpg"
-  ],
-  "descripcion": "Los Puma Attacanto II Firm/ Artificial Ground Soccer Cleats — Ultra Blue/Lime Squeeze son unos tacos de fútbol de Puma para hombre, con suela de tacos para césped artificial. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela AG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16468",
-  "marca": "Puma",
-  "nombre": "Puma King Indoor Shoes — White/Vibrant Blue",
-  "genero": "Hombre",
-  "precio": 60.0,
-  "precio_c": 2206,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71rre84Fo6L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61htE0Unz4L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71JnJxgKrlL._SX700_.jpg"
-  ],
-  "descripcion": "Los Puma King Indoor Shoes — White/Vibrant Blue son unos tacos de fútbol de Puma para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "11",
-   "12",
-   "13"
   ],
   "categoria": "Tacos para fútbol"
  },
@@ -8068,200 +7147,6 @@ var ZAPATOS = [
    "12",
    "12.5",
    "13"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16509",
-  "marca": "New Balance",
-  "nombre": "New Balance 442 V2 Team IN Soccer Cleats — Black/White",
-  "genero": "Hombre",
-  "precio": 107.9,
-  "precio_c": 3968,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71a3IJ0u-7L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71ei04nvrrL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61uVt3knxhL._SX700_.jpg"
-  ],
-  "descripcion": "Los New Balance 442 V2 Team IN Soccer Cleats — Black/White son unos tacos de fútbol de New Balance para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "9",
-   "9.5",
-   "10",
-   "11",
-   "12"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16510",
-  "marca": "New Balance",
-  "nombre": "New Balance FreezeLX V5 Lacrosse Cleats — White/Black",
-  "genero": "Hombre",
-  "precio": 122.0,
-  "precio_c": 4486,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/718go1xLp3L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61e1RgeQvFL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71-qX7O-BmL._SX700_.jpg"
-  ],
-  "descripcion": "Los New Balance FreezeLX V5 Lacrosse Cleats — White/Black son unos tacos de fútbol de New Balance para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16511",
-  "marca": "New Balance",
-  "nombre": "New Balance FreezeLX V5 Low Lacrosse Cleats — White/Black/Silver Metallic",
-  "genero": "Hombre",
-  "precio": 113.99,
-  "precio_c": 4192,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61KLNpQzQ1L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61luhIxnjLL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/51MXU8KcM+L._SX700_.jpg"
-  ],
-  "descripcion": "Los New Balance FreezeLX V5 Low Lacrosse Cleats — White/Black/Silver Metallic son unos tacos de fútbol de New Balance para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "14"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16512",
-  "marca": "New Balance",
-  "nombre": "New Balance FreezeLX v5 Box Lacrosse Cleats — White/Black",
-  "genero": "Hombre",
-  "precio": 129.23,
-  "precio_c": 4752,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/615wJvodCjL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61x+kNfBQEL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61ojW9HaYEL._SX700_.jpg"
-  ],
-  "descripcion": "Los New Balance FreezeLX v5 Box Lacrosse Cleats — White/Black son unos tacos de fútbol de New Balance para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "13",
-   "14"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16513",
-  "marca": "New Balance",
-  "nombre": "New Balance FreezeLX v6 Turf — Nb 102 White Munsell/Black",
-  "genero": "Hombre",
-  "precio": 100.6,
-  "precio_c": 3699,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61GuoaS3yiL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61uwmRNoP9L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61so5YcDiaL._SX700_.jpg"
-  ],
-  "descripcion": "Los New Balance FreezeLX v6 Turf — Nb 102 White Munsell/Black son unos tacos de fútbol de New Balance para hombre, con suela de tacos cortos para césped sintético. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela Turf con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "13"
-  ],
-  "categoria": "Tacos para fútbol"
- },
- {
-  "codigo": "DOM-16514",
-  "marca": "Topo Athletic",
-  "nombre": "Topo Athletic Ultraventure 5 — Black/Dark Teal",
-  "genero": "Hombre",
-  "precio": 164.95,
-  "precio_c": 6066,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81MHiBN1EOL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71eo6qrLf8L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81sh69Fx7zL._SX700_.jpg"
-  ],
-  "descripcion": "Los Topo Athletic Ultraventure 5 — Black/Dark Teal son unos tacos de fútbol de Topo Athletic para hombre, con suela de tacos para césped natural. Diseñados para dar tracción y control en el campo, con un ajuste cómodo para jugar todo el partido.",
-  "detalles": [
-   "Suela FG con tracción para arranques y giros",
-   "Parte superior resistente con buen toque de balón",
-   "Ajuste cómodo que se mantiene firme durante el juego",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "7",
-   "7.5",
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "12.5",
-   "13",
-   "14",
-   "15"
   ],
   "categoria": "Tacos para fútbol"
  },
@@ -64081,5 +62966,1029 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-18249",
+  "marca": "Puma",
+  "nombre": "Puma Ultra 5 Ultimate Firm Ground Soccer Cleats - Audacity Pack (SP25)",
+  "genero": "Hombre",
+  "precio": 88.95,
+  "precio_c": 3271,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-5-ultimate-firm-ground-soccer-cleats-audacity-pack-sp25-6267022.webp?v=1767644350",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-5-ultimate-firm-ground-soccer-cleats-audacity-pack-sp25-3195546.webp?v=1767644350",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-5-ultimate-firm-ground-soccer-cleats-audacity-pack-sp25-5502455.webp?v=1767644351",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-5-ultimate-firm-ground-soccer-cleats-audacity-pack-sp25-1863715.webp?v=1767644351"
+  ],
+  "descripcion": "El Ultra 5 Ultimate es el botín de velocidad de la gama más alta de Puma: parte superior ultraligera y placa rápida para arranques explosivos en canchas firmes. Su ajuste ceñido acompaña al pie en cada sprint y cambio de ritmo.",
+  "detalles": [
+   "Gama Ultimate, la más alta de Puma",
+   "Suela para terreno firme (FG)",
+   "Parte superior ligera orientada a la velocidad",
+   "Ajuste ceñido tipo botín de sprint"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18250",
+  "marca": "Puma",
+  "nombre": "Puma Future 8 Ultimate Low Firm Ground Soccer Cleats - Audacity Pack (SP25)",
+  "genero": "Hombre",
+  "precio": 91.95,
+  "precio_c": 3381,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-8-ultimate-low-firm-ground-soccer-cleats-audacity-pack-sp25-9487965.webp?v=1767644351",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-8-ultimate-low-firm-ground-soccer-cleats-audacity-pack-sp25-6090592.webp?v=1767644351",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-8-ultimate-low-firm-ground-soccer-cleats-audacity-pack-sp25-4439014.webp?v=1767644352",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-8-ultimate-low-firm-ground-soccer-cleats-audacity-pack-sp25-9301300.webp?v=1767644352"
+  ],
+  "descripcion": "Botín insignia de Puma para jugadores creativos, con ajuste FUZIONFIT que envuelve el mediopié y corte bajo para moverte con total libertad. Su suela para terreno firme está pensada para giros y cambios de dirección constantes.",
+  "detalles": [
+   "Gama Ultimate, la más alta de Puma",
+   "Suela para terreno firme (FG)",
+   "Ajuste adaptativo FUZIONFIT en el mediopié",
+   "Corte bajo para máxima agilidad"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "9",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18251",
+  "marca": "Puma",
+  "nombre": "Puma Ultra 6 Ultimate Firm Ground Soccer Cleats - Eclipse Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 115.95,
+  "precio_c": 4264,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-6-ultimate-firm-ground-soccer-cleats-eclipse-pack-fa25-4280683.webp?v=1767643448",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-6-ultimate-firm-ground-soccer-cleats-eclipse-pack-fa25-5514331.webp?v=1767643448",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-6-ultimate-firm-ground-soccer-cleats-eclipse-pack-fa25-2004805.webp?v=1767643449",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-ultra-6-ultimate-firm-ground-soccer-cleats-eclipse-pack-fa25-3724973.webp?v=1767643449"
+  ],
+  "descripcion": "La generación más reciente del silo de velocidad de Puma, con parte superior ligera de ingeniería y placa rápida para canchas firmes. Diseñado para delanteros que viven del desmarque y la carrera al espacio.",
+  "detalles": [
+   "Gama Ultimate, la más alta de Puma",
+   "Suela para terreno firme (FG)",
+   "Parte superior ultraligera de velocidad",
+   "Placa rígida para arranques explosivos"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18252",
+  "marca": "Puma",
+  "nombre": "Puma King Ultimate Firm/Artificial Ground Soccer Cleats - KidSuper (FA25)",
+  "genero": "Hombre",
+  "precio": 111.95,
+  "precio_c": 4117,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-king-ultimate-firmartificial-ground-soccer-cleats-kidsuper-fa25-3022094.webp?v=1767643876",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-king-ultimate-firmartificial-ground-soccer-cleats-kidsuper-fa25-7214184.webp?v=1767643876",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-king-ultimate-firmartificial-ground-soccer-cleats-kidsuper-fa25-1501278.webp?v=1767643877",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-king-ultimate-firmartificial-ground-soccer-cleats-kidsuper-fa25-9634484.webp?v=1767643877"
+  ],
+  "descripcion": "El clásico King de Puma en su versión Ultimate, con parte superior suave de tacto tradicional y un diseño especial de KidSuper. Su suela mixta rinde en terreno firme y artificial, ideal para el control y el pase preciso.",
+  "detalles": [
+   "Gama Ultimate, la más alta de Puma",
+   "Suela para terreno firme y artificial (FG/AG)",
+   "Parte superior suave de tacto clásico",
+   "Edición especial KidSuper"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "9",
+   "9.5",
+   "10"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18253",
+  "marca": "Nike",
+  "nombre": "Nike Zoom Superfly 10 Pro Firm Ground Soccer Cleats - Scary Good Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 100.95,
+  "precio_c": 3712,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-superfly-10-pro-firm-ground-soccer-cleats-scary-good-pack-fa25-9210107.webp?v=1767643633",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-superfly-10-pro-firm-ground-soccer-cleats-scary-good-pack-fa25-5676088.webp?v=1767643633",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-superfly-10-pro-firm-ground-soccer-cleats-scary-good-pack-fa25-8909519.webp?v=1767643633",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-superfly-10-pro-firm-ground-soccer-cleats-scary-good-pack-fa25-1757040.webp?v=1767643633"
+  ],
+  "descripcion": "Botín de velocidad con cuello tipo calcetín y unidad Zoom Air en la suela para una pisada reactiva en canchas firmes. La parte superior con textura ayuda a controlar el balón cuando juegas a máxima velocidad.",
+  "detalles": [
+   "Gama Pro de Nike",
+   "Suela para terreno firme (FG) con Zoom Air",
+   "Cuello tipo calcetín de ajuste seguro",
+   "Parte superior texturizada para control a velocidad"
+  ],
+  "tallas": [
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18254",
+  "marca": "adidas",
+  "nombre": "adidas F50 Messi Elite Firm Ground Soccer Cleats - Messi Vision Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 145.0,
+  "precio_c": 5332,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-elite-firm-ground-soccer-cleats-messi-vision-pack-fa25-9136654.webp?v=1767642975",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-elite-firm-ground-soccer-cleats-messi-vision-pack-fa25-2362488.webp?v=1767642975",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-elite-firm-ground-soccer-cleats-messi-vision-pack-fa25-6349742.webp?v=1767642976",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-elite-firm-ground-soccer-cleats-messi-vision-pack-fa25-1181189.webp?v=1767642976"
+  ],
+  "descripcion": "Edición Elite del F50 de Messi, el botín de velocidad de adidas con parte superior ultraligera y ajuste de precisión. Su placa para terreno firme está hecha para arranques, frenadas y cambios de ritmo.",
+  "detalles": [
+   "Gama Elite, la más alta de adidas",
+   "Suela para terreno firme (FG)",
+   "Edición especial de Messi",
+   "Parte superior ultraligera de velocidad"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "6.5",
+   "7",
+   "10",
+   "10.5",
+   "11.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18255",
+  "marca": "Nike",
+  "nombre": "Nike Legend 10 Elite Firm Ground Soccer Cleats - Max Voltage Pack (HO25)",
+  "genero": "Hombre",
+  "precio": 148.0,
+  "precio_c": 5443,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-legend-10-elite-firm-ground-soccer-cleats-max-voltage-pack-ho25-1372908.webp?v=1767642683",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-legend-10-elite-firm-ground-soccer-cleats-max-voltage-pack-ho25-3174757.webp?v=1767642683",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-legend-10-elite-firm-ground-soccer-cleats-max-voltage-pack-ho25-3874349.webp?v=1767642683",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-legend-10-elite-firm-ground-soccer-cleats-max-voltage-pack-ho25-3535386.webp?v=1767642684"
+  ],
+  "descripcion": "El Legend 10 Elite combina una parte superior de cuero suave con un ajuste moderno para un toque clásico y cómodo desde el primer uso. Su suela para canchas firmes usa tacos que favorecen la rotación y el juego de pausa.",
+  "detalles": [
+   "Gama Elite, la más alta de Nike",
+   "Suela para terreno firme (FG)",
+   "Parte superior de cuero suave",
+   "Tacos pensados para giro y control"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "7",
+   "7.5",
+   "9.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18256",
+  "marca": "New Balance",
+  "nombre": "New Balance Tekela Elite Low Laced V5 2E Wide Firm Ground Soccer Cleats - Lime Light Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 134.0,
+  "precio_c": 4928,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/new-balance-tekela-elite-low-laced-v5-2e-wide-firm-ground-soccer-cleats-lime-light-pack-fa25-2198693.webp?v=1767642734",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/new-balance-tekela-elite-low-laced-v5-2e-wide-firm-ground-soccer-cleats-lime-light-pack-fa25-6364422.webp?v=1767642734",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/new-balance-tekela-elite-low-laced-v5-2e-wide-firm-ground-soccer-cleats-lime-light-pack-fa25-6379157.webp?v=1767642734",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/new-balance-tekela-elite-low-laced-v5-2e-wide-firm-ground-soccer-cleats-lime-light-pack-fa25-3213093.webp?v=1767642734"
+  ],
+  "descripcion": "Botín de control de New Balance en su versión Elite, con horma ancha 2E para pies que necesitan más espacio. Su parte superior con zonas de textura ayuda a dominar el balón en pases y recepciones.",
+  "detalles": [
+   "Gama Elite, la más alta de New Balance",
+   "Suela para terreno firme (FG)",
+   "Horma ancha 2E, más espacio para el pie",
+   "Zonas de textura para control del balón"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "10"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18257",
+  "marca": "Nike",
+  "nombre": "Nike Zoom Vapor 16 Elite Firm Ground Soccer Cleats - Shadow Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 159.0,
+  "precio_c": 5847,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-elite-firm-ground-soccer-cleats-shadow-pack-fa25-4949794.webp?v=1767643528",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-elite-firm-ground-soccer-cleats-shadow-pack-fa25-9744417.webp?v=1767643528",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-elite-firm-ground-soccer-cleats-shadow-pack-fa25-4187873.webp?v=1767643528",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-elite-firm-ground-soccer-cleats-shadow-pack-fa25-7316115.webp?v=1767643529"
+  ],
+  "descripcion": "El Vapor 16 Elite es el botín de velocidad insignia de Nike, con unidad Zoom Air y parte superior Gripknit que se adhiere al balón. Su placa para canchas firmes está diseñada para despegar en los primeros pasos.",
+  "detalles": [
+   "Gama Elite, la más alta de Nike",
+   "Suela para terreno firme (FG) con Zoom Air",
+   "Parte superior Gripknit de alto agarre",
+   "Placa de velocidad para arranques cortos"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "7",
+   "8",
+   "8.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18258",
+  "marca": "Nike",
+  "nombre": "Nike Phantom 6 Low Pro Firm Ground Soccer Cleats - Shadow Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 113.95,
+  "precio_c": 4190,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-low-pro-firm-ground-soccer-cleats-shadow-pack-fa25-7500425.webp?v=1767643337",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-low-pro-firm-ground-soccer-cleats-shadow-pack-fa25-6196059.webp?v=1767643337",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-low-pro-firm-ground-soccer-cleats-shadow-pack-fa25-8768168.webp?v=1767643337",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-phantom-6-low-pro-firm-ground-soccer-cleats-shadow-pack-fa25-6973792.webp?v=1767643338"
+  ],
+  "descripcion": "Botín de precisión de Nike con parte superior Gripknit para un toque limpio en pases y tiros. La versión Pro monta una suela para canchas firmes y un corte bajo para moverte con libertad.",
+  "detalles": [
+   "Gama Pro de Nike",
+   "Suela para terreno firme (FG)",
+   "Parte superior Gripknit para toque preciso",
+   "Corte bajo y ajuste ceñido"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18259",
+  "marca": "Puma",
+  "nombre": "Puma Future 9 Ultimate Firm Ground Soccer Cleats - Eclipse Pack (SP26)",
+  "genero": "Hombre",
+  "precio": 157.0,
+  "precio_c": 5774,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-ultimate-firm-ground-soccer-cleats-eclipse-pack-sp26-5193205.webp?v=1781910430",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-ultimate-firm-ground-soccer-cleats-eclipse-pack-sp26-9934355.webp?v=1781910430",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-ultimate-firm-ground-soccer-cleats-eclipse-pack-sp26-4510197.webp?v=1781910431",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-ultimate-firm-ground-soccer-cleats-eclipse-pack-sp26-4068761.webp?v=1781910431"
+  ],
+  "descripcion": "La nueva generación del Future de Puma en su gama Ultimate, con ajuste adaptativo que envuelve el pie y suela para terreno firme orientada a la agilidad. Para jugadores que crean juego entre líneas y cambian de dirección sin perder el balón.",
+  "detalles": [
+   "Gama Ultimate, la más alta de Puma",
+   "Suela para terreno firme (FG)",
+   "Ajuste adaptativo de mediopié",
+   "Diseñado para agilidad y juego creativo"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "10.5",
+   "11.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18260",
+  "marca": "adidas",
+  "nombre": "adidas Predator Elite Firm Ground Soccer Cleats - Ice Cold Precision Pack (SP26)",
+  "genero": "Hombre",
+  "precio": 192.0,
+  "precio_c": 7061,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-elite-firm-ground-soccer-cleats-ice-cold-precision-pack-sp26-5973663.webp?v=1781908464",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-elite-firm-ground-soccer-cleats-ice-cold-precision-pack-sp26-8604357.webp?v=1781908465",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-elite-firm-ground-soccer-cleats-ice-cold-precision-pack-sp26-1868054.webp?v=1781908466",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-elite-firm-ground-soccer-cleats-ice-cold-precision-pack-sp26-1407005.webp?v=1781908466"
+  ],
+  "descripcion": "El Predator Elite de adidas, con elementos de goma en el empeine para dar efecto y control al balón en cada tiro y centro. Parte superior de alta gama con ajuste firme y suela para canchas firmes.",
+  "detalles": [
+   "Gama Elite, la más alta de adidas",
+   "Suela para terreno firme (FG)",
+   "Elementos de goma para efecto y control",
+   "Ajuste firme de alto rendimiento"
+  ],
+  "tallas": [
+   "7.5",
+   "8",
+   "9",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18261",
+  "marca": "adidas",
+  "nombre": "adidas Predator League Fold-Over Tongue Turf Soccer Shoes - Coral Blaze Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 64.95,
+  "precio_c": 2388,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-league-fold-over-tongue-turf-soccer-shoes-coral-blaze-pack-fa25-1471705.webp?v=1767642855",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-league-fold-over-tongue-turf-soccer-shoes-coral-blaze-pack-fa25-9491111.webp?v=1767642855",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-league-fold-over-tongue-turf-soccer-shoes-coral-blaze-pack-fa25-8260260.webp?v=1767642855",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-predator-league-fold-over-tongue-turf-soccer-shoes-coral-blaze-pack-fa25-8887478.webp?v=1767642856"
+  ],
+  "descripcion": "Versión League del Predator con la clásica lengüeta plegable y suela de goma para canchas sintéticas. Sus elementos de control en el empeine ayudan en pases y tiros con efecto en partidos de turf.",
+  "detalles": [
+   "Gama League, la gama media de adidas",
+   "Suela para canchas sintéticas (TF)",
+   "Lengüeta plegable estilo clásico",
+   "Elementos de control en el empeine"
+  ],
+  "tallas": [
+   "4",
+   "8.5",
+   "11",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18262",
+  "marca": "Nike",
+  "nombre": "Nike Zoom Vapor 16 Academy Firm/Multi Ground Soccer Cleats - Scary Good Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 60.95,
+  "precio_c": 2241,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-academy-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-1110287.webp?v=1767643279",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-academy-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-8403707.webp?v=1767643279",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-academy-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-6758892.webp?v=1767643280",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/nike-zoom-vapor-16-academy-firmmulti-ground-soccer-cleats-scary-good-pack-fa25-5533786.webp?v=1767643280"
+  ],
+  "descripcion": "Versión Academy del Vapor 16, el botín de velocidad de Nike con suela para terreno firme y artificial. Su parte superior sintética con textura ayuda a controlar el balón cuando corres a fondo.",
+  "detalles": [
+   "Gama Academy, la gama media de Nike",
+   "Suela para terreno firme y artificial (FG/MG)",
+   "Parte superior sintética con textura",
+   "Diseño ligero orientado a la velocidad"
+  ],
+  "tallas": [
+   "9.5",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18263",
+  "marca": "adidas",
+  "nombre": "adidas F50 Messi League Firm/Multi Ground Soccer Cleats - Messi Vision Pack (FA25)",
+  "genero": "Hombre",
+  "precio": 67.95,
+  "precio_c": 2499,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-league-firmmulti-ground-soccer-cleats-messi-vision-pack-fa25-6717563.webp?v=1767642976",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-league-firmmulti-ground-soccer-cleats-messi-vision-pack-fa25-2059033.webp?v=1767642976",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-league-firmmulti-ground-soccer-cleats-messi-vision-pack-fa25-8262187.webp?v=1767642976",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/adidas-f50-messi-league-firmmulti-ground-soccer-cleats-messi-vision-pack-fa25-9748571.webp?v=1767642976"
+  ],
+  "descripcion": "Versión League del F50 de Messi: ligera y rápida, con suela para terreno firme y artificial. Su parte superior sintética ofrece un ajuste seguro para jugar siempre a máxima velocidad.",
+  "detalles": [
+   "Gama League, la gama media de adidas",
+   "Suela para terreno firme y artificial (FG/MG)",
+   "Edición especial de Messi",
+   "Parte superior ligera de velocidad"
+  ],
+  "tallas": [
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18264",
+  "marca": "Puma",
+  "nombre": "Puma Future 9 Match Firm/Artificial Ground Soccer Cleats - Eclipse Pack (SP26)",
+  "genero": "Hombre",
+  "precio": 76.95,
+  "precio_c": 2830,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-match-firmartificial-ground-soccer-cleats-eclipse-pack-sp26-6057062.webp?v=1781910430",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-match-firmartificial-ground-soccer-cleats-eclipse-pack-sp26-1972982.webp?v=1781910430",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-match-firmartificial-ground-soccer-cleats-eclipse-pack-sp26-5086992.webp?v=1781910431",
+   "https://cdn.shopify.com/s/files/1/0613/0427/5199/files/puma-future-9-match-firmartificial-ground-soccer-cleats-eclipse-pack-sp26-6068099.webp?v=1781910431"
+  ],
+  "descripcion": "Versión Match del Future 9 de Puma, con ajuste cómodo tipo calcetín y suela para terreno firme y artificial. Pensado para jugadores creativos que buscan agilidad en cada giro.",
+  "detalles": [
+   "Gama Match, la gama media de Puma",
+   "Suela para terreno firme y artificial (FG/AG)",
+   "Ajuste cómodo tipo calcetín",
+   "Orientado a agilidad y cambios de dirección"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18265",
+  "marca": "New Balance",
+  "nombre": "New Balance Furon V7+ Pro FG",
+  "genero": "Hombre",
+  "precio": 89.95,
+  "precio_c": 3308,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1005473_main.jpg?v=1795512593",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1005473_gallery_1.jpg?v=1795512593",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1005473_gallery_2.jpg?v=1795512593",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1005473_gallery_3.jpg?v=1795512593"
+  ],
+  "descripcion": "Tacos gama Pro de New Balance para delanteros veloces: cordones desplazados que amplían la zona limpia de golpeo y empeine Hypoknit que sujeta el pie al acelerar.",
+  "detalles": [
+   "Gama Pro de la línea Furon",
+   "Cordones off-set para una zona de disparo más amplia",
+   "Empeine Hypoknit con cuello de malla refinado",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "10"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18266",
+  "marca": "Puma",
+  "nombre": "Puma Future 8 Ultimate FG",
+  "genero": "Hombre",
+  "precio": 103.95,
+  "precio_c": 3823,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035445_main.jpg?v=1795535591",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035445_gallery_1.jpg?v=1795535591",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035445_gallery_2.jpg?v=1795535591",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035445_gallery_3.jpg?v=1795535591"
+  ],
+  "descripcion": "Tacos gama Ultimate de Puma para jugadores creativos: su empeine FUZIONSKIN de punto elástico se adapta al pie y el acabado GripControl Pro mejora el control del balón en cada regate.",
+  "detalles": [
+   "Gama Ultimate, la más alta de la línea Future",
+   "Empeine FUZIONSKIN con Lycra y pods 3D FUZIONPODS",
+   "Cinta PWRTAPE en el mediopié para un ajuste firme",
+   "Suela 360 Agility para giros y cambios de dirección; uso FG en cancha natural firme"
+  ],
+  "tallas": [
+   "7",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18267",
+  "marca": "Nike",
+  "nombre": "Nike Tiempo Legend X Elite FG",
+  "genero": "Hombre",
+  "precio": 103.95,
+  "precio_c": 3823,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1019131_main.jpg?v=1795536187",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1019131_gallery_1.jpg?v=1795536187",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1019131_gallery_2.jpg?v=1795536187",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1019131_gallery_3.jpg?v=1795536187"
+  ],
+  "descripcion": "Tacos gama Elite de la línea Tiempo de Nike, pensados para un toque suave y preciso: el empeine FlyTouch+ moldeado da una sensación cercana al balón y control total bajo presión.",
+  "detalles": [
+   "Gama Elite, la más alta de la línea Tiempo",
+   "Empeine de ingeniería FlyTouch+ con pods de espuma moldeados",
+   "Toque y comodidad tipo cuero, más ligero que el cuero natural",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "7"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18268",
+  "marca": "Puma",
+  "nombre": "Puma Future 8 Pro FG/AG",
+  "genero": "Hombre",
+  "precio": 75.95,
+  "precio_c": 2793,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025388_main.jpg?v=1795469320",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025388_gallery_1.jpg?v=1795469320",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025388_gallery_2.jpg?v=1795469320",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025388_gallery_3.jpg?v=1795469320"
+  ],
+  "descripcion": "Versión Pro de los Future 8 de Puma para mediocampistas creativos: empeine de punto elástico con PWRTAPE en el mediopié y acabado GripControl para mover el balón con libertad.",
+  "detalles": [
+   "Gama Pro de la línea Future",
+   "Empeine multicapa de punto elástico adaptable",
+   "Cinta PWRTAPE para sujeción en giros y regates",
+   "Suela de agilidad 360; uso FG/AG"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18269",
+  "marca": "Puma",
+  "nombre": "Puma Ultra 6 Ultimate Relentless FG",
+  "genero": "Hombre",
+  "precio": 115.95,
+  "precio_c": 4264,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035551_main.jpg?v=1795463358",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035551_gallery_1.jpg?v=1795463358",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035551_gallery_2.jpg?v=1795463358",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035551_gallery_3.jpg?v=1795463358"
+  ],
+  "descripcion": "Tacos de velocidad gama Ultimate de Puma: malla ligera con textura GripControl Pro para conducir a máxima velocidad y placa SPEEDSYSTEM que impulsa cada arranque.",
+  "detalles": [
+   "Gama Ultimate, la más alta de la línea Ultra",
+   "Malla ligera con GripControl Pro para control a alta velocidad",
+   "Estructura PWRTAPE SQD de soporte en el mediopié",
+   "Placa SPEEDSYSTEM de tracción y propulsión; uso FG"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18270",
+  "marca": "Puma",
+  "nombre": "Puma Ultra 5 Ultimate x Miami Racetrack FG",
+  "genero": "Hombre",
+  "precio": 119.95,
+  "precio_c": 4411,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025315_main.jpg?v=1795415284",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025315_gallery_1.jpg?v=1795415284",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025315_gallery_2.jpg?v=1795415284",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1025315_gallery_3.jpg?v=1795415284"
+  ],
+  "descripcion": "Edición especial de los Ultra 5 Ultimate inspirada en el Gran Premio de Miami: empeine aerodinámico ligero con soporte PWRTAPE SQD y GripControl Pro para dominar el balón a toda velocidad.",
+  "detalles": [
+   "Gama Ultimate, edición especial Racetrack Miami",
+   "Empeine ligero con estructura PWRTAPE SQD",
+   "Textura GripControl Pro para control en conducción rápida",
+   "Plantilla Ortholite en el talón; suela FG/AG"
+  ],
+  "tallas": [
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18271",
+  "marca": "Puma",
+  "nombre": "Puma King Ultimate FG/AG",
+  "genero": "Hombre",
+  "precio": 107.95,
+  "precio_c": 3970,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035437_main.jpg?v=1795343121",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035437_gallery_1.jpg?v=1795343121",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035437_gallery_2.jpg?v=1795343121",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035437_gallery_3.jpg?v=1795343121"
+  ],
+  "descripcion": "Los clásicos King en su gama Ultimate: el material K-BETTER ofrece la suavidad del cuero con un tacto más fino y cercano al balón, con un talón mejorado que sujeta el pie sin apretar.",
+  "detalles": [
+   "Gama Ultimate, la más alta de la línea King",
+   "Material K-BETTER: tacto tipo cuero, más fino y elástico",
+   "Talón rediseñado para mejor sujeción",
+   "Suela FG/AG para cancha natural firme y artificial"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "10"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18272",
+  "marca": "Nike",
+  "nombre": "Nike Air Zoom Mercurial Superfly X Pro FG",
+  "genero": "Hombre",
+  "precio": 105.45,
+  "precio_c": 3878,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045600_main.jpg?v=1795538998",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045600_gallery_1.jpg?v=1795538998",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045600_gallery_2.jpg?v=1795538998",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045600_gallery_3.jpg?v=1795538998"
+  ],
+  "descripcion": "Versión Pro de los Mercurial Superfly 10 con cuello alto: la unidad Zoom Air y la tracción en ola del antepié devuelven energía en cada zancada para jugar a máxima velocidad.",
+  "detalles": [
+   "Gama Pro de la línea Mercurial Superfly",
+   "Unidad Zoom Air con tracción en cascada en el antepié",
+   "Cuello alto de ajuste ceñido al tobillo",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18273",
+  "marca": "Nike",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVI Elite x Mbappe FG",
+  "genero": "Hombre",
+  "precio": 159.95,
+  "precio_c": 5882,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045744_main_75cb450b-7973-4380-962b-002cd1c02499.jpg?v=1795539298",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045744_gallery_1_c8ec60e0-0389-486d-8e11-21cc9b32090f.jpg?v=1795539298",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045744_gallery_2_ef6de215-a253-47f6-8251-40f5fb7fb45e.jpg?v=1795539298",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045744_gallery_3_c59a2abe-6570-43a8-8646-1bb676c50497.jpg?v=1795539298"
+  ],
+  "descripcion": "Edición firmada por Kylian Mbappé de los Mercurial Vapor 16 Elite: unidad Zoom Air en el antepié con tracción en forma de ola para un retorno de energía explosivo en cada sprint.",
+  "detalles": [
+   "Gama Elite, edición especial x Mbappé con detalles Air Max",
+   "Unidad Zoom Air para respuesta y velocidad sostenida",
+   "Tacos en ola con chevrones y cuchillas para cambios de dirección",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "5",
+   "5.5",
+   "6",
+   "7",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18274",
+  "marca": "Nike",
+  "nombre": "Nike Phantom 6 Elite High FG",
+  "genero": "Hombre",
+  "precio": 172.45,
+  "precio_c": 6342,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1039245_main.jpg?v=1795539244",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1039245_gallery_1.jpg?v=1795539244",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1039245_gallery_2.jpg?v=1795539244",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1039245_gallery_3.jpg?v=1795539244"
+  ],
+  "descripcion": "Tacos gama Elite de caña alta para jugadores de ataque: el empeine Gripknit con microtextura afina la precisión en el regate y el disparo, con cuello que envuelve el tobillo.",
+  "detalles": [
+   "Gama Elite, la más alta de la línea Phantom",
+   "Empeine Gripknit microtexturizado para precisión de tiro",
+   "Diseño de caña alta con ajuste envolvente",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "4",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18275",
+  "marca": "adidas",
+  "nombre": "adidas F50 Elite x Messi FG",
+  "genero": "Hombre",
+  "precio": 154.95,
+  "precio_c": 5698,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047316_main.jpg?v=1795218520",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047316_gallery_1.jpg?v=1795218520",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047316_gallery_2.jpg?v=1795218520",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047316_gallery_3.jpg?v=1795218520"
+  ],
+  "descripcion": "Edición de Messi de los F50 Elite de adidas, creada para la aceleración pura: placa Sprintframe 360 con tacos redondeados en el mediopié para recortes rápidos y decisivos.",
+  "detalles": [
+   "Gama Elite, edición especial x Messi con lengüeta tipo «burrito»",
+   "Construcción ligera pensada para arranques explosivos",
+   "Placa Sprintframe 360 para velocidad en línea recta y en diagonal",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "7.5",
+   "9",
+   "9.5",
+   "10",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18276",
+  "marca": "Nike",
+  "nombre": "Nike Phantom 6 High Pro FG",
+  "genero": "Hombre",
+  "precio": 114.95,
+  "precio_c": 4227,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045640_main.jpg?v=1795540244",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045640_gallery_1.jpg?v=1795540244",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045640_gallery_2.jpg?v=1795540244",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045640_gallery_3.jpg?v=1795540244"
+  ],
+  "descripcion": "Versión Pro de caña alta de los Phantom 6 de Nike: empeine Gripskin que eleva la precisión en conducción y remate, pensado para definir partidos en el último tercio.",
+  "detalles": [
+   "Gama Pro de la línea Phantom",
+   "Empeine Gripskin para control y precisión de tiro",
+   "Diseño de caña alta con ajuste envolvente",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18277",
+  "marca": "Puma",
+  "nombre": "Puma Ultra Racetrack Brazil Match FG",
+  "genero": "Hombre",
+  "precio": 55.95,
+  "precio_c": 2058,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035498_main.jpg?v=1795463182",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035498_gallery_1.jpg?v=1795463182",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035498_gallery_2.jpg?v=1795463182",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1035498_gallery_3.jpg?v=1795463182"
+  ],
+  "descripcion": "Edición especial de los Ultra 6 Match inspirada en el Gran Premio de São Paulo: malla ligera con textura GripControl para conducir rápido y con control, con los colores de Brasil.",
+  "detalles": [
+   "Gama Match (media) de la línea Ultra, edición Racetrack Brazil",
+   "Malla ligera con GripControl para regate a velocidad",
+   "Estructura de soporte rediseñada para estabilidad en sprint",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18278",
+  "marca": "Nike",
+  "nombre": "Nike Air Zoom Mercurial Superfly X Academy FG/MG",
+  "genero": "Hombre",
+  "precio": 69.45,
+  "precio_c": 2554,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045601_main.jpg?v=1795539116",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045601_gallery_1.jpg?v=1795539116",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045601_gallery_2.jpg?v=1795539116",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1045601_gallery_3.jpg?v=1795539116"
+  ],
+  "descripcion": "Versión Academy de los Mercurial Superfly 10 con cuello alto y unidad Zoom Air: tracción en ola y tacos combinados para cambios de dirección rápidos en cancha firme o mixta.",
+  "detalles": [
+   "Gama Academy (media) de la línea Mercurial Superfly",
+   "Unidad Zoom Air para respuesta al sprintar",
+   "Cuello alto de ajuste ceñido",
+   "Suela FG/MG para cancha natural firme y superficies mixtas"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18279",
+  "marca": "adidas",
+  "nombre": "adidas F50 League x Messi FG",
+  "genero": "Hombre",
+  "precio": 67.45,
+  "precio_c": 2480,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047318_main.jpg?v=1795538897",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047318_gallery_1.jpg?v=1795538897",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047318_gallery_2.jpg?v=1795538897",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1047318_gallery_3.jpg?v=1795538897"
+  ],
+  "descripcion": "Versión League de los F50 de Messi: construcción ligera con placa Sprintplate 360 para acelerar y recortar con decisión, con el estilo firmado por Leo.",
+  "detalles": [
+   "Gama League (media) de la línea F50, edición x Messi",
+   "Diseño ligero para arranques rápidos",
+   "Placa Sprintplate 360 con tacos redondeados en el mediopié",
+   "Suela FG para canchas naturales firmes"
+  ],
+  "tallas": [
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18280",
+  "marca": "Puma",
+  "nombre": "Puma Ultra 6 Match FG/AG",
+  "genero": "Hombre",
+  "precio": 64.95,
+  "precio_c": 2388,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1048494_main.jpg?v=1795465346",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1048494_gallery_1.jpg?v=1795465346",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1048494_gallery_2.jpg?v=1795465346",
+   "https://cdn.shopify.com/s/files/1/0643/3216/9303/files/1048494_gallery_3.jpg?v=1795465346"
+  ],
+  "descripcion": "Versión Match de los Ultra 6 de Puma para jugar a toda velocidad: malla ligera con GripControl y placa SPEEDSYSTEM para tracción y propulsión en cada duelo de sprint.",
+  "detalles": [
+   "Gama Match (media) de la línea Ultra",
+   "Malla ligera con textura GripControl",
+   "Placa SPEEDSYSTEM de tracción y propulsión",
+   "Suela FG/AG para cancha natural firme y artificial"
+  ],
+  "tallas": [
+   "7",
+   "8",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18281",
+  "marca": "New Balance",
+  "nombre": "New Balance Visaro Pro FG",
+  "genero": "Hombre",
+  "precio": 151.99,
+  "precio_c": 5589,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0265/3719/7591/products/1_a36943b1-80ea-4759-8fa3-4a2bc446d575.png?v=1587585658"
+  ],
+  "descripcion": "Tacos de gama Pro para terreno firme, pensados para jugadores que crean jugadas y controlan el partido, con un ajuste cómodo y gran sensibilidad al tocar el balón.",
+  "detalles": [
+   "Gama Pro para terreno firme (FG)",
+   "Empeine sintético ligero con tacto suave al balón",
+   "Diseñado para creadores de juego y control del partido",
+   "Ajuste cómodo durante todo el encuentro"
+  ],
+  "tallas": [
+   "8",
+   "9",
+   "12"
+  ],
+  "categoria": "Tacos para fútbol"
+ },
+ {
+  "codigo": "DOM-18282",
+  "marca": "Umbro",
+  "nombre": "Umbro GT Pro II FG",
+  "genero": "Hombre",
+  "precio": 116.49,
+  "precio_c": 4284,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0265/3719/7591/products/1_f1b30c70-6456-40ca-83fa-3d5c-9dbe-4a25e5c379d1.png?v=1605850256",
+   "https://cdn.shopify.com/s/files/1/0265/3719/7591/products/2_6720adb3-08a3-4d5c-9dbe-4a25e5c379d1.png?v=1605850256"
+  ],
+  "descripcion": "Tacos de gama Pro para terreno firme con empeine de microfibra japonesa ligero, diseñados para arranques rápidos y cambios de dirección con total confianza.",
+  "detalles": [
+   "Gama Pro para terreno firme (FG)",
+   "Empeine de microfibra japonesa ligero y resistente",
+   "Horma anatómica de velocidad para un ajuste preciso",
+   "Suela FG ligera para tracción y aceleración"
+  ],
+  "tallas": [
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "11"
+  ],
+  "categoria": "Tacos para fútbol"
  }
 ];
