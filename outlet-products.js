@@ -472,7 +472,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-2093",
@@ -499,7 +499,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-342",
@@ -1170,7 +1170,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-533",
@@ -1203,7 +1203,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-535",
@@ -1231,7 +1231,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-536",
@@ -1264,7 +1264,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-537",
@@ -1297,7 +1297,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-538",
@@ -1330,7 +1330,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-540",
@@ -1360,7 +1360,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-541",
@@ -1393,7 +1393,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-542",
@@ -1423,7 +1423,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-543",
@@ -1451,7 +1451,7 @@ var ZAPATOS = [
    "5"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-544",
@@ -1482,7 +1482,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-545",
@@ -1515,7 +1515,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-549",
@@ -1544,7 +1544,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-550",
@@ -1573,7 +1573,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-551",
@@ -1601,7 +1601,7 @@ var ZAPATOS = [
    "EU 38 (US 7-7.5)"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-11988",
@@ -1627,7 +1627,7 @@ var ZAPATOS = [
    "4C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-12091",
@@ -1656,7 +1656,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-12366",
@@ -1911,7 +1911,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-16316",
@@ -42742,40 +42742,6 @@ var ZAPATOS = [
   "categoria": "Formales"
  },
  {
-  "codigo": "DOM-17673",
-  "marca": "adidas",
-  "nombre": "adidas F50 Messi Crib (Infant) — Ivory/Semi Blue Burst/Icey Blue",
-  "genero": "Niños",
-  "precio": 30.8,
-  "precio_c": 1133,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71lYRZS2qZL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71OAKFm-5oL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71UDjwOyy4L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/713FPG2kV1L._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "1C",
-   "2C",
-   "3C",
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
   "codigo": "DOM-17674",
   "marca": "Merrell",
   "nombre": "Merrell Trail Chaser (Toddler) — Gunsmoke",
@@ -42804,7 +42770,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17675",
@@ -42839,69 +42805,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17676",
-  "marca": "Nike",
-  "nombre": "Nike Jr. Mercurial Vapor 16 Club (Little Kid/Big Kid) — Magic Flamingo/Black/Total Crimson",
-  "genero": "Niños",
-  "precio": 35.0,
-  "precio_c": 1287,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/61d0FElSSXL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61IfjKxm6EL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/714CtiXfbFL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61vPJtNk0sL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17677",
-  "marca": "PUMA",
-  "nombre": "PUMA Future Z 3.4 Firm Ground/Artificial Ground (Little Kid/Big Kid) — Parisian Night/Fizzy Light/Pistachio",
-  "genero": "Niños",
-  "precio": 29.5,
-  "precio_c": 1085,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71KmakTGaJL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/6147Ao7ZBjL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71o3ddumu1L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71SJHdPXKWL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17678",
@@ -42939,45 +42843,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17679",
-  "marca": "adidas",
-  "nombre": "adidas Goletto Ix Firm Ground/Multi Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Lucid Lemon/Black/Lucid Lemon",
-  "genero": "Niños",
-  "precio": 31.0,
-  "precio_c": 1140,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71bscvZ87JL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81ULAhb1oDL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71JPMBlV3iL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/713dY7wePJL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17680",
@@ -43012,69 +42878,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17681",
-  "marca": "Nike",
-  "nombre": "Nike Jr. Tiempo Legend 10 Club Multi-Ground Low-Top Soccer Cleats (Little Kid/Big Kid) — Black/Black/Deep Jungle",
-  "genero": "Niños",
-  "precio": 44.0,
-  "precio_c": 1618,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71xNI9KO74L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71i3V0U-clL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81Yp2aVzc-L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71YvAJd7ghL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17682",
-  "marca": "PUMA",
-  "nombre": "PUMA Attacanto Indoor Training Soccer Shoes (Little Kid/Big Kid) — Black/White",
-  "genero": "Niños",
-  "precio": 31.0,
-  "precio_c": 1140,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/719Db7POdKL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71UsPWRt5PL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71UnfXQzFpL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71-HpICS9+L._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17683",
@@ -43112,7 +42916,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17684",
@@ -43146,7 +42950,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17685",
@@ -43181,76 +42985,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17686",
-  "marca": "Nike",
-  "nombre": "Nike Jr. Tiempo Maestro Flex Firm Ground/Multi-Ground (Toddler/Little Kid) — Black/Black/Volt",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/716BO6DvekL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/713rbXimYnL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81eaMqjmWcL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/816igl6FLjL._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17687",
-  "marca": "PUMA",
-  "nombre": "PUMA Ultra 6 Match Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid) — Heat Fire/Puma Black/Glowing Red",
-  "genero": "Niños",
-  "precio": 39.25,
-  "precio_c": 1443,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71ar-iw4AmL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71KfYaQKBUL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/91Ok+xU7xdL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81mLTm+s15L._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17688",
@@ -43284,7 +43019,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17689",
@@ -43322,7 +43057,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17690",
@@ -43353,7 +43088,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17691",
@@ -43387,45 +43122,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17692",
-  "marca": "PUMA",
-  "nombre": "PUMA Ultra Play Firm Ground/Artificial Ground (Toddler/Little Kid/Big Kid) — Puma Black/Asphalt",
-  "genero": "Niños",
-  "precio": 40.0,
-  "precio_c": 1471,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71wnFguau9L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71nerMYkktL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71Q5Fd2wqpL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81BL49Dq4HL._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17693",
@@ -43456,7 +43153,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17694",
@@ -43491,7 +43188,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17695",
@@ -43526,7 +43223,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17696",
@@ -43558,7 +43255,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17697",
@@ -43596,7 +43293,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17698",
@@ -43627,39 +43324,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17699",
-  "marca": "PUMA",
-  "nombre": "PUMA Ultra 6 Match+ Laceless Firm/Artificial Ground Soccer Cleats (Little Kid/Big Kid) — Yellow Alert/Black/Glowing Red/Lime Squeeze",
-  "genero": "Niños",
-  "precio": 40.0,
-  "precio_c": 1471,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71w2yS9sIAL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71MaJQvyU3L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71OvuUhZcdL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71T-Lmze8AL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Cierre con cordones para un ajuste seguro",
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17700",
@@ -43693,217 +43358,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17701",
-  "marca": "adidas",
-  "nombre": "adidas Predator Club Kaka Fold Over Tongue Firm/Multi Ground Elastic Laces Soccer Cleats — Black/Silver Metallic/Pulse Mint",
-  "genero": "Niños",
-  "precio": 44.91,
-  "precio_c": 1652,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81QteYV7H0L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71BzH3cJ9UL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81KjQbdQunL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/712vuP62bLL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Fácil de poner y quitar, sin cordones complicados",
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17702",
-  "marca": "PUMA",
-  "nombre": "PUMA Attacanto Turf Training Soccer Cleats (Little Kid/Big Kid) — Black/Ultra Blue",
-  "genero": "Niños",
-  "precio": 41.98,
-  "precio_c": 1544,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71M4OZjOKBL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81qLv-yK8EL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81YM29FP8OL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71w+5SCqrFL._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17703",
-  "marca": "adidas",
-  "nombre": "adidas Goletto IX Laceless Firm/Multi Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — White/Black/Lucid Lemon",
-  "genero": "Niños",
-  "precio": 44.99,
-  "precio_c": 1654,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/616znXCCpjL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/615sfTnN-dL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61rR9ACc-kL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61gyJeDsY8L._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Cierre con cordones para un ajuste seguro",
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17704",
-  "marca": "PUMA",
-  "nombre": "PUMA Future Play Firm Ground/Artificial Ground (Little Kid/Big Kid) — Puma Black/Puma White",
-  "genero": "Niños",
-  "precio": 43.0,
-  "precio_c": 1581,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/713LCrvKk3L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61b-OnEzNSL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71dkTkHOosL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71gDMr0GW5L._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17705",
-  "marca": "adidas",
-  "nombre": "adidas Goletto Ix Laceless Firm Ground/Multi Ground Football (Toddler/Little Kid/Big Kid) — Solar Turbo/Core Black/Core Black",
-  "genero": "Niños",
-  "precio": 44.99,
-  "precio_c": 1654,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71ntKMt+XwL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/715r3GMpxlL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81KkLaQRfGL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/712vFGyvX5L._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Cierre con cordones para un ajuste seguro",
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17706",
-  "marca": "PUMA",
-  "nombre": "PUMA Attacanto II Indoor Training Soccer Shoes (Little Kid/Big Kid) — Puma White/Ultra Red",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71G9FZbCuaL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71BQJF+ydoL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71gOX0ztJyL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71Kmu1U1HwL._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17707",
@@ -43941,221 +43396,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17708",
-  "marca": "PUMA",
-  "nombre": "PUMA Attacanto II Turf Training Soccer Cleats (Little Kid/Big Kid) — Puma White/Ultra Red",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71OHWtdYo7L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71+fRS5JSAL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71VwMPe-PLL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71H-u0wNQtL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17709",
-  "marca": "adidas",
-  "nombre": "adidas Goletto Ix Firm Ground/Multi Ground (Toddler/Little Kid/Big Kid) — Solar Turbo/Core Black/Core Black",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71EAe+yOjNL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71raHzt1V3L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81JvVAbfaML._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71Blek-H8hL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17710",
-  "marca": "PUMA",
-  "nombre": "PUMA Attacanto Firm, Artificial Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Ultra Blue/Lime Squeeze",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71xUxuY0kYL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71FYDNLUJHL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81Ymj35O8GL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71o5SglZ5zL._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17711",
-  "marca": "adidas",
-  "nombre": "adidas Soccer Goletto VIII Firm Ground Cleats (Toddler/Little Kid/Big Kid) — Black/Team Shock Pink 2/Black",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71hpKx+nbbL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61RgXxTj20L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71-KEtthb0L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/615UvKmILML._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17712",
-  "marca": "PUMA",
-  "nombre": "PUMA Tacto II Christian Pulisic Firm, Artificial Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Puma Red/Puma Black",
-  "genero": "Niños",
-  "precio": 46.0,
-  "precio_c": 1692,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81QI7aOwl0L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71M+90CWhLL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81gUDcHo+IL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71rGMHCUXeL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17713",
-  "marca": "adidas",
-  "nombre": "adidas Copa Pure IV Club Soccer Turf Cleats (Little Kid/Big Kid) — Black/White/Lucid Red",
-  "genero": "Niños",
-  "precio": 50.0,
-  "precio_c": 1839,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71BXyboVweL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81sr+w2DwmL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81fdECffTpL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71vHF5xut1L._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17714",
@@ -44186,7 +43427,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17715",
@@ -44224,7 +43465,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17716",
@@ -44262,38 +43503,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17717",
-  "marca": "Diadora",
-  "nombre": "Diadora Pichichi 9 JR TF (Little Kid/Big Kid) — Yellow Sun/White/Royal Blue",
-  "genero": "Niños",
-  "precio": 70.0,
-  "precio_c": 2574,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71vxAYgkG1L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71Zt-vubslL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81TCTUfZCPL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/716dZjLgCjL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17718",
@@ -44324,7 +43534,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17719",
@@ -44355,7 +43565,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17720",
@@ -44393,7 +43603,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17721",
@@ -44424,7 +43634,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17722",
@@ -44462,7 +43672,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17723",
@@ -44493,7 +43703,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17724",
@@ -44525,7 +43735,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17725",
@@ -44554,7 +43764,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17726",
@@ -44592,7 +43802,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17727",
@@ -44623,76 +43833,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17728",
-  "marca": "PUMA",
-  "nombre": "PUMA Ultra Pulisic Artificial, Firm Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Deep Aqua/Marine Blue/Speed Green",
-  "genero": "Niños",
-  "precio": 50.0,
-  "precio_c": 1839,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81SMiMZAzoL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81GFWu6uYAL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81b5YE8Li0L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71DuQhf+YoL._SX700_.jpg"
-  ],
-  "descripcion": "Modelo deportivo con amortiguación suave y suela con agarre, pensado para el juego activo de todos los días.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17729",
-  "marca": "Reebok",
-  "nombre": "Reebok Strike MG Soccer Cleat (Little Kid/Big Kid) — Black/Grey",
-  "genero": "Niños",
-  "precio": 50.0,
-  "precio_c": 1839,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71XobtFl41L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71TU-nAB1mL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81iVIF4OkkL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71DdBkslS0L._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla deportiva ligera y cómoda para correr, jugar y entrenar, con buen soporte para los pies en crecimiento.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17730",
@@ -44723,7 +43864,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17731",
@@ -44754,7 +43895,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17732",
@@ -44792,38 +43933,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17733",
-  "marca": "adidas",
-  "nombre": "adidas Copa Pure IV Club Firm Ground/Multi Ground Soccer Cleats (Little Kid/Big Kid) — Black/White/Lucid Red",
-  "genero": "Niños",
-  "precio": 50.0,
-  "precio_c": 1839,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71xW4H623VL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71CnxDmBnCL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81thuJx0KnL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71ZNGQc8jFL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17734",
@@ -44861,7 +43971,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17735",
@@ -44892,7 +44002,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17736",
@@ -44923,7 +44033,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17737",
@@ -44962,7 +44072,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17738",
@@ -44993,7 +44103,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17739",
@@ -45028,7 +44138,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17740",
@@ -45062,7 +44172,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17741",
@@ -45100,7 +44210,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17742",
@@ -45131,46 +44241,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17743",
-  "marca": "PUMA",
-  "nombre": "PUMA Ultra 6 Play Hook and Loop Turf Training Soccer Cleats (Toddler/Little Kid/Big Kid) — Ultra Blue/Puma White/Glowing Red",
-  "genero": "Niños",
-  "precio": 50.5,
-  "precio_c": 1857,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81b2WsiweAL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/812F8en9ykL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/812lFeAFg+L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/818VkoWXtvL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Cierre de velcro para un ajuste rápido y seguro",
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C",
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17744",
@@ -45201,38 +44272,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17745",
-  "marca": "Under Armour",
-  "nombre": "Under Armour Magnetico Select 5 Jr Soccer Cleats (Little Kid/Big Kid) — Blue Blur/Boundless Blue/White",
-  "genero": "Niños",
-  "precio": 52.0,
-  "precio_c": 1912,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71fhEGg3pdL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71DENOvEBKL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81qmW2wtfHL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71IN1iK-mlL._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17746",
@@ -45263,7 +44303,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17747",
@@ -45295,7 +44335,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17748",
@@ -45329,7 +44369,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17749",
@@ -45367,38 +44407,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17750",
-  "marca": "PUMA",
-  "nombre": "PUMA Future Play Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid) — Poison Pink/Sun Stream/Bright Aqua/White",
-  "genero": "Niños",
-  "precio": 52.0,
-  "precio_c": 1912,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/71CVq+y24vL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71bkjn8QPGL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81RKgbP5XuL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/715V7l2MMML._SX700_.jpg"
-  ],
-  "descripcion": "Zapatilla de deporte transpirable y flexible, ideal para correr y jugar sin parar.",
-  "detalles": [
-   "Suela de goma con buena tracción",
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17751",
@@ -45429,7 +44438,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17752",
@@ -45460,7 +44469,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17753",
@@ -45488,7 +44497,7 @@ var ZAPATOS = [
    "1"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17754",
@@ -45517,7 +44526,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17755",
@@ -45548,7 +44557,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17756",
@@ -45576,7 +44585,7 @@ var ZAPATOS = [
    "1"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17757",
@@ -45607,7 +44616,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17758",
@@ -45638,7 +44647,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17759",
@@ -45669,7 +44678,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17760",
@@ -45700,7 +44709,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17761",
@@ -45731,7 +44740,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17762",
@@ -45762,7 +44771,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17763",
@@ -45793,7 +44802,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17764",
@@ -45824,7 +44833,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Deportivos",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17765",
@@ -45862,7 +44871,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17766",
@@ -45903,7 +44912,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17767",
@@ -45934,7 +44943,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17768",
@@ -45966,7 +44975,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17769",
@@ -45997,7 +45006,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17770",
@@ -46031,7 +45040,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17771",
@@ -46069,7 +45078,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17772",
@@ -46101,7 +45110,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17773",
@@ -46133,7 +45142,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17774",
@@ -46171,7 +45180,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17775",
@@ -46210,7 +45219,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17776",
@@ -46241,7 +45250,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17777",
@@ -46272,7 +45281,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17778",
@@ -46303,7 +45312,7 @@ var ZAPATOS = [
    "8"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17779",
@@ -46334,7 +45343,7 @@ var ZAPATOS = [
    "8"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17780",
@@ -46372,7 +45381,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17781",
@@ -46404,7 +45413,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17782",
@@ -46443,7 +45452,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17783",
@@ -46475,7 +45484,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17784",
@@ -46502,7 +45511,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17785",
@@ -46540,7 +45549,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17786",
@@ -46578,7 +45587,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17787",
@@ -46616,7 +45625,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17788",
@@ -46654,7 +45663,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17789",
@@ -46686,7 +45695,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17790",
@@ -46724,7 +45733,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17791",
@@ -46755,7 +45764,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17792",
@@ -46784,7 +45793,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17793",
@@ -46815,7 +45824,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17794",
@@ -46853,7 +45862,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17795",
@@ -46883,7 +45892,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17796",
@@ -46914,7 +45923,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17797",
@@ -46952,7 +45961,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17798",
@@ -46990,7 +45999,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17799",
@@ -47029,7 +46038,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17800",
@@ -47060,7 +46069,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17801",
@@ -47098,7 +46107,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17802",
@@ -47130,7 +46139,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17803",
@@ -47160,7 +46169,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17804",
@@ -47199,7 +46208,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17805",
@@ -47230,7 +46239,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17806",
@@ -47257,7 +46266,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17807",
@@ -47295,7 +46304,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17808",
@@ -47334,7 +46343,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17809",
@@ -47372,7 +46381,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17810",
@@ -47403,7 +46412,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17811",
@@ -47441,7 +46450,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17812",
@@ -47472,7 +46481,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17813",
@@ -47503,7 +46512,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17814",
@@ -47533,7 +46542,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17815",
@@ -47564,7 +46573,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17816",
@@ -47602,7 +46611,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17817",
@@ -47640,7 +46649,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17818",
@@ -47679,7 +46688,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17819",
@@ -47717,7 +46726,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17820",
@@ -47755,7 +46764,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17821",
@@ -47787,7 +46796,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17822",
@@ -47814,7 +46823,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17823",
@@ -47853,7 +46862,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17824",
@@ -47884,7 +46893,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17825",
@@ -47922,7 +46931,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17826",
@@ -47957,7 +46966,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17827",
@@ -47988,7 +46997,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17828",
@@ -48026,7 +47035,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17829",
@@ -48057,7 +47066,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17830",
@@ -48095,7 +47104,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17831",
@@ -48134,7 +47143,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17832",
@@ -48166,7 +47175,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17833",
@@ -48205,7 +47214,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17834",
@@ -48243,7 +47252,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17835",
@@ -48273,7 +47282,7 @@ var ZAPATOS = [
    "5"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17836",
@@ -48305,7 +47314,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17837",
@@ -48337,7 +47346,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17838",
@@ -48364,7 +47373,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17839",
@@ -48403,7 +47412,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17840",
@@ -48442,7 +47451,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17841",
@@ -48480,7 +47489,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17842",
@@ -48519,7 +47528,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17843",
@@ -48549,7 +47558,7 @@ var ZAPATOS = [
    "5"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17844",
@@ -48587,7 +47596,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17845",
@@ -48625,7 +47634,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17846",
@@ -48664,7 +47673,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17847",
@@ -48696,7 +47705,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17848",
@@ -48727,7 +47736,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17849",
@@ -48758,7 +47767,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17850",
@@ -48785,7 +47794,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17851",
@@ -48824,7 +47833,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17852",
@@ -48862,7 +47871,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17853",
@@ -48892,7 +47901,7 @@ var ZAPATOS = [
    "5"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17854",
@@ -48930,7 +47939,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17855",
@@ -48969,7 +47978,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17856",
@@ -49001,7 +48010,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17857",
@@ -49032,7 +48041,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17858",
@@ -49063,7 +48072,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17859",
@@ -49090,7 +48099,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17860",
@@ -49120,7 +48129,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17861",
@@ -49150,7 +48159,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17862",
@@ -49187,7 +48196,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17863",
@@ -49227,7 +48236,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17864",
@@ -49260,7 +48269,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17865",
@@ -49287,7 +48296,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17866",
@@ -49317,7 +48326,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17867",
@@ -49351,7 +48360,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17868",
@@ -49379,7 +48388,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17869",
@@ -49411,7 +48420,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17870",
@@ -49441,7 +48450,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17871",
@@ -49471,7 +48480,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17872",
@@ -49501,7 +48510,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17873",
@@ -49528,7 +48537,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17874",
@@ -49561,7 +48570,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17875",
@@ -49600,7 +48609,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17876",
@@ -49629,7 +48638,7 @@ var ZAPATOS = [
    "6"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17877",
@@ -49659,7 +48668,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17878",
@@ -49696,7 +48705,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17879",
@@ -49730,7 +48739,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17880",
@@ -49767,7 +48776,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17881",
@@ -49804,7 +48813,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17882",
@@ -49834,7 +48843,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17883",
@@ -49865,7 +48874,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17884",
@@ -49895,7 +48904,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17885",
@@ -49935,7 +48944,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17886",
@@ -49969,7 +48978,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17887",
@@ -50006,7 +49015,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17888",
@@ -50036,7 +49045,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17889",
@@ -50073,7 +49082,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17890",
@@ -50104,7 +49113,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17891",
@@ -50134,7 +49143,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17892",
@@ -50162,7 +49171,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17893",
@@ -50192,7 +49201,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17894",
@@ -50220,7 +49229,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17895",
@@ -50250,7 +49259,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17896",
@@ -50277,7 +49286,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17897",
@@ -50314,37 +49323,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17898",
-  "marca": "Diadora",
-  "nombre": "Diadora Pichichi 9 JR MD (Little Kid/Big Kid) — Black/White/Silver DD",
-  "genero": "Niños",
-  "precio": 70.0,
-  "precio_c": 2574,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81UZVhlYdyL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81u65e2t4bL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/811VqnqZpiL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71bb+tTxp4L._SX700_.jpg"
-  ],
-  "descripcion": "Tenis casual de todos los días: cómodo, fácil de combinar y con estilo propio.",
-  "detalles": [
-   "Plantilla acolchada para comodidad todo el día",
-   "Diseño versátil para uso diario"
-  ],
-  "tallas": [
-   "10.5C",
-   "11C",
-   "12C",
-   "13C",
-   "1Y",
-   "2Y",
-   "3Y"
-  ],
-  "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17899",
@@ -50374,7 +49353,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17900",
@@ -50411,7 +49390,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17901",
@@ -50441,7 +49420,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17902",
@@ -50479,7 +49458,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17903",
@@ -50519,7 +49498,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17904",
@@ -50550,7 +49529,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17905",
@@ -50580,7 +49559,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17906",
@@ -50617,7 +49596,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17907",
@@ -50643,7 +49622,7 @@ var ZAPATOS = [
    "4"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17908",
@@ -50680,7 +49659,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17909",
@@ -50710,7 +49689,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17910",
@@ -50748,7 +49727,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17911",
@@ -50785,7 +49764,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17912",
@@ -50815,7 +49794,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17913",
@@ -50853,7 +49832,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17914",
@@ -50883,7 +49862,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17915",
@@ -50920,7 +49899,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17916",
@@ -50947,7 +49926,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17917",
@@ -50977,7 +49956,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17918",
@@ -51014,7 +49993,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17919",
@@ -51044,7 +50023,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17920",
@@ -51081,7 +50060,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17921",
@@ -51108,7 +50087,7 @@ var ZAPATOS = [
    "2"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17922",
@@ -51138,7 +50117,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17923",
@@ -51168,7 +50147,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17924",
@@ -51198,7 +50177,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17925",
@@ -51235,7 +50214,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17926",
@@ -51265,7 +50244,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17927",
@@ -51296,7 +50275,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17928",
@@ -51326,7 +50305,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17929",
@@ -51356,7 +50335,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17930",
@@ -51389,7 +50368,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17931",
@@ -51426,7 +50405,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17932",
@@ -51463,7 +50442,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17933",
@@ -51496,7 +50475,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17934",
@@ -51527,7 +50506,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17935",
@@ -51560,7 +50539,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17936",
@@ -51593,7 +50572,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17937",
@@ -51626,7 +50605,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17938",
@@ -51659,7 +50638,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17939",
@@ -51691,7 +50670,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17940",
@@ -51724,7 +50703,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17941",
@@ -51757,7 +50736,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17942",
@@ -51795,7 +50774,7 @@ var ZAPATOS = [
    "14"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17943",
@@ -51831,7 +50810,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17944",
@@ -51867,7 +50846,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17945",
@@ -51900,7 +50879,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17946",
@@ -51933,7 +50912,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17947",
@@ -51966,7 +50945,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17948",
@@ -51994,7 +50973,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17949",
@@ -52022,7 +51001,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17950",
@@ -52048,7 +51027,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17951",
@@ -52074,7 +51053,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17952",
@@ -52107,7 +51086,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17953",
@@ -52140,7 +51119,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17954",
@@ -52173,7 +51152,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17955",
@@ -52206,7 +51185,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17956",
@@ -52239,7 +51218,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17957",
@@ -52272,7 +51251,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17958",
@@ -52305,7 +51284,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17959",
@@ -52338,7 +51317,7 @@ var ZAPATOS = [
    "12"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17960",
@@ -52370,7 +51349,7 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17961",
@@ -52402,7 +51381,7 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17962",
@@ -52435,7 +51414,7 @@ var ZAPATOS = [
    "12"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17963",
@@ -52467,7 +51446,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17964",
@@ -52499,7 +51478,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17965",
@@ -52531,7 +51510,7 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17966",
@@ -52563,7 +51542,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17967",
@@ -52595,7 +51574,7 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17968",
@@ -52627,7 +51606,7 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17969",
@@ -52658,7 +51637,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17970",
@@ -52689,7 +51668,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17971",
@@ -52722,7 +51701,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17972",
@@ -52755,7 +51734,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17973",
@@ -52788,7 +51767,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17974",
@@ -52821,7 +51800,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17975",
@@ -52854,7 +51833,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17976",
@@ -52887,7 +51866,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17977",
@@ -52920,7 +51899,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17978",
@@ -52952,7 +51931,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17979",
@@ -52983,7 +51962,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17980",
@@ -53014,7 +51993,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17981",
@@ -53045,7 +52024,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17982",
@@ -53074,7 +52053,7 @@ var ZAPATOS = [
    "5"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17983",
@@ -53107,7 +52086,7 @@ var ZAPATOS = [
    "12"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17984",
@@ -53138,7 +52117,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17985",
@@ -53171,7 +52150,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17986",
@@ -53204,7 +52183,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17987",
@@ -53237,7 +52216,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17988",
@@ -53270,7 +52249,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17989",
@@ -53303,7 +52282,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17990",
@@ -53336,7 +52315,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17991",
@@ -53369,7 +52348,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17992",
@@ -53402,7 +52381,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17993",
@@ -53435,7 +52414,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17994",
@@ -53468,7 +52447,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-17995",
@@ -53501,7 +52480,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17996",
@@ -53534,7 +52513,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17997",
@@ -53567,7 +52546,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-17998",
@@ -53600,40 +52579,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-17999",
-  "marca": "adidas",
-  "nombre": "adidas Copa Pure IV Club Firm Ground/Multi Ground (Little Kid/Big Kid) — Zero Metallic/Dark Blue/Lucid Ray Blue",
-  "genero": "Niños",
-  "precio": 46.0,
-  "precio_c": 1692,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/619Kei+j5eL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61RThAxlHxL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61QwhMyto0L._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/61SoyIjDZ1L._SX700_.jpg"
-  ],
-  "descripcion": "La adidas Copa Pure IV Club Firm Ground/Multi Ground (Little Kid/Big Kid) en zero metallic/dark blue/lucid ray blue es el par de fiesta perfecto para el niño: brillo y detalle elegante para lucir en celebraciones y ocasiones especiales.",
-  "detalles": [
-   "Diseño de fiesta con acabado brillante",
-   "Cierre cómodo y seguro para los más pequeños",
-   "Suela flexible para caminar y bailar todo el día",
-   "Combina con vestidos y conjuntos de ocasión"
-  ],
-  "tallas": [
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7"
-  ],
-  "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18000",
@@ -53666,40 +52612,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
- },
- {
-  "codigo": "DOM-18001",
-  "marca": "adidas",
-  "nombre": "adidas Predator Club Fold-Over Tongue Turf Football Shoes (Little Kid/Big Kid) — Black/Silver Metallic/Pulse Mint",
-  "genero": "Niños",
-  "precio": 45.0,
-  "precio_c": 1655,
-  "fotos": [
-   "https://m.media-amazon.com/images/I/81g9VB8Y7cL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71DfVH+FEOL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/71II9FOuAdL._SX700_.jpg",
-   "https://m.media-amazon.com/images/I/81H9t-0OzwL._SX700_.jpg"
-  ],
-  "descripcion": "La adidas Predator Club Fold-Over Tongue Turf Football Shoes (Little Kid/Big Kid) en black/silver metallic/pulse mint es el par de fiesta perfecto para el niño: brillo y detalle elegante para lucir en celebraciones y ocasiones especiales.",
-  "detalles": [
-   "Diseño de fiesta con acabado brillante",
-   "Cierre cómodo y seguro para los más pequeños",
-   "Suela flexible para caminar y bailar todo el día",
-   "Combina con vestidos y conjuntos de ocasión"
-  ],
-  "tallas": [
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7"
-  ],
-  "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18002",
@@ -53735,7 +52648,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18003",
@@ -53771,7 +52684,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18004",
@@ -53807,7 +52720,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18005",
@@ -53837,7 +52750,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18006",
@@ -53871,7 +52784,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18007",
@@ -53907,7 +52820,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18008",
@@ -53943,7 +52856,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18009",
@@ -53979,7 +52892,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18010",
@@ -54015,7 +52928,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18011",
@@ -54048,7 +52961,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18012",
@@ -54084,7 +52997,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18013",
@@ -54117,7 +53030,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18014",
@@ -54153,7 +53066,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18015",
@@ -54189,7 +53102,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18016",
@@ -54225,7 +53138,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18017",
@@ -54258,7 +53171,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18018",
@@ -54291,7 +53204,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18019",
@@ -54324,7 +53237,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18020",
@@ -54357,7 +53270,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18021",
@@ -54390,7 +53303,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18022",
@@ -54423,7 +53336,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18023",
@@ -54456,7 +53369,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18024",
@@ -54487,7 +53400,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18025",
@@ -54518,7 +53431,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18026",
@@ -54549,7 +53462,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18027",
@@ -54580,7 +53493,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18028",
@@ -54611,7 +53524,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18029",
@@ -54642,7 +53555,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18030",
@@ -54675,7 +53588,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18031",
@@ -54705,7 +53618,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18032",
@@ -54736,7 +53649,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18033",
@@ -54767,7 +53680,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18034",
@@ -54800,7 +53713,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18035",
@@ -54833,7 +53746,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18036",
@@ -54864,7 +53777,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18037",
@@ -54895,7 +53808,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18038",
@@ -54926,7 +53839,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18039",
@@ -54957,7 +53870,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18040",
@@ -54988,7 +53901,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18041",
@@ -55019,7 +53932,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18042",
@@ -55050,7 +53963,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18043",
@@ -55080,7 +53993,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18044",
@@ -55112,7 +54025,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18045",
@@ -55144,7 +54057,7 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18046",
@@ -55178,7 +54091,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18047",
@@ -55211,7 +54124,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18048",
@@ -55242,7 +54155,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18049",
@@ -55273,7 +54186,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18050",
@@ -55304,7 +54217,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18051",
@@ -55334,7 +54247,7 @@ var ZAPATOS = [
    "5"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18052",
@@ -55365,7 +54278,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18053",
@@ -55393,7 +54306,7 @@ var ZAPATOS = [
    "5"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18054",
@@ -55424,7 +54337,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18055",
@@ -55455,7 +54368,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18056",
@@ -55486,7 +54399,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18057",
@@ -55517,7 +54430,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18058",
@@ -55548,7 +54461,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18059",
@@ -55579,7 +54492,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18060",
@@ -55607,7 +54520,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18061",
@@ -55638,7 +54551,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18062",
@@ -55669,7 +54582,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18063",
@@ -55700,7 +54613,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18064",
@@ -55730,7 +54643,7 @@ var ZAPATOS = [
    "9"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18065",
@@ -55761,7 +54674,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18066",
@@ -55792,7 +54705,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18067",
@@ -55823,7 +54736,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18068",
@@ -55854,7 +54767,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18069",
@@ -55887,7 +54800,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18070",
@@ -55920,7 +54833,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18071",
@@ -55953,7 +54866,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18072",
@@ -55986,7 +54899,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18073",
@@ -56019,7 +54932,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18074",
@@ -56052,7 +54965,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18075",
@@ -56085,7 +54998,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18076",
@@ -56118,7 +55031,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18077",
@@ -56151,7 +55064,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18078",
@@ -56183,7 +55096,7 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18079",
@@ -56216,7 +55129,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18080",
@@ -56244,7 +55157,7 @@ var ZAPATOS = [
    "12"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18081",
@@ -56277,7 +55190,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18082",
@@ -56311,7 +55224,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18083",
@@ -56340,7 +55253,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18084",
@@ -56370,7 +55283,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18085",
@@ -56402,7 +55315,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18086",
@@ -56433,7 +55346,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18087",
@@ -56466,7 +55379,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18088",
@@ -56499,7 +55412,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18089",
@@ -56532,7 +55445,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18090",
@@ -56565,7 +55478,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18091",
@@ -56598,7 +55511,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18092",
@@ -56631,7 +55544,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18093",
@@ -56664,7 +55577,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18094",
@@ -56697,7 +55610,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18095",
@@ -56730,7 +55643,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18096",
@@ -56763,7 +55676,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18097",
@@ -56796,7 +55709,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18098",
@@ -56829,7 +55742,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18099",
@@ -56862,7 +55775,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18100",
@@ -56895,7 +55808,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18101",
@@ -56928,7 +55841,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18102",
@@ -56958,7 +55871,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18103",
@@ -56989,7 +55902,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18104",
@@ -57021,7 +55934,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18105",
@@ -57051,7 +55964,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18106",
@@ -57081,7 +55994,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18107",
@@ -57114,7 +56027,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18108",
@@ -57147,7 +56060,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18109",
@@ -57180,7 +56093,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18110",
@@ -57213,7 +56126,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18111",
@@ -57246,7 +56159,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18112",
@@ -57279,7 +56192,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18113",
@@ -57312,7 +56225,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18114",
@@ -57345,7 +56258,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18115",
@@ -57378,7 +56291,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18116",
@@ -57411,7 +56324,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18117",
@@ -57444,7 +56357,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18118",
@@ -57477,7 +56390,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18119",
@@ -57510,7 +56423,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18120",
@@ -57543,7 +56456,7 @@ var ZAPATOS = [
    "7"
   ],
   "categoria": "Chanclas",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18121",
@@ -60809,7 +59722,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18221",
@@ -60840,7 +59753,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18222",
@@ -60866,7 +59779,7 @@ var ZAPATOS = [
    "3"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18223",
@@ -60897,7 +59810,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18224",
@@ -60925,7 +59838,7 @@ var ZAPATOS = [
    "6.5"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18225",
@@ -60953,7 +59866,7 @@ var ZAPATOS = [
    "13"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18226",
@@ -60983,7 +59896,7 @@ var ZAPATOS = [
    "2"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18227",
@@ -61011,7 +59924,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18228",
@@ -61037,7 +59950,7 @@ var ZAPATOS = [
    "10"
   ],
   "categoria": "Elegantes",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18229",
@@ -61099,7 +60012,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18231",
@@ -61152,7 +60065,7 @@ var ZAPATOS = [
    "7Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18232",
@@ -61205,7 +60118,7 @@ var ZAPATOS = [
    "7Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18233",
@@ -61238,7 +60151,7 @@ var ZAPATOS = [
    "7Y"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18234",
@@ -61270,7 +60183,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Formales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18235",
@@ -61305,7 +60218,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18236",
@@ -61340,7 +60253,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18237",
@@ -61372,7 +60285,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18238",
@@ -61404,7 +60317,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18239",
@@ -61436,7 +60349,7 @@ var ZAPATOS = [
    "10C"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18240",
@@ -61471,7 +60384,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18241",
@@ -61506,7 +60419,7 @@ var ZAPATOS = [
    "3Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18242",
@@ -61559,7 +60472,7 @@ var ZAPATOS = [
    "7Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18243",
@@ -61592,7 +60505,7 @@ var ZAPATOS = [
    "7Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niña"
  },
  {
   "codigo": "DOM-18244",
@@ -61625,7 +60538,7 @@ var ZAPATOS = [
    "7Y"
   ],
   "categoria": "Casuales",
-  "subcat": "ambos"
+  "subcat": "niño"
  },
  {
   "codigo": "DOM-18245",
