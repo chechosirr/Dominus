@@ -80,7 +80,12 @@ function escIsWhite(url){
         }
         var pts = [patch(0, 0), patch(43, 0), patch(0, 43), patch(43, 43), patch(21, 0), patch(21, 43), patch(0, 21), patch(43, 21)];
         var ok = true;
-        for(var k = 0; k < pts.length; k++){ if(pts[k][0] < 240 || pts[k][1] < 240 || pts[k][2] < 240){ ok = false; break; } }
+        /* ESTRICTO (Sergio, 2026-11-24): blanco casi puro y sin tinte — así el fondo de la foto se funde
+           con el de la pantalla y el zapato parece flotar, sin que se vea ningún rectángulo */
+        for(var k = 0; k < pts.length; k++){
+          var p = pts[k], mx = Math.max(p[0], p[1], p[2]), mn = Math.min(p[0], p[1], p[2]);
+          if(mn < 250 || (mx - mn) > 8){ ok = false; break; }
+        }
         escWhiteCache[url] = ok ? 1 : 0; escSaveCache();
         resolve(ok);
       }catch(e){ escWhiteCache[url] = 0; resolve(false); }
