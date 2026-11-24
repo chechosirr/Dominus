@@ -28449,36 +28449,268 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Court Vision Low Next Nature — Black / Gym Red / White"
  },
  {
+  "codigo": "DOM-16416",
+  "nombre": "Charly Artemis FG — Aqua/Black"
+ },
+ {
+  "codigo": "DOM-16417",
+  "nombre": "Charly Encore FG — Forrest Green/Orange/White"
+ },
+ {
+  "codigo": "DOM-16418",
+  "nombre": "Charly Hotcross 4.0 Turf — Black"
+ },
+ {
+  "codigo": "DOM-16419",
+  "nombre": "Charly Stitch Turf Soccer Shoes — Black/White"
+ },
+ {
   "codigo": "DOM-1642",
   "nombre": "Nike Air Max Moto 2K SE — Sail / Pale Ivory / Phantom"
+ },
+ {
+  "codigo": "DOM-16420",
+  "nombre": "Nike Legend 10 Academy Firm/Multi Ground Soccer Cleats - Mad Energy Pack (SP25) — Hot Lava/White"
+ },
+ {
+  "codigo": "DOM-16421",
+  "nombre": "Nike Legend 10 Academy Firm/Multi Ground Soccer Cleats - Scary Good Pack (FA25) — Blue Eclipse/Black"
+ },
+ {
+  "codigo": "DOM-16422",
+  "nombre": "Nike Phantom 6 High Club Firm/Multi Ground Soccer Cleats - Shadow Pack (FA25) — Black/Black"
+ },
+ {
+  "codigo": "DOM-16423",
+  "nombre": "Nike Phantom 6 High Club Turf Soccer Shoes - Scary Good Pack (FA25) — Royal Tint/Bright Crimson"
+ },
+ {
+  "codigo": "DOM-16424",
+  "nombre": "Nike Phantom 6 High Club Turf Soccer Shoes - Shadow Pack (FA25) — Black/Black"
+ },
+ {
+  "codigo": "DOM-16425",
+  "nombre": "Nike Phantom GX II Academy FG/MG - Mad Voltage Pack (HO24) — Metallic Silver/Black-Volt"
+ },
+ {
+  "codigo": "DOM-16426",
+  "nombre": "Nike Phantom GX II Academy Firm/Multi Ground Soccer Cleats - Prism Pack (SU25) — Crimson Tint/Pink Blast/Black"
+ },
+ {
+  "codigo": "DOM-16427",
+  "nombre": "Nike Superfly 10 Club Firm/Multi Ground Soccer Cleats - Scary Good Pack (FA25) — Magic Flamingo/Total Crimson/Black"
+ },
+ {
+  "codigo": "DOM-16428",
+  "nombre": "Nike Superfly 10 Club Turf Soccer Shoes - Scary Good Pack (FA25) — Magic Flamingo/Black-Total Crimson"
+ },
+ {
+  "codigo": "DOM-16429",
+  "nombre": "Nike Zoom Vapor 16 Academy KM Firm/Multi Ground Soccer Cleats - Mbappe PE (SU25) — Grand Purple/Pale Ivory"
  },
  {
   "codigo": "DOM-1643",
   "nombre": "Nike Air Force 1 '07 Next Nature — Light Khaki / White / Gum Yellow / College Grey"
  },
  {
+  "codigo": "DOM-16430",
+  "nombre": "adidas Copa Pure III League Firm/Multi Ground Soccer Cleats - Coral Blaze Pack (FA25) — Off White / Lucid Blue / Signal Coral"
+ },
+ {
+  "codigo": "DOM-16431",
+  "nombre": "adidas Copa Pure III League Firm/Multi Ground Soccer Cleats - Radiant Blaze Pack (FA25) — Core Black / Cloud White / Lucid Lemon"
+ },
+ {
+  "codigo": "DOM-16432",
+  "nombre": "adidas Predator League FT Firm/Multi Ground Soccer Cleats - Celestial Victory Pack (SP25) — Cloud White / Lucid Pink / Lucid Lemon"
+ },
+ {
+  "codigo": "DOM-16433",
+  "nombre": "adidas Predator League Firm/Multi Ground Soccer Cleats - Celestial Victory Pack (SP25) — Cloud White / Lucid Pink / Lucid Lemon"
+ },
+ {
+  "codigo": "DOM-16434",
+  "nombre": "Nike Bomba TF"
+ },
+ {
+  "codigo": "DOM-16435",
+  "nombre": "Nike Mercurial Vapor 16 Club FG/MG Cleats — Racer Blue/White"
+ },
+ {
+  "codigo": "DOM-16436",
+  "nombre": "Nike Mercurial Vortex TF"
+ },
+ {
+  "codigo": "DOM-16437",
+  "nombre": "Puma Ultra Play Turf Shoes"
+ },
+ {
+  "codigo": "DOM-16438",
+  "nombre": "adidas Conquisto II FG"
+ },
+ {
+  "codigo": "DOM-16439",
+  "nombre": "adidas X 15.1 Cage TF"
+ },
+ {
   "codigo": "DOM-1644",
   "nombre": "Vans Classic Slip-On Rose Embroidery — Black / Red / White"
+ },
+ {
+  "codigo": "DOM-16440",
+  "nombre": "Nike Air Zoom Mercurial Superfly XI Academy AG"
+ },
+ {
+  "codigo": "DOM-16441",
+  "nombre": "Nike Air Zoom Mercurial Vapor XVII Academy FG/MG"
+ },
+ {
+  "codigo": "DOM-16442",
+  "nombre": "Skechers Razor 2 Club TF"
+ },
+ {
+  "codigo": "DOM-16443",
+  "nombre": "Skechers SKX 2 Club MG"
+ },
+ {
+  "codigo": "DOM-16444",
+  "nombre": "Skechers SKX 2 Club TF"
+ },
+ {
+  "codigo": "DOM-16445",
+  "nombre": "Under Armour Shadow Select 4.0 FG"
+ },
+ {
+  "codigo": "DOM-16446",
+  "nombre": "Nike Superfly 10 Club Firm/Multi Ground Soccer Cleats - Attack Pack (SP26) — Racer Blue/White"
+ },
+ {
+  "codigo": "DOM-16447",
+  "nombre": "Nike Superfly 11 Academy Firm/Multi Ground Soccer Cleats - Break 'Em Pack (FA26) — White/Blur-Bright Crimson"
+ },
+ {
+  "codigo": "DOM-16448",
+  "nombre": "Nike Tiempo Maestro Academy Turf Soccer Shoes - Break 'Em Pack (FA26) — White/Blur-Bright Crimson"
+ },
+ {
+  "codigo": "DOM-16449",
+  "nombre": "Nike Zoom Vapor 16 Academy NU3 Turf Soccer Shoes - United NU3 Pack (SU26) — Burgundy Crush/Metallic Silver"
  },
  {
   "codigo": "DOM-1645",
   "nombre": "Vans Classic Slip-On Cherries & Checkers — Light Blue / True White"
  },
  {
+  "codigo": "DOM-16450",
+  "nombre": "adidas Copa Pure IV League Firm Ground Soccer Cleats - Born For Goals Pack (SP26) — Zero Metallic / Core Black / Lucid Red"
+ },
+ {
+  "codigo": "DOM-16451",
+  "nombre": "adidas Predator League Fold-Over Tongue Firm Ground Soccer Cleats - Finishers Steel Pack (SP26) — Iron Metallic / Zero Metalic / Lucid Red"
+ },
+ {
+  "codigo": "DOM-16452",
+  "nombre": "adidas Predator League Fold-Over Tongue Turf Soccer Shoes - Ice Cold Precision Pack (SP26) — Crystal Sky / Ray Blue / Team Solar Yellow 2"
+ },
+ {
+  "codigo": "DOM-16453",
+  "nombre": "Diadora Brasil LT Plus MPH Soccer Cleat"
+ },
+ {
+  "codigo": "DOM-16454",
+  "nombre": "Puma Future 8 Play FG/AG Soccer Cleat"
+ },
+ {
+  "codigo": "DOM-16455",
+  "nombre": "Puma Future 9 Match Playmaker FG/AG Soccer Cleat"
+ },
+ {
+  "codigo": "DOM-16456",
+  "nombre": "Puma Ultra 6 Match Firm Ground/Artificial Ground Soccer Cleat"
+ },
+ {
+  "codigo": "DOM-16457",
+  "nombre": "Puma Ultra Nitro 7 Match Turf Soccer Cleat"
+ },
+ {
+  "codigo": "DOM-16458",
+  "nombre": "adidas Copa Pure IV Club Firm Ground / Multi Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-16459",
+  "nombre": "Nike Mercurial Superfly 10 Academy KM FG/MG - Mens — (Mbappe) Melon Tint/Neo Turq/Igloo"
+ },
+ {
   "codigo": "DOM-1646",
   "nombre": "Vans Old Skool Suede — Pewter"
+ },
+ {
+  "codigo": "DOM-16460",
+  "nombre": "Nike Mercurial Superfly 10 Club FG - Mens — Ocean Cube/Pink Blast"
+ },
+ {
+  "codigo": "DOM-16461",
+  "nombre": "Nike Mercurial Superfly 11 Club FG/MG - Mens — Black/Illusion Green/Black"
+ },
+ {
+  "codigo": "DOM-16462",
+  "nombre": "adidas F50 Club FG - Mens — Black/Iron Met/Lucid Lemon"
+ },
+ {
+  "codigo": "DOM-16463",
+  "nombre": "adidas F50 Club FG Messi - Mens — Team Royal/Solar Yellow/Semi Blue Burst"
+ },
+ {
+  "codigo": "DOM-16464",
+  "nombre": "adidas Predator Club FT FG/MG - Mens — Crystal Sky/Ray Blue/Ray Blue"
+ },
+ {
+  "codigo": "DOM-16465",
+  "nombre": "New Balance Rush V5 Low Lacrosse Cleats — White/Black/Team Red"
+ },
+ {
+  "codigo": "DOM-16466",
+  "nombre": "New Balance Rush V5 Mid Lacrosse Cleats — White/Black/Team Red"
+ },
+ {
+  "codigo": "DOM-16467",
+  "nombre": "Puma Attacanto II Firm/ Artificial Ground Soccer Cleats — Ultra Blue/Lime Squeeze"
+ },
+ {
+  "codigo": "DOM-16468",
+  "nombre": "Puma King Indoor Shoes — White/Vibrant Blue"
  },
  {
   "codigo": "DOM-1647",
   "nombre": "Vans Old Skool Platform — Cream"
  },
  {
+  "codigo": "DOM-16474",
+  "nombre": "adidas Copa Pure 4 League Turf Shoes"
+ },
+ {
+  "codigo": "DOM-16475",
+  "nombre": "adidas Predator League Fold-Over Tongue Turf Shoes"
+ },
+ {
   "codigo": "DOM-1648",
   "nombre": "Vans Old Skool Chou Chou — Black / Marshmallow"
  },
  {
+  "codigo": "DOM-16486",
+  "nombre": "Nike Superfly 11 Academy NU4 Firm/Multi Ground Soccer Cleats - United Chapter 4 Pack (HO26) — Multi-Color/Black"
+ },
+ {
+  "codigo": "DOM-16488",
+  "nombre": "Nike Vapor 17 Academy Firm/Multi Ground Soccer Cleats - Bright Lights Pack (HO26) — White/Dusty Cactus"
+ },
+ {
   "codigo": "DOM-1649",
   "nombre": "Vans Slip-On — Black Monochrome"
+ },
+ {
+  "codigo": "DOM-16498",
+  "nombre": "Puma Ultra 5 Match+ TT Turf Soccer Cleats"
  },
  {
   "codigo": "DOM-165",
@@ -28489,8 +28721,60 @@ var ZAP_HISTORIAL = [
   "nombre": "Vans Authentic — True White"
  },
  {
+  "codigo": "DOM-16502",
+  "nombre": "Nike Mercurial Superfly 10 Academy FG/MG - Mens — Racer Blue/White"
+ },
+ {
+  "codigo": "DOM-16503",
+  "nombre": "Nike Mercurial Superfly 11 Academy FG/MG - Mens — (Kerr) Green Glow/Black"
+ },
+ {
+  "codigo": "DOM-16504",
+  "nombre": "Nike Mercurial Superfly 11 Academy FG/MG - Mens — White/Dusty Cactus"
+ },
+ {
+  "codigo": "DOM-16505",
+  "nombre": "Skechers Skx 2 Academy FG - Mens — Blue Synthetic/Pink Trim"
+ },
+ {
+  "codigo": "DOM-16506",
+  "nombre": "adidas F50 League Low FG Messi - Mens — Lucid Red/Black/Ruby"
+ },
+ {
+  "codigo": "DOM-16507",
+  "nombre": "adidas Predator League FT FG/MG - Mens — (Eventpack) Solar Turbo/Therma Chrome/Core Black"
+ },
+ {
+  "codigo": "DOM-16508",
+  "nombre": "Diadora Maximus Academy FG — White Pearlized/French Blue"
+ },
+ {
+  "codigo": "DOM-16509",
+  "nombre": "New Balance 442 V2 Team IN Soccer Cleats — Black/White"
+ },
+ {
   "codigo": "DOM-1651",
   "nombre": "Vans Slip-On Checkerboard — Black / White"
+ },
+ {
+  "codigo": "DOM-16510",
+  "nombre": "New Balance FreezeLX V5 Lacrosse Cleats — White/Black"
+ },
+ {
+  "codigo": "DOM-16511",
+  "nombre": "New Balance FreezeLX V5 Low Lacrosse Cleats — White/Black/Silver Metallic"
+ },
+ {
+  "codigo": "DOM-16512",
+  "nombre": "New Balance FreezeLX v5 Box Lacrosse Cleats — White/Black"
+ },
+ {
+  "codigo": "DOM-16513",
+  "nombre": "New Balance FreezeLX v6 Turf — Nb 102 White Munsell/Black"
+ },
+ {
+  "codigo": "DOM-16514",
+  "nombre": "Topo Athletic Ultraventure 5 — Black/Dark Teal"
  },
  {
   "codigo": "DOM-1652",
@@ -28713,6 +28997,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Fila Strada G Lace Up Sneakers — White"
  },
  {
+  "codigo": "DOM-17009",
+  "nombre": "PUMA Future 8 Match Firm/ Artificial Ground Soccer Cleats"
+ },
+ {
   "codigo": "DOM-1701",
   "nombre": "Puma Adelina 2 Slip On Sneakers — Purple"
  },
@@ -28739,6 +29027,18 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1707",
   "nombre": "Puma Carina 3.0 Luxe Lace Up Sneakers — White"
+ },
+ {
+  "codigo": "DOM-17071",
+  "nombre": "New Balance Tekela Team Low Fg V5 Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-17075",
+  "nombre": "adidas Copa Gloro II Firm Ground Soccer Cleats"
+ },
+ {
+  "codigo": "DOM-17077",
+  "nombre": "adidas Predator League Fold-Over Tongue Turf Soccer Cleats"
  },
  {
   "codigo": "DOM-1708",
@@ -28997,36 +29297,176 @@ var ZAP_HISTORIAL = [
   "nombre": "Journee Collection Ekko Woven Flats In Vegan Leather — Black Pu"
  },
  {
+  "codigo": "DOM-17673",
+  "nombre": "adidas F50 Messi Crib (Infant) — Ivory/Semi Blue Burst/Icey Blue"
+ },
+ {
+  "codigo": "DOM-17676",
+  "nombre": "Nike Jr. Mercurial Vapor 16 Club (Little Kid/Big Kid) — Magic Flamingo/Black/Total Crimson"
+ },
+ {
+  "codigo": "DOM-17677",
+  "nombre": "PUMA Future Z 3.4 Firm Ground/Artificial Ground (Little Kid/Big Kid) — Parisian Night/Fizzy Light/Pistachio"
+ },
+ {
+  "codigo": "DOM-17678",
+  "nombre": "Under Armour Glyde Sola Jr RM Softball Cleats (Toddler/Little Kid/Big Kid) — Blue Calm/White/Blue Calm"
+ },
+ {
+  "codigo": "DOM-17679",
+  "nombre": "adidas Goletto Ix Firm Ground/Multi Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Lucid Lemon/Black/Lucid Lemon"
+ },
+ {
   "codigo": "DOM-1768",
   "nombre": "Journee Collection Ekko Woven Flats In Metallic — Champagne Pu"
+ },
+ {
+  "codigo": "DOM-17681",
+  "nombre": "Nike Jr. Tiempo Legend 10 Club Multi-Ground Low-Top Soccer Cleats (Little Kid/Big Kid) — Black/Black/Deep Jungle"
+ },
+ {
+  "codigo": "DOM-17682",
+  "nombre": "PUMA Attacanto Indoor Training Soccer Shoes (Little Kid/Big Kid) — Black/White"
+ },
+ {
+  "codigo": "DOM-17683",
+  "nombre": "Under Armour Leadoff Icon Low RM Jr. Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/Black/White"
+ },
+ {
+  "codigo": "DOM-17686",
+  "nombre": "Nike Jr. Tiempo Maestro Flex Firm Ground/Multi-Ground (Toddler/Little Kid) — Black/Black/Volt"
+ },
+ {
+  "codigo": "DOM-17687",
+  "nombre": "PUMA Ultra 6 Match Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid) — Heat Fire/Puma Black/Glowing Red"
+ },
+ {
+  "codigo": "DOM-17689",
+  "nombre": "adidas Adizero Impact Molded 2.0 Baseball (Toddler/Little Kid/Big Kid) — Solar Slime/Silver Metallic/Black"
  },
  {
   "codigo": "DOM-1769",
   "nombre": "Journee Collection Suvi Mary Jane Flats In Vegan Leather — Off White"
  },
  {
+  "codigo": "DOM-17692",
+  "nombre": "PUMA Ultra Play Firm Ground/Artificial Ground (Toddler/Little Kid/Big Kid) — Puma Black/Asphalt"
+ },
+ {
+  "codigo": "DOM-17697",
+  "nombre": "Under Armour Leadoff Icon Mid RM Jr Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/White/Black"
+ },
+ {
+  "codigo": "DOM-17699",
+  "nombre": "PUMA Ultra 6 Match+ Laceless Firm/Artificial Ground Soccer Cleats (Little Kid/Big Kid) — Yellow Alert/Black/Glowing Red/Lime Squeeze"
+ },
+ {
   "codigo": "DOM-1770",
   "nombre": "Journee Collection Wrenn Loafer Flats In Vegan Leather — Silver Pu"
+ },
+ {
+  "codigo": "DOM-17701",
+  "nombre": "adidas Predator Club Kaka Fold Over Tongue Firm/Multi Ground Elastic Laces Soccer Cleats — Black/Silver Metallic/Pulse Mint"
+ },
+ {
+  "codigo": "DOM-17702",
+  "nombre": "PUMA Attacanto Turf Training Soccer Cleats (Little Kid/Big Kid) — Black/Ultra Blue"
+ },
+ {
+  "codigo": "DOM-17703",
+  "nombre": "adidas Goletto IX Laceless Firm/Multi Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — White/Black/Lucid Lemon"
+ },
+ {
+  "codigo": "DOM-17704",
+  "nombre": "PUMA Future Play Firm Ground/Artificial Ground (Little Kid/Big Kid) — Puma Black/Puma White"
+ },
+ {
+  "codigo": "DOM-17705",
+  "nombre": "adidas Goletto Ix Laceless Firm Ground/Multi Ground Football (Toddler/Little Kid/Big Kid) — Solar Turbo/Core Black/Core Black"
+ },
+ {
+  "codigo": "DOM-17706",
+  "nombre": "PUMA Attacanto II Indoor Training Soccer Shoes (Little Kid/Big Kid) — Puma White/Ultra Red"
+ },
+ {
+  "codigo": "DOM-17707",
+  "nombre": "adidas Adizero Impact 2.0 Molded Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/White/White"
+ },
+ {
+  "codigo": "DOM-17708",
+  "nombre": "PUMA Attacanto II Turf Training Soccer Cleats (Little Kid/Big Kid) — Puma White/Ultra Red"
+ },
+ {
+  "codigo": "DOM-17709",
+  "nombre": "adidas Goletto Ix Firm Ground/Multi Ground (Toddler/Little Kid/Big Kid) — Solar Turbo/Core Black/Core Black"
  },
  {
   "codigo": "DOM-1771",
   "nombre": "Journee Collection Ekko Woven Flats In Statement In Wide — Champagne"
  },
  {
+  "codigo": "DOM-17710",
+  "nombre": "PUMA Attacanto Firm, Artificial Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Ultra Blue/Lime Squeeze"
+ },
+ {
+  "codigo": "DOM-17711",
+  "nombre": "adidas Soccer Goletto VIII Firm Ground Cleats (Toddler/Little Kid/Big Kid) — Black/Team Shock Pink 2/Black"
+ },
+ {
+  "codigo": "DOM-17712",
+  "nombre": "PUMA Tacto II Christian Pulisic Firm, Artificial Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Puma Red/Puma Black"
+ },
+ {
+  "codigo": "DOM-17713",
+  "nombre": "adidas Copa Pure IV Club Soccer Turf Cleats (Little Kid/Big Kid) — Black/White/Lucid Red"
+ },
+ {
+  "codigo": "DOM-17717",
+  "nombre": "Diadora Pichichi 9 JR TF (Little Kid/Big Kid) — Yellow Sun/White/Royal Blue"
+ },
+ {
   "codigo": "DOM-1772",
   "nombre": "Journee Collection Kenly Faux Suede Loafer Flats In Wide — Pink Faux Suede"
+ },
+ {
+  "codigo": "DOM-17728",
+  "nombre": "PUMA Ultra Pulisic Artificial, Firm Ground Soccer Cleats (Toddler/Little Kid/Big Kid) — Deep Aqua/Marine Blue/Speed Green"
+ },
+ {
+  "codigo": "DOM-17729",
+  "nombre": "Reebok Strike MG Soccer Cleat (Little Kid/Big Kid) — Black/Grey"
  },
  {
   "codigo": "DOM-1773",
   "nombre": "Journee Collection Kenly Loafer Flats In Faux Suede — Pink Faux Suede"
  },
  {
+  "codigo": "DOM-17732",
+  "nombre": "Under Armour Harper 10 Jr RM Baseball Cleats (Toddler/Little Kid/Big Kid) — Black/Stone/Black"
+ },
+ {
+  "codigo": "DOM-17733",
+  "nombre": "adidas Copa Pure IV Club Firm Ground/Multi Ground Soccer Cleats (Little Kid/Big Kid) — Black/White/Lucid Red"
+ },
+ {
   "codigo": "DOM-1774",
   "nombre": "Journee Collection Kenly Loafer Flats In Vegan Leather — Black Pu"
  },
  {
+  "codigo": "DOM-17743",
+  "nombre": "PUMA Ultra 6 Play Hook and Loop Turf Training Soccer Cleats (Toddler/Little Kid/Big Kid) — Ultra Blue/Puma White/Glowing Red"
+ },
+ {
+  "codigo": "DOM-17745",
+  "nombre": "Under Armour Magnetico Select 5 Jr Soccer Cleats (Little Kid/Big Kid) — Blue Blur/Boundless Blue/White"
+ },
+ {
   "codigo": "DOM-1775",
   "nombre": "Journee Collection Kenly Vegan Leather Loafer Flats In Wide — Black Patent"
+ },
+ {
+  "codigo": "DOM-17750",
+  "nombre": "PUMA Future Play Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid) — Poison Pink/Sun Stream/Bright Aqua/White"
  },
  {
   "codigo": "DOM-1776",
@@ -29089,6 +29529,10 @@ var ZAP_HISTORIAL = [
   "nombre": "adidas Adilette Aqua Slides"
  },
  {
+  "codigo": "DOM-17898",
+  "nombre": "Diadora Pichichi 9 JR MD (Little Kid/Big Kid) — Black/White/Silver DD"
+ },
+ {
   "codigo": "DOM-179",
   "nombre": "Superga 2750 Cotu Classic Beige Light Eggshell/F Avorio"
  },
@@ -29133,12 +29577,20 @@ var ZAP_HISTORIAL = [
   "nombre": "Journee Collection Primah Flat Sandals In Wide — Black/natural Raffia"
  },
  {
+  "codigo": "DOM-17999",
+  "nombre": "adidas Copa Pure IV Club Firm Ground/Multi Ground (Little Kid/Big Kid) — Zero Metallic/Dark Blue/Lucid Ray Blue"
+ },
+ {
   "codigo": "DOM-180",
   "nombre": "Hurley Immerse Men's Slip-On Lightweight Quick-Dry Water Shoes Grey Yellow"
  },
  {
   "codigo": "DOM-1800",
   "nombre": "Journee Collection Tristeen Espadrille Sandals In Fabric — Coral"
+ },
+ {
+  "codigo": "DOM-18001",
+  "nombre": "adidas Predator Club Fold-Over Tongue Turf Football Shoes (Little Kid/Big Kid) — Black/Silver Metallic/Pulse Mint"
  },
  {
   "codigo": "DOM-1801",
@@ -29253,12 +29705,44 @@ var ZAP_HISTORIAL = [
   "nombre": "Journee Collection Paulina Kitten Heels In Statement Patent — Patent Pink"
  },
  {
+  "codigo": "DOM-18261",
+  "nombre": "adidas Predator League Fold-Over Tongue Turf Soccer Shoes - Coral Blaze Pack (FA25)"
+ },
+ {
+  "codigo": "DOM-18262",
+  "nombre": "Nike Zoom Vapor 16 Academy Firm/Multi Ground Soccer Cleats - Scary Good Pack (FA25)"
+ },
+ {
+  "codigo": "DOM-18263",
+  "nombre": "adidas F50 Messi League Firm/Multi Ground Soccer Cleats - Messi Vision Pack (FA25)"
+ },
+ {
+  "codigo": "DOM-18264",
+  "nombre": "Puma Future 9 Match Firm/Artificial Ground Soccer Cleats - Eclipse Pack (SP26)"
+ },
+ {
   "codigo": "DOM-1827",
   "nombre": "Journee Collection Nellia Tweed Slingback Kitten Heels In Wide — Taupe Pu"
  },
  {
+  "codigo": "DOM-18277",
+  "nombre": "Puma Ultra Racetrack Brazil Match FG"
+ },
+ {
+  "codigo": "DOM-18278",
+  "nombre": "Nike Air Zoom Mercurial Superfly X Academy FG/MG"
+ },
+ {
+  "codigo": "DOM-18279",
+  "nombre": "adidas F50 League x Messi FG"
+ },
+ {
   "codigo": "DOM-1828",
   "nombre": "Journee Collection Trayle Gladiator Sandals In Vegan Leather — Pewter"
+ },
+ {
+  "codigo": "DOM-18280",
+  "nombre": "Puma Ultra 6 Match FG/AG"
  },
  {
   "codigo": "DOM-1829",
