@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "23 de noviembre de 2026";
+var ZAP_VERIFICADO = "24 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -1724,8 +1724,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Old Skool — Black / True White",
   "genero": "Hombre",
-  "precio": 94.98,
-  "precio_c": 3493,
+  "precio": 62.99,
+  "precio_c": 2316,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D3HY28_1.jpg?v=1775778779",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000D3HY28_2.jpg?v=1775778779",
@@ -2872,8 +2872,8 @@ var ZAPATOS = [
   "marca": "Converse",
   "nombre": "Converse Shai 001 Lace Up Cheetah Mens Basketball Shoes — Cheetah",
   "genero": "Hombre",
-  "precio": 69.98,
-  "precio_c": 2573,
+  "precio": 83.97,
+  "precio_c": 3088,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0852/3376/files/97a1ffeda07b34a77d22f1b65d29bf03.jpg?v=1787846424",
    "https://cdn.shopify.com/s/files/1/0852/3376/files/4cb860421418dae8ebe5a062908bb257.jpg?v=1787846424",
@@ -2990,8 +2990,8 @@ var ZAPATOS = [
   "marca": "New Balance",
   "nombre": "New Balance ABZORB 2010 Grey Days Mens Running Shoes — Black/Silver Metallic/Casterock",
   "genero": "Hombre",
-  "precio": 89.97,
-  "precio_c": 3309,
+  "precio": 109.97,
+  "precio_c": 4044,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0852/3376/files/bcd039e95b6d020ace6bbf19ad57072b_89615637-4b22-4a40-ac65-413537c9d64d.jpg?v=1777675249",
    "https://cdn.shopify.com/s/files/1/0852/3376/files/cad5c34bc75145f86aeb76ea803848c3_50589c82-0c9b-4c29-809c-160d7b0dae2d.jpg?v=1777675249",
@@ -4345,8 +4345,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Air Foamposite Pro Voltage Mens Basketball Shoes — Black/Voltage Yellow",
   "genero": "Hombre",
-  "precio": 169.98,
-  "precio_c": 6251,
+  "precio": 174.98,
+  "precio_c": 6435,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0852/3376/files/5af428c3eb7fb0492d62fad622ded4b3.jpg?v=1777650217",
    "https://cdn.shopify.com/s/files/1/0852/3376/files/6900ee01d2db8a087a08759f31f84eaa.jpg?v=1777650217",
@@ -18189,8 +18189,8 @@ var ZAPATOS = [
   "marca": "Jordan",
   "nombre": "Franchise Mens Sandals (Smoke Grey/Light Smoke Grey)",
   "genero": "Hombre",
-  "precio": 29.98,
-  "precio_c": 1102,
+  "precio": 35.97,
+  "precio_c": 1323,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0852/3376/files/a695538722da50c842d9f68540584618.jpg?v=1783968009",
    "https://cdn.shopify.com/s/files/1/0852/3376/files/77b00580da42eeb75a587999371da3c5.jpg?v=1783968009",
@@ -19465,8 +19465,8 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Sunset Slide — Bright White/Harbor Mist Gray",
   "genero": "Hombre",
-  "precio": 59.97,
-  "precio_c": 2205,
+  "precio": 59.94,
+  "precio_c": 2204,
   "fotos": [
    "https://m.media-amazon.com/images/I/51ODebZd-xL._AC_SX679_.jpg",
    "https://m.media-amazon.com/images/I/61nOA2aihfL._AC_SX679_.jpg",
@@ -21326,45 +21326,12 @@ var ZAPATOS = [
   "categoria": "Casuales"
  },
  {
-  "codigo": "DOM-16925",
-  "marca": "Starter",
-  "nombre": "Starter RT-X — Black / Silver",
-  "genero": "Hombre",
-  "precio": 44.98,
-  "precio_c": 1654,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011353_1.jpg?v=1780609769",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011353_2.jpg?v=1780609769",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011353_3.jpg?v=1780609769",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011353_4.jpg?v=1780609769"
-  ],
-  "descripcion": "Zapatilla casual de caña baja y silueta clásica, pensada para el uso diario con un estilo versátil que combina con jeans y pantalones casuales.",
-  "detalles": [
-   "Silueta casual de caña baja para el uso diario",
-   "Cierre con cordones para un ajuste seguro",
-   "Exterior resistente para el uso diario",
-   "Suela de goma con agarre para caminar con comodidad todo el día"
-  ],
-  "tallas": [
-   "8",
-   "8.5",
-   "9",
-   "9.5",
-   "10",
-   "10.5",
-   "11",
-   "12",
-   "13"
-  ],
-  "categoria": "Casuales"
- },
- {
   "codigo": "DOM-16926",
   "marca": "Starter",
   "nombre": "Starter RT-X — Tan / Black / White",
   "genero": "Hombre",
-  "precio": 44.98,
-  "precio_c": 1654,
+  "precio": 29.99,
+  "precio_c": 1103,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011357_1.jpg?v=1780609769",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/43011357_2.jpg?v=1780609769",
@@ -21734,8 +21701,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Energy Lo — (Nubuck) Black / Gum",
   "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
+  "precio": 34.99,
+  "precio_c": 1287,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013491_1.jpg?v=1775154777",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013491_2.jpg?v=1775154777",
@@ -21770,8 +21737,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Energy Lo — White / Gum",
   "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
+  "precio": 34.99,
+  "precio_c": 1287,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013490_1.jpg?v=1787268511",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9013490_2.jpg?v=1787268511",
@@ -21806,8 +21773,8 @@ var ZAPATOS = [
   "marca": "Dockers",
   "nombre": "Dockers Overtime — Brown / Tan",
   "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
+  "precio": 34.99,
+  "precio_c": 1287,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9098751_1.jpg?v=1785794265",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/9098751_2.jpg?v=1785794265",
@@ -21842,8 +21809,8 @@ var ZAPATOS = [
   "marca": "Lee",
   "nombre": "Lee Roland — Black / Black",
   "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
+  "precio": 34.99,
+  "precio_c": 1287,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000078_1.jpg?v=1788302544",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M000078_2.jpg?v=1788302544",
@@ -21879,8 +21846,8 @@ var ZAPATOS = [
   "marca": "Lee",
   "nombre": "Lee Specter Lux — Black Mono / Gum",
   "genero": "Hombre",
-  "precio": 49.98,
-  "precio_c": 1838,
+  "precio": 34.99,
+  "precio_c": 1287,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_1.jpg?v=1792014914",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/M0001979804_2.jpg?v=1792014915",
@@ -22353,8 +22320,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Court Advance — (NBK) Espresso / Elevated Beige / Black",
   "genero": "Hombre",
-  "precio": 59.98,
-  "precio_c": 2206,
+  "precio": 39.99,
+  "precio_c": 1471,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100279243_1.jpg?v=1792446905",
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100279243_2.jpg?v=1792446905",
@@ -26236,8 +26203,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Reax 8 Trainer Mesh",
   "genero": "Mujer",
-  "precio": 104.76,
-  "precio_c": 3852,
+  "precio": 86.0,
+  "precio_c": 3163,
   "fotos": [
    "https://m.media-amazon.com/images/I/61JQfvTfYDL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61bPFH-0okL._AC_SX1024_.jpg",
@@ -31443,8 +31410,8 @@ var ZAPATOS = [
   "marca": "Bella Vita",
   "nombre": "Bella Vita Aliette Rhinestone Block Heeled Evening Sandal — Gold",
   "genero": "Mujer",
-  "precio": 104.95,
-  "precio_c": 3859,
+  "precio": 80.95,
+  "precio_c": 2977,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-2628-710_1l.jpg?v=1788447389",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-2628-710_2l.jpg?v=1788447389",
@@ -31480,8 +31447,8 @@ var ZAPATOS = [
   "marca": "Bella Vita",
   "nombre": "Bella Vita Aliette Rhinestone Block Heeled Evening Sandal — Black",
   "genero": "Mujer",
-  "precio": 104.95,
-  "precio_c": 3859,
+  "precio": 80.95,
+  "precio_c": 2977,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-2621-003_1l.jpg?v=1788717934",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-2621-003_2l.jpg?v=1788717934",
@@ -31585,8 +31552,8 @@ var ZAPATOS = [
   "marca": "VANELi",
   "nombre": "VANELi Alesya Round Toe Block Heel Pumps — Black",
   "genero": "Mujer",
-  "precio": 109.0,
-  "precio_c": 4008,
+  "precio": 99.0,
+  "precio_c": 3641,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/313691-001_1l.jpg?v=1792682010",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/313691-001_2l.jpg?v=1792682011",
@@ -31614,8 +31581,8 @@ var ZAPATOS = [
   "marca": "Bella Vita",
   "nombre": "Bella Vita Carmen Rhinestone Metallic Block Heel Sandal — Gold",
   "genero": "Mujer",
-  "precio": 109.95,
-  "precio_c": 4043,
+  "precio": 102.95,
+  "precio_c": 3786,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-3599-710_1l.jpg?v=1788711965",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-3599-710_2l.jpg?v=1788711965",
@@ -31651,8 +31618,8 @@ var ZAPATOS = [
   "marca": "Bella Vita",
   "nombre": "Bella Vita Carmen Rhinestone Metallic Block Heel Sandal — Silver",
   "genero": "Mujer",
-  "precio": 109.95,
-  "precio_c": 4043,
+  "precio": 84.95,
+  "precio_c": 3124,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-3597-040_1l.jpg?v=1788712607",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/51-3597-040_2l.jpg?v=1788712607",
@@ -35382,8 +35349,8 @@ var ZAPATOS = [
   "marca": "Cinq à Sept",
   "nombre": "Cinq à Sept Malia Strappy Metallic Kitten Heel Sandals — Multicolor",
   "genero": "Mujer",
-  "precio": 334.89,
-  "precio_c": 12315,
+  "precio": 265.5,
+  "precio_c": 9763,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Vc06kk4HL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61CyjXG1h2L._SX700_.jpg",
@@ -36829,8 +36796,8 @@ var ZAPATOS = [
   "marca": "Clarks",
   "nombre": "Clarks Hana Loafer — Brown",
   "genero": "Mujer",
-  "precio": 82.4,
-  "precio_c": 3030,
+  "precio": 87.0,
+  "precio_c": 3199,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Olsb9GFoL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71FoBlk5reL._AC_SX1024_.jpg",
@@ -37405,8 +37372,8 @@ var ZAPATOS = [
   "marca": "Bandolino",
   "nombre": "Bandolino Zeffer Pump — Brown",
   "genero": "Mujer",
-  "precio": 85.6,
-  "precio_c": 3148,
+  "precio": 63.4,
+  "precio_c": 2331,
   "fotos": [
    "https://m.media-amazon.com/images/I/61uDolCX5JL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61mT6eqZBGL._AC_SX1024_.jpg",
@@ -37909,8 +37876,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto Sabrina Slingback Pumps — Pink",
   "genero": "Mujer",
-  "precio": 56.95,
-  "precio_c": 2094,
+  "precio": 56.51,
+  "precio_c": 2078,
   "fotos": [
    "https://m.media-amazon.com/images/I/61NHYVG1NQL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61qz6cjAn3L._AC_SX1024_.jpg",
@@ -41836,8 +41803,8 @@ var ZAPATOS = [
   "marca": "Nike",
   "nombre": "Nike Victori One Slides — Black / Black / Black",
   "genero": "Mujer",
-  "precio": 46.91,
-  "precio_c": 1725,
+  "precio": 39.6,
+  "precio_c": 1456,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Zt4eBlJnL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/61Zt4eBlJnL._SX700_.jpg",
@@ -44852,8 +44819,8 @@ var ZAPATOS = [
   "marca": "Easy Street",
   "nombre": "Easy Street Picaboo — Black",
   "genero": "Mujer",
-  "precio": 74.99,
-  "precio_c": 2758,
+  "precio": 62.99,
+  "precio_c": 2316,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-7891-018_1l.jpg?v=1790948809",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31-7891-018_2l.jpg?v=1790948809",
@@ -64075,6 +64042,43 @@ var ZAPATOS = [
    "7.5 / Medium",
    "8 / Medium",
    "9 / Medium"
+  ],
+  "categoria": "Casuales"
+ },
+ {
+  "codigo": "DOM-18248",
+  "marca": "Reebok",
+  "nombre": "Reebok BB 1000 — Black/Blue/White",
+  "genero": "Hombre",
+  "precio": 59.98,
+  "precio_c": 2206,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_1.jpg?v=1787183862",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_2.jpg?v=1787183862",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_3.jpg?v=1787183862",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/100232298_4.jpg?v=1787183862"
+  ],
+  "descripcion": "El BB 1000 trae de vuelta el básquetbol clásico de Reebok: cuero liso de caña baja, suela cupsole de goma y un perfil retro que combina con todo, del jean al pantalón casual.",
+  "detalles": [
+   "Parte superior de cuero",
+   "Caña baja estilo básquetbol retro",
+   "Suela cupsole de goma",
+   "Cierre con cordones"
+  ],
+  "tallas": [
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "13"
   ],
   "categoria": "Casuales"
  }

@@ -28673,6 +28673,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Puma Inhale Metallic — Alpine Snow-Desert Dust"
  },
  {
+  "codigo": "DOM-16925",
+  "nombre": "Starter RT-X — Black / Silver"
+ },
+ {
   "codigo": "DOM-1693",
   "nombre": "Corkys I' Weaving Metallic Slip On Sneakers — Gold"
  },
