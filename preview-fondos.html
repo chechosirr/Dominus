@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Preview — Fondo oscuro de secciones · Dominus</title>
+<style>
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:#fff;min-height:100vh;min-height:100lvh;
+    /* ===== TEMA OSCURO NUEVO (esto es lo que iría en #catfondo de zapatos.html) ===== */
+    background:
+      radial-gradient(120% 60% at 15% 0%, rgba(255,176,102,.10), rgba(255,176,102,0) 60%),
+      radial-gradient(100% 55% at 90% 100%, rgba(120,140,180,.10), rgba(120,140,180,0) 60%),
+      repeating-linear-gradient(115deg, rgba(255,255,255,.028) 0 2px, rgba(255,255,255,0) 2px 14px),
+      linear-gradient(to bottom, #1d1d21, #101013 55%, #0b0b0d);
+    background-attachment:fixed; overflow-x:hidden}
+  /* La «D» gigante de marca, apenas visible, abajo a la derecha */
+  .marca-d{position:fixed;right:-6vmin;bottom:-14vmin;font-family:Archivo,'Arial Black',Arial,sans-serif;font-weight:900;
+    font-size:72vmin;line-height:.8;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.055);
+    pointer-events:none;user-select:none;z-index:0}
+  header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;
+    padding:calc(10px + env(safe-area-inset-top)) 18px 10px;border-bottom:1px solid rgba(255,255,255,.14);
+    background:rgba(23,23,27,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+  header .back{font-size:26px;color:#fff;line-height:1}
+  header .brand{font-family:Archivo,'Arial Black',Arial,sans-serif;font-weight:900;letter-spacing:.22em;font-size:1.25rem;color:#e8e8ec}
+  header .brand em{font-style:normal;color:#8f959e}
+  header .menu{font-size:20px;color:#fff}
+  main{position:relative;z-index:1}
+  /* ===== Copia fiel de los estilos vivos de la pantalla de categorías ===== */
+  .catcont{max-width:560px;margin:0 auto;padding:18px 16px 40px;display:flex;flex-direction:column;min-height:74vh}
+  .catsec{color:#fff;text-align:left;font-size:1.9rem;margin:10px 0 4px;text-shadow:0 2px 10px rgba(0,0,0,.45)}
+  .catsub{color:rgba(255,255,255,.92);text-align:left;font-size:1.05rem;margin:0 0 10px;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+  .catbtn{position:relative;display:block;width:100%;height:84px;text-align:left;margin-top:12px;padding:20px 18px;border-radius:16px;border:1px solid rgba(255,255,255,.38);background:rgba(23,23,28,.20);backdrop-filter:blur(3px) saturate(1.2);-webkit-backdrop-filter:blur(3px) saturate(1.2);color:#fff;font-size:1.12rem;font-weight:700;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+  .catbtn:active{transform:scale(.99)}
+  .catbtn .nm{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#fff;font-size:19px;font-weight:800;text-shadow:0 1px 6px rgba(0,0,0,.7)}
+  .catbtn .chev{position:absolute;right:14px;top:50%;transform:translateY(-50%);color:#fff;font-size:24px;font-weight:300;opacity:.9}
+  .subsWrap{min-height:54vh;display:flex;flex-direction:column;justify-content:center}
+  .subbtn{text-align:center;font-size:1.3rem;padding:24px 18px;height:110px}
+  /* ===== Controles SOLO del preview ===== */
+  .pv{position:fixed;left:0;right:0;bottom:0;z-index:5;display:flex;gap:8px;justify-content:center;align-items:center;
+    padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(10,10,13,.82);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+  .pv span{font-size:.78rem;color:rgba(255,255,255,.65);margin-right:2px}
+  .pv button{border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.06);color:#fff;border-radius:999px;
+    padding:8px 16px;font-size:.92rem;font-weight:700;cursor:pointer}
+  .pv button.on{background:#fff;color:#17171b}
+</style>
+</head>
+<body>
+<div class="marca-d">D</div>
+<header><span class="back">←</span><span class="brand">DOMIN<em>US</em></span><span class="menu">☰</span></header>
+<main id="pantalla"></main>
+<div class="pv"><span>Preview:</span>
+  <button data-sec="hombre" class="on">Hombre</button>
+  <button data-sec="mujer">Mujer</button>
+  <button data-sec="ninos">Niños</button>
+</div>
+<script>
+var CATS = {
+  hombre: ['Deportivos','Formales','Casuales','Elegantes','Botas','Chanclas','Tacos para fútbol'],
+  mujer: ['Deportivos','Botines','Elegantes','Sandalias','Formales','Casuales','Chanclas'],
+  ninos: ['Deportivos','Elegantes','Formales','Casuales','Chanclas']
+};
+var LABEL = { hombre: 'Hombre', mujer: 'Mujer', ninos: 'Niños' };
+var pantalla = document.getElementById('pantalla');
+function pintar(sec, sub){
+  var h = '<div class="catcont"><h1 class="catsec">' + LABEL[sec] + '</h1><p class="catsub">Zapatos nuevos provenientes de Estados Unidos</p>';
+  if(sec === 'ninos' && !sub){
+    h += '<div class="subsWrap"><button class="catbtn subbtn" data-sub="niño"><span class="nm">Niño</span><span class="chev">›</span></button><button class="catbtn subbtn" data-sub="niña"><span class="nm">Niña</span><span class="chev">›</span></button></div>';
+  } else {
+    if(sec === 'ninos') h += '<p class="catsub">' + (sub === 'niño' ? 'Niño' : 'Niña') + '</p>';
+    var orden = CATS[sec].slice();
+    if(sec === 'ninos' && sub === 'niña') orden.splice(orden.indexOf('Chanclas'), 0, 'Sandalias');
+    orden.forEach(function(n){ h += '<button class="catbtn"><span class="nm">' + n + '</span><span class="chev">›</span></button>'; });
+  }
+  h += '</div>';
+  pantalla.innerHTML = h;
+  Array.prototype.forEach.call(pantalla.querySelectorAll('.subbtn'), function(b){
+    b.addEventListener('click', function(){ pintar('ninos', b.getAttribute('data-sub')); window.scrollTo(0, 0); });
+  });
+  window.scrollTo(0, 0);
+}
+Array.prototype.forEach.call(document.querySelectorAll('.pv button'), function(b){
+  b.addEventListener('click', function(){
+    Array.prototype.forEach.call(document.querySelectorAll('.pv button'), function(x){ x.classList.remove('on'); });
+    b.classList.add('on'); pintar(b.getAttribute('data-sec'), null);
+  });
+});
+pintar('hombre', null);
+</script>
+</body>
+</html>
