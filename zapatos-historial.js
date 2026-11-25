@@ -28785,6 +28785,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Vans Classic Slip-On Checkerboard — Walnut"
  },
  {
+  "codigo": "DOM-16538",
+  "nombre": "Brown Vance Co Mens Warrick Oxford"
+ },
+ {
   "codigo": "DOM-1654",
   "nombre": "Vans Authentic Special Edition — Black / Gum"
  },
