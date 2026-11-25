@@ -78,7 +78,6 @@ function pintar(sec, sub){
   if(sec === 'ninos' && !sub){
     h += '<div class="subsWrap"><button class="catbtn subbtn" data-sub="niño"><span class="nm">Niño</span><span class="chev">›</span></button><button class="catbtn subbtn" data-sub="niña"><span class="nm">Niña</span><span class="chev">›</span></button></div>';
   } else {
-    if(sec === 'ninos') h += '<p class="catsub">' + (sub === 'niño' ? 'Niño' : 'Niña') + '</p>';
     var orden = CATS[sec].slice();
     if(sec === 'ninos' && sub === 'niña') orden.splice(orden.indexOf('Chanclas'), 0, 'Sandalias');
     orden.forEach(function(n){ h += '<button class="catbtn"><span class="nm">' + n + '</span><span class="chev">›</span></button>'; });
