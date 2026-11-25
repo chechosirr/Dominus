@@ -394,6 +394,11 @@ body.en-cats #shopview{position:relative;z-index:1}
 .catbtn .chev{position:absolute;right:14px;top:50%;transform:translateY(-50%);color:#fff;font-size:24px;font-weight:300;opacity:.9}
 .subsWrap{min-height:54vh;display:flex;flex-direction:column;justify-content:center}
 .subbtn{text-align:center;font-size:1.3rem;padding:24px 18px;height:110px}
+/* Subida de títulos y tarjetas al header en secciones y subcategorías (Sergio, 2026-11-24): se va el hueco de la shopbar vacía y se recortan los márgenes; el label .promo se sigue viendo */
+body.en-cats .shopbar{display:none}
+body.en-cats .catcont{padding-top:16px}
+body.en-cats .catsec{margin-top:4px}
+body.en-cats .subsWrap{justify-content:flex-start;min-height:0}
 body.en-cats #shopview>.toolbar,body.en-cats #shopview>.wrap,body.en-cats #shopview>section{display:none}
 .showrow{display:none}
 @media (min-width:1024px){
@@ -1335,7 +1340,6 @@ function shipParts(){
  if(curCat === 'ninos' && !curSub){
  h += '<div class="subsWrap"><button class="catbtn subbtn" data-sub="niño"><span class="nm">Niño</span><span class="chev">›</span></button><button class="catbtn subbtn" data-sub="niña"><span class="nm">Niña</span><span class="chev">›</span></button></div>';
  } else {
- if(curCat === 'ninos') h += '<p class="catsub">' + (curSub === 'niño' ? 'Niño' : 'Niña') + '</p>';
  var orden = CATS_SECCION[curCat].slice();
  if(curCat === 'ninos' && curSub === 'niña') orden.splice(orden.indexOf('Chanclas'), 0, 'Sandalias');
  orden.forEach(function(nombre){ h += '<button class="catbtn" data-catname="' + nombre + '"><span class="nm">' + nombre + '</span><span class="chev">›</span></button>'; });
