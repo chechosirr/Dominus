@@ -40084,8 +40084,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Foamies: Arch Fit Horizon — White",
   "genero": "Mujer",
-  "precio": 10.0,
-  "precio_c": 368,
+  "precio": 48.49,
+  "precio_c": 1783,
   "fotos": [
    "https://images.skechers.com/image;width=auto%2Cformat=auto/243330_WHT_HERO_LG",
    "https://images.skechers.com/image;width=auto%2Cformat=auto/243330_WHT_INSOLE",
