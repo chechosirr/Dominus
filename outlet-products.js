@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "25 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -542,8 +542,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Gazelle Indoor — Blue Bird / Cloud White / Gum",
   "genero": "Hombre",
-  "precio": 107.95,
-  "precio_c": 3970,
+  "precio": 85.95,
+  "precio_c": 3161,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0291/4536/6588/files/71701e02da3f482e8c9588fdacdd37f7.jpg?v=1792622532"
   ],
@@ -1367,8 +1367,8 @@ var ZAPATOS = [
   "marca": "Vans",
   "nombre": "Vans Knu Skool (Big Kid) — Negro/Blanco Verdadero",
   "genero": "Niños",
-  "precio": 54.16,
-  "precio_c": 1992,
+  "precio": 54.19,
+  "precio_c": 1993,
   "fotos": [
    "https://m.media-amazon.com/images/I/71ws9qEPPLL.jpg",
    "https://m.media-amazon.com/images/I/71CmoDShJEL.jpg",
@@ -1826,8 +1826,8 @@ var ZAPATOS = [
   "marca": "adidas",
   "nombre": "adidas Barreda Mary Jane (Women) — Collegiate Green / Cream White / Gum",
   "genero": "Mujer",
-  "precio": 78.62,
-  "precio_c": 2891,
+  "precio": 78.53,
+  "precio_c": 2888,
   "fotos": [
    "https://m.media-amazon.com/images/I/61eEOlC9IkL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71hrW1hiH3L._SX700_.jpg",
@@ -3991,43 +3991,6 @@ var ZAPATOS = [
   "categoria": "Deportivos"
  },
  {
-  "codigo": "DOM-16379",
-  "marca": "adidas",
-  "nombre": "adidas Men SUPERNOVA GLIDE RUNNING SHOES",
-  "genero": "Hombre",
-  "precio": 120.0,
-  "precio_c": 4413,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/9009511_tb_main.jpg?v=1795436396",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/9009511_tb_gallery_1.jpg?v=1795436396",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/9009511_tb_gallery_2.jpg?v=1795436396",
-   "https://cdn.shopify.com/s/files/1/0695/5689/5834/files/9009511_tb_gallery_3.jpg?v=1795436396"
-  ],
-  "descripcion": "Los adidas Men SUPERNOVA GLIDE RUNNING SHOES son unos zapatos deportivos de adidas para hombre, pensados para correr con comodidad todo el día. Su diseño combina amortiguación suave y pisada cómoda en cada kilómetro con un estilo versátil para entrenar o moverte a diario.",
-  "detalles": [
-   "Parte superior ligera y transpirable para mayor comodidad",
-   "Amortiguación cómoda que acompaña cada paso",
-   "Suela con buena tracción para superficies firmes",
-   "Cierre con cordones para un ajuste seguro"
-  ],
-  "tallas": [
-   "6",
-   "7",
-   "8",
-   "10",
-   "11",
-   "12",
-   "6.5",
-   "7.5",
-   "8.5",
-   "9.5",
-   "10.5",
-   "11.5",
-   "14.5"
-  ],
-  "categoria": "Deportivos"
- },
- {
   "codigo": "DOM-16380",
   "marca": "adidas",
   "nombre": "adidas adizero Ubersonic 5 Animal Print Tennis Shoes",
@@ -4065,8 +4028,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Men's FloatZig 2 Running Shoes — White/Red/Black",
   "genero": "Hombre",
-  "precio": 130.0,
-  "precio_c": 4781,
+  "precio": 105.99,
+  "precio_c": 3898,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100271484_SLC_eCom.jpg?v=1794921496",
    "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100271484_TPP_eCom.jpg?v=1794921495",
@@ -4174,8 +4137,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Men's Nano 2.0 Training Shoes — Neon Cherry",
   "genero": "Hombre",
-  "precio": 130.0,
-  "precio_c": 4781,
+  "precio": 105.99,
+  "precio_c": 3898,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272195_SLC_eCom.jpg?v=1777035099",
    "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100272195_TPP_eCom.jpg?v=1777035098",
@@ -4211,8 +4174,8 @@ var ZAPATOS = [
   "marca": "Reebok",
   "nombre": "Reebok Men's Nano 2.0 Training Shoes — Pearl Grey/ Black",
   "genero": "Hombre",
-  "precio": 140.0,
-  "precio_c": 5148,
+  "precio": 113.99,
+  "precio_c": 4192,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100244683_SLC_eCom.jpg?v=1764595517",
    "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100244683_TPP_eCom.jpg?v=1770653516",
@@ -7375,8 +7338,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Talamanco Bike Toe Oxford — Brown Multi",
   "genero": "Hombre",
-  "precio": 108.49,
-  "precio_c": 3990,
+  "precio": 106.54,
+  "precio_c": 3918,
   "fotos": [
    "https://m.media-amazon.com/images/I/71gV0gjAefL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71d0uAZ13QL._AC_SX1024_.jpg",
@@ -9626,8 +9589,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Rubiano Side Buckle Slip-On Loafers — Black",
   "genero": "Hombre",
-  "precio": 116.77,
-  "precio_c": 4294,
+  "precio": 116.5,
+  "precio_c": 4284,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Hhg1F+ICL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71GHC0TIy7L._AC_SX1024_.jpg",
@@ -9663,8 +9626,8 @@ var ZAPATOS = [
   "marca": "Stacy Adams",
   "nombre": "Rubiano Side Buckle Slip-On Loafers — Brown",
   "genero": "Hombre",
-  "precio": 117.06,
-  "precio_c": 4305,
+  "precio": 117.04,
+  "precio_c": 4304,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Bvl7IVEpL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/814Q6b6gO3L._AC_SX1024_.jpg",
@@ -14769,8 +14732,8 @@ var ZAPATOS = [
   "marca": "Roper",
   "nombre": "Chelsea Ankle Boots",
   "genero": "Hombre",
-  "precio": 94.99,
-  "precio_c": 3493,
+  "precio": 82.24,
+  "precio_c": 3024,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/09-020-1904-3653_1l.jpg?v=1794329805",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/09-020-1904-3653_2l.jpg?v=1794329805",
@@ -17256,7 +17219,7 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Sunset Slide — Bright White/Harbor Mist Gray",
   "genero": "Hombre",
-  "precio": 59.89,
+  "precio": 59.87,
   "precio_c": 2202,
   "fotos": [
    "https://m.media-amazon.com/images/I/51ODebZd-xL._AC_SX679_.jpg",
@@ -34266,8 +34229,8 @@ var ZAPATOS = [
   "marca": "Journee Collection",
   "nombre": "Journee Collection Olina T-Strap Pump Heels — Navy Suede",
   "genero": "Mujer",
-  "precio": 64.94,
-  "precio_c": 2388,
+  "precio": 69.99,
+  "precio_c": 2574,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/2100/4797/files/OLINA-NAS_WEB1_23e2ec33-6f20-4e87-89f0-4bf2c7efb2bf.jpg?v=1779410094",
    "https://cdn.shopify.com/s/files/1/2100/4797/files/OLINA-NAS_WEB2_e4d3e36f-2ad2-40a9-b00c-b099c5b168f1.jpg?v=1779410094",
@@ -34301,8 +34264,8 @@ var ZAPATOS = [
   "marca": "Journee Collection",
   "nombre": "Journee Collection Saar II Low Pump Heels — Midnight",
   "genero": "Mujer",
-  "precio": 66.94,
-  "precio_c": 2462,
+  "precio": 69.99,
+  "precio_c": 2574,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/2100/4797/files/SAARII-MID_WEB1_deb01e67-635a-4965-8771-c2829a039656.jpg?v=1762464519",
    "https://cdn.shopify.com/s/files/1/2100/4797/files/SAARII-MID_WEB2_589f6e22-9d91-4bed-a01a-36a7513f6005.jpg?v=1762464521",
@@ -34336,8 +34299,8 @@ var ZAPATOS = [
   "marca": "Journee Collection",
   "nombre": "Journee Collection Saar II Low Pump Heels — Black Suede",
   "genero": "Mujer",
-  "precio": 66.94,
-  "precio_c": 2462,
+  "precio": 69.99,
+  "precio_c": 2574,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/2100/4797/files/SAARII-BKS_WEB1_37815c34-3dfb-4db5-97ba-5af9a63eb0d6.jpg?v=1762464519",
    "https://cdn.shopify.com/s/files/1/2100/4797/files/SAARII-BKS_WEB2_53450366-2667-487f-8d5b-08b154427ff8.jpg?v=1762464521",
@@ -34443,8 +34406,8 @@ var ZAPATOS = [
   "marca": "Clarks",
   "nombre": "Clarks Hana Loafer — Brown",
   "genero": "Mujer",
-  "precio": 83.24,
-  "precio_c": 3061,
+  "precio": 81.42,
+  "precio_c": 2994,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Olsb9GFoL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71FoBlk5reL._AC_SX1024_.jpg",
@@ -35523,8 +35486,8 @@ var ZAPATOS = [
   "marca": "Franco Sarto",
   "nombre": "Franco Sarto Sabrina Slingback Pumps — Pink",
   "genero": "Mujer",
-  "precio": 56.22,
-  "precio_c": 2067,
+  "precio": 66.94,
+  "precio_c": 2462,
   "fotos": [
    "https://m.media-amazon.com/images/I/61NHYVG1NQL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61qz6cjAn3L._AC_SX1024_.jpg",
@@ -38556,8 +38519,8 @@ var ZAPATOS = [
   "marca": "Journee",
   "nombre": "Journee Naomi Slip On Loafers — Bone",
   "genero": "Mujer",
-  "precio": 66.94,
-  "precio_c": 2462,
+  "precio": 64.99,
+  "precio_c": 2390,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/2100/4797/files/NAOMI-BNE_WEB1_748f1579-e037-4dfa-9c1b-b4ea999ccc12.jpg?v=1765314060",
    "https://cdn.shopify.com/s/files/1/2100/4797/files/NAOMI_SJ_c3ddb1b0-f2dd-43b5-bbbf-52ceb99393f3.jpg?v=1765314062",
@@ -39426,8 +39389,8 @@ var ZAPATOS = [
   "marca": "Naturalizer",
   "nombre": "Naturalizer Genevieve Slide Sandals — Silver",
   "genero": "Mujer",
-  "precio": 34.75,
-  "precio_c": 1278,
+  "precio": 39.99,
+  "precio_c": 1471,
   "fotos": [
    "https://m.media-amazon.com/images/I/71orNk+GlUL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71orNk+GlUL._SX700_.jpg",
@@ -40121,8 +40084,8 @@ var ZAPATOS = [
   "marca": "Skechers",
   "nombre": "Skechers Foamies: Arch Fit Horizon — White",
   "genero": "Mujer",
-  "precio": 48.49,
-  "precio_c": 1783,
+  "precio": 10.0,
+  "precio_c": 368,
   "fotos": [
    "https://images.skechers.com/image;width=auto%2Cformat=auto/243330_WHT_HERO_LG",
    "https://images.skechers.com/image;width=auto%2Cformat=auto/243330_WHT_INSOLE",
@@ -43594,8 +43557,8 @@ var ZAPATOS = [
   "marca": "On",
   "nombre": "On Cloud Dash (Toddler) — Black/White",
   "genero": "Niños",
-  "precio": 80.0,
-  "precio_c": 2942,
+  "precio": 79.95,
+  "precio_c": 2940,
   "fotos": [
    "https://m.media-amazon.com/images/I/71LhqqoSewL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71ruKntFJFL._SX700_.jpg",
@@ -43964,8 +43927,8 @@ var ZAPATOS = [
   "marca": "On",
   "nombre": "On Cloud Leap (Little Kid) — Black/Eclipse",
   "genero": "Niños",
-  "precio": 100.0,
-  "precio_c": 3677,
+  "precio": 99.95,
+  "precio_c": 3676,
   "fotos": [
    "https://m.media-amazon.com/images/I/71htcBI65uL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71KvZKRpo7L._SX700_.jpg",
@@ -44370,8 +44333,8 @@ var ZAPATOS = [
   "marca": "On",
   "nombre": "On Cloudhero Waterproof (Little Kid) — Eclipse/Pearl",
   "genero": "Niños",
-  "precio": 120.0,
-  "precio_c": 4413,
+  "precio": 119.95,
+  "precio_c": 4411,
   "fotos": [
    "https://m.media-amazon.com/images/I/61Bj3mlewiL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71i0kSHClJL._SX700_.jpg",
@@ -44463,8 +44426,8 @@ var ZAPATOS = [
   "marca": "On",
   "nombre": "On Cloudnova Kids (Little Kid) — Peony/Iceberg",
   "genero": "Niños",
-  "precio": 130.0,
-  "precio_c": 4781,
+  "precio": 129.95,
+  "precio_c": 4779,
   "fotos": [
    "https://m.media-amazon.com/images/I/710eYyyUvWL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71xPcJ4tQ3L._SX700_.jpg",
@@ -48324,8 +48287,8 @@ var ZAPATOS = [
   "marca": "Merrell",
   "nombre": "Merrell Jungle Moc Leather (Toddler/Little Kid/Big Kid) — Gunsmoke",
   "genero": "Niños",
-  "precio": 50.76,
-  "precio_c": 1867,
+  "precio": 52.09,
+  "precio_c": 1916,
   "fotos": [
    "https://m.media-amazon.com/images/I/71EyozK8zXL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71dkYSWXJmL._SX700_.jpg",
@@ -49871,8 +49834,8 @@ var ZAPATOS = [
   "marca": "On",
   "nombre": "On The Roger (Little Kid) — Glacier/Rock",
   "genero": "Niños",
-  "precio": 110.0,
-  "precio_c": 4045,
+  "precio": 109.95,
+  "precio_c": 4043,
   "fotos": [
    "https://m.media-amazon.com/images/I/71Vwpf1ruDL._SX700_.jpg",
    "https://m.media-amazon.com/images/I/71NbLxg1O0L._SX700_.jpg",
@@ -70236,36 +70199,6 @@ var ZAPATOS = [
   "subcat": "niña"
  },
  {
-  "codigo": "DOM-18578",
-  "marca": "Skechers",
-  "nombre": "Heart Steps - Toddler",
-  "genero": "Niños",
-  "precio": 39.96,
-  "precio_c": 1469,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_1.jpg?v=1755127001",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_2.jpg?v=1755127001",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_3.jpg?v=1755127001",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/314621NPKMT_4.jpg?v=1755127001"
-  ],
-  "descripcion": "Sneaker casual para niña de Skechers, cómodo para todos los días y fácil de combinar con cualquier outfit.",
-  "detalles": [
-   "Parte superior resistente de uso diario",
-   "Cierre de cordones para un ajuste seguro",
-   "Suela de goma con buen agarre",
-   "Tallas de niña (toddler a big kid)"
-  ],
-  "tallas": [
-   "5C",
-   "6C",
-   "8C",
-   "9C",
-   "10C"
-  ],
-  "categoria": "Casuales",
-  "subcat": "niña"
- },
- {
   "codigo": "DOM-18579",
   "marca": "Starter",
   "nombre": "Fast Break Low X - Kids — White",
@@ -70292,38 +70225,6 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ],
-  "categoria": "Casuales",
-  "subcat": "niña"
- },
- {
-  "codigo": "DOM-18580",
-  "marca": "Vans",
-  "nombre": "Old Skool V - Toddler",
-  "genero": "Niños",
-  "precio": 44.96,
-  "precio_c": 1653,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_1.jpg?v=1762357181",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_2.jpg?v=1762357181",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_3.jpg?v=1762357181",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/VN000CTG7VF_4.jpg?v=1762357181"
-  ],
-  "descripcion": "Sneaker casual para niña de Vans, cómodo para todos los días y fácil de combinar con cualquier outfit.",
-  "detalles": [
-   "Parte superior resistente de uso diario",
-   "Cierre de velcro para un ajuste seguro",
-   "Suela de goma con buen agarre",
-   "Tallas de niña (toddler a big kid)"
-  ],
-  "tallas": [
-   "4C",
-   "5C",
-   "6C",
-   "7C",
-   "8C",
-   "9C",
-   "10C"
   ],
   "categoria": "Casuales",
   "subcat": "niña"
@@ -70971,39 +70872,6 @@ var ZAPATOS = [
    "11C",
    "12C",
    "13C"
-  ],
-  "categoria": "Casuales",
-  "subcat": "niña"
- },
- {
-  "codigo": "DOM-18602",
-  "marca": "Nike",
-  "nombre": "Court Borough Mid 2 - Youth — Platinum Tint",
-  "genero": "Niños",
-  "precio": 69.96,
-  "precio_c": 2573,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_1.jpg?v=1761250463",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_2.jpg?v=1761250463",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_3.jpg?v=1761250463",
-   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/CD7782014_4.jpg?v=1761250464"
-  ],
-  "descripcion": "Sneaker casual para niña de Nike, cómodo para todos los días y fácil de combinar con cualquier outfit.",
-  "detalles": [
-   "Parte superior resistente de uso diario",
-   "Cierre de cordones para un ajuste seguro",
-   "Suela de goma con buen agarre",
-   "Tallas de niña (toddler a big kid)"
-  ],
-  "tallas": [
-   "3.5Y",
-   "4Y",
-   "4.5Y",
-   "5Y",
-   "5.5Y",
-   "6Y",
-   "6.5Y",
-   "7Y"
   ],
   "categoria": "Casuales",
   "subcat": "niña"
@@ -79110,5 +78978,128 @@ var ZAPATOS = [
    "14"
   ],
   "categoria": "Formales"
+ },
+ {
+  "codigo": "DOM-18827",
+  "marca": "PUMA",
+  "nombre": "PUMA Rocket Fuel Lite Running Shoes — Black",
+  "genero": "Hombre",
+  "precio": 39.95,
+  "precio_c": 1469,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_1l.jpg?v=1792742394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_2l.jpg?v=1792742394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_3l.jpg?v=1792742394",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/31067704_4l.jpg?v=1792742394"
+  ],
+  "descripcion": "Zapatos de running para hombre de PUMA, ligeros y cómodos para entrenar o moverte a diario, en color negro fácil de combinar.",
+  "detalles": [
+   "Parte superior ligera y transpirable",
+   "Amortiguación cómoda para correr a diario",
+   "Suela de goma con buen agarre",
+   "Cierre de cordones para un ajuste seguro"
+  ],
+  "tallas": [
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "12",
+   "13"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-18828",
+  "marca": "PUMA",
+  "nombre": "PUMA Bella Donna Lace Up Sneakers (Youth) — Pink",
+  "genero": "Niños",
+  "precio": 29.95,
+  "precio_c": 1101,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40390704_1l.jpg?v=1777699914",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40390704_2l.jpg?v=1777699914",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40390704_3l.jpg?v=1777699914",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/40390704_4l.jpg?v=1777699914"
+  ],
+  "descripcion": "Sneaker casual para niña de PUMA en tono rosa, cómodo para todos los días y fácil de combinar con cualquier outfit.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (big kid)"
+  ],
+  "tallas": [
+   "4",
+   "4.5",
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18829",
+  "marca": "LEE",
+  "nombre": "LEE Rosie - Kids — White / Silver / Rose",
+  "genero": "Niños",
+  "precio": 39.98,
+  "precio_c": 1470,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000341153_1.jpg?v=1786053864",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000341153_3.jpg?v=1786053865",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000341153_4.jpg?v=1786053865",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/GP000341153_5.jpg?v=1786053865"
+  ],
+  "descripcion": "Sneaker casual para niña de LEE en blanco con detalles plateados y rosa, cómodo para todos los días y fácil de combinar.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (little kid)"
+  ],
+  "tallas": [
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-18830",
+  "marca": "STARTER",
+  "nombre": "STARTER Fast Break Low X Lace - Kids — White / Blush / Gum",
+  "genero": "Niños",
+  "precio": 35.97,
+  "precio_c": 1323,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010393_1.jpg?v=1780609765",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010393_2.jpg?v=1780609764",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010393_3.jpg?v=1780609765",
+   "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/45010393_4.jpg?v=1780609764"
+  ],
+  "descripcion": "Sneaker casual de corte bajo para niña de STARTER en blanco con detalles rosa y suela gum, cómodo para la escuela y el fin de semana.",
+  "detalles": [
+   "Parte superior resistente de uso diario",
+   "Cierre de cordones para un ajuste seguro",
+   "Suela de goma con buen agarre",
+   "Tallas de niña (little kid)"
+  ],
+  "tallas": [
+   "11",
+   "12",
+   "13",
+   "1",
+   "2",
+   "3"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niña"
  }
 ];

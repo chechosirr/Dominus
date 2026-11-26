@@ -28429,6 +28429,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Nike Initiator — White / Metallic Silver / Photon Dust"
  },
  {
+  "codigo": "DOM-16379",
+  "nombre": "adidas Men SUPERNOVA GLIDE RUNNING SHOES"
+ },
+ {
   "codigo": "DOM-1638",
   "nombre": "Nike Initiator — Light Orewood Brown / Sail / Phantom"
  },
@@ -29877,8 +29881,16 @@ var ZAP_HISTORIAL = [
   "nombre": "Bella Vita Arcadia Round Toe Zippered Booties"
  },
  {
+  "codigo": "DOM-18578",
+  "nombre": "Heart Steps - Toddler"
+ },
+ {
   "codigo": "DOM-1858",
   "nombre": "Bella Vita Rima Round Toe Zippered Boots"
+ },
+ {
+  "codigo": "DOM-18580",
+  "nombre": "Old Skool V - Toddler"
  },
  {
   "codigo": "DOM-1859",
@@ -29891,6 +29903,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1860",
   "nombre": "Ariat Southlite Chelsea Narrow Cutter Toe Western Boots"
+ },
+ {
+  "codigo": "DOM-18602",
+  "nombre": "Court Borough Mid 2 - Youth — Platinum Tint"
  },
  {
   "codigo": "DOM-1861",
