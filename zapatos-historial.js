@@ -39781,6 +39781,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Sonic Clog - Toddler"
  },
  {
+  "codigo": "DOM-19333",
+  "nombre": "Birkenstock Boston EVA - Eggshell"
+ },
+ {
   "codigo": "DOM-1934",
   "nombre": "Sonic High Top - Toddler"
  },
@@ -40067,6 +40071,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-1998",
   "nombre": "Air Jordan 11 Retro Low University Blue Preschool Lifestyle Shoes (White/University Blue/Black) Free Shipping"
+ },
+ {
+  "codigo": "DOM-19986",
+  "nombre": "Public Desire UK Juicy Green Terry Towelling Slider Slippers"
  },
  {
   "codigo": "DOM-1999",
