@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de noviembre de 2026";
+var ZAP_VERIFICADO = "26 de octubre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -11365,8 +11365,8 @@ var ZAPATOS = [
   "marca": "Johnston & Murphy",
   "nombre": "Johnston & Murphy Larkin Plain Toe — Black Italian Calfskin",
   "genero": "Hombre",
-  "precio": 87.5,
-  "precio_c": 3218,
+  "precio": 79.75,
+  "precio_c": 2933,
   "fotos": [
    "https://m.media-amazon.com/images/I/61MLX3Fz-DL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/717VvbubP7L._AC_SX1024_.jpg",
@@ -31863,31 +31863,6 @@ var ZAPATOS = [
   "categoria": "Botines"
  },
  {
-  "codigo": "DOM-19746",
-  "marca": "Public Desire UK",
-  "nombre": "Public Desire UK Gia Black Box PU Square Toe Block Heel Knee High Boots",
-  "genero": "Mujer",
-  "precio": 54.94,
-  "precio_c": 2020,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/771A9955.jpg?v=1695990376",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/files/DSC00827.1.jpg?v=1695990376",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/771A9957.jpg?v=1695640767",
-   "https://cdn.shopify.com/s/files/1/0270/6584/3821/products/771A9954.jpg?v=1695640767"
-  ],
-  "descripcion": "Botín de mujer con tacón de bloque, de silueta femenina y pisada estable. Botín de mujer con silueta femenina y buen soporte, ideal para el frío y para salir con estilo.",
-  "detalles": [
-   "Material sintético de buen acabado",
-   "Tacón de bloque estable",
-   "Caña con buen soporte y pisada estable",
-   "Diseño versátil para combinar con jeans, vestidos y faldas"
-  ],
-  "tallas": [
-   "UK 4 / EU 37 / US 6"
-  ],
-  "categoria": "Botines"
- },
- {
   "codigo": "DOM-19747",
   "marca": "Windsor",
   "nombre": "Windsor City Rebel Energy Quad Buckle Block Heel Boots",
@@ -50371,32 +50346,6 @@ var ZAPATOS = [
   "subcat": "niño"
  },
  {
-  "codigo": "DOM-20348",
-  "marca": "New Balance",
-  "nombre": "New Balance 9060 Lace (GS) - Vintage Indigo/Apollo Gold",
-  "genero": "Niños",
-  "precio": 135.0,
-  "precio_c": 4964,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0408/9909/files/9060-Lace-_GS_---Vintage-Indigo-Apollo-Gold-G90601YR---01-30-26---Feature--RV-5-GRAYBG_0f7de2c3-a91e-4fd1-92ec-5103a75bdb9d.jpg?v=1788237844",
-   "https://cdn.shopify.com/s/files/1/0408/9909/files/9060-Lace-_GS_---Vintage-Indigo-Apollo-Gold-G90601YR---01-30-26---Feature--RV-7-GRAYBG_7d88ae17-d9b8-42e3-98d7-d6f061d50a1f.jpg?v=1788237844",
-   "https://cdn.shopify.com/s/files/1/0408/9909/files/9060-Lace-_GS_---Vintage-Indigo-Apollo-Gold-G90601YR---01-30-26---Feature--RV-6-GRAYBG_8fe3f2b8-0382-49ce-b17b-c4f432e1e806.jpg?v=1788237843",
-   "https://cdn.shopify.com/s/files/1/0408/9909/files/9060-Lace-_GS_---Vintage-Indigo-Apollo-Gold-G90601YR---01-30-26---Feature--RV-8-GRAYBG_98d66a74-78b4-4ca0-ad06-731b1207832d.jpg?v=1788237843"
-  ],
-  "descripcion": "New Balance 9060 Lace (GS) - Vintage Indigo/Apollo Gold: zapato de niño con acabado de fiesta, ideal para eventos, celebraciones y looks formales con brillo.",
-  "detalles": [
-   "Material resistente pensado para el uso diario infantil",
-   "Cierre seguro y ajuste cómodo para pies en crecimiento",
-   "Suela con buen agarre para jugar y caminar",
-   "Construcción ligera y flexible"
-  ],
-  "tallas": [
-   "Blue / 6.5Y"
-  ],
-  "categoria": "Elegantes",
-  "subcat": "niño"
- },
- {
   "codigo": "DOM-20349",
   "marca": "Quiksilver",
   "nombre": "Quiksilver Mash Up Youth Bib (big Kid)",
@@ -56379,48 +56328,6 @@ var ZAPATOS = [
    "https://cdn.shopify.com/s/files/1/0069/3442/9751/files/2BDNY6350SND_2.jpg?v=1792534613"
   ],
   "descripcion": "CHARACTER Coco Miguel Live Tee - Youth: tenis casual para niño, cómodo y versátil para la escuela, el juego y el uso diario.",
-  "detalles": [
-   "Material resistente pensado para el uso diario infantil",
-   "Cierre seguro y ajuste cómodo para pies en crecimiento",
-   "Suela con buen agarre para jugar y caminar",
-   "Construcción ligera y flexible"
-  ],
-  "tallas": [
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "12.5",
-   "13",
-   "13.5",
-   "1",
-   "1.5",
-   "2",
-   "2.5",
-   "3",
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7"
-  ],
-  "categoria": "Casuales",
-  "subcat": "niño"
- },
- {
-  "codigo": "DOM-20491",
-  "marca": "BBC",
-  "nombre": "BBC Billionaire Boys Club Drawstring Bag in Black",
-  "genero": "Niños",
-  "precio": 30.0,
-  "precio_c": 1103,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0187/5180/files/ONENESS_0000_Layer1.jpg?v=1789659515"
-  ],
-  "descripcion": "BBC Billionaire Boys Club Drawstring Bag in Black: tenis casual para niño, cómodo y versátil para la escuela, el juego y el uso diario.",
   "detalles": [
    "Material resistente pensado para el uso diario infantil",
    "Cierre seguro y ajuste cómodo para pies en crecimiento",
@@ -66192,8 +66099,8 @@ var ZAPATOS = [
   "marca": "Naturino",
   "nombre": "Naturino Darling (Toddler/Little Kid) — Silver",
   "genero": "Niños",
-  "precio": 91.95,
-  "precio_c": 3381,
+  "precio": 89.75,
+  "precio_c": 3300,
   "fotos": [
    "https://m.media-amazon.com/images/I/81ZHA4TgXOL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81ZHA4TgXOL._AC_SX1024_.jpg",
@@ -68118,8 +68025,8 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Prodigy Driver Print (Toddler/Little Kid) — White",
   "genero": "Niños",
-  "precio": 41.82,
-  "precio_c": 1538,
+  "precio": 41.76,
+  "precio_c": 1536,
   "fotos": [
    "https://m.media-amazon.com/images/I/616DwTOzKfL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/616DwTOzKfL._AC_SX1024_.jpg",
@@ -73790,8 +73697,8 @@ var ZAPATOS = [
   "marca": "Crocs",
   "nombre": "Crocs Classic Cozzzy Slippers (Little Kid/Big Kid) — Khaki",
   "genero": "Niños",
-  "precio": 35.04,
-  "precio_c": 1289,
+  "precio": 34.97,
+  "precio_c": 1286,
   "fotos": [
    "https://m.media-amazon.com/images/I/61hQZ6RMumL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/61hQZ6RMumL._AC_SX1024_.jpg",
@@ -78477,7 +78384,7 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Prodigy Driver Patent (Big Kid) — Negro charol",
   "genero": "Niños",
-  "precio": 69.6,
+  "precio": 69.58,
   "precio_c": 2559,
   "fotos": [
    "https://m.media-amazon.com/images/I/718hQFxrtwL._AC_SX700_.jpg"
@@ -80620,5 +80527,98 @@ var ZAPATOS = [
    "11"
   ],
   "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-21251",
+  "marca": "Diadora",
+  "nombre": "Diadora Frequenza Running Shoe — White",
+  "genero": "Mujer",
+  "precio": 34.95,
+  "precio_c": 1285,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180249-C8990_1l.jpg?v=1793572727",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180249-C8990_2l.jpg?v=1793572727",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180249-C8990_3l.jpg?v=1793572727",
+   "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/180249-C8990_4l.jpg?v=1793572727"
+  ],
+  "descripcion": "Diadora Frequenza Running Shoe — White: tenis de running para mujer, ligero y con buena amortiguación para entrenar y caminar a diario.",
+  "detalles": [
+   "Malla transpirable y ligera",
+   "Amortiguación pensada para running diario",
+   "Suela con buen agarre",
+   "Diseño versátil en blanco"
+  ],
+  "tallas": [
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11"
+  ],
+  "categoria": "Deportivos"
+ },
+ {
+  "codigo": "DOM-21252",
+  "marca": "Saucony",
+  "nombre": "Saucony Velocer A/C Sneaker (Little Kid/Big Kid) — Blue/Turquoise/Pink",
+  "genero": "Niños",
+  "precio": 40.45,
+  "precio_c": 1488,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/712JYuQFkkL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/61sERRgsjaL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71YkqoqMUUL._AC_SX1024_.jpg",
+   "https://m.media-amazon.com/images/I/71dQay4YqKL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Saucony Velocer A/C Sneaker (Little Kid/Big Kid) — Blue/Turquoise/Pink: tenis deportivo infantil con cierre alternativo, cómodo y resistente para la escuela y el juego.",
+  "detalles": [
+   "Material resistente pensado para el uso diario infantil",
+   "Cierre alternativo seguro y ajuste cómodo",
+   "Suela con buen agarre para jugar y caminar",
+   "Construcción ligera y flexible"
+  ],
+  "tallas": [
+   "11 Little Kid",
+   "12 Little Kid",
+   "13 Little Kid",
+   "1 Little Kid",
+   "3 Little Kid"
+  ],
+  "categoria": "Deportivos",
+  "subcat": "niña"
+ },
+ {
+  "codigo": "DOM-21254",
+  "marca": "Josmo",
+  "nombre": "Josmo Star Wars Grogu Sneaker (Toddler/Little Kid) — Brown/Green",
+  "genero": "Niños",
+  "precio": 40.76,
+  "precio_c": 1499,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81xe9+C1UJL._AC_SX1024_.jpg"
+  ],
+  "descripcion": "Josmo Star Wars Grogu Sneaker (Toddler/Little Kid) — Brown/Green: tenis infantil con motivo de Grogu (Star Wars), cierre elástico y tira de velcro, cómodo para el uso diario.",
+  "detalles": [
+   "Material sintético resistente pensado para el uso diario infantil",
+   "Cordones elásticos y tira de velcro de ajuste seguro",
+   "Suela con buen agarre para jugar y caminar",
+   "Construcción ligera y flexible"
+  ],
+  "tallas": [
+   "6 Toddler",
+   "7 Toddler",
+   "8 Toddler",
+   "9 Toddler",
+   "10 Toddler",
+   "11 Little Kid"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  }
 ];

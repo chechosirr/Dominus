@@ -39961,6 +39961,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Jordan Air Jordan 1 Low Pre-School"
  },
  {
+  "codigo": "DOM-19746",
+  "nombre": "Public Desire UK Gia Black Box PU Square Toe Block Heel Knee High Boots"
+ },
+ {
   "codigo": "DOM-1975",
   "nombre": "Handball Spezial Preschool Lifestyle Shoes (Earth Strata/Off White/Gum)"
  },
@@ -40225,6 +40229,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Puma Tacto II CP FG/AG (Big Kid) — Puma Red/Puma Black"
  },
  {
+  "codigo": "DOM-20348",
+  "nombre": "New Balance 9060 Lace (GS) - Vintage Indigo/Apollo Gold"
+ },
+ {
   "codigo": "DOM-2035",
   "nombre": "Puma Shibui Cat (Big Kid) — Negro"
  },
@@ -40287,6 +40295,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-2049",
   "nombre": "Reebok Energen Lux (Big Kid) — Negro/Blanco"
+ },
+ {
+  "codigo": "DOM-20491",
+  "nombre": "BBC Billionaire Boys Club Drawstring Bag in Black"
  },
  {
   "codigo": "DOM-205",
