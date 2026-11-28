@@ -6,7 +6,7 @@ var ZAP_TC = 36.774;
 var ZAP_ENVIO_STD = 15.0;
 var ZAP_ENVIO_PRIO = 25.0;
 var ZAP_ENVIO_USA = 4.99;
-var ZAP_VERIFICADO = "26 de octubre de 2026";
+var ZAP_VERIFICADO = "28 de noviembre de 2026";
 var ZAP_WA = "15704698339";
 var ZAPATOS = [
  {
@@ -22961,8 +22961,8 @@ var ZAPATOS = [
   "marca": "Anthony Veer",
   "nombre": "Anthony Veer Belmont Penny Loafers — Velvet Noir Black Suede",
   "genero": "Hombre",
-  "precio": 256.75,
-  "precio_c": 9442,
+  "precio": 232.99,
+  "precio_c": 8568,
   "fotos": [
    "https://m.media-amazon.com/images/I/71vBz0SPRwL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/71pfXA4MU9L._AC_SX1024_.jpg",
@@ -24340,8 +24340,8 @@ var ZAPATOS = [
   "marca": "Avia",
   "nombre": "Avi Coast 2.0 Walking Shoe — Medium",
   "genero": "Mujer",
-  "precio": 24.95,
-  "precio_c": 918,
+  "precio": 24.87,
+  "precio_c": 915,
   "fotos": [
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50057W-WSK_3l.jpg?v=1788467336",
    "https://cdn.shopify.com/s/files/1/0753/7914/7034/files/AA50057W-WSK_4l.jpg?v=1788467338"
@@ -48844,32 +48844,6 @@ var ZAPATOS = [
   "subcat": "niño"
  },
  {
-  "codigo": "DOM-20302",
-  "marca": "Jordan Brand",
-  "nombre": "Jordan Brand Jordan 1 Mid SE (PS) - White/Field Silver",
-  "genero": "Niños",
-  "precio": 64.0,
-  "precio_c": 2354,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IR2317-100_PHSLH000-2000.jpg?v=1776976695",
-   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IR2317-100_PHCFH001-2000.jpg?v=1776976695",
-   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IR2317-100_PHSRH001-2000.jpg?v=1776976695",
-   "https://cdn.shopify.com/s/files/1/0214/7974/files/AURORA_IR2317-100_PHCTH001-2000.jpg?v=1776976695"
-  ],
-  "descripcion": "Jordan Brand Jordan 1 Mid SE (PS) - White/Field Silver: zapato de niño con acabado de fiesta, ideal para eventos, celebraciones y looks formales con brillo.",
-  "detalles": [
-   "Material resistente pensado para el uso diario infantil",
-   "Cierre seguro y ajuste cómodo para pies en crecimiento",
-   "Suela con buen agarre para jugar y caminar",
-   "Construcción ligera y flexible"
-  ],
-  "tallas": [
-   "3Y"
-  ],
-  "categoria": "Elegantes",
-  "subcat": "niño"
- },
- {
   "codigo": "DOM-20303",
   "marca": "PUMA",
   "nombre": "PUMA Carina Street Sparkle Gradient Slip On Sneakers (Youth)",
@@ -57796,51 +57770,6 @@ var ZAPATOS = [
   "subcat": "niño"
  },
  {
-  "codigo": "DOM-20536",
-  "marca": "Billionaire Boys Club",
-  "nombre": "Billionaire Boys Club BBC Helmet Hoodie (Black)",
-  "genero": "Niños",
-  "precio": 102.5,
-  "precio_c": 3769,
-  "fotos": [
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/BBCHelmetHoodie_Black_1.jpg?v=1749670271",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/BBCHelmetHoodie_Black_2.jpg?v=1749670271",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/BBCHelmetHoodie_Black_3.jpg?v=1749670271",
-   "https://cdn.shopify.com/s/files/1/0208/4764/files/BBCHelmetHoodie_Black_4.jpg?v=1749670271"
-  ],
-  "descripcion": "Billionaire Boys Club BBC Helmet Hoodie (Black): tenis casual para niño, cómodo y versátil para la escuela, el juego y el uso diario.",
-  "detalles": [
-   "Material resistente pensado para el uso diario infantil",
-   "Cierre seguro y ajuste cómodo para pies en crecimiento",
-   "Suela con buen agarre para jugar y caminar",
-   "Construcción ligera y flexible"
-  ],
-  "tallas": [
-   "10.5",
-   "11",
-   "11.5",
-   "12",
-   "12.5",
-   "13",
-   "13.5",
-   "1",
-   "1.5",
-   "2",
-   "2.5",
-   "3",
-   "3.5",
-   "4",
-   "4.5",
-   "5",
-   "5.5",
-   "6",
-   "6.5",
-   "7"
-  ],
-  "categoria": "Casuales",
-  "subcat": "niño"
- },
- {
   "codigo": "DOM-20537",
   "marca": "NIKE",
   "nombre": "NIKE TD LITTLE MAX '95 - BLACK/PINK FOAM/ WHITE",
@@ -64821,7 +64750,7 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Prodigy Driver Patent (Toddler/Little Kid) — Black",
   "genero": "Niños",
-  "precio": 54.78,
+  "precio": 54.76,
   "precio_c": 2014,
   "fotos": [
    "https://m.media-amazon.com/images/I/718hQFxrtwL._AC_SX1024_.jpg",
@@ -66050,8 +65979,8 @@ var ZAPATOS = [
   "marca": "Naturino",
   "nombre": "Naturino Darling (Toddler/Little Kid) — Silver",
   "genero": "Niños",
-  "precio": 85.43,
-  "precio_c": 3142,
+  "precio": 91.95,
+  "precio_c": 3381,
   "fotos": [
    "https://m.media-amazon.com/images/I/81ZHA4TgXOL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/81ZHA4TgXOL._AC_SX1024_.jpg",
@@ -67976,8 +67905,8 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Prodigy Driver Print (Toddler/Little Kid) — White",
   "genero": "Niños",
-  "precio": 41.7,
-  "precio_c": 1533,
+  "precio": 41.64,
+  "precio_c": 1531,
   "fotos": [
    "https://m.media-amazon.com/images/I/616DwTOzKfL._AC_SX1024_.jpg",
    "https://m.media-amazon.com/images/I/616DwTOzKfL._AC_SX1024_.jpg",
@@ -78335,8 +78264,8 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Prodigy Driver Patent (Big Kid) — Negro charol",
   "genero": "Niños",
-  "precio": 69.5,
-  "precio_c": 2556,
+  "precio": 69.46,
+  "precio_c": 2554,
   "fotos": [
    "https://m.media-amazon.com/images/I/718hQFxrtwL._AC_SX700_.jpg"
   ],
@@ -78395,7 +78324,7 @@ var ZAPATOS = [
   "marca": "Floafers",
   "nombre": "Floafers Prodigy Driver Patent (Toddler/Little Kid) — Negro charol",
   "genero": "Niños",
-  "precio": 54.78,
+  "precio": 54.76,
   "precio_c": 2014,
   "fotos": [
    "https://m.media-amazon.com/images/I/718hQFxrtwL._AC_SX700_.jpg"
@@ -80632,5 +80561,67 @@ var ZAPATOS = [
    "EU 42 (US Women's 11-11.5)"
   ],
   "categoria": "Chanclas"
+ },
+ {
+  "codigo": "DOM-21257",
+  "marca": "New Balance",
+  "nombre": "New Balance 740 Bungee Lace (Infant/Toddler) — Dark Silver Metallic / Fan Blue",
+  "genero": "Niños",
+  "precio": 41.49,
+  "precio_c": 1526,
+  "fotos": [
+   "https://m.media-amazon.com/images/I/81p-OfuTblL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71qChDLsyVL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/71ficafqlnL._SX700_.jpg",
+   "https://m.media-amazon.com/images/I/813CJGZOoNL._SX700_.jpg"
+  ],
+  "descripcion": "New Balance 740 Bungee Lace (Infant/Toddler) — Dark Silver Metallic / Fan Blue: zapato de niño con acabado metálico de fiesta, ideal para eventos, celebraciones y looks formales con brillo.",
+  "detalles": [
+   "Material resistente pensado para el uso diario infantil",
+   "Cierre seguro y ajuste cómodo para pies en crecimiento",
+   "Suela con buen agarre para jugar y caminar",
+   "Construcción ligera y flexible"
+  ],
+  "tallas": [
+   "2",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "categoria": "Elegantes",
+  "subcat": "niño"
+ },
+ {
+  "codigo": "DOM-21258",
+  "marca": "JORDAN",
+  "nombre": "Air Jordan 4 Retro 'Bred' Grade-School — Black",
+  "genero": "Niños",
+  "precio": 182.95,
+  "precio_c": 6728,
+  "fotos": [
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX4857_20001_GS087.jpg?v=1793634245",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX4857_20001_GS089.jpg?v=1793634245",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX4857_20001_GS091.jpg?v=1793634245",
+   "https://cdn.shopify.com/s/files/1/0095/4420/4367/files/jordan_IX4857_20001_GS088.jpg?v=1793634245"
+  ],
+  "descripcion": "Air Jordan 4 Retro 'Bred' Grade-School — Black: tenis casual para niño, cómodo y versátil para la escuela, el juego y el uso diario.",
+  "detalles": [
+   "Material resistente pensado para el uso diario infantil",
+   "Cierre seguro y ajuste cómodo para pies en crecimiento",
+   "Suela con buen agarre para jugar y caminar",
+   "Construcción ligera y flexible"
+  ],
+  "tallas": [
+   "4",
+   "5",
+   "5.5",
+   "6"
+  ],
+  "categoria": "Casuales",
+  "subcat": "niño"
  }
 ];

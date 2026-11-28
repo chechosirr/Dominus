@@ -40221,6 +40221,10 @@ var ZAP_HISTORIAL = [
   "nombre": "Puma Coolcat 2.0 (Big Kid) — Rosa/Blanco"
  },
  {
+  "codigo": "DOM-20302",
+  "nombre": "Jordan Brand Jordan 1 Mid SE (PS) - White/Field Silver"
+ },
+ {
   "codigo": "DOM-2031",
   "nombre": "Puma Attacanto Turf Training Soccer Cleats (Little Kid/Big Kid) — Negro/Glowing Red"
  },
@@ -40327,6 +40331,10 @@ var ZAP_HISTORIAL = [
  {
   "codigo": "DOM-2053",
   "nombre": "Skechers Wave 92 303557L (Little Kid/Big Kid) — Hot Pink"
+ },
+ {
+  "codigo": "DOM-20536",
+  "nombre": "Billionaire Boys Club BBC Helmet Hoodie (Black)"
  },
  {
   "codigo": "DOM-2054",
